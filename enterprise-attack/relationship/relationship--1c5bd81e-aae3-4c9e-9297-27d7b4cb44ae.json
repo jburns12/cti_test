@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--b134d28a-6d8d-4719-982a-a015b3252cfb",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "relationship",
+            "id": "relationship--1c5bd81e-aae3-4c9e-9297-27d7b4cb44ae",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-04-26T15:31:49.970Z",
+            "modified": "2018-04-26T15:31:49.970Z",
+            "description": "Dark Caracal has obfuscated strings in Bandook by base64 encoding, and then encrypting them. (Citation: Lookout Dark Caracal Jan 2018)",
+            "external_references": [
+                {
+                    "url": "https://info.lookout.com/rs/051-ESQ-475/images/Lookout%20Dark-Caracal%20srr%2020180118%20us%20v.1.0.pdf",
+                    "description": "Blaich, A., et al. (2018, January 18). Dark Caracal: Cyber-espionage at a Global Scale. Retrieved April 11, 2018.",
+                    "source_name": "Lookout Dark Caracal Jan 2018"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "source_ref": "intrusion-set--bae13f8b-112d-47c5-b08f-a7016f70f547",
+            "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a"
+        }
+    ]
+}

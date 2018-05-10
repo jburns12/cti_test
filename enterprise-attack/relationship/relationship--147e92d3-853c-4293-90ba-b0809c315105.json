@@ -1,0 +1,20 @@
+{
+    "type": "bundle",
+    "id": "bundle--2120ad70-ba31-4abf-af9e-568b614f58dd",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "relationship",
+            "id": "relationship--147e92d3-853c-4293-90ba-b0809c315105",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-04-26T15:31:49.970Z",
+            "modified": "2018-04-26T15:31:49.970Z",
+            "description": "CrossRAT creates a Launch Agent on macOS.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "source_ref": "malware--48b2cecc-e238-4f37-9ad5-283e39f8d886",
+            "target_ref": "attack-pattern--dd901512-6e37-4155-943b-453e3777b125"
+        }
+    ]
+}
