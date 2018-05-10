@@ -1,33 +1,32 @@
 {
+    "type": "bundle",
+    "id": "bundle--63ea4547-5eff-4aa6-9ccb-292959f804f9",
+    "spec_version": "2.0",
     "objects": [
         {
-            "created": "2017-12-14T16:46:06.044Z",
+            "type": "relationship",
+            "id": "relationship--512879fe-8433-4c78-9345-009ed5168078",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-04-26T15:31:49.970Z",
+            "description": "netsh can be used to disable local firewall settings. (Citation: TechNet Netsh Firewall)",
+            "external_references": [
+                {
+                    "url": "https://technet.microsoft.com/library/bb490939.aspx",
+                    "description": "Microsoft. (n.d.). Using Netsh. Retrieved February 13, 2017.",
+                    "source_name": "TechNet Netsh"
+                },
+                {
+                    "url": "https://technet.microsoft.com/en-us/library/cc771046(v=ws.10).aspx",
+                    "description": "Microsoft. (2009, June 3). Netsh Commands for Windows Firewall. Retrieved April 20, 2016.",
+                    "source_name": "TechNet Netsh Firewall"
+                }
+            ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "description": "netsh can be used to disable local firewall settings.",
-            "external_references": [
-                {
-                    "description": "Microsoft. (n.d.). Using Netsh. Retrieved February 13, 2017.",
-                    "source_name": "TechNet Netsh",
-                    "url": "https://technet.microsoft.com/library/bb490939.aspx"
-                },
-                {
-                    "description": "Microsoft. (2009, June 3). Netsh Commands for Windows Firewall. Retrieved April 20, 2016.",
-                    "source_name": "TechNet Netsh Firewall",
-                    "url": "https://technet.microsoft.com/en-us/library/cc771046(v=ws.10).aspx"
-                }
-            ],
-            "id": "relationship--512879fe-8433-4c78-9345-009ed5168078",
-            "modified": "2018-01-17T12:56:55.080Z",
             "source_ref": "tool--5a63f900-5e7e-4928-a746-dd4558e1df71",
-            "relationship_type": "uses",
-            "target_ref": "attack-pattern--2e0dd10b-676d-4964-acd0-8a404c92b044",
-            "type": "relationship"
+            "target_ref": "attack-pattern--2e0dd10b-676d-4964-acd0-8a404c92b044"
         }
-    ],
-    "type": "bundle",
-    "id": "bundle--5e5205de-24cd-44ba-9c61-96d8bad7a3f5",
-    "spec_version": "2.0"
+    ]
 }

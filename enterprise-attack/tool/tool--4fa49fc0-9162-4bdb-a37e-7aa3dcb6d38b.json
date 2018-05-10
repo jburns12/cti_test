@@ -1,37 +1,40 @@
 {
+    "type": "bundle",
+    "id": "bundle--4847a642-f7bc-4a5c-b262-2e2ea3aff1d4",
+    "spec_version": "2.0",
     "objects": [
         {
+            "type": "tool",
+            "id": "tool--4fa49fc0-9162-4bdb-a37e-7aa3dcb6d38b",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-05-31T21:33:11.941Z",
+            "modified": "2018-04-26T15:31:49.970Z",
             "name": "xCmd",
-            "description": " (Citation: xCmd) is an open source tool that is similar to PsExec and allows the user to execute applications on remote systems. (Citation: xCmd)\n\nAliases:  (Citation: xCmd)",
+            "description": "xCmd]] is an open source tool that is similar to PsExec and allows the user to execute applications on remote systems. (Citation: xCmd)\n\nPlatforms: Windows\n\nAliases: xCmd",
+            "labels": [
+                "tool"
+            ],
             "external_references": [
                 {
+                    "external_id": "S0123",
                     "url": "https://attack.mitre.org/wiki/Software/S0123",
-                    "source_name": "mitre-attack",
-                    "external_id": "S0123"
+                    "source_name": "mitre-attack"
                 },
                 {
+                    "url": "https://ashwinrayaprolu.wordpress.com/2011/04/12/xcmd-an-alternative-to-psexec/",
                     "description": "Rayaprolu, A.. (2011, April 12). xCmd an Alternative to PsExec. Retrieved August 10, 2016.",
-                    "source_name": "xCmd",
-                    "url": "https://ashwinrayaprolu.wordpress.com/2011/04/12/xcmd-an-alternative-to-psexec/"
+                    "source_name": "xCmd"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "created": "2017-05-31T21:33:11.941Z",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_platforms": [
+                "Windows"
+            ],
             "x_mitre_aliases": [
                 "xCmd"
-            ],
-            "id": "tool--4fa49fc0-9162-4bdb-a37e-7aa3dcb6d38b",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "labels": [
-                "tool"
-            ],
-            "type": "tool"
+            ]
         }
-    ],
-    "type": "bundle",
-    "id": "bundle--ffa6e620-a0d3-4d5c-b211-d5a354f5e352",
-    "spec_version": "2.0"
+    ]
 }

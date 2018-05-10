@@ -1,28 +1,27 @@
 {
+    "type": "bundle",
+    "id": "bundle--1b030074-fd84-4e56-b9c0-1391ccf3e264",
+    "spec_version": "2.0",
     "objects": [
         {
-            "created": "2017-12-14T16:46:06.044Z",
+            "type": "relationship",
+            "id": "relationship--3264e1db-0f54-4049-a45c-3a03a24709aa",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-04-26T15:31:49.970Z",
+            "description": "XTunnel has been used to execute remote commands. (Citation: Crowdstrike DNC June 2016)",
+            "external_references": [
+                {
+                    "url": "https://www.crowdstrike.com/blog/bears-midst-intrusion-democratic-national-committee/",
+                    "description": "Alperovitch, D.. (2016, June 15). Bears in the Midst: Intrusion into the Democratic National Committee. Retrieved August 3, 2016.",
+                    "source_name": "Crowdstrike DNC June 2016"
+                }
+            ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "description": "XTunnel has been used to execute remote commands.",
-            "external_references": [
-                {
-                    "description": "Alperovitch, D.. (2016, June 15). Bears in the Midst: Intrusion into the Democratic National Committee. Retrieved August 3, 2016.",
-                    "source_name": "Crowdstrike DNC June 2016",
-                    "url": "https://www.crowdstrike.com/blog/bears-midst-intrusion-democratic-national-committee/"
-                }
-            ],
-            "id": "relationship--3264e1db-0f54-4049-a45c-3a03a24709aa",
-            "modified": "2018-01-17T12:56:55.080Z",
             "source_ref": "malware--7343e208-7cab-45f2-a47b-41ba5e2f0fab",
-            "relationship_type": "uses",
-            "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
-            "type": "relationship"
+            "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830"
         }
-    ],
-    "type": "bundle",
-    "id": "bundle--31355994-d27a-472c-a4f4-fa8b6900cca7",
-    "spec_version": "2.0"
+    ]
 }

@@ -1,28 +1,27 @@
 {
+    "type": "bundle",
+    "id": "bundle--8ef5a66f-4f92-48bf-8e65-6db3f8ac7fde",
+    "spec_version": "2.0",
     "objects": [
         {
-            "created": "2018-04-18T17:59:24.739Z",
+            "type": "relationship",
+            "id": "relationship--216b3711-fc70-4029-aaec-a8f021c38bef",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-04-26T15:31:49.970Z",
+            "description": "PowerSploit has several modules that search the Windows Registry for stored credentials: <code>Get-UnattendedInstallFile</code>, <code>Get-Webconfig</code>, <code>Get-ApplicationHost</code>, <code>Get-SiteListPassword</code>, <code>Get-CachedGPPPassword</code>, and <code>Get-RegistryAutoLogon</code>. (Citation: Pentestlab Stored Credentials)",
+            "external_references": [
+                {
+                    "url": "https://pentestlab.blog/2017/04/19/stored-credentials/",
+                    "description": "netbiosX. (2017, April 19). Stored Credentials. Retrieved April 6, 2018.",
+                    "source_name": "Pentestlab Stored Credentials"
+                }
+            ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "description": "PowerSploit has several modules that search the Windows Registry for stored credentials: <code>Get-UnattendedInstallFile</code>, <code>Get-Webconfig</code>, <code>Get-ApplicationHost</code>, <code>Get-SiteListPassword</code>, <code>Get-CachedGPPPassword</code>, and <code>Get-RegistryAutoLogon</code>.",
-            "external_references": [
-                {
-                    "description": "netbiosX. (2017, April 19). Stored Credentials. Retrieved April 6, 2018.",
-                    "source_name": "Pentestlab Stored Credentials",
-                    "url": "https://pentestlab.blog/2017/04/19/stored-credentials/"
-                }
-            ],
-            "modified": "2018-04-18T17:59:24.739Z",
             "source_ref": "tool--13cd9151-83b7-410d-9f98-25d0f0d1d80d",
-            "relationship_type": "uses",
-            "target_ref": "attack-pattern--2edd9d6a-5674-4326-a600-ba56de467286",
-            "type": "relationship",
-            "id": "relationship--216b3711-fc70-4029-aaec-a8f021c38bef"
+            "target_ref": "attack-pattern--2edd9d6a-5674-4326-a600-ba56de467286"
         }
-    ],
-    "type": "bundle",
-    "id": "bundle--040cbeaf-80ff-49a9-a368-4fc8bf474cc3",
-    "spec_version": "2.0"
+    ]
 }

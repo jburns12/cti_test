@@ -1,28 +1,27 @@
 {
+    "type": "bundle",
+    "id": "bundle--f33fb1ee-f019-42a6-a161-4b24d1d75aa9",
+    "spec_version": "2.0",
     "objects": [
         {
-            "created": "2017-05-31T21:33:27.073Z",
+            "type": "relationship",
+            "id": "relationship--510c2f8c-4570-4c19-8c36-7004f8bbf561",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-05-31T21:33:27.073Z",
+            "modified": "2018-04-26T15:31:49.970Z",
+            "description": "Stealth Falcon malware gathers the Address Resolution Protocol (ARP) table from the victim. (Citation: Citizen Lab Stealth Falcon May 2016)",
+            "external_references": [
+                {
+                    "url": "https://citizenlab.org/2016/05/stealth-falcon/",
+                    "description": "Marczak, B. and Scott-Railton, J.. (2016, May 29). Keep Calm and (Don\u2019t) Enable Macros: A New Threat Actor Targets UAE Dissidents. Retrieved June 8, 2016.",
+                    "source_name": "Citizen Lab Stealth Falcon May 2016"
+                }
+            ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "description": "Stealth Falcon malware gathers the Address Resolution Protocol (ARP) table from the victim.",
-            "external_references": [
-                {
-                    "description": "Marczak, B. and Scott-Railton, J.. (2016, May 29). Keep Calm and (Don\u2019t) Enable Macros: A New Threat Actor Targets UAE Dissidents. Retrieved June 8, 2016.",
-                    "source_name": "Citizen Lab Stealth Falcon May 2016",
-                    "url": "https://citizenlab.org/2016/05/stealth-falcon/"
-                }
-            ],
-            "id": "relationship--510c2f8c-4570-4c19-8c36-7004f8bbf561",
-            "modified": "2018-01-17T12:56:55.080Z",
             "source_ref": "intrusion-set--894aab42-3371-47b1-8859-a4a074c804c8",
-            "relationship_type": "uses",
-            "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
-            "type": "relationship"
+            "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0"
         }
-    ],
-    "type": "bundle",
-    "id": "bundle--a6d338b0-70d2-46cd-acde-10e906ae9cde",
-    "spec_version": "2.0"
+    ]
 }

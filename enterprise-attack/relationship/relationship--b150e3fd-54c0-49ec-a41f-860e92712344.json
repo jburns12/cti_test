@@ -1,28 +1,27 @@
 {
+    "type": "bundle",
+    "id": "bundle--ff28ecfc-42b2-4d4c-bda5-2e301925c76b",
+    "spec_version": "2.0",
     "objects": [
         {
-            "created": "2018-04-18T17:59:24.739Z",
+            "type": "relationship",
+            "id": "relationship--b150e3fd-54c0-49ec-a41f-860e92712344",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-04-26T15:31:49.970Z",
+            "description": "Vasport is capable of tunneling though a proxy. (Citation: Symantec Vasport May 2012)",
+            "external_references": [
+                {
+                    "url": "https://www.symantec.com/security%20response/writeup.jsp?docid=2012-051606-5938-99",
+                    "description": "Zhou, R. (2012, May 15). Backdoor.Vasport. Retrieved February 22, 2018.",
+                    "source_name": "Symantec Vasport May 2012"
+                }
+            ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "description": "is capable of tunneling though a proxy.",
-            "external_references": [
-                {
-                    "description": "Zhou, R. (2012, May 15). Backdoor.Vasport. Retrieved February 22, 2018.",
-                    "source_name": "Symantec Vasport May 2012",
-                    "url": "https://www.symantec.com/security%20response/writeup.jsp?docid=2012-051606-5938-99"
-                }
-            ],
-            "modified": "2018-04-18T17:59:24.739Z",
             "source_ref": "malware--f4d8a2d6-c684-453a-8a14-cf4a94f755c5",
-            "relationship_type": "uses",
-            "target_ref": "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea",
-            "type": "relationship",
-            "id": "relationship--b150e3fd-54c0-49ec-a41f-860e92712344"
+            "target_ref": "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea"
         }
-    ],
-    "type": "bundle",
-    "id": "bundle--1751b62e-dd42-4058-b78e-f7efa1da9c00",
-    "spec_version": "2.0"
+    ]
 }

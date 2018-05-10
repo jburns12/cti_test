@@ -1,28 +1,27 @@
 {
+    "type": "bundle",
+    "id": "bundle--79048e1f-ccfc-4a4e-90db-20e6c04be778",
+    "spec_version": "2.0",
     "objects": [
         {
-            "created": "2017-05-31T21:33:27.035Z",
+            "type": "relationship",
+            "id": "relationship--dd4c02ea-b54a-4753-beb5-3248d89a7e04",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-05-31T21:33:27.035Z",
+            "modified": "2018-04-26T15:31:49.970Z",
+            "description": "APT1 has used the Windows command shell to execute commands. (Citation: Mandiant APT1)",
+            "external_references": [
+                {
+                    "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf",
+                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016.",
+                    "source_name": "Mandiant APT1"
+                }
+            ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "description": "APT1 has used the Windows command shell to execute commands.",
-            "external_references": [
-                {
-                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016.",
-                    "source_name": "Mandiant APT1",
-                    "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
-                }
-            ],
-            "id": "relationship--dd4c02ea-b54a-4753-beb5-3248d89a7e04",
-            "modified": "2018-01-17T12:56:55.080Z",
             "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
-            "relationship_type": "uses",
-            "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
-            "type": "relationship"
+            "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830"
         }
-    ],
-    "type": "bundle",
-    "id": "bundle--cc28ec0e-e92c-4916-b81c-968da78cb527",
-    "spec_version": "2.0"
+    ]
 }

@@ -1,28 +1,27 @@
 {
+    "type": "bundle",
+    "id": "bundle--d4b65ded-5b31-4f1e-84f6-351147591b31",
+    "spec_version": "2.0",
     "objects": [
         {
-            "created": "2018-04-18T17:59:24.739Z",
+            "type": "relationship",
+            "id": "relationship--993e37d1-b81c-47d7-9063-216446271e07",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-04-26T15:31:49.970Z",
+            "description": "TA459 has attempted to get victims to open malicious Microsoft Word attachment sent via spearphishing. (Citation: Proofpoint TA459 April 2017)",
+            "external_references": [
+                {
+                    "url": "https://www.proofpoint.com/us/threat-insight/post/apt-targets-financial-analysts",
+                    "description": "Axel F. (2017, April 27). APT Targets Financial Analysts with CVE-2017-0199. Retrieved February 15, 2018.",
+                    "source_name": "Proofpoint TA459 April 2017"
+                }
+            ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "description": "TA459 has attempted to get victims to open malicious Microsoft Word attachment sent via spearphishing.",
-            "external_references": [
-                {
-                    "description": "Axel F. (2017, April 27). APT Targets Financial Analysts with CVE-2017-0199. Retrieved February 15, 2018.",
-                    "source_name": "Proofpoint TA459 April 2017",
-                    "url": "https://www.proofpoint.com/us/threat-insight/post/apt-targets-financial-analysts"
-                }
-            ],
-            "modified": "2018-04-18T17:59:24.739Z",
             "source_ref": "intrusion-set--62a64fd3-aaf7-4d09-a375-d6f8bb118481",
-            "relationship_type": "uses",
-            "target_ref": "attack-pattern--8c32eb4d-805f-4fc5-bf60-c4d476c131b5",
-            "type": "relationship",
-            "id": "relationship--993e37d1-b81c-47d7-9063-216446271e07"
+            "target_ref": "attack-pattern--8c32eb4d-805f-4fc5-bf60-c4d476c131b5"
         }
-    ],
-    "type": "bundle",
-    "id": "bundle--c0c2ae3f-ee8c-46ca-9b58-74784615afe1",
-    "spec_version": "2.0"
+    ]
 }

@@ -1,28 +1,27 @@
 {
+    "type": "bundle",
+    "id": "bundle--f94034f1-0171-4acd-a28d-5e926cf40c4e",
+    "spec_version": "2.0",
     "objects": [
         {
-            "created": "2017-12-14T16:46:06.044Z",
+            "type": "relationship",
+            "id": "relationship--eb74fa31-121d-4e43-9794-048a901f509a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-04-26T15:31:49.970Z",
+            "description": "Uroburos is a rootkit used by Turla. (Citation: Kaspersky Turla)",
+            "external_references": [
+                {
+                    "url": "https://securelist.com/the-epic-turla-operation/65545/",
+                    "description": "Kaspersky Lab's Global Research and Analysis Team. (2014, August 7). The Epic Turla Operation: Solving some of the mysteries of Snake/Uroburos. Retrieved December 11, 2014.",
+                    "source_name": "Kaspersky Turla"
+                }
+            ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "description": "Uroburos is a rootkit used by Turla.",
-            "external_references": [
-                {
-                    "description": "Kaspersky Lab's Global Research and Analysis Team. (2014, August 7). The Epic Turla Operation: Solving some of the mysteries of Snake/Uroburos. Retrieved December 11, 2014.",
-                    "source_name": "Kaspersky Turla",
-                    "url": "https://securelist.com/the-epic-turla-operation/65545/"
-                }
-            ],
-            "id": "relationship--eb74fa31-121d-4e43-9794-048a901f509a",
-            "modified": "2018-01-17T12:56:55.080Z",
             "source_ref": "malware--80a014ba-3fef-4768-990b-37d8bd10d7f4",
-            "relationship_type": "uses",
-            "target_ref": "attack-pattern--0f20e3cb-245b-4a61-8a91-2d93f7cb0e9b",
-            "type": "relationship"
+            "target_ref": "attack-pattern--0f20e3cb-245b-4a61-8a91-2d93f7cb0e9b"
         }
-    ],
-    "type": "bundle",
-    "id": "bundle--5a312b07-74b2-4650-b1e9-842796a8cc4b",
-    "spec_version": "2.0"
+    ]
 }

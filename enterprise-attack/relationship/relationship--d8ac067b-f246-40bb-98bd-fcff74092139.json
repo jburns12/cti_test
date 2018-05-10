@@ -1,28 +1,27 @@
 {
+    "type": "bundle",
+    "id": "bundle--0f18e350-746f-493f-b8a2-90ec734b71a6",
+    "spec_version": "2.0",
     "objects": [
         {
-            "created": "2017-12-14T16:46:06.044Z",
+            "type": "relationship",
+            "id": "relationship--d8ac067b-f246-40bb-98bd-fcff74092139",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-04-26T15:31:49.970Z",
+            "description": "CosmicDuke exfiltrates collected files automatically over FTP to remote servers. (Citation: F-Secure Cosmicduke)",
+            "external_references": [
+                {
+                    "url": "https://www.f-secure.com/documents/996508/1030745/cosmicduke%20whitepaper.pdf",
+                    "description": "F-Secure Labs. (2014, July). COSMICDUKE Cosmu with a twist of MiniDuke. Retrieved July 3, 2014.",
+                    "source_name": "F-Secure Cosmicduke"
+                }
+            ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "description": "CosmicDuke exfiltrates collected files automatically over FTP to remote servers.",
-            "external_references": [
-                {
-                    "description": "F-Secure Labs. (2014, July). COSMICDUKE Cosmu with a twist of MiniDuke. Retrieved July 3, 2014.",
-                    "source_name": "F-Secure Cosmicduke",
-                    "url": "https://www.f-secure.com/documents/996508/1030745/cosmicduke%20whitepaper.pdf"
-                }
-            ],
-            "id": "relationship--d8ac067b-f246-40bb-98bd-fcff74092139",
-            "modified": "2018-01-17T12:56:55.080Z",
             "source_ref": "malware--2eb9b131-d333-4a48-9eb4-d8dec46c19ee",
-            "relationship_type": "uses",
-            "target_ref": "attack-pattern--774a3188-6ba9-4dc4-879d-d54ee48a5ce9",
-            "type": "relationship"
+            "target_ref": "attack-pattern--774a3188-6ba9-4dc4-879d-d54ee48a5ce9"
         }
-    ],
-    "type": "bundle",
-    "id": "bundle--ee222084-c1fc-4144-a1af-fa670739b721",
-    "spec_version": "2.0"
+    ]
 }

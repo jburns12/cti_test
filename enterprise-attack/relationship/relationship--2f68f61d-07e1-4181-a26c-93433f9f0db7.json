@@ -1,28 +1,27 @@
 {
+    "type": "bundle",
+    "id": "bundle--69672da2-6179-4d38-a5a1-a3606b2bbaf5",
+    "spec_version": "2.0",
     "objects": [
         {
-            "created": "2018-01-16T16:13:52.465Z",
+            "type": "relationship",
+            "id": "relationship--2f68f61d-07e1-4181-a26c-93433f9f0db7",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-01-16T16:13:52.465Z",
+            "modified": "2018-04-26T15:31:49.970Z",
+            "description": "CopyKittens has used PowerShell Empire. (Citation: ClearSky Wilted Tulip July 2017)",
+            "external_references": [
+                {
+                    "url": "http://www.clearskysec.com/wp-content/uploads/2017/07/Operation%20Wilted%20Tulip.pdf",
+                    "description": "ClearSky Cyber Security and Trend Micro. (2017, July). Operation Wilted Tulip: Exposing a cyber espionage apparatus. Retrieved August 21, 2017.",
+                    "source_name": "ClearSky Wilted Tulip July 2017"
+                }
+            ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "description": "CopyKittens has used PowerShell Empire.",
-            "external_references": [
-                {
-                    "description": "ClearSky Cyber Security and Trend Micro. (2017, July). Operation Wilted Tulip: Exposing a cyber espionage apparatus. Retrieved August 21, 2017.",
-                    "source_name": "ClearSky Wilted Tulip July 2017",
-                    "url": "http://www.clearskysec.com/wp-content/uploads/2017/07/Operation%20Wilted%20Tulip.pdf"
-                }
-            ],
-            "id": "relationship--2f68f61d-07e1-4181-a26c-93433f9f0db7",
-            "modified": "2018-01-17T12:56:55.080Z",
             "source_ref": "intrusion-set--dcd81c6e-ebf7-4a16-93e0-9a97fa49c88a",
-            "relationship_type": "uses",
-            "target_ref": "attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0",
-            "type": "relationship"
+            "target_ref": "attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0"
         }
-    ],
-    "type": "bundle",
-    "id": "bundle--c2a65f0b-8f2b-4a2f-a484-357a1e8dd01e",
-    "spec_version": "2.0"
+    ]
 }

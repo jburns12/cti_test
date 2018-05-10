@@ -1,28 +1,27 @@
 {
+    "type": "bundle",
+    "id": "bundle--c89e16b3-7f7a-48a1-8165-31af6cfa899d",
+    "spec_version": "2.0",
     "objects": [
         {
-            "created": "2018-04-18T17:59:24.739Z",
+            "type": "relationship",
+            "id": "relationship--d0ed6995-15c9-4221-9783-4b61281d1d02",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-04-26T15:31:49.970Z",
+            "description": "APT37 has used port 8080 for C2. (Citation: Securelist ScarCruft Jun 2016)",
+            "external_references": [
+                {
+                    "url": "https://securelist.com/operation-daybreak/75100/",
+                    "description": "Raiu, C., and Ivanov, A. (2016, June 17). Operation Daybreak. Retrieved February 15, 2018.",
+                    "source_name": "Securelist ScarCruft Jun 2016"
+                }
+            ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "description": "APT37 has used port 8080 for C2.",
-            "external_references": [
-                {
-                    "description": "Raiu, C., and Ivanov, A. (2016, June 17). Operation Daybreak. Retrieved February 15, 2018.",
-                    "source_name": "Securelist ScarCruft Jun 2016",
-                    "url": "https://securelist.com/operation-daybreak/75100/"
-                }
-            ],
-            "modified": "2018-04-18T17:59:24.739Z",
             "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
-            "relationship_type": "uses",
-            "target_ref": "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e",
-            "type": "relationship",
-            "id": "relationship--d0ed6995-15c9-4221-9783-4b61281d1d02"
+            "target_ref": "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e"
         }
-    ],
-    "type": "bundle",
-    "id": "bundle--f770a54c-a3d8-4b18-9cd1-99254271f5f2",
-    "spec_version": "2.0"
+    ]
 }

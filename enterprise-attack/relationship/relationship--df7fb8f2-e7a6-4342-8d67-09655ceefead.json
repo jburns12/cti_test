@@ -1,28 +1,27 @@
 {
+    "type": "bundle",
+    "id": "bundle--9688ab8d-432e-4e87-b6ba-cc81f6773413",
+    "spec_version": "2.0",
     "objects": [
         {
-            "created": "2017-12-14T16:46:06.044Z",
+            "type": "relationship",
+            "id": "relationship--df7fb8f2-e7a6-4342-8d67-09655ceefead",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-04-26T15:31:49.970Z",
+            "description": "StreamEx has the ability to scan for security tools such as firewalls and antivirus tools. (Citation: Cylance Shell Crew Feb 2017)",
+            "external_references": [
+                {
+                    "url": "https://www.cylance.com/shell-crew-variants-continue-to-fly-under-big-avs-radar",
+                    "description": "Cylance SPEAR Team. (2017, February 9). Shell Crew Variants Continue to Fly Under Big AV\u2019s Radar. Retrieved February 15, 2017.",
+                    "source_name": "Cylance Shell Crew Feb 2017"
+                }
+            ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "description": "StreamEx has the ability to scan for security tools such as firewalls and antivirus tools.",
-            "external_references": [
-                {
-                    "description": "Cylance SPEAR Team. (2017, February 9). Shell Crew Variants Continue to Fly Under Big AV\u2019s Radar. Retrieved February 15, 2017.",
-                    "source_name": "Cylance Shell Crew Feb 2017",
-                    "url": "https://www.cylance.com/shell-crew-variants-continue-to-fly-under-big-avs-radar"
-                }
-            ],
-            "id": "relationship--df7fb8f2-e7a6-4342-8d67-09655ceefead",
-            "modified": "2018-01-17T12:56:55.080Z",
             "source_ref": "malware--91000a8a-58cc-4aba-9ad0-993ad6302b86",
-            "relationship_type": "uses",
-            "target_ref": "attack-pattern--241814ae-de3f-4656-b49e-f9a80764d4b7",
-            "type": "relationship"
+            "target_ref": "attack-pattern--241814ae-de3f-4656-b49e-f9a80764d4b7"
         }
-    ],
-    "type": "bundle",
-    "id": "bundle--703fabff-515d-4399-96f1-0f716fc86041",
-    "spec_version": "2.0"
+    ]
 }

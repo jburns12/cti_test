@@ -1,20 +1,19 @@
 {
+    "type": "bundle",
+    "id": "bundle--6c92e02e-e157-4e74-a837-4b34b5284560",
+    "spec_version": "2.0",
     "objects": [
         {
-            "created": "2018-01-16T16:13:52.465Z",
+            "type": "relationship",
+            "id": "relationship--5744b31d-6633-44ca-8170-17489fec124c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-01-16T16:13:52.465Z",
+            "modified": "2018-04-26T15:31:49.970Z",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "id": "relationship--5744b31d-6633-44ca-8170-17489fec124c",
-            "modified": "2018-01-17T12:56:55.080Z",
             "source_ref": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",
-            "relationship_type": "uses",
-            "target_ref": "tool--4664b683-f578-434f-919b-1c1aad2a1111",
-            "type": "relationship"
+            "target_ref": "tool--4664b683-f578-434f-919b-1c1aad2a1111"
         }
-    ],
-    "type": "bundle",
-    "id": "bundle--f6da69c0-9ea3-4c6f-b5ab-6e05ed6bef3d",
-    "spec_version": "2.0"
+    ]
 }

@@ -1,28 +1,27 @@
 {
+    "type": "bundle",
+    "id": "bundle--aca8fafa-6a1d-4c48-b47c-7b13d5cb61e1",
+    "spec_version": "2.0",
     "objects": [
         {
-            "created": "2018-01-16T16:13:52.465Z",
+            "type": "relationship",
+            "id": "relationship--fdf9f632-03ce-4e8c-88bf-3798bb7f5ef4",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-01-16T16:13:52.465Z",
+            "modified": "2018-04-26T15:31:49.970Z",
+            "description": "Felismus uses command line for execution. (Citation: Forcepoint Felismus Mar 2017)",
+            "external_references": [
+                {
+                    "url": "https://blogs.forcepoint.com/security-labs/playing-cat-mouse-introducing-felismus-malware",
+                    "description": "Somerville, L. and Toro, A. (2017, March 30). Playing Cat & Mouse: Introducing the Felismus Malware. Retrieved November 16, 2017.",
+                    "source_name": "Forcepoint Felismus Mar 2017"
+                }
+            ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "description": "Felismus uses command line for execution.",
-            "external_references": [
-                {
-                    "description": "Somerville, L. and Toro, A. (2017, March 30). Playing Cat & Mouse: Introducing the Felismus Malware. Retrieved November 16, 2017.",
-                    "source_name": "Forcepoint Felismus Mar 2017",
-                    "url": "https://blogs.forcepoint.com/security-labs/playing-cat-mouse-introducing-felismus-malware"
-                }
-            ],
-            "id": "relationship--fdf9f632-03ce-4e8c-88bf-3798bb7f5ef4",
-            "modified": "2018-04-18T17:59:24.739Z",
             "source_ref": "malware--196f1f32-e0c2-4d46-99cd-234d4b6befe1",
-            "relationship_type": "uses",
-            "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
-            "type": "relationship"
+            "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830"
         }
-    ],
-    "type": "bundle",
-    "id": "bundle--4aabd01a-47d9-4117-8d67-ede93eca47b4",
-    "spec_version": "2.0"
+    ]
 }
