@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--516cd4be-cef0-4f03-9751-9c9f8856b189",
+    "id": "bundle--a7bb655f-02d1-463d-ace8-02bc6dbcdb6f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--59261bc8-0220-4e37-8018-7a3618a5dd1b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "Rover automatically searches for files on local drives based on a predefined list of file extensions and sends them to the command and control server every 60 minutes. Rover also automatically sends keylogger files and screenshots to the C2 server on a regular timeframe. (Citation: Palo Alto Rover)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "Rover automatically searches for files on local drives based on a predefined list of file extensions and sends them to the command and control server every 60 minutes. Rover also automatically sends keylogger files and screenshots to the C2 server on a regular timeframe.",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2016/02/new-malware-rover-targets-indian-ambassador-to-afghanistan/",
-                    "description": "Ray, V., Hayashi, K. (2016, February 29). New Malware \u2018Rover\u2019 Targets Indian Ambassador to Afghanistan. Retrieved February 29, 2016.",
-                    "source_name": "Palo Alto Rover"
+                    "source_name": "Palo Alto Rover",
+                    "description": "Ray, V., Hayashi, K. (2016, February 29). New Malware \u2018Rover\u2019 Targets Indian Ambassador to Afghanistan. Retrieved February 29, 2016."
                 }
             ],
             "object_marking_refs": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--db85dd15-7770-4caf-bf81-2ac3d24755f5",
+    "id": "bundle--022a0cf9-a7d9-44d6-a02f-6adddb269110",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--8cbb1567-70c5-4daf-b163-cbc6cc40a794",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.077Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "Strider has registered its persistence module on domain controllers as a Windows LSA (Local System Authority) password filter to dump credentials any time a domain, local user, or administrator logs in or changes a password. (Citation: Kaspersky ProjectSauron Full Report)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "Strider has registered its persistence module on domain controllers as a Windows LSA (Local System Authority) password filter to dump credentials any time a domain, local user, or administrator logs in or changes a password.",
             "external_references": [
                 {
                     "url": "https://securelist.com/files/2016/07/The-ProjectSauron-APT%20research%20KL.pdf",
-                    "description": "Kaspersky Lab's Global Research & Analysis Team. (2016, August 9). The ProjectSauron APT. Retrieved August 17, 2016.",
-                    "source_name": "Kaspersky ProjectSauron Full Report"
+                    "source_name": "Kaspersky ProjectSauron Full Report",
+                    "description": "Kaspersky Lab's Global Research & Analysis Team. (2016, August 9). The ProjectSauron APT. Retrieved August 17, 2016."
                 }
             ],
             "object_marking_refs": [

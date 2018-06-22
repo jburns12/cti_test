@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--279f159b-af39-4e93-8476-5abe44a485c6",
+    "id": "bundle--3309afbb-9747-4f42-bd32-0d66be80237f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--348f1eef-964b-4eb6-bb53-69b3dcb0c643",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:31:28.471Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "modified": "2018-04-18T17:59:24.739Z",
             "name": "Peripheral Device Discovery",
-            "description": "Adversaries may attempt to gather information about attached peripheral devices and components connected to a computer system. The information may be used to enhance their awareness of the system and network environment or may be used for further actions.\n\nDetection: System and network discovery techniques normally occur throughout an operation as an adversary learns the environment. Data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities based on the information obtained.\n\nMonitor processes and command-line arguments for actions that could be taken to gather system and network information. Remote access tools with built-in features may interact directly with the Windows API to gather information. Information may also be acquired through Windows system management tools such as Windows Management Instrumentation Mitigation and PowerShell Mitigation.\n\nPlatforms: Windows\n\nPermissions Required: User, Administrator, SYSTEM",
+            "description": "Adversaries may attempt to gather information about attached peripheral devices and components connected to a computer system. The information may be used to enhance their awareness of the system and network environment or may be used for further actions.\n\nDetection: System and network discovery techniques normally occur throughout an operation as an adversary learns the environment. Data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities based on the information obtained.\n\nMonitor processes and command-line arguments for actions that could be taken to gather system and network information. Remote access tools with built-in features may interact directly with the Windows API to gather information. Information may also be acquired through Windows system management tools such as Windows Management Instrumentation and PowerShell.\n\nPlatforms: Windows\n\nPermissions Required: User, Administrator, SYSTEM",
             "kill_chain_phases": [
                 {
                     "phase_name": "discovery",
@@ -20,8 +20,8 @@
             "external_references": [
                 {
                     "external_id": "T1120",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1120",
-                    "source_name": "mitre-attack"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Technique/T1120"
                 }
             ],
             "object_marking_refs": [

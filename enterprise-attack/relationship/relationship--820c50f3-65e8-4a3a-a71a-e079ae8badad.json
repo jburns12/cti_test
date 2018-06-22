@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e4482039-5f84-4ed9-b050-2b3e4072a89d",
+    "id": "bundle--cee7c0b8-09cb-4f47-83de-436a33c4160c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--820c50f3-65e8-4a3a-a71a-e079ae8badad",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "Remsec contains a network loader to receive executable modules from remote attackers and run them on the local victim. It can also upload and download files over HTTP and HTTPS. (Citation: Symantec Remsec IOCs) (Citation: Kaspersky ProjectSauron Technical Analysis)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "Remsec contains a network loader to receive executable modules from remote attackers and run them on the local victim. It can also upload and download files over HTTP and HTTPS.",
             "external_references": [
                 {
                     "url": "http://www.symantec.com/content/en/us/enterprise/media/security%20response/whitepapers/Symantec%20Remsec%20IOCs.pdf",
-                    "description": "Symantec Security Response. (2016, August 8). Backdoor.Remsec indicators of compromise. Retrieved August 17, 2016.",
-                    "source_name": "Symantec Remsec IOCs"
+                    "source_name": "Symantec Remsec IOCs",
+                    "description": "Symantec Security Response. (2016, August 8). Backdoor.Remsec indicators of compromise. Retrieved August 17, 2016."
                 },
                 {
                     "url": "https://securelist.com/files/2016/07/The-ProjectSauron-APT%20Technical%20Analysis%20KL.pdf",
-                    "description": "Kaspersky Lab's Global Research & Analysis Team. (2016, August 9). The ProjectSauron APT. Technical Analysis. Retrieved August 17, 2016.",
-                    "source_name": "Kaspersky ProjectSauron Technical Analysis"
+                    "source_name": "Kaspersky ProjectSauron Technical Analysis",
+                    "description": "Kaspersky Lab's Global Research & Analysis Team. (2016, August 9). The ProjectSauron APT. Technical Analysis. Retrieved August 17, 2016."
                 }
             ],
             "object_marking_refs": [

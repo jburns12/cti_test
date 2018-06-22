@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--e6b5ec6f-a146-431d-9d99-aea54f5fcbad",
+    "id": "bundle--371e6bd5-cfbe-41ba-83f0-ada110778bab",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--00d7d21b-69d6-4797-88a2-c86f3fc97651",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-26T15:31:49.970Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "created": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-04-18T17:59:24.739Z",
             "name": "Password Filter DLL Mitigation",
             "description": "Ensure only valid password filters are registered. Filter DLLs must be present in Windows installation directory (<code>C:\\Windows\\System32\\</code> by default) of a domain controller and/or local computer with a corresponding entry in <code>HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\Notification Packages</code>.  (Citation: Microsoft Install Password Filter n.d)",
             "external_references": [
                 {
                     "external_id": "T1174",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1174",
-                    "source_name": "mitre-attack"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Technique/T1174"
                 },
                 {
                     "url": "https://msdn.microsoft.com/library/windows/desktop/ms721766.aspx",
-                    "description": "Microsoft. (n.d.). Installing and Registering a Password Filter DLL. Retrieved November 21, 2017.",
-                    "source_name": "Microsoft Install Password Filter n.d"
+                    "source_name": "Microsoft Install Password Filter n.d",
+                    "description": "Microsoft. (n.d.). Installing and Registering a Password Filter DLL. Retrieved November 21, 2017."
                 }
             ]
         }

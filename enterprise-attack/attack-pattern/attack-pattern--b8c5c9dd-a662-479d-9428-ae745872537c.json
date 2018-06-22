@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4fc90c72-a253-46c5-a123-b362bfb42810",
+    "id": "bundle--8bddea6a-1f9b-42cb-b247-4ce91e4ebc51",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--b8c5c9dd-a662-479d-9428-ae745872537c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "modified": "2018-04-18T17:59:24.739Z",
             "name": "Password Filter DLL",
-            "description": "Windows password filters are password policy enforcement mechanisms for both domain and local accounts. Filters are implemented as dynamic link libraries (DLLs) containing a method to validate potential passwords against password policies. Filter DLLs can be positioned on local computers for local accounts and/or domain controllers for domain accounts.\n\nBefore registering new passwords in the Security Accounts Manager (SAM), the Local Security Authority (LSA) requests validation from each registered filter. Any potential changes cannot take effect until every registered filter acknowledges validation.\n\nAdversaries can register malicious password filters to harvest credentials from local computers and/or entire domains. To perform proper validation, filters must receive plain-text credentials from the LSA. A malicious password filter would receive these plain-text credentials every time a password request is made. (Citation: Carnal Ownage Password Filters Sept 2013)\n\nDetection: Monitor for change notifications to and from unfamiliar password filters.\n\nNewly installed password filters will not take effect until after a system reboot.\n\nPassword filters will show up as an autorun and loaded DLL in lsass.exe. (Citation: Clymb3r Function Hook Passwords Sept 2013)\n\nPlatforms: Windows\n\nData Sources: DLL monitoring, Process monitoring, Windows Registry\n\nPermissions Required: Administrator, SYSTEM\n\nMITRE Contributors: Vincent Le Toux",
+            "description": "Windows password filters are password policy enforcement mechanisms for both domain and local accounts. Filters are implemented as dynamic link libraries (DLLs) containing a method to validate potential passwords against password policies. Filter DLLs can be positioned on local computers for local accounts and/or domain controllers for domain accounts.\n\nBefore registering new passwords in the Security Accounts Manager (SAM), the Local Security Authority (LSA) requests validation from each registered filter. Any potential changes cannot take effect until every registered filter acknowledges validation.\n\nAdversaries can register malicious password filters to harvest credentials from local computers and/or entire domains. To perform proper validation, filters must receive plain-text credentials from the LSA. A malicious password filter would receive these plain-text credentials every time a password request is made. (Citation: Carnal Ownage Password Filters Sept 2013)\n\nDetection: Monitor for change notifications to and from unfamiliar password filters.\n\nNewly installed password filters will not take effect until after a system reboot.\n\nPassword filters will show up as an autorun and loaded DLL in lsass.exe. (Citation: Clymb3r Function Hook Passwords Sept 2013)\n\nPlatforms: Windows\n\nData Sources: DLL monitoring, Windows Registry, Process monitoring\n\nPermissions Required: Administrator, SYSTEM\n\nContributors: Vincent Le Toux",
             "kill_chain_phases": [
                 {
                     "phase_name": "credential-access",
@@ -20,18 +20,18 @@
             "external_references": [
                 {
                     "external_id": "T1174",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1174",
-                    "source_name": "mitre-attack"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Technique/T1174"
                 },
                 {
                     "url": "http://carnal0wnage.attackresearch.com/2013/09/stealing-passwords-every-time-they.html",
-                    "description": "Fuller, R. (2013, September 11). Stealing passwords every time they change. Retrieved November 21, 2017.",
-                    "source_name": "Carnal Ownage Password Filters Sept 2013"
+                    "source_name": "Carnal Ownage Password Filters Sept 2013",
+                    "description": "Fuller, R. (2013, September 11). Stealing passwords every time they change. Retrieved November 21, 2017."
                 },
                 {
                     "url": "https://clymb3r.wordpress.com/2013/09/15/intercepting-password-changes-with-function-hooking/",
-                    "description": "Bialek, J. (2013, September 15). Intercepting Password Changes With Function Hooking. Retrieved November 21, 2017.",
-                    "source_name": "Clymb3r Function Hook Passwords Sept 2013"
+                    "source_name": "Clymb3r Function Hook Passwords Sept 2013",
+                    "description": "Bialek, J. (2013, September 15). Intercepting Password Changes With Function Hooking. Retrieved November 21, 2017."
                 }
             ],
             "object_marking_refs": [
@@ -42,8 +42,8 @@
             ],
             "x_mitre_data_sources": [
                 "DLL monitoring",
-                "Process monitoring",
-                "Windows Registry"
+                "Windows Registry",
+                "Process monitoring"
             ],
             "x_mitre_permissions_required": [
                 "Administrator",

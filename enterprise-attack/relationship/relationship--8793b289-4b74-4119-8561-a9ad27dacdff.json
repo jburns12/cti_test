@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2d365b13-442a-4ed4-8003-d57be8a15a17",
+    "id": "bundle--fd6643bd-9a8d-4719-bb19-3c4eefc4b489",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--8793b289-4b74-4119-8561-a9ad27dacdff",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "BBSRAT has been seen persisting via COM hijacking through replacement of the COM object for MruPidlList <code>{42aedc87-2188-41fd-b9a3-0c966feabec1}</code> or Microsoft WBEM New Event Subsystem <code>{F3130CDB-AA52-4C3A-AB32-85FFC23AF9C1}</code> depending on the system's CPU architecture. (Citation: Palo Alto Networks BBSRAT)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "BBSRAT has been seen persisting via COM hijacking through replacement of the COM object for MruPidlList <code>{42aedc87-2188-41fd-b9a3-0c966feabec1}</code> or Microsoft WBEM New Event Subsystem <code>{F3130CDB-AA52-4C3A-AB32-85FFC23AF9C1}</code> depending on the system's CPU architecture.",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2015/12/bbsrat-attacks-targeting-russian-organizations-linked-to-roaming-tiger/",
-                    "description": "Lee, B. Grunzweig, J. (2015, December 22). BBSRAT Attacks Targeting Russian Organizations Linked to Roaming Tiger. Retrieved August 19, 2016.",
-                    "source_name": "Palo Alto Networks BBSRAT"
+                    "source_name": "Palo Alto Networks BBSRAT",
+                    "description": "Lee, B. Grunzweig, J. (2015, December 22). BBSRAT Attacks Targeting Russian Organizations Linked to Roaming Tiger. Retrieved August 19, 2016."
                 }
             ],
             "object_marking_refs": [

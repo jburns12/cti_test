@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6e33c45e-5943-435f-98e1-1dacb9aaf8c9",
+    "id": "bundle--c13ecb8c-bfe1-463f-adb9-aa8a63fe37ac",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--e484611d-cf9a-4d75-a665-637b75873add",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "Darkmoon creates a Registry entry modifying the Logical Disk Manager service to point to a malicious DLL dropped to disk. (Citation: Symantec Darkmoon Aug 2005)",
+            "modified": "2018-04-18T17:59:24.739Z",
+            "description": "creates a Registry entry modifying the Logical Disk Manager service to point to a malicious DLL dropped to disk.",
             "external_references": [
                 {
                     "url": "https://www.symantec.com/security%20response/writeup.jsp?docid=2005-081910-3934-99",
-                    "description": "Hayashi, K. (2005, August 18). Backdoor.Darkmoon. Retrieved February 23, 2018.",
-                    "source_name": "Symantec Darkmoon Aug 2005"
+                    "source_name": "Symantec Darkmoon Aug 2005",
+                    "description": "Hayashi, K. (2005, August 18). Backdoor.Darkmoon. Retrieved February 23, 2018."
                 }
             ],
             "object_marking_refs": [

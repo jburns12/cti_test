@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4893107a-b5b5-4955-aa47-6ff5f7bc287a",
+    "id": "bundle--ff22404a-142a-4ff9-820a-c3bf9a161e17",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,23 +8,23 @@
             "id": "relationship--2b4a8be2-8403-43d4-addd-79c504e3dec8",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "Remsec is capable of deleting files on the victim. (Citation: Symantec Remsec IOCs) (Citation: Kaspersky ProjectSauron Technical Analysis) It also securely removes itself after collecting and exfiltrating data. (Citation: Kaspersky ProjectSauron Full Report)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "Remsec is capable of deleting files on the victim. It also securely removes itself after collecting and exfiltrating data.",
             "external_references": [
                 {
                     "url": "http://www.symantec.com/content/en/us/enterprise/media/security%20response/whitepapers/Symantec%20Remsec%20IOCs.pdf",
-                    "description": "Symantec Security Response. (2016, August 8). Backdoor.Remsec indicators of compromise. Retrieved August 17, 2016.",
-                    "source_name": "Symantec Remsec IOCs"
+                    "source_name": "Symantec Remsec IOCs",
+                    "description": "Symantec Security Response. (2016, August 8). Backdoor.Remsec indicators of compromise. Retrieved August 17, 2016."
                 },
                 {
                     "url": "https://securelist.com/files/2016/07/The-ProjectSauron-APT%20research%20KL.pdf",
-                    "description": "Kaspersky Lab's Global Research & Analysis Team. (2016, August 9). The ProjectSauron APT. Retrieved August 17, 2016.",
-                    "source_name": "Kaspersky ProjectSauron Full Report"
+                    "source_name": "Kaspersky ProjectSauron Full Report",
+                    "description": "Kaspersky Lab's Global Research & Analysis Team. (2016, August 9). The ProjectSauron APT. Retrieved August 17, 2016."
                 },
                 {
                     "url": "https://securelist.com/files/2016/07/The-ProjectSauron-APT%20Technical%20Analysis%20KL.pdf",
-                    "description": "Kaspersky Lab's Global Research & Analysis Team. (2016, August 9). The ProjectSauron APT. Technical Analysis. Retrieved August 17, 2016.",
-                    "source_name": "Kaspersky ProjectSauron Technical Analysis"
+                    "source_name": "Kaspersky ProjectSauron Technical Analysis",
+                    "description": "Kaspersky Lab's Global Research & Analysis Team. (2016, August 9). The ProjectSauron APT. Technical Analysis. Retrieved August 17, 2016."
                 }
             ],
             "object_marking_refs": [

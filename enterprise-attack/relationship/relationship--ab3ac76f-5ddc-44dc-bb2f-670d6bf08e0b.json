@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7de2e1a3-a9fd-4128-bcf7-f0fb25939c79",
+    "id": "bundle--9f019721-4bd5-4b50-84da-9701650dc019",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--ab3ac76f-5ddc-44dc-bb2f-670d6bf08e0b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "Shamoon attempts to access the <code>ADMIN$</code>, <code>C$\\Windows</code>, <code>D$\\Windows</code>, and <code>E$\\Windows</code> shares on the victim with its current privileges. (Citation: FireEye Shamoon Nov 2016)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "Shamoon attempts to access the <code>ADMIN$</code>, <code>C$\\Windows</code>, <code>D$\\Windows</code>, and <code>E$\\Windows</code> shares on the victim with its current privileges.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2016/11/fireeye%20respondsto.html",
-                    "description": "FireEye. (2016, November 30). FireEye Responds to Wave of Destructive Cyber Attacks in Gulf Region. Retrieved January 11, 2017.",
-                    "source_name": "FireEye Shamoon Nov 2016"
+                    "source_name": "FireEye Shamoon Nov 2016",
+                    "description": "FireEye. (2016, November 30). FireEye Responds to Wave of Destructive Cyber Attacks in Gulf Region. Retrieved January 11, 2017."
                 }
             ],
             "object_marking_refs": [

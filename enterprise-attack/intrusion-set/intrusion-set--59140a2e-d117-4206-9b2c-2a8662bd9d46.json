@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--01cb0c0f-0ac4-46de-aa61-e9d5571d23bf",
+    "id": "bundle--4cdd464f-556a-4a9f-b1b6-ef0ce9215c2f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "intrusion-set--59140a2e-d117-4206-9b2c-2a8662bd9d46",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:31:52.018Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "modified": "2018-01-17T12:56:55.080Z",
             "name": "Taidoor",
             "description": "Taidoor is a threat group that has operated since at least 2009 and has primarily targeted the Taiwanese government. (Citation: TrendMicro Taidoor)",
             "aliases": [
@@ -17,17 +17,13 @@
             "external_references": [
                 {
                     "external_id": "G0015",
-                    "url": "https://attack.mitre.org/wiki/Group/G0015",
-                    "source_name": "mitre-attack"
-                },
-                {
-                    "description": "[[Citation: TrendMicro Taidoor]]",
-                    "source_name": "Taidoor"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Group/G0015"
                 },
                 {
                     "url": "http://www.trendmicro.com/cloud-content/us/pdfs/security-intelligence/white-papers/wp%20the%20taidoor%20campaign.pdf",
-                    "description": "Trend Micro. (2012). The Taidoor Campaign. Retrieved November 12, 2014.",
-                    "source_name": "TrendMicro Taidoor"
+                    "source_name": "TrendMicro Taidoor",
+                    "description": "Trend Micro. (2012). The Taidoor Campaign. Retrieved November 12, 2014."
                 }
             ],
             "object_marking_refs": [

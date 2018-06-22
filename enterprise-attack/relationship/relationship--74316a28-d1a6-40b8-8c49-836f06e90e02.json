@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1ee14980-ee24-481d-8933-f1d061e95ca0",
+    "id": "bundle--684071ab-a36c-421e-bb16-f404cc37ecf3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,28 +8,28 @@
             "id": "relationship--74316a28-d1a6-40b8-8c49-836f06e90e02",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "Patchwork uses malicious documents to deliver remote execution exploits as part of (Citation: Initial Access). (Citation: PaloAlto Patchwork Mar 2018) (Citation: Cymmetria Patchwork) (Citation: Symantec Patchwork) (Citation: Securelist Dropping Elephant)",
+            "modified": "2018-04-18T17:59:24.739Z",
+            "description": "Patchwork uses malicious documents to deliver remote execution exploits as part of .",
             "external_references": [
                 {
                     "url": "https://s3-us-west-2.amazonaws.com/cymmetria-blog/public/Unveiling%20Patchwork.pdf",
-                    "description": "Cymmetria. (2016). Unveiling Patchwork - The Copy-Paste APT. Retrieved August 3, 2016.",
-                    "source_name": "Cymmetria Patchwork"
-                },
-                {
-                    "url": "https://securelist.com/the-dropping-elephant-actor/75328/",
-                    "description": "Kaspersky Lab's Global Research & Analysis Team. (2016, July 8). The Dropping Elephant \u2013 aggressive cyber-espionage in the Asian region. Retrieved August 3, 2016.",
-                    "source_name": "Securelist Dropping Elephant"
+                    "source_name": "Cymmetria Patchwork",
+                    "description": "Cymmetria. (2016). Unveiling Patchwork - The Copy-Paste APT. Retrieved August 3, 2016."
                 },
                 {
                     "url": "http://www.symantec.com/connect/blogs/patchwork-cyberespionage-group-expands-targets-governments-wide-range-industries",
-                    "description": "Hamada, J.. (2016, July 25). Patchwork cyberespionage group expands targets from governments to wide range of industries. Retrieved August 17, 2016.",
-                    "source_name": "Symantec Patchwork"
+                    "source_name": "Symantec Patchwork",
+                    "description": "Hamada, J.. (2016, July 25). Patchwork cyberespionage group expands targets from governments to wide range of industries. Retrieved August 17, 2016."
+                },
+                {
+                    "url": "https://securelist.com/the-dropping-elephant-actor/75328/",
+                    "source_name": "Securelist Dropping Elephant",
+                    "description": "Kaspersky Lab's Global Research & Analysis Team. (2016, July 8). The Dropping Elephant \u2013 aggressive cyber-espionage in the Asian region. Retrieved August 3, 2016."
                 },
                 {
                     "url": "https://researchcenter.paloaltonetworks.com/2018/03/unit42-patchwork-continues-deliver-badnews-indian-subcontinent/",
-                    "description": "Levene, B. et al.. (2018, March 7). Patchwork Continues to Deliver BADNEWS to the Indian Subcontinent. Retrieved March 31, 2018.",
-                    "source_name": "PaloAlto Patchwork Mar 2018"
+                    "source_name": "PaloAlto Patchwork Mar 2018",
+                    "description": "Levene, B. et al.. (2018, March 7). Patchwork Continues to Deliver BADNEWS to the Indian Subcontinent. Retrieved March 31, 2018."
                 }
             ],
             "object_marking_refs": [

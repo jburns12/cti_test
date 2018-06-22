@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8cc94840-7c9c-4b93-a95f-055d0971512c",
+    "id": "bundle--9edb31b5-2db5-4000-9b9e-1e91fb9f8da9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "intrusion-set--c5947e1c-1cbc-434c-94b8-27c7e3be0fff",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:32:08.682Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "modified": "2018-01-17T12:56:55.080Z",
             "name": "Winnti Group",
             "description": "Winnti Group is a threat group with Chinese origins that has been active since at least 2010. The group has heavily targeted the gaming industry, but it has also expanded the scope of its targeting. Though both this group and Axiom use the malware Winnti, the two groups appear to be distinct based on differences in reporting on the groups' TTPs and targeting. (Citation: Kaspersky Winnti April 2013) (Citation: Kaspersky Winnti June 2015) (Citation: Novetta Winnti April 2015)",
             "aliases": [
@@ -18,36 +18,23 @@
             "external_references": [
                 {
                     "external_id": "G0044",
-                    "url": "https://attack.mitre.org/wiki/Group/G0044",
-                    "source_name": "mitre-attack"
-                },
-                {
-                    "description": "[[Citation: Kaspersky Winnti April 2013]] [[Citation: Kaspersky Winnti June 2015]]",
-                    "source_name": "Winnti Group"
-                },
-                {
-                    "description": "[[Citation: Symantec Suckfly March 2016]]",
-                    "source_name": "Blackfly"
-                },
-                {
-                    "url": "http://www.symantec.com/connect/blogs/suckfly-revealing-secret-life-your-code-signing-certificates",
-                    "description": "DiMaggio, J.. (2016, March 15). Suckfly: Revealing the secret life of your code signing certificates. Retrieved August 3, 2016.",
-                    "source_name": "Symantec Suckfly March 2016"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Group/G0044"
                 },
                 {
                     "url": "https://kasperskycontenthub.com/wp-content/uploads/sites/43/vlpdfs/winnti-more-than-just-a-game-130410.pdf",
-                    "description": "Kaspersky Lab's Global Research and Analysis Team. (2013, April 11). Winnti. More than just a game. Retrieved February 8, 2017.",
-                    "source_name": "Kaspersky Winnti April 2013"
+                    "source_name": "Kaspersky Winnti April 2013",
+                    "description": "Kaspersky Lab's Global Research and Analysis Team. (2013, April 11). Winnti. More than just a game. Retrieved February 8, 2017."
                 },
                 {
                     "url": "https://securelist.com/games-are-over/70991/",
-                    "description": "Tarakanov, D. (2015, June 22). Games are over: Winnti is now targeting pharmaceutical companies. Retrieved January 14, 2016.",
-                    "source_name": "Kaspersky Winnti June 2015"
+                    "source_name": "Kaspersky Winnti June 2015",
+                    "description": "Tarakanov, D. (2015, June 22). Games are over: Winnti is now targeting pharmaceutical companies. Retrieved January 14, 2016."
                 },
                 {
                     "url": "http://www.novetta.com/wp-content/uploads/2015/04/novetta%20winntianalysis.pdf",
-                    "description": "Novetta Threat Research Group. (2015, April 7). Winnti Analysis. Retrieved February 8, 2017.",
-                    "source_name": "Novetta Winnti April 2015"
+                    "source_name": "Novetta Winnti April 2015",
+                    "description": "Novetta Threat Research Group. (2015, April 7). Winnti Analysis. Retrieved February 8, 2017."
                 }
             ],
             "object_marking_refs": [

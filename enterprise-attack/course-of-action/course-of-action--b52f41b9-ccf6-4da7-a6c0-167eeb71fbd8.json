@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--d0f1ca56-2992-435a-bdee-2f536f4e6329",
+    "id": "bundle--52eb3c9b-a2cc-4ca7-b5a6-2b4ab5725721",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--b52f41b9-ccf6-4da7-a6c0-167eeb71fbd8",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-26T15:31:49.970Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "created": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-04-18T17:59:24.739Z",
             "name": "Browser Extensions Mitigation",
             "description": "Only install browser extensions from trusted sources that can be verified. Ensure extensions that are installed are the intended ones as many malicious extensions will masquerade as legitimate ones.\n\nBrowser extensions for some browsers can be controlled through Group Policy. Set a browser extension white or black list as appropriate for your security policy. (Citation: Technospot Chrome Extensions GP)\n\nChange settings to prevent the browser from installing extensions without sufficient permissions.\n\nClose out all browser sessions when finished using them.",
             "external_references": [
                 {
                     "external_id": "T1176",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1176",
-                    "source_name": "mitre-attack"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Technique/T1176"
                 },
                 {
                     "url": "http://www.technospot.net/blogs/block-chrome-extensions-using-google-chrome-group-policy-settings/",
-                    "description": "Mohta, A. (n.d.). Block Chrome Extensions using Google Chrome Group Policy Settings. Retrieved January 10, 2018.",
-                    "source_name": "Technospot Chrome Extensions GP"
+                    "source_name": "Technospot Chrome Extensions GP",
+                    "description": "Mohta, A. (n.d.). Block Chrome Extensions using Google Chrome Group Policy Settings. Retrieved January 10, 2018."
                 }
             ]
         }

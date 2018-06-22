@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--575f5d76-a9aa-4f11-b4d5-84b1ddd573fb",
+    "id": "bundle--8b05f474-e4fa-47aa-a660-4b056645bf3e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "intrusion-set--0ea72cd5-ca30-46ba-bc04-378f701c658f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:32:05.611Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "modified": "2018-01-17T12:56:55.080Z",
             "name": "GCMAN",
             "description": "GCMAN is a threat group that focuses on targeting banks for the purpose of transferring money to e-currency services. (Citation: Securelist GCMAN)",
             "aliases": [
@@ -17,17 +17,13 @@
             "external_references": [
                 {
                     "external_id": "G0036",
-                    "url": "https://attack.mitre.org/wiki/Group/G0036",
-                    "source_name": "mitre-attack"
-                },
-                {
-                    "description": "[[Citation: Securelist GCMAN]]",
-                    "source_name": "GCMAN"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Group/G0036"
                 },
                 {
                     "url": "https://securelist.com/apt-style-bank-robberies-increase-with-metel-gcman-and-carbanak-2-0-attacks/73638/",
-                    "description": "Kaspersky Lab's Global Research & Analysis Team. (2016, February 8). APT-style bank robberies increase with Metel, GCMAN and Carbanak 2.0 attacks. Retrieved April 20, 2016.",
-                    "source_name": "Securelist GCMAN"
+                    "source_name": "Securelist GCMAN",
+                    "description": "Kaspersky Lab's Global Research & Analysis Team. (2016, February 8). APT-style bank robberies increase with Metel, GCMAN and Carbanak 2.0 attacks. Retrieved April 20, 2016."
                 }
             ],
             "object_marking_refs": [

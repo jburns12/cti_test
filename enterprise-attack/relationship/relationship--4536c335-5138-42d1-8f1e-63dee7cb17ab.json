@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d71fdd5d-418e-4257-8b14-f2982ee4453c",
+    "id": "bundle--755b7e8f-0d83-4c02-a0b0-c0da3121f740",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,12 +8,12 @@
             "id": "relationship--4536c335-5138-42d1-8f1e-63dee7cb17ab",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "A Dipsind variant registers as a Winlogon Event Notify DLL to establish persistence. (Citation: Microsoft PLATINUM April 2016)",
+            "modified": "2018-04-18T17:59:24.739Z",
+            "description": "A Dipsind variant registers as a Winlogon Event Notify DLL to establish persistence.",
             "external_references": [
                 {
-                    "description": "Windows Defender Advanced Threat Hunting Team. (2016, April 29). PLATINUM: Targeted attacks in South and Southeast Asia. Retrieved February 15, 2018.",
-                    "source_name": "Microsoft PLATINUM April 2016"
+                    "source_name": "Microsoft PLATINUM April 2016",
+                    "description": "Windows Defender Advanced Threat Hunting Team. (2016, April 29). PLATINUM: Targeted attacks in South and Southeast Asia. Retrieved February 15, 2018."
                 }
             ],
             "object_marking_refs": [

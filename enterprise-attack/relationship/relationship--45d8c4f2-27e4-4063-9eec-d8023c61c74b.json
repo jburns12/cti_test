@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--81e913f1-1e82-4816-a415-19fb52c3e4ca",
+    "id": "bundle--3442c978-7325-4f61-b99e-30236f59754c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,12 +8,12 @@
             "id": "relationship--45d8c4f2-27e4-4063-9eec-d8023c61c74b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "A JPIN variant downloads the backdoor payload via the BITS service. (Citation: Microsoft PLATINUM April 2016)",
+            "modified": "2018-04-18T17:59:24.739Z",
+            "description": "A JPIN variant downloads the backdoor payload via the BITS service.",
             "external_references": [
                 {
-                    "description": "Windows Defender Advanced Threat Hunting Team. (2016, April 29). PLATINUM: Targeted attacks in South and Southeast Asia. Retrieved February 15, 2018.",
-                    "source_name": "Microsoft PLATINUM April 2016"
+                    "source_name": "Microsoft PLATINUM April 2016",
+                    "description": "Windows Defender Advanced Threat Hunting Team. (2016, April 29). PLATINUM: Targeted attacks in South and Southeast Asia. Retrieved February 15, 2018."
                 }
             ],
             "object_marking_refs": [

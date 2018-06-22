@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--af09c533-cc63-4ef1-b144-871f88c4717a",
+    "id": "bundle--31b878b4-b624-431e-a522-f98f0a375d75",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--a2faf818-d21d-40a5-ad02-a3b1b2ee5d58",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "Derusbi is capable of deleting files. It has been observed loading a Linux Kernel Module (LKM) and then deleting it from the hard disk as well as overwriting the data with null bytes. (Citation: Fidelis Turbo) (Citation: FireEye Periscope March 2018)",
+            "modified": "2018-04-18T17:59:24.739Z",
+            "description": "Derusbi is capable of deleting files. It has been observed loading a Linux Kernel Module (LKM) and then deleting it from the hard disk as well as overwriting the data with null bytes.",
             "external_references": [
                 {
                     "url": "https://www.fidelissecurity.com/sites/default/files/TA%20Fidelis%20Turbo%201602%200.pdf",
-                    "description": "Fidelis Cybersecurity. (2016, February 29). The Turbo Campaign, Featuring Derusbi for 64-bit Linux. Retrieved March 2, 2016.",
-                    "source_name": "Fidelis Turbo"
+                    "source_name": "Fidelis Turbo",
+                    "description": "Fidelis Cybersecurity. (2016, February 29). The Turbo Campaign, Featuring Derusbi for 64-bit Linux. Retrieved March 2, 2016."
                 },
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2018/03/suspected-chinese-espionage-group-targeting-maritime-and-engineering-industries.html",
-                    "description": "FireEye. (2018, March 16). Suspected Chinese Cyber Espionage Group (TEMP.Periscope) Targeting U.S. Engineering and Maritime Industries. Retrieved April 11, 2018.",
-                    "source_name": "FireEye Periscope March 2018"
+                    "source_name": "FireEye Periscope March 2018",
+                    "description": "FireEye. (2018, March 16). Suspected Chinese Cyber Espionage Group (TEMP.Periscope) Targeting U.S. Engineering and Maritime Industries. Retrieved April 11, 2018."
                 }
             ],
             "object_marking_refs": [

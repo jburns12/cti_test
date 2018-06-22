@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e3b872a7-3068-4444-b4c2-7d3aa1720bd4",
+    "id": "bundle--53cbd405-7987-4fc3-b376-78d3cb97b86f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:32:04.588Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "modified": "2018-01-17T12:56:55.080Z",
             "name": "Sandworm Team",
             "description": "Sandworm Team is a cyber espionage group that has operated since approximately 2009 and has been attributed to Russia. (Citation: iSIGHT Sandworm 2014)",
             "aliases": [
@@ -18,31 +18,13 @@
             "external_references": [
                 {
                     "external_id": "G0034",
-                    "url": "https://attack.mitre.org/wiki/Group/G0034",
-                    "source_name": "mitre-attack"
-                },
-                {
-                    "description": "[[Citation: iSIGHT Sandworm 2014]] [[Citation: F-Secure BlackEnergy 2014]] [[Citation: InfoSecurity Sandworm Oct 2014]]",
-                    "source_name": "Sandworm Team"
-                },
-                {
-                    "description": "Based on similarities between TTPs, malware, and targeting, Sandworm Team and Quedagh appear to refer to the same group. [[Citation: iSIGHT Sandworm 2014]] [[Citation: F-Secure BlackEnergy 2014]]",
-                    "source_name": "Quedagh"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Group/G0034"
                 },
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2016/01/ukraine-and-sandworm-team.html",
-                    "description": "Hultquist, J.. (2016, January 7). Sandworm Team and the Ukrainian Power Authority Attacks. Retrieved October 6, 2017.",
-                    "source_name": "iSIGHT Sandworm 2014"
-                },
-                {
-                    "url": "https://www.f-secure.com/documents/996508/1030745/blackenergy%20whitepaper.pdf",
-                    "description": "F-Secure Labs. (2014). BlackEnergy & Quedagh: The convergence of crimeware and APT attacks. Retrieved March 24, 2016.",
-                    "source_name": "F-Secure BlackEnergy 2014"
-                },
-                {
-                    "url": "https://www.infosecurity-magazine.com/news/microsoft-zero-day-traced-russian/",
-                    "description": "Muncaster, P.. (2014, October 14). Microsoft Zero Day Traced to Russian \u2018Sandworm\u2019 Hackers. Retrieved October 6, 2017.",
-                    "source_name": "InfoSecurity Sandworm Oct 2014"
+                    "source_name": "iSIGHT Sandworm 2014",
+                    "description": "Hultquist, J.. (2016, January 7). Sandworm Team and the Ukrainian Power Authority Attacks. Retrieved October 6, 2017."
                 }
             ],
             "object_marking_refs": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--928b5bf9-cdb6-4986-a056-2bb884542992",
+    "id": "bundle--e040b0be-318f-4568-a082-2d1ef888c9a6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--7e221899-d90a-4c9a-8ea4-77110c45f0f9",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.068Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "Some Lazarus Group malware uses multiple channels for C2, such as RomeoWhiskey-Two, which consists of a RAT channel that parses data in datagram form and a Proxy channel that forms virtual point-to-point sessions. (Citation: Novetta Blockbuster RATs)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "Some Lazarus Group malware uses multiple channels for C2, such as RomeoWhiskey-Two, which consists of a RAT channel that parses data in datagram form and a Proxy channel that forms virtual point-to-point sessions.",
             "external_references": [
                 {
                     "url": "https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Report.pdf",
-                    "description": "Novetta Threat Research Group. (2016, February 24). Operation Blockbuster: Unraveling the Long Thread of the Sony Attack. Retrieved February 25, 2016.",
-                    "source_name": "Novetta Blockbuster"
+                    "source_name": "Novetta Blockbuster",
+                    "description": "Novetta Threat Research Group. (2016, February 24). Operation Blockbuster: Unraveling the Long Thread of the Sony Attack. Retrieved February 25, 2016."
                 },
                 {
                     "url": "https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-RAT-and-Staging-Report.pdf",
-                    "description": "Novetta Threat Research Group. (2016, February 24). Operation Blockbuster: Remote Administration Tools & Content Staging Malware Report. Retrieved March 16, 2016.",
-                    "source_name": "Novetta Blockbuster RATs"
+                    "source_name": "Novetta Blockbuster RATs",
+                    "description": "Novetta Threat Research Group. (2016, February 24). Operation Blockbuster: Remote Administration Tools & Content Staging Malware Report. Retrieved March 16, 2016."
                 }
             ],
             "object_marking_refs": [

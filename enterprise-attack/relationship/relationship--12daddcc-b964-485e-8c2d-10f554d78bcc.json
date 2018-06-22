@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--10e9923f-8651-4a16-be56-5e6aad9b1aa1",
+    "id": "bundle--fe3f8b4a-ad36-46c4-8d88-b920f8ca79de",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--12daddcc-b964-485e-8c2d-10f554d78bcc",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "OilRig malware ISMAgent falls back to its DNS tunneling mechanism if it is unable to reach the C2 server over HTTP. (Citation: OilRig ISMAgent July 2017)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "OilRig malware ISMAgent falls back to its DNS tunneling mechanism if it is unable to reach the C2 server over HTTP.",
             "external_references": [
                 {
                     "url": "https://researchcenter.paloaltonetworks.com/2017/07/unit42-oilrig-uses-ismdoor-variant-possibly-linked-greenbug-threat-group/",
-                    "description": "Falcone, R. and Lee, B. (2017, July 27). OilRig Uses ISMDoor Variant; Possibly Linked to Greenbug Threat Group. Retrieved January 8, 2018.",
-                    "source_name": "OilRig ISMAgent July 2017"
+                    "source_name": "OilRig ISMAgent July 2017",
+                    "description": "Falcone, R. and Lee, B. (2017, July 27). OilRig Uses ISMDoor Variant; Possibly Linked to Greenbug Threat Group. Retrieved January 8, 2018."
                 }
             ],
             "object_marking_refs": [

@@ -1,31 +1,31 @@
 {
     "type": "bundle",
-    "id": "bundle--b680f1ca-c0f6-4f50-8a5b-609384e9d60b",
+    "id": "bundle--f4befb01-c4b1-4856-9287-ba4f0db1c635",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--97d8eadb-0459-4c1d-bf1a-e053bd75df61",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-26T15:31:49.970Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "created": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-04-18T17:59:24.739Z",
             "name": "Supply Chain Compromise Mitigation",
             "description": "Apply supply chain risk management (SCRM) practices and procedures (Citation: MITRE SE Guide 2014), such as supply chain analysis and appropriate risk management, throughout the life-cycle of a system.\n\nLeverage established software development lifecycle (SDLC) practices (Citation: NIST Supply Chain 2012): \n* Uniquely Identify Supply Chain Elements, Processes, and Actors\n* Limit Access and Exposure within the Supply Chain\n* Establish and Maintain the Provenance of Elements, Processes, Tools, and Data\n* Share Information within Strict Limits\n* Perform SCRM Awareness and Training\n* Use Defensive Design for Systems, Elements, and Processes\n* Perform Continuous Integrator Review\n* Strengthen Delivery Mechanisms\n* Assure Sustainment Activities and Processes\n* Manage Disposal and Final Disposition Activities throughout the System or Element Life Cycle",
             "external_references": [
                 {
                     "external_id": "T1195",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1195",
-                    "source_name": "mitre-attack"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Technique/T1195"
                 },
                 {
                     "url": "https://www.mitre.org/sites/default/files/publications/se-guide-book-interactive.pdf",
-                    "description": "The MITRE Corporation. (2014). MITRE Systems Engineering Guide. Retrieved April 6, 2018.",
-                    "source_name": "MITRE SE Guide 2014"
+                    "source_name": "MITRE SE Guide 2014",
+                    "description": "The MITRE Corporation. (2014). MITRE Systems Engineering Guide. Retrieved April 6, 2018."
                 },
                 {
                     "url": "http://dx.doi.org/10.6028/NIST.IR.7622",
-                    "description": "Boyens, J,. Et al.. (2002, October). Notional Supply Chain Risk Management Practices for Federal Information Systems. Retrieved April 6, 2018.",
-                    "source_name": "NIST Supply Chain 2012"
+                    "source_name": "NIST Supply Chain 2012",
+                    "description": "Boyens, J,. Et al.. (2002, October). Notional Supply Chain Risk Management Practices for Federal Information Systems. Retrieved April 6, 2018."
                 }
             ]
         }

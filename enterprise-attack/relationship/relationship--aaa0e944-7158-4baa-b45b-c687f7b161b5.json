@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6d28c1f9-80f2-403b-8bb1-04172ba449d6",
+    "id": "bundle--a699d500-4244-46bd-b492-21f97194e18f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--aaa0e944-7158-4baa-b45b-c687f7b161b5",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "PowerSploit's <code>Invoke-Kerberoast</code> module can request service tickets and return crackable ticket hashes. (Citation: PowerSploit Invoke Kerberoast) (Citation: Harmj0y Kerberoast Nov 2016)",
+            "modified": "2018-04-18T17:59:24.739Z",
+            "description": "PowerSploit's <code>Invoke-Kerberoast</code> module can request service tickets and return crackable ticket hashes.",
             "external_references": [
                 {
                     "url": "https://powersploit.readthedocs.io/en/latest/Recon/Invoke-Kerberoast/",
-                    "description": "Schroeder, W. & Hart M. (2016, October 31). Invoke-Kerberoast. Retrieved March 23, 2018.",
-                    "source_name": "PowerSploit Invoke Kerberoast"
+                    "source_name": "PowerSploit Invoke Kerberoast",
+                    "description": "Schroeder, W. & Hart M. (2016, October 31). Invoke-Kerberoast. Retrieved March 23, 2018."
                 },
                 {
                     "url": "https://www.harmj0y.net/blog/powershell/kerberoasting-without-mimikatz/",
-                    "description": "Schroeder, W. (2016, November 1). Kerberoasting Without Mimikatz. Retrieved March 23, 2018.",
-                    "source_name": "Harmj0y Kerberoast Nov 2016"
+                    "source_name": "Harmj0y Kerberoast Nov 2016",
+                    "description": "Schroeder, W. (2016, November 1). Kerberoasting Without Mimikatz. Retrieved March 23, 2018."
                 }
             ],
             "object_marking_refs": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1875908b-8dcd-4b06-b821-03d61cc7ba66",
+    "id": "bundle--78242e36-28b7-4af1-9dca-00b012c51568",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--c7420523-7dc0-4118-a075-93f9c0268627",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "The \"tDiscoverer\" variant of HAMMERTOSS establishes a C2 channel by downloading resources from Web services like Twitter and GitHub. HAMMERTOSS binaries contain an algorithm that generates a different Twitter handle for the malware to check for instructions every day. (Citation: FireEye APT29)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "The \"tDiscoverer\" variant of HAMMERTOSS establishes a C2 channel by downloading resources from Web services like Twitter and GitHub. HAMMERTOSS binaries contain an algorithm that generates a different Twitter handle for the malware to check for instructions every day.",
             "external_references": [
                 {
                     "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf",
-                    "description": "FireEye Labs. (2015, July). HAMMERTOSS: Stealthy Tactics Define a Russian Cyber Threat Group. Retrieved September 17, 2015.",
-                    "source_name": "FireEye APT29"
+                    "source_name": "FireEye APT29",
+                    "description": "FireEye Labs. (2015, July). HAMMERTOSS: Stealthy Tactics Define a Russian Cyber Threat Group. Retrieved September 17, 2015."
                 }
             ],
             "object_marking_refs": [

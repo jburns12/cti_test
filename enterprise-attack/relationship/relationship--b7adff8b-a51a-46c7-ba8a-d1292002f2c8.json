@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--836dbdad-5990-4859-835a-4da32e9dff04",
+    "id": "bundle--5ba12a2a-1124-42c9-89b6-80674b6e00a6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--b7adff8b-a51a-46c7-ba8a-d1292002f2c8",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "Naid connects to C2 infrastructure and establishes backdoors over a custom communications protocol. (Citation: Symantec Naid June 2012) (Citation: Symantec Naid in the Wild June 2012)",
+            "modified": "2018-04-18T17:59:24.739Z",
+            "description": "Naid connects to C2 infrastructure and establishes backdoors over a custom communications protocol.",
             "external_references": [
                 {
                     "url": "https://www.symantec.com/security%20response/writeup.jsp?docid=2012-061518-4639-99",
-                    "description": "Neville, A. (2012, June 15). Trojan.Naid. Retrieved February 22, 2018.",
-                    "source_name": "Symantec Naid June 2012"
+                    "source_name": "Symantec Naid June 2012",
+                    "description": "Neville, A. (2012, June 15). Trojan.Naid. Retrieved February 22, 2018."
                 },
                 {
                     "url": "https://www.symantec.com/connect/blogs/cve-2012-1875-exploited-wild-part-1-trojannaid",
-                    "description": "Symantec Security Response. (2012, June 18). CVE-2012-1875 Exploited in the Wild - Part 1 (Trojan.Naid). Retrieved February 22, 2018.",
-                    "source_name": "Symantec Naid in the Wild June 2012"
+                    "source_name": "Symantec Naid in the Wild June 2012",
+                    "description": "Symantec Security Response. (2012, June 18). CVE-2012-1875 Exploited in the Wild - Part 1 (Trojan.Naid). Retrieved February 22, 2018."
                 }
             ],
             "object_marking_refs": [

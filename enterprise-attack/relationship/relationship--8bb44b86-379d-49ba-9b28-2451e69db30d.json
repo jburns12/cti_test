@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b283d20f-5912-4bf6-a901-6e1ffc91a372",
+    "id": "bundle--83922b06-1ca6-4b7c-941c-689d7126d459",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--8bb44b86-379d-49ba-9b28-2451e69db30d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.076Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "Patchwork collected the victim username and whether it was running as admin, then sent the information to its C2 server. (Citation: Cymmetria Patchwork)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "Patchwork collected the victim username and whether it was running as admin, then sent the information to its C2 server.",
             "external_references": [
                 {
                     "url": "https://s3-us-west-2.amazonaws.com/cymmetria-blog/public/Unveiling%20Patchwork.pdf",
-                    "description": "Cymmetria. (2016). Unveiling Patchwork - The Copy-Paste APT. Retrieved August 3, 2016.",
-                    "source_name": "Cymmetria Patchwork"
+                    "source_name": "Cymmetria Patchwork",
+                    "description": "Cymmetria. (2016). Unveiling Patchwork - The Copy-Paste APT. Retrieved August 3, 2016."
                 }
             ],
             "object_marking_refs": [

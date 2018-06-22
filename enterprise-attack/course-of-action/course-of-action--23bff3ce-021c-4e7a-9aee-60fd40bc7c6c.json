@@ -1,21 +1,21 @@
 {
     "type": "bundle",
-    "id": "bundle--c4b620f4-7884-4b25-8fd5-9b6c855c1002",
+    "id": "bundle--edd753a8-4d9c-44e6-b572-79e1ed03e879",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--23bff3ce-021c-4e7a-9aee-60fd40bc7c6c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-26T15:31:49.970Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "created": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-04-18T17:59:24.739Z",
             "name": "Sudo Mitigation",
             "description": "The sudoers file should be strictly edited such that passwords are always required and that users can\u2019t spawn risky processes as users with higher privilege. By requiring a password, even if an adversary can get terminal access, they must know the password to run anything in the sudoers file.",
             "external_references": [
                 {
                     "external_id": "T1169",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1169",
-                    "source_name": "mitre-attack"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Technique/T1169"
                 }
             ]
         }

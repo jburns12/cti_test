@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--96a3977b-4c21-4551-a7de-ee2468a3a6be",
+    "id": "bundle--25e3f9c4-4514-4ef1-887f-662d4f7ac3fe",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--e7eab98d-ae11-4491-bd28-a53ba875865a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:31:38.350Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "modified": "2018-04-18T17:59:24.739Z",
             "name": "Network Share Connection Removal",
-            "description": "Windows shared drive and Windows Admin Shares Mitigation connections can be removed when no longer needed. Net is an example utility that can be used to remove network share connections with the <code>net use \\\\system\\share /delete</code> command. (Citation: Technet Net Use)\n\nAdversaries may remove share connections that are no longer useful in order to clean up traces of their operation.\n\nDetection: Network share connections may be common depending on how an network environment is used. Monitor command-line invocation of <code>net use</code> commands associated with establishing and removing remote shares over SMB, including following best practices for detection of Windows Admin Shares Mitigation. SMB traffic between systems may also be captured and decoded to look for related network share session and file transfer activity. Windows authentication logs are also useful in determining when authenticated network shares are established and by which account, and can be used to correlate network share activity to other events to investigate potentially malicious activity.\n\nPlatforms: Windows\n\nData Sources: Process monitoring, Process command-line parameters, Packet capture, Authentication logs\n\nDefense Bypassed: Host forensic analysis\n\nPermissions Required: Administrator, User\n\nSystem Requirements: Established network share connection to a remote system. Level of access depends on permissions of the account used.",
+            "description": "Windows shared drive and Windows Admin Shares connections can be removed when no longer needed. Net is an example utility that can be used to remove network share connections with the <code>net use \\\\system\\share /delete</code> command. (Citation: Technet Net Use)\n\nAdversaries may remove share connections that are no longer useful in order to clean up traces of their operation.\n\nDetection: Network share connections may be common depending on how an network environment is used. Monitor command-line invocation of <code>net use</code> commands associated with establishing and removing remote shares over SMB, including following best practices for detection of Windows Admin Shares. SMB traffic between systems may also be captured and decoded to look for related network share session and file transfer activity. Windows authentication logs are also useful in determining when authenticated network shares are established and by which account, and can be used to correlate network share activity to other events to investigate potentially malicious activity.\n\nPlatforms: Windows\n\nData Sources: Process monitoring, Process command-line parameters, Packet capture, Authentication logs\n\nDefense Bypassed: Host forensic analysis\n\nPermissions Required: User, Administrator\n\nSystem Requirements: Established network share connection to a remote system. Level of access depends on permissions of the account used.",
             "kill_chain_phases": [
                 {
                     "phase_name": "defense-evasion",
@@ -20,13 +20,13 @@
             "external_references": [
                 {
                     "external_id": "T1126",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1126",
-                    "source_name": "mitre-attack"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Technique/T1126"
                 },
                 {
                     "url": "https://technet.microsoft.com/bb490717.aspx",
-                    "description": "Microsoft. (n.d.). Net Use. Retrieved November 25, 2016.",
-                    "source_name": "Technet Net Use"
+                    "source_name": "Technet Net Use",
+                    "description": "Microsoft. (n.d.). Net Use. Retrieved November 25, 2016."
                 }
             ],
             "object_marking_refs": [
@@ -45,8 +45,8 @@
                 "Host forensic analysis"
             ],
             "x_mitre_permissions_required": [
-                "Administrator",
-                "User"
+                "User",
+                "Administrator"
             ],
             "x_mitre_system_requirements": [
                 "Established network share connection to a remote system. Level of access depends on permissions of the account used."

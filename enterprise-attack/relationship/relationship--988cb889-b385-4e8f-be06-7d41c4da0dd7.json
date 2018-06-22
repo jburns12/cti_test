@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--87120ed4-83e4-4627-ad2f-f1acf0d1f4b9",
+    "id": "bundle--3d268fe8-80f5-4bfd-b305-159a7f63c3a9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--988cb889-b385-4e8f-be06-7d41c4da0dd7",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "JHUHUGIT has used COM hijacking to establish persistence by hijacking a class named MMDeviceEnumerator and also by registering the payload as a Shell Icon Overlay handler COM object ({3543619C-D563-43f7-95EA-4DA7E1CC396A}). (Citation: ESET Sednit Part 1)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "JHUHUGIT has used COM hijacking to establish persistence by hijacking a class named MMDeviceEnumerator and also by registering the payload as a Shell Icon Overlay handler COM object ({3543619C-D563-43f7-95EA-4DA7E1CC396A}).",
             "external_references": [
                 {
                     "url": "http://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part1.pdf",
-                    "description": "ESET. (2016, October). En Route with Sednit - Part 1: Approaching the Target. Retrieved November 8, 2016.",
-                    "source_name": "ESET Sednit Part 1"
+                    "source_name": "ESET Sednit Part 1",
+                    "description": "ESET. (2016, October). En Route with Sednit - Part 1: Approaching the Target. Retrieved November 8, 2016."
                 }
             ],
             "object_marking_refs": [

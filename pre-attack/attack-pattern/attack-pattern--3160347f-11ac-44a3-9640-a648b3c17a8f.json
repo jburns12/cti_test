@@ -1,0 +1,36 @@
+{
+    "type": "bundle",
+    "id": "bundle--97f0bd56-2616-4540-a144-6a1f16e01284",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--3160347f-11ac-44a3-9640-a648b3c17a8f",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-04-18T17:59:24.739Z",
+            "name": "Private whois services",
+            "description": "Every domain registrar maintains a publicly viewable database that displays contact information for every registered domain. Private 'whois' services display alternative information, such as their own company data, rather than the owner of the domain. (Citation: APT1)\n\nDetectable by Common Defenses: Yes\n\nDetectable by Common Defenses explanation: Algorithmically possible to detect COTS service usage or use of non-specific mailing addresses (PO Boxes, drop sites, etc.)\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: Commercially available or easy to set up and/or register using a disposable email account.",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "adversary-opsec",
+                    "kill_chain_name": "mitre-pre-attack"
+                }
+            ],
+            "external_references": [
+                {
+                    "external_id": "PRE-T1082",
+                    "source_name": "mitre-pre-attack",
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1082"
+                },
+                {
+                    "source_name": "APT1",
+                    "description": "Mandiant. (n.d.). APT1: Exposing One of China\u2019s Cyber Espionage Units. Retrieved March 5, 2017."
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ]
+        }
+    ]
+}

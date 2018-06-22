@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--36785bcb-5611-4f9f-a19f-86c82d3d3e6d",
+    "id": "bundle--f693f922-afcb-41af-908f-a09cbcb8b5f0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--b8e6bb17-9652-464d-8e5d-bd21e1f69a2e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "TEXTMATE executes cmd.exe to provide a reverse shell to adversaries. (Citation: FireEye FIN7 March 2017) (Citation: Cisco DNSMessenger March 2017)",
+            "modified": "2018-04-18T17:59:24.739Z",
+            "description": "TEXTMATE executes cmd.exe to provide  a reverse shell to adversaries.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/03/fin7%20spear%20phishing.html",
-                    "description": "Miller, S., et al. (2017, March 7). FIN7 Spear Phishing Campaign Targets Personnel Involved in SEC Filings. Retrieved March 8, 2017.",
-                    "source_name": "FireEye FIN7 March 2017"
+                    "source_name": "FireEye FIN7 March 2017",
+                    "description": "Miller, S., et al. (2017, March 7). FIN7 Spear Phishing Campaign Targets Personnel Involved in SEC Filings. Retrieved March 8, 2017."
                 },
                 {
                     "url": "http://blog.talosintelligence.com/2017/03/dnsmessenger.html",
-                    "description": "Brumaghin, E. and Grady, C.. (2017, March 2). Covert Channels and Poor Decisions: The Tale of DNSMessenger. Retrieved March 8, 2017.",
-                    "source_name": "Cisco DNSMessenger March 2017"
+                    "source_name": "Cisco DNSMessenger March 2017",
+                    "description": "Brumaghin, E. and Grady, C.. (2017, March 2). Covert Channels and Poor Decisions: The Tale of DNSMessenger. Retrieved March 8, 2017."
                 }
             ],
             "object_marking_refs": [

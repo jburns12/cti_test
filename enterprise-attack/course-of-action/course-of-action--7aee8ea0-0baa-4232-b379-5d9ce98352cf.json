@@ -1,21 +1,21 @@
 {
     "type": "bundle",
-    "id": "bundle--34913ff0-ab02-4bc7-99f0-3f725cdc1a42",
+    "id": "bundle--0044f20b-fe86-4fe7-a249-89340bbd7c36",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--7aee8ea0-0baa-4232-b379-5d9ce98352cf",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-26T15:31:49.970Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "created": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-04-18T17:59:24.739Z",
             "name": "Hooking Mitigation",
             "description": "This type of attack technique cannot be easily mitigated with preventive controls since it is based on the abuse of operating system design features. For example, mitigating all hooking will likely have unintended side effects, such as preventing legitimate software (i.e., security products) from operating properly. Efforts should be focused on preventing adversary tools from running earlier in the chain of activity and on identifying subsequent malicious behavior.",
             "external_references": [
                 {
                     "external_id": "T1179",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1179",
-                    "source_name": "mitre-attack"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Technique/T1179"
                 }
             ]
         }

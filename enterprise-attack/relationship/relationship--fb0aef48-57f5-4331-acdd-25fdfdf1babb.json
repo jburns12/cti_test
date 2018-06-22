@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--479ec605-798b-48d1-af61-37ca747d430c",
+    "id": "bundle--899ef8ba-435b-400d-b466-6fa374cd11ab",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--fb0aef48-57f5-4331-acdd-25fdfdf1babb",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "S-Type runs the command <code>net user</code> on a victim. S-Type also runs tests to determine the privilege level of the compromised user. (Citation: Cylance Dust Storm)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "S-Type runs the command <code>net user</code> on a victim. S-Type also runs tests to determine the privilege level of the compromised user.",
             "external_references": [
                 {
                     "url": "https://www.cylance.com/content/dam/cylance/pdfs/reports/Op%20Dust%20Storm%20Report.pdf",
-                    "description": "Gross, J. (2016, February 23). Operation Dust Storm. Retrieved September 19, 2017.",
-                    "source_name": "Cylance Dust Storm"
+                    "source_name": "Cylance Dust Storm",
+                    "description": "Gross, J. (2016, February 23). Operation Dust Storm. Retrieved September 19, 2017."
                 }
             ],
             "object_marking_refs": [

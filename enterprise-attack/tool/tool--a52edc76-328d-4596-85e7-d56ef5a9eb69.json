@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8b56f030-1e85-4fa9-8870-482bbf32021a",
+    "id": "bundle--503beede-98a2-4986-8747-6c1abce054c2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,31 +8,26 @@
             "id": "tool--a52edc76-328d-4596-85e7-d56ef5a9eb69",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:11.426Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "modified": "2018-01-17T12:56:55.080Z",
             "name": "Pass-The-Hash Toolkit",
-            "description": "Pass-The-Hash Toolkit is a toolkit that allows an adversary to \"pass\" a password hash (without knowing the original password) to log in to systems. (Citation: Mandiant APT1)\n\nPlatforms: Linux, Windows, macOS\n\nAliases: Pass-The-Hash Toolkit",
+            "description": "Pass-The-Hash Toolkit is a toolkit that allows an adversary to \"pass\" a password hash (without knowing the original password) to log in to systems. (Citation: Mandiant APT1)\n\nAliases: Pass-The-Hash Toolkit",
             "labels": [
                 "tool"
             ],
             "external_references": [
                 {
                     "external_id": "S0122",
-                    "url": "https://attack.mitre.org/wiki/Software/S0122",
-                    "source_name": "mitre-attack"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Software/S0122"
                 },
                 {
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf",
-                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016.",
-                    "source_name": "Mandiant APT1"
+                    "source_name": "Mandiant APT1",
+                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016."
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "x_mitre_platforms": [
-                "Linux",
-                "Windows",
-                "macOS"
             ],
             "x_mitre_aliases": [
                 "Pass-The-Hash Toolkit"

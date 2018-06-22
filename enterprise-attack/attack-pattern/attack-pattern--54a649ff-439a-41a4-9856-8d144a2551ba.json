@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4122cfb4-7141-4f08-9225-d87fef8ca657",
+    "id": "bundle--f0e05d8a-a711-40f5-8ef3-256dea296f6c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--54a649ff-439a-41a4-9856-8d144a2551ba",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:30:29.858Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "modified": "2018-04-18T17:59:24.739Z",
             "name": "Remote Services",
-            "description": "An adversary may use Valid Accounts Mitigation to log into a service specifically designed to accept remote connections, such as telnet, SSH, and VNC. The adversary may then perform actions as the logged-on user.\n\nDetection: Correlate use of login activity related to remote services with unusual behavior or other malicious or suspicious activity. Adversaries will likely need to learn about an environment and the relationships between systems through Discovery techniques prior to attempting Lateral Movement.\n\nPlatforms: Linux, macOS, Windows\n\nData Sources: Authentication logs\n\nSystem Requirements: Active remote service accepting connections and valid credentials",
+            "description": "An adversary may use Valid Accounts to log into a service specifically designed to accept remote connections, such as telnet, SSH, and VNC. The adversary may then perform actions as the logged-on user.\n\nDetection: Correlate use of login activity related to remote services with unusual behavior or other malicious or suspicious activity. Adversaries will likely need to learn about an environment and the relationships between systems through Discovery techniques prior to attempting Lateral Movement.\n\nPlatforms: Linux, macOS, Windows\n\nData Sources: Authentication logs\n\nSystem Requirements: Active remote service accepting connections and valid credentials",
             "kill_chain_phases": [
                 {
                     "phase_name": "lateral-movement",
@@ -20,8 +20,8 @@
             "external_references": [
                 {
                     "external_id": "T1021",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1021",
-                    "source_name": "mitre-attack"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Technique/T1021"
                 }
             ],
             "object_marking_refs": [

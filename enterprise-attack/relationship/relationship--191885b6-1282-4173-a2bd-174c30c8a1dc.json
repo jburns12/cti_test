@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3c00e3f7-026b-4a87-a18f-9b274fddadbf",
+    "id": "bundle--d63bd75d-4b89-4b78-a481-87b5d2a9d6bf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--191885b6-1282-4173-a2bd-174c30c8a1dc",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "Variants of WEBC2 achieve persistence by using DLL search order hijacking, usually by copying the DLL file to <code>%SYSTEMROOT%</code> (<code>C:\\WINDOWS\\ntshrui.dll</code>). (Citation: Mandiant APT1 Appendix)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "Variants of WEBC2 achieve persistence by using DLL search order hijacking, usually by copying the DLL file to <code>%SYSTEMROOT%</code> (<code>C:\\WINDOWS\\ntshrui.dll</code>).",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report-appendix.zip",
-                    "description": "Mandiant. (n.d.). Appendix C (Digital) - The Malware Arsenal. Retrieved July 18, 2016.",
-                    "source_name": "Mandiant APT1 Appendix"
+                    "source_name": "Mandiant APT1 Appendix",
+                    "description": "Mandiant. (n.d.). Appendix C (Digital) - The Malware Arsenal. Retrieved July 18, 2016."
                 }
             ],
             "object_marking_refs": [

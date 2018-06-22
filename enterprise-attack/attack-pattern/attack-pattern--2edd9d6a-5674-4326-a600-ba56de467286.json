@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--88ce6011-bdfe-4128-8cd4-c9afcc7eda8a",
+    "id": "bundle--a846d468-4320-4cd3-b58a-1a78026d32b5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--2edd9d6a-5674-4326-a600-ba56de467286",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "modified": "2018-04-18T17:59:24.739Z",
             "name": "Credentials in Registry",
-            "description": "The Windows Registry stores configuration information that can be used by the system or other programs. Adversaries may query the Registry looking for credentials and passwords that have been stored for use by other programs or services. Sometimes these credentials are used for automatic logons.\n\nExample commands to find Registry keys related to password information: (Citation: Pentestlab Stored Credentials)\n*Local Machine Hive: <code>reg query HKLM /f password /t REG_SZ /s</code>\n*Current User Hive: <code>reg query HKCU /f password /t REG_SZ /s</code>\n\nDetection: Monitor processes for applications that can be used to query the Registry, such as Reg, and collect command parameters that may indicate credentials are being searched. Correlate activity with related suspicious behavior that may indicate an active intrusion to reduce false positives.\n\nPlatforms: Windows\n\nData Sources: Windows Registry, Process command-line parameters, Process Monitoring\n\nPermissions Required: User, Administrator\n\nSystem Requirements: Ability to query some Registry locations depends on the adversary's level of access. User permissions are usually limited to access of user-related Registry keys.\n\nMITRE Contributors: Sudhanshu Chauhan, @Sudhanshu_C",
+            "description": "The Windows Registry stores configuration information that can be used by the system or other programs. Adversaries may query the Registry looking for credentials and passwords that have been stored for use by other programs or services. Sometimes these credentials are used for automatic logons.\n\nExample commands to find Registry keys related to password information: (Citation: Pentestlab Stored Credentials)\n*Local Machine Hive: <code>reg query HKLM /f password /t REG_SZ /s</code>\n*Current User Hive: <code>reg query HKCU /f password /t REG_SZ /s</code>\n\nDetection: Monitor processes for applications that can be used to query the Registry, such as Reg, and collect command parameters that may indicate credentials are being searched. Correlate activity with related suspicious behavior that may indicate an active intrusion to reduce false positives.\n\nPlatforms: Windows\n\nData Sources: Windows Registry, Process command-line parameters, Process Monitoring\n\nPermissions Required: User, Administrator\n\nSystem Requirements: Ability to query some Registry locations depends on the adversary's level of access. User permissions are usually limited to access of user-related Registry keys.\n\nContributors: Sudhanshu Chauhan, @Sudhanshu_C",
             "kill_chain_phases": [
                 {
                     "phase_name": "credential-access",
@@ -20,13 +20,13 @@
             "external_references": [
                 {
                     "external_id": "T1214",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1214",
-                    "source_name": "mitre-attack"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Technique/T1214"
                 },
                 {
                     "url": "https://pentestlab.blog/2017/04/19/stored-credentials/",
-                    "description": "netbiosX. (2017, April 19). Stored Credentials. Retrieved April 6, 2018.",
-                    "source_name": "Pentestlab Stored Credentials"
+                    "source_name": "Pentestlab Stored Credentials",
+                    "description": "netbiosX. (2017, April 19). Stored Credentials. Retrieved April 6, 2018."
                 }
             ],
             "object_marking_refs": [

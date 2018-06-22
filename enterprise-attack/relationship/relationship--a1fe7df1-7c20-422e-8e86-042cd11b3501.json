@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7df98472-e8cf-4317-ac34-88d44d5734fc",
+    "id": "bundle--1dcbddb5-406e-4fb9-b99e-55cf1b3c74c3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--a1fe7df1-7c20-422e-8e86-042cd11b3501",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.038Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "APT28 used SMTP as a communication channel in various implants, initially using self-registered Google Mail accounts and later compromised email servers of its victims. Later implants such as CHOPSTICK use a blend of HTTP and other legitimate channels, depending on module configuration. (Citation: FireEye APT28)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "APT28 used SMTP as a communication channel in various implants, initially using self-registered Google Mail accounts and later compromised email servers of its victims. Later implants such as CHOPSTICK use a blend of HTTP and other legitimate channels, depending on module configuration.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf",
-                    "description": "FireEye. (2015). APT28: A WINDOW INTO RUSSIA\u2019S CYBER ESPIONAGE OPERATIONS?. Retrieved August 19, 2015.",
-                    "source_name": "FireEye APT28"
+                    "source_name": "FireEye APT28",
+                    "description": "FireEye. (2015). APT28: A WINDOW INTO RUSSIA\u2019S CYBER ESPIONAGE OPERATIONS?. Retrieved August 19, 2015."
                 }
             ],
             "object_marking_refs": [

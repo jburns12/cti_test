@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--950f8b76-dd39-4a5f-bec6-5b94aff3dda5",
+    "id": "bundle--5a09efeb-5871-4b55-b157-d7f53d023cc3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--54188543-7746-4158-9a9f-5556bb99ec7a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "A backdoor used by APT29 created a Tor hidden service to forward traffic from the Tor client to local ports 3389 (RDP), 139 (Netbios), and 445 (SMB) enabling full remote access from outside the network. (Citation: Mandiant No Easy Breach)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "A backdoor used by APT29 created a Tor hidden service to forward traffic from the Tor client to local ports 3389 (RDP), 139 (Netbios), and 445 (SMB) enabling full remote access from outside the network.",
             "external_references": [
                 {
                     "url": "http://www.slideshare.net/MatthewDunwoody1/no-easy-breach-derby-con-2016",
-                    "description": "Dunwoody, M. and Carr, N.. (2016, September 27). No Easy Breach DerbyCon 2016. Retrieved October 4, 2016.",
-                    "source_name": "Mandiant No Easy Breach"
+                    "source_name": "Mandiant No Easy Breach",
+                    "description": "Dunwoody, M. and Carr, N.. (2016, September 27). No Easy Breach DerbyCon 2016. Retrieved October 4, 2016."
                 }
             ],
             "object_marking_refs": [

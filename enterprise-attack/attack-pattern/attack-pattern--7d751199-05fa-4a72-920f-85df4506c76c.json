@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6d4aee14-c09c-46d5-94b1-4f570d3ee73a",
+    "id": "bundle--3a13d84a-1a92-42e0-bb47-a3b3eb08ca83",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--7d751199-05fa-4a72-920f-85df4506c76c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "modified": "2018-04-18T17:59:24.739Z",
             "name": "Multi-hop Proxy",
-            "description": "To disguise the source of malicious traffic, adversaries may chain together multiple proxies. Typically, a defender will be able to identify the last proxy traffic traversed before it enters their network; the defender may or may not be able to identify any previous proxies before the last-hop proxy.  This technique makes identifying the original source of the malicious traffic even more difficult by requiring the defender to trace malicious traffic through several proxies to identify its source.\n\nDetection: When observing use of Multi-hop proxies, network data from the actual command and control servers could allow correlating incoming and outgoing flows to trace malicious traffic back to its source. Multi-hop proxies can also be detected by alerting on traffic to known anonymity networks (such as Tor) or known adversary infrastructure that uses this technique.\n\nPlatforms: Linux, macOS, Windows\n\nData Sources: Network protocol analysis, Netflow/Enclave netflow\n\nNetwork Requirements: True",
+            "description": "To disguise the source of malicious traffic, adversaries may chain together multiple proxies. Typically, a defender will be able to identify the last proxy traffic traversed before it enters their network; the defender may or may not be able to identify any previous proxies before the last-hop proxy.  This technique makes identifying the original source of the malicious traffic even more difficult by requiring the defender to trace malicious traffic through several proxies to identify its source.\n\nDetection: When observing use of Multi-hop proxies, network data from the actual command and control servers could allow correlating incoming and outgoing flows to trace malicious traffic back to its source. Multi-hop proxies can also be detected by alerting on traffic to known anonymity networks (such as Tor) or known adversary infrastructure that uses this technique.\n\nPlatforms: Linux, macOS, Windows\n\nData Sources: Network protocol analysis, Netflow/Enclave netflow\n\nRequires Network: Yes",
             "kill_chain_phases": [
                 {
                     "phase_name": "command-and-control",
@@ -20,8 +20,8 @@
             "external_references": [
                 {
                     "external_id": "T1188",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1188",
-                    "source_name": "mitre-attack"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Technique/T1188"
                 }
             ],
             "object_marking_refs": [

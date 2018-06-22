@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--445d3981-92ff-4f5b-8823-83a419b360f0",
+    "id": "bundle--d12485c9-1c36-4de1-8159-13af1f22709e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--f0d218a3-9f7b-4f21-aa4a-34dc25f05b61",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "netsh can be used to discover system firewall settings. (Citation: TechNet Netsh Firewall)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "netsh can be used to discover system firewall settings.",
             "external_references": [
                 {
                     "url": "https://technet.microsoft.com/library/bb490939.aspx",
-                    "description": "Microsoft. (n.d.). Using Netsh. Retrieved February 13, 2017.",
-                    "source_name": "TechNet Netsh"
+                    "source_name": "TechNet Netsh",
+                    "description": "Microsoft. (n.d.). Using Netsh. Retrieved February 13, 2017."
                 },
                 {
                     "url": "https://technet.microsoft.com/en-us/library/cc771046(v=ws.10).aspx",
-                    "description": "Microsoft. (2009, June 3). Netsh Commands for Windows Firewall. Retrieved April 20, 2016.",
-                    "source_name": "TechNet Netsh Firewall"
+                    "source_name": "TechNet Netsh Firewall",
+                    "description": "Microsoft. (2009, June 3). Netsh Commands for Windows Firewall. Retrieved April 20, 2016."
                 }
             ],
             "object_marking_refs": [

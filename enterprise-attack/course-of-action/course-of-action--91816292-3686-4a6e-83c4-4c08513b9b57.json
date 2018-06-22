@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--c15020b8-62ab-44ea-b469-41dcb5537cb6",
+    "id": "bundle--10b7ddca-9b6b-478c-8123-f952d09f44ba",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--91816292-3686-4a6e-83c4-4c08513b9b57",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-26T15:31:49.970Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "created": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-04-18T17:59:24.739Z",
             "name": "CMSTP Mitigation",
             "description": "CMSTP.exe may not be necessary within a given environment (unless using it for VPN connection installation). Consider using application whitelisting configured to block execution of CMSTP.exe if it is not required for a given system or network to prevent potential misuse by adversaries. (Citation: MSitPros CMSTP Aug 2017)",
             "external_references": [
                 {
                     "external_id": "T1191",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1191",
-                    "source_name": "mitre-attack"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Technique/T1191"
                 },
                 {
                     "url": "https://msitpros.com/?p=3960",
-                    "description": "Moe, O. (2017, August 15). Research on CMSTP.exe. Retrieved April 11, 2018.",
-                    "source_name": "MSitPros CMSTP Aug 2017"
+                    "source_name": "MSitPros CMSTP Aug 2017",
+                    "description": "Moe, O. (2017, August 15). Research on CMSTP.exe. Retrieved April 11, 2018."
                 }
             ]
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eed582c1-810d-46f7-b99b-0f2bb3106b45",
+    "id": "bundle--20a7e314-57c3-42f0-a2d1-ba7e0cbce9b9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--350e9dad-4dd3-450f-b649-60340710505a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "menuPass has attempted to get victims to open malicious files sent via email as part of spearphishing campaigns. (Citation: PWC Cloud Hopper Technical Annex April 2017) (Citation: FireEye APT10 April 2017)",
+            "modified": "2018-04-18T17:59:24.739Z",
+            "description": "menuPass has attempted to get victims to open malicious files sent via email as part of spearphishing campaigns.",
             "external_references": [
                 {
-                    "url": "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-annex-b-final.pdf",
-                    "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.",
-                    "source_name": "PWC Cloud Hopper Technical Annex April 2017"
+                    "url": "https://www.fireeye.com/blog/threat-research/2017/04/apt10%20menupass%20grou.html",
+                    "source_name": "FireEye APT10 April 2017",
+                    "description": "FireEye iSIGHT Intelligence. (2017, April 6). APT10 (MenuPass Group): New Tools, Global Campaign Latest Manifestation of Longstanding Threat. Retrieved June 29, 2017."
                 },
                 {
-                    "url": "https://www.fireeye.com/blog/threat-research/2017/04/apt10%20menupass%20grou.html",
-                    "description": "FireEye iSIGHT Intelligence. (2017, April 6). APT10 (MenuPass Group): New Tools, Global Campaign Latest Manifestation of Longstanding Threat. Retrieved June 29, 2017.",
-                    "source_name": "FireEye APT10 April 2017"
+                    "url": "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-annex-b-final.pdf",
+                    "source_name": "PWC Cloud Hopper Technical Annex April 2017",
+                    "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017."
                 }
             ],
             "object_marking_refs": [

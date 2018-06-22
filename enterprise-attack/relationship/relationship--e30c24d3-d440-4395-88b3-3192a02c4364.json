@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4f90d35f-434d-43c7-87da-bdc88fb5124f",
+    "id": "bundle--57c2a662-1321-4c6a-a5c8-3a0013def3be",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--e30c24d3-d440-4395-88b3-3192a02c4364",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "OilRig has used <code>reg query \u201cHKEY_CURRENT_USER\\Software\\Microsoft\\Terminal Server Client\\Default\u201d</code> on a victim to query the Registry. (Citation: Palo Alto OilRig May 2016)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "OilRig has used <code>reg query \u201cHKEY_CURRENT_USER\\Software\\Microsoft\\Terminal Server Client\\Default\u201d</code> on a victim to query the Registry.",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2016/05/the-oilrig-campaign-attacks-on-saudi-arabian-organizations-deliver-helminth-backdoor/",
-                    "description": "Falcone, R. and Lee, B.. (2016, May 26). The OilRig Campaign: Attacks on Saudi Arabian Organizations Deliver Helminth Backdoor. Retrieved May 3, 2017.",
-                    "source_name": "Palo Alto OilRig May 2016"
+                    "source_name": "Palo Alto OilRig May 2016",
+                    "description": "Falcone, R. and Lee, B.. (2016, May 26). The OilRig Campaign: Attacks on Saudi Arabian Organizations Deliver Helminth Backdoor. Retrieved May 3, 2017."
                 }
             ],
             "object_marking_refs": [

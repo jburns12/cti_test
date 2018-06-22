@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--316a9c0e-98fc-4a50-85af-eeedf1b0ac66",
+    "id": "bundle--10eb1c16-a23a-415e-8629-a7a450554705",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--a5888362-00f3-4c9e-98ee-048aee5169e1",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "FIN10 uses PowerShell for execution as well as PowerShell Empire to establish persistence. (Citation: FireEye FIN10 June 2017) (Citation: Github PowerShell Empire)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "FIN10 uses PowerShell for execution as well as PowerShell Empire to establish persistence.",
             "external_references": [
                 {
                     "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin10.pdf",
-                    "description": "FireEye iSIGHT Intelligence. (2017, June 16). FIN10: Anatomy of a Cyber Extortion Operation. Retrieved June 25, 2017.",
-                    "source_name": "FireEye FIN10 June 2017"
+                    "source_name": "FireEye FIN10 June 2017",
+                    "description": "FireEye iSIGHT Intelligence. (2017, June 16). FIN10: Anatomy of a Cyber Extortion Operation. Retrieved June 25, 2017."
                 },
                 {
                     "url": "https://github.com/PowerShellEmpire/Empire",
-                    "description": "Schroeder, W., Warner, J., Nelson, M. (n.d.). Github PowerShellEmpire. Retrieved April 28, 2016.",
-                    "source_name": "Github PowerShell Empire"
+                    "source_name": "Github PowerShell Empire",
+                    "description": "Schroeder, W., Warner, J., Nelson, M. (n.d.). Github PowerShellEmpire. Retrieved April 28, 2016."
                 }
             ],
             "object_marking_refs": [

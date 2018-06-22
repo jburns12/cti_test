@@ -1,0 +1,36 @@
+{
+    "type": "bundle",
+    "id": "bundle--4920e060-1300-407f-9078-ad8c481aae3c",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--d72c0bc0-3007-418c-842c-328027ebdbc1",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-04-18T17:59:24.739Z",
+            "name": "Deploy exploit using advertising",
+            "description": "This technique has been deprecated. Please see ATT&CK's Initial Access and Execution tactics for replacement techniques.\n\nExploits spread through advertising (malvertising) involve injecting malicious or malware-laden advertisements into legitimate online advertising networks and webpages. (Citation: TPMalvertising)\n\nDetectable by Common Defenses: No\n\nDetectable by Common Defenses explanation: Although some commercial technologies are being advertised which claim to detect malvertising, it largely spreads unknowingly because it doesn't always require an action by a user.\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: An adversary can deploy exploits via malvertising using multiple mechanisms.  Such mechanisms include an image ad that is infected, redirection, or using social engineering to get the end user to install the malicious software themselves.",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "launch",
+                    "kill_chain_name": "mitre-pre-attack"
+                }
+            ],
+            "external_references": [
+                {
+                    "external_id": "PRE-T1157",
+                    "source_name": "mitre-pre-attack",
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1157"
+                },
+                {
+                    "source_name": "TPMalvertising",
+                    "description": "Michael Mimoso. (2015, March 30). AD NETWORKS RIPE FOR ABUSE VIA MALVERTISING. Retrieved March 9, 2017."
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ]
+        }
+    ]
+}

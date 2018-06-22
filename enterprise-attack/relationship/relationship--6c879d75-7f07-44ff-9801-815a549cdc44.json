@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--88dc22a1-fc27-42cb-b3e6-69730c28d1db",
+    "id": "bundle--0555b4cd-2784-4cba-b074-8cd2dda15d55",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--6c879d75-7f07-44ff-9801-815a549cdc44",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "The Komplex trojan creates a persistent launch agent called with <code>$HOME/Library/LaunchAgents/com.apple.updates.plist</code> with <code>launchctl load -w ~/Library/LaunchAgents/com.apple.updates.plist</code> (Citation: Sofacy Komplex Trojan).",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "The Komplex trojan creates a persistent launch agent called with <code>$HOME/Library/LaunchAgents/com.apple.updates.plist</code> with <code>launchctl load -w ~/Library/LaunchAgents/com.apple.updates.plist</code>.",
             "external_references": [
                 {
                     "url": "https://researchcenter.paloaltonetworks.com/2016/09/unit42-sofacys-komplex-os-x-trojan/",
-                    "description": "Dani Creus, Tyler Halfpop, Robert Falcone. (2016, September 26). Sofacy's 'Komplex' OS X Trojan. Retrieved July 8, 2017.",
-                    "source_name": "Sofacy Komplex Trojan"
+                    "source_name": "Sofacy Komplex Trojan",
+                    "description": "Dani Creus, Tyler Halfpop, Robert Falcone. (2016, September 26). Sofacy's 'Komplex' OS X Trojan. Retrieved July 8, 2017."
                 }
             ],
             "object_marking_refs": [

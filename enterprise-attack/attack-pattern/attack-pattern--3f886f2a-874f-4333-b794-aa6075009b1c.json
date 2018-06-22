@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6d9acbad-48ed-4fa2-a86b-cdcca24b042a",
+    "id": "bundle--49775b63-7e89-429c-afd8-e08ec16422f3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "modified": "2018-04-18T17:59:24.739Z",
             "name": "Exploit Public-Facing Application",
-            "description": "The use of software, data, or commands to take advantage of a weakness in an Internet-facing computer system or program in order to cause unintended or unanticipated behavior. The weakness in the system can be a bug, a glitch, or a design vulnerability. These applications are often websites, but can include databases (like SQL) (Citation: NVD CVE-2016-6662), standard services (like SMB (Citation: CIS Multiple SMB Vulnerabilities) or SSH), and any other applications with Internet accessible open sockets, such as web servers and related services. (Citation: NVD CVE-2014-7169) Depending on the flaw being exploited this may include Exploitation for Defense Evasion Mitigation.\n\nFor websites and databases, the OWASP top 10 gives a good list of the top 10 most common web-based vulnerabilities. (Citation: OWASP Top 10)\n\nDetection: Monitor application logs for abnormal behavior that may indicate attempted or successful exploitation. Use deep packet inspection to look for artifacts of common exploit traffic, such as SQL injection. Web Application Firewalls may detect improper inputs attempting exploitation.\n\nPlatforms: Linux, Windows, macOS\n\nData Sources: Packet capture, Web logs, Web application firewall logs, Application logs",
+            "description": "The use of software, data, or commands to take advantage of a weakness in an Internet-facing computer system or program in order to cause unintended or unanticipated behavior. The weakness in the system can be a bug, a glitch, or a design vulnerability. These applications are often websites, but can include databases (like SQL) (Citation: NVD CVE-2016-6662), standard services (like SMB (Citation: CIS Multiple SMB Vulnerabilities) or SSH), and any other applications with Internet accessible open sockets, such as web servers and related services. (Citation: NVD CVE-2014-7169) Depending on the flaw being exploited this may include Exploitation for Defense Evasion.\n\nFor websites and databases, the OWASP top 10 gives a good list of the top 10 most common web-based vulnerabilities. (Citation: OWASP Top 10)\n\nDetection: Monitor application logs for abnormal behavior that may indicate attempted or successful exploitation. Use deep packet inspection to look for artifacts of common exploit traffic, such as SQL injection. Web Application Firewalls may detect improper inputs attempting exploitation.\n\nPlatforms: Linux, Windows, macOS\n\nData Sources: Application logs, Packet capture, Web logs, Web application firewall logs",
             "kill_chain_phases": [
                 {
                     "phase_name": "initial-access",
@@ -20,28 +20,28 @@
             "external_references": [
                 {
                     "external_id": "T1190",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1190",
-                    "source_name": "mitre-attack"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Technique/T1190"
                 },
                 {
                     "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-6662",
-                    "description": "National Vulnerability Database. (2017, February 2). CVE-2016-6662 Detail. Retrieved April 3, 2018.",
-                    "source_name": "NVD CVE-2016-6662"
+                    "source_name": "NVD CVE-2016-6662",
+                    "description": "National Vulnerability Database. (2017, February 2). CVE-2016-6662 Detail. Retrieved April 3, 2018."
                 },
                 {
                     "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-microsoft-windows-smb-server-could-allow-for-remote-code-execution/",
-                    "description": "CIS. (2017, May 15). Multiple Vulnerabilities in Microsoft Windows SMB Server Could Allow for Remote Code Execution. Retrieved April 3, 2018.",
-                    "source_name": "CIS Multiple SMB Vulnerabilities"
+                    "source_name": "CIS Multiple SMB Vulnerabilities",
+                    "description": "CIS. (2017, May 15). Multiple Vulnerabilities in Microsoft Windows SMB Server Could Allow for Remote Code Execution. Retrieved April 3, 2018."
                 },
                 {
                     "url": "https://nvd.nist.gov/vuln/detail/CVE-2014-7169",
-                    "description": "National Vulnerability Database. (2017, September 24). CVE-2014-7169 Detail. Retrieved April 3, 2018.",
-                    "source_name": "NVD CVE-2014-7169"
+                    "source_name": "NVD CVE-2014-7169",
+                    "description": "National Vulnerability Database. (2017, September 24). CVE-2014-7169 Detail. Retrieved April 3, 2018."
                 },
                 {
                     "url": "https://www.owasp.org/index.php/Category:OWASP%20Top%20Ten%20Project",
-                    "description": "OWASP. (2018, February 23). OWASP Top Ten Project. Retrieved April 3, 2018.",
-                    "source_name": "OWASP Top 10"
+                    "source_name": "OWASP Top 10",
+                    "description": "OWASP. (2018, February 23). OWASP Top Ten Project. Retrieved April 3, 2018."
                 }
             ],
             "object_marking_refs": [
@@ -53,10 +53,10 @@
                 "macOS"
             ],
             "x_mitre_data_sources": [
+                "Application logs",
                 "Packet capture",
                 "Web logs",
-                "Web application firewall logs",
-                "Application logs"
+                "Web application firewall logs"
             ]
         }
     ]

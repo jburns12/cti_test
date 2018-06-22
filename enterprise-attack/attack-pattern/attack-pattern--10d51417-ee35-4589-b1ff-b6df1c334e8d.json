@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1ef7fbbc-e3a2-4965-9a5a-8789735ed3e1",
+    "id": "bundle--9ad294b3-77e6-4755-afad-7b180dfe5c39",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--10d51417-ee35-4589-b1ff-b6df1c334e8d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:31:44.421Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "modified": "2018-04-18T17:59:24.739Z",
             "name": "External Remote Services",
-            "description": "Remote services such as VPNs, Citrix, and other access mechanisms allow users to connect to internal enterprise network resources from external locations. There are often remote service gateways that manage connections and credential authentication for these services. Services such as Windows Remote Management Mitigation can also be used externally.\n\nAdversaries may use remote services to access and persist within a network. (Citation: Volexity Virtual Private Keylogging) Access to Valid Accounts Mitigation to use the service is often a requirement, which could be obtained through credential pharming or by obtaining the credentials from users after compromising the enterprise network. Access to remote services may be used as part of Redundant Access Mitigation during an operation.\n\nDetection: Follow best practices for detecting adversary use of Valid Accounts Mitigation for authenticating to remote services. Collect authentication logs and analyze for unusual access patterns, windows of activity, and access outside of normal business hours.\n\nPlatforms: Windows\n\nData Sources: Authentication logs\n\nPermissions Required: User\n\nMITRE Contributors: Daniel Oakley, Travis Smith, Tripwire",
+            "description": "Remote services such as VPNs, Citrix, and other access mechanisms allow users to connect to internal enterprise network resources from external locations. There are often remote service gateways that manage connections and credential authentication for these services. Services such as Windows Remote Management can also be used externally.\n\nAdversaries may use remote services to access and persist within a network. (Citation: Volexity Virtual Private Keylogging) Access to Valid Accounts to use the service is often a requirement, which could be obtained through credential pharming or by obtaining the credentials from users after compromising the enterprise network. Access to remote services may be used as part of Redundant Access during an operation.\n\nDetection: Follow best practices for detecting adversary use of Valid Accounts for authenticating to remote services. Collect authentication logs and analyze for unusual access patterns, windows of activity, and access outside of normal business hours.\n\nPlatforms: Windows\n\nData Sources: Authentication logs\n\nPermissions Required: User\n\nContributors: Daniel Oakley, Travis Smith, Tripwire",
             "kill_chain_phases": [
                 {
                     "phase_name": "persistence",
@@ -20,13 +20,13 @@
             "external_references": [
                 {
                     "external_id": "T1133",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1133",
-                    "source_name": "mitre-attack"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Technique/T1133"
                 },
                 {
                     "url": "https://www.volexity.com/blog/2015/10/07/virtual-private-keylogging-cisco-web-vpns-leveraged-for-access-and-persistence/",
-                    "description": "Adair, S. (2015, October 7). Virtual Private Keylogging: Cisco Web VPNs Leveraged for Access and Persistence. Retrieved March 20, 2017.",
-                    "source_name": "Volexity Virtual Private Keylogging"
+                    "source_name": "Volexity Virtual Private Keylogging",
+                    "description": "Adair, S. (2015, October 7). Virtual Private Keylogging: Cisco Web VPNs Leveraged for Access and Persistence. Retrieved March 20, 2017."
                 }
             ],
             "object_marking_refs": [

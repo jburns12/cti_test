@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e8462805-8770-43f2-9018-22fbc1728c6f",
+    "id": "bundle--24b00caf-1419-4688-a7ef-f81cc3328df1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--56ff457d-5e39-492b-974c-dfd2b8603ffe",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "modified": "2018-04-18T17:59:24.739Z",
             "name": "Private Keys",
-            "description": "Private cryptographic keys and certificates are used for authentication, encryption/decryption, and digital signatures. (Citation: Wikipedia Public Key Crypto)\n\nAdversaries may gather private keys from compromised systems for use in authenticating to Remote Services Mitigation like SSH or for use in decrypting other collected files such as email. Common key and certificate file extensions include: .key, .pgp, .gpg, .ppk., .p12, .pem, pfx, .cer, .p7b, .asc. Adversaries may also look in common key directories, such as <code>~/.ssh</code> for SSH keys on *nix-based systems or <code>C:\\Users\\(username)\\.ssh\\</code> on Windows.\n\nPrivate keys should require a password or passphrase for operation, so an adversary may also use Input Capture Mitigation for keylogging or attempt to Brute Force Mitigation the passphrase off-line.\n\nAdversary tools have been discovered that search compromised systems for file extensions relating to cryptographic keys and certificates. (Citation: Kaspersky Careto) (Citation: Palo Alto Prince of Persia)\n\nDetection: Monitor access to files and directories related to cryptographic keys and certificates as a means for potentially detecting access patterns that may indicate collection and exfiltration activity. Collect authentication logs and look for potentially abnormal activity that may indicate improper use of keys or certificates for remote authentication.\n\nPlatforms: Linux, macOS, Windows\n\nData Sources: File monitoring\n\nPermissions Required: User\n\nMITRE Contributors: Itzik Kotler, SafeBreach",
+            "description": "Private cryptographic keys and certificates are used for authentication, encryption/decryption, and digital signatures. (Citation: Wikipedia Public Key Crypto)\n\nAdversaries may gather private keys from compromised systems for use in authenticating to Remote Services like SSH or for use in decrypting other collected files such as email. Common key and certificate file extensions include: .key, .pgp, .gpg, .ppk., .p12, .pem, pfx, .cer, .p7b, .asc. Adversaries may also look in common key directories, such as <code>~/.ssh</code> for SSH keys on *nix-based systems or <code>C:\\Users\\(username)\\.ssh\\</code> on Windows.\n\nPrivate keys should require a password or passphrase for operation, so an adversary may also use Input Capture for keylogging or attempt to Brute Force the passphrase off-line.\n\nAdversary tools have been discovered that search compromised systems for file extensions relating to cryptographic keys and certificates. (Citation: Kaspersky Careto) (Citation: Palo Alto Prince of Persia)\n\nDetection: Monitor access to files and directories related to cryptographic keys and certificates as a means for potentially detecting access patterns that may indicate collection and exfiltration activity. Collect authentication logs and look for potentially abnormal activity that may indicate improper use of keys or certificates for remote authentication.\n\nPlatforms: Linux, Windows, macOS\n\nData Sources: File monitoring\n\nPermissions Required: User\n\nContributors: Itzik Kotler, SafeBreach",
             "kill_chain_phases": [
                 {
                     "phase_name": "credential-access",
@@ -20,23 +20,23 @@
             "external_references": [
                 {
                     "external_id": "T1145",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1145",
-                    "source_name": "mitre-attack"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Technique/T1145"
                 },
                 {
                     "url": "https://en.wikipedia.org/wiki/Public-key%20cryptography",
-                    "description": "Wikipedia. (2017, June 29). Public-key cryptography. Retrieved July 5, 2017.",
-                    "source_name": "Wikipedia Public Key Crypto"
+                    "source_name": "Wikipedia Public Key Crypto",
+                    "description": "Wikipedia. (2017, June 29). Public-key cryptography. Retrieved July 5, 2017."
                 },
                 {
                     "url": "https://kasperskycontenthub.com/wp-content/uploads/sites/43/vlpdfs/unveilingthemask%20v1.0.pdf",
-                    "description": "Kaspersky Labs. (2014, February 11). Unveiling \u201cCareto\u201d - The Masked APT. Retrieved July 5, 2017.",
-                    "source_name": "Kaspersky Careto"
+                    "source_name": "Kaspersky Careto",
+                    "description": "Kaspersky Labs. (2014, February 11). Unveiling \u201cCareto\u201d - The Masked APT. Retrieved July 5, 2017."
                 },
                 {
                     "url": "https://researchcenter.paloaltonetworks.com/2016/06/unit42-prince-of-persia-game-over/",
-                    "description": "Bar, T., Conant, S., Efraim, L. (2016, June 28). Prince of Persia \u2013 Game Over. Retrieved July 5, 2017.",
-                    "source_name": "Palo Alto Prince of Persia"
+                    "source_name": "Palo Alto Prince of Persia",
+                    "description": "Bar, T., Conant, S., Efraim, L. (2016, June 28). Prince of Persia \u2013 Game Over. Retrieved July 5, 2017."
                 }
             ],
             "object_marking_refs": [
@@ -44,8 +44,8 @@
             ],
             "x_mitre_platforms": [
                 "Linux",
-                "macOS",
-                "Windows"
+                "Windows",
+                "macOS"
             ],
             "x_mitre_data_sources": [
                 "File monitoring"

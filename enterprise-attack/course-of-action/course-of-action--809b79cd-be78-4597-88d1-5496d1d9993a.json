@@ -1,21 +1,21 @@
 {
     "type": "bundle",
-    "id": "bundle--817d9b9a-6ce3-43e5-9d6e-a4a9ea95d158",
+    "id": "bundle--9ffc2fa0-fc55-44ee-9aa3-591968a587f4",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--809b79cd-be78-4597-88d1-5496d1d9993a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-26T15:31:49.970Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "created": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-04-18T17:59:24.739Z",
             "name": "Trap Mitigation",
             "description": "Due to potential legitimate uses of trap commands, it's may be difficult to mitigate use of this technique.",
             "external_references": [
                 {
                     "external_id": "T1154",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1154",
-                    "source_name": "mitre-attack"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Technique/T1154"
                 }
             ]
         }

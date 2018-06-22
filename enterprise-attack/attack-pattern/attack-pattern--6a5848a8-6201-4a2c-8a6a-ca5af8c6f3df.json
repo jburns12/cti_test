@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3075222f-36e8-4ee8-8ef4-03baeba0f346",
+    "id": "bundle--cc1c7dd8-4b4f-491a-af49-acae175c8f30",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--6a5848a8-6201-4a2c-8a6a-ca5af8c6f3df",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:30:47.384Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "modified": "2018-04-18T17:59:24.739Z",
             "name": "Indicator Blocking",
-            "description": "An adversary may attempt to block indicators or events from leaving the host machine. In the case of network-based reporting of indicators, an adversary may block traffic associated with reporting to prevent central analysis. This may be accomplished by many means, such as stopping a local process or creating a host-based firewall rule to block traffic to a specific server.\n\nDetection: Detect lack of reported activity from a host sensor. Different methods of blocking may cause different disruptions in reporting. Systems may suddenly stop reporting all data or only certain kinds of data.\n\nDepending on the types of host information collected, an analyst may be able to detect the event that triggered a process to stop or connection to be blocked.\n\nPlatforms: Windows\n\nData Sources: Sensor health and status, Process monitoring, Process command-line parameters\n\nDefense Bypassed: Log analysis, Host intrusion prevention systems, Anti-virus",
+            "description": "An adversary may attempt to block indicators or events from leaving the host machine. In the case of network-based reporting of indicators, an adversary may block traffic associated with reporting to prevent central analysis. This may be accomplished by many means, such as stopping a local process or creating a host-based firewall rule to block traffic to a specific server.\n\nDetection: Detect lack of reported activity from a host sensor. Different methods of blocking may cause different disruptions in reporting. Systems may suddenly stop reporting all data or only certain kinds of data.\n\nDepending on the types of host information collected, an analyst may be able to detect the event that triggered a process to stop or connection to be blocked.\n\nPlatforms: Windows\n\nData Sources: Sensor health and status, Process command-line parameters, Process monitoring\n\nDefense Bypassed: Anti-virus, Log analysis, Host intrusion prevention systems",
             "kill_chain_phases": [
                 {
                     "phase_name": "defense-evasion",
@@ -20,8 +20,8 @@
             "external_references": [
                 {
                     "external_id": "T1054",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1054",
-                    "source_name": "mitre-attack"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Technique/T1054"
                 }
             ],
             "object_marking_refs": [
@@ -32,13 +32,13 @@
             ],
             "x_mitre_data_sources": [
                 "Sensor health and status",
-                "Process monitoring",
-                "Process command-line parameters"
+                "Process command-line parameters",
+                "Process monitoring"
             ],
             "x_mitre_defense_bypassed": [
+                "Anti-virus",
                 "Log analysis",
-                "Host intrusion prevention systems",
-                "Anti-virus"
+                "Host intrusion prevention systems"
             ]
         }
     ]

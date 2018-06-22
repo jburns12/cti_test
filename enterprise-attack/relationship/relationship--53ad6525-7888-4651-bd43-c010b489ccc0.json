@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d62c2f66-7875-4285-83c6-63d97d146015",
+    "id": "bundle--cf14159d-5aee-4474-9d22-5dbc7e98057b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,22 +8,22 @@
             "id": "relationship--53ad6525-7888-4651-bd43-c010b489ccc0",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "RawPOS encodes credit card data it collected from the victim with XOR. (Citation: TrendMicro RawPOS April 2015) (Citation: Visa RawPOS March 2015) (Citation: Mandiant FIN5 GrrCON Oct 2016)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "RawPOS encodes credit card data it collected from the victim with XOR.",
             "external_references": [
                 {
-                    "description": "TrendLabs Security Intelligence Blog. (2015, April). RawPOS Technical Brief. Retrieved October 4, 2017.",
-                    "source_name": "TrendMicro RawPOS April 2015"
-                },
-                {
-                    "url": "https://www.youtube.com/watch?v=fevGZs0EQu8",
-                    "description": "Bromiley, M. and Lewis, P. (2016, October 7). Attacking the Hospitality and Gaming Industries: Tracking an Attacker Around the World in 7 Years. Retrieved October 6, 2017.",
-                    "source_name": "Mandiant FIN5 GrrCON Oct 2016"
+                    "source_name": "TrendMicro RawPOS April 2015",
+                    "description": "TrendLabs Security Intelligence Blog. (2015, April). RawPOS Technical Brief. Retrieved October 4, 2017."
                 },
                 {
                     "url": "https://usa.visa.com/dam/VCOM/download/merchants/alert-rawpos.pdf",
-                    "description": "Visa. (2015, March). Visa Security Alert: \"RawPOS\" Malware Targeting Lodging Merchants. Retrieved October 6, 2017.",
-                    "source_name": "Visa RawPOS March 2015"
+                    "source_name": "Visa RawPOS March 2015",
+                    "description": "Visa. (2015, March). Visa Security Alert: \"RawPOS\" Malware Targeting Lodging Merchants. Retrieved October 6, 2017."
+                },
+                {
+                    "url": "https://www.youtube.com/watch?v=fevGZs0EQu8",
+                    "source_name": "Mandiant FIN5 GrrCON Oct 2016",
+                    "description": "Bromiley, M. and Lewis, P. (2016, October 7). Attacking the Hospitality and Gaming Industries: Tracking an Attacker Around the World in 7 Years. Retrieved October 6, 2017."
                 }
             ],
             "object_marking_refs": [

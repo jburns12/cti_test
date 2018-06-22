@@ -1,0 +1,36 @@
+{
+    "type": "bundle",
+    "id": "bundle--ae5ff90a-80aa-47c3-af2b-6d51a765e6c5",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--695b1cce-57d7-49ae-a2af-820d50153f12",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-04-18T17:59:24.739Z",
+            "name": "Mine social media",
+            "description": "An adversary may research available open source information about a target commonly found on social media sites such as [https://www.facebook.com Facebook], [https://www.instagram.com Instagram], or [https://www.pinterest.com Pinterest].  Social media is public by design and provides insight into the interests and potentially inherent weaknesses of a target for exploitation by the adversary. (Citation: RSA-APTRecon)\n\nDetectable by Common Defenses: No\n\nDetectable by Common Defenses explanation: Searching publicly available sources that cannot be monitored by a defender.\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: Very public by design.  Application of privacy settings is not a panacea.",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "people-information-gathering",
+                    "kill_chain_name": "mitre-pre-attack"
+                }
+            ],
+            "external_references": [
+                {
+                    "external_id": "PRE-T1050",
+                    "source_name": "mitre-pre-attack",
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1050"
+                },
+                {
+                    "source_name": "RSA-APTRecon",
+                    "description": "Rotem Kerner. (2015, October). RECONNAISSANCE: A Walkthrough of the \u201cAPT\u201d Intelligence Gathering Process. Retrieved March 1, 2017."
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ]
+        }
+    ]
+}

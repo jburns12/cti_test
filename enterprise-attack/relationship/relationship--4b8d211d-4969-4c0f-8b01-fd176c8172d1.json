@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--12f89144-4011-42a1-a68c-7db603210eb4",
+    "id": "bundle--87945fc3-07c9-43bd-afae-f2dd14ddcc04",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--4b8d211d-4969-4c0f-8b01-fd176c8172d1",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.038Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "APT28 has cleared event logs using the commands <code>wevtutil cl System</code> and <code>wevtutil cl Security</code>. (Citation: Crowdstrike DNC June 2016)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "APT28 has cleared event logs using the commands <code>wevtutil cl System</code> and <code>wevtutil cl Security</code>.",
             "external_references": [
                 {
                     "url": "https://www.crowdstrike.com/blog/bears-midst-intrusion-democratic-national-committee/",
-                    "description": "Alperovitch, D.. (2016, June 15). Bears in the Midst: Intrusion into the Democratic National Committee. Retrieved August 3, 2016.",
-                    "source_name": "Crowdstrike DNC June 2016"
+                    "source_name": "Crowdstrike DNC June 2016",
+                    "description": "Alperovitch, D.. (2016, June 15). Bears in the Midst: Intrusion into the Democratic National Committee. Retrieved August 3, 2016."
                 }
             ],
             "object_marking_refs": [

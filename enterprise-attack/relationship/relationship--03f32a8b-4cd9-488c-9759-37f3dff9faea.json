@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fc13c0b4-f891-47aa-bf08-382db5fbfc1d",
+    "id": "bundle--c8fa9aa0-4f66-4188-986d-6f6d4665a4cf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--03f32a8b-4cd9-488c-9759-37f3dff9faea",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "menuPass uses scripts to enumerate IP ranges on the victim network. (Citation: PWC Cloud Hopper Technical Annex April 2017) menuPass has also issued the command <code>net view /domain</code> to a PlugX implant to gather information about remote systems on the network. (Citation: FireEye APT10 April 2017)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "menuPass uses scripts to enumerate IP ranges on the victim network.menuPass has also issued the command <code>net view /domain</code> to a PlugX implant to gather information about remote systems on the network.",
             "external_references": [
                 {
-                    "url": "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-annex-b-final.pdf",
-                    "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.",
-                    "source_name": "PWC Cloud Hopper Technical Annex April 2017"
+                    "url": "https://www.fireeye.com/blog/threat-research/2017/04/apt10%20menupass%20grou.html",
+                    "source_name": "FireEye APT10 April 2017",
+                    "description": "FireEye iSIGHT Intelligence. (2017, April 6). APT10 (MenuPass Group): New Tools, Global Campaign Latest Manifestation of Longstanding Threat. Retrieved June 29, 2017."
                 },
                 {
-                    "url": "https://www.fireeye.com/blog/threat-research/2017/04/apt10%20menupass%20grou.html",
-                    "description": "FireEye iSIGHT Intelligence. (2017, April 6). APT10 (MenuPass Group): New Tools, Global Campaign Latest Manifestation of Longstanding Threat. Retrieved June 29, 2017.",
-                    "source_name": "FireEye APT10 April 2017"
+                    "url": "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-annex-b-final.pdf",
+                    "source_name": "PWC Cloud Hopper Technical Annex April 2017",
+                    "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017."
                 }
             ],
             "object_marking_refs": [

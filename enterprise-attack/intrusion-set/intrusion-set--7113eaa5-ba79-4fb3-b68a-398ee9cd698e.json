@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--38853079-71d2-4b69-bd00-5e8efabe4daf",
+    "id": "bundle--f3c2a1ae-6582-4b73-8e57-5b3a94a1bfb6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "intrusion-set--7113eaa5-ba79-4fb3-b68a-398ee9cd698e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "modified": "2018-04-18T17:59:24.739Z",
             "name": "Leviathan",
-            "description": "Leviathan is a cyber espionage group that has been active since at least 2013. The group generally targets defense and government organizations, but has also targeted a range of industries including engineering firms, shipping and transportation, manufacturing, defense, government offices, and research universities in the United States, Western Europe, and along the South China Sea. (Citation: Proofpoint Leviathan Oct 2017) (Citation: FireEye Periscope March 2018)\n\nMITRE Contributors: Valerii Marchuk, Cybersecurity Help s.r.o.",
+            "description": "Leviathan is a cyber espionage group that has been active since at least 2013. The group generally targets defense and government organizations, but has also targeted a range of industries including engineering firms, shipping and transportation, manufacturing, defense, government offices, and research universities in the United States, Western Europe, and along the South China Sea. (Citation: Proofpoint Leviathan Oct 2017) (Citation: FireEye Periscope March 2018)\n\nContributors: Valerii Marchuk, Cybersecurity Help s.r.o.",
             "aliases": [
                 "Leviathan",
                 "TEMP.Periscope"
@@ -18,26 +18,18 @@
             "external_references": [
                 {
                     "external_id": "G0065",
-                    "url": "https://attack.mitre.org/wiki/Group/G0065",
-                    "source_name": "mitre-attack"
-                },
-                {
-                    "description": "[[Citation: Proofpoint Leviathan Oct 2017]]",
-                    "source_name": "Leviathan"
-                },
-                {
-                    "description": "[[Citation: FireEye Periscope March 2018]]",
-                    "source_name": "TEMP.Periscope"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Group/G0065"
                 },
                 {
                     "url": "https://www.proofpoint.com/us/threat-insight/post/leviathan-espionage-actor-spearphishes-maritime-and-defense-targets",
-                    "description": "Axel F, Pierre T. (2017, October 16). Leviathan: Espionage actor spearphishes maritime and defense targets. Retrieved February 15, 2018.",
-                    "source_name": "Proofpoint Leviathan Oct 2017"
+                    "source_name": "Proofpoint Leviathan Oct 2017",
+                    "description": "Axel F, Pierre T. (2017, October 16). Leviathan: Espionage actor spearphishes maritime and defense targets. Retrieved February 15, 2018."
                 },
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2018/03/suspected-chinese-espionage-group-targeting-maritime-and-engineering-industries.html",
-                    "description": "FireEye. (2018, March 16). Suspected Chinese Cyber Espionage Group (TEMP.Periscope) Targeting U.S. Engineering and Maritime Industries. Retrieved April 11, 2018.",
-                    "source_name": "FireEye Periscope March 2018"
+                    "source_name": "FireEye Periscope March 2018",
+                    "description": "FireEye. (2018, March 16). Suspected Chinese Cyber Espionage Group (TEMP.Periscope) Targeting U.S. Engineering and Maritime Industries. Retrieved April 11, 2018."
                 }
             ],
             "object_marking_refs": [

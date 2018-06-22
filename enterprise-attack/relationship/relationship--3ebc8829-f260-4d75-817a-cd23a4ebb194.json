@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cf24bcaf-5dd7-4fcc-a9ff-98530a6c76eb",
+    "id": "bundle--aa970f5f-6e35-47c8-8936-89c223d87e9e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--3ebc8829-f260-4d75-817a-cd23a4ebb194",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "Before being appended to image files, HAMMERTOSS commands are encrypted with a key composed of both a hard-coded value and a string contained on that day's tweet. To decrypt the commands, an investigator would need access to the intended malware sample, the day's tweet, and the image file containing the command. (Citation: FireEye APT29)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "Before being appended to image files, HAMMERTOSS commands are encrypted with a key composed of both a hard-coded value and a string contained on that day's tweet. To decrypt the commands, an investigator would need access to the intended malware sample, the day's tweet, and the image file containing the command.",
             "external_references": [
                 {
                     "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf",
-                    "description": "FireEye Labs. (2015, July). HAMMERTOSS: Stealthy Tactics Define a Russian Cyber Threat Group. Retrieved September 17, 2015.",
-                    "source_name": "FireEye APT29"
+                    "source_name": "FireEye APT29",
+                    "description": "FireEye Labs. (2015, July). HAMMERTOSS: Stealthy Tactics Define a Russian Cyber Threat Group. Retrieved September 17, 2015."
                 }
             ],
             "object_marking_refs": [

@@ -1,21 +1,21 @@
 {
     "type": "bundle",
-    "id": "bundle--96e05ab5-6ad2-444c-bc8c-c02818f20e4a",
+    "id": "bundle--d54b0ca1-0675-4088-b0dd-892ce5c268bc",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--dbf0186e-722d-4a0a-af6a-b3460f162f84",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-26T15:31:49.970Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "created": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-04-18T17:59:24.739Z",
             "name": "Sudo Caching Mitigation",
             "description": "Setting the <code>timestamp_timeout</code> to 0 will require the user to input their password every time <code>sudo</code> is executed. Similarly, ensuring that the <code>tty_tickets</code> setting is enabled will prevent this leakage across tty sessions.",
             "external_references": [
                 {
                     "external_id": "T1206",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1206",
-                    "source_name": "mitre-attack"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Technique/T1206"
                 }
             ]
         }

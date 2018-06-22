@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4cab2440-80e2-4854-89f5-122a0fc46af2",
+    "id": "bundle--ee972409-a666-42c1-9ffe-053dc218df09",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--1fe4be95-b162-4fc7-a3c9-4277547ea722",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "Remsec's network loader encrypts C2 traffic with RSA and RC6. (Citation: Symantec Remsec IOCs)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "Remsec's network loader encrypts C2 traffic with RSA and RC6.",
             "external_references": [
                 {
                     "url": "http://www.symantec.com/content/en/us/enterprise/media/security%20response/whitepapers/Symantec%20Remsec%20IOCs.pdf",
-                    "description": "Symantec Security Response. (2016, August 8). Backdoor.Remsec indicators of compromise. Retrieved August 17, 2016.",
-                    "source_name": "Symantec Remsec IOCs"
+                    "source_name": "Symantec Remsec IOCs",
+                    "description": "Symantec Security Response. (2016, August 8). Backdoor.Remsec indicators of compromise. Retrieved August 17, 2016."
                 }
             ],
             "object_marking_refs": [

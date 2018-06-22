@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6693e698-a088-4a33-a020-3ad6c2b89fa0",
+    "id": "bundle--4e82ed06-35da-4ae9-b7a9-8cb08c346ecb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "intrusion-set--894aab42-3371-47b1-8859-a4a074c804c8",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:32:06.390Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "modified": "2018-01-17T12:56:55.080Z",
             "name": "Stealth Falcon",
             "description": "Stealth Falcon is a threat group that has conducted targeted spyware attacks against Emirati journalists, activists, and dissidents since at least 2012. Circumstantial evidence suggests there could be a link between this group and the United Arab Emirates (UAE) government, but that has not been confirmed. (Citation: Citizen Lab Stealth Falcon May 2016)",
             "aliases": [
@@ -17,17 +17,13 @@
             "external_references": [
                 {
                     "external_id": "G0038",
-                    "url": "https://attack.mitre.org/wiki/Group/G0038",
-                    "source_name": "mitre-attack"
-                },
-                {
-                    "description": "[[Citation: Citizen Lab Stealth Falcon May 2016]]",
-                    "source_name": "Stealth Falcon"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Group/G0038"
                 },
                 {
                     "url": "https://citizenlab.org/2016/05/stealth-falcon/",
-                    "description": "Marczak, B. and Scott-Railton, J.. (2016, May 29). Keep Calm and (Don\u2019t) Enable Macros: A New Threat Actor Targets UAE Dissidents. Retrieved June 8, 2016.",
-                    "source_name": "Citizen Lab Stealth Falcon May 2016"
+                    "source_name": "Citizen Lab Stealth Falcon May 2016",
+                    "description": "Marczak, B. and Scott-Railton, J.. (2016, May 29). Keep Calm and (Don\u2019t) Enable Macros: A New Threat Actor Targets UAE Dissidents. Retrieved June 8, 2016."
                 }
             ],
             "object_marking_refs": [

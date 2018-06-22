@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--17c0630f-2a7c-4a3e-95cd-32451f439522",
+    "id": "bundle--cf64ef4a-99c4-4e57-9e0a-657b01caee73",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--330c8e43-575f-4c9a-b6c2-def7306841ad",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "The main CozyCar dropper checks whether the victim has an anti-virus product installed. If the installed product is on a predetermined list, the dropper will exit. Newer versions of CozyCar will check to ensure it is not being executed inside a virtual machine or a known malware analysis sandbox environment. If it detects that it is, it will exit. (Citation: F-Secure CozyDuke)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "The main CozyCar dropper checks whether the victim has an anti-virus product installed. If the installed product is on a predetermined list, the dropper will exit. Newer versions of CozyCar will check to ensure it is not being executed inside a virtual machine or a known malware analysis sandbox environment. If it detects that it is, it will exit. ",
             "external_references": [
                 {
                     "url": "https://www.f-secure.com/documents/996508/1030745/CozyDuke",
-                    "description": "F-Secure Labs. (2015, April 22). CozyDuke: Malware Analysis. Retrieved December 10, 2015.",
-                    "source_name": "F-Secure CozyDuke"
+                    "source_name": "F-Secure CozyDuke",
+                    "description": "F-Secure Labs. (2015, April 22). CozyDuke: Malware Analysis. Retrieved December 10, 2015."
                 }
             ],
             "object_marking_refs": [

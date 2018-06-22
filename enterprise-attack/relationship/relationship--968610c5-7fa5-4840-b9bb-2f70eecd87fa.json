@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--96820ab8-f84e-4ef9-9ca0-51ecc2125f9f",
+    "id": "bundle--da830f33-2860-42a1-b356-500f2b457c16",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--968610c5-7fa5-4840-b9bb-2f70eecd87fa",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "Duqu examines running system processes for tokens that have specific system privileges. If it finds one, it will copy the token and store it for later use. Eventually it will start new processes with the stored token attached. It can also steal tokens to acquire administrative privileges. (Citation: Kaspersky Duqu 2.0)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "Duqu examines running system processes for tokens that have specific system privileges.  If it finds one, it will copy the token and store it for later use.  Eventually it will start new processes with the stored token attached.  It can also steal tokens to acquire administrative privileges.",
             "external_references": [
                 {
                     "url": "https://securelist.com/files/2015/06/The%20Mystery%20of%20Duqu%202%200%20a%20sophisticated%20cyberespionage%20actor%20returns.pdf",
-                    "description": "Kaspersky Lab. (2015, June 11). The Duqu 2.0. Retrieved April 21, 2017.",
-                    "source_name": "Kaspersky Duqu 2.0"
+                    "source_name": "Kaspersky Duqu 2.0",
+                    "description": "Kaspersky Lab. (2015, June 11). The Duqu 2.0. Retrieved April 21, 2017."
                 }
             ],
             "object_marking_refs": [

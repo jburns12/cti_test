@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--82efbc2b-b5f3-4aa7-ba64-2b95157c8c38",
+    "id": "bundle--0e608ab1-daf5-41a8-b8e8-000871e18a3a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--114f98a4-6243-4a0c-a6c4-3e693a4f9b08",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "APT30 may have used the SHIPSHAPE malware to move onto air-gapped networks. SHIPSHAPE targets removable drives to spread to other systems by modifying the drive to use Autorun to execute or by hiding legitimate document files and copying an executable to the folder with the same name as the legitimate document. (Citation: FireEye APT30)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "APT30 may have used the SHIPSHAPE malware to move onto air-gapped networks. SHIPSHAPE targets removable drives to spread to other systems by modifying the drive to use Autorun to execute or by hiding legitimate document files and copying an executable to the folder with the same name as the legitimate document.",
             "external_references": [
                 {
                     "url": "https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf",
-                    "description": "FireEye Labs. (2015, April). APT30 AND THE MECHANICS OF A LONG-RUNNING CYBER ESPIONAGE OPERATION. Retrieved May 1, 2015.",
-                    "source_name": "FireEye APT30"
+                    "source_name": "FireEye APT30",
+                    "description": "FireEye Labs. (2015, April). APT30 AND THE MECHANICS OF A LONG-RUNNING CYBER ESPIONAGE OPERATION. Retrieved May 1, 2015."
                 }
             ],
             "object_marking_refs": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--59d46f8b-6f2c-4c09-987a-54e214313679",
+    "id": "bundle--c7985bf4-5f03-433c-a4e7-803ee105af5c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--aea0804f-e322-401f-a012-c16c25e0ac70",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "Naid creates Registry entries that store information about a created service and point to a malicious DLL dropped to disk. (Citation: Symantec Naid June 2012)",
+            "modified": "2018-04-18T17:59:24.739Z",
+            "description": "Naid creates Registry entries that store information about a created service and point to a malicious DLL dropped to disk.",
             "external_references": [
                 {
                     "url": "https://www.symantec.com/security%20response/writeup.jsp?docid=2012-061518-4639-99",
-                    "description": "Neville, A. (2012, June 15). Trojan.Naid. Retrieved February 22, 2018.",
-                    "source_name": "Symantec Naid June 2012"
+                    "source_name": "Symantec Naid June 2012",
+                    "description": "Neville, A. (2012, June 15). Trojan.Naid. Retrieved February 22, 2018."
                 }
             ],
             "object_marking_refs": [

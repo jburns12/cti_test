@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--565a3c90-0de0-4267-8c8d-2eeb687cdf47",
+    "id": "bundle--78bb6f54-96d6-46ef-948a-157f5c9bd8de",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--48042284-2fde-43f0-a3dc-f64e9f16bd77",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.057Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "A keylogging tool used by APT3 gathers network information from the victim, including the MAC address, IP address, WINS, DHCP server, and gateway. (Citation: Symantec Buckeye) (Citation: evolution of pirpi)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "A keylogging tool used by APT3 gathers network information from the victim, including the MAC address, IP address, WINS, DHCP server, and gateway. ",
             "external_references": [
                 {
                     "url": "http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
-                    "description": "Symantec Security Response. (2016, September 6). Buckeye cyberespionage group shifts gaze from US to Hong Kong. Retrieved September 26, 2016.",
-                    "source_name": "Symantec Buckeye"
+                    "source_name": "Symantec Buckeye",
+                    "description": "Symantec Security Response. (2016, September 6). Buckeye cyberespionage group shifts gaze from US to Hong Kong. Retrieved September 26, 2016."
                 },
                 {
                     "url": "https://recon.cx/2017/montreal/resources/slides/RECON-MTL-2017-evolution%20of%20pirpi.pdf",
-                    "description": "Yates, M. (2017, June 18). APT3 Uncovered: The code evolution of Pirpi. Retrieved September 28, 2017.",
-                    "source_name": "evolution of pirpi"
+                    "source_name": "evolution of pirpi",
+                    "description": "Yates, M. (2017, June 18). APT3 Uncovered: The code evolution of Pirpi. Retrieved September 28, 2017."
                 }
             ],
             "object_marking_refs": [

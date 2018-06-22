@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ee9c0924-8dbd-4ec5-b001-2d8f3287c2dc",
+    "id": "bundle--a14daa1d-82e2-4b66-8ae1-7ae0ac3944f4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--e0bc7e9b-aec8-4e78-baed-f635ee7bd196",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.071Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "FIN6 has used Windows Credential Editor for credential dumping, as well as Metasploit\u2019s PsExec NTDSGRAB module to obtain a copy of the victim's Active Directory database. (Citation: FireEye FIN6 April 2016)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "FIN6 has used Windows Credential Editor for credential dumping, as well as Metasploit\u2019s PsExec NTDSGRAB module to obtain a copy of the victim's Active Directory database.",
             "external_references": [
                 {
                     "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf",
-                    "description": "FireEye Threat Intelligence. (2016, April). Follow the Money: Dissecting the Operations of the Cyber Crime Group FIN6. Retrieved June 1, 2016.",
-                    "source_name": "FireEye FIN6 April 2016"
+                    "source_name": "FireEye FIN6 April 2016",
+                    "description": "FireEye Threat Intelligence. (2016, April). Follow the Money: Dissecting the Operations of the Cyber Crime Group FIN6. Retrieved June 1, 2016."
                 }
             ],
             "object_marking_refs": [

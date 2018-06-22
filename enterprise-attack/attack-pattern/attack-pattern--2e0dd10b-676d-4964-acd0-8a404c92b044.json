@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cc994f5b-19db-4eaa-98c7-49cca62765bc",
+    "id": "bundle--fcc813bf-6316-4879-9005-83f70b80527d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--2e0dd10b-676d-4964-acd0-8a404c92b044",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:31:07.958Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "modified": "2018-04-18T17:59:24.739Z",
             "name": "Disabling Security Tools",
-            "description": "Adversaries may disable security tools to avoid possible detection of their tools and activities. This can take the form of killing security software or event logging processes, deleting Registry keys so that tools do not start at run time, or other methods to interfere with security scanning or event reporting.\n\nDetection: Monitor processes and command-line arguments to see if security tools are killed or stop running. Monitor Registry edits for modifications to services and startup programs that correspond to security tools. Lack of log or event file reporting may be suspicious.\n\nPlatforms: Linux, macOS, Windows\n\nData Sources: API monitoring, File monitoring, Services, Windows Registry, Process command-line parameters, Anti-virus\n\nDefense Bypassed: File monitoring, Host intrusion prevention systems, Signature-based detection, Log analysis, Anti-virus",
+            "description": "Adversaries may disable security tools to avoid possible detection of their tools and activities. This can take the form of killing security software or event logging processes, deleting Registry keys so that tools do not start at run time, or other methods to interfere with security scanning or event reporting.\n\nDetection: Monitor processes and command-line arguments to see if security tools are killed or stop running. Monitor Registry edits for modifications to services and startup programs that correspond to security tools. Lack of log or event file reporting may be suspicious.\n\nPlatforms: Linux, macOS, Windows\n\nData Sources: API monitoring, Anti-virus, File monitoring, Services, Windows Registry, Process command-line parameters\n\nDefense Bypassed: Anti-virus, File monitoring, Host intrusion prevention systems, Signature-based detection, Log analysis",
             "kill_chain_phases": [
                 {
                     "phase_name": "defense-evasion",
@@ -20,8 +20,8 @@
             "external_references": [
                 {
                     "external_id": "T1089",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1089",
-                    "source_name": "mitre-attack"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Technique/T1089"
                 }
             ],
             "object_marking_refs": [
@@ -34,18 +34,18 @@
             ],
             "x_mitre_data_sources": [
                 "API monitoring",
+                "Anti-virus",
                 "File monitoring",
                 "Services",
                 "Windows Registry",
-                "Process command-line parameters",
-                "Anti-virus"
+                "Process command-line parameters"
             ],
             "x_mitre_defense_bypassed": [
+                "Anti-virus",
                 "File monitoring",
                 "Host intrusion prevention systems",
                 "Signature-based detection",
-                "Log analysis",
-                "Anti-virus"
+                "Log analysis"
             ]
         }
     ]

@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--3c6f76ae-422b-4e9d-a84c-2c8d5344d58d",
+    "id": "bundle--76d45a9f-567b-4358-95d4-07c23d2a1155",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--f3d0c735-330f-43c2-8e8e-51bcfa51e8c3",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-26T15:31:49.970Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "created": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-04-18T17:59:24.739Z",
             "name": "Custom Command and Control Protocol Mitigation",
             "description": "Network intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary malware can be used to mitigate activity at the network level. Signatures are often for unique indicators within protocols and may be based on the specific protocol used by a particular adversary or tool, and will likely be different across various malware families and versions. Adversaries will likely change tool C2 signatures over time or construct protocols in such a way as to avoid detection by common defensive tools. (Citation: University of Birmingham C2)",
             "external_references": [
                 {
                     "external_id": "T1094",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1094",
-                    "source_name": "mitre-attack"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Technique/T1094"
                 },
                 {
                     "url": "https://arxiv.org/ftp/arxiv/papers/1408/1408.1136.pdf",
-                    "description": "Gardiner, J.,  Cova, M., Nagaraja, S. (2014, February). Command & Control Understanding, Denying and Detecting. Retrieved April 20, 2016.",
-                    "source_name": "University of Birmingham C2"
+                    "source_name": "University of Birmingham C2",
+                    "description": "Gardiner, J.,  Cova, M., Nagaraja, S. (2014, February). Command & Control Understanding, Denying and Detecting. Retrieved April 20, 2016."
                 }
             ]
         }

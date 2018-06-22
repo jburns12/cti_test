@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--96da56af-feb6-495e-9b96-f10068065b1a",
+    "id": "bundle--cb391b0e-2826-4abf-870b-94995b06b149",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,23 +8,23 @@
             "id": "relationship--5c2cd95f-9c3a-4893-9a5f-960cfed62572",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "MuddyWater has used Daniel Bohannon\u2019s Invoke-Obfuscation framework. (Citation: Unit 42 MuddyWater Nov 2017) (Citation: GitHub Invoke-Obfuscation) The group also used files with base64 encoded PowerShell commands. (Citation: FireEye MuddyWater Mar 2018)",
+            "modified": "2018-04-18T17:59:24.739Z",
+            "description": "MuddyWater has used Daniel Bohannon\u2019s Invoke-Obfuscation framework. The group also used files with base64 encoded PowerShell commands.",
             "external_references": [
                 {
                     "url": "https://researchcenter.paloaltonetworks.com/2017/11/unit42-muddying-the-water-targeted-attacks-in-the-middle-east/",
-                    "description": "Lancaster, T.. (2017, November 14). Muddying the Water: Targeted Attacks in the Middle East. Retrieved March 15, 2018.",
-                    "source_name": "Unit 42 MuddyWater Nov 2017"
-                },
-                {
-                    "url": "https://github.com/danielbohannon/Invoke-Obfuscation",
-                    "description": "Bohannon, D.. (2017, March 13). Invoke-Obfuscation - PowerShell Obfuscator. Retrieved June 18, 2017.",
-                    "source_name": "GitHub Invoke-Obfuscation"
+                    "source_name": "Unit 42 MuddyWater Nov 2017",
+                    "description": "Lancaster, T.. (2017, November 14). Muddying the Water: Targeted Attacks in the Middle East. Retrieved March 15, 2018."
                 },
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2018/03/iranian-threat-group-updates-ttps-in-spear-phishing-campaign.html",
-                    "description": "Singh, S. et al.. (2018, March 13). Iranian Threat Group Updates Tactics, Techniques and Procedures in Spear Phishing Campaign. Retrieved April 11, 2018.",
-                    "source_name": "FireEye MuddyWater Mar 2018"
+                    "source_name": "FireEye MuddyWater Mar 2018",
+                    "description": "Singh, S. et al.. (2018, March 13). Iranian Threat Group Updates Tactics, Techniques and Procedures in Spear Phishing Campaign. Retrieved April 11, 2018."
+                },
+                {
+                    "url": "https://github.com/danielbohannon/Invoke-Obfuscation",
+                    "source_name": "GitHub Invoke-Obfuscation",
+                    "description": "Bohannon, D.. (2017, March 13). Invoke-Obfuscation - PowerShell Obfuscator. Retrieved June 18, 2017."
                 }
             ],
             "object_marking_refs": [

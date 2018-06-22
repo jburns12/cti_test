@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--37e81404-a084-4c27-9eb2-532baced67c3",
+    "id": "bundle--26f2cfcb-8b9c-447a-b5e8-482243520a6f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:31:04.307Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "modified": "2018-04-18T17:59:24.739Z",
             "name": "System Information Discovery",
-            "description": "An adversary may attempt to get detailed information about the operating system and hardware, including version, patches, hotfixes, service packs, and architecture.\n\n===Windows===\n\nExample commands and utilities that obtain this information include <code>ver</code>, Systeminfo, and <code>dir</code> within cmd for identifying information based on present files and directories.\n\n===Mac===\n\nOn Mac, the <code>systemsetup</code> command gives a detailed breakdown of the system, but it requires administrative privileges. Additionally, the <code>system_profiler</code> gives a very detailed breakdown of configurations, firewall rules, mounted volumes, hardware, and many other things without needing elevated permissions.\n\nDetection: System and network discovery techniques normally occur throughout an operation as an adversary learns the environment. Data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities based on the information obtained.\n\nMonitor processes and command-line arguments for actions that could be taken to gather system and network information. Remote access tools with built-in features may interact directly with the Windows API to gather information. Information may also be acquired through Windows system management tools such as Windows Management Instrumentation Mitigation and PowerShell Mitigation.\n\nPlatforms: Linux, macOS, Windows\n\nData Sources: Process monitoring, Process command-line parameters\n\nPermissions Required: User",
+            "description": "An adversary may attempt to get detailed information about the operating system and hardware, including version, patches, hotfixes, service packs, and architecture.\n\n===Windows===\n\nExample commands and utilities that obtain this information include <code>ver</code>, Systeminfo, and <code>dir</code> within cmd for identifying information based on present files and directories.\n\n===Mac===\n\nOn Mac, the <code>systemsetup</code> command gives a detailed breakdown of the system, but it requires administrative privileges. Additionally, the <code>system_profiler</code> gives a very detailed breakdown of configurations, firewall rules, mounted volumes, hardware, and many other things without needing elevated permissions.\n\nDetection: System and network discovery techniques normally occur throughout an operation as an adversary learns the environment. Data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities based on the information obtained.\n\nMonitor processes and command-line arguments for actions that could be taken to gather system and network information. Remote access tools with built-in features may interact directly with the Windows API to gather information. Information may also be acquired through Windows system management tools such as Windows Management Instrumentation and PowerShell.\n\nPlatforms: Linux, macOS, Windows\n\nData Sources: Process command-line parameters, Process monitoring\n\nPermissions Required: User",
             "kill_chain_phases": [
                 {
                     "phase_name": "discovery",
@@ -20,8 +20,8 @@
             "external_references": [
                 {
                     "external_id": "T1082",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1082",
-                    "source_name": "mitre-attack"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Technique/T1082"
                 }
             ],
             "object_marking_refs": [
@@ -33,8 +33,8 @@
                 "Windows"
             ],
             "x_mitre_data_sources": [
-                "Process monitoring",
-                "Process command-line parameters"
+                "Process command-line parameters",
+                "Process monitoring"
             ],
             "x_mitre_permissions_required": [
                 "User"

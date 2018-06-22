@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0c5ad284-5d56-4b5d-a7d3-4dcde5802f53",
+    "id": "bundle--c0801ab9-21c0-41f6-990e-8da38cdc466c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--e6415f09-df0e-48de-9aba-928c902b7549",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:30:46.461Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "modified": "2018-04-18T17:59:24.739Z",
             "name": "Exfiltration Over Physical Medium",
-            "description": "In certain circumstances, such as an air-gapped network compromise, exfiltration could occur via a physical medium or device introduced by a user. Such media could be an external hard drive, USB drive, cellular phone, MP3 player, or other removable storage and processing device. The physical medium or device could be used as the final exfiltration point or to hop between otherwise disconnected systems.\n\nDetection: Monitor file access on removable media. Detect processes that execute when removable media are mounted.\n\nPlatforms: Linux, macOS, Windows\n\nData Sources: Data loss prevention, File monitoring\n\nSystem Requirements: Presence of physical medium or device",
+            "description": "In certain circumstances, such as an air-gapped network compromise, exfiltration could occur via a physical medium or device introduced by a user. Such media could be an external hard drive, USB drive, cellular phone, MP3 player, or other removable storage and processing device. The physical medium or device could be used as the final exfiltration point or to hop between otherwise disconnected systems.\n\nDetection: Monitor file access on removable media. Detect processes that execute when removable media are mounted.\n\nPlatforms: Linux, macOS, Windows\n\nData Sources: Data loss prevention, File monitoring\n\nSystem Requirements: Presence of physical medium or device\n\nRequires Network: No",
             "kill_chain_phases": [
                 {
                     "phase_name": "exfiltration",
@@ -20,8 +20,8 @@
             "external_references": [
                 {
                     "external_id": "T1052",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1052",
-                    "source_name": "mitre-attack"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Technique/T1052"
                 }
             ],
             "object_marking_refs": [

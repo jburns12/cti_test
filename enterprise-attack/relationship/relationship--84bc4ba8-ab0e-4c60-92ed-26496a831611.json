@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--73ff3018-d090-4fd2-88a4-dcab0d1ec695",
+    "id": "bundle--b7673e12-084a-48e5-9617-c14e7b0948b3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--84bc4ba8-ab0e-4c60-92ed-26496a831611",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "To establish persistence, Truvasys adds a Registry Run key with a value \"TaskMgr\" in an attempt to masquerade as the legitimate Windows Task Manager. (Citation: Microsoft Win Defender Truvasys Sep 2017)",
+            "modified": "2018-04-18T17:59:24.739Z",
+            "description": "To establish persistence, Truvasys adds a Registry Run key with a value \"TaskMgr\" in an attempt to masquerade as the legitimate Windows Task Manager.",
             "external_references": [
                 {
                     "url": "https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?Name=Backdoor:Win32/Truvasys.A!dha",
-                    "description": "Microsoft. (2017, September 15). Backdoor:Win32/Truvasys.A!dha. Retrieved November 30, 2017.",
-                    "source_name": "Microsoft Win Defender Truvasys Sep 2017"
+                    "source_name": "Microsoft Win Defender Truvasys Sep 2017",
+                    "description": "Microsoft. (2017, September 15). Backdoor:Win32/Truvasys.A!dha. Retrieved November 30, 2017."
                 }
             ],
             "object_marking_refs": [

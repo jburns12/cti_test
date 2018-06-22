@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f78c8445-27f4-4106-8ff6-86a9d8e3a14a",
+    "id": "bundle--ef40794b-2624-4448-899c-1fc3b3ead5bc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--1df0326d-2fbc-4d08-a16b-48365f1e742d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "modified": "2018-04-18T17:59:24.739Z",
             "name": "SID-History Injection",
-            "description": "The Windows security identifier (SID) is a unique value that identifies a user or group account. SIDs are used by Windows security in both security descriptors and access tokens. (Citation: Microsoft SID) An account can hold additional SIDs in the SID-History Active Directory attribute (Citation: Microsoft SID)-History Attribute, allowing inter-operable account migration between domains (e.g., all values in SID-History are included in access tokens).\n\nAdversaries may use this mechanism for privilege escalation. With Domain Administrator (or equivalent) rights, harvested or well-known SID values (Citation: Microsoft Well Known SIDs Jun 2017) may be inserted into SID-History to enable impersonation of arbitrary users/groups such as Enterprise Administrators. This manipulation may result in elevated access to local resources and/or access to otherwise inaccessible domains via lateral movement techniques such as Remote Services Mitigation, Windows Admin Shares Mitigation, or Windows Remote Management Mitigation.\n\nDetection: Examine data in user\u2019s SID-History attributes using the PowerShell Get-ADUser Cmdlet (Citation: Microsoft Get-ADUser), especially users who have SID-History values from the same domain. (Citation: AdSecurity SID History Sept 2015)\n\nMonitor Account Management events on Domain Controllers for successful and failed changes to SID-History. (Citation: AdSecurity SID History Sept 2015)  (Citation: Microsoft DsAddSidHistory)\n\nMonitor Windows API calls to the <code>DsAddSidHistory</code> function. (Citation: Microsoft DsAddSidHistory)\n\nPlatforms: Windows\n\nData Sources: API monitoring, Authentication logs, Windows event logs\n\nPermissions Required: Administrator, SYSTEM\n\nMITRE Contributors: Vincent Le Toux",
+            "description": "The Windows security identifier (SID) is a unique value that identifies a user or group account. SIDs are used by Windows security in both security descriptors and access tokens. (Citation: Microsoft SID) An account can hold additional SIDs in the SID-History Active Directory attribute (Citation: Microsoft SID)-History Attribute, allowing inter-operable account migration between domains (e.g., all values in SID-History are included in access tokens).\n\nAdversaries may use this mechanism for privilege escalation. With Domain Administrator (or equivalent) rights, harvested or well-known SID values (Citation: Microsoft Well Known SIDs Jun 2017) may be inserted into SID-History to enable impersonation of arbitrary users/groups such as Enterprise Administrators. This manipulation may result in elevated access to local resources and/or access to otherwise inaccessible domains via lateral movement techniques such as Remote Services, Windows Admin Shares, or Windows Remote Management.\n\nDetection: Examine data in user\u2019s SID-History attributes using the PowerShell Get-ADUser Cmdlet (Citation: Microsoft Get-ADUser), especially users who have SID-History values from the same domain. (Citation: AdSecurity SID History Sept 2015)\n\nMonitor Account Management events on Domain Controllers for successful and failed changes to SID-History. (Citation: AdSecurity SID History Sept 2015)  (Citation: Microsoft DsAddSidHistory)\n\nMonitor Windows API calls to the <code>DsAddSidHistory</code> function. (Citation: Microsoft DsAddSidHistory)\n\nPlatforms: Windows\n\nData Sources: API monitoring, Authentication logs, Windows event logs\n\nPermissions Required: Administrator, SYSTEM\n\nContributors: Vincent Le Toux",
             "kill_chain_phases": [
                 {
                     "phase_name": "privilege-escalation",
@@ -20,33 +20,33 @@
             "external_references": [
                 {
                     "external_id": "T1178",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1178",
-                    "source_name": "mitre-attack"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Technique/T1178"
                 },
                 {
                     "url": "https://msdn.microsoft.com/library/windows/desktop/aa379571.aspx",
-                    "description": "Microsoft. (n.d.). Security Identifiers. Retrieved November 30, 2017.",
-                    "source_name": "Microsoft SID"
+                    "source_name": "Microsoft SID",
+                    "description": "Microsoft. (n.d.). Security Identifiers. Retrieved November 30, 2017."
                 },
                 {
                     "url": "https://support.microsoft.com/help/243330/well-known-security-identifiers-in-windows-operating-systems",
-                    "description": "Microsoft. (2017, June 23). Well-known security identifiers in Windows operating systems. Retrieved November 30, 2017.",
-                    "source_name": "Microsoft Well Known SIDs Jun 2017"
+                    "source_name": "Microsoft Well Known SIDs Jun 2017",
+                    "description": "Microsoft. (2017, June 23). Well-known security identifiers in Windows operating systems. Retrieved November 30, 2017."
                 },
                 {
                     "url": "https://technet.microsoft.com/library/ee617241.aspx",
-                    "description": "Microsoft. (n.d.). Active Directory Cmdlets - Get-ADUser. Retrieved November 30, 2017.",
-                    "source_name": "Microsoft Get-ADUser"
+                    "source_name": "Microsoft Get-ADUser",
+                    "description": "Microsoft. (n.d.). Active Directory Cmdlets - Get-ADUser. Retrieved November 30, 2017."
                 },
                 {
                     "url": "https://adsecurity.org/?p=1772",
-                    "description": "Metcalf, S. (2015, September 19). Sneaky Active Directory Persistence #14: SID History. Retrieved November 30, 2017.",
-                    "source_name": "AdSecurity SID History Sept 2015"
+                    "source_name": "AdSecurity SID History Sept 2015",
+                    "description": "Metcalf, S. (2015, September 19). Sneaky Active Directory Persistence #14: SID History. Retrieved November 30, 2017."
                 },
                 {
                     "url": "https://msdn.microsoft.com/library/ms677982.aspx",
-                    "description": "Microsoft. (n.d.). Using DsAddSidHistory. Retrieved November 30, 2017.",
-                    "source_name": "Microsoft DsAddSidHistory"
+                    "source_name": "Microsoft DsAddSidHistory",
+                    "description": "Microsoft. (n.d.). Using DsAddSidHistory. Retrieved November 30, 2017."
                 }
             ],
             "object_marking_refs": [

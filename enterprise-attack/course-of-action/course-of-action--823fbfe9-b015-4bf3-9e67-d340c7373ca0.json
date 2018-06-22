@@ -1,40 +1,40 @@
 {
     "type": "bundle",
-    "id": "bundle--358a059b-cc4f-4281-b793-13e5dc421638",
+    "id": "bundle--53b59894-5e09-40ca-9410-56e1a33c9590",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--823fbfe9-b015-4bf3-9e67-d340c7373ca0",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-26T15:31:49.970Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "created": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-04-18T17:59:24.739Z",
             "name": "Trusted Developer Utilities Mitigation",
             "description": "MSBuild.exe, dnx.exe, rcsi.exe, WinDbg.exe, cdb.exe, and tracker.exe may not be necessary within a given environment and should be removed if not used.\n\nUse application whitelisting configured to block execution of MSBuild.exe, dnx.exe, rcsi.exe, WinDbg.exe, and cdb.exe if they are not required for a given system or network to prevent potential misuse by adversaries. (Citation: Microsoft GitHub Device Guard CI Policies) (Citation: Exploit Monday Mitigate Device Guard Bypases) (Citation: GitHub mattifestation DeviceGuardBypass) (Citation: SubTee MSBuild)",
             "external_references": [
                 {
                     "external_id": "T1127",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1127",
-                    "source_name": "mitre-attack"
-                },
-                {
-                    "description": "[ Smith, C. (2016, September 13). Bypassing Application Whitelisting using MSBuild.exe - Device Guard Example and Mitigations. Retrieved September 13, 2016.",
-                    "source_name": "SubTee MSBuild"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Technique/T1127"
                 },
                 {
                     "url": "http://www.exploit-monday.com/2016/09/using-device-guard-to-mitigate-against.html",
-                    "description": "Graeber, M. (2016, September 8). Using Device Guard to Mitigate Against Device Guard Bypasses. Retrieved September 13, 2016.",
-                    "source_name": "Exploit Monday Mitigate Device Guard Bypases"
+                    "source_name": "Exploit Monday Mitigate Device Guard Bypases",
+                    "description": "Graeber, M. (2016, September 8). Using Device Guard to Mitigate Against Device Guard Bypasses. Retrieved September 13, 2016."
                 },
                 {
                     "url": "https://github.com/mattifestation/DeviceGuardBypassMitigationRules",
-                    "description": "Graeber, M. (2016, November 13). DeviceGuardBypassMitigationRules. Retrieved November 30, 2016.",
-                    "source_name": "GitHub mattifestation DeviceGuardBypass"
+                    "source_name": "GitHub mattifestation DeviceGuardBypass",
+                    "description": "Graeber, M. (2016, November 13). DeviceGuardBypassMitigationRules. Retrieved November 30, 2016."
                 },
                 {
                     "url": "https://github.com/Microsoft/windows-itpro-docs/blob/master/windows/device-security/device-guard/deploy-code-integrity-policies-steps.md",
-                    "description": "Microsoft. (2017, June 16). Deploy code integrity policies: steps. Retrieved June 28, 2017.",
-                    "source_name": "Microsoft GitHub Device Guard CI Policies"
+                    "source_name": "Microsoft GitHub Device Guard CI Policies",
+                    "description": "Microsoft. (2017, June 16). Deploy code integrity policies: steps. Retrieved June 28, 2017."
+                },
+                {
+                    "source_name": "SubTee MSBuild",
+                    "description": "[ Smith, C. (2016, September 13). Bypassing Application Whitelisting using MSBuild.exe - Device Guard Example and Mitigations. Retrieved September 13, 2016."
                 }
             ]
         }

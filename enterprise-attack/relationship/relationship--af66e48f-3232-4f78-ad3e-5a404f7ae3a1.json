@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e6958096-87ac-476d-92c1-e5c991638063",
+    "id": "bundle--98abc0ca-205b-4a72-98c7-2739f162e969",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--af66e48f-3232-4f78-ad3e-5a404f7ae3a1",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "A Linux version of Derusbi checks if the victim user ID is anything other than zero (normally used for root), and the malware will not execute if it does not have root privileges. (Citation: Fidelis Turbo)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "A Linux version of Derusbi checks if the victim user ID is anything other than zero (normally used for root), and the malware will not execute if it does not have root privileges.",
             "external_references": [
                 {
                     "url": "https://www.fidelissecurity.com/sites/default/files/TA%20Fidelis%20Turbo%201602%200.pdf",
-                    "description": "Fidelis Cybersecurity. (2016, February 29). The Turbo Campaign, Featuring Derusbi for 64-bit Linux. Retrieved March 2, 2016.",
-                    "source_name": "Fidelis Turbo"
+                    "source_name": "Fidelis Turbo",
+                    "description": "Fidelis Cybersecurity. (2016, February 29). The Turbo Campaign, Featuring Derusbi for 64-bit Linux. Retrieved March 2, 2016."
                 }
             ],
             "object_marking_refs": [

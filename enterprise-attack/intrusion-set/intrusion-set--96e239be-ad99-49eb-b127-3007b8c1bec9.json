@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--68641103-e867-4f82-adf7-d4b2f9635fc8",
+    "id": "bundle--82971b90-291b-4610-9b3f-853dda1aa451",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "intrusion-set--96e239be-ad99-49eb-b127-3007b8c1bec9",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:31:54.697Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "modified": "2018-01-17T12:56:55.080Z",
             "name": "Equation",
             "description": "Equation is a sophisticated threat group that employs multiple remote access tools. The group is known to use zero-day exploits and has developed the capability to overwrite the firmware of hard disk drives. (Citation: Kaspersky Equation QA)",
             "aliases": [
@@ -17,17 +17,13 @@
             "external_references": [
                 {
                     "external_id": "G0020",
-                    "url": "https://attack.mitre.org/wiki/Group/G0020",
-                    "source_name": "mitre-attack"
-                },
-                {
-                    "description": "[[Citation: Kaspersky Equation QA]]",
-                    "source_name": "Equation"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Group/G0020"
                 },
                 {
                     "url": "https://securelist.com/files/2015/02/Equation%20group%20questions%20and%20answers.pdf",
-                    "description": "Kaspersky Lab's Global Research and Analysis Team. (2015, February). Equation Group: Questions and Answers. Retrieved December 21, 2015.",
-                    "source_name": "Kaspersky Equation QA"
+                    "source_name": "Kaspersky Equation QA",
+                    "description": "Kaspersky Lab's Global Research and Analysis Team. (2015, February). Equation Group: Questions and Answers. Retrieved December 21, 2015."
                 }
             ],
             "object_marking_refs": [

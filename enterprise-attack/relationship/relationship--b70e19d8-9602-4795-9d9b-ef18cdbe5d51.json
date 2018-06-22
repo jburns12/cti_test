@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b570cd1a-3760-41ce-808b-84ae6073f4b7",
+    "id": "bundle--7afdb7db-0ace-462e-9595-e1a32a898540",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--b70e19d8-9602-4795-9d9b-ef18cdbe5d51",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "PowerSploit's <code>Get-ProcessTokenGroup</code> Privesc-PowerUp module can enumerate all SIDs associated with its current token. (Citation: GitHub PowerSploit May 2012) (Citation: PowerSploit Documentation)",
+            "modified": "2018-04-18T17:59:24.739Z",
+            "description": "PowerSploit's <code>Get-ProcessTokenGroup</code> Privesc-PowerUp module can enumerate all SIDs associated with its current token.",
             "external_references": [
                 {
                     "url": "https://github.com/PowerShellMafia/PowerSploit",
-                    "description": "PowerShellMafia. (2012, May 26). PowerSploit - A PowerShell Post-Exploitation Framework. Retrieved February 6, 2018.",
-                    "source_name": "GitHub PowerSploit May 2012"
+                    "source_name": "GitHub PowerSploit May 2012",
+                    "description": "PowerShellMafia. (2012, May 26). PowerSploit - A PowerShell Post-Exploitation Framework. Retrieved February 6, 2018."
                 },
                 {
                     "url": "http://powersploit.readthedocs.io",
-                    "description": "PowerSploit. (n.d.). PowerSploit. Retrieved February 6, 2018.",
-                    "source_name": "PowerSploit Documentation"
+                    "source_name": "PowerSploit Documentation",
+                    "description": "PowerSploit. (n.d.). PowerSploit. Retrieved February 6, 2018."
                 }
             ],
             "object_marking_refs": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--adbb33cd-5139-417a-972e-172c00acbab4",
+    "id": "bundle--d919f258-eff3-40c3-b178-37b506e4a00f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--ae1ee1dc-6017-4177-b34c-70db166a939e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "Many strings in JHUHUGIT are obfuscated with a XOR algorithm. (Citation: F-Secure Sofacy 2015) (Citation: ESET Sednit Part 1)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "Many strings in JHUHUGIT are obfuscated with a XOR algorithm.",
             "external_references": [
                 {
                     "url": "https://labsblog.f-secure.com/2015/09/08/sofacy-recycles-carberp-and-metasploit-code/",
-                    "description": "F-Secure. (2015, September 8). Sofacy Recycles Carberp and Metasploit Code. Retrieved August 3, 2016.",
-                    "source_name": "F-Secure Sofacy 2015"
+                    "source_name": "F-Secure Sofacy 2015",
+                    "description": "F-Secure. (2015, September 8). Sofacy Recycles Carberp and Metasploit Code. Retrieved August 3, 2016."
                 },
                 {
                     "url": "http://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part1.pdf",
-                    "description": "ESET. (2016, October). En Route with Sednit - Part 1: Approaching the Target. Retrieved November 8, 2016.",
-                    "source_name": "ESET Sednit Part 1"
+                    "source_name": "ESET Sednit Part 1",
+                    "description": "ESET. (2016, October). En Route with Sednit - Part 1: Approaching the Target. Retrieved November 8, 2016."
                 }
             ],
             "object_marking_refs": [

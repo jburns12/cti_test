@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5cdfef4b-c9e0-41f2-bfb6-0976a8be0bed",
+    "id": "bundle--7c7a3738-dfee-49b5-be28-2e4a668df58d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--5c816fc0-c4e3-47ef-8193-ef88eabdfc7e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.052Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "admin@338 actors used the following commands after exploiting a machine with LOWBALL malware to obtain information about files and directories: <code>dir c:\\ >> %temp%\\download</code> <code>dir \"c:\\Documents and Settings\" >> %temp%\\download</code> <code>dir \"c:\\Program Files\\\" >> %temp%\\download</code> <code>dir d:\\ >> %temp%\\download</code> (Citation: FireEye admin@338)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "admin@338 actors used the following commands after exploiting a machine with LOWBALL malware to obtain information about files and directories: <code>dir c:\\ >> %temp%\\download</code> <code>dir \"c:\\Documents and Settings\" >> %temp%\\download</code> <code>dir \"c:\\Program Files\\\" >> %temp%\\download</code> <code>dir d:\\ >> %temp%\\download</code>",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2015/11/china-based-threat.html",
-                    "description": "FireEye Threat Intelligence. (2015, December 1). China-based Cyber Threat Group Uses Dropbox for Malware Communications and Targets Hong Kong Media Outlets. Retrieved December 4, 2015.",
-                    "source_name": "FireEye admin@338"
+                    "source_name": "FireEye admin@338",
+                    "description": "FireEye Threat Intelligence. (2015, December 1). China-based Cyber Threat Group Uses Dropbox for Malware Communications and Targets Hong Kong Media Outlets. Retrieved December 4, 2015."
                 }
             ],
             "object_marking_refs": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ae9a1099-3047-4b9d-a0cc-c8272fac90a4",
+    "id": "bundle--5f81d8e6-f32e-4205-b8b0-1307410a8df6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--327f3cc5-eea1-42d4-a6cd-ed34b7ce8f61",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:30:27.755Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "modified": "2018-04-18T17:59:24.739Z",
             "name": "Application Deployment Software",
             "description": "Adversaries may deploy malicious software to systems within a network using application deployment systems employed by enterprise administrators. The permissions required for this action vary by system configuration; local credentials may be sufficient with direct access to the deployment server, or specific domain credentials may be required. However, the system may require an administrative account to log in or to perform software deployment.\n\nAccess to a network-wide or enterprise-wide software deployment system enables an adversary to have remote code execution on all systems that are connected to such a system. The access may be used to laterally move to systems, gather information, or cause a specific effect, such as wiping the hard drives on all endpoints.\n\nDetection: Monitor application deployments from a secondary system. Perform application deployment at regular times so that irregular deployment activity stands out. Monitor process activity that does not correlate to known good software. Monitor account login activity on the deployment system.\n\nPlatforms: Linux, macOS, Windows\n\nData Sources: File monitoring, Process use of network, Process monitoring\n\nSystem Requirements: Access to application deployment software (EPO, HPCA, Altiris, etc.)",
             "kill_chain_phases": [
@@ -20,8 +20,8 @@
             "external_references": [
                 {
                     "external_id": "T1017",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1017",
-                    "source_name": "mitre-attack"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Technique/T1017"
                 }
             ],
             "object_marking_refs": [

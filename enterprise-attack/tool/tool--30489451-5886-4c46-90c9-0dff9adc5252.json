@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bbb87eb4-4521-430c-a3e1-06e995b74b6a",
+    "id": "bundle--07579bf6-8a4e-4ba5-9776-f0210ef56e9c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,31 +8,26 @@
             "id": "tool--30489451-5886-4c46-90c9-0dff9adc5252",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:02.428Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "modified": "2018-01-17T12:56:55.080Z",
             "name": "Arp",
-            "description": "Arp displays information about a system's Address Resolution Protocol (ARP) cache. (Citation: TechNet Arp)\n\nPlatforms: Linux, Windows, macOS\n\nAliases: Arp, arp.exe",
+            "description": "Arp displays information about a system's Address Resolution Protocol (ARP) cache. (Citation: TechNet Arp)\n\nAliases: Arp, arp.exe",
             "labels": [
                 "tool"
             ],
             "external_references": [
                 {
                     "external_id": "S0099",
-                    "url": "https://attack.mitre.org/wiki/Software/S0099",
-                    "source_name": "mitre-attack"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Software/S0099"
                 },
                 {
                     "url": "https://technet.microsoft.com/en-us/library/bb490864.aspx",
-                    "description": "Microsoft. (n.d.). Arp. Retrieved April 17, 2016.",
-                    "source_name": "TechNet Arp"
+                    "source_name": "TechNet Arp",
+                    "description": "Microsoft. (n.d.). Arp. Retrieved April 17, 2016."
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "x_mitre_platforms": [
-                "Linux",
-                "Windows",
-                "macOS"
             ],
             "x_mitre_aliases": [
                 "Arp",

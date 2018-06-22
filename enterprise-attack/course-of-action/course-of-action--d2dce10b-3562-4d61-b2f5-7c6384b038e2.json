@@ -1,21 +1,21 @@
 {
     "type": "bundle",
-    "id": "bundle--4a269534-eb34-4dcd-a1b9-162932446d13",
+    "id": "bundle--ef91257b-07b2-49a2-a46d-ac5da7312969",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--d2dce10b-3562-4d61-b2f5-7c6384b038e2",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-26T15:31:49.970Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "created": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-04-18T17:59:24.739Z",
             "name": "Mshta Mitigation",
             "description": "Mshta.exe may not be necessary within a given environment since its functionality is tied to older versions of Internet Explorer which have reached end of life. Use application whitelisting configured to block execution of mshta.exe if it is not required for a given system or network to prevent potential misuse by adversaries.",
             "external_references": [
                 {
                     "external_id": "T1170",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1170",
-                    "source_name": "mitre-attack"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Technique/T1170"
                 }
             ]
         }

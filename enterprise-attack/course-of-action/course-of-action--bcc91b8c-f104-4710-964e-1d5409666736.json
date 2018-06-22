@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--0bd68c51-186e-466b-8d52-4fd36a89ae40",
+    "id": "bundle--97c41f4e-a03d-43e8-8387-67639e265ad2",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--bcc91b8c-f104-4710-964e-1d5409666736",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-26T15:31:49.970Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "created": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-04-18T17:59:24.739Z",
             "name": "Web Shell Mitigation",
-            "description": "Ensure that externally facing Web servers are patched regularly to prevent adversary access through Exploitation for Privilege Escalation Mitigation to gain remote code access or through file inclusion weaknesses that may allow adversaries to upload files or scripts that are automatically served as Web pages. \n\nAudit account and group permissions to ensure that accounts used to manage servers do not overlap with accounts and permissions of users in the internal network that could be acquired through Credential Access and used to log into the Web server and plant a Web shell or pivot from the Web server into the internal network. (Citation: US-CERT Alert TA15-314A Web Shells)",
+            "description": "Ensure that externally facing Web servers are patched regularly to prevent adversary access through Exploitation for Privilege Escalation to gain remote code access or through file inclusion weaknesses that may allow adversaries to upload files or scripts that are automatically served as Web pages. \n\nAudit account and group permissions to ensure that accounts used to manage servers do not overlap with accounts and permissions of users in the internal network that could be acquired through Credential Access and used to log into the Web server and plant a Web shell or pivot from the Web server into the internal network. (Citation: US-CERT Alert TA15-314A Web Shells)",
             "external_references": [
                 {
                     "external_id": "T1100",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1100",
-                    "source_name": "mitre-attack"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Technique/T1100"
                 },
                 {
                     "url": "https://www.us-cert.gov/ncas/alerts/TA15-314A",
-                    "description": "US-CERT. (2015, November 13). Compromised Web Servers and Web Shells - Threat Awareness and Guidance. Retrieved June 8, 2016.",
-                    "source_name": "US-CERT Alert TA15-314A Web Shells"
+                    "source_name": "US-CERT Alert TA15-314A Web Shells",
+                    "description": "US-CERT. (2015, November 13). Compromised Web Servers and Web Shells - Threat Awareness and Guidance. Retrieved June 8, 2016."
                 }
             ]
         }

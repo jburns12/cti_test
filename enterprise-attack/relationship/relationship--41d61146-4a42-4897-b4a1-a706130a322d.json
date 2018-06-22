@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--30a34e0f-5808-42c1-bc69-7a6df8578f40",
+    "id": "bundle--10eb722e-dadd-4f92-a40b-fc24087ad998",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--41d61146-4a42-4897-b4a1-a706130a322d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.056Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "An APT3 downloader uses the Windows command <code>\"cmd.exe\" /C whoami</code>. (Citation: FireEye Operation Double Tap) The group also uses a tool to execute commands on remote computers. (Citation: Symantec Buckeye)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "An APT3 downloader uses the Windows command <code>\"cmd.exe\" /C whoami</code>. The group also uses a tool to execute commands on remote computers.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2014/11/operation%20doubletap.html",
-                    "description": "Moran, N., et al. (2014, November 21). Operation Double Tap. Retrieved January 14, 2016.",
-                    "source_name": "FireEye Operation Double Tap"
+                    "source_name": "FireEye Operation Double Tap",
+                    "description": "Moran, N., et al. (2014, November 21). Operation Double Tap. Retrieved January 14, 2016."
                 },
                 {
                     "url": "http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
-                    "description": "Symantec Security Response. (2016, September 6). Buckeye cyberespionage group shifts gaze from US to Hong Kong. Retrieved September 26, 2016.",
-                    "source_name": "Symantec Buckeye"
+                    "source_name": "Symantec Buckeye",
+                    "description": "Symantec Security Response. (2016, September 6). Buckeye cyberespionage group shifts gaze from US to Hong Kong. Retrieved September 26, 2016."
                 }
             ],
             "object_marking_refs": [

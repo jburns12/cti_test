@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c060c59f-e339-4dca-bf38-b7ec3a37033e",
+    "id": "bundle--628b5ff9-d4cc-49b7-a2c1-e6027248ba7d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--fe229513-0cd9-4e9a-a333-2748ef03dfbc",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "USBStealer collects files matching certain criteria from the victim and stores them in a local directory for later exfiltration. (Citation: ESET Sednit USBStealer 2014) (Citation: Kaspersky Sofacy)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "USBStealer collects files matching certain criteria from the victim and stores them in a local directory for later exfiltration.",
             "external_references": [
                 {
                     "url": "http://www.welivesecurity.com/2014/11/11/sednit-espionage-group-attacking-air-gapped-networks/",
-                    "description": "Calvet, J. (2014, November 11). Sednit Espionage Group Attacking Air-Gapped Networks. Retrieved January 4, 2017.",
-                    "source_name": "ESET Sednit USBStealer 2014"
+                    "source_name": "ESET Sednit USBStealer 2014",
+                    "description": "Calvet, J. (2014, November 11). Sednit Espionage Group Attacking Air-Gapped Networks. Retrieved January 4, 2017."
                 },
                 {
                     "url": "https://securelist.com/sofacy-apt-hits-high-profile-targets-with-updated-toolset/72924/",
-                    "description": "Kaspersky Lab's Global Research and Analysis Team. (2015, December 4). Sofacy APT hits high profile targets with updated toolset. Retrieved December 10, 2015.",
-                    "source_name": "Kaspersky Sofacy"
+                    "source_name": "Kaspersky Sofacy",
+                    "description": "Kaspersky Lab's Global Research and Analysis Team. (2015, December 4). Sofacy APT hits high profile targets with updated toolset. Retrieved December 10, 2015."
                 }
             ],
             "object_marking_refs": [

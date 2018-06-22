@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e8870f40-318f-48da-ad78-19922cf5498b",
+    "id": "bundle--ac3406bd-67c1-4060-8a05-48d46e7cae45",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,31 +8,26 @@
             "id": "tool--c11ac61d-50f4-444f-85d8-6f006067f0de",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:04.151Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "modified": "2018-01-17T12:56:55.080Z",
             "name": "route",
-            "description": "route can be used to find or change information within the local system IP routing table. (Citation: TechNet Route)\n\nPlatforms: Linux, Windows, macOS\n\nAliases: route, route.exe",
+            "description": "route can be used to find or change information within the local system IP routing table. (Citation: TechNet Route)\n\nAliases: route, route.exe",
             "labels": [
                 "tool"
             ],
             "external_references": [
                 {
                     "external_id": "S0103",
-                    "url": "https://attack.mitre.org/wiki/Software/S0103",
-                    "source_name": "mitre-attack"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Software/S0103"
                 },
                 {
                     "url": "https://technet.microsoft.com/en-us/library/bb490991.aspx",
-                    "description": "Microsoft. (n.d.). Route. Retrieved April 17, 2016.",
-                    "source_name": "TechNet Route"
+                    "source_name": "TechNet Route",
+                    "description": "Microsoft. (n.d.). Route. Retrieved April 17, 2016."
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "x_mitre_platforms": [
-                "Linux",
-                "Windows",
-                "macOS"
             ],
             "x_mitre_aliases": [
                 "route",

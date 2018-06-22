@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4275c3f0-f5af-4eb9-98d7-86f9f12814ca",
+    "id": "bundle--3eadb733-a486-4fb4-99f1-3dfd26aee7cf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--23df6015-0167-481c-84aa-3d15d3e38a85",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "Data SPACESHIP copies to the staging area is compressed with zlib. Bytes are rotated by four positions and XOR'ed with 0x23. (Citation: FireEye APT30)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "Data SPACESHIP copies to the staging area is compressed with zlib. Bytes are rotated by four positions and XOR'ed with 0x23.",
             "external_references": [
                 {
                     "url": "https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf",
-                    "description": "FireEye Labs. (2015, April). APT30 AND THE MECHANICS OF A LONG-RUNNING CYBER ESPIONAGE OPERATION. Retrieved May 1, 2015.",
-                    "source_name": "FireEye APT30"
+                    "source_name": "FireEye APT30",
+                    "description": "FireEye Labs. (2015, April). APT30 AND THE MECHANICS OF A LONG-RUNNING CYBER ESPIONAGE OPERATION. Retrieved May 1, 2015."
                 }
             ],
             "object_marking_refs": [

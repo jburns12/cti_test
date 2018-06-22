@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b0322076-8d54-42b7-be24-5f6d0cef9d67",
+    "id": "bundle--eacd9fc9-6dcd-4aea-adb0-fafd6f5faf71",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--541855dd-0249-4f63-8e95-0024f760484e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "Hydraq creates a Registry subkey to register its created service, and can also uninstall itself later by deleting this value. Hydraq's backdoor also enables remote attackers to modify and delete subkeys. (Citation: Symantec Hydraq Jan 2010) (Citation: Symantec Trojan.Hydraq Jan 2010)",
+            "modified": "2018-04-18T17:59:24.739Z",
+            "description": "Hydraq creates a Registry subkey to register its created service, and can also uninstall itself later by deleting this value. Hydraq's backdoor also enables remote attackers to modify and delete subkeys.",
             "external_references": [
                 {
                     "url": "https://www.symantec.com/connect/blogs/trojanhydraq-incident",
-                    "description": "Symantec Security Response. (2010, January 18). The Trojan.Hydraq Incident. Retrieved February 20, 2018.",
-                    "source_name": "Symantec Trojan.Hydraq Jan 2010"
+                    "source_name": "Symantec Trojan.Hydraq Jan 2010",
+                    "description": "Symantec Security Response. (2010, January 18). The Trojan.Hydraq Incident. Retrieved February 20, 2018."
                 },
                 {
                     "url": "https://www.symantec.com/security%20response/writeup.jsp?docid=2010-011114-1830-99",
-                    "description": "Lelli, A. (2010, January 11). Trojan.Hydraq. Retrieved February 20, 2018.",
-                    "source_name": "Symantec Hydraq Jan 2010"
+                    "source_name": "Symantec Hydraq Jan 2010",
+                    "description": "Lelli, A. (2010, January 11). Trojan.Hydraq. Retrieved February 20, 2018."
                 }
             ],
             "object_marking_refs": [

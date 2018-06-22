@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ff133d9b-3eb3-49d9-9556-21cfb51d8c7f",
+    "id": "bundle--9ad362af-b76d-40b8-8e15-4fd2dbeb15be",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--91d4c776-c259-46b0-b511-b344ca027009",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "The payload of CozyCar is encrypted with simple XOR with a rotating key. The CozyCar configuration file has been encrypted with RC4 keys. (Citation: F-Secure CozyDuke)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "The payload of CozyCar is encrypted with simple XOR with a rotating key. The CozyCar configuration file has been encrypted with RC4 keys.",
             "external_references": [
                 {
                     "url": "https://www.f-secure.com/documents/996508/1030745/CozyDuke",
-                    "description": "F-Secure Labs. (2015, April 22). CozyDuke: Malware Analysis. Retrieved December 10, 2015.",
-                    "source_name": "F-Secure CozyDuke"
+                    "source_name": "F-Secure CozyDuke",
+                    "description": "F-Secure Labs. (2015, April 22). CozyDuke: Malware Analysis. Retrieved December 10, 2015."
                 }
             ],
             "object_marking_refs": [

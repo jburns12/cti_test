@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--887de773-96dc-430d-ba4d-d2e4546e3509",
+    "id": "bundle--5a90d582-09fe-4913-90b5-3a9f15f0bc72",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--5301c007-7c00-4b4d-b355-864db8de052f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "CORESHELL collects hostname, volume serial number and OS version data from the victim and sends the information to its C2 server. (Citation: FireEye APT28)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "CORESHELL collects hostname, volume serial number and OS version data from the victim and sends the information to its C2 server.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf",
-                    "description": "FireEye. (2015). APT28: A WINDOW INTO RUSSIA\u2019S CYBER ESPIONAGE OPERATIONS?. Retrieved August 19, 2015.",
-                    "source_name": "FireEye APT28"
+                    "source_name": "FireEye APT28",
+                    "description": "FireEye. (2015). APT28: A WINDOW INTO RUSSIA\u2019S CYBER ESPIONAGE OPERATIONS?. Retrieved August 19, 2015."
                 }
             ],
             "object_marking_refs": [

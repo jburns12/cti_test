@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--65a13416-b494-4da3-809d-117910f4a0f3",
+    "id": "bundle--d4d7386c-626d-452f-a3a7-699469e504a2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:31:47.177Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "modified": "2018-01-17T12:56:55.080Z",
             "name": "Ke3chang",
             "description": "Ke3chang is a threat group attributed to actors operating out of China. (Citation: Villeneuve et al 2014)",
             "aliases": [
@@ -17,17 +17,13 @@
             "external_references": [
                 {
                     "external_id": "G0004",
-                    "url": "https://attack.mitre.org/wiki/Group/G0004",
-                    "source_name": "mitre-attack"
-                },
-                {
-                    "description": "[[Citation: Villeneuve et al 2014]]",
-                    "source_name": "Ke3chang"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Group/G0004"
                 },
                 {
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-ke3chang.pdf",
-                    "description": "Villeneuve, N., Bennett, J. T., Moran, N., Haq, T., Scott, M., & Geers, K. (2014). OPERATION \u201cKE3CHANG\u201d: Targeted Attacks Against Ministries of Foreign Affairs. Retrieved November 12, 2014.",
-                    "source_name": "Villeneuve et al 2014"
+                    "source_name": "Villeneuve et al 2014",
+                    "description": "Villeneuve, N., Bennett, J. T., Moran, N., Haq, T., Scott, M., & Geers, K. (2014). OPERATION \u201cKE3CHANG\u201d: Targeted Attacks Against Ministries of Foreign Affairs. Retrieved November 12, 2014."
                 }
             ],
             "object_marking_refs": [

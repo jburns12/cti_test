@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f081fb6c-165c-41a9-95d0-71377fb5412e",
+    "id": "bundle--580b1fa3-3cf4-418c-9ad2-51176f892506",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,26 +8,21 @@
             "id": "tool--65370d0b-3bd4-4653-8cf9-daf56f6be830",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "modified": "2018-04-18T17:59:24.739Z",
             "name": "meek",
-            "description": "meek is an open-source Tor plugin that tunnels Tor traffic through HTTPS connections.\n\nPlatforms: Linux, Windows, macOS\n\nAliases: meek",
+            "description": "meek is an open-source Tor plugin that tunnels Tor traffic through HTTPS connections.\n\nAliases: meek",
             "labels": [
                 "tool"
             ],
             "external_references": [
                 {
                     "external_id": "S0175",
-                    "url": "https://attack.mitre.org/wiki/Software/S0175",
-                    "source_name": "mitre-attack"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Software/S0175"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "x_mitre_platforms": [
-                "Linux",
-                "Windows",
-                "macOS"
             ],
             "x_mitre_aliases": [
                 "meek"

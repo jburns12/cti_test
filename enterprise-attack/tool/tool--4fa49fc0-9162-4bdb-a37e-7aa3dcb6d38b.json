@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1537e28d-0618-4615-9bd5-ff556c7a67d4",
+    "id": "bundle--f187ed1b-fa53-4b90-915f-6bbf7b14dfd2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,29 +8,26 @@
             "id": "tool--4fa49fc0-9162-4bdb-a37e-7aa3dcb6d38b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:11.941Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "modified": "2018-01-17T12:56:55.080Z",
             "name": "xCmd",
-            "description": "xCmd]] is an open source tool that is similar to PsExec and allows the user to execute applications on remote systems. (Citation: xCmd)\n\nPlatforms: Windows\n\nAliases: xCmd",
+            "description": " (Citation: xCmd) is an open source tool that is similar to PsExec and allows the user to execute applications on remote systems. (Citation: xCmd)\n\nAliases:  (Citation: xCmd)",
             "labels": [
                 "tool"
             ],
             "external_references": [
                 {
                     "external_id": "S0123",
-                    "url": "https://attack.mitre.org/wiki/Software/S0123",
-                    "source_name": "mitre-attack"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Software/S0123"
                 },
                 {
                     "url": "https://ashwinrayaprolu.wordpress.com/2011/04/12/xcmd-an-alternative-to-psexec/",
-                    "description": "Rayaprolu, A.. (2011, April 12). xCmd an Alternative to PsExec. Retrieved August 10, 2016.",
-                    "source_name": "xCmd"
+                    "source_name": "xCmd",
+                    "description": "Rayaprolu, A.. (2011, April 12). xCmd an Alternative to PsExec. Retrieved August 10, 2016."
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "x_mitre_platforms": [
-                "Windows"
             ],
             "x_mitre_aliases": [
                 "xCmd"

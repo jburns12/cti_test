@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fdc8cd33-c550-4f30-be64-be0da2132efe",
+    "id": "bundle--902e7675-f8f6-4e4b-94c8-04a8feed25be",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--b9f5dbe2-4c55-4fc5-af2e-d42c1d182ec4",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:30:19.338Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "modified": "2018-04-18T17:59:24.739Z",
             "name": "Data Compressed",
-            "description": "An adversary may compress data (e.g., sensitive documents) that is collected prior to exfiltration in order to make it portable and minimize the amount of data sent over the network. The compression is done separately from the exfiltration channel and is performed using a custom program or algorithm, or a more common compression library or utility such as 7zip, RAR, ZIP, or zlib.\n\nDetection: Compression software and compressed files can be detected in many ways. Common utilities that may be present on the system or brought in by an adversary may be detectable through process monitoring and monitoring for command-line arguments for known compression utilities. This may yield a significant amount of benign events, depending on how systems in the environment are typically used.\n\nIf the communications channel is unencrypted, compressed files can be detected in transit during exfiltration with a network intrusion detection or data loss prevention system analyzing file headers. (Citation: Wikipedia File Header Signatures)\n\nPlatforms: Linux, Windows, macOS\n\nData Sources: Binary file metadata, File monitoring, Process command-line parameters, Process monitoring",
+            "description": "An adversary may compress data (e.g., sensitive documents) that is collected prior to exfiltration in order to make it portable and minimize the amount of data sent over the network. The compression is done separately from the exfiltration channel and is performed using a custom program or algorithm, or a more common compression library or utility such as 7zip, RAR, ZIP, or zlib.\n\nDetection: Compression software and compressed files can be detected in many ways. Common utilities that may be present on the system or brought in by an adversary may be detectable through process monitoring and monitoring for command-line arguments for known compression utilities. This may yield a significant amount of benign events, depending on how systems in the environment are typically used.\n\nIf the communications channel is unencrypted, compressed files can be detected in transit during exfiltration with a network intrusion detection or data loss prevention system analyzing file headers. (Citation: Wikipedia File Header Signatures)\n\nPlatforms: Linux, macOS, Windows\n\nData Sources: File monitoring, Binary file metadata, Process command-line parameters, Process monitoring\n\nRequires Network: No",
             "kill_chain_phases": [
                 {
                     "phase_name": "exfiltration",
@@ -20,13 +20,13 @@
             "external_references": [
                 {
                     "external_id": "T1002",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1002",
-                    "source_name": "mitre-attack"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Technique/T1002"
                 },
                 {
                     "url": "https://en.wikipedia.org/wiki/List%20of%20file%20signatures",
-                    "description": "Wikipedia. (2016, March 31). List of file signatures. Retrieved April 22, 2016.",
-                    "source_name": "Wikipedia File Header Signatures"
+                    "source_name": "Wikipedia File Header Signatures",
+                    "description": "Wikipedia. (2016, March 31). List of file signatures. Retrieved April 22, 2016."
                 }
             ],
             "object_marking_refs": [
@@ -34,12 +34,12 @@
             ],
             "x_mitre_platforms": [
                 "Linux",
-                "Windows",
-                "macOS"
+                "macOS",
+                "Windows"
             ],
             "x_mitre_data_sources": [
-                "Binary file metadata",
                 "File monitoring",
+                "Binary file metadata",
                 "Process command-line parameters",
                 "Process monitoring"
             ]

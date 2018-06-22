@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b5849192-6649-4ea7-9f2d-f5bebf87854e",
+    "id": "bundle--919aa689-0d66-4240-bb70-8c6870907360",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--6ff403bc-93e3-48be-8687-e102fdba8c88",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:30:43.472Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "modified": "2018-04-18T17:59:24.739Z",
             "name": "Software Packing",
-            "description": "Software packing is a method of compressing or encrypting an executable. Packing an executable changes the file signature in an attempt to avoid signature-based detection. Most decompression techniques decompress the executable code in memory.\n\nUtilities used to perform software packing are called packers. Example packers are MPRESS and UPX. A more comprehensive list of known packers is available, (Citation: Wikipedia Exe Compression) but adversaries may create their own packing techniques that do not leave the same artifacts as well-known packers to evade defenses.\n\nDetection: Use file scanning to look for known software packers or artifacts of packing techniques. Packing is not a definitive indicator of malicious activity, because legitimate software may use packing techniques to reduce binary size or to protect proprietary code.\n\nPlatforms: Windows\n\nData Sources: Binary file metadata\n\nDefense Bypassed: Signature-based detection, Anti-virus, Heuristic detection",
+            "description": "Software packing is a method of compressing or encrypting an executable. Packing an executable changes the file signature in an attempt to avoid signature-based detection. Most decompression techniques decompress the executable code in memory.\n\nUtilities used to perform software packing are called packers. Example packers are MPRESS and UPX. A more comprehensive list of known packers is available, (Citation: Wikipedia Exe Compression) but adversaries may create their own packing techniques that do not leave the same artifacts as well-known packers to evade defenses.\n\nDetection: Use file scanning to look for known software packers or artifacts of packing techniques. Packing is not a definitive indicator of malicious activity, because legitimate software may use packing techniques to reduce binary size or to protect proprietary code.\n\nPlatforms: Windows\n\nData Sources: Binary file metadata\n\nDefense Bypassed: Anti-virus, Signature-based detection, Heuristic detection",
             "kill_chain_phases": [
                 {
                     "phase_name": "defense-evasion",
@@ -20,13 +20,13 @@
             "external_references": [
                 {
                     "external_id": "T1045",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1045",
-                    "source_name": "mitre-attack"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Technique/T1045"
                 },
                 {
                     "url": "http://en.wikipedia.org/wiki/Executable%20compression",
-                    "description": "Executable compression. (n.d.).  Retrieved December 4, 2014.",
-                    "source_name": "Wikipedia Exe Compression"
+                    "source_name": "Wikipedia Exe Compression",
+                    "description": "Executable compression. (n.d.).  Retrieved December 4, 2014."
                 }
             ],
             "object_marking_refs": [
@@ -39,8 +39,8 @@
                 "Binary file metadata"
             ],
             "x_mitre_defense_bypassed": [
-                "Signature-based detection",
                 "Anti-virus",
+                "Signature-based detection",
                 "Heuristic detection"
             ]
         }

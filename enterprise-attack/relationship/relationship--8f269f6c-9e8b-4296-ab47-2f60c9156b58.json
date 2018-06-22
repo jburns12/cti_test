@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--597912ba-65c3-4454-ae66-219e90e354fb",
+    "id": "bundle--ccc7a32b-7b3d-49d7-a33d-f700102da0ae",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,22 +8,22 @@
             "id": "relationship--8f269f6c-9e8b-4296-ab47-2f60c9156b58",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.038Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "APT28 executed CHOPSTICK by using rundll32 commands such as <code>rundll32.exe \u201cC:\\Windows\\twain_64.dll\u201d</code>. (Citation: Crowdstrike DNC June 2016) APT28 also executed a .dll for a first stage dropper using rundll32.exe. (Citation: Bitdefender APT28 Dec 2015) An APT28 loader Trojan saved a batch script that uses rundll32 to execute a DLL payload. (Citation: Unit 42 Playbook Sofacy Feb 2018)",
+            "modified": "2018-04-18T17:59:24.739Z",
+            "description": "APT28 executed CHOPSTICK by using rundll32 commands such as <code>rundll32.exe \u201cC:\\Windows\\twain_64.dll\u201d</code>.APT28 also executed a .dll for a first stage dropper using rundll32.exe.APT28 loader Trojan saved a batch script that uses rundll32 to execute a DLL payload.",
             "external_references": [
                 {
-                    "url": "https://www.crowdstrike.com/blog/bears-midst-intrusion-democratic-national-committee/",
-                    "description": "Alperovitch, D.. (2016, June 15). Bears in the Midst: Intrusion into the Democratic National Committee. Retrieved August 3, 2016.",
-                    "source_name": "Crowdstrike DNC June 2016"
+                    "source_name": "Bitdefender APT28 Dec 2015",
+                    "description": "Bitdefender. (2015, December). APT28 Under the Scope. Retrieved February 23, 2017."
                 },
                 {
-                    "description": "Bitdefender. (2015, December). APT28 Under the Scope. Retrieved February 23, 2017.",
-                    "source_name": "Bitdefender APT28 Dec 2015"
+                    "url": "https://www.crowdstrike.com/blog/bears-midst-intrusion-democratic-national-committee/",
+                    "source_name": "Crowdstrike DNC June 2016",
+                    "description": "Alperovitch, D.. (2016, June 15). Bears in the Midst: Intrusion into the Democratic National Committee. Retrieved August 3, 2016."
                 },
                 {
                     "url": "https://pan-unit42.github.io/playbook%20viewer/",
-                    "description": "Unit 42. (2018, February 28). Unit 42 Playbook Viewer - Sofacy. Retrieved March 15, 2018.",
-                    "source_name": "Unit 42 Playbook Sofacy Feb 2018"
+                    "source_name": "Unit 42 Playbook Sofacy Feb 2018",
+                    "description": "Unit 42. (2018, February 28). Unit 42 Playbook Viewer - Sofacy. Retrieved March 15, 2018."
                 }
             ],
             "object_marking_refs": [

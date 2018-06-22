@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a579ef86-a451-471b-ba30-d5701c7c966a",
+    "id": "bundle--d787fcaa-6497-4ece-9774-f4efe56e2b88",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--6203e555-d5f9-4b3c-978b-d10db7575dbc",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "Linfo creates a backdoor through which remote attackers can list contents of drives and search for files. (Citation: Symantec Linfo May 2012)",
+            "modified": "2018-04-18T17:59:24.739Z",
+            "description": "creates a backdoor through which remote attackers can list contents of drives and search for files.",
             "external_references": [
                 {
                     "url": "https://www.symantec.com/security%20response/writeup.jsp?docid=2012-051605-2535-99",
-                    "description": "Zhou, R. (2012, May 15). Backdoor.Linfo. Retrieved February 23, 2018.",
-                    "source_name": "Symantec Linfo May 2012"
+                    "source_name": "Symantec Linfo May 2012",
+                    "description": "Zhou, R. (2012, May 15). Backdoor.Linfo. Retrieved February 23, 2018."
                 }
             ],
             "object_marking_refs": [

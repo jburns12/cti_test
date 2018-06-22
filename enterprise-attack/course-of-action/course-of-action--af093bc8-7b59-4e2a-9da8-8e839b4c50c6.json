@@ -1,21 +1,21 @@
 {
     "type": "bundle",
-    "id": "bundle--e9d4b3ec-dedb-4566-8b14-2e11d6112507",
+    "id": "bundle--d89c0540-dbfb-488e-ba63-2987348d2b63",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--af093bc8-7b59-4e2a-9da8-8e839b4c50c6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-26T15:31:49.970Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "created": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-04-18T17:59:24.739Z",
             "name": "Remote Access Tools Mitigation",
             "description": "Properly configure firewalls, application firewalls, and proxies to limit outgoing traffic to sites and services used by remote access tools.\n\nNetwork intrusion detection and prevention systems that use network signatures may be able to prevent traffic to these services as well.\n\nUse application whitelisting to mitigate use of and installation of unapproved software.",
             "external_references": [
                 {
                     "external_id": "T1219",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1219",
-                    "source_name": "mitre-attack"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Technique/T1219"
                 }
             ]
         }

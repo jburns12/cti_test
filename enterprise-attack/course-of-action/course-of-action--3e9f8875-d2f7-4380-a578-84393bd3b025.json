@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--ee932855-745f-423a-a0ce-6ef3f4005d27",
+    "id": "bundle--39dab402-78ed-48b4-bbfb-1b0e8ebfe475",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--3e9f8875-d2f7-4380-a578-84393bd3b025",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-26T15:31:49.970Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "created": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-04-18T17:59:24.739Z",
             "name": "Windows Remote Management Mitigation",
             "description": "Disable the WinRM service. If the service is necessary, lock down critical enclaves with separate WinRM infrastructure, accounts, and permissions. Follow WinRM best practices on configuration of authentication methods and use of host firewalls to restrict WinRM access to allow communication only to/from specific devices. (Citation: NSA Spotting)",
             "external_references": [
                 {
                     "external_id": "T1028",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1028",
-                    "source_name": "mitre-attack"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Technique/T1028"
                 },
                 {
                     "url": "http://www.nsa.gov/ia/%20files/app/spotting%20the%20adversary%20with%20windows%20event%20log%20monitoring.pdf",
-                    "description": "National Security Agency/Central Security Service Information Assurance Directorate. (2013, December 16). Spotting the Adversary with Windows Event Log Monitoring. Retrieved November 12, 2014.",
-                    "source_name": "NSA Spotting"
+                    "source_name": "NSA Spotting",
+                    "description": "National Security Agency/Central Security Service Information Assurance Directorate. (2013, December 16). Spotting the Adversary with Windows Event Log Monitoring. Retrieved November 12, 2014."
                 }
             ]
         }

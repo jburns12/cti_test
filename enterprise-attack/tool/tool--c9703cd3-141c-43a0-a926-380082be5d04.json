@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--45d883bf-04da-4fec-9026-e35534dfee0b",
+    "id": "bundle--b2580a27-15d7-483b-84e5-cd6d8de70c6d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,29 +8,26 @@
             "id": "tool--c9703cd3-141c-43a0-a926-380082be5d04",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:07.218Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "modified": "2018-01-17T12:56:55.080Z",
             "name": "schtasks",
-            "description": "schtasks is used to schedule execution of programs or scripts on a Windows system to run at a specific date and time. (Citation: TechNet Schtasks)\n\nPlatforms: Windows\n\nAliases: schtasks, schtasks.exe",
+            "description": "schtasks is used to schedule execution of programs or scripts on a Windows system to run at a specific date and time. (Citation: TechNet Schtasks)\n\nAliases: schtasks, schtasks.exe",
             "labels": [
                 "tool"
             ],
             "external_references": [
                 {
                     "external_id": "S0111",
-                    "url": "https://attack.mitre.org/wiki/Software/S0111",
-                    "source_name": "mitre-attack"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Software/S0111"
                 },
                 {
                     "url": "https://technet.microsoft.com/en-us/library/bb490996.aspx",
-                    "description": "Microsoft. (n.d.). Schtasks. Retrieved April 28, 2016.",
-                    "source_name": "TechNet Schtasks"
+                    "source_name": "TechNet Schtasks",
+                    "description": "Microsoft. (n.d.). Schtasks. Retrieved April 28, 2016."
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "x_mitre_platforms": [
-                "Windows"
             ],
             "x_mitre_aliases": [
                 "schtasks",

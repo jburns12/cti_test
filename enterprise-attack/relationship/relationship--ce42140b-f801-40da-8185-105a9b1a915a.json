@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4a4c95a8-f1fc-4128-afef-d1c9d8b9d9ca",
+    "id": "bundle--dadeadec-f804-4823-b617-1a517b404aad",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,28 +8,28 @@
             "id": "relationship--ce42140b-f801-40da-8185-105a9b1a915a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "PlugX can be added as a service to establish persistence. (Citation: Lastline PlugX Analysis) (Citation: PWC Cloud Hopper Technical Annex April 2017) (Citation: FireEye APT10 April 2017) (Citation: Proofpoint ZeroT Feb 2017)",
+            "modified": "2018-04-18T17:59:24.739Z",
+            "description": "PlugX can be added as a service to establish persistence.",
             "external_references": [
                 {
                     "url": "http://labs.lastline.com/an-analysis-of-plugx",
-                    "description": "Vasilenko, R. (2013, December 17). An Analysis of PlugX Malware. Retrieved November 24, 2015.",
-                    "source_name": "Lastline PlugX Analysis"
+                    "source_name": "Lastline PlugX Analysis",
+                    "description": "Vasilenko, R. (2013, December 17). An Analysis of PlugX Malware. Retrieved November 24, 2015."
                 },
                 {
                     "url": "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-annex-b-final.pdf",
-                    "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.",
-                    "source_name": "PWC Cloud Hopper Technical Annex April 2017"
+                    "source_name": "PWC Cloud Hopper Technical Annex April 2017",
+                    "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017."
                 },
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/04/apt10%20menupass%20grou.html",
-                    "description": "FireEye iSIGHT Intelligence. (2017, April 6). APT10 (MenuPass Group): New Tools, Global Campaign Latest Manifestation of Longstanding Threat. Retrieved June 29, 2017.",
-                    "source_name": "FireEye APT10 April 2017"
+                    "source_name": "FireEye APT10 April 2017",
+                    "description": "FireEye iSIGHT Intelligence. (2017, April 6). APT10 (MenuPass Group): New Tools, Global Campaign Latest Manifestation of Longstanding Threat. Retrieved June 29, 2017."
                 },
                 {
                     "url": "https://www.proofpoint.com/us/threat-insight/post/APT-targets-russia-belarus-zerot-plugx",
-                    "description": "Huss, D., et al. (2017, February 2). Oops, they did it again: APT Targets Russia and Belarus with ZeroT and PlugX. Retrieved April 5, 2018.",
-                    "source_name": "Proofpoint ZeroT Feb 2017"
+                    "source_name": "Proofpoint ZeroT Feb 2017",
+                    "description": "Huss, D., et al. (2017, February 2). Oops, they did it again: APT Targets Russia and Belarus with ZeroT and PlugX. Retrieved April 5, 2018."
                 }
             ],
             "object_marking_refs": [

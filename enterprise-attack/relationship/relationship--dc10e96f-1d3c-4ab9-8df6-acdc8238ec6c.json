@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7f3c11ad-300b-4053-ab7d-dd5e4e1d3a25",
+    "id": "bundle--64aa4242-072a-4482-8fba-1376a7427a72",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--dc10e96f-1d3c-4ab9-8df6-acdc8238ec6c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.038Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "APT28 added \"junk data\" to each encoded string, preventing trivial decoding without knowledge of the junk removal algorithm. Each implant was given a \"junk length\" value when created, tracked by the controller software to allow seamless communication but prevent analysis of the command protocol on the wire. (Citation: FireEye APT28)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "APT28 added \"junk data\" to each encoded string, preventing trivial decoding without knowledge of the junk removal algorithm. Each implant was given a \"junk length\" value when created, tracked by the controller software to allow seamless communication but prevent analysis of the command protocol on the wire.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf",
-                    "description": "FireEye. (2015). APT28: A WINDOW INTO RUSSIA\u2019S CYBER ESPIONAGE OPERATIONS?. Retrieved August 19, 2015.",
-                    "source_name": "FireEye APT28"
+                    "source_name": "FireEye APT28",
+                    "description": "FireEye. (2015). APT28: A WINDOW INTO RUSSIA\u2019S CYBER ESPIONAGE OPERATIONS?. Retrieved August 19, 2015."
                 }
             ],
             "object_marking_refs": [

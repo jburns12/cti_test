@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a29bce63-354d-4390-b8f9-35aab367d778",
+    "id": "bundle--1143cc8f-a0c3-433e-97bd-2c56289290fb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--baf31b81-e175-49e3-b2d9-d7552ea902a1",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "POWERSTATS uses character replacement, PowerShell Mitigation environment variables, and XOR encoding to obfuscate code. (Citation: FireEye MuddyWater Mar 2018)",
+            "modified": "2018-04-18T17:59:24.739Z",
+            "description": "POWERSTATS uses character replacement, PowerShell environment variables, and XOR encoding to obfuscate code.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2018/03/iranian-threat-group-updates-ttps-in-spear-phishing-campaign.html",
-                    "description": "Singh, S. et al.. (2018, March 13). Iranian Threat Group Updates Tactics, Techniques and Procedures in Spear Phishing Campaign. Retrieved April 11, 2018.",
-                    "source_name": "FireEye MuddyWater Mar 2018"
+                    "source_name": "FireEye MuddyWater Mar 2018",
+                    "description": "Singh, S. et al.. (2018, March 13). Iranian Threat Group Updates Tactics, Techniques and Procedures in Spear Phishing Campaign. Retrieved April 11, 2018."
                 }
             ],
             "object_marking_refs": [

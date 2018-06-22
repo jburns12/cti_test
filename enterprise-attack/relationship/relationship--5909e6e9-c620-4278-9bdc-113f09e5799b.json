@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--15294478-2aa0-4d95-b453-4acf2fc68c61",
+    "id": "bundle--edfe3300-9c1f-4b88-9fb7-8a23ab6949ad",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--5909e6e9-c620-4278-9bdc-113f09e5799b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "Cobalt Strike uses a custom command and control protocol that is encapsulated in HTTP, HTTPS, or DNS. In addition, it conducts peer-to-peer communication over Windows named pipes encapsulated in the SMB protocol. All protocols use their standard assigned ports. (Citation: cobaltstrike manual)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "Cobalt Strike uses a custom command and control protocol that is encapsulated in HTTP, HTTPS, or DNS.  In addition, it conducts peer-to-peer communication over Windows named pipes encapsulated in the SMB protocol.  All protocols use their standard assigned ports.",
             "external_references": [
                 {
                     "url": "https://cobaltstrike.com/downloads/csmanual38.pdf",
-                    "description": "Strategic Cyber LLC. (2017, March 14). Cobalt Strike Manual. Retrieved May 24, 2017.",
-                    "source_name": "cobaltstrike manual"
+                    "source_name": "cobaltstrike manual",
+                    "description": "Strategic Cyber LLC. (2017, March 14). Cobalt Strike Manual. Retrieved May 24, 2017."
                 }
             ],
             "object_marking_refs": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d28459d3-6543-468b-a1b3-874e259af46f",
+    "id": "bundle--a05417bf-84ad-4afc-9702-f673114f655a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,39 +8,36 @@
             "id": "tool--13cd9151-83b7-410d-9f98-25d0f0d1d80d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "modified": "2018-04-18T17:59:24.739Z",
             "name": "PowerSploit",
-            "description": "PowerSploit is an open source, offensive security framework compromised of PowerShell Mitigation modules and scripts that perform a wide range of tasks related to penetration testing such as code execution, persistence, bypassing anti-virus, recon, and exfiltration. (Citation: GitHub PowerSploit May 2012) (Citation: PowerShellMagazine PowerSploit July 2014) (Citation: PowerSploit Documentation)\n\nPlatforms: Windows\n\nAliases: PowerSploit",
+            "description": "PowerSploit is an open source, offensive security framework compromised of PowerShell modules and scripts that perform a wide range of tasks related to penetration testing such as code execution, persistence, bypassing anti-virus, recon, and exfiltration. (Citation: GitHub PowerSploit May 2012) (Citation: PowerShellMagazine PowerSploit July 2014) (Citation: PowerSploit Documentation)\n\nAliases: PowerSploit",
             "labels": [
                 "tool"
             ],
             "external_references": [
                 {
                     "external_id": "S0194",
-                    "url": "https://attack.mitre.org/wiki/Software/S0194",
-                    "source_name": "mitre-attack"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Software/S0194"
                 },
                 {
                     "url": "https://github.com/PowerShellMafia/PowerSploit",
-                    "description": "PowerShellMafia. (2012, May 26). PowerSploit - A PowerShell Post-Exploitation Framework. Retrieved February 6, 2018.",
-                    "source_name": "GitHub PowerSploit May 2012"
+                    "source_name": "GitHub PowerSploit May 2012",
+                    "description": "PowerShellMafia. (2012, May 26). PowerSploit - A PowerShell Post-Exploitation Framework. Retrieved February 6, 2018."
                 },
                 {
                     "url": "http://www.powershellmagazine.com/2014/07/08/powersploit/",
-                    "description": "Graeber, M. (2014, July 8). PowerSploit. Retrieved February 6, 2018.",
-                    "source_name": "PowerShellMagazine PowerSploit July 2014"
+                    "source_name": "PowerShellMagazine PowerSploit July 2014",
+                    "description": "Graeber, M. (2014, July 8). PowerSploit. Retrieved February 6, 2018."
                 },
                 {
                     "url": "http://powersploit.readthedocs.io",
-                    "description": "PowerSploit. (n.d.). PowerSploit. Retrieved February 6, 2018.",
-                    "source_name": "PowerSploit Documentation"
+                    "source_name": "PowerSploit Documentation",
+                    "description": "PowerSploit. (n.d.). PowerSploit. Retrieved February 6, 2018."
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "x_mitre_platforms": [
-                "Windows"
             ],
             "x_mitre_aliases": [
                 "PowerSploit"

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--621d5df4-cbc7-462e-8313-40a8257773a1",
+    "id": "bundle--20b17bc2-5f42-4112-b63c-102c76a227ef",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--e6f69552-fe0e-4b40-ad20-4410048277e6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "ChChes collects its process identifier (PID) on the victim. (Citation: Palo Alto menuPass Feb 2017)",
+            "modified": "2018-01-17T14:05:54.152Z",
+            "description": "ChChes collects the victim's running process IDs.",
             "external_references": [
                 {
-                    "url": "http://researchcenter.paloaltonetworks.com/2017/02/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations/",
-                    "description": "Miller-Osborn, J. and Grunzweig, J.. (2017, February 16). menuPass Returns with New Malware and New Attacks Against Japanese Academics and Organizations. Retrieved March 1, 2017.",
-                    "source_name": "Palo Alto menuPass Feb 2017"
+                    "url": "https://www.fireeye.com/blog/threat-research/2017/04/apt10%20menupass%20grou.html",
+                    "source_name": "FireEye APT10 April 2017",
+                    "description": "FireEye iSIGHT Intelligence. (2017, April 6). APT10 (MenuPass Group): New Tools, Global Campaign Latest Manifestation of Longstanding Threat. Retrieved June 29, 2017."
                 }
             ],
             "object_marking_refs": [

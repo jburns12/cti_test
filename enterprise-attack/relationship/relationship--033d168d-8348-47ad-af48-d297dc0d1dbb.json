@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4600054e-1d13-4e3a-80ae-c0ce9f5abeed",
+    "id": "bundle--29be715b-6cac-491d-a7eb-f3f939273af7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--033d168d-8348-47ad-af48-d297dc0d1dbb",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "Cobalt Strike can set its \"beacon\" payload to reach out to the C2 server on an arbitrary and random interval. In addition it will break large data sets into smaller chunks for exfiltration. (Citation: cobaltstrike manual)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "Cobalt Strike can set its \"beacon\" payload to reach out to the C2 server on an arbitrary and random interval.  In addition it will break large data sets into smaller chunks for exfiltration.",
             "external_references": [
                 {
                     "url": "https://cobaltstrike.com/downloads/csmanual38.pdf",
-                    "description": "Strategic Cyber LLC. (2017, March 14). Cobalt Strike Manual. Retrieved May 24, 2017.",
-                    "source_name": "cobaltstrike manual"
+                    "source_name": "cobaltstrike manual",
+                    "description": "Strategic Cyber LLC. (2017, March 14). Cobalt Strike Manual. Retrieved May 24, 2017."
                 }
             ],
             "object_marking_refs": [

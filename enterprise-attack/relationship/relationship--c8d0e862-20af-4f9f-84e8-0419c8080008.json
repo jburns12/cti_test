@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1db78920-6783-4c57-8e68-ca55aabb28b0",
+    "id": "bundle--8255b8b1-9d7f-4420-a2ed-21b719398d00",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--c8d0e862-20af-4f9f-84e8-0419c8080008",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "SeaDuke C2 traffic has been encrypted with RC4 and AES. (Citation: Unit 42 SeaDuke 2015) (Citation: Mandiant No Easy Breach)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "SeaDuke C2 traffic has been encrypted with RC4 and AES.",
             "external_references": [
                 {
-                    "url": "http://www.slideshare.net/MatthewDunwoody1/no-easy-breach-derby-con-2016",
-                    "description": "Dunwoody, M. and Carr, N.. (2016, September 27). No Easy Breach DerbyCon 2016. Retrieved October 4, 2016.",
-                    "source_name": "Mandiant No Easy Breach"
+                    "url": "http://researchcenter.paloaltonetworks.com/2015/07/unit-42-technical-analysis-seaduke/",
+                    "source_name": "Unit 42 SeaDuke 2015",
+                    "description": "Grunzweig, J.. (2015, July 14). Unit 42 Technical Analysis: Seaduke. Retrieved August 3, 2016."
                 },
                 {
-                    "url": "http://researchcenter.paloaltonetworks.com/2015/07/unit-42-technical-analysis-seaduke/",
-                    "description": "Grunzweig, J.. (2015, July 14). Unit 42 Technical Analysis: Seaduke. Retrieved August 3, 2016.",
-                    "source_name": "Unit 42 SeaDuke 2015"
+                    "url": "http://www.slideshare.net/MatthewDunwoody1/no-easy-breach-derby-con-2016",
+                    "source_name": "Mandiant No Easy Breach",
+                    "description": "Dunwoody, M. and Carr, N.. (2016, September 27). No Easy Breach DerbyCon 2016. Retrieved October 4, 2016."
                 }
             ],
             "object_marking_refs": [

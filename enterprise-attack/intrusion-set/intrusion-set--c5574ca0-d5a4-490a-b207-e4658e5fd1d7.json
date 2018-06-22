@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1c6fbd8e-ea12-4884-89cb-079aa5d638fb",
+    "id": "bundle--b2c987cf-6fbe-4f71-9d05-86d2ffa53497",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "intrusion-set--c5574ca0-d5a4-490a-b207-e4658e5fd1d7",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:32:00.677Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "modified": "2018-01-17T12:56:55.080Z",
             "name": "Scarlet Mimic",
             "description": "Scarlet Mimic is a threat group that has targeted minority rights activists. This group has not been directly linked to a government source, but the group's motivations appear to overlap with those of the Chinese government. While there is some overlap between IP addresses used by Scarlet Mimic and Putter Panda, it has not been concluded that the groups are the same. (Citation: Scarlet Mimic Jan 2016)",
             "aliases": [
@@ -17,17 +17,13 @@
             "external_references": [
                 {
                     "external_id": "G0029",
-                    "url": "https://attack.mitre.org/wiki/Group/G0029",
-                    "source_name": "mitre-attack"
-                },
-                {
-                    "description": "[[Citation: Scarlet Mimic Jan 2016]]",
-                    "source_name": "Scarlet Mimic"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Group/G0029"
                 },
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2016/01/scarlet-mimic-years-long-espionage-targets-minority-activists/",
-                    "description": "Falcone, R. and Miller-Osborn, J.. (2016, January 24). Scarlet Mimic: Years-Long Espionage Campaign Targets Minority Activists. Retrieved February 10, 2016.",
-                    "source_name": "Scarlet Mimic Jan 2016"
+                    "source_name": "Scarlet Mimic Jan 2016",
+                    "description": "Falcone, R. and Miller-Osborn, J.. (2016, January 24). Scarlet Mimic: Years-Long Espionage Campaign Targets Minority Activists. Retrieved February 10, 2016."
                 }
             ],
             "object_marking_refs": [

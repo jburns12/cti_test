@@ -1,21 +1,21 @@
 {
     "type": "bundle",
-    "id": "bundle--c370ed07-9a10-404f-b359-8630b1579b3d",
+    "id": "bundle--9d1e198f-153a-4a2a-a1f8-dcacf741cd1e",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--b70627f7-3b43-4c6f-8fc0-c918c41f8f72",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-26T15:31:49.970Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "created": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-04-18T17:59:24.739Z",
             "name": "DCShadow Mitigation",
             "description": "This type of attack technique cannot be easily mitigated with preventive controls since it is based on the abuse of AD design features. For example, mitigating specific AD API calls will likely have unintended side effects, such as preventing DC replication from operating properly. Efforts should be focused on preventing adversary tools from running earlier in the chain of activity and on identification of subsequent malicious behavior.",
             "external_references": [
                 {
                     "external_id": "T1207",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1207",
-                    "source_name": "mitre-attack"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Technique/T1207"
                 }
             ]
         }

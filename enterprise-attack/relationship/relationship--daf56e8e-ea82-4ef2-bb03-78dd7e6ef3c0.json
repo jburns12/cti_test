@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--15d0409e-5fff-4b5e-be50-12ec57f3d89c",
+    "id": "bundle--4c3a574e-7a7f-4727-8982-e896150ca43f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--daf56e8e-ea82-4ef2-bb03-78dd7e6ef3c0",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "APT3 has a tool that can list out currently running processes. (Citation: FireEye Clandestine Fox) (Citation: evolution of pirpi)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "APT3 has a tool that can list out currently running processes.  ",
             "external_references": [
                 {
-                    "url": "https://www.fireeye.com/blog/threat-research/2014/04/new-zero-day-exploit-targeting-internet-explorer-versions-9-through-11-identified-in-targeted-attacks.html",
-                    "description": "Chen, X., Scott, M., Caselden, D.. (2014, April 26). New Zero-Day Exploit targeting Internet Explorer Versions 9 through 11 Identified in Targeted Attacks. Retrieved January 14, 2016.",
-                    "source_name": "FireEye Clandestine Fox"
+                    "url": "https://recon.cx/2017/montreal/resources/slides/RECON-MTL-2017-evolution%20of%20pirpi.pdf",
+                    "source_name": "evolution of pirpi",
+                    "description": "Yates, M. (2017, June 18). APT3 Uncovered: The code evolution of Pirpi. Retrieved September 28, 2017."
                 },
                 {
-                    "url": "https://recon.cx/2017/montreal/resources/slides/RECON-MTL-2017-evolution%20of%20pirpi.pdf",
-                    "description": "Yates, M. (2017, June 18). APT3 Uncovered: The code evolution of Pirpi. Retrieved September 28, 2017.",
-                    "source_name": "evolution of pirpi"
+                    "url": "https://www.fireeye.com/blog/threat-research/2014/04/new-zero-day-exploit-targeting-internet-explorer-versions-9-through-11-identified-in-targeted-attacks.html",
+                    "source_name": "FireEye Clandestine Fox",
+                    "description": "Chen, X., Scott, M., Caselden, D.. (2014, April 26). New Zero-Day Exploit targeting Internet Explorer Versions 9 through 11 Identified in Targeted Attacks. Retrieved January 14, 2016."
                 }
             ],
             "object_marking_refs": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6258de77-4f8f-4c56-aaf3-51631df14907",
+    "id": "bundle--23ee908f-2d6c-47c2-acc2-67b752dbd853",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--e89d06bc-31f3-49c0-a555-360eeff7f7c6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "Net Crawler uses Windows admin shares to establish authenticated sessions to remote systems over SMB as part of lateral movement. (Citation: Cylance Cleaver)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "Net Crawler uses Windows admin shares to establish authenticated sessions to remote systems over SMB as part of lateral movement.",
             "external_references": [
                 {
                     "url": "https://www.cylance.com/content/dam/cylance/pages/operation-cleaver/Cylance%20Operation%20Cleaver%20Report.pdf",
-                    "description": "Cylance. (2014, December). Operation Cleaver. Retrieved September 14, 2017.",
-                    "source_name": "Cylance Cleaver"
+                    "source_name": "Cylance Cleaver",
+                    "description": "Cylance. (2014, December). Operation Cleaver. Retrieved September 14, 2017."
                 }
             ],
             "object_marking_refs": [

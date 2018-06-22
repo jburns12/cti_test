@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e27106c2-3f33-4ece-8693-5045b134abf5",
+    "id": "bundle--9b38785a-c7ad-49b6-8539-dfa83a889e8b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,38 +8,31 @@
             "id": "tool--96fd6cc4-a693-4118-83ec-619e5352d07d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "modified": "2018-04-18T17:59:24.739Z",
             "name": "Winexe",
-            "description": "Winexe is a lightweight, open source tool similar to PsExec designed to allow system administrators to execute commands on remote servers. (Citation: Winexe Github Sept 2013) Winexe is unique in that it is a GNU/Linux based client. (Citation: \u00dcberwachung APT28 Forfiles June 2015)\n\nPlatforms: Windows\n\nAliases: Winexe",
+            "description": "is a lightweight, open source tool similar to PsExec designed to allow system administrators to execute commands on remote servers. (Citation: Winexe Github Sept 2013)  is unique in that it is a GNU/Linux based client. (Citation: \u00dcberwachung APT28 Forfiles June 2015)\n\nAliases: Winexe",
             "labels": [
                 "tool"
             ],
             "external_references": [
                 {
                     "external_id": "S0191",
-                    "url": "https://attack.mitre.org/wiki/Software/S0191",
-                    "source_name": "mitre-attack"
-                },
-                {
-                    "description": "[[Citation: Winexe Github Sept 2013]] [[Citation: \u00dcberwachung APT28 Forfiles June 2015]]",
-                    "source_name": "Winexe"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Software/S0191"
                 },
                 {
                     "url": "https://github.com/skalkoto/winexe/",
-                    "description": "Skalkotos, N. (2013, September 20). WinExe. Retrieved January 22, 2018.",
-                    "source_name": "Winexe Github Sept 2013"
+                    "source_name": "Winexe Github Sept 2013",
+                    "description": "Skalkotos, N. (2013, September 20). WinExe. Retrieved January 22, 2018."
                 },
                 {
                     "url": "https://netzpolitik.org/2015/digital-attack-on-german-parliament-investigative-report-on-the-hack-of-the-left-party-infrastructure-in-bundestag/",
-                    "description": "Guarnieri, C. (2015, June 19). Digital Attack on German Parliament: Investigative Report on the Hack of the Left Party Infrastructure in Bundestag. Retrieved January 22, 2018.",
-                    "source_name": "\u00dcberwachung APT28 Forfiles June 2015"
+                    "source_name": "\u00dcberwachung APT28 Forfiles June 2015",
+                    "description": "Guarnieri, C. (2015, June 19). Digital Attack on German Parliament: Investigative Report on the Hack of the Left Party Infrastructure in Bundestag. Retrieved January 22, 2018."
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "x_mitre_platforms": [
-                "Windows"
             ],
             "x_mitre_aliases": [
                 "Winexe"

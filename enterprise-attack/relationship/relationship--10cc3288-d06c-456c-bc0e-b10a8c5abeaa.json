@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--25bd408c-ec8a-435f-b447-a731cab2fb1c",
+    "id": "bundle--ad4c6011-0074-490b-9e17-b7a51147956a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,17 +8,17 @@
             "id": "relationship--10cc3288-d06c-456c-bc0e-b10a8c5abeaa",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.038Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "APT28 used other victims as proxies to relay command traffic, for instance using a compromised Georgian military email server as a hop point to NATO victims. (Citation: FireEye APT28) The group has also used a tool that acts as a proxy to allow C2 even if the victim is behind a router. (Citation: Bitdefender APT28 Dec 2015)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "APT28 used other victims as proxies to relay command traffic, for instance using a compromised Georgian military email server as a hop point to NATO victims. The group has also used a tool that acts as a proxy to allow C2 even if the victim is behind a router.",
             "external_references": [
                 {
-                    "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf",
-                    "description": "FireEye. (2015). APT28: A WINDOW INTO RUSSIA\u2019S CYBER ESPIONAGE OPERATIONS?. Retrieved August 19, 2015.",
-                    "source_name": "FireEye APT28"
+                    "source_name": "Bitdefender APT28 Dec 2015",
+                    "description": "Bitdefender. (2015, December). APT28 Under the Scope. Retrieved February 23, 2017."
                 },
                 {
-                    "description": "Bitdefender. (2015, December). APT28 Under the Scope. Retrieved February 23, 2017.",
-                    "source_name": "Bitdefender APT28 Dec 2015"
+                    "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf",
+                    "source_name": "FireEye APT28",
+                    "description": "FireEye. (2015). APT28: A WINDOW INTO RUSSIA\u2019S CYBER ESPIONAGE OPERATIONS?. Retrieved August 19, 2015."
                 }
             ],
             "object_marking_refs": [

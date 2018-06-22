@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9a9042cc-0066-4dcf-b212-61a8ba8a12a6",
+    "id": "bundle--b90f0498-69a0-40ca-9920-90ab76d1f9cb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--4b23ac99-3761-46f0-ad5d-2cf63a95036a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "S-Type primarily uses port 80 for C2, but falls back to ports 443 or 8080 if initial communication fails. (Citation: Cylance Dust Storm)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "S-Type primarily uses port 80 for C2, but falls back to ports 443 or 8080 if initial communication fails.",
             "external_references": [
                 {
                     "url": "https://www.cylance.com/content/dam/cylance/pdfs/reports/Op%20Dust%20Storm%20Report.pdf",
-                    "description": "Gross, J. (2016, February 23). Operation Dust Storm. Retrieved September 19, 2017.",
-                    "source_name": "Cylance Dust Storm"
+                    "source_name": "Cylance Dust Storm",
+                    "description": "Gross, J. (2016, February 23). Operation Dust Storm. Retrieved September 19, 2017."
                 }
             ],
             "object_marking_refs": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--84d337f0-78a8-4bbb-8954-361baede9b1e",
+    "id": "bundle--c54b7d62-2db7-4931-8cd2-87f938ad3266",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--8b746637-fef8-474e-8960-822d758fb9b3",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "Forfiles can be used to subvert controls and possibly conceal command execution by not directly invoking cmd. (Citation: VectorSec ForFiles Aug 2017) (Citation: Evi1cg Forfiles Nov 2017)",
+            "modified": "2018-04-18T17:59:24.739Z",
+            "description": "Forfiles can be used to subvert controls and possibly conceal command execution by not directly invoking cmd.",
             "external_references": [
                 {
                     "url": "https://twitter.com/vector%20sec/status/896049052642533376",
-                    "description": "vector_sec. (2017, August 11). Defenders watching launches of cmd? What about forfiles?. Retrieved January 22, 2018.",
-                    "source_name": "VectorSec ForFiles Aug 2017"
+                    "source_name": "VectorSec ForFiles Aug 2017",
+                    "description": "vector_sec. (2017, August 11). Defenders watching launches of cmd? What about forfiles?. Retrieved January 22, 2018."
                 },
                 {
                     "url": "https://twitter.com/Evi1cg/status/935027922397573120",
-                    "description": "Evi1cg. (2017, November 26). block cmd.exe ? try this :. Retrieved January 22, 2018.",
-                    "source_name": "Evi1cg Forfiles Nov 2017"
+                    "source_name": "Evi1cg Forfiles Nov 2017",
+                    "description": "Evi1cg. (2017, November 26). block cmd.exe ? try this :. Retrieved January 22, 2018."
                 }
             ],
             "object_marking_refs": [

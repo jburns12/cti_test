@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--13f0b772-3ccc-41b2-b360-fe56bc61b418",
+    "id": "bundle--875a1e23-85f4-4722-9d04-a36e2afc6b2b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--f4e53b40-abcf-4157-9e53-4ab9632619f1",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "CORESHELL C2 messages are encrypted with custom stream ciphers using six-byte or eight-byte keys. (Citation: FireEye APT28)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "CORESHELL C2 messages are encrypted with custom stream ciphers using six-byte or eight-byte keys.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf",
-                    "description": "FireEye. (2015). APT28: A WINDOW INTO RUSSIA\u2019S CYBER ESPIONAGE OPERATIONS?. Retrieved August 19, 2015.",
-                    "source_name": "FireEye APT28"
+                    "source_name": "FireEye APT28",
+                    "description": "FireEye. (2015). APT28: A WINDOW INTO RUSSIA\u2019S CYBER ESPIONAGE OPERATIONS?. Retrieved August 19, 2015."
                 }
             ],
             "object_marking_refs": [

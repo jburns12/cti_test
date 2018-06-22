@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--22aeae3b-22f2-4cb6-84db-e7d3bf5c38de",
+    "id": "bundle--1996b707-bbab-45bb-9ae9-2be103e90613",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,22 +8,22 @@
             "id": "relationship--284ffb1b-ad42-468e-9897-94c25024f0d4",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "ADVSTORESHELL achieves persistence by adding itself to the <code>HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run</code> Registry key. (Citation: Kaspersky Sofacy) (Citation: ESET Sednit Part 2) (Citation: Bitdefender APT28 Dec 2015)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "ADVSTORESHELL achieves persistence by adding itself to the <code>HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run</code> Registry key.",
             "external_references": [
                 {
                     "url": "https://securelist.com/sofacy-apt-hits-high-profile-targets-with-updated-toolset/72924/",
-                    "description": "Kaspersky Lab's Global Research and Analysis Team. (2015, December 4). Sofacy APT hits high profile targets with updated toolset. Retrieved December 10, 2015.",
-                    "source_name": "Kaspersky Sofacy"
+                    "source_name": "Kaspersky Sofacy",
+                    "description": "Kaspersky Lab's Global Research and Analysis Team. (2015, December 4). Sofacy APT hits high profile targets with updated toolset. Retrieved December 10, 2015."
                 },
                 {
                     "url": "http://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part-2.pdf",
-                    "description": "ESET. (2016, October). En Route with Sednit - Part 2: Observing the Comings and Goings. Retrieved November 21, 2016.",
-                    "source_name": "ESET Sednit Part 2"
+                    "source_name": "ESET Sednit Part 2",
+                    "description": "ESET. (2016, October). En Route with Sednit - Part 2: Observing the Comings and Goings. Retrieved November 21, 2016."
                 },
                 {
-                    "description": "Bitdefender. (2015, December). APT28 Under the Scope. Retrieved February 23, 2017.",
-                    "source_name": "Bitdefender APT28 Dec 2015"
+                    "source_name": "Bitdefender APT28 Dec 2015",
+                    "description": "Bitdefender. (2015, December). APT28 Under the Scope. Retrieved February 23, 2017."
                 }
             ],
             "object_marking_refs": [

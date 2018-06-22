@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b8f80c56-ea2f-467c-9c59-a090d3b4bfd5",
+    "id": "bundle--fdaa1f4f-b1b0-4747-a78a-80af4989b9b7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "intrusion-set--55033a4d-3ffe-46b2-99b4-2c1541e9ce1c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:31:49.021Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "modified": "2018-04-18T17:59:24.739Z",
             "name": "Carbanak",
-            "description": "Carbanak is a threat group that mainly targets banks. It also refers to malware of the same name (Carbanak). It is sometimes referred to as FIN7, but these appear to be two groups using the same Carbanak malware and are therefore tracked separately. (Citation: Kaspersky Carbanak) (Citation: FireEye FIN7 April 2017)\n\nMITRE Contributors: Anastasios Pingios",
+            "description": "Carbanak is a threat group that mainly targets banks. It also refers to malware of the same name (Carbanak). It is sometimes referred to as FIN7, but these appear to be two groups using the same Carbanak malware and are therefore tracked separately. (Citation: Kaspersky Carbanak) (Citation: FireEye FIN7 April 2017)\n\nContributors: Anastasios Pingios",
             "aliases": [
                 "Carbanak",
                 "Anunak",
@@ -19,40 +19,18 @@
             "external_references": [
                 {
                     "external_id": "G0008",
-                    "url": "https://attack.mitre.org/wiki/Group/G0008",
-                    "source_name": "mitre-attack"
-                },
-                {
-                    "description": "[[Citation: Kaspersky Carbanak]] [[Citation: Fox-It Anunak Feb 2015]]",
-                    "source_name": "Carbanak"
-                },
-                {
-                    "description": "[[Citation: Fox-It Anunak Feb 2015]]",
-                    "source_name": "Anunak"
-                },
-                {
-                    "description": "[[Citation: Crowdstrike State of Criminal May 2016]]",
-                    "source_name": "Carbon Spider"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Group/G0008"
                 },
                 {
                     "url": "https://securelist.com/files/2015/02/Carbanak%20APT%20eng.pdf",
-                    "description": "Kaspersky Lab's Global Research and Analysis Team. (2015, February). CARBANAK APT THE GREAT BANK ROBBERY. Retrieved March 3, 2015.",
-                    "source_name": "Kaspersky Carbanak"
-                },
-                {
-                    "url": "https://www.fox-it.com/en/about-fox-it/corporate/news/anunak-aka-carbanak-update/",
-                    "description": "Prins, R. (2015, February 16). Anunak (aka Carbanak) Update. Retrieved January 20, 2017.",
-                    "source_name": "Fox-It Anunak Feb 2015"
+                    "source_name": "Kaspersky Carbanak",
+                    "description": "Kaspersky Lab's Global Research and Analysis Team. (2015, February). CARBANAK APT THE GREAT BANK ROBBERY. Retrieved March 3, 2015."
                 },
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
-                    "description": "Carr, N., et al. (2017, April 24). FIN7 Evolution and the Phishing LNK. Retrieved April 24, 2017.",
-                    "source_name": "FireEye FIN7 April 2017"
-                },
-                {
-                    "url": "https://www.crowdstrike.com/blog/state-criminal-address/",
-                    "description": "Johnston, R. (2016, May 16). State of the Criminal Address. Retrieved December 7, 2017.",
-                    "source_name": "Crowdstrike State of Criminal May 2016"
+                    "source_name": "FireEye FIN7 April 2017",
+                    "description": "Carr, N., et al. (2017, April 24). FIN7 Evolution and the Phishing LNK. Retrieved April 24, 2017."
                 }
             ],
             "object_marking_refs": [

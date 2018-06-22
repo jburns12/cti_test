@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--90246102-7854-4a88-a836-e3246e0b22a4",
+    "id": "bundle--59b729bd-214a-47b5-838a-49f37a4362b8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "modified": "2018-04-18T17:59:24.739Z",
             "name": "BRONZE BUTLER",
             "description": "BRONZE BUTLER is a cyber espionage group with likely Chinese origins that has been active since at least 2008. The group primarily targets Japanese organizations, particularly those in government, biotechnology, electronics manufacturing, and industrial chemistry. (Citation: Trend Micro Daserf Nov 2017) (Citation: Secureworks BRONZE BUTLER Oct 2017)",
             "aliases": [
@@ -19,30 +19,18 @@
             "external_references": [
                 {
                     "external_id": "G0060",
-                    "url": "https://attack.mitre.org/wiki/Group/G0060",
-                    "source_name": "mitre-attack"
-                },
-                {
-                    "description": "[[Citation: Trend Micro Daserf Nov 2017]]",
-                    "source_name": "BRONZE BUTLER"
-                },
-                {
-                    "description": "[[Citation: Trend Micro Daserf Nov 2017]]",
-                    "source_name": "REDBALDKNIGHT"
-                },
-                {
-                    "description": "[[Citation: Trend Micro Daserf Nov 2017]]",
-                    "source_name": "Tick"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Group/G0060"
                 },
                 {
                     "url": "http://blog.trendmicro.com/trendlabs-security-intelligence/redbaldknight-bronze-butler-daserf-backdoor-now-using-steganography/",
-                    "description": "Chen, J. and Hsieh, M. (2017, November 7). REDBALDKNIGHT/BRONZE BUTLER\u2019s Daserf Backdoor Now Using Steganography. Retrieved December 27, 2017.",
-                    "source_name": "Trend Micro Daserf Nov 2017"
+                    "source_name": "Trend Micro Daserf Nov 2017",
+                    "description": "Chen, J. and Hsieh, M. (2017, November 7). REDBALDKNIGHT/BRONZE BUTLER\u2019s Daserf Backdoor Now Using Steganography. Retrieved December 27, 2017."
                 },
                 {
                     "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
-                    "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.",
-                    "source_name": "Secureworks BRONZE BUTLER Oct 2017"
+                    "source_name": "Secureworks BRONZE BUTLER Oct 2017",
+                    "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018."
                 }
             ],
             "object_marking_refs": [

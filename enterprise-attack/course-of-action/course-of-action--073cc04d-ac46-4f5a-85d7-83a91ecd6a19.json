@@ -1,21 +1,21 @@
 {
     "type": "bundle",
-    "id": "bundle--0435d661-0ea9-4025-a476-3c31b3f3857e",
+    "id": "bundle--ee53ebfb-3243-449c-94ab-ece1338d1f7b",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--073cc04d-ac46-4f5a-85d7-83a91ecd6a19",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-26T15:31:49.970Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "created": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-04-18T17:59:24.739Z",
             "name": "Setuid and Setgid Mitigation",
             "description": "Applications with known vulnerabilities or known shell escapes should not have the setuid or setgid bits set to reduce potential damage if an application is compromised.",
             "external_references": [
                 {
                     "external_id": "T1166",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1166",
-                    "source_name": "mitre-attack"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Technique/T1166"
                 }
             ]
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cf5a5c74-728e-4c76-bfe6-08acb8b3aeda",
+    "id": "bundle--d71489a4-7432-42e2-9fbd-36145cccfd47",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,29 +8,26 @@
             "id": "tool--5a33468d-844d-4b1f-98c9-0e786c556b27",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "modified": "2018-04-18T17:59:24.739Z",
             "name": "MimiPenguin",
-            "description": "MimiPenguin is a credential dumper, similar to Mimikatz, designed specifically for Linux platforms. (Citation: MimiPenguin GitHub May 2017)\n\nPlatforms: Linux\n\nMITRE Contributors: Vincent Le Toux\n\nAliases: MimiPenguin",
+            "description": "MimiPenguin is a credential dumper, similar to Mimikatz, designed specifically for Linux platforms. (Citation: MimiPenguin GitHub May 2017)\n\nAliases: MimiPenguin\n\nContributors: Vincent Le Toux",
             "labels": [
                 "tool"
             ],
             "external_references": [
                 {
                     "external_id": "S0179",
-                    "url": "https://attack.mitre.org/wiki/Software/S0179",
-                    "source_name": "mitre-attack"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Software/S0179"
                 },
                 {
                     "url": "https://github.com/huntergregal/mimipenguin",
-                    "description": "Gregal, H. (2017, May 12). MimiPenguin. Retrieved December 5, 2017.",
-                    "source_name": "MimiPenguin GitHub May 2017"
+                    "source_name": "MimiPenguin GitHub May 2017",
+                    "description": "Gregal, H. (2017, May 12). MimiPenguin. Retrieved December 5, 2017."
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "x_mitre_platforms": [
-                "Linux"
             ],
             "x_mitre_contributors": [
                 "Vincent Le Toux"

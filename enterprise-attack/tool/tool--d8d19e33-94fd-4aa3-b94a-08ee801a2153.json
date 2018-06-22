@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a9a2afbc-8062-4ad8-a47d-0f212fac1c53",
+    "id": "bundle--b3b888e7-e4a7-4795-9d5d-471840974a18",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,33 +8,26 @@
             "id": "tool--d8d19e33-94fd-4aa3-b94a-08ee801a2153",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "modified": "2018-04-18T17:59:24.739Z",
             "name": "SDelete",
-            "description": "SDelete is an application that securely deletes data in a way that makes it unrecoverable. It is part of the Microsoft Sysinternals suite of tools. (Citation: Microsoft SDelete July 2016)\n\nPlatforms: Windows\n\nAliases: SDelete",
+            "description": "is an application that securely deletes data in a way that makes it unrecoverable. It is part of the Microsoft Sysinternals suite of tools. (Citation: Microsoft SDelete July 2016)\n\nAliases: SDelete",
             "labels": [
                 "tool"
             ],
             "external_references": [
                 {
                     "external_id": "S0195",
-                    "url": "https://attack.mitre.org/wiki/Software/S0195",
-                    "source_name": "mitre-attack"
-                },
-                {
-                    "description": "[[Citation: Microsoft SDelete July 2016]]",
-                    "source_name": "SDelete"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Software/S0195"
                 },
                 {
                     "url": "https://docs.microsoft.com/en-us/sysinternals/downloads/sdelete",
-                    "description": "Russinovich, M. (2016, July 4). SDelete v2.0. Retrieved February 8, 2018.",
-                    "source_name": "Microsoft SDelete July 2016"
+                    "source_name": "Microsoft SDelete July 2016",
+                    "description": "Russinovich, M. (2016, July 4). SDelete v2.0. Retrieved February 8, 2018."
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "x_mitre_platforms": [
-                "Windows"
             ],
             "x_mitre_aliases": [
                 "SDelete"

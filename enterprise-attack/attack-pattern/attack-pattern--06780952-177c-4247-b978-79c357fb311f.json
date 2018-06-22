@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--51f44ffd-9d28-4f14-9455-f07a9a40fae9",
+    "id": "bundle--87e529bd-2bcc-4802-9220-2d96628301ec",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--06780952-177c-4247-b978-79c357fb311f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "modified": "2018-04-18T17:59:24.739Z",
             "name": "Plist Modification",
             "description": "Property list (plist) files contain all of the information that macOS and OS X uses to configure applications and services. These files are UT-8 encoded and formatted like XML documents via a series of keys surrounded by < >. They detail when programs should execute, file paths to the executables, program arguments, required OS permissions, and many others. plists are located in certain locations depending on their purpose such as <code>/Library/Preferences</code> (which execute with elevated privileges) and <code>~/Library/Preferences</code> (which execute with a user's privileges). \nAdversaries can modify these plist files to point to their own code, can use them to execute their code in the context of another user, bypass whitelisting procedures, or even use them as a persistence mechanism. (Citation: Sofacy Komplex Trojan)\n\nDetection: File system monitoring can determine if plist files are being modified. Users should not have permission to modify these in most cases. Some software tools like \"Knock Knock\" can detect persistence mechanisms and point to the specific files that are being referenced. This can be helpful to see what is actually being executed.\n\nMonitor process execution for abnormal process execution resulting from modified plist files. Monitor utilities used to modify plist files or that take a plist file as an argument, which may indicate suspicious activity.\n\nPlatforms: macOS\n\nData Sources: File monitoring, Process Monitoring, Process command-line parameters\n\nDefense Bypassed: Application whitelisting, Process whitelisting, Whitelisting by file name or path\n\nPermissions Required: User, Administrator",
             "kill_chain_phases": [
@@ -28,13 +28,13 @@
             "external_references": [
                 {
                     "external_id": "T1150",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1150",
-                    "source_name": "mitre-attack"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Technique/T1150"
                 },
                 {
                     "url": "https://researchcenter.paloaltonetworks.com/2016/09/unit42-sofacys-komplex-os-x-trojan/",
-                    "description": "Dani Creus, Tyler Halfpop, Robert Falcone. (2016, September 26). Sofacy's 'Komplex' OS X Trojan. Retrieved July 8, 2017.",
-                    "source_name": "Sofacy Komplex Trojan"
+                    "source_name": "Sofacy Komplex Trojan",
+                    "description": "Dani Creus, Tyler Halfpop, Robert Falcone. (2016, September 26). Sofacy's 'Komplex' OS X Trojan. Retrieved July 8, 2017."
                 }
             ],
             "object_marking_refs": [

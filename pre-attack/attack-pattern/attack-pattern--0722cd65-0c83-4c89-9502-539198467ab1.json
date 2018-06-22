@@ -1,0 +1,36 @@
+{
+    "type": "bundle",
+    "id": "bundle--bc82dded-0bad-422e-abcb-7fdda487adfa",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--0722cd65-0c83-4c89-9502-539198467ab1",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-04-18T17:59:24.739Z",
+            "name": "Identify job postings and needs/gaps",
+            "description": "Job postings, on either company sites, or in other forums, provide information on organizational structure and often provide contact information for someone within the organization. This may give an adversary  information on people within the organization which could be valuable in social engineering attempts. (Citation: JobPostingThreat)\n\nDetectable by Common Defenses: No\n\nDetectable by Common Defenses explanation: Public source external to the defender's organization.\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: Very public by design.",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "people-information-gathering",
+                    "kill_chain_name": "mitre-pre-attack"
+                }
+            ],
+            "external_references": [
+                {
+                    "external_id": "PRE-T1044",
+                    "source_name": "mitre-pre-attack",
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1044"
+                },
+                {
+                    "source_name": "JobPostingThreat",
+                    "description": "Jay D. Krasnow. (2000, October). The Competitive Intelligence and National Security Threat from Website Job Listings. Retrieved March 16, 2017."
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ]
+        }
+    ]
+}

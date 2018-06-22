@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--01a44ea7-66a0-4cc8-bcff-0308517302bb",
+    "id": "bundle--6396c76a-bf8c-4ce4-ab77-2f9896a8e00f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--f653eb7d-7027-4161-9071-b52336bd4fbc",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "SeaDuke uses an event filter in WMI code to execute a previously dropped executable shortly after system startup. (Citation: FireEye WMI 2015)",
+            "modified": "2018-01-17T12:56:55.080Z",
+            "description": "SeaDuke uses an event filter in WMI code to execute a previously dropped executable shortly after system startup.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-windows-management-instrumentation.pdf",
-                    "description": "Ballenthin, W., et al. (2015). Windows Management Instrumentation (WMI) Offense, Defense, and Forensics. Retrieved March 30, 2016.",
-                    "source_name": "FireEye WMI 2015"
+                    "source_name": "FireEye WMI 2015",
+                    "description": "Ballenthin, W., et al. (2015). Windows Management Instrumentation (WMI) Offense, Defense, and Forensics. Retrieved March 30, 2016."
                 }
             ],
             "object_marking_refs": [

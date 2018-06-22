@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cfc204df-f3ef-4599-884e-866a578a98a7",
+    "id": "bundle--9692d919-1137-45aa-ab10-9ef40d142d65",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--e01be9c5-e763-4caf-aeb7-000b416aef67",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-26T15:31:49.970Z",
+            "modified": "2018-04-18T17:59:24.739Z",
             "name": "Create Account",
             "description": "Adversaries with a sufficient level of access may create a local system or domain account. Such accounts may be used for persistence that do not require persistent remote access tools to be deployed on the system.\n\nThe <code>net user</code> commands can be used to create a local or domain account.\n\nDetection: Collect data on account creation within a network. Event ID 4720 is generated when a user account is created on a Windows system and domain controller. (Citation: Microsoft User Creation Event) Perform regular audits of domain and local system accounts to detect suspicious accounts that may have been created by an adversary.\n\nPlatforms: Linux, macOS, Windows\n\nData Sources: Process Monitoring, Process command-line parameters, Authentication logs, Windows event logs\n\nPermissions Required: Administrator",
             "kill_chain_phases": [
@@ -20,13 +20,13 @@
             "external_references": [
                 {
                     "external_id": "T1136",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1136",
-                    "source_name": "mitre-attack"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/wiki/Technique/T1136"
                 },
                 {
                     "url": "https://docs.microsoft.com/windows/device-security/auditing/event-4720",
-                    "description": "Lich, B., Miroshnikov, A. (2017, April 5). 4720(S): A user account was created. Retrieved June 30, 2017.",
-                    "source_name": "Microsoft User Creation Event"
+                    "source_name": "Microsoft User Creation Event",
+                    "description": "Lich, B., Miroshnikov, A. (2017, April 5). 4720(S): A user account was created. Retrieved June 30, 2017."
                 }
             ],
             "object_marking_refs": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--015646b8-5bde-42ae-873b-7ba00f606776",
+    "id": "bundle--67f3839c-44cc-41fe-b18d-38749659c244",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--79f0712b-2cb1-47df-8ea1-26fb1502a831",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-26T15:31:49.970Z",
-            "description": "BADNEWS encodes C2 traffic with base64. (Citation: Forcepoint Monsoon) (Citation: PaloAlto Patchwork Mar 2018)",
+            "modified": "2018-04-18T17:59:24.739Z",
+            "description": "BADNEWS encodes C2 traffic with base64.",
             "external_references": [
                 {
                     "url": "https://www.forcepoint.com/sites/default/files/resources/files/forcepoint-security-labs-monsoon-analysis-report.pdf",
-                    "description": "Settle, A., et al. (2016, August 8). MONSOON - Analysis Of An APT Campaign. Retrieved September 22, 2016.",
-                    "source_name": "Forcepoint Monsoon"
+                    "source_name": "Forcepoint Monsoon",
+                    "description": "Settle, A., et al. (2016, August 8). MONSOON - Analysis Of An APT Campaign. Retrieved September 22, 2016."
                 },
                 {
                     "url": "https://researchcenter.paloaltonetworks.com/2018/03/unit42-patchwork-continues-deliver-badnews-indian-subcontinent/",
-                    "description": "Levene, B. et al.. (2018, March 7). Patchwork Continues to Deliver BADNEWS to the Indian Subcontinent. Retrieved March 31, 2018.",
-                    "source_name": "PaloAlto Patchwork Mar 2018"
+                    "source_name": "PaloAlto Patchwork Mar 2018",
+                    "description": "Levene, B. et al.. (2018, March 7). Patchwork Continues to Deliver BADNEWS to the Indian Subcontinent. Retrieved March 31, 2018."
                 }
             ],
             "object_marking_refs": [
