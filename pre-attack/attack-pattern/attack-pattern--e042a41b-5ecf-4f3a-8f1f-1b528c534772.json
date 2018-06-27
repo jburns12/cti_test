@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1ca111a1-fd1a-4ce4-b34b-fe7a0cc3a1c0",
+    "id": "bundle--ea384bc9-c67b-4bff-a13b-49c6d6162aba",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--e042a41b-5ecf-4f3a-8f1f-1b528c534772",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Test malware in various execution environments",
-            "description": "Malware may perform differently on different platforms (computer vs handheld) and different operating systems ([http://www.ubuntu.com Ubuntu] vs [http://www.apple.com/osx/ OS X]), and versions ([http://windows.microsoft.com Windows] 7 vs 10) so malicious actors will test their malware in the environment(s) where they most expect it to be executed. (Citation: BypassMalwareDefense)\n\nDetectable by Common Defenses: No\n\nDetectable by Common Defenses explanation: Adversary controls the test and defender likely has no visibility.\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: Adversary can simulate most environments (e.g., variable operating systems, patch levels, application versions) with details available from other techniques.",
+            "description": "Malware may perform differently on different platforms (computer vs handheld) and different operating systems ([http://www.ubuntu.com Ubuntu] vs [http://www.apple.com/osx/ OS X]), and versions ([http://windows.microsoft.com Windows] 7 vs 10) so malicious actors will test their malware in the environment(s) where they most expect it to be executed. (Citation: BypassMalwareDefense)",
             "kill_chain_phases": [
                 {
                     "phase_name": "test-capabilities",
@@ -20,12 +20,12 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1134",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1134"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1134",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "BypassMalwareDefense",
-                    "description": "Morton Christiansen. (2010, May 7). Bypassing Malware Defenses. Retrieved March 9, 2017."
+                    "description": "Morton Christiansen. (2010, May 7). Bypassing Malware Defenses. Retrieved March 9, 2017.",
+                    "source_name": "BypassMalwareDefense"
                 }
             ],
             "object_marking_refs": [

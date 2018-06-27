@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e0efb97f-d1e9-42db-a46f-8183f0ec96d6",
+    "id": "bundle--c94dc339-1b40-4d16-ae14-cb0fd45b6cb7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--de168dd4-3c59-4fa4-901a-911b1ee81a31",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "BlackEnergy has gathered information about network IP configurations using ipconfig.exe and about routing tables using route.exe.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "BlackEnergy has gathered information about network IP configurations using ipconfig.exe and about routing tables using route.exe. (Citation: F-Secure BlackEnergy 2014) (Citation: Securelist BlackEnergy Nov 2014)",
             "external_references": [
                 {
                     "url": "https://www.f-secure.com/documents/996508/1030745/blackenergy%20whitepaper.pdf",
-                    "source_name": "F-Secure BlackEnergy 2014",
-                    "description": "F-Secure Labs. (2014). BlackEnergy & Quedagh: The convergence of crimeware and APT attacks. Retrieved March 24, 2016."
+                    "description": "F-Secure Labs. (2014). BlackEnergy & Quedagh: The convergence of crimeware and APT attacks. Retrieved March 24, 2016.",
+                    "source_name": "F-Secure BlackEnergy 2014"
                 },
                 {
                     "url": "https://securelist.com/be2-custom-plugins-router-abuse-and-target-profiles/67353/",
-                    "source_name": "Securelist BlackEnergy Nov 2014",
-                    "description": "Baumgartner, K. and Garnaeva, M.. (2014, November 3). BE2 custom plugins, router abuse, and target profiles. Retrieved March 24, 2016."
+                    "description": "Baumgartner, K. and Garnaeva, M.. (2014, November 3). BE2 custom plugins, router abuse, and target profiles. Retrieved March 24, 2016.",
+                    "source_name": "Securelist BlackEnergy Nov 2014"
                 }
             ],
             "object_marking_refs": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--46d63232-6c28-4dab-bbea-b819171ac65a",
+    "id": "bundle--77a2439c-047e-4fb4-a25b-945f743ac201",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--1f972385-7f1c-4cbd-a071-951973e6d229",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Some MiniDuke components use Twitter to initially obtain the address of a C2 server or as a backup if no hard-coded C2 server responds.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Some MiniDuke components use Twitter to initially obtain the address of a C2 server or as a backup if no hard-coded C2 server responds. (Citation: F-Secure The Dukes) (Citation: Securelist MiniDuke Feb 2013)",
             "external_references": [
                 {
                     "url": "https://www.f-secure.com/documents/996508/1030745/dukes%20whitepaper.pdf",
-                    "source_name": "F-Secure The Dukes",
-                    "description": "F-Secure Labs. (2015, September 17). The Dukes: 7 years of Russian cyberespionage. Retrieved December 10, 2015."
+                    "description": "F-Secure Labs. (2015, September 17). The Dukes: 7 years of Russian cyberespionage. Retrieved December 10, 2015.",
+                    "source_name": "F-Secure The Dukes"
                 },
                 {
                     "url": "https://cdn.securelist.com/files/2014/07/themysteryofthepdf0-dayassemblermicrobackdoor.pdf",
-                    "source_name": "Securelist MiniDuke Feb 2013",
-                    "description": "Kaspersky Lab's Global Research & Analysis Team. (2013, February 27). The MiniDuke Mystery: PDF 0-day Government Spy Assembler 0x29A Micro Backdoor. Retrieved April 5, 2017."
+                    "description": "Kaspersky Lab's Global Research & Analysis Team. (2013, February 27). The MiniDuke Mystery: PDF 0-day Government Spy Assembler 0x29A Micro Backdoor. Retrieved April 5, 2017.",
+                    "source_name": "Securelist MiniDuke Feb 2013"
                 }
             ],
             "object_marking_refs": [

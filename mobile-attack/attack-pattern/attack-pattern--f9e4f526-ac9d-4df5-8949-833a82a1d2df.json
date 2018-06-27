@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a01ff3a1-9d0e-49fe-9932-49fa51dfdada",
+    "id": "bundle--f4a38402-bdb9-4dc4-9108-a55b5b613e73",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--f9e4f526-ac9d-4df5-8949-833a82a1d2df",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-10-25T14:48:09.446Z",
-            "modified": "2018-04-13T17:05:30.756Z",
+            "modified": "2018-06-18T15:59:03.864Z",
             "name": "Malicious or Vulnerable Built-in Device Functionality",
-            "description": "The mobile device could contain built-in functionality with malicious behavior or exploitable vulnerabilities. An adversary could deliberately insert and take advantage of the malicious behavior or could exploit inadvertent vulnerabilities. In many cases, it is difficult to be certain whether exploitable functionality is due to malicious intent or simply an inadvertent mistake.\n\nPlatforms: Android, iOS",
+            "description": "The mobile device could contain built-in functionality with malicious behavior or exploitable vulnerabilities. An adversary could deliberately insert and take advantage of the malicious behavior or could exploit inadvertent vulnerabilities. In many cases, it is difficult to be certain whether exploitable functionality is due to malicious intent or simply an inadvertent mistake.",
             "kill_chain_phases": [
                 {
                     "phase_name": "supply-chain",
@@ -20,8 +20,8 @@
             "external_references": [
                 {
                     "external_id": "MOB-T1076",
-                    "source_name": "mitre-mobile-attack",
-                    "url": "https://attack.mitre.org/mobile/index.php/Technique/MOB-T1076"
+                    "url": "https://attack.mitre.org/mobile/index.php/Technique/MOB-T1076",
+                    "source_name": "mitre-mobile-attack"
                 }
             ],
             "object_marking_refs": [

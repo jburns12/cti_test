@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--af0c58fc-9fea-4eb5-b584-fd160ca43dbf",
+    "id": "bundle--94b50321-86ba-488c-a95e-6fc6d87fec54",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--016dc21c-ade9-43cc-9d88-a0c4c0891ccc",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Most strings in USBStealer are encrypted using 3DES and XOR and reversed.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Most strings in USBStealer are encrypted using 3DES and XOR and reversed. (Citation: ESET Sednit USBStealer 2014)",
             "external_references": [
                 {
                     "url": "http://www.welivesecurity.com/2014/11/11/sednit-espionage-group-attacking-air-gapped-networks/",
-                    "source_name": "ESET Sednit USBStealer 2014",
-                    "description": "Calvet, J. (2014, November 11). Sednit Espionage Group Attacking Air-Gapped Networks. Retrieved January 4, 2017."
+                    "description": "Calvet, J. (2014, November 11). Sednit Espionage Group Attacking Air-Gapped Networks. Retrieved January 4, 2017.",
+                    "source_name": "ESET Sednit USBStealer 2014"
                 }
             ],
             "object_marking_refs": [

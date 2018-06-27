@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cc3e6c06-eeec-4d9b-8927-446a2928d6cb",
+    "id": "bundle--3edb2ec8-e39f-492a-bc23-fe0507f5f6c3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "intrusion-set--ae41895a-243f-4a65-b99b-d85022326c31",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:32:03.306Z",
-            "modified": "2018-01-17T12:56:55.080Z",
+            "modified": "2018-06-27T14:18:47.700Z",
             "name": "Dust Storm",
             "description": "Dust Storm is a threat group that has targeted multiple industries in Japan, South Korea, the United States, Europe, and several Southeast Asian countries. (Citation: Cylance Dust Storm)",
             "aliases": [
@@ -17,13 +17,17 @@
             "external_references": [
                 {
                     "external_id": "G0031",
-                    "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/wiki/Group/G0031"
+                    "url": "https://attack.mitre.org/wiki/Group/G0031",
+                    "source_name": "mitre-attack"
+                },
+                {
+                    "description": "[[Citation: Cylance Dust Storm]]",
+                    "source_name": "Dust Storm"
                 },
                 {
                     "url": "https://www.cylance.com/content/dam/cylance/pdfs/reports/Op%20Dust%20Storm%20Report.pdf",
-                    "source_name": "Cylance Dust Storm",
-                    "description": "Gross, J. (2016, February 23). Operation Dust Storm. Retrieved September 19, 2017."
+                    "description": "Gross, J. (2016, February 23). Operation Dust Storm. Retrieved September 19, 2017.",
+                    "source_name": "Cylance Dust Storm"
                 }
             ],
             "object_marking_refs": [

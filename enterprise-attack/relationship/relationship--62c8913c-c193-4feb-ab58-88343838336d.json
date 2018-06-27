@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b0d3122f-530e-499a-979e-b0a4cbe5b906",
+    "id": "bundle--bacf1e50-2a44-446b-97d5-2d8d10bf5b17",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--62c8913c-c193-4feb-ab58-88343838336d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "MiniDuke uses Google Search to identify C2 servers if its primary C2 method via Twitter is not working.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "MiniDuke uses Google Search to identify C2 servers if its primary C2 method via Twitter is not working. (Citation: Securelist MiniDuke Feb 2013)",
             "external_references": [
                 {
                     "url": "https://cdn.securelist.com/files/2014/07/themysteryofthepdf0-dayassemblermicrobackdoor.pdf",
-                    "source_name": "Securelist MiniDuke Feb 2013",
-                    "description": "Kaspersky Lab's Global Research & Analysis Team. (2013, February 27). The MiniDuke Mystery: PDF 0-day Government Spy Assembler 0x29A Micro Backdoor. Retrieved April 5, 2017."
+                    "description": "Kaspersky Lab's Global Research & Analysis Team. (2013, February 27). The MiniDuke Mystery: PDF 0-day Government Spy Assembler 0x29A Micro Backdoor. Retrieved April 5, 2017.",
+                    "source_name": "Securelist MiniDuke Feb 2013"
                 }
             ],
             "object_marking_refs": [

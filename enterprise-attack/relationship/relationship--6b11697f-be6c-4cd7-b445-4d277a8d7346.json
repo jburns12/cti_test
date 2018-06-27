@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e36de854-9001-4d51-905d-46b36560abb2",
+    "id": "bundle--4d21d003-7936-409e-9e21-1145c2f125a2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--6b11697f-be6c-4cd7-b445-4d277a8d7346",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "The Winnti installer loads a DLL using rundll32.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "The Winnti installer loads a DLL using rundll32. (Citation: Microsoft Winnti Jan 2017)",
             "external_references": [
                 {
                     "url": "https://blogs.technet.microsoft.com/mmpc/2017/01/25/detecting-threat-actors-in-recent-german-industrial-attacks-with-windows-defender-atp/",
-                    "source_name": "Microsoft Winnti Jan 2017",
-                    "description": "Cap, P., et al. (2017, January 25). Detecting threat actors in recent German industrial attacks with Windows Defender ATP. Retrieved February 8, 2017."
+                    "description": "Cap, P., et al. (2017, January 25). Detecting threat actors in recent German industrial attacks with Windows Defender ATP. Retrieved February 8, 2017.",
+                    "source_name": "Microsoft Winnti Jan 2017"
                 }
             ],
             "object_marking_refs": [

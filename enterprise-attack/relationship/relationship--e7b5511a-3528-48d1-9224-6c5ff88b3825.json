@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1c87bc30-0543-4129-b282-4c15c796ebe4",
+    "id": "bundle--c8c463b7-f1fe-43e3-9989-37c47e6f3bcf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--e7b5511a-3528-48d1-9224-6c5ff88b3825",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "A Winnti implant file was named ASPNET_FILTER.DLL, mimicking the legitimate ASP.NET ISAPI filter DLL with the same name.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "A Winnti implant file was named ASPNET_FILTER.DLL, mimicking the legitimate ASP.NET ISAPI filter DLL with the same name. (Citation: Microsoft Winnti Jan 2017)",
             "external_references": [
                 {
                     "url": "https://blogs.technet.microsoft.com/mmpc/2017/01/25/detecting-threat-actors-in-recent-german-industrial-attacks-with-windows-defender-atp/",
-                    "source_name": "Microsoft Winnti Jan 2017",
-                    "description": "Cap, P., et al. (2017, January 25). Detecting threat actors in recent German industrial attacks with Windows Defender ATP. Retrieved February 8, 2017."
+                    "description": "Cap, P., et al. (2017, January 25). Detecting threat actors in recent German industrial attacks with Windows Defender ATP. Retrieved February 8, 2017.",
+                    "source_name": "Microsoft Winnti Jan 2017"
                 }
             ],
             "object_marking_refs": [

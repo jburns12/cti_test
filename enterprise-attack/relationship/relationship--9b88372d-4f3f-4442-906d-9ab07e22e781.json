@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f457f379-f563-478c-a6ee-d71032821df4",
+    "id": "bundle--2fed48b5-5e9e-4115-974b-c928070bf3f8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--9b88372d-4f3f-4442-906d-9ab07e22e781",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "CORESHELL contains unused machine instructions in a likely attempt to hinder analysis.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "CORESHELL contains unused machine instructions in a likely attempt to hinder analysis. (Citation: FireEye APT28)",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf",
-                    "source_name": "FireEye APT28",
-                    "description": "FireEye. (2015). APT28: A WINDOW INTO RUSSIA\u2019S CYBER ESPIONAGE OPERATIONS?. Retrieved August 19, 2015."
+                    "description": "FireEye. (2015). APT28: A WINDOW INTO RUSSIA\u2019S CYBER ESPIONAGE OPERATIONS?. Retrieved August 19, 2015.",
+                    "source_name": "FireEye APT28"
                 }
             ],
             "object_marking_refs": [

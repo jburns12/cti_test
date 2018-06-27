@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b70458f9-b34c-40da-b42f-322cc290b1be",
+    "id": "bundle--e9c88ae3-f4b9-4f33-ae82-bcde84465bf1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--327a64df-b405-453b-83d2-528d17e8df51",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "One persistence mechanism used by CozyCar is to set itself to be executed at system startup by adding a Registry value under one of the following Registry keys: <br><code>HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\</code> <br><code>HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\</code> <br><code>HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\Run</code> <br><code>HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\Run</code>",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "One persistence mechanism used by CozyCar is to set itself to be executed at system startup by adding a Registry value under one of the following Registry keys: <br><code>HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\</code> <br><code>HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\</code> <br><code>HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\Run</code> <br><code>HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\Run</code> (Citation: F-Secure CozyDuke)",
             "external_references": [
                 {
                     "url": "https://www.f-secure.com/documents/996508/1030745/CozyDuke",
-                    "source_name": "F-Secure CozyDuke",
-                    "description": "F-Secure Labs. (2015, April 22). CozyDuke: Malware Analysis. Retrieved December 10, 2015."
+                    "description": "F-Secure Labs. (2015, April 22). CozyDuke: Malware Analysis. Retrieved December 10, 2015.",
+                    "source_name": "F-Secure CozyDuke"
                 }
             ],
             "object_marking_refs": [

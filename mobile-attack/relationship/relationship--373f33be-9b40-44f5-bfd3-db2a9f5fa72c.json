@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6eab77d1-863a-4a50-b2dc-91526a439030",
+    "id": "bundle--a618aa3d-9afc-40e8-834c-916d029d05e2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--373f33be-9b40-44f5-bfd3-db2a9f5fa72c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "OldBoot uses escalated privileges to modify the init script on the device's boot partition to maintain persistence.",
+            "modified": "2018-06-18T15:59:03.864Z",
+            "description": "OldBoot uses escalated privileges to modify the init script on the device's boot partition to maintain persistence (Citation: HackerNews-OldBoot).",
             "external_references": [
                 {
                     "url": "http://thehackernews.com/2014/01/first-widely-distributed-android.html",
-                    "source_name": "HackerNews-OldBoot",
-                    "description": "Sudhir K Bansal. (2014, January 28). First widely distributed Android bootkit Malware infects more than 350,000 Devices. Retrieved December 21, 2016."
+                    "description": "Sudhir K Bansal. (2014, January 28). First widely distributed Android bootkit Malware infects more than 350,000 Devices. Retrieved December 21, 2016.",
+                    "source_name": "HackerNews-OldBoot"
                 }
             ],
             "object_marking_refs": [

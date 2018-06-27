@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--202d6a06-8f8f-451b-8b95-11ac3fa0b2ec",
+    "id": "bundle--8ef53bc9-5a7d-402c-b91a-b51db37dc02f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--9453d60b-4f3f-494f-985d-e29094ef8945",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Net Crawler uses PsExec to perform remote service manipulation to execute a copy of itself as part of lateral movement.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Net Crawler uses PsExec to perform remote service manipulation to execute a copy of itself as part of lateral movement. (Citation: Cylance Cleaver)",
             "external_references": [
                 {
                     "url": "https://www.cylance.com/content/dam/cylance/pages/operation-cleaver/Cylance%20Operation%20Cleaver%20Report.pdf",
-                    "source_name": "Cylance Cleaver",
-                    "description": "Cylance. (2014, December). Operation Cleaver. Retrieved September 14, 2017."
+                    "description": "Cylance. (2014, December). Operation Cleaver. Retrieved September 14, 2017.",
+                    "source_name": "Cylance Cleaver"
                 }
             ],
             "object_marking_refs": [

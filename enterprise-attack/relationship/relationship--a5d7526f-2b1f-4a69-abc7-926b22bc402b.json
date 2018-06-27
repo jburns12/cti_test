@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--32e13cee-2367-4971-ace1-51fc13ebaacb",
+    "id": "bundle--1bc49ec4-3239-440f-b954-423b6c36b2fb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--a5d7526f-2b1f-4a69-abc7-926b22bc402b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Hi-Zor encrypts C2 traffic with HTTPS and also encodes it with a single-byte XOR key.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Hi-Zor encrypts C2 traffic with HTTPS and also encodes it with a single-byte XOR key. (Citation: Fidelis INOCNATION)",
             "external_references": [
                 {
                     "url": "https://www.fidelissecurity.com/sites/default/files/FTA%201020%20Fidelis%20Inocnation%20FINAL%200.pdf",
-                    "source_name": "Fidelis INOCNATION",
-                    "description": "Fidelis Cybersecurity. (2015, December 16). Fidelis Threat Advisory #1020: Dissecting the Malware Involved in the INOCNATION Campaign. Retrieved March 24, 2016."
+                    "description": "Fidelis Cybersecurity. (2015, December 16). Fidelis Threat Advisory #1020: Dissecting the Malware Involved in the INOCNATION Campaign. Retrieved March 24, 2016.",
+                    "source_name": "Fidelis INOCNATION"
                 }
             ],
             "object_marking_refs": [

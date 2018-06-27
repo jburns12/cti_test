@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2cbd0d9d-0e6a-4f69-9ea8-f866224191ef",
+    "id": "bundle--538f383a-6d39-41cd-a424-34cb4ee53366",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--c5a0e330-ec5a-49cc-95b8-b7a5c49bd500",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "Hydraq connects to a predefined domain on port 443 to exfil gathered information.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Hydraq connects to a predefined domain on port 443 to exfil gathered information. (Citation: Symantec Hydraq Jan 2010)",
             "external_references": [
                 {
                     "url": "https://www.symantec.com/security%20response/writeup.jsp?docid=2010-011114-1830-99",
-                    "source_name": "Symantec Hydraq Jan 2010",
-                    "description": "Lelli, A. (2010, January 11). Trojan.Hydraq. Retrieved February 20, 2018."
+                    "description": "Lelli, A. (2010, January 11). Trojan.Hydraq. Retrieved February 20, 2018.",
+                    "source_name": "Symantec Hydraq Jan 2010"
                 }
             ],
             "object_marking_refs": [

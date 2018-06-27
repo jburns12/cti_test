@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cd3840d2-0f13-46cc-b41c-9f0200172440",
+    "id": "bundle--ff69a8c3-bbb8-41d7-b827-c38b3dfda254",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--617fe29d-ac48-4cd0-ae8c-19cf7cfdbedd",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "The \"SCOUT\" variant of NETEAGLE achieves persistence by adding itself to the <code>HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run</code> Registry key.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "The \"SCOUT\" variant of NETEAGLE achieves persistence by adding itself to the <code>HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run</code> Registry key. (Citation: FireEye APT30)",
             "external_references": [
                 {
                     "url": "https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf",
-                    "source_name": "FireEye APT30",
-                    "description": "FireEye Labs. (2015, April). APT30 AND THE MECHANICS OF A LONG-RUNNING CYBER ESPIONAGE OPERATION. Retrieved May 1, 2015."
+                    "description": "FireEye Labs. (2015, April). APT30 AND THE MECHANICS OF A LONG-RUNNING CYBER ESPIONAGE OPERATION. Retrieved May 1, 2015.",
+                    "source_name": "FireEye APT30"
                 }
             ],
             "object_marking_refs": [

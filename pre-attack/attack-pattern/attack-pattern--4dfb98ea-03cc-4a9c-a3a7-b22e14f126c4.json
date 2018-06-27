@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eec4c5f3-d476-4434-9d5f-80a5e41f8dc5",
+    "id": "bundle--e8102577-92c4-4456-bae6-edd41defa27f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--4dfb98ea-03cc-4a9c-a3a7-b22e14f126c4",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Authentication attempt",
-            "description": "This technique has been deprecated. Please see ATT&CK's Initial Access and Execution tactics for replacement techniques.\n\nAttempt to use default vendor credentials, brute force credentials, or previously obtained legitimate credentials to authenticate remotely. This access could be to a web portal, through a VPN, or in a phone app. (Citation: Remote Access Healthcare) (Citation: RDP Point of Sale)\n\nDetectable by Common Defenses: Partial\n\nDetectable by Common Defenses explanation: This is possible with diligent monitoring of login anomalies, expected user behavior/location.  If the adversary uses legitimate credentials, it may go undetected.\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: Attempt to use default vendor credentials, brute force credentials, or previously obtained legitimate credentials.  This is increasingly difficult to obtain access when two-factor authentication mechanisms are employed.",
+            "description": "Attempt to use default vendor credentials, brute force credentials, or previously obtained legitimate credentials to authenticate remotely. This access could be to a web portal, through a VPN, or in a phone app. (Citation: Remote Access Healthcare) (Citation: RDP Point of Sale)",
             "kill_chain_phases": [
                 {
                     "phase_name": "launch",
@@ -20,16 +20,16 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1158",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1158"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1158",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "Remote Access Healthcare",
-                    "description": "Gary Glover. (2015, June 25). Remote access threats are imminent. Retrieved March 31, 2017."
+                    "description": "Gary Glover. (2015, June 25). Remote access threats are imminent. Retrieved March 31, 2017.",
+                    "source_name": "Remote Access Healthcare"
                 },
                 {
-                    "source_name": "RDP Point of Sale",
-                    "description": "Brian Prince. (2014, July 31). Hackers Turn Remote Desktop Tools Into Gateways for Point-of-Sale Malware Attacks. Retrieved March 31, 2017."
+                    "description": "Brian Prince. (2014, July 31). Hackers Turn Remote Desktop Tools Into Gateways for Point-of-Sale Malware Attacks. Retrieved March 31, 2017.",
+                    "source_name": "RDP Point of Sale"
                 }
             ],
             "object_marking_refs": [

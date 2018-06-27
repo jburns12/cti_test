@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c540fe10-11be-474c-901b-76c3c64361ac",
+    "id": "bundle--c79b6bcf-6614-467d-abdc-dbdc1eabe018",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--c1ed0848-df59-4cd1-8e39-a0d87002c652",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "can perform keylogging.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "can perform keylogging. (Citation: McAfee Netwire Mar 2015) (Citation: FireEye APT33 Webinar Sept 2017)",
             "external_references": [
                 {
                     "url": "https://securingtomorrow.mcafee.com/mcafee-labs/netwire-rat-behind-recent-targeted-attacks/",
-                    "source_name": "McAfee Netwire Mar 2015",
-                    "description": "McAfee. (2015, March 2). Netwire RAT Behind Recent Targeted Attacks. Retrieved February 15, 2018."
+                    "description": "McAfee. (2015, March 2). Netwire RAT Behind Recent Targeted Attacks. Retrieved February 15, 2018.",
+                    "source_name": "McAfee Netwire Mar 2015"
                 },
                 {
                     "url": "https://www.brighttalk.com/webcast/10703/275683",
-                    "source_name": "FireEye APT33 Webinar Sept 2017",
-                    "description": "Davis, S. and Carr, N. (2017, September 21). APT33: New Insights into Iranian Cyber Espionage Group. Retrieved February 15, 2018."
+                    "description": "Davis, S. and Carr, N. (2017, September 21). APT33: New Insights into Iranian Cyber Espionage Group. Retrieved February 15, 2018.",
+                    "source_name": "FireEye APT33 Webinar Sept 2017"
                 }
             ],
             "object_marking_refs": [

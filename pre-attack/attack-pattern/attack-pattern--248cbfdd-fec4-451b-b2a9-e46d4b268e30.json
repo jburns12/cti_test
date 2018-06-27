@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--673bf62d-35af-482e-a186-728126896e92",
+    "id": "bundle--6252f679-acf7-425c-975a-a587e905b233",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--248cbfdd-fec4-451b-b2a9-e46d4b268e30",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Fast Flux DNS",
-            "description": "A technique in which a fully qualified domain name has multiple IP addresses assigned to it which are swapped with extreme frequency, using a combination of round robin IP address and short Time-To-Live (TTL) for a DNS resource record. (Citation: HoneynetFastFlux) (Citation: MisnomerFastFlux) (Citation: MehtaFastFluxPt1) (Citation: MehtaFastFluxPt2)\n\nDetectable by Common Defenses: Partial\n\nDetectable by Common Defenses explanation: In general, detecting usage of fast flux DNS is difficult due to web traffic load balancing that services client requests quickly.  In single flux cases only IP addresses change for static domain names.  In double flux cases, nothing is static.  Defenders such as IPS, domain registrars, and service providers are likely in the best position for detection.\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: Fast flux is generally simple for an adversary to set up and offers several advantages.  Such advantages include limited audit trails for defenders to find, ease of operation for an adversary to maintain, and support for main nodes.",
+            "description": "A technique in which a fully qualified domain name has multiple IP addresses assigned to it which are swapped with extreme frequency, using a combination of round robin IP address and short Time-To-Live (TTL) for a DNS resource record. (Citation: HoneynetFastFlux) (Citation: MisnomerFastFlux) (Citation: MehtaFastFluxPt1) (Citation: MehtaFastFluxPt2)",
             "kill_chain_phases": [
                 {
                     "phase_name": "adversary-opsec",
@@ -20,24 +20,24 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1102",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1102"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1102",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "HoneynetFastFlux",
-                    "description": "Jamie Riden. (2008, August 16). HOW FAST-FLUX SERVICE NETWORKS WORK. Retrieved March 6, 2017."
+                    "description": "Jamie Riden. (2008, August 16). HOW FAST-FLUX SERVICE NETWORKS WORK. Retrieved March 6, 2017.",
+                    "source_name": "HoneynetFastFlux"
                 },
                 {
-                    "source_name": "MisnomerFastFlux",
-                    "description": "Misnomer. (2012, May 4). RESEARCH TO DETECTION \u2013 IDENTIFY FAST FLUX IN YOUR ENVIRONMENT. Retrieved March 6, 2017."
+                    "description": "Misnomer. (2012, May 4). RESEARCH TO DETECTION \u2013 IDENTIFY FAST FLUX IN YOUR ENVIRONMENT. Retrieved March 6, 2017.",
+                    "source_name": "MisnomerFastFlux"
                 },
                 {
-                    "source_name": "MehtaFastFluxPt1",
-                    "description": "Lohit Mehta. (2014, December 17). Fast Flux Networks Working and Detection, Part 1. Retrieved March 6, 2017."
+                    "description": "Lohit Mehta. (2014, December 17). Fast Flux Networks Working and Detection, Part 1. Retrieved March 6, 2017.",
+                    "source_name": "MehtaFastFluxPt1"
                 },
                 {
-                    "source_name": "MehtaFastFluxPt2",
-                    "description": "Lohit Mehta. (2014, December 23). Fast Flux Networks Working and Detection, Part 2. Retrieved March 6, 2017."
+                    "description": "Lohit Mehta. (2014, December 23). Fast Flux Networks Working and Detection, Part 2. Retrieved March 6, 2017.",
+                    "source_name": "MehtaFastFluxPt2"
                 }
             ],
             "object_marking_refs": [

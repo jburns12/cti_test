@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9252463d-4f9f-4e0a-bfea-b5a4d7563cbb",
+    "id": "bundle--329896c3-c5b9-41dd-9309-394f3bfb8ed9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--9755ecdc-deb0-40e6-af49-713cb0f8ed92",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Remote access tool development",
-            "description": "A remote access tool (RAT) is a piece of software that allows a remote user to control a system as if they had physical access to that system. An adversary may utilize existing RATs, modify existing RATs, or create their own RAT. (Citation: ActiveMalwareEnergy)\n\nDetectable by Common Defenses: No\n\nDetectable by Common Defenses explanation: Adversary will likely use code repositories, but development will be performed on their local systems.\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: Many successful RATs exist for re-use/tailoring in addition to those an adversary may choose to build from scratch.  The adversary's capabilities, target sensitivity, and needs will likely determine whether a previous RAT is modified for use a new one is built from scratch.",
+            "description": "A remote access tool (RAT) is a piece of software that allows a remote user to control a system as if they had physical access to that system. An adversary may utilize existing RATs, modify existing RATs, or create their own RAT. (Citation: ActiveMalwareEnergy)",
             "kill_chain_phases": [
                 {
                     "phase_name": "build-capabilities",
@@ -20,12 +20,12 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1128",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1128"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1128",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "ActiveMalwareEnergy",
-                    "description": "Dan Goodin. (2014, June 30). Active malware operation let attackers sabotage US energy industry. Retrieved March 9, 2017."
+                    "description": "Dan Goodin. (2014, June 30). Active malware operation let attackers sabotage US energy industry. Retrieved March 9, 2017.",
+                    "source_name": "ActiveMalwareEnergy"
                 }
             ],
             "object_marking_refs": [

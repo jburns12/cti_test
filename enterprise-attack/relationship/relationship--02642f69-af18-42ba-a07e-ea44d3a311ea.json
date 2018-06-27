@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ee101ba1-8378-4326-87d4-156c69109278",
+    "id": "bundle--e5d93248-4359-476d-a279-8d13a9d16585",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--02642f69-af18-42ba-a07e-ea44d3a311ea",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "creates a backdoor by making a connection using a HTTP POST.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "creates a backdoor by making a connection using a HTTP POST. (Citation: Symantec Vasport May 2012)",
             "external_references": [
                 {
                     "url": "https://www.symantec.com/security%20response/writeup.jsp?docid=2012-051606-5938-99",
-                    "source_name": "Symantec Vasport May 2012",
-                    "description": "Zhou, R. (2012, May 15). Backdoor.Vasport. Retrieved February 22, 2018."
+                    "description": "Zhou, R. (2012, May 15). Backdoor.Vasport. Retrieved February 22, 2018.",
+                    "source_name": "Symantec Vasport May 2012"
                 }
             ],
             "object_marking_refs": [

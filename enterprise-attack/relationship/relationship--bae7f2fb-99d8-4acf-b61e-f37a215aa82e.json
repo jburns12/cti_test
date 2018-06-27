@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7312c3a3-5a89-475b-9ebb-0633cf781a7d",
+    "id": "bundle--f85a659a-1874-4051-9e45-19aa1b4c8b71",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--bae7f2fb-99d8-4acf-b61e-f37a215aa82e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Emissary has the capability to execute the command <code>net start</code> to interact with services.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Emissary has the capability to execute the command <code>net start</code> to interact with services. (Citation: Emissary Trojan Feb 2016)",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2016/02/emissary-trojan-changelog-did-operation-lotus-blossom-cause-it-to-evolve/",
-                    "source_name": "Emissary Trojan Feb 2016",
-                    "description": "Falcone, R. and Miller-Osborn, J.. (2016, February 3). Emissary Trojan Changelog: Did Operation Lotus Blossom Cause It to Evolve?. Retrieved February 15, 2016."
+                    "description": "Falcone, R. and Miller-Osborn, J.. (2016, February 3). Emissary Trojan Changelog: Did Operation Lotus Blossom Cause It to Evolve?. Retrieved February 15, 2016.",
+                    "source_name": "Emissary Trojan Feb 2016"
                 }
             ],
             "object_marking_refs": [

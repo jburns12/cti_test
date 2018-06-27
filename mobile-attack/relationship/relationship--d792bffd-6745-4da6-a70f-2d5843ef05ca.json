@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0c4e8c4e-7728-4eaf-93e6-8af823e865f2",
+    "id": "bundle--6bacedb2-5b6c-4cd3-90c1-57987a86e4cd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--d792bffd-6745-4da6-a70f-2d5843ef05ca",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Adups is pre-installed on Android devices from some vendors.",
+            "modified": "2018-06-18T15:59:03.864Z",
+            "description": "Adups is pre-installed on Android devices from some vendors (Citation: NYTimes-BackDoor) (Citation: BankInfoSecurity-BackDoor).",
             "external_references": [
                 {
                     "url": "https://www.nytimes.com/2016/11/16/us/politics/china-phones-software-security.html",
-                    "source_name": "NYTimes-BackDoor",
-                    "description": "Matt Apuzzo and Michael S. Schmidt. (2016, November 15). Secret Back Door in Some U.S. Phones Sent Data to China, Analysts Say. Retrieved February 6, 2017."
+                    "description": "Matt Apuzzo and Michael S. Schmidt. (2016, November 15). Secret Back Door in Some U.S. Phones Sent Data to China, Analysts Say. Retrieved February 6, 2017.",
+                    "source_name": "NYTimes-BackDoor"
                 },
                 {
                     "url": "http://www.bankinfosecurity.com/did-chinese-spyware-linger-in-us-phones-a-9534",
-                    "source_name": "BankInfoSecurity-BackDoor",
-                    "description": "Jeremy Kirk. (2016, November 16). Why Did Chinese Spyware Linger in U.S. Phones?. Retrieved February 6, 2017."
+                    "description": "Jeremy Kirk. (2016, November 16). Why Did Chinese Spyware Linger in U.S. Phones?. Retrieved February 6, 2017.",
+                    "source_name": "BankInfoSecurity-BackDoor"
                 }
             ],
             "object_marking_refs": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--78af02b7-e82b-49a3-b31b-643542ecff96",
+    "id": "bundle--a55987f4-1e75-406e-831a-ed675233a188",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--e873321b-0d76-4cd6-bc46-8231cfcdeba0",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Cobalt Strike allows adversaries to modify the way the \"beacon\" payload communicates.  This is called \"Malleable C2\" in the Cobalt Strike manual and is intended to allow a penetration test team to mimic known APT C2 methods.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Cobalt Strike allows adversaries to modify the way the \"beacon\" payload communicates. This is called \"Malleable C2\" in the Cobalt Strike manual and is intended to allow a penetration test team to mimic known APT C2 methods. (Citation: cobaltstrike manual) (Citation: GitHub Malleable C2)",
             "external_references": [
                 {
                     "url": "https://cobaltstrike.com/downloads/csmanual38.pdf",
-                    "source_name": "cobaltstrike manual",
-                    "description": "Strategic Cyber LLC. (2017, March 14). Cobalt Strike Manual. Retrieved May 24, 2017."
+                    "description": "Strategic Cyber LLC. (2017, March 14). Cobalt Strike Manual. Retrieved May 24, 2017.",
+                    "source_name": "cobaltstrike manual"
                 },
                 {
                     "url": "https://github.com/rsmudge/Malleable-C2-Profiles/blob/master/normal/safebrowsing.profile",
-                    "source_name": "GitHub Malleable C2",
-                    "description": "Mudge, R. (2014, July 14). Github Malleable-C2-Profiles safebrowsing.profile. Retrieved June 18, 2017."
+                    "description": "Mudge, R. (2014, July 14). Github Malleable-C2-Profiles safebrowsing.profile. Retrieved June 18, 2017.",
+                    "source_name": "GitHub Malleable C2"
                 }
             ],
             "object_marking_refs": [

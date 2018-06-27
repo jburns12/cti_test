@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7d1f847e-0c6e-4f89-9709-8a0008a68e04",
+    "id": "bundle--7a690f8d-2d85-4e51-9bc4-aac5bb19e94c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--b3981ca6-7ef0-4625-99a8-9cbec731bac9",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "Helminth has checked for the local admin group domain admin group and Exchange Trusted Subsystem groups using the commands <code>net group Exchange Trusted Subsystem /domain</code> and <code>net group domain admins /domain</code>.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Helminth has checked for the local admin group domain admin group and Exchange Trusted Subsystem groups using the commands <code>net group Exchange Trusted Subsystem /domain</code> and <code>net group domain admins /domain</code>. (Citation: Unit 42 Playbook OilRig Dec 2017)",
             "external_references": [
                 {
                     "url": "https://pan-unit42.github.io/playbook%20viewer/",
-                    "source_name": "Unit 42 Playbook OilRig Dec 2017",
-                    "description": "Unit 42. (2017, December 15). Unit 42 Playbook Viewer - OilRig. Retrieved December 20, 2017."
+                    "description": "Unit 42. (2017, December 15). Unit 42 Playbook Viewer - OilRig. Retrieved December 20, 2017.",
+                    "source_name": "Unit 42 Playbook OilRig Dec 2017"
                 }
             ],
             "object_marking_refs": [

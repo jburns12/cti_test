@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eb0b335c-863d-4461-bdbd-4c1744091aeb",
+    "id": "bundle--ef39824a-f279-4f7d-91be-23cb0fcbff11",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--3911658a-6506-4deb-9ab4-595a51ae71ad",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-10-25T14:48:16.650Z",
-            "modified": "2018-04-13T17:05:30.756Z",
+            "modified": "2018-06-18T15:59:03.864Z",
             "name": "Commonly Used Port",
-            "description": "Adversaries may communicate over a commonly used port to bypass firewalls or network detection systems and to blend with normal network activity to avoid more detailed inspection. They may use commonly open ports such as\n* TCP:80 (HTTP)\n* TCP:443 (HTTPS)\n* TCP:25 (SMTP)\n* TCP/UDP:53 (DNS)\n\nThey may use the protocol associated with the port or a completely different protocol.\n\nPlatforms: Android, iOS",
+            "description": "Adversaries may communicate over a commonly used port to bypass firewalls or network detection systems and to blend with normal network activity to avoid more detailed inspection. They may use commonly open ports such as\n* TCP:80 (HTTP)\n* TCP:443 (HTTPS)\n* TCP:25 (SMTP)\n* TCP/UDP:53 (DNS)\n\nThey may use the protocol associated with the port or a completely different protocol.",
             "kill_chain_phases": [
                 {
                     "phase_name": "command-and-control",
@@ -24,8 +24,8 @@
             "external_references": [
                 {
                     "external_id": "MOB-T1039",
-                    "source_name": "mitre-mobile-attack",
-                    "url": "https://attack.mitre.org/mobile/index.php/Technique/MOB-T1039"
+                    "url": "https://attack.mitre.org/mobile/index.php/Technique/MOB-T1039",
+                    "source_name": "mitre-mobile-attack"
                 }
             ],
             "object_marking_refs": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8b73da54-6ae7-4d32-8411-09e1513c0b35",
+    "id": "bundle--e5d81981-8993-4f85-8e90-8fcb87275470",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--f296fc9c-2ff5-43ee-941e-6b49c438270a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-10-25T14:48:23.652Z",
-            "modified": "2018-04-13T17:05:30.756Z",
+            "modified": "2018-06-18T15:59:03.864Z",
             "name": "Device Unlock Code Guessing or Brute Force",
-            "description": "An adversary could make educated guesses of the device lock screen's PIN/password (e.g., commonly used values, birthdays, anniversaries) or attempt a dictionary or brute force attack against it. Brute force attacks could potentially be automated (Citation: PopSci-IPBox).\n\nPlatforms: Android, iOS",
+            "description": "An adversary could make educated guesses of the device lock screen's PIN/password (e.g., commonly used values, birthdays, anniversaries) or attempt a dictionary or brute force attack against it. Brute force attacks could potentially be automated (Citation: PopSci-IPBox).",
             "kill_chain_phases": [
                 {
                     "phase_name": "exploit-via-physical-access",
@@ -20,13 +20,13 @@
             "external_references": [
                 {
                     "external_id": "MOB-T1062",
-                    "source_name": "mitre-mobile-attack",
-                    "url": "https://attack.mitre.org/mobile/index.php/Technique/MOB-T1062"
+                    "url": "https://attack.mitre.org/mobile/index.php/Technique/MOB-T1062",
+                    "source_name": "mitre-mobile-attack"
                 },
                 {
                     "url": "http://www.popsci.com/box-can-figure-out-your-4-digit-iphone-passcode",
-                    "source_name": "PopSci-IPBox",
-                    "description": "Dan Moren. (2015, March 18). This Box Can Figure Out Your 4-Digit iPhone Passcode. Retrieved December 23, 2016."
+                    "description": "Dan Moren. (2015, March 18). This Box Can Figure Out Your 4-Digit iPhone Passcode. Retrieved December 23, 2016.",
+                    "source_name": "PopSci-IPBox"
                 }
             ],
             "object_marking_refs": [

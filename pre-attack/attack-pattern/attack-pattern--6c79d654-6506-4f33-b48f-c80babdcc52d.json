@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7fc12540-1f03-44ba-88f7-4e6bb2e1ef13",
+    "id": "bundle--cca707a8-56b3-48f6-a254-2859ef2f0e95",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--6c79d654-6506-4f33-b48f-c80babdcc52d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Dumpster dive",
-            "description": "Dumpster diving is looking through waste for information on technology, people, and/or organizational items of interest. (Citation: FriedDumpsters)\n\nDetectable by Common Defenses: Yes\n\nDetectable by Common Defenses explanation: Strong physical security and monitoring will detect this behavior if performed on premises.\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: Not difficult if waste is placed in an unsecured or minimally secured area before collection.",
+            "description": "Dumpster diving is looking through waste for information on technology, people, and/or organizational items of interest. (Citation: FriedDumpsters)",
             "kill_chain_phases": [
                 {
                     "phase_name": "organizational-information-gathering",
@@ -20,12 +20,12 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1063",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1063"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1063",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "FriedDumpsters",
-                    "description": "Robert B. Fried. (n.d.). Dumpsters: Beware of Treasures. Retrieved March 5, 2017."
+                    "description": "Robert B. Fried. (n.d.). Dumpsters: Beware of Treasures. Retrieved March 5, 2017.",
+                    "source_name": "FriedDumpsters"
                 }
             ],
             "object_marking_refs": [

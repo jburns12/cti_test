@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1f0527af-4961-49d0-8ae8-a7f28e998d84",
+    "id": "bundle--83189ef0-45fd-4719-8eea-4fa15063a2d2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--9a05a8cc-8d3c-46a5-947e-bebed2ab1c5a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "ADVSTORESHELL connects to port 80 of a C2 server using Wininet API.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "ADVSTORESHELL connects to port 80 of a C2 server using Wininet API. (Citation: Kaspersky Sofacy)",
             "external_references": [
                 {
                     "url": "https://securelist.com/sofacy-apt-hits-high-profile-targets-with-updated-toolset/72924/",
-                    "source_name": "Kaspersky Sofacy",
-                    "description": "Kaspersky Lab's Global Research and Analysis Team. (2015, December 4). Sofacy APT hits high profile targets with updated toolset. Retrieved December 10, 2015."
+                    "description": "Kaspersky Lab's Global Research and Analysis Team. (2015, December 4). Sofacy APT hits high profile targets with updated toolset. Retrieved December 10, 2015.",
+                    "source_name": "Kaspersky Sofacy"
                 }
             ],
             "object_marking_refs": [

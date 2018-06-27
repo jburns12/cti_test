@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4a0629e1-95fb-4ada-a75d-8f2d37cce4b2",
+    "id": "bundle--482d5695-52ec-4509-b532-8182f40c8e65",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--7ec988a7-712a-45ae-b6b3-db26a6515b80",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Gazer can establish persistence by creating a .lnk file in the Start menu or by modifying existing .lnk files to execute the malware through cmd.exe. ",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Gazer can establish persistence by creating a .lnk file in the Start menu or by modifying existing .lnk files to execute the malware through cmd.exe. (Citation: ESET Gazer Aug 2017) (Citation: Securelist WhiteBear Aug 2017)",
             "external_references": [
                 {
                     "url": "https://www.welivesecurity.com/wp-content/uploads/2017/08/eset-gazer.pdf",
-                    "source_name": "ESET Gazer Aug 2017",
-                    "description": "ESET. (2017, August). Gazing at Gazer: Turla\u2019s new second stage backdoor. Retrieved September 14, 2017."
+                    "description": "ESET. (2017, August). Gazing at Gazer: Turla\u2019s new second stage backdoor. Retrieved September 14, 2017.",
+                    "source_name": "ESET Gazer Aug 2017"
                 },
                 {
                     "url": "https://securelist.com/introducing-whitebear/81638/",
-                    "source_name": "Securelist WhiteBear Aug 2017",
-                    "description": "Kaspersky Lab's Global Research & Analysis Team. (2017, August 30). Introducing WhiteBear. Retrieved September 21, 2017."
+                    "description": "Kaspersky Lab's Global Research & Analysis Team. (2017, August 30). Introducing WhiteBear. Retrieved September 21, 2017.",
+                    "source_name": "Securelist WhiteBear Aug 2017"
                 }
             ],
             "object_marking_refs": [

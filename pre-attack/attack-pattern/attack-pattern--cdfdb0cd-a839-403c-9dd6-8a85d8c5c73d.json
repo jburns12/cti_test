@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6e9707f1-be64-4def-a4d8-38ea135b5d20",
+    "id": "bundle--a057f880-e36f-4a89-90aa-0fb864fadc8e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--cdfdb0cd-a839-403c-9dd6-8a85d8c5c73d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Map network topology",
-            "description": "A network topology is the arrangement of the various elements of a network (e.g., servers, workstations, printers, routers, firewalls, etc.). Mapping a network allows an adversary to understand how the elements are connected or related. (Citation: man traceroute) (Citation: Shodan Tutorial)\n\nDetectable by Common Defenses: Yes\n\nDetectable by Common Defenses explanation: Network mapping techniques/tools typically generate benign traffic that does not require further investigation by a defender since there is no actionable defense to execute.  Defender review of access logs may provide some insight based on trends or patterns.\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: Various available tools and data sources for scouting and detecting network topologies.",
+            "description": "A network topology is the arrangement of the various elements of a network (e.g., servers, workstations, printers, routers, firewalls, etc.). Mapping a network allows an adversary to understand how the elements are connected or related. (Citation: man traceroute) (Citation: Shodan Tutorial)",
             "kill_chain_phases": [
                 {
                     "phase_name": "technical-information-gathering",
@@ -20,16 +20,16 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1029",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1029"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1029",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "man traceroute",
-                    "description": "Linux Man Page. (n.d.). traceroute(8) - Linux man page. Retrieved April 2, 2017."
+                    "description": "Linux Man Page. (n.d.). traceroute(8) - Linux man page. Retrieved April 2, 2017.",
+                    "source_name": "man traceroute"
                 },
                 {
-                    "source_name": "Shodan Tutorial",
-                    "description": "[A Shodan Tutorial and Primer Daniel Miessler. (n.d.). A Shodan Tutorial and Primer. Retrieved April 2, 2017."
+                    "description": "[A Shodan Tutorial and Primer Daniel Miessler. (n.d.). A Shodan Tutorial and Primer. Retrieved April 2, 2017.",
+                    "source_name": "Shodan Tutorial"
                 }
             ],
             "object_marking_refs": [

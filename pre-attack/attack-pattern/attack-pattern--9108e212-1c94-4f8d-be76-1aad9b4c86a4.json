@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d53c04b4-f79b-4774-8979-680df1738a2f",
+    "id": "bundle--21355c75-8e1f-4446-841d-b591776bc382",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--9108e212-1c94-4f8d-be76-1aad9b4c86a4",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Build social network persona",
-            "description": "For attacks incorporating social engineering the utilization of an on-line persona is important. These personas may be fictitious or impersonate real people. The persona may exist on a single site or across multiple sites ([https://www.facebook.com Facebook], [https://www.linkedin.com LinkedIn], [https://twitter.com Twitter], [https://plus.google.com Google+], etc.). (Citation: NEWSCASTER2014) (Citation: BlackHatRobinSage) (Citation: RobinSageInterview)\n\nDetectable by Common Defenses: No\n\nDetectable by Common Defenses explanation: Unless there is some threat intelligence reporting, these users are hard to differentiate.\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: Performing activities like typical users, but with specific intent in mind.",
+            "description": "For attacks incorporating social engineering the utilization of an on-line persona is important. These personas may be fictitious or impersonate real people. The persona may exist on a single site or across multiple sites ([https://www.facebook.com Facebook], [https://www.linkedin.com LinkedIn], [https://twitter.com Twitter], [https://plus.google.com Google+], etc.). (Citation: NEWSCASTER2014) (Citation: BlackHatRobinSage) (Citation: RobinSageInterview)",
             "kill_chain_phases": [
                 {
                     "phase_name": "persona-development",
@@ -20,20 +20,20 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1118",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1118"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1118",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "NEWSCASTER2014",
-                    "description": "Mike Lennon. (2014, May 29). Iranian Hackers Targeted US Officials in Elaborate Social Media Attack Operation. Retrieved March 1, 2017."
+                    "description": "Mike Lennon. (2014, May 29). Iranian Hackers Targeted US Officials in Elaborate Social Media Attack Operation. Retrieved March 1, 2017.",
+                    "source_name": "NEWSCASTER2014"
                 },
                 {
-                    "source_name": "BlackHatRobinSage",
-                    "description": "Thomas Ryan. (2010). \u201cGetting In Bed with Robin Sage.\u201d. Retrieved March 6, 2017."
+                    "description": "Thomas Ryan. (2010). \u201cGetting In Bed with Robin Sage.\u201d. Retrieved March 6, 2017.",
+                    "source_name": "BlackHatRobinSage"
                 },
                 {
-                    "source_name": "RobinSageInterview",
-                    "description": "Joan Goodchild. (2010, July 8). The Robin Sage experiment: Fake profile fools security pros. Retrieved March 6, 2017."
+                    "description": "Joan Goodchild. (2010, July 8). The Robin Sage experiment: Fake profile fools security pros. Retrieved March 6, 2017.",
+                    "source_name": "RobinSageInterview"
                 }
             ],
             "object_marking_refs": [

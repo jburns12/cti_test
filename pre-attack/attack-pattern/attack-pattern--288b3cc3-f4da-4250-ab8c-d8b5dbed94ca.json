@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--10ee8e27-7b24-4d0d-bff3-406f78e13a21",
+    "id": "bundle--3fb98571-1d32-4368-a5c7-4ede89cb5c66",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--288b3cc3-f4da-4250-ab8c-d8b5dbed94ca",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Identify web defensive services",
-            "description": "An adversary can attempt to identify web defensive services as [https://www.cloudflare.com/ CloudFlare], [https://github.com/jjxtra/Windows-IP-Ban-Service IPBan], and [https://www.snort.org/ Snort]. This may be done by passively detecting services, like [https://www.cloudflare.com/ CloudFlare] routing, or actively, such as by purposefully tripping security defenses. (Citation: NMAP WAF NSE)\n\nDetectable by Common Defenses: Yes\n\nDetectable by Common Defenses explanation: Active service detection may trigger an alert.  Passive service enumeration is not detected.\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: Adversary can passively detect services (e.g., [https://www.cloudflare.com/ CloudFlare] routing) or actively detect services (e.g., by purposefully tripping security defenses)",
+            "description": "An adversary can attempt to identify web defensive services as [https://www.cloudflare.com/ CloudFlare], [https://github.com/jjxtra/Windows-IP-Ban-Service IPBan], and [https://www.snort.org/ Snort]. This may be done by passively detecting services, like [https://www.cloudflare.com/ CloudFlare] routing, or actively, such as by purposefully tripping security defenses. (Citation: NMAP WAF NSE)",
             "kill_chain_phases": [
                 {
                     "phase_name": "technical-information-gathering",
@@ -20,12 +20,12 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1033",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1033"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1033",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "NMAP WAF NSE",
-                    "description": "Paulino Calderon. (n.d.). http-waf-detect. Retrieved April 2, 2017."
+                    "description": "Paulino Calderon. (n.d.). http-waf-detect. Retrieved April 2, 2017.",
+                    "source_name": "NMAP WAF NSE"
                 }
             ],
             "object_marking_refs": [

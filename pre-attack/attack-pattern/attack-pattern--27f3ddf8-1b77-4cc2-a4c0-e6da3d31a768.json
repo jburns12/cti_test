@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3d0aec5c-4570-48c8-8241-d6a18761dc16",
+    "id": "bundle--bc5e9b88-eb94-4fe2-bf91-c13462aaa0cc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--27f3ddf8-1b77-4cc2-a4c0-e6da3d31a768",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Obtain/re-use payloads",
-            "description": "A payload is the part of the malware which performs a malicious action. The adversary may re-use payloads when the needed capability is already available. (Citation: SonyDestover)\n\nDetectable by Common Defenses: No\n\nDetectable by Common Defenses explanation: Adversary will likely use code repositories, but detecting an adversary acquiring a payload would require the defender to be monitoring the code repository where the payload is stored. If the adversary re-uses payloads, this allows the defender to create signatures to detect using these known indicators of compromise (e.g., hashes).\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: Several exploit repositories and tool suites exist for re-use and tailoring.",
+            "description": "A payload is the part of the malware which performs a malicious action. The adversary may re-use payloads when the needed capability is already available. (Citation: SonyDestover)",
             "kill_chain_phases": [
                 {
                     "phase_name": "build-capabilities",
@@ -20,12 +20,12 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1123",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1123"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1123",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "SonyDestover",
-                    "description": "Kurt Baumgartner. (2014, December 4). Sony/Destover: mystery North Korean actor\u2019s destructive and past network activity. Retrieved March 9, 2017."
+                    "description": "Kurt Baumgartner. (2014, December 4). Sony/Destover: mystery North Korean actor\u2019s destructive and past network activity. Retrieved March 9, 2017.",
+                    "source_name": "SonyDestover"
                 }
             ],
             "object_marking_refs": [

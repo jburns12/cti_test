@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--78e20445-8db3-4a2e-bd1c-4f58c821cdf7",
+    "id": "bundle--6652cc57-a740-4b4c-bdbc-d68d8903df7a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--df42286d-dfbd-4455-bc9d-aef52ac29aa7",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Post compromise tool development",
-            "description": "After compromise, an adversary may utilize additional tools to facilitate their end goals. This may include tools to further explore the system, move laterally within a network, exfiltrate data, or destroy data. (Citation: SofacyHits)\n\nDetectable by Common Defenses: No\n\nDetectable by Common Defenses explanation: Adversary will likely use code repositories, but development will be performed on their local systems.\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: Post compromise tool development is a standard part of the adversary's protocol in developing the necessary tools required to completely conduct an attack.",
+            "description": "After compromise, an adversary may utilize additional tools to facilitate their end goals. This may include tools to further explore the system, move laterally within a network, exfiltrate data, or destroy data. (Citation: SofacyHits)",
             "kill_chain_phases": [
                 {
                     "phase_name": "build-capabilities",
@@ -20,12 +20,12 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1130",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1130"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1130",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "SofacyHits",
-                    "description": "Kaspersky Lab's Global Research & Analysis Team. (2015, December 4). Sofacy APT hits high profile targets with updated toolset. Retrieved March 9, 2017."
+                    "description": "Kaspersky Lab's Global Research & Analysis Team. (2015, December 4). Sofacy APT hits high profile targets with updated toolset. Retrieved March 9, 2017.",
+                    "source_name": "SofacyHits"
                 }
             ],
             "object_marking_refs": [

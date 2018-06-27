@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c9a7b9f8-320e-4b5c-8952-f8ffb907402d",
+    "id": "bundle--f321b503-e7ef-418a-87a1-8e465b606b55",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--38a6d2f5-d948-4235-bb91-bb01604448b4",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Credential pharming",
-            "description": "This technique has been deprecated. Please see ATT&CK's Initial Access and Execution tactics for replacement techniques.\n\nCredential pharming a  form of attack designed to steal users' credential by redirecting users to fraudulent websites. Pharming can be conducted either by changing the hosts file on a victim's computer or by exploitation of a vulnerability in DNS server software. (Citation: DriveByPharming) (Citation: GoogleDrive Phishing)\n\nDetectable by Common Defenses: No\n\nDetectable by Common Defenses explanation: Fidelity of networking monitoring must be able to detect when traffic is diverted to non-normal sources at a site level.  It is possible to identify some methods of pharming, but detection capabilities are limited and not commonly implemented.\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: Although it can be difficult to spoof/redirect content to a hostile service via DNS poisoning or MiTM attacks, current malware such as Zeus is able to successfully pharm credentials and end users are not well-versed in checking for certificate mismatches.",
+            "description": "Credential pharming a  form of attack designed to steal users' credential by redirecting users to fraudulent websites. Pharming can be conducted either by changing the hosts file on a victim's computer or by exploitation of a vulnerability in DNS server software. (Citation: DriveByPharming) (Citation: GoogleDrive Phishing)",
             "kill_chain_phases": [
                 {
                     "phase_name": "launch",
@@ -20,16 +20,16 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1151",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1151"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1151",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "DriveByPharming",
-                    "description": "Ellen Messmer. (2008, January 22). First case of \"drive-by pharming\" identified in the wild. Retrieved March 2, 2017."
+                    "description": "Ellen Messmer. (2008, January 22). First case of \"drive-by pharming\" identified in the wild. Retrieved March 2, 2017.",
+                    "source_name": "DriveByPharming"
                 },
                 {
-                    "source_name": "GoogleDrive Phishing",
-                    "description": "Nick Johnston. (2014, March 13). Google Docs Users Targeted by Sophisticated Phishing Scam. Retrieved March 29, 2017."
+                    "description": "Nick Johnston. (2014, March 13). Google Docs Users Targeted by Sophisticated Phishing Scam. Retrieved March 29, 2017.",
+                    "source_name": "GoogleDrive Phishing"
                 }
             ],
             "object_marking_refs": [

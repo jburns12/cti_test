@@ -1,21 +1,21 @@
 {
     "type": "bundle",
-    "id": "bundle--ca677f46-f097-402f-8d61-eaeeb5488f4b",
+    "id": "bundle--b8e1243b-745b-434a-84e9-61531e1c389d",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--02f0f92a-0a51-4c94-9bda-6437b9a93f22",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "created": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-06-27T14:18:47.700Z",
             "name": "Space after Filename Mitigation",
             "description": "Prevent files from having a trailing space after the extension.",
             "external_references": [
                 {
                     "external_id": "T1151",
-                    "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1151"
+                    "url": "https://attack.mitre.org/wiki/Technique/T1151",
+                    "source_name": "mitre-attack"
                 }
             ]
         }

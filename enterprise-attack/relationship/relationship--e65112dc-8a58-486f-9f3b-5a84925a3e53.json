@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--803f2158-2779-4f86-9364-d49bbe5fe37d",
+    "id": "bundle--c36a96b4-d50e-4b1c-9c05-7da9942e1f4e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--e65112dc-8a58-486f-9f3b-5a84925a3e53",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.049Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "APT29 used sticky-keys to obtain unauthenticated, privileged console access.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "APT29 used sticky-keys to obtain unauthenticated, privileged console access. (Citation: Mandiant No Easy Breach) (Citation: FireEye APT29 Domain Fronting)",
             "external_references": [
                 {
                     "url": "http://www.slideshare.net/MatthewDunwoody1/no-easy-breach-derby-con-2016",
-                    "source_name": "Mandiant No Easy Breach",
-                    "description": "Dunwoody, M. and Carr, N.. (2016, September 27). No Easy Breach DerbyCon 2016. Retrieved October 4, 2016."
+                    "description": "Dunwoody, M. and Carr, N.. (2016, September 27). No Easy Breach DerbyCon 2016. Retrieved October 4, 2016.",
+                    "source_name": "Mandiant No Easy Breach"
                 },
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/03/apt29%20domain%20frontin.html",
-                    "source_name": "FireEye APT29 Domain Fronting",
-                    "description": "Dunwoody, M. (2017, March 27). APT29 Domain Fronting With TOR. Retrieved March 27, 2017."
+                    "description": "Dunwoody, M. (2017, March 27). APT29 Domain Fronting With TOR. Retrieved March 27, 2017.",
+                    "source_name": "FireEye APT29 Domain Fronting"
                 }
             ],
             "object_marking_refs": [

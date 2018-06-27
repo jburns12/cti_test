@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8d487d7c-4a2c-46cc-9d58-d4828611cb92",
+    "id": "bundle--cc76cd9d-fd1b-4827-8194-8ee0587de681",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--a290a8ca-e650-456c-b33e-03343fe5ea4e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Pegasus accesses sensitive data in files, for example it \"saves any calls that Skype has previously recorded by reading them out of the Skype database files.\"",
+            "modified": "2018-06-18T15:59:03.864Z",
+            "description": "Pegasus accesses sensitive data in files, for example it \"saves any calls that Skype has previously recorded by reading them out of the Skype database files.\" (Citation: Lookout-Pegasus)",
             "external_references": [
                 {
                     "url": "https://info.lookout.com/rs/051-ESQ-475/images/lookout-pegasus-technical-analysis.pdf",
-                    "source_name": "Lookout-Pegasus",
-                    "description": "Lookout. (2016). Technical Analysis of Pegasus Spyware. Retrieved December 12, 2016."
+                    "description": "Lookout. (2016). Technical Analysis of Pegasus Spyware. Retrieved December 12, 2016.",
+                    "source_name": "Lookout-Pegasus"
                 }
             ],
             "object_marking_refs": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d1bc58c0-4c77-4e02-9c77-9944976d8513",
+    "id": "bundle--4f824dfe-d75e-4dda-9af4-89d046c898b8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--f017f6c0-96f4-46f1-905f-44e9950effbc",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "Derusbi collects current and parent process IDs.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Derusbi collects current and parent process IDs. (Citation: Fidelis Turbo) (Citation: FireEye Periscope March 2018)",
             "external_references": [
                 {
                     "url": "https://www.fidelissecurity.com/sites/default/files/TA%20Fidelis%20Turbo%201602%200.pdf",
-                    "source_name": "Fidelis Turbo",
-                    "description": "Fidelis Cybersecurity. (2016, February 29). The Turbo Campaign, Featuring Derusbi for 64-bit Linux. Retrieved March 2, 2016."
+                    "description": "Fidelis Cybersecurity. (2016, February 29). The Turbo Campaign, Featuring Derusbi for 64-bit Linux. Retrieved March 2, 2016.",
+                    "source_name": "Fidelis Turbo"
                 },
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2018/03/suspected-chinese-espionage-group-targeting-maritime-and-engineering-industries.html",
-                    "source_name": "FireEye Periscope March 2018",
-                    "description": "FireEye. (2018, March 16). Suspected Chinese Cyber Espionage Group (TEMP.Periscope) Targeting U.S. Engineering and Maritime Industries. Retrieved April 11, 2018."
+                    "description": "FireEye. (2018, March 16). Suspected Chinese Cyber Espionage Group (TEMP.Periscope) Targeting U.S. Engineering and Maritime Industries. Retrieved April 11, 2018.",
+                    "source_name": "FireEye Periscope March 2018"
                 }
             ],
             "object_marking_refs": [

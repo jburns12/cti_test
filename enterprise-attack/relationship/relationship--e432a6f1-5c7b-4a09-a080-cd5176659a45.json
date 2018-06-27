@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--ecf864e6-d8ec-44f0-a161-6e91e2c4b268",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "relationship",
+            "id": "relationship--e432a6f1-5c7b-4a09-a080-cd5176659a45",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "APT32 has cleared select event log entries. (Citation: FireEye APT32 May 2017)",
+            "external_references": [
+                {
+                    "url": "https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html",
+                    "description": "Carr, N.. (2017, May 14). Cyber Espionage is Alive and Well: APT32 and the Threat to Global Corporations. Retrieved June 18, 2017.",
+                    "source_name": "FireEye APT32 May 2017"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+            "target_ref": "attack-pattern--799ace7f-e227-4411-baa0-8868704f2a69"
+        }
+    ]
+}

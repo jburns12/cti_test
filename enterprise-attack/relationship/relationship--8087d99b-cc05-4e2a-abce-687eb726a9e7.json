@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b716a437-2c32-4fd8-9047-eff09ba5da26",
+    "id": "bundle--8ddcb153-e9ca-4d04-b2d5-20e65fcfe760",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--8087d99b-cc05-4e2a-abce-687eb726a9e7",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Magic Hound malware has used base64-encoded commands and files, and has also encrypted embedded strings with AES.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Magic Hound malware has used base64-encoded commands and files, and has also encrypted embedded strings with AES. (Citation: Unit 42 Magic Hound Feb 2017)",
             "external_references": [
                 {
                     "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit42-magic-hound-campaign-attacks-saudi-targets/",
-                    "source_name": "Unit 42 Magic Hound Feb 2017",
-                    "description": "Lee, B. and Falcone, R. (2017, February 15). Magic Hound Campaign Attacks Saudi Targets. Retrieved December 27, 2017."
+                    "description": "Lee, B. and Falcone, R. (2017, February 15). Magic Hound Campaign Attacks Saudi Targets. Retrieved December 27, 2017.",
+                    "source_name": "Unit 42 Magic Hound Feb 2017"
                 }
             ],
             "object_marking_refs": [

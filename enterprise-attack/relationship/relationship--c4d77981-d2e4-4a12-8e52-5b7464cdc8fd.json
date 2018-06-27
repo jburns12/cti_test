@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b2369594-0ce1-4d80-979b-0dbb77523d80",
+    "id": "bundle--05c31e0c-2dba-4d34-aed0-b1d32b9e7691",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--c4d77981-d2e4-4a12-8e52-5b7464cdc8fd",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "POWRUNER can download or upload files from its C2 server.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "POWRUNER can download or upload files from its C2 server. (Citation: FireEye APT34 Dec 2017)",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/12/targeted-attack-in-middle-east-by-apt34.html",
-                    "source_name": "FireEye APT34 Dec 2017",
-                    "description": "Sardiwal, M, et al. (2017, December 7). New Targeted Attack in the Middle East by APT34, a Suspected Iranian Threat Group, Using CVE-2017-11882 Exploit. Retrieved December 20, 2017."
+                    "description": "Sardiwal, M, et al. (2017, December 7). New Targeted Attack in the Middle East by APT34, a Suspected Iranian Threat Group, Using CVE-2017-11882 Exploit. Retrieved December 20, 2017.",
+                    "source_name": "FireEye APT34 Dec 2017"
                 }
             ],
             "object_marking_refs": [

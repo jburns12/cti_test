@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cc2b9dde-c99d-4bc3-9927-c6282839ef4f",
+    "id": "bundle--0373c84c-78f9-4363-8ef1-41844cc92428",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--c1884e62-7b2e-45a1-89fd-c76b1b717f50",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "OwaAuth has been loaded onto Exchange servers and disguised as an ISAPI filter (DLL file). The IIS w3wp.exe process then loads the malicious DLL.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "OwaAuth has been loaded onto Exchange servers and disguised as an ISAPI filter (DLL file). The IIS w3wp.exe process then loads the malicious DLL. (Citation: Dell TG-3390)",
             "external_references": [
                 {
                     "url": "http://www.secureworks.com/cyber-threat-intelligence/threats/threat-group-3390-targets-organizations-for-cyberespionage/",
-                    "source_name": "Dell TG-3390",
-                    "description": "Dell SecureWorks Counter Threat Unit Threat Intelligence. (2015, August 5). Threat Group-3390 Targets Organizations for Cyberespionage. Retrieved January 25, 2016."
+                    "description": "Dell SecureWorks Counter Threat Unit Threat Intelligence. (2015, August 5). Threat Group-3390 Targets Organizations for Cyberespionage. Retrieved January 25, 2016.",
+                    "source_name": "Dell TG-3390"
                 }
             ],
             "object_marking_refs": [

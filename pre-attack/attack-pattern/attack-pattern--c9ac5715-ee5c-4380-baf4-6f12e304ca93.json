@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--02f02440-6ae5-4236-a3d9-66e2023c8fe1",
+    "id": "bundle--ef9684e8-807c-4baf-8451-b8d97d2cf895",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--c9ac5715-ee5c-4380-baf4-6f12e304ca93",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Test signature detection for file upload/email filters",
-            "description": "An adversary can test their planned method of attack against existing security products such as email filters or intrusion detection sensors (IDS). (Citation: WiredVirusTotal)\n\nDetectable by Common Defenses: Yes\n\nDetectable by Common Defenses explanation: Use of sites like [https://www.virustotal.com VirusTotal] to test signature detection often occurs to test detection.  Defender can also look for newly added uploads as a precursor to an adversary's launch of an attack.\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: Current open source technologies and websites exist to facilitate adversary testing of malware against signatures.",
+            "description": "An adversary can test their planned method of attack against existing security products such as email filters or intrusion detection sensors (IDS). (Citation: WiredVirusTotal)",
             "kill_chain_phases": [
                 {
                     "phase_name": "test-capabilities",
@@ -20,12 +20,12 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1138",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1138"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1138",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "WiredVirusTotal",
-                    "description": "Kim Zetter. (14, September 2). A Google Site Meant to Protect You Is Helping Hackers Attack You. Retrieved March 9, 2017."
+                    "description": "Kim Zetter. (14, September 2). A Google Site Meant to Protect You Is Helping Hackers Attack You. Retrieved March 9, 2017.",
+                    "source_name": "WiredVirusTotal"
                 }
             ],
             "object_marking_refs": [

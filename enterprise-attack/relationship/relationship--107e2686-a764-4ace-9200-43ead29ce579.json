@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4754c323-9703-403c-85c6-c6811384670b",
+    "id": "bundle--3b310cfc-8657-4867-a32a-ef0c98f4bdbe",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--107e2686-a764-4ace-9200-43ead29ce579",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "creates a backdoor through which remote attackers can download files onto a compromised host.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "creates a backdoor through which remote attackers can download files onto a compromised host. (Citation: Symantec Ristol May 2012)",
             "external_references": [
                 {
                     "url": "https://www.symantec.com/security%20response/writeup.jsp?docid=2012-051515-3909-99",
-                    "source_name": "Symantec Ristol May 2012",
-                    "description": "Ladley, F. (2012, May 15). Backdoor.Ritsol. Retrieved February 23, 2018."
+                    "description": "Ladley, F. (2012, May 15). Backdoor.Ritsol. Retrieved February 23, 2018.",
+                    "source_name": "Symantec Ristol May 2012"
                 }
             ],
             "object_marking_refs": [

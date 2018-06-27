@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0c1c4f60-92a8-44aa-90b6-bacfdd155663",
+    "id": "bundle--1a96b4f8-446b-4921-ab84-aa03aa7d9629",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,19 +8,19 @@
             "id": "course-of-action--e829ee51-1caf-4665-ba15-7f8979634124",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-10-25T14:48:50.181Z",
-            "modified": "2018-06-11T17:33:56.588Z",
+            "modified": "2018-06-18T15:59:03.864Z",
             "name": "Interconnection Filtering",
             "description": "In order to mitigate Signaling System 7 (SS7) exploitation, the Communications, Security, Reliability, and Interoperability Council (CSRIC) describes filtering interconnections between network operators to block inappropriate requests (Citation: CSRIC5-WG10-FinalReport).",
             "external_references": [
                 {
                     "external_id": "MOB-M1014",
-                    "source_name": "mitre-mobile-attack",
-                    "url": "https://attack.mitre.org/mobile/index.php/Mitigation/MOB-M1014"
+                    "url": "https://attack.mitre.org/mobile/index.php/Mitigation/MOB-M1014",
+                    "source_name": "mitre-mobile-attack"
                 },
                 {
                     "url": "https://www.fcc.gov/files/csric5-wg10-finalreport031517pdf",
-                    "source_name": "CSRIC5-WG10-FinalReport",
-                    "description": "Communications Security, Reliability, Interoperability Council (CSRIC). (2017, March). Working Group 10 Legacy Systems Risk Reductions Final Report. Retrieved May 24, 2017."
+                    "description": "Communications Security, Reliability, Interoperability Council (CSRIC). (2017, March). Working Group 10 Legacy Systems Risk Reductions Final Report. Retrieved May 24, 2017.",
+                    "source_name": "CSRIC5-WG10-FinalReport"
                 }
             ],
             "object_marking_refs": [

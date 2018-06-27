@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e7c616a4-2a70-41c2-9086-b3b108e0327b",
+    "id": "bundle--7d9cf0c9-27f2-4596-a018-4fee3d079d1d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--2eb985a1-e73e-4554-8638-2e6f27690ec0",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Sykipot may use <code>net group \"domain admins\" /domain</code> to display accounts in the \"domain admins\" permissions group and <code>net localgroup \"administrators\"</code> to list local system administrator group membership.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Sykipot may use <code>net group \"domain admins\" /domain</code> to display accounts in the \"domain admins\" permissions group and <code>net localgroup \"administrators\"</code> to list local system administrator group membership. (Citation: AlienVault Sykipot 2011)",
             "external_references": [
                 {
                     "url": "https://www.alienvault.com/open-threat-exchange/blog/another-sykipot-sample-likely-targeting-us-federal-agencies",
-                    "source_name": "AlienVault Sykipot 2011",
-                    "description": "Blasco, J. (2011, December 12). Another Sykipot sample likely targeting US federal agencies. Retrieved March 28, 2016."
+                    "description": "Blasco, J. (2011, December 12). Another Sykipot sample likely targeting US federal agencies. Retrieved March 28, 2016.",
+                    "source_name": "AlienVault Sykipot 2011"
                 }
             ],
             "object_marking_refs": [

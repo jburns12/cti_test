@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6b2ebc68-2c58-42b9-a01b-56de4c0b4903",
+    "id": "bundle--6073722e-2d98-4a11-9649-87e25e706068",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--028c3adf-4182-4250-9642-2ce5c448f710",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Mimikatz's <code>DPAPI</code> module can harvest protected credentials stored and/or cached by browsers and other user applications by interacting with Windows cryptographic application programming interface (API) functions.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Mimikatz's <code>DPAPI</code> module can harvest protected credentials stored and/or cached by browsers and other user applications by interacting with Windows cryptographic application programming interface (API) functions. (Citation: Adsecurity Mimikatz Guide) (Citation: Directory Services Internals DPAPI Backup Keys Oct 2015)",
             "external_references": [
                 {
                     "url": "https://adsecurity.org/?page%20id=1821",
-                    "source_name": "Adsecurity Mimikatz Guide",
-                    "description": "Metcalf, S. (2015, November 13). Unofficial Guide to Mimikatz & Command Reference. Retrieved December 23, 2015."
+                    "description": "Metcalf, S. (2015, November 13). Unofficial Guide to Mimikatz & Command Reference. Retrieved December 23, 2015.",
+                    "source_name": "Adsecurity Mimikatz Guide"
                 },
                 {
                     "url": "https://www.dsinternals.com/en/retrieving-dpapi-backup-keys-from-active-directory/",
-                    "source_name": "Directory Services Internals DPAPI Backup Keys Oct 2015",
-                    "description": "Grafnetter, M. (2015, October 26). Retrieving DPAPI Backup Keys from Active Directory. Retrieved December 19, 2017."
+                    "description": "Grafnetter, M. (2015, October 26). Retrieving DPAPI Backup Keys from Active Directory. Retrieved December 19, 2017.",
+                    "source_name": "Directory Services Internals DPAPI Backup Keys Oct 2015"
                 }
             ],
             "object_marking_refs": [

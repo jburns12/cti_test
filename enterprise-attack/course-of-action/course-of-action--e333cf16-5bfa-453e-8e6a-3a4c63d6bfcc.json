@@ -1,21 +1,21 @@
 {
     "type": "bundle",
-    "id": "bundle--cd03b8ba-610c-4043-90dd-08462e303a2b",
+    "id": "bundle--a2a3ba64-d385-4360-a205-ec77bb025002",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--e333cf16-5bfa-453e-8e6a-3a4c63d6bfcc",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "created": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-06-27T14:18:47.700Z",
             "name": "Launchctl Mitigation",
             "description": "Prevent users from installing their own launch agents or launch daemons and instead require them to be pushed out by group policy.",
             "external_references": [
                 {
                     "external_id": "T1152",
-                    "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1152"
+                    "url": "https://attack.mitre.org/wiki/Technique/T1152",
+                    "source_name": "mitre-attack"
                 }
             ]
         }

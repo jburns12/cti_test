@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--40b717fb-eb2f-4ee8-8509-5847cf65ae71",
+    "id": "bundle--7b80e244-f6a8-4fc5-9505-297bd1845540",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--0fad2267-9f46-4ebb-91b5-d543243732cb",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Identify analyst level gaps",
-            "description": "Analysts identify gap areas that generate a compelling need to generate a Key Intelligence Topic (KIT) or Key Intelligence Question (KIQ). (Citation: BrighthubGapAnalysis) (Citation: ICD115) (Citation: JP2-01)\n\nDetectable by Common Defenses: No\n\nDetectable by Common Defenses explanation: Normally, defender is unable to detect.  Few agencies and commercial organizations may have unique insights.\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: Normal aspect of adversary planning lifecycle.  May not be done by all adversaries.",
+            "description": "Analysts identify gap areas that generate a compelling need to generate a Key Intelligence Topic (KIT) or Key Intelligence Question (KIQ). (Citation: BrighthubGapAnalysis) (Citation: ICD115) (Citation: JP2-01)",
             "kill_chain_phases": [
                 {
                     "phase_name": "priority-definition-planning",
@@ -20,20 +20,20 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1010",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1010"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1010",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "BrighthubGapAnalysis",
-                    "description": "Ronda Bowen. (2014, March 26). Performing a Gap Analysis: Where Do You Begin?. Retrieved March 14, 2017."
+                    "description": "Ronda Bowen. (2014, March 26). Performing a Gap Analysis: Where Do You Begin?. Retrieved March 14, 2017.",
+                    "source_name": "BrighthubGapAnalysis"
                 },
                 {
-                    "source_name": "ICD115",
-                    "description": "Office of the Director of National Intelligence. (2012, December 21). ICD 115: Intelligence Community Capability Requirements Process. Retrieved March 2, 2017."
+                    "description": "Office of the Director of National Intelligence. (2012, December 21). ICD 115: Intelligence Community Capability Requirements Process. Retrieved March 2, 2017.",
+                    "source_name": "ICD115"
                 },
                 {
-                    "source_name": "JP2-01",
-                    "description": "Joint Chiefs of Staff. (2012, January 05). Joint and National Intelligence Support to Military Operations. Retrieved March 2, 2017."
+                    "description": "Joint Chiefs of Staff. (2012, January 05). Joint and National Intelligence Support to Military Operations. Retrieved March 2, 2017.",
+                    "source_name": "JP2-01"
                 }
             ],
             "object_marking_refs": [

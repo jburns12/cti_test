@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--939c5964-4113-4d9b-ad79-96980c31faac",
+    "id": "bundle--8916b812-38f3-463d-b3cd-6e5f16e6ecdd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--5436571f-2332-4b51-b7ed-0bc822fe02c2",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "OS-vendor provided communication channels",
-            "description": "Google and Apple provide Google Cloud Messaging and Apple Push Notification Service, respectively, services designed to enable efficient communication between third-party mobile app backend servers and the mobile apps running on individual devices. These services maintain an encrypted connection between every mobile device and Google or Apple that cannot easily be inspected and must be allowed to traverse networks as part of normal device operation. These services could be used by adversaries for communication to compromised mobile devices. (Citation: Securelist Mobile Malware 2013) (Citation: DroydSeuss)\n\nDetectable by Common Defenses: No\n\nDetectable by Common Defenses explanation: These services are heavily utilized by mainstream mobile app developers.  High volume of communications makes it extremely hard for a defender to distinguish between legitimate and adversary communications.\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: These are free services provided by Google and Apple to app developers, and information on how to use them is readily available.",
+            "description": "Google and Apple provide Google Cloud Messaging and Apple Push Notification Service, respectively, services designed to enable efficient communication between third-party mobile app backend servers and the mobile apps running on individual devices. These services maintain an encrypted connection between every mobile device and Google or Apple that cannot easily be inspected and must be allowed to traverse networks as part of normal device operation. These services could be used by adversaries for communication to compromised mobile devices. (Citation: Securelist Mobile Malware 2013) (Citation: DroydSeuss)",
             "kill_chain_phases": [
                 {
                     "phase_name": "adversary-opsec",
@@ -20,16 +20,16 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1167",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1167"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1167",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "Securelist Mobile Malware 2013",
-                    "description": "Roman Unuchek, Victor Chebyshev. (2014, February 24). Mobile Malware Evolution: 2013. Retrieved April 12, 2017."
+                    "description": "Roman Unuchek, Victor Chebyshev. (2014, February 24). Mobile Malware Evolution: 2013. Retrieved April 12, 2017.",
+                    "source_name": "Securelist Mobile Malware 2013"
                 },
                 {
-                    "source_name": "DroydSeuss",
-                    "description": "Alberto Coletta, Victor van der Veen, and Federico Maggi. (2016). DroydSeuss: A Mobile Banking Trojan Tracker - Short Paper. Retrieved April 12, 2017."
+                    "description": "Alberto Coletta, Victor van der Veen, and Federico Maggi. (2016). DroydSeuss: A Mobile Banking Trojan Tracker - Short Paper. Retrieved April 12, 2017.",
+                    "source_name": "DroydSeuss"
                 }
             ],
             "object_marking_refs": [

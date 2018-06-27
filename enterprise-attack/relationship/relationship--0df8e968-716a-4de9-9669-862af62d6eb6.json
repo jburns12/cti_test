@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0b5086d1-eb1f-465f-b132-a6e73bc2e1f4",
+    "id": "bundle--13ca09c7-5db3-4743-9d82-66f12a3e635e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--0df8e968-716a-4de9-9669-862af62d6eb6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "SslMM sends the logged-on username to its hard-coded C2.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "SslMM sends the logged-on username to its hard-coded C2. (Citation: Baumgartner Naikon 2015)",
             "external_references": [
                 {
                     "url": "https://securelist.com/files/2015/05/TheNaikonAPT-MsnMM1.pdf",
-                    "source_name": "Baumgartner Naikon 2015",
-                    "description": "Baumgartner, K., Golovkin, M.. (2015, May). The MsnMM Campaigns: The Earliest Naikon APT Campaigns. Retrieved December 17, 2015."
+                    "description": "Baumgartner, K., Golovkin, M.. (2015, May). The MsnMM Campaigns: The Earliest Naikon APT Campaigns. Retrieved December 17, 2015.",
+                    "source_name": "Baumgartner Naikon 2015"
                 }
             ],
             "object_marking_refs": [

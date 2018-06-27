@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3ed33f40-781f-4a7d-b73a-7dae6d59fed6",
+    "id": "bundle--49508a51-7198-457f-a11c-e4ea5892bc55",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,17 +8,17 @@
             "id": "relationship--644b6c21-90f0-43b7-8da4-7f6f24ddabb6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.038Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "APT28 has downloaded additional files, including by using a first-stage downloader to contact the C2 server to obtain the second-stage implant.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "APT28 has downloaded additional files, including by using a first-stage downloader to contact the C2 server to obtain the second-stage implant. (Citation: Bitdefender APT28 Dec 2015) (Citation: Unit 42 Playbook Sofacy Feb 2018)",
             "external_references": [
                 {
-                    "source_name": "Bitdefender APT28 Dec 2015",
-                    "description": "Bitdefender. (2015, December). APT28 Under the Scope. Retrieved February 23, 2017."
+                    "description": "Bitdefender. (2015, December). APT28 Under the Scope. Retrieved February 23, 2017.",
+                    "source_name": "Bitdefender APT28 Dec 2015"
                 },
                 {
                     "url": "https://pan-unit42.github.io/playbook%20viewer/",
-                    "source_name": "Unit 42 Playbook Sofacy Feb 2018",
-                    "description": "Unit 42. (2018, February 28). Unit 42 Playbook Viewer - Sofacy. Retrieved March 15, 2018."
+                    "description": "Unit 42. (2018, February 28). Unit 42 Playbook Viewer - Sofacy. Retrieved March 15, 2018.",
+                    "source_name": "Unit 42 Playbook Sofacy Feb 2018"
                 }
             ],
             "object_marking_refs": [

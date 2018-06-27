@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9fc0685c-f5f9-41ca-8cd8-b617feb479b4",
+    "id": "bundle--2b3b1063-7483-49f1-9fb8-5abba83af445",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--47415cec-25f8-4425-9125-157e1637a687",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Matroyshka uses reflective DLL injection to inject the malicious library and execute the RAT.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Matroyshka uses reflective DLL injection to inject the malicious library and execute the RAT. (Citation: CopyKittens Nov 2015)",
             "external_references": [
                 {
                     "url": "https://s3-eu-west-1.amazonaws.com/minervaresearchpublic/CopyKittens/CopyKittens.pdf",
-                    "source_name": "CopyKittens Nov 2015",
-                    "description": "Minerva Labs LTD and ClearSky Cyber Security. (2015, November 23). CopyKittens Attack Group. Retrieved September 11, 2017."
+                    "description": "Minerva Labs LTD and ClearSky Cyber Security. (2015, November 23). CopyKittens Attack Group. Retrieved September 11, 2017.",
+                    "source_name": "CopyKittens Nov 2015"
                 }
             ],
             "object_marking_refs": [

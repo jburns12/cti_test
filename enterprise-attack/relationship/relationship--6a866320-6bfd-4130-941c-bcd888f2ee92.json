@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fc42b1a9-2ae9-4238-bcd8-938357e77aad",
+    "id": "bundle--2de5ca5e-37de-4ac3-8758-96f4081059e8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--6a866320-6bfd-4130-941c-bcd888f2ee92",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "creates a backdoor through which remote attackers can create a service.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "creates a backdoor through which remote attackers can create a service. (Citation: Symantec Wiarp May 2012)",
             "external_references": [
                 {
                     "url": "https://www.symantec.com/security%20response/writeup.jsp?docid=2012-051606-1005-99",
-                    "source_name": "Symantec Wiarp May 2012",
-                    "description": "Zhou, R. (2012, May 15). Backdoor.Wiarp. Retrieved February 22, 2018."
+                    "description": "Zhou, R. (2012, May 15). Backdoor.Wiarp. Retrieved February 22, 2018.",
+                    "source_name": "Symantec Wiarp May 2012"
                 }
             ],
             "object_marking_refs": [

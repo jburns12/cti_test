@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3e42a4e4-f152-4664-809a-dc913fe8dbf0",
+    "id": "bundle--a21663a9-11d9-4f3a-9375-954d10315250",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--13ff5307-b650-405a-9664-d8076930b2bf",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Port redirector",
-            "description": "Redirecting a communication request from one address and port number combination to another. May be set up to obfuscate the final location of communications that will occur in later stages of an attack. (Citation: SecureWorks HTRAN Analysis)\n\nDetectable by Common Defenses: No\n\nDetectable by Common Defenses explanation: Infrastructure is (typically) outside of control/visibility of defender and as such as tools are staged for specific campaigns, it will not be observable to those being attacked.\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: Adversary has control of the infrastructure and will likely be able to add/remove tools to infrastructure, whether acquired via hacking or standard computer acquisition (e.g., [https://aws.amazon.com AWS], VPS providers).",
+            "description": "Redirecting a communication request from one address and port number combination to another. May be set up to obfuscate the final location of communications that will occur in later stages of an attack. (Citation: SecureWorks HTRAN Analysis)",
             "kill_chain_phases": [
                 {
                     "phase_name": "stage-capabilities",
@@ -20,12 +20,12 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1140",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1140"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1140",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "SecureWorks HTRAN Analysis",
-                    "description": "JOE STEWART. (2011, August 3). HTran and the Advanced Persistent Threat. Retrieved March 28, 2017."
+                    "description": "JOE STEWART. (2011, August 3). HTran and the Advanced Persistent Threat. Retrieved March 28, 2017.",
+                    "source_name": "SecureWorks HTRAN Analysis"
                 }
             ],
             "object_marking_refs": [

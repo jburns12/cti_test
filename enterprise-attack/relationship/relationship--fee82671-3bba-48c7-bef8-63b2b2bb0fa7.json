@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7d4c031d-b64e-41fa-914d-e04750f44c01",
+    "id": "bundle--21bf5cdf-9a45-43d5-9e43-e36d2fb7e426",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--fee82671-3bba-48c7-bef8-63b2b2bb0fa7",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "ZeroT has encrypted its payload with RC4.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "ZeroT has encrypted its payload with RC4. (Citation: Proofpoint ZeroT Feb 2017)",
             "external_references": [
                 {
                     "url": "https://www.proofpoint.com/us/threat-insight/post/APT-targets-russia-belarus-zerot-plugx",
-                    "source_name": "Proofpoint ZeroT Feb 2017",
-                    "description": "Huss, D., et al. (2017, February 2). Oops, they did it again: APT Targets Russia and Belarus with ZeroT and PlugX. Retrieved April 5, 2018."
+                    "description": "Huss, D., et al. (2017, February 2). Oops, they did it again: APT Targets Russia and Belarus with ZeroT and PlugX. Retrieved April 5, 2018.",
+                    "source_name": "Proofpoint ZeroT Feb 2017"
                 }
             ],
             "object_marking_refs": [

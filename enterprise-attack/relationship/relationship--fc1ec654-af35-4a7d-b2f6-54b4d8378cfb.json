@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b8433705-e322-4315-9684-e0980ce0ad64",
+    "id": "bundle--a69f0d77-2902-4c5e-817a-132873473f69",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--fc1ec654-af35-4a7d-b2f6-54b4d8378cfb",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "APT34 can download remote files onto victims.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "APT34 can download remote files onto victims. (Citation: FireEye APT34 Dec 2017)",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/12/targeted-attack-in-middle-east-by-apt34.html",
-                    "source_name": "FireEye APT34 Dec 2017",
-                    "description": "Sardiwal, M, et al. (2017, December 7). New Targeted Attack in the Middle East by APT34, a Suspected Iranian Threat Group, Using CVE-2017-11882 Exploit. Retrieved December 20, 2017."
+                    "description": "Sardiwal, M, et al. (2017, December 7). New Targeted Attack in the Middle East by APT34, a Suspected Iranian Threat Group, Using CVE-2017-11882 Exploit. Retrieved December 20, 2017.",
+                    "source_name": "FireEye APT34 Dec 2017"
                 }
             ],
             "object_marking_refs": [

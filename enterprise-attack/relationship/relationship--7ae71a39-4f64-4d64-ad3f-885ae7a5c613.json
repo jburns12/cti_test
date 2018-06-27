@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--40eb5f4d-8f00-4821-90bf-93f2ee79058e",
+    "id": "bundle--4b07bf48-02c2-4d1e-984d-1dc77d8d4ead",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--7ae71a39-4f64-4d64-ad3f-885ae7a5c613",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "Briba creates run key Registry entries pointing to malicious DLLs dropped to disk.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Briba creates run key Registry entries pointing to malicious DLLs dropped to disk. (Citation: Symantec Briba May 2012)",
             "external_references": [
                 {
                     "url": "https://www.symantec.com/security%20response/writeup.jsp?docid=2012-051515-2843-99",
-                    "source_name": "Symantec Briba May 2012",
-                    "description": "Ladley, F. (2012, May 15). Backdoor.Briba. Retrieved February 21, 2018."
+                    "description": "Ladley, F. (2012, May 15). Backdoor.Briba. Retrieved February 21, 2018.",
+                    "source_name": "Symantec Briba May 2012"
                 }
             ],
             "object_marking_refs": [

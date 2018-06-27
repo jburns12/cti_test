@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cc754b60-a1d2-4986-a001-2ae546d002b8",
+    "id": "bundle--789acba6-b8f2-401f-a72d-9ae319bc6360",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--0d759854-9b69-438c-8325-74b03cc80cf0",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Replace legitimate binary with malware",
-            "description": "This technique has been deprecated. Please see ATT&CK's Initial Access and Execution tactics for replacement techniques.\n\nReplacing a legitimate binary with malware can be accomplished either by replacing a binary on a legitimate download site or standing up a fake or alternative site with the malicious binary. The intent is to have a user download and run the malicious binary thereby executing malware. (Citation: FSecureICS)\n\nDetectable by Common Defenses: No\n\nDetectable by Common Defenses explanation: On the host end user system, integrity checking (e.g., hash verification, code signing enforcement), application whitelisting, sandboxing, or behavioral-based/heuristic-based systems are most likely to be successful in detecting this technique.  On the source webserver, detecting binary changes is easy to detect if performed.\n\nDifficulty for the Adversary: No\n\nDifficulty for the Adversary explanation: Requires the adversary to replace a binary on a website where users will download the binary (e.g., patch, firmware update, software application) as innately trusted.  The additional challenge is the reduced set of vendor-trusted websites that are vulnerable.",
+            "description": "Replacing a legitimate binary with malware can be accomplished either by replacing a binary on a legitimate download site or standing up a fake or alternative site with the malicious binary. The intent is to have a user download and run the malicious binary thereby executing malware. (Citation: FSecureICS)",
             "kill_chain_phases": [
                 {
                     "phase_name": "launch",
@@ -20,12 +20,12 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1155",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1155"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1155",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "FSecureICS",
-                    "description": "Daavid and Antti. (2014, June 23). Havex Hunts For ICS/SCADA Systems. Retrieved March 9, 2017."
+                    "description": "Daavid and Antti. (2014, June 23). Havex Hunts For ICS/SCADA Systems. Retrieved March 9, 2017.",
+                    "source_name": "FSecureICS"
                 }
             ],
             "object_marking_refs": [

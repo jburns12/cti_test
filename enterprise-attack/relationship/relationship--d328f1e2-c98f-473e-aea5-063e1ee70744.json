@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6ca97b06-2c6c-4bc9-8f02-678a1a38ae9f",
+    "id": "bundle--fa22fffe-b5b1-4447-93e1-1a9be33e0b65",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--d328f1e2-c98f-473e-aea5-063e1ee70744",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Cobalt Strike can use <code>WinRM</code> to execute a payload on a remote host.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Cobalt Strike can use <code>WinRM</code> to execute a payload on a remote host. (Citation: cobaltstrike manual)",
             "external_references": [
                 {
                     "url": "https://cobaltstrike.com/downloads/csmanual38.pdf",
-                    "source_name": "cobaltstrike manual",
-                    "description": "Strategic Cyber LLC. (2017, March 14). Cobalt Strike Manual. Retrieved May 24, 2017."
+                    "description": "Strategic Cyber LLC. (2017, March 14). Cobalt Strike Manual. Retrieved May 24, 2017.",
+                    "source_name": "cobaltstrike manual"
                 }
             ],
             "object_marking_refs": [

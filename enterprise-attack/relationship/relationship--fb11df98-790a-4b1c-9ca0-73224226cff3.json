@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7fdac17e-3442-4544-98c3-10ad6c868250",
+    "id": "bundle--5b1d5a2d-8c62-43f2-942f-898aac7c1355",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--fb11df98-790a-4b1c-9ca0-73224226cff3",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "ZLib communicates over HTTP for C2.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "ZLib communicates over HTTP for C2. (Citation: Cylance Dust Storm)",
             "external_references": [
                 {
                     "url": "https://www.cylance.com/content/dam/cylance/pdfs/reports/Op%20Dust%20Storm%20Report.pdf",
-                    "source_name": "Cylance Dust Storm",
-                    "description": "Gross, J. (2016, February 23). Operation Dust Storm. Retrieved September 19, 2017."
+                    "description": "Gross, J. (2016, February 23). Operation Dust Storm. Retrieved September 19, 2017.",
+                    "source_name": "Cylance Dust Storm"
                 }
             ],
             "object_marking_refs": [

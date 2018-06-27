@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--81da9b7c-d002-4616-af32-29910970c3c7",
+    "id": "bundle--78addcd4-c890-48b2-95ac-e533f133d549",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--c1fd6ce6-26e7-49a7-abff-a64fd0fc8a35",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Cobalt Strike can perform browser pivoting and inject into a user's browser to inherit cookies, authenticated HTTP sessions, and client SSL certificates.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Cobalt Strike can perform browser pivoting and inject into a user's browser to inherit cookies, authenticated HTTP sessions, and client SSL certificates. (Citation: cobaltstrike manual)",
             "external_references": [
                 {
                     "url": "https://cobaltstrike.com/downloads/csmanual38.pdf",
-                    "source_name": "cobaltstrike manual",
-                    "description": "Strategic Cyber LLC. (2017, March 14). Cobalt Strike Manual. Retrieved May 24, 2017."
+                    "description": "Strategic Cyber LLC. (2017, March 14). Cobalt Strike Manual. Retrieved May 24, 2017.",
+                    "source_name": "cobaltstrike manual"
                 }
             ],
             "object_marking_refs": [

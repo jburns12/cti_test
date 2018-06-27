@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--95ba5b70-6407-4b24-ba37-f707d68244f1",
+    "id": "bundle--489b5e67-f63d-4a91-ab87-f3d592a398a1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--03f4a766-7a21-4b5e-9ccf-e0cf422ab983",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Acquire or compromise 3rd party signing certificates",
-            "description": "Code signing is the process of digitally signing executables and scripts to confirm the software author and guarantee that the code has not been altered or corrupted. Users may trust a signed piece of code more than an signed piece of code even if they don't know who issued the certificate or who the author is. (Citation: DiginotarCompromise)\n\nDetectable by Common Defenses: No\n\nDetectable by Common Defenses explanation: Defender will not know what certificates an adversary acquires from a 3rd party. Defender will not know prior to public disclosure if a 3rd party has had their certificate compromised.\n\nDifficulty for the Adversary: No\n\nDifficulty for the Adversary explanation: It is trivial to purchase code signing certificates within an organization; many exist and are available at reasonable cost. It is complex to factor or steal 3rd party code signing certificates for use in malicious mechanisms",
+            "description": "Code signing is the process of digitally signing executables and scripts to confirm the software author and guarantee that the code has not been altered or corrupted. Users may trust a signed piece of code more than an signed piece of code even if they don't know who issued the certificate or who the author is. (Citation: DiginotarCompromise)",
             "kill_chain_phases": [
                 {
                     "phase_name": "establish-&-maintain-infrastructure",
@@ -20,12 +20,12 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1109",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1109"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1109",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "DiginotarCompromise",
-                    "description": "Dennis Fisher. (2012, October 31). FINAL REPORT ON DIGINOTAR HACK SHOWS TOTAL COMPROMISE OF CA SERVERS. Retrieved March 6, 2017."
+                    "description": "Dennis Fisher. (2012, October 31). FINAL REPORT ON DIGINOTAR HACK SHOWS TOTAL COMPROMISE OF CA SERVERS. Retrieved March 6, 2017.",
+                    "source_name": "DiginotarCompromise"
                 }
             ],
             "object_marking_refs": [

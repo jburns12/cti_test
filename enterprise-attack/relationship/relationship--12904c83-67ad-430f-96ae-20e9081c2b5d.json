@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ac26275a-330b-493d-9b20-773eaaf1330c",
+    "id": "bundle--eec8aafb-a05b-4c62-abb9-4298f32b5e51",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,12 +8,12 @@
             "id": "relationship--12904c83-67ad-430f-96ae-20e9081c2b5d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "ADVSTORESHELL has used rundll32.exe in a Registry value to establish persistence.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "ADVSTORESHELL has used rundll32.exe in a Registry value to establish persistence. (Citation: Bitdefender APT28 Dec 2015)",
             "external_references": [
                 {
-                    "source_name": "Bitdefender APT28 Dec 2015",
-                    "description": "Bitdefender. (2015, December). APT28 Under the Scope. Retrieved February 23, 2017."
+                    "description": "Bitdefender. (2015, December). APT28 Under the Scope. Retrieved February 23, 2017.",
+                    "source_name": "Bitdefender APT28 Dec 2015"
                 }
             ],
             "object_marking_refs": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1b8e1c2b-e2c6-42d8-a571-4ed85529c66b",
+    "id": "bundle--007e439e-3280-4581-bf3f-9331e304d911",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--9e09ddb2-1746-4448-9cad-7f8b41777d6d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-27T14:18:47.700Z",
             "name": "Keychain",
-            "description": "Keychains are the built-in way for macOS to keep track of users' passwords and credentials for many services and features such as WiFi passwords, websites, secure notes, certificates, and Kerberos. Keychain files are located in <code>~/Library/Keychains/</code>,<code>/Library/Keychains/</code>, and <code>/Network/Library/Keychains/</code>. (Citation: Wikipedia keychain) The <code>security</code> command-line utility, which is built into macOS by default, provides a useful way to manage these credentials.\n\nTo manage their credentials, users have to use additional credentials to access their keychain. If an adversary knows the credentials for the login keychain, then they can get access to all the other credentials stored in this vault. (Citation: External to DA, the OS X Way) By default, the passphrase for the keychain is the user\u2019s logon credentials.\n\nDetection: Unlocking the keychain and using passwords from it is a very common process, so there is likely to be a lot of noise in any detection technique. Monitoring of system calls to the keychain can help determine if there is a suspicious process trying to access it.\n\nPlatforms: macOS\n\nData Sources: System calls, Process Monitoring\n\nPermissions Required: Administrator",
+            "description": "Keychains are the built-in way for macOS to keep track of users' passwords and credentials for many services and features such as WiFi passwords, websites, secure notes, certificates, and Kerberos. Keychain files are located in <code>~/Library/Keychains/</code>,<code>/Library/Keychains/</code>, and <code>/Network/Library/Keychains/</code>. (Citation: Wikipedia keychain) The <code>security</code> command-line utility, which is built into macOS by default, provides a useful way to manage these credentials.\n\nTo manage their credentials, users have to use additional credentials to access their keychain. If an adversary knows the credentials for the login keychain, then they can get access to all the other credentials stored in this vault. (Citation: External to DA, the OS X Way) By default, the passphrase for the keychain is the user\u2019s logon credentials.",
             "kill_chain_phases": [
                 {
                     "phase_name": "credential-access",
@@ -20,23 +20,24 @@
             "external_references": [
                 {
                     "external_id": "T1142",
-                    "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1142"
+                    "url": "https://attack.mitre.org/wiki/Technique/T1142",
+                    "source_name": "mitre-attack"
                 },
                 {
                     "url": "https://en.wikipedia.org/wiki/Keychain%20(software)",
-                    "source_name": "Wikipedia keychain",
-                    "description": "Wikipedia. (n.d.). Keychain (software). Retrieved July 5, 2017."
+                    "description": "Wikipedia. (n.d.). Keychain (software). Retrieved July 5, 2017.",
+                    "source_name": "Wikipedia keychain"
                 },
                 {
                     "url": "http://www.slideshare.net/StephanBorosh/external-to-da-the-os-x-way",
-                    "source_name": "External to DA, the OS X Way",
-                    "description": "Alex Rymdeko-Harvey, Steve Borosh. (2016, May 14). External to DA, the OS X Way. Retrieved July 3, 2017."
+                    "description": "Alex Rymdeko-Harvey, Steve Borosh. (2016, May 14). External to DA, the OS X Way. Retrieved July 3, 2017.",
+                    "source_name": "External to DA, the OS X Way"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "Unlocking the keychain and using passwords from it is a very common process, so there is likely to be a lot of noise in any detection technique. Monitoring of system calls to the keychain can help determine if there is a suspicious process trying to access it.",
             "x_mitre_platforms": [
                 "macOS"
             ],

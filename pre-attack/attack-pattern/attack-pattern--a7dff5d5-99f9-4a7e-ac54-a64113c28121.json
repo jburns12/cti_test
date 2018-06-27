@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9df9e7ed-ef91-44af-bfa8-3569246a25c0",
+    "id": "bundle--184c80ac-80df-4660-9e87-8227231bb402",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--a7dff5d5-99f9-4a7e-ac54-a64113c28121",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Determine centralization of IT management",
-            "description": "Determining if a \"corporate\" help desk exists, the degree of access and control it has, and whether there are \"edge\" units that may have different support processes and standards. (Citation: SANSCentratlizeManagement)\n\nDetectable by Common Defenses: No\n\nDetectable by Common Defenses explanation: No technical means to detect an adversary collecting information about a target.  Any detection would be based upon strong OPSEC policy implementation.\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: Requires an adversary to undergo a research process to learn the internal workings of an organization.  An adversary can do this by social engineering individuals in the company by claiming to need to find information for the help desk, or through social engineering of former employees or business partners.",
+            "description": "Determining if a \"corporate\" help desk exists, the degree of access and control it has, and whether there are \"edge\" units that may have different support processes and standards. (Citation: SANSCentratlizeManagement)",
             "kill_chain_phases": [
                 {
                     "phase_name": "organizational-information-gathering",
@@ -20,12 +20,12 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1062",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1062"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1062",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "SANSCentratlizeManagement",
-                    "description": "Scott Rasmussen. (2002, January 28). Centralized Network Security Management: Combining Defense In Depth with Manageable Security. Retrieved March 5, 2017."
+                    "description": "Scott Rasmussen. (2002, January 28). Centralized Network Security Management: Combining Defense In Depth with Manageable Security. Retrieved March 5, 2017.",
+                    "source_name": "SANSCentratlizeManagement"
                 }
             ],
             "object_marking_refs": [

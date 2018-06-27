@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6b07d44f-f867-4bb7-b8cb-7adda8bf4252",
+    "id": "bundle--924c8691-b3e9-4bbe-8180-b0b0a331239f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--55120727-0b7f-4d6a-a881-d17bdc9c85ba",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.058Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "A dropper used by Putter Panda installs itself into the ASEP Registry key <code>HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run</code> with a value named McUpdate.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "A dropper used by Putter Panda installs itself into the ASEP Registry key <code>HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run</code> with a value named McUpdate. (Citation: CrowdStrike Putter Panda)",
             "external_references": [
                 {
                     "url": "http://cdn0.vox-cdn.com/assets/4589853/crowdstrike-intelligence-report-putter-panda.original.pdf",
-                    "source_name": "CrowdStrike Putter Panda",
-                    "description": "Crowdstrike Global Intelligence Team. (2014, June 9). CrowdStrike Intelligence Report: Putter Panda. Retrieved January 22, 2016."
+                    "description": "Crowdstrike Global Intelligence Team. (2014, June 9). CrowdStrike Intelligence Report: Putter Panda. Retrieved January 22, 2016.",
+                    "source_name": "CrowdStrike Putter Panda"
                 }
             ],
             "object_marking_refs": [

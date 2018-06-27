@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3f7dad18-fdd6-4e4b-9bb5-60f9755dc411",
+    "id": "bundle--8100e73f-91f6-4012-a72d-8861ba44c72c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--6b83bc1e-edfc-4c6a-961f-d3757ae6a234",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Mimikatz's <code>SEKURLSA::Pth</code> module can impersonate a user, with only a password hash, to execute arbitrary commands.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Mimikatz's <code>SEKURLSA::Pth</code> module can impersonate a user, with only a password hash, to execute arbitrary commands. (Citation: Adsecurity Mimikatz Guide)",
             "external_references": [
                 {
                     "url": "https://adsecurity.org/?page%20id=1821",
-                    "source_name": "Adsecurity Mimikatz Guide",
-                    "description": "Metcalf, S. (2015, November 13). Unofficial Guide to Mimikatz & Command Reference. Retrieved December 23, 2015."
+                    "description": "Metcalf, S. (2015, November 13). Unofficial Guide to Mimikatz & Command Reference. Retrieved December 23, 2015.",
+                    "source_name": "Adsecurity Mimikatz Guide"
                 }
             ],
             "object_marking_refs": [

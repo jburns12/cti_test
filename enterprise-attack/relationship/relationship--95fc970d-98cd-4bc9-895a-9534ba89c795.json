@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--777f09d9-11e6-4422-a5c0-1da37f9da648",
+    "id": "bundle--fca3e5e8-9861-42fe-ac61-59dc4089cd4a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--95fc970d-98cd-4bc9-895a-9534ba89c795",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "FIN7 has used fragmented strings, environment variables, standard input (stdin), and native character-replacement functionalities to obfuscate commmands.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "FIN7 has used fragmented strings, environment variables, standard input (stdin), and native character-replacement functionalities to obfuscate commmands. (Citation: FireEye Obfuscation June 2017)",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/06/obfuscation-in-the-wild.html",
-                    "source_name": "FireEye Obfuscation June 2017",
-                    "description": "Bohannon, D. & Carr N. (2017, June 30). Obfuscation in the Wild: Targeted Attackers Lead the Way in Evasion Techniques. Retrieved February 12, 2018."
+                    "description": "Bohannon, D. & Carr N. (2017, June 30). Obfuscation in the Wild: Targeted Attackers Lead the Way in Evasion Techniques. Retrieved February 12, 2018.",
+                    "source_name": "FireEye Obfuscation June 2017"
                 }
             ],
             "object_marking_refs": [

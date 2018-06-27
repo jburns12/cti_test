@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bf4d644e-244a-46c7-a1d1-fa186a406406",
+    "id": "bundle--6a14103a-6919-43cc-b6e5-bb348e6121db",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--d6049a18-43d5-4761-ad56-a60e2a7998cf",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "creates a backdoor through which remote attackers can obtain data from local systems.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "creates a backdoor through which remote attackers can obtain data from local systems. (Citation: Symantec Linfo May 2012)",
             "external_references": [
                 {
                     "url": "https://www.symantec.com/security%20response/writeup.jsp?docid=2012-051605-2535-99",
-                    "source_name": "Symantec Linfo May 2012",
-                    "description": "Zhou, R. (2012, May 15). Backdoor.Linfo. Retrieved February 23, 2018."
+                    "description": "Zhou, R. (2012, May 15). Backdoor.Linfo. Retrieved February 23, 2018.",
+                    "source_name": "Symantec Linfo May 2012"
                 }
             ],
             "object_marking_refs": [

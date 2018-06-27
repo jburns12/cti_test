@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b544ba46-eb59-4450-8e59-59be6dc06442",
+    "id": "bundle--ae396dd0-cee7-4b8c-8bdf-59458d7de90c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--2e5039ef-913f-4808-9685-32f64f4dbf49",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "Wingbird deletes its payload along with the payload's parent process after it finishes copying files.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Wingbird deletes its payload along with the payload's parent process after it finishes copying files. (Citation: Microsoft SIR Vol 21)",
             "external_references": [
                 {
                     "url": "http://download.microsoft.com/download/E/B/0/EB0F50CC-989C-4B66-B7F6-68CD3DC90DE3/Microsoft%20Security%20Intelligence%20Report%20Volume%2021%20English.pdf",
-                    "source_name": "Microsoft SIR Vol 21",
-                    "description": "Anthe, C. et al. (2016, December 14). Microsoft Security Intelligence Report Volume 21. Retrieved November 27, 2017."
+                    "description": "Anthe, C. et al. (2016, December 14). Microsoft Security Intelligence Report Volume 21. Retrieved November 27, 2017.",
+                    "source_name": "Microsoft SIR Vol 21"
                 }
             ],
             "object_marking_refs": [

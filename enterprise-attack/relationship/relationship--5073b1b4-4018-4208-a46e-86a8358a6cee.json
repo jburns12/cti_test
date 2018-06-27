@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cff40b70-3efe-4c32-a460-6b0873900340",
+    "id": "bundle--b4c72d0d-a0c0-4cc2-a3dc-e481a1ded765",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--5073b1b4-4018-4208-a46e-86a8358a6cee",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "Hydraq creates a backdoor through which remote attackers can read data from files.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Hydraq creates a backdoor through which remote attackers can read data from files. (Citation: Symantec Hydraq Jan 2010) (Citation: Symantec Trojan.Hydraq Jan 2010)",
             "external_references": [
                 {
                     "url": "https://www.symantec.com/connect/blogs/trojanhydraq-incident",
-                    "source_name": "Symantec Trojan.Hydraq Jan 2010",
-                    "description": "Symantec Security Response. (2010, January 18). The Trojan.Hydraq Incident. Retrieved February 20, 2018."
+                    "description": "Symantec Security Response. (2010, January 18). The Trojan.Hydraq Incident. Retrieved February 20, 2018.",
+                    "source_name": "Symantec Trojan.Hydraq Jan 2010"
                 },
                 {
                     "url": "https://www.symantec.com/security%20response/writeup.jsp?docid=2010-011114-1830-99",
-                    "source_name": "Symantec Hydraq Jan 2010",
-                    "description": "Lelli, A. (2010, January 11). Trojan.Hydraq. Retrieved February 20, 2018."
+                    "description": "Lelli, A. (2010, January 11). Trojan.Hydraq. Retrieved February 20, 2018.",
+                    "source_name": "Symantec Hydraq Jan 2010"
                 }
             ],
             "object_marking_refs": [

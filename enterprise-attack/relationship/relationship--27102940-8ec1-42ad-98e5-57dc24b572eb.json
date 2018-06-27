@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9465f21d-63b8-44e0-9481-360686fdb76e",
+    "id": "bundle--0cd27667-b9ca-4317-97d2-510da4bcb4ee",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--27102940-8ec1-42ad-98e5-57dc24b572eb",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "PsExec, a tool that has been used by adversaries, writes programs to the <code>ADMIN$</code> network share to execute commands on remote systems.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "PsExec, a tool that has been used by adversaries, writes programs to the <code>ADMIN$</code> network share to execute commands on remote systems. (Citation: PsExec Russinovich)",
             "external_references": [
                 {
                     "url": "http://windowsitpro.com/systems-management/psexec",
-                    "source_name": "PsExec Russinovich",
-                    "description": "Russinovich, M. (2004, June 28). PsExec. Retrieved December 17, 2015."
+                    "description": "Russinovich, M. (2004, June 28). PsExec. Retrieved December 17, 2015.",
+                    "source_name": "PsExec Russinovich"
                 }
             ],
             "object_marking_refs": [

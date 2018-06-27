@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3153f5c6-a553-45ab-84e3-7e8e1c07564a",
+    "id": "bundle--b66b3e83-2f10-4465-87f7-02325357845a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--78ae433b-289d-4c8d-b8c1-f8de0b7f9090",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Enumerate client configurations",
-            "description": "Client configurations information such as the operating system and web browser, along with additional information such as version or language, are often transmitted as part of web browsing communications.  This can be accomplished in several ways including use of a compromised web site to collect details on visiting computers. (Citation: UnseenWorldOfCookies) (Citation: Panopticlick)\n\nDetectable by Common Defenses: No\n\nDetectable by Common Defenses explanation: Typical information collected as part of accessing web sites (e.g., operating system, browser version, basic configurations).\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: Basic web scripting capability to collect information of interest on users of interest.  Requires a compromised web site and the users of interest to navigate there.",
+            "description": "Client configurations information such as the operating system and web browser, along with additional information such as version or language, are often transmitted as part of web browsing communications.  This can be accomplished in several ways including use of a compromised web site to collect details on visiting computers. (Citation: UnseenWorldOfCookies) (Citation: Panopticlick)",
             "kill_chain_phases": [
                 {
                     "phase_name": "technical-information-gathering",
@@ -20,16 +20,16 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1039",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1039"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1039",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "UnseenWorldOfCookies",
-                    "description": "Joanna Geary, Chris Cross. (2012, April 13). Tracking the trackers: help us reveal the unseen world of cookies. Retrieved March 5, 2017."
+                    "description": "Joanna Geary, Chris Cross. (2012, April 13). Tracking the trackers: help us reveal the unseen world of cookies. Retrieved March 5, 2017.",
+                    "source_name": "UnseenWorldOfCookies"
                 },
                 {
-                    "source_name": "Panopticlick",
-                    "description": "Electronic Frontier Foundation. (n.d.). Panopticlick: Is your browser safe against tracking?. Retrieved March 5, 2017."
+                    "description": "Electronic Frontier Foundation. (n.d.). Panopticlick: Is your browser safe against tracking?. Retrieved March 5, 2017.",
+                    "source_name": "Panopticlick"
                 }
             ],
             "object_marking_refs": [

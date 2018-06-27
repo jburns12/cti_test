@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ae6253b8-41c6-4f72-87c4-f94565797209",
+    "id": "bundle--c69d14dd-cbea-47ab-b769-33fbe64cd275",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--3a6c13d3-6589-4d33-9848-88e3409be0cc",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "Volgmer uses a custom binary protocol to beacon back to its C2 server.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Volgmer uses a custom binary protocol to beacon back to its C2 server. (Citation: US-CERT Volgmer Nov 2017)",
             "external_references": [
                 {
                     "url": "https://www.us-cert.gov/ncas/alerts/TA17-318B",
-                    "source_name": "US-CERT Volgmer Nov 2017",
-                    "description": "US-CERT. (2017, November 22). Alert (TA17-318B): HIDDEN COBRA \u2013 North Korean Trojan: Volgmer. Retrieved December 7, 2017."
+                    "description": "US-CERT. (2017, November 22). Alert (TA17-318B): HIDDEN COBRA \u2013 North Korean Trojan: Volgmer. Retrieved December 7, 2017.",
+                    "source_name": "US-CERT Volgmer Nov 2017"
                 }
             ],
             "object_marking_refs": [

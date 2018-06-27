@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--576c4fc0-bb04-4f3f-8b9f-1505ff9c1ef4",
+    "id": "bundle--34841d62-0298-4188-9425-9fea0e3ea3f3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--1ba38510-0489-4305-944f-451e6869b30f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "BADNEWS encrypts C2 data with a ROR by 3 and an XOR by 0x23.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "BADNEWS encrypts C2 data with a ROR by 3 and an XOR by 0x23. (Citation: Forcepoint Monsoon)",
             "external_references": [
                 {
                     "url": "https://www.forcepoint.com/sites/default/files/resources/files/forcepoint-security-labs-monsoon-analysis-report.pdf",
-                    "source_name": "Forcepoint Monsoon",
-                    "description": "Settle, A., et al. (2016, August 8). MONSOON - Analysis Of An APT Campaign. Retrieved September 22, 2016."
+                    "description": "Settle, A., et al. (2016, August 8). MONSOON - Analysis Of An APT Campaign. Retrieved September 22, 2016.",
+                    "source_name": "Forcepoint Monsoon"
                 }
             ],
             "object_marking_refs": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--44347077-83bc-4bcb-89ea-953266b006c6",
+    "id": "bundle--89565e37-5610-4ba9-b95c-5ca47950a899",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,23 +8,23 @@
             "id": "relationship--9b650df6-f965-45fa-9e5a-409202a46da7",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "CCBkdr was added to a legitimate, signed version 5.33 of the CCleaner software and distributed on CCleaner's distribution site.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "CCBkdr was added to a legitimate, signed version 5.33 of the CCleaner software and distributed on CCleaner's distribution site. (Citation: Talos CCleanup 2017) (Citation: Intezer Aurora Sept 2017) (Citation: Avast CCleaner3 2018)",
             "external_references": [
                 {
                     "url": "http://blog.talosintelligence.com/2017/09/avast-distributes-malware.html",
-                    "source_name": "Talos CCleanup 2017",
-                    "description": "Brumaghin, E. et al. (2017, September 18). CCleanup: A Vast Number of Machines at Risk. Retrieved March 9, 2018."
+                    "description": "Brumaghin, E. et al. (2017, September 18). CCleanup: A Vast Number of Machines at Risk. Retrieved March 9, 2018.",
+                    "source_name": "Talos CCleanup 2017"
                 },
                 {
                     "url": "http://www.intezer.com/evidence-aurora-operation-still-active-supply-chain-attack-through-ccleaner/",
-                    "source_name": "Intezer Aurora Sept 2017",
-                    "description": "Rosenberg, J. (2017, September 20). Evidence Aurora Operation Still Active: Supply Chain Attack Through CCleaner. Retrieved February 13, 2018."
+                    "description": "Rosenberg, J. (2017, September 20). Evidence Aurora Operation Still Active: Supply Chain Attack Through CCleaner. Retrieved February 13, 2018.",
+                    "source_name": "Intezer Aurora Sept 2017"
                 },
                 {
                     "url": "https://blog.avast.com/new-investigations-in-ccleaner-incident-point-to-a-possible-third-stage-that-had-keylogger-capacities",
-                    "source_name": "Avast CCleaner3 2018",
-                    "description": "Avast Threat Intelligence Team. (2018, March 8). New investigations into the CCleaner incident point to a possible third stage that had keylogger capacities. Retrieved March 15, 2018."
+                    "description": "Avast Threat Intelligence Team. (2018, March 8). New investigations into the CCleaner incident point to a possible third stage that had keylogger capacities. Retrieved March 15, 2018.",
+                    "source_name": "Avast CCleaner3 2018"
                 }
             ],
             "object_marking_refs": [

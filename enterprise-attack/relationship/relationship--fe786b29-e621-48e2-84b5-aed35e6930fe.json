@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--44d5afe5-35cc-4981-9a2c-ba8ecd76ce3a",
+    "id": "bundle--7b1e803c-38aa-4ee2-9639-f9e3dc238547",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--fe786b29-e621-48e2-84b5-aed35e6930fe",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "Wingbird checks the victim OS version after executing to determine where to drop files based on whether the victim is 32-bit or 64-bit.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Wingbird checks the victim OS version after executing to determine where to drop files based on whether the victim is 32-bit or 64-bit. (Citation: Microsoft SIR Vol 21)",
             "external_references": [
                 {
                     "url": "http://download.microsoft.com/download/E/B/0/EB0F50CC-989C-4B66-B7F6-68CD3DC90DE3/Microsoft%20Security%20Intelligence%20Report%20Volume%2021%20English.pdf",
-                    "source_name": "Microsoft SIR Vol 21",
-                    "description": "Anthe, C. et al. (2016, December 14). Microsoft Security Intelligence Report Volume 21. Retrieved November 27, 2017."
+                    "description": "Anthe, C. et al. (2016, December 14). Microsoft Security Intelligence Report Volume 21. Retrieved November 27, 2017.",
+                    "source_name": "Microsoft SIR Vol 21"
                 }
             ],
             "object_marking_refs": [

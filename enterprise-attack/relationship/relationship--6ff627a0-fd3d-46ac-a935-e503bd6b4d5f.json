@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--41daf2c9-46c6-4891-81e0-a7e26638348c",
+    "id": "bundle--a5a3c1e5-3203-46d7-a019-01afd36a0a3d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--6ff627a0-fd3d-46ac-a935-e503bd6b4d5f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "connects to external C2 infrastructure over the HTTP port.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "connects to external C2 infrastructure over the HTTP port. (Citation: Symantec Wiarp May 2012)",
             "external_references": [
                 {
                     "url": "https://www.symantec.com/security%20response/writeup.jsp?docid=2012-051606-1005-99",
-                    "source_name": "Symantec Wiarp May 2012",
-                    "description": "Zhou, R. (2012, May 15). Backdoor.Wiarp. Retrieved February 22, 2018."
+                    "description": "Zhou, R. (2012, May 15). Backdoor.Wiarp. Retrieved February 22, 2018.",
+                    "source_name": "Symantec Wiarp May 2012"
                 }
             ],
             "object_marking_refs": [

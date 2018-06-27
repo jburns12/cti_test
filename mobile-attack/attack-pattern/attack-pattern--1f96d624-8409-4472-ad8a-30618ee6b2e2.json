@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d31cac74-13b1-4ddb-bca9-6acd2b369c5e",
+    "id": "bundle--3076dbb5-5a62-4416-af72-6d289f17ab40",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--1f96d624-8409-4472-ad8a-30618ee6b2e2",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-10-25T14:48:10.699Z",
-            "modified": "2018-04-13T17:05:30.756Z",
+            "modified": "2018-06-18T15:59:03.864Z",
             "name": "App Delivered via Email Attachment",
-            "description": "The application is delivered as an email attachment.\n\nDetection: An EMM/MDM or mobile threat protection solution can identify the presence of unwanted, known insecure, or malicious apps on devices. Enterprise email security solutions can identify the presence of Android or iOS application packages within email messages.\n\nPlatforms: Android, iOS",
+            "description": "The application is delivered as an email attachment.",
             "kill_chain_phases": [
                 {
                     "phase_name": "app-delivery-via-other-means",
@@ -20,23 +20,24 @@
             "external_references": [
                 {
                     "external_id": "MOB-T1037",
-                    "source_name": "mitre-mobile-attack",
-                    "url": "https://attack.mitre.org/mobile/index.php/Technique/MOB-T1037"
+                    "url": "https://attack.mitre.org/mobile/index.php/Technique/MOB-T1037",
+                    "source_name": "mitre-mobile-attack"
                 },
                 {
+                    "external_id": "AUT-9",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/authentication-threats/AUT-9.html",
-                    "source_name": "NIST Mobile Threat Catalogue",
-                    "external_id": "AUT-9"
+                    "source_name": "NIST Mobile Threat Catalogue"
                 },
                 {
+                    "external_id": "ECO-13",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/ecosystem-threats/ECO-13.html",
-                    "source_name": "NIST Mobile Threat Catalogue",
-                    "external_id": "ECO-13"
+                    "source_name": "NIST Mobile Threat Catalogue"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "An EMM/MDM or mobile threat protection solution can identify the presence of unwanted, known insecure, or malicious apps on devices. Enterprise email security solutions can identify the presence of Android or iOS application packages within email messages.",
             "x_mitre_platforms": [
                 "Android",
                 "iOS"

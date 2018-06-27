@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d69489d1-8490-4c20-af05-9ee76be0f107",
+    "id": "bundle--db810bff-ca32-4caf-a14d-f021541d88f8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--c8d0e862-20af-4f9f-84e8-0419c8080008",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "SeaDuke C2 traffic has been encrypted with RC4 and AES.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "SeaDuke C2 traffic has been encrypted with RC4 and AES. (Citation: Unit 42 SeaDuke 2015) (Citation: Mandiant No Easy Breach)",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2015/07/unit-42-technical-analysis-seaduke/",
-                    "source_name": "Unit 42 SeaDuke 2015",
-                    "description": "Grunzweig, J.. (2015, July 14). Unit 42 Technical Analysis: Seaduke. Retrieved August 3, 2016."
+                    "description": "Grunzweig, J.. (2015, July 14). Unit 42 Technical Analysis: Seaduke. Retrieved August 3, 2016.",
+                    "source_name": "Unit 42 SeaDuke 2015"
                 },
                 {
                     "url": "http://www.slideshare.net/MatthewDunwoody1/no-easy-breach-derby-con-2016",
-                    "source_name": "Mandiant No Easy Breach",
-                    "description": "Dunwoody, M. and Carr, N.. (2016, September 27). No Easy Breach DerbyCon 2016. Retrieved October 4, 2016."
+                    "description": "Dunwoody, M. and Carr, N.. (2016, September 27). No Easy Breach DerbyCon 2016. Retrieved October 4, 2016.",
+                    "source_name": "Mandiant No Easy Breach"
                 }
             ],
             "object_marking_refs": [

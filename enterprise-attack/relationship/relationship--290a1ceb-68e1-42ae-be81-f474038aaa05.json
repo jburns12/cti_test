@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--292fea2c-8ef7-4e7d-9dd7-8db85490bf3d",
+    "id": "bundle--35885ea8-292b-456c-9570-15c824ee44b8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--290a1ceb-68e1-42ae-be81-f474038aaa05",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Some resources in Prikormka are encrypted with a simple XOR operation or encoded with Base64.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Some resources in Prikormka are encrypted with a simple XOR operation or encoded with Base64. (Citation: ESET Operation Groundbait)",
             "external_references": [
                 {
                     "url": "http://www.welivesecurity.com/wp-content/uploads/2016/05/Operation-Groundbait.pdf",
-                    "source_name": "ESET Operation Groundbait",
-                    "description": "Cherepanov, A.. (2016, May 17). Operation Groundbait: Analysis of a surveillance toolkit. Retrieved May 18, 2016."
+                    "description": "Cherepanov, A.. (2016, May 17). Operation Groundbait: Analysis of a surveillance toolkit. Retrieved May 18, 2016.",
+                    "source_name": "ESET Operation Groundbait"
                 }
             ],
             "object_marking_refs": [

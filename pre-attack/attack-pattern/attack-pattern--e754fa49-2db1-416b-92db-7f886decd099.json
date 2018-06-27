@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f2d1867c-278e-446d-8794-6dac28939db1",
+    "id": "bundle--d4e3da54-0a65-41a4-81a7-2bf3ebf59d6a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--e754fa49-2db1-416b-92db-7f886decd099",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Generate analyst intelligence requirements",
-            "description": "Analysts may receive Key Intelligence Topics (KITs) and Key Intelligence Questions (KIQs) from leadership or key decision makers and generate intelligence requirements to articulate intricacies of information required on a topic or question. (Citation: Herring1999)\n\nDetectable by Common Defenses: No\n\nDetectable by Common Defenses explanation: Normally, defender is unable to detect.  Few agencies and commercial organizations may have unique insights.\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: Normal aspect of adversary planning lifecycle.  May not be done by all adversaries.",
+            "description": "Analysts may receive Key Intelligence Topics (KITs) and Key Intelligence Questions (KIQs) from leadership or key decision makers and generate intelligence requirements to articulate intricacies of information required on a topic or question. (Citation: Herring1999)",
             "kill_chain_phases": [
                 {
                     "phase_name": "priority-definition-planning",
@@ -20,12 +20,12 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1011",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1011"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1011",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "Herring1999",
-                    "description": "Jan P. Herring. (1999). Key Intelligence Topics: A Process to Identify and Define Intelligence Needs. Retrieved March 2, 2017."
+                    "description": "Jan P. Herring. (1999). Key Intelligence Topics: A Process to Identify and Define Intelligence Needs. Retrieved March 2, 2017.",
+                    "source_name": "Herring1999"
                 }
             ],
             "object_marking_refs": [

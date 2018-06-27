@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fed16e81-299e-4e90-a248-4622de69cc09",
+    "id": "bundle--003bdd1b-e0d5-4f97-ad5c-20fbadf30e5f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--216b3711-fc70-4029-aaec-a8f021c38bef",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "PowerSploit has several modules that search the Windows Registry for stored credentials: <code>Get-UnattendedInstallFile</code>, <code>Get-Webconfig</code>, <code>Get-ApplicationHost</code>, <code>Get-SiteListPassword</code>, <code>Get-CachedGPPPassword</code>, and <code>Get-RegistryAutoLogon</code>.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "PowerSploit has several modules that search the Windows Registry for stored credentials: <code>Get-UnattendedInstallFile</code>, <code>Get-Webconfig</code>, <code>Get-ApplicationHost</code>, <code>Get-SiteListPassword</code>, <code>Get-CachedGPPPassword</code>, and <code>Get-RegistryAutoLogon</code>. (Citation: Pentestlab Stored Credentials)",
             "external_references": [
                 {
                     "url": "https://pentestlab.blog/2017/04/19/stored-credentials/",
-                    "source_name": "Pentestlab Stored Credentials",
-                    "description": "netbiosX. (2017, April 19). Stored Credentials. Retrieved April 6, 2018."
+                    "description": "netbiosX. (2017, April 19). Stored Credentials. Retrieved April 6, 2018.",
+                    "source_name": "Pentestlab Stored Credentials"
                 }
             ],
             "object_marking_refs": [

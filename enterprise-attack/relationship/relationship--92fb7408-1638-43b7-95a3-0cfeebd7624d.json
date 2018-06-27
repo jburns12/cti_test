@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6947be84-b3f5-4cab-b710-cbbd53878d2d",
+    "id": "bundle--2f7f82c3-2993-4c7b-a6c0-2d5c2c11e1f7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,21 +8,21 @@
             "id": "relationship--92fb7408-1638-43b7-95a3-0cfeebd7624d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "RawPOS dumps memory from specific processes on a victim system, parses the dumped files, and scrapes them for credit card data.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "RawPOS dumps memory from specific processes on a victim system, parses the dumped files, and scrapes them for credit card data. (Citation: TrendMicro RawPOS April 2015) (Citation: Mandiant FIN5 GrrCON Oct 2016) (Citation: Kroll RawPOS Jan 2017)",
             "external_references": [
                 {
-                    "source_name": "Kroll RawPOS Jan 2017",
-                    "description": "Nesbit, B. and Ackerman, D. (2017, January). Malware Analysis Report - RawPOS Malware: Deconstructing an Intruder\u2019s Toolkit. Retrieved October 4, 2017."
+                    "description": "Nesbit, B. and Ackerman, D. (2017, January). Malware Analysis Report - RawPOS Malware: Deconstructing an Intruder\u2019s Toolkit. Retrieved October 4, 2017.",
+                    "source_name": "Kroll RawPOS Jan 2017"
                 },
                 {
-                    "source_name": "TrendMicro RawPOS April 2015",
-                    "description": "TrendLabs Security Intelligence Blog. (2015, April). RawPOS Technical Brief. Retrieved October 4, 2017."
+                    "description": "TrendLabs Security Intelligence Blog. (2015, April). RawPOS Technical Brief. Retrieved October 4, 2017.",
+                    "source_name": "TrendMicro RawPOS April 2015"
                 },
                 {
                     "url": "https://www.youtube.com/watch?v=fevGZs0EQu8",
-                    "source_name": "Mandiant FIN5 GrrCON Oct 2016",
-                    "description": "Bromiley, M. and Lewis, P. (2016, October 7). Attacking the Hospitality and Gaming Industries: Tracking an Attacker Around the World in 7 Years. Retrieved October 6, 2017."
+                    "description": "Bromiley, M. and Lewis, P. (2016, October 7). Attacking the Hospitality and Gaming Industries: Tracking an Attacker Around the World in 7 Years. Retrieved October 6, 2017.",
+                    "source_name": "Mandiant FIN5 GrrCON Oct 2016"
                 }
             ],
             "object_marking_refs": [

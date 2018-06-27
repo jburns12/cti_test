@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e3bb7fb8-769c-400a-b736-58f7a6803cdb",
+    "id": "bundle--3c6d1dfe-e4b3-47d6-a41f-a9c532d3c9ae",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:32:06.015Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-27T14:18:47.700Z",
             "name": "FIN6",
             "description": "FIN6 is a cyber crime group that has stolen payment card data and sold it for profit on underground marketplaces. This group has aggressively targeted and compromised point of sale (PoS) systems in the hospitality and retail sectors. (Citation: FireEye FIN6 April 2016)",
             "aliases": [
@@ -17,13 +17,17 @@
             "external_references": [
                 {
                     "external_id": "G0037",
-                    "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/wiki/Group/G0037"
+                    "url": "https://attack.mitre.org/wiki/Group/G0037",
+                    "source_name": "mitre-attack"
+                },
+                {
+                    "description": "[[Citation: FireEye FIN6 April 2016]]",
+                    "source_name": "FIN6"
                 },
                 {
                     "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf",
-                    "source_name": "FireEye FIN6 April 2016",
-                    "description": "FireEye Threat Intelligence. (2016, April). Follow the Money: Dissecting the Operations of the Cyber Crime Group FIN6. Retrieved June 1, 2016."
+                    "description": "FireEye Threat Intelligence. (2016, April). Follow the Money: Dissecting the Operations of the Cyber Crime Group FIN6. Retrieved June 1, 2016.",
+                    "source_name": "FireEye FIN6 April 2016"
                 }
             ],
             "object_marking_refs": [

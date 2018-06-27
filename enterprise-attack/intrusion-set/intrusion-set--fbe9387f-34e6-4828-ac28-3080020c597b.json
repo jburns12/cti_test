@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--66c3b563-912d-4c6f-a794-01e39c528628",
+    "id": "bundle--8c6e88a5-379b-4166-b080-2b0b2125b6b7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "intrusion-set--fbe9387f-34e6-4828-ac28-3080020c597b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
+            "modified": "2018-06-27T14:18:47.700Z",
             "name": "FIN10",
             "description": "FIN10 is a financially motivated threat group that has targeted organizations in North America since at least 2013 through 2016. The group uses stolen data exfiltrated from victims to extort organizations. (Citation: FireEye FIN10 June 2017)",
             "aliases": [
@@ -17,13 +17,17 @@
             "external_references": [
                 {
                     "external_id": "G0051",
-                    "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/wiki/Group/G0051"
+                    "url": "https://attack.mitre.org/wiki/Group/G0051",
+                    "source_name": "mitre-attack"
+                },
+                {
+                    "description": "[[Citation: FireEye FIN10 June 2017]]",
+                    "source_name": "FIN10"
                 },
                 {
                     "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin10.pdf",
-                    "source_name": "FireEye FIN10 June 2017",
-                    "description": "FireEye iSIGHT Intelligence. (2017, June 16). FIN10: Anatomy of a Cyber Extortion Operation. Retrieved June 25, 2017."
+                    "description": "FireEye iSIGHT Intelligence. (2017, June 16). FIN10: Anatomy of a Cyber Extortion Operation. Retrieved June 25, 2017.",
+                    "source_name": "FireEye FIN10 June 2017"
                 }
             ],
             "object_marking_refs": [

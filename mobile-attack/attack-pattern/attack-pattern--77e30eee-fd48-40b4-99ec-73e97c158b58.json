@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5638e801-dc90-4abb-958a-19075bd7d935",
+    "id": "bundle--e9a9381c-0113-4bfc-9a01-ebf88049ae52",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--77e30eee-fd48-40b4-99ec-73e97c158b58",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-10-25T14:48:32.008Z",
-            "modified": "2018-04-13T17:05:30.756Z",
+            "modified": "2018-06-18T15:59:03.864Z",
             "name": "Android Intent Hijacking",
-            "description": "A malicious app can register to receive intents meant for other applications and may then be able to receive sensitive values such as OAuth authorization codes as described in  (Citation: IETF-PKCE).\n\nPlatforms: Android",
+            "description": "A malicious app can register to receive intents meant for other applications and may then be able to receive sensitive values such as OAuth authorization codes as described in  (Citation: IETF-PKCE).",
             "kill_chain_phases": [
                 {
                     "phase_name": "credential-access",
@@ -20,13 +20,13 @@
             "external_references": [
                 {
                     "external_id": "MOB-T1019",
-                    "source_name": "mitre-mobile-attack",
-                    "url": "https://attack.mitre.org/mobile/index.php/Technique/MOB-T1019"
+                    "url": "https://attack.mitre.org/mobile/index.php/Technique/MOB-T1019",
+                    "source_name": "mitre-mobile-attack"
                 },
                 {
                     "url": "https://tools.ietf.org/html/rfc7636",
-                    "source_name": "IETF-PKCE",
-                    "description": "N. Sakimura, J. Bradley, and N. Agarwal. (2015, September). IETF RFC 7636: Proof Key for Code Exchange by OAuth Public Clients. Retrieved December 21, 2016."
+                    "description": "N. Sakimura, J. Bradley, and N. Agarwal. (2015, September). IETF RFC 7636: Proof Key for Code Exchange by OAuth Public Clients. Retrieved December 21, 2016.",
+                    "source_name": "IETF-PKCE"
                 }
             ],
             "object_marking_refs": [

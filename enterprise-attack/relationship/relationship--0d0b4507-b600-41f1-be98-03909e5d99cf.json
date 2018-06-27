@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--06d3c2fc-b516-4cd4-94a2-512f0a5314d2",
+    "id": "bundle--273172d0-4b3f-4d41-8671-8862e08e2825",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--0d0b4507-b600-41f1-be98-03909e5d99cf",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "RTM can attempt to run the program as admin, then show a fake error message and a legitimate UAC bypass prompt to the user in an attempt to socially engineer the user into escalating privileges.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "RTM can attempt to run the program as admin, then show a fake error message and a legitimate UAC bypass prompt to the user in an attempt to socially engineer the user into escalating privileges. (Citation: ESET RTM Feb 2017)",
             "external_references": [
                 {
                     "url": "https://www.welivesecurity.com/wp-content/uploads/2017/02/Read-The-Manual.pdf",
-                    "source_name": "ESET RTM Feb 2017",
-                    "description": "Faou, M. and Boutin, J.. (2017, February). Read The Manual: A Guide to the RTM Banking Trojan. Retrieved March 9, 2017."
+                    "description": "Faou, M. and Boutin, J.. (2017, February). Read The Manual: A Guide to the RTM Banking Trojan. Retrieved March 9, 2017.",
+                    "source_name": "ESET RTM Feb 2017"
                 }
             ],
             "object_marking_refs": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c7ab96d1-d8ea-45cf-b5b9-70eb5522d57a",
+    "id": "bundle--23c38c43-070d-44fd-8eb5-acde9bb71168",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--b149adfe-547f-4cd4-af4a-ea7018a203c1",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Trojan.Karagany can dump passwords and save them into <code>\\ProgramData\\Mail\\MailAg\\pwds.txt</code>.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Trojan.Karagany can dump passwords and save them into <code>\\ProgramData\\Mail\\MailAg\\pwds.txt</code>. (Citation: Symantec Dragonfly)",
             "external_references": [
                 {
                     "url": "http://www.symantec.com/content/en/us/enterprise/media/security%20response/whitepapers/Dragonfly%20Threat%20Against%20Western%20Energy%20Suppliers.pdf",
-                    "source_name": "Symantec Dragonfly",
-                    "description": "Symantec Security Response. (2014, July 7). Dragonfly: Cyberespionage Attacks Against Energy Suppliers. Retrieved April 8, 2016."
+                    "description": "Symantec Security Response. (2014, July 7). Dragonfly: Cyberespionage Attacks Against Energy Suppliers. Retrieved April 8, 2016.",
+                    "source_name": "Symantec Dragonfly"
                 }
             ],
             "object_marking_refs": [

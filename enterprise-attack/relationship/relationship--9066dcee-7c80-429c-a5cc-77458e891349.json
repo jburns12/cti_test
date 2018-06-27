@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9c41b224-7a66-4d47-93e2-e091d30d03a5",
+    "id": "bundle--b38eae66-5725-49a3-9e38-fe673db7830c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--9066dcee-7c80-429c-a5cc-77458e891349",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "menuPass has used a modified version of pentesting tools wmiexec.vbs and secretsdump.py to dump credentials.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "menuPass has used a modified version of pentesting tools wmiexec.vbs and secretsdump.py to dump credentials. (Citation: PWC Cloud Hopper Technical Annex April 2017) (Citation: Github AD-Pentest-Script)",
             "external_references": [
                 {
                     "url": "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-annex-b-final.pdf",
-                    "source_name": "PWC Cloud Hopper Technical Annex April 2017",
-                    "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017."
+                    "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.",
+                    "source_name": "PWC Cloud Hopper Technical Annex April 2017"
                 },
                 {
                     "url": "https://github.com/Twi1ight/AD-Pentest-Script/blob/master/wmiexec.vbs",
-                    "source_name": "Github AD-Pentest-Script",
-                    "description": "Twi1ight. (2015, July 11). AD-Pentest-Script - wmiexec.vbs. Retrieved June 29, 2017."
+                    "description": "Twi1ight. (2015, July 11). AD-Pentest-Script - wmiexec.vbs. Retrieved June 29, 2017.",
+                    "source_name": "Github AD-Pentest-Script"
                 }
             ],
             "object_marking_refs": [

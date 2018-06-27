@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--36361edd-bff3-4017-ad6c-e1219c308d8c",
+    "id": "bundle--655d33d9-a9b6-4801-a742-1649b83b4a2c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--0b4cd78b-e0af-4123-b2aa-02ad66cca419",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "Briba installs a service pointing to a malicious DLL dropped to disk.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Briba installs a service pointing to a malicious DLL dropped to disk. (Citation: Symantec Briba May 2012)",
             "external_references": [
                 {
                     "url": "https://www.symantec.com/security%20response/writeup.jsp?docid=2012-051515-2843-99",
-                    "source_name": "Symantec Briba May 2012",
-                    "description": "Ladley, F. (2012, May 15). Backdoor.Briba. Retrieved February 21, 2018."
+                    "description": "Ladley, F. (2012, May 15). Backdoor.Briba. Retrieved February 21, 2018.",
+                    "source_name": "Symantec Briba May 2012"
                 }
             ],
             "object_marking_refs": [

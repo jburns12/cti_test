@@ -1,21 +1,21 @@
 {
     "type": "bundle",
-    "id": "bundle--ec0f4989-3546-4a13-90b2-1447a01967ed",
+    "id": "bundle--067b9a4d-ec95-4bc9-81d9-774f4898a00d",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--84d633a4-dd93-40ca-8510-40238c021931",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "created": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-06-27T14:18:47.700Z",
             "name": "Hidden Files and Directories Mitigation",
             "description": "Mitigation of this technique may be difficult and unadvised due to the the legitimate use of hidden files and directories.",
             "external_references": [
                 {
                     "external_id": "T1158",
-                    "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1158"
+                    "url": "https://attack.mitre.org/wiki/Technique/T1158",
+                    "source_name": "mitre-attack"
                 }
             ]
         }

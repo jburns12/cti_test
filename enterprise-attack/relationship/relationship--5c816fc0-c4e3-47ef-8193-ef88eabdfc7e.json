@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3703e93e-d297-483c-a2bc-993d4689b571",
+    "id": "bundle--ef12bd17-0f62-47ad-ac26-7be65dfc53ca",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--5c816fc0-c4e3-47ef-8193-ef88eabdfc7e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.052Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "admin@338 actors used the following commands after exploiting a machine with LOWBALL malware to obtain information about files and directories: <code>dir c:\\ >> %temp%\\download</code> <code>dir \"c:\\Documents and Settings\" >> %temp%\\download</code> <code>dir \"c:\\Program Files\\\" >> %temp%\\download</code> <code>dir d:\\ >> %temp%\\download</code>",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "admin@338 actors used the following commands after exploiting a machine with LOWBALL malware to obtain information about files and directories: <code>dir c:\\ >> %temp%\\download</code> <code>dir \"c:\\Documents and Settings\" >> %temp%\\download</code> <code>dir \"c:\\Program Files\\\" >> %temp%\\download</code> <code>dir d:\\ >> %temp%\\download</code> (Citation: FireEye admin@338)",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2015/11/china-based-threat.html",
-                    "source_name": "FireEye admin@338",
-                    "description": "FireEye Threat Intelligence. (2015, December 1). China-based Cyber Threat Group Uses Dropbox for Malware Communications and Targets Hong Kong Media Outlets. Retrieved December 4, 2015."
+                    "description": "FireEye Threat Intelligence. (2015, December 1). China-based Cyber Threat Group Uses Dropbox for Malware Communications and Targets Hong Kong Media Outlets. Retrieved December 4, 2015.",
+                    "source_name": "FireEye admin@338"
                 }
             ],
             "object_marking_refs": [

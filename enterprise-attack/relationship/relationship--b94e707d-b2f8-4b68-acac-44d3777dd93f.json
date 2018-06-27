@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e2111f79-55ef-4750-bafc-a5aa6852e74c",
+    "id": "bundle--6172597c-a20e-494f-a8ef-46ccca1fdebb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--b94e707d-b2f8-4b68-acac-44d3777dd93f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "RedLeaves encrypts C2 traffic with RC4 using a secret key of 88888888.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "RedLeaves encrypts C2 traffic with RC4 using a secret key of 88888888. (Citation: PWC Cloud Hopper Technical Annex April 2017)",
             "external_references": [
                 {
                     "url": "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-annex-b-final.pdf",
-                    "source_name": "PWC Cloud Hopper Technical Annex April 2017",
-                    "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017."
+                    "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.",
+                    "source_name": "PWC Cloud Hopper Technical Annex April 2017"
                 }
             ],
             "object_marking_refs": [

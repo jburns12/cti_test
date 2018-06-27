@@ -1,31 +1,31 @@
 {
     "type": "bundle",
-    "id": "bundle--cce95c39-3adf-4d73-b3e5-7d6d91551acd",
+    "id": "bundle--efe38f87-7297-4f2c-970e-e9dcad9124e5",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--96150c35-466f-4f0a-97a9-ae87ee27f751",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "created": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-06-27T14:18:47.700Z",
             "name": "Bootkit Mitigation",
             "description": "Ensure proper permissions are in place to help prevent adversary access to privileged accounts necessary to perform this action. Use Trusted Platform Module technology and a secure or trusted boot process to prevent system integrity from being compromised. (Citation: TCG Trusted Platform Module) (Citation: TechNet Secure Boot Process)",
             "external_references": [
                 {
                     "external_id": "T1067",
-                    "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1067"
+                    "url": "https://attack.mitre.org/wiki/Technique/T1067",
+                    "source_name": "mitre-attack"
                 },
                 {
                     "url": "http://www.trustedcomputinggroup.org/wp-content/uploads/Trusted-Platform-Module-Summary%2004292008.pdf",
-                    "source_name": "TCG Trusted Platform Module",
-                    "description": "Trusted Computing Group. (2008, April 29). Trusted Platform Module (TPM) Summary. Retrieved June 8, 2016."
+                    "description": "Trusted Computing Group. (2008, April 29). Trusted Platform Module (TPM) Summary. Retrieved June 8, 2016.",
+                    "source_name": "TCG Trusted Platform Module"
                 },
                 {
                     "url": "https://technet.microsoft.com/en-us/windows/dn168167.aspx",
-                    "source_name": "TechNet Secure Boot Process",
-                    "description": "Microsoft. (n.d.). Secure the Windows 8.1 boot process. Retrieved June 11, 2016."
+                    "description": "Microsoft. (n.d.). Secure the Windows 8.1 boot process. Retrieved June 11, 2016.",
+                    "source_name": "TechNet Secure Boot Process"
                 }
             ]
         }

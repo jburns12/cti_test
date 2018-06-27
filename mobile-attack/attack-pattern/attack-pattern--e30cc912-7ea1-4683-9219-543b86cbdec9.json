@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--65b98119-8568-41ee-a1e4-d53e011a25f0",
+    "id": "bundle--93898f92-7a5a-429a-8131-a4586ec4de21",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--e30cc912-7ea1-4683-9219-543b86cbdec9",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-10-25T14:48:28.786Z",
-            "modified": "2018-04-13T17:05:30.756Z",
+            "modified": "2018-06-18T15:59:03.864Z",
             "name": "Fake Developer Accounts",
-            "description": "An adversary could use fake identities, payment cards, etc., to create developer accounts to publish malicious applications to app stores. For example, Oberheide and Miller describe use of this technique in  (Citation: Oberheide-Bouncer).\n\nPlatforms: Android, iOS",
+            "description": "An adversary could use fake identities, payment cards, etc., to create developer accounts to publish malicious applications to app stores. For example, Oberheide and Miller describe use of this technique in  (Citation: Oberheide-Bouncer).",
             "kill_chain_phases": [
                 {
                     "phase_name": "app-delivery-via-authorized-app-store",
@@ -20,13 +20,13 @@
             "external_references": [
                 {
                     "external_id": "MOB-T1045",
-                    "source_name": "mitre-mobile-attack",
-                    "url": "https://attack.mitre.org/mobile/index.php/Technique/MOB-T1045"
+                    "url": "https://attack.mitre.org/mobile/index.php/Technique/MOB-T1045",
+                    "source_name": "mitre-mobile-attack"
                 },
                 {
                     "url": "https://jon.oberheide.org/files/summercon12-bouncer.pdf",
-                    "source_name": "Oberheide-Bouncer",
-                    "description": "Jon Oberheide and Charlie Miller. (2012). Dissecting the Android Bouncer. Retrieved December 12, 2016."
+                    "description": "Jon Oberheide and Charlie Miller. (2012). Dissecting the Android Bouncer. Retrieved December 12, 2016.",
+                    "source_name": "Oberheide-Bouncer"
                 }
             ],
             "object_marking_refs": [

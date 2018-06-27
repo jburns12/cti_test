@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--31bcc87c-2d97-4ce7-a7d6-19b6f59efe48",
+    "id": "bundle--f315b0ec-7de5-4497-8c97-e4a0ba5d3b80",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--86461465-cb29-4fc9-8fa8-8956c0f94536",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.065Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Dust Storm has encoded payloads with a single-byte XOR, both skipping the key itself and zeroing in an attempt to avoid exposing the key.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Dust Storm has encoded payloads with a single-byte XOR, both skipping the key itself and zeroing in an attempt to avoid exposing the key. (Citation: Cylance Dust Storm)",
             "external_references": [
                 {
                     "url": "https://www.cylance.com/content/dam/cylance/pdfs/reports/Op%20Dust%20Storm%20Report.pdf",
-                    "source_name": "Cylance Dust Storm",
-                    "description": "Gross, J. (2016, February 23). Operation Dust Storm. Retrieved September 19, 2017."
+                    "description": "Gross, J. (2016, February 23). Operation Dust Storm. Retrieved September 19, 2017.",
+                    "source_name": "Cylance Dust Storm"
                 }
             ],
             "object_marking_refs": [

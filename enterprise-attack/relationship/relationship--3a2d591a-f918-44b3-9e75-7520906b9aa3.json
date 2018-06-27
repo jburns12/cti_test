@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e2645b75-403f-4af4-9fff-6507251ad86d",
+    "id": "bundle--d603b013-76b0-4d73-b9e1-17e0ee4b518c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--3a2d591a-f918-44b3-9e75-7520906b9aa3",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "menuPass has used a global service provider's IP as a proxy for C2 traffic from a victim.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "menuPass has used a global service provider's IP as a proxy for C2 traffic from a victim. (Citation: FireEye APT10 April 2017)",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/04/apt10%20menupass%20grou.html",
-                    "source_name": "FireEye APT10 April 2017",
-                    "description": "FireEye iSIGHT Intelligence. (2017, April 6). APT10 (MenuPass Group): New Tools, Global Campaign Latest Manifestation of Longstanding Threat. Retrieved June 29, 2017."
+                    "description": "FireEye iSIGHT Intelligence. (2017, April 6). APT10 (MenuPass Group): New Tools, Global Campaign Latest Manifestation of Longstanding Threat. Retrieved June 29, 2017.",
+                    "source_name": "FireEye APT10 April 2017"
                 }
             ],
             "object_marking_refs": [

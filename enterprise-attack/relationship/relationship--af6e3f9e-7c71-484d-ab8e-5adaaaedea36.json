@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f13dc548-e500-498e-9e15-e26e8b6d6115",
+    "id": "bundle--98955ef6-a911-4325-9447-da95bad3f550",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--af6e3f9e-7c71-484d-ab8e-5adaaaedea36",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "WinMM uses NetUser-GetInfo to identify that it is running under an \u201cAdmin\u201d account on the local system.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "WinMM uses NetUser-GetInfo to identify that it is running under an \u201cAdmin\u201d account on the local system. (Citation: Baumgartner Naikon 2015)",
             "external_references": [
                 {
                     "url": "https://securelist.com/files/2015/05/TheNaikonAPT-MsnMM1.pdf",
-                    "source_name": "Baumgartner Naikon 2015",
-                    "description": "Baumgartner, K., Golovkin, M.. (2015, May). The MsnMM Campaigns: The Earliest Naikon APT Campaigns. Retrieved December 17, 2015."
+                    "description": "Baumgartner, K., Golovkin, M.. (2015, May). The MsnMM Campaigns: The Earliest Naikon APT Campaigns. Retrieved December 17, 2015.",
+                    "source_name": "Baumgartner Naikon 2015"
                 }
             ],
             "object_marking_refs": [

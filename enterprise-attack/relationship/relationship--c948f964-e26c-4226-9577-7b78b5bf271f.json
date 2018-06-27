@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--47e9f3c2-932e-4a90-a320-0f459f16eb1a",
+    "id": "bundle--681e39e7-9c8d-4a20-b2d7-21836268a328",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--c948f964-e26c-4226-9577-7b78b5bf271f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.057Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "APT3 has used a tool to dump credentials by injecting itself into lsass.exe and triggering with the argument \"dig.\" The group has also used a tools to dump passwords from browsers.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "APT3 has used a tool to dump credentials by injecting itself into lsass.exe and triggering with the argument \"dig.\" The group has also used a tools to dump passwords from browsers. (Citation: Symantec Buckeye)",
             "external_references": [
                 {
                     "url": "http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
-                    "source_name": "Symantec Buckeye",
-                    "description": "Symantec Security Response. (2016, September 6). Buckeye cyberespionage group shifts gaze from US to Hong Kong. Retrieved September 26, 2016."
+                    "description": "Symantec Security Response. (2016, September 6). Buckeye cyberespionage group shifts gaze from US to Hong Kong. Retrieved September 26, 2016.",
+                    "source_name": "Symantec Buckeye"
                 }
             ],
             "object_marking_refs": [

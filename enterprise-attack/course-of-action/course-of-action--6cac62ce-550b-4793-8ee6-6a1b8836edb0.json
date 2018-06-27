@@ -1,21 +1,21 @@
 {
     "type": "bundle",
-    "id": "bundle--26d7d0f0-a23a-481a-9890-703e1236f59c",
+    "id": "bundle--9f3a7cb5-c58f-4d16-b724-13d386e241bf",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--6cac62ce-550b-4793-8ee6-6a1b8836edb0",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "created": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-06-27T14:18:47.700Z",
             "name": "Indicator Removal on Host Mitigation",
             "description": "Automatically forward events to a log server or data repository to prevent conditions in which the adversary can locate and manipulate data on the local system. When possible, minimize time delay on event reporting to avoid prolonged storage on the local system. Protect generated event files that are stored locally with proper permissions and authentication. Obfuscate/encrypt event files locally and in transit to avoid giving feedback to an adversary.",
             "external_references": [
                 {
                     "external_id": "T1070",
-                    "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1070"
+                    "url": "https://attack.mitre.org/wiki/Technique/T1070",
+                    "source_name": "mitre-attack"
                 }
             ]
         }

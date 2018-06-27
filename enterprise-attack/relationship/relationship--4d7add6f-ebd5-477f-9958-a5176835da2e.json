@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2397cc01-5aef-4b1b-b1ae-e12fe735398c",
+    "id": "bundle--db32c323-3ce4-46c7-aa3b-ab03691dc609",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--4d7add6f-ebd5-477f-9958-a5176835da2e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "CosmicDuke collects user credentials, including passwords, for various programs and browsers, including popular instant messaging applications, Web browsers, and email clients. Windows account hashes, domain accounts, and LSA secrets are also collected, as are WLAN keys.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "CosmicDuke collects user credentials, including passwords, for various programs and browsers, including popular instant messaging applications, Web browsers, and email clients. Windows account hashes, domain accounts, and LSA secrets are also collected, as are WLAN keys. (Citation: F-Secure The Dukes)",
             "external_references": [
                 {
                     "url": "https://www.f-secure.com/documents/996508/1030745/dukes%20whitepaper.pdf",
-                    "source_name": "F-Secure The Dukes",
-                    "description": "F-Secure Labs. (2015, September 17). The Dukes: 7 years of Russian cyberespionage. Retrieved December 10, 2015."
+                    "description": "F-Secure Labs. (2015, September 17). The Dukes: 7 years of Russian cyberespionage. Retrieved December 10, 2015.",
+                    "source_name": "F-Secure The Dukes"
                 }
             ],
             "object_marking_refs": [

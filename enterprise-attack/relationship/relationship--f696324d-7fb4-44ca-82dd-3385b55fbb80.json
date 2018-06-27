@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e20ee9c4-9383-4114-94d6-339eaf05af07",
+    "id": "bundle--e946b2e3-a935-4d0b-9787-3c31d1e97a7e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--f696324d-7fb4-44ca-82dd-3385b55fbb80",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "If establishing persistence by installation as a new service fails, one variant of Elise establishes persistence for the created .exe file by setting the following Registry key: <code>HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\svchost : %APPDATA%\\Microsoft\\Network\\svchost.exe</code>. Other variants have set the following Registry key for persistence: <code>HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\imejp : [self]</code>. ",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "If establishing persistence by installation as a new service fails, one variant of Elise establishes persistence for the created .exe file by setting the following Registry key: <code>HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\svchost : %APPDATA%\\Microsoft\\Network\\svchost.exe</code>. Other variants have set the following Registry key for persistence: <code>HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\imejp : [self]</code>. (Citation: Lotus Blossom Jun 2015)",
             "external_references": [
                 {
                     "url": "https://www.paloaltonetworks.com/resources/research/unit42-operation-lotus-blossom.html",
-                    "source_name": "Lotus Blossom Jun 2015",
-                    "description": "Falcone, R., et al.. (2015, June 16). Operation Lotus Blossom. Retrieved February 15, 2016."
+                    "description": "Falcone, R., et al.. (2015, June 16). Operation Lotus Blossom. Retrieved February 15, 2016.",
+                    "source_name": "Lotus Blossom Jun 2015"
                 }
             ],
             "object_marking_refs": [

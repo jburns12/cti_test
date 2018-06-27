@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4e393600-2933-4b9b-b616-f1d1879e6281",
+    "id": "bundle--c789a2d0-d0fe-40dd-9269-f10679397925",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,23 +8,23 @@
             "id": "relationship--167d7b11-01f3-42d5-bb8a-78306dc80243",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Part of APT28's operation involved using CHOPSTICK modules to copy itself to air-gapped machines, using files written to USB sticks to transfer data and command traffic.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Part of APT28's operation involved using CHOPSTICK modules to copy itself to air-gapped machines, using files written to USB sticks to transfer data and command traffic. (Citation: FireEye APT28) (Citation: ESET Sednit Part 2) (Citation: Microsoft SIR Vol 19)",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf",
-                    "source_name": "FireEye APT28",
-                    "description": "FireEye. (2015). APT28: A WINDOW INTO RUSSIA\u2019S CYBER ESPIONAGE OPERATIONS?. Retrieved August 19, 2015."
+                    "description": "FireEye. (2015). APT28: A WINDOW INTO RUSSIA\u2019S CYBER ESPIONAGE OPERATIONS?. Retrieved August 19, 2015.",
+                    "source_name": "FireEye APT28"
                 },
                 {
                     "url": "http://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part-2.pdf",
-                    "source_name": "ESET Sednit Part 2",
-                    "description": "ESET. (2016, October). En Route with Sednit - Part 2: Observing the Comings and Goings. Retrieved November 21, 2016."
+                    "description": "ESET. (2016, October). En Route with Sednit - Part 2: Observing the Comings and Goings. Retrieved November 21, 2016.",
+                    "source_name": "ESET Sednit Part 2"
                 },
                 {
                     "url": "http://download.microsoft.com/download/4/4/C/44CDEF0E-7924-4787-A56A-16261691ACE3/Microsoft%20Security%20Intelligence%20Report%20Volume%2019%20English.pdf",
-                    "source_name": "Microsoft SIR Vol 19",
-                    "description": "Anthe, C. et al. (2015, October 19). Microsoft Security Intelligence Report Volume 19. Retrieved December 23, 2015."
+                    "description": "Anthe, C. et al. (2015, October 19). Microsoft Security Intelligence Report Volume 19. Retrieved December 23, 2015.",
+                    "source_name": "Microsoft SIR Vol 19"
                 }
             ],
             "object_marking_refs": [

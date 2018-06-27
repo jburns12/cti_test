@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3d78a1e1-2be3-424d-a361-59a179e9da50",
+    "id": "bundle--960c6fe3-5bb1-4e54-a83d-70ed9d8bd388",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--930175b1-0f2f-4f0b-99ad-13a4b304cc29",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Dragonfly dropped and executed SecretsDump, a tool that dumps password hashes.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Dragonfly dropped and executed SecretsDump, a tool that dumps password hashes. (Citation: US-CERT APT Energy Oct 2017) (Citation: Core Security Impacket)",
             "external_references": [
                 {
                     "url": "https://www.us-cert.gov/ncas/alerts/TA17-293A",
-                    "source_name": "US-CERT APT Energy Oct 2017",
-                    "description": "US-CERT. (2017, October 20). Alert (TA17-293A): Advanced Persistent Threat Activity Targeting Energy and Other Critical Infrastructure Sectors. Retrieved November 2, 2017."
+                    "description": "US-CERT. (2017, October 20). Alert (TA17-293A): Advanced Persistent Threat Activity Targeting Energy and Other Critical Infrastructure Sectors. Retrieved November 2, 2017.",
+                    "source_name": "US-CERT APT Energy Oct 2017"
                 },
                 {
                     "url": "https://www.coresecurity.com/corelabs-research/open-source-tools/impacket",
-                    "source_name": "Core Security Impacket",
-                    "description": "Core Security. (n.d.). Impacket. Retrieved November 2, 2017."
+                    "description": "Core Security. (n.d.). Impacket. Retrieved November 2, 2017.",
+                    "source_name": "Core Security Impacket"
                 }
             ],
             "object_marking_refs": [

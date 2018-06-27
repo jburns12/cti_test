@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--07d9a59f-7fb7-4de8-b651-f53b07c3ece1",
+    "id": "bundle--b985b10d-3fb7-49dc-841c-531c2290ffad",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:30:49.546Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-27T14:18:47.700Z",
             "name": "Command-Line Interface",
-            "description": "Command-line interfaces provide a way of interacting with computer systems and is a common feature across many types of operating system platforms. (Citation: Wikipedia Command-Line Interface) One example command-line interface on Windows systems is cmd, which can be used to perform a number of tasks including execution of other software. Command-line interfaces can be interacted with locally or remotely via a remote desktop application, reverse shell session, etc. Commands that are executed run with the current permission level of the command-line interface process unless the command includes process invocation that changes permissions context for that execution (e.g. Scheduled Task).\n\nAdversaries may use command-line interfaces to interact with systems and execute other software during the course of an operation.\n\nDetection: Command-line interface activities can be captured through proper logging of process execution with command-line arguments. This information can be useful in gaining additional insight to adversaries' actions through how they use native processes or custom tools.\n\nPlatforms: Linux, Windows, macOS\n\nData Sources: Process command-line parameters, Process monitoring\n\nPermissions Required: Administrator, SYSTEM, User\n\nRemote Support: No",
+            "description": "Command-line interfaces provide a way of interacting with computer systems and is a common feature across many types of operating system platforms. (Citation: Wikipedia Command-Line Interface) One example command-line interface on Windows systems is cmd, which can be used to perform a number of tasks including execution of other software. Command-line interfaces can be interacted with locally or remotely via a remote desktop application, reverse shell session, etc. Commands that are executed run with the current permission level of the command-line interface process unless the command includes process invocation that changes permissions context for that execution (e.g. Scheduled Task Mitigation).\n\nAdversaries may use command-line interfaces to interact with systems and execute other software during the course of an operation.",
             "kill_chain_phases": [
                 {
                     "phase_name": "execution",
@@ -20,18 +20,19 @@
             "external_references": [
                 {
                     "external_id": "T1059",
-                    "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1059"
+                    "url": "https://attack.mitre.org/wiki/Technique/T1059",
+                    "source_name": "mitre-attack"
                 },
                 {
                     "url": "https://en.wikipedia.org/wiki/Command-line%20interface",
-                    "source_name": "Wikipedia Command-Line Interface",
-                    "description": "Wikipedia. (2016, June 26). Command-line interface. Retrieved June 27, 2016."
+                    "description": "Wikipedia. (2016, June 26). Command-line interface. Retrieved June 27, 2016.",
+                    "source_name": "Wikipedia Command-Line Interface"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "Command-line interface activities can be captured through proper logging of process execution with command-line arguments. This information can be useful in gaining additional insight to adversaries' actions through how they use native processes or custom tools.",
             "x_mitre_platforms": [
                 "Linux",
                 "Windows",

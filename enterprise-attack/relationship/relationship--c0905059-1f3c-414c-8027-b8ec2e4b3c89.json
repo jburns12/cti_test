@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c674536b-3254-4dc9-9d09-70a590832fb3",
+    "id": "bundle--8f30f6c1-aba3-4268-b1f6-682fda79c4fc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--c0905059-1f3c-414c-8027-b8ec2e4b3c89",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "When the Duqu command and control is operating over HTTP or HTTPS, Duqu uploads data to its controller by appending it to a blank JPG file.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "When the Duqu command and control is operating over HTTP or HTTPS, Duqu uploads data to its controller by appending it to a blank JPG file. (Citation: Symantec W32.Duqu)",
             "external_references": [
                 {
                     "url": "https://www.symantec.com/content/en/us/enterprise/media/security%20response/whitepapers/w32%20duqu%20the%20precursor%20to%20the%20next%20stuxnet.pdf",
-                    "source_name": "Symantec W32.Duqu",
-                    "description": "Symantec Security Response. (2011, November). W32.Duqu: The precursor to the next Stuxnet. Retrieved September 17, 2015."
+                    "description": "Symantec Security Response. (2011, November). W32.Duqu: The precursor to the next Stuxnet. Retrieved September 17, 2015.",
+                    "source_name": "Symantec W32.Duqu"
                 }
             ],
             "object_marking_refs": [

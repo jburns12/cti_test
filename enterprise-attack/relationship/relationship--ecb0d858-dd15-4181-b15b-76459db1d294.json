@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--60191424-6ee2-4186-9e35-508e17eefd8e",
+    "id": "bundle--38ae32c5-f52d-433e-96d7-d86dbf816989",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--ecb0d858-dd15-4181-b15b-76459db1d294",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Hi-Zor executes using regsvr32.exe called from the Registry Run Keys / Start Folder persistence mechanism.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Hi-Zor executes using regsvr32.exe called from the Registry Run Keys / Start Folder Mitigation persistence mechanism. (Citation: Fidelis INOCNATION)",
             "external_references": [
                 {
                     "url": "https://www.fidelissecurity.com/sites/default/files/FTA%201020%20Fidelis%20Inocnation%20FINAL%200.pdf",
-                    "source_name": "Fidelis INOCNATION",
-                    "description": "Fidelis Cybersecurity. (2015, December 16). Fidelis Threat Advisory #1020: Dissecting the Malware Involved in the INOCNATION Campaign. Retrieved March 24, 2016."
+                    "description": "Fidelis Cybersecurity. (2015, December 16). Fidelis Threat Advisory #1020: Dissecting the Malware Involved in the INOCNATION Campaign. Retrieved March 24, 2016.",
+                    "source_name": "Fidelis INOCNATION"
                 }
             ],
             "object_marking_refs": [

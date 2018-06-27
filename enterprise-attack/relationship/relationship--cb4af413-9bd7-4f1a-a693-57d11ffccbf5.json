@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bfe84bde-7533-4a19-a76e-ed27f2f8e801",
+    "id": "bundle--f3df603d-6ad2-4f14-bb1b-8094df044f83",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--cb4af413-9bd7-4f1a-a693-57d11ffccbf5",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Some variants of Cherry Picker use AppInit_DLLs to achieve persistence by creating the following Registry key: <code>HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Windows \"AppInit_DLLs\"=\"pserver32.dll\"</code>",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Some variants of Cherry Picker use AppInit_DLLs to achieve persistence by creating the following Registry key: <code>HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Windows \"AppInit_DLLs\"=\"pserver32.dll\"</code> (Citation: Trustwave Cherry Picker)",
             "external_references": [
                 {
                     "url": "https://www.trustwave.com/Resources/SpiderLabs-Blog/Shining-the-Spotlight-on-Cherry-Picker-PoS-Malware/",
-                    "source_name": "Trustwave Cherry Picker",
-                    "description": "Merritt, E.. (2015, November 16). Shining the Spotlight on Cherry Picker PoS Malware. Retrieved April 20, 2016."
+                    "description": "Merritt, E.. (2015, November 16). Shining the Spotlight on Cherry Picker PoS Malware. Retrieved April 20, 2016.",
+                    "source_name": "Trustwave Cherry Picker"
                 }
             ],
             "object_marking_refs": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8784a0d5-acce-4a51-a4bb-82fe2e28a3a9",
+    "id": "bundle--730b4191-f027-4dbc-aa1d-6951732c7767",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--6e24d8d1-7376-493f-a85c-75448c80efed",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "The CozyCar dropper copies the system file rundll32.exe to the install location for the malware, then uses the copy of rundll32.exe to load and execute the main CozyCar component.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "The CozyCar dropper copies the system file rundll32.exe to the install location for the malware, then uses the copy of rundll32.exe to load and execute the main CozyCar component. (Citation: F-Secure CozyDuke)",
             "external_references": [
                 {
                     "url": "https://www.f-secure.com/documents/996508/1030745/CozyDuke",
-                    "source_name": "F-Secure CozyDuke",
-                    "description": "F-Secure Labs. (2015, April 22). CozyDuke: Malware Analysis. Retrieved December 10, 2015."
+                    "description": "F-Secure Labs. (2015, April 22). CozyDuke: Malware Analysis. Retrieved December 10, 2015.",
+                    "source_name": "F-Secure CozyDuke"
                 }
             ],
             "object_marking_refs": [

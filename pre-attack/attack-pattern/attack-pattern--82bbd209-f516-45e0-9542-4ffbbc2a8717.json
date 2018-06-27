@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--95ef37a4-e34d-4754-98db-f39f81e12b94",
+    "id": "bundle--dd28c2e3-cc9a-4da9-b968-6d67c90f795e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--82bbd209-f516-45e0-9542-4ffbbc2a8717",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Discover new exploits and monitor exploit-provider forums",
-            "description": "An exploit takes advantage of a bug or vulnerability in order to cause unintended or unanticipated behavior to occur on computer hardware or software. The adversary may need to discover new exploits when existing exploits are no longer relevant to the environment they are trying to compromise. An adversary may monitor exploit provider forums to understand the state of existing, as well as newly discovered, exploits. (Citation: EquationQA)\n\nDetectable by Common Defenses: No\n\nDetectable by Common Defenses explanation: Public source external to the defender's organization.\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: Many public sources exist for this information.",
+            "description": "An exploit takes advantage of a bug or vulnerability in order to cause unintended or unanticipated behavior to occur on computer hardware or software. The adversary may need to discover new exploits when existing exploits are no longer relevant to the environment they are trying to compromise. An adversary may monitor exploit provider forums to understand the state of existing, as well as newly discovered, exploits. (Citation: EquationQA)",
             "kill_chain_phases": [
                 {
                     "phase_name": "build-capabilities",
@@ -20,12 +20,12 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1127",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1127"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1127",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "EquationQA",
-                    "description": "Kaspersky Lab. (2015, February). EQUATION GROUP: QUESTIONS AND ANSWERS. Retrieved March 9, 2017."
+                    "description": "Kaspersky Lab. (2015, February). EQUATION GROUP: QUESTIONS AND ANSWERS. Retrieved March 9, 2017.",
+                    "source_name": "EquationQA"
                 }
             ],
             "object_marking_refs": [

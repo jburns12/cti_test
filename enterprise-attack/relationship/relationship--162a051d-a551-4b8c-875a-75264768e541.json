@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--60b11893-c9ae-4086-9f13-2f7406ac400e",
+    "id": "bundle--3c67422f-b75e-4093-b9c3-66cf83f6a6b7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--162a051d-a551-4b8c-875a-75264768e541",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "MoonWind installs itself as a new service with automatic startup to establish persistence. The service checks every 60 seconds to determine if the malware is running; if not, it will spawn a new instance.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "MoonWind installs itself as a new service with automatic startup to establish persistence. The service checks every 60 seconds to determine if the malware is running; if not, it will spawn a new instance. (Citation: Palo Alto MoonWind March 2017)",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2017/03/unit42-trochilus-rat-new-moonwind-rat-used-attack-thai-utility-organizations/",
-                    "source_name": "Palo Alto MoonWind March 2017",
-                    "description": "Miller-Osborn, J. and Grunzweig, J.. (2017, March 30). Trochilus and New MoonWind RATs Used In Attack Against Thai Organizations. Retrieved March 30, 2017."
+                    "description": "Miller-Osborn, J. and Grunzweig, J.. (2017, March 30). Trochilus and New MoonWind RATs Used In Attack Against Thai Organizations. Retrieved March 30, 2017.",
+                    "source_name": "Palo Alto MoonWind March 2017"
                 }
             ],
             "object_marking_refs": [

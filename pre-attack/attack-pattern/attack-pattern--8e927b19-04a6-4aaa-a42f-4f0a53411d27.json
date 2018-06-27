@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e3059fc1-320b-4015-8f8d-205061456acf",
+    "id": "bundle--6c995ffd-794a-42f4-968f-8dfec1c67f18",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--8e927b19-04a6-4aaa-a42f-4f0a53411d27",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Assess current holdings, needs, and wants",
-            "description": "Analysts assess current information available against requirements that outline needs and wants as part of the research baselining process to begin satisfying a requirement. (Citation: CyberAdvertisingChar) (Citation: CIATradecraft) (Citation: ForensicAdversaryModeling) (Citation: CyberAdversaryBehavior)\n\nDetectable by Common Defenses: No\n\nDetectable by Common Defenses explanation: Normally, defender is unable to detect.  Few agencies and commercial organizations may have unique insights.\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: Normal aspect of adversary planning lifecycle.  May not be done by all adversaries.",
+            "description": "Analysts assess current information available against requirements that outline needs and wants as part of the research baselining process to begin satisfying a requirement. (Citation: CyberAdvertisingChar) (Citation: CIATradecraft) (Citation: ForensicAdversaryModeling) (Citation: CyberAdversaryBehavior)",
             "kill_chain_phases": [
                 {
                     "phase_name": "priority-definition-planning",
@@ -20,24 +20,24 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1013",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1013"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1013",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "CyberAdvertisingChar",
-                    "description": "Tom Parker, Matt Devost, Marcus Sachs, and Toby Miller. (2003). Cyber Adversary Characterization. Retrieved March 5, 2017."
+                    "description": "Tom Parker, Matt Devost, Marcus Sachs, and Toby Miller. (2003). Cyber Adversary Characterization. Retrieved March 5, 2017.",
+                    "source_name": "CyberAdvertisingChar"
                 },
                 {
-                    "source_name": "CIATradecraft",
-                    "description": "Central Intelligence Agency. (2009). A Tradecraft Primer: Structured Analytic Techniques for Improving Intelligence Analysis. Retrieved March 5, 2017."
+                    "description": "Central Intelligence Agency. (2009). A Tradecraft Primer: Structured Analytic Techniques for Improving Intelligence Analysis. Retrieved March 5, 2017.",
+                    "source_name": "CIATradecraft"
                 },
                 {
-                    "source_name": "ForensicAdversaryModeling",
-                    "description": "John Lowry, Rico Valdez, Brad Wood. (n.d.). Adversary Modeling to Develop Forensic Observables. Retrieved March 5, 2017."
+                    "description": "John Lowry, Rico Valdez, Brad Wood. (n.d.). Adversary Modeling to Develop Forensic Observables. Retrieved March 5, 2017.",
+                    "source_name": "ForensicAdversaryModeling"
                 },
                 {
-                    "source_name": "CyberAdversaryBehavior",
-                    "description": "Elizabeth Van Ruitenbeek, Ken Keefe, William H. Sanders, and Carol Muehrcke. (2010). Characterizing the Behavior of Cyber Adversaries: The Means, Motive, and Opportunity of Cyberattacks. Retrieved March 5, 2017."
+                    "description": "Elizabeth Van Ruitenbeek, Ken Keefe, William H. Sanders, and Carol Muehrcke. (2010). Characterizing the Behavior of Cyber Adversaries: The Means, Motive, and Opportunity of Cyberattacks. Retrieved March 5, 2017.",
+                    "source_name": "CyberAdversaryBehavior"
                 }
             ],
             "object_marking_refs": [

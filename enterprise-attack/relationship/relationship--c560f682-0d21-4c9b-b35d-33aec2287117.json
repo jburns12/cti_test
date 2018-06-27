@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4eb6cdce-fae5-46c6-af85-c9b3ff5a229d",
+    "id": "bundle--71052375-2909-4669-b7a0-ba35caadaa82",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--c560f682-0d21-4c9b-b35d-33aec2287117",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "POWERSOURCE uses DNS TXT records for C2.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "POWERSOURCE uses DNS TXT records for C2. (Citation: FireEye FIN7 March 2017) (Citation: Cisco DNSMessenger March 2017)",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/03/fin7%20spear%20phishing.html",
-                    "source_name": "FireEye FIN7 March 2017",
-                    "description": "Miller, S., et al. (2017, March 7). FIN7 Spear Phishing Campaign Targets Personnel Involved in SEC Filings. Retrieved March 8, 2017."
+                    "description": "Miller, S., et al. (2017, March 7). FIN7 Spear Phishing Campaign Targets Personnel Involved in SEC Filings. Retrieved March 8, 2017.",
+                    "source_name": "FireEye FIN7 March 2017"
                 },
                 {
                     "url": "http://blog.talosintelligence.com/2017/03/dnsmessenger.html",
-                    "source_name": "Cisco DNSMessenger March 2017",
-                    "description": "Brumaghin, E. and Grady, C.. (2017, March 2). Covert Channels and Poor Decisions: The Tale of DNSMessenger. Retrieved March 8, 2017."
+                    "description": "Brumaghin, E. and Grady, C.. (2017, March 2). Covert Channels and Poor Decisions: The Tale of DNSMessenger. Retrieved March 8, 2017.",
+                    "source_name": "Cisco DNSMessenger March 2017"
                 }
             ],
             "object_marking_refs": [

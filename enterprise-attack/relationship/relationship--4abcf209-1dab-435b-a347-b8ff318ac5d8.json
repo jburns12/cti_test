@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c2b56036-cc90-425d-8ae6-44eeba243b22",
+    "id": "bundle--9699e209-e957-4389-9071-be06da555a52",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--4abcf209-1dab-435b-a347-b8ff318ac5d8",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Daserf uses custom base64 encoding to obfuscate HTTP traffic.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Daserf uses custom base64 encoding to obfuscate HTTP traffic. (Citation: Secureworks BRONZE BUTLER Oct 2017)",
             "external_references": [
                 {
                     "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
-                    "source_name": "Secureworks BRONZE BUTLER Oct 2017",
-                    "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018."
+                    "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.",
+                    "source_name": "Secureworks BRONZE BUTLER Oct 2017"
                 }
             ],
             "object_marking_refs": [

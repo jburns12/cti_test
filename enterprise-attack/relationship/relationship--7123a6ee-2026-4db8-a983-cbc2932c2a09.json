@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e146564f-806d-4b7b-b7fa-e10e25f7ccd8",
+    "id": "bundle--c83e00bf-4d18-4673-a5b8-e7ccb4eae06d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--7123a6ee-2026-4db8-a983-cbc2932c2a09",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Some Backdoor.Oldrea samples use standard Base64 + bzip2, and some use standard Base64 + reverse XOR + RSA-2048 to decrypt data received from C2 servers.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Some Backdoor.Oldrea samples use standard Base64 + bzip2, and some use standard Base64 + reverse XOR + RSA-2048 to decrypt data received from C2 servers. (Citation: Symantec Dragonfly)",
             "external_references": [
                 {
                     "url": "http://www.symantec.com/content/en/us/enterprise/media/security%20response/whitepapers/Dragonfly%20Threat%20Against%20Western%20Energy%20Suppliers.pdf",
-                    "source_name": "Symantec Dragonfly",
-                    "description": "Symantec Security Response. (2014, July 7). Dragonfly: Cyberespionage Attacks Against Energy Suppliers. Retrieved April 8, 2016."
+                    "description": "Symantec Security Response. (2014, July 7). Dragonfly: Cyberespionage Attacks Against Energy Suppliers. Retrieved April 8, 2016.",
+                    "source_name": "Symantec Dragonfly"
                 }
             ],
             "object_marking_refs": [

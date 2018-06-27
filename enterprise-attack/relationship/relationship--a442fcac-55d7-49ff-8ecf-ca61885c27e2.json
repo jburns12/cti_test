@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b2cc8f1b-b84c-4a4a-adae-6b58fa6a0885",
+    "id": "bundle--15b2c75b-b0f4-406a-8278-ef18a1cbb876",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--a442fcac-55d7-49ff-8ecf-ca61885c27e2",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.059Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "An executable dropped onto victims by Putter Panda aims to inject the specified DLL into a process that would normally be accessing the network, including Outlook Express (msinm.exe), Outlook (outlook.exe), Internet Explorer (iexplore.exe), and Firefox (firefox.exe).",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "An executable dropped onto victims by Putter Panda aims to inject the specified DLL into a process that would normally be accessing the network, including Outlook Express (msinm.exe), Outlook (outlook.exe), Internet Explorer (iexplore.exe), and Firefox (firefox.exe). (Citation: CrowdStrike Putter Panda)",
             "external_references": [
                 {
                     "url": "http://cdn0.vox-cdn.com/assets/4589853/crowdstrike-intelligence-report-putter-panda.original.pdf",
-                    "source_name": "CrowdStrike Putter Panda",
-                    "description": "Crowdstrike Global Intelligence Team. (2014, June 9). CrowdStrike Intelligence Report: Putter Panda. Retrieved January 22, 2016."
+                    "description": "Crowdstrike Global Intelligence Team. (2014, June 9). CrowdStrike Intelligence Report: Putter Panda. Retrieved January 22, 2016.",
+                    "source_name": "CrowdStrike Putter Panda"
                 }
             ],
             "object_marking_refs": [

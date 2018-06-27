@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--96f603a9-d4d7-4203-967e-808efd71eeb3",
+    "id": "bundle--bdbe2d06-0996-475b-8806-1847bb5e2d89",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--5a68c603-d7f9-4535-927e-ab56819eaa85",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Compromise 3rd party or closed-source vulnerability/exploit information",
-            "description": "There is usually a delay between when a vulnerability or exploit is discovered and when it is made public. An adversary may target the systems of those known to research vulnerabilities in order to gain that knowledge for use during a different attack. (Citation: TempertonDarkHotel)\n\nDetectable by Common Defenses: No\n\nDetectable by Common Defenses explanation: The compromise of unknown vulnerabilities would provide little attack and warning against a defender, rendering it highly challenging to detect.\n\nDifficulty for the Adversary: No\n\nDifficulty for the Adversary explanation: Finding, attacking, and compromising a 3rd party or closed vulnerability entity is challenging, because those containing the vulnerabilities should be very aware of attacks on their environments have a heightened awareness.",
+            "description": "There is usually a delay between when a vulnerability or exploit is discovered and when it is made public. An adversary may target the systems of those known to research vulnerabilities in order to gain that knowledge for use during a different attack. (Citation: TempertonDarkHotel)",
             "kill_chain_phases": [
                 {
                     "phase_name": "build-capabilities",
@@ -20,12 +20,12 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1131",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1131"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1131",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "TempertonDarkHotel",
-                    "description": "JAMES TEMPERTON. (2015, August 10). Hacking Team zero-day used in new Darkhotel attacks. Retrieved March 9, 2017."
+                    "description": "JAMES TEMPERTON. (2015, August 10). Hacking Team zero-day used in new Darkhotel attacks. Retrieved March 9, 2017.",
+                    "source_name": "TempertonDarkHotel"
                 }
             ],
             "object_marking_refs": [

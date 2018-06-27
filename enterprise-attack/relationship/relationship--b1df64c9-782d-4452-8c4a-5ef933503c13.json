@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8e771eac-ad7a-4c97-aeec-94a1e8b4811f",
+    "id": "bundle--ac46c0b9-00bd-44db-9cbe-954768caac8e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--b1df64c9-782d-4452-8c4a-5ef933503c13",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "ISMInjector hollows out a newly created process RegASM.exe and injects its payload into the hollowed process.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "ISMInjector hollows out a newly created process RegASM.exe and injects its payload into the hollowed process. (Citation: OilRig New Delivery Oct 2017)",
             "external_references": [
                 {
                     "url": "https://researchcenter.paloaltonetworks.com/2017/10/unit42-oilrig-group-steps-attacks-new-delivery-documents-new-injector-trojan/",
-                    "source_name": "OilRig New Delivery Oct 2017",
-                    "description": "Falcone, R. and Lee, B. (2017, October 9). OilRig Group Steps Up Attacks with New Delivery Documents and New Injector Trojan. Retrieved January 8, 2018."
+                    "description": "Falcone, R. and Lee, B. (2017, October 9). OilRig Group Steps Up Attacks with New Delivery Documents and New Injector Trojan. Retrieved January 8, 2018.",
+                    "source_name": "OilRig New Delivery Oct 2017"
                 }
             ],
             "object_marking_refs": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--de70659d-324b-4efb-8337-079ec1bbcdb1",
+    "id": "bundle--8f0b56ec-10fa-46ec-b305-74c463bab0c6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:32:09.054Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-27T14:18:47.700Z",
             "name": "menuPass",
             "description": "menuPass is a threat group that appears to originate from China and has been active since approximately 2009. The group has targeted healthcare, defense, aerospace, and government sectors, and has targeted Japanese victims since at least 2014. In 2016 and 2017, the group targeted managed IT service providers, manufacturing and mining companies, and a university. (Citation: Palo Alto menuPass Feb 2017) (Citation: Crowdstrike CrowdCast Oct 2013) (Citation: FireEye Poison Ivy) (Citation: PWC Cloud Hopper April 2017) (Citation: FireEye APT10 April 2017)",
             "aliases": [
@@ -21,33 +21,53 @@
             "external_references": [
                 {
                     "external_id": "G0045",
-                    "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/wiki/Group/G0045"
+                    "url": "https://attack.mitre.org/wiki/Group/G0045",
+                    "source_name": "mitre-attack"
+                },
+                {
+                    "description": "[[Citation: Palo Alto menuPass Feb 2017]]",
+                    "source_name": "menuPass"
+                },
+                {
+                    "description": "[[Citation: Palo Alto menuPass Feb 2017]]",
+                    "source_name": "Stone Panda"
+                },
+                {
+                    "description": "[[Citation: Palo Alto menuPass Feb 2017]]",
+                    "source_name": "APT10"
+                },
+                {
+                    "description": "[[Citation: PWC Cloud Hopper April 2017]]",
+                    "source_name": "Red Apollo"
+                },
+                {
+                    "description": "[[Citation: PWC Cloud Hopper April 2017]]",
+                    "source_name": "CVNX"
                 },
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2017/02/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations/",
-                    "source_name": "Palo Alto menuPass Feb 2017",
-                    "description": "Miller-Osborn, J. and Grunzweig, J.. (2017, February 16). menuPass Returns with New Malware and New Attacks Against Japanese Academics and Organizations. Retrieved March 1, 2017."
+                    "description": "Miller-Osborn, J. and Grunzweig, J.. (2017, February 16). menuPass Returns with New Malware and New Attacks Against Japanese Academics and Organizations. Retrieved March 1, 2017.",
+                    "source_name": "Palo Alto menuPass Feb 2017"
                 },
                 {
                     "url": "https://www.slideshare.net/CrowdStrike/crowd-casts-monthly-you-have-an-adversary-problem",
-                    "source_name": "Crowdstrike CrowdCast Oct 2013",
-                    "description": "Crowdstrike. (2013, October 16). CrowdCasts Monthly: You Have an Adversary Problem. Retrieved March 1, 2017."
+                    "description": "Crowdstrike. (2013, October 16). CrowdCasts Monthly: You Have an Adversary Problem. Retrieved March 1, 2017.",
+                    "source_name": "Crowdstrike CrowdCast Oct 2013"
                 },
                 {
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-poison-ivy.pdf",
-                    "source_name": "FireEye Poison Ivy",
-                    "description": "FireEye. (2014). POISON IVY: Assessing Damage and Extracting Intelligence. Retrieved November 12, 2014."
+                    "description": "FireEye. (2014). POISON IVY: Assessing Damage and Extracting Intelligence. Retrieved November 12, 2014.",
+                    "source_name": "FireEye Poison Ivy"
                 },
                 {
                     "url": "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
-                    "source_name": "PWC Cloud Hopper April 2017",
-                    "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper. Retrieved April 5, 2017."
+                    "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper. Retrieved April 5, 2017.",
+                    "source_name": "PWC Cloud Hopper April 2017"
                 },
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/04/apt10%20menupass%20grou.html",
-                    "source_name": "FireEye APT10 April 2017",
-                    "description": "FireEye iSIGHT Intelligence. (2017, April 6). APT10 (MenuPass Group): New Tools, Global Campaign Latest Manifestation of Longstanding Threat. Retrieved June 29, 2017."
+                    "description": "FireEye iSIGHT Intelligence. (2017, April 6). APT10 (MenuPass Group): New Tools, Global Campaign Latest Manifestation of Longstanding Threat. Retrieved June 29, 2017.",
+                    "source_name": "FireEye APT10 April 2017"
                 }
             ],
             "object_marking_refs": [

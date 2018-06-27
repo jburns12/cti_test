@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ea2f26bf-23f0-4e9a-a0b5-2c1ec48ae497",
+    "id": "bundle--5735495d-3ff3-4b86-9dd6-c21d1f89b83c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--fb39384c-00e4-414a-88af-e80c4904e0b8",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Human performs requested action of physical nature",
-            "description": "This technique has been deprecated. Please see ATT&CK's Initial Access and Execution tactics for replacement techniques.\n\nThrough social engineering or other methods, an adversary can get users to perform physical actions that provide access to an adversary.  This could include providing a password over the phone or inserting a 'found' CD or USB into a system. (Citation: AnonHBGary) (Citation: CSOInsideOutside)\n\nDetectable by Common Defenses: No\n\nDetectable by Common Defenses explanation: Non-hypersensing environments do not typically collect this level of detailed information.\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: Ill-informed users insert devices into their network that they randomly find, despite training educating them why this is not a wise idea.",
+            "description": "Through social engineering or other methods, an adversary can get users to perform physical actions that provide access to an adversary.  This could include providing a password over the phone or inserting a 'found' CD or USB into a system. (Citation: AnonHBGary) (Citation: CSOInsideOutside)",
             "kill_chain_phases": [
                 {
                     "phase_name": "compromise",
@@ -20,16 +20,16 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1162",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1162"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1162",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "AnonHBGary",
-                    "description": "PETER BRIGHT. (2011, February 15). Anonymous speaks: the inside story of the HBGary hack. Retrieved March 9, 2017."
+                    "description": "PETER BRIGHT. (2011, February 15). Anonymous speaks: the inside story of the HBGary hack. Retrieved March 9, 2017.",
+                    "source_name": "AnonHBGary"
                 },
                 {
-                    "source_name": "CSOInsideOutside",
-                    "description": "Taylor Armerding. (2012, October 25). Line blurs between insider, outsider attacks. Retrieved March 9, 2017."
+                    "description": "Taylor Armerding. (2012, October 25). Line blurs between insider, outsider attacks. Retrieved March 9, 2017.",
+                    "source_name": "CSOInsideOutside"
                 }
             ],
             "object_marking_refs": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--573e3e86-5ee6-43d7-8737-5f6b19eb41f2",
+    "id": "bundle--5300f6f2-1ab6-4e7f-9fa7-82b44319d4e0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,23 +8,23 @@
             "id": "relationship--76037b22-a3e4-40d3-bd56-699d1ea4e97e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Mimikatz\u2019s <code>LSADUMP::DCSync</code>, <code>KERBEROS::Golden</code>, and <code>KERBEROS::PTT</code> modules implement the three steps required to extract the krbtgt account hash and create/use Kerberos tickets.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Mimikatz\u2019s <code>LSADUMP::DCSync</code>, <code>KERBEROS::Golden</code>, and <code>KERBEROS::PTT</code> modules implement the three steps required to extract the krbtgt account hash and create/use Kerberos tickets. (Citation: Adsecurity Mimikatz Guide) (Citation: Harmj0y DCSync Sept 2015) (Citation: AdSecurity Kerberos GT Aug 2015)",
             "external_references": [
                 {
                     "url": "https://adsecurity.org/?page%20id=1821",
-                    "source_name": "Adsecurity Mimikatz Guide",
-                    "description": "Metcalf, S. (2015, November 13). Unofficial Guide to Mimikatz & Command Reference. Retrieved December 23, 2015."
+                    "description": "Metcalf, S. (2015, November 13). Unofficial Guide to Mimikatz & Command Reference. Retrieved December 23, 2015.",
+                    "source_name": "Adsecurity Mimikatz Guide"
                 },
                 {
                     "url": "https://adsecurity.org/?p=1640",
-                    "source_name": "AdSecurity Kerberos GT Aug 2015",
-                    "description": "Metcalf, S. (2015, August 7). Kerberos Golden Tickets are Now More Golden. Retrieved December 1, 2017."
+                    "description": "Metcalf, S. (2015, August 7). Kerberos Golden Tickets are Now More Golden. Retrieved December 1, 2017.",
+                    "source_name": "AdSecurity Kerberos GT Aug 2015"
                 },
                 {
                     "url": "http://www.harmj0y.net/blog/redteaming/mimikatz-and-dcsync-and-extrasids-oh-my/",
-                    "source_name": "Harmj0y DCSync Sept 2015",
-                    "description": "Schroeder, W. (2015, September 22). Mimikatz and DCSync and ExtraSids, Oh My. Retrieved December 4, 2017."
+                    "description": "Schroeder, W. (2015, September 22). Mimikatz and DCSync and ExtraSids, Oh My. Retrieved December 4, 2017.",
+                    "source_name": "Harmj0y DCSync Sept 2015"
                 }
             ],
             "object_marking_refs": [

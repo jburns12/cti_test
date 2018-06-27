@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a8d34511-e02d-4cd9-9e3c-813f9efb8b78",
+    "id": "bundle--ac656512-62c2-4e38-bf8c-9ebe69767a55",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--b7adff8b-a51a-46c7-ba8a-d1292002f2c8",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "Naid connects to C2 infrastructure and establishes backdoors over a custom communications protocol.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Naid connects to C2 infrastructure and establishes backdoors over a custom communications protocol. (Citation: Symantec Naid June 2012) (Citation: Symantec Naid in the Wild June 2012)",
             "external_references": [
                 {
                     "url": "https://www.symantec.com/security%20response/writeup.jsp?docid=2012-061518-4639-99",
-                    "source_name": "Symantec Naid June 2012",
-                    "description": "Neville, A. (2012, June 15). Trojan.Naid. Retrieved February 22, 2018."
+                    "description": "Neville, A. (2012, June 15). Trojan.Naid. Retrieved February 22, 2018.",
+                    "source_name": "Symantec Naid June 2012"
                 },
                 {
                     "url": "https://www.symantec.com/connect/blogs/cve-2012-1875-exploited-wild-part-1-trojannaid",
-                    "source_name": "Symantec Naid in the Wild June 2012",
-                    "description": "Symantec Security Response. (2012, June 18). CVE-2012-1875 Exploited in the Wild - Part 1 (Trojan.Naid). Retrieved February 22, 2018."
+                    "description": "Symantec Security Response. (2012, June 18). CVE-2012-1875 Exploited in the Wild - Part 1 (Trojan.Naid). Retrieved February 22, 2018.",
+                    "source_name": "Symantec Naid in the Wild June 2012"
                 }
             ],
             "object_marking_refs": [

@@ -1,21 +1,21 @@
 {
     "type": "bundle",
-    "id": "bundle--d3d581e2-b9c9-4ce3-9c96-944210834a2d",
+    "id": "bundle--88a96dd1-000e-473a-b0b4-f8bf0ff5d009",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--c47a9b55-8f61-4b82-b833-1db6242c754e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "created": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-06-27T14:18:47.700Z",
             "name": "Local Job Scheduling Mitigation",
             "description": "Limit privileges of user accounts and remediate Privilege Escalation vectors so only authorized users can create scheduled jobs. Identify and block unnecessary system utilities or potentially malicious software that may be used to schedule jobs using whitelisting tools.",
             "external_references": [
                 {
                     "external_id": "T1168",
-                    "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1168"
+                    "url": "https://attack.mitre.org/wiki/Technique/T1168",
+                    "source_name": "mitre-attack"
                 }
             ]
         }

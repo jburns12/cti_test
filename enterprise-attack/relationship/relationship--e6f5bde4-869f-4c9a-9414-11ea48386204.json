@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7c49f2f4-507a-4887-bd40-c54a28519bb6",
+    "id": "bundle--f9aa915e-0e8e-4c57-9d4f-9f343bb3dd42",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--e6f5bde4-869f-4c9a-9414-11ea48386204",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "CORESHELL obfuscates strings using a custom stream cipher.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "CORESHELL obfuscates strings using a custom stream cipher. (Citation: FireEye APT28)",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf",
-                    "source_name": "FireEye APT28",
-                    "description": "FireEye. (2015). APT28: A WINDOW INTO RUSSIA\u2019S CYBER ESPIONAGE OPERATIONS?. Retrieved August 19, 2015."
+                    "description": "FireEye. (2015). APT28: A WINDOW INTO RUSSIA\u2019S CYBER ESPIONAGE OPERATIONS?. Retrieved August 19, 2015.",
+                    "source_name": "FireEye APT28"
                 }
             ],
             "object_marking_refs": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--67f0f297-00ab-4e6e-b8c3-0f64d2199d5d",
+    "id": "bundle--f0ae9ff1-d850-4788-a8bb-65664ee6f13e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--67f19627-27a5-4898-bab5-7b235aa4ad77",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.060Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "APT18 actors used the native at Windows task scheduler tool to use scheduled tasks for execution on a victim network.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "APT18 actors used the native at Windows task scheduler tool to use scheduled tasks for execution on a victim network. (Citation: Dell Lateral Movement)",
             "external_references": [
                 {
                     "url": "http://www.secureworks.com/resources/blog/where-you-at-indicators-of-lateral-movement-using-at-exe-on-windows-7-systems/",
-                    "source_name": "Dell Lateral Movement",
-                    "description": "Carvey, H.. (2014, September 2). Where you AT?: Indicators of lateral movement using at.exe on Windows 7 systems. Retrieved January 25, 2016."
+                    "description": "Carvey, H.. (2014, September 2). Where you AT?: Indicators of lateral movement using at.exe on Windows 7 systems. Retrieved January 25, 2016.",
+                    "source_name": "Dell Lateral Movement"
                 }
             ],
             "object_marking_refs": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7f046c1a-979e-499d-8659-56f7364f1751",
+    "id": "bundle--458301f2-951d-4e1e-89ee-1cf5e6dd1cfc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--5765c7d1-884f-4d6d-a938-4a92c86a9e21",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "installs a service on the remote system, executes the command, then uninstalls the service.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "installs a service on the remote system, executes the command, then uninstalls the service. (Citation: Secpod Winexe June 2017)",
             "external_references": [
                 {
                     "url": "http://www.secpod.com/blog/winexe/",
-                    "source_name": "Secpod Winexe June 2017",
-                    "description": "Prakash, T. (2017, June 21). Run commands on Windows system remotely using Winexe. Retrieved January 22, 2018."
+                    "description": "Prakash, T. (2017, June 21). Run commands on Windows system remotely using Winexe. Retrieved January 22, 2018.",
+                    "source_name": "Secpod Winexe June 2017"
                 }
             ],
             "object_marking_refs": [

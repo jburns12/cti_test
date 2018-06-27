@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9d1eac26-0a11-45d7-8600-d5e3569366ff",
+    "id": "bundle--a56a70b2-00a8-4b00-8d7e-72384499c23e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--b077d81d-0449-493f-9b93-23dc0fb0b62d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "FIN7 uses a PowerShell script to launch shellcode that retrieves an additional payload.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "FIN7 uses a PowerShell script to launch shellcode that retrieves an additional payload. (Citation: FireEye FIN7 April 2017)",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
-                    "source_name": "FireEye FIN7 April 2017",
-                    "description": "Carr, N., et al. (2017, April 24). FIN7 Evolution and the Phishing LNK. Retrieved April 24, 2017."
+                    "description": "Carr, N., et al. (2017, April 24). FIN7 Evolution and the Phishing LNK. Retrieved April 24, 2017.",
+                    "source_name": "FireEye FIN7 April 2017"
                 }
             ],
             "object_marking_refs": [

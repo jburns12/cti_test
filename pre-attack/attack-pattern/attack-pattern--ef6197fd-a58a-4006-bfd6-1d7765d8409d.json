@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4412c6ab-cd92-4358-af0b-cb1122819901",
+    "id": "bundle--d9806979-57a7-4ef8-8d53-818df4188029",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--ef6197fd-a58a-4006-bfd6-1d7765d8409d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Enumerate externally facing software applications technologies, languages, and dependencies",
-            "description": "Software applications will be built using different technologies, languages, and dependencies. This information may reveal vulnerabilities or opportunities to an adversary. (Citation: CommonApplicationAttacks) (Citation: WebApplicationSecurity) (Citation: SANSTop25)\n\nDetectable by Common Defenses: Yes\n\nDetectable by Common Defenses explanation: Impossible to differentiate between an adversary and a normal user when accessing a site to determine the languages/technologies used.  If active scanning tools are employed, then the defender has the ability to detect.  However, this is typically not acted upon due to the large volume of this type of traffic and it will likely not prompt the defender to take any actionable defense.  Defender review of access logs may provide some insight based on trends or patterns.\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: Basic interaction with the site provides insight into the programming languages/technologies used for a given web site.  Additionally many of the active scanning tools will also provide some insight into this information.",
+            "description": "Software applications will be built using different technologies, languages, and dependencies. This information may reveal vulnerabilities or opportunities to an adversary. (Citation: CommonApplicationAttacks) (Citation: WebApplicationSecurity) (Citation: SANSTop25)",
             "kill_chain_phases": [
                 {
                     "phase_name": "technical-information-gathering",
@@ -20,20 +20,20 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1038",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1038"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1038",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "CommonApplicationAttacks",
-                    "description": "Paul Ionescu. (2015, April 8). The 10 Most Common Application Attacks in Action. Retrieved March 5, 2017."
+                    "description": "Paul Ionescu. (2015, April 8). The 10 Most Common Application Attacks in Action. Retrieved March 5, 2017.",
+                    "source_name": "CommonApplicationAttacks"
                 },
                 {
-                    "source_name": "WebApplicationSecurity",
-                    "description": "Gregory Leonard. (2016, February). Getting Started with Web Application Security. Retrieved March 5, 2017."
+                    "description": "Gregory Leonard. (2016, February). Getting Started with Web Application Security. Retrieved March 5, 2017.",
+                    "source_name": "WebApplicationSecurity"
                 },
                 {
-                    "source_name": "SANSTop25",
-                    "description": "SANS Institute. (2011, June 27). CWE/SANS TOP 25 Most Dangerous Software Errors. Retrieved March 5, 2017."
+                    "description": "SANS Institute. (2011, June 27). CWE/SANS TOP 25 Most Dangerous Software Errors. Retrieved March 5, 2017.",
+                    "source_name": "SANSTop25"
                 }
             ],
             "object_marking_refs": [

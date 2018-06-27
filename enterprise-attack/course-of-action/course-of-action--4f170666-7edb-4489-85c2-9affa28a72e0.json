@@ -1,21 +1,21 @@
 {
     "type": "bundle",
-    "id": "bundle--daa515ac-61e3-4af7-93c1-f4ac26afa568",
+    "id": "bundle--86158def-5604-43b4-88e8-33a72c9b366a",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--4f170666-7edb-4489-85c2-9affa28a72e0",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "created": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-06-27T14:18:47.700Z",
             "name": ".bash_profile and .bashrc Mitigation",
             "description": "Making these files immutable and only changeable by certain administrators will limit the ability for adversaries to easily create user level persistence.",
             "external_references": [
                 {
                     "external_id": "T1156",
-                    "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1156"
+                    "url": "https://attack.mitre.org/wiki/Technique/T1156",
+                    "source_name": "mitre-attack"
                 }
             ]
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2054f906-d07b-4f4f-9ad4-088ad3819146",
+    "id": "bundle--2e2ce50d-8122-4f72-8c47-ad48cda4ae13",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--22a75bbf-5490-40cb-bdb7-a0eda5e95d21",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "After decrypting itself in memory, RARSTONE downloads a DLL file from its C2 server and loads it in the memory space of a hidden Internet Explorer process. This \u201cdownloaded\u201d file is actually not dropped onto the system.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "After decrypting itself in memory, RARSTONE downloads a DLL file from its C2 server and loads it in the memory space of a hidden Internet Explorer process. This \u201cdownloaded\u201d file is actually not dropped onto the system. (Citation: Camba RARSTONE)",
             "external_references": [
                 {
                     "url": "http://blog.trendmicro.com/trendlabs-security-intelligence/bkdr%20rarstone-new-rat-to-watch-out-for/",
-                    "source_name": "Camba RARSTONE",
-                    "description": "Camba, A. (2013, February 27). BKDR_RARSTONE: New RAT to Watch Out For. Retrieved January 8, 2016."
+                    "description": "Camba, A. (2013, February 27). BKDR_RARSTONE: New RAT to Watch Out For. Retrieved January 8, 2016.",
+                    "source_name": "Camba RARSTONE"
                 }
             ],
             "object_marking_refs": [

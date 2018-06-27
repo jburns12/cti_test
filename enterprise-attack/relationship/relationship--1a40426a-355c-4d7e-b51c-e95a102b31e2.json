@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--20172674-223a-4eb9-b6f2-e3e893b6186c",
+    "id": "bundle--64dc5924-2c49-4dc1-af6a-b5392d4c1579",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--1a40426a-355c-4d7e-b51c-e95a102b31e2",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Lazarus Group keylogger KiloAlfa obtains user tokens from interactive sessions to execute itself with API call <code>CreateProcessAsUserA</code> under that user's context.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Lazarus Group keylogger KiloAlfa obtains user tokens from interactive sessions to execute itself with API call <code>CreateProcessAsUserA</code> under that user's context. (Citation: Novetta Blockbuster Tools)",
             "external_references": [
                 {
                     "url": "https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Report.pdf",
-                    "source_name": "Novetta Blockbuster",
-                    "description": "Novetta Threat Research Group. (2016, February 24). Operation Blockbuster: Unraveling the Long Thread of the Sony Attack. Retrieved February 25, 2016."
+                    "description": "Novetta Threat Research Group. (2016, February 24). Operation Blockbuster: Unraveling the Long Thread of the Sony Attack. Retrieved February 25, 2016.",
+                    "source_name": "Novetta Blockbuster"
                 },
                 {
                     "url": "https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Tools-Report.pdf",
-                    "source_name": "Novetta Blockbuster Tools",
-                    "description": "Novetta Threat Research Group. (2016, February 24). Operation Blockbuster: Tools Report. Retrieved March 10, 2016."
+                    "description": "Novetta Threat Research Group. (2016, February 24). Operation Blockbuster: Tools Report. Retrieved March 10, 2016.",
+                    "source_name": "Novetta Blockbuster Tools"
                 }
             ],
             "object_marking_refs": [

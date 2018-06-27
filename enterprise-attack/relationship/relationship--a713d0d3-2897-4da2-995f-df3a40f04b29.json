@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ab2d51f0-b46c-44ed-94e0-de227aef046c",
+    "id": "bundle--e2fc6dfe-dceb-4fb1-a632-66ceab81f842",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--a713d0d3-2897-4da2-995f-df3a40f04b29",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "NETEAGLE will attempt to detect if the infected host is configured to a proxy. If so, NETEAGLE will send beacons via an HTTP POST request; otherwise it will send beacons via UDP/6000.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "NETEAGLE will attempt to detect if the infected host is configured to a proxy. If so, NETEAGLE will send beacons via an HTTP POST request; otherwise it will send beacons via UDP/6000. (Citation: FireEye APT30)",
             "external_references": [
                 {
                     "url": "https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf",
-                    "source_name": "FireEye APT30",
-                    "description": "FireEye Labs. (2015, April). APT30 AND THE MECHANICS OF A LONG-RUNNING CYBER ESPIONAGE OPERATION. Retrieved May 1, 2015."
+                    "description": "FireEye Labs. (2015, April). APT30 AND THE MECHANICS OF A LONG-RUNNING CYBER ESPIONAGE OPERATION. Retrieved May 1, 2015.",
+                    "source_name": "FireEye APT30"
                 }
             ],
             "object_marking_refs": [

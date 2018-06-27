@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0826c58c-641b-4363-8de8-717eb3bad3a9",
+    "id": "bundle--b65631f9-ffb6-4aee-a92c-3c9a88710d2b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--eb85fa2e-3c50-4130-9717-8688237fecbc",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.052Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "admin@338 actors used the following commands after exploiting a machine with LOWBALL malware to obtain information about the OS: <code>ver >> %temp%\\download</code> <code>systeminfo >> %temp%\\download</code>",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "admin@338 actors used the following commands after exploiting a machine with LOWBALL malware to obtain information about the OS: <code>ver >> %temp%\\download</code> <code>systeminfo >> %temp%\\download</code> (Citation: FireEye admin@338)",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2015/11/china-based-threat.html",
-                    "source_name": "FireEye admin@338",
-                    "description": "FireEye Threat Intelligence. (2015, December 1). China-based Cyber Threat Group Uses Dropbox for Malware Communications and Targets Hong Kong Media Outlets. Retrieved December 4, 2015."
+                    "description": "FireEye Threat Intelligence. (2015, December 1). China-based Cyber Threat Group Uses Dropbox for Malware Communications and Targets Hong Kong Media Outlets. Retrieved December 4, 2015.",
+                    "source_name": "FireEye admin@338"
                 }
             ],
             "object_marking_refs": [

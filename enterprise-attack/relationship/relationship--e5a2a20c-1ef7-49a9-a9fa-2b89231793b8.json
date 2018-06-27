@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e4653e43-284f-4bbd-a3b3-c230eb8442c2",
+    "id": "bundle--fe3d5168-360e-4605-84f9-2ad0eb97d3e3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--e5a2a20c-1ef7-49a9-a9fa-2b89231793b8",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "T9000 uses the Skype API to record audio and video calls. It writes encrypted data to <code>%APPDATA%\\Intel\\Skype</code>.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "T9000 uses the Skype API to record audio and video calls. It writes encrypted data to <code>%APPDATA%\\Intel\\Skype</code>. (Citation: Palo Alto T9000 Feb 2016)",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2016/02/t9000-advanced-modular-backdoor-uses-complex-anti-analysis-techniques/",
-                    "source_name": "Palo Alto T9000 Feb 2016",
-                    "description": "Grunzweig, J. and Miller-Osborn, J.. (2016, February 4). T9000: Advanced Modular Backdoor Uses Complex Anti-Analysis Techniques. Retrieved April 15, 2016."
+                    "description": "Grunzweig, J. and Miller-Osborn, J.. (2016, February 4). T9000: Advanced Modular Backdoor Uses Complex Anti-Analysis Techniques. Retrieved April 15, 2016.",
+                    "source_name": "Palo Alto T9000 Feb 2016"
                 }
             ],
             "object_marking_refs": [

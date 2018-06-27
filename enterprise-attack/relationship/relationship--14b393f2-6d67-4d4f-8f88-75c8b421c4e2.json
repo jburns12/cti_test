@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9aee900b-6865-48c4-b13f-f1c82d060fd9",
+    "id": "bundle--ecba2691-c331-4960-9c21-8659d2bc0d42",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--14b393f2-6d67-4d4f-8f88-75c8b421c4e2",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "A version of PlugX loads as shellcode within a .NET Framework project using msbuild.exe, presumably to bypass application whitelisting techniques.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "A version of PlugX loads as shellcode within a .NET Framework project using msbuild.exe, presumably to bypass application whitelisting techniques. (Citation: Palo Alto PlugX June 2017)",
             "external_references": [
                 {
                     "url": "https://researchcenter.paloaltonetworks.com/2017/06/unit42-paranoid-plugx/",
-                    "source_name": "Palo Alto PlugX June 2017",
-                    "description": "Lancaster, T. and Idrizovic, E.. (2017, June 27). Paranoid PlugX. Retrieved July 13, 2017."
+                    "description": "Lancaster, T. and Idrizovic, E.. (2017, June 27). Paranoid PlugX. Retrieved July 13, 2017.",
+                    "source_name": "Palo Alto PlugX June 2017"
                 }
             ],
             "object_marking_refs": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8416b92e-0bfd-4518-82c0-a5b8ca01f35e",
+    "id": "bundle--10b75d29-3ea5-454b-bb82-7071c8569048",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--01ab8fee-5204-40c1-ac7a-b11a5683a87d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Misdat saves itself as a file named msdtc.exe, which is also the name of the legitimate Microsoft Distributed Transaction Coordinator service.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Misdat saves itself as a file named msdtc.exe, which is also the name of the legitimate Microsoft Distributed Transaction Coordinator service. (Citation: Cylance Dust Storm) (Citation: Microsoft DTC)",
             "external_references": [
                 {
                     "url": "https://www.cylance.com/content/dam/cylance/pdfs/reports/Op%20Dust%20Storm%20Report.pdf",
-                    "source_name": "Cylance Dust Storm",
-                    "description": "Gross, J. (2016, February 23). Operation Dust Storm. Retrieved September 19, 2017."
+                    "description": "Gross, J. (2016, February 23). Operation Dust Storm. Retrieved September 19, 2017.",
+                    "source_name": "Cylance Dust Storm"
                 },
                 {
                     "url": "https://technet.microsoft.com/en-us/library/cc759136(v=ws.10).aspx",
-                    "source_name": "Microsoft DTC",
-                    "description": "Microsoft. (2011, January 12). Distributed Transaction Coordinator. Retrieved February 25, 2016."
+                    "description": "Microsoft. (2011, January 12). Distributed Transaction Coordinator. Retrieved February 25, 2016.",
+                    "source_name": "Microsoft DTC"
                 }
             ],
             "object_marking_refs": [

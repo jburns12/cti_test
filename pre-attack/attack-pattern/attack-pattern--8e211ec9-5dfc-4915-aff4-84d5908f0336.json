@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2ad83b51-e6d3-48d5-99d2-d4abafcce87c",
+    "id": "bundle--8a0d197f-8fb6-4301-bd9d-0bb5d5f5b175",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--8e211ec9-5dfc-4915-aff4-84d5908f0336",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "C2 protocol development",
-            "description": "Command and Control (C2 or C&C) is a method by which the adversary communicates with malware. An adversary may use a variety of protocols and methods to execute C2 such as a centralized server, peer to peer, IRC, compromised web sites, or even social media. (Citation: HAMMERTOSS2015)\n\nDetectable by Common Defenses: No\n\nDetectable by Common Defenses explanation: Adversary will likely use code repositories, but development will be performed on their local systems.\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: C2 over commonly used and permitted protocols provides the necessary cover and access.",
+            "description": "Command and Control (C2 or C&C) is a method by which the adversary communicates with malware. An adversary may use a variety of protocols and methods to execute C2 such as a centralized server, peer to peer, IRC, compromised web sites, or even social media. (Citation: HAMMERTOSS2015)",
             "kill_chain_phases": [
                 {
                     "phase_name": "build-capabilities",
@@ -20,12 +20,12 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1129",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1129"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1129",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "HAMMERTOSS2015",
-                    "description": "FireEye. (2015, July). HAMMERTOSS: Stealthy Tactics Define a Russian Cyber Threat Group. Retrieved March 6, 2017."
+                    "description": "FireEye. (2015, July). HAMMERTOSS: Stealthy Tactics Define a Russian Cyber Threat Group. Retrieved March 6, 2017.",
+                    "source_name": "HAMMERTOSS2015"
                 }
             ],
             "object_marking_refs": [

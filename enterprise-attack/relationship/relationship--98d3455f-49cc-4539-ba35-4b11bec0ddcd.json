@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--46515074-6cea-491f-85b9-74f12d06ec5f",
+    "id": "bundle--f3a1f27e-9cc4-47d7-86be-a6ba0f7699df",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--98d3455f-49cc-4539-ba35-4b11bec0ddcd",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "Reaver encrypts collected data with an incremental XOR key prior to exfiltration.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Reaver encrypts collected data with an incremental XOR key prior to exfiltration. (Citation: Palo Alto Reaver Nov 2017)",
             "external_references": [
                 {
                     "url": "https://researchcenter.paloaltonetworks.com/2017/11/unit42-new-malware-with-ties-to-sunorcal-discovered/",
-                    "source_name": "Palo Alto Reaver Nov 2017",
-                    "description": "Grunzweig, J. and Miller-Osborn, J. (2017, November 10). New Malware with Ties to SunOrcal Discovered. Retrieved November 16, 2017."
+                    "description": "Grunzweig, J. and Miller-Osborn, J. (2017, November 10). New Malware with Ties to SunOrcal Discovered. Retrieved November 16, 2017.",
+                    "source_name": "Palo Alto Reaver Nov 2017"
                 }
             ],
             "object_marking_refs": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--981e0dd2-cd21-41d3-b6e2-a09495ca8246",
+    "id": "bundle--98915b0e-4c11-4f5d-a8e6-5473a23ca480",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--087721ee-6643-4453-8a76-8768ced7e506",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Backdoor.Oldrea adds Registry Run keys to achieve persistence.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Backdoor.Oldrea adds Registry Run keys to achieve persistence. (Citation: Symantec Dragonfly)",
             "external_references": [
                 {
                     "url": "http://www.symantec.com/content/en/us/enterprise/media/security%20response/whitepapers/Dragonfly%20Threat%20Against%20Western%20Energy%20Suppliers.pdf",
-                    "source_name": "Symantec Dragonfly",
-                    "description": "Symantec Security Response. (2014, July 7). Dragonfly: Cyberespionage Attacks Against Energy Suppliers. Retrieved April 8, 2016."
+                    "description": "Symantec Security Response. (2014, July 7). Dragonfly: Cyberespionage Attacks Against Energy Suppliers. Retrieved April 8, 2016.",
+                    "source_name": "Symantec Dragonfly"
                 }
             ],
             "object_marking_refs": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a91d8204-62d1-4da2-a72f-3d14e03d9878",
+    "id": "bundle--6d03f667-175e-465a-b0d2-677f5fdd9fb3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--4438ba64-0cd2-46e9-8a67-c685bf9b404c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Sykipot may gather a list of running processes by running <code>tasklist /v</code>.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Sykipot may gather a list of running processes by running <code>tasklist /v</code>. (Citation: AlienVault Sykipot 2011)",
             "external_references": [
                 {
                     "url": "https://www.alienvault.com/open-threat-exchange/blog/another-sykipot-sample-likely-targeting-us-federal-agencies",
-                    "source_name": "AlienVault Sykipot 2011",
-                    "description": "Blasco, J. (2011, December 12). Another Sykipot sample likely targeting US federal agencies. Retrieved March 28, 2016."
+                    "description": "Blasco, J. (2011, December 12). Another Sykipot sample likely targeting US federal agencies. Retrieved March 28, 2016.",
+                    "source_name": "AlienVault Sykipot 2011"
                 }
             ],
             "object_marking_refs": [

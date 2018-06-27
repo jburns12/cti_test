@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ef155801-8210-4477-9c09-6e1224db0c97",
+    "id": "bundle--aab81c8b-afb4-4b27-93b6-a3356c57449e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--46017368-6e09-412b-a29c-385be201cc03",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Obtain domain/IP registration information",
-            "description": "For a computing resource to be accessible to the public, domain names and IP addresses must be registered with an authorized organization. (Citation: Google Domains WHOIS) (Citation: FunAndSun2012) (Citation: Scasny2015)\n\nDetectable by Common Defenses: No\n\nDetectable by Common Defenses explanation: Open access to DNS registration/routing information is inherent in Internet architecture.\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: Proliferation of DNS information makes registration information functionally freely available.",
+            "description": "For a computing resource to be accessible to the public, domain names and IP addresses must be registered with an authorized organization. (Citation: Google Domains WHOIS) (Citation: FunAndSun2012) (Citation: Scasny2015)",
             "kill_chain_phases": [
                 {
                     "phase_name": "technical-information-gathering",
@@ -20,20 +20,20 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1028",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1028"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1028",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "Google Domains WHOIS",
-                    "description": "Google Domains. (n.d.). About WHOIS. Retrieved April 2, 2017."
+                    "description": "Google Domains. (n.d.). About WHOIS. Retrieved April 2, 2017.",
+                    "source_name": "Google Domains WHOIS"
                 },
                 {
-                    "source_name": "FunAndSun2012",
-                    "description": "Jeff Bardin. (2012, October 10). OSINT and Cyber Intelligence - Fun and Sun in Miami. Retrieved March 1, 2017."
+                    "description": "Jeff Bardin. (2012, October 10). OSINT and Cyber Intelligence - Fun and Sun in Miami. Retrieved March 1, 2017.",
+                    "source_name": "FunAndSun2012"
                 },
                 {
-                    "source_name": "Scasny2015",
-                    "description": "Gregory Scasny. (2015, September 14). Understanding Open Source Intelligence (OSINT) and its relationship to Identity Theft. Retrieved March 1, 2017."
+                    "description": "Gregory Scasny. (2015, September 14). Understanding Open Source Intelligence (OSINT) and its relationship to Identity Theft. Retrieved March 1, 2017.",
+                    "source_name": "Scasny2015"
                 }
             ],
             "object_marking_refs": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e591c023-d1e5-4e93-afe7-bb7b8739dc9d",
+    "id": "bundle--4128645c-3dfa-4040-9952-f1e39a950ba3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--deb7df24-689e-4e4e-909f-a270241ab65a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "Gazer logs its actions into files that are encrypted with 3DES. It also uses RSA to encrypt resources.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Gazer logs its actions into files that are encrypted with 3DES. It also uses RSA to encrypt resources. (Citation: Securelist WhiteBear Aug 2017)",
             "external_references": [
                 {
                     "url": "https://securelist.com/introducing-whitebear/81638/",
-                    "source_name": "Securelist WhiteBear Aug 2017",
-                    "description": "Kaspersky Lab's Global Research & Analysis Team. (2017, August 30). Introducing WhiteBear. Retrieved September 21, 2017."
+                    "description": "Kaspersky Lab's Global Research & Analysis Team. (2017, August 30). Introducing WhiteBear. Retrieved September 21, 2017.",
+                    "source_name": "Securelist WhiteBear Aug 2017"
                 }
             ],
             "object_marking_refs": [

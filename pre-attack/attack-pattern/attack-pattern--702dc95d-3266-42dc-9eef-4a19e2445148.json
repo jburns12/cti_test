@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c75c970b-a811-4a3e-8674-850c714a2c33",
+    "id": "bundle--e11dad6f-b422-4bcd-ab0d-9342c8ccd5bc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--702dc95d-3266-42dc-9eef-4a19e2445148",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Push-notification client-side exploit",
-            "description": "This technique has been deprecated. Please see ATT&CK's Initial Access and Execution tactics for replacement techniques.\n\nA technique to push an [https://www.apple.com/ios iOS] or [https://www.android.com Android] MMS-type message to the target which does not require interaction on the part of the target to be successful. (Citation: BlackHat Stagefright) (Citation: WikiStagefright)\n\nDetectable by Common Defenses: No\n\nDetectable by Common Defenses explanation: For non-corporate cellular devices not joined to the corporate network, it is not possible to detect an adversary's use of the technique because messages traverse networks outside of the control of the employer. For corporate cellular devices which are joined to the corporate network, monitoring of messages and ability to patch against push attacks is possible, assuming they are fully monitored.\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: Easily executed technique to push an MMS-type message to the target which does not require interaction on the part of the target to be successful.",
+            "description": "A technique to push an [https://www.apple.com/ios iOS] or [https://www.android.com Android] MMS-type message to the target which does not require interaction on the part of the target to be successful. (Citation: BlackHat Stagefright) (Citation: WikiStagefright)",
             "kill_chain_phases": [
                 {
                     "phase_name": "launch",
@@ -20,16 +20,16 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1150",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1150"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1150",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "BlackHat Stagefright",
-                    "description": "Joshua Drake. (2015, August 5). Stagefright: Scary Code in the Heart of Android. Retrieved March 29, 2017."
+                    "description": "Joshua Drake. (2015, August 5). Stagefright: Scary Code in the Heart of Android. Retrieved March 29, 2017.",
+                    "source_name": "BlackHat Stagefright"
                 },
                 {
-                    "source_name": "WikiStagefright",
-                    "description": "Wikipedia contributors. (2017, March 8). Stagefright (bug). Retrieved March 9, 2017."
+                    "description": "Wikipedia contributors. (2017, March 8). Stagefright (bug). Retrieved March 9, 2017.",
+                    "source_name": "WikiStagefright"
                 }
             ],
             "object_marking_refs": [

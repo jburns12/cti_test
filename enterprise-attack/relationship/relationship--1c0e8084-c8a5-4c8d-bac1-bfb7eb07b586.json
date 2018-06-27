@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0f4f502e-ad7f-4352-ac81-bc0e6d3df415",
+    "id": "bundle--b9fd11ea-92c5-4d39-b3ff-47332a54e11f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--1c0e8084-c8a5-4c8d-bac1-bfb7eb07b586",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "Hydraq uses svchost.exe to execute a malicious DLL included in a new service group.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Hydraq uses svchost.exe to execute a malicious DLL included in a new service group. (Citation: Symantec Hydraq Persistence Jan 2010)",
             "external_references": [
                 {
                     "url": "https://www.symantec.com/connect/blogs/how-trojanhydraq-stays-your-computer",
-                    "source_name": "Symantec Hydraq Persistence Jan 2010",
-                    "description": "Fitzgerald, P. (2010, January 26). How Trojan.Hydraq Stays On Your Computer. Retrieved February 22, 2018."
+                    "description": "Fitzgerald, P. (2010, January 26). How Trojan.Hydraq Stays On Your Computer. Retrieved February 22, 2018.",
+                    "source_name": "Symantec Hydraq Persistence Jan 2010"
                 }
             ],
             "object_marking_refs": [

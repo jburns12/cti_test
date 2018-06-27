@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f208c4a5-37d6-4834-adde-2f3f49f3e006",
+    "id": "bundle--c65ac1ed-e59b-4ebe-a70b-7a2c26e86b84",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,12 +8,12 @@
             "id": "relationship--d3c8d1a9-9413-4633-9cbf-4bc34bb5054d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "A variant of ADVSTORESHELL attempts communication to the C2 server over HTTP on port 443.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "A variant of ADVSTORESHELL attempts communication to the C2 server over HTTP on port 443. (Citation: Bitdefender APT28 Dec 2015)",
             "external_references": [
                 {
-                    "source_name": "Bitdefender APT28 Dec 2015",
-                    "description": "Bitdefender. (2015, December). APT28 Under the Scope. Retrieved February 23, 2017."
+                    "description": "Bitdefender. (2015, December). APT28 Under the Scope. Retrieved February 23, 2017.",
+                    "source_name": "Bitdefender APT28 Dec 2015"
                 }
             ],
             "object_marking_refs": [

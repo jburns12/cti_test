@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--95bf762b-a8bf-4b7d-8db8-a6a0905e0e0c",
+    "id": "bundle--f04991d5-9bb0-4e03-b741-0e628f02ff3c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--d3999268-740f-467e-a075-c82e2d04be62",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Assess leadership areas of interest",
-            "description": "Leadership assesses the areas of most interest to them and generates Key Intelligence Topics (KIT) or Key Intelligence Questions (KIQ). For example, an adversary knows from open and closed source reporting that cyber is of interest, resulting in it being a KIT. (Citation: ODNIIntegration)\n\nDetectable by Common Defenses: No\n\nDetectable by Common Defenses explanation: Normally, defender is unable to detect.  Few agencies and commercial organizations may have unique insights.\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: Normal aspect of adversary planning lifecycle.  May not be done by all adversaries.",
+            "description": "Leadership assesses the areas of most interest to them and generates Key Intelligence Topics (KIT) or Key Intelligence Questions (KIQ). For example, an adversary knows from open and closed source reporting that cyber is of interest, resulting in it being a KIT. (Citation: ODNIIntegration)",
             "kill_chain_phases": [
                 {
                     "phase_name": "priority-definition-planning",
@@ -20,12 +20,12 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1001",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1001"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1001",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "ODNIIntegration",
-                    "description": "Office of the Director of National Intelligence. (n.d.). Intelligence Integration - Who Are We. Retrieved March 2, 2017."
+                    "description": "Office of the Director of National Intelligence. (n.d.). Intelligence Integration - Who Are We. Retrieved March 2, 2017.",
+                    "source_name": "ODNIIntegration"
                 }
             ],
             "object_marking_refs": [

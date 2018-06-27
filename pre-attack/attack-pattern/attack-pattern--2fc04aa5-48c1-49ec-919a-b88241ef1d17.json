@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--78d59f48-7f06-45e5-b452-2b3d7dd6dcf4",
+    "id": "bundle--707fcf87-17a6-4300-a543-5800f5877424",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--2fc04aa5-48c1-49ec-919a-b88241ef1d17",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Spear phishing messages with text only",
-            "description": "This technique has been deprecated. Please see ATT&CK's Initial Access and Execution tactics for replacement techniques.\n\nEmails with text only phishing messages do not contain any attachments or links to websites. They are designed to get a user to take a follow on action such as calling a phone number or wiring money. They can also be used to elicit an email response to confirm existence of an account or user. (Citation: Paypal Phone Scam)\n\nDetectable by Common Defenses: No\n\nDetectable by Common Defenses explanation: End user training and awareness is the primary defense for flagging a plain text email so the end user does not respond or take any requested action (e.g., calling a designated number).\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: Sending messages with text only should be accepted in most cases (e.g., not being filtered based on source, content).",
+            "description": "Emails with text only phishing messages do not contain any attachments or links to websites. They are designed to get a user to take a follow on action such as calling a phone number or wiring money. They can also be used to elicit an email response to confirm existence of an account or user. (Citation: Paypal Phone Scam)",
             "kill_chain_phases": [
                 {
                     "phase_name": "launch",
@@ -20,12 +20,12 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1145",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1145"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1145",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "Paypal Phone Scam",
-                    "description": "Sophos Labs. (2006, July 7). PayPal phone phish scam uses voice recording to steal money. Retrieved March 29, 2017."
+                    "description": "Sophos Labs. (2006, July 7). PayPal phone phish scam uses voice recording to steal money. Retrieved March 29, 2017.",
+                    "source_name": "Paypal Phone Scam"
                 }
             ],
             "object_marking_refs": [

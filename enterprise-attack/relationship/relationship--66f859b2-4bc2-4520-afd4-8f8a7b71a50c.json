@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0eac9909-c5cb-4a33-8d2e-63b73ea234d8",
+    "id": "bundle--03c398ed-cf8f-42ce-b652-e1e78364a36a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--66f859b2-4bc2-4520-afd4-8f8a7b71a50c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "creates a backdoor through which remote attackers can inject files into running processes.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "creates a backdoor through which remote attackers can inject files into running processes. (Citation: Symantec Wiarp May 2012)",
             "external_references": [
                 {
                     "url": "https://www.symantec.com/security%20response/writeup.jsp?docid=2012-051606-1005-99",
-                    "source_name": "Symantec Wiarp May 2012",
-                    "description": "Zhou, R. (2012, May 15). Backdoor.Wiarp. Retrieved February 22, 2018."
+                    "description": "Zhou, R. (2012, May 15). Backdoor.Wiarp. Retrieved February 22, 2018.",
+                    "source_name": "Symantec Wiarp May 2012"
                 }
             ],
             "object_marking_refs": [

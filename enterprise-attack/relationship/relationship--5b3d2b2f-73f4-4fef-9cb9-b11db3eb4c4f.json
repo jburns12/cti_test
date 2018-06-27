@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0fbe2406-3ea5-4864-bbd2-07b9b37ef19a",
+    "id": "bundle--980df027-a6a7-40f8-95ff-fada1e329eff",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--5b3d2b2f-73f4-4fef-9cb9-b11db3eb4c4f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "httpclient encrypts C2 content with XOR using a single byte, 0x12.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "httpclient encrypts C2 content with XOR using a single byte, 0x12. (Citation: CrowdStrike Putter Panda)",
             "external_references": [
                 {
                     "url": "http://cdn0.vox-cdn.com/assets/4589853/crowdstrike-intelligence-report-putter-panda.original.pdf",
-                    "source_name": "CrowdStrike Putter Panda",
-                    "description": "Crowdstrike Global Intelligence Team. (2014, June 9). CrowdStrike Intelligence Report: Putter Panda. Retrieved January 22, 2016."
+                    "description": "Crowdstrike Global Intelligence Team. (2014, June 9). CrowdStrike Intelligence Report: Putter Panda. Retrieved January 22, 2016.",
+                    "source_name": "CrowdStrike Putter Panda"
                 }
             ],
             "object_marking_refs": [

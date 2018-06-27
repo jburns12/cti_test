@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--82a29a01-e3e4-44e3-b675-2b4dbc4b4a80",
+    "id": "bundle--23a569b5-efe4-493d-8adb-252292050cc8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--d2d9a619-4379-4e15-9115-40ca9209f316",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Backdoor.Oldrea collects the current username from the victim.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Backdoor.Oldrea collects the current username from the victim. (Citation: Symantec Dragonfly)",
             "external_references": [
                 {
                     "url": "http://www.symantec.com/content/en/us/enterprise/media/security%20response/whitepapers/Dragonfly%20Threat%20Against%20Western%20Energy%20Suppliers.pdf",
-                    "source_name": "Symantec Dragonfly",
-                    "description": "Symantec Security Response. (2014, July 7). Dragonfly: Cyberespionage Attacks Against Energy Suppliers. Retrieved April 8, 2016."
+                    "description": "Symantec Security Response. (2014, July 7). Dragonfly: Cyberespionage Attacks Against Energy Suppliers. Retrieved April 8, 2016.",
+                    "source_name": "Symantec Dragonfly"
                 }
             ],
             "object_marking_refs": [

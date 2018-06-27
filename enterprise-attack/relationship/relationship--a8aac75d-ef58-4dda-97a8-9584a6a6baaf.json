@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6fb4806e-6bdb-4451-a1ec-a11830fcb0c4",
+    "id": "bundle--509d0430-cfb6-4f51-a646-e69f2f2d9a5d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--a8aac75d-ef58-4dda-97a8-9584a6a6baaf",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "Wingbird uses services.exe to register a new autostart service named \"Audit Service\" using a copy of the local lsass.exe file.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Wingbird uses services.exe to register a new autostart service named \"Audit Service\" using a copy of the local lsass.exe file. (Citation: Microsoft SIR Vol 21) (Citation: Microsoft Wingbird Nov 2017)",
             "external_references": [
                 {
                     "url": "http://download.microsoft.com/download/E/B/0/EB0F50CC-989C-4B66-B7F6-68CD3DC90DE3/Microsoft%20Security%20Intelligence%20Report%20Volume%2021%20English.pdf",
-                    "source_name": "Microsoft SIR Vol 21",
-                    "description": "Anthe, C. et al. (2016, December 14). Microsoft Security Intelligence Report Volume 21. Retrieved November 27, 2017."
+                    "description": "Anthe, C. et al. (2016, December 14). Microsoft Security Intelligence Report Volume 21. Retrieved November 27, 2017.",
+                    "source_name": "Microsoft SIR Vol 21"
                 },
                 {
                     "url": "https://www.microsoft.com/wdsi/threats/malware-encyclopedia-description?Name=Backdoor:Win32/Wingbird.A!dha",
-                    "source_name": "Microsoft Wingbird Nov 2017",
-                    "description": "Microsoft. (2017, November 9). Backdoor:Win32/Wingbird.A!dha. Retrieved November 27, 2017."
+                    "description": "Microsoft. (2017, November 9). Backdoor:Win32/Wingbird.A!dha. Retrieved November 27, 2017.",
+                    "source_name": "Microsoft Wingbird Nov 2017"
                 }
             ],
             "object_marking_refs": [

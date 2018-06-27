@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--638618bc-3cd1-4a8f-91a8-8bc68cb98cf9",
+    "id": "bundle--b90d53d3-9af0-46f6-85d6-a492bb13b437",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--5c88d1e7-b32d-482b-a012-74ba9fcf04b8",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "starts a rootkit from a malicious file dropped to disk.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "starts a rootkit from a malicious file dropped to disk. (Citation: Symantec Darkmoon Aug 2005)",
             "external_references": [
                 {
                     "url": "https://www.symantec.com/security%20response/writeup.jsp?docid=2005-081910-3934-99",
-                    "source_name": "Symantec Darkmoon Aug 2005",
-                    "description": "Hayashi, K. (2005, August 18). Backdoor.Darkmoon. Retrieved February 23, 2018."
+                    "description": "Hayashi, K. (2005, August 18). Backdoor.Darkmoon. Retrieved February 23, 2018.",
+                    "source_name": "Symantec Darkmoon Aug 2005"
                 }
             ],
             "object_marking_refs": [

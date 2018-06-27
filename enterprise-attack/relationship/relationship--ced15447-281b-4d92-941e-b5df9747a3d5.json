@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--965ab340-ac9d-4ef4-9c3e-20cb53d58bd2",
+    "id": "bundle--fa37ac1a-8610-44ed-b1c6-1032d33112a5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--ced15447-281b-4d92-941e-b5df9747a3d5",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Rundll32.exe is used as a way of executing Flame at the command-line.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Rundll32.exe is used as a way of executing Flame at the command-line. (Citation: Crysys Skywiper)",
             "external_references": [
                 {
                     "url": "http://www.crysys.hu/skywiper/skywiper.pdf",
-                    "source_name": "Crysys Skywiper",
-                    "description": "sKyWIper Analysis Team. (2012, May 31). sKyWIper (a.k.a. Flame a.k.a. Flamer):  A complex malware for targeted attacks. Retrieved March 1, 2017."
+                    "description": "sKyWIper Analysis Team. (2012, May 31). sKyWIper (a.k.a. Flame a.k.a. Flamer):  A complex malware for targeted attacks. Retrieved March 1, 2017.",
+                    "source_name": "Crysys Skywiper"
                 }
             ],
             "object_marking_refs": [

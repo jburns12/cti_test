@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f42b57d9-df2e-40c9-bfd3-d08ad31596ba",
+    "id": "bundle--1a4b28b5-1230-4710-8c04-116d0798811d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--15fe2d8e-9a4e-433e-9dca-d7329e7ca846",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "Mimikatz\u2019s <code>LSADUMP::DCShadow</code> module can be used to make AD updates by temporarily setting a computer to be a DC.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Mimikatz\u2019s <code>LSADUMP::DCShadow</code> module can be used to make AD updates by temporarily setting a computer to be a DC. (Citation: Deply Mimikatz) (Citation: Adsecurity Mimikatz Guide)",
             "external_references": [
                 {
                     "url": "https://github.com/gentilkiwi/mimikatz",
-                    "source_name": "Deply Mimikatz",
-                    "description": "Deply, B. (n.d.). Mimikatz. Retrieved September 29, 2015."
+                    "description": "Deply, B. (n.d.). Mimikatz. Retrieved September 29, 2015.",
+                    "source_name": "Deply Mimikatz"
                 },
                 {
                     "url": "https://adsecurity.org/?page%20id=1821",
-                    "source_name": "Adsecurity Mimikatz Guide",
-                    "description": "Metcalf, S. (2015, November 13). Unofficial Guide to Mimikatz & Command Reference. Retrieved December 23, 2015."
+                    "description": "Metcalf, S. (2015, November 13). Unofficial Guide to Mimikatz & Command Reference. Retrieved December 23, 2015.",
+                    "source_name": "Adsecurity Mimikatz Guide"
                 }
             ],
             "object_marking_refs": [

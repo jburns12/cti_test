@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c9183701-f919-49f5-8525-86376668534a",
+    "id": "bundle--722a7d1b-a56b-4f6a-b46b-c9f2351307b1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--45dcbc83-4abc-4de1-b643-e528d1e9df09",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-10-25T14:48:24.069Z",
-            "modified": "2018-04-13T17:05:30.756Z",
+            "modified": "2018-06-18T15:59:03.864Z",
             "name": "Biometric Spoofing",
-            "description": "An adversary could attempt to spoof a mobile device's biometric authentication mechanism, for example by providing a fake fingerprint as described by SRLabs in  (Citation: SRLabs-Fingerprint).\n\niOS partly mitigates this attack by requiring the device passcode rather than a fingerprint to unlock the device after every device restart and after 48 hours since the device was last unlocked (Citation: Apple-TouchID).\n\nPlatforms: Android, iOS",
+            "description": "An adversary could attempt to spoof a mobile device's biometric authentication mechanism, for example by providing a fake fingerprint as described by SRLabs in  (Citation: SRLabs-Fingerprint).\n\niOS partly mitigates this attack by requiring the device passcode rather than a fingerprint to unlock the device after every device restart and after 48 hours since the device was last unlocked (Citation: Apple-TouchID).",
             "kill_chain_phases": [
                 {
                     "phase_name": "exploit-via-physical-access",
@@ -20,18 +20,18 @@
             "external_references": [
                 {
                     "external_id": "MOB-T1063",
-                    "source_name": "mitre-mobile-attack",
-                    "url": "https://attack.mitre.org/mobile/index.php/Technique/MOB-T1063"
+                    "url": "https://attack.mitre.org/mobile/index.php/Technique/MOB-T1063",
+                    "source_name": "mitre-mobile-attack"
                 },
                 {
                     "url": "https://srlabs.de/bites/spoofing-fingerprints/",
-                    "source_name": "SRLabs-Fingerprint",
-                    "description": "SRLabs. (n.d.). Fingerprints are not fit for secure device unlocking. Retrieved December 23, 2016."
+                    "description": "SRLabs. (n.d.). Fingerprints are not fit for secure device unlocking. Retrieved December 23, 2016.",
+                    "source_name": "SRLabs-Fingerprint"
                 },
                 {
                     "url": "https://support.apple.com/en-us/HT204587",
-                    "source_name": "Apple-TouchID",
-                    "description": "Apple. (2015, November 3). About Touch ID security on iPhone and iPad. Retrieved December 23, 2016."
+                    "description": "Apple. (2015, November 3). About Touch ID security on iPhone and iPad. Retrieved December 23, 2016.",
+                    "source_name": "Apple-TouchID"
                 }
             ],
             "object_marking_refs": [

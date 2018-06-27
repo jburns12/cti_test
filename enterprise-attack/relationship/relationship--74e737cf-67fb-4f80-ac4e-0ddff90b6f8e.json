@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c38959c4-f901-45bb-b482-1645255f7e6b",
+    "id": "bundle--7c5f8352-debb-4aac-931a-c825541de8e4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--74e737cf-67fb-4f80-ac4e-0ddff90b6f8e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.071Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "FIN6 has used tools to exploit Windows vulnerabilities in order to escalate privileges. The tools targeted CVE-2013-3660, CVE-2011-2005, and CVE-2010-4398, all of which could allow local users to access kernel-level privileges.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "FIN6 has used tools to exploit Windows vulnerabilities in order to escalate privileges. The tools targeted CVE-2013-3660, CVE-2011-2005, and CVE-2010-4398, all of which could allow local users to access kernel-level privileges. (Citation: FireEye FIN6 April 2016)",
             "external_references": [
                 {
                     "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf",
-                    "source_name": "FireEye FIN6 April 2016",
-                    "description": "FireEye Threat Intelligence. (2016, April). Follow the Money: Dissecting the Operations of the Cyber Crime Group FIN6. Retrieved June 1, 2016."
+                    "description": "FireEye Threat Intelligence. (2016, April). Follow the Money: Dissecting the Operations of the Cyber Crime Group FIN6. Retrieved June 1, 2016.",
+                    "source_name": "FireEye FIN6 April 2016"
                 }
             ],
             "object_marking_refs": [

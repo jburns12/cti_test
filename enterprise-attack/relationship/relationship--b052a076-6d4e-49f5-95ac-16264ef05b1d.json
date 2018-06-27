@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3a9c0960-e843-4946-92b1-2ab23a2aeb08",
+    "id": "bundle--493e4e4f-44c7-4d13-a163-b6a0a3a09fb6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--b052a076-6d4e-49f5-95ac-16264ef05b1d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "HTTPBrowser has used HTTP, HTTPS, and DNS for command and control.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "HTTPBrowser has used HTTP, HTTPS, and DNS for command and control. (Citation: ThreatStream Evasion Analysis) (Citation: Dell TG-3390)",
             "external_references": [
                 {
                     "url": "https://www.threatstream.com/blog/evasive-maneuvers-the-wekby-group-attempts-to-evade-analysis-via-custom-rop",
-                    "source_name": "ThreatStream Evasion Analysis",
-                    "description": "Shelmire, A.. (2015, July 6). Evasive Maneuvers. Retrieved January 22, 2016."
+                    "description": "Shelmire, A.. (2015, July 6). Evasive Maneuvers. Retrieved January 22, 2016.",
+                    "source_name": "ThreatStream Evasion Analysis"
                 },
                 {
                     "url": "http://www.secureworks.com/cyber-threat-intelligence/threats/threat-group-3390-targets-organizations-for-cyberespionage/",
-                    "source_name": "Dell TG-3390",
-                    "description": "Dell SecureWorks Counter Threat Unit Threat Intelligence. (2015, August 5). Threat Group-3390 Targets Organizations for Cyberespionage. Retrieved January 25, 2016."
+                    "description": "Dell SecureWorks Counter Threat Unit Threat Intelligence. (2015, August 5). Threat Group-3390 Targets Organizations for Cyberespionage. Retrieved January 25, 2016.",
+                    "source_name": "Dell TG-3390"
                 }
             ],
             "object_marking_refs": [

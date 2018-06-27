@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7beaf8e1-ad41-44f1-bb93-8a08d67f2f89",
+    "id": "bundle--983d5b61-7a8c-4cd9-b6c0-876e6eb9bdf4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--2a8f0313-4059-42b9-b487-6c8f860588c0",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "ADVSTORESHELL encrypts with the 3DES algorithm and a hardcoded key prior to exfiltration.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "ADVSTORESHELL encrypts with the 3DES algorithm and a hardcoded key prior to exfiltration. (Citation: ESET Sednit Part 2)",
             "external_references": [
                 {
                     "url": "http://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part-2.pdf",
-                    "source_name": "ESET Sednit Part 2",
-                    "description": "ESET. (2016, October). En Route with Sednit - Part 2: Observing the Comings and Goings. Retrieved November 21, 2016."
+                    "description": "ESET. (2016, October). En Route with Sednit - Part 2: Observing the Comings and Goings. Retrieved November 21, 2016.",
+                    "source_name": "ESET Sednit Part 2"
                 }
             ],
             "object_marking_refs": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bba8cdd7-76e4-4cc4-99df-ba211ffc92d4",
+    "id": "bundle--f7560117-d6f0-4fe1-895d-7da843c5c39f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--eacadff4-164b-451c-bacc-7b29ebfd0c3f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Create infected removable media",
-            "description": "Use of removable media as part of the Launch phase requires an adversary to determine type, format, and content of the media and associated malware. (Citation: BadUSB)\n\nDetectable by Common Defenses: No\n\nDetectable by Common Defenses explanation: Adversary will likely use code repositories, but development will be performed on their local systems.\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: Several exploit repositories and tool suites exist for re-use and tailoring.",
+            "description": "Use of removable media as part of the Launch phase requires an adversary to determine type, format, and content of the media and associated malware. (Citation: BadUSB)",
             "kill_chain_phases": [
                 {
                     "phase_name": "build-capabilities",
@@ -20,12 +20,12 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1132",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1132"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1132",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "BadUSB",
-                    "description": "Security Research labs. (n.d.). BadUSB Exposure. Retrieved March 9, 2017."
+                    "description": "Security Research labs. (n.d.). BadUSB Exposure. Retrieved March 9, 2017.",
+                    "source_name": "BadUSB"
                 }
             ],
             "object_marking_refs": [

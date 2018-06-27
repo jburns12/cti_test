@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0ef6fa4e-7a6c-4f03-978e-3ce51b72cec7",
+    "id": "bundle--3786c341-8b94-4153-a259-192a7d4bcd9f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--380db9ad-f6ad-4988-8a28-b773313f07b7",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "HTTPBrowser is capable of spawning a reverse shell on a victim.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "HTTPBrowser is capable of spawning a reverse shell on a victim. (Citation: Dell TG-3390)",
             "external_references": [
                 {
                     "url": "http://www.secureworks.com/cyber-threat-intelligence/threats/threat-group-3390-targets-organizations-for-cyberespionage/",
-                    "source_name": "Dell TG-3390",
-                    "description": "Dell SecureWorks Counter Threat Unit Threat Intelligence. (2015, August 5). Threat Group-3390 Targets Organizations for Cyberespionage. Retrieved January 25, 2016."
+                    "description": "Dell SecureWorks Counter Threat Unit Threat Intelligence. (2015, August 5). Threat Group-3390 Targets Organizations for Cyberespionage. Retrieved January 25, 2016.",
+                    "source_name": "Dell TG-3390"
                 }
             ],
             "object_marking_refs": [

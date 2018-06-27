@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3880b6a1-d157-40de-8dc8-864361d8f05e",
+    "id": "bundle--d0fbd98a-6c6a-4a1d-815d-e7f95a7af41c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--57061a8a-d7c5-42a9-be60-f79526b95bf6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Test signature detection",
-            "description": "An adversary can test the detections of malicious emails or files by using  publicly available services, such as virus total, to see if their files or emails cause an alert. They can also use similar services that are not openly available and don't publicly publish results or they can test on their own internal infrastructure. (Citation: WiredVirusTotal)\n\nDetectable by Common Defenses: Partial\n\nDetectable by Common Defenses explanation: If using a common service like [https://www.virustotal.com VirusTotal], it is possible to detect.  If the adversary uses a hostile, less well-known service, the defender would not be aware.\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: Easy to automate upload/email of a wide range of data packages.",
+            "description": "An adversary can test the detections of malicious emails or files by using  publicly available services, such as virus total, to see if their files or emails cause an alert. They can also use similar services that are not openly available and don't publicly publish results or they can test on their own internal infrastructure. (Citation: WiredVirusTotal)",
             "kill_chain_phases": [
                 {
                     "phase_name": "technical-weakness-identification",
@@ -20,12 +20,12 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1069",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1069"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1069",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "WiredVirusTotal",
-                    "description": "Kim Zetter. (14, September 2). A Google Site Meant to Protect You Is Helping Hackers Attack You. Retrieved March 9, 2017."
+                    "description": "Kim Zetter. (14, September 2). A Google Site Meant to Protect You Is Helping Hackers Attack You. Retrieved March 9, 2017.",
+                    "source_name": "WiredVirusTotal"
                 }
             ],
             "object_marking_refs": [

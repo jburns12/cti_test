@@ -1,21 +1,21 @@
 {
     "type": "bundle",
-    "id": "bundle--b5b64916-9c9e-41d9-8713-88ddb2682892",
+    "id": "bundle--e3b7eb27-80f2-4b57-8a74-5af67da9490c",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--ec418d1b-4963-439f-b055-f914737ef362",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "created": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-06-27T14:18:47.700Z",
             "name": "InstallUtil Mitigation",
             "description": "InstallUtil may not be necessary within a given environment. Use application whitelisting configured to block execution of InstallUtil.exe if it is not required for a given system or network to prevent potential misuse by adversaries.",
             "external_references": [
                 {
                     "external_id": "T1118",
-                    "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1118"
+                    "url": "https://attack.mitre.org/wiki/Technique/T1118",
+                    "source_name": "mitre-attack"
                 }
             ]
         }

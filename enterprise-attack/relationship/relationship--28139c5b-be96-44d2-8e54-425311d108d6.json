@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b25af3d5-03a9-4672-b223-6db743572d9d",
+    "id": "bundle--22d15955-e0b2-4013-b5d9-ac1b4cc7a50c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--28139c5b-be96-44d2-8e54-425311d108d6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.077Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "A Patchwork payload uses process hollowing to hide the UAC bypass vulnerability exploitation inside svchost.exe.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "A Patchwork payload uses process hollowing to hide the UAC bypass vulnerability exploitation inside svchost.exe. (Citation: Cymmetria Patchwork)",
             "external_references": [
                 {
                     "url": "https://s3-us-west-2.amazonaws.com/cymmetria-blog/public/Unveiling%20Patchwork.pdf",
-                    "source_name": "Cymmetria Patchwork",
-                    "description": "Cymmetria. (2016). Unveiling Patchwork - The Copy-Paste APT. Retrieved August 3, 2016."
+                    "description": "Cymmetria. (2016). Unveiling Patchwork - The Copy-Paste APT. Retrieved August 3, 2016.",
+                    "source_name": "Cymmetria Patchwork"
                 }
             ],
             "object_marking_refs": [

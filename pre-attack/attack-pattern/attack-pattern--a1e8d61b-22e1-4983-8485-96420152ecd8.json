@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6da9bdcf-61a9-4724-ad84-be56dae4f931",
+    "id": "bundle--148c6c9b-b621-43b5-a6b1-3057911c5055",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--a1e8d61b-22e1-4983-8485-96420152ecd8",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Analyze hardware/software security defensive capabilities",
-            "description": "An adversary can probe a victim's network to determine configurations. The configurations may provide opportunities to route traffic through the network in an undetected or less detectable way. (Citation: OSFingerprinting2014)\n\nDetectable by Common Defenses: No\n\nDetectable by Common Defenses explanation: This can be done offline after the data has been collected.\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: Analyze network traffic to determine security filtering policies, packets dropped, etc.",
+            "description": "An adversary can probe a victim's network to determine configurations. The configurations may provide opportunities to route traffic through the network in an undetected or less detectable way. (Citation: OSFingerprinting2014)",
             "kill_chain_phases": [
                 {
                     "phase_name": "technical-weakness-identification",
@@ -20,12 +20,12 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1071",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1071"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1071",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "OSFingerprinting2014",
-                    "description": "InfoSec Institute. (2014, June 19). What You Must Know About OS Fingerprinting. Retrieved March 1, 2017."
+                    "description": "InfoSec Institute. (2014, June 19). What You Must Know About OS Fingerprinting. Retrieved March 1, 2017.",
+                    "source_name": "OSFingerprinting2014"
                 }
             ],
             "object_marking_refs": [

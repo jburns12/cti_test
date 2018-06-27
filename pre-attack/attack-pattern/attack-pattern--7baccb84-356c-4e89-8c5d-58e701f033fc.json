@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--acda0f2b-a346-4d4d-ab04-2f49a6acac37",
+    "id": "bundle--14ff878d-6da6-4d13-ae47-911bef508fa2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--7baccb84-356c-4e89-8c5d-58e701f033fc",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Analyze organizational skillsets and deficiencies",
-            "description": "Analyze strengths and weaknesses of the target for potential areas of where to focus compromise efforts. (Citation: FakeLinkedIn)\n\nDetectable by Common Defenses: No\n\nDetectable by Common Defenses explanation: This can be done offline after the data has been collected.\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: Analyze strengths and weaknesses of the target for potential areas of where to focus compromise efforts.",
+            "description": "Analyze strengths and weaknesses of the target for potential areas of where to focus compromise efforts. (Citation: FakeLinkedIn)",
             "kill_chain_phases": [
                 {
                     "phase_name": "organizational-weakness-identification",
@@ -20,12 +20,12 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1077",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1077"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1077",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "FakeLinkedIn",
-                    "description": "LIFARS. (2015, October 8). Hackers Fake LinkedIn Profiles to Scout Targets. Retrieved March 5, 2017."
+                    "description": "LIFARS. (2015, October 8). Hackers Fake LinkedIn Profiles to Scout Targets. Retrieved March 5, 2017.",
+                    "source_name": "FakeLinkedIn"
                 }
             ],
             "object_marking_refs": [

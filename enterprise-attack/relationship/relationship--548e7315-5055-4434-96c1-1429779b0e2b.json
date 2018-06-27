@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--098fbe81-b31e-485d-9c1c-ff7673698a95",
+    "id": "bundle--5f55a9b5-2e7a-4459-ac15-51f5a543e94d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--548e7315-5055-4434-96c1-1429779b0e2b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Pisloader has a command to collect the victim's IP address.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Pisloader has a command to collect the victim's IP address. (Citation: Palo Alto DNS Requests)",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2016/05/unit42-new-wekby-attacks-use-dns-requests-as-command-and-control-mechanism/",
-                    "source_name": "Palo Alto DNS Requests",
-                    "description": "Grunzweig, J., et al. (2016, May 24). New Wekby Attacks Use DNS Requests As Command and Control Mechanism. Retrieved August 17, 2016."
+                    "description": "Grunzweig, J., et al. (2016, May 24). New Wekby Attacks Use DNS Requests As Command and Control Mechanism. Retrieved August 17, 2016.",
+                    "source_name": "Palo Alto DNS Requests"
                 }
             ],
             "object_marking_refs": [

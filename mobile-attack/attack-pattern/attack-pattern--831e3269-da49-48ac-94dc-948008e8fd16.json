@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fd36eedf-9184-4bec-92bd-8e825fe176f9",
+    "id": "bundle--07a51f45-ecc7-42f0-bf90-9c17261a055d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--831e3269-da49-48ac-94dc-948008e8fd16",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-10-25T14:48:34.830Z",
-            "modified": "2018-04-13T17:05:30.756Z",
+            "modified": "2018-06-18T15:59:03.864Z",
             "name": "Remotely Install Application",
-            "description": "An adversary with control of a target's Google account can use the Google Play Store's remote installation capability to install apps onto the Android devices associated with the Google account as described in  (Citation: Oberheide-RemoteInstall),  (Citation: Konoth). However, only applications that are available for download through the Google Play Store can be remotely installed using this technique.\n\nDetection: An EMM/MDM or mobile threat protection solution can identify the presence of unwanted or known insecure or malicious apps on devices.\n\nPlatforms: Android",
+            "description": "An adversary with control of a target's Google account can use the Google Play Store's remote installation capability to install apps onto the Android devices associated with the Google account as described in  (Citation: Oberheide-RemoteInstall),  (Citation: Konoth). However, only applications that are available for download through the Google Play Store can be remotely installed using this technique.",
             "kill_chain_phases": [
                 {
                     "phase_name": "app-delivery-via-authorized-app-store",
@@ -20,28 +20,29 @@
             "external_references": [
                 {
                     "external_id": "MOB-T1046",
-                    "source_name": "mitre-mobile-attack",
-                    "url": "https://attack.mitre.org/mobile/index.php/Technique/MOB-T1046"
+                    "url": "https://attack.mitre.org/mobile/index.php/Technique/MOB-T1046",
+                    "source_name": "mitre-mobile-attack"
                 },
                 {
+                    "external_id": "ECO-4",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/ecosystem-threats/ECO-4.html",
-                    "source_name": "NIST Mobile Threat Catalogue",
-                    "external_id": "ECO-4"
+                    "source_name": "NIST Mobile Threat Catalogue"
                 },
                 {
                     "url": "https://jon.oberheide.org/blog/2010/06/25/remote-kill-and-install-on-google-android/",
-                    "source_name": "Oberheide-RemoteInstall",
-                    "description": "Jon Oberheide. (2010, June 25). Remote Kill and Install on Google Android. Retrieved December 12, 2016."
+                    "description": "Jon Oberheide. (2010, June 25). Remote Kill and Install on Google Android. Retrieved December 12, 2016.",
+                    "source_name": "Oberheide-RemoteInstall"
                 },
                 {
                     "url": "http://www.vvdveen.com/publications/BAndroid.pdf",
-                    "source_name": "Konoth",
-                    "description": "Radhesh Krishnan Konoth, Victor van der Veen, and Herbert Bos. (n.d.). How Anywhere Computing Just Killed Your Phone-Based Two-Factor Authentication. Retrieved December 12, 2016."
+                    "description": "Radhesh Krishnan Konoth, Victor van der Veen, and Herbert Bos. (n.d.). How Anywhere Computing Just Killed Your Phone-Based Two-Factor Authentication. Retrieved December 12, 2016.",
+                    "source_name": "Konoth"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "An EMM/MDM or mobile threat protection solution can identify the presence of unwanted or known insecure or malicious apps on devices.",
             "x_mitre_platforms": [
                 "Android"
             ]

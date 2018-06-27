@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5f2789b3-dbab-4d04-ad4d-d910fde5ef8f",
+    "id": "bundle--02d99a99-b627-4ac0-8055-69ed278382a9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--6dc0543b-1a60-4e9a-9527-595220854f53",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Cobalt Strike can recover hashed passwords.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Cobalt Strike can recover hashed passwords. (Citation: cobaltstrike manual)",
             "external_references": [
                 {
                     "url": "https://cobaltstrike.com/downloads/csmanual38.pdf",
-                    "source_name": "cobaltstrike manual",
-                    "description": "Strategic Cyber LLC. (2017, March 14). Cobalt Strike Manual. Retrieved May 24, 2017."
+                    "description": "Strategic Cyber LLC. (2017, March 14). Cobalt Strike Manual. Retrieved May 24, 2017.",
+                    "source_name": "cobaltstrike manual"
                 }
             ],
             "object_marking_refs": [

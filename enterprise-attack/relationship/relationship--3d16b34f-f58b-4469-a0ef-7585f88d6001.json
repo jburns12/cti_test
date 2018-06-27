@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ce442537-bd9b-4294-814c-76151c0475d4",
+    "id": "bundle--daf7e118-a50f-461a-9f87-f5bb29eab776",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--3d16b34f-f58b-4469-a0ef-7585f88d6001",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "If a victim meets certain criteria, T9000 uses the AppInit_DLL functionality to achieve persistence by ensuring that every user mode process that is spawned will load its malicious DLL, ResN32.dll. It does this by creating the following Registry keys: <code>HKLM\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Windows\\AppInit_DLLs \u2013 %APPDATA%\\Intel\\ResN32.dll</code> and <code>HKLM\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Windows\\LoadAppInit_DLLs \u2013 0x1</code>.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "If a victim meets certain criteria, T9000 uses the AppInit_DLL functionality to achieve persistence by ensuring that every user mode process that is spawned will load its malicious DLL, ResN32.dll. It does this by creating the following Registry keys: <code>HKLM\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Windows\\AppInit_DLLs \u2013 %APPDATA%\\Intel\\ResN32.dll</code> and <code>HKLM\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Windows\\LoadAppInit_DLLs \u2013 0x1</code>. (Citation: Palo Alto T9000 Feb 2016)",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2016/02/t9000-advanced-modular-backdoor-uses-complex-anti-analysis-techniques/",
-                    "source_name": "Palo Alto T9000 Feb 2016",
-                    "description": "Grunzweig, J. and Miller-Osborn, J.. (2016, February 4). T9000: Advanced Modular Backdoor Uses Complex Anti-Analysis Techniques. Retrieved April 15, 2016."
+                    "description": "Grunzweig, J. and Miller-Osborn, J.. (2016, February 4). T9000: Advanced Modular Backdoor Uses Complex Anti-Analysis Techniques. Retrieved April 15, 2016.",
+                    "source_name": "Palo Alto T9000 Feb 2016"
                 }
             ],
             "object_marking_refs": [

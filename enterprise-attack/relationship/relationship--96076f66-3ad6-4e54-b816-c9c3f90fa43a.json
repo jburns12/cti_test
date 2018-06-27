@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--873e4594-449a-43f3-92ae-b5c7127aeeb4",
+    "id": "bundle--1cf1c0ec-7187-4af2-8e29-fe9ac1b6384f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--96076f66-3ad6-4e54-b816-c9c3f90fa43a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "The Ixeshe malware uses custom Base64 encoding schemes to obfuscate data command and control traffic in the message body of HTTP requests.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "The Ixeshe malware uses custom Base64 encoding schemes to obfuscate data command and control traffic in the message body of HTTP requests. (Citation: Moran 2013)",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2013/08/survival-of-the-fittest-new-york-times-attackers-evolve-quickly.html",
-                    "source_name": "Moran 2013",
-                    "description": "Moran, N., & Villeneuve, N. (2013, August 12). Survival of the Fittest: New York Times Attackers Evolve Quickly &#91;Blog&#93;. Retrieved November 12, 2014."
+                    "description": "Moran, N., & Villeneuve, N. (2013, August 12). Survival of the Fittest: New York Times Attackers Evolve Quickly &#91;Blog&#93;. Retrieved November 12, 2014.",
+                    "source_name": "Moran 2013"
                 }
             ],
             "object_marking_refs": [

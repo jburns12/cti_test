@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f9dfb5b7-d28a-4c31-8547-71221bc1c801",
+    "id": "bundle--80ccd2df-a2e5-4f25-b52a-0e634c363440",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--84f88ed3-28fe-4936-8ea2-2d4f6d015c0c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "ZeroT has retrieved stage 2 payloads as Bitmap images that use Least Significant Bit (LSB) steganography.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "ZeroT has retrieved stage 2 payloads as Bitmap images that use Least Significant Bit (LSB) steganography. (Citation: Proofpoint TA459 April 2017) (Citation: Proofpoint ZeroT Feb 2017)",
             "external_references": [
                 {
                     "url": "https://www.proofpoint.com/us/threat-insight/post/apt-targets-financial-analysts",
-                    "source_name": "Proofpoint TA459 April 2017",
-                    "description": "Axel F. (2017, April 27). APT Targets Financial Analysts with CVE-2017-0199. Retrieved February 15, 2018."
+                    "description": "Axel F. (2017, April 27). APT Targets Financial Analysts with CVE-2017-0199. Retrieved February 15, 2018.",
+                    "source_name": "Proofpoint TA459 April 2017"
                 },
                 {
                     "url": "https://www.proofpoint.com/us/threat-insight/post/APT-targets-russia-belarus-zerot-plugx",
-                    "source_name": "Proofpoint ZeroT Feb 2017",
-                    "description": "Huss, D., et al. (2017, February 2). Oops, they did it again: APT Targets Russia and Belarus with ZeroT and PlugX. Retrieved April 5, 2018."
+                    "description": "Huss, D., et al. (2017, February 2). Oops, they did it again: APT Targets Russia and Belarus with ZeroT and PlugX. Retrieved April 5, 2018.",
+                    "source_name": "Proofpoint ZeroT Feb 2017"
                 }
             ],
             "object_marking_refs": [

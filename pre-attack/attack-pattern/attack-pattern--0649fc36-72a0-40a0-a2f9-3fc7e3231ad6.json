@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a3871941-cd64-4448-905a-213fb6dc4ae6",
+    "id": "bundle--dba233ea-796d-4716-bd20-63daf84159f4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--0649fc36-72a0-40a0-a2f9-3fc7e3231ad6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Test callback functionality",
-            "description": "Callbacks are malware communications seeking instructions. An adversary will test their malware to ensure the appropriate instructions are conveyed and the callback software can be reached. (Citation: LeeBeaconing)\n\nDetectable by Common Defenses: No\n\nDetectable by Common Defenses explanation: Adversary controls the test and defender likely has no visibility.\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: Adversary controls or acquires all pieces of infrastructure and can test outside of defender's visibility.",
+            "description": "Callbacks are malware communications seeking instructions. An adversary will test their malware to ensure the appropriate instructions are conveyed and the callback software can be reached. (Citation: LeeBeaconing)",
             "kill_chain_phases": [
                 {
                     "phase_name": "test-capabilities",
@@ -20,12 +20,12 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1133",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1133"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1133",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "LeeBeaconing",
-                    "description": "Tony Lee. (2012, December 11). Testing Your Defenses - Beaconing. Retrieved March 9, 2017."
+                    "description": "Tony Lee. (2012, December 11). Testing Your Defenses - Beaconing. Retrieved March 9, 2017.",
+                    "source_name": "LeeBeaconing"
                 }
             ],
             "object_marking_refs": [

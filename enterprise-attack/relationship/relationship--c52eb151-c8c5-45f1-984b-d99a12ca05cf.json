@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d8e9187c-1093-46a6-8c0f-439ac94503e5",
+    "id": "bundle--52cb2fdd-cda2-4c3e-ad4e-a311a4fb224f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--c52eb151-c8c5-45f1-984b-d99a12ca05cf",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Derusbi binds to a raw socket on a random source port between 31800 and 31900 for C2.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Derusbi binds to a raw socket on a random source port between 31800 and 31900 for C2. (Citation: Fidelis Turbo)",
             "external_references": [
                 {
                     "url": "https://www.fidelissecurity.com/sites/default/files/TA%20Fidelis%20Turbo%201602%200.pdf",
-                    "source_name": "Fidelis Turbo",
-                    "description": "Fidelis Cybersecurity. (2016, February 29). The Turbo Campaign, Featuring Derusbi for 64-bit Linux. Retrieved March 2, 2016."
+                    "description": "Fidelis Cybersecurity. (2016, February 29). The Turbo Campaign, Featuring Derusbi for 64-bit Linux. Retrieved March 2, 2016.",
+                    "source_name": "Fidelis Turbo"
                 }
             ],
             "object_marking_refs": [

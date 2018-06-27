@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--79e1f9ab-95ac-4ea7-b07a-1399684c4f06",
+    "id": "bundle--78c51701-05ef-4626-8e7b-1b24c90d9c00",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--ae370b88-fd93-4803-a154-aa3debf2327b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "httpclient opens cmd.exe on the victim.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "httpclient opens cmd.exe on the victim. (Citation: CrowdStrike Putter Panda)",
             "external_references": [
                 {
                     "url": "http://cdn0.vox-cdn.com/assets/4589853/crowdstrike-intelligence-report-putter-panda.original.pdf",
-                    "source_name": "CrowdStrike Putter Panda",
-                    "description": "Crowdstrike Global Intelligence Team. (2014, June 9). CrowdStrike Intelligence Report: Putter Panda. Retrieved January 22, 2016."
+                    "description": "Crowdstrike Global Intelligence Team. (2014, June 9). CrowdStrike Intelligence Report: Putter Panda. Retrieved January 22, 2016.",
+                    "source_name": "CrowdStrike Putter Panda"
                 }
             ],
             "object_marking_refs": [

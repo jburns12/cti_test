@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--12f50061-79e0-43e3-b5ff-1dad59d605a4",
+    "id": "bundle--727e7661-9658-488a-b425-ea46e212c64b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--11a7431f-416f-48de-a3c0-8782abdede63",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "When it first starts, BADNEWS crawls the victim's local drives and collects documents with the following extensions: .doc, .docx, .pdf, .ppt, .pptx, and .txt.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "When it first starts, BADNEWS crawls the victim's local drives and collects documents with the following extensions: .doc, .docx, .pdf, .ppt, .pptx, and .txt. (Citation: Forcepoint Monsoon) (Citation: PaloAlto Patchwork Mar 2018)",
             "external_references": [
                 {
                     "url": "https://www.forcepoint.com/sites/default/files/resources/files/forcepoint-security-labs-monsoon-analysis-report.pdf",
-                    "source_name": "Forcepoint Monsoon",
-                    "description": "Settle, A., et al. (2016, August 8). MONSOON - Analysis Of An APT Campaign. Retrieved September 22, 2016."
+                    "description": "Settle, A., et al. (2016, August 8). MONSOON - Analysis Of An APT Campaign. Retrieved September 22, 2016.",
+                    "source_name": "Forcepoint Monsoon"
                 },
                 {
                     "url": "https://researchcenter.paloaltonetworks.com/2018/03/unit42-patchwork-continues-deliver-badnews-indian-subcontinent/",
-                    "source_name": "PaloAlto Patchwork Mar 2018",
-                    "description": "Levene, B. et al.. (2018, March 7). Patchwork Continues to Deliver BADNEWS to the Indian Subcontinent. Retrieved March 31, 2018."
+                    "description": "Levene, B. et al.. (2018, March 7). Patchwork Continues to Deliver BADNEWS to the Indian Subcontinent. Retrieved March 31, 2018.",
+                    "source_name": "PaloAlto Patchwork Mar 2018"
                 }
             ],
             "object_marking_refs": [

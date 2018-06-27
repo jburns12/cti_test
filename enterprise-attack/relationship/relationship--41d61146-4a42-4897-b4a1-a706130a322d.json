@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1bfb4fe8-a2b8-438f-8457-f4edbe68b369",
+    "id": "bundle--4b0aa248-9371-46f3-9b97-d33d03a13e3b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--41d61146-4a42-4897-b4a1-a706130a322d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.056Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "An APT3 downloader uses the Windows command <code>\"cmd.exe\" /C whoami</code>. The group also uses a tool to execute commands on remote computers.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "An APT3 downloader uses the Windows command <code>\"cmd.exe\" /C whoami</code>. (Citation: FireEye Operation Double Tap) The group also uses a tool to execute commands on remote computers. (Citation: Symantec Buckeye)",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2014/11/operation%20doubletap.html",
-                    "source_name": "FireEye Operation Double Tap",
-                    "description": "Moran, N., et al. (2014, November 21). Operation Double Tap. Retrieved January 14, 2016."
+                    "description": "Moran, N., et al. (2014, November 21). Operation Double Tap. Retrieved January 14, 2016.",
+                    "source_name": "FireEye Operation Double Tap"
                 },
                 {
                     "url": "http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
-                    "source_name": "Symantec Buckeye",
-                    "description": "Symantec Security Response. (2016, September 6). Buckeye cyberespionage group shifts gaze from US to Hong Kong. Retrieved September 26, 2016."
+                    "description": "Symantec Security Response. (2016, September 6). Buckeye cyberespionage group shifts gaze from US to Hong Kong. Retrieved September 26, 2016.",
+                    "source_name": "Symantec Buckeye"
                 }
             ],
             "object_marking_refs": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e2ab85a7-d3d8-4f6b-8f83-f8ba03de482c",
+    "id": "bundle--f2e06a9e-7014-4db7-8770-6b7c3c9397e3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--fddd81e9-dd3d-477e-9773-4fb8ae227234",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Create custom payloads",
-            "description": "A payload is the part of the malware which performs a malicious action. The adversary may create custom payloads when none exist with the needed capability or when targeting a specific environment. (Citation: APT1)\n\nDetectable by Common Defenses: No\n\nDetectable by Common Defenses explanation: It is likely that an adversary will create and develop payloads on inaccessible or unknown networks for OPSEC reasons.\n\nDifficulty for the Adversary: No\n\nDifficulty for the Adversary explanation: Specialized tools exist for research, development, and testing of virus/malware payloads.",
+            "description": "A payload is the part of the malware which performs a malicious action. The adversary may create custom payloads when none exist with the needed capability or when targeting a specific environment. (Citation: APT1)",
             "kill_chain_phases": [
                 {
                     "phase_name": "build-capabilities",
@@ -20,12 +20,12 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1122",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1122"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1122",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "APT1",
-                    "description": "Mandiant. (n.d.). APT1: Exposing One of China\u2019s Cyber Espionage Units. Retrieved March 5, 2017."
+                    "description": "Mandiant. (n.d.). APT1: Exposing One of China\u2019s Cyber Espionage Units. Retrieved March 5, 2017.",
+                    "source_name": "APT1"
                 }
             ],
             "object_marking_refs": [

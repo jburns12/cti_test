@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--72c743ae-cde0-4bcf-b545-a7de60873849",
+    "id": "bundle--943bd824-ec3d-4eef-86b6-66dc7f19fbea",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--921c2a85-eab7-4cfc-9ac5-98a463262c17",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "An APT28 macro uses the command <code>certutil -decode</code> to decode contents of a .txt file storing the base64 encoded payload.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "An APT28 macro uses the command <code>certutil -decode</code> to decode contents of a .txt file storing the base64 encoded payload. (Citation: Unit 42 Sofacy Feb 2018)",
             "external_references": [
                 {
                     "url": "https://researchcenter.paloaltonetworks.com/2018/02/unit42-sofacy-attacks-multiple-government-entities/",
-                    "source_name": "Unit 42 Sofacy Feb 2018",
-                    "description": "Lee, B, et al. (2018, February 28). Sofacy Attacks Multiple Government Entities. Retrieved March 15, 2018."
+                    "description": "Lee, B, et al. (2018, February 28). Sofacy Attacks Multiple Government Entities. Retrieved March 15, 2018.",
+                    "source_name": "Unit 42 Sofacy Feb 2018"
                 }
             ],
             "object_marking_refs": [

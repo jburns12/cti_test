@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--997777a8-7130-499d-89f9-9ec5a8b25c66",
+    "id": "bundle--886757b3-c37b-4ce4-ad67-d179ab8805c7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--350e9dad-4dd3-450f-b649-60340710505a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "menuPass has attempted to get victims to open malicious files sent via email as part of spearphishing campaigns.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "menuPass has attempted to get victims to open malicious files sent via email as part of spearphishing campaigns. (Citation: PWC Cloud Hopper Technical Annex April 2017) (Citation: FireEye APT10 April 2017)",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/04/apt10%20menupass%20grou.html",
-                    "source_name": "FireEye APT10 April 2017",
-                    "description": "FireEye iSIGHT Intelligence. (2017, April 6). APT10 (MenuPass Group): New Tools, Global Campaign Latest Manifestation of Longstanding Threat. Retrieved June 29, 2017."
+                    "description": "FireEye iSIGHT Intelligence. (2017, April 6). APT10 (MenuPass Group): New Tools, Global Campaign Latest Manifestation of Longstanding Threat. Retrieved June 29, 2017.",
+                    "source_name": "FireEye APT10 April 2017"
                 },
                 {
                     "url": "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-annex-b-final.pdf",
-                    "source_name": "PWC Cloud Hopper Technical Annex April 2017",
-                    "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017."
+                    "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.",
+                    "source_name": "PWC Cloud Hopper Technical Annex April 2017"
                 }
             ],
             "object_marking_refs": [

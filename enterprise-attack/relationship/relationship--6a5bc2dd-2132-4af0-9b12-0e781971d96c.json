@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0d9d96de-5de9-4ebc-bb29-631447c7306b",
+    "id": "bundle--44ccd45e-1aa0-46dc-bf67-3ca0ca7965f2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--6a5bc2dd-2132-4af0-9b12-0e781971d96c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.076Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Patchwork scanned the \u201cProgram Files\u201d directories for a directory with the string \u201cTotal Security\u201d (the installation path of the \u201c360 Total Security\u201d antivirus tool).",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Patchwork scanned the \u201cProgram Files\u201d directories for a directory with the string \u201cTotal Security\u201d (the installation path of the \u201c360 Total Security\u201d antivirus tool). (Citation: Cymmetria Patchwork)",
             "external_references": [
                 {
                     "url": "https://s3-us-west-2.amazonaws.com/cymmetria-blog/public/Unveiling%20Patchwork.pdf",
-                    "source_name": "Cymmetria Patchwork",
-                    "description": "Cymmetria. (2016). Unveiling Patchwork - The Copy-Paste APT. Retrieved August 3, 2016."
+                    "description": "Cymmetria. (2016). Unveiling Patchwork - The Copy-Paste APT. Retrieved August 3, 2016.",
+                    "source_name": "Cymmetria Patchwork"
                 }
             ],
             "object_marking_refs": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e91ecd4b-7a26-44ac-ad0e-26e5ffee5c45",
+    "id": "bundle--6f64e39f-6f53-42a0-a162-1329eb14a750",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--1b51b49a-1f3a-4b5d-aea3-989e9ccb72ad",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Cobalt Strike can execute a payload on a remote host with PowerShell.  This technique does write any data to disk.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Cobalt Strike can execute a payload on a remote host with PowerShell. This technique does write any data to disk. (Citation: cobaltstrike manual)",
             "external_references": [
                 {
                     "url": "https://cobaltstrike.com/downloads/csmanual38.pdf",
-                    "source_name": "cobaltstrike manual",
-                    "description": "Strategic Cyber LLC. (2017, March 14). Cobalt Strike Manual. Retrieved May 24, 2017."
+                    "description": "Strategic Cyber LLC. (2017, March 14). Cobalt Strike Manual. Retrieved May 24, 2017.",
+                    "source_name": "cobaltstrike manual"
                 }
             ],
             "object_marking_refs": [

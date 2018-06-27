@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1df1b9e3-441f-46a4-b0e4-dbf356ab0f52",
+    "id": "bundle--b686f2b1-6af9-4c86-862b-61c2e5a09876",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--1ce50a6a-5f0b-40ca-9a71-41369ae3fdcd",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Remsec can exfiltrate data via a DNS tunnel or email, separately from its C2 channel.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Remsec can exfiltrate data via a DNS tunnel or email, separately from its C2 channel. (Citation: Kaspersky ProjectSauron Full Report)",
             "external_references": [
                 {
                     "url": "https://securelist.com/files/2016/07/The-ProjectSauron-APT%20research%20KL.pdf",
-                    "source_name": "Kaspersky ProjectSauron Full Report",
-                    "description": "Kaspersky Lab's Global Research & Analysis Team. (2016, August 9). The ProjectSauron APT. Retrieved August 17, 2016."
+                    "description": "Kaspersky Lab's Global Research & Analysis Team. (2016, August 9). The ProjectSauron APT. Retrieved August 17, 2016.",
+                    "source_name": "Kaspersky ProjectSauron Full Report"
                 }
             ],
             "object_marking_refs": [

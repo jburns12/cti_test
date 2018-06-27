@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--839ba136-a4dd-4667-8784-58bc9f536262",
+    "id": "bundle--21db8e66-9817-45d5-993e-f448d017cdd3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,23 +8,23 @@
             "id": "relationship--b7930db8-2cb9-4ecf-b3d3-7425f99140d8",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Mimikatz performs credential dumping to obtain account and password information useful in gaining access to additional systems and enterprise network resources. It contains functionality to acquire information about credentials in many ways, including from the LSA, SAM table, credential vault, DCSync/NetSync, and DPAPI.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Mimikatz performs credential dumping to obtain account and password information useful in gaining access to additional systems and enterprise network resources. It contains functionality to acquire information about credentials in many ways, including from the LSA, SAM table, credential vault, DCSync/NetSync, and DPAPI. (Citation: Deply Mimikatz) (Citation: GitHub Mimikatz lsadump Module) (Citation: Directory Services Internals DPAPI Backup Keys Oct 2015)",
             "external_references": [
                 {
                     "url": "https://github.com/gentilkiwi/mimikatz",
-                    "source_name": "Deply Mimikatz",
-                    "description": "Deply, B. (n.d.). Mimikatz. Retrieved September 29, 2015."
+                    "description": "Deply, B. (n.d.). Mimikatz. Retrieved September 29, 2015.",
+                    "source_name": "Deply Mimikatz"
                 },
                 {
                     "url": "https://github.com/gentilkiwi/mimikatz/wiki/module-~-lsadump",
-                    "source_name": "GitHub Mimikatz lsadump Module",
-                    "description": "Deply, B., Le Toux, V. (2016, June 5). module ~ lsadump. Retrieved August 7, 2017."
+                    "description": "Deply, B., Le Toux, V. (2016, June 5). module ~ lsadump. Retrieved August 7, 2017.",
+                    "source_name": "GitHub Mimikatz lsadump Module"
                 },
                 {
                     "url": "https://www.dsinternals.com/en/retrieving-dpapi-backup-keys-from-active-directory/",
-                    "source_name": "Directory Services Internals DPAPI Backup Keys Oct 2015",
-                    "description": "Grafnetter, M. (2015, October 26). Retrieving DPAPI Backup Keys from Active Directory. Retrieved December 19, 2017."
+                    "description": "Grafnetter, M. (2015, October 26). Retrieving DPAPI Backup Keys from Active Directory. Retrieved December 19, 2017.",
+                    "source_name": "Directory Services Internals DPAPI Backup Keys Oct 2015"
                 }
             ],
             "object_marking_refs": [

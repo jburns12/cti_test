@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0bf822c4-c647-4547-bd37-fc35d9dec648",
+    "id": "bundle--207032d8-cffe-4327-9b1f-f727abab61e5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--271e6d40-e191-421a-8f87-a8102452c201",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Develop social network persona digital footprint",
-            "description": "Both newly built personas and pre-compromised personas may require development of additional documentation to make them seem real. This could include filling out profile information, developing social networks, or incorporating photos. (Citation: NEWSCASTER2014) (Citation: BlackHatRobinSage) (Citation: RobinSageInterview)\n\nDetectable by Common Defenses: No\n\nDetectable by Common Defenses explanation: Unless there is some threat intelligence reporting, these users are hard to differentiate.\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: The only difference between an adversary conducting this technique and a typical user, is the adversary's intent - to target an individual for compromise.",
+            "description": "Both newly built personas and pre-compromised personas may require development of additional documentation to make them seem real. This could include filling out profile information, developing social networks, or incorporating photos. (Citation: NEWSCASTER2014) (Citation: BlackHatRobinSage) (Citation: RobinSageInterview)",
             "kill_chain_phases": [
                 {
                     "phase_name": "persona-development",
@@ -20,20 +20,20 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1119",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1119"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1119",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "NEWSCASTER2014",
-                    "description": "Mike Lennon. (2014, May 29). Iranian Hackers Targeted US Officials in Elaborate Social Media Attack Operation. Retrieved March 1, 2017."
+                    "description": "Mike Lennon. (2014, May 29). Iranian Hackers Targeted US Officials in Elaborate Social Media Attack Operation. Retrieved March 1, 2017.",
+                    "source_name": "NEWSCASTER2014"
                 },
                 {
-                    "source_name": "BlackHatRobinSage",
-                    "description": "Thomas Ryan. (2010). \u201cGetting In Bed with Robin Sage.\u201d. Retrieved March 6, 2017."
+                    "description": "Thomas Ryan. (2010). \u201cGetting In Bed with Robin Sage.\u201d. Retrieved March 6, 2017.",
+                    "source_name": "BlackHatRobinSage"
                 },
                 {
-                    "source_name": "RobinSageInterview",
-                    "description": "Joan Goodchild. (2010, July 8). The Robin Sage experiment: Fake profile fools security pros. Retrieved March 6, 2017."
+                    "description": "Joan Goodchild. (2010, July 8). The Robin Sage experiment: Fake profile fools security pros. Retrieved March 6, 2017.",
+                    "source_name": "RobinSageInterview"
                 }
             ],
             "object_marking_refs": [

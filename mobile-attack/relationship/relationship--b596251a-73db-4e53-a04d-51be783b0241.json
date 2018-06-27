@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c44f297d-c112-4e2b-a44e-8454da7f6f19",
+    "id": "bundle--3eb9d84b-b1e6-485b-826c-b1cd09c30492",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--b596251a-73db-4e53-a04d-51be783b0241",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "On jailbroken iOS devices, \"[m]ost KeyRaider samples hook SSLRead and SSLWrite functions in the itunesstored process\" to intercept device communication with the Apple App Store and search \"for specific patterns to find the Apple account's username, password and device's GUID in the data being transferred\".",
+            "modified": "2018-06-18T15:59:03.864Z",
+            "description": "On jailbroken iOS devices, \"[m]ost KeyRaider samples hook SSLRead and SSLWrite functions in the itunesstored process\" to intercept device communication with the Apple App Store and search \"for specific patterns to find the Apple account's username, password and device's GUID in the data being transferred\". (Citation: KeyRaider)",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2015/08/keyraider-ios-malware-steals-over-225000-apple-accounts-to-create-free-app-utopia/",
-                    "source_name": "KeyRaider",
-                    "description": "Claud Xiao. (2015, August 30). KeyRaider: iOS Malware Steals Over 225,000 Apple Accounts to Create Free App Utopia. Retrieved December 12, 2016."
+                    "description": "Claud Xiao. (2015, August 30). KeyRaider: iOS Malware Steals Over 225,000 Apple Accounts to Create Free App Utopia. Retrieved December 12, 2016.",
+                    "source_name": "KeyRaider"
                 }
             ],
             "object_marking_refs": [

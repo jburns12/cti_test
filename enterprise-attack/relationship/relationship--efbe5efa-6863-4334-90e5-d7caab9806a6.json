@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--db9b24de-db4e-460b-939e-c9b48dae5f32",
+    "id": "bundle--359bd298-a4ae-48e9-808d-e9347f5d2569",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--efbe5efa-6863-4334-90e5-d7caab9806a6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.073Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Stealth Falcon malware gathers system information via WMI, including the system directory, build number, serial number, version, manufacturer, model, and total physical memory.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Stealth Falcon malware gathers system information via WMI, including the system directory, build number, serial number, version, manufacturer, model, and total physical memory. (Citation: Citizen Lab Stealth Falcon May 2016)",
             "external_references": [
                 {
                     "url": "https://citizenlab.org/2016/05/stealth-falcon/",
-                    "source_name": "Citizen Lab Stealth Falcon May 2016",
-                    "description": "Marczak, B. and Scott-Railton, J.. (2016, May 29). Keep Calm and (Don\u2019t) Enable Macros: A New Threat Actor Targets UAE Dissidents. Retrieved June 8, 2016."
+                    "description": "Marczak, B. and Scott-Railton, J.. (2016, May 29). Keep Calm and (Don\u2019t) Enable Macros: A New Threat Actor Targets UAE Dissidents. Retrieved June 8, 2016.",
+                    "source_name": "Citizen Lab Stealth Falcon May 2016"
                 }
             ],
             "object_marking_refs": [

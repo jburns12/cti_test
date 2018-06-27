@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9ec7eb86-eb19-494a-bbe1-1793e3c59541",
+    "id": "bundle--8dee669f-2bd5-4ce4-b047-aac807612964",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--92e35558-f915-4357-b397-3cc7a0412b92",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "creates a backdoor through which remote attackers can retrieve a list of running processes.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "creates a backdoor through which remote attackers can retrieve a list of running processes. (Citation: Symantec Linfo May 2012)",
             "external_references": [
                 {
                     "url": "https://www.symantec.com/security%20response/writeup.jsp?docid=2012-051605-2535-99",
-                    "source_name": "Symantec Linfo May 2012",
-                    "description": "Zhou, R. (2012, May 15). Backdoor.Linfo. Retrieved February 23, 2018."
+                    "description": "Zhou, R. (2012, May 15). Backdoor.Linfo. Retrieved February 23, 2018.",
+                    "source_name": "Symantec Linfo May 2012"
                 }
             ],
             "object_marking_refs": [

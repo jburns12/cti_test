@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c77b2b6c-c003-4a3b-b838-c21a0212bfdf",
+    "id": "bundle--dde327ef-18b1-4658-a42e-c1eef961d4d2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--07f83a39-8bb0-44f1-9c81-7291ba10dd03",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Gazer can establish persistence by setting the value \u201cShell\u201d with \u201cexplorer.exe, %malware_pathfile%\u201d under the Registry key <code>HKCU\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon</code>.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Gazer can establish persistence by setting the value \u201cShell\u201d with \u201cexplorer.exe, %malware_pathfile%\u201d under the Registry key <code>HKCU\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon</code>. (Citation: ESET Gazer Aug 2017)",
             "external_references": [
                 {
                     "url": "https://www.welivesecurity.com/wp-content/uploads/2017/08/eset-gazer.pdf",
-                    "source_name": "ESET Gazer Aug 2017",
-                    "description": "ESET. (2017, August). Gazing at Gazer: Turla\u2019s new second stage backdoor. Retrieved September 14, 2017."
+                    "description": "ESET. (2017, August). Gazing at Gazer: Turla\u2019s new second stage backdoor. Retrieved September 14, 2017.",
+                    "source_name": "ESET Gazer Aug 2017"
                 }
             ],
             "object_marking_refs": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--679e8799-efc8-4331-82c0-9e17ab0604fd",
+    "id": "bundle--646f935f-327c-450a-86df-b0b07a90c96e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--1c6f35f0-1169-4218-9881-7291e1765cd8",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Variants of Emissary have used rundll32.exe in Registry values added to establish persistence.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Variants of Emissary have used rundll32.exe in Registry values added to establish persistence. (Citation: Emissary Trojan Feb 2016)",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2016/02/emissary-trojan-changelog-did-operation-lotus-blossom-cause-it-to-evolve/",
-                    "source_name": "Emissary Trojan Feb 2016",
-                    "description": "Falcone, R. and Miller-Osborn, J.. (2016, February 3). Emissary Trojan Changelog: Did Operation Lotus Blossom Cause It to Evolve?. Retrieved February 15, 2016."
+                    "description": "Falcone, R. and Miller-Osborn, J.. (2016, February 3). Emissary Trojan Changelog: Did Operation Lotus Blossom Cause It to Evolve?. Retrieved February 15, 2016.",
+                    "source_name": "Emissary Trojan Feb 2016"
                 }
             ],
             "object_marking_refs": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f18abc85-d973-4370-b0db-9a45611877ad",
+    "id": "bundle--4736f893-0029-45ae-a970-5ac96ec29a95",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--af009cfc-2b1f-4c4c-8712-0c13a2884d8e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "Hydraq creates a backdoor through which remote attackers can clear all system event logs.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Hydraq creates a backdoor through which remote attackers can clear all system event logs. (Citation: Symantec Hydraq Jan 2010) (Citation: Symantec Trojan.Hydraq Jan 2010)",
             "external_references": [
                 {
                     "url": "https://www.symantec.com/connect/blogs/trojanhydraq-incident",
-                    "source_name": "Symantec Trojan.Hydraq Jan 2010",
-                    "description": "Symantec Security Response. (2010, January 18). The Trojan.Hydraq Incident. Retrieved February 20, 2018."
+                    "description": "Symantec Security Response. (2010, January 18). The Trojan.Hydraq Incident. Retrieved February 20, 2018.",
+                    "source_name": "Symantec Trojan.Hydraq Jan 2010"
                 },
                 {
                     "url": "https://www.symantec.com/security%20response/writeup.jsp?docid=2010-011114-1830-99",
-                    "source_name": "Symantec Hydraq Jan 2010",
-                    "description": "Lelli, A. (2010, January 11). Trojan.Hydraq. Retrieved February 20, 2018."
+                    "description": "Lelli, A. (2010, January 11). Trojan.Hydraq. Retrieved February 20, 2018.",
+                    "source_name": "Symantec Hydraq Jan 2010"
                 }
             ],
             "object_marking_refs": [

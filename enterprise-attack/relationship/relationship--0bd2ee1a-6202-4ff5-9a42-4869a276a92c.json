@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bd6dd67f-dfa7-4c8c-8b80-42f8ae4bb4de",
+    "id": "bundle--88d70439-3c35-4017-b4f8-082df7fe1a27",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--0bd2ee1a-6202-4ff5-9a42-4869a276a92c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "POWRUNER may collect network configuration data by running <code>ipconfig /all</code> on a victim.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "POWRUNER may collect network configuration data by running <code>ipconfig /all</code> on a victim. (Citation: FireEye APT34 Dec 2017)",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/12/targeted-attack-in-middle-east-by-apt34.html",
-                    "source_name": "FireEye APT34 Dec 2017",
-                    "description": "Sardiwal, M, et al. (2017, December 7). New Targeted Attack in the Middle East by APT34, a Suspected Iranian Threat Group, Using CVE-2017-11882 Exploit. Retrieved December 20, 2017."
+                    "description": "Sardiwal, M, et al. (2017, December 7). New Targeted Attack in the Middle East by APT34, a Suspected Iranian Threat Group, Using CVE-2017-11882 Exploit. Retrieved December 20, 2017.",
+                    "source_name": "FireEye APT34 Dec 2017"
                 }
             ],
             "object_marking_refs": [

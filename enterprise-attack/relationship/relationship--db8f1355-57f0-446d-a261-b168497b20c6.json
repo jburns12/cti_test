@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--26679718-d0cb-46e8-9cc3-db74a90f1ee4",
+    "id": "bundle--d02b8092-2ea5-4dc2-a492-c8d8fe3263b4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--db8f1355-57f0-446d-a261-b168497b20c6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "BADNEWS copies documents under 15MB found on the victim system to is the user's <code>%temp%\\SMB\\</code> folder.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "BADNEWS copies documents under 15MB found on the victim system to is the user's <code>%temp%\\SMB\\</code> folder. (Citation: Forcepoint Monsoon)",
             "external_references": [
                 {
                     "url": "https://www.forcepoint.com/sites/default/files/resources/files/forcepoint-security-labs-monsoon-analysis-report.pdf",
-                    "source_name": "Forcepoint Monsoon",
-                    "description": "Settle, A., et al. (2016, August 8). MONSOON - Analysis Of An APT Campaign. Retrieved September 22, 2016."
+                    "description": "Settle, A., et al. (2016, August 8). MONSOON - Analysis Of An APT Campaign. Retrieved September 22, 2016.",
+                    "source_name": "Forcepoint Monsoon"
                 }
             ],
             "object_marking_refs": [

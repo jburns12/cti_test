@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1ea17580-22de-4e90-a66e-4477e0c002e4",
+    "id": "bundle--40dade2d-3b1f-4850-abc0-468662108f0c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--86ebda8c-df0c-4d76-970b-27bf392606a7",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Gazer performs thread execution hijacking to inject its orchestrator into a running thread from a remote process. Gazer performs a separate injection of its communication module into an Internet accessible process through which it performs C2.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Gazer performs thread execution hijacking to inject its orchestrator into a running thread from a remote process. Gazer performs a separate injection of its communication module into an Internet accessible process through which it performs C2. (Citation: ESET Gazer Aug 2017) (Citation: Securelist WhiteBear Aug 2017)",
             "external_references": [
                 {
                     "url": "https://www.welivesecurity.com/wp-content/uploads/2017/08/eset-gazer.pdf",
-                    "source_name": "ESET Gazer Aug 2017",
-                    "description": "ESET. (2017, August). Gazing at Gazer: Turla\u2019s new second stage backdoor. Retrieved September 14, 2017."
+                    "description": "ESET. (2017, August). Gazing at Gazer: Turla\u2019s new second stage backdoor. Retrieved September 14, 2017.",
+                    "source_name": "ESET Gazer Aug 2017"
                 },
                 {
                     "url": "https://securelist.com/introducing-whitebear/81638/",
-                    "source_name": "Securelist WhiteBear Aug 2017",
-                    "description": "Kaspersky Lab's Global Research & Analysis Team. (2017, August 30). Introducing WhiteBear. Retrieved September 21, 2017."
+                    "description": "Kaspersky Lab's Global Research & Analysis Team. (2017, August 30). Introducing WhiteBear. Retrieved September 21, 2017.",
+                    "source_name": "Securelist WhiteBear Aug 2017"
                 }
             ],
             "object_marking_refs": [

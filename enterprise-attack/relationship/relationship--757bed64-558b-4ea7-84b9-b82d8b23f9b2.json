@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3454afda-f52b-41bf-94e1-1295ecc6b70a",
+    "id": "bundle--2938d92a-5489-4f4c-8f2a-aa14bf18a439",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--757bed64-558b-4ea7-84b9-b82d8b23f9b2",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.035Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "APT1 uses two utilities, GETMAIL and MAPIGET, to steal email. GETMAIL extracts emails from archived Outlook .pst files, and MAPIGET steals email still on Exchange servers that has not yet been archived.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "APT1 uses two utilities, GETMAIL and MAPIGET, to steal email. GETMAIL extracts emails from archived Outlook .pst files, and MAPIGET steals email still on Exchange servers that has not yet been archived. (Citation: Mandiant APT1)",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf",
-                    "source_name": "Mandiant APT1",
-                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016."
+                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016.",
+                    "source_name": "Mandiant APT1"
                 }
             ],
             "object_marking_refs": [

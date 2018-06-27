@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--358e47bc-812b-4fb4-bb5f-690c5821066b",
+    "id": "bundle--9d1f459b-f667-4dec-92f4-5fb773205a85",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "intrusion-set--7331c66a-5601-4d3f-acf6-ad9e3035eb40",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:32:08.304Z",
-            "modified": "2018-01-17T12:56:55.080Z",
+            "modified": "2018-06-27T14:18:47.700Z",
             "name": "Group5",
             "description": "Group5 is a threat group with a suspected Iranian nexus, though this attribution is not definite. The group has targeted individuals connected to the Syrian opposition via spearphishing and watering holes, normally using Syrian and Iranian themes. Group5 has used two commonly available remote access tools (RATs), njRAT and NanoCore, as well as an Android RAT, DroidJack. (Citation: Citizen Lab Group5)",
             "aliases": [
@@ -17,13 +17,17 @@
             "external_references": [
                 {
                     "external_id": "G0043",
-                    "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/wiki/Group/G0043"
+                    "url": "https://attack.mitre.org/wiki/Group/G0043",
+                    "source_name": "mitre-attack"
+                },
+                {
+                    "description": "[[Citation: Citizen Lab Group5]]",
+                    "source_name": "Group5"
                 },
                 {
                     "url": "https://citizenlab.org/2016/08/group5-syria/",
-                    "source_name": "Citizen Lab Group5",
-                    "description": "Scott-Railton, J., et al. (2016, August 2). Group5: Syria and the Iranian Connection. Retrieved September 26, 2016."
+                    "description": "Scott-Railton, J., et al. (2016, August 2). Group5: Syria and the Iranian Connection. Retrieved September 26, 2016.",
+                    "source_name": "Citizen Lab Group5"
                 }
             ],
             "object_marking_refs": [

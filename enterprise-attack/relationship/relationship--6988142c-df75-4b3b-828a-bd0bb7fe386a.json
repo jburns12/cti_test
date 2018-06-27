@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d16c1b5c-147e-49b5-b35b-48e53cde54c2",
+    "id": "bundle--dcd3b2e5-c6ff-4f5c-90de-04375e9c9a4b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--6988142c-df75-4b3b-828a-bd0bb7fe386a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "injects a malicious DLL into the IExplorer.exe process.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "injects a malicious DLL into the IExplorer.exe process. (Citation: Symantec Darkmoon Aug 2005)",
             "external_references": [
                 {
                     "url": "https://www.symantec.com/security%20response/writeup.jsp?docid=2005-081910-3934-99",
-                    "source_name": "Symantec Darkmoon Aug 2005",
-                    "description": "Hayashi, K. (2005, August 18). Backdoor.Darkmoon. Retrieved February 23, 2018."
+                    "description": "Hayashi, K. (2005, August 18). Backdoor.Darkmoon. Retrieved February 23, 2018.",
+                    "source_name": "Symantec Darkmoon Aug 2005"
                 }
             ],
             "object_marking_refs": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1b1c3c00-096a-4f2b-935f-49110deff082",
+    "id": "bundle--23999e6c-27dd-40b0-877a-51654cbca724",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--3d1488a6-59e6-455a-8b80-78b53edc33fe",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Obtain booter/stressor subscription",
-            "description": "Configure and setup booter/stressor services, often intended for server stress testing, to enable denial of service attacks. (Citation: Krebs-Anna) (Citation: Krebs-Booter) (Citation: Krebs-Bazaar)\n\nDetectable by Common Defenses: No\n\nDetectable by Common Defenses explanation: Purchase of booster services is not observable; potentially can trace booster service used to origin of sale, yet not before attack is executed. Furthermore, subscription does not automatically mean foul intention.\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: Easily accessible and used to launch DDoS attacks by even novice Internet users, and can be purchased from providers for a nominal fee, some of which even accept credit cards and PayPal payments to do.",
+            "description": "Configure and setup booter/stressor services, often intended for server stress testing, to enable denial of service attacks. (Citation: Krebs-Anna) (Citation: Krebs-Booter) (Citation: Krebs-Bazaar)",
             "kill_chain_phases": [
                 {
                     "phase_name": "establish-&-maintain-infrastructure",
@@ -20,20 +20,20 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1173",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1173"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1173",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "Krebs-Anna",
-                    "description": "Brian Krebs. (2017, January 18). Who is Anna-Senpai, the Mirai Worm Author?. Retrieved May 15, 2017."
+                    "description": "Brian Krebs. (2017, January 18). Who is Anna-Senpai, the Mirai Worm Author?. Retrieved May 15, 2017.",
+                    "source_name": "Krebs-Anna"
                 },
                 {
-                    "source_name": "Krebs-Booter",
-                    "description": "Brian Krebs. (2016, October 27). Are the Days of \u201cBooter\u201d Services Numbered?. Retrieved May 15, 2017."
+                    "description": "Brian Krebs. (2016, October 27). Are the Days of \u201cBooter\u201d Services Numbered?. Retrieved May 15, 2017.",
+                    "source_name": "Krebs-Booter"
                 },
                 {
-                    "source_name": "Krebs-Bazaar",
-                    "description": "Brian Krebs. (2016, October 31). Hackforums Shutters Booter Service Bazaar. Retrieved May 15, 2017."
+                    "description": "Brian Krebs. (2016, October 31). Hackforums Shutters Booter Service Bazaar. Retrieved May 15, 2017.",
+                    "source_name": "Krebs-Bazaar"
                 }
             ],
             "object_marking_refs": [

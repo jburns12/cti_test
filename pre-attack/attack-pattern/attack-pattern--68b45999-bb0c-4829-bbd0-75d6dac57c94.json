@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--146967f3-06f2-49ac-b1c5-dae5dd7a8a74",
+    "id": "bundle--eb7476a2-71cf-4f4f-a7fd-ce909d993cea",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--68b45999-bb0c-4829-bbd0-75d6dac57c94",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Obtain templates/branding materials",
-            "description": "Templates and branding materials may be used by an adversary to add authenticity to social engineering message. (Citation: Scasny2015)\n\nDetectable by Common Defenses: No\n\nDetectable by Common Defenses explanation: Adversary may download templates or branding from publicly available presentations that the defender can't monitor.\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: Some branding information is publicly available when a corporation publishes their briefings to the internet which provides insight into branding information and template materials.  An exhaustive list of templating and branding is likely not available on the internet.",
+            "description": "Templates and branding materials may be used by an adversary to add authenticity to social engineering message. (Citation: Scasny2015)",
             "kill_chain_phases": [
                 {
                     "phase_name": "organizational-information-gathering",
@@ -20,12 +20,12 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1058",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1058"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1058",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "Scasny2015",
-                    "description": "Gregory Scasny. (2015, September 14). Understanding Open Source Intelligence (OSINT) and its relationship to Identity Theft. Retrieved March 1, 2017."
+                    "description": "Gregory Scasny. (2015, September 14). Understanding Open Source Intelligence (OSINT) and its relationship to Identity Theft. Retrieved March 1, 2017.",
+                    "source_name": "Scasny2015"
                 }
             ],
             "object_marking_refs": [

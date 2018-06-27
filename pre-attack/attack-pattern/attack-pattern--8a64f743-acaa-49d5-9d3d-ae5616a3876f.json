@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4e88d494-01ce-4a4d-9726-bf0bad22c54d",
+    "id": "bundle--d4a62768-2617-4829-993d-23de5da02700",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--8a64f743-acaa-49d5-9d3d-ae5616a3876f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Exploit public-facing application",
-            "description": "This technique has been deprecated. Please see ATT&CK's Initial Access and Execution tactics for replacement techniques.\n\nThe use of software, data, or commands to take advantage of a weakness in a computer system or program in order to cause unintended or unanticipated behavior. The weakness in the system can be a bug, a glitch, or a design vulnerability. (Citation: GoogleCrawlerSQLInj)\n\nDetectable by Common Defenses: Yes\n\nDetectable by Common Defenses explanation: If the application and network are designed well, the defender should be able to utilize logging and application logic to catch and deflect SQL injection attacks.\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: Launching a SQL injection attack is not overly complex and a commonly used technique.  This technique, however, requires finding a vulnerable application.",
+            "description": "The use of software, data, or commands to take advantage of a weakness in a computer system or program in order to cause unintended or unanticipated behavior. The weakness in the system can be a bug, a glitch, or a design vulnerability. (Citation: GoogleCrawlerSQLInj)",
             "kill_chain_phases": [
                 {
                     "phase_name": "launch",
@@ -20,12 +20,12 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1154",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1154"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1154",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "GoogleCrawlerSQLInj",
-                    "description": "PETER BRIGHT. (2013, November 6). Google crawler tricked into performing SQL injection attacks using decade-old technique. Retrieved March 9, 2017."
+                    "description": "PETER BRIGHT. (2013, November 6). Google crawler tricked into performing SQL injection attacks using decade-old technique. Retrieved March 9, 2017.",
+                    "source_name": "GoogleCrawlerSQLInj"
                 }
             ],
             "object_marking_refs": [

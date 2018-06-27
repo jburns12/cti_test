@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8540110f-d677-4c58-8b59-cd0cb07e7917",
+    "id": "bundle--3d1c3306-4401-4594-b790-fa1b38dd3335",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--388f3a5c-2cdd-466c-9159-b507fa429fcd",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Hardware or software supply chain implant",
-            "description": "During production and distribution, the placement of software, firmware, or a CPU chip in a computer, handheld, or other electronic device that enables an adversary to gain illegal entrance. (Citation: McDRecall) (Citation: SeagateMaxtor)\n\nDetectable by Common Defenses: No\n\nDetectable by Common Defenses explanation: The number of elements and components in a supply chain of HW or SW is vast and detecting an implant is complex for SW, but more complex for HW.\n\nDifficulty for the Adversary: No\n\nDifficulty for the Adversary explanation: Access to the supply chain by an adversary can be a challenging endeavor, depending on what element is attempting to be subverted.",
+            "description": "During production and distribution, the placement of software, firmware, or a CPU chip in a computer, handheld, or other electronic device that enables an adversary to gain illegal entrance. (Citation: McDRecall) (Citation: SeagateMaxtor)",
             "kill_chain_phases": [
                 {
                     "phase_name": "stage-capabilities",
@@ -20,16 +20,16 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1142",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1142"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1142",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "McDRecall",
-                    "description": "Tash Shifrin. (2006, October 16). Malware forces McDonald\u2019s recall of giveaway MP3s. Retrieved March 9, 2017."
+                    "description": "Tash Shifrin. (2006, October 16). Malware forces McDonald\u2019s recall of giveaway MP3s. Retrieved March 9, 2017.",
+                    "source_name": "McDRecall"
                 },
                 {
-                    "source_name": "SeagateMaxtor",
-                    "description": "Brandon Hill. (2007, November 14). Seagate Serves External HDDs with a Side of Virus. Retrieved March 9, 2017."
+                    "description": "Brandon Hill. (2007, November 14). Seagate Serves External HDDs with a Side of Virus. Retrieved March 9, 2017.",
+                    "source_name": "SeagateMaxtor"
                 }
             ],
             "object_marking_refs": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--61ecbdd2-c864-4292-96ad-46b1d041642a",
+    "id": "bundle--5519480a-4d60-402b-8053-b5138909deff",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--56e40368-38a7-4415-9ebc-8c84694bc7d6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Lslsass can dump active logon session password hashes from the lsass process.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Lslsass can dump active logon session password hashes from the lsass process. (Citation: Mandiant APT1)",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf",
-                    "source_name": "Mandiant APT1",
-                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016."
+                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016.",
+                    "source_name": "Mandiant APT1"
                 }
             ],
             "object_marking_refs": [

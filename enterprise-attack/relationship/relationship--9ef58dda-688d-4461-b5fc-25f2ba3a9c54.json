@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--523ee5ac-3fd8-469f-952c-395986425411",
+    "id": "bundle--c0eabac6-acc8-4c1f-b5e7-9805c1a4e7ca",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--9ef58dda-688d-4461-b5fc-25f2ba3a9c54",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "BRONZE BUTLER has used at and schtasks to register a scheduled task to execute malware during lateral movement.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "BRONZE BUTLER has used at and schtasks to register a scheduled task to execute malware during lateral movement. (Citation: Secureworks BRONZE BUTLER Oct 2017)",
             "external_references": [
                 {
                     "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
-                    "source_name": "Secureworks BRONZE BUTLER Oct 2017",
-                    "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018."
+                    "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.",
+                    "source_name": "Secureworks BRONZE BUTLER Oct 2017"
                 }
             ],
             "object_marking_refs": [

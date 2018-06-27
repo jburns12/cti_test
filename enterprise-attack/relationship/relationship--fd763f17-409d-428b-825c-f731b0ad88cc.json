@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a9afaaaf-ec20-4a5f-9034-164b1e0c8671",
+    "id": "bundle--8abfc18f-d9a5-4e64-be4b-a6ef15a5c512",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--fd763f17-409d-428b-825c-f731b0ad88cc",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "FIN8's malicious spearphishing payloads use WMI to launch malware and spawn cmd.exe execution.FIN8 has also used WMIC during  and post compromise cleanup activities.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "FIN8's malicious spearphishing payloads use WMI to launch malware and spawn cmd.exe execution. (Citation: FireEye Obfuscation June 2017) FIN8 has also used WMIC during (Citation: Lateral Movement) and post compromise cleanup activities. (Citation: FireEye Know Your Enemy FIN8 Aug 2016)",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/06/obfuscation-in-the-wild.html",
-                    "source_name": "FireEye Obfuscation June 2017",
-                    "description": "Bohannon, D. & Carr N. (2017, June 30). Obfuscation in the Wild: Targeted Attackers Lead the Way in Evasion Techniques. Retrieved February 12, 2018."
+                    "description": "Bohannon, D. & Carr N. (2017, June 30). Obfuscation in the Wild: Targeted Attackers Lead the Way in Evasion Techniques. Retrieved February 12, 2018.",
+                    "source_name": "FireEye Obfuscation June 2017"
                 },
                 {
                     "url": "https://www2.fireeye.com/WBNR-Know-Your-Enemy-UNC622-Spear-Phishing.html",
-                    "source_name": "FireEye Know Your Enemy FIN8 Aug 2016",
-                    "description": "Elovitz, S. & Ahl, I. (2016, August 18). Know Your Enemy:  New Financially-Motivated & Spear-Phishing Group. Retrieved February 26, 2018."
+                    "description": "Elovitz, S. & Ahl, I. (2016, August 18). Know Your Enemy:  New Financially-Motivated & Spear-Phishing Group. Retrieved February 26, 2018.",
+                    "source_name": "FireEye Know Your Enemy FIN8 Aug 2016"
                 }
             ],
             "object_marking_refs": [

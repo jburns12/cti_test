@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4755ce3e-e7b1-4268-a62e-6ecf83b1d0bb",
+    "id": "bundle--fb6f2fe0-a04b-4f69-b9c7-fa2df6c374f1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,17 +8,17 @@
             "id": "relationship--1b143de7-af2d-4991-9e2e-aa85a8d7d330",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.039Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "APT28 encrypted a .dll payload using RTL and a custom encryption algorithm.APT28 has also obfuscated payloads with base64 and XOR.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "APT28 encrypted a .dll payload using RTL and a custom encryption algorithm. (Citation: Bitdefender APT28 Dec 2015) APT28 has also obfuscated payloads with base64 and XOR. (Citation: Unit 42 Sofacy Feb 2018)",
             "external_references": [
                 {
-                    "source_name": "Bitdefender APT28 Dec 2015",
-                    "description": "Bitdefender. (2015, December). APT28 Under the Scope. Retrieved February 23, 2017."
+                    "description": "Bitdefender. (2015, December). APT28 Under the Scope. Retrieved February 23, 2017.",
+                    "source_name": "Bitdefender APT28 Dec 2015"
                 },
                 {
                     "url": "https://researchcenter.paloaltonetworks.com/2018/02/unit42-sofacy-attacks-multiple-government-entities/",
-                    "source_name": "Unit 42 Sofacy Feb 2018",
-                    "description": "Lee, B, et al. (2018, February 28). Sofacy Attacks Multiple Government Entities. Retrieved March 15, 2018."
+                    "description": "Lee, B, et al. (2018, February 28). Sofacy Attacks Multiple Government Entities. Retrieved March 15, 2018.",
+                    "source_name": "Unit 42 Sofacy Feb 2018"
                 }
             ],
             "object_marking_refs": [

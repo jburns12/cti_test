@@ -1,21 +1,21 @@
 {
     "type": "bundle",
-    "id": "bundle--26c3bb2f-d5d6-44e8-b5cf-5b9f717c0dda",
+    "id": "bundle--ba685618-4630-4edf-9b3f-54bc904961d2",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--dc43c2fe-355e-4a79-9570-3267b0992784",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "created": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-06-27T14:18:47.700Z",
             "name": "Dylib Hijacking Mitigation",
             "description": "Prevent users from being able to write files to the search paths for applications, both in the folders where applications are run from and the standard dylib folders. If users can't write to these directories, then they can't intercept the search path.",
             "external_references": [
                 {
                     "external_id": "T1157",
-                    "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1157"
+                    "url": "https://attack.mitre.org/wiki/Technique/T1157",
+                    "source_name": "mitre-attack"
                 }
             ]
         }

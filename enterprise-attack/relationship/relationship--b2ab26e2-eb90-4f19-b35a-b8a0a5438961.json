@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dec76634-06b2-446e-914a-53c7f15c0190",
+    "id": "bundle--215472a8-d2d1-4f36-87ed-8a4be88ce612",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,12 +8,12 @@
             "id": "relationship--b2ab26e2-eb90-4f19-b35a-b8a0a5438961",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "DustySky has two hard-coded domains for C2 servers; if the first does not respond, it will try the second.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "DustySky has two hard-coded domains for C2 servers; if the first does not respond, it will try the second. (Citation: DustySky)",
             "external_references": [
                 {
-                    "source_name": "DustySky",
-                    "description": "ClearSky. (2016, January 7). Operation DustySky. Retrieved January 8, 2016."
+                    "description": "ClearSky. (2016, January 7). Operation DustySky. Retrieved January 8, 2016.",
+                    "source_name": "DustySky"
                 }
             ],
             "object_marking_refs": [

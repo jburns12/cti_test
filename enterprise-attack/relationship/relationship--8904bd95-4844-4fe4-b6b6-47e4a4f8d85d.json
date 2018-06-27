@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--01f0de38-f61e-478d-8a83-c04507fa8ca2",
+    "id": "bundle--8c4976a5-87aa-4ff9-b5dd-e72da2e5c30d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--8904bd95-4844-4fe4-b6b6-47e4a4f8d85d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "To establish persistence, SslMM identifies the Start Menu Startup directory and drops a link to its own executable disguised as an \u201cOffice Start,\u201d \u201cYahoo Talk,\u201d \u201cMSN Gaming Z0ne,\u201d or \u201cMSN Talk\u201d shortcut.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "To establish persistence, SslMM identifies the Start Menu Startup directory and drops a link to its own executable disguised as an \u201cOffice Start,\u201d \u201cYahoo Talk,\u201d \u201cMSN Gaming Z0ne,\u201d or \u201cMSN Talk\u201d shortcut. (Citation: Baumgartner Naikon 2015)",
             "external_references": [
                 {
                     "url": "https://securelist.com/files/2015/05/TheNaikonAPT-MsnMM1.pdf",
-                    "source_name": "Baumgartner Naikon 2015",
-                    "description": "Baumgartner, K., Golovkin, M.. (2015, May). The MsnMM Campaigns: The Earliest Naikon APT Campaigns. Retrieved December 17, 2015."
+                    "description": "Baumgartner, K., Golovkin, M.. (2015, May). The MsnMM Campaigns: The Earliest Naikon APT Campaigns. Retrieved December 17, 2015.",
+                    "source_name": "Baumgartner Naikon 2015"
                 }
             ],
             "object_marking_refs": [

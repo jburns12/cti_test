@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9276eaac-1881-42ce-bc47-a463323a1630",
+    "id": "bundle--c88951f0-a404-4788-a3ae-8a843fe4da3d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--3d4575eb-d296-425a-a019-cf742c623dde",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "hides any strings related to its own indicators of compromise.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "hides any strings related to its own indicators of compromise. (Citation: Symantec Darkmoon Aug 2005)",
             "external_references": [
                 {
                     "url": "https://www.symantec.com/security%20response/writeup.jsp?docid=2005-081910-3934-99",
-                    "source_name": "Symantec Darkmoon Aug 2005",
-                    "description": "Hayashi, K. (2005, August 18). Backdoor.Darkmoon. Retrieved February 23, 2018."
+                    "description": "Hayashi, K. (2005, August 18). Backdoor.Darkmoon. Retrieved February 23, 2018.",
+                    "source_name": "Symantec Darkmoon Aug 2005"
                 }
             ],
             "object_marking_refs": [

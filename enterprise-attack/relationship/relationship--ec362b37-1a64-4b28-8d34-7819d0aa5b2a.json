@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0dde492c-c8be-442c-972e-c5e1928a108f",
+    "id": "bundle--982e7284-c334-4667-a06d-9f44f2fd1ceb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--ec362b37-1a64-4b28-8d34-7819d0aa5b2a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "XAgentOSX contains the getInstalledAPP function to run <code>ls -la /Applications</code> to gather what applications are installed.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "XAgentOSX contains the getInstalledAPP function to run <code>ls -la /Applications</code> to gather what applications are installed. (Citation: XAgentOSX)",
             "external_references": [
                 {
                     "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit42-xagentosx-sofacys-xagent-macos-tool/",
-                    "source_name": "XAgentOSX",
-                    "description": "Robert Falcone. (2017, February 14). XAgentOSX: Sofacy's Xagent macOS Tool. Retrieved July 12, 2017."
+                    "description": "Robert Falcone. (2017, February 14). XAgentOSX: Sofacy's Xagent macOS Tool. Retrieved July 12, 2017.",
+                    "source_name": "XAgentOSX"
                 }
             ],
             "object_marking_refs": [

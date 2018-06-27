@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7aad60f4-4c7a-4a27-9b3b-cbb315e41a1b",
+    "id": "bundle--80ff6d55-03ed-49e1-9bc7-2fc074ab6508",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--103d72e6-7e0d-4b3a-9373-c38567305c33",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Friend/Follow/Connect to targets of interest",
-            "description": "Once a persona has been developed an adversary will use it to create connections to targets of interest. These connections may be direct or may include trying to connect through others. (Citation: NEWSCASTER2014) (Citation: BlackHatRobinSage)\n\nDetectable by Common Defenses: No\n\nDetectable by Common Defenses explanation: Unless there is some threat intelligence reporting, these users are hard to differentiate.\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: The nature of social media is such that the adversary naturally connects to a target of interest without suspicion, given the purpose of the platform is to promote connections between individuals.  Performing activities like typical users, but with specific intent in mind.",
+            "description": "Once a persona has been developed an adversary will use it to create connections to targets of interest. These connections may be direct or may include trying to connect through others. (Citation: NEWSCASTER2014) (Citation: BlackHatRobinSage)",
             "kill_chain_phases": [
                 {
                     "phase_name": "persona-development",
@@ -20,16 +20,16 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1121",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1121"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1121",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "NEWSCASTER2014",
-                    "description": "Mike Lennon. (2014, May 29). Iranian Hackers Targeted US Officials in Elaborate Social Media Attack Operation. Retrieved March 1, 2017."
+                    "description": "Mike Lennon. (2014, May 29). Iranian Hackers Targeted US Officials in Elaborate Social Media Attack Operation. Retrieved March 1, 2017.",
+                    "source_name": "NEWSCASTER2014"
                 },
                 {
-                    "source_name": "BlackHatRobinSage",
-                    "description": "Thomas Ryan. (2010). \u201cGetting In Bed with Robin Sage.\u201d. Retrieved March 6, 2017."
+                    "description": "Thomas Ryan. (2010). \u201cGetting In Bed with Robin Sage.\u201d. Retrieved March 6, 2017.",
+                    "source_name": "BlackHatRobinSage"
                 }
             ],
             "object_marking_refs": [

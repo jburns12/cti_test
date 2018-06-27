@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--96fc039e-0bcb-450e-adda-dae9ea69c19a",
+    "id": "bundle--0a1819a8-604d-45b3-a118-04e1c077d5ee",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--73e394e5-3d8a-40d1-ab8c-a1b4ea9db424",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Install and configure hardware, network, and systems",
-            "description": "An adversary needs the necessary skills to set up procured equipment and software to create their desired infrastructure. (Citation: KasperskyRedOctober)\n\nDetectable by Common Defenses: No\n\nDetectable by Common Defenses explanation: Defender will not have visibility on 3rd party sites unless target is successfully enticed to visit one.\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: Skills are common to majority of computer scientists and \"hackers\".  Can be easily obtained through contracting if not organic to adversary's organization.",
+            "description": "An adversary needs the necessary skills to set up procured equipment and software to create their desired infrastructure. (Citation: KasperskyRedOctober)",
             "kill_chain_phases": [
                 {
                     "phase_name": "establish-&-maintain-infrastructure",
@@ -20,12 +20,12 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1113",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1113"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1113",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "KasperskyRedOctober",
-                    "description": "Kaspersky Labs. (2013, January 14). Kaspersky Lab Identifies Operation \u201cRed October,\u201d an Advanced Cyber-Espionage Campaign Targeting Diplomatic and Government Institutions Worldwide. Retrieved March 6, 2017."
+                    "description": "Kaspersky Labs. (2013, January 14). Kaspersky Lab Identifies Operation \u201cRed October,\u201d an Advanced Cyber-Espionage Campaign Targeting Diplomatic and Government Institutions Worldwide. Retrieved March 6, 2017.",
+                    "source_name": "KasperskyRedOctober"
                 }
             ],
             "object_marking_refs": [

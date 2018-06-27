@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--40e7429a-cdf0-4cb5-bb02-77a5be2dbc11",
+    "id": "bundle--b84fb402-8596-45d2-a767-e8523f7ebf50",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--76ca2629-da20-42ce-95e1-b9f93406a87c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "creates a backdoor through which remote attackers can start a remote shell.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "creates a backdoor through which remote attackers can start a remote shell. (Citation: Symantec Linfo May 2012)",
             "external_references": [
                 {
                     "url": "https://www.symantec.com/security%20response/writeup.jsp?docid=2012-051605-2535-99",
-                    "source_name": "Symantec Linfo May 2012",
-                    "description": "Zhou, R. (2012, May 15). Backdoor.Linfo. Retrieved February 23, 2018."
+                    "description": "Zhou, R. (2012, May 15). Backdoor.Linfo. Retrieved February 23, 2018.",
+                    "source_name": "Symantec Linfo May 2012"
                 }
             ],
             "object_marking_refs": [

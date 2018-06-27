@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--015f8682-fbe9-4881-8a72-997833888056",
+    "id": "bundle--6cc7a535-b444-4c2e-b5c2-8a8b782c4bb1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--44dca04b-808d-46ca-b25f-d85236d4b9f8",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-27T14:18:47.700Z",
             "name": "Bash History",
-            "description": "Bash keeps track of the commands users type on the command-line with the \"history\" utility. Once a user logs out, the history is flushed to the user\u2019s <code>.bash_history</code> file. For each user, this file resides at the same location: <code>~/.bash_history</code>. Typically, this file keeps track of the user\u2019s last 500 commands. Users often type usernames and passwords on the command-line as parameters to programs, which then get saved to this file when they log out. Attackers can abuse this by looking through the file for potential credentials. (Citation: External to DA, the OS X Way)\n\nDetection: Monitoring when the user's <code>.bash_history</code> is read can help alert to suspicious activity. While users do typically rely on their history of commands, they often access this history through other utilities like \"history\" instead of commands like <code>cat ~/.bash_history</code>.\n\nPlatforms: Linux, macOS\n\nData Sources: File monitoring, Process monitoring, Process command-line parameters\n\nPermissions Required: User",
+            "description": "Bash keeps track of the commands users type on the command-line with the \"history\" utility. Once a user logs out, the history is flushed to the user\u2019s <code>.bash_history</code> file. For each user, this file resides at the same location: <code>~/.bash_history</code>. Typically, this file keeps track of the user\u2019s last 500 commands. Users often type usernames and passwords on the command-line as parameters to programs, which then get saved to this file when they log out. Attackers can abuse this by looking through the file for potential credentials. (Citation: External to DA, the OS X Way)",
             "kill_chain_phases": [
                 {
                     "phase_name": "credential-access",
@@ -20,18 +20,19 @@
             "external_references": [
                 {
                     "external_id": "T1139",
-                    "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1139"
+                    "url": "https://attack.mitre.org/wiki/Technique/T1139",
+                    "source_name": "mitre-attack"
                 },
                 {
                     "url": "http://www.slideshare.net/StephanBorosh/external-to-da-the-os-x-way",
-                    "source_name": "External to DA, the OS X Way",
-                    "description": "Alex Rymdeko-Harvey, Steve Borosh. (2016, May 14). External to DA, the OS X Way. Retrieved July 3, 2017."
+                    "description": "Alex Rymdeko-Harvey, Steve Borosh. (2016, May 14). External to DA, the OS X Way. Retrieved July 3, 2017.",
+                    "source_name": "External to DA, the OS X Way"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "Monitoring when the user's <code>.bash_history</code> is read can help alert to suspicious activity. While users do typically rely on their history of commands, they often access this history through other utilities like \"history\" instead of commands like <code>cat ~/.bash_history</code>.",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS"

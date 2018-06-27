@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f33330e9-5ad8-4984-a4c6-050d398d9fb6",
+    "id": "bundle--9eef0c4a-3616-4794-b322-459ea4371ca5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--0f7e7dc5-ea9c-4d9e-9acd-5fa0dd25910a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "creates a backdoor through which remote attackers can download files.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "creates a backdoor through which remote attackers can download files. (Citation: Symantec Wiarp May 2012)",
             "external_references": [
                 {
                     "url": "https://www.symantec.com/security%20response/writeup.jsp?docid=2012-051606-1005-99",
-                    "source_name": "Symantec Wiarp May 2012",
-                    "description": "Zhou, R. (2012, May 15). Backdoor.Wiarp. Retrieved February 22, 2018."
+                    "description": "Zhou, R. (2012, May 15). Backdoor.Wiarp. Retrieved February 22, 2018.",
+                    "source_name": "Symantec Wiarp May 2012"
                 }
             ],
             "object_marking_refs": [

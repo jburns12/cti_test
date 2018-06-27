@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d1078c42-a359-4e62-8ee6-0d9093dde4c3",
+    "id": "bundle--05e4e187-1082-4384-bed0-7e942c0ef786",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--a5b4d08c-963a-48fe-8f22-ba344835d00e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "BADNEWS has a command to download an .exe and use process hollowing to inject it into a new process.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "BADNEWS has a command to download an .exe and use process hollowing to inject it into a new process. (Citation: Forcepoint Monsoon)",
             "external_references": [
                 {
                     "url": "https://www.forcepoint.com/sites/default/files/resources/files/forcepoint-security-labs-monsoon-analysis-report.pdf",
-                    "source_name": "Forcepoint Monsoon",
-                    "description": "Settle, A., et al. (2016, August 8). MONSOON - Analysis Of An APT Campaign. Retrieved September 22, 2016."
+                    "description": "Settle, A., et al. (2016, August 8). MONSOON - Analysis Of An APT Campaign. Retrieved September 22, 2016.",
+                    "source_name": "Forcepoint Monsoon"
                 }
             ],
             "object_marking_refs": [

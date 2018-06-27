@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f7d4f693-12ba-42e4-a918-4fd59499accb",
+    "id": "bundle--f2cbb7ac-f429-470a-8f0b-0792173df51f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--e24a9f99-cb76-42a3-a50b-464668773e97",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Spear phishing messages with malicious attachments",
-            "description": "This technique has been deprecated. Please see ATT&CK's Initial Access and Execution tactics for replacement techniques.\n\nEmails with malicious attachments are designed to get a user to open/execute the attachment in order to deliver malware payloads. (Citation: APT1)\n\nDetectable by Common Defenses: Yes\n\nDetectable by Common Defenses explanation: Many technologies exist to scan content and/or emulate a workstation prior to the target receiving and executing the attachment (detonation chambers) in order to reduce malicious emails and attachments being delivered to the intended target.  However, encryption continues to be a stumbling block.  In addition, there are a variety of commercial technologies available that enable users to screen for phishing messages and which are designed to enhance email security.\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: Sending the emails is the simple part, ensuring they make it to the target (e.g., not being filtered) may be challenging.  Over time, an adversary refines their techniques to minimize detection by making their emails seem legitimate in structure and content.",
+            "description": "Emails with malicious attachments are designed to get a user to open/execute the attachment in order to deliver malware payloads. (Citation: APT1)",
             "kill_chain_phases": [
                 {
                     "phase_name": "launch",
@@ -20,12 +20,12 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1144",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1144"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1144",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "APT1",
-                    "description": "Mandiant. (n.d.). APT1: Exposing One of China\u2019s Cyber Espionage Units. Retrieved March 5, 2017."
+                    "description": "Mandiant. (n.d.). APT1: Exposing One of China\u2019s Cyber Espionage Units. Retrieved March 5, 2017.",
+                    "source_name": "APT1"
                 }
             ],
             "object_marking_refs": [

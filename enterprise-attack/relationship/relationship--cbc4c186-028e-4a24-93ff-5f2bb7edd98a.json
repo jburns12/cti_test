@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--decaef11-1c88-4bae-a734-a77e9f72810b",
+    "id": "bundle--dc330e85-aacb-4a77-aedd-13a5b751ca3b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--cbc4c186-028e-4a24-93ff-5f2bb7edd98a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Pisloader obfuscates files by splitting strings into smaller sub-strings and including \"garbage\" strings that are never used. The malware also uses return-oriented programming (ROP) technique and single-byte XOR to obfuscate data.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Pisloader obfuscates files by splitting strings into smaller sub-strings and including \"garbage\" strings that are never used. The malware also uses return-oriented programming (ROP) technique and single-byte XOR to obfuscate data. (Citation: Palo Alto DNS Requests)",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2016/05/unit42-new-wekby-attacks-use-dns-requests-as-command-and-control-mechanism/",
-                    "source_name": "Palo Alto DNS Requests",
-                    "description": "Grunzweig, J., et al. (2016, May 24). New Wekby Attacks Use DNS Requests As Command and Control Mechanism. Retrieved August 17, 2016."
+                    "description": "Grunzweig, J., et al. (2016, May 24). New Wekby Attacks Use DNS Requests As Command and Control Mechanism. Retrieved August 17, 2016.",
+                    "source_name": "Palo Alto DNS Requests"
                 }
             ],
             "object_marking_refs": [

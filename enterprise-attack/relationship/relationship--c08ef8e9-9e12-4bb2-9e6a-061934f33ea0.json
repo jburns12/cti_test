@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dd903ee3-38f2-48a1-8c21-dc18e59f4a8b",
+    "id": "bundle--7ca4aa01-6ef1-4c7f-925b-ea7bbe151eb9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--c08ef8e9-9e12-4bb2-9e6a-061934f33ea0",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "The Komplex C2 channel uses an 11-byte XOR algorithm to hide data .",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "The Komplex C2 channel uses an 11-byte XOR algorithm to hide data (Citation: Sofacy Komplex Trojan).",
             "external_references": [
                 {
                     "url": "https://researchcenter.paloaltonetworks.com/2016/09/unit42-sofacys-komplex-os-x-trojan/",
-                    "source_name": "Sofacy Komplex Trojan",
-                    "description": "Dani Creus, Tyler Halfpop, Robert Falcone. (2016, September 26). Sofacy's 'Komplex' OS X Trojan. Retrieved July 8, 2017."
+                    "description": "Dani Creus, Tyler Halfpop, Robert Falcone. (2016, September 26). Sofacy's 'Komplex' OS X Trojan. Retrieved July 8, 2017.",
+                    "source_name": "Sofacy Komplex Trojan"
                 }
             ],
             "object_marking_refs": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--90c598fd-fd61-4bc2-84c4-82b5d04a96ff",
+    "id": "bundle--44ea1cdf-f36c-4583-be04-1cbe26d75158",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--18d4782f-0e33-4bf5-b0a2-8dc04cacb617",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "Some Orz versions have an embedded DLL known as MockDll that uses Process Hollowing and regsvr32 to execute another payload.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Some Orz versions have an embedded DLL known as MockDll that uses Process Hollowing Mitigation and regsvr32 to execute another payload. (Citation: Proofpoint Leviathan Oct 2017)",
             "external_references": [
                 {
                     "url": "https://www.proofpoint.com/us/threat-insight/post/leviathan-espionage-actor-spearphishes-maritime-and-defense-targets",
-                    "source_name": "Proofpoint Leviathan Oct 2017",
-                    "description": "Axel F, Pierre T. (2017, October 16). Leviathan: Espionage actor spearphishes maritime and defense targets. Retrieved February 15, 2018."
+                    "description": "Axel F, Pierre T. (2017, October 16). Leviathan: Espionage actor spearphishes maritime and defense targets. Retrieved February 15, 2018.",
+                    "source_name": "Proofpoint Leviathan Oct 2017"
                 }
             ],
             "object_marking_refs": [

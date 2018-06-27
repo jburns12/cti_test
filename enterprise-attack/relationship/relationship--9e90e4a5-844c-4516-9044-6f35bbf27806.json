@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--65cadd44-8f34-4d97-a61b-c54b3de5e07a",
+    "id": "bundle--fa7abf41-f67d-46cb-8b31-1c198f00be34",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--9e90e4a5-844c-4516-9044-6f35bbf27806",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.039Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "APT28 has deployed a bootkit along with Downdelph to ensure its persistence on the victim. The bootkit shares code with some variants of BlackEnergy.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "APT28 has deployed a bootkit along with Downdelph to ensure its persistence on the victim. The bootkit shares code with some variants of BlackEnergy. (Citation: ESET Sednit Part 3)",
             "external_references": [
                 {
                     "url": "http://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part3.pdf",
-                    "source_name": "ESET Sednit Part 3",
-                    "description": "ESET. (2016, October). En Route with Sednit - Part 3: A Mysterious Downloader. Retrieved November 21, 2016."
+                    "description": "ESET. (2016, October). En Route with Sednit - Part 3: A Mysterious Downloader. Retrieved November 21, 2016.",
+                    "source_name": "ESET Sednit Part 3"
                 }
             ],
             "object_marking_refs": [

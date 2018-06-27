@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ce432dfd-bde5-42b5-ab0c-796686e746d4",
+    "id": "bundle--4a32b924-ddd8-4ec7-9267-5ef8916197a0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--a1dc7c15-bd44-43b3-a32b-8e4ea9856758",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Backdoor.Oldrea writes collected data to a temporary file in an encrypted form before exfiltration to a C2 server.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Backdoor.Oldrea writes collected data to a temporary file in an encrypted form before exfiltration to a C2 server. (Citation: Symantec Dragonfly)",
             "external_references": [
                 {
                     "url": "http://www.symantec.com/content/en/us/enterprise/media/security%20response/whitepapers/Dragonfly%20Threat%20Against%20Western%20Energy%20Suppliers.pdf",
-                    "source_name": "Symantec Dragonfly",
-                    "description": "Symantec Security Response. (2014, July 7). Dragonfly: Cyberespionage Attacks Against Energy Suppliers. Retrieved April 8, 2016."
+                    "description": "Symantec Security Response. (2014, July 7). Dragonfly: Cyberespionage Attacks Against Energy Suppliers. Retrieved April 8, 2016.",
+                    "source_name": "Symantec Dragonfly"
                 }
             ],
             "object_marking_refs": [

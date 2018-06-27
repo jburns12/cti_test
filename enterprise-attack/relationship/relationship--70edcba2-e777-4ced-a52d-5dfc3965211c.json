@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--39c82351-e77a-43cd-8e72-b732164649bd",
+    "id": "bundle--d076139a-a577-40fa-b87b-c2fb8c966d64",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--70edcba2-e777-4ced-a52d-5dfc3965211c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "POSHSPY appends a file signature header (randomly selected from six file types) to encrypted data prior to upload or download.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "POSHSPY appends a file signature header (randomly selected from six file types) to encrypted data prior to upload or download. (Citation: FireEye POSHSPY April 2017)",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/03/dissecting%20one%20ofap.html",
-                    "source_name": "FireEye POSHSPY April 2017",
-                    "description": "Dunwoody, M.. (2017, April 3). Dissecting One of APT29\u2019s Fileless WMI and PowerShell Backdoors (POSHSPY). Retrieved April 5, 2017."
+                    "description": "Dunwoody, M.. (2017, April 3). Dissecting One of APT29\u2019s Fileless WMI and PowerShell Backdoors (POSHSPY). Retrieved April 5, 2017.",
+                    "source_name": "FireEye POSHSPY April 2017"
                 }
             ],
             "object_marking_refs": [

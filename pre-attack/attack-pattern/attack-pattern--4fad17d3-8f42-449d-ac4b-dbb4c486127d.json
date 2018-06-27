@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3d3fbbc9-ac9b-4dc7-823c-52d3399f9b84",
+    "id": "bundle--3831b1b2-0c1e-4f9f-9a3f-fe314d2c7bba",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--4fad17d3-8f42-449d-ac4b-dbb4c486127d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Assign KITs, KIQs, and/or intelligence requirements",
-            "description": "Once generated, Key Intelligence Topics (KITs), Key Intelligence Questions (KIQs), and/or intelligence requirements are assigned to applicable agencies and/or personnel. For example, an adversary may decide nuclear energy requirements should be assigned to a specific organization based on their mission. (Citation: AnalystsAndPolicymaking) (Citation: JP2-01)\n\nDetectable by Common Defenses: No\n\nDetectable by Common Defenses explanation: Normally, defender is unable to detect.  Few agencies and commercial organizations may have unique insights.\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: Normal aspect of adversary planning lifecycle.  May not be done by all adversaries.",
+            "description": "Once generated, Key Intelligence Topics (KITs), Key Intelligence Questions (KIQs), and/or intelligence requirements are assigned to applicable agencies and/or personnel. For example, an adversary may decide nuclear energy requirements should be assigned to a specific organization based on their mission. (Citation: AnalystsAndPolicymaking) (Citation: JP2-01)",
             "kill_chain_phases": [
                 {
                     "phase_name": "priority-definition-direction",
@@ -20,16 +20,16 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1015",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1015"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1015",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "AnalystsAndPolicymaking",
-                    "description": "Jack Davis. (2002, September). Improving CIA Analytic Performance: Analysts and the Policymaking Process. Retrieved March 5, 2017."
+                    "description": "Jack Davis. (2002, September). Improving CIA Analytic Performance: Analysts and the Policymaking Process. Retrieved March 5, 2017.",
+                    "source_name": "AnalystsAndPolicymaking"
                 },
                 {
-                    "source_name": "JP2-01",
-                    "description": "Joint Chiefs of Staff. (2012, January 05). Joint and National Intelligence Support to Military Operations. Retrieved March 2, 2017."
+                    "description": "Joint Chiefs of Staff. (2012, January 05). Joint and National Intelligence Support to Military Operations. Retrieved March 2, 2017.",
+                    "source_name": "JP2-01"
                 }
             ],
             "object_marking_refs": [

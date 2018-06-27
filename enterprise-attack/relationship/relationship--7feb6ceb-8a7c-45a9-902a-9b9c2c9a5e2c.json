@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9745e962-211d-4d8d-b1b6-568ccbf0bd71",
+    "id": "bundle--bea8d2b0-b544-4f3d-9de0-1299b1acb5c3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--7feb6ceb-8a7c-45a9-902a-9b9c2c9a5e2c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "Hydraq C2 traffic is encrypted using bitwise NOT and XOR operations.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Hydraq C2 traffic is encrypted using bitwise NOT and XOR operations. (Citation: Symantec Hydraq Jan 2010)",
             "external_references": [
                 {
                     "url": "https://www.symantec.com/security%20response/writeup.jsp?docid=2010-011114-1830-99",
-                    "source_name": "Symantec Hydraq Jan 2010",
-                    "description": "Lelli, A. (2010, January 11). Trojan.Hydraq. Retrieved February 20, 2018."
+                    "description": "Lelli, A. (2010, January 11). Trojan.Hydraq. Retrieved February 20, 2018.",
+                    "source_name": "Symantec Hydraq Jan 2010"
                 }
             ],
             "object_marking_refs": [

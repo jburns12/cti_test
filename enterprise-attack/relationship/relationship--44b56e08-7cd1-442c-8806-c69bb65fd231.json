@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4d59791d-0da1-4b17-902c-a80efa43c425",
+    "id": "bundle--66144e6a-5337-4925-99a3-c5196af523c9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--44b56e08-7cd1-442c-8806-c69bb65fd231",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "ROCKBOOT is a Master Boot Record (MBR) bootkit that uses the MBR to establish persistence.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "ROCKBOOT is a Master Boot Record (MBR) bootkit that uses the MBR to establish persistence. (Citation: FireEye Bootkits)",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2015/12/fin1-targets-boot-record.html",
-                    "source_name": "FireEye Bootkits",
-                    "description": "Andonov, D., et al. (2015, December 7). Thriving Beyond The Operating System: Financial Threat Group Targets Volume Boot Record. Retrieved May 13, 2016."
+                    "description": "Andonov, D., et al. (2015, December 7). Thriving Beyond The Operating System: Financial Threat Group Targets Volume Boot Record. Retrieved May 13, 2016.",
+                    "source_name": "FireEye Bootkits"
                 }
             ],
             "object_marking_refs": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3cd0fc51-bf09-49e2-8ad8-e849650de6d9",
+    "id": "bundle--83342855-431c-4b2e-b2af-b8acf6aa6419",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--6b1c1b38-0448-4114-99eb-23aae85ada52",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "APT28 has enumerated installed applications on macOS devices with built-in utilities such as <code>ls -al /Applications</code>.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "APT28 has enumerated installed applications on macOS devices with built-in utilities such as <code>ls -al /Applications</code> (Citation: XAgentOSX).",
             "external_references": [
                 {
                     "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit42-xagentosx-sofacys-xagent-macos-tool/",
-                    "source_name": "XAgentOSX",
-                    "description": "Robert Falcone. (2017, February 14). XAgentOSX: Sofacy's Xagent macOS Tool. Retrieved July 12, 2017."
+                    "description": "Robert Falcone. (2017, February 14). XAgentOSX: Sofacy's Xagent macOS Tool. Retrieved July 12, 2017.",
+                    "source_name": "XAgentOSX"
                 }
             ],
             "object_marking_refs": [

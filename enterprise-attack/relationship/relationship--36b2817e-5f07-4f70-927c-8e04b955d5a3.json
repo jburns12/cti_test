@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--78941571-f7ae-4bfd-995b-9d276f0f8b1a",
+    "id": "bundle--7ece38ea-2dbb-47a5-b48d-34e96ad50d40",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,12 +8,12 @@
             "id": "relationship--36b2817e-5f07-4f70-927c-8e04b955d5a3",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "Dipsind encrypts C2 data with AES256 in ECB mode.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Dipsind encrypts C2 data with AES256 in ECB mode. (Citation: Microsoft PLATINUM April 2016)",
             "external_references": [
                 {
-                    "source_name": "Microsoft PLATINUM April 2016",
-                    "description": "Windows Defender Advanced Threat Hunting Team. (2016, April 29). PLATINUM: Targeted attacks in South and Southeast Asia. Retrieved February 15, 2018."
+                    "description": "Windows Defender Advanced Threat Hunting Team. (2016, April 29). PLATINUM: Targeted attacks in South and Southeast Asia. Retrieved February 15, 2018.",
+                    "source_name": "Microsoft PLATINUM April 2016"
                 }
             ],
             "object_marking_refs": [

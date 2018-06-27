@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--50ea8925-504d-4353-be45-7d3aba7ef96a",
+    "id": "bundle--1c12e57d-3c73-4796-ad1d-e072720f8294",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--2715c335-1bf2-4efe-9f18-0691317ff83b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-27T14:18:47.700Z",
             "name": "Securityd Memory",
-            "description": "In OS X prior to El Capitan, users with root access can read plaintext keychain passwords of logged-in users because Apple\u2019s keychain implementation allows these credentials to be cached so that users are not repeatedly prompted for passwords. (Citation: OS X Keychain) (Citation: External to DA, the OS X Way) Apple\u2019s securityd utility takes the user\u2019s logon password, encrypts it with PBKDF2, and stores this master key in memory. Apple also uses a set of keys and algorithms to encrypt the user\u2019s password, but once the master key is found, an attacker need only iterate over the other values to unlock the final password. (Citation: OS X Keychain)\n\nIf an adversary can obtain root access (allowing them to read securityd\u2019s memory), then they can scan through memory to find the correct sequence of keys in relatively few tries to decrypt the user\u2019s logon keychain. This provides the adversary with all the plaintext passwords for users, WiFi, mail, browsers, certificates, secure notes, etc. (Citation: OS X Keychain) (Citation: OSX Keydnap malware)\n\nPlatforms: macOS\n\nData Sources: Process Monitoring\n\nPermissions Required: root",
+            "description": "In OS X prior to El Capitan, users with root access can read plaintext keychain passwords of logged-in users because Apple\u2019s keychain implementation allows these credentials to be cached so that users are not repeatedly prompted for passwords. (Citation: OS X Keychain) (Citation: External to DA, the OS X Way) Apple\u2019s securityd utility takes the user\u2019s logon password, encrypts it with PBKDF2, and stores this master key in memory. Apple also uses a set of keys and algorithms to encrypt the user\u2019s password, but once the master key is found, an attacker need only iterate over the other values to unlock the final password. (Citation: OS X Keychain)\n\nIf an adversary can obtain root access (allowing them to read securityd\u2019s memory), then they can scan through memory to find the correct sequence of keys in relatively few tries to decrypt the user\u2019s logon keychain. This provides the adversary with all the plaintext passwords for users, WiFi, mail, browsers, certificates, secure notes, etc. (Citation: OS X Keychain) (Citation: OSX Keydnap malware)",
             "kill_chain_phases": [
                 {
                     "phase_name": "credential-access",
@@ -20,23 +20,23 @@
             "external_references": [
                 {
                     "external_id": "T1167",
-                    "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1167"
+                    "url": "https://attack.mitre.org/wiki/Technique/T1167",
+                    "source_name": "mitre-attack"
                 },
                 {
                     "url": "http://juusosalonen.com/post/30923743427/breaking-into-the-os-x-keychain",
-                    "source_name": "OS X Keychain",
-                    "description": "Juuso Salonen. (2012, September 5). Breaking into the OS X keychain. Retrieved July 15, 2017."
+                    "description": "Juuso Salonen. (2012, September 5). Breaking into the OS X keychain. Retrieved July 15, 2017.",
+                    "source_name": "OS X Keychain"
                 },
                 {
                     "url": "http://www.slideshare.net/StephanBorosh/external-to-da-the-os-x-way",
-                    "source_name": "External to DA, the OS X Way",
-                    "description": "Alex Rymdeko-Harvey, Steve Borosh. (2016, May 14). External to DA, the OS X Way. Retrieved July 3, 2017."
+                    "description": "Alex Rymdeko-Harvey, Steve Borosh. (2016, May 14). External to DA, the OS X Way. Retrieved July 3, 2017.",
+                    "source_name": "External to DA, the OS X Way"
                 },
                 {
                     "url": "https://www.welivesecurity.com/2016/07/06/new-osxkeydnap-malware-hungry-credentials/",
-                    "source_name": "OSX Keydnap malware",
-                    "description": "Marc-Etienne M.Leveille. (2016, July 6). New OSX/Keydnap malware is hungry for credentials. Retrieved July 3, 2017."
+                    "description": "Marc-Etienne M.Leveille. (2016, July 6). New OSX/Keydnap malware is hungry for credentials. Retrieved July 3, 2017.",
+                    "source_name": "OSX Keydnap malware"
                 }
             ],
             "object_marking_refs": [

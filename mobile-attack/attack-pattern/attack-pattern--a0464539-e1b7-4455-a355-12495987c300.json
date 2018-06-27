@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--311a1fbf-b9cd-438b-8348-f1aa28db9489",
+    "id": "bundle--0034a573-aeb6-44cc-b651-69701ebabc44",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--a0464539-e1b7-4455-a355-12495987c300",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-10-25T14:48:13.625Z",
-            "modified": "2018-04-13T17:05:30.756Z",
+            "modified": "2018-06-18T15:59:03.864Z",
             "name": "Attack PC via USB Connection",
-            "description": "With escalated privileges, an adversary could program the mobile device to impersonate USB devices such as input devices (keyboard and mouse), storage devices, and/or networking devices in order to attack a physically connected PC. Wang and Stavrou (Citation: Wang-ExploitingUSB) and Kamkar (Citation: ArsTechnica-PoisonTap) describe this technique. This technique has been demonstrated on Android, and we are unaware of any demonstrations on iOS.\n\nPlatforms: Android",
+            "description": "With escalated privileges, an adversary could program the mobile device to impersonate USB devices such as input devices (keyboard and mouse), storage devices, and/or networking devices in order to attack a physically connected PC. Wang and Stavrou (Citation: Wang-ExploitingUSB) and Kamkar (Citation: ArsTechnica-PoisonTap) describe this technique. This technique has been demonstrated on Android, and we are unaware of any demonstrations on iOS.",
             "kill_chain_phases": [
                 {
                     "phase_name": "lateral-movement",
@@ -20,23 +20,23 @@
             "external_references": [
                 {
                     "external_id": "MOB-T1030",
-                    "source_name": "mitre-mobile-attack",
-                    "url": "https://attack.mitre.org/mobile/index.php/Technique/MOB-T1030"
+                    "url": "https://attack.mitre.org/mobile/index.php/Technique/MOB-T1030",
+                    "source_name": "mitre-mobile-attack"
                 },
                 {
+                    "external_id": "PHY-2",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/physical-threats/PHY-2.html",
-                    "source_name": "NIST Mobile Threat Catalogue",
-                    "external_id": "PHY-2"
+                    "source_name": "NIST Mobile Threat Catalogue"
                 },
                 {
                     "url": "http://dl.acm.org/citation.cfm?id=1920314",
-                    "source_name": "Wang-ExploitingUSB",
-                    "description": "Z. Wang and A. Stavrou. (2010, December 6-10). Exploiting smart-phone USB connectivity for fun and profit. Retrieved December 22, 2016."
+                    "description": "Z. Wang and A. Stavrou. (2010, December 6-10). Exploiting smart-phone USB connectivity for fun and profit. Retrieved December 22, 2016.",
+                    "source_name": "Wang-ExploitingUSB"
                 },
                 {
                     "url": "http://arstechnica.com/security/2016/11/meet-poisontap-the-5-tool-that-ransacks-password-protected-computers/",
-                    "source_name": "ArsTechnica-PoisonTap",
-                    "description": "Dan Goodin. (2016, November 16). Meet PoisonTap, the $5 tool that ransacks password-protected computers. Retrieved December 22, 2016."
+                    "description": "Dan Goodin. (2016, November 16). Meet PoisonTap, the $5 tool that ransacks password-protected computers. Retrieved December 22, 2016.",
+                    "source_name": "ArsTechnica-PoisonTap"
                 }
             ],
             "object_marking_refs": [

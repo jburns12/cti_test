@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--29275fdb-43ca-4dfc-9b6f-7d4828d5c817",
+    "id": "bundle--9b88c2cc-dcec-47ce-9312-4e91d33042b0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--fe9c9381-99d7-4798-ab41-3e5cdbda5e21",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Based on comparison of Gazer versions, Turla made an effort to obfuscate strings in the malware that could be used as IoCs, including the mutex name and named pipe.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Based on comparison of Gazer versions, Turla made an effort to obfuscate strings in the malware that could be used as IoCs, including the mutex name and named pipe. (Citation: ESET Gazer Aug 2017)",
             "external_references": [
                 {
                     "url": "https://www.welivesecurity.com/wp-content/uploads/2017/08/eset-gazer.pdf",
-                    "source_name": "ESET Gazer Aug 2017",
-                    "description": "ESET. (2017, August). Gazing at Gazer: Turla\u2019s new second stage backdoor. Retrieved September 14, 2017."
+                    "description": "ESET. (2017, August). Gazing at Gazer: Turla\u2019s new second stage backdoor. Retrieved September 14, 2017.",
+                    "source_name": "ESET Gazer Aug 2017"
                 }
             ],
             "object_marking_refs": [

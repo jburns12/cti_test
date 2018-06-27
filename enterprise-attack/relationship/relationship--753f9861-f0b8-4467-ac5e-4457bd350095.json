@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--13ad55a8-ff1b-426c-95b1-6c186b9185ca",
+    "id": "bundle--4f9cf272-726c-4448-8008-58d3c544ed01",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--753f9861-f0b8-4467-ac5e-4457bd350095",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "TINYTYPHON installs itself under Registry Run key to establish persistence.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "TINYTYPHON installs itself under Registry Run key to establish persistence. (Citation: Forcepoint Monsoon)",
             "external_references": [
                 {
                     "url": "https://www.forcepoint.com/sites/default/files/resources/files/forcepoint-security-labs-monsoon-analysis-report.pdf",
-                    "source_name": "Forcepoint Monsoon",
-                    "description": "Settle, A., et al. (2016, August 8). MONSOON - Analysis Of An APT Campaign. Retrieved September 22, 2016."
+                    "description": "Settle, A., et al. (2016, August 8). MONSOON - Analysis Of An APT Campaign. Retrieved September 22, 2016.",
+                    "source_name": "Forcepoint Monsoon"
                 }
             ],
             "object_marking_refs": [

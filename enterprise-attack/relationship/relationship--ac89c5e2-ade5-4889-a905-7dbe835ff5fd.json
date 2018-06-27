@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9b13b4b8-ef17-4512-b3df-461e2459a953",
+    "id": "bundle--597449c0-b163-4b04-9278-ebabd55b67e5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--ac89c5e2-ade5-4889-a905-7dbe835ff5fd",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "Pasam establishes  by infecting the Security Accounts Manager (SAM) DLL to load a malicious DLL dropped to disk.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Pasam establishes (Citation: Persistence) by infecting the Security Accounts Manager (SAM) DLL to load a malicious DLL dropped to disk. (Citation: Symantec Pasam May 2012)",
             "external_references": [
                 {
                     "url": "https://www.symantec.com/security%20response/writeup.jsp?docid=2012-050412-4128-99",
-                    "source_name": "Symantec Pasam May 2012",
-                    "description": "Mullaney, C. & Honda, H. (2012, May 4). Trojan.Pasam. Retrieved February 22, 2018."
+                    "description": "Mullaney, C. & Honda, H. (2012, May 4). Trojan.Pasam. Retrieved February 22, 2018.",
+                    "source_name": "Symantec Pasam May 2012"
                 }
             ],
             "object_marking_refs": [

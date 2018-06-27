@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--db9cf8f9-e0a9-4b55-8f56-25e4d1698ecd",
+    "id": "bundle--961ba9ab-982a-4f5e-b860-4d9b8914a32a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--2ec57bf1-fcc3-4c19-9516-79b7fde483af",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Untargeted client-side exploitation",
-            "description": "This technique has been deprecated. Please see ATT&CK's Initial Access and Execution tactics for replacement techniques.\n\nA technique that takes advantage of flaws in client-side applications without targeting specific users. For example, an exploit placed on an often widely used public web site intended for drive-by delivery to whomever visits the site. (Citation: CitizenLabGreatCannon)\n\nDetectable by Common Defenses: Yes\n\nDetectable by Common Defenses explanation: Defensive technologies exist to scan web content before delivery to the requested end user.  However, this is not fool proof as some sites encrypt web communications and the adversary constantly moves to sites not previously flagged as malicious thus defeating this defense.  Host-based defenses can also aid in detection/mitigation as well as detection by the web site that got compromised.\n\nDifficulty for the Adversary: Yes\n\nDifficulty for the Adversary explanation: Commonly executed technique to place an exploit on an often widely used public web site intended for driveby delivery.",
+            "description": "A technique that takes advantage of flaws in client-side applications without targeting specific users. For example, an exploit placed on an often widely used public web site intended for drive-by delivery to whomever visits the site. (Citation: CitizenLabGreatCannon)",
             "kill_chain_phases": [
                 {
                     "phase_name": "launch",
@@ -20,12 +20,12 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1147",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1147"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1147",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "CitizenLabGreatCannon",
-                    "description": "Bill Marczak, Jakub Dalek, John Scott-Railton, Ron Deibert, Sarah McKune. (2015, April 10). China\u2019s Great Cannon. Retrieved March 9, 2017."
+                    "description": "Bill Marczak, Jakub Dalek, John Scott-Railton, Ron Deibert, Sarah McKune. (2015, April 10). China\u2019s Great Cannon. Retrieved March 9, 2017.",
+                    "source_name": "CitizenLabGreatCannon"
                 }
             ],
             "object_marking_refs": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0593a7be-3c1f-48b6-ba83-0d5487c97eea",
+    "id": "bundle--eb801343-140e-4559-88ec-09c5be0ea992",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--2de76a24-ec87-4808-b0d3-b84d318ac22c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "XcodeGhost can \"[r]ead and write data in the user\u2019s clipboard, which could be used to read the user\u2019s password if that password is copied from a password management tool.\"",
+            "modified": "2018-06-18T15:59:03.864Z",
+            "description": "XcodeGhost can \"[r]ead and write data in the user\u2019s clipboard, which could be used to read the user\u2019s password if that password is copied from a password management tool.\" (Citation: PaloAlto-XcodeGhost)",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2015/09/update-xcodeghost-attacker-can-phish-passwords-and-open-urls-though-infected-apps/",
-                    "source_name": "PaloAlto-XcodeGhost",
-                    "description": "Claud Xiao. (2015, September 18). Update: XcodeGhost Attacker Can Phish Passwords and Open URLs through Infected Apps. Retrieved December 21, 2016."
+                    "description": "Claud Xiao. (2015, September 18). Update: XcodeGhost Attacker Can Phish Passwords and Open URLs through Infected Apps. Retrieved December 21, 2016.",
+                    "source_name": "PaloAlto-XcodeGhost"
                 }
             ],
             "object_marking_refs": [

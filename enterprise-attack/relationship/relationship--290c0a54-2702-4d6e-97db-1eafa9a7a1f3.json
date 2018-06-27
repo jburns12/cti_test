@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2d40c128-6e7d-4478-8138-e9cdbb9009de",
+    "id": "bundle--e9e9f9db-855a-494e-a87c-05dbe7205eed",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--290c0a54-2702-4d6e-97db-1eafa9a7a1f3",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Cobalt Strike's \"beacon\" payload can receive C2 from one protocol and respond on another.  This is typically a mixture of HTTP, HTTPS, and DNS traffic.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Cobalt Strike's \"beacon\" payload can receive C2 from one protocol and respond on another. This is typically a mixture of HTTP, HTTPS, and DNS traffic. (Citation: cobaltstrike manual)",
             "external_references": [
                 {
                     "url": "https://cobaltstrike.com/downloads/csmanual38.pdf",
-                    "source_name": "cobaltstrike manual",
-                    "description": "Strategic Cyber LLC. (2017, March 14). Cobalt Strike Manual. Retrieved May 24, 2017."
+                    "description": "Strategic Cyber LLC. (2017, March 14). Cobalt Strike Manual. Retrieved May 24, 2017.",
+                    "source_name": "cobaltstrike manual"
                 }
             ],
             "object_marking_refs": [

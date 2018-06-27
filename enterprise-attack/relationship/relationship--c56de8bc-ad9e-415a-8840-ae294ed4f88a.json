@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c5314737-1753-42bb-8378-1b76d9c00db6",
+    "id": "bundle--42b85723-fdef-4cce-8c0a-95398c8ca936",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,18 +8,18 @@
             "id": "relationship--c56de8bc-ad9e-415a-8840-ae294ed4f88a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "Power Loader overwrites Explorer\u2019s Shell_TrayWnd extra window memory to redirect execution to a NTDLL function that is abused to assemble and execute a return-oriented programming (ROP) chain and create a malicious thread within Explorer.exe.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Power Loader overwrites Explorer\u2019s Shell_TrayWnd extra window memory to redirect execution to a NTDLL function that is abused to assemble and execute a return-oriented programming (ROP) chain and create a malicious thread within Explorer.exe. (Citation: MalwareTech Power Loader Aug 2013) (Citation: WeLiveSecurity Gapz and Redyms Mar 2013)",
             "external_references": [
                 {
                     "url": "https://www.malwaretech.com/2013/08/powerloader-injection-something-truly.html",
-                    "source_name": "MalwareTech Power Loader Aug 2013",
-                    "description": "MalwareTech. (2013, August 13). PowerLoader Injection \u2013 Something truly amazing. Retrieved December 16, 2017."
+                    "description": "MalwareTech. (2013, August 13). PowerLoader Injection \u2013 Something truly amazing. Retrieved December 16, 2017.",
+                    "source_name": "MalwareTech Power Loader Aug 2013"
                 },
                 {
                     "url": "https://www.welivesecurity.com/2013/03/19/gapz-and-redyms-droppers-based-on-power-loader-code/",
-                    "source_name": "WeLiveSecurity Gapz and Redyms Mar 2013",
-                    "description": "Matrosov, A. (2013, March 19). Gapz and Redyms droppers based on Power Loader code. Retrieved December 16, 2017."
+                    "description": "Matrosov, A. (2013, March 19). Gapz and Redyms droppers based on Power Loader code. Retrieved December 16, 2017.",
+                    "source_name": "WeLiveSecurity Gapz and Redyms Mar 2013"
                 }
             ],
             "object_marking_refs": [

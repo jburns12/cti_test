@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eb5675c2-a26d-47fd-b138-c91edf72d246",
+    "id": "bundle--0a0c03b1-369f-49ea-98ed-2fc1a383294d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--32568a57-ff9c-42f5-9b60-0b78d7b0a7c0",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "The ZLib backdoor compresses communications using the standard Zlib compression library.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "The ZLib backdoor compresses communications using the standard Zlib compression library. (Citation: Cylance Dust Storm)",
             "external_references": [
                 {
                     "url": "https://www.cylance.com/content/dam/cylance/pdfs/reports/Op%20Dust%20Storm%20Report.pdf",
-                    "source_name": "Cylance Dust Storm",
-                    "description": "Gross, J. (2016, February 23). Operation Dust Storm. Retrieved September 19, 2017."
+                    "description": "Gross, J. (2016, February 23). Operation Dust Storm. Retrieved September 19, 2017.",
+                    "source_name": "Cylance Dust Storm"
                 }
             ],
             "object_marking_refs": [

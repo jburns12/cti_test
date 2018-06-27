@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5bebf393-144c-4722-8550-1f4b287a4b1a",
+    "id": "bundle--7336cf3a-8ea3-4124-b72d-f7cb00e79e99",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--5cd8b8a9-fd11-4405-8369-b12398b94def",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "AutoIt backdoor attempts to escalate privileges by bypassing User Access Control.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "AutoIt backdoor attempts to escalate privileges by bypassing User Access Control. (Citation: Forcepoint Monsoon)",
             "external_references": [
                 {
                     "url": "https://www.forcepoint.com/sites/default/files/resources/files/forcepoint-security-labs-monsoon-analysis-report.pdf",
-                    "source_name": "Forcepoint Monsoon",
-                    "description": "Settle, A., et al. (2016, August 8). MONSOON - Analysis Of An APT Campaign. Retrieved September 22, 2016."
+                    "description": "Settle, A., et al. (2016, August 8). MONSOON - Analysis Of An APT Campaign. Retrieved September 22, 2016.",
+                    "source_name": "Forcepoint Monsoon"
                 }
             ],
             "object_marking_refs": [

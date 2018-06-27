@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3307ff48-adc1-4828-9975-211d5e51f895",
+    "id": "bundle--d4e8e43c-edb3-425f-8355-5ba828d86e9a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--1c5b8ff2-400a-4e0f-a819-3cc8f1bc76b8",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Mimikatz's <code>CRYPTO::Extract</code> module can extract keys by interacting with Windows cryptographic application programming interface (API) functions.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Mimikatz's <code>CRYPTO::Extract</code> module can extract keys by interacting with Windows cryptographic application programming interface (API) functions. (Citation: Adsecurity Mimikatz Guide)",
             "external_references": [
                 {
                     "url": "https://adsecurity.org/?page%20id=1821",
-                    "source_name": "Adsecurity Mimikatz Guide",
-                    "description": "Metcalf, S. (2015, November 13). Unofficial Guide to Mimikatz & Command Reference. Retrieved December 23, 2015."
+                    "description": "Metcalf, S. (2015, November 13). Unofficial Guide to Mimikatz & Command Reference. Retrieved December 23, 2015.",
+                    "source_name": "Adsecurity Mimikatz Guide"
                 }
             ],
             "object_marking_refs": [

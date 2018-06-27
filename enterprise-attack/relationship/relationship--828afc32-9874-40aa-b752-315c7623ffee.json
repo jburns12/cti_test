@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--48ec9473-de39-4572-ab2d-f7d68911e816",
+    "id": "bundle--aab6f0a9-92bb-4a6b-a3cd-4ee7d3013c0b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,17 +8,17 @@
             "id": "relationship--828afc32-9874-40aa-b752-315c7623ffee",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Kasidet creates a Registry Run key to establish persistence. ",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Kasidet creates a Registry Run key to establish persistence. (Citation: Zscaler Kasidet) (Citation: Microsoft Kasidet)",
             "external_references": [
                 {
                     "url": "http://research.zscaler.com/2016/01/malicious-office-files-dropping-kasidet.html",
-                    "source_name": "Zscaler Kasidet",
-                    "description": "Yadav, A., et al. (2016, January 29). Malicious Office files dropping Kasidet and Dridex. Retrieved March 24, 2016."
+                    "description": "Yadav, A., et al. (2016, January 29). Malicious Office files dropping Kasidet and Dridex. Retrieved March 24, 2016.",
+                    "source_name": "Zscaler Kasidet"
                 },
                 {
-                    "source_name": "Microsoft Kasidet",
-                    "description": "Manuel, J. and Plantado, R.. (2015, August 9). Win32/Kasidet. Retrieved March 24, 2016."
+                    "description": "Manuel, J. and Plantado, R.. (2015, August 9). Win32/Kasidet. Retrieved March 24, 2016.",
+                    "source_name": "Microsoft Kasidet"
                 }
             ],
             "object_marking_refs": [

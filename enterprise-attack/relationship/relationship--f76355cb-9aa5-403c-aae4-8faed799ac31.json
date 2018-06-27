@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--29494910-9ae1-440f-9957-9962f49e268c",
+    "id": "bundle--5cb0cd9e-2f91-4be8-92bb-5943f73330ed",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--f76355cb-9aa5-403c-aae4-8faed799ac31",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "Skeleton Key is used to patch an enterprise domain controller authentication process with a backdoor password. It allows adversaries to bypass the standard authentication system to use a defined password for all accounts authenticating to that domain controller.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Skeleton Key is used to patch an enterprise domain controller authentication process with a backdoor password. It allows adversaries to bypass the standard authentication system to use a defined password for all accounts authenticating to that domain controller. (Citation: Dell Skeleton)",
             "external_references": [
                 {
                     "url": "http://www.secureworks.com/cyber-threat-intelligence/threats/skeleton-key-malware-analysis/",
-                    "source_name": "Dell Skeleton",
-                    "description": "Dell SecureWorks. (2015, January 12). Skeleton Key Malware Analysis. Retrieved February 2, 2015."
+                    "description": "Dell SecureWorks. (2015, January 12). Skeleton Key Malware Analysis. Retrieved February 2, 2015.",
+                    "source_name": "Dell Skeleton"
                 }
             ],
             "object_marking_refs": [

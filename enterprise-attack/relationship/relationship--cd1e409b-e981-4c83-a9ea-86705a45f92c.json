@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8b8c1821-9476-4181-b20f-31726f490b6a",
+    "id": "bundle--b345c1a1-32cc-4214-ad81-f667b5841cb6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--cd1e409b-e981-4c83-a9ea-86705a45f92c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "EvilGrab adds a Registry Run key for ctfmon.exe to establish persistence.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "EvilGrab adds a Registry Run key for ctfmon.exe to establish persistence. (Citation: PWC Cloud Hopper Technical Annex April 2017)",
             "external_references": [
                 {
                     "url": "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-annex-b-final.pdf",
-                    "source_name": "PWC Cloud Hopper Technical Annex April 2017",
-                    "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017."
+                    "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.",
+                    "source_name": "PWC Cloud Hopper Technical Annex April 2017"
                 }
             ],
             "object_marking_refs": [

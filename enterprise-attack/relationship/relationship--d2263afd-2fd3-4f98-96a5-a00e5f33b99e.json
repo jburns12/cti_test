@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3bdbfb2d-d892-4b1f-8952-9e73e93b5592",
+    "id": "bundle--c0e98b4f-070d-49df-8301-703d66d3c4fd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,12 +8,12 @@
             "id": "relationship--d2263afd-2fd3-4f98-96a5-a00e5f33b99e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "A JPIN uses a encrypted and compressed payload that is disguised as a bitmap within the resource section of the installer.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "A JPIN uses a encrypted and compressed payload that is disguised as a bitmap within the resource section of the installer. (Citation: Microsoft PLATINUM April 2016)",
             "external_references": [
                 {
-                    "source_name": "Microsoft PLATINUM April 2016",
-                    "description": "Windows Defender Advanced Threat Hunting Team. (2016, April 29). PLATINUM: Targeted attacks in South and Southeast Asia. Retrieved February 15, 2018."
+                    "description": "Windows Defender Advanced Threat Hunting Team. (2016, April 29). PLATINUM: Targeted attacks in South and Southeast Asia. Retrieved February 15, 2018.",
+                    "source_name": "Microsoft PLATINUM April 2016"
                 }
             ],
             "object_marking_refs": [

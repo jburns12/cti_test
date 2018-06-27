@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6a7adee4-ba1b-49f6-a513-89a6944aad96",
+    "id": "bundle--341c98c4-4fdc-41aa-b206-22a51103f6ee",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,23 +8,23 @@
             "id": "relationship--6ab291a5-8061-4ad4-a6a7-07a6142e4c27",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.068Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "description": "Lazarus Group malware attempts to maintain persistence by saving itself in the Start menu folder or by adding a Registry Run key.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Lazarus Group malware attempts to maintain persistence by saving itself in the Start menu folder or by adding a Registry Run key. (Citation: Novetta Blockbuster RATs) (Citation: McAfee Lazarus Resurfaces Feb 2018)",
             "external_references": [
                 {
                     "url": "https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Report.pdf",
-                    "source_name": "Novetta Blockbuster",
-                    "description": "Novetta Threat Research Group. (2016, February 24). Operation Blockbuster: Unraveling the Long Thread of the Sony Attack. Retrieved February 25, 2016."
+                    "description": "Novetta Threat Research Group. (2016, February 24). Operation Blockbuster: Unraveling the Long Thread of the Sony Attack. Retrieved February 25, 2016.",
+                    "source_name": "Novetta Blockbuster"
                 },
                 {
                     "url": "https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-RAT-and-Staging-Report.pdf",
-                    "source_name": "Novetta Blockbuster RATs",
-                    "description": "Novetta Threat Research Group. (2016, February 24). Operation Blockbuster: Remote Administration Tools & Content Staging Malware Report. Retrieved March 16, 2016."
+                    "description": "Novetta Threat Research Group. (2016, February 24). Operation Blockbuster: Remote Administration Tools & Content Staging Malware Report. Retrieved March 16, 2016.",
+                    "source_name": "Novetta Blockbuster RATs"
                 },
                 {
                     "url": "https://securingtomorrow.mcafee.com/mcafee-labs/lazarus-resurfaces-targets-global-banks-bitcoin-users/",
-                    "source_name": "McAfee Lazarus Resurfaces Feb 2018",
-                    "description": "Sherstobitoff, R. (2018, February 12). Lazarus Resurfaces, Targets Global Banks and Bitcoin Users. Retrieved February 19, 2018."
+                    "description": "Sherstobitoff, R. (2018, February 12). Lazarus Resurfaces, Targets Global Banks and Bitcoin Users. Retrieved February 19, 2018.",
+                    "source_name": "McAfee Lazarus Resurfaces Feb 2018"
                 }
             ],
             "object_marking_refs": [

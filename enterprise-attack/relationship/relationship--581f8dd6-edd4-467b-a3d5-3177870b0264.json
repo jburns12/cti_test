@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--86a4c610-ddc3-4042-9719-2ffee7eb3bf2",
+    "id": "bundle--0ae7a9dc-bcb6-4e24-b00b-b1e75153b884",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--581f8dd6-edd4-467b-a3d5-3177870b0264",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "netsh can be used as a persistence proxy technique to execute a helper DLL when netsh.exe is executed.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "netsh can be used as a persistence proxy technique to execute a helper DLL when netsh.exe is executed. (Citation: Demaske Netsh Persistence)",
             "external_references": [
                 {
                     "url": "https://htmlpreview.github.io/?https://github.com/MatthewDemaske/blogbackup/blob/master/netshell.html",
-                    "source_name": "Demaske Netsh Persistence",
-                    "description": "Demaske, M. (2016, September 23). USING NETSHELL TO EXECUTE EVIL DLLS AND PERSIST ON A HOST. Retrieved April 8, 2017."
+                    "description": "Demaske, M. (2016, September 23). USING NETSHELL TO EXECUTE EVIL DLLS AND PERSIST ON A HOST. Retrieved April 8, 2017.",
+                    "source_name": "Demaske Netsh Persistence"
                 }
             ],
             "object_marking_refs": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--194d1007-914b-49fc-a24a-0c1936063647",
+    "id": "bundle--918cf980-4923-43d5-b91b-e6e6d92c793a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--18bfa01c-9fa9-409f-91f5-4a2822609d81",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-18T16:40:07.760Z",
             "name": "Test physical access",
-            "description": "An  adversary can test physical access options in preparation for the actual attack. This could range from observing behaviors and noting security precautions to actually attempting access. (Citation: OCIAC Pre Incident Indicators) (Citation: NewsAgencySpy)\n\nDetectable by Common Defenses: Yes\n\nDetectable by Common Defenses explanation: Defender often install badging, cameras, security guards or other detection techniques for physical security and monitoring.\n\nDifficulty for the Adversary: No\n\nDifficulty for the Adversary explanation: Requires a physical presence in the space being entered and increased risk of being detected/detained (e.g., recorded on video camera)",
+            "description": "An  adversary can test physical access options in preparation for the actual attack. This could range from observing behaviors and noting security precautions to actually attempting access. (Citation: OCIAC Pre Incident Indicators) (Citation: NewsAgencySpy)",
             "kill_chain_phases": [
                 {
                     "phase_name": "test-capabilities",
@@ -20,16 +20,16 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1137",
-                    "source_name": "mitre-pre-attack",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1137"
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1137",
+                    "source_name": "mitre-pre-attack"
                 },
                 {
-                    "source_name": "OCIAC Pre Incident Indicators",
-                    "description": "Orange County Intelligence Assessment Center. (n.d.). Pre-Incident Indicators. Retrieved March 28, 2017."
+                    "description": "Orange County Intelligence Assessment Center. (n.d.). Pre-Incident Indicators. Retrieved March 28, 2017.",
+                    "source_name": "OCIAC Pre Incident Indicators"
                 },
                 {
-                    "source_name": "NewsAgencySpy",
-                    "description": "The Canadian Press. (2012, August 22). Reporter says Chinese news agency asked him to spy. Retrieved March 9, 2017."
+                    "description": "The Canadian Press. (2012, August 22). Reporter says Chinese news agency asked him to spy. Retrieved March 9, 2017.",
+                    "source_name": "NewsAgencySpy"
                 }
             ],
             "object_marking_refs": [

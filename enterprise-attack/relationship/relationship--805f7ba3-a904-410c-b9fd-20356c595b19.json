@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--286ae62b-f596-4792-893f-62e32acad9bd",
+    "id": "bundle--38e73ceb-64c0-447e-8c9a-8d2a24506cd4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--805f7ba3-a904-410c-b9fd-20356c595b19",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "BBSRAT uses a custom encryption algorithm on data sent back to the C2 server over HTTP.",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "BBSRAT uses a custom encryption algorithm on data sent back to the C2 server over HTTP. (Citation: Palo Alto Networks BBSRAT)",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2015/12/bbsrat-attacks-targeting-russian-organizations-linked-to-roaming-tiger/",
-                    "source_name": "Palo Alto Networks BBSRAT",
-                    "description": "Lee, B. Grunzweig, J. (2015, December 22). BBSRAT Attacks Targeting Russian Organizations Linked to Roaming Tiger. Retrieved August 19, 2016."
+                    "description": "Lee, B. Grunzweig, J. (2015, December 22). BBSRAT Attacks Targeting Russian Organizations Linked to Roaming Tiger. Retrieved August 19, 2016.",
+                    "source_name": "Palo Alto Networks BBSRAT"
                 }
             ],
             "object_marking_refs": [

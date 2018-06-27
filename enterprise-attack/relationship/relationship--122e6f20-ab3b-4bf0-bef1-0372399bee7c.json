@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fcb48dd5-c88b-433a-aeac-39c06a6949ca",
+    "id": "bundle--30be19ed-6068-42b1-b882-9460ff997c3a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--122e6f20-ab3b-4bf0-bef1-0372399bee7c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-01-17T12:56:55.080Z",
-            "description": "NETEAGLE will decrypt resources it downloads with HTTP requests by using RC4 with the key \"ScoutEagle.\"",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "NETEAGLE will decrypt resources it downloads with HTTP requests by using RC4 with the key \"ScoutEagle.\" (Citation: FireEye APT30)",
             "external_references": [
                 {
                     "url": "https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf",
-                    "source_name": "FireEye APT30",
-                    "description": "FireEye Labs. (2015, April). APT30 AND THE MECHANICS OF A LONG-RUNNING CYBER ESPIONAGE OPERATION. Retrieved May 1, 2015."
+                    "description": "FireEye Labs. (2015, April). APT30 AND THE MECHANICS OF A LONG-RUNNING CYBER ESPIONAGE OPERATION. Retrieved May 1, 2015.",
+                    "source_name": "FireEye APT30"
                 }
             ],
             "object_marking_refs": [
