@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7fdfb2e6-7442-4eff-9b1a-9b0572ee413e",
+    "id": "bundle--1580b254-8a6e-44e9-89f1-af47580165df",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.052Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "admin@338 actors used the following commands after exploiting a machine with LOWBALL malware to obtain information about files and directories: <code>dir c:\\ >> %temp%\\download</code> <code>dir \"c:\\Documents and Settings\" >> %temp%\\download</code> <code>dir \"c:\\Program Files\\\" >> %temp%\\download</code> <code>dir d:\\ >> %temp%\\download</code>",
+            "description": "{{LinkById|G0018}} actors used the following commands after exploiting a machine with {{LinkById|S0042}} malware to obtain information about files and directories: <code>dir c:\\ >> %temp%\\download</code> <code>dir \"c:\\Documents and Settings\" >> %temp%\\download</code> <code>dir \"c:\\Program Files\\\" >> %temp%\\download</code> <code>dir d:\\ >> %temp%\\download</code>",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2015/11/china-based-threat.html",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0018}} actors used the following commands after exploiting a machine with {{LinkById|S0042}} malware to obtain information about files and directories: <code>dir c:\\ >> %temp%\\download</code> <code>dir \"c:\\Documents and Settings\" >> %temp%\\download</code> <code>dir \"c:\\Program Files\\\" >> %temp%\\download</code> <code>dir d:\\ >> %temp%\\download</code>",
             "source_ref": "intrusion-set--16ade1aa-0ea1-4bb7-88cc-9079df2ae756",
             "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18"
         }

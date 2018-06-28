@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--46a742ee-2a0b-4bb7-b454-cb8e5c2b5469",
+    "id": "bundle--65e6b615-9fba-44de-9841-25c8fd4b895b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "PlugX can use the Windows API function CreateProcess to execute another process.",
+            "description": "{{LinkById|S0013}} can use the Windows API function CreateProcess to execute another process.",
             "external_references": [
                 {
                     "url": "http://labs.lastline.com/an-analysis-of-plugx",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0013}} can use the Windows API function CreateProcess to execute another process.",
             "source_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",
             "target_ref": "attack-pattern--391d824f-0ef1-47a0-b0ee-c59a75e27670"
         }

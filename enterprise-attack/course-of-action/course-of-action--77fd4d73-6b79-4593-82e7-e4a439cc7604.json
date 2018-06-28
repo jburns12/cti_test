@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2914c5c6-7e5f-4eec-bf44-749b3693de53",
+    "id": "bundle--d525524e-e395-40a0-b875-d44c394e3ef9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -17,8 +17,7 @@
                     "url": "https://attack.mitre.org/wiki/Technique/T1161",
                     "source_name": "mitre-attack"
                 }
-            ],
-            "x_mitre_detection": "Enforce that all binaries be signed by the correct Apple Developer IDs, and whitelist applications via known hashes. Binaries can also be baselined for what dynamic libraries they require, and if an app requires a new dynamic library that wasn\u2019t included as part of an update, it should be investigated."
+            ]
         }
     ]
 }

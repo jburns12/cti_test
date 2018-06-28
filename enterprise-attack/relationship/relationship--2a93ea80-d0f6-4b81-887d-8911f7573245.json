@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--56ef24d8-9a77-49b1-9339-5bb8f7307ee7",
+    "id": "bundle--96d3af01-11fc-404e-b1ee-67171b7f7183",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.061Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Threat Group-3390 actors have used DLL side-loading. Actors have used legitimate Kaspersky anti-virus variants in which the DLL acts as a stub loader that loads and executes the shell code.",
+            "description": "{{LinkById|G0027}} actors have used DLL side-loading. Actors have used legitimate Kaspersky anti-virus variants in which the DLL acts as a stub loader that loads and executes the shell code.",
             "external_references": [
                 {
                     "url": "http://www.secureworks.com/cyber-threat-intelligence/threats/threat-group-3390-targets-organizations-for-cyberespionage/",
@@ -25,7 +25,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0027}} actors have used DLL side-loading. Actors have used legitimate Kaspersky anti-virus variants in which the DLL acts as a stub loader that loads and executes the shell code.",
             "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
             "target_ref": "attack-pattern--b2001907-166b-4d71-bb3c-9d26c871de09"
         }

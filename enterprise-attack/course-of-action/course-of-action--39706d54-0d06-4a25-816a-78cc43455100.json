@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--42e7d6bd-a450-490d-ab46-ae1fd636050a",
+    "id": "bundle--6d1d08d8-d789-4ac8-ba6f-dffd21c7f9b7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -42,8 +42,7 @@
                     "description": "Microsoft. (2012, June 27). Using Software Restriction Policies and AppLocker Policies. Retrieved April 7, 2016.",
                     "source_name": "TechNet Applocker vs SRP"
                 }
-            ],
-            "x_mitre_detection": "Identify unnecessary system utilities or potentially malicious software that may be used to collect data from removable media, and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)"
+            ]
         }
     ]
 }

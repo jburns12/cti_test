@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c489c19b-7960-4e02-882f-8fc7a75a419e",
+    "id": "bundle--c9a9e1bc-ad7a-4980-b3a8-2cfc2aae3736",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "MoonWind can execute commands via an interactive command shell.",
+            "description": "{{LinkById|S0149}} can execute commands via an interactive command shell.",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2017/03/unit42-trochilus-rat-new-moonwind-rat-used-attack-thai-utility-organizations/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0149}} can execute commands via an interactive command shell.",
             "source_ref": "malware--9ea525fa-b0a9-4dde-84f2-bcea0137b3c1",
             "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d8cbc0c8-1094-40ca-9033-9fc52574978d",
+    "id": "bundle--7b39a077-cfef-4099-a76a-8f6a216ef15e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -42,8 +42,7 @@
                     "description": "Microsoft. (2012, June 27). Using Software Restriction Policies and AppLocker Policies. Retrieved April 7, 2016.",
                     "source_name": "TechNet Applocker vs SRP"
                 }
-            ],
-            "x_mitre_detection": "Identify unnecessary system utilities or potentially malicious software that may be used to acquire information about network connections, and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)"
+            ]
         }
     ]
 }

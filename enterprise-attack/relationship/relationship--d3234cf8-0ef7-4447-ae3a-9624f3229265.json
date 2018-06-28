@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c0ebd9db-9519-4d06-86f7-4a41636e4ff8",
+    "id": "bundle--a6fe1806-193f-479d-be9c-6f5fde944bc3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "XTunnel relays traffic between a C2 server and a victim.",
+            "description": "{{LinkById|S0117}} relays traffic between a C2 server and a victim.",
             "external_references": [
                 {
                     "url": "https://www.crowdstrike.com/blog/bears-midst-intrusion-democratic-national-committee/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0117}} relays traffic between a C2 server and a victim.",
             "source_ref": "malware--7343e208-7cab-45f2-a47b-41ba5e2f0fab",
             "target_ref": "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea"
         }

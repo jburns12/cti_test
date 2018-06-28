@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ce940c78-ad12-43b5-ab97-509b4d4ecb64",
+    "id": "bundle--d6048d9e-70f4-4d72-a340-788b07e87541",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "APT28 has used CVE-2015-4902 to bypass security features.",
+            "description": "{{LinkById|G0007}} has used CVE-2015-4902 to bypass security features.",
             "external_references": [
                 {
                     "description": "Bitdefender. (2015, December). APT28 Under the Scope. Retrieved February 23, 2017.",
@@ -24,7 +24,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0007}} has used CVE-2015-4902 to bypass security features.",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "attack-pattern--fe926152-f431-4baf-956c-4ad3cb0bf23b"
         }

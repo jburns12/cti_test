@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ca7bb201-a287-47ee-861d-1bb0ea9e8d11",
+    "id": "bundle--ee0ba738-dc2e-43d5-995b-1577d215e185",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Traffic traversing the Tor network will be forwarded to multiple nodes before exiting the Tor network and continuing on to its intended destination.",
+            "description": "Traffic traversing the {{LinkById|S0183}} network will be forwarded to multiple nodes before exiting the {{LinkById|S0183}} network and continuing on to its intended destination.",
             "external_references": [
                 {
                     "url": "http://www.dtic.mil/dtic/tr/fulltext/u2/a465464.pdf",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Traffic traversing the {{LinkById|S0183}} network will be forwarded to multiple nodes before exiting the {{LinkById|S0183}} network and continuing on to its intended destination.",
             "source_ref": "tool--ed7d0cb1-87a6-43b4-9f46-ef1bc56d6c68",
             "target_ref": "attack-pattern--7d751199-05fa-4a72-920f-85df4506c76c"
         }

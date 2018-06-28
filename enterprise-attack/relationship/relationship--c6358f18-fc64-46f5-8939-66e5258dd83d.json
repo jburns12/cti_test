@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--36d3358b-630c-4eb9-a634-b1a5cd1443e6",
+    "id": "bundle--b6914924-cdc5-4fd7-8078-c9b5f18b30c0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.063Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Threat Group-1314 actors used compromised credentials for the victim's endpoint management platform, Altiris, to move laterally.",
+            "description": "{{LinkById|G0028}} actors used compromised credentials for the victim's endpoint management platform, Altiris, to move laterally.",
             "external_references": [
                 {
                     "url": "http://www.secureworks.com/resources/blog/living-off-the-land/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0028}} actors used compromised credentials for the victim's endpoint management platform, Altiris, to move laterally.",
             "source_ref": "intrusion-set--d519164e-f5fa-4b8c-a1fb-cf0172ad0983",
             "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81"
         }

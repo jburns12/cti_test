@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--75c3a917-5cdc-4a22-b9df-6f8d1acd13d2",
+    "id": "bundle--305700da-33ee-4b23-a29b-18ca5ab7c420",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "A JHUHUGIT variant takes screenshots by simulating the user pressing the \"Take Screenshot\" key (VK_SCREENSHOT), accessing the screenshot saved in the clipboard, and converting it to a JPG image.",
+            "description": "A {{LinkById|S0044}} variant takes screenshots by simulating the user pressing the \"Take Screenshot\" key (VK_SCREENSHOT), accessing the screenshot saved in the clipboard, and converting it to a JPG image.",
             "external_references": [
                 {
                     "url": "https://pan-unit42.github.io/playbook%20viewer/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "A {{LinkById|S0044}} variant takes screenshots by simulating the user pressing the \"Take Screenshot\" key (VK_SCREENSHOT), accessing the screenshot saved in the clipboard, and converting it to a JPG image.",
             "source_ref": "malware--8ae43c46-57ef-47d5-a77a-eebb35628db2",
             "target_ref": "attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688"
         }

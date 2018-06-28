@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a4af7080-0dd7-41de-acba-1632d8d1e55b",
+    "id": "bundle--a552c9f9-0ad1-4dae-bd38-f92a781b8e49",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "APT3 has been known to stage files for exfiltration in a single location.",
+            "description": "{{LinkById|G0022}} has been known to stage files for exfiltration in a single location.",
             "external_references": [
                 {
                     "url": "http://carnal0wnage.attackresearch.com/2012/09/more-on-aptsim.html",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0022}} has been known to stage files for exfiltration in a single location.",
             "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
             "target_ref": "attack-pattern--7dd95ff6-712e-4056-9626-312ea4ab4c5e"
         }

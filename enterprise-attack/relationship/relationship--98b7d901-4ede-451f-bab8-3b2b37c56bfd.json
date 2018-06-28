@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--be3d381f-d308-4498-a1ca-0c0a814c0715",
+    "id": "bundle--d2511905-af1c-44c6-b826-39492930c241",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "A module in Prikormka collects information from the victim about installed anti-virus software.",
+            "description": "A module in {{LinkById|S0113}} collects information from the victim about installed anti-virus software.",
             "external_references": [
                 {
                     "url": "http://www.welivesecurity.com/wp-content/uploads/2016/05/Operation-Groundbait.pdf",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "A module in {{LinkById|S0113}} collects information from the victim about installed anti-virus software.",
             "source_ref": "malware--37cc7eb6-12e3-467b-82e8-f20f2cc73c69",
             "target_ref": "attack-pattern--241814ae-de3f-4656-b49e-f9a80764d4b7"
         }

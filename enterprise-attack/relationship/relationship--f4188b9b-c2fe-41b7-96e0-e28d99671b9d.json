@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--169f4150-2fbd-43ed-9c7a-15d2dcf10880",
+    "id": "bundle--00a2112d-4577-43df-935a-dd14c3e9ad5d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "BRONZE BUTLER has compressed and encrypted data into password-protected RAR archives prior to exfiltration.",
+            "description": "{{LinkById|G0060}} has compressed and encrypted data into password-protected RAR archives prior to exfiltration.",
             "external_references": [
                 {
                     "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0060}} has compressed and encrypted data into password-protected RAR archives prior to exfiltration.",
             "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
             "target_ref": "attack-pattern--d54416bd-0803-41ca-870a-ce1af7c05638"
         }

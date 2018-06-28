@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--96f5bac0-c7c7-4000-9875-5957e1436026",
+    "id": "bundle--d886c47e-641a-4bc6-bfbf-9a2e28e0213a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Reg may be used to gather details from the Windows Registry of a local or remote system at the command-line interface.",
+            "description": "{{LinkById|S0075}} may be used to gather details from the Windows Registry of a local or remote system at the command-line interface.",
             "external_references": [
                 {
                     "url": "https://technet.microsoft.com/en-us/library/cc732643.aspx",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0075}} may be used to gather details from the Windows Registry of a local or remote system at the command-line interface.",
             "source_ref": "tool--cde2d700-9ed1-46cf-9bce-07364fe8b24f",
             "target_ref": "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896"
         }

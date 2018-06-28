@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b19f2ba1-3329-46f4-ae2c-8047b70fe1e6",
+    "id": "bundle--440b5838-ce8d-4e65-be83-28fbdc9a5102",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.045Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Turla surveys a system upon check-in to discover information in the Windows Registry with the <code>reg query</code> command.",
+            "description": "{{LinkById|G0010}} surveys a system upon check-in to discover information in the Windows Registry with the <code>reg query</code> command.",
             "external_references": [
                 {
                     "url": "https://securelist.com/the-epic-turla-operation/65545/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0010}} surveys a system upon check-in to discover information in the Windows Registry with the <code>reg query</code> command.",
             "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
             "target_ref": "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896"
         }

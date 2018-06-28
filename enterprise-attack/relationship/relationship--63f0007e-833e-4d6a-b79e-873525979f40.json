@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--71fc8792-e3ee-497f-bb5a-dc5dc6e680a2",
+    "id": "bundle--7fd1bec6-b0dd-4487-aedc-880fd9528423",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "CosmicDuke attempts to exploit privilege escalation vulnerabilities CVE-2010-0232 or CVE-2010-4398.",
+            "description": "{{LinkById|S0050}} attempts to exploit privilege escalation vulnerabilities CVE-2010-0232 or CVE-2010-4398.",
             "external_references": [
                 {
                     "url": "https://www.f-secure.com/documents/996508/1030745/dukes%20whitepaper.pdf",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0050}} attempts to exploit privilege escalation vulnerabilities CVE-2010-0232 or CVE-2010-4398.",
             "source_ref": "malware--2eb9b131-d333-4a48-9eb4-d8dec46c19ee",
             "target_ref": "attack-pattern--b21c3b2d-02e6-45b1-980b-e69051040839"
         }

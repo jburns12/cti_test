@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4c6a675c-f51e-4688-be55-e26605699842",
+    "id": "bundle--2a823cbb-a110-415b-b16c-f4fd7d89d58d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Pupy adds itself to the startup folder or adds itself to the Registry key <code>SOFTWARE\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run</code> for persistence.",
+            "description": "{{LinkById|S0192}} adds itself to the startup folder or adds itself to the Registry key <code>SOFTWARE\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run</code> for persistence.",
             "external_references": [
                 {
                     "url": "https://github.com/n1nj4sec/pupy",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0192}} adds itself to the startup folder or adds itself to the Registry key <code>SOFTWARE\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run</code> for persistence.",
             "source_ref": "tool--cb69b20d-56d0-41ab-8440-4a4b251614d4",
             "target_ref": "attack-pattern--9422fc14-1c43-410d-ab0f-a709b76c72dc"
         }

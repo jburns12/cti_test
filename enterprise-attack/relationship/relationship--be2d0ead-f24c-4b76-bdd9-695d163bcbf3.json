@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a55b6b02-d96e-4116-8f84-a4fd6813423e",
+    "id": "bundle--0a588aa6-e7e2-4776-b72f-6d47406e0c9c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "PowerSploit's <code>Install-SSP</code> Persistence module can be used to establish by installing a SSP DLL.",
+            "description": "{{LinkById|S0194}}'s <code>Install-SSP</code> Persistence module can be used to establish by installing a SSP DLL.",
             "external_references": [
                 {
                     "url": "https://github.com/PowerShellMafia/PowerSploit",
@@ -25,7 +25,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0194}}'s <code>Install-SSP</code> Persistence module can be used to establish by installing a SSP DLL.",
             "source_ref": "tool--13cd9151-83b7-410d-9f98-25d0f0d1d80d",
             "target_ref": "attack-pattern--6c174520-beea-43d9-aac6-28fb77f3e446"
         }

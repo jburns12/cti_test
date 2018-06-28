@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--07126d1a-d79e-4f83-a15a-dc25274b1d60",
+    "id": "bundle--107f91a0-726f-4dee-b01f-29edb1443e1d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -42,8 +42,7 @@
                     "description": "Microsoft. (2012, June 27). Using Software Restriction Policies and AppLocker Policies. Retrieved April 7, 2016.",
                     "source_name": "TechNet Applocker vs SRP"
                 }
-            ],
-            "x_mitre_detection": "Mitigating this technique specifically may be difficult as it requires fine-grained API control. Efforts should be focused on preventing unwanted or unknown code from executing on a system.\n\nIdentify and block potentially malicious software that may be used to capture video and images by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)"
+            ]
         }
     ]
 }

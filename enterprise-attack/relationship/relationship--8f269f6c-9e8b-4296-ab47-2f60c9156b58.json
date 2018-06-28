@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--779a67f1-4da6-49fe-9110-8ac61f6ddb22",
+    "id": "bundle--5bdaa9e6-5968-4fa1-bdb3-ca84d3b1e641",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.038Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "APT28 executed CHOPSTICK by using rundll32 commands such as <code>rundll32.exe \u201cC:\\Windows\\twain_64.dll\u201d</code>. APT28 also executed a .dll for a first stage dropper using rundll32.exe. An APT28 loader Trojan saved a batch script that uses rundll32 to execute a DLL payload.",
+            "description": "{{LinkById|G0007}} executed {{LinkById|S0023}} by using rundll32 commands such as <code>rundll32.exe \u201cC:\\Windows\\twain_64.dll\u201d</code>. {{LinkById|G0007}} also executed a .dll for a first stage dropper using rundll32.exe. An {{LinkById|G0007}} loader Trojan saved a batch script that uses rundll32 to execute a DLL payload.",
             "external_references": [
                 {
                     "description": "Bitdefender. (2015, December). APT28 Under the Scope. Retrieved February 23, 2017.",
@@ -29,7 +29,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0007}} executed {{LinkById|S0023}} by using rundll32 commands such as <code>rundll32.exe \u201cC:\\Windows\\twain_64.dll\u201d</code>. {{LinkById|G0007}} also executed a .dll for a first stage dropper using rundll32.exe. An {{LinkById|G0007}} loader Trojan saved a batch script that uses rundll32 to execute a DLL payload.",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "attack-pattern--62b8c999-dcc0-4755-bd69-09442d9359f5"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fb795aaf-83ce-4cb9-b071-06eb2839dec0",
+    "id": "bundle--588590e0-58f2-437d-a8a8-ef372bc7e91e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.077Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "A Patchwork payload downloads additional malware from the C2 server.",
+            "description": "A {{LinkById|G0040}} payload downloads additional malware from the C2 server.",
             "external_references": [
                 {
                     "url": "https://securelist.com/the-dropping-elephant-actor/75328/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "A {{LinkById|G0040}} payload downloads additional malware from the C2 server.",
             "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add"
         }

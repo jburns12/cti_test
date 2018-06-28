@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--715a9100-5424-4827-8a10-e4bf326c9aa1",
+    "id": "bundle--25f287ab-dea1-41b7-99d9-a244df579200",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,7 +10,7 @@
             "created": "2018-06-27T14:18:47.700Z",
             "modified": "2018-06-27T14:18:47.700Z",
             "name": "SIP and Trust Provider Hijacking Mitigation",
-            "description": "Ensure proper permissions are set for Registry hives to prevent users from modifying keys related to SIP and trust provider components. Also ensure that these values contain their full path to prevent DLL Search Order Hijacking Mitigation. (Citation: SpectorOps Subverting Trust Sept 2017)\n\nConsider removing unnecessary and/or stale SIPs. (Citation: SpectorOps Subverting Trust Sept 2017)\n\nRestrict storage and execution of SIP DLLs to protected directories, such as C:\\Windows, rather than user directories.\n\nEnable whitelisting solutions such as AppLocker and/or Device Guard to block the loading of malicious SIP DLLs. Components may still be able to be hijacked to suitable functions already present on disk if malicious modifications to Registry keys are not prevented.",
+            "description": "Ensure proper permissions are set for Registry hives to prevent users from modifying keys related to SIP and trust provider components. Also ensure that these values contain their full path to prevent {{LinkById|T1038}}. (Citation: SpectorOps Subverting Trust Sept 2017)\n\nConsider removing unnecessary and/or stale SIPs. (Citation: SpectorOps Subverting Trust Sept 2017)\n\nRestrict storage and execution of SIP DLLs to protected directories, such as C:\\Windows, rather than user directories.\n\nEnable whitelisting solutions such as AppLocker and/or Device Guard to block the loading of malicious SIP DLLs. Components may still be able to be hijacked to suitable functions already present on disk if malicious modifications to Registry keys are not prevented.",
             "external_references": [
                 {
                     "external_id": "T1198",
@@ -22,8 +22,7 @@
                     "description": "Graeber, M. (2017, September). Subverting Trust in Windows. Retrieved January 31, 2018.",
                     "source_name": "SpectorOps Subverting Trust Sept 2017"
                 }
-            ],
-            "x_mitre_detection": "Ensure proper permissions are set for Registry hives to prevent users from modifying keys related to SIP and trust provider components. Also ensure that these values contain their full path to prevent {{LinkById|T1038}}. (Citation: SpectorOps Subverting Trust Sept 2017)\n\nConsider removing unnecessary and/or stale SIPs. (Citation: SpectorOps Subverting Trust Sept 2017)\n\nRestrict storage and execution of SIP DLLs to protected directories, such as C:\\Windows, rather than user directories.\n\nEnable whitelisting solutions such as AppLocker and/or Device Guard to block the loading of malicious SIP DLLs. Components may still be able to be hijacked to suitable functions already present on disk if malicious modifications to Registry keys are not prevented."
+            ]
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3a460da8-bb98-44c4-91b0-84e19b620fa5",
+    "id": "bundle--b8bef074-34ea-4ab6-92c4-21705bc51670",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-18T15:59:03.864Z",
-            "description": "BrainTest uses root privileges if available to copy an additional Android app package (APK) to /system/priv-app to maintain persistence even after a factory reset.",
+            "description": "{{LinkById|MOB-S0009}} uses root privileges if available to copy an additional Android app package (APK) to /system/priv-app to maintain persistence even after a factory reset.",
             "external_references": [
                 {
                     "url": "https://blog.lookout.com/blog/2016/01/06/brain-test-re-emerges/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|MOB-S0009}} uses root privileges if available to copy an additional Android app package (APK) to /system/priv-app to maintain persistence even after a factory reset.",
             "source_ref": "malware--e13d084c-382f-40fd-aa9a-98d69e20301e",
             "target_ref": "attack-pattern--c5089859-b21f-40a3-8be4-63e381b8b1c0"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--15673cc3-17f1-4a4d-828c-186cc18a6def",
+    "id": "bundle--73ca6dd4-4088-40c0-b82c-4361ed06ec7e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "The Helminth config file is encrypted with RC4.",
+            "description": "The {{LinkById|S0170}} config file is encrypted with RC4.",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2016/05/the-oilrig-campaign-attacks-on-saudi-arabian-organizations-deliver-helminth-backdoor/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "The {{LinkById|S0170}} config file is encrypted with RC4.",
             "source_ref": "malware--eff1a885-6f90-42a1-901f-eef6e7a1905e",
             "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a"
         }

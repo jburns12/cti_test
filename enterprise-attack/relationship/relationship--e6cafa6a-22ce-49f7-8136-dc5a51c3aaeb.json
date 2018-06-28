@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e5ab624d-099b-4c42-9298-62b070f9ab2f",
+    "id": "bundle--eacf1caf-ebec-4990-bf01-9ab08406757e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.068Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Lazarus Group malware SierraAlfa accesses the <code>ADMIN$</code> share via SMB to conduct lateral movement.",
+            "description": "{{LinkById|G0032}} malware SierraAlfa accesses the <code>ADMIN$</code> share via SMB to conduct lateral movement.",
             "external_references": [
                 {
                     "url": "https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Report.pdf",
@@ -25,7 +25,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0032}} malware SierraAlfa accesses the <code>ADMIN$</code> share via SMB to conduct lateral movement.",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--ffe742ed-9100-4686-9e00-c331da544787"
         }

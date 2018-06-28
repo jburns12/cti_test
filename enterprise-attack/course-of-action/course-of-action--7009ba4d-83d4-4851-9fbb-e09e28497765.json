@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--35dd4dc4-8699-46a7-b6f4-77f954cd3ed8",
+    "id": "bundle--97483908-e469-4d29-af61-072c7ae7fa38",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,8 +27,7 @@
                     "description": "US-CERT. (2017, March 16). SMB Security Best Practices. Retrieved December 21, 2017.",
                     "source_name": "US-CERT SMB Security"
                 }
-            ],
-            "x_mitre_detection": "Block SMB  traffic from exiting an enterprise network with egress filtering or by blocking TCP ports 139, 445 and UDP port 137. Filter or block WebDAV protocol traffic from exiting the network. If access to external resources over SMB and WebDAV is necessary, then traffic should be tightly limited with whitelisting. (Citation: US-CERT SMB Security) (Citation: US-CERT APT Energy Oct 2017)\n\nFor internal traffic, monitor the workstation-to-workstation unusual (vs. baseline) SMB traffic. For many networks there should not be any, but it depends on how systems on the network are configured and where resources are located.\n\nUse strong passwords to increase the difficulty of credential hashes from being cracked if they are obtained."
+            ]
         }
     ]
 }

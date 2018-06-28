@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a9a88bec-84dd-49c8-a2c6-65c9b0d4e7cd",
+    "id": "bundle--4b781a67-4321-4728-8268-85d29e837a38",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Some Sakula samples use cmd.exe to delete temporary files.",
+            "description": "Some {{LinkById|S0074}} samples use cmd.exe to delete temporary files.",
             "external_references": [
                 {
                     "url": "http://www.secureworks.com/cyber-threat-intelligence/threats/sakula-malware-family/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Some {{LinkById|S0074}} samples use cmd.exe to delete temporary files.",
             "source_ref": "malware--96b08451-b27a-4ff6-893f-790e26393a8e",
             "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59"
         }

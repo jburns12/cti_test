@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1dd89622-0e36-4308-b5d6-3e9e9dd58d3b",
+    "id": "bundle--aa6601f0-28aa-4334-b6c3-63838d8548e8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -32,7 +32,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "ART (the Android Runtime) compiles optimized code on the device itself to improve performance. If an adversary can escalate privileges, he or she may be able to use those privileges to modify the cached code in order to hide malicious behavior. Since the code is compiled on the device, it may not receive the same level of integrity checks that are provided to code running in the system partition.\n\nSabanal describes the potential use of this technique in  (Citation: Sabanal-ART).",
             "x_mitre_platforms": [
                 "Android"
             ]

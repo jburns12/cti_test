@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f057073c-2056-44dd-a8d6-af852a99f707",
+    "id": "bundle--fd44f1ed-3307-4e10-8ffb-b1b0ab6f7549",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "FIN8 has leveraged both Spearphishing Link and Spearphishing Attachment attempting to gain User Execution.",
+            "description": "{{LinkById|G0061}} has leveraged both Spearphishing Link and Spearphishing Attachment attempting to gain User Execution.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/06/obfuscation-in-the-wild.html",
@@ -30,7 +30,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0061}} has leveraged both Spearphishing Link and Spearphishing Attachment attempting to gain User Execution.",
             "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
             "target_ref": "attack-pattern--8c32eb4d-805f-4fc5-bf60-c4d476c131b5"
         }

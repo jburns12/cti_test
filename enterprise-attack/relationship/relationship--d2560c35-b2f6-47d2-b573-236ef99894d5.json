@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c81c7cda-9df7-4652-b1a6-a1f353e63381",
+    "id": "bundle--cbc2d278-e23d-43dc-beba-a3a7ed217c5c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Matroyshka can establish persistence by adding a Scheduled Task named \"Microsoft Boost Kernel Optimization\".",
+            "description": "{{LinkById|S0167}} can establish persistence by adding a Scheduled Task named \"Microsoft Boost Kernel Optimization\".",
             "external_references": [
                 {
                     "url": "http://www.clearskysec.com/wp-content/uploads/2017/07/Operation%20Wilted%20Tulip.pdf",
@@ -25,7 +25,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0167}} can establish persistence by adding a Scheduled Task named \"Microsoft Boost Kernel Optimization\".",
             "source_ref": "malware--1cc934e4-b01d-4543-a011-b988dfc1a458",
             "target_ref": "attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9"
         }

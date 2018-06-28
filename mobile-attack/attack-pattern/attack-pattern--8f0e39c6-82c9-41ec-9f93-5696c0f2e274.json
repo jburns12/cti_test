@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fc7518bd-fbe9-40d9-98ba-2c1fe8b0479b",
+    "id": "bundle--625c7302-f6da-4c8d-b1ac-d78053f01fd4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -37,7 +37,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "A malicious app could use standard Android APIs to send SMS messages. SMS messages could potentially be sent to premium numbers that charge the device owner and generate revenue for an adversary, for example as described by Lookout in  (Citation: Lookout-SMS).\n\nOn iOS, apps cannot send SMS messages.\n\nOn Android, apps must hold the SEND_SMS permission to send SMS messages. Additionally, Android version 4.2 and above has mitigations against this threat by requiring user consent before allowing SMS messages to be sent to premium numbers (Citation: AndroidSecurity2014).",
+            "x_mitre_detection": "As described in Google's Android Security 2014 Year in Review Report  (Citation: AndroidSecurity2014), starting with Android 4.2 the user is prompted and must provide consent before applications can send SMS messages to premium numbers.\n\nOn Android 6.0 and up, the user can view which applications have permission to send SMS messages through the device settings screen, and the user can choose to revoke the permissions.",
             "x_mitre_platforms": [
                 "Android"
             ]

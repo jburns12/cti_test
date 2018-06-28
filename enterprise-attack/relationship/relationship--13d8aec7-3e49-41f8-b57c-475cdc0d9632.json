@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--61a4e63e-1018-47f0-809a-6a9c794f036a",
+    "id": "bundle--afcd3699-7de9-41fd-9276-8ee5a3c4317b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.061Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Threat Group-3390 actors use the Hunter tool to conduct network service discovery for vulnerable systems.",
+            "description": "{{LinkById|G0027}} actors use the Hunter tool to conduct network service discovery for vulnerable systems.",
             "external_references": [
                 {
                     "url": "http://www.secureworks.com/cyber-threat-intelligence/threats/threat-group-3390-targets-organizations-for-cyberespionage/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0027}} actors use the Hunter tool to conduct network service discovery for vulnerable systems.",
             "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
             "target_ref": "attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--40cef66a-bb21-493e-bfc0-6f12024cd5d8",
+    "id": "bundle--39c312ba-bfaa-4e79-8356-06766d7618d9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,7 +10,7 @@
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
             "name": "Cobalt Strike",
-            "description": "Cobalt Strike is a commercial, full-featured, penetration testing tool which bills itself as \u201cadversary simulation software designed to execute targeted attacks and emulate the post-exploitation actions of advanced threat actors\u201d.  Cobalt Strike\u2019s interactive post-exploit capabilities cover the full range of ATT&CK tactics, all executed within a single, integrated system. (Citation: cobaltstrike manual)\n\nIn addition to its own capabilities, Cobalt Strike leverages the capabilities of other well-known tools such as Metasploit and Mimikatz. (Citation: cobaltstrike manual)",
+            "description": "{{LinkById|S0154}} is a commercial, full-featured, penetration testing tool which bills itself as \u201cadversary simulation software designed to execute targeted attacks and emulate the post-exploitation actions of advanced threat actors\u201d.  Cobalt Strike\u2019s interactive post-exploit capabilities cover the full range of ATT&CK tactics, all executed within a single, integrated system. (Citation: cobaltstrike manual)\n\nIn addition to its own capabilities, {{LinkById|S0154}} leverages the capabilities of other well-known tools such as Metasploit and {{LinkById|S0002}}. (Citation: cobaltstrike manual)",
             "labels": [
                 "tool"
             ],
@@ -29,7 +29,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0154}} is a commercial, full-featured, penetration testing tool which bills itself as \u201cadversary simulation software designed to execute targeted attacks and emulate the post-exploitation actions of advanced threat actors\u201d.  Cobalt Strike\u2019s interactive post-exploit capabilities cover the full range of ATT&CK tactics, all executed within a single, integrated system. (Citation: cobaltstrike manual)\n\nIn addition to its own capabilities, {{LinkById|S0154}} leverages the capabilities of other well-known tools such as Metasploit and {{LinkById|S0002}}. (Citation: cobaltstrike manual)",
             "x_mitre_platforms": [
                 "Windows"
             ],

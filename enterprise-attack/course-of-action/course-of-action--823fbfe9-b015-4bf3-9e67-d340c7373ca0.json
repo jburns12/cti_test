@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0c86922c-6235-4466-afd9-650ed23f4f64",
+    "id": "bundle--52beebb6-173f-440c-9187-82aae627a480",
     "spec_version": "2.0",
     "objects": [
         {
@@ -36,8 +36,7 @@
                     "description": "[ Smith, C. (2016, September 13). Bypassing Application Whitelisting using MSBuild.exe - Device Guard Example and Mitigations. Retrieved September 13, 2016.",
                     "source_name": "SubTee MSBuild"
                 }
-            ],
-            "x_mitre_detection": "MSBuild.exe, dnx.exe, rcsi.exe, WinDbg.exe, cdb.exe, and tracker.exe may not be necessary within a given environment and should be removed if not used.\n\nUse application whitelisting configured to block execution of MSBuild.exe, dnx.exe, rcsi.exe, WinDbg.exe, and cdb.exe if they are not required for a given system or network to prevent potential misuse by adversaries. (Citation: Microsoft GitHub Device Guard CI Policies) (Citation: Exploit Monday Mitigate Device Guard Bypases) (Citation: GitHub mattifestation DeviceGuardBypass) (Citation: SubTee MSBuild)"
+            ]
         }
     ]
 }

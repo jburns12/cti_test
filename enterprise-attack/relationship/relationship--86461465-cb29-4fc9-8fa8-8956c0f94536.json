@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--71d448ef-68a5-408a-a108-3c4a197d0b0f",
+    "id": "bundle--55359468-42ce-4dcd-875d-fafb9d19fcbd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.065Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Dust Storm has encoded payloads with a single-byte XOR, both skipping the key itself and zeroing in an attempt to avoid exposing the key.",
+            "description": "{{LinkById|G0031}} has encoded payloads with a single-byte XOR, both skipping the key itself and zeroing in an attempt to avoid exposing the key.",
             "external_references": [
                 {
                     "url": "https://www.cylance.com/content/dam/cylance/pdfs/reports/Op%20Dust%20Storm%20Report.pdf",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0031}} has encoded payloads with a single-byte XOR, both skipping the key itself and zeroing in an attempt to avoid exposing the key.",
             "source_ref": "intrusion-set--ae41895a-243f-4a65-b99b-d85022326c31",
             "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a"
         }

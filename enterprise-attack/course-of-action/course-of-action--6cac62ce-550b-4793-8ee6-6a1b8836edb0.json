@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4aad291d-4d91-4080-981a-60d2fba85ab9",
+    "id": "bundle--9be330e5-7383-4434-a2a2-2477e59f228a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -17,8 +17,7 @@
                     "url": "https://attack.mitre.org/wiki/Technique/T1070",
                     "source_name": "mitre-attack"
                 }
-            ],
-            "x_mitre_detection": "Automatically forward events to a log server or data repository to prevent conditions in which the adversary can locate and manipulate data on the local system. When possible, minimize time delay on event reporting to avoid prolonged storage on the local system. Protect generated event files that are stored locally with proper permissions and authentication. Obfuscate/encrypt event files locally and in transit to avoid giving feedback to an adversary."
+            ]
         }
     ]
 }

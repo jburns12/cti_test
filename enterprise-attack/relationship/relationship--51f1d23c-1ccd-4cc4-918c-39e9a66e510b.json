@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ebc90ff0-3d72-47e4-be2e-52baaabb832f",
+    "id": "bundle--985d384e-001a-45b0-8fff-80b4742af09e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "OilRig's TwoFace Web shell uses <code>del</code> to delete a text file of passwords after reading it.",
+            "description": "{{LinkById|G0049}}'s TwoFace Web shell uses <code>del</code> to delete a text file of passwords after reading it.",
             "external_references": [
                 {
                     "url": "https://researchcenter.paloaltonetworks.com/2017/07/unit42-twoface-webshell-persistent-access-point-lateral-movement",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0049}}'s TwoFace Web shell uses <code>del</code> to delete a text file of passwords after reading it.",
             "source_ref": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",
             "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2b13dbe8-01b5-4f23-a1ce-0d61ac911883",
+    "id": "bundle--fbe931aa-fa8b-460d-937b-1c5bc1cb5fc9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -52,7 +52,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "At least three methods exist to perform User Interface Spoofing:\n\nFirst, on both Android and iOS, an adversary could impersonate the user interface of a legitimate app or device function to trick a user into entering account credentials. \n\nSecond, on both Android and iOS, a malicious app could impersonate the identity of another app in order to trick users into installing and using it.\n\nThird, on older versions of Android, a malicious app could abuse mobile operating system features to interfere with a running legitimate app as described in  (Citation: Felt-PhishingOnMobileDevices) and  (Citation: Hassell-ExploitingAndroid). However, this technique appears to have been addressed starting in Android 5.0 with the deprecation of the Android's ActivityManager.getRunningTasks method and modification of its behavior (Citation: Android-getRunningTasks) and further addressed in Android 5.1.1 (Citation: StackOverflow-getRunningAppProcesses) to prevent a malicious app from determining what app is currently in the foreground.",
             "x_mitre_platforms": [
                 "Android",
                 "iOS"

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5f3b120a-b884-47d4-ad44-959eacf540a2",
+    "id": "bundle--0a0e1e65-0c40-4446-ad37-fc7413a24c1f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Volgmer has communicated to its C2 server over port 8088.",
+            "description": "{{LinkById|S0180}} has communicated to its C2 server over port 8088.",
             "external_references": [
                 {
                     "url": "https://www.us-cert.gov/ncas/alerts/TA17-318B",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0180}} has communicated to its C2 server over port 8088.",
             "source_ref": "malware--495b6cdb-7b5a-4fbc-8d33-e7ef68806d08",
             "target_ref": "attack-pattern--c848fcf7-6b62-4bde-8216-b6c157d48da0"
         }

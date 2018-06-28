@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--529cef07-0143-48dc-a5f4-68f404bd5e23",
+    "id": "bundle--c569b769-d2f3-4d9f-918b-cb8043aa8a2a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "PlugX allows actors to spawn a reverse shell on a victim.",
+            "description": "{{LinkById|S0013}} allows actors to spawn a reverse shell on a victim.",
             "external_references": [
                 {
                     "url": "http://www.secureworks.com/cyber-threat-intelligence/threats/threat-group-3390-targets-organizations-for-cyberespionage/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0013}} allows actors to spawn a reverse shell on a victim.",
             "source_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",
             "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e7e0a17d-982f-48ed-8e57-0cbfabb95169",
+    "id": "bundle--b9f228d6-e691-41d3-b742-6b54f287e2a1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "certutil can be used to install browser root certificates as a precursor to performing man-in-the-middle between connections to banking websites. Example command: <code>certutil -addstore -f -user ROOT ProgramData\\cert512121.der</code>.",
+            "description": "{{LinkById|S0160}} can be used to install browser root certificates as a precursor to performing man-in-the-middle between connections to banking websites. Example command: <code>certutil -addstore -f -user ROOT ProgramData\\cert512121.der</code>.",
             "external_references": [
                 {
                     "url": "https://researchcenter.paloaltonetworks.com/2015/08/retefe-banking-trojan-targets-sweden-switzerland-and-japan/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0160}} can be used to install browser root certificates as a precursor to performing man-in-the-middle between connections to banking websites. Example command: <code>certutil -addstore -f -user ROOT ProgramData\\cert512121.der</code>.",
             "source_ref": "tool--0a68f1f1-da74-4d28-8d9a-696c082706cc",
             "target_ref": "attack-pattern--d519cfd5-f3a8-43a9-a846-ed0bb40672b1"
         }

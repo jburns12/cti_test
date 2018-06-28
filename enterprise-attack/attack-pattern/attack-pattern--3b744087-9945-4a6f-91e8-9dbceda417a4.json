@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5da25db4-ad9e-4e6e-9b70-aec04ef99324",
+    "id": "bundle--8ab619c5-df9f-4d98-a157-83eba1b9404a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -35,7 +35,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Adversaries may move onto systems, possibly those on disconnected or air-gapped networks, by copying malware to removable media and taking advantage of Autorun features when the media is inserted into a system and executes. In the case of Lateral Movement, this may occur through modification of executable files stored on removable media or by copying malware and renaming it to look like a legitimate file to trick users into executing it on a separate system. In the case of Initial Access, this may occur through manual manipulation of the media, modification of systems used to initially format the media, or modification to the media's firmware itself.",
+            "x_mitre_detection": "Monitor file access on removable media. Detect processes that execute from removable media after it is mounted or when initiated by a user. If a remote access tool is used in this manner to move laterally, then additional actions are likely to occur after execution, such as opening network connections for Command and Control and system and network information Discovery.",
             "x_mitre_platforms": [
                 "Windows"
             ],

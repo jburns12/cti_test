@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--23d33d2b-8634-4c9c-b9ae-1dbddc1fe101",
+    "id": "bundle--946c2a07-e94c-4008-8301-9d2a748cd43c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "spwebmember is used to enumerate and dump information from Microsoft SharePoint.",
+            "description": "{{LinkById|S0227}} is used to enumerate and dump information from Microsoft SharePoint.",
             "external_references": [
                 {
                     "url": "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/march/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0227}} is used to enumerate and dump information from Microsoft SharePoint.",
             "source_ref": "tool--33b9e38f-103c-412d-bdcf-904a91fff1e4",
             "target_ref": "attack-pattern--d28ef391-8ed4-45dc-bc4a-2f43abf54416"
         }

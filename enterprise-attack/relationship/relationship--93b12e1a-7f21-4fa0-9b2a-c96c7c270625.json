@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--faf7f77e-fe0e-4583-ae92-4d6ccb7b61d7",
+    "id": "bundle--a0bfafbb-0a04-470c-8f29-43cf02148538",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.046Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "PittyTiger attempts to obtain legitimate credentials during operations.",
+            "description": "{{LinkById|G0011}} attempts to obtain legitimate credentials during operations.",
             "external_references": [
                 {
                     "url": "http://blog.cassidiancybersecurity.com/post/2014/07/The-Eye-of-the-Tiger2",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0011}} attempts to obtain legitimate credentials during operations.",
             "source_ref": "intrusion-set--fe98767f-9df8-42b9-83c9-004b1dec8647",
             "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dd600c74-94d2-4d83-835f-b5f626050f5b",
+    "id": "bundle--a0ef7444-17a7-46f7-93ab-297c46939790",
     "spec_version": "2.0",
     "objects": [
         {
@@ -47,8 +47,7 @@
                     "description": "Microsoft. (2012, June 27). Using Software Restriction Policies and AppLocker Policies. Retrieved April 7, 2016.",
                     "source_name": "TechNet Applocker vs SRP"
                 }
-            ],
-            "x_mitre_detection": "Direct mitigation of this technique is not recommended since it is a legitimate function that can be performed by users for software preferences. Follow Microsoft's best practices for file associations. (Citation: MSDN File Associations)\n\nIdentify and block potentially malicious software that may be executed by this technique using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)"
+            ]
         }
     ]
 }

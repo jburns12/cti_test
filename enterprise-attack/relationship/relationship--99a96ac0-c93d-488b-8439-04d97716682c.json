@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--df26bbbc-0860-44c7-8244-85482c727e03",
+    "id": "bundle--018b51d4-fdd2-4ffb-a505-3842a5e648e5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "menuPass has used legitimate access granted to Managed Service Providers in order to access victims of interest.",
+            "description": "{{LinkById|G0045}} has used legitimate access granted to Managed Service Providers in order to access victims of interest.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/04/apt10%20menupass%20grou.html",
@@ -25,7 +25,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0045}} has used legitimate access granted to Managed Service Providers in order to access victims of interest.",
             "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
             "target_ref": "attack-pattern--9fa07bef-9c81-421e-a8e5-ad4366c5a925"
         }

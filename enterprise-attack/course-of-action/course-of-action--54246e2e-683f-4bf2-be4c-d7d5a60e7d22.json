@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d3fbb3c2-65ea-4238-bc7c-bdb28e9b376f",
+    "id": "bundle--a83f55cd-19b8-4d8e-9130-148cad997f5c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -22,8 +22,7 @@
                     "description": "Metcalf, S. (2016, October 21). Securing Windows Workstations: Developing a Secure Baseline. Retrieved November 17, 2017.",
                     "source_name": "ADSecurity Windows Secure Baseline"
                 }
-            ],
-            "x_mitre_detection": "Disable LLMNR and NetBIOS in local computer security settings or by group policy if they are not needed within an environment. (Citation: ADSecurity Windows Secure Baseline)\n\nUse host-based security software to block LLMNR/NetBIOS traffic."
+            ]
         }
     ]
 }

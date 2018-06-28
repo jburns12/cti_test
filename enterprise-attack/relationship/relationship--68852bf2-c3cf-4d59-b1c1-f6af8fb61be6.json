@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--25ada2b3-26e7-42f5-828c-bfdb7b9a4689",
+    "id": "bundle--fe6a0103-59e5-47b2-a9e2-8d1817bc4c01",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "gh0st RAT is able to open a command shell.",
+            "description": "{{LinkById|S0032}} RAT is able to open a command shell.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2015/07/demonstrating%20hustle.html",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0032}} RAT is able to open a command shell.",
             "source_ref": "malware--88c621a7-aef9-4ae0-94e3-1fc87123eb24",
             "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830"
         }

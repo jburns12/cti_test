@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d3547069-5846-416d-872f-5733d4644c24",
+    "id": "bundle--8964861d-957a-4f0a-be93-9fc947120d13",
     "spec_version": "2.0",
     "objects": [
         {
@@ -32,7 +32,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Adversaries with a sufficient level of access may create a local system or domain account. Such accounts may be used for persistence that do not require persistent remote access tools to be deployed on the system.\n\nThe <code>net user</code> commands can be used to create a local or domain account.",
+            "x_mitre_detection": "Collect data on account creation within a network. Event ID 4720 is generated when a user account is created on a Windows system and domain controller. (Citation: Microsoft User Creation Event) Perform regular audits of domain and local system accounts to detect suspicious accounts that may have been created by an adversary.",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",

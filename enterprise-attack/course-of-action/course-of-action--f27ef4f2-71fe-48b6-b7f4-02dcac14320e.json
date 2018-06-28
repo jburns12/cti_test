@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fb59f5c6-a2ee-4322-bb2f-f7b1d978300d",
+    "id": "bundle--a7108847-d787-49fd-828a-35de4d822c2e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,15 +10,14 @@
             "created": "2018-06-27T14:18:47.700Z",
             "modified": "2018-06-27T14:18:47.700Z",
             "name": "Private Keys Mitigation",
-            "description": "Use strong passphrases for private keys to make cracking difficult. When possible, store keys on separate cryptographic hardware instead of on the local system. Ensure only authorized keys are allowed access to critical resources and audit access lists regularly. Ensure permissions are properly set on folders containing sensitive private keys to prevent unintended access. Use separate infrastructure for managing critical systems to prevent overlap of credentials and permissions on systems that could be used as vectors for lateral movement. Follow other best practices for mitigating access through use of Valid Accounts Mitigation.",
+            "description": "Use strong passphrases for private keys to make cracking difficult. When possible, store keys on separate cryptographic hardware instead of on the local system. Ensure only authorized keys are allowed access to critical resources and audit access lists regularly. Ensure permissions are properly set on folders containing sensitive private keys to prevent unintended access. Use separate infrastructure for managing critical systems to prevent overlap of credentials and permissions on systems that could be used as vectors for lateral movement. Follow other best practices for mitigating access through use of {{LinkById|T1078}}.",
             "external_references": [
                 {
                     "external_id": "T1145",
                     "url": "https://attack.mitre.org/wiki/Technique/T1145",
                     "source_name": "mitre-attack"
                 }
-            ],
-            "x_mitre_detection": "Use strong passphrases for private keys to make cracking difficult. When possible, store keys on separate cryptographic hardware instead of on the local system. Ensure only authorized keys are allowed access to critical resources and audit access lists regularly. Ensure permissions are properly set on folders containing sensitive private keys to prevent unintended access. Use separate infrastructure for managing critical systems to prevent overlap of credentials and permissions on systems that could be used as vectors for lateral movement. Follow other best practices for mitigating access through use of {{LinkById|T1078}}."
+            ]
         }
     ]
 }

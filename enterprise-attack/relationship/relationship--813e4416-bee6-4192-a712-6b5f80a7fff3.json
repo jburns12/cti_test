@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e8aa4380-6ec6-40cb-9834-74eef762cfd3",
+    "id": "bundle--baed400c-8537-4f1f-951a-3080e1383c23",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "S-Type uses Base64 encoding for C2 traffic.",
+            "description": "{{LinkById|S0085}} uses Base64 encoding for C2 traffic.",
             "external_references": [
                 {
                     "url": "https://www.cylance.com/content/dam/cylance/pdfs/reports/Op%20Dust%20Storm%20Report.pdf",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0085}} uses Base64 encoding for C2 traffic.",
             "source_ref": "malware--66b1dcde-17a0-4c7b-95fa-b08d430c2131",
             "target_ref": "attack-pattern--cc7b8c4e-9be0-47ca-b0bb-83915ec3ee2f"
         }

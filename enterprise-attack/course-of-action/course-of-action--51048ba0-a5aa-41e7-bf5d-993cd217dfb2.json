@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b1358a9e-6105-491f-b6d9-82a96260cff0",
+    "id": "bundle--82d3fbf3-5a4b-4fe5-b5b6-f33130fe0c8a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -17,8 +17,7 @@
                     "url": "https://attack.mitre.org/wiki/Technique/T1216",
                     "source_name": "mitre-attack"
                 }
-            ],
-            "x_mitre_detection": "Certain signed scripts that can be used to execute other programs may not be necessary within a given environment. Use application whitelisting configured to block execution of these scripts if they are not required for a given system or network to prevent potential misuse by adversaries."
+            ]
         }
     ]
 }

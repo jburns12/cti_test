@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--db5b3cd4-a7e2-4984-87ac-432e26c4293a",
+    "id": "bundle--2e9a3b55-92f0-4575-b9c2-2cd79a4669ad",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,7 +10,7 @@
             "created": "2017-05-31T21:31:51.026Z",
             "modified": "2018-06-27T14:18:47.700Z",
             "name": "APT30",
-            "description": "APT30 is a threat group suspected to be associated with the Chinese government. (Citation: FireEye APT30) While Naikon shares some characteristics with APT30, the two groups do not appear to be exact matches. (Citation: Baumgartner Golovkin Naikon 2015)",
+            "description": "{{LinkById|G0013}} is a threat group suspected to be associated with the Chinese government. (Citation: FireEye APT30) While {{LinkById|G0019}} shares some characteristics with {{LinkById|G0013}}, the two groups do not appear to be exact matches. (Citation: Baumgartner Golovkin Naikon 2015)",
             "aliases": [
                 "APT30"
             ],
@@ -37,8 +37,7 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "x_mitre_detection": "{{LinkById|G0013}} is a threat group suspected to be associated with the Chinese government. (Citation: FireEye APT30) While {{LinkById|G0019}} shares some characteristics with {{LinkById|G0013}}, the two groups do not appear to be exact matches. (Citation: Baumgartner Golovkin Naikon 2015)"
+            ]
         }
     ]
 }

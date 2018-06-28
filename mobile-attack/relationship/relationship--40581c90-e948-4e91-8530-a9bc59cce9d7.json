@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--81ec2a7d-f01e-4fd1-a393-0dec200db432",
+    "id": "bundle--49840173-7c23-4f22-83b0-2eaf3abea15d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-18T15:59:03.864Z",
-            "description": "ZergHelper \"abuses enterprises certificate and personal certificates to sign and distribute apps, which may include code that hasn\u2019t been reviewed, or abuse private APIs.\"",
+            "description": "{{LinkById|MOB-S0003}} \"abuses enterprises certificate and personal certificates to sign and distribute apps, which may include code that hasn\u2019t been reviewed, or abuse private APIs.\"",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2016/02/pirated-ios-app-stores-client-successfully-evaded-apple-ios-code-review/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|MOB-S0003}} \"abuses enterprises certificate and personal certificates to sign and distribute apps, which may include code that hasn\u2019t been reviewed, or abuse private APIs.\"",
             "source_ref": "malware--3c3b55a6-c3e9-4043-8aae-283fe96220c0",
             "target_ref": "attack-pattern--51aedbd6-2837-4d15-aeb0-cb09f2bf22ac"
         }

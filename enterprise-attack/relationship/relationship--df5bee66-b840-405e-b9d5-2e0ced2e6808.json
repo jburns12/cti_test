@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1e53ebc2-8027-4fcd-9b62-92bd4ae2619b",
+    "id": "bundle--61f9f173-66b8-4c52-ad38-0f3e224fe5d8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Sykipot injects itself into running instances of outlook.exe, iexplore.exe, or firefox.exe.",
+            "description": "{{LinkById|S0018}} injects itself into running instances of outlook.exe, iexplore.exe, or firefox.exe.",
             "external_references": [
                 {
                     "url": "https://www.alienvault.com/open-threat-exchange/blog/another-sykipot-sample-likely-targeting-us-federal-agencies",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0018}} injects itself into running instances of outlook.exe, iexplore.exe, or firefox.exe.",
             "source_ref": "malware--6a0ef5d4-fc7c-4dda-85d7-592e4dbdc5d9",
             "target_ref": "attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d"
         }

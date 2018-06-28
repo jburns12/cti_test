@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1c92da51-7b35-487b-8d1d-9fd99b2ef4ca",
+    "id": "bundle--6ec95473-e0b7-408b-9e06-03163aa098ed",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,15 +10,14 @@
             "created": "2018-06-27T14:18:47.700Z",
             "modified": "2018-06-27T14:18:47.700Z",
             "name": "Data from Information Repositories Mitigation",
-            "description": "To mitigate adversary access to information repositories for collection:\n\n* Develop and publish policies that define acceptable information to be stored\n* Appropriate implementation of access control mechanisms that include both authentication and appropriate authorization\n* Enforce the principle of least-privilege\n* Periodic privilege review of accounts\n* Mitigate access to Valid Accounts Mitigation that may be used to access repositories",
+            "description": "To mitigate adversary access to information repositories for collection:\n\n* Develop and publish policies that define acceptable information to be stored\n* Appropriate implementation of access control mechanisms that include both authentication and appropriate authorization\n* Enforce the principle of least-privilege\n* Periodic privilege review of accounts\n* Mitigate access to {{LinkById|T1078}} that may be used to access repositories",
             "external_references": [
                 {
                     "external_id": "T1213",
                     "url": "https://attack.mitre.org/wiki/Technique/T1213",
                     "source_name": "mitre-attack"
                 }
-            ],
-            "x_mitre_detection": "To mitigate adversary access to information repositories for collection:\n\n* Develop and publish policies that define acceptable information to be stored\n* Appropriate implementation of access control mechanisms that include both authentication and appropriate authorization\n* Enforce the principle of least-privilege\n* Periodic privilege review of accounts\n* Mitigate access to {{LinkById|T1078}} that may be used to access repositories"
+            ]
         }
     ]
 }

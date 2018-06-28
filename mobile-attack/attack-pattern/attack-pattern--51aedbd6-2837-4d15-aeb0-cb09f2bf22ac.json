@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--116a2d19-1cd8-4ccc-8ac0-9995c885ba3f",
+    "id": "bundle--3063806e-dc2b-4b7b-b319-f24ea70ff992",
     "spec_version": "2.0",
     "objects": [
         {
@@ -37,7 +37,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "An adversary could abuse an iOS enterprise app signing key (intended for enterprise in-house distribution of apps) to sign malicious iOS apps so that they can be installed on iOS devices without the app needing to be published on Apple's App Store. For example, Xiao describes use of this technique in  (Citation: Xiao-iOS).",
+            "x_mitre_detection": "iOS 9 and above typically requires explicit user consent before allowing installation of applications signed with enterprise distribution keys rather than installed from Apple's App Store.",
             "x_mitre_platforms": [
                 "iOS"
             ]

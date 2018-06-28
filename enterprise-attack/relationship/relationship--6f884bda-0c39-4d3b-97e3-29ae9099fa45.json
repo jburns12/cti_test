@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cff07cb1-c27f-42be-99a4-e4e2564adf96",
+    "id": "bundle--bc3549fb-1928-46e9-b56e-5bce687567f9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Threat Group-3390 has used appcmd.exe to disable logging on a victim server.",
+            "description": "{{LinkById|G0027}} has used appcmd.exe to disable logging on a victim server.",
             "external_references": [
                 {
                     "url": "https://www.secureworks.com/research/bronze-union",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0027}} has used appcmd.exe to disable logging on a victim server.",
             "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
             "target_ref": "attack-pattern--2e0dd10b-676d-4964-acd0-8a404c92b044"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--980ab90f-4393-4594-8c64-854bead49ed3",
+    "id": "bundle--6efd2be0-fd46-4dcc-950a-b1879a552cb8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "After creating a new service for persistence, TDTESS sets the file creation time for the service to the creation time of the victim's legitimate svchost.exe file.",
+            "description": "After creating a new service for persistence, {{LinkById|S0164}} sets the file creation time for the service to the creation time of the victim's legitimate svchost.exe file.",
             "external_references": [
                 {
                     "url": "http://www.clearskysec.com/wp-content/uploads/2017/07/Operation%20Wilted%20Tulip.pdf",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "After creating a new service for persistence, {{LinkById|S0164}} sets the file creation time for the service to the creation time of the victim's legitimate svchost.exe file.",
             "source_ref": "malware--0b32ec39-ba61-4864-9ebe-b4b0b73caf9a",
             "target_ref": "attack-pattern--128c55d3-aeba-469f-bd3e-c8996ab4112a"
         }

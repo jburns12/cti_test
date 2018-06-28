@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--81945e0b-63ea-4f1b-9276-e6f2266600ba",
+    "id": "bundle--a864cf2c-9694-4405-bedf-f674a42c5653",
     "spec_version": "2.0",
     "objects": [
         {
@@ -37,7 +37,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "An SMS message could contain content designed to exploit vulnerabilities in the SMS parser on the receiving device. For example, Mulliner and Miller demonstrated such an attack against the iPhone in 2009 as described in  (Citation: Forbes-iPhoneSMS).\n\nAn SMS message could also contain a link to a web site containing malicious content designed to exploit the device web browser.\n\nAs described by SRLabs in  (Citation: SRLabs-SIMCard), vulnerable SIM cards may be remotely exploited and reprogrammed via SMS messages.",
             "x_mitre_platforms": [
                 "Android",
                 "iOS"

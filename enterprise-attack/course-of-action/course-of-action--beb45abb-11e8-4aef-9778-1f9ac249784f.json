@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cfa172fc-e0f6-4543-9724-687d882d2af6",
+    "id": "bundle--d4317772-ed8c-4792-aeed-1851f036fcdd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,7 +10,7 @@
             "created": "2018-06-27T14:18:47.700Z",
             "modified": "2018-06-27T14:18:47.700Z",
             "name": "Bypass User Account Control Mitigation",
-            "description": "Remove users from the local administrator group on systems. Although UAC bypass techniques exist, it is still prudent to use the highest enforcement level for UAC when possible and mitigate bypass opportunities that exist with techniques such as DLL Search Order Hijacking Mitigation. \n\nCheck for common UAC bypass weaknesses on Windows systems to be aware of the risk posture and address issues where appropriate. (Citation: Github UACMe)",
+            "description": "Remove users from the local administrator group on systems. Although UAC bypass techniques exist, it is still prudent to use the highest enforcement level for UAC when possible and mitigate bypass opportunities that exist with techniques such as {{LinkById|T1038}}. \n\nCheck for common UAC bypass weaknesses on Windows systems to be aware of the risk posture and address issues where appropriate. (Citation: Github UACMe)",
             "external_references": [
                 {
                     "external_id": "T1088",
@@ -22,8 +22,7 @@
                     "description": "UACME Project. (2016, June 16). UACMe. Retrieved July 26, 2016.",
                     "source_name": "Github UACMe"
                 }
-            ],
-            "x_mitre_detection": "Remove users from the local administrator group on systems. Although UAC bypass techniques exist, it is still prudent to use the highest enforcement level for UAC when possible and mitigate bypass opportunities that exist with techniques such as {{LinkById|T1038}}. \n\nCheck for common UAC bypass weaknesses on Windows systems to be aware of the risk posture and address issues where appropriate. (Citation: Github UACMe)"
+            ]
         }
     ]
 }

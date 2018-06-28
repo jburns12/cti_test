@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--baca8c74-af13-4161-8bf5-da91f533e482",
+    "id": "bundle--99d82453-f498-4e27-bc4f-6e5620d95d52",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Starloader has masqueraded as legitimate software update packages such as Adobe Acrobat Reader and Intel.",
+            "description": "{{LinkById|S0188}} has masqueraded as legitimate software update packages such as Adobe Acrobat Reader and Intel.",
             "external_references": [
                 {
                     "url": "https://www.symantec.com/connect/blogs/sowbug-cyber-espionage-group-targets-south-american-and-southeast-asian-governments",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0188}} has masqueraded as legitimate software update packages such as Adobe Acrobat Reader and Intel.",
             "source_ref": "malware--96566860-9f11-4b6f-964d-1c924e4f24a4",
             "target_ref": "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0"
         }

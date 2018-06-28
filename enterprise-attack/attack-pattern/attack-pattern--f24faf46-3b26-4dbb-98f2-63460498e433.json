@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7b3c3cff-64ee-4ed7-9362-2c96db600054",
+    "id": "bundle--988a28b2-87e8-4dea-88a8-525ef2ddb841",
     "spec_version": "2.0",
     "objects": [
         {
@@ -32,7 +32,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Adversaries may use fallback or alternate communication channels if the primary channel is compromised or inaccessible in order to maintain reliable command and control and to avoid data transfer thresholds.",
+            "x_mitre_detection": "Analyze network data for uncommon data flows (e.g., a client sending significantly more data than it receives from a server). Processes utilizing the network that do not normally have network communication or have never been seen before are suspicious. Analyze packet contents to detect communications that do not follow the expected protocol behavior for the port that is being used. (Citation: University of Birmingham C2)",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",

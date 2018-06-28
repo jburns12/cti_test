@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--813e0a1b-311e-43c4-acde-96e982ead504",
+    "id": "bundle--68e39aca-73d6-49f0-9b0a-f83142e50d04",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "POSHSPY encrypts C2 traffic with AES and RSA.",
+            "description": "{{LinkById|S0150}} encrypts C2 traffic with AES and RSA.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/03/dissecting%20one%20ofap.html",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0150}} encrypts C2 traffic with AES and RSA.",
             "source_ref": "malware--5e595477-2e78-4ce7-ae42-e0b059b17808",
             "target_ref": "attack-pattern--4b74a1d4-b0e9-4ef1-93f1-14ecc6e2f5b5"
         }

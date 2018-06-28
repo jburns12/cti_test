@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3df2abbe-d1a1-494e-b095-989728732e38",
+    "id": "bundle--c724041c-7f81-43f0-b1f4-c6da8bcd6928",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "WINDSHIELD can gather Registry values.",
+            "description": "{{LinkById|S0155}} can gather Registry values.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0155}} can gather Registry values.",
             "source_ref": "malware--98e8a977-3416-43aa-87fa-33e287e9c14c",
             "target_ref": "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896"
         }

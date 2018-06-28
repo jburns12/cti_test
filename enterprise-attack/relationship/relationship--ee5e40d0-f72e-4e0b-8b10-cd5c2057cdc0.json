@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9929e23d-23bf-4b7b-b645-de002cbe4476",
+    "id": "bundle--e7ae7137-5793-45e4-82fe-befeba30280d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "ISMInjector creates scheduled tasks to establish persistence.",
+            "description": "{{LinkById|S0189}} creates scheduled tasks to establish persistence.",
             "external_references": [
                 {
                     "url": "https://researchcenter.paloaltonetworks.com/2017/10/unit42-oilrig-group-steps-attacks-new-delivery-documents-new-injector-trojan/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0189}} creates scheduled tasks to establish persistence.",
             "source_ref": "malware--5be33fef-39c0-4532-84ee-bea31e1b5324",
             "target_ref": "attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9"
         }

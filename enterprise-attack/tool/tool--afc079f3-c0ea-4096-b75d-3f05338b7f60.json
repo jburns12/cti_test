@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--57323ab4-0c3d-4daf-bd29-0dd0499b3e96",
+    "id": "bundle--24f59ab8-8f39-47cc-87a2-b7be62515898",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,7 +10,7 @@
             "created": "2017-05-31T21:32:11.544Z",
             "modified": "2018-06-27T14:18:47.700Z",
             "name": "Mimikatz",
-            "description": "Mimikatz is a credential dumper capable of obtaining plaintext Windows account logins and passwords, along with many other features that make it useful for testing the security of networks. (Citation: Deply Mimikatz) (Citation: Adsecurity Mimikatz Guide)",
+            "description": "{{LinkById|S0002}} is a credential dumper capable of obtaining plaintext Windows account logins and passwords, along with many other features that make it useful for testing the security of networks. (Citation: Deply Mimikatz) (Citation: Adsecurity Mimikatz Guide)",
             "labels": [
                 "tool"
             ],
@@ -34,7 +34,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0002}} is a credential dumper capable of obtaining plaintext Windows account logins and passwords, along with many other features that make it useful for testing the security of networks. (Citation: Deply Mimikatz) (Citation: Adsecurity Mimikatz Guide)",
             "x_mitre_platforms": [
                 "Windows"
             ],

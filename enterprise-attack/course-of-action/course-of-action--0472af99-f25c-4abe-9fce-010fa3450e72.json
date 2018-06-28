@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--35ded36f-6589-4fc3-8b5f-63df67fee5e5",
+    "id": "bundle--91254866-ddb4-40c5-bb47-0d13d249682e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -22,8 +22,7 @@
                     "description": "Microsoft. (2014, May 13). MS14-025: Vulnerability in Group Policy Preferences could allow elevation of privilege. Retrieved January 28, 2015.",
                     "source_name": "Microsoft MS14-025"
                 }
-            ],
-            "x_mitre_detection": "Establish an organizational policy that prohibits password storage in files. Ensure that developers and system administrators are aware of the risk associated with having plaintext passwords in software configuration files that may be left on endpoint systems or servers. Preemptively search for files containing passwords and remove when found. Restrict file shares to specific directories with access only to necessary users. Remove vulnerable Group Policy Preferences. (Citation: Microsoft MS14-025)"
+            ]
         }
     ]
 }

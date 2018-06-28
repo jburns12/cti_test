@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4568abf0-f29f-433c-b439-6c8485ab9967",
+    "id": "bundle--12433662-385d-4a24-adb0-bb61a91154f0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "FIN7 has created a scheduled task named \u201cAdobeFlashSync\u201d to establish persistence.",
+            "description": "{{LinkById|G0046}} has created a scheduled task named \u201cAdobeFlashSync\u201d to establish persistence.",
             "external_references": [
                 {
                     "url": "http://blog.morphisec.com/fin7-attacks-restaurant-industry",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0046}} has created a scheduled task named \u201cAdobeFlashSync\u201d to establish persistence.",
             "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
             "target_ref": "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--aa84b347-367c-43ed-a7bf-58e82fed6716",
+    "id": "bundle--7b29a013-7658-40f1-9000-a417e7ae893c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "PUNCHTRACK is loaded and executed by a highly obfuscated launcher.",
+            "description": "{{LinkById|S0197}} is loaded and executed by a highly obfuscated launcher.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2016/05/windows-zero-day-payment-cards.html",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0197}} is loaded and executed by a highly obfuscated launcher.",
             "source_ref": "malware--c4de7d83-e875-4c88-8b5d-06c41e5b7e79",
             "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a"
         }

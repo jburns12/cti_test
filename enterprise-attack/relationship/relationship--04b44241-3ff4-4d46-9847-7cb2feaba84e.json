@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--13c77e6c-d776-4422-aa3d-9eef34d72efa",
+    "id": "bundle--5a094286-61f1-4ebc-aa50-eac34ef9902a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "APT34 has used brute force techniques to obtain credentials.",
+            "description": "{{LinkById|G0057}} has used brute force techniques to obtain credentials.",
             "external_references": [
                 {
                     "url": "https://www.brighttalk.com/webcast/10703/296317/apt34-new-targeted-attack-in-the-middle-east",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0057}} has used brute force techniques to obtain credentials.",
             "source_ref": "intrusion-set--68ba94ab-78b8-43e7-83e2-aed3466882c6",
             "target_ref": "attack-pattern--a93494bb-4b80-4ea1-8695-3236a49916fd"
         }

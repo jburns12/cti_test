@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ba2a6c4f-b961-4916-98d0-306a4bf5ffc3",
+    "id": "bundle--f34dcb2d-f265-4ab9-b6e5-522837043366",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Crimson contains a command to retrieve files from its C2 server.",
+            "description": "{{LinkById|S0115}} contains a command to retrieve files from its C2 server.",
             "external_references": [
                 {
                     "url": "https://www.proofpoint.com/sites/default/files/proofpoint-operation-transparent-tribe-threat-insight-en.pdf",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0115}} contains a command to retrieve files from its C2 server.",
             "source_ref": "malware--326af1cd-78e7-45b7-a326-125d2f7ef8f2",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add"
         }

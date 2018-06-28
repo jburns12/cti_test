@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0d5b854d-7075-4361-8702-3432ede22ec9",
+    "id": "bundle--f0f65905-f424-4327-a3e5-e331f26d4ed7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,7 +27,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Exfiltration could occur over a different network medium than the command and control channel. If the command and control network is a wired Internet connection, the exfiltration may occur, for example, over a WiFi connection, modem, cellular data connection, Bluetooth, or another radio frequency (RF) channel. Adversaries could choose to do this if they have sufficient access or proximity, and the connection might not be secured or defended as well as the primary Internet-connected channel because it is not routed through the same enterprise network.",
+            "x_mitre_detection": "Processes utilizing the network that do not normally have network communication or have never been seen before. Processes that normally require user-driven events to access the network (for example, a mouse click or key press) but access the network without such may be malicious.",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",

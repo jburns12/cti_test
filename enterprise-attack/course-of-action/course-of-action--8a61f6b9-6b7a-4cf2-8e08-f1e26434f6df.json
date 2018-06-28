@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--820328d1-e026-46df-8ae7-65a3eb64c970",
+    "id": "bundle--0080fbb1-31e4-4c77-9d18-14cbabe747cf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,15 +10,14 @@
             "created": "2018-06-27T14:18:47.700Z",
             "modified": "2018-06-27T14:18:47.700Z",
             "name": "Input Prompt Mitigation",
-            "description": "Users need to be trained to know which programs ask for permission and why. Follow mitigation recommendations for AppleScript Mitigation.",
+            "description": "Users need to be trained to know which programs ask for permission and why. Follow mitigation recommendations for {{LinkById|T1155}}.",
             "external_references": [
                 {
                     "external_id": "T1141",
                     "url": "https://attack.mitre.org/wiki/Technique/T1141",
                     "source_name": "mitre-attack"
                 }
-            ],
-            "x_mitre_detection": "Users need to be trained to know which programs ask for permission and why. Follow mitigation recommendations for {{LinkById|T1155}}."
+            ]
         }
     ]
 }

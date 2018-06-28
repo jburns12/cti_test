@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7e9b96cf-1390-4a7b-aec3-d5e726cbacf0",
+    "id": "bundle--c2c70222-c5dd-47a4-9f91-1438f255c99c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -37,7 +37,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Screensavers are programs that execute after a configurable time of user inactivity and consist of Portable Executable (PE) files with a .scr file extension. (Citation: Wikipedia Screensaver) The Windows screensaver application scrnsave.exe is located in <code>C:\\Windows\\System32\\</code> along with screensavers included with base Windows installations. The following screensaver settings are stored in the Registry (<code>HKCU\\Control Panel\\Desktop\\</code>) and could be manipulated to achieve persistence:\n\n*<code>SCRNSAVE.exe</code> - set to malicious PE path\n*<code>ScreenSaveActive</code> - set to '1' to enable the screensaver\n*<code>ScreenSaverIsSecure</code> - set to '0' to not require a password to unlock\n*<code>ScreenSaverTimeout</code> - sets user inactivity timeout before screensaver is executed\n\nAdversaries can use screensaver settings to maintain persistence by setting the screensaver to run malware after a certain timeframe of user inactivity. (Citation: ESET Gazer Aug 2017)",
+            "x_mitre_detection": "Monitor process execution and command-line parameters of .scr files. Monitor changes to screensaver configuration changes in the Registry that may not correlate with typical user behavior.\n\nTools such as Sysinternals Autoruns can be used to detect changes to the screensaver binary path in the Registry. Suspicious paths and PE files may indicate outliers among legitimate screensavers in a network and should be investigated.",
             "x_mitre_platforms": [
                 "Windows"
             ],

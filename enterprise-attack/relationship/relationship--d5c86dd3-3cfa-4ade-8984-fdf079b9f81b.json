@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--47dfe6fc-4b4c-4825-9fa3-3d81529f73c8",
+    "id": "bundle--b1d52077-c8b2-4896-a9bb-29611bdbc562",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "RTM strings, network data, configuration, and modules are encrypted with a modified RC4 algorithm.",
+            "description": "{{LinkById|S0148}} strings, network data, configuration, and modules are encrypted with a modified RC4 algorithm.",
             "external_references": [
                 {
                     "url": "https://www.welivesecurity.com/wp-content/uploads/2017/02/Read-The-Manual.pdf",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0148}} strings, network data, configuration, and modules are encrypted with a modified RC4 algorithm.",
             "source_ref": "malware--92ec0cbd-2c30-44a2-b270-73f4ec949841",
             "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a"
         }

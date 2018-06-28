@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--56129315-a3c7-4413-997f-acd68c0fd052",
+    "id": "bundle--ad4c961a-2303-4086-b098-cb2a252cb195",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "If the victim is using PowerShell 3.0 or later, POWERSOURCE writes its decoded payload to an alternate data stream (ADS) named kernel32.dll that is saved in <code>%PROGRAMDATA%\\Windows\\</code>.",
+            "description": "If the victim is using PowerShell 3.0 or later, {{LinkById|S0145}} writes its decoded payload to an alternate data stream (ADS) named kernel32.dll that is saved in <code>%PROGRAMDATA%\\Windows\\</code>.",
             "external_references": [
                 {
                     "url": "http://blog.talosintelligence.com/2017/03/dnsmessenger.html",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "If the victim is using PowerShell 3.0 or later, {{LinkById|S0145}} writes its decoded payload to an alternate data stream (ADS) named kernel32.dll that is saved in <code>%PROGRAMDATA%\\Windows\\</code>.",
             "source_ref": "malware--17e919aa-4a49-445c-b103-dbb8df9e7351",
             "target_ref": "attack-pattern--f2d44246-91f1-478a-b6c8-1227e0ca109d"
         }

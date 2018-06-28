@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8c774586-f986-4618-826d-e190439cb1ba",
+    "id": "bundle--5bda61b9-bba5-4d5f-ae55-7c291705a9ba",
     "spec_version": "2.0",
     "objects": [
         {
@@ -42,8 +42,7 @@
                     "description": "Tomonaga, S. (2016, January 26). Windows Commands Abused by Attackers. Retrieved February 2, 2016.",
                     "source_name": "Windows Commands JPCERT"
                 }
-            ],
-            "x_mitre_detection": "File system activity is a common part of an operating system, so it is unlikely that mitigation would be appropriate for this technique. It may still be beneficial to identify and block unnecessary system utilities or potentially malicious software by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)"
+            ]
         }
     ]
 }

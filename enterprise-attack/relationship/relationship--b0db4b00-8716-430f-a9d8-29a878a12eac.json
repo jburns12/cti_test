@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e6c06a38-eb48-49a6-8067-9fecc33f4cbd",
+    "id": "bundle--418ec508-cb2c-4424-98cd-47252e37a53b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Dragonfly deleted a file immediately after executing it on a victim host.",
+            "description": "{{LinkById|G0035}} deleted a file immediately after executing it on a victim host.",
             "external_references": [
                 {
                     "url": "https://www.us-cert.gov/ncas/alerts/TA17-293A",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0035}} deleted a file immediately after executing it on a victim host.",
             "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
             "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59"
         }

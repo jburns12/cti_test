@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--654510cd-b4dd-4de5-9cce-319be647d831",
+    "id": "bundle--bf5690bc-e979-4f4e-9bf4-06159d3e2c87",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "FIN7 has used fragmented strings, environment variables, standard input (stdin), and native character-replacement functionalities to obfuscate commmands.",
+            "description": "{{LinkById|G0046}} has used fragmented strings, environment variables, standard input (stdin), and native character-replacement functionalities to obfuscate commmands.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/06/obfuscation-in-the-wild.html",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0046}} has used fragmented strings, environment variables, standard input (stdin), and native character-replacement functionalities to obfuscate commmands.",
             "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
             "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b4c83988-1e84-45c0-922f-9eb4d5df0fbb",
+    "id": "bundle--0826b216-8a34-4452-b594-5539b3c94ff3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "CloudDuke downloads and executes additional malware from either a Web address or a Microsoft OneDrive account.",
+            "description": "{{LinkById|S0054}} downloads and executes additional malware from either a Web address or a Microsoft OneDrive account.",
             "external_references": [
                 {
                     "url": "https://www.f-secure.com/documents/996508/1030745/dukes%20whitepaper.pdf",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0054}} downloads and executes additional malware from either a Web address or a Microsoft OneDrive account.",
             "source_ref": "malware--cbf646f1-7db5-4dc6-808b-0094313949df",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add"
         }

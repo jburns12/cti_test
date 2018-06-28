@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c3facbac-379b-460c-957e-3d1d6d930da6",
+    "id": "bundle--93d054bc-2d7a-4b56-893f-2c8080b4b380",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Reaver collects system information from the victim, including CPU speed, computer name, volume serial number, ANSI code page, OEM code page identifier for the OS, Microsoft Windows version, and memory information.",
+            "description": "{{LinkById|S0172}} collects system information from the victim, including CPU speed, computer name, volume serial number, ANSI code page, OEM code page identifier for the OS, Microsoft Windows version, and memory information.",
             "external_references": [
                 {
                     "url": "https://researchcenter.paloaltonetworks.com/2017/11/unit42-new-malware-with-ties-to-sunorcal-discovered/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0172}} collects system information from the victim, including CPU speed, computer name, volume serial number, ANSI code page, OEM code page identifier for the OS, Microsoft Windows version, and memory information.",
             "source_ref": "malware--65341f30-bec6-4b1d-8abf-1a5620446c29",
             "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1"
         }

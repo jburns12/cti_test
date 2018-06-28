@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--26ea5ad3-9e35-4946-b838-1b9aae3ae9e4",
+    "id": "bundle--576b01d0-2a01-4378-87aa-f0a7f9fd576b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-18T15:59:03.864Z",
-            "description": "\" YiSpecter's malicious apps were signed with three iOS enterprise certificates issued by Apple so that they can be installed as enterprise apps on non-jailbroken iOS devices.\"",
+            "description": "\" {{LinkById|MOB-S0027}}'s malicious apps were signed with three iOS enterprise certificates issued by Apple so that they can be installed as enterprise apps on non-jailbroken iOS devices.\"",
             "external_references": [
                 {
                     "description": "[ Claud Xiao. (2015, October 4). YiSpecter: First iOS Malware That Attacks Non-jailbroken Apple iOS Devices by Abusing Private APIs. Retrieved January 20, 2017.",
@@ -19,7 +19,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "\" {{LinkById|MOB-S0027}}'s malicious apps were signed with three iOS enterprise certificates issued by Apple so that they can be installed as enterprise apps on non-jailbroken iOS devices.\"",
             "source_ref": "malware--a15c9357-2be0-4836-beec-594f28b9b4a9",
             "target_ref": "attack-pattern--51aedbd6-2837-4d15-aeb0-cb09f2bf22ac"
         }

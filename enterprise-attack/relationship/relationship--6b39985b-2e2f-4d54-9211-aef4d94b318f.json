@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dd8a985d-8a27-4216-abdf-eefdf3eaa727",
+    "id": "bundle--0c1ff486-3dd7-4686-9b82-3fd4fd54c28d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "OnionDuke uses Twitter as a backup C2 method. It also has a module designed to post messages to the Russian VKontakte social media site.",
+            "description": "{{LinkById|S0052}} uses Twitter as a backup C2 method. It also has a module designed to post messages to the Russian VKontakte social media site.",
             "external_references": [
                 {
                     "url": "https://www.f-secure.com/documents/996508/1030745/dukes%20whitepaper.pdf",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0052}} uses Twitter as a backup C2 method. It also has a module designed to post messages to the Russian VKontakte social media site.",
             "source_ref": "malware--b136d088-a829-432c-ac26-5529c26d4c7e",
             "target_ref": "attack-pattern--830c9528-df21-472c-8c14-a036bf17d665"
         }

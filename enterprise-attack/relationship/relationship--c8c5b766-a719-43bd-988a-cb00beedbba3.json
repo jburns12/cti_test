@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--43c85e86-034e-4142-8574-4cbf70b9693e",
+    "id": "bundle--2a4b66fd-4fce-42f9-a6fb-fbc3809221d9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.062Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Threat Group-3390 has used RAR to compress, encrypt, and password-protect files prior to exfiltration.",
+            "description": "{{LinkById|G0027}} has used RAR to compress, encrypt, and password-protect files prior to exfiltration.",
             "external_references": [
                 {
                     "url": "https://www.secureworks.com/research/bronze-union",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0027}} has used RAR to compress, encrypt, and password-protect files prior to exfiltration.",
             "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
             "target_ref": "attack-pattern--d54416bd-0803-41ca-870a-ce1af7c05638"
         }

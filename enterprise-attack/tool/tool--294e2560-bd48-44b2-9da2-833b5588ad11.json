@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--45dbd983-2aca-4ad8-81ad-e18aa95417cd",
+    "id": "bundle--f91a0d48-3175-4cdc-9464-936fec9bd53f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,7 +10,7 @@
             "created": "2017-05-31T21:33:02.863Z",
             "modified": "2018-06-27T14:18:47.700Z",
             "name": "ipconfig",
-            "description": "ipconfig is a Windows utility that can be used to find information about a system's TCP/IP, DNS, DHCP, and adapter configuration. (Citation: TechNet Ipconfig)",
+            "description": "{{LinkById|S0100}} is a Windows utility that can be used to find information about a system's TCP/IP, DNS, DHCP, and adapter configuration. (Citation: TechNet Ipconfig)",
             "labels": [
                 "tool"
             ],
@@ -29,7 +29,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0100}} is a Windows utility that can be used to find information about a system's TCP/IP, DNS, DHCP, and adapter configuration. (Citation: TechNet Ipconfig)",
             "x_mitre_platforms": [
                 "Windows"
             ],

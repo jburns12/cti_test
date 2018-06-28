@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--370b84a4-99d0-4a90-844c-4b7eec8ff17d",
+    "id": "bundle--de6b2d19-c81c-447d-8f65-ab83e2c928e6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Part of APT28's operation involved using CHOPSTICK modules to copy itself to air-gapped machines, using files written to USB sticks to transfer data and command traffic.",
+            "description": "Part of {{LinkById|G0007}}'s operation involved using {{LinkById|S0023}} modules to copy itself to air-gapped machines, using files written to USB sticks to transfer data and command traffic.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf",
@@ -30,7 +30,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Part of {{LinkById|G0007}}'s operation involved using {{LinkById|S0023}} modules to copy itself to air-gapped machines, using files written to USB sticks to transfer data and command traffic.",
             "source_ref": "malware--ccd61dfc-b03f-4689-8c18-7c97eab08472",
             "target_ref": "attack-pattern--64196062-5210-42c3-9a02-563a0d1797ef"
         }

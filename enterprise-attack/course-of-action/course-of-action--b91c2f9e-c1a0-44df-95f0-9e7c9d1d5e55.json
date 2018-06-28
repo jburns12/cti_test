@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--846ae3d6-dc16-4c8d-b91d-e1e9bd13928f",
+    "id": "bundle--d015b76a-7659-4e3f-8dd5-ab1ed7a3cddb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -32,8 +32,7 @@
                     "description": "Microsoft. (2014, November 19). Security Considerations for Trusts. Retrieved November 30, 2017.",
                     "source_name": "Microsoft Trust Considerations Nov 2014"
                 }
-            ],
-            "x_mitre_detection": "Clean up SID-History attributes after legitimate account migration is complete.\n\nApply SID Filtering to domain trusts to exclude SID-History from requests to access domain resources (<code>netdom trust <TrustingDomainName> /domain:<TrustedDomainName> /quarantine:yes</code> (Citation: Microsoft Netdom Trust Sept 2012) on the domain controller). Domain SID Filtering is disabled by default.\n\nApply SID Filtering to forest trusts to exclude SID-History from request to access forest resources (<code>netdom trust <TrustingDomainName> /domain:<TrustedDomainName> /EnableSIDHistory:no</code> (Citation: Microsoft Netdom Trust Sept 2012) on the domain controller). Forest SID Filtering is active by default, but may block child domains from transitively accessesing the forest trust.\n\nEnsure SID Filter Quarantining is enabled on trusted external domains (<code>netdom trust <TrustingDomainName> /domain:<TrustedDomainName> /quarantine</code> (Citation: Microsoft Netdom Trust Sept 2012) on the domain controller) to ensure authentication requests only include SIDs from that domain. SID Filter Quarantining is automatically enabled on all created external trusts using Server 2003 or later domain controllers. (Citation: Microsoft Trust Considerations Nov 2014) (Citation: Microsoft SID) Filtering Quarantining Jan 2009"
+            ]
         }
     ]
 }

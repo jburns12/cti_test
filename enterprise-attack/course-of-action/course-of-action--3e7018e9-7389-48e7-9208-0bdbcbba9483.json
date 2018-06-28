@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--55ebea80-cc4c-47f6-b5d4-fac4561bb822",
+    "id": "bundle--906c5ef3-7088-4198-b86d-d9d92684c022",
     "spec_version": "2.0",
     "objects": [
         {
@@ -21,8 +21,7 @@
                     "description": "Mathew Branwell. (2012, March 21). Securing .bash_history file. Retrieved July 8, 2017.",
                     "source_name": "Securing bash history"
                 }
-            ],
-            "x_mitre_detection": "Preventing users from deleting or writing to certain files can stop adversaries from maliciously altering their <code>~/.bash_history</code> files. Additionally, making these environment variables readonly can make sure that the history is preserved   (Citation: Securing bash history)."
+            ]
         }
     ]
 }

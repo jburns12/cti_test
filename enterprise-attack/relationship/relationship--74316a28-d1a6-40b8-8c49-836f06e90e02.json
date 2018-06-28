@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4d24f282-2f25-4697-ba90-b1fbadbea22b",
+    "id": "bundle--a8a26845-5acf-4424-b024-8bbabbdaab20",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Patchwork uses malicious documents to deliver remote execution exploits as part of.",
+            "description": "{{LinkById|G0040}} uses malicious documents to deliver remote execution exploits as part of.",
             "external_references": [
                 {
                     "url": "https://s3-us-west-2.amazonaws.com/cymmetria-blog/public/Unveiling%20Patchwork.pdf",
@@ -35,7 +35,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0040}} uses malicious documents to deliver remote execution exploits as part of.",
             "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
             "target_ref": "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63"
         }

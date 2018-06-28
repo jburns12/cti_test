@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e549c213-4917-4652-a573-1b7d12cef404",
+    "id": "bundle--43991c34-6a52-4627-b178-055dbc8c72b1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "CosmicDuke steals user files from network shared drives with file extensions and keywords that match a predefined list.",
+            "description": "{{LinkById|S0050}} steals user files from network shared drives with file extensions and keywords that match a predefined list.",
             "external_references": [
                 {
                     "url": "https://www.f-secure.com/documents/996508/1030745/cosmicduke%20whitepaper.pdf",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0050}} steals user files from network shared drives with file extensions and keywords that match a predefined list.",
             "source_ref": "malware--2eb9b131-d333-4a48-9eb4-d8dec46c19ee",
             "target_ref": "attack-pattern--ae676644-d2d2-41b7-af7e-9bed1b55898c"
         }

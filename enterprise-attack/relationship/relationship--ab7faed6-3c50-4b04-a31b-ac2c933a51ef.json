@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--33ce8da0-e990-45d2-ac3e-c5f9a3a2c194",
+    "id": "bundle--095aa74b-87ba-459f-8c79-456e99618595",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "HTTPBrowser is capable of capturing keystrokes on victims.",
+            "description": "{{LinkById|S0070}} is capable of capturing keystrokes on victims.",
             "external_references": [
                 {
                     "url": "http://www.secureworks.com/cyber-threat-intelligence/threats/threat-group-3390-targets-organizations-for-cyberespionage/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0070}} is capable of capturing keystrokes on victims.",
             "source_ref": "malware--e066bf86-9cfb-407a-9d25-26fd5d91e360",
             "target_ref": "attack-pattern--bb5a00de-e086-4859-a231-fa793f6797e2"
         }

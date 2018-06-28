@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--33833073-3893-4fcb-bc13-e1a979477232",
+    "id": "bundle--7aff05bc-becd-45ef-88b9-4200ab3b8d37",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "One version of Helminth consists of VBScript and PowerShell scripts. The malware also uses batch scripting.",
+            "description": "One version of {{LinkById|S0170}} consists of VBScript and PowerShell scripts. The malware also uses batch scripting.",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2016/05/the-oilrig-campaign-attacks-on-saudi-arabian-organizations-deliver-helminth-backdoor/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "One version of {{LinkById|S0170}} consists of VBScript and PowerShell scripts. The malware also uses batch scripting.",
             "source_ref": "malware--eff1a885-6f90-42a1-901f-eef6e7a1905e",
             "target_ref": "attack-pattern--7fd87010-3a00-4da3-b905-410525e8ec44"
         }

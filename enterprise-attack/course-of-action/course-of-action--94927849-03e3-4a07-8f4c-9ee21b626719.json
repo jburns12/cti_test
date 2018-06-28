@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--09ac140b-10b0-438f-baff-68d60eaaf2ea",
+    "id": "bundle--6138ec31-1296-4240-8566-462fd4900879",
     "spec_version": "2.0",
     "objects": [
         {
@@ -17,8 +17,7 @@
                     "url": "https://attack.mitre.org/wiki/Technique/T1165",
                     "source_name": "mitre-attack"
                 }
-            ],
-            "x_mitre_detection": "Since StartupItems are deprecated, preventing all users from writing to the <code>/Library/StartupItems</code> directory would prevent any startup items from getting registered. Similarly, appropriate permissions should be applied such that only specific users can edit the startup items so that they can\u2019t be leveraged for privilege escalation."
+            ]
         }
     ]
 }

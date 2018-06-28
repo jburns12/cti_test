@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9b336b8f-e170-4ea3-8246-8f8f3733718b",
+    "id": "bundle--edfe41db-94c5-461c-9c1e-492874d02476",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.060Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "APT18 actors leverage legitimate credentials to log into external remote services.",
+            "description": "{{LinkById|G0026}} actors leverage legitimate credentials to log into external remote services.",
             "external_references": [
                 {
                     "url": "https://www.rsaconference.com/writable/presentations/file%20upload/hta-f02-detecting-and-responding-to-advanced-threats-within-exchange-environments.pdf",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0026}} actors leverage legitimate credentials to log into external remote services.",
             "source_ref": "intrusion-set--38fd6a28-3353-4f2b-bb2b-459fecd5c648",
             "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81"
         }

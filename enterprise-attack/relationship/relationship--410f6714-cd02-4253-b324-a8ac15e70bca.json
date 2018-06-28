@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ed722a17-91b5-457d-a3f8-d69dbdb27d5d",
+    "id": "bundle--96698efe-de51-42d8-8805-80ab9914b4ca",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "APT29 has used spearphishing with an attachment to deliver files with exploits to initial victims.",
+            "description": "{{LinkById|G0016}} has used spearphishing with an attachment to deliver files with exploits to initial victims.",
             "external_references": [
                 {
                     "url": "https://www.f-secure.com/documents/996508/1030745/dukes%20whitepaper.pdf",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0016}} has used spearphishing with an attachment to deliver files with exploits to initial victims.",
             "source_ref": "intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542",
             "target_ref": "attack-pattern--6aac77c4-eaf2-4366-8c13-ce50ab951f38"
         }

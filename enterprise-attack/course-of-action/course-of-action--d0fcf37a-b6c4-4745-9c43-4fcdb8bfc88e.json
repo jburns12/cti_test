@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--80ed94b7-f29d-45e9-bb4a-5b237c9054f3",
+    "id": "bundle--0082a393-8908-4bc0-84f0-34e2080f7d13",
     "spec_version": "2.0",
     "objects": [
         {
@@ -22,8 +22,7 @@
                     "description": "Gardiner, J.,  Cova, M., Nagaraja, S. (2014, February). Command & Control Understanding, Denying and Detecting. Retrieved April 20, 2016.",
                     "source_name": "University of Birmingham C2"
                 }
-            ],
-            "x_mitre_detection": "Network intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary malware can be used to mitigate activity at the network level. Signatures are often for unique indicators within protocols and may be based on the specific obfuscation technique used by a particular adversary or tool, and will likely be different across various malware families and versions. Adversaries will likely change tool C2 signatures over time or construct protocols in such a way as to avoid detection by common defensive tools. (Citation: University of Birmingham C2)"
+            ]
         }
     ]
 }

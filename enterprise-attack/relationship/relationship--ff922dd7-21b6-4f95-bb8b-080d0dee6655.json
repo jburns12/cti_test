@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e319e575-a25d-4897-be21-74acc8568705",
+    "id": "bundle--d00e1c52-ca1e-4266-ada8-0caee753c305",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "When a document is found matching one of the extensions in the configuration, TINYTYPHON uploads it to the C2 server.",
+            "description": "When a document is found matching one of the extensions in the configuration, {{LinkById|S0131}} uploads it to the C2 server.",
             "external_references": [
                 {
                     "url": "https://www.forcepoint.com/sites/default/files/resources/files/forcepoint-security-labs-monsoon-analysis-report.pdf",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "When a document is found matching one of the extensions in the configuration, {{LinkById|S0131}} uploads it to the C2 server.",
             "source_ref": "malware--85b39628-204a-48d2-b377-ec368cbcb7ca",
             "target_ref": "attack-pattern--774a3188-6ba9-4dc4-879d-d54ee48a5ce9"
         }

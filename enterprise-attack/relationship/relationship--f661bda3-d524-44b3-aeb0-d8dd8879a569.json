@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4952640b-3672-4c49-bff6-3cb0afd6e514",
+    "id": "bundle--92ba3a88-7b9f-40fb-978b-a1d99bcc34ad",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "APT3 has a tool that can copy files to remote machines.",
+            "description": "{{LinkById|G0022}} has a tool that can copy files to remote machines.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2014/04/new-zero-day-exploit-targeting-internet-explorer-versions-9-through-11-identified-in-targeted-attacks.html",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0022}} has a tool that can copy files to remote machines.",
             "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add"
         }

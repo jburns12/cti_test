@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6f9130f5-788b-4f10-829b-aaf97e536434",
+    "id": "bundle--1b115e6f-2bf6-44df-8c76-2e66c7504417",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.056Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "An APT3 downloader establishes SOCKS5 connections to two separate IP addresses over TCP port 1913 and TCP port 81.",
+            "description": "An {{LinkById|G0022}} downloader establishes SOCKS5 connections to two separate IP addresses over TCP port 1913 and TCP port 81.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2014/11/operation%20doubletap.html",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "An {{LinkById|G0022}} downloader establishes SOCKS5 connections to two separate IP addresses over TCP port 1913 and TCP port 81.",
             "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
             "target_ref": "attack-pattern--c848fcf7-6b62-4bde-8216-b6c157d48da0"
         }

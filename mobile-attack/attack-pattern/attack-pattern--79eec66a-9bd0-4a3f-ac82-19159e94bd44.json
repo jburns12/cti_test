@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--abe580df-28bb-46cb-8cb2-d17d21dfe095",
+    "id": "bundle--e03bd153-510f-4075-99ad-83aa216262ca",
     "spec_version": "2.0",
     "objects": [
         {
@@ -32,7 +32,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "On Android, an adversary could call standard operating system APIs from a malicious application to gather call log data, or with escalated privileges could directly access files containing call log data.\n\nOn iOS, applications do not have access to the call log, so privilege escalation would be required in order to access the data.",
+            "x_mitre_detection": "On Android 6.0 and up, the user can view which applications have permission to access call log information through the device settings screen, and the user can choose to revoke the permissions.",
             "x_mitre_platforms": [
                 "Android",
                 "iOS"

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--db5669c9-df74-46d7-bd2e-653bddc1b5ce",
+    "id": "bundle--4cddc307-1633-4857-a934-cf8042bdf894",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "APT34 has used base64-encoded files that are dropped to victims.",
+            "description": "{{LinkById|G0057}} has used base64-encoded files that are dropped to victims.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/12/targeted-attack-in-middle-east-by-apt34.html",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0057}} has used base64-encoded files that are dropped to victims.",
             "source_ref": "intrusion-set--68ba94ab-78b8-43e7-83e2-aed3466882c6",
             "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1911355e-7b8a-4b77-9c9e-5e246163beaf",
+    "id": "bundle--3d9ae99d-35d1-481f-87ad-408fe8a40f78",
     "spec_version": "2.0",
     "objects": [
         {
@@ -57,8 +57,7 @@
                     "description": "Sander, J. (2017, October 12). Attack Step 3: Persistence with NTFS Extended Attributes \u2013 File System Attacks. Retrieved March 21, 2018.",
                     "source_name": "InsiderThreat NTFS EA Oct 2017"
                 }
-            ],
-            "x_mitre_detection": "It may be difficult or inadvisable to block access to EA and ADSs. (Citation: Microsoft ADS Mar 2014) (Citation: Symantec ADS May 2009) Efforts should be focused on preventing potentially malicious software from running. Identify and block potentially malicious software that may contain functionality to hide information in EA and ADSs by using whitelisting (Citation: Beechey 2010) tools like AppLocker (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)\n\nConsider adjusting read and write permissions for NTFS EA, though this should be tested to ensure routine OS operations are not impeded. (Citation: InsiderThreat NTFS EA Oct 2017)"
+            ]
         }
     ]
 }

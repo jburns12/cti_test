@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c6b7786b-7747-46c9-830a-3e5754bd283d",
+    "id": "bundle--29e908fa-cd31-4c7a-b102-e55dc73f1bc5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.068Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Lazarus Group malware IndiaIndia saves information gathered about the victim to a file that is compressed with Zlib, encrypted, and uploaded to a C2 server. Lazarus Group malware RomeoDelta archives specified directories in .zip format, encrypts the .zip file, and uploads it to its C2 server. A Lazarus Group malware sample encrypts data using a simple byte based XOR operation prior to exfiltration.",
+            "description": "{{LinkById|G0032}} malware IndiaIndia saves information gathered about the victim to a file that is compressed with Zlib, encrypted, and uploaded to a C2 server. {{LinkById|G0032}} malware RomeoDelta archives specified directories in .zip format, encrypts the .zip file, and uploads it to its C2 server. A {{LinkById|G0032}} malware sample encrypts data using a simple byte based XOR operation prior to exfiltration.",
             "external_references": [
                 {
                     "url": "https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Report.pdf",
@@ -35,7 +35,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0032}} malware IndiaIndia saves information gathered about the victim to a file that is compressed with Zlib, encrypted, and uploaded to a C2 server. {{LinkById|G0032}} malware RomeoDelta archives specified directories in .zip format, encrypts the .zip file, and uploads it to its C2 server. A {{LinkById|G0032}} malware sample encrypts data using a simple byte based XOR operation prior to exfiltration.",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--d54416bd-0803-41ca-870a-ce1af7c05638"
         }

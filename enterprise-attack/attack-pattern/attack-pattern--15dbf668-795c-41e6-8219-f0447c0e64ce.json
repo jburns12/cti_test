@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5cc2751c-5292-4714-85c8-3e3ba60eb216",
+    "id": "bundle--be729688-8c09-4b2c-a5ae-efcf6389f77f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,7 +27,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Adversaries may attempt to find local system or domain-level groups and permissions settings. \n\n===Windows===\n\nExamples of commands that can list groups are <code>net group /domain</code> and <code>net localgroup</code> using the {{LinkById|S0039}} utility.\n\n===Mac===\n\nOn Mac, this same thing can be accomplished with the <code>dscacheutil -q group</code> for the domain, or <code>dscl . -list /Groups</code> for local groups.\n\n===Linux===\n\nOn Linux, local groups can be enumerated with the <code>groups</code> command and domain groups via the <code>ldapsearch</code> command.",
+            "x_mitre_detection": "System and network discovery techniques normally occur throughout an operation as an adversary learns the environment. Data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities, such as Lateral Movement, based on the information obtained.\n\nMonitor processes and command-line arguments for actions that could be taken to gather system and network information. Remote access tools with built-in features may interact directly with the Windows API to gather information. Information may also be acquired through Windows system management tools such as Windows Management Instrumentation Mitigation and PowerShell Mitigation.",
             "x_mitre_platforms": [
                 "Linux",
                 "Windows",

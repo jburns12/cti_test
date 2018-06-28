@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bfef2e86-e154-4633-99b7-c86f43f4edf8",
+    "id": "bundle--848cef7d-753b-4962-b5cc-3624c6735092",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "PowerDuke uses rundll32.exe to load.",
+            "description": "{{LinkById|S0139}} uses rundll32.exe to load.",
             "external_references": [
                 {
                     "url": "https://www.volexity.com/blog/2016/11/09/powerduke-post-election-spear-phishing-campaigns-targeting-think-tanks-and-ngos/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0139}} uses rundll32.exe to load.",
             "source_ref": "malware--00c3bfcb-99bd-4767-8c03-b08f585f5c8a",
             "target_ref": "attack-pattern--62b8c999-dcc0-4755-bd69-09442d9359f5"
         }

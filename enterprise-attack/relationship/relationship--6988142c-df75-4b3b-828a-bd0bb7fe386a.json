@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--33bf044f-e301-4258-8b8b-475340f450a0",
+    "id": "bundle--7a346e6c-900c-487b-9c40-2f1cab9ba006",
     "spec_version": "2.0",
     "objects": [
         {
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "injects a malicious DLL into the IExplorer.exe process.",
             "source_ref": "malware--310f437b-29e7-4844-848c-7220868d074a",
             "target_ref": "attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d"
         }

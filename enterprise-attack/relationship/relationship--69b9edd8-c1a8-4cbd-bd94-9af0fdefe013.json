@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a5079580-d786-4aae-a848-15c0fbf369c6",
+    "id": "bundle--cfa9fb63-f010-48e7-8f4f-cd1abd2b6811",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "HIDEDRV is a rootkit that hides certain operating system artifacts.",
+            "description": "{{LinkById|S0135}} is a rootkit that hides certain operating system artifacts.",
             "external_references": [
                 {
                     "url": "http://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part3.pdf",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0135}} is a rootkit that hides certain operating system artifacts.",
             "source_ref": "malware--e669bb87-f773-4c7b-bfcc-a9ffebfdd8d4",
             "target_ref": "attack-pattern--0f20e3cb-245b-4a61-8a91-2d93f7cb0e9b"
         }

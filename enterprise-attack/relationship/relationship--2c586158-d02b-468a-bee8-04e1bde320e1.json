@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6d399744-2a67-4325-b26a-9f8bdc4f741c",
+    "id": "bundle--9cddca52-6557-4c97-96d3-fac5dadf2be0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "BlackEnergy has gathered a process list by using Tasklist.exe.",
+            "description": "{{LinkById|S0089}} has gathered a process list by using {{LinkById|S0057}}.exe.",
             "external_references": [
                 {
                     "url": "https://www.f-secure.com/documents/996508/1030745/blackenergy%20whitepaper.pdf",
@@ -25,7 +25,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0089}} has gathered a process list by using {{LinkById|S0057}}.exe.",
             "source_ref": "malware--54cc1d4f-5c53-4f0e-9ef5-11b4998e82e4",
             "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--95d6873c-07d8-4c18-a6ed-82b4639065d6",
+    "id": "bundle--cf22fc9a-24db-4d36-9cc1-76ba9f9c7155",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,15 +10,14 @@
             "created": "2018-06-27T14:18:47.700Z",
             "modified": "2018-06-27T14:18:47.700Z",
             "name": "Spearphishing Link Mitigation",
-            "description": "Because this technique involves user interaction on the endpoint, it's difficult to fully mitigate. However, there are potential mitigations. Users can be trained to identify social engineering techniques and spearphishing emails with malicious links. Other mitigations can take place as User Execution Mitigation occurs.",
+            "description": "Because this technique involves user interaction on the endpoint, it's difficult to fully mitigate. However, there are potential mitigations. Users can be trained to identify social engineering techniques and spearphishing emails with malicious links. Other mitigations can take place as {{LinkById|T1204}} occurs.",
             "external_references": [
                 {
                     "external_id": "T1192",
                     "url": "https://attack.mitre.org/wiki/Technique/T1192",
                     "source_name": "mitre-attack"
                 }
-            ],
-            "x_mitre_detection": "Because this technique involves user interaction on the endpoint, it's difficult to fully mitigate. However, there are potential mitigations. Users can be trained to identify social engineering techniques and spearphishing emails with malicious links. Other mitigations can take place as {{LinkById|T1204}} occurs."
+            ]
         }
     ]
 }

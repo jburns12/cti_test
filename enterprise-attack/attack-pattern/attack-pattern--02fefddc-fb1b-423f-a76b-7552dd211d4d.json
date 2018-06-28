@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ef0e449f-d55a-4a23-8731-fa26928f5a23",
+    "id": "bundle--8a5a28da-495a-4b25-873c-a27d8293e302",
     "spec_version": "2.0",
     "objects": [
         {
@@ -37,7 +37,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "A bootkit is a malware variant that modifies the boot sectors of a hard drive, including the Master Boot Record (MBR) and Volume Boot Record (VBR). (Citation: MTrends 2016)\n\nAdversaries may use bootkits to persist on systems at a layer below the operating system, which may make it difficult to perform full remediation unless an organization suspects one was used and can act accordingly.\n\n===Master Boot Record===\nThe MBR is the section of disk that is first loaded after completing hardware initialization by the BIOS. It is the location of the boot loader. An adversary who has raw access to the boot drive may overwrite this area, diverting execution during startup from the normal boot loader to adversary code. (Citation: Lau 2011)\n\n===Volume Boot Record===\nThe MBR passes control of the boot process to the VBR. Similar to the case of MBR, an adversary who has raw access to the boot drive may overwrite the VBR to divert execution during startup to adversary code.",
+            "x_mitre_detection": "Perform integrity checking on MBR and VBR. Take snapshots of MBR and VBR and compare against known good samples. Report changes to MBR and VBR as they occur for indicators of suspicious activity and further analysis.",
             "x_mitre_platforms": [
                 "Linux",
                 "Windows"

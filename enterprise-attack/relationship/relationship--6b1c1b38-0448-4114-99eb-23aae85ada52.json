@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--353e8978-97f7-4dfe-8a33-af70e8fe854a",
+    "id": "bundle--424042fd-7468-47cf-9d86-f4b923869343",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "APT28 has enumerated installed applications on macOS devices with built-in utilities such as <code>ls -al /Applications</code>.",
+            "description": "{{LinkById|G0007}} has enumerated installed applications on macOS devices with built-in utilities such as <code>ls -al /Applications</code>.",
             "external_references": [
                 {
                     "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit42-xagentosx-sofacys-xagent-macos-tool/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0007}} has enumerated installed applications on macOS devices with built-in utilities such as <code>ls -al /Applications</code>.",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9376079a-70bd-44d6-9934-37a0d32ba4f6",
+    "id": "bundle--d06b21ae-65f7-4de2-9b96-16d3a0d89b0c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,7 +27,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "The <code>source</code> command loads functions into the current shell or executes files in the current context. This built-in command can be run in two different ways <code>source /path/to/filename [arguments]</code> or <code>. /path/to/filename [arguments]</code>. Take note of the space after the \".\". Without a space, a new shell is created that runs the program instead of running the program within the current context. This is often used to make certain features or functions available to a shell or to update a specific shell's environment. \n\nAdversaries can abuse this functionality to execute programs. The file executed with this technique does not need to be marked executable beforehand.",
+            "x_mitre_detection": "Monitor for command shell execution of source and subsequent processes that are started as a result of being executed by a source command. Adversaries must also drop a file to disk in order to execute it with source, and these files can also detected by file monitoring.",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS"

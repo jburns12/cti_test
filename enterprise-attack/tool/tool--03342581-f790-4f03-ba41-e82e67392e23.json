@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--23c9beca-bc9c-4e77-bb92-c269e9024d55",
+    "id": "bundle--d14d25f3-49cd-4157-822d-e3245dce358d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,7 +10,7 @@
             "created": "2017-05-31T21:32:31.601Z",
             "modified": "2018-06-27T14:18:47.700Z",
             "name": "Net",
-            "description": "The Net utility is a component of the Windows operating system. It is used in command-line operations for control of users, groups, services, and network connections. (Citation: Microsoft Net Utility)\n\nNet has a great deal of functionality, (Citation: Savill 1999) much of which is useful for an adversary, such as gathering system and network information for Discovery, moving laterally through [[Windows admin shares]] using <code>net use</code> commands, and interacting with services.",
+            "description": "The {{LinkById|S0039}} utility is a component of the Windows operating system. It is used in command-line operations for control of users, groups, services, and network connections. (Citation: Microsoft Net Utility)\n\n{{LinkById|S0039}} has a great deal of functionality, (Citation: Savill 1999) much of which is useful for an adversary, such as gathering system and network information for [[Discovery]], moving laterally through [[Windows admin shares]] using <code>net use</code> commands, and interacting with services.",
             "labels": [
                 "tool"
             ],
@@ -34,7 +34,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "The {{LinkById|S0039}} utility is a component of the Windows operating system. It is used in command-line operations for control of users, groups, services, and network connections. (Citation: Microsoft Net Utility)\n\n{{LinkById|S0039}} has a great deal of functionality, (Citation: Savill 1999) much of which is useful for an adversary, such as gathering system and network information for Discovery, moving laterally through [[Windows admin shares]] using <code>net use</code> commands, and interacting with services.",
             "x_mitre_platforms": [
                 "Windows"
             ],

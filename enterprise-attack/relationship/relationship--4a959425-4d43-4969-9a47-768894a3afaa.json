@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--841bdb9a-2b5f-49a7-8336-439998895dff",
+    "id": "bundle--b7069b6e-e31a-425f-b9d1-0f5f0c6c6d14",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Emissary has the capability to execute ver, systeminfo, and gpresult commands.",
+            "description": "{{LinkById|S0082}} has the capability to execute ver, systeminfo, and gpresult commands.",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2016/02/emissary-trojan-changelog-did-operation-lotus-blossom-cause-it-to-evolve/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0082}} has the capability to execute ver, systeminfo, and gpresult commands.",
             "source_ref": "malware--0f862b01-99da-47cc-9bdb-db4a86a95bb1",
             "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1"
         }

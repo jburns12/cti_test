@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--284d327e-103e-4ce4-8ced-7e7b15348ed4",
+    "id": "bundle--68e19cda-4ffa-412a-9250-6deceb158dc1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "ADVSTORESHELL connects to port 80 of a C2 server using Wininet API.",
+            "description": "{{LinkById|S0045}} connects to port 80 of a C2 server using Wininet API.",
             "external_references": [
                 {
                     "url": "https://securelist.com/sofacy-apt-hits-high-profile-targets-with-updated-toolset/72924/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0045}} connects to port 80 of a C2 server using Wininet API.",
             "source_ref": "malware--fb575479-14ef-41e9-bfab-0b7cf10bec73",
             "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6"
         }

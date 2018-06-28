@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1df87904-0227-4b45-8c74-e0f63696b2fa",
+    "id": "bundle--b74563d9-cba4-420e-8565-d0978ad8930d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Epic implements a command and control protocol over HTTP.",
+            "description": "{{LinkById|S0091}} implements a command and control protocol over HTTP.",
             "external_references": [
                 {
                     "url": "https://securelist.com/the-epic-turla-operation/65545/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0091}} implements a command and control protocol over HTTP.",
             "source_ref": "malware--6b62e336-176f-417b-856a-8552dd8c44e1",
             "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6"
         }

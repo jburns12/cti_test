@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--66b8fc9f-b432-4e86-a497-2f3f309882d6",
+    "id": "bundle--3d3f4e29-9040-4d13-9ab4-2aa4c66e3b73",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "SPACESHIP identifies files with certain extensions and copies them to a directory in the user's profile.",
+            "description": "{{LinkById|S0035}} identifies files with certain extensions and copies them to a directory in the user's profile.",
             "external_references": [
                 {
                     "url": "https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0035}} identifies files with certain extensions and copies them to a directory in the user's profile.",
             "source_ref": "malware--8b880b41-5139-4807-baa9-309690218719",
             "target_ref": "attack-pattern--7dd95ff6-712e-4056-9626-312ea4ab4c5e"
         }

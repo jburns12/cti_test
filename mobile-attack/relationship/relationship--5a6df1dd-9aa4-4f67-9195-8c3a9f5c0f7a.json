@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--880c8ac7-c0c5-4a4f-8190-604591ed8f4f",
+    "id": "bundle--6f016bec-b2d2-49c4-840d-2cd29449b885",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-18T15:59:03.864Z",
-            "description": "MazarBOT can \"send messages to premium-rate numbers\".",
+            "description": "{{LinkById|MOB-S0019}} can \"send messages to premium-rate numbers\".",
             "external_references": [
                 {
                     "url": "https://www.tripwire.com/state-of-security/security-data-protection/android-malware-sms/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|MOB-S0019}} can \"send messages to premium-rate numbers\".",
             "source_ref": "malware--5ddf81ea-2c06-497b-8c30-5f1ab89a40f9",
             "target_ref": "attack-pattern--8f0e39c6-82c9-41ec-9f93-5696c0f2e274"
         }

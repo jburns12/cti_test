@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--867e2a93-2248-4018-9625-06e0ab861752",
+    "id": "bundle--46ccad6d-9038-4d4e-a11f-c268c7825b7e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Hydraq creates new services to establish.",
+            "description": "{{LinkById|S0203}} creates new services to establish.",
             "external_references": [
                 {
                     "url": "https://www.symantec.com/connect/blogs/trojanhydraq-incident",
@@ -30,7 +30,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0203}} creates new services to establish.",
             "source_ref": "malware--73a4793a-ce55-4159-b2a6-208ef29b326f",
             "target_ref": "attack-pattern--478aa214-2ca7-4ec0-9978-18798e514790"
         }

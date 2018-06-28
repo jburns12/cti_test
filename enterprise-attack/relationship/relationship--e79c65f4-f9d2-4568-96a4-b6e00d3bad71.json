@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--18fdb7c5-bec7-48cf-bac9-9d173e510392",
+    "id": "bundle--160a88b1-ba18-4125-a870-44e4d11fc79f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Analysis of Daserf has shown that it regularly undergoes technical improvements to evade anti-virus detection.",
+            "description": "Analysis of {{LinkById|S0187}} has shown that it regularly undergoes technical improvements to evade anti-virus detection.",
             "external_references": [
                 {
                     "url": "http://blog.trendmicro.com/trendlabs-security-intelligence/redbaldknight-bronze-butler-daserf-backdoor-now-using-steganography/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Analysis of {{LinkById|S0187}} has shown that it regularly undergoes technical improvements to evade anti-virus detection.",
             "source_ref": "malware--b6b3dfc7-9a81-43ff-ac04-698bad48973a",
             "target_ref": "attack-pattern--00d0b012-8a03-410e-95de-5826bf542de6"
         }

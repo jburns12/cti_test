@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--84b761dc-34db-4811-a6fd-778d98238879",
+    "id": "bundle--fa1bb562-b4c0-4a45-a07c-a66ba59ca2fa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,15 +10,14 @@
             "created": "2018-06-27T14:18:47.700Z",
             "modified": "2018-06-27T14:18:47.700Z",
             "name": "Brute Force Mitigation",
-            "description": "Set account lockout policies after a certain number of failed login attempts to prevent passwords from being guessed. Use multifactor authentication. Follow best practices for mitigating access to Valid Accounts Mitigation",
+            "description": "Set account lockout policies after a certain number of failed login attempts to prevent passwords from being guessed. Use multifactor authentication. Follow best practices for mitigating access to {{LinkById|T1078}}",
             "external_references": [
                 {
                     "external_id": "T1110",
                     "url": "https://attack.mitre.org/wiki/Technique/T1110",
                     "source_name": "mitre-attack"
                 }
-            ],
-            "x_mitre_detection": "Set account lockout policies after a certain number of failed login attempts to prevent passwords from being guessed. Use multifactor authentication. Follow best practices for mitigating access to {{LinkById|T1078}}"
+            ]
         }
     ]
 }

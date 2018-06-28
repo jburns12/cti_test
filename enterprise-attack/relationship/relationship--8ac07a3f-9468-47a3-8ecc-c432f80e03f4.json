@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0310c12e-8694-412d-8a56-95beb48eff57",
+    "id": "bundle--be15f9a0-e97b-446c-86e2-ac160374fbdc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "APT3 leverages valid accounts after gaining credentials for use within the victim domain.",
+            "description": "{{LinkById|G0022}} leverages valid accounts after gaining credentials for use within the victim domain.",
             "external_references": [
                 {
                     "url": "http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0022}} leverages valid accounts after gaining credentials for use within the victim domain.",
             "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
             "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81"
         }

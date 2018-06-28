@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b558fc9d-8b44-4bd8-b29c-22e782762e6a",
+    "id": "bundle--810ab2b7-b323-461c-85dc-0976c4084b0e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Unknown Logger can obtain information about the victim usernames.",
+            "description": "{{LinkById|S0130}} can obtain information about the victim usernames.",
             "external_references": [
                 {
                     "url": "https://www.forcepoint.com/sites/default/files/resources/files/forcepoint-security-labs-monsoon-analysis-report.pdf",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0130}} can obtain information about the victim usernames.",
             "source_ref": "malware--ab3580c8-8435-4117-aace-3d9fbe46aa56",
             "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104"
         }

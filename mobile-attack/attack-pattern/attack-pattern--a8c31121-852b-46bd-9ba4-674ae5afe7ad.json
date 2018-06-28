@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--07c7de3d-cfcc-42a8-bfa1-0d910a79fa2d",
+    "id": "bundle--fe0c494a-fc93-4772-968d-2ab6f3653e40",
     "spec_version": "2.0",
     "objects": [
         {
@@ -36,7 +36,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "A malicious app can register as a device keyboard and intercept keypresses containing sensitive values such as usernames and passwords. Zeltser (Citation: Zeltser-Keyboard) describes these risks.\n\nBoth iOS and Android require the user to explicitly authorize use of third party keyboard apps. Users should be advised to use extreme caution before granting this authorization when it is requested.",
             "x_mitre_platforms": [
                 "Android",
                 "iOS"

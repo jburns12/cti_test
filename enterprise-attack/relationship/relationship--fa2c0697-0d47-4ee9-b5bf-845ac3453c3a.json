@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a7aa7b11-496a-4cb4-8a22-9a6127ae257a",
+    "id": "bundle--437dab80-0a56-45af-a1c5-f20a6b7d55e2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Nidiran can create a new service named msamger (Microsoft Security Accounts Manager).",
+            "description": "{{LinkById|S0118}} can create a new service named msamger (Microsoft Security Accounts Manager).",
             "external_references": [
                 {
                     "url": "https://www.symantec.com/security%20response/writeup.jsp?docid=2015-120123-5521-99",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0118}} can create a new service named msamger (Microsoft Security Accounts Manager).",
             "source_ref": "malware--9e9b9415-a7df-406b-b14d-92bfe6809fbe",
             "target_ref": "attack-pattern--478aa214-2ca7-4ec0-9978-18798e514790"
         }

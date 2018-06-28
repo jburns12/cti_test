@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5c9282d5-aa89-4488-91fc-af0c02d6cf20",
+    "id": "bundle--297c4d8b-d59e-4966-ba83-20e741c597cc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Backdoor.Oldrea collects address book information from Outlook.",
+            "description": "{{LinkById|S0093}} collects address book information from Outlook.",
             "external_references": [
                 {
                     "url": "http://www.symantec.com/content/en/us/enterprise/media/security%20response/whitepapers/Dragonfly%20Threat%20Against%20Western%20Energy%20Suppliers.pdf",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0093}} collects address book information from Outlook.",
             "source_ref": "malware--083bb47b-02c8-4423-81a2-f9ef58572974",
             "target_ref": "attack-pattern--1608f3e1-598a-42f4-a01a-2e252e81728f"
         }

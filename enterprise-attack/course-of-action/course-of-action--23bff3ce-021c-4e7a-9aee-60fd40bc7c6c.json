@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e7dfc38c-49b9-46eb-8dc7-9aff7098249e",
+    "id": "bundle--5d37b037-87a2-406c-ba20-51470de1727c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -17,8 +17,7 @@
                     "url": "https://attack.mitre.org/wiki/Technique/T1169",
                     "source_name": "mitre-attack"
                 }
-            ],
-            "x_mitre_detection": "The sudoers file should be strictly edited such that passwords are always required and that users can\u2019t spawn risky processes as users with higher privilege. By requiring a password, even if an adversary can get terminal access, they must know the password to run anything in the sudoers file."
+            ]
         }
     ]
 }

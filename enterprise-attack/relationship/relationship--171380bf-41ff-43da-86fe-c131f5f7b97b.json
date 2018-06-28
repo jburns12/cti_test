@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--be0bd08b-05a6-47ec-a5fa-f12917b16846",
+    "id": "bundle--c0a6c8dd-1780-4a2f-a165-93b39cd094f2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Recent versions of Cherry Picker delete files and registry keys created by the malware.",
+            "description": "Recent versions of {{LinkById|S0107}} delete files and registry keys created by the malware.",
             "external_references": [
                 {
                     "url": "https://www.trustwave.com/Resources/SpiderLabs-Blog/Shining-the-Spotlight-on-Cherry-Picker-PoS-Malware/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Recent versions of {{LinkById|S0107}} delete files and registry keys created by the malware.",
             "source_ref": "malware--b2203c59-4089-4ee4-bfe1-28fa25f0dbfe",
             "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59"
         }

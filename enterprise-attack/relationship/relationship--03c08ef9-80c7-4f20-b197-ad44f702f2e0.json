@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0075905b-b77c-4a2e-9a5a-7c1dcffc2881",
+    "id": "bundle--d07d23d9-ba8e-4586-aea7-9ca9c7eb588c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Daserf can execute shell commands.",
+            "description": "{{LinkById|S0187}} can execute shell commands.",
             "external_references": [
                 {
                     "url": "http://blog.trendmicro.com/trendlabs-security-intelligence/redbaldknight-bronze-butler-daserf-backdoor-now-using-steganography/",
@@ -25,7 +25,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0187}} can execute shell commands.",
             "source_ref": "malware--b6b3dfc7-9a81-43ff-ac04-698bad48973a",
             "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830"
         }

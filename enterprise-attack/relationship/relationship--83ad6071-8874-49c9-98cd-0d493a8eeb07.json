@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2dd358c6-fd74-48c8-b62f-907587c60118",
+    "id": "bundle--827cc33d-2087-447b-aa7e-19843f7904e2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Sykipot may use <code>netstat -ano</code> to display active network connections.",
+            "description": "{{LinkById|S0018}} may use <code>netstat -ano</code> to display active network connections.",
             "external_references": [
                 {
                     "url": "https://www.alienvault.com/open-threat-exchange/blog/another-sykipot-sample-likely-targeting-us-federal-agencies",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0018}} may use <code>netstat -ano</code> to display active network connections.",
             "source_ref": "malware--6a0ef5d4-fc7c-4dda-85d7-592e4dbdc5d9",
             "target_ref": "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475"
         }

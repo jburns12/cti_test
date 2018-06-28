@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cf148244-9c2a-4b7e-98ec-9842ca0689d0",
+    "id": "bundle--d5f4eed2-9a92-4350-9f04-b67f15100ecd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.036Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "APT1 has used RAR to compress files before moving them outside of the victim network.",
+            "description": "{{LinkById|G0006}} has used RAR to compress files before moving them outside of the victim network.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0006}} has used RAR to compress files before moving them outside of the victim network.",
             "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
             "target_ref": "attack-pattern--b9f5dbe2-4c55-4fc5-af2e-d42c1d182ec4"
         }

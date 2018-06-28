@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9ed091cc-818f-4f96-80e9-5b8e393926c6",
+    "id": "bundle--4bcb5f03-50ec-4d17-9b29-35ac9a319e14",
     "spec_version": "2.0",
     "objects": [
         {
@@ -22,8 +22,7 @@
                     "description": "Apple. (2016, December 6). Automatically re-open windows, apps, and documents on your Mac. Retrieved July 11, 2017.",
                     "source_name": "Re-Open windows on Mac"
                 }
-            ],
-            "x_mitre_detection": "Holding the Shift key while logging in prevents apps from opening automatically (Citation: Re-Open windows on Mac). This feature can be disabled entirely with the following terminal command: <code>defaults write -g ApplePersistence -bool no</code>."
+            ]
         }
     ]
 }

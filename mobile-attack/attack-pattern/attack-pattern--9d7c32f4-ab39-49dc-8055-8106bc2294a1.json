@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c7b5d19d-fc32-48b0-a5ed-64fdfbe2d2e3",
+    "id": "bundle--123dea7c-df31-4458-8589-6d94fbc1aaf9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -37,7 +37,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "An adversary may seek to lock the legitimate user out of the device, for example until a ransom is paid.\n\nOn Android versions prior to 7, apps can abuse Device Administrator access to reset the device lock passcode to lock the user out of the device.\n\nOn iOS devices, this technique does not work because mobile device management servers can only remove the screen lock passcode, they cannot set a new passcode. However, on jailbroken devices, malware has been demonstrated that can lock the user out of the device (Citation: KeyRaider).",
             "x_mitre_platforms": [
                 "Android",
                 "iOS"

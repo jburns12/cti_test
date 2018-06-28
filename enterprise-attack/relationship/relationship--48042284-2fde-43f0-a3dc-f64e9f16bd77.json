@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--63e53033-2bf7-4a51-b810-81bd6b497e24",
+    "id": "bundle--6cece06c-3945-42a1-9148-48c83f25dcdd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.057Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "A keylogging tool used by APT3 gathers network information from the victim, including the MAC address, IP address, WINS, DHCP server, and gateway.",
+            "description": "A keylogging tool used by {{LinkById|G0022}} gathers network information from the victim, including the MAC address, IP address, WINS, DHCP server, and gateway.",
             "external_references": [
                 {
                     "url": "http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
@@ -25,7 +25,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "A keylogging tool used by {{LinkById|G0022}} gathers network information from the victim, including the MAC address, IP address, WINS, DHCP server, and gateway.",
             "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
             "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0"
         }

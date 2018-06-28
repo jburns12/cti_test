@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b1fd3b98-5acf-4f81-a6fa-9c98a843d966",
+    "id": "bundle--5e036ba7-1ce6-4351-b408-1ad2a56dee17",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Sakula calls cmd.exe to run various DLL files via rundll32 and also to perform file cleanup. Sakula also has the capability to invoke a reverse shell.",
+            "description": "{{LinkById|S0074}} calls cmd.exe to run various DLL files via rundll32 and also to perform file cleanup. {{LinkById|S0074}} also has the capability to invoke a reverse shell.",
             "external_references": [
                 {
                     "url": "http://www.secureworks.com/cyber-threat-intelligence/threats/sakula-malware-family/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0074}} calls cmd.exe to run various DLL files via rundll32 and also to perform file cleanup. {{LinkById|S0074}} also has the capability to invoke a reverse shell.",
             "source_ref": "malware--96b08451-b27a-4ff6-893f-790e26393a8e",
             "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0e14ee92-d783-4a3b-93ec-c77eca98046a",
+    "id": "bundle--e44f2bb1-3a45-451c-9bb8-8e98592f1661",
     "spec_version": "2.0",
     "objects": [
         {
@@ -17,8 +17,7 @@
                     "url": "https://attack.mitre.org/wiki/Technique/T1218",
                     "source_name": "mitre-attack"
                 }
-            ],
-            "x_mitre_detection": "Certain signed binaries that can be used to execute other programs may not be necessary within a given environment. Use application whitelisting configured to block execution of these scripts if they are not required for a given system or network to prevent potential misuse by adversaries."
+            ]
         }
     ]
 }

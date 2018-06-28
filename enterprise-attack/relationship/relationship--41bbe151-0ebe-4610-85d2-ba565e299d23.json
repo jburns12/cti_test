@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a0f0aeab-0ca9-4d5b-a67c-cdabf097576a",
+    "id": "bundle--1da103e3-a026-4b15-99bb-373146d15af2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Leviathan has inserted garbage characters into code, presumably to avoid anti-virus detection.",
+            "description": "{{LinkById|G0065}} has inserted garbage characters into code, presumably to avoid anti-virus detection.",
             "external_references": [
                 {
                     "url": "https://www.proofpoint.com/us/threat-insight/post/leviathan-espionage-actor-spearphishes-maritime-and-defense-targets",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0065}} has inserted garbage characters into code, presumably to avoid anti-virus detection.",
             "source_ref": "intrusion-set--7113eaa5-ba79-4fb3-b68a-398ee9cd698e",
             "target_ref": "attack-pattern--519630c5-f03f-4882-825c-3af924935817"
         }

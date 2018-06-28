@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--11b9e04c-962d-4ce6-a23a-9a1f5e420bfd",
+    "id": "bundle--e928a946-3c5a-470a-bbf1-c431c3eed883",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "ChChes communicates to its C2 server over HTTP and embeds data within the Cookie HTTP header.",
+            "description": "{{LinkById|S0144}} communicates to its C2 server over HTTP and embeds data within the Cookie HTTP header.",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2017/02/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations/",
@@ -25,7 +25,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0144}} communicates to its C2 server over HTTP and embeds data within the Cookie HTTP header.",
             "source_ref": "malware--dc5d1a33-62aa-4a0c-aa8c-589b87beb11e",
             "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6"
         }

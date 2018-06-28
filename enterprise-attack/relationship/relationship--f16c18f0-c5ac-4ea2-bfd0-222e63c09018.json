@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e78b4766-4f77-4ca1-b480-c27ebe9f510c",
+    "id": "bundle--d72afc03-5bc6-4c6c-899e-20a558191038",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "menuPass has used Putty Secure Copy Client (PSCP) to transfer data.",
+            "description": "{{LinkById|G0045}} has used Putty Secure Copy Client (PSCP) to transfer data.",
             "external_references": [
                 {
                     "url": "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0045}} has used Putty Secure Copy Client (PSCP) to transfer data.",
             "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
             "target_ref": "attack-pattern--54a649ff-439a-41a4-9856-8d144a2551ba"
         }

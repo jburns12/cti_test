@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a0e43051-b15e-4492-8b81-7a718d8f0543",
+    "id": "bundle--244fc39b-29e8-47d5-b677-5d7f361a4cb5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -32,8 +32,7 @@
                     "description": "Wikipedia. (2018, January 11). Control-flow integrity. Retrieved March 12, 2018.",
                     "source_name": "Wikipedia Control Flow Integrity"
                 }
-            ],
-            "x_mitre_detection": "Update software regularly by employing patch management for internal enterprise endpoints and servers. Develop a robust cyber threat intelligence capability to determine what types and levels of threat may use software exploits and 0-days against a particular organization. Make it difficult for adversaries to advance their operation through exploitation of undiscovered or unpatched vulnerabilities by using sandboxing, if available. Other types of virtualization and application microsegmentation may also mitigate the impact of some types of exploitation. The risks of additional exploits and weaknesses in implementation may still exist. (Citation: Ars Technica Pwn2Own 2017 VM Escape)\n\nSecurity applications that look for behavior used during exploitation such as Windows Defender Exploit Guard (WDEG) and the Enhanced Mitigation Experience Toolkit (EMET) can be used to mitigate some exploitation behavior. (Citation: TechNet Moving Beyond EMET) Control flow integrity checking is another way to potentially identify and stop a software exploit from occurring. (Citation: Wikipedia Control Flow Integrity) Many of these protections depend on the architecture and target application binary for compatibility and may not work for software targeted for defense evasion."
+            ]
         }
     ]
 }

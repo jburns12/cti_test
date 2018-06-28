@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--83be0919-b6e9-42a0-b34c-b2f0921171da",
+    "id": "bundle--e52b6b10-3f2d-47d9-98ba-7259247817a1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Commands under <code>net user</code> can be used in Net to gather information about and manipulate user accounts.",
+            "description": "Commands under <code>net user</code> can be used in {{LinkById|S0039}} to gather information about and manipulate user accounts.",
             "external_references": [
                 {
                     "url": "http://windowsitpro.com/windows/netexe-reference",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Commands under <code>net user</code> can be used in {{LinkById|S0039}} to gather information about and manipulate user accounts.",
             "source_ref": "tool--03342581-f790-4f03-ba41-e82e67392e23",
             "target_ref": "attack-pattern--72b74d71-8169-42aa-92e0-e7b04b9f5a08"
         }

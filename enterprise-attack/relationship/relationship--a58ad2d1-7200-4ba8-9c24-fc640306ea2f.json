@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ac454cba-92cc-46d9-8196-1706b7fb2dc8",
+    "id": "bundle--4a8b12fe-75bc-4457-994c-4b2a5aab2c3f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.081Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "RTM has used an RSS feed on Livejournal to update a list of encrypted C2 server names.",
+            "description": "{{LinkById|G0048}} has used an RSS feed on Livejournal to update a list of encrypted C2 server names.",
             "external_references": [
                 {
                     "url": "https://www.welivesecurity.com/wp-content/uploads/2017/02/Read-The-Manual.pdf",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0048}} has used an RSS feed on Livejournal to update a list of encrypted C2 server names.",
             "source_ref": "intrusion-set--c416b28c-103b-4df1-909e-78089a7e0e5f",
             "target_ref": "attack-pattern--830c9528-df21-472c-8c14-a036bf17d665"
         }

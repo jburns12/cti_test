@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ff63f2f2-3bdc-484d-8332-6d697f2cf01e",
+    "id": "bundle--7e5a5b7e-f8da-452b-82ff-9916492307f9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "APT32 has used the Invoke-Obfuscation framework to obfuscate their PowerShell.",
+            "description": "{{LinkById|G0050}} has used the Invoke-Obfuscation framework to obfuscate their PowerShell.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html",
@@ -25,7 +25,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0050}} has used the Invoke-Obfuscation framework to obfuscate their PowerShell.",
             "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
             "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a"
         }

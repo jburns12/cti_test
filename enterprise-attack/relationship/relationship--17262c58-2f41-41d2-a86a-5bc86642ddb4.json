@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2ef3cf54-f736-40ae-8286-e0b7ad2f75db",
+    "id": "bundle--6d45f0a0-b3b7-47e3-9f6b-80f4e7ed3cfa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "menuPass has compressed files before exfiltration using TAR and RAR.",
+            "description": "{{LinkById|G0045}} has compressed files before exfiltration using TAR and RAR.",
             "external_references": [
                 {
                     "url": "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
@@ -25,7 +25,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0045}} has compressed files before exfiltration using TAR and RAR.",
             "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
             "target_ref": "attack-pattern--b9f5dbe2-4c55-4fc5-af2e-d42c1d182ec4"
         }

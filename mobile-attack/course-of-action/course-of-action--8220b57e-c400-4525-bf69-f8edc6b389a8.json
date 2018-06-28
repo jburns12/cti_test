@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d4d8f418-eb97-44ca-bd64-3615da9b8576",
+    "id": "bundle--089a08e7-af87-4923-ba11-d06a7c0024b6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -30,8 +30,7 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "x_mitre_detection": "Application developers should encrypt all of their application network traffic using the Transport Layer Security (TLS) protocol to ensure protection of sensitive data and deter network-based attacks. If desired, application developers could perform message-based encryption of data before passing it for TLS encryption.\n\niOS's App Transport Security feature can be used to help ensure that all application network traffic is appropriately protected. Apple intends to mandate use of App Transport Security  (Citation: TechCrunch-ATS) for all apps in the Apple App Store unless appropriate justification is given.\n\nAndroid's Network Security Configuration feature similarly can be used by app developers to help ensure that all of their application network traffic is appropriately protected  (Citation: Android-NetworkSecurityConfig).\n\nUse of Virtual Private Network (VPN) tunnels, e.g. using the IPsec protocol, can help mitigate some types of network attacks as well."
+            ]
         }
     ]
 }

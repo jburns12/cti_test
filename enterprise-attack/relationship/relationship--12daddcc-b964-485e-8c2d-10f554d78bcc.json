@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7146a4a6-cb4d-4723-9c97-5e0b57501c13",
+    "id": "bundle--b8ccd145-2ee1-434f-9c7b-53e56776daa8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "OilRig malware ISMAgent falls back to its DNS tunneling mechanism if it is unable to reach the C2 server over HTTP.",
+            "description": "{{LinkById|G0049}} malware ISMAgent falls back to its DNS tunneling mechanism if it is unable to reach the C2 server over HTTP.",
             "external_references": [
                 {
                     "url": "https://researchcenter.paloaltonetworks.com/2017/07/unit42-oilrig-uses-ismdoor-variant-possibly-linked-greenbug-threat-group/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0049}} malware ISMAgent falls back to its DNS tunneling mechanism if it is unable to reach the C2 server over HTTP.",
             "source_ref": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",
             "target_ref": "attack-pattern--f24faf46-3b26-4dbb-98f2-63460498e433"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--35766f0c-5185-4862-ac8a-a20ac927b227",
+    "id": "bundle--68a8bbde-2f72-4e49-b7db-cf01d62372c9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "TURNEDUP is capable of creating a reverse shell.",
+            "description": "{{LinkById|S0199}} is capable of creating a reverse shell.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/09/apt33-insights-into-iranian-cyber-espionage.html",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0199}} is capable of creating a reverse shell.",
             "source_ref": "malware--db1355a7-e5c9-4e2c-8da7-eccf2ae9bf5c",
             "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830"
         }

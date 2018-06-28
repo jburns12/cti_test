@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6f3007aa-9205-4a4a-a2f4-61b87a9e4e7d",
+    "id": "bundle--cc06be13-f797-40b0-ad14-a8bee476b5f3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Smoke Loader was distributed through a compromised update to a Tor client with a coin miner payload.",
+            "description": "{{LinkById|S0226}} was distributed through a compromised update to a Tor client with a coin miner payload.",
             "external_references": [
                 {
                     "url": "https://cloudblogs.microsoft.com/microsoftsecure/2018/03/07/behavior-monitoring-combined-with-machine-learning-spoils-a-massive-dofoil-coin-mining-campaign/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0226}} was distributed through a compromised update to a Tor client with a coin miner payload.",
             "source_ref": "malware--0c824410-58ff-49b2-9cf2-1c96b182bdf0",
             "target_ref": "attack-pattern--3f18edba-28f4-4bb9-82c3-8aa60dcac5f7"
         }

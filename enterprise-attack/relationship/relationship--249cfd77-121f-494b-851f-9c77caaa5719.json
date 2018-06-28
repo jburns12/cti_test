@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ea9ab911-4160-4c3d-81ea-11157bfc2243",
+    "id": "bundle--383e4314-ef40-43df-9ee9-d752625d847f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "SHUTTERSPEED has been delivered via spearphishing emails containing documents exploiting RTF vulnerability CVE-2017-0199.",
+            "description": "{{LinkById|S0217}} has been delivered via spearphishing emails containing documents exploiting RTF vulnerability CVE-2017-0199.",
             "external_references": [
                 {
                     "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt%20APT37.pdf",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0217}} has been delivered via spearphishing emails containing documents exploiting RTF vulnerability CVE-2017-0199.",
             "source_ref": "malware--4189a679-72ed-4a89-a57c-7f689712ecf8",
             "target_ref": "attack-pattern--6aac77c4-eaf2-4366-8c13-ce50ab951f38"
         }

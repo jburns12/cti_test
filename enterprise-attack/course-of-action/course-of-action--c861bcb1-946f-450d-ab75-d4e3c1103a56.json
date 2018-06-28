@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--23dc4eeb-1e6a-45ef-8733-50c37198118b",
+    "id": "bundle--631d7e3e-2e49-4490-8794-0747870adc09",
     "spec_version": "2.0",
     "objects": [
         {
@@ -17,8 +17,7 @@
                     "url": "https://attack.mitre.org/wiki/Technique/T1194",
                     "source_name": "mitre-attack"
                 }
-            ],
-            "x_mitre_detection": "Determine if certain social media sites, personal webmail services, or other service that can be used for spearphishing is necessary for business operations and consider blocking access if activity cannot be monitored well or if it poses a significant risk.\n\nBecause this technique involves use of legitimate services and user interaction on the endpoint, it's difficult to fully mitigate. However, there are potential mitigations. Users can be trained to identify social engineering techniques and spearphishing emails with malicious links. To prevent the downloads from executing, application whitelisting can be used. Anti-virus can also automatically quarantine suspicious files."
+            ]
         }
     ]
 }

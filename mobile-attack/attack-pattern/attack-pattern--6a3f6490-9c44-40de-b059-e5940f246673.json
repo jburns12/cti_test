@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--357e9afc-601e-4dfc-80fc-f285741575da",
+    "id": "bundle--c1193b6b-31c0-4923-93b8-04b0a13c59e4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -41,7 +41,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Adversaries may communicate using a common, standardized application layer protocol such as HTTP, HTTPS, SMTP, or DNS to avoid detection by blending in with existing traffic.\n\nIn the mobile environment, the Google Cloud Messaging (GCM; two-way) and Apple Push Notification Service (APNS; one-way server-to-device) are commonly used protocols on Android and iOS respectively that would blend in with routine device traffic and are difficult for enterprises to inspect. As described by Kaspersky (Citation: Kaspersky-MobileMalware), Google responds to reports of abuse by blocking access to GCM.",
             "x_mitre_platforms": [
                 "Android",
                 "iOS"

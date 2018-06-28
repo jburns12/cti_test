@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dfcf3003-905e-45db-b957-7108b20b5d01",
+    "id": "bundle--3af579ec-32c3-49f6-b2bc-6f4f5281fd4f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -32,7 +32,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "An adversary could call standard operating system APIs from a malicious application to gather contact list (i.e., address book) data, or with escalated privileges could directly access files containing contact list data.",
+            "x_mitre_detection": "On both Android (6.0 and up) and iOS, the user can view which applications have permission to access contact list information through the device settings screen, and the user can choose to revoke the permissions.",
             "x_mitre_platforms": [
                 "Android",
                 "iOS"

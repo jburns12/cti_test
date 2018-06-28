@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eba7e98b-9fa5-4c89-9e94-cf8d241cf504",
+    "id": "bundle--c91fe85e-6158-4dad-b65a-ed71af53d587",
     "spec_version": "2.0",
     "objects": [
         {
@@ -22,8 +22,7 @@
                     "description": "Gardiner, J.,  Cova, M., Nagaraja, S. (2014, February). Command & Control Understanding, Denying and Detecting. Retrieved April 20, 2016.",
                     "source_name": "University of Birmingham C2"
                 }
-            ],
-            "x_mitre_detection": "Firewalls and Web proxies can be used to enforce external network communication policy. It may be difficult for an organization to block particular services because so many of them are commonly used during the course of business.\n\nNetwork intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary malware can be used to mitigate activity at the network level. Signatures are often for unique indicators within protocols and may be based on the specific protocol or encoded commands used by a particular adversary or tool, and will likely be different across various malware families and versions. Adversaries will likely change tool C2 signatures over time or construct protocols in such a way as to avoid detection by common defensive tools. (Citation: University of Birmingham C2)"
+            ]
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7c16464c-de3b-4076-93c0-2666d2c99458",
+    "id": "bundle--934db1f5-e59b-4a95-a51d-f976dc1ee392",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Hydraq uses basic obfuscation in the form of spaghetti code.",
+            "description": "{{LinkById|S0203}} uses basic obfuscation in the form of spaghetti code.",
             "external_references": [
                 {
                     "url": "http://www.symantec.com/content/en/us/enterprise/media/security%20response/whitepapers/the-elderwood-project.pdf",
@@ -25,7 +25,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0203}} uses basic obfuscation in the form of spaghetti code.",
             "source_ref": "malware--73a4793a-ce55-4159-b2a6-208ef29b326f",
             "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--574c8280-7a5c-4aa6-b7a0-2b592dcb6e4c",
+    "id": "bundle--0302c031-545f-4a7d-94e0-283564190e83",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Variants of WEBC2 achieve persistence by using DLL search order hijacking, usually by copying the DLL file to <code>%SYSTEMROOT%</code> (<code>C:\\WINDOWS\\ntshrui.dll</code>).",
+            "description": "Variants of {{LinkById|S0109}} achieve persistence by using DLL search order hijacking, usually by copying the DLL file to <code>%SYSTEMROOT%</code> (<code>C:\\WINDOWS\\ntshrui.dll</code>).",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report-appendix.zip",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Variants of {{LinkById|S0109}} achieve persistence by using DLL search order hijacking, usually by copying the DLL file to <code>%SYSTEMROOT%</code> (<code>C:\\WINDOWS\\ntshrui.dll</code>).",
             "source_ref": "malware--1d808f62-cf63-4063-9727-ff6132514c22",
             "target_ref": "attack-pattern--46944654-fcc1-4f63-9dad-628102376586"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--97430bf9-2919-4f68-b2bb-98bff4db7c60",
+    "id": "bundle--1af9fe07-b78e-4dd4-8be3-c4ef1e732327",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,7 +27,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "In certain circumstances, such as an air-gapped network compromise, exfiltration could occur via a physical medium or device introduced by a user. Such media could be an external hard drive, USB drive, cellular phone, MP3 player, or other removable storage and processing device. The physical medium or device could be used as the final exfiltration point or to hop between otherwise disconnected systems.",
+            "x_mitre_detection": "Monitor file access on removable media. Detect processes that execute when removable media are mounted.",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",

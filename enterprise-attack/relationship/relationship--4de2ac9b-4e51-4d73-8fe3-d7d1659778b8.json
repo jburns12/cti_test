@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3ea9f0d0-267c-419b-9320-d9d3c7ef3a68",
+    "id": "bundle--ba0b6b61-ec57-4a39-8007-e0c5f7c6075d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.074Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Stealth Falcon malware gathers a list of running processes.",
+            "description": "{{LinkById|G0038}} malware gathers a list of running processes.",
             "external_references": [
                 {
                     "url": "https://citizenlab.org/2016/05/stealth-falcon/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0038}} malware gathers a list of running processes.",
             "source_ref": "intrusion-set--894aab42-3371-47b1-8859-a4a074c804c8",
             "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580"
         }

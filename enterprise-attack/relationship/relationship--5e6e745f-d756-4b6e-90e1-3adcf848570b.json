@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--46460dc1-5dab-4e9e-af43-bc5b249c2a02",
+    "id": "bundle--38c9f8d5-c6a3-445b-8b78-06105fb88891",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "If Shamoon cannot access shares using current privileges, it attempts access using hard coded, domain-specific credentials gathered earlier in the intrusion.",
+            "description": "If {{LinkById|S0140}} cannot access shares using current privileges, it attempts access using hard coded, domain-specific credentials gathered earlier in the intrusion.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2016/11/fireeye%20respondsto.html",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "If {{LinkById|S0140}} cannot access shares using current privileges, it attempts access using hard coded, domain-specific credentials gathered earlier in the intrusion.",
             "source_ref": "malware--8901ac23-6b50-410c-b0dd-d8174a86f9b3",
             "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81"
         }

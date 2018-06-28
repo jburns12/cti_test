@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e10761c2-1460-44d5-be94-c3eb63b8ca31",
+    "id": "bundle--abe4cd70-fb26-4f1d-baa2-9e8015058a27",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-18T15:59:03.864Z",
-            "description": "The Android/Chuli.A malicious application sent to activist groups used uploads to an http URL as a command and control mechanism.",
+            "description": "The {{LinkById|MOB-S0020}} malicious application sent to activist groups used uploads to an http URL as a command and control mechanism.",
             "external_references": [
                 {
                     "url": "https://securelist.com/blog/incidents/35552/android-trojan-found-in-targeted-attack-58/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "The {{LinkById|MOB-S0020}} malicious application sent to activist groups used uploads to an http URL as a command and control mechanism.",
             "source_ref": "malware--d05f7357-4cbe-47ea-bf83-b8604226d533",
             "target_ref": "attack-pattern--3911658a-6506-4deb-9ab4-595a51ae71ad"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fcd45d6c-f28b-45c2-8e77-8ad05230c71b",
+    "id": "bundle--f687629c-4a74-44ab-9f2d-0691fc103c0b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,7 +10,7 @@
             "created": "2017-10-25T14:48:51.942Z",
             "modified": "2018-06-18T15:59:03.864Z",
             "name": "Application Vetting",
-            "description": "Enterprises can vet applications for exploitable vulnerabilities or unwanted (privacy-invasive or malicious) behaviors. Enterprises can inspect applications themselves or use a third-party service.\n\nEnterprises may impose policies to only allow pre-approved applications to be installed on their devices or may impose policies to block use of specific applications known to have issues. In Bring Your Own Device (BYOD) environments, enterprises may only be able to impose these policies over an enterprise-managed portion of the device.\n\nApplication Vetting is not a complete mitigation. Techniques such as Detect App Analysis Environment exist that can enable adversaries to bypass vetting.",
+            "description": "Enterprises can vet applications for exploitable vulnerabilities or unwanted (privacy-invasive or malicious) behaviors. Enterprises can inspect applications themselves or use a third-party service.\n\nEnterprises may impose policies to only allow pre-approved applications to be installed on their devices or may impose policies to block use of specific applications known to have issues. In Bring Your Own Device (BYOD) environments, enterprises may only be able to impose these policies over an enterprise-managed portion of the device.\n\nApplication Vetting is not a complete mitigation. Techniques such as {{LinkById|MOB-T1043}} exist that can enable adversaries to bypass vetting.",
             "external_references": [
                 {
                     "external_id": "MOB-M1005",
@@ -20,8 +20,7 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "x_mitre_detection": "Enterprises can vet applications for exploitable vulnerabilities or unwanted (privacy-invasive or malicious) behaviors. Enterprises can inspect applications themselves or use a third-party service.\n\nEnterprises may impose policies to only allow pre-approved applications to be installed on their devices or may impose policies to block use of specific applications known to have issues. In Bring Your Own Device (BYOD) environments, enterprises may only be able to impose these policies over an enterprise-managed portion of the device.\n\nApplication Vetting is not a complete mitigation. Techniques such as {{LinkById|MOB-T1043}} exist that can enable adversaries to bypass vetting."
+            ]
         }
     ]
 }

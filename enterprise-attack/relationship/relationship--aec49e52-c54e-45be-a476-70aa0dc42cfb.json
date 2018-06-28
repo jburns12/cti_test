@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f0f56c2f-469d-4820-90ab-0a42cdddba7f",
+    "id": "bundle--8110f179-980a-4a41-9398-09d9b4122cf3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "BlackEnergy has used a plug-in to gather credentials stored in files on the host by various software programs, including The Bat! email client, Mozilla password manager, Google Chrome password manager, Outlook, Internet Explorer, and Windows Credential Store.",
+            "description": "{{LinkById|S0089}} has used a plug-in to gather credentials stored in files on the host by various software programs, including The Bat! email client, Mozilla password manager, Google Chrome password manager, Outlook, Internet Explorer, and Windows Credential Store.",
             "external_references": [
                 {
                     "url": "https://www.f-secure.com/documents/996508/1030745/blackenergy%20whitepaper.pdf",
@@ -25,7 +25,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0089}} has used a plug-in to gather credentials stored in files on the host by various software programs, including The Bat! email client, Mozilla password manager, Google Chrome password manager, Outlook, Internet Explorer, and Windows Credential Store.",
             "source_ref": "malware--54cc1d4f-5c53-4f0e-9ef5-11b4998e82e4",
             "target_ref": "attack-pattern--ba8e391f-14b5-496f-81f2-2d5ecd646c1c"
         }

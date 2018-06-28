@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d5a1551f-4202-4aed-8b03-dfc71c9b75e8",
+    "id": "bundle--b471468c-4e13-47dc-8873-9355ad4dbf06",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,7 +27,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Adversaries can perform command and control between compromised hosts on potentially disconnected networks using removable media to transfer commands from system to system. Both systems would need to be compromised, with the likelihood that an Internet-connected system was compromised first and the second through lateral movement by {{LinkById|T1091}}. Commands and files would be relayed from the disconnected system to the Internet-connected system to which the adversary has direct access.",
+            "x_mitre_detection": "Monitor file access on removable media. Detect processes that execute when removable media is mounted.",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",

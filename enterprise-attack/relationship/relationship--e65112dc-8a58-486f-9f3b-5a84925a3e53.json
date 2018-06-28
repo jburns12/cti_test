@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7a7e7d45-d120-4acc-8768-c8d6442d5420",
+    "id": "bundle--d1692229-bca4-4b46-a93a-39294a5e6794",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.049Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "APT29 used sticky-keys to obtain unauthenticated, privileged console access.",
+            "description": "{{LinkById|G0016}} used sticky-keys to obtain unauthenticated, privileged console access.",
             "external_references": [
                 {
                     "url": "http://www.slideshare.net/MatthewDunwoody1/no-easy-breach-derby-con-2016",
@@ -25,7 +25,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0016}} used sticky-keys to obtain unauthenticated, privileged console access.",
             "source_ref": "intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542",
             "target_ref": "attack-pattern--9b99b83a-1aac-4e29-b975-b374950551a3"
         }

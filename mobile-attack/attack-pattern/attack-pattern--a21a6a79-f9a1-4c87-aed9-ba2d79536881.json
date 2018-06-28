@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--af98f70e-cc76-4140-8218-75fb04e3d335",
+    "id": "bundle--38afd241-2e64-4aa2-836d-071c6f96a751",
     "spec_version": "2.0",
     "objects": [
         {
@@ -42,7 +42,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "An adversary could steal developer account credentials on an app store and/or signing keys to publish malicious updates to existing Android or iOS apps, or to abuse the developer's identity and reputation to publish new malicious applications. For example, Infoworld describes this technique and suggests mitigations in  (Citation: Infoworld-Appstore).",
+            "x_mitre_detection": "Developers can regularly scan (or have a third party scan on their behalf) the app stores for presence of unauthorized apps that were submitted using the developer's identity.",
             "x_mitre_platforms": [
                 "Android",
                 "iOS"

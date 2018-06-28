@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a078b67b-59ae-4e97-b155-f394897bc119",
+    "id": "bundle--5a5aa53b-a06f-4b70-b42b-5919c8092d49",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "PUNCHBUGGY can load a DLL using the LoadLibrary API.",
+            "description": "{{LinkById|S0196}} can load a DLL using the LoadLibrary API.",
             "external_references": [
                 {
                     "url": "https://www2.fireeye.com/WBNR-Know-Your-Enemy-UNC622-Spear-Phishing.html",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0196}} can load a DLL using the LoadLibrary API.",
             "source_ref": "malware--5c6ed2dc-37f4-40ea-b2e1-4c76140a388c",
             "target_ref": "attack-pattern--0a5231ec-41af-4a35-83d0-6bdf11f28c65"
         }

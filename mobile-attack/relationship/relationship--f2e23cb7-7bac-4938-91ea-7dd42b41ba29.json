@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e4503d09-62f6-4154-b77e-aaaccd25198d",
+    "id": "bundle--21b0a2fa-2dce-4a3b-88a8-0f720e15faf6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-18T15:59:03.864Z",
-            "description": "ANDROIDOS_ANSERVER.A uses encrypted content within a blog site for part of its command and control. Specifically, the encrypted content contains URLs for other servers to be used for other aspects of command and control.",
+            "description": "{{LinkById|MOB-S0026}} uses encrypted content within a blog site for part of its command and control. Specifically, the encrypted content contains URLs for other servers to be used for other aspects of command and control.",
             "external_references": [
                 {
                     "url": "http://blog.trendmicro.com/trendlabs-security-intelligence/android-malware-uses-blog-posts-as-cc/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|MOB-S0026}} uses encrypted content within a blog site for part of its command and control. Specifically, the encrypted content contains URLs for other servers to be used for other aspects of command and control.",
             "source_ref": "malware--4bf6ba32-4165-42c1-b911-9c36165891c8",
             "target_ref": "attack-pattern--6a3f6490-9c44-40de-b059-e5940f246673"
         }

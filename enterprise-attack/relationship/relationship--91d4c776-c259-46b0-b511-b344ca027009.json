@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b671c94a-a76d-4fcf-aa62-cf9a89846515",
+    "id": "bundle--f9f902b9-4a90-4dbe-a737-15234044179e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "The payload of CozyCar is encrypted with simple XOR with a rotating key. The CozyCar configuration file has been encrypted with RC4 keys.",
+            "description": "The payload of {{LinkById|S0046}} is encrypted with simple XOR with a rotating key. The {{LinkById|S0046}} configuration file has been encrypted with RC4 keys.",
             "external_references": [
                 {
                     "url": "https://www.f-secure.com/documents/996508/1030745/CozyDuke",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "The payload of {{LinkById|S0046}} is encrypted with simple XOR with a rotating key. The {{LinkById|S0046}} configuration file has been encrypted with RC4 keys.",
             "source_ref": "malware--e6ef745b-077f-42e1-a37d-29eecff9c754",
             "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9469dc70-f28a-443f-867c-5c58f239879c",
+    "id": "bundle--0c3169ec-c01d-490e-b879-d2879e7d6d81",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Some Reaver variants use HTTP for C2.",
+            "description": "Some {{LinkById|S0172}} variants use HTTP for C2.",
             "external_references": [
                 {
                     "url": "https://researchcenter.paloaltonetworks.com/2017/11/unit42-new-malware-with-ties-to-sunorcal-discovered/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Some {{LinkById|S0172}} variants use HTTP for C2.",
             "source_ref": "malware--65341f30-bec6-4b1d-8abf-1a5620446c29",
             "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6"
         }

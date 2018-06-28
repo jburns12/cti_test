@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d7b30ae3-d1d0-43e5-94d1-97670a6c4dbf",
+    "id": "bundle--90157f29-069d-4abc-850f-61f855e881ec",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Leviathan uses a backdoor known as BADFLICK that is is capable of generating a reverse shell.",
+            "description": "{{LinkById|G0065}} uses a backdoor known as BADFLICK that is is capable of generating a reverse shell.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2018/03/suspected-chinese-espionage-group-targeting-maritime-and-engineering-industries.html",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0065}} uses a backdoor known as BADFLICK that is is capable of generating a reverse shell.",
             "source_ref": "intrusion-set--7113eaa5-ba79-4fb3-b68a-398ee9cd698e",
             "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830"
         }

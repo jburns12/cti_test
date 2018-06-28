@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6945ee9f-2713-4756-a16a-78ff96f1e021",
+    "id": "bundle--26518fcc-5f8b-4860-a5c2-3f1a12bd6ac7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "OilRig has used compromised credentials to access other systems on a victim network.",
+            "description": "{{LinkById|G0049}} has used compromised credentials to access other systems on a victim network.",
             "external_references": [
                 {
                     "url": "https://pan-unit42.github.io/playbook%20viewer/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0049}} has used compromised credentials to access other systems on a victim network.",
             "source_ref": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",
             "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81"
         }

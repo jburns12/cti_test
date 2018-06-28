@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d34dda24-f324-46b3-b6da-5389ed77f2cb",
+    "id": "bundle--807022a9-b1cd-42cf-95ba-0c5b11a34ebe",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "certutil has been used to decode binaries hidden inside certificate files as Base64 information.",
+            "description": "{{LinkById|S0160}} has been used to decode binaries hidden inside certificate files as Base64 information.",
             "external_references": [
                 {
                     "url": "https://blog.malwarebytes.com/cybercrime/social-engineering-cybercrime/2017/03/new-targeted-attack-saudi-arabia-government/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0160}} has been used to decode binaries hidden inside certificate files as Base64 information.",
             "source_ref": "tool--0a68f1f1-da74-4d28-8d9a-696c082706cc",
             "target_ref": "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c"
         }

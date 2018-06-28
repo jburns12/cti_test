@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--63e8df09-2b79-45b0-8a53-da25545afe58",
+    "id": "bundle--7054b4f2-ce82-4751-a2d2-65980929757d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "USBStealer has several commands to delete files associated with the malware from the victim.",
+            "description": "{{LinkById|S0136}} has several commands to delete files associated with the malware from the victim.",
             "external_references": [
                 {
                     "url": "http://www.welivesecurity.com/2014/11/11/sednit-espionage-group-attacking-air-gapped-networks/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0136}} has several commands to delete files associated with the malware from the victim.",
             "source_ref": "malware--af2ad3b7-ab6a-4807-91fd-51bcaff9acbb",
             "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59"
         }

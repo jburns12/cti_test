@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--49fad54c-70e8-4643-a98f-195dd4b89d8d",
+    "id": "bundle--76d93228-d902-4779-9cd7-07dd469baa70",
     "spec_version": "2.0",
     "objects": [
         {
@@ -46,7 +46,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "If an adversary can escalate privileges, he or she may be able to use those privileges to place malicious code in the device's Trusted Execution Environment (TEE) or other similar isolated execution environment where the code can evade detection, may persist after device resets, and may not be removable by the device user. Running code within the TEE may provide an adversary with the ability to monitor or tamper with overall device behavior.\n\nThomas Roth describes the potential for placing a rootkit within the TrustZone secure world (Citation: Roth-Rootkits).",
+            "x_mitre_detection": "Devices may perform cryptographic integrity checks of code running within the TEE at boot time.\n\nAs described in the iOS Security Guide (Citation: Apple-iOSSecurityGuide), iOS devices will fail to boot if the software running within the Secure Enclave does not pass signature verification.",
             "x_mitre_platforms": [
                 "Android"
             ]

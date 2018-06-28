@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e2e5da52-9c0d-438c-b1e4-8d1e47596fa0",
+    "id": "bundle--140b8244-8812-43fe-8af5-5846d852ce87",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-18T15:59:03.864Z",
-            "description": "AndroidOverlayMalware involved \"three campaigns in Europe\" that \"used view overlay techniques...to present nearly identical credential input UIs as seen in benign apps, subsequently tricking unwary users into providing their banking credentials.\"",
+            "description": "{{LinkById|MOB-S0012}} involved \"three campaigns in Europe\" that \"used view overlay techniques...to present nearly identical credential input UIs as seen in benign apps, subsequently tricking unwary users into providing their banking credentials.\"",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2016/06/latest-android-overlay-malware-spreading-in-europe.html",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|MOB-S0012}} involved \"three campaigns in Europe\" that \"used view overlay techniques...to present nearly identical credential input UIs as seen in benign apps, subsequently tricking unwary users into providing their banking credentials.\"",
             "source_ref": "malware--b6d3657a-2d6a-400f-8b7e-4d60391aa1f7",
             "target_ref": "attack-pattern--3dd58c80-4c2e-458c-9503-1b2cd273c4d2"
         }

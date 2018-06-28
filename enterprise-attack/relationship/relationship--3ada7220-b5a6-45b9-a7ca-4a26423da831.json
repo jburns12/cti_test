@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--652ab6fb-f3c6-4084-8ed1-34dd1284d79e",
+    "id": "bundle--4732f04b-a566-4afd-8d25-a9c11471831c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "hcdLoader provides command-line access to the compromised system.",
+            "description": "{{LinkById|S0071}} provides command-line access to the compromised system.",
             "external_references": [
                 {
                     "url": "http://www.secureworks.com/resources/blog/where-you-at-indicators-of-lateral-movement-using-at-exe-on-windows-7-systems/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0071}} provides command-line access to the compromised system.",
             "source_ref": "malware--9e2bba94-950b-4fcf-8070-cb3f816c5f4e",
             "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830"
         }

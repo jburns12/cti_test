@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e9000bce-3865-4bec-ab2b-dacb1feef3d8",
+    "id": "bundle--b706e2b2-fe11-4fc1-a1dd-ef0b5f7a1ff8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "HTTPBrowser's installer contains a malicious file named navlu.dll to decrypt and run the RAT. navlu.dll is also the name of a legitimate Symantec DLL.",
+            "description": "{{LinkById|S0070}}'s installer contains a malicious file named navlu.dll to decrypt and run the RAT. navlu.dll is also the name of a legitimate Symantec DLL.",
             "external_references": [
                 {
                     "url": "http://research.zscaler.com/2015/08/chinese-cyber-espionage-apt-group.html",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0070}}'s installer contains a malicious file named navlu.dll to decrypt and run the RAT. navlu.dll is also the name of a legitimate Symantec DLL.",
             "source_ref": "malware--e066bf86-9cfb-407a-9d25-26fd5d91e360",
             "target_ref": "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0"
         }

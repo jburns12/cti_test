@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fc321cb4-68b3-4700-a9aa-78e4c5a6e9ed",
+    "id": "bundle--23457230-8a12-4503-a1ce-3dc98bf9ad74",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-18T15:59:03.864Z",
-            "description": "RCSAndroid can \"[c]ollect SMS, MMS, and Gmail messages\".",
+            "description": "{{LinkById|MOB-S0011}} can \"[c]ollect SMS, MMS, and Gmail messages\".",
             "external_references": [
                 {
                     "url": "https://github.com/hackedteam/core-android/tree/master/RCSAndroid",
@@ -25,7 +25,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|MOB-S0011}} can \"[c]ollect SMS, MMS, and Gmail messages\".",
             "source_ref": "malware--363bc05d-13cb-4e98-a5b7-e250f2bbdc2b",
             "target_ref": "attack-pattern--e8b4e1ec-8e3b-484c-9038-4459b1ed8060"
         }

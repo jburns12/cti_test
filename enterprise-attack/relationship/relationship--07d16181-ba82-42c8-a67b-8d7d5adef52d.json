@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2b434803-4bb0-4c47-b7f9-103121e6391a",
+    "id": "bundle--53058f29-686d-4840-ac87-a6e83f5fc685",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Flame can record audio using any existing hardware recording devices.",
+            "description": "{{LinkById|S0143}} can record audio using any existing hardware recording devices.",
             "external_references": [
                 {
                     "url": "https://securelist.com/the-flame-questions-and-answers-51/34344/",
@@ -25,7 +25,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0143}} can record audio using any existing hardware recording devices.",
             "source_ref": "malware--ff6840c9-4c87-4d07-bbb6-9f50aa33d498",
             "target_ref": "attack-pattern--1035cdf2-3e5f-446f-a7a7-e8f6d7925967"
         }

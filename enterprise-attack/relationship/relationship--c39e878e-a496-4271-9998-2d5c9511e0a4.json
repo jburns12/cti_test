@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--54ba8186-8606-4fd5-82cc-669630b51fb6",
+    "id": "bundle--221b45f5-1f7f-4604-96b5-19dba37759f7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Kasidet has the ability to download and execute additional files.",
+            "description": "{{LinkById|S0088}} has the ability to download and execute additional files.",
             "external_references": [
                 {
                     "url": "http://research.zscaler.com/2016/01/malicious-office-files-dropping-kasidet.html",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0088}} has the ability to download and execute additional files.",
             "source_ref": "malware--26fed817-e7bf-41f9-829a-9075ffac45c2",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add"
         }

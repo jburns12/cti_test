@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--da2dd187-3531-4bdb-a202-8f1ab6e78c40",
+    "id": "bundle--f5456c48-f461-4de9-b7da-2f6aa78de0e7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Elise exfiltrates data using cookie values that are Base64-encoded.",
+            "description": "{{LinkById|S0081}} exfiltrates data using cookie values that are Base64-encoded.",
             "external_references": [
                 {
                     "url": "https://www.paloaltonetworks.com/resources/research/unit42-operation-lotus-blossom.html",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0081}} exfiltrates data using cookie values that are Base64-encoded.",
             "source_ref": "malware--7551188b-8f91-4d34-8350-0d0c57b2b913",
             "target_ref": "attack-pattern--cc7b8c4e-9be0-47ca-b0bb-83915ec3ee2f"
         }

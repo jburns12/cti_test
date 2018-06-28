@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1f2a7651-d176-4749-9bdb-0ce0630ad323",
+    "id": "bundle--05c6c6c4-2ebe-44f0-96eb-f7b5fc5820e6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.070Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "After compromising a victim, Poseidon Group lists all running processes.",
+            "description": "After compromising a victim, {{LinkById|G0033}} lists all running processes.",
             "external_references": [
                 {
                     "url": "https://securelist.com/poseidon-group-a-targeted-attack-boutique-specializing-in-global-cyber-espionage/73673/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "After compromising a victim, {{LinkById|G0033}} lists all running processes.",
             "source_ref": "intrusion-set--7ecc3b4f-5cdb-457e-b55a-df376b359446",
             "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580"
         }

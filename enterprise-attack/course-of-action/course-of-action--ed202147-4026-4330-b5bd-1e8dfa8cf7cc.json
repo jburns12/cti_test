@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--679a0ba1-f60c-4669-825d-c97e9ebab0b0",
+    "id": "bundle--2a4ff467-04b8-4500-a7ec-4acbdc037f0a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,7 +10,7 @@
             "created": "2018-06-27T14:18:47.700Z",
             "modified": "2018-06-27T14:18:47.700Z",
             "name": "Modify Registry Mitigation",
-            "description": "Misconfiguration of permissions in the Registry may lead to opportunities for an adversary to execute code, like through Service Registry Permissions Weakness Mitigation. Ensure proper permissions are set for Registry hives to prevent users from modifying keys for system components that may lead to privilege escalation.\n\nIdentify and block unnecessary system utilities or potentially malicious software that may be used to modify the Registry by using whitelisting (Citation: Beechey 2010) tools like AppLocker (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
+            "description": "Misconfiguration of permissions in the Registry may lead to opportunities for an adversary to execute code, like through {{LinkById|T1058}}. Ensure proper permissions are set for Registry hives to prevent users from modifying keys for system components that may lead to privilege escalation.\n\nIdentify and block unnecessary system utilities or potentially malicious software that may be used to modify the Registry by using whitelisting (Citation: Beechey 2010) tools like AppLocker (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
             "external_references": [
                 {
                     "external_id": "T1112",
@@ -42,8 +42,7 @@
                     "description": "Microsoft. (2012, June 27). Using Software Restriction Policies and AppLocker Policies. Retrieved April 7, 2016.",
                     "source_name": "TechNet Applocker vs SRP"
                 }
-            ],
-            "x_mitre_detection": "Misconfiguration of permissions in the Registry may lead to opportunities for an adversary to execute code, like through {{LinkById|T1058}}. Ensure proper permissions are set for Registry hives to prevent users from modifying keys for system components that may lead to privilege escalation.\n\nIdentify and block unnecessary system utilities or potentially malicious software that may be used to modify the Registry by using whitelisting (Citation: Beechey 2010) tools like AppLocker (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)"
+            ]
         }
     ]
 }

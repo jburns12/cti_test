@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8ae1f689-aba6-44c7-b417-acda7dae66bb",
+    "id": "bundle--379b24ee-03d4-4b73-8d84-d6deb9d0c119",
     "spec_version": "2.0",
     "objects": [
         {
@@ -40,7 +40,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Launchctl controls the macOS launchd process which handles things like launch agents and launch daemons, but can execute other commands or programs itself. Launchctl supports taking subcommands on the command-line, interactively, or even redirected from standard input. By loading or reloading launch agents or launch daemons, adversaries can install persistence or execute changes they made  (Citation: Sofacy Komplex Trojan). Running a command from launchctl is as simple as <code>launchctl submit -l <labelName> -- /Path/to/thing/to/execute \"arg\" \"arg\" \"arg\"</code>. Loading, unloading, or reloading launch agents or launch daemons can require elevated privileges. \n\nAdversaries can abuse this functionality to execute code or even bypass whitelisting if launchctl is an allowed process.",
+            "x_mitre_detection": "Knock Knock can be used to detect persistent programs such as those installed via launchctl as launch agents or launch daemons. Additionally, every launch agent or launch daemon must have a corresponding plist file on disk somewhere which can be monitored. Monitor process execution from launchctl/launchd for unusual or unknown processes.",
             "x_mitre_platforms": [
                 "macOS"
             ],

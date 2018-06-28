@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bcf931a3-f8ee-4d7d-8446-f8fd5866389d",
+    "id": "bundle--9504361c-e33f-44db-a6a9-a1facb82c79e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "FIN5 has used legitimate VPN, RDP, Citrix, or VNC credentials to maintain access to a victim environment.",
+            "description": "{{LinkById|G0053}} has used legitimate VPN, RDP, Citrix, or VNC credentials to maintain access to a victim environment.",
             "external_references": [
                 {
                     "url": "https://www2.fireeye.com/WBNR-Are-you-ready-to-respond.html",
@@ -30,7 +30,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0053}} has used legitimate VPN, RDP, Citrix, or VNC credentials to maintain access to a victim environment.",
             "source_ref": "intrusion-set--85403903-15e0-4f9f-9be4-a259ecad4022",
             "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81"
         }

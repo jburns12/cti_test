@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--68cde3ea-68ce-46d3-9fa6-852ee52f326a",
+    "id": "bundle--85352a42-a89d-43fe-9cb6-06bba0aefd57",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "cmd can be used to find files and directories with native functionality such as <code>dir</code> commands.",
+            "description": "{{LinkById|S0106}} can be used to find files and directories with native functionality such as <code>dir</code> commands.",
             "external_references": [
                 {
                     "url": "https://technet.microsoft.com/en-us/library/cc755121.aspx",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0106}} can be used to find files and directories with native functionality such as <code>dir</code> commands.",
             "source_ref": "tool--bba595da-b73a-4354-aa6c-224d4de7cb4e",
             "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18"
         }

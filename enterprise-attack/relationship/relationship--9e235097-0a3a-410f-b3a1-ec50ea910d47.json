@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e8d2fa5b-5d79-4722-b702-26158a65560f",
+    "id": "bundle--31c7e4ad-16b9-497b-8d40-ce974f1da7be",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Forfiles can be used to locate certain types of files/directories in a system.(ex: locate all files with a specific extension, name, and/or age)",
+            "description": "{{LinkById|S0193}} can be used to locate certain types of files/directories in a system.(ex: locate all files with a specific extension, name, and/or age)",
             "external_references": [
                 {
                     "url": "https://netzpolitik.org/2015/digital-attack-on-german-parliament-investigative-report-on-the-hack-of-the-left-party-infrastructure-in-bundestag/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0193}} can be used to locate certain types of files/directories in a system.(ex: locate all files with a specific extension, name, and/or age)",
             "source_ref": "tool--90ec2b22-7061-4469-b539-0989ec4f96c2",
             "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18"
         }

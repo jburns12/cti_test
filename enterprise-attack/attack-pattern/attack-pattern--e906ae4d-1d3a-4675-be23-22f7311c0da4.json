@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2f2bb356-9eec-44bd-89bd-072e1fdc8dbd",
+    "id": "bundle--7ab96ced-e18c-4d49-8142-4fd4374bb244",
     "spec_version": "2.0",
     "objects": [
         {
@@ -47,7 +47,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Windows Management Instrumentation (WMI) can be used to install event filters, providers, consumers, and bindings that execute code when a defined event occurs. Adversaries may use the capabilities of WMI to subscribe to an event and execute arbitrary code when that event occurs, providing persistence on a system. Adversaries may attempt to evade detection of this technique by compiling WMI scripts. (Citation: Dell WMI Persistence) Examples of events that may be subscribed to are the wall clock time or the computer's uptime. (Citation: Kazanciyan 2014) Several threat groups have reportedly used this technique to maintain persistence. (Citation: Mandiant M-Trends 2015)",
+            "x_mitre_detection": "Monitor WMI event subscription entries, comparing current WMI event subscriptions to known good subscriptions for each host. Tools such as Sysinternals Autoruns may also be used to detect WMI changes that could be attempts at persistence. (Citation: TechNet Autoruns)",
             "x_mitre_platforms": [
                 "Windows"
             ],

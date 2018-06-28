@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--342854e1-9f60-4309-8e57-be8b2a90f777",
+    "id": "bundle--369f0f69-d0ef-47c4-abb2-7a139728a963",
     "spec_version": "2.0",
     "objects": [
         {
@@ -17,8 +17,7 @@
                     "url": "https://attack.mitre.org/wiki/Technique/T1166",
                     "source_name": "mitre-attack"
                 }
-            ],
-            "x_mitre_detection": "Applications with known vulnerabilities or known shell escapes should not have the setuid or setgid bits set to reduce potential damage if an application is compromised."
+            ]
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d5710ad5-fc65-46d4-b261-0a07c9ea5a26",
+    "id": "bundle--b2bcdf48-b28c-45e4-a745-8e3246d1c9b4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Gazer can execute a task to download a file.",
+            "description": "{{LinkById|S0168}} can execute a task to download a file.",
             "external_references": [
                 {
                     "url": "https://www.welivesecurity.com/wp-content/uploads/2017/08/eset-gazer.pdf",
@@ -25,7 +25,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0168}} can execute a task to download a file.",
             "source_ref": "malware--76abb3ef-dafd-4762-97cb-a35379429db4",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add"
         }

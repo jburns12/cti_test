@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c2fe88ea-89c5-4173-ab5d-8321d1b3acd2",
+    "id": "bundle--5cc56001-a18d-4a4a-87b1-41b44d98ba75",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "JHUHUGIT has exploited CVE-2015-1701 and CVE-2015-2387 to escalate privileges.",
+            "description": "{{LinkById|S0044}} has exploited CVE-2015-1701 and CVE-2015-2387 to escalate privileges.",
             "external_references": [
                 {
                     "url": "http://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part1.pdf",
@@ -25,7 +25,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0044}} has exploited CVE-2015-1701 and CVE-2015-2387 to escalate privileges.",
             "source_ref": "malware--8ae43c46-57ef-47d5-a77a-eebb35628db2",
             "target_ref": "attack-pattern--b21c3b2d-02e6-45b1-980b-e69051040839"
         }

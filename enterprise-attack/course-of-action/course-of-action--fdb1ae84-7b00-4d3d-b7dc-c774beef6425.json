@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--83db294d-7bca-4b29-bf7e-1adaf1c32158",
+    "id": "bundle--dd7616fb-3799-4d26-8b5d-2b07910445fb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,15 +10,14 @@
             "created": "2018-06-27T14:18:47.700Z",
             "modified": "2018-06-27T14:18:47.700Z",
             "name": "Account Manipulation Mitigation",
-            "description": "Use multifactor authentication. Follow guidelines to prevent or limit adversary access to Valid Accounts Mitigation.\n\nProtect domain controllers by ensuring proper security configuration for critical servers. Configure access controls and firewalls to limit access to these systems. Do not allow domain administrator accounts to be used for day-to-day operations that may expose them to potential adversaries on unprivileged systems.",
+            "description": "Use multifactor authentication. Follow guidelines to prevent or limit adversary access to {{LinkById|T1078}}.\n\nProtect domain controllers by ensuring proper security configuration for critical servers. Configure access controls and firewalls to limit access to these systems. Do not allow domain administrator accounts to be used for day-to-day operations that may expose them to potential adversaries on unprivileged systems.",
             "external_references": [
                 {
                     "external_id": "T1098",
                     "url": "https://attack.mitre.org/wiki/Technique/T1098",
                     "source_name": "mitre-attack"
                 }
-            ],
-            "x_mitre_detection": "Use multifactor authentication. Follow guidelines to prevent or limit adversary access to {{LinkById|T1078}}.\n\nProtect domain controllers by ensuring proper security configuration for critical servers. Configure access controls and firewalls to limit access to these systems. Do not allow domain administrator accounts to be used for day-to-day operations that may expose them to potential adversaries on unprivileged systems."
+            ]
         }
     ]
 }

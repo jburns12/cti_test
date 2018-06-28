@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f3b27634-c07c-4003-ad33-473673a8c7ac",
+    "id": "bundle--3cb365bc-0aa5-46f9-b08f-8e75645b5acc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "FIN10 has deployed Meterpreter stagers and SplinterRAT instances in the victim network after moving laterally.",
+            "description": "{{LinkById|G0051}} has deployed Meterpreter stagers and SplinterRAT instances in the victim network after moving laterally.",
             "external_references": [
                 {
                     "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin10.pdf",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0051}} has deployed Meterpreter stagers and SplinterRAT instances in the victim network after moving laterally.",
             "source_ref": "intrusion-set--fbe9387f-34e6-4828-ac28-3080020c597b",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add"
         }

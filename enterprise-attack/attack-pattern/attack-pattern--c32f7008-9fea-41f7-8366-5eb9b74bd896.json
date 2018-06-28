@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4d6dd4a1-8c3d-4b81-b29a-fbd2adfe0109",
+    "id": "bundle--591a7731-1e33-4fbb-aeac-67dbaa3f2f27",
     "spec_version": "2.0",
     "objects": [
         {
@@ -32,7 +32,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Adversaries may interact with the Windows Registry to gather information about the system, configuration, and installed software.\n\nThe Registry contains a significant amount of information about the operating system, configuration, software, and security. (Citation: Wikipedia Windows Registry) Some of the information may help adversaries to further their operation within a network.",
+            "x_mitre_detection": "System and network discovery techniques normally occur throughout an operation as an adversary learns the environment. Data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities, such as Lateral Movement, based on the information obtained.\n\nInteraction with the Windows Registry may come from the command line using utilities such as Reg or through running malware that may interact with the Registry through an API. Command-line invocation of utilities used to query the Registry may be detected through process and command-line monitoring. Remote access tools with built-in features may interact directly with the Windows API to gather information. Information may also be acquired through Windows system management tools such as Windows Management Instrumentation Mitigation and PowerShell Mitigation.",
             "x_mitre_platforms": [
                 "Windows"
             ],

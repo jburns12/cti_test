@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d7652239-f3c0-4e91-8fdd-560f6a963747",
+    "id": "bundle--64051031-45e4-4747-8830-5e3966d2d96b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "FIN8's malicious spearphishing payloads use WMI to launch malware and spawn cmd.exe execution. FIN8 has also used WMIC during and post compromise cleanup activities.",
+            "description": "{{LinkById|G0061}}'s malicious spearphishing payloads use WMI to launch malware and spawn cmd.exe execution. {{LinkById|G0061}} has also used WMIC during and post compromise cleanup activities.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/06/obfuscation-in-the-wild.html",
@@ -25,7 +25,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0061}}'s malicious spearphishing payloads use WMI to launch malware and spawn cmd.exe execution. {{LinkById|G0061}} has also used WMIC during and post compromise cleanup activities.",
             "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
             "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055"
         }

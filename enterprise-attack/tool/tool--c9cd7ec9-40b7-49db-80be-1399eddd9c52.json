@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b4d0fabb-8919-4889-b293-60d2c5fcbb2d",
+    "id": "bundle--83665a2e-c4c2-4483-971e-8af32cf659d7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,7 +10,7 @@
             "created": "2017-05-31T21:33:10.197Z",
             "modified": "2018-06-27T14:18:47.700Z",
             "name": "Cachedump",
-            "description": "Cachedump is a publicly-available tool that program extracts cached password hashes from a system\u2019s registry. (Citation: Mandiant APT1)",
+            "description": "{{LinkById|S0119}} is a publicly-available tool that program extracts cached password hashes from a system\u2019s registry. (Citation: Mandiant APT1)",
             "labels": [
                 "tool"
             ],
@@ -29,7 +29,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0119}} is a publicly-available tool that program extracts cached password hashes from a system\u2019s registry. (Citation: Mandiant APT1)",
             "x_mitre_platforms": [
                 "Windows"
             ],

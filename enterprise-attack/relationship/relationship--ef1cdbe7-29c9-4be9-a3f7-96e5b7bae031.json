@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8ee9b586-0ae3-4a2e-b9c9-ddbcbf079590",
+    "id": "bundle--22ac25a5-2da4-4bd7-b97a-959f86fa3c1c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T21:43:14.128Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "APT3 has been known to pack their tools.",
+            "description": "{{LinkById|G0022}} has been known to pack their tools.",
             "external_references": [
                 {
                     "url": "https://attack.mitre.org/w/img%20auth.php/6/6c/APT3%20Adversary%20Emulation%20Plan.pdf",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0022}} has been known to pack their tools.",
             "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
             "target_ref": "attack-pattern--6ff403bc-93e3-48be-8687-e102fdba8c88"
         }

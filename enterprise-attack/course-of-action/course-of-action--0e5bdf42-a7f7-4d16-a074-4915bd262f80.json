@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--48c4cb81-8a70-4ce7-918f-c6e0e36a31e6",
+    "id": "bundle--d08ed068-6d81-4466-be51-8602ce5b2f5c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,8 +27,7 @@
                     "description": "Gardiner, J.,  Cova, M., Nagaraja, S. (2014, February). Command & Control Understanding, Denying and Detecting. Retrieved April 20, 2016.",
                     "source_name": "University of Birmingham C2"
                 }
-            ],
-            "x_mitre_detection": "Follow best practices for network firewall configurations to allow only necessary ports and traffic to enter and exit the network. For example, if services like FTP are not required for sending information outside of a network, then block FTP-related ports at the network perimeter. Enforce proxies and use dedicated servers for services such as DNS and only allow those systems to communicate over respective ports/protocols, instead of all systems within a network. (Citation: TechNet Firewall Design) These actions will help reduce command and control and exfiltration path opportunities.\n\nNetwork intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary command and control infrastructure and malware can be used to mitigate activity at the network level. Signatures are often for unique indicators within protocols and may be based on the specific obfuscation technique used by a particular adversary or tool, and will likely be different across various malware families and versions. Adversaries will likely change tool command and control signatures over time or construct protocols in such a way to avoid detection by common defensive tools. (Citation: University of Birmingham C2)"
+            ]
         }
     ]
 }

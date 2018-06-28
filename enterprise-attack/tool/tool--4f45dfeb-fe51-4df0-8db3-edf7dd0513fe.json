@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--74c26ec8-570c-4669-900f-d5509cefdb8b",
+    "id": "bundle--752b157a-0307-4bb5-b58c-6649e9872e2c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,7 +10,7 @@
             "created": "2017-05-31T21:33:10.569Z",
             "modified": "2018-06-27T14:18:47.700Z",
             "name": "Fgdump",
-            "description": "Fgdump is a Windows password hash dumper. (Citation: Mandiant APT1)",
+            "description": "{{LinkById|S0120}} is a Windows password hash dumper. (Citation: Mandiant APT1)",
             "labels": [
                 "tool"
             ],
@@ -29,7 +29,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0120}} is a Windows password hash dumper. (Citation: Mandiant APT1)",
             "x_mitre_platforms": [
                 "Windows"
             ],

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--46e0329b-76c4-4087-b5f8-5c4662c09b07",
+    "id": "bundle--ef0f4267-0c1b-44e1-af8a-f633587e7b06",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "HAMMERTOSS exfiltrates data by uploading it to accounts created by the actors on Web cloud storage providers for the adversaries to retrieve later.",
+            "description": "{{LinkById|S0037}} exfiltrates data by uploading it to accounts created by the actors on Web cloud storage providers for the adversaries to retrieve later.",
             "external_references": [
                 {
                     "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0037}} exfiltrates data by uploading it to accounts created by the actors on Web cloud storage providers for the adversaries to retrieve later.",
             "source_ref": "malware--2daa14d6-cbf3-4308-bb8e-213c324a08e4",
             "target_ref": "attack-pattern--a19e86f8-1c0a-4fea-8407-23b73d615776"
         }

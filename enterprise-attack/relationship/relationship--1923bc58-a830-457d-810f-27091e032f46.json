@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3c802060-7b9d-424a-b8f1-2a7da91972ff",
+    "id": "bundle--9d04cb97-8046-4fcd-95dc-9d19bbd080da",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "MuddyWater has used Mshta.exe to execute its POWERSTATS payload.",
+            "description": "{{LinkById|G0069}} has used Mshta.exe to execute its {{LinkById|S0223}} payload.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2018/03/iranian-threat-group-updates-ttps-in-spear-phishing-campaign.html",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0069}} has used Mshta.exe to execute its {{LinkById|S0223}} payload.",
             "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
             "target_ref": "attack-pattern--a127c32c-cbb0-4f9d-be07-881a792408ec"
         }

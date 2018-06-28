@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--855b4d77-64f1-4edd-84c8-01ace448eba9",
+    "id": "bundle--5d70a524-921c-447f-84d1-a4197623d157",
     "spec_version": "2.0",
     "objects": [
         {
@@ -32,7 +32,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Adversaries may communicate using a custom command and control protocol instead of using existing {{LinkById|T1071}} to encapsulate commands. Implementations could mimic well-known protocols.",
+            "x_mitre_detection": "Analyze network data for uncommon data flows (e.g., a client sending significantly more data than it receives from a server). Processes utilizing the network that do not normally have network communication or have never been seen before are suspicious. Analyze packet contents to detect communications that do not follow the expected protocol behavior for the port that is being used. (Citation: University of Birmingham C2)",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",

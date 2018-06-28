@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cf96f55d-c3d2-454c-9655-3cd74f45a5a6",
+    "id": "bundle--2ff4002c-75b4-4517-b29c-5dc3d509ad9e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,7 +10,7 @@
             "created": "2017-05-31T21:32:12.684Z",
             "modified": "2018-06-27T14:18:47.700Z",
             "name": "Windows Credential Editor",
-            "description": "Windows Credential Editor is a password dumping tool. (Citation: Amplia WCE)",
+            "description": "{{LinkById|S0005}} is a password dumping tool. (Citation: Amplia WCE)",
             "labels": [
                 "tool"
             ],
@@ -29,7 +29,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0005}} is a password dumping tool. (Citation: Amplia WCE)",
             "x_mitre_platforms": [
                 "Windows"
             ],

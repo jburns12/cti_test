@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e633de7c-a497-4f87-88ca-f3c1cb529d60",
+    "id": "bundle--ed1340ea-107e-4246-a2be-1adef31773d4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Remsec can perform DLL injection.",
+            "description": "{{LinkById|S0125}} can perform DLL injection.",
             "external_references": [
                 {
                     "url": "https://securelist.com/files/2016/07/The-ProjectSauron-APT%20Technical%20Analysis%20KL.pdf",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0125}} can perform DLL injection.",
             "source_ref": "malware--69d6f4a9-fcf0-4f51-bca7-597c51ad0bb8",
             "target_ref": "attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d"
         }

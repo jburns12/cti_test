@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d7761c50-38ee-47ed-a103-d80f1aa0233d",
+    "id": "bundle--0ac7ed56-928b-4fef-9e96-d4e913c65169",
     "spec_version": "2.0",
     "objects": [
         {
@@ -67,7 +67,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Windows Distributed Component Object Model (DCOM) is transparent middleware that extends the functionality of Component Object Model (COM) (Citation: Microsoft COM) beyond a local computer using remote procedure call (RPC) technology. COM is a component of the Windows application programming interface (API) that enables interaction between software objects. Through COM, a client object can call methods of server objects, which are typically Dynamic Link Libraries (DLL) or executables (EXE).\n\nPermissions to interact with local and remote server COM objects are specified by access control lists (ACL) in the Registry. (Citation: Microsoft COM) ACL (Citation: Microsoft Process Wide Com Keys) (Citation: Microsoft System Wide Com Keys) By default, only Administrators may remotely activate and launch COM objects through DCOM.\n\nAdversaries may use DCOM for lateral movement. Through DCOM, adversaries operating in the context of an appropriately privileged user can remotely obtain arbitrary and even direct shellcode execution through Office applications (Citation: Enigma Outlook DCOM Lateral Movement Nov 2017) as well as other Windows objects that contain insecure methods. (Citation: Enigma MMC20 COM Jan 2017) (Citation: Enigma DCOM Lateral Movement Jan 2017) DCOM can also execute macros in existing documents (Citation: Enigma Excel DCOM Sept 2017) and may also invoke {{LinkById|T1173}} (DDE) execution directly through a COM created instance of a Microsoft Office application (Citation: Cyberreason DCOM DDE Lateral Movement Nov 2017), bypassing the need for a malicious document.",
+            "x_mitre_detection": "Monitor for COM objects loading DLLs and other modules not typically associated with the application. (Citation: Enigma Outlook DCOM Lateral Movement Nov 2017)\n\nMonitor for spawning of processes associated with COM objects, especially those invoked by a user different than the one currently logged on.\n\nMonitor for influx of Distributed Computing Environment/Remote Procedure Call (DCE/RPC) traffic.",
             "x_mitre_platforms": [
                 "Windows"
             ],

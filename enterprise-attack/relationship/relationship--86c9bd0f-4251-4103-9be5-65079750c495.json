@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--09e8e8a1-0084-4948-9470-505a81c3eb13",
+    "id": "bundle--26eb2ee6-eae7-406c-ad5d-08755752c723",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Shamoon attempts to overwrite operating system files with image files.",
+            "description": "{{LinkById|S0140}} attempts to overwrite operating system files with image files.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2016/11/fireeye%20respondsto.html",
@@ -25,7 +25,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0140}} attempts to overwrite operating system files with image files.",
             "source_ref": "malware--8901ac23-6b50-410c-b0dd-d8174a86f9b3",
             "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e0f522bf-8e1d-46d3-ae8a-576436d048aa",
+    "id": "bundle--5eb1b589-c0d5-4884-9f8d-6793b212356c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -37,7 +37,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "The application is delivered as an email attachment.",
+            "x_mitre_detection": "An EMM/MDM or mobile threat protection solution can identify the presence of unwanted, known insecure, or malicious apps on devices. Enterprise email security solutions can identify the presence of Android or iOS application packages within email messages.",
             "x_mitre_platforms": [
                 "Android",
                 "iOS"

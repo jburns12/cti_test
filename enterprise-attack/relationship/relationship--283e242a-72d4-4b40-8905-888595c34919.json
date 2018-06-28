@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4065c693-da81-4684-a047-06f6aba597b3",
+    "id": "bundle--09f37a60-fce2-4c5f-a61c-b4b6dbdbc132",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "BADNEWS typically loads its DLL file into a legitimate signed Java or VMware executable.",
+            "description": "{{LinkById|S0128}} typically loads its DLL file into a legitimate signed Java or VMware executable.",
             "external_references": [
                 {
                     "url": "https://www.forcepoint.com/sites/default/files/resources/files/forcepoint-security-labs-monsoon-analysis-report.pdf",
@@ -25,7 +25,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0128}} typically loads its DLL file into a legitimate signed Java or VMware executable.",
             "source_ref": "malware--e9595678-d269-469e-ae6b-75e49259de63",
             "target_ref": "attack-pattern--b2001907-166b-4d71-bb3c-9d26c871de09"
         }

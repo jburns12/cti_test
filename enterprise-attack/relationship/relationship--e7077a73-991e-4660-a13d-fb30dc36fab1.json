@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c2b5fb43-731a-46ad-bf40-2941529dcb07",
+    "id": "bundle--db87c1b4-a899-437b-a585-cf2b28f3175a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "adbupd contains a copy of the OpenSSL library to encrypt C2 traffic.",
+            "description": "{{LinkById|S0202}} contains a copy of the OpenSSL library to encrypt C2 traffic.",
             "external_references": [
                 {
                     "description": "Windows Defender Advanced Threat Hunting Team. (2016, April 29). PLATINUM: Targeted attacks in South and Southeast Asia. Retrieved February 15, 2018.",
@@ -19,7 +19,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0202}} contains a copy of the OpenSSL library to encrypt C2 traffic.",
             "source_ref": "malware--0f1ad2ef-41d4-4b7a-9304-ddae68ea3005",
             "target_ref": "attack-pattern--4b74a1d4-b0e9-4ef1-93f1-14ecc6e2f5b5"
         }

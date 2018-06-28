@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bd4c043a-803c-4514-b824-d3b28cbc7d91",
+    "id": "bundle--b513dc95-862a-4d22-8ed8-9a5ee5e81847",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "USBStealer exfiltrates collected files via removable media from air-gapped victims.",
+            "description": "{{LinkById|S0136}} exfiltrates collected files via removable media from air-gapped victims.",
             "external_references": [
                 {
                     "url": "http://www.welivesecurity.com/2014/11/11/sednit-espionage-group-attacking-air-gapped-networks/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0136}} exfiltrates collected files via removable media from air-gapped victims.",
             "source_ref": "malware--af2ad3b7-ab6a-4807-91fd-51bcaff9acbb",
             "target_ref": "attack-pattern--e6415f09-df0e-48de-9aba-928c902b7549"
         }

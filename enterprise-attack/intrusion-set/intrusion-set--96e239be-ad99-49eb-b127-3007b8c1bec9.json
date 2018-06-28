@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--663dee0c-9da2-46af-89b4-f74ab97dc301",
+    "id": "bundle--c354c1e6-8632-4a36-bd99-1d0409560de5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,7 +10,7 @@
             "created": "2017-05-31T21:31:54.697Z",
             "modified": "2018-06-27T14:18:47.700Z",
             "name": "Equation",
-            "description": "Equation is a sophisticated threat group that employs multiple remote access tools. The group is known to use zero-day exploits and has developed the capability to overwrite the firmware of hard disk drives. (Citation: Kaspersky Equation QA)",
+            "description": "{{LinkById|G0020}} is a sophisticated threat group that employs multiple remote access tools. The group is known to use zero-day exploits and has developed the capability to overwrite the firmware of hard disk drives. (Citation: Kaspersky Equation QA)",
             "aliases": [
                 "Equation"
             ],
@@ -32,8 +32,7 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "x_mitre_detection": "{{LinkById|G0020}} is a sophisticated threat group that employs multiple remote access tools. The group is known to use zero-day exploits and has developed the capability to overwrite the firmware of hard disk drives. (Citation: Kaspersky Equation QA)"
+            ]
         }
     ]
 }

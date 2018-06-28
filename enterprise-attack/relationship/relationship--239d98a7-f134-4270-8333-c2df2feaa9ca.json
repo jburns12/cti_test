@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8726da0c-9bc1-411f-9ede-d466b00477f0",
+    "id": "bundle--f499a12a-ec9b-4732-85f4-b4864cdfc725",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "menuPass has sent malicious Office documents via email as part of spearphishing campaigns as well as executables disguised as documents.",
+            "description": "{{LinkById|G0045}} has sent malicious Office documents via email as part of spearphishing campaigns as well as executables disguised as documents.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/04/apt10%20menupass%20grou.html",
@@ -25,7 +25,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0045}} has sent malicious Office documents via email as part of spearphishing campaigns as well as executables disguised as documents.",
             "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
             "target_ref": "attack-pattern--6aac77c4-eaf2-4366-8c13-ce50ab951f38"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--19fdd080-1faf-4626-ba8f-8f222b224dd7",
+    "id": "bundle--554ad62d-21d8-4b0e-994c-f5114ca72bca",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "APT32 has used scheduled tasks to persist on victim systems.",
+            "description": "{{LinkById|G0050}} has used scheduled tasks to persist on victim systems.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0050}} has used scheduled tasks to persist on victim systems.",
             "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
             "target_ref": "attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9"
         }

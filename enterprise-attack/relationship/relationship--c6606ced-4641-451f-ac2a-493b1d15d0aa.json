@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--185982fe-39dc-4ea7-90cd-f2819c14f76d",
+    "id": "bundle--8796b91f-b476-4ab4-b5b9-dc6386d84630",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "RTM can obtain the computer name, OS version, and default language identifier.",
+            "description": "{{LinkById|S0148}} can obtain the computer name, OS version, and default language identifier.",
             "external_references": [
                 {
                     "url": "https://www.welivesecurity.com/wp-content/uploads/2017/02/Read-The-Manual.pdf",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0148}} can obtain the computer name, OS version, and default language identifier.",
             "source_ref": "malware--92ec0cbd-2c30-44a2-b270-73f4ec949841",
             "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1"
         }

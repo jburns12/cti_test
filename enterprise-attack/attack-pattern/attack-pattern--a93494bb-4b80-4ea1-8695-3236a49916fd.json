@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bbdfb44a-2afa-496e-87ce-335b04f06f99",
+    "id": "bundle--e21e190c-f07e-4ce2-aac8-13c3b0e71c43",
     "spec_version": "2.0",
     "objects": [
         {
@@ -42,7 +42,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Adversaries may use brute force techniques to attempt access to accounts when passwords are unknown or when password hashes are obtained.\n\n{{LinkById|T1003}} to obtain password hashes may only get an adversary so far when {{LinkById|T1075}} is not an option. Techniques to systematically guess the passwords used to compute hashes are available, or the adversary may use a pre-computed rainbow table. Cracking hashes is usually done on adversary-controlled systems outside of the target network. (Citation: Wikipedia Password cracking)\n\nAdversaries may attempt to brute force logins without knowledge of passwords or hashes during an operation either with zero knowledge or by attempting a list of known or possible passwords. This is a riskier option because it could cause numerous authentication failures and account lockouts, depending on the organization's login failure policies. (Citation: Cylance Cleaver)\n\nA related technique called password spraying uses one password, or a small list of passwords, that matches the complexity policy of the domain and may be a commonly used password. Logins are attempted with that password and many different accounts on a network to avoid account lockouts that would normally occur when brute forcing a single account with many passwords. (Citation: BlackHillsInfosec Password Spraying)",
+            "x_mitre_detection": "It is difficult to detect when hashes are cracked, since this is generally done outside the scope of the target network. \n\nMonitor authentication logs for system and application login failures of Valid Accounts Mitigation. If authentication failures are high, then there may be a brute force attempt to gain access to a system using legitimate credentials.\n\nAlso monitor for many failed authentication attempts across various accounts that may result from password spraying attempts.",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",

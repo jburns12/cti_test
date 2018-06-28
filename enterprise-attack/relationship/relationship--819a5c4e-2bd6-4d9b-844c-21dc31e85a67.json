@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0084bdd4-957c-4e51-acbf-a5441ff919df",
+    "id": "bundle--09655e04-2742-43ea-8b81-bfdf5ae3be3a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "can create a reverse shell that utilizes statically-linked Wine cmd.exe code to emulate Windows command prompt commands.",
             "source_ref": "malware--49abab73-3c5c-476e-afd5-69b5c732d845",
             "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830"
         }

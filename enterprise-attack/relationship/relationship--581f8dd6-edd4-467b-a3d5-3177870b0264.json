@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--06334d4a-d361-4d70-a02d-b1e01ffda786",
+    "id": "bundle--ccc5a250-5cb1-444d-8ccb-5f390e8030a4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "netsh can be used as a persistence proxy technique to execute a helper DLL when netsh.exe is executed.",
+            "description": "{{LinkById|S0108}} can be used as a persistence proxy technique to execute a helper DLL when netsh.exe is executed.",
             "external_references": [
                 {
                     "url": "https://htmlpreview.github.io/?https://github.com/MatthewDemaske/blogbackup/blob/master/netshell.html",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0108}} can be used as a persistence proxy technique to execute a helper DLL when netsh.exe is executed.",
             "source_ref": "tool--5a63f900-5e7e-4928-a746-dd4558e1df71",
             "target_ref": "attack-pattern--bb0e0cb5-f3e4-4118-a4cb-6bf13bfbc9f2"
         }

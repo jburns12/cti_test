@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4e3597ee-bfc7-407c-be7f-6ad9e1c65684",
+    "id": "bundle--72ca6b4f-97d5-4df3-ac8b-fcced9e24ae5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -42,8 +42,7 @@
                     "description": "Microsoft. (n.d.). What is Protected View?. Retrieved November 22, 2017.",
                     "source_name": "Microsoft Protected View"
                 }
-            ],
-            "x_mitre_detection": "Modify Registry settings (directly or using Dcomcnfg.exe) in <code>HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\AppID\\{AppID_GUID}</code> associated with the process-wide security of individual COM applications. (Citation: Microsoft Process Wide Com Keys)\n\nModify Registry settings (directly or using Dcomcnfg.exe) in <code>HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Ole</code> associated with system-wide security defaults for all COM applications that do no set their own process-wide security. (Citation: Microsoft System Wide Com Keys) (Citation: Microsoft COM) ACL\n\nConsider disabling DCOM through Dcomcnfg.exe. (Citation: Microsoft Disable DCOM)\n\nEnable Windows firewall, which prevents DCOM instantiation by default.\n\nEnsure all COM alerts and Protected View are enabled. (Citation: Microsoft Protected View)"
+            ]
         }
     ]
 }

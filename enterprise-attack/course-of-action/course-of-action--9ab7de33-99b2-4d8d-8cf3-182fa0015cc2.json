@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8e79d06d-6801-47f2-b139-980090315d53",
+    "id": "bundle--c3a583b9-8cad-4bad-b6c4-bb0ae709af10",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,7 +10,7 @@
             "created": "2018-06-27T14:18:47.700Z",
             "modified": "2018-06-27T14:18:47.700Z",
             "name": "Logon Scripts Mitigation",
-            "description": "Restrict write access to logon scripts to specific administrators. Prevent access to administrator accounts by mitigating Credential Access techniques and limiting account access and permissions of Valid Accounts Mitigation.\n\nIdentify and block potentially malicious software that may be executed through logon script modification by using whitelisting (Citation: Beechey 2010) tools like AppLocker (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) that are capable of auditing and/or blocking unknown programs.",
+            "description": "Restrict write access to logon scripts to specific administrators. Prevent access to administrator accounts by mitigating [[Credential Access]] techniques and limiting account access and permissions of {{LinkById|T1078}}.\n\nIdentify and block potentially malicious software that may be executed through logon script modification by using whitelisting (Citation: Beechey 2010) tools like AppLocker (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) that are capable of auditing and/or blocking unknown programs.",
             "external_references": [
                 {
                     "external_id": "T1037",
@@ -32,8 +32,7 @@
                     "description": "NSA Information Assurance Directorate. (2014, August). Application Whitelisting Using Microsoft AppLocker. Retrieved March 31, 2016.",
                     "source_name": "NSA MS AppLocker"
                 }
-            ],
-            "x_mitre_detection": "Restrict write access to logon scripts to specific administrators. Prevent access to administrator accounts by mitigating Credential Access techniques and limiting account access and permissions of {{LinkById|T1078}}.\n\nIdentify and block potentially malicious software that may be executed through logon script modification by using whitelisting (Citation: Beechey 2010) tools like AppLocker (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) that are capable of auditing and/or blocking unknown programs."
+            ]
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5dbbc3fc-6a85-48ea-9521-cb140c6108b5",
+    "id": "bundle--d45f1ed3-09d9-4498-9d08-f5ecec131ceb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -35,7 +35,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Port Knocking is a well-established method used by both defenders and adversaries to hide open ports from access.  To enable the port, the system expects a series of packets with certain characteristics before the port will be opened.  This is often accomlished by the host based firewall, but could also be implemented by custom software.  \n\nThis technique has been observed to both for the dynamic opening of a listening port as well as the initiating of a connection to a listening server on a different system.\n\nThe observation of the signal packets to trigger the communication can be conducted through different methods.  One means, originally implemented by Cd00r, is to use the libpcap libraries to sniff for the packets in question.  Another method leverages raw sockets, which enables the malware to use ports that are already open for use by other programs.",
+            "x_mitre_detection": "Record network packets sent to and from the system, looking for extraneous packets that do not belong to established flows.",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS"

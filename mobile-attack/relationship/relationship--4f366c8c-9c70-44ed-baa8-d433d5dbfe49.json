@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cc1a8013-8c50-47f4-9e77-fed790439bf3",
+    "id": "bundle--598d166d-2ff0-49d6-addd-ee8084c91492",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-18T15:59:03.864Z",
-            "description": "Pegasus for Android accesses call logs.",
+            "description": "{{LinkById|MOB-S0032}} accesses call logs.",
             "external_references": [
                 {
                     "url": "https://blog.lookout.com/blog/2017/04/03/pegasus-android/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|MOB-S0032}} accesses call logs.",
             "source_ref": "malware--93799a9d-3537-43d8-b6f4-17215de1657c",
             "target_ref": "attack-pattern--79eec66a-9bd0-4a3f-ac82-19159e94bd44"
         }

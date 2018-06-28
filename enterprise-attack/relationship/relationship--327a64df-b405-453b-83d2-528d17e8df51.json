@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--72773376-db9c-4a34-a917-b37c94ef01e9",
+    "id": "bundle--d9eed5b0-2f71-41de-9467-0e95b6786348",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "One persistence mechanism used by CozyCar is to set itself to be executed at system startup by adding a Registry value under one of the following Registry keys: <br><code>HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\</code> <br><code>HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\</code> <br><code>HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\Run</code> <br><code>HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\Run</code>",
+            "description": "One persistence mechanism used by {{LinkById|S0046}} is to set itself to be executed at system startup by adding a Registry value under one of the following Registry keys: <br><code>HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\</code> <br><code>HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\</code> <br><code>HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\Run</code> <br><code>HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\Run</code>",
             "external_references": [
                 {
                     "url": "https://www.f-secure.com/documents/996508/1030745/CozyDuke",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "One persistence mechanism used by {{LinkById|S0046}} is to set itself to be executed at system startup by adding a Registry value under one of the following Registry keys: <br><code>HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\</code> <br><code>HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\</code> <br><code>HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\Run</code> <br><code>HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\Run</code>",
             "source_ref": "malware--e6ef745b-077f-42e1-a37d-29eecff9c754",
             "target_ref": "attack-pattern--9422fc14-1c43-410d-ab0f-a709b76c72dc"
         }

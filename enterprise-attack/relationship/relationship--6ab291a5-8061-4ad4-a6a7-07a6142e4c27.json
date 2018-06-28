@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c0e5cfe6-7761-496f-9995-dec0ebeb70e7",
+    "id": "bundle--79094eb9-cac3-4f25-8036-d331f6f6a192",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.068Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Lazarus Group malware attempts to maintain persistence by saving itself in the Start menu folder or by adding a Registry Run key.",
+            "description": "{{LinkById|G0032}} malware attempts to maintain persistence by saving itself in the Start menu folder or by adding a Registry Run key.",
             "external_references": [
                 {
                     "url": "https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Report.pdf",
@@ -30,7 +30,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0032}} malware attempts to maintain persistence by saving itself in the Start menu folder or by adding a Registry Run key.",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--9422fc14-1c43-410d-ab0f-a709b76c72dc"
         }

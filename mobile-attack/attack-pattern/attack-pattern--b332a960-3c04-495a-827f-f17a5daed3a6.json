@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--611de610-0c7d-4e2b-9a98-972017169ad2",
+    "id": "bundle--cea69794-cd35-43ef-8e2a-ead357764a60",
     "spec_version": "2.0",
     "objects": [
         {
@@ -47,7 +47,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "An adversary could use knowledge of the techniques used by security software to evade detection. For example, some mobile security products perform compromised device detection by searching for particular artifacts such as an installed \"su\" binary, but that check could be evaded by naming the binary something else. Similarly, polymorphic code techniques could be used to evade signature-based detection as described by  (Citation: Rastogi) et al. (Citation: Rastogi). \n\n (Citation: Brodie) (Citation: Brodie) describes limitations of jailbreak/root detection mechanisms.\n\n (Citation: Tan) (Citation: Tan) describes his experience defeating the jailbreak detection used by the iOS version of Good for Enterprise.",
             "x_mitre_platforms": [
                 "Android",
                 "iOS"

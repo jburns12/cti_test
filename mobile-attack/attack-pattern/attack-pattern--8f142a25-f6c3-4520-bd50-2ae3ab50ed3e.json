@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3192c973-ceee-4c9c-ba53-6299f28564c5",
+    "id": "bundle--7003296d-5e14-4a8c-a231-cbc28691f637",
     "spec_version": "2.0",
     "objects": [
         {
@@ -52,7 +52,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "An iOS application may be able to maliciously claim a URL scheme, allowing it to intercept calls that are meant for a different application. This technique, for example, could be used to capture OAuth authorization codes as described in  (Citation: IETF-PKCE) or to phish user credentials as described in  (Citation: MobileIron-XARA). Related potential security implications are described in  (Citation: Dhanjani-URLScheme). FireEye researchers describe URL scheme hijacking in a blog post (Citation: FireEye-Masque2), including evidence of its use.",
             "x_mitre_platforms": [
                 "iOS"
             ]

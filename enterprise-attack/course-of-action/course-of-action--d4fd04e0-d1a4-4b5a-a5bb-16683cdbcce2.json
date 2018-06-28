@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--609aa860-f684-4626-8f18-b78613202547",
+    "id": "bundle--1e6373f6-4d03-47a4-847e-c438ecd4c0a5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,15 +10,14 @@
             "created": "2018-06-27T14:18:47.700Z",
             "modified": "2018-06-27T14:18:47.700Z",
             "name": "External Remote Services Mitigation",
-            "description": "Limit access to remote services through centrally managed concentrators such as VPNs and other managed remote access systems. Deny direct remote access to internal systems through uses of network proxies, gateways, and firewalls as appropriate. Disable or block services such as Windows Remote Management Mitigation can be used externally. Use strong two-factor or multi-factor authentication for remote service accounts to mitigate an adversary's ability to leverage stolen credentials, but be aware of Two-Factor Authentication Interception Mitigation techniques for some two-factor authentication implementations.",
+            "description": "Limit access to remote services through centrally managed concentrators such as VPNs and other managed remote access systems. Deny direct remote access to internal systems through uses of network proxies, gateways, and firewalls as appropriate. Disable or block services such as {{LinkById|T1028}} can be used externally. Use strong two-factor or multi-factor authentication for remote service accounts to mitigate an adversary's ability to leverage stolen credentials, but be aware of {{LinkById|T1111}} techniques for some two-factor authentication implementations.",
             "external_references": [
                 {
                     "external_id": "T1133",
                     "url": "https://attack.mitre.org/wiki/Technique/T1133",
                     "source_name": "mitre-attack"
                 }
-            ],
-            "x_mitre_detection": "Limit access to remote services through centrally managed concentrators such as VPNs and other managed remote access systems. Deny direct remote access to internal systems through uses of network proxies, gateways, and firewalls as appropriate. Disable or block services such as {{LinkById|T1028}} can be used externally. Use strong two-factor or multi-factor authentication for remote service accounts to mitigate an adversary's ability to leverage stolen credentials, but be aware of {{LinkById|T1111}} techniques for some two-factor authentication implementations."
+            ]
         }
     ]
 }

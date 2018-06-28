@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--09e3a651-bd52-4c66-ad8c-7cef0bf3cb3a",
+    "id": "bundle--a29b537a-56a2-4f44-b685-5836a8856616",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,7 +10,7 @@
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
             "name": "BITSAdmin",
-            "description": "is a command line tool used to create and manage BITS Jobs Mitigation. (Citation: Microsoft BITSAdmin)",
+            "description": "is a command line tool used to create and manage {{LinkById|T1197}}. (Citation: Microsoft BITSAdmin)",
             "labels": [
                 "tool"
             ],
@@ -29,7 +29,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "is a command line tool used to create and manage {{LinkById|T1197}}. (Citation: Microsoft BITSAdmin)",
             "x_mitre_platforms": [
                 "Windows"
             ],

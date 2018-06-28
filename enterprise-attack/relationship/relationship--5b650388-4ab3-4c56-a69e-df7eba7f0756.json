@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--db6f80d0-1f7d-4405-8fbc-479041171459",
+    "id": "bundle--ff9f9ce7-6e2b-4982-aa89-1b6f294c865b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Hi-Zor communicates with its C2 server over port 443.",
+            "description": "{{LinkById|S0087}} communicates with its C2 server over port 443.",
             "external_references": [
                 {
                     "url": "https://www.fidelissecurity.com/sites/default/files/FTA%201020%20Fidelis%20Inocnation%20FINAL%200.pdf",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0087}} communicates with its C2 server over port 443.",
             "source_ref": "malware--5967cc93-57c9-404a-8ffd-097edfa7bdfc",
             "target_ref": "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--44d65a02-5ce9-4924-91da-1d5e34f82743",
+    "id": "bundle--35c26042-51ea-46d4-a159-ba978113aff0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,7 +27,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Adversaries may attempt to get a listing of local system or domain accounts. \n\n===Windows===\n\nExample commands that can acquire this information are <code>net user</code>, <code>net group <groupname></code>, and <code>net localgroup <groupname></code> using the {{LinkById|S0039}} utility or through use of {{LinkById|S0105}}. If adversaries attempt to identify the primary user, currently logged in user, or set of users that commonly uses a system, {{LinkById|T1033}} may apply.\n\n===Mac===\n\nOn Mac, groups can be enumerated through the <code>groups</code> and <code>id</code> commands. In mac specifically, <code>dscl . list /Groups</code> and <code>dscacheutil -q group</code> can also be used to enumerate groups and users.\n\n===Linux===\n\nOn Linux, local users can be enumerated through the use of the <code>/etc/passwd</code> file which is world readable. In mac, this same file is only used in single-user mode in addition to the <code>/etc/master.passwd</code> file.\n\nAlso, groups can be enumerated through the <code>groups</code> and <code>id</code> commands. In mac specifically, <code>dscl . list /Groups</code> and <code>dscacheutil -q group</code> can also be used to enumerate groups and users.",
+            "x_mitre_detection": "System and network discovery techniques normally occur throughout an operation as an adversary learns the environment. Data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities, such as Lateral Movement, based on the information obtained.\n\nMonitor processes and command-line arguments for actions that could be taken to gather system and network information. Remote access tools with built-in features may interact directly with the Windows API to gather information. Information may also be acquired through Windows system management tools such as Windows Management Instrumentation Mitigation and PowerShell Mitigation.",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",

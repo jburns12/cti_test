@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f2e6473a-6d17-45d2-a30e-40e02b7920a9",
+    "id": "bundle--9d2891c4-5042-44f4-a41d-032e5c1d34df",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "menuPass uses scripts to enumerate IP ranges on the victim network. menuPass has also issued the command <code>net view /domain</code> to a PlugX implant to gather information about remote systems on the network.",
+            "description": "{{LinkById|G0045}} uses scripts to enumerate IP ranges on the victim network. {{LinkById|G0045}} has also issued the command <code>net view /domain</code> to a {{LinkById|S0013}} implant to gather information about remote systems on the network.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/04/apt10%20menupass%20grou.html",
@@ -25,7 +25,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0045}} uses scripts to enumerate IP ranges on the victim network. {{LinkById|G0045}} has also issued the command <code>net view /domain</code> to a {{LinkById|S0013}} implant to gather information about remote systems on the network.",
             "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
             "target_ref": "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735"
         }

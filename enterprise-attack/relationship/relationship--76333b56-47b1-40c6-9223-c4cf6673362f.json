@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5053c496-2e32-4d86-afc0-fc319ac73bf6",
+    "id": "bundle--e346eab2-b0a5-4cf4-967d-a565e514097f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Some SeaDuke samples have a module to extract email from Microsoft Exchange servers using compromised credentials.",
+            "description": "Some {{LinkById|S0053}} samples have a module to extract email from Microsoft Exchange servers using compromised credentials.",
             "external_references": [
                 {
                     "url": "http://www.symantec.com/connect/blogs/forkmeiamfamous-seaduke-latest-weapon-duke-armory",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Some {{LinkById|S0053}} samples have a module to extract email from Microsoft Exchange servers using compromised credentials.",
             "source_ref": "malware--67e6d66b-1b82-4699-b47a-e2efb6268d14",
             "target_ref": "attack-pattern--1608f3e1-598a-42f4-a01a-2e252e81728f"
         }

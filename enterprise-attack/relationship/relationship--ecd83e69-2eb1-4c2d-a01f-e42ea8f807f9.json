@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5692e3d0-8e3c-472e-9571-8c45ee3507f3",
+    "id": "bundle--e80ac607-13ce-4987-b8da-ad13e03db773",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "UACMe contains many methods for bypassing Windows User Account Control on multiple versions of the operating system.",
+            "description": "{{LinkById|S0116}} contains many methods for bypassing Windows User Account Control on multiple versions of the operating system.",
             "external_references": [
                 {
                     "url": "https://github.com/hfiref0x/UACME",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0116}} contains many methods for bypassing Windows User Account Control on multiple versions of the operating system.",
             "source_ref": "tool--102c3898-85e0-43ee-ae28-62a0a3ed9507",
             "target_ref": "attack-pattern--ca1a3f50-5ebd-41f8-8320-2c7d6a6e88be"
         }

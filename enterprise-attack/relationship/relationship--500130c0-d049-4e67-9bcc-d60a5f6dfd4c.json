@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7cf7db3a-5076-4ca1-ab3c-7f1ad1803d64",
+    "id": "bundle--53f34456-074f-492c-b2b8-96222b0cbae6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.069Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Various Lazarus Group malware enumerates logged-on users.",
+            "description": "Various {{LinkById|G0032}} malware enumerates logged-on users.",
             "external_references": [
                 {
                     "url": "https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Report.pdf",
@@ -40,7 +40,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Various {{LinkById|G0032}} malware enumerates logged-on users.",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104"
         }

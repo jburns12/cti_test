@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--10104eda-570d-4cf3-b31d-59fd0cf99653",
+    "id": "bundle--d98d873c-0d38-4554-bbc1-e80e8474a9e7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -31,7 +31,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "A malicious application could capture sensitive data sent via SMS, including authentication credentials. SMS is frequently used to transmit codes used for multi-factor authentication.\n\nOn Android, a malicious application must request and obtain permission (either at app install time or run time) in order to receive SMS messages. Alternatively, a malicious application could attempt to perform an operating system privilege escalation attack to bypass the permission requirement.\n\nOn iOS, applications cannot access SMS messages in normal operation, so an adversary would need to attempt to perform an operating system privilege escalation attack to potentially be able to access SMS messages.",
             "x_mitre_platforms": [
                 "Android",
                 "iOS"

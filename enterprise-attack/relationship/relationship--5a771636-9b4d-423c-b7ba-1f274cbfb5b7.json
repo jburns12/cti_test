@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--088509c6-a8f9-4c54-8cbf-1269bb09da20",
+    "id": "bundle--ea5bbb9d-635d-4df9-8dd0-f3a67808c527",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "A gh0st variant has used rundll32 for execution.",
+            "description": "A {{LinkById|S0032}} variant has used rundll32 for execution.",
             "external_references": [
                 {
                     "url": "https://www.arbornetworks.com/blog/asert/musical-chairs-playing-tetris/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "A {{LinkById|S0032}} variant has used rundll32 for execution.",
             "source_ref": "malware--88c621a7-aef9-4ae0-94e3-1fc87123eb24",
             "target_ref": "attack-pattern--62b8c999-dcc0-4755-bd69-09442d9359f5"
         }

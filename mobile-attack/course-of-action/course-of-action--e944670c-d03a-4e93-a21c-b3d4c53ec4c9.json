@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c8220d32-3a5e-4f16-84ea-5e0676cbc586",
+    "id": "bundle--92b032b2-2b2d-4c51-9c5c-2c23f3b0d71d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -20,8 +20,7 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "x_mitre_detection": "Warn device users not to accept requests to grant Device Administrator access to applications without good reason.\n\nAdditionally, application vetting should include a check on whether the application requests Device Administrator access. Applications that do request Device Administrator access should be carefully scrutinized and only allowed to be used if a valid reason exists."
+            ]
         }
     ]
 }

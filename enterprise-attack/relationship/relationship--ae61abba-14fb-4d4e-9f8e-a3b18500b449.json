@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--76bd1498-508a-4494-9b4f-b189f94cbd4b",
+    "id": "bundle--aba0a96d-0f4e-438a-ba32-b231805c65e1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.067Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Various Lazarus Group malware modifies the Windows firewall to allow incoming connections or disable it entirely using netsh. Lazarus Group malware TangoDelta attempts to terminate various processes associated with McAfee.",
+            "description": "Various {{LinkById|G0032}} malware modifies the Windows firewall to allow incoming connections or disable it entirely using {{LinkById|S0108}}. {{LinkById|G0032}} malware TangoDelta attempts to terminate various processes associated with McAfee.",
             "external_references": [
                 {
                     "url": "https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Report.pdf",
@@ -30,7 +30,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Various {{LinkById|G0032}} malware modifies the Windows firewall to allow incoming connections or disable it entirely using {{LinkById|S0108}}. {{LinkById|G0032}} malware TangoDelta attempts to terminate various processes associated with McAfee.",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--2e0dd10b-676d-4964-acd0-8a404c92b044"
         }

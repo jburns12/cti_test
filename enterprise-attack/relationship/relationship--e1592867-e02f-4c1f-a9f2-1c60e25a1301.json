@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8ffbb52b-c321-4641-8cfb-e96e51585160",
+    "id": "bundle--6fe35340-e2ed-4bf2-8f37-7bb3277063ec",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.074Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "After data is collected by Stealth Falcon malware, it is exfiltrated over the existing C2 channel.",
+            "description": "After data is collected by {{LinkById|G0038}} malware, it is exfiltrated over the existing C2 channel.",
             "external_references": [
                 {
                     "url": "https://citizenlab.org/2016/05/stealth-falcon/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "After data is collected by {{LinkById|G0038}} malware, it is exfiltrated over the existing C2 channel.",
             "source_ref": "intrusion-set--894aab42-3371-47b1-8859-a4a074c804c8",
             "target_ref": "attack-pattern--92d7da27-2d91-488e-a00c-059dc162766d"
         }

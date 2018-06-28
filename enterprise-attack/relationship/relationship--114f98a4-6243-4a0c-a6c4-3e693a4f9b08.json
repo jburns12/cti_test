@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--44aa3788-92e3-43b5-b5d0-048f95c4a804",
+    "id": "bundle--e4cbc55d-99a2-41f7-bb69-70ff95c86af2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "APT30 may have used the SHIPSHAPE malware to move onto air-gapped networks. SHIPSHAPE targets removable drives to spread to other systems by modifying the drive to use Autorun to execute or by hiding legitimate document files and copying an executable to the folder with the same name as the legitimate document.",
+            "description": "{{LinkById|G0013}} may have used the {{LinkById|S0028}} malware to move onto air-gapped networks. {{LinkById|S0028}} targets removable drives to spread to other systems by modifying the drive to use Autorun to execute or by hiding legitimate document files and copying an executable to the folder with the same name as the legitimate document.",
             "external_references": [
                 {
                     "url": "https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0013}} may have used the {{LinkById|S0028}} malware to move onto air-gapped networks. {{LinkById|S0028}} targets removable drives to spread to other systems by modifying the drive to use Autorun to execute or by hiding legitimate document files and copying an executable to the folder with the same name as the legitimate document.",
             "source_ref": "malware--b1de6916-7a22-4460-8d26-6b5483ffaa2a",
             "target_ref": "attack-pattern--3b744087-9945-4a6f-91e8-9dbceda417a4"
         }

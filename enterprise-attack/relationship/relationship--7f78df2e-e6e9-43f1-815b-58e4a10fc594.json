@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c4dc704e-0e9e-494c-a180-0708e227d92e",
+    "id": "bundle--36e3a190-65c1-4863-9b91-fba676778420",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.048Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "APT29 has used encoded PowerShell scripts uploaded to CozyCar installations to download and install SeaDuke. APT29 also used PowerShell scripts to evade defenses.",
+            "description": "{{LinkById|G0016}} has used encoded PowerShell scripts uploaded to {{LinkById|S0046}} installations to download and install {{LinkById|S0053}}. {{LinkById|G0016}} also used PowerShell scripts to evade defenses.",
             "external_references": [
                 {
                     "url": "http://www.symantec.com/connect/blogs/forkmeiamfamous-seaduke-latest-weapon-duke-armory",
@@ -25,7 +25,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0016}} has used encoded PowerShell scripts uploaded to {{LinkById|S0046}} installations to download and install {{LinkById|S0053}}. {{LinkById|G0016}} also used PowerShell scripts to evade defenses.",
             "source_ref": "intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542",
             "target_ref": "attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0"
         }

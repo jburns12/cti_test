@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--63943dac-03ec-4b05-b4ea-d2d830c7c292",
+    "id": "bundle--26e94286-0d98-48dd-b781-e0d2c7794039",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-18T15:59:03.864Z",
-            "description": "HummingBad can \"silently root a large percentage of the phones it infects by exploiting vulnerabilities that remain unfixed in older versions of Android.\"",
+            "description": "{{LinkById|MOB-S0038}} can \"silently root a large percentage of the phones it infects by exploiting vulnerabilities that remain unfixed in older versions of Android.\"",
             "external_references": [
                 {
                     "url": "http://arstechnica.com/security/2016/07/virulent-auto-rooting-malware-takes-control-of-10-million-android-devices/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|MOB-S0038}} can \"silently root a large percentage of the phones it infects by exploiting vulnerabilities that remain unfixed in older versions of Android.\"",
             "source_ref": "malware--c8770c81-c29f-40d2-a140-38544206b2b4",
             "target_ref": "attack-pattern--351c0927-2fc1-4a2c-ad84-cbbee7eb8172"
         }

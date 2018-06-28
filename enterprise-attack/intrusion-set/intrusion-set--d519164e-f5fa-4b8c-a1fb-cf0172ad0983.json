@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7c3fb468-fecd-46f5-814d-d054794ae9b6",
+    "id": "bundle--1e0aab3d-9d97-43de-b05e-5fb09c1b1b3e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,7 +10,7 @@
             "created": "2017-05-31T21:31:59.120Z",
             "modified": "2018-06-27T14:18:47.700Z",
             "name": "Threat Group-1314",
-            "description": "Threat Group-1314 is an unattributed threat group that has used compromised credentials to log into a victim's remote access infrastructure. (Citation: Dell TG-1314)",
+            "description": "{{LinkById|G0028}} is an unattributed threat group that has used compromised credentials to log into a victim's remote access infrastructure. (Citation: Dell TG-1314)",
             "aliases": [
                 "Threat Group-1314",
                 "TG-1314"
@@ -37,8 +37,7 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "x_mitre_detection": "{{LinkById|G0028}} is an unattributed threat group that has used compromised credentials to log into a victim's remote access infrastructure. (Citation: Dell TG-1314)"
+            ]
         }
     ]
 }

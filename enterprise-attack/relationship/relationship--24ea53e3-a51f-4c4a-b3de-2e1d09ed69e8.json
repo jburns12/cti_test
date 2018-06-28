@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ce57d06e-165f-4f9d-9347-e574d2f9bc5a",
+    "id": "bundle--70100ac2-aebf-4217-930b-de92e8e989b0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "PowerDuke has commands to get the current directory name as well as the size of a file. It also has commands to obtain information about logical drives, drive type, and free space.",
+            "description": "{{LinkById|S0139}} has commands to get the current directory name as well as the size of a file. It also has commands to obtain information about logical drives, drive type, and free space.",
             "external_references": [
                 {
                     "url": "https://www.volexity.com/blog/2016/11/09/powerduke-post-election-spear-phishing-campaigns-targeting-think-tanks-and-ngos/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0139}} has commands to get the current directory name as well as the size of a file. It also has commands to obtain information about logical drives, drive type, and free space.",
             "source_ref": "malware--00c3bfcb-99bd-4767-8c03-b08f585f5c8a",
             "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ef0ce4a0-d3fd-467f-9758-faa063a7e5d4",
+    "id": "bundle--0f25d7a7-19f3-4cba-bfcd-afdfb03d1276",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "APT32 compromised McAfee ePO to move laterally by distributing malware as a software deployment task.",
+            "description": "{{LinkById|G0050}} compromised McAfee ePO to move laterally by distributing malware as a software deployment task.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0050}} compromised McAfee ePO to move laterally by distributing malware as a software deployment task.",
             "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
             "target_ref": "attack-pattern--327f3cc5-eea1-42d4-a6cd-ed34b7ce8f61"
         }

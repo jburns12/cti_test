@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--36710722-c3da-4ecf-b4bd-83d763c19624",
+    "id": "bundle--b61c2ab3-5890-4754-b2ec-90b30c637d81",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,7 +10,7 @@
             "created": "2017-05-31T21:32:39.233Z",
             "modified": "2018-06-27T14:18:47.700Z",
             "name": "Tasklist",
-            "description": "The Tasklist utility displays a list of applications and services with their Process IDs (PID) for all tasks running on either a local or a remote computer. It is packaged with Windows operating systems and can be executed from the command-line interface. (Citation: Microsoft Tasklist)",
+            "description": "The {{LinkById|S0057}} utility displays a list of applications and services with their Process IDs (PID) for all tasks running on either a local or a remote computer. It is packaged with Windows operating systems and can be executed from the command-line interface. (Citation: Microsoft Tasklist)",
             "labels": [
                 "tool"
             ],
@@ -29,7 +29,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "The {{LinkById|S0057}} utility displays a list of applications and services with their Process IDs (PID) for all tasks running on either a local or a remote computer. It is packaged with Windows operating systems and can be executed from the command-line interface. (Citation: Microsoft Tasklist)",
             "x_mitre_platforms": [
                 "Windows"
             ],

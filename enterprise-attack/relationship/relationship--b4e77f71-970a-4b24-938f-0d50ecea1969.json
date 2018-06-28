@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ed735b89-5819-4d8e-9bc7-e06e7c0f69f4",
+    "id": "bundle--f7cde880-35d4-45e3-84f7-15b16a3fb038",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Misdat is capable of providing shell functionality to the attacker to execute commands.",
+            "description": "{{LinkById|S0083}} is capable of providing shell functionality to the attacker to execute commands.",
             "external_references": [
                 {
                     "url": "https://www.cylance.com/content/dam/cylance/pdfs/reports/Op%20Dust%20Storm%20Report.pdf",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0083}} is capable of providing shell functionality to the attacker to execute commands.",
             "source_ref": "malware--0db09158-6e48-4e7c-8ce7-2b10b9c0c039",
             "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830"
         }

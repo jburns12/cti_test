@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9dac74d8-cc80-4adf-a7e7-2bfb2baa161a",
+    "id": "bundle--63694179-c3ce-4e87-8900-1a22733d951a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "FIN10 has used Meterpreter to enumerate users on remote systems.",
+            "description": "{{LinkById|G0051}} has used Meterpreter to enumerate users on remote systems.",
             "external_references": [
                 {
                     "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin10.pdf",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0051}} has used Meterpreter to enumerate users on remote systems.",
             "source_ref": "intrusion-set--fbe9387f-34e6-4828-ac28-3080020c597b",
             "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104"
         }

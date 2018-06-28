@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b67e51fd-1984-4499-a1ef-d2bb5bd7073a",
+    "id": "bundle--7f939db6-1a75-4a0a-b5b2-5ec1f4b99a19",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "FIN8 aggregates staged data from a network into a single location.",
+            "description": "{{LinkById|G0061}} aggregates staged data from a network into a single location.",
             "external_references": [
                 {
                     "url": "https://www2.fireeye.com/WBNR-Know-Your-Enemy-UNC622-Spear-Phishing.html",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0061}} aggregates staged data from a network into a single location.",
             "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
             "target_ref": "attack-pattern--7dd95ff6-712e-4056-9626-312ea4ab4c5e"
         }

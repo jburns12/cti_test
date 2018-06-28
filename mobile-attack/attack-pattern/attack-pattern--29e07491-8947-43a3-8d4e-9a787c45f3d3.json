@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e11e231f-3984-46b4-8edf-359b122746a8",
+    "id": "bundle--85e162b0-13a6-42f1-8868-8301d128736b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -41,7 +41,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "On versions of Android prior to 4.1, an adversary may use a malicious application that holds the READ_LOGS permission to obtain private keys, passwords, other credentials, or other sensitive data stored in the device's system log. On Android 4.1 and later, an adversary would need to attempt to perform an operating system privilege escalation attack to be able to access the log.",
             "x_mitre_platforms": [
                 "Android"
             ]

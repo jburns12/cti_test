@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d8161d71-8442-42ce-97ce-1dcea48fee91",
+    "id": "bundle--32d7b7dc-3a20-4486-bb64-fce6a5a5c09d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "POSHSPY uses PowerShell to execute various commands, one to execute its payload.",
+            "description": "{{LinkById|S0150}} uses PowerShell to execute various commands, one to execute its payload.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/03/dissecting%20one%20ofap.html",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0150}} uses PowerShell to execute various commands, one to execute its payload.",
             "source_ref": "malware--5e595477-2e78-4ce7-ae42-e0b059b17808",
             "target_ref": "attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0"
         }

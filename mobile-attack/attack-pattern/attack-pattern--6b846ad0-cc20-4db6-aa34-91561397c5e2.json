@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--be86900b-2dcf-4b47-8306-457ae8ff98da",
+    "id": "bundle--1bfe0206-b522-4920-9208-fdbb0f4c81bd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -37,7 +37,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "The application is downloaded from an arbitrary web site. A link to the application's download URI may be sent in an email or SMS, placed on another web site that the target is likely to view, or sent via other means (such as QR code).",
+            "x_mitre_detection": "An EMM/MDM or mobile threat protection solution can identify the presence of unwanted, known insecure, or malicious apps on devices.",
             "x_mitre_platforms": [
                 "Android",
                 "iOS"

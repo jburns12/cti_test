@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--57c77d70-f885-4ad7-9f70-b4266c0001b9",
+    "id": "bundle--235ebca2-0d70-4b12-a17e-0277eab149db",
     "spec_version": "2.0",
     "objects": [
         {
@@ -22,8 +22,7 @@
                     "description": "Microsoft. (2015, June 9). Windows 10 to offer application developers new malware defenses. Retrieved February 12, 2018.",
                     "source_name": "Microsoft AMSI June 2015"
                 }
-            ],
-            "x_mitre_detection": "Ensure logging and detection mechanisms analyze commands after being processed/interpreted, rather than the raw input. Consider utilizing the Antimalware Scan Interface (AMSI) on Windows 10 for this functionality. (Citation: Microsoft AMSI June 2015)\n\nMitigation of compressed and encrypted files sent over the network and through email may not be advised since it may impact normal operations."
+            ]
         }
     ]
 }

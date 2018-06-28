@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9259d507-f09e-4b1d-a548-ba35269f969a",
+    "id": "bundle--33aa6a51-596a-4414-ba8b-c18a3aa52075",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Cobalt Strike uses a custom command and control protocol that communicates over commonly used ports. The C2 protocol is encapsulated in common application layer protocols.",
+            "description": "{{LinkById|S0154}} uses a custom command and control protocol that communicates over commonly used ports. The C2 protocol is encapsulated in common application layer protocols.",
             "external_references": [
                 {
                     "url": "https://cobaltstrike.com/downloads/csmanual38.pdf",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0154}} uses a custom command and control protocol that communicates over commonly used ports. The C2 protocol is encapsulated in common application layer protocols.",
             "source_ref": "tool--aafea02e-ece5-4bb2-91a6-3bf8c7f38a39",
             "target_ref": "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e"
         }

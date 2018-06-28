@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--873eee5e-5fb1-4a10-8a5b-2b20698f08f8",
+    "id": "bundle--34ea9650-a29c-4423-9245-6f799594bbfa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "creates a Registry entry modifying the Logical Disk Manager service to point to a malicious DLL dropped to disk.",
             "source_ref": "malware--310f437b-29e7-4844-848c-7220868d074a",
             "target_ref": "attack-pattern--62dfd1ca-52d5-483c-a84b-d6e80bf94b7b"
         }

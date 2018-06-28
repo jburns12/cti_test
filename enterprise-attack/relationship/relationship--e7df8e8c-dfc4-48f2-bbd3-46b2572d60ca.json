@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0bd2a286-a6ac-433c-a594-62ac053bdbba",
+    "id": "bundle--f06b39e4-4d19-4c93-a73f-1d0aa6c26fb9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "PowerSploit modules are written in and executed via PowerShell Mitigation.",
+            "description": "{{LinkById|S0194}} modules are written in and executed via {{LinkById|T1086}}.",
             "external_references": [
                 {
                     "url": "https://github.com/PowerShellMafia/PowerSploit",
@@ -25,7 +25,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0194}} modules are written in and executed via {{LinkById|T1086}}.",
             "source_ref": "tool--13cd9151-83b7-410d-9f98-25d0f0d1d80d",
             "target_ref": "attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0"
         }

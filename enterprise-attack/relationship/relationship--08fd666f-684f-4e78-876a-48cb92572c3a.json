@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ce6e611e-b8d0-4807-b708-f6c24acf8a81",
+    "id": "bundle--2fe4df03-fc79-4e0c-9cdf-1168ece4592c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "An APT28 loader Trojan saves its payload with hidden file attributes.",
+            "description": "An {{LinkById|G0007}} loader Trojan saves its payload with hidden file attributes.",
             "external_references": [
                 {
                     "url": "https://pan-unit42.github.io/playbook%20viewer/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "An {{LinkById|G0007}} loader Trojan saves its payload with hidden file attributes.",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "attack-pattern--dc27c2ec-c5f9-4228-ba57-d67b590bda93"
         }

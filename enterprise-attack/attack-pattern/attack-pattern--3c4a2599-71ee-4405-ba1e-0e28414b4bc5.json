@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7bef42e0-1942-4e85-a7ea-58d5b29e76b9",
+    "id": "bundle--34a4fda6-4a4e-40ba-87e5-4474bbaae71b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,7 +27,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Sensitive data can be collected from local system sources, such as the file system or databases of information residing on the system prior to Exfiltration.\n\nAdversaries will often search the file system on computers they have compromised to find files of interest. They may do this using a {{LinkById|T1059}}, such as {{LinkById|S0106}}, which has functionality to interact with the file system to gather information. Some adversaries may also use {{LinkById|T1119}} on the local system.",
+            "x_mitre_detection": "Monitor processes and command-line arguments for actions that could be taken to collect files from a system. Remote access tools with built-in features may interact directly with the Windows API to gather data. Data may also be acquired through Windows system management tools such as Windows Management Instrumentation Mitigation and PowerShell Mitigation.",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",

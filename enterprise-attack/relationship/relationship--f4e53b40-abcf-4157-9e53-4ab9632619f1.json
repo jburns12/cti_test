@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2acaf25e-2d48-4b78-acb2-5b5ec75364a5",
+    "id": "bundle--1706f02e-69ee-41c7-a169-3775d48441bf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "CORESHELL C2 messages are encrypted with custom stream ciphers using six-byte or eight-byte keys.",
+            "description": "{{LinkById|S0137}} C2 messages are encrypted with custom stream ciphers using six-byte or eight-byte keys.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0137}} C2 messages are encrypted with custom stream ciphers using six-byte or eight-byte keys.",
             "source_ref": "malware--60c18d06-7b91-4742-bae3-647845cd9d81",
             "target_ref": "attack-pattern--3b3cbbe0-6ed3-4334-b543-3ddfd8c5642d"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--77d7cd3f-5954-429a-9317-c3756709e5d5",
+    "id": "bundle--49ec66ea-93a0-4b9e-b854-b054756d3e7b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -42,7 +42,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "In OS X prior to El Capitan, users with root access can read plaintext keychain passwords of logged-in users because Apple\u2019s keychain implementation allows these credentials to be cached so that users are not repeatedly prompted for passwords. (Citation: OS X Keychain) (Citation: External to DA, the OS X Way) Apple\u2019s securityd utility takes the user\u2019s logon password, encrypts it with PBKDF2, and stores this master key in memory. Apple also uses a set of keys and algorithms to encrypt the user\u2019s password, but once the master key is found, an attacker need only iterate over the other values to unlock the final password. (Citation: OS X Keychain)\n\nIf an adversary can obtain root access (allowing them to read securityd\u2019s memory), then they can scan through memory to find the correct sequence of keys in relatively few tries to decrypt the user\u2019s logon keychain. This provides the adversary with all the plaintext passwords for users, WiFi, mail, browsers, certificates, secure notes, etc. (Citation: OS X Keychain) (Citation: OSX Keydnap malware)",
             "x_mitre_platforms": [
                 "macOS"
             ],

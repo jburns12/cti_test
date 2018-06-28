@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a475588e-d375-4499-a7ef-de063f6174a5",
+    "id": "bundle--f26eab84-6df2-4ca5-9575-025c26410e65",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,15 +10,14 @@
             "created": "2018-06-27T14:18:47.700Z",
             "modified": "2018-06-27T14:18:47.700Z",
             "name": "Create Account Mitigation",
-            "description": "Use and enforce multifactor authentication. Follow guidelines to prevent or limit adversary access to Valid Accounts Mitigation that may be used to create privileged accounts within an environment.\n\nAdversaries that create local accounts on systems may have limited access within a network if access levels are properly locked down. These accounts may only be needed for persistence on individual systems and their usefulness depends on the utility of the system they reside on.\n\nProtect domain controllers by ensuring proper security configuration for critical servers. Configure access controls and firewalls to limit access to these systems. Do not allow domain administrator accounts to be used for day-to-day operations that may expose them to potential adversaries on unprivileged systems.",
+            "description": "Use and enforce multifactor authentication. Follow guidelines to prevent or limit adversary access to {{LinkById|T1078}} that may be used to create privileged accounts within an environment.\n\nAdversaries that create local accounts on systems may have limited access within a network if access levels are properly locked down. These accounts may only be needed for persistence on individual systems and their usefulness depends on the utility of the system they reside on.\n\nProtect domain controllers by ensuring proper security configuration for critical servers. Configure access controls and firewalls to limit access to these systems. Do not allow domain administrator accounts to be used for day-to-day operations that may expose them to potential adversaries on unprivileged systems.",
             "external_references": [
                 {
                     "external_id": "T1136",
                     "url": "https://attack.mitre.org/wiki/Technique/T1136",
                     "source_name": "mitre-attack"
                 }
-            ],
-            "x_mitre_detection": "Use and enforce multifactor authentication. Follow guidelines to prevent or limit adversary access to {{LinkById|T1078}} that may be used to create privileged accounts within an environment.\n\nAdversaries that create local accounts on systems may have limited access within a network if access levels are properly locked down. These accounts may only be needed for persistence on individual systems and their usefulness depends on the utility of the system they reside on.\n\nProtect domain controllers by ensuring proper security configuration for critical servers. Configure access controls and firewalls to limit access to these systems. Do not allow domain administrator accounts to be used for day-to-day operations that may expose them to potential adversaries on unprivileged systems."
+            ]
         }
     ]
 }

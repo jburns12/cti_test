@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0e43cc37-4a00-4dd4-b595-9182a9f44bab",
+    "id": "bundle--c27ba8b3-27f5-430d-9cd8-488c7d3cbceb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -17,8 +17,7 @@
                     "url": "https://attack.mitre.org/wiki/Technique/T1168",
                     "source_name": "mitre-attack"
                 }
-            ],
-            "x_mitre_detection": "Limit privileges of user accounts and remediate Privilege Escalation vectors so only authorized users can create scheduled jobs. Identify and block unnecessary system utilities or potentially malicious software that may be used to schedule jobs using whitelisting tools."
+            ]
         }
     ]
 }

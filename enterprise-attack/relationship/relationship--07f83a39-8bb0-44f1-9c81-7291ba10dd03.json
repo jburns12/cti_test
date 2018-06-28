@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--47cceb12-8923-4a06-b373-f2aaeb280d40",
+    "id": "bundle--0a9dfd0c-8f51-4739-9c8f-b65519ebb2ef",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Gazer can establish persistence by setting the value \u201cShell\u201d with \u201cexplorer.exe, %malware_pathfile%\u201d under the Registry key <code>HKCU\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon</code>.",
+            "description": "{{LinkById|S0168}} can establish persistence by setting the value \u201cShell\u201d with \u201cexplorer.exe, %malware_pathfile%\u201d under the Registry key <code>HKCU\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon</code>.",
             "external_references": [
                 {
                     "url": "https://www.welivesecurity.com/wp-content/uploads/2017/08/eset-gazer.pdf",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0168}} can establish persistence by setting the value \u201cShell\u201d with \u201cexplorer.exe, %malware_pathfile%\u201d under the Registry key <code>HKCU\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon</code>.",
             "source_ref": "malware--76abb3ef-dafd-4762-97cb-a35379429db4",
             "target_ref": "attack-pattern--514ede4c-78b3-4d78-a38b-daddf6217a79"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--23d14059-a01d-4f04-9df6-2438b26e84a4",
+    "id": "bundle--6e037d5a-2af0-4d80-bcde-0d74b1726055",
     "spec_version": "2.0",
     "objects": [
         {
@@ -42,7 +42,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "An adversary who is able to obtain unauthorized access to or misuse authorized access to cloud backup services (e.g. Google's Android backup service or Apple's iCloud) could use that access to obtain sensitive data stored in device backups. For example, the Elcomsoft Phone Breaker product advertises the ability to retrieve iOS backup data from Apple's iCloud (Citation: Elcomsoft-EPPB).",
+            "x_mitre_detection": "Google provides the ability for users to view their account activity. Apple iCloud also provides notifications to users of account activity.",
             "x_mitre_platforms": [
                 "Android",
                 "iOS"

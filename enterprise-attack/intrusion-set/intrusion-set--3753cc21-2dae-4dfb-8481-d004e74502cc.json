@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e5b89a71-653d-437f-b2c9-501ec6f0ffbd",
+    "id": "bundle--0b61ac61-8344-460b-82a6-c868f98ce824",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,7 +10,7 @@
             "created": "2017-05-31T21:32:09.460Z",
             "modified": "2018-06-27T14:18:47.700Z",
             "name": "FIN7",
-            "description": "FIN7 is a financially motivated threat group that has primarily targeted the retail and hospitality sectors, often using point-of-sale malware. It is sometimes referred to as Carbanak Group, but these appear to be two groups using the same Carbanak malware and are therefore tracked separately. (Citation: FireEye FIN7 March 2017) (Citation: FireEye FIN7 April 2017)",
+            "description": "{{LinkById|G0046}} is a financially motivated threat group that has primarily targeted the retail and hospitality sectors, often using point-of-sale malware. It is sometimes referred to as {{LinkById|G0008}} Group, but these appear to be two groups using the same {{LinkById|S0030}} malware and are therefore tracked separately. (Citation: FireEye FIN7 March 2017) (Citation: FireEye FIN7 April 2017)",
             "aliases": [
                 "FIN7"
             ],
@@ -47,8 +47,7 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "x_mitre_detection": "{{LinkById|G0046}} is a financially motivated threat group that has primarily targeted the retail and hospitality sectors, often using point-of-sale malware. It is sometimes referred to as {{LinkById|G0008}} Group, but these appear to be two groups using the same {{LinkById|S0030}} malware and are therefore tracked separately. (Citation: FireEye FIN7 March 2017) (Citation: FireEye FIN7 April 2017)"
+            ]
         }
     ]
 }

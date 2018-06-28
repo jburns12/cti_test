@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8652975f-bd29-48bf-bb53-287f991d3db0",
+    "id": "bundle--c2001bc1-a99a-4192-9aee-005baedc2cd8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -37,8 +37,7 @@
                     "description": "Mathers, B. (2017, May 31). Windows Time Service Tools and Settings. Retrieved March 26, 2018.",
                     "source_name": "Microsoft W32Time May 2017"
                 }
-            ],
-            "x_mitre_detection": "Identify and block potentially malicious software that may be executed as a time provider by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) that are capable of auditing and/or blocking unknown DLLs.\n\nConsider using Group Policy to configure and block subsequent modifications to W32Time parameters. (Citation: Microsoft W32Time May 2017)"
+            ]
         }
     ]
 }

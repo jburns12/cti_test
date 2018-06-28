@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--26b4821a-751a-4b8e-ac6e-b9e7e0598494",
+    "id": "bundle--6023aecb-c584-496f-9b99-067dc50d860b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Mimikatz's <code>DPAPI</code> module can harvest protected credentials stored and/or cached by browsers and other user applications by interacting with Windows cryptographic application programming interface (API) functions.",
+            "description": "{{LinkById|S0002}}'s <code>DPAPI</code> module can harvest protected credentials stored and/or cached by browsers and other user applications by interacting with Windows cryptographic application programming interface (API) functions.",
             "external_references": [
                 {
                     "url": "https://adsecurity.org/?page%20id=1821",
@@ -25,7 +25,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0002}}'s <code>DPAPI</code> module can harvest protected credentials stored and/or cached by browsers and other user applications by interacting with Windows cryptographic application programming interface (API) functions.",
             "source_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
             "target_ref": "attack-pattern--ba8e391f-14b5-496f-81f2-2d5ecd646c1c"
         }

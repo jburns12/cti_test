@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3526c6bc-ab4e-41a4-808f-f1656e311551",
+    "id": "bundle--4c5f2645-c9b0-4d4f-8340-43d682715a3d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "BRONZE BUTLER has collected a list of files from the victim and uploaded it to its C2 server, and then created a new list of specific files to steal.",
+            "description": "{{LinkById|G0060}} has collected a list of files from the victim and uploaded it to its C2 server, and then created a new list of specific files to steal.",
             "external_references": [
                 {
                     "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0060}} has collected a list of files from the victim and uploaded it to its C2 server, and then created a new list of specific files to steal.",
             "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
             "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18"
         }

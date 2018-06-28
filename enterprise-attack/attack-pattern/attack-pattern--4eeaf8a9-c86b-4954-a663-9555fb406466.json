@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--67e01eac-a874-43aa-979d-50c5d630f58c",
+    "id": "bundle--2d9fc8a4-0b6c-4a88-adc0-e14810d49cb8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,7 +27,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Data exfiltration may be performed only at certain times of day or at certain intervals.  This could be done to blend traffic patterns with normal activity or availability.\n\nWhen scheduled exfiltration is used, other exfiltration techniques likely apply as well to transfer the information out of the network, such as Exfiltration Over Command and Control Channel and Exfiltration Over Alternative Protocol.",
+            "x_mitre_detection": "Monitor process file access patterns and network behavior. Unrecognized processes or scripts that appear to be traversing file systems and sending network traffic may be suspicious. Network connections to the same destination that occur at the same time of day for multiple days are suspicious.",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",

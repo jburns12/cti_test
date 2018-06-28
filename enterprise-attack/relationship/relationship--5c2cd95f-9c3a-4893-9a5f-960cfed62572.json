@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0fe081b6-6d51-48d6-831f-900002a1b8ce",
+    "id": "bundle--806495eb-a903-41f2-b645-8d94b3355446",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "MuddyWater has used Daniel Bohannon\u2019s Invoke-Obfuscation framework. The group also used files with base64 encoded PowerShell commands.",
+            "description": "{{LinkById|G0069}} has used Daniel Bohannon\u2019s Invoke-Obfuscation framework. The group also used files with base64 encoded PowerShell commands.",
             "external_references": [
                 {
                     "url": "https://researchcenter.paloaltonetworks.com/2017/11/unit42-muddying-the-water-targeted-attacks-in-the-middle-east/",
@@ -30,7 +30,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0069}} has used Daniel Bohannon\u2019s Invoke-Obfuscation framework. The group also used files with base64 encoded PowerShell commands.",
             "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
             "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a"
         }

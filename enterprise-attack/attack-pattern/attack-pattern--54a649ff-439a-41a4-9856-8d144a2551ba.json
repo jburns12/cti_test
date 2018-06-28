@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ea822e5a-ddfc-4567-a850-167356299273",
+    "id": "bundle--9595815b-7d7e-4cec-a340-855a7beed89a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,7 +27,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "An adversary may use {{LinkById|T1078}} to log into a service specifically designed to accept remote connections, such as telnet, SSH, and VNC. The adversary may then perform actions as the logged-on user.",
+            "x_mitre_detection": "Correlate use of login activity related to remote services with unusual behavior or other malicious or suspicious activity. Adversaries will likely need to learn about an environment and the relationships between systems through Discovery techniques prior to attempting Lateral Movement.",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5d8d6590-e250-4b10-a9a2-7cf2e373fb9a",
+    "id": "bundle--55f9d171-c138-442c-9ff3-7d2e35bb3f30",
     "spec_version": "2.0",
     "objects": [
         {
@@ -45,7 +45,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Adversaries can use methods of capturing user input for obtaining credentials for {{LinkById|T1078}} and information Collection that include keylogging and user input field interception.\n\nKeylogging is the most prevalent type of input capture, with many different ways of intercepting keystrokes, (Citation: Adventures of a Keystroke) but other methods exist to target information for specific purposes, such as performing a UAC prompt or wrapping the Windows default credential provider. (Citation: Wrightson 2012)\n\nKeylogging is likely to be used to acquire credentials for new access opportunities when {{LinkById|T1003}} efforts are not effective, and may require an adversary to remain passive on a system for a period of time before an opportunity arises.\n\nAdversaries may also install code on externally facing portals, such as a VPN login page, to capture and transmit credentials of users who attempt to log into the service. This variation on input capture may be conducted post-compromise using legitimate administrative access as a backup measure to maintain network access through {{LinkById|T1133}} and {{LinkById|T1078}} or as part of the initial compromise by exploitation of the externally facing web service. (Citation: Volexity Virtual Private Keylogging)",
+            "x_mitre_detection": "Keyloggers may take many forms, possibly involving modification to the Registry and installation of a driver, setting a hook, or polling to intercept keystrokes. Commonly used API calls include SetWindowsHook, GetKeyState, and GetAsynceyState. (Citation: Adventures of a Keystroke) Monitor the Registry and file system for such changes and detect driver installs, as well as looking for common keylogging API calls. API calls alone are not an indicator of keylogging, but may provide behavioral data that is useful when combined with other information such as new files written to disk and unusual processes.\n\nMonitor the Registry for the addition of a Custom Credential Provider. (Citation: Wrightson 2012) Detection of compromised Valid Accounts Mitigation in use by adversaries may help to catch the result of user input interception if new techniques are used.",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",

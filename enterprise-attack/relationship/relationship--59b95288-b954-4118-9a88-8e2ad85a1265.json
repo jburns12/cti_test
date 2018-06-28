@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d7d84372-1184-4809-97d1-7cd2deaa6e76",
+    "id": "bundle--0afff5b8-d6f4-4c35-85b7-872d1a422a78",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Dragonfly leveraged Outlook Web Access.",
+            "description": "{{LinkById|G0035}} leveraged Outlook Web Access.",
             "external_references": [
                 {
                     "url": "https://www.us-cert.gov/ncas/alerts/TA17-293A",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|G0035}} leveraged Outlook Web Access.",
             "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
             "target_ref": "attack-pattern--1608f3e1-598a-42f4-a01a-2e252e81728f"
         }

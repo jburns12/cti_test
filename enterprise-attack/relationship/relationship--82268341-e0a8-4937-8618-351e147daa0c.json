@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d2c8e435-5061-4e35-a8ca-1a7317acf7a6",
+    "id": "bundle--78be5a7c-153d-4447-9449-9e10635a8fda",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "It is believed that a patch management system for an anti-virus product commonly installed among targeted companies was used to distribute the Wiper malware.",
+            "description": "It is believed that a patch management system for an anti-virus product commonly installed among targeted companies was used to distribute the {{LinkById|S0041}} malware.",
             "external_references": [
                 {
                     "url": "http://www.secureworks.com/cyber-threat-intelligence/threats/wiper-malware-analysis-attacking-korean-financial-sector/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "It is believed that a patch management system for an anti-virus product commonly installed among targeted companies was used to distribute the {{LinkById|S0041}} malware.",
             "source_ref": "malware--a19c49aa-36fe-4c05-b817-23e1c7a7d085",
             "target_ref": "attack-pattern--92a78814-b191-47ca-909c-1ccfe3777414"
         }

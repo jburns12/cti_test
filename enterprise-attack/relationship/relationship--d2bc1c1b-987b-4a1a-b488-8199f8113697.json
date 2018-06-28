@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5e560caf-d989-40b8-b787-18f4df08042f",
+    "id": "bundle--eef1228c-89c9-4a89-b4f3-c9efaa0161fb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Daserf can log keystrokes.",
+            "description": "{{LinkById|S0187}} can log keystrokes.",
             "external_references": [
                 {
                     "url": "http://blog.trendmicro.com/trendlabs-security-intelligence/redbaldknight-bronze-butler-daserf-backdoor-now-using-steganography/",
@@ -25,7 +25,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0187}} can log keystrokes.",
             "source_ref": "malware--b6b3dfc7-9a81-43ff-ac04-698bad48973a",
             "target_ref": "attack-pattern--bb5a00de-e086-4859-a231-fa793f6797e2"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7576b640-a064-4512-acbb-5a8aaa42d15f",
+    "id": "bundle--641373d4-3846-4a0d-9be8-16366d7674e8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Rover has functionality to remove Registry Run key persistence as a cleanup procedure.",
+            "description": "{{LinkById|S0090}} has functionality to remove Registry Run key persistence as a cleanup procedure.",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2016/02/new-malware-rover-targets-indian-ambassador-to-afghanistan/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0090}} has functionality to remove Registry Run key persistence as a cleanup procedure.",
             "source_ref": "malware--6b616fc1-1505-48e3-8b2c-0d19337bff38",
             "target_ref": "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4"
         }

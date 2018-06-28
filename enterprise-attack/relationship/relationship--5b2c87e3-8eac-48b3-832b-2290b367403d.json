@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c67df1c8-e6d4-455d-9e27-dcd36454e522",
+    "id": "bundle--63bae75e-4d89-4da1-873a-a33c4857ad7b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "BlackEnergy has gathered information about local network connections using netstat.",
+            "description": "{{LinkById|S0089}} has gathered information about local network connections using {{LinkById|S0104}}.",
             "external_references": [
                 {
                     "url": "https://www.f-secure.com/documents/996508/1030745/blackenergy%20whitepaper.pdf",
@@ -25,7 +25,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0089}} has gathered information about local network connections using {{LinkById|S0104}}.",
             "source_ref": "malware--54cc1d4f-5c53-4f0e-9ef5-11b4998e82e4",
             "target_ref": "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475"
         }

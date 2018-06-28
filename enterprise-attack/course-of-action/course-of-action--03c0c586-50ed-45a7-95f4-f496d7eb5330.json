@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ba9e813c-1a4b-4497-801e-f032384d52c7",
+    "id": "bundle--8dc55f60-6714-492f-a156-d8cdd8f3b5d9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -21,8 +21,7 @@
                     "description": "Mathew Branwell. (2012, March 21). Securing .bash_history file. Retrieved July 8, 2017.",
                     "source_name": "Securing bash history"
                 }
-            ],
-            "x_mitre_detection": "Prevent users from changing the <code>HISTCONTROL</code> environment variable (Citation: Securing bash history). Also, make sure that the <code>HISTCONTROL</code> environment variable is set to \u201cignoredup\u201d instead of \u201cignoreboth\u201d or \u201cignorespace\u201d."
+            ]
         }
     ]
 }

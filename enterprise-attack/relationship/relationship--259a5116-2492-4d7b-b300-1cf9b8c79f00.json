@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2c9f8cc8-0b5a-4bc1-8435-eeabe9226419",
+    "id": "bundle--b3e06811-b276-4812-a524-9bd994314a23",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Helminth samples have been signed with legitimate, compromised code signing certificates owned by software company AI Squared.",
+            "description": "{{LinkById|S0170}} samples have been signed with legitimate, compromised code signing certificates owned by software company AI Squared.",
             "external_references": [
                 {
                     "url": "http://www.clearskysec.com/oilrig/",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0170}} samples have been signed with legitimate, compromised code signing certificates owned by software company AI Squared.",
             "source_ref": "malware--eff1a885-6f90-42a1-901f-eef6e7a1905e",
             "target_ref": "attack-pattern--1b84d551-6de8-4b96-9930-d177677c3b1d"
         }

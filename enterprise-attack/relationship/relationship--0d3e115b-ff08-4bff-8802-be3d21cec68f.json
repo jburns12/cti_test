@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--486b04b5-5b34-42b4-846f-1a26c5edda98",
+    "id": "bundle--7297f824-1403-4a94-b3c7-8c23c41f40c9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Prikormka encrypts some C2 traffic with the Blowfish cipher.",
+            "description": "{{LinkById|S0113}} encrypts some C2 traffic with the Blowfish cipher.",
             "external_references": [
                 {
                     "url": "http://www.welivesecurity.com/wp-content/uploads/2016/05/Operation-Groundbait.pdf",
@@ -20,7 +20,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "{{LinkById|S0113}} encrypts some C2 traffic with the Blowfish cipher.",
             "source_ref": "malware--37cc7eb6-12e3-467b-82e8-f20f2cc73c69",
             "target_ref": "attack-pattern--4b74a1d4-b0e9-4ef1-93f1-14ecc6e2f5b5"
         }
