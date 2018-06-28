@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d76e2976-386a-4297-8d59-eeee3bec514d",
+    "id": "bundle--3b54bcd4-f3a9-4059-9755-ead646c5397a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -37,7 +37,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Monitor handle opens on drive volumes that are made by processes to determine when they may directly access logical drives. (Citation: Github PowerSploit Ninjacopy)\n\nMonitor processes and command-line arguments for actions that could be taken to copy files from the logical drive and evade common file system protections. Since this technique may also be used through PowerShell Mitigation, additional logging of PowerShell scripts is recommended.",
+            "x_mitre_detection": "Monitor handle opens on drive volumes that are made by processes to determine when they may directly access logical drives. (Citation: Github PowerSploit Ninjacopy)\n\nMonitor processes and command-line arguments for actions that could be taken to copy files from the logical drive and evade common file system protections. Since this technique may also be used through cmd, additional logging of PowerShell scripts is recommended.",
             "x_mitre_platforms": [
                 "Windows"
             ],

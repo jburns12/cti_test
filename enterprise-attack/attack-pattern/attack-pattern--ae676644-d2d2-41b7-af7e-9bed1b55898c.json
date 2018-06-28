@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bd81af37-dec4-4676-b7d2-8a89158c9e8c",
+    "id": "bundle--3e4d65fc-0b94-4153-8e79-866968fe8895",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,7 +27,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Monitor processes and command-line arguments for actions that could be taken to collect files from a network share. Remote access tools with built-in features may interact directly with the Windows API to gather data. Data may also be acquired through Windows system management tools such as Windows Management Instrumentation Mitigation and PowerShell Mitigation.",
+            "x_mitre_detection": "Monitor processes and command-line arguments for actions that could be taken to collect files from a network share. Remote access tools with built-in features may interact directly with the Windows API to gather data. Data may also be acquired through Windows system management tools such as cmd and cmd.",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",

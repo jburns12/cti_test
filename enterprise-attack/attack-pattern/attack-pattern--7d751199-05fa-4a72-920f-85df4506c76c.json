@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--98ebdda7-2f5d-4791-82f9-97f35a5ef713",
+    "id": "bundle--88f07976-4326-4dea-9381-93e24cb9f579",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,7 +27,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "When observing use of Multi-hop proxies, network data from the actual command and control servers could allow correlating incoming and outgoing flows to trace malicious traffic back to its source. Multi-hop proxies can also be detected by alerting on traffic to known anonymity networks (such as Tor) or known adversary infrastructure that uses this technique.",
+            "x_mitre_detection": "When observing use of Multi-hop proxies, network data from the actual command and control servers could allow correlating incoming and outgoing flows to trace malicious traffic back to its source. Multi-hop proxies can also be detected by alerting on traffic to known anonymity networks (such as Pass the Hash Mitigation) or known adversary infrastructure that uses this technique.",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",

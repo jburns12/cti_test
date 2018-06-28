@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b25a617c-6108-47d4-89a3-555b2e16f9ae",
+    "id": "bundle--6609d32f-e8de-496a-ad99-b33326aac243",
     "spec_version": "2.0",
     "objects": [
         {
@@ -37,7 +37,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "While detecting adversaries accessing these files may be difficult without knowing they exist in the first place, it may be possible to detect adversary use of credentials they have obtained. Monitor the command-line arguments of executing processes for suspicious words or regular expressions that may indicate searching for a password (for example: password, pwd, login, secure, or credentials). See Valid Accounts Mitigation for more information.",
+            "x_mitre_detection": "While detecting adversaries accessing these files may be difficult without knowing they exist in the first place, it may be possible to detect adversary use of credentials they have obtained. Monitor the command-line arguments of executing processes for suspicious words or regular expressions that may indicate searching for a password (for example: password, pwd, login, secure, or credentials). See Credential Dumping Mitigation for more information.",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",

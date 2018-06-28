@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e21e190c-f07e-4ce2-aac8-13c3b0e71c43",
+    "id": "bundle--0b79cd91-d1c4-4df4-85cc-144e3538dcb0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -42,7 +42,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "It is difficult to detect when hashes are cracked, since this is generally done outside the scope of the target network. \n\nMonitor authentication logs for system and application login failures of Valid Accounts Mitigation. If authentication failures are high, then there may be a brute force attempt to gain access to a system using legitimate credentials.\n\nAlso monitor for many failed authentication attempts across various accounts that may result from password spraying attempts.",
+            "x_mitre_detection": "It is difficult to detect when hashes are cracked, since this is generally done outside the scope of the target network. \n\nMonitor authentication logs for system and application login failures of Pass the Hash Mitigation. If authentication failures are high, then there may be a brute force attempt to gain access to a system using legitimate credentials.\n\nAlso monitor for many failed authentication attempts across various accounts that may result from password spraying attempts.",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",

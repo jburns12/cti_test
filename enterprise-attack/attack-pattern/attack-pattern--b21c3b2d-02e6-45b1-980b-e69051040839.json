@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--11fc3ddc-6732-4b8d-a3b2-ffd04560c0df",
+    "id": "bundle--0d294290-d546-4f61-90f9-49bf7a5a4085",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,7 +27,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Detecting software exploitation may be difficult depending on the tools available. Software exploits may not always succeed or may cause the exploited process to become unstable or crash. Also look for behavior on the endpoint system that might indicate successful compromise, such as abnormal behavior of the processes. This could include suspicious files written to disk, evidence of Process Injection Mitigation for attempts to hide execution or evidence of Discovery.\n\nHigher privileges are often necessary to perform additional actions such as some methods of Credential Dumping Mitigation. Look for additional activity that may indicate an adversary has gained higher privileges.",
+            "x_mitre_detection": "Detecting software exploitation may be difficult depending on the tools available. Software exploits may not always succeed or may cause the exploited process to become unstable or crash. Also look for behavior on the endpoint system that might indicate successful compromise, such as abnormal behavior of the processes. This could include suspicious files written to disk, evidence of User Execution Mitigation for attempts to hide execution or evidence of Discovery.\n\nHigher privileges are often necessary to perform additional actions such as some methods of User Execution Mitigation. Look for additional activity that may indicate an adversary has gained higher privileges.",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",

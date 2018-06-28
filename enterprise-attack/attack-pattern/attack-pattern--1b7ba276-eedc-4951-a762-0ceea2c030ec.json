@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e8f3c4cf-bdc4-4a8f-9e4e-6f7fd1c6e0e8",
+    "id": "bundle--a8da0edd-b50c-4a86-bdb9-12d056257751",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,7 +27,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Monitor processes and command-line arguments for actions that could be taken to collect files from a system's connected removable media. Remote access tools with built-in features may interact directly with the Windows API to gather data. Data may also be acquired through Windows system management tools such as Windows Management Instrumentation Mitigation and PowerShell Mitigation.",
+            "x_mitre_detection": "Monitor processes and command-line arguments for actions that could be taken to collect files from a system's connected removable media. Remote access tools with built-in features may interact directly with the Windows API to gather data. Data may also be acquired through Windows system management tools such as Automated Collection Mitigation and Automated Collection Mitigation.",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--04f6af99-4377-4ec7-becb-b5e4b750c61d",
+    "id": "bundle--dffdbbe7-308e-443e-a779-ebf6b9fec6ac",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,7 +27,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Monitor processes and command-line arguments for actions that could be taken to gather browser bookmark information. Remote access tools with built-in features may interact directly using APIs to gather information. Information may also be acquired through system management tools such as Windows Management Instrumentation Mitigation and PowerShell Mitigation.\n\nSystem and network discovery techniques normally occur throughout an operation as an adversary learns the environment. Data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities, such as Collection and Exfiltration, based on the information obtained.",
+            "x_mitre_detection": "Monitor processes and command-line arguments for actions that could be taken to gather browser bookmark information. Remote access tools with built-in features may interact directly using APIs to gather information. Information may also be acquired through system management tools such as Credentials in Files Mitigation and Credentials in Files Mitigation.\n\nSystem and network discovery techniques normally occur throughout an operation as an adversary learns the environment. Data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities, such as Collection and Exfiltration, based on the information obtained.",
             "x_mitre_platforms": [
                 "Linux",
                 "Windows",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--88a9e631-8a12-419c-b14d-44c825495850",
+    "id": "bundle--20206951-511e-4117-9db2-740a6a4c83f9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,7 +27,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Monitor the execution of and command-line arguments for applications that may be used by an adversary to gain Initial Access that require user interaction. This includes compression applications, such as those for zip files, that can be used to Deobfuscate/Decode Files or Information Mitigation in payloads.\n\nAnti-virus can potentially detect malicious documents and files that are downloaded and execuited on the user's computer. Endpoint sensing or network sensing can potentially detect malicious events once the file is opened (such as a Microsoft Word document or PDF reaching out to the internet or spawning Powershell.exe) for techniques such as Exploitation for Client Execution Mitigation and Scripting Mitigation.",
+            "x_mitre_detection": "Monitor the execution of and command-line arguments for applications that may be used by an adversary to gain Initial Access that require user interaction. This includes compression applications, such as those for zip files, that can be used to Exploitation for Client Execution Mitigation in payloads.\n\nAnti-virus can potentially detect malicious documents and files that are downloaded and execuited on the user's computer. Endpoint sensing or network sensing can potentially detect malicious events once the file is opened (such as a Microsoft Word document or PDF reaching out to the internet or spawning Powershell.exe) for techniques such as Exploitation for Client Execution Mitigation and Exploitation for Client Execution Mitigation.",
             "x_mitre_platforms": [
                 "Linux",
                 "Windows",
