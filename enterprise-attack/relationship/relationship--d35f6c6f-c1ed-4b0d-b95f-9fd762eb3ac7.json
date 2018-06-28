@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b51348cf-d703-4223-b33e-e85fae96f3b6",
+    "id": "bundle--e0a173ca-2637-4f0f-8f99-aefbd77f4b55",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.066Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Several {{LinkById|G0032}} malware families use timestomping, including modifying the last write timestamp of a specified Registry key to a random date, as well as copying the timestamp for legitimate .exe files (such as calc.exe or mspaint.exe) to its dropped files.",
+            "description": "Several Lazarus Group malware families use timestomping, including modifying the last write timestamp of a specified Registry key to a random date, as well as copying the timestamp for legitimate .exe files (such as calc.exe or mspaint.exe) to its dropped files.",
             "external_references": [
                 {
                     "url": "https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Report.pdf",

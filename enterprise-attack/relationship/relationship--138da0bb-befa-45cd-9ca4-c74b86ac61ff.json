@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cabfd51d-b1ba-4977-966b-43885ee59e64",
+    "id": "bundle--7c25f8f0-67e8-4589-859c-f6f69c2ea4c1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "{{LinkById|S0204}} uses rundll32 within {{LinkById|T1060}} entries to execute malicious DLLs.",
+            "description": "Briba uses rundll32 within Registry Run Keys / Start Folder Mitigation entries to execute malicious DLLs.",
             "external_references": [
                 {
                     "url": "https://www.symantec.com/security%20response/writeup.jsp?docid=2012-051515-2843-99",

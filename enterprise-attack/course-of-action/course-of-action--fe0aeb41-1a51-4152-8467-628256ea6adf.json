@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9d41e133-2031-4f66-a1c0-a1a813959c3d",
+    "id": "bundle--2a60311a-f6bc-4c52-9649-0a04d7cbf51f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,7 +10,7 @@
             "created": "2018-06-27T14:18:47.700Z",
             "modified": "2018-06-27T14:18:47.700Z",
             "name": "Modify Existing Service Mitigation",
-            "description": "Use auditing tools capable of detecting privilege and service abuse opportunities on systems within an enterprise and correct them. Limit privileges of user accounts and groups so that only authorized administrators can interact with service changes and service configurations. Toolkits like the PowerSploit framework contain the PowerUp modules that can be used to explore systems for [[Privilege Escalation]] weaknesses. (Citation: Powersploit)\n\nIdentify and block potentially malicious software that may be executed through service abuse by using whitelisting (Citation: Beechey 2010) tools like AppLocker (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) that are capable of auditing and/or blocking unknown programs.",
+            "description": "Use auditing tools capable of detecting privilege and service abuse opportunities on systems within an enterprise and correct them. Limit privileges of user accounts and groups so that only authorized administrators can interact with service changes and service configurations. Toolkits like the PowerSploit framework contain the PowerUp modules that can be used to explore systems for Privilege Escalation weaknesses. (Citation: Powersploit)\n\nIdentify and block potentially malicious software that may be executed through service abuse by using whitelisting (Citation: Beechey 2010) tools like AppLocker (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) that are capable of auditing and/or blocking unknown programs.",
             "external_references": [
                 {
                     "external_id": "T1031",

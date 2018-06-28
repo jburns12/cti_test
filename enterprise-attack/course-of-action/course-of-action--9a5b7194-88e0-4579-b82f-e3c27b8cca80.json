@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--86b4dd06-1b91-4dfa-a151-702bf39f057c",
+    "id": "bundle--6dd518dd-ce33-45cd-a558-aa56059c0b68",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,7 +10,7 @@
             "created": "2018-06-27T14:18:47.700Z",
             "modified": "2018-06-27T14:18:47.700Z",
             "name": "Create Account Mitigation",
-            "description": "Use and enforce multifactor authentication. Follow guidelines to prevent or limit adversary access to {{LinkById|T1078}} that may be used to create privileged accounts within an environment.\n\nAdversaries that create local accounts on systems may have limited access within a network if access levels are properly locked down. These accounts may only be needed for persistence on individual systems and their usefulness depends on the utility of the system they reside on.\n\nProtect domain controllers by ensuring proper security configuration for critical servers. Configure access controls and firewalls to limit access to these systems. Do not allow domain administrator accounts to be used for day-to-day operations that may expose them to potential adversaries on unprivileged systems.",
+            "description": "Use and enforce multifactor authentication. Follow guidelines to prevent or limit adversary access to Valid Accounts Mitigation that may be used to create privileged accounts within an environment.\n\nAdversaries that create local accounts on systems may have limited access within a network if access levels are properly locked down. These accounts may only be needed for persistence on individual systems and their usefulness depends on the utility of the system they reside on.\n\nProtect domain controllers by ensuring proper security configuration for critical servers. Configure access controls and firewalls to limit access to these systems. Do not allow domain administrator accounts to be used for day-to-day operations that may expose them to potential adversaries on unprivileged systems.",
             "external_references": [
                 {
                     "external_id": "T1136",

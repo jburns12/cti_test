@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c69ecacd-114c-42b2-8043-065bb31491d7",
+    "id": "bundle--71b23a87-859b-435a-bc05-04bb8b2e9888",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "The {{LinkById|S0002}} credential dumper has been extended to include Skeleton Key domain controller authentication bypass functionality. The <code>LSADUMP::ChangeNTLM</code> and <code>LSADUMP::SetNTLM</code> modules can also manipulate the password hash of an account without knowing the clear text value.",
+            "description": "The Mimikatz credential dumper has been extended to include Skeleton Key domain controller authentication bypass functionality. The <code>LSADUMP::ChangeNTLM</code> and <code>LSADUMP::SetNTLM</code> modules can also manipulate the password hash of an account without knowing the clear text value.",
             "external_references": [
                 {
                     "url": "https://adsecurity.org/?page%20id=1821",

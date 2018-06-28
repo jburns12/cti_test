@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1c03f27c-2c83-4d23-8b43-d89c9e564968",
+    "id": "bundle--9ba50e5e-b6c8-409d-957b-a79c7cbceaf1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,7 +10,7 @@
             "created": "2018-06-27T14:18:47.700Z",
             "modified": "2018-06-27T14:18:47.700Z",
             "name": "Web Shell Mitigation",
-            "description": "Ensure that externally facing Web servers are patched regularly to prevent adversary access through {{LinkById|T1068}} to gain remote code access or through file inclusion weaknesses that may allow adversaries to upload files or scripts that are automatically served as Web pages. \n\nAudit account and group permissions to ensure that accounts used to manage servers do not overlap with accounts and permissions of users in the internal network that could be acquired through [[Credential Access]] and used to log into the Web server and plant a Web shell or pivot from the Web server into the internal network. (Citation: US-CERT Alert TA15-314A Web Shells)",
+            "description": "Ensure that externally facing Web servers are patched regularly to prevent adversary access through Exploitation for Privilege Escalation Mitigation to gain remote code access or through file inclusion weaknesses that may allow adversaries to upload files or scripts that are automatically served as Web pages. \n\nAudit account and group permissions to ensure that accounts used to manage servers do not overlap with accounts and permissions of users in the internal network that could be acquired through Credential Access and used to log into the Web server and plant a Web shell or pivot from the Web server into the internal network. (Citation: US-CERT Alert TA15-314A Web Shells)",
             "external_references": [
                 {
                     "external_id": "T1100",

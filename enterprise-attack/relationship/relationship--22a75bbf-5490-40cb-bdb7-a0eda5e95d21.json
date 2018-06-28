@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5a04eac9-24f5-40b8-aa2a-99f9ca833913",
+    "id": "bundle--33bfc393-62d3-47fe-98f7-a90afb91a1a0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "After decrypting itself in memory, {{LinkById|S0055}} downloads a DLL file from its C2 server and loads it in the memory space of a hidden Internet Explorer process. This \u201cdownloaded\u201d file is actually not dropped onto the system.",
+            "description": "After decrypting itself in memory, RARSTONE downloads a DLL file from its C2 server and loads it in the memory space of a hidden Internet Explorer process. This \u201cdownloaded\u201d file is actually not dropped onto the system.",
             "external_references": [
                 {
                     "url": "http://blog.trendmicro.com/trendlabs-security-intelligence/bkdr%20rarstone-new-rat-to-watch-out-for/",

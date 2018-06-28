@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d8324911-5056-422c-9766-89e46493bc18",
+    "id": "bundle--b36e1ecd-275e-4b5a-b6fc-4a67fd545227",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,7 +10,7 @@
             "created": "2017-05-31T21:31:22.374Z",
             "modified": "2018-06-27T14:18:47.700Z",
             "name": "Component Firmware",
-            "description": "Some adversaries may employ sophisticated means to compromise computer components and install malicious firmware that will execute adversary code outside of the operating system and main system firmware or BIOS. This technique may be similar to {{LinkById|T1019}} but conducted upon other system components that may not have the same capability or level of integrity checking. Malicious device firmware could provide both a persistent level of access to systems despite potential typical failures to maintain access and hard disk re-images, as well as a way to evade host software-based defenses and integrity checks.",
+            "description": "Some adversaries may employ sophisticated means to compromise computer components and install malicious firmware that will execute adversary code outside of the operating system and main system firmware or BIOS. This technique may be similar to System Firmware Mitigation but conducted upon other system components that may not have the same capability or level of integrity checking. Malicious device firmware could provide both a persistent level of access to systems despite potential typical failures to maintain access and hard disk re-images, as well as a way to evade host software-based defenses and integrity checks.",
             "kill_chain_phases": [
                 {
                     "phase_name": "defense-evasion",

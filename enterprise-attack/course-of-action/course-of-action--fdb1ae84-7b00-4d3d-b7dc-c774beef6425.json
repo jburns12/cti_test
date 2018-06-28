@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4a79b81e-fd47-417c-84fd-f8f273f7c2cc",
+    "id": "bundle--ebfecdd1-bc84-4210-9f0e-110fe46962e6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,7 +10,7 @@
             "created": "2018-06-27T14:18:47.700Z",
             "modified": "2018-06-27T14:18:47.700Z",
             "name": "Account Manipulation Mitigation",
-            "description": "Use multifactor authentication. Follow guidelines to prevent or limit adversary access to {{LinkById|T1078}}.\n\nProtect domain controllers by ensuring proper security configuration for critical servers. Configure access controls and firewalls to limit access to these systems. Do not allow domain administrator accounts to be used for day-to-day operations that may expose them to potential adversaries on unprivileged systems.",
+            "description": "Use multifactor authentication. Follow guidelines to prevent or limit adversary access to Valid Accounts Mitigation.\n\nProtect domain controllers by ensuring proper security configuration for critical servers. Configure access controls and firewalls to limit access to these systems. Do not allow domain administrator accounts to be used for day-to-day operations that may expose them to potential adversaries on unprivileged systems.",
             "external_references": [
                 {
                     "external_id": "T1098",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cd811abe-5add-4fea-95e6-7ddcb263ece3",
+    "id": "bundle--66adbded-3109-43e8-ad04-a6184f87b0a4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,7 +10,7 @@
             "created": "2018-06-27T14:18:47.700Z",
             "modified": "2018-06-27T14:18:47.700Z",
             "name": "Input Capture Mitigation",
-            "description": "Identify and block potentially malicious software that may be used to acquire credentials or information from the user by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)\n\nIn cases where this behavior is difficult to detect or mitigate, efforts can be made to lessen some of the impact that might result from an adversary acquiring credential information. It is also good practice to follow mitigation recommendations for adversary use of {{LinkById|T1078}}.",
+            "description": "Identify and block potentially malicious software that may be used to acquire credentials or information from the user by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)\n\nIn cases where this behavior is difficult to detect or mitigate, efforts can be made to lessen some of the impact that might result from an adversary acquiring credential information. It is also good practice to follow mitigation recommendations for adversary use of Valid Accounts Mitigation.",
             "external_references": [
                 {
                     "external_id": "T1056",

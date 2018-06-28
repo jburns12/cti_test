@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8680b292-6ddc-49e7-845a-7736465ff7c0",
+    "id": "bundle--5e4ed14f-fad7-4c43-a09f-85b384cea53d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "{{LinkById|G0050}} created a {{LinkById|T1053}} that used regsvr32.exe to execute a COM scriptlet that dynamically downloaded a backdoor and injected it into memory.",
+            "description": "APT32 created a Scheduled Task Mitigation that used regsvr32.exe to execute a COM scriptlet that dynamically downloaded a backdoor and injected it into memory.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html",

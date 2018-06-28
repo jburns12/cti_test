@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d339c63c-f47c-43fa-8e27-0caf1fb7ba49",
+    "id": "bundle--a8b654e2-9c5d-4be7-a7b9-be9e96f9571b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "{{LinkById|S0177}} overwrites Explorer\u2019s Shell_TrayWnd extra window memory to redirect execution to a NTDLL function that is abused to assemble and execute a return-oriented programming (ROP) chain and create a malicious thread within Explorer.exe.",
+            "description": "Power Loader overwrites Explorer\u2019s Shell_TrayWnd extra window memory to redirect execution to a NTDLL function that is abused to assemble and execute a return-oriented programming (ROP) chain and create a malicious thread within Explorer.exe.",
             "external_references": [
                 {
                     "url": "https://www.malwaretech.com/2013/08/powerloader-injection-something-truly.html",

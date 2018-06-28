@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6a8caa8d-d79c-4723-9844-83af0349ee45",
+    "id": "bundle--44d8f5d7-c5b5-43d4-a2f6-167527348a7e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,7 +10,7 @@
             "created": "2018-06-27T14:18:47.700Z",
             "modified": "2018-06-27T14:18:47.700Z",
             "name": "Remote Services Mitigation",
-            "description": "Limit the number of accounts that may use remote services. Use multifactor authentication where possible. Limit the permissions for accounts that are at higher risk of compromise; for example, configure SSH so users can only run specific programs. Prevent [[Credential Access]] techniques that may allow an adversary to acquire {{LinkById|T1078}} that can be used by existing services.",
+            "description": "Limit the number of accounts that may use remote services. Use multifactor authentication where possible. Limit the permissions for accounts that are at higher risk of compromise; for example, configure SSH so users can only run specific programs. Prevent Credential Access techniques that may allow an adversary to acquire Valid Accounts Mitigation that can be used by existing services.",
             "external_references": [
                 {
                     "external_id": "T1021",

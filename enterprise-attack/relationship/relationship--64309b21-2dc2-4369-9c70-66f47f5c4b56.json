@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6b6cb445-7f35-460a-a675-3d1958ac5917",
+    "id": "bundle--e1d1d385-0c11-4eb8-bc10-e1900cd21877",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "{{LinkById|S0126}} samples have been seen which hijack COM objects for persistence by replacing the path to shell32.dll in registry location <code>HKCU\\Software\\Classes\\CLSID\\{42aedc87-2188-41fd-b9a3-0c966feabec1}\\InprocServer32</code>.",
+            "description": "ComRAT samples have been seen which hijack COM objects for persistence by replacing the path to shell32.dll in registry location <code>HKCU\\Software\\Classes\\CLSID\\{42aedc87-2188-41fd-b9a3-0c966feabec1}\\InprocServer32</code>.",
             "external_references": [
                 {
                     "url": "https://www.nsec.io/wp-content/uploads/2015/05/uroburos-actors-tools-1.1.pdf",

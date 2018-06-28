@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f27a3d1c-f6ef-47b3-a179-f8b9a3274cc8",
+    "id": "bundle--bd62590f-7f07-4e8d-94a1-f0f2f1433758",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "To establish persistence, {{LinkById|S0178}} adds a Registry Run key with a value \"TaskMgr\" in an attempt to masquerade as the legitimate Windows Task Manager.",
+            "description": "To establish persistence, Truvasys adds a Registry Run key with a value \"TaskMgr\" in an attempt to masquerade as the legitimate Windows Task Manager.",
             "external_references": [
                 {
                     "url": "https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?Name=Backdoor:Win32/Truvasys.A!dha",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4e09c663-238f-4127-b730-3e41da9c61f1",
+    "id": "bundle--e331f862-3b1e-491a-8e32-91ba5aec421c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--fe8a320f-e5e5-4503-8c3a-5c21b628a61d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-27T14:18:47.700Z",
-            "description": "{{LinkById|G0027}} has used <code>net use</code> to conduct internal discovery of systems. The group has also used quser.exe to identify existing RDP sessions on a victim.",
+            "modified": "2018-06-28T19:48:46.542Z",
+            "description": "Threat Group-3390 has used <code>net use</code> to conduct internal discovery of systems. The group has also used quser.exe to identify existing RDP sessions on a victim.",
             "external_references": [
                 {
-                    "url": "https://www.secureworks.com/research/bronze-union",
+                    "source_name": "SecureWorks BRONZE UNION June 2017",
                     "description": "Counter Threat Unit Research Team. (2017, June 27). BRONZE UNION Cyberespionage Persists Despite Disclosures. Retrieved July 13, 2017.",
-                    "source_name": "SecureWorks BRONZE UNION June 2017"
+                    "url": "https://www.secureworks.com/research/bronze-union"
                 }
             ],
             "object_marking_refs": [

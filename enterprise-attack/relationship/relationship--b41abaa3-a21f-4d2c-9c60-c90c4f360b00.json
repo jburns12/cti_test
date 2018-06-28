@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--463f98e4-19a0-46e0-82b9-17120c3cf1be",
+    "id": "bundle--1897bc20-2036-42ca-a92d-cfa769a1229e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "If {{LinkById|S0034}} does not detect a proxy configured on the infected machine, it will send beacons via UDP/6000. Also, after retrieving a C2 IP address and Port Number, {{LinkById|S0034}} will initiate a TCP connection to this socket. The ensuing connection is a plaintext C2 channel in which commands are specified by DWORDs.",
+            "description": "If NETEAGLE does not detect a proxy configured on the infected machine, it will send beacons via UDP/6000. Also, after retrieving a C2 IP address and Port Number, NETEAGLE will initiate a TCP connection to this socket. The ensuing connection is a plaintext C2 channel in which commands are specified by DWORDs.",
             "external_references": [
                 {
                     "url": "https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf",

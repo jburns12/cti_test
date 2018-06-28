@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6591e511-0208-4217-9371-1e05fca074ac",
+    "id": "bundle--4bda299d-405f-41a6-9e3e-80d11cd1f55d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "{{LinkById|S0070}} has established persistence by setting the <code>HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run</code> key value for <code>wdm</code> to the path of the executable. It has also used the Registry entry <code>HKEY_USERS\\Software\\Microsoft\\Windows\\CurrentVersion\\Run vpdn \u201c%ALLUSERPROFILE%\\%APPDATA%\\vpdn\\VPDN_LU.exe\u201d</code> to establish persistence.",
+            "description": "HTTPBrowser has established persistence by setting the <code>HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run</code> key value for <code>wdm</code> to the path of the executable. It has also used the Registry entry <code>HKEY_USERS\\Software\\Microsoft\\Windows\\CurrentVersion\\Run vpdn \u201c%ALLUSERPROFILE%\\%APPDATA%\\vpdn\\VPDN_LU.exe\u201d</code> to establish persistence.",
             "external_references": [
                 {
                     "url": "https://www.threatstream.com/blog/evasive-maneuvers-the-wekby-group-attempts-to-evade-analysis-via-custom-rop",
