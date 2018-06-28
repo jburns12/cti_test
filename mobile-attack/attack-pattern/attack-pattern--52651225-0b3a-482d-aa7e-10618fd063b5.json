@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--79195442-0ee8-429f-ba0d-0597c4b605f0",
+    "id": "bundle--144f3969-fd30-46f2-a692-fb595cd3dc9e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -56,7 +56,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Network carriers may be able to use firewalls, Intrusion Detection Systems (IDS), or Intrusion Prevention Systems (IPS) to detect and/or block SS7 exploitation as described by the CSRIC [[Citation: CSRIC-WG1-FinalReport]]. The CSRIC also suggests threat information sharing between telecommunications industry members.",
+            "x_mitre_detection": "An adversary could exploit signaling system vulnerabilities to track the location of mobile devices, for example as described in  (Citation: Engel-SS7),  (Citation: Engel-SS7)-2008,  (Citation: 3GPP-Security) and  (Citation: Positive-SS7), as well as in a report from the Communications, Security, Reliability, and Interoperability Council (CSRIC)  (Citation: CSRIC5-WG10-FinalReport).",
             "x_mitre_platforms": [
                 "Android",
                 "iOS"

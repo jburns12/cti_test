@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3d7ee1ff-a72d-4fdd-b61a-31a656aaf841",
+    "id": "bundle--c5edcf95-6764-4ec2-9152-0822c7f44f5c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -13,6 +13,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0154}} can start a VNC-based remote desktop server and tunnel the connection through the already established C2 channel.",
             "source_ref": "tool--aafea02e-ece5-4bb2-91a6-3bf8c7f38a39",
             "target_ref": "attack-pattern--51dea151-0898-4a45-967c-3ebee0420484"
         }

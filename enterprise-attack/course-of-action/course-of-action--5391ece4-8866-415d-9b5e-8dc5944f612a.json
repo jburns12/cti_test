@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ae0e1a0b-a53e-4b61-b906-98087495d53f",
+    "id": "bundle--7544ca33-3df3-48aa-a74e-556cbfc2dc61",
     "spec_version": "2.0",
     "objects": [
         {
@@ -17,7 +17,8 @@
                     "url": "https://attack.mitre.org/wiki/Technique/T1153",
                     "source_name": "mitre-attack"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Due to potential legitimate uses of source commands, it's may be difficult to mitigate use of this technique."
         }
     ]
 }

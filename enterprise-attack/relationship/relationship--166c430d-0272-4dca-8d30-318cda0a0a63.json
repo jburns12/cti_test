@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--563bcc35-c8bb-42ef-926b-c8a703ba9e6a",
+    "id": "bundle--ed850026-23b4-47a5-865b-35cbf6d334c3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "A system info module in CozyCar gathers information on the victim host\u2019s configuration. (Citation: F-Secure CozyDuke)",
+            "description": "A system info module in CozyCar gathers information on the victim host\u2019s configuration.",
             "external_references": [
                 {
                     "url": "https://www.f-secure.com/documents/996508/1030745/CozyDuke",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "A system info module in {{LinkById|S0046}} gathers information on the victim host\u2019s configuration.",
             "source_ref": "malware--e6ef745b-077f-42e1-a37d-29eecff9c754",
             "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1"
         }

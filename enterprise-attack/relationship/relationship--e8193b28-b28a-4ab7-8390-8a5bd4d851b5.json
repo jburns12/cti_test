@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--20cd5ca5-e495-47ff-8374-ef75a3935c5a",
+    "id": "bundle--572d3449-3345-44e2-bcf2-a7cd22554756",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Threat Group-3390 has deleted existing logs and exfiltrated file archives from a victim. (Citation: SecureWorks BRONZE UNION June 2017)",
+            "description": "Threat Group-3390 has deleted existing logs and exfiltrated file archives from a victim.",
             "external_references": [
                 {
                     "url": "https://www.secureworks.com/research/bronze-union",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0027}} has deleted existing logs and exfiltrated file archives from a victim.",
             "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
             "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59"
         }

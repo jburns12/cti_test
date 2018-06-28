@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--022d93ae-d9fb-4487-8c39-bfe526761b55",
+    "id": "bundle--71571f11-4927-499b-8f2b-872592b1993f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "OilRig has used <code>netstat -an</code> on a victim to get a listing of network connections. (Citation: Palo Alto OilRig May 2016)",
+            "description": "OilRig has used <code>netstat -an</code> on a victim to get a listing of network connections.",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2016/05/the-oilrig-campaign-attacks-on-saudi-arabian-organizations-deliver-helminth-backdoor/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0049}} has used <code>netstat -an</code> on a victim to get a listing of network connections.",
             "source_ref": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",
             "target_ref": "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475"
         }

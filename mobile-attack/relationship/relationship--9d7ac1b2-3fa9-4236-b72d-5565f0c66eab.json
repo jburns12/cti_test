@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0d1f0c43-d511-47a5-b9f2-cee628fb3f88",
+    "id": "bundle--8caf3d4d-851a-439e-8284-1e499f2d605f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-18T15:59:03.864Z",
-            "description": "Twitoor uses Twitter for command and control (Citation: ESET-Twitoor).",
+            "description": "Twitoor uses Twitter for command and control.",
             "external_references": [
                 {
                     "url": "http://www.welivesecurity.com/2016/08/24/first-twitter-controlled-android-botnet-discovered/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|MOB-S0018}} uses Twitter for command and control.",
             "source_ref": "malware--41e3fd01-7b83-471f-835d-d2b1dc9a770c",
             "target_ref": "attack-pattern--6a3f6490-9c44-40de-b059-e5940f246673"
         }

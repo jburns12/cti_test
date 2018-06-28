@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c97f2164-2fa1-43a4-92ab-4bd8a4d566e8",
+    "id": "bundle--9035f019-3003-44a4-9f05-aa881327c583",
     "spec_version": "2.0",
     "objects": [
         {
@@ -17,7 +17,8 @@
                     "url": "https://attack.mitre.org/wiki/Technique/T1051",
                     "source_name": "mitre-attack"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Networks that allow for open development and testing of Web content and allow users to set up their own Web servers on the enterprise network may be particularly vulnerable if the systems and Web servers are not properly secured to limit privileged account use, unauthenticated network share access, and network/system isolation.\n\nEnsure proper permissions on directories that are accessible through a Web server. Disallow remote access to the webroot or other directories used to serve Web content. Disable execution on directories within the webroot. Ensure that permissions of the Web server process are only what is required by not using built-in accounts; instead, create specific accounts to limit unnecessary access or permissions overlap across multiple systems."
         }
     ]
 }

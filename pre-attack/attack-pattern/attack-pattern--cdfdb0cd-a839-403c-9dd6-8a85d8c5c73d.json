@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a057f880-e36f-4a89-90aa-0fb864fadc8e",
+    "id": "bundle--f6f3b57a-e320-479a-a72a-2e65f2590d0a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "A network topology is the arrangement of the various elements of a network (e.g., servers, workstations, printers, routers, firewalls, etc.). Mapping a network allows an adversary to understand how the elements are connected or related. (Citation: man traceroute) (Citation: Shodan Tutorial)"
         }
     ]
 }

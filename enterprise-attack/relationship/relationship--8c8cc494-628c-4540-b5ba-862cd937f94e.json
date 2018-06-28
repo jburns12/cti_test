@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--da70177f-054f-4a67-b198-46e216fa52d3",
+    "id": "bundle--a632244d-ecdc-4c22-9427-b502ff0a6b5b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Dragonfly has performed forced authentication to gather hashed user credentials over SMB using spearphishing attachments with external resource links and by modifying .LNK file icon resources to collect credentials from virtualized systems. (Citation: US-CERT APT Energy Oct 2017)",
+            "description": "Dragonfly has performed forced authentication to gather hashed user credentials over SMB using spearphishing attachments with external resource links and by modifying .LNK file icon resources to collect credentials from virtualized systems.",
             "external_references": [
                 {
                     "url": "https://www.us-cert.gov/ncas/alerts/TA17-293A",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0035}} has performed forced authentication to gather hashed user credentials over SMB using spearphishing attachments with external resource links and by modifying .LNK file icon resources to collect credentials from virtualized systems.",
             "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
             "target_ref": "attack-pattern--b77cf5f3-6060-475d-bd60-40ccbf28fdc2"
         }

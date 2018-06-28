@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0646a25c-ed82-4e1b-874f-fbf80f1334dd",
+    "id": "bundle--e89b5337-d76d-4e50-997e-b11ea02817ca",
     "spec_version": "2.0",
     "objects": [
         {
@@ -17,7 +17,8 @@
                     "url": "https://attack.mitre.org/wiki/Technique/T1149",
                     "source_name": "mitre-attack"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Enforce valid digital signatures for signed code on all applications and only trust applications with signatures from trusted parties."
         }
     ]
 }

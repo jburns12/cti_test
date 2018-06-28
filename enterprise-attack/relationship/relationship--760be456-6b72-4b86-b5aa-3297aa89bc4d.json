@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--37d90df2-cdfd-4c27-b072-c9ba1952604d",
+    "id": "bundle--f530fa67-78c7-4dcd-9f8b-b2df25b145c7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "FALLCHILL collects MAC address and local IP address information from the victim. (Citation: US-CERT FALLCHILL Nov 2017)",
+            "description": "FALLCHILL collects MAC address and local IP address information from the victim.",
             "external_references": [
                 {
                     "url": "https://www.us-cert.gov/ncas/alerts/TA17-318A",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0181}} collects MAC address and local IP address information from the victim.",
             "source_ref": "malware--fece06b7-d4b1-42cf-b81a-5323c917546e",
             "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0"
         }

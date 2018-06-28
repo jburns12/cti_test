@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--866bc24b-63a2-4661-9328-bbeb6906efe3",
+    "id": "bundle--42fe6304-47b2-4293-8327-03b6da58eafb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -36,7 +36,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Monitor for file creation and files transferred within a network over SMB. Unusual processes with external network connections creating files on-system may be suspicious. Use of utilities, such as FTP, that does not normally occur may also be suspicious.\n\nAnalyze network data for uncommon data flows (e.g., a client sending significantly more data than it receives from a server). Processes utilizing the network that do not normally have network communication or have never been seen before are suspicious. Analyze packet contents to detect communications that do not follow the expected protocol behavior for the port that is being used. [[Citation: University of Birmingham C2]]",
+            "x_mitre_detection": "Files may be copied from one system to another to stage adversary tools or other files over the course of an operation. Files may be copied from an external adversary-controlled system through the Command and Control channel to bring tools into the victim network or through alternate protocols with another tool such as {{LinkById|S0095}}. Files can also be copied over on Mac and Linux with native tools like scp, rsync, and sftp.\n\nAdversaries may also copy files laterally between internal victim systems to support Lateral Movement with remote Execution using inherent file sharing protocols such as file sharing over SMB to connected network shares or with authenticated connections with {{LinkById|T1077}} or {{LinkById|T1076}}.",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",

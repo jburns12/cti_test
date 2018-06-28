@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--943bd824-ec3d-4eef-86b6-66dc7f19fbea",
+    "id": "bundle--0be20c58-6965-47d8-bf70-b894fc320855",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "An APT28 macro uses the command <code>certutil -decode</code> to decode contents of a .txt file storing the base64 encoded payload. (Citation: Unit 42 Sofacy Feb 2018)",
+            "description": "An APT28 macro uses the command <code>certutil -decode</code> to decode contents of a .txt file storing the base64 encoded payload.",
             "external_references": [
                 {
                     "url": "https://researchcenter.paloaltonetworks.com/2018/02/unit42-sofacy-attacks-multiple-government-entities/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "An {{LinkById|G0007}} macro uses the command <code>certutil -decode</code> to decode contents of a .txt file storing the base64 encoded payload.",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c"
         }

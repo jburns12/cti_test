@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bd99cbe2-a675-45ab-9bc0-1ae45ca871ac",
+    "id": "bundle--efabfdf8-0361-44fb-91dc-1b5ec708ee0b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -32,7 +32,8 @@
                     "description": "NSA Information Assurance Directorate. (2014, August). Application Whitelisting Using Microsoft AppLocker. Retrieved March 31, 2016.",
                     "source_name": "NSA MS AppLocker"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Identify and block potentially malicious software that may persist in this manner by using whitelisting (Citation: Beechey 2010) tools capable of monitoring DLL loads by Windows utilities like AppLocker. (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker)"
         }
     ]
 }

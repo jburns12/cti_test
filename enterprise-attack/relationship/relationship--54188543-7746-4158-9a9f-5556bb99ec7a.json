@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--162492a4-c2e6-49eb-8b5c-9fda493af7bd",
+    "id": "bundle--1e540272-7f3b-4b08-85b6-a6208449e5d8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "A backdoor used by APT29 created a Tor hidden service to forward traffic from the Tor client to local ports 3389 (RDP), 139 (Netbios), and 445 (SMB) enabling full remote access from outside the network. (Citation: Mandiant No Easy Breach)",
+            "description": "A backdoor used by APT29 created a Tor hidden service to forward traffic from the Tor client to local ports 3389 (RDP), 139 (Netbios), and 445 (SMB) enabling full remote access from outside the network.",
             "external_references": [
                 {
                     "url": "http://www.slideshare.net/MatthewDunwoody1/no-easy-breach-derby-con-2016",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "A backdoor used by {{LinkById|G0016}} created a Tor hidden service to forward traffic from the Tor client to local ports 3389 (RDP), 139 (Netbios), and 445 (SMB) enabling full remote access from outside the network.",
             "source_ref": "intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542",
             "target_ref": "attack-pattern--7d751199-05fa-4a72-920f-85df4506c76c"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fd0ad499-8b1b-4256-a3fb-c6f5aa4d22b4",
+    "id": "bundle--62c2aaa8-0d7a-4d9a-b57f-3422a0101881",
     "spec_version": "2.0",
     "objects": [
         {
@@ -17,7 +17,8 @@
                     "url": "https://attack.mitre.org/wiki/Technique/T1190",
                     "source_name": "mitre-attack"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Application Isolation and least privilege help lesson the impact of an exploit. Application isolation will limit what other processes and system features the exploited target can access, and least privilege for service accounts will limit what permissions the exploited process gets on the rest of the system. Web Application Firewalls may be used to limit exposure of applications.\n\nSegment externally facing servers and services from the rest of the network with a DMZ or on separate hosting infrastructure.\n\nUse secure coding best practices when designing custom software that is meant for deployment to externally facing systems. Avoid issues documented by OWASP, CWE, and other software weakness identification efforts.\n\nRegularly scan externally facing systems for vulnerabilities and establish procedures to rapidly patch systems when critical vulnerabilities are discovered through scanning and through public disclosure."
         }
     ]
 }

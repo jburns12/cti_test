@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--df177a52-3f96-496e-ac21-74b6254873ad",
+    "id": "bundle--a176d406-1b80-4775-96b0-8ab9a3ffcf38",
     "spec_version": "2.0",
     "objects": [
         {
@@ -32,7 +32,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Monitor processes for applications that can be used to query the Registry, such as {{LinkById|S0075}}, and collect command parameters that may indicate credentials are being searched. Correlate activity with related suspicious behavior that may indicate an active intrusion to reduce false positives.",
+            "x_mitre_detection": "The Windows Registry stores configuration information that can be used by the system or other programs. Adversaries may query the Registry looking for credentials and passwords that have been stored for use by other programs or services. Sometimes these credentials are used for automatic logons.\n\nExample commands to find Registry keys related to password information: (Citation: Pentestlab Stored Credentials)\n*Local Machine Hive: <code>reg query HKLM /f password /t REG_SZ /s</code>\n*Current User Hive: <code>reg query HKCU /f password /t REG_SZ /s</code>",
             "x_mitre_platforms": [
                 "Windows"
             ],

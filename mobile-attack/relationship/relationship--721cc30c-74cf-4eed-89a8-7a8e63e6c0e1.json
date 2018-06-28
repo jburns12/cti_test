@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--065f6a3e-4b78-46e8-b312-073b320930de",
+    "id": "bundle--3a291e04-47d5-4d53-bbf8-b307e51eb28b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-18T15:59:03.864Z",
-            "description": "MazarBOT can \"intercept two-factor authentication codes sent by online banking apps\" (Citation: Tripwire-MazarBOT).",
+            "description": "MazarBOT can \"intercept two-factor authentication codes sent by online banking apps\".",
             "external_references": [
                 {
                     "url": "https://www.tripwire.com/state-of-security/security-data-protection/android-malware-sms/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|MOB-S0019}} can \"intercept two-factor authentication codes sent by online banking apps\".",
             "source_ref": "malware--5ddf81ea-2c06-497b-8c30-5f1ab89a40f9",
             "target_ref": "attack-pattern--e8b4e1ec-8e3b-484c-9038-4459b1ed8060"
         }

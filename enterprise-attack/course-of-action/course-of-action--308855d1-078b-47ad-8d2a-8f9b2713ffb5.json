@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a3cf3e4c-5acc-4347-97c7-5ba9a525c2ee",
+    "id": "bundle--1d8647c1-bc1b-4461-9ab3-a89628a1a0af",
     "spec_version": "2.0",
     "objects": [
         {
@@ -42,7 +42,8 @@
                     "description": "Microsoft. (2012, June 27). Using Software Restriction Policies and AppLocker Policies. Retrieved April 7, 2016.",
                     "source_name": "TechNet Applocker vs SRP"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Do not reuse local administrator account passwords across systems. Ensure password complexity and uniqueness such that the passwords cannot be cracked or guessed. Deny remote use of local admin credentials to log into systems. Do not allow domain user accounts to be in the local Administrators group multiple systems.\n\nIdentify unnecessary system utilities or potentially malicious software that may be used to leverage SMB and the Windows admin shares, and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)"
         }
     ]
 }

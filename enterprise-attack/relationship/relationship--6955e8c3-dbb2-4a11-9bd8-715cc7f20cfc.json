@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--144a4502-1ce1-4202-8b46-6773004d41ab",
+    "id": "bundle--1cf81f32-801b-4ad9-ad1d-64089576ce28",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "creates a backdoor through which remote attackers can upload files. (Citation: Symantec Darkmoon Aug 2005)",
+            "description": "creates a backdoor through which remote attackers can upload files.",
             "external_references": [
                 {
                     "url": "https://www.symantec.com/security%20response/writeup.jsp?docid=2005-081910-3934-99",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "creates a backdoor through which remote attackers can upload files.",
             "source_ref": "malware--310f437b-29e7-4844-848c-7220868d074a",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add"
         }

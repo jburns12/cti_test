@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e69b836a-1806-4570-b5fa-54c6ba84d8d1",
+    "id": "bundle--d24d03e6-c7de-4fce-a512-ee9b5991abe0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -37,7 +37,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Access to the clipboard is a legitimate function of many applications on a Windows system. If an organization chooses to monitor for this behavior, then the data will likely need to be correlated against other suspicious or non-user-driven activity.",
+            "x_mitre_detection": "Adversaries may collect data stored in the Windows clipboard from users copying information within or between applications. \n\n===Windows===\n\nApplications can access clipboard data by using the Windows API. (Citation: MSDN Clipboard) \n\n===Mac===\n\nOSX provides a native command, <code>pbpaste</code>, to grab clipboard contents  (Citation: Operating with EmPyre).",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",

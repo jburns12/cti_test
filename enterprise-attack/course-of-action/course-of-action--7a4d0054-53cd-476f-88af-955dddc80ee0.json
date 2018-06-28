@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--79702495-11fb-49b3-833a-58903b05974a",
+    "id": "bundle--54b1260b-e7a1-4ff0-a646-42d466965b1c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -37,7 +37,8 @@
                     "description": "Wikipedia. (2018, January 11). Control-flow integrity. Retrieved March 12, 2018.",
                     "source_name": "Wikipedia Control Flow Integrity"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Drive-by compromise relies on there being a vulnerable piece of software on the client end systems. Use modern browsers with security features turned on. Ensure all browsers and plugins kept updated can help prevent the exploit phase of this technique.\n\nFor malicious code served up through ads, adblockers can help prevent that code from executing in the first place. Script blocking extensions can help prevent the execution of JavaScript that may commonly be used during the exploitation process.\n\nBrowser sandboxes can be used to mitigate some of the impact of exploitation, but sandbox escapes may still exist. (Citation: Windows Blogs Microsoft Edge Sandbox) (Citation: Ars Technica Pwn2Own 2017 VM Escape)\n\nOther types of virtualization and application microsegmentation may also mitigate the impact of client-side exploitation. The risks of additional exploits and weaknesses in implementation may still exist. (Citation: Ars Technica Pwn2Own 2017 VM Escape)\n\nSecurity applications that look for behavior used during exploitation such as Windows Defender Exploit Guard (WDEG) and the Enhanced Mitigation Experience Toolkit (EMET) can be used to mitigate some exploitation behavior. (Citation: TechNet Moving Beyond EMET) Control flow integrity checking is another way to potentially identify and stop a software exploit from occurring. (Citation: Wikipedia Control Flow Integrity) Many of these protections depend on the architecture and target application binary for compatibility."
         }
     ]
 }

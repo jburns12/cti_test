@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--28eb4f5b-8851-41c4-895f-f4a117cfe2a3",
+    "id": "bundle--7f88316a-b069-425d-bb1a-d6999601a20a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,7 +27,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Monitor process file access patterns and network behavior. Unrecognized processes or scripts that appear to be traversing file systems and sending network traffic may be suspicious.",
+            "x_mitre_detection": "Data, such as sensitive documents, may be exfiltrated through the use of automated processing or {{LinkById|T1064}} after being gathered during Collection. \n\nWhen automated exfiltration is used, other exfiltration techniques likely apply as well to transfer the information out of the network, such as {{LinkById|T1041}} and {{LinkById|T1048}}.",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",

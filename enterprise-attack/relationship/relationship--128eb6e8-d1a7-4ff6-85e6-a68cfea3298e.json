@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f7e35d4e-136e-4b25-9c0c-0fc2f09cd02d",
+    "id": "bundle--93956ace-cc95-4566-b939-58164238bc07",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "SLOWDRIFT collects and sends system information to its C2. (Citation: FireEye APT37 Feb 2018)",
+            "description": "SLOWDRIFT collects and sends system information to its C2.",
             "external_references": [
                 {
                     "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt%20APT37.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0218}} collects and sends system information to its C2.",
             "source_ref": "malware--414dc555-c79e-4b24-a2da-9b607f7eaf16",
             "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1"
         }

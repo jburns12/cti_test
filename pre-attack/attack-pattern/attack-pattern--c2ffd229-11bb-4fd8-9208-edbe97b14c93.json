@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--aa0f87d6-1a65-4b75-8cc2-b78dc9c2b4fc",
+    "id": "bundle--b8ca1b02-822c-4584-b951-1ce4fff1cd53",
     "spec_version": "2.0",
     "objects": [
         {
@@ -30,7 +30,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Obfuscation is the act of creating communications that are more difficult to understand.  Encryption transforms the communications such that it requires a key to reverse the encryption. (Citation: FireEyeAPT28)"
         }
     ]
 }

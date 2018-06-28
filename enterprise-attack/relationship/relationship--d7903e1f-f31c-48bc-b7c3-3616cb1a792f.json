@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0f4d71d2-8d69-4435-9bb6-1259dbf6a1d5",
+    "id": "bundle--a3437512-fefb-4781-af8e-861992202695",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "RTM can obtain information about security software on the victim. (Citation: ESET RTM Feb 2017)",
+            "description": "RTM can obtain information about security software on the victim.",
             "external_references": [
                 {
                     "url": "https://www.welivesecurity.com/wp-content/uploads/2017/02/Read-The-Manual.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0148}} can obtain information about security software on the victim.",
             "source_ref": "malware--92ec0cbd-2c30-44a2-b270-73f4ec949841",
             "target_ref": "attack-pattern--241814ae-de3f-4656-b49e-f9a80764d4b7"
         }

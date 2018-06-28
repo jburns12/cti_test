@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6e64d4df-b2ec-4396-a236-2629d62dd62f",
+    "id": "bundle--465b9cde-7535-4994-a373-c3725d646212",
     "spec_version": "2.0",
     "objects": [
         {
@@ -37,7 +37,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "While detecting adversaries accessing these files may be difficult without knowing they exist in the first place, it may be possible to detect adversary use of credentials they have obtained. Monitor the command-line arguments of executing processes for suspicious words or regular expressions that may indicate searching for a password (for example: password, pwd, login, secure, or credentials). See {{LinkById|T1078}} for more information.",
+            "x_mitre_detection": "Adversaries may search local file systems and remote file shares for files containing passwords.  These can be files created by users to store their own credentials, shared credential stores for a group of individuals, configuration files containing passwords for a system or service, or source code/binary files containing embedded passwords.\n\nIt is possible to extract passwords from backups or saved virtual machines through {{LinkById|T1003}}. (Citation: CG 2014) Passwords may also be obtained from Group Policy Preferences stored on the Windows Domain Controller. (Citation: SRD GPP)",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",

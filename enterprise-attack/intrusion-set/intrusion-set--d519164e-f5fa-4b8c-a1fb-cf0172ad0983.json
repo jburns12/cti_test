@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e16d6a0b-7155-4799-b8cb-695cac11721c",
+    "id": "bundle--7c3fb468-fecd-46f5-814d-d054794ae9b6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -37,7 +37,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "{{LinkById|G0028}} is an unattributed threat group that has used compromised credentials to log into a victim's remote access infrastructure. (Citation: Dell TG-1314)"
         }
     ]
 }

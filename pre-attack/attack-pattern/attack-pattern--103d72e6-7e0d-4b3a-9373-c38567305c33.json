@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--80ff6d55-03ed-49e1-9bc7-2fc074ab6508",
+    "id": "bundle--e2928383-d853-4aab-b461-7811eb79073c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Once a persona has been developed an adversary will use it to create connections to targets of interest. These connections may be direct or may include trying to connect through others. (Citation: NEWSCASTER2014) (Citation: BlackHatRobinSage)"
         }
     ]
 }

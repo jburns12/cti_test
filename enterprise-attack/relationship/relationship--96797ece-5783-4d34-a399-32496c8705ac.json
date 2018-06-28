@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5d06dbbf-be06-4f6d-bb97-06bd0d7bfae8",
+    "id": "bundle--7b1d5f13-d7dc-48ee-842e-196240f15619",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "APT3 will copy files over to Windows Admin Shares (like ADMIN$) as part of lateral movement. (Citation: Symantec Buckeye)",
+            "description": "APT3 will copy files over to Windows Admin Shares (like ADMIN$) as part of lateral movement.",
             "external_references": [
                 {
                     "url": "http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0022}} will copy files over to Windows Admin Shares (like ADMIN$) as part of lateral movement.",
             "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
             "target_ref": "attack-pattern--ffe742ed-9100-4686-9e00-c331da544787"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--673db6a8-6015-40fa-87d9-b3856b92dde4",
+    "id": "bundle--b692a3a1-ae72-494b-8541-7b863da18b78",
     "spec_version": "2.0",
     "objects": [
         {
@@ -21,7 +21,8 @@
                     "description": "NSA IAD. (2017, January 24). Secure-Host-Baseline/Windows/Group Policy Templates/en-US/SecGuide.adml. Retrieved December 18, 2017.",
                     "source_name": "GitHub IAD Secure Host Baseline UAC Filtering"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Monitor systems and domain logs for unusual credential logon activity. Prevent access to {{LinkById|T1078}}. Apply patch KB2871997 to Windows 7 and higher systems to limit the default access of accounts in the local administrator group. \n\nEnable pass the hash mitigations to apply UAC restrictions to local accounts on network logon. The associated Registry key is located <code>HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\\LocalAccountTokenFilterPolicy</code> Through GPO: Computer Configuration > [Policies] > Administrative Templates > SCM: Pass the Hash Mitigations: Apply UAC restrictions to local accounts on network logons. (Citation: GitHub IAD Secure Host Baseline UAC Filtering)\n\nLimit credential overlap across systems to prevent the damage of credential compromise and reduce the adversary's ability to perform Lateral Movement between systems. Ensure that built-in and created local administrator accounts have complex, unique passwords. Do not allow a domain user to be in the local administrator group on multiple systems."
         }
     ]
 }

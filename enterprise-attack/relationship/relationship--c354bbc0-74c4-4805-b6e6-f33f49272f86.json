@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d58f753a-41d3-4900-b2aa-7619cbce0d60",
+    "id": "bundle--804a0b53-f2c2-4226-8648-9707ffe7ac9f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Gazer versions are signed with various valid certificates; one was likely faked and issued by Comodo for \"Solid Loop Ltd,\" and another was issued for \"Ultimate Computer Support Ltd.\" (Citation: ESET Gazer Aug 2017) (Citation: Securelist WhiteBear Aug 2017)",
+            "description": "Gazer versions are signed with various valid certificates; one was likely faked and issued by Comodo for \"Solid Loop Ltd,\" and another was issued for \"Ultimate Computer Support Ltd.\"",
             "external_references": [
                 {
                     "url": "https://www.welivesecurity.com/wp-content/uploads/2017/08/eset-gazer.pdf",
@@ -25,6 +25,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0168}} versions are signed with various valid certificates; one was likely faked and issued by Comodo for \"Solid Loop Ltd,\" and another was issued for \"Ultimate Computer Support Ltd.\"",
             "source_ref": "malware--76abb3ef-dafd-4762-97cb-a35379429db4",
             "target_ref": "attack-pattern--1b84d551-6de8-4b96-9930-d177677c3b1d"
         }

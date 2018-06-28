@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--342da7dd-5f12-4718-8feb-c05f3fa31adc",
+    "id": "bundle--5186fba8-2dc0-4318-8c71-96ce3384704f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.066Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Several Lazarus Group malware families use timestomping, including modifying the last write timestamp of a specified Registry key to a random date, as well as copying the timestamp for legitimate .exe files (such as calc.exe or mspaint.exe) to its dropped files. (Citation: Novetta Blockbuster Destructive Malware) (Citation: Novetta Blockbuster Loaders)",
+            "description": "Several Lazarus Group malware families use timestomping, including modifying the last write timestamp of a specified Registry key to a random date, as well as copying the timestamp for legitimate .exe files (such as calc.exe or mspaint.exe) to its dropped files.",
             "external_references": [
                 {
                     "url": "https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Report.pdf",
@@ -30,6 +30,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "Several {{LinkById|G0032}} malware families use timestomping, including modifying the last write timestamp of a specified Registry key to a random date, as well as copying the timestamp for legitimate .exe files (such as calc.exe or mspaint.exe) to its dropped files.",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--128c55d3-aeba-469f-bd3e-c8996ab4112a"
         }

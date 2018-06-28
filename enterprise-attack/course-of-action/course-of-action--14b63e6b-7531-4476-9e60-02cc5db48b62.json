@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c68d3797-c676-4c27-a30e-3e35ee5cde41",
+    "id": "bundle--1df46f5e-341e-46d3-bb5a-31555b8ed600",
     "spec_version": "2.0",
     "objects": [
         {
@@ -32,7 +32,8 @@
                     "description": "Wikipedia. (2018, January 11). Control-flow integrity. Retrieved March 12, 2018.",
                     "source_name": "Wikipedia Control Flow Integrity"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Segment networks and systems appropriately to reduce access to critical systems and services to controlled methods. Minimize available services to only those that are necessary. Regularly scan the internal network for available services to identify new and potentially vulnerable services. Minimize permissions and access for service accounts to limit impact of exploitation.\n\nUpdate software regularly by employing patch management for internal enterprise endpoints and servers. Develop a robust cyber threat intelligence capability to determine what types and levels of threat may use software exploits and 0-days against a particular organization. Make it difficult for adversaries to advance their operation through exploitation of undiscovered or unpatched vulnerabilities by using sandboxing, if available. Other types of virtualization and application microsegmentation may also mitigate the impact of some types of exploitation. The risks of additional exploits and weaknesses in implementation may still exist. (Citation: Ars Technica Pwn2Own 2017 VM Escape)\n\nSecurity applications that look for behavior used during exploitation such as Windows Defender Exploit Guard (WDEG) and the Enhanced Mitigation Experience Toolkit (EMET) can be used to mitigate some exploitation behavior. (Citation: TechNet Moving Beyond EMET) Control flow integrity checking is another way to potentially identify and stop a software exploit from occurring. (Citation: Wikipedia Control Flow Integrity) Many of these protections depend on the architecture and target application binary for compatibility and may not work for all software or services targeted."
         }
     ]
 }

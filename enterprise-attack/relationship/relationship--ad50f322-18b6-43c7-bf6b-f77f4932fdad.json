@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6116a1c7-9bdc-4fb1-a208-33bcb80a2466",
+    "id": "bundle--1106ee99-70a3-40c5-8384-3b4798a7c727",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "DustySky checks for the existence of anti-virus. (Citation: DustySky)",
+            "description": "DustySky checks for the existence of anti-virus.",
             "external_references": [
                 {
                     "description": "ClearSky. (2016, January 7). Operation DustySky. Retrieved January 8, 2016.",
@@ -19,6 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0062}} checks for the existence of anti-virus.",
             "source_ref": "malware--687c23e4-4e25-4ee7-a870-c5e002511f54",
             "target_ref": "attack-pattern--241814ae-de3f-4656-b49e-f9a80764d4b7"
         }

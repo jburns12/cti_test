@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--35a8d9c8-bc90-4c1b-8f0b-604c8ede0118",
+    "id": "bundle--ba0b59d9-f7f3-4aaf-902c-a98f6e4af9a0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -22,7 +22,8 @@
                     "description": "Gardiner, J.,  Cova, M., Nagaraja, S. (2014, February). Command & Control Understanding, Denying and Detecting. Retrieved April 20, 2016.",
                     "source_name": "University of Birmingham C2"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Network intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary malware can be used to mitigate activity at the network level. Use of encryption protocols may make typical network-based C2 detection more difficult due to a reduced ability to signature the traffic. Prior knowledge of adversary C2 infrastructure may be useful for domain and IP address blocking, but will likely not be an effective long-term solution because adversaries can change infrastructure often. (Citation: University of Birmingham C2)"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f65204ca-1bdd-4631-8fc4-2ddcefcbbfd5",
+    "id": "bundle--b1b27c67-8b9c-414b-b9b9-22d1476cdc07",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-18T15:59:03.864Z",
-            "description": "XcodeGhost can \"[p]rompt a fake alert dialog to phish user credentials.\" (Citation: PaloAlto-XcodeGhost)",
+            "description": "XcodeGhost can \"[p]rompt a fake alert dialog to phish user credentials.\"",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2015/09/update-xcodeghost-attacker-can-phish-passwords-and-open-urls-though-infected-apps/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|MOB-S0013}} can \"[p]rompt a fake alert dialog to phish user credentials.\"",
             "source_ref": "malware--d9e07aea-baad-4b68-bdca-90c77647d7f9",
             "target_ref": "attack-pattern--3dd58c80-4c2e-458c-9503-1b2cd273c4d2"
         }

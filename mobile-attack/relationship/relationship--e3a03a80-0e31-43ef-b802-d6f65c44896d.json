@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--07a1dfc6-d521-4a6d-846f-ce02a8b6b0f1",
+    "id": "bundle--05ee639f-3b30-4e96-b7e2-808a0795f0d1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-18T15:59:03.864Z",
-            "description": "RuMMS is delivered via a web link to an APK (Android application package). The link is sent via SMS (Citation: FireEye-RuMMS).",
+            "description": "RuMMS is delivered via a web link to an APK (Android application package). The link is sent via SMS.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2016/04/rumms-android-malware.html",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|MOB-S0029}} is delivered via a web link to an APK (Android application package). The link is sent via SMS.",
             "source_ref": "malware--936be60d-90eb-4c36-9247-4b31128432c4",
             "target_ref": "attack-pattern--6b846ad0-cc20-4db6-aa34-91561397c5e2"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e8262dc2-457c-41ce-8010-4951f0b8ca17",
+    "id": "bundle--d237d455-99bb-4146-8a8e-e7b3e2ef533b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -42,7 +42,8 @@
                     "description": "Microsoft. (2012, June 27). Using Software Restriction Policies and AppLocker Policies. Retrieved April 7, 2016.",
                     "source_name": "TechNet Applocker vs SRP"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Ensure that all wireless traffic is encrypted appropriately. Use Kerberos, SSL, and multifactor authentication wherever possible. Monitor switches and network for span port usage, ARP/DNS poisoning, and router reconfiguration.\n\nIdentify and block potentially malicious software that may be used to sniff or analyze network traffic by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)"
         }
     ]
 }

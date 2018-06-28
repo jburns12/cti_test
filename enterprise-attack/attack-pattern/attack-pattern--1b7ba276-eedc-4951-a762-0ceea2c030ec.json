@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ddb6a7e9-2ad8-40cd-a4ed-06a16e663fbc",
+    "id": "bundle--e796d68a-b167-4aaa-9834-fdaa45a8d71a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,7 +27,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Monitor processes and command-line arguments for actions that could be taken to collect files from a system's connected removable media. Remote access tools with built-in features may interact directly with the Windows API to gather data. Data may also be acquired through Windows system management tools such as {{LinkById|T1047}} and {{LinkById|T1086}}.",
+            "x_mitre_detection": "Sensitive data can be collected from any removable media (optical disk drive, USB memory, etc.) connected to the compromised system prior to Exfiltration.\n\nAdversaries may search connected removable media on computers they have compromised to find files of interest. Interactive command shells may be in use, and common functionality within {{LinkById|S0106}} may be used to gather information. Some adversaries may also use {{LinkById|T1119}} on removable media.",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",

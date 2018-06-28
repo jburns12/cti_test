@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2029efe6-528d-467a-8dd3-a419e09584b7",
+    "id": "bundle--98d86b4c-9fc5-45a9-a88b-7ef7b293e3a0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -22,7 +22,8 @@
                     "description": "National Security Agency. (2016, May 4). Secure Host Baseline EMET. Retrieved June 22, 2016.",
                     "source_name": "Secure Host Baseline EMET"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Microsoft's Enhanced Mitigation Experience Toolkit (EMET) Attack Surface Reduction (ASR) feature can be used to block methods of using rundll32.exe to bypass whitelisting. (Citation: Secure Host Baseline EMET)"
         }
     ]
 }

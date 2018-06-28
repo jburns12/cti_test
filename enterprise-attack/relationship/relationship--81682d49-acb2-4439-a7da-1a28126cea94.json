@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bdb53858-263d-4de0-b752-83740ccf83a1",
+    "id": "bundle--0429aa44-703b-448a-883d-23b283480798",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "A Lazarus Group malware sample encodes data with base64. (Citation: McAfee Lazarus Resurfaces Feb 2018)",
+            "description": "A Lazarus Group malware sample encodes data with base64.",
             "external_references": [
                 {
                     "url": "https://securingtomorrow.mcafee.com/mcafee-labs/lazarus-resurfaces-targets-global-banks-bitcoin-users/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "A {{LinkById|G0032}} malware sample encodes data with base64.",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--cc7b8c4e-9be0-47ca-b0bb-83915ec3ee2f"
         }

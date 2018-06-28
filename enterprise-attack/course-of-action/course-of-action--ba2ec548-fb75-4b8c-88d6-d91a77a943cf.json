@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0025b45a-911a-4450-98e7-947257a81c07",
+    "id": "bundle--452d90cd-42b2-4141-8470-ddcc8602ace8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -22,7 +22,8 @@
                     "description": "Ballenthin, W., et al. (2015). Windows Management Instrumentation (WMI) Offense, Defense, and Forensics. Retrieved March 30, 2016.",
                     "source_name": "FireEye WMI 2015"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Disabling WMI or RPCS may cause system instability and should be evaluated to assess the impact to a network.  By default, only administrators are allowed to connect remotely using WMI. Restrict other users who are allowed to connect, or disallow all users to connect remotely to WMI. Prevent credential overlap across systems of administrator and privileged accounts. (Citation: FireEye WMI 2015)"
         }
     ]
 }

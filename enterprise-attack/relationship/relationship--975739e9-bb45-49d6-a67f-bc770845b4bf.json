@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--24261bdc-dd8f-4a5a-9026-baafa456ad65",
+    "id": "bundle--bb4bc6da-fc48-48f7-9dd9-1454e4e819b0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "MURKYTOP has the capability to retrieve information about groups. (Citation: FireEye Periscope March 2018)",
+            "description": "MURKYTOP has the capability to retrieve information about groups.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2018/03/suspected-chinese-espionage-group-targeting-maritime-and-engineering-industries.html",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0233}} has the capability to retrieve information about groups.",
             "source_ref": "malware--049ff071-0b3c-4712-95d2-d21c6aa54501",
             "target_ref": "attack-pattern--15dbf668-795c-41e6-8219-f0447c0e64ce"
         }

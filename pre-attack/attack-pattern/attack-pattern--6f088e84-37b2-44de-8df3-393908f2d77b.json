@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3331ad09-873a-45d3-99c1-ac96336481c2",
+    "id": "bundle--b58d0989-98b8-465a-b3a3-25712b3d5849",
     "spec_version": "2.0",
     "objects": [
         {
@@ -30,7 +30,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Host based hiding techniques are designed to allow an adversary to remain undetected on a machine upon which they have taken action. They may do this through the use of  static linking of binaries, polymorphic code, exploiting weakness in file formats, parsers, or self-deleting code. (Citation: VirutAP)"
         }
     ]
 }

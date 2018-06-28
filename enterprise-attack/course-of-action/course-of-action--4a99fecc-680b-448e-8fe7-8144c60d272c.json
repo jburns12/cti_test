@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b37acf24-e5b0-4a78-8b28-e186b6558b37",
+    "id": "bundle--84b761dc-34db-4811-a6fd-778d98238879",
     "spec_version": "2.0",
     "objects": [
         {
@@ -17,7 +17,8 @@
                     "url": "https://attack.mitre.org/wiki/Technique/T1110",
                     "source_name": "mitre-attack"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Set account lockout policies after a certain number of failed login attempts to prevent passwords from being guessed. Use multifactor authentication. Follow best practices for mitigating access to {{LinkById|T1078}}"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cf9ee65b-a3ba-420e-9d47-c4aa2c850bd6",
+    "id": "bundle--c0eca8ee-c4cb-46db-a3b6-7c38c4f4df55",
     "spec_version": "2.0",
     "objects": [
         {
@@ -42,6 +42,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "Third-party libraries incorporated into mobile apps could contain malicious behavior, privacy-invasive behavior, or exploitable vulnerabilities. An adversary could deliberately insert malicious behavior or could exploit inadvertent vulnerabilities.\n\nFor example, Ryan Welton of NowSecure identified exploitable remote code execution vulnerabilities in a third-party advertisement library (Citation: NowSecure-RemoteCode). Grace et al. identified security issues in mobile advertisement libraries (Citation: Grace-Advertisement).",
             "x_mitre_platforms": [
                 "Android",
                 "iOS"

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4a6844b2-fe2f-4ecc-be04-4fc7ddca305a",
+    "id": "bundle--23c9beca-bc9c-4e77-bb92-c269e9024d55",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,6 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "The {{LinkById|S0039}} utility is a component of the Windows operating system. It is used in command-line operations for control of users, groups, services, and network connections. (Citation: Microsoft Net Utility)\n\n{{LinkById|S0039}} has a great deal of functionality, (Citation: Savill 1999) much of which is useful for an adversary, such as gathering system and network information for Discovery, moving laterally through [[Windows admin shares]] using <code>net use</code> commands, and interacting with services.",
             "x_mitre_platforms": [
                 "Windows"
             ],

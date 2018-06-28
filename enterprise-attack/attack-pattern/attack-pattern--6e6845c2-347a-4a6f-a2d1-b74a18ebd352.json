@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bdd1716c-02bb-4d50-ac00-2f78b8b370b1",
+    "id": "bundle--74ee2387-8681-4bfc-9c51-ead16acdcdac",
     "spec_version": "2.0",
     "objects": [
         {
@@ -51,7 +51,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "With LSA Protection enabled, monitor the event logs (Events 3033 and 3063) for failed attempts to load LSA plug-ins and drivers. [[Citation: Microsoft LSA Protection Mar 2014]]\n\nUtilize the Sysinternals Autoruns/Autorunsc utility [[Citation: TechNet Autoruns]] to examine loaded drivers associated with the LSA.\n\nUtilize the Sysinternals Process Monitor utility to monitor DLL load operations in lsass.exe. [[Citation: Microsoft DLL Security]]",
+            "x_mitre_detection": "The Windows security subsystem is a set of components that manage and enforce the security policy for a computer or domain. The Local Security Authority (LSA) is the main component responsible for local security policy and user authentication. The LSA includes multiple dynamic link libraries (DLLs) associated with various other security functions, all of which run in the context of the LSA Subsystem Service (LSASS) lsass.exe process.  (Citation: Microsoft Security Subsystem)\n\nAdversaries may target lsass.exe drivers to obtain execution and/or persistence. By either replacing or adding illegitimate drivers (e.g., {{LinkById|T1073}} or {{LinkById|T1038}}), an adversary can achieve arbitrary code execution triggered by continuous LSA operations.",
             "x_mitre_platforms": [
                 "Windows"
             ],

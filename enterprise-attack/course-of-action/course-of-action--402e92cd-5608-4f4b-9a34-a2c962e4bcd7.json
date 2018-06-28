@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2864b1bd-dd25-49de-99a3-871eb9a5b4e4",
+    "id": "bundle--5cbc9bd6-d85e-4ec2-904a-9ebb5215e117",
     "spec_version": "2.0",
     "objects": [
         {
@@ -17,7 +17,8 @@
                     "url": "https://attack.mitre.org/wiki/Technique/T1160",
                     "source_name": "mitre-attack"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Limit privileges of user accounts and remediate Privilege Escalation vectors so only authorized administrators can create new Launch Daemons."
         }
     ]
 }

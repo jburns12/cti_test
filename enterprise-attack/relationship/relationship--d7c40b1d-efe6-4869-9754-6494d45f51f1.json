@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--de8addaf-d211-43aa-be75-f895ed30cf32",
+    "id": "bundle--8ed845a8-5697-4e52-8f8f-d625a10689c2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Hikit supports peer connections. (Citation: Axiom)",
+            "description": "Hikit supports peer connections.",
             "external_references": [
                 {
                     "url": "http://www.novetta.com/wp-content/uploads/2014/11/Executive%20Summary-Final%201.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0009}} supports peer connections.",
             "source_ref": "malware--95047f03-4811-4300-922e-1ba937d53a61",
             "target_ref": "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea"
         }

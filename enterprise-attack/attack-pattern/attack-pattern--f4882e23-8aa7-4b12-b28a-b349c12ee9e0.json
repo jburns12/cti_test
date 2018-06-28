@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--482adbaa-d2f8-4c58-9208-f05e7ecea533",
+    "id": "bundle--baa27682-14a0-4212-879c-b7da96bb2abf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -57,7 +57,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "If proper execution policy is set, adversaries will likely be able to define their own execution policy if they obtain administrator or system access, either through the Registry or at the command line. This change in policy on a system may be a way to detect malicious use of PowerShell. If PowerShell is not used in an environment, then simply looking for PowerShell execution may detect malicious activity.\n\nIt is also beneficial to turn on PowerShell logging to gain increased fidelity in what occurs during execution. [[Citation: Malware Archaeology PowerShell Cheat Sheet]] PowerShell 5.0 introduced enhanced logging capabilities, and some of those features have since been added to PowerShell 4.0. Earlier versions of PowerShell do not have many logging features. [[Citation: FireEye PowerShell Logging 2016]] An organization can gather PowerShell execution details in a data analytic platform to supplement it with other data.",
+            "x_mitre_detection": "PowerShell is a powerful interactive command-line interface and scripting environment included in the Windows operating system. (Citation: TechNet PowerShell) Adversaries can use PowerShell to perform a number of actions, including discovery of information and execution of code. Examples include the Start-Process cmdlet which can be used to run an executable and the Invoke-Command cmdlet which runs a command locally or on a remote computer. \n\nPowerShell may also be used to download and run executables from the Internet, which can be executed from disk or in memory without touching disk.\n\nAdministrator permissions are required to use PowerShell to connect to remote systems.\n\nA number of PowerShell-based offensive testing tools are available, including Empire, (Citation: Github PowerShell Empire) PowerSploit, (Citation: Powersploit) and PSAttack. (Citation: Github PSAttack)",
             "x_mitre_platforms": [
                 "Windows"
             ],

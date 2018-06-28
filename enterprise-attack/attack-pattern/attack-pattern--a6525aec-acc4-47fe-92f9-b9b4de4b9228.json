@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--36f58b66-e49a-4d4f-88ff-d309838a314e",
+    "id": "bundle--0af6089f-2c66-46cb-bfef-ea136e434800",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,7 +27,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Detection of execution through the GUI will likely lead to significant false positives. Other factors should be considered to detect misuse of services that can lead to adversaries gaining access to systems through interactive remote sessions. \n\nUnknown or unusual process launches outside of normal behavior on a particular system occurring through remote interactive sessions are suspicious. Collect and audit security logs that may indicate access to and use of [[Legitimate Credentials]] to access remote systems within the network.",
+            "x_mitre_detection": "Cause a binary or script to execute based on interacting with the file through a graphical user interface (GUI) or in an interactive remote session such as {{LinkById|T1076}}.",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",

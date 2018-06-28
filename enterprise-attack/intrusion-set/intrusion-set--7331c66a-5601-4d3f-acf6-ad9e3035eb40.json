@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9d1f459b-f667-4dec-92f4-5fb773205a85",
+    "id": "bundle--86a432fc-b859-4ab6-9877-433413f072d2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -32,7 +32,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "{{LinkById|G0043}} is a threat group with a suspected Iranian nexus, though this attribution is not definite. The group has targeted individuals connected to the Syrian opposition via spearphishing and watering holes, normally using Syrian and Iranian themes. {{LinkById|G0043}} has used two commonly available remote access tools (RATs), njRAT and NanoCore, as well as an Android RAT, DroidJack. (Citation: Citizen Lab Group5)"
         }
     ]
 }

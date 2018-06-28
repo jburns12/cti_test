@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0dfd63fa-136a-4c47-bf2a-97b2bf295e2c",
+    "id": "bundle--45eba113-0028-4771-be72-fad93a1fa067",
     "spec_version": "2.0",
     "objects": [
         {
@@ -17,7 +17,8 @@
                     "url": "https://attack.mitre.org/wiki/Technique/T1142",
                     "source_name": "mitre-attack"
                 }
-            ]
+            ],
+            "x_mitre_detection": "The password for the user's login keychain can be changed from the user's login password. This increases the complexity for an adversary because they need to know an additional password."
         }
     ]
 }

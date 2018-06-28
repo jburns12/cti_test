@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7d1c8abe-99b0-4c86-8937-2f7147abc3f2",
+    "id": "bundle--0e0ad376-6421-4a0e-8542-1e0113868fbb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "POWERSTATS can retrieve usernames from compromised hosts. (Citation: FireEye MuddyWater Mar 2018)",
+            "description": "POWERSTATS can retrieve usernames from compromised hosts.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2018/03/iranian-threat-group-updates-ttps-in-spear-phishing-campaign.html",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0223}} can retrieve usernames from compromised hosts.",
             "source_ref": "malware--e8545794-b98c-492b-a5b3-4b5a02682e37",
             "target_ref": "attack-pattern--72b74d71-8169-42aa-92e0-e7b04b9f5a08"
         }

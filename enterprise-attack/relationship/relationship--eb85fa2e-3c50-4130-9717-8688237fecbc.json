@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b65631f9-ffb6-4aee-a92c-3c9a88710d2b",
+    "id": "bundle--4d2a6b4a-a09d-4216-8d83-702395222c1a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.052Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "admin@338 actors used the following commands after exploiting a machine with LOWBALL malware to obtain information about the OS: <code>ver >> %temp%\\download</code> <code>systeminfo >> %temp%\\download</code> (Citation: FireEye admin@338)",
+            "description": "admin@338 actors used the following commands after exploiting a machine with LOWBALL malware to obtain information about the OS: <code>ver >> %temp%\\download</code> <code>systeminfo >> %temp%\\download</code>",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2015/11/china-based-threat.html",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0018}} actors used the following commands after exploiting a machine with {{LinkById|S0042}} malware to obtain information about the OS: <code>ver >> %temp%\\download</code> <code>systeminfo >> %temp%\\download</code>",
             "source_ref": "intrusion-set--16ade1aa-0ea1-4bb7-88cc-9079df2ae756",
             "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1"
         }

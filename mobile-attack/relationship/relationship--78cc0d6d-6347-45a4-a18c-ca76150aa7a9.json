@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--39e01057-17e1-4be3-8913-8c36e342780e",
+    "id": "bundle--c7ecc0f1-cd7f-4b9b-bc8f-b5daa6c50e1f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-18T15:59:03.864Z",
-            "description": "BrainTest stores a secondary Android app package (APK) in its assets directory in encrypted form, and decrypts the payload at runtime (Citation: Lookout-BrainTest).",
+            "description": "BrainTest stores a secondary Android app package (APK) in its assets directory in encrypted form, and decrypts the payload at runtime.",
             "external_references": [
                 {
                     "url": "https://blog.lookout.com/blog/2016/01/06/brain-test-re-emerges/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|MOB-S0009}} stores a secondary Android app package (APK) in its assets directory in encrypted form, and decrypts the payload at runtime.",
             "source_ref": "malware--e13d084c-382f-40fd-aa9a-98d69e20301e",
             "target_ref": "attack-pattern--d13fa042-8f26-44e1-a2a8-af0bf8e2ac9a"
         }

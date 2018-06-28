@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--41a6646e-292c-4d4e-b3bc-da95f64f4e8b",
+    "id": "bundle--a76cfbc3-7336-423e-a017-4487d52cfc90",
     "spec_version": "2.0",
     "objects": [
         {
@@ -22,7 +22,8 @@
                     "description": "Wikipedia. (2018, March 30). IEEE 802.1X. Retrieved April 11, 2018.",
                     "source_name": "Wikipedia 802.1x"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Establish network access control policies, such as using device certificates and the 802.1x standard. (Citation: Wikipedia 802.1x) Restrict use of DHCP to registered devices to prevent unregistered devices from communicating with trusted systems. \n\nBlock unknown devices and accessories by endpoint security configuration and monitoring agent."
         }
     ]
 }

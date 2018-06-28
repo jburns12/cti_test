@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c1d43f5f-030d-46c9-b828-294daf946b5f",
+    "id": "bundle--40789cc2-976d-4e4c-88f9-7feb5e07b465",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Pteranodon exfiltrates screenshot files to its C2 server. (Citation: Palo Alto Gamaredon Feb 2017)",
+            "description": "Pteranodon exfiltrates screenshot files to its C2 server.",
             "external_references": [
                 {
                     "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0147}} exfiltrates screenshot files to its C2 server.",
             "source_ref": "malware--5f9f7648-04ba-4a9f-bb4c-2a13e74572bd",
             "target_ref": "attack-pattern--92d7da27-2d91-488e-a00c-059dc162766d"
         }

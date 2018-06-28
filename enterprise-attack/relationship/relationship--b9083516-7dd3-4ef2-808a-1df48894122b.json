@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4ef60aa8-0908-44dd-aea9-6917427dedf3",
+    "id": "bundle--be2f3bc1-1275-4214-bcde-a61ec62b3049",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.078Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Group5 packed an executable by base64 encoding the PE file and breaking it up into numerous lines. (Citation: Citizen Lab Group5)",
+            "description": "Group5 packed an executable by base64 encoding the PE file and breaking it up into numerous lines.",
             "external_references": [
                 {
                     "url": "https://citizenlab.org/2016/08/group5-syria/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0043}} packed an executable by base64 encoding the PE file and breaking it up into numerous lines.",
             "source_ref": "intrusion-set--7331c66a-5601-4d3f-acf6-ad9e3035eb40",
             "target_ref": "attack-pattern--6ff403bc-93e3-48be-8687-e102fdba8c88"
         }

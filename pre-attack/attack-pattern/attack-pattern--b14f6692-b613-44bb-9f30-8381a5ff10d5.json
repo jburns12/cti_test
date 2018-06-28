@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7cd5173f-89fe-4099-b3d3-7d409616a4e3",
+    "id": "bundle--46d74324-e00d-4e78-afd6-92344cf389ad",
     "spec_version": "2.0",
     "objects": [
         {
@@ -30,7 +30,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Proxies act as an intermediary for clients seeking resources from other systems. Using a proxy may make it more difficult to track back the origin of a network communication. (Citation: APT1)"
         }
     ]
 }

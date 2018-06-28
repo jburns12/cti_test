@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--67fe94d7-5b98-4b2d-9664-6e6d8567d0b3",
+    "id": "bundle--5be26b11-f8d0-406e-8243-ebe9edd4c7c3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "menuPass has used the Microsoft administration tool csvde.exe to export Active Directory data. (Citation: PWC Cloud Hopper Technical Annex April 2017)",
+            "description": "menuPass has used the Microsoft administration tool csvde.exe to export Active Directory data.",
             "external_references": [
                 {
                     "url": "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-annex-b-final.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0045}} has used the Microsoft administration tool csvde.exe to export Active Directory data.",
             "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
             "target_ref": "attack-pattern--72b74d71-8169-42aa-92e0-e7b04b9f5a08"
         }

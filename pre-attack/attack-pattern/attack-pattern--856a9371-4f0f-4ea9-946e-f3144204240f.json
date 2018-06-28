@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--91f896c6-236e-4dbc-8976-c9dc787a39a7",
+    "id": "bundle--18244bcf-3c90-4a8f-bc0d-acbd4dacd37d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Infrastructure services includes the hardware, software, and network resources required to operate a communications environment. This infrastructure can be managed by a 3rd party rather than being managed by the owning organization. (Citation: FFIECAwareness) (Citation: Zetter2015Threats)"
         }
     ]
 }

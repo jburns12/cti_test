@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0bb38364-5cf9-43d2-b234-d0bad8ee6924",
+    "id": "bundle--93e4eebe-fba8-4c51-8832-b0f43d16421f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -41,7 +41,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "An EMM/MDM or mobile threat protection solution can identify the presence of unwanted, known insecure, or malicious apps on devices.",
+            "x_mitre_detection": "An adversary could download a legitimate app, disassemble it, add malicious code, and then reassemble the app, for example as described by  (Citation: Zhou) and Jiang in  (Citation: Zhou). The app would appear to be the original app but contain additional malicious functionality. The adversary could then publish this app to app stores or use another delivery technique.",
             "x_mitre_platforms": [
                 "Android",
                 "iOS"

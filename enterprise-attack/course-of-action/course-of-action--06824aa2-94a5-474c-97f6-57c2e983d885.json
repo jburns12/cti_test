@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a1fc78c3-0a84-4277-bd5f-05fe541c4584",
+    "id": "bundle--786b1a37-4af8-4cab-ac2d-8de98c85f763",
     "spec_version": "2.0",
     "objects": [
         {
@@ -22,7 +22,8 @@
                     "description": "Apple. (2016, December 6). Automatically re-open windows, apps, and documents on your Mac. Retrieved July 11, 2017.",
                     "source_name": "Re-Open windows on Mac"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Restrict users from being able to create their own login items. Additionally, holding the shift key during login prevents apps from opening automatically (Citation: Re-Open windows on Mac)."
         }
     ]
 }

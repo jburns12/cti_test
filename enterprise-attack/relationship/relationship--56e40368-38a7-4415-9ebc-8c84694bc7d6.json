@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5519480a-4d60-402b-8053-b5138909deff",
+    "id": "bundle--d6240939-6dad-4aff-9c17-4ec5f205016f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Lslsass can dump active logon session password hashes from the lsass process. (Citation: Mandiant APT1)",
+            "description": "Lslsass can dump active logon session password hashes from the lsass process.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0121}} can dump active logon session password hashes from the lsass process.",
             "source_ref": "tool--2fab555f-7664-4623-b4e0-1675ae38190b",
             "target_ref": "attack-pattern--0a3ead4e-6d47-4ccb-854c-a6a4f9d96b22"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--291c71e9-952d-40b9-90ba-97e3b59a0fa8",
+    "id": "bundle--b4f5c7ee-18c5-4e19-b9ce-318c54074aa3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Dragonfly dropped and executed Hydra, a password cracker. (Citation: US-CERT APT Energy Oct 2017) (Citation: Kali Hydra)",
+            "description": "Dragonfly dropped and executed Hydra, a password cracker.",
             "external_references": [
                 {
                     "url": "https://www.us-cert.gov/ncas/alerts/TA17-293A",
@@ -25,6 +25,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0035}} dropped and executed Hydra, a password cracker.",
             "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
             "target_ref": "attack-pattern--a93494bb-4b80-4ea1-8695-3236a49916fd"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5913c2a1-2329-4b98-9709-a43bd05b5ff4",
+    "id": "bundle--46c34421-591c-4f46-9d1e-7d85e0ebd6f7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -32,6 +32,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "An Android application can listen for the BOOT_COMPLETED broadcast, ensuring that the app's functionality will be activated every time the device starts up without having to wait for the device user to manually start the app.\n\n (Citation: Zhou) and Jiang (Citation: Zhou) analyzed 1260 Android malware samples belonging to 49 families of malware, and determined that 29 malware families and 83.3% of the samples listened for BOOT_COMPLETED.",
             "x_mitre_platforms": [
                 "Android"
             ]

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2a97595f-7a50-40fc-8c5b-c998ae864f5c",
+    "id": "bundle--d6a82d0b-56c4-42e8-bf09-2bd0f82e8369",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "deletes data in a way that makes it unrecoverable. (Citation: Microsoft SDelete July 2016)",
+            "description": "deletes data in a way that makes it unrecoverable.",
             "external_references": [
                 {
                     "url": "https://docs.microsoft.com/en-us/sysinternals/downloads/sdelete",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "deletes data in a way that makes it unrecoverable.",
             "source_ref": "tool--d8d19e33-94fd-4aa3-b94a-08ee801a2153",
             "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59"
         }

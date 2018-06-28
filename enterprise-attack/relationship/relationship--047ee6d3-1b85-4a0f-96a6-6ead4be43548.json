@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4720ffbf-3d6e-476c-ac69-bc5b879ece4b",
+    "id": "bundle--c4b82761-484f-46ed-8879-0ec9d64aa8b5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.048Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Night Dragon is known to use software packing in its tools. (Citation: McAfee Night Dragon)",
+            "description": "Night Dragon is known to use software packing in its tools.",
             "external_references": [
                 {
                     "url": "https://securingtomorrow.mcafee.com/wp-content/uploads/2011/02/McAfee%20NightDragon%20wp%20draft%20to%20customersv1-1.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0014}} is known to use software packing in its tools.",
             "source_ref": "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
             "target_ref": "attack-pattern--6ff403bc-93e3-48be-8687-e102fdba8c88"
         }

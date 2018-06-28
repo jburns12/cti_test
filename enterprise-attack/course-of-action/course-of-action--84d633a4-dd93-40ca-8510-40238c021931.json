@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--067b9a4d-ec95-4bc9-81d9-774f4898a00d",
+    "id": "bundle--6a44a10b-4e37-467e-9719-4a4faae9d28d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -17,7 +17,8 @@
                     "url": "https://attack.mitre.org/wiki/Technique/T1158",
                     "source_name": "mitre-attack"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Mitigation of this technique may be difficult and unadvised due to the the legitimate use of hidden files and directories."
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8d8f7deb-ca1f-4275-8183-bc70ca0068ec",
+    "id": "bundle--dd60e675-7521-4f98-990c-fd22af155046",
     "spec_version": "2.0",
     "objects": [
         {
@@ -42,7 +42,8 @@
                     "description": "Microsoft. (2012, June 27). Using Software Restriction Policies and AppLocker Policies. Retrieved April 7, 2016.",
                     "source_name": "TechNet Applocker vs SRP"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Identify unnecessary system utilities, third-party tools, or potentially malicious software that may be used to delete files, and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools like AppLocker (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)"
         }
     ]
 }

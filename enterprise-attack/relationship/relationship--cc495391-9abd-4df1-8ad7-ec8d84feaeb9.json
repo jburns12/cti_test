@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ed09919d-956b-4c56-a4ba-82c820c60cb7",
+    "id": "bundle--c4664dc0-166a-434c-a81f-0c3bee93e4ec",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Sowbug listed remote shared drives that were accessible from a victim. (Citation: Symantec Sowbug Nov 2017)",
+            "description": "Sowbug listed remote shared drives that were accessible from a victim.",
             "external_references": [
                 {
                     "url": "https://www.symantec.com/connect/blogs/sowbug-cyber-espionage-group-targets-south-american-and-southeast-asian-governments",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0054}} listed remote shared drives that were accessible from a victim.",
             "source_ref": "intrusion-set--d1acfbb3-647b-4723-9154-800ec119006e",
             "target_ref": "attack-pattern--3489cfc5-640f-4bb3-a103-9137b97de79f"
         }

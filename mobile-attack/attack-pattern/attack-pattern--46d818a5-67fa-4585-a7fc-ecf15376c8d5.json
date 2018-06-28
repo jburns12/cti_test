@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f7515189-ddd7-45ee-acea-113d79f43cfb",
+    "id": "bundle--260377fc-4529-4c35-ac33-fdd8b6b017c3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -51,7 +51,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "The Android SafetyNet API's remote attestation capability could potentially be used to identify and respond to compromised devices. Samsung KNOX also provides a remote attestation capability on supported Samsung Android devices.\n\nSamsung KNOX devices include a non-reversible Knox warranty bit fuse that is triggered \"if a non-Knox kernel has been loaded on the device\" [[Citation: Samsung-KnoxWarrantyBit]]. If triggered, enterprise Knox container services will no longer be available on the device.\n\nAs described in the iOS Security Guide [[Citation: Apple-iOSSecurityGuide]], iOS devices will fail to boot or fail to allow device activation if unauthorized modifications are detected.\n\nMany enterprise applications perform their own checks to detect and respond to compromised devices. These checks are not foolproof but can detect common signs of compromise.",
+            "x_mitre_detection": "If an adversary can escalate privileges, he or she may be able to use those privileges to place malicious code in the device kernel or other boot partition components, where the code may evade detection, may persist after device resets, and may not be removable by the device user. In some cases (e.g., the Samsung Knox warranty bit as described under Detection), the attack may be detected but could result in the device being placed in a state that no longer allows certain functionality.\n\nMany Android devices provide the ability to unlock the bootloader for development purposes, but doing so introduces the potential ability for others to maliciously update the kernel or other boot partition code.\n\nIf the bootloader is not unlocked, it may still be possible to exploit device vulnerabilities to update the code.",
             "x_mitre_platforms": [
                 "Android",
                 "iOS"

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e2a2e0e6-0109-46db-9478-98ff0255843e",
+    "id": "bundle--18b92471-6b3b-490f-9939-d580080f5f69",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Business relationship information includes the associates of a target and may be discovered via social media sites such as [https://www.linkedin.com LinkedIn] or public press releases announcing new partnerships between organizations or people (such as key hire announcements in industry articles).  This information may be used by an adversary to shape social engineering attempts (exploiting who a target expects to hear from) or to plan for technical actions such as exploiting network trust relationship. (Citation: RSA-APTRecon) (Citation: Scasny2015)"
         }
     ]
 }

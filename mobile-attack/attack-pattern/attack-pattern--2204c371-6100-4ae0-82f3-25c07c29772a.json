@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cb9cf9af-607a-401a-a34d-f8a810bdafe4",
+    "id": "bundle--c6aac615-164d-49cf-a516-d0fe72e5a5df",
     "spec_version": "2.0",
     "objects": [
         {
@@ -36,6 +36,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "A malicious app could abuse Android's accessibility features to capture sensitive data or perform other malicious actions, as demonstrated in a proof of concept created by Skycure (Citation: Skycure-Accessibility).",
             "x_mitre_platforms": [
                 "Android"
             ]

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--88d70439-3c35-4017-b4f8-082df7fe1a27",
+    "id": "bundle--322e0b29-3193-4643-8f7d-3af8b9f4ebd6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "POWRUNER may collect network configuration data by running <code>ipconfig /all</code> on a victim. (Citation: FireEye APT34 Dec 2017)",
+            "description": "POWRUNER may collect network configuration data by running <code>ipconfig /all</code> on a victim.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/12/targeted-attack-in-middle-east-by-apt34.html",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0184}} may collect network configuration data by running <code>ipconfig /all</code> on a victim.",
             "source_ref": "malware--09b2cd76-c674-47cc-9f57-d2f2ad150a46",
             "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0"
         }

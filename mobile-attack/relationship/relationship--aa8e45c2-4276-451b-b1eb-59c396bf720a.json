@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--607db6c7-7cba-461c-afe4-e9f93542cd58",
+    "id": "bundle--9d6011d8-e2ed-4f3a-8cb7-d0ff925f4af5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|MOB-S0006}} executes Android root exploits.",
             "source_ref": "malware--20d56cd6-8dff-4871-9889-d32d254816de",
             "target_ref": "attack-pattern--351c0927-2fc1-4a2c-ad84-cbbee7eb8172"
         }

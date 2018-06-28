@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--66130a82-2d24-40ed-bd1e-ea3ccb9f8a81",
+    "id": "bundle--f25570e6-c4a0-4b68-8743-8d992658bf3d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Net Crawler uses a list of known credentials gathered through credential dumping to guess passwords to accounts as it spreads throughout a network. (Citation: Cylance Cleaver)",
+            "description": "Net Crawler uses a list of known credentials gathered through credential dumping to guess passwords to accounts as it spreads throughout a network.",
             "external_references": [
                 {
                     "url": "https://www.cylance.com/content/dam/cylance/pages/operation-cleaver/Cylance%20Operation%20Cleaver%20Report.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0056}} uses a list of known credentials gathered through credential dumping to guess passwords to accounts as it spreads throughout a network.",
             "source_ref": "malware--fde50aaa-f5de-4cb8-989a-babb57d6a704",
             "target_ref": "attack-pattern--a93494bb-4b80-4ea1-8695-3236a49916fd"
         }

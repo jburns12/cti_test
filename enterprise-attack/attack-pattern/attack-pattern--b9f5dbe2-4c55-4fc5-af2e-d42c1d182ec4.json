@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--16130517-91d0-4a26-9ee7-da79a1895cf8",
+    "id": "bundle--9db0c359-2893-4b73-b190-cefe9f2c58c4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -32,7 +32,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Compression software and compressed files can be detected in many ways. Common utilities that may be present on the system or brought in by an adversary may be detectable through process monitoring and monitoring for command-line arguments for known compression utilities. This may yield a significant amount of benign events, depending on how systems in the environment are typically used.\n\nIf the communications channel is unencrypted, compressed files can be detected in transit during exfiltration with a network intrusion detection or data loss prevention system analyzing file headers. [[Citation: Wikipedia File Header Signatures]]",
+            "x_mitre_detection": "An adversary may compress data (e.g., sensitive documents) that is collected prior to exfiltration in order to make it portable and minimize the amount of data sent over the network. The compression is done separately from the exfiltration channel and is performed using a custom program or algorithm, or a more common compression library or utility such as 7zip, RAR, ZIP, or zlib.",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",

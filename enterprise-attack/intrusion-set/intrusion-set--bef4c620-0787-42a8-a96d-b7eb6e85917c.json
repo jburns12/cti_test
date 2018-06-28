@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b5505cd0-8b96-48fc-a5b2-503d32d8a982",
+    "id": "bundle--c38d722c-736a-4b17-ae8f-69a179911229",
     "spec_version": "2.0",
     "objects": [
         {
@@ -96,7 +96,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "{{LinkById|G0007}} is a threat group that has been attributed to the Russian government. (Citation: FireEye APT28) (Citation: SecureWorks TG-4127) (Citation: FireEye APT28) January 2017 (Citation: GRIZZLY STEPPE JAR) This group reportedly compromised the Democratic National Committee in April 2016. (Citation: Crowdstrike DNC June 2016)"
         }
     ]
 }

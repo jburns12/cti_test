@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--272268a2-0132-41e2-b73a-27cc49dffa73",
+    "id": "bundle--9a57c7f8-c64c-4efc-9a6d-28d944fd9d32",
     "spec_version": "2.0",
     "objects": [
         {
@@ -20,7 +20,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Ensure that Android devices being used include and enable the Verified Boot capability, which cryptographically ensures the integrity of the system partition."
         }
     ]
 }

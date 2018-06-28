@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8a4bf073-7af4-4e52-a5ec-0cb562621fa8",
+    "id": "bundle--d0cd8c99-d168-4dc1-872f-e5832bc76e9f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -17,7 +17,8 @@
                     "url": "https://attack.mitre.org/wiki/Technique/T1219",
                     "source_name": "mitre-attack"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Properly configure firewalls, application firewalls, and proxies to limit outgoing traffic to sites and services used by remote access tools.\n\nNetwork intrusion detection and prevention systems that use network signatures may be able to prevent traffic to these services as well.\n\nUse application whitelisting to mitigate use of and installation of unapproved software."
         }
     ]
 }

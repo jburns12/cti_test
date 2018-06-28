@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c81524d3-a4b2-4a5d-84b8-efaa6432eef2",
+    "id": "bundle--d487f1ce-cec2-4f9a-bbf1-5755ae3de4b6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "MoonWind can delete itself or specified files. (Citation: Palo Alto MoonWind March 2017)",
+            "description": "MoonWind can delete itself or specified files.",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2017/03/unit42-trochilus-rat-new-moonwind-rat-used-attack-thai-utility-organizations/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0149}} can delete itself or specified files.",
             "source_ref": "malware--9ea525fa-b0a9-4dde-84f2-bcea0137b3c1",
             "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59"
         }

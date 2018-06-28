@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--05016bba-f5a8-40f3-825b-cc94fecb34ad",
+    "id": "bundle--26cf2570-9244-4bcd-afec-ae00cff7a45b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -32,7 +32,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "{{LinkById|G0057}} is an Iranian cyber espionage group that has been active since at least 2014. The group has targeted a variety of industries, including financial, government, energy, chemical, and telecommunications, and has largely focused its operations within the Middle East. FireEye assesses that the group works on behalf of the Iranian government based on infrastructure details that contain references to Iran, use of Iranian infrastructure, and targeting that aligns with nation-state interests. {{LinkById|G0057}} loosely aligns with public reporting related to {{LinkById|G0049}}, but may not wholly align due to companies tracking threat groups in different ways. (Citation: FireEye APT34 Dec 2017)"
         }
     ]
 }

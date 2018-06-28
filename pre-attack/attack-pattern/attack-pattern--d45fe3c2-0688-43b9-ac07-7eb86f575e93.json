@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d6fbd8e6-a564-4135-9a20-99fc90f07d96",
+    "id": "bundle--0adb3730-518a-483a-876b-3873db36949e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -46,7 +46,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "The approach or attack vector outlines the specifics behind how the adversary would like to attack the target.  As additional information is known through the other phases of PRE-ATT&CK, an adversary may update the approach or attack vector. (Citation: CyberAdversaryBehavior) (Citation: WITCHCOVEN2015) (Citation: JP3-60) (Citation: JP3-12 (R)) (Citation: DoD Cyber 2015)"
         }
     ]
 }

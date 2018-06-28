@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a004ea77-0981-4a95-8e60-b145380e773f",
+    "id": "bundle--f111b848-6d48-4c1f-aac9-98de0b422fbb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -32,7 +32,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Follow best practices for detecting adversary use of {{LinkById|T1078}} for authenticating to remote services. Collect authentication logs and analyze for unusual access patterns, windows of activity, and access outside of normal business hours.",
+            "x_mitre_detection": "Remote services such as VPNs, Citrix, and other access mechanisms allow users to connect to internal enterprise network resources from external locations. There are often remote service gateways that manage connections and credential authentication for these services. Services such as {{LinkById|T1028}} can also be used externally.\n\nAdversaries may use remote services to access and persist within a network. (Citation: Volexity Virtual Private Keylogging) Access to {{LinkById|T1078}} to use the service is often a requirement, which could be obtained through credential pharming or by obtaining the credentials from users after compromising the enterprise network. Access to remote services may be used as part of {{LinkById|T1108}} during an operation.",
             "x_mitre_platforms": [
                 "Windows"
             ],

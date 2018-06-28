@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--18530bf6-0888-44ff-a9da-4605aba84319",
+    "id": "bundle--44d27828-6fea-4475-9ef5-b092e6305806",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,6 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0099}} displays information about a system's Address Resolution Protocol (ARP) cache. (Citation: TechNet Arp)",
             "x_mitre_platforms": [
                 "Linux",
                 "Windows",

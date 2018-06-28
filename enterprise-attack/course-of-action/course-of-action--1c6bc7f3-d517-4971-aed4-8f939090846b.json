@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--582c8eac-4451-4201-8872-c13ed7b54302",
+    "id": "bundle--f0d6b1f9-7af0-431c-a611-b6df6aa4793d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -22,7 +22,8 @@
                     "description": "Beechey, J. (2010, December). Application Whitelisting: Panacea or Propaganda?. Retrieved November 18, 2014.",
                     "source_name": "Beechey 2010"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Identify and block potentially malicious software that may persist in this manner by using whitelisting (Citation: Beechey 2010) tools capable of monitoring DLL loads by processes running under SYSTEM permissions."
         }
     ]
 }

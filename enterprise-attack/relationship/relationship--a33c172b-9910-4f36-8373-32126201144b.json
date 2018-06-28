@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--debddfa8-7a5a-4a82-af0c-15f07552f13f",
+    "id": "bundle--07daa06c-fe05-4572-bea9-f8942ed9ebe3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Mis-Type may create a file containing the results of the command <code>cmd.exe /c net user {Username}</code>. (Citation: Cylance Dust Storm)",
+            "description": "Mis-Type may create a file containing the results of the command <code>cmd.exe /c net user {Username}</code>.",
             "external_references": [
                 {
                     "url": "https://www.cylance.com/content/dam/cylance/pdfs/reports/Op%20Dust%20Storm%20Report.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0084}} may create a file containing the results of the command <code>cmd.exe /c net user {Username}</code>.",
             "source_ref": "malware--e1161124-f22e-487f-9d5f-ed8efc8dcd61",
             "target_ref": "attack-pattern--72b74d71-8169-42aa-92e0-e7b04b9f5a08"
         }

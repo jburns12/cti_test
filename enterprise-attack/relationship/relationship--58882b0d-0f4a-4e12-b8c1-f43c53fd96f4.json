@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8eb2ec67-ce5e-4e34-9f23-404a89fb7bff",
+    "id": "bundle--a2e5471b-c34e-4f7a-baff-3a7d519bf698",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.041Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Carbanak actors used legitimate credentials of banking employees to perform operations that sent them millions of dollars. (Citation: Kaspersky Carbanak)",
+            "description": "Carbanak actors used legitimate credentials of banking employees to perform operations that sent them millions of dollars.",
             "external_references": [
                 {
                     "url": "https://securelist.com/files/2015/02/Carbanak%20APT%20eng.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0008}} actors used legitimate credentials of banking employees to perform operations that sent them millions of dollars.",
             "source_ref": "intrusion-set--55033a4d-3ffe-46b2-99b4-2c1541e9ce1c",
             "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81"
         }

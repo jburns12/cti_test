@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--65b95933-b1eb-4de5-80fe-5d9e73e64f50",
+    "id": "bundle--f4a58be1-6004-4ec4-975a-d0ed58549ecc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Janicab used a valid AppleDeveloperID to sign the code to get past security restrictions (Citation: Janicab).",
+            "description": "Janicab used a valid AppleDeveloperID to sign the code to get past security restrictions.",
             "external_references": [
                 {
                     "url": "http://www.thesafemac.com/new-signed-malware-called-janicab/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0163}} used a valid AppleDeveloperID to sign the code to get past security restrictions.",
             "source_ref": "malware--234e7770-99b0-4f65-b983-d3230f76a60b",
             "target_ref": "attack-pattern--1b84d551-6de8-4b96-9930-d177677c3b1d"
         }

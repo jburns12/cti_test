@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d02b8092-2ea5-4dc2-a492-c8d8fe3263b4",
+    "id": "bundle--e900d6c2-27fd-4d8d-a944-7439cd83fffc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "BADNEWS copies documents under 15MB found on the victim system to is the user's <code>%temp%\\SMB\\</code> folder. (Citation: Forcepoint Monsoon)",
+            "description": "BADNEWS copies documents under 15MB found on the victim system to is the user's <code>%temp%\\SMB\\</code> folder.",
             "external_references": [
                 {
                     "url": "https://www.forcepoint.com/sites/default/files/resources/files/forcepoint-security-labs-monsoon-analysis-report.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0128}} copies documents under 15MB found on the victim system to is the user's <code>%temp%\\SMB\\</code> folder.",
             "source_ref": "malware--e9595678-d269-469e-ae6b-75e49259de63",
             "target_ref": "attack-pattern--7dd95ff6-712e-4056-9626-312ea4ab4c5e"
         }

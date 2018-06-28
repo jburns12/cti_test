@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d49396ef-71f1-4576-9dff-0b9f9758d8e4",
+    "id": "bundle--d93e728f-7d21-4ad8-a2d3-09730b62ab75",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Emissary is capable of configuring itself as a service. (Citation: Emissary Trojan Feb 2016)",
+            "description": "Emissary is capable of configuring itself as a service.",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2016/02/emissary-trojan-changelog-did-operation-lotus-blossom-cause-it-to-evolve/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0082}} is capable of configuring itself as a service.",
             "source_ref": "malware--0f862b01-99da-47cc-9bdb-db4a86a95bb1",
             "target_ref": "attack-pattern--478aa214-2ca7-4ec0-9978-18798e514790"
         }

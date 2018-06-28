@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a4614cc3-5337-4d82-95bb-92cd5f8f3905",
+    "id": "bundle--7ec3fd23-696c-4720-82d7-9f393d6ce234",
     "spec_version": "2.0",
     "objects": [
         {
@@ -56,7 +56,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "{{LinkById|G0016}} is threat group that has been attributed to the Russian government and has operated since at least 2008. (Citation: F-Secure The Dukes) (Citation: GRIZZLY STEPPE JAR) This group reportedly compromised the Democratic National Committee starting in the summer of 2015. (Citation: Crowdstrike DNC June 2016)"
         }
     ]
 }

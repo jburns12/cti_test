@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e503a6ca-b75e-4cc1-83f2-8311a9a16ad5",
+    "id": "bundle--beb1c99e-794f-4db4-abfb-ec078ff11721",
     "spec_version": "2.0",
     "objects": [
         {
@@ -41,6 +41,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "An adversary could cause the mobile device to use less secure protocols, for example by jamming frequencies used by newer protocols such as LTE and only allowing older protocols such as GSM to communicate as described in draft NIST SP 800-187 (Citation: NIST-SP800187). Use of less secure protocols may make communication easier to eavesdrop upon or manipulate.",
             "x_mitre_platforms": [
                 "Android",
                 "iOS"

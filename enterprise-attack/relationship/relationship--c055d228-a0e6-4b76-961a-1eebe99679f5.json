@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ffc377f2-e697-4a4e-8f62-fe959dc452ea",
+    "id": "bundle--a9f55192-bc46-410b-955a-4b3eeff48a1c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "A Lazarus Group malware sample performs reflective DLL injection. (Citation: McAfee Lazarus Resurfaces Feb 2018)",
+            "description": "A Lazarus Group malware sample performs reflective DLL injection.",
             "external_references": [
                 {
                     "url": "https://securingtomorrow.mcafee.com/mcafee-labs/lazarus-resurfaces-targets-global-banks-bitcoin-users/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "A {{LinkById|G0032}} malware sample performs reflective DLL injection.",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a168c480-d181-403b-b7a7-c4dd9f1b6ae1",
+    "id": "bundle--6cac3a1e-5113-4380-a94e-8dddd7ef2aa4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-18T15:59:03.864Z",
-            "description": "Xbot uses \"phishing pages crafted to mimic Google Play's payment interface as well as the login pages of 7 different banks' apps\" (Citation: PaloAlto-Xbot).",
+            "description": "Xbot uses \"phishing pages crafted to mimic Google Play's payment interface as well as the login pages of 7 different banks' apps\".",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2016/02/new-android-trojan-xbot-phishes-credit-cards-and-bank-accounts-encrypts-devices-for-ransom/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|MOB-S0014}} uses \"phishing pages crafted to mimic Google Play's payment interface as well as the login pages of 7 different banks' apps\".",
             "source_ref": "tool--da21929e-40c0-443d-bdf4-6b60d15448b4",
             "target_ref": "attack-pattern--3dd58c80-4c2e-458c-9503-1b2cd273c4d2"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--603dc3e8-6c08-4eed-8b82-040124c532cf",
+    "id": "bundle--c088d745-8935-4976-8127-8e10e2dc766a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "In addition to a target's social media presence may exist a larger digital footprint, such as accounts and credentials on e-commerce sites or usernames and logins for email.  An adversary familiar with a target's username can mine to determine the target's larger digital footprint via publicly available sources. (Citation: DigitalFootprint) (Citation: trendmicro-vtech)"
         }
     ]
 }

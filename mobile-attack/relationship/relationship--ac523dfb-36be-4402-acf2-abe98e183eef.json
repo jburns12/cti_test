@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fc96562b-73de-44aa-8bf1-8a99d319fa6c",
+    "id": "bundle--0fdfaf61-e702-43df-b8c8-a7ce1fc14758",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-18T15:59:03.864Z",
-            "description": "HummingBad (in July 2016) \"installs more than 50,000 fraudulent apps each day, displays 20 million malicious advertisements, and generates more than $300,000 per month in revenue.\" (Citation: ArsTechnica-HummingBad)",
+            "description": "HummingBad (in July 2016) \"installs more than 50,000 fraudulent apps each day, displays 20 million malicious advertisements, and generates more than $300,000 per month in revenue.\"",
             "external_references": [
                 {
                     "url": "http://arstechnica.com/security/2016/07/virulent-auto-rooting-malware-takes-control-of-10-million-android-devices/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|MOB-S0038}} (in July 2016) \"installs more than 50,000 fraudulent apps each day, displays 20 million malicious advertisements, and generates more than $300,000 per month in revenue.\"",
             "source_ref": "malware--c8770c81-c29f-40d2-a140-38544206b2b4",
             "target_ref": "attack-pattern--f981d199-2720-467e-9dc9-eea04dbe05cf"
         }

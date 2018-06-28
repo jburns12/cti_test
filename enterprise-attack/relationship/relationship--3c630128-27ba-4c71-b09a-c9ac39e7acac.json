@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e122b835-cc0a-4e68-9f68-f1ab9746b277",
+    "id": "bundle--5af22390-d3f7-47d1-83b4-a178fd7e5f9c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Shamoon creates a new service named \u201cntssrv\u201d that attempts to appear legitimate; the service's display name is \u201cMicrosoft Network Realtime Inspection Service\u201d and its description is \u201cHelps guard against time change attempts targeting known and newly discovered vulnerabilities in network time protocols.\u201d (Citation: Palo Alto Shamoon Nov 2016)",
+            "description": "Shamoon creates a new service named \u201cntssrv\u201d that attempts to appear legitimate; the service's display name is \u201cMicrosoft Network Realtime Inspection Service\u201d and its description is \u201cHelps guard against time change attempts targeting known and newly discovered vulnerabilities in network time protocols.\u201d",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2016/11/unit42-shamoon-2-return-disttrack-wiper/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0140}} creates a new service named \u201cntssrv\u201d that attempts to appear legitimate; the service's display name is \u201cMicrosoft Network Realtime Inspection Service\u201d and its description is \u201cHelps guard against time change attempts targeting known and newly discovered vulnerabilities in network time protocols.\u201d",
             "source_ref": "malware--8901ac23-6b50-410c-b0dd-d8174a86f9b3",
             "target_ref": "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b8e1243b-745b-434a-84e9-61531e1c389d",
+    "id": "bundle--e16a2126-bfa1-404c-b3c1-be928d21cdc8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -17,7 +17,8 @@
                     "url": "https://attack.mitre.org/wiki/Technique/T1151",
                     "source_name": "mitre-attack"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Prevent files from having a trailing space after the extension."
         }
     ]
 }

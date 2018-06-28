@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8916b812-38f3-463d-b3cd-6e5f16e6ecdd",
+    "id": "bundle--f5b6494a-1911-4f51-9d50-6b6335edd0f5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Google and Apple provide Google Cloud Messaging and Apple Push Notification Service, respectively, services designed to enable efficient communication between third-party mobile app backend servers and the mobile apps running on individual devices. These services maintain an encrypted connection between every mobile device and Google or Apple that cannot easily be inspected and must be allowed to traverse networks as part of normal device operation. These services could be used by adversaries for communication to compromised mobile devices. (Citation: Securelist Mobile Malware 2013) (Citation: DroydSeuss)"
         }
     ]
 }

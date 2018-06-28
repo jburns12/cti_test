@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ce14eb72-70b6-4cef-a86e-988d89a566e7",
+    "id": "bundle--d9516507-1c1d-4fcd-bfa1-4ff20d571031",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "NETEAGLE allows adversaries to execute shell commands on the infected host. (Citation: FireEye APT30)",
+            "description": "NETEAGLE allows adversaries to execute shell commands on the infected host.",
             "external_references": [
                 {
                     "url": "https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0034}} allows adversaries to execute shell commands on the infected host.",
             "source_ref": "malware--53cf6cc4-65aa-445a-bcf8-c3d296f8a7a2",
             "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830"
         }

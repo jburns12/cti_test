@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2de59002-af8f-4c15-82d0-d8d43c7bf71b",
+    "id": "bundle--281240da-1e30-431b-933a-9a079ebb1e35",
     "spec_version": "2.0",
     "objects": [
         {
@@ -13,6 +13,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0127}} has been loaded through DLL side-loading of a legitimate Citrix executable that is set to persist through the registry run key location: <code>HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\ssonsvr.exe</code>",
             "source_ref": "malware--64d76fa5-cf8f-469c-b78c-1a4f7c5bad80",
             "target_ref": "attack-pattern--9422fc14-1c43-410d-ab0f-a709b76c72dc"
         }

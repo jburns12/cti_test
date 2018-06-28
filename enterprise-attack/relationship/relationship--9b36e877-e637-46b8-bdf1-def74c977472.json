@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a830a5ce-17ea-41a1-904a-8d3f593d26e9",
+    "id": "bundle--c1b23149-6196-4dc6-bd75-9f2338f6fd59",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Remsec can obtain the OS version information, computer name, processor architecture, machine role, and OS edition. (Citation: Kaspersky ProjectSauron Technical Analysis)",
+            "description": "Remsec can obtain the OS version information, computer name, processor architecture, machine role, and OS edition.",
             "external_references": [
                 {
                     "url": "https://securelist.com/files/2016/07/The-ProjectSauron-APT%20Technical%20Analysis%20KL.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0125}} can obtain the OS version information, computer name, processor architecture, machine role, and OS edition.",
             "source_ref": "malware--69d6f4a9-fcf0-4f51-bca7-597c51ad0bb8",
             "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--93898f92-7a5a-429a-8131-a4586ec4de21",
+    "id": "bundle--0aca90a7-6c13-425b-a321-6fe2f56d21c9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -32,6 +32,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "An adversary could use fake identities, payment cards, etc., to create developer accounts to publish malicious applications to app stores. For example, Oberheide and Miller describe use of this technique in  (Citation: Oberheide-Bouncer).",
             "x_mitre_platforms": [
                 "Android",
                 "iOS"

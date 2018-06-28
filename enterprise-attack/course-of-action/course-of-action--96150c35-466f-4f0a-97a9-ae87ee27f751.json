@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--efe38f87-7297-4f2c-970e-e9dcad9124e5",
+    "id": "bundle--2be38516-e3c9-4e7d-ae5d-9abd1b442161",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,7 +27,8 @@
                     "description": "Microsoft. (n.d.). Secure the Windows 8.1 boot process. Retrieved June 11, 2016.",
                     "source_name": "TechNet Secure Boot Process"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Ensure proper permissions are in place to help prevent adversary access to privileged accounts necessary to perform this action. Use Trusted Platform Module technology and a secure or trusted boot process to prevent system integrity from being compromised. (Citation: TCG Trusted Platform Module) (Citation: TechNet Secure Boot Process)"
         }
     ]
 }

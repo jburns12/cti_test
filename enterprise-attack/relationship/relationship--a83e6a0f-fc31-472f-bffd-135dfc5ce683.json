@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--71ce66d2-c82b-4eb0-b262-eb3ee918956a",
+    "id": "bundle--9ee28f5f-38b8-4830-82e9-9deab47083cc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "FIN8 has attempted to map to C$ on enumerated hosts to test the scope of their current credentials/context. (Citation: FireEye Know Your Enemy FIN8 Aug 2016)",
+            "description": "FIN8 has attempted to map to C$ on enumerated hosts to test the scope of their current credentials/context.",
             "external_references": [
                 {
                     "url": "https://www2.fireeye.com/WBNR-Know-Your-Enemy-UNC622-Spear-Phishing.html",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0061}} has attempted to map to C$ on enumerated hosts to test the scope of their current credentials/context.",
             "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
             "target_ref": "attack-pattern--ffe742ed-9100-4686-9e00-c331da544787"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3eebf4b2-af5f-43db-845b-401050ee6838",
+    "id": "bundle--6c010b53-d364-41d8-8524-855a3afc3a5f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "BRONZE BUTLER has used VBS, VBE, and batch scripts for execution. (Citation: Secureworks BRONZE BUTLER Oct 2017)",
+            "description": "BRONZE BUTLER has used VBS, VBE, and batch scripts for execution.",
             "external_references": [
                 {
                     "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0060}} has used VBS, VBE, and batch scripts for execution.",
             "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
             "target_ref": "attack-pattern--7fd87010-3a00-4da3-b905-410525e8ec44"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--59223f4f-2477-4890-8bb4-91838bbe1d7f",
+    "id": "bundle--f3ff4259-ed10-4ee1-b992-8a2c6d75be0f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.065Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Dust Storm has used Android backdoors capable of exfiltrating specific files directly from the infected devices. (Citation: Cylance Dust Storm)",
+            "description": "Dust Storm has used Android backdoors capable of exfiltrating specific files directly from the infected devices.",
             "external_references": [
                 {
                     "url": "https://www.cylance.com/content/dam/cylance/pdfs/reports/Op%20Dust%20Storm%20Report.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0031}} has used Android backdoors capable of exfiltrating specific files directly from the infected devices.",
             "source_ref": "intrusion-set--ae41895a-243f-4a65-b99b-d85022326c31",
             "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--63e0cfe2-102b-493e-812d-d9db059fe7a9",
+    "id": "bundle--820328d1-e026-46df-8ae7-65a3eb64c970",
     "spec_version": "2.0",
     "objects": [
         {
@@ -17,7 +17,8 @@
                     "url": "https://attack.mitre.org/wiki/Technique/T1141",
                     "source_name": "mitre-attack"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Users need to be trained to know which programs ask for permission and why. Follow mitigation recommendations for {{LinkById|T1155}}."
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2aec3508-2374-4a12-98ad-af5744ad1173",
+    "id": "bundle--b63d1217-120d-4f30-af07-e1a662f63b7b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,6 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0095}} is a utility commonly available with operating systems to transfer information over the File Transfer Protocol (FTP). Adversaries can use it to transfer other tools onto a system or to exfiltrate data. (Citation: Wikipedia FTP)",
             "x_mitre_platforms": [
                 "Linux",
                 "Windows",

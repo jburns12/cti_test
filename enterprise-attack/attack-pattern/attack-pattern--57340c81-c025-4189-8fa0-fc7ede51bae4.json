@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5faa548d-a889-4030-bdc4-92369444a374",
+    "id": "bundle--fd87460f-059a-4951-83ba-c13c2dc32fbb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -37,7 +37,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Modifications to the Registry are normal and occur throughout typical use of the Windows operating system. Changes to Registry entries that load software on Windows startup that do not correlate with known software, patch cycles, etc., are suspicious, as are additions or changes to files within the startup folder. Changes could also include new services and modification of existing binary paths to point to malicious files. If a change to a service-related entry occurs, then it will likely be followed by a local or remote service start or restart to execute the file.\n\nMonitor processes and command-line arguments for actions that could be taken to change or delete information in the Registry. Remote access tools with built-in features may interact directly with the Windows API to gather information. Information may also be acquired through Windows system management tools such as {{LinkById|T1047}} and {{LinkById|T1086}}, which may require additional logging features to be configured in the operating system to collect necessary information for analysis.",
+            "x_mitre_detection": "Adversaries may interact with the Windows Registry to hide configuration information within Registry keys, remove information as part of cleaning up, or as part of other techniques to aid in Persistence and Execution.\n\nAccess to specific areas of the Registry depends on account permissions, some requiring administrator-level access. The built-in Windows command-line utility {{LinkById|S0075}} may be used for local or remote Registry modification. (Citation: Microsoft Reg) Other tools may also be used, such as a remote access tool, which may contain functionality to interact with the Registry through the Windows API (see examples).\n\nThe Registry of a remote system may be modified to aid in execution of files as part of Lateral Movement. It requires the remote Registry service to be running on the target system. (Citation: Microsoft Remote) Often {{LinkById|T1078}} are required, along with access to the remote system's {{LinkById|T1077}} for RPC communication.",
             "x_mitre_platforms": [
                 "Windows"
             ],

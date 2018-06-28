@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0ad17116-a231-441c-addc-32e280106626",
+    "id": "bundle--489fb633-ad03-44ce-a043-53975fc61842",
     "spec_version": "2.0",
     "objects": [
         {
@@ -38,7 +38,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Certain types of traffic (e.g., DNS tunneling, header inject) allow for user-defined fields. These fields can then be used to hide data. In addition to hiding data in network protocols, steganography techniques can be used to hide data in images or other file formats. Detection can be difficult unless a particular signature is already known. (Citation: BotnetsDNSC2) (Citation: HAMMERTOSS2015) (Citation: DNS-Tunnel)"
         }
     ]
 }

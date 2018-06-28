@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--480c28ae-641f-4fa1-917b-93b573a829c7",
+    "id": "bundle--0948f376-af19-4fd8-8d0c-635cfb5bf92a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -17,7 +17,8 @@
                     "url": "https://attack.mitre.org/wiki/Technique/T1179",
                     "source_name": "mitre-attack"
                 }
-            ]
+            ],
+            "x_mitre_detection": "This type of attack technique cannot be easily mitigated with preventive controls since it is based on the abuse of operating system design features. For example, mitigating all hooking will likely have unintended side effects, such as preventing legitimate software (i.e., security products) from operating properly. Efforts should be focused on preventing adversary tools from running earlier in the chain of activity and on identifying subsequent malicious behavior."
         }
     ]
 }

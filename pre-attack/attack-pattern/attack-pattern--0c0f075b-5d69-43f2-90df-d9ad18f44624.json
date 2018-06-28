@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8279fa87-1c33-414f-9064-2e79e31ea71e",
+    "id": "bundle--328f50ff-8f8e-4c0c-bd8d-b33acea2b3e5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "The attempt to identify people of interest or with an inherent weakness for direct or indirect targeting to determine an approach to compromise a person or organization.  Such targets may include individuals with poor OPSEC practices or those who have a trusted relationship with the intended target. (Citation: RSA-APTRecon) (Citation: Scasny2015)"
         }
     ]
 }

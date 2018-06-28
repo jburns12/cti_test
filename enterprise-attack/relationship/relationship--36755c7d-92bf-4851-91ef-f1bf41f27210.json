@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--da9ebef4-4d16-408c-9498-e3cdcc5c4949",
+    "id": "bundle--ff17188e-84fd-4523-9b42-cb3acf641508",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Briba downloads files onto infected hosts. (Citation: Symantec Briba May 2012)",
+            "description": "Briba downloads files onto infected hosts.",
             "external_references": [
                 {
                     "url": "https://www.symantec.com/security%20response/writeup.jsp?docid=2012-051515-2843-99",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0204}} downloads files onto infected hosts.",
             "source_ref": "malware--79499993-a8d6-45eb-b343-bf58dea5bdde",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add"
         }

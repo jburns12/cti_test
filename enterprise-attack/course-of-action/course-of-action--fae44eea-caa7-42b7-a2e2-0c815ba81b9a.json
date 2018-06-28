@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fa945370-0ff7-4e5c-9209-fe3273a84bde",
+    "id": "bundle--11ad9a73-3343-4595-874e-b47b8b88ec93",
     "spec_version": "2.0",
     "objects": [
         {
@@ -17,7 +17,8 @@
                     "url": "https://attack.mitre.org/wiki/Technique/T1143",
                     "source_name": "mitre-attack"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Whitelist programs that are allowed to have this plist tag. All other programs should be considered suspicious."
         }
     ]
 }

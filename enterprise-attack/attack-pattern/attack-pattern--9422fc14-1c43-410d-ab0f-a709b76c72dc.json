@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b21f0b11-3d28-4106-a077-77beedcd6508",
+    "id": "bundle--4283e947-2c38-47ad-9910-d0cd9b9fa115",
     "spec_version": "2.0",
     "objects": [
         {
@@ -37,7 +37,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Monitor Registry for changes to run keys that do not correlate with known software, patch cycles, etc. Monitor the start folder for additions or changes. Tools such as Sysinternals Autoruns may also be used to detect system changes that could be attempts at persistence, including listing the run keys' Registry locations and startup folders. [[Citation: TechNet Autoruns]] Suspicious program execution as startup programs may show up as outlier processes that have not been seen before when compared against historical data.\n\nChanges to these locations typically happen under normal conditions when legitimate software is installed. To increase confidence of malicious activity, data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities, such as network connections made for [[Command and Control]], learning details about the environment through [[Discovery]], and [[Lateral Movement]].",
+            "x_mitre_detection": "Adding an entry to the \"run keys\" in the Registry or startup folder will cause the program referenced to be executed when a user logs in. (Citation: Microsoft Run Key) The program will be executed under the context of the user and will have the account's associated permissions level.\n\nAdversaries can use these configuration locations to execute malware, such as remote access tools, to maintain persistence through system reboots. Adversaries may also use {{LinkById|T1036}} to make the Registry entries look as if they are associated with legitimate programs.",
             "x_mitre_platforms": [
                 "Windows"
             ],

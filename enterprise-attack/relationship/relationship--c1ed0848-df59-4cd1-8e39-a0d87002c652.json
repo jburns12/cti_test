@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c79b6bcf-6614-467d-abdc-dbdc1eabe018",
+    "id": "bundle--fdfe53e9-5238-4bcc-956c-4c9574d0b3fb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "can perform keylogging. (Citation: McAfee Netwire Mar 2015) (Citation: FireEye APT33 Webinar Sept 2017)",
+            "description": "can perform keylogging.",
             "external_references": [
                 {
                     "url": "https://securingtomorrow.mcafee.com/mcafee-labs/netwire-rat-behind-recent-targeted-attacks/",
@@ -25,6 +25,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "can perform keylogging.",
             "source_ref": "malware--2a70812b-f1ef-44db-8578-a496a227aef2",
             "target_ref": "attack-pattern--bb5a00de-e086-4859-a231-fa793f6797e2"
         }

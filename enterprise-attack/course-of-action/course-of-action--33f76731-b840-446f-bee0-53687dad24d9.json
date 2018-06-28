@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b3eec39a-d1d8-4cc8-91a6-206045ffd02a",
+    "id": "bundle--4b83e7e9-6a5c-44b0-a769-fdefb3e5dbc9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -37,7 +37,8 @@
                     "description": "NSA Information Assurance Directorate. (2014, August). Application Whitelisting Using Microsoft AppLocker. Retrieved March 31, 2016.",
                     "source_name": "NSA MS AppLocker"
                 }
-            ]
+            ],
+            "x_mitre_detection": "This type of attack technique cannot be easily mitigated with preventive controls since it is based on the abuse of operating system design features. For example, mitigating all IFEO will likely have unintended side effects, such as preventing legitimate software (i.e., security products) from operating properly. (Citation: Microsoft IFEOorMalware July 2015) Efforts should be focused on preventing adversary tools from running earlier in the chain of activity and on identifying subsequent malicious behavior.\n\nIdentify and block potentially malicious software that may be executed through IFEO by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) that are capable of auditing and/or blocking unknown executables."
         }
     ]
 }

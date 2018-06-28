@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--13923bea-1857-4f54-9e38-89d44676796f",
+    "id": "bundle--74d98d7d-d3d4-468a-9c7b-f7fd4faff95b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "can discover and collect victim system information. (Citation: McAfee Netwire Mar 2015)",
+            "description": "can discover and collect victim system information.",
             "external_references": [
                 {
                     "url": "https://securingtomorrow.mcafee.com/mcafee-labs/netwire-rat-behind-recent-targeted-attacks/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "can discover and collect victim system information.",
             "source_ref": "malware--2a70812b-f1ef-44db-8578-a496a227aef2",
             "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1"
         }

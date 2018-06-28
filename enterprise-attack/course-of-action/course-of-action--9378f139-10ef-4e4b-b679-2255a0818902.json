@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4aa6fdc8-2cea-4daa-b4aa-21736179e474",
+    "id": "bundle--f043239e-040f-4db1-a51f-e5d61809f60f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -32,7 +32,8 @@
                     "description": "NSA Information Assurance Directorate. (2014, August). Application Whitelisting Using Microsoft AppLocker. Retrieved March 31, 2016.",
                     "source_name": "NSA MS AppLocker"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Ensure proper permissions are set for Registry hives to prevent users from modifying keys for system components that may lead to privilege escalation.\n\nIdentify and block potentially malicious software that may be executed through service abuse by using whitelisting (Citation: Beechey 2010) tools like AppLocker (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) that are capable of auditing and/or blocking unknown programs."
         }
     ]
 }

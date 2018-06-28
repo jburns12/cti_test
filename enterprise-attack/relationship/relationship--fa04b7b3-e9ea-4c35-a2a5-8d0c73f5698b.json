@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--072388bb-230d-49fc-8066-2b47f03e01b5",
+    "id": "bundle--14ef4a8d-c991-48ab-97cb-9ca81d192d59",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "StreamEx has the ability to remotely execute commands. (Citation: Cylance Shell Crew Feb 2017)",
+            "description": "StreamEx has the ability to remotely execute commands.",
             "external_references": [
                 {
                     "url": "https://www.cylance.com/shell-crew-variants-continue-to-fly-under-big-avs-radar",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0142}} has the ability to remotely execute commands.",
             "source_ref": "malware--91000a8a-58cc-4aba-9ad0-993ad6302b86",
             "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830"
         }

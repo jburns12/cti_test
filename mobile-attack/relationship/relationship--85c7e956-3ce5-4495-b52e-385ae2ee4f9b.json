@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c6eb5b0e-fdfd-4478-b8e6-4f9419edc478",
+    "id": "bundle--dd12ddf3-f0bf-4e12-a2f0-f0d138a942c8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-18T15:59:03.864Z",
-            "description": "Charger \"checks the local settings of the device and does not run its malicious logic if the device is located in Ukraine, Russia, or Belarus. This is likely done to keep the developers from being prosecuted in their own countries or being extradited between countries.\" (Citation: CheckPoint-Charger)",
+            "description": "Charger \"checks the local settings of the device and does not run its malicious logic if the device is located in Ukraine, Russia, or Belarus. This is likely done to keep the developers from being prosecuted in their own countries or being extradited between countries.\"",
             "external_references": [
                 {
                     "url": "http://blog.checkpoint.com/2017/01/24/charger-malware/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|MOB-S0039}} \"checks the local settings of the device and does not run its malicious logic if the device is located in Ukraine, Russia, or Belarus. This is likely done to keep the developers from being prosecuted in their own countries or being extradited between countries.\"",
             "source_ref": "malware--d1c600f8-0fb6-4367-921b-85b71947d950",
             "target_ref": "attack-pattern--99e6295e-741b-4857-b6e5-64989eb039b4"
         }

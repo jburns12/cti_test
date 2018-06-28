@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6058c621-63ff-4717-a3bf-1d1a06b6b9c6",
+    "id": "bundle--10930e48-8741-4fb4-acf8-6f0f26ac2595",
     "spec_version": "2.0",
     "objects": [
         {
@@ -22,7 +22,8 @@
                     "description": "Metcalf, S. (2015, December 31). Cracking Kerberos TGS Tickets Using Kerberoast \u2013 Exploiting Kerberos to Compromise the Active Directory Domain. Retrieved March 22, 2018.",
                     "source_name": "AdSecurity Cracking Kerberos Dec 2015"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Ensure strong password length (ideally 25+ characters) and complexity for service accounts and that these passwords periodically expire. (Citation: AdSecurity Cracking Kerberos Dec 2015) Also consider using Group Managed Service Accounts or another third party product such as password vaulting. (Citation: AdSecurity Cracking Kerberos Dec 2015)\n\nLimit service accounts to minimal required privileges, including membership in privileged groups such as Domain Administrators. (Citation: AdSecurity Cracking Kerberos Dec 2015)\n\nEnable AES Kerberos encryption (or another stronger encryption algorithm), rather than RC4, where possible. (Citation: AdSecurity Cracking Kerberos Dec 2015)"
         }
     ]
 }

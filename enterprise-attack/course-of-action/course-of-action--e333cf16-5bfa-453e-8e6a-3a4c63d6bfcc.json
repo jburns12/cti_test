@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a2a3ba64-d385-4360-a205-ec77bb025002",
+    "id": "bundle--0cac2000-1634-43a3-9272-9c6d3f68cd9b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -17,7 +17,8 @@
                     "url": "https://attack.mitre.org/wiki/Technique/T1152",
                     "source_name": "mitre-attack"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Prevent users from installing their own launch agents or launch daemons and instead require them to be pushed out by group policy."
         }
     ]
 }

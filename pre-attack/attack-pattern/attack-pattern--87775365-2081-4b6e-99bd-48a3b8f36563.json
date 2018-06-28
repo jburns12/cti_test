@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4885c1d1-4e1e-4ba5-bb1b-61aed0436829",
+    "id": "bundle--d594ed88-ba01-4c75-a634-3a0edc3812a9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -30,7 +30,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "An adversary may analyze technical scanning results to identify weaknesses in the configuration or architecture of a victim network. These weaknesses could include  architectural flaws, misconfigurations, or improper security controls. (Citation: FireEyeAPT28)"
         }
     ]
 }

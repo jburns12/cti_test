@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f0ec5b85-4b65-4901-b3ba-7cf3d986c173",
+    "id": "bundle--0e79e00a-b669-4a55-92d0-52624987937e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Regin contains a keylogger. (Citation: Kaspersky Regin)",
+            "description": "Regin contains a keylogger.",
             "external_references": [
                 {
                     "url": "https://securelist.com/files/2014/11/Kaspersky%20Lab%20whitepaper%20Regin%20platform%20eng.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0019}} contains a keylogger.",
             "source_ref": "malware--4c59cce8-cb48-4141-b9f1-f646edfaadb0",
             "target_ref": "attack-pattern--bb5a00de-e086-4859-a231-fa793f6797e2"
         }

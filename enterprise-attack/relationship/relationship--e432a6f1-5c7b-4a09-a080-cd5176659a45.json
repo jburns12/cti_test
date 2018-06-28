@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ecf864e6-d8ec-44f0-a161-6e91e2c4b268",
+    "id": "bundle--6232fbd9-34c1-4bc3-a501-cc2efeba004b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-06-27T14:18:47.700Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "APT32 has cleared select event log entries. (Citation: FireEye APT32 May 2017)",
+            "description": "APT32 has cleared select event log entries.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0050}} has cleared select event log entries.",
             "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
             "target_ref": "attack-pattern--799ace7f-e227-4411-baa0-8868704f2a69"
         }

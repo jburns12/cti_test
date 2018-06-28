@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--36d4fa55-0b7a-43a5-be8f-818ef7459de6",
+    "id": "bundle--f0915518-2d41-422f-ad4a-5c5322c3b7d0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,7 +27,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Processes that appear to be reading files from disparate locations and writing them to the same directory or file may be an indication of data being staged, especially if they are suspected of performing encryption or compression on the files.\n\nMonitor processes and command-line arguments for actions that could be taken to collect and combine files. Remote access tools with built-in features may interact directly with the Windows API to gather and copy to a location. Data may also be acquired and staged through Windows system management tools such as {{LinkById|T1047}} and {{LinkById|T1086}}.",
+            "x_mitre_detection": "Collected data is staged in a central location or directory prior to Exfiltration. Data may be kept in separate files or combined into one file through techniques such as {{LinkById|T1002}} or {{LinkById|T1022}}.\n\nInteractive command shells may be used, and common functionality within {{LinkById|S0106}} and bash may be used to copy data into a staging location.",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b5c59608-b4e8-4af4-ab83-d9d3e80fda40",
+    "id": "bundle--c74d9c7c-f980-40f7-8b34-1becfa0f7d82",
     "spec_version": "2.0",
     "objects": [
         {
@@ -32,7 +32,8 @@
                     "description": "Vander Stoep, J. (2016, April 5). [v3] selinux: restrict kernel module loadinglogin  register. Retrieved April 9, 2018.",
                     "source_name": "Kernel.org Restrict Kernel Module"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Common tools for detecting Linux rootkits include: rkhunter (Citation: SourceForge rkhunter), chrootkit (Citation: Chkrootkit Main), although rootkits may be designed to evade certain detection tools.\n\nLKMs and Kernel extensions require root level permissions to be installed. Limit access to the root account and prevent users from loading kernel modules and extensions through proper privilege separation and limiting Privilege Escalation opportunities.\n\nApplication whitelisting and software restriction tools, such as SELinux, can also aide in restricting kernel module loading. (Citation: Kernel.org Restrict Kernel Module)"
         }
     ]
 }

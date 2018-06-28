@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f59b245e-94b5-4806-8345-f9a9bceab05a",
+    "id": "bundle--45e8823d-56ca-45c3-ab9a-1f32bfac747e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -39,6 +39,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0194}} is an open source, offensive security framework compromised of {{LinkById|T1086}} modules and scripts that perform a wide range of tasks related to penetration testing such as code execution, persistence, bypassing anti-virus, recon, and exfiltration. (Citation: GitHub PowerSploit May 2012) (Citation: PowerShellMagazine PowerSploit July 2014) (Citation: PowerSploit Documentation)",
             "x_mitre_platforms": [
                 "Windows"
             ],

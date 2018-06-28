@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6001d3d3-b6f5-4692-97df-421bd8296fe3",
+    "id": "bundle--ed9bdf89-f7c2-4534-a1b1-75c1c12b511a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -37,7 +37,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Determining the original entry point for a binary is difficult, but checksum and signature verification is very possible. Modifying the LC_MAIN entry point or adding in an additional LC_MAIN entry point invalidates the signature for the file and can be detected. Collect running process information and compare against known applications to look for suspicious behavior.",
+            "x_mitre_detection": "As of OS X 10.8, mach-O binaries introduced a new header called LC_MAIN that points to the binary\u2019s entry point for execution. Previously, there were two headers to achieve this same effect: LC_THREAD and LC_UNIXTHREAD  (Citation: Prolific OSX Malware History). The entry point for a binary can be hijacked so that initial execution flows to a malicious addition (either another section or a code cave) and then goes back to the initial entry point so that the victim doesn\u2019t know anything was different  (Citation: Methods of Mac Malware Persistence). By modifying a binary in this way, application whitelisting can be bypassed because the file name or application path is still the same.",
             "x_mitre_platforms": [
                 "macOS"
             ],

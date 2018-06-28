@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7e4488fc-0bd9-4ab8-a245-6626b6506946",
+    "id": "bundle--1fdf50d2-0a8c-4c5e-a5a4-5d448f684d46",
     "spec_version": "2.0",
     "objects": [
         {
@@ -47,7 +47,8 @@
                     "description": "UCF. (n.d.). Unauthorized accounts must not have the Create symbolic links user right.. Retrieved December 18, 2017.",
                     "source_name": "UCF STIG Symbolic Links"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Limit permissions for who can create symbolic links in Windows to appropriate groups such as Administrators and necessary groups for virtualization. This can be done through GPO: Computer Configuration > [Policies] > Windows Settings > Security Settings > Local Policies > User Rights Assignment: Create symbolic links. (Citation: UCF STIG Symbolic Links)\n\nIdentify and block unknown, potentially malicious software that may be executed through shortcut modification by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c0d47615-a033-46b6-a49f-4dcbd70d8a17",
+    "id": "bundle--664a1b1d-eaac-46b0-85c8-21341bf3aa05",
     "spec_version": "2.0",
     "objects": [
         {
@@ -38,7 +38,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Removable media containing malware can be injected in to a supply chain at large or small scale. It can also be physically placed for someone to find or can be sent to someone in a more targeted manner. The intent is to have the user utilize the removable media on a system where the adversary is trying to gain access. (Citation: USBMalwareAttacks) (Citation: FPDefendNewDomain) (Citation: ParkingLotUSB)"
         }
     ]
 }

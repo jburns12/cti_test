@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--29be59b6-4aff-49f6-ae06-1e8cac4b25c7",
+    "id": "bundle--1c92da51-7b35-487b-8d1d-9fd99b2ef4ca",
     "spec_version": "2.0",
     "objects": [
         {
@@ -17,7 +17,8 @@
                     "url": "https://attack.mitre.org/wiki/Technique/T1213",
                     "source_name": "mitre-attack"
                 }
-            ]
+            ],
+            "x_mitre_detection": "To mitigate adversary access to information repositories for collection:\n\n* Develop and publish policies that define acceptable information to be stored\n* Appropriate implementation of access control mechanisms that include both authentication and appropriate authorization\n* Enforce the principle of least-privilege\n* Periodic privilege review of accounts\n* Mitigate access to {{LinkById|T1078}} that may be used to access repositories"
         }
     ]
 }

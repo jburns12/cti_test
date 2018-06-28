@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--abdca360-7639-4b2d-bb49-973ea738156d",
+    "id": "bundle--a0a84261-00b0-465f-bf51-fa0929ac80af",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.039Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "APT28 regularly deploys both publicly available and custom password retrieval tools on victims. (Citation: ESET Sednit Part 2)",
+            "description": "APT28 regularly deploys both publicly available and custom password retrieval tools on victims.",
             "external_references": [
                 {
                     "url": "http://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part-2.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0007}} regularly deploys both publicly available and custom password retrieval tools on victims.",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "attack-pattern--0a3ead4e-6d47-4ccb-854c-a6a4f9d96b22"
         }

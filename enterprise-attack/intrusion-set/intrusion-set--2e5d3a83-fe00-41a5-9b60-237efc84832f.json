@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--70f3b360-cb05-4b00-bf53-856a8ec02348",
+    "id": "bundle--10a7177c-19a6-4b69-8de3-0bc32e89e04b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -32,7 +32,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "{{LinkById|G0002}} is a threat group that appears to operate from the Guandong Province of China. Due to overlapping TTPs, including similar custom tools, Moafee is thought to have a direct or indirect relationship with the threat group {{LinkById|G0017}}. (Citation: Haq 2014)"
         }
     ]
 }

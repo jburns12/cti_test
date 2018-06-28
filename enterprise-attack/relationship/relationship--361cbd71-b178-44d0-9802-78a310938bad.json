@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d63c5909-1428-4366-bf80-77511ace7f4e",
+    "id": "bundle--17daf7b0-b66a-447d-a399-156eefcaa1a3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.055Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Molerats has used forged Microsoft code-signing certificates on malware. (Citation: FireEye Operation Molerats)",
+            "description": "Molerats has used forged Microsoft code-signing certificates on malware.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2013/08/operation-molerats-middle-east-cyber-attacks-using-poison-ivy.html",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0021}} has used forged Microsoft code-signing certificates on malware.",
             "source_ref": "intrusion-set--df71bb3b-813c-45eb-a8bc-f2a419837411",
             "target_ref": "attack-pattern--1b84d551-6de8-4b96-9930-d177677c3b1d"
         }

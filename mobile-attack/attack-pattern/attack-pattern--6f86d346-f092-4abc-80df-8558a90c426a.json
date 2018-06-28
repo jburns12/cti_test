@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eba8c13d-de60-4d14-aa57-22870f2f83d3",
+    "id": "bundle--1ad192cd-08b7-4d2b-9ec0-51dd1cc00bb1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -37,7 +37,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Google sends a notification to the device when Android Device Manager is used to locate it. Additionally, Google provides the ability for users to view their general account activity. Apple iCloud also provides notifications to users of account activity.",
+            "x_mitre_detection": "An adversary who is able to obtain unauthorized access to or misuse authorized access to cloud services (e.g. Google's Android Device Manager or Apple iCloud's Find my iPhone) or to an enterprise mobility management (EMM) / mobile device management (MDM) server console could use that access to track mobile devices.",
             "x_mitre_platforms": [
                 "Android",
                 "iOS"

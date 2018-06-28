@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--910fd8c4-c99e-40b8-9506-7b94420093cb",
+    "id": "bundle--f67ce78a-2730-4b12-9765-071ca7398854",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,6 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0029}} is a free Microsoft tool that can be used to execute a program on another computer. It is used by IT administrators and attackers. (Citation: Russinovich Sysinternals) (Citation: SANS PsExec)",
             "x_mitre_platforms": [
                 "Windows"
             ],

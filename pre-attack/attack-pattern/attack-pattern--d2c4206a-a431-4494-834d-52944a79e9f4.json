@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bb4c72cc-311b-4801-af0b-15843d3751cc",
+    "id": "bundle--277be8f6-ab07-4bda-8401-66b77e658275",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "An adversary could distribute malicious software development tools (e.g., compiler) that hide malicious behavior in software built using the tools. (Citation: PA XcodeGhost) (Citation: Reflections on Trusting Trust)"
         }
     ]
 }

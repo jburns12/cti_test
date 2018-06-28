@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--75fb6299-c430-409a-8f1d-898a33ba8244",
+    "id": "bundle--a4a2f1dd-0f46-4575-af50-8f60d4537f7f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "FALLCHILL can delete malware and associated artifacts from the victim. (Citation: US-CERT FALLCHILL Nov 2017)",
+            "description": "FALLCHILL can delete malware and associated artifacts from the victim.",
             "external_references": [
                 {
                     "url": "https://www.us-cert.gov/ncas/alerts/TA17-318A",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0181}} can delete malware and associated artifacts from the victim.",
             "source_ref": "malware--fece06b7-d4b1-42cf-b81a-5323c917546e",
             "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59"
         }

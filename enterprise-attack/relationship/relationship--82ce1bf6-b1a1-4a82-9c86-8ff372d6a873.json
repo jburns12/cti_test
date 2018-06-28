@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1b178c1c-fe34-4424-aca8-6e06abaae025",
+    "id": "bundle--e531e36e-7ab8-49b8-bf20-c6050e087650",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "FIN8 has used environment variables and standard input (stdin) to obfuscate command-line arguments. (Citation: FireEye Obfuscation June 2017) FIN8 also obfuscates malicious macros delivered as payloads. (Citation: FireEye Know Your Enemy FIN8 Aug 2016)",
+            "description": "FIN8 has used environment variables and standard input (stdin) to obfuscate command-line arguments. FIN8 also obfuscates malicious macros delivered as payloads.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/06/obfuscation-in-the-wild.html",
@@ -25,6 +25,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0061}} has used environment variables and standard input (stdin) to obfuscate command-line arguments. {{LinkById|G0061}} also obfuscates malicious macros delivered as payloads.",
             "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
             "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a"
         }

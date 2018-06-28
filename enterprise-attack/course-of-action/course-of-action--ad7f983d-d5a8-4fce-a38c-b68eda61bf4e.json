@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3b2954d8-1905-4946-9e7a-d5a5065a1046",
+    "id": "bundle--95d6873c-07d8-4c18-a6ed-82b4639065d6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -17,7 +17,8 @@
                     "url": "https://attack.mitre.org/wiki/Technique/T1192",
                     "source_name": "mitre-attack"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Because this technique involves user interaction on the endpoint, it's difficult to fully mitigate. However, there are potential mitigations. Users can be trained to identify social engineering techniques and spearphishing emails with malicious links. Other mitigations can take place as {{LinkById|T1204}} occurs."
         }
     ]
 }

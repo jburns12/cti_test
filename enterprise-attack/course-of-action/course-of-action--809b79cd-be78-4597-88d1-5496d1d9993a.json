@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--87e6c8e3-83b6-4cbc-a7ba-f8b376fa562a",
+    "id": "bundle--ff1611bc-9eb7-4a22-9394-a28809360071",
     "spec_version": "2.0",
     "objects": [
         {
@@ -17,7 +17,8 @@
                     "url": "https://attack.mitre.org/wiki/Technique/T1154",
                     "source_name": "mitre-attack"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Due to potential legitimate uses of trap commands, it's may be difficult to mitigate use of this technique."
         }
     ]
 }

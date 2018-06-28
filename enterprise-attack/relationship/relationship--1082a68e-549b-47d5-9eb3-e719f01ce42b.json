@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b1aa69fa-c746-41e9-81b7-97e966a36afd",
+    "id": "bundle--66431c78-0160-4b10-a0b1-b9f4c4484a4b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "H1N1 kills and disables services for Windows Firewall, Windows Security Center, and Windows Defender. (Citation: Cisco H1N1 Part 2)",
+            "description": "H1N1 kills and disables services for Windows Firewall, Windows Security Center, and Windows Defender.",
             "external_references": [
                 {
                     "url": "http://blogs.cisco.com/security/h1n1-technical-analysis-reveals-new-capabilities-part-2",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0132}} kills and disables services for Windows Firewall, Windows Security Center, and Windows Defender.",
             "source_ref": "malware--f8dfbc54-b070-4224-b560-79aaa5f835bd",
             "target_ref": "attack-pattern--2e0dd10b-676d-4964-acd0-8a404c92b044"
         }

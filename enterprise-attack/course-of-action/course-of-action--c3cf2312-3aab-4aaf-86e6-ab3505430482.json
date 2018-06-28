@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d2f1fcb3-a307-4ee6-a547-fbe4a37e0fea",
+    "id": "bundle--a11849b1-4e8f-4dd7-a817-2735ccf5e804",
     "spec_version": "2.0",
     "objects": [
         {
@@ -17,7 +17,8 @@
                     "url": "https://attack.mitre.org/wiki/Technique/T1163",
                     "source_name": "mitre-attack"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Limit privileges of user accounts so only authorized users can edit the rc.common file."
         }
     ]
 }

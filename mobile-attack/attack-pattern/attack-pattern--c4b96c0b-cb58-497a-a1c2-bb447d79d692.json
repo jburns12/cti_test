@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1eb5ac87-ccd5-4d5a-b927-b94b894c700d",
+    "id": "bundle--779282cd-b49a-494c-be3e-c058290212ae",
     "spec_version": "2.0",
     "objects": [
         {
@@ -36,6 +36,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "A malicious app or other attack vector could capture sensitive data stored in the device clipboard, for example passwords being copy-and-pasted from a password manager app.",
             "x_mitre_platforms": [
                 "Android",
                 "iOS"

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--41fceef7-b7ad-4f72-9074-d67a806f2d1d",
+    "id": "bundle--9de26b3a-e076-4794-b74e-0bc62004929e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Orz can execute commands with script as well as execute JavaScript. (Citation: Proofpoint Leviathan Oct 2017)",
+            "description": "Orz can execute commands with script as well as execute JavaScript.",
             "external_references": [
                 {
                     "url": "https://www.proofpoint.com/us/threat-insight/post/leviathan-espionage-actor-spearphishes-maritime-and-defense-targets",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0229}} can execute commands with script as well as execute JavaScript.",
             "source_ref": "malware--06d735e7-1db1-4dbe-ab4b-acbe419f902b",
             "target_ref": "attack-pattern--7fd87010-3a00-4da3-b905-410525e8ec44"
         }

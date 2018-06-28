@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f239678c-a9b7-47e5-9ab2-1e28ce920b1d",
+    "id": "bundle--87f4c30a-8215-44d9-a57f-8c73df127c72",
     "spec_version": "2.0",
     "objects": [
         {
@@ -17,7 +17,8 @@
                     "url": "https://attack.mitre.org/wiki/Technique/T1205",
                     "source_name": "mitre-attack"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Mitigation of some variants of this technique could be achieved through the use of stateful firewalls, depending upon how it is implemented."
         }
     ]
 }

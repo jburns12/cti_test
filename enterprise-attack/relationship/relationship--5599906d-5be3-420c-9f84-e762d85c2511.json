@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--98f512bb-43d4-4a5b-b46f-3497884b41c5",
+    "id": "bundle--8bdb5d87-fea6-4e74-b38a-5c9dd4bce482",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "EvilGrab has the capability to capture audio from a victim machine. (Citation: PWC Cloud Hopper Technical Annex April 2017)",
+            "description": "EvilGrab has the capability to capture audio from a victim machine.",
             "external_references": [
                 {
                     "url": "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-annex-b-final.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0152}} has the capability to capture audio from a victim machine.",
             "source_ref": "malware--2f1a9fd0-3b7c-4d77-a358-78db13adbe78",
             "target_ref": "attack-pattern--1035cdf2-3e5f-446f-a7a7-e8f6d7925967"
         }

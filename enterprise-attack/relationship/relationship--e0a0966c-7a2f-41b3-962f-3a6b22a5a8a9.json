@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--157b16ba-8d6c-4857-b195-565b90be2842",
+    "id": "bundle--31845f34-8724-423f-940b-61f420e48207",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Reaver collects the victim's username. (Citation: Palo Alto Reaver Nov 2017)",
+            "description": "Reaver collects the victim's username.",
             "external_references": [
                 {
                     "url": "https://researchcenter.paloaltonetworks.com/2017/11/unit42-new-malware-with-ties-to-sunorcal-discovered/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0172}} collects the victim's username.",
             "source_ref": "malware--65341f30-bec6-4b1d-8abf-1a5620446c29",
             "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104"
         }

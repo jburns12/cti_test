@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3b844af6-1d76-4086-804e-5c20a23ad9b3",
+    "id": "bundle--30e04890-b2bb-4ac5-9010-0678b3427fb0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "PlugX can be configured to use multiple network protocols to avoid network-based detection. (Citation: Dell TG-3390)",
+            "description": "PlugX can be configured to use multiple network protocols to avoid network-based detection.",
             "external_references": [
                 {
                     "url": "http://www.secureworks.com/cyber-threat-intelligence/threats/threat-group-3390-targets-organizations-for-cyberespionage/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0013}} can be configured to use multiple network protocols to avoid network-based detection.",
             "source_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",
             "target_ref": "attack-pattern--99709758-2b96-48f2-a68a-ad7fbd828091"
         }

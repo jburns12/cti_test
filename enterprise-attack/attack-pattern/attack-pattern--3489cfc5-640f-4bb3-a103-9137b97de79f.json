@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--88438f95-4abd-4679-bea4-86965523bf97",
+    "id": "bundle--662f57ec-edfa-469c-87d1-e3e53de3e947",
     "spec_version": "2.0",
     "objects": [
         {
@@ -37,7 +37,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "System and network discovery techniques normally occur throughout an operation as an adversary learns the environment. Data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities, such as [[Lateral Movement]], based on the information obtained.\n\nNormal, benign system and network events related to legitimate remote system discovery may be uncommon, depending on the environment and how they are used. Monitor processes and command-line arguments for actions that could be taken to gather system and network information. Remote access tools with built-in features may interact directly with the Windows API to gather information. Information may also be acquired through Windows system management tools such as {{LinkById|T1047}} and {{LinkById|T1086}}.",
+            "x_mitre_detection": "Networks often contain shared network drives and folders that enable users to access file directories on various systems across a network. \n\n===Windows===\n\nFile sharing over a Windows network occurs over the SMB protocol. (Citation: Wikipedia Shared Resource) (Citation: TechNet Shared Folder)\n\n{{LinkById|S0039}} can be used to query a remote system for available shared drives using the <code>net view \\\\remotesystem</code> command. It can also be used to query shared drives on the local system using <code>net share</code>.\n\nAdversaries may look for folders and drives shared on remote systems as a means of identifying sources of information to gather as a precursor for Collection and to identify potential systems of interest for Lateral Movement.\n\n===Mac===\n\nOn Mac, locally mounted shares can be viewed with the <code>df -aH</code> command.",
             "x_mitre_platforms": [
                 "macOS",
                 "Windows"

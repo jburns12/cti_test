@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--898d8640-e854-42ca-8d69-022f43c56d64",
+    "id": "bundle--d6bce230-1418-47de-a40d-6f2a119f4e8f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Invoke-PSImage can be used to embed a PowerShell script within the pixels of a PNG file. (Citation: GitHub Invoke-PSImage)",
+            "description": "Invoke-PSImage can be used to embed a PowerShell script within the pixels of a PNG file.",
             "external_references": [
                 {
                     "url": "https://github.com/peewpw/Invoke-PSImage",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0231}} can be used to embed a PowerShell script within the pixels of a PNG file.",
             "source_ref": "tool--b52d6583-14a2-4ddc-8527-87fd2142558f",
             "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a"
         }

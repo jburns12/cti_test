@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c22f5b51-3028-47d2-bd8c-39fa15d8d6e9",
+    "id": "bundle--07b77de3-2067-4c76-9ab7-d94019bbd28b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -47,6 +47,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "If the mobile device is connected (typically via USB) to a charging station or a PC, for example to charge the device's battery, then a compromised or malicious charging station or PC could attempt to exploit the mobile device via the connection.\n\nKrebs described this technique in  (Citation: Krebs-JuiceJacking). Lau et al. (Citation: Lau-Mactans) demonstrated the ability to inject malicious applications into an iOS device via USB. Hay (Citation: IBM-NexusUSB) demonstrated the ability to exploit a Nexus 6 or 6P device over USB and then gain the ability to perform actions including intercepting phone calls, intercepting network traffic, and obtaining the device physical location.",
             "x_mitre_platforms": [
                 "Android",
                 "iOS"

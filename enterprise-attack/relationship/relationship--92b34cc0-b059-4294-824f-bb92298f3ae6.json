@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e6fb1ab5-d54c-43d2-b42c-4b73861a5592",
+    "id": "bundle--c3deeebc-a95a-48db-bab3-b05f2b3fe6d5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Daserf uses encrypted Windows APIs and also encrypts data using the alternative base64+RC4 or the Caesar cipher. (Citation: Trend Micro Daserf Nov 2017)",
+            "description": "Daserf uses encrypted Windows APIs and also encrypts data using the alternative base64+RC4 or the Caesar cipher.",
             "external_references": [
                 {
                     "url": "http://blog.trendmicro.com/trendlabs-security-intelligence/redbaldknight-bronze-butler-daserf-backdoor-now-using-steganography/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0187}} uses encrypted Windows APIs and also encrypts data using the alternative base64+RC4 or the Caesar cipher.",
             "source_ref": "malware--b6b3dfc7-9a81-43ff-ac04-698bad48973a",
             "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a"
         }

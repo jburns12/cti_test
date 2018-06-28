@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7aa600ee-0ed6-4c9f-b694-90427adf997d",
+    "id": "bundle--c2e5864d-dfae-4594-84d1-1c13ec0c7274",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Remsec harvests plain-text credentials as a password filter registered on domain controllers. (Citation: Kaspersky ProjectSauron Full Report)",
+            "description": "Remsec harvests plain-text credentials as a password filter registered on domain controllers.",
             "external_references": [
                 {
                     "url": "https://securelist.com/files/2016/07/The-ProjectSauron-APT%20research%20KL.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0125}} harvests plain-text credentials as a password filter registered on domain controllers.",
             "source_ref": "malware--69d6f4a9-fcf0-4f51-bca7-597c51ad0bb8",
             "target_ref": "attack-pattern--b8c5c9dd-a662-479d-9428-ae745872537c"
         }

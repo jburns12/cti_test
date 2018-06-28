@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4703b809-d4fa-47f0-bfc0-074250d0f985",
+    "id": "bundle--cb05af23-0995-4baf-af0d-4b5e4c2f2ba9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -37,7 +37,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Monitoring API calls may generate a significant amount of data and may not be directly useful for defense unless collected under specific circumstances, since benign use of Windows API functions such as CreateProcess are common and difficult to distinguish from malicious behavior. Correlation of other events with behavior surrounding API function calls using API monitoring will provide additional context to an event that may assist in determining if it is due to malicious behavior. Correlation of activity by process lineage by process ID may be sufficient.",
+            "x_mitre_detection": "Adversary tools may directly use the Windows application programming interface (API) to execute binaries. Functions such as the Windows API CreateProcess will allow programs and scripts to start other processes with proper path and argument parameters. (Citation: Microsoft CreateProcess)\n\nAdditional Windows API calls that can be used to execute binaries include: (Citation: Kanthak Verifier)\n\n*CreateProcessA() and CreateProcessW(),\n*CreateProcessAsUserA() and CreateProcessAsUserW(),\n*CreateProcessInternalA() and CreateProcessInternalW(),\n*CreateProcessWithLogonW(), CreateProcessWithTokenW(),\n*LoadLibraryA() and LoadLibraryW(),\n*LoadLibraryExA() and LoadLibraryExW(),\n*LoadModule(),\n*LoadPackagedLibrary(),\n*WinExec(),\n*ShellExecuteA() and ShellExecuteW(),\n*ShellExecuteExA() and ShellExecuteExW()",
             "x_mitre_platforms": [
                 "Windows"
             ],

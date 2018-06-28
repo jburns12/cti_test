@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--707fcf87-17a6-4300-a543-5800f5877424",
+    "id": "bundle--2b64490e-e4ee-4924-a9ff-86f6e0dda992",
     "spec_version": "2.0",
     "objects": [
         {
@@ -30,7 +30,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Emails with text only phishing messages do not contain any attachments or links to websites. They are designed to get a user to take a follow on action such as calling a phone number or wiring money. They can also be used to elicit an email response to confirm existence of an account or user. (Citation: Paypal Phone Scam)"
         }
     ]
 }

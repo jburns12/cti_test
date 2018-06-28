@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--004701f7-1f0a-4da2-9cc9-bf5be929c24d",
+    "id": "bundle--01fc38ab-a0a0-4735-82aa-1bbeb46391f0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Sys10 uses an XOR 0x1 loop to encrypt its C2 domain. (Citation: Baumgartner Naikon 2015)",
+            "description": "Sys10 uses an XOR 0x1 loop to encrypt its C2 domain.",
             "external_references": [
                 {
                     "url": "https://securelist.com/files/2015/05/TheNaikonAPT-MsnMM1.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0060}} uses an XOR 0x1 loop to encrypt its C2 domain.",
             "source_ref": "malware--7f8730af-f683-423f-9ee1-5f6875a80481",
             "target_ref": "attack-pattern--3b3cbbe0-6ed3-4334-b543-3ddfd8c5642d"
         }

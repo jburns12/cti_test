@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ecff3faf-c752-4b18-bb4e-115c6fd4e102",
+    "id": "bundle--747fd18c-dafa-4599-944c-2be15308d059",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-18T15:59:03.864Z",
-            "description": "DroidJack RAT captures \"SMS data\" (Citation: Zscaler-SuperMarioRun).",
+            "description": "DroidJack RAT captures \"SMS data\".",
             "external_references": [
                 {
                     "url": "https://www.zscaler.com/blogs/research/super-mario-run-malware-2-\u2013-droidjack-rat",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|MOB-S0036}} captures \"SMS data\".",
             "source_ref": "malware--05c4f87c-be8f-46ea-8d9a-2a0aad8f52c1",
             "target_ref": "attack-pattern--e8b4e1ec-8e3b-484c-9038-4459b1ed8060"
         }

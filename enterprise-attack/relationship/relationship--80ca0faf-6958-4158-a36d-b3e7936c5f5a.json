@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0110a0cb-fb63-4f46-9a7a-ca877cb00d4d",
+    "id": "bundle--8d5ee777-65b1-4b33-b78c-bbdcdac05197",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Tasklist can be used to enumerate security software currently running on a system by process name of known products. (Citation: Microsoft Tasklist)",
+            "description": "Tasklist can be used to enumerate security software currently running on a system by process name of known products.",
             "external_references": [
                 {
                     "url": "https://technet.microsoft.com/en-us/library/bb491010.aspx",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0057}} can be used to enumerate security software currently running on a system by process name of known products.",
             "source_ref": "tool--2e45723a-31da-4a7e-aaa6-e01998a6788f",
             "target_ref": "attack-pattern--241814ae-de3f-4656-b49e-f9a80764d4b7"
         }

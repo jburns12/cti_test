@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2848054d-2987-4ca0-b34b-e3b86570d4da",
+    "id": "bundle--1e29bb69-989d-4d45-9f4c-7392f03f50f7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.060Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "APT18 actors deleted tools and batch files from victim systems. (Citation: Dell Lateral Movement)",
+            "description": "APT18 actors deleted tools and batch files from victim systems.",
             "external_references": [
                 {
                     "url": "http://www.secureworks.com/resources/blog/where-you-at-indicators-of-lateral-movement-using-at-exe-on-windows-7-systems/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0026}} actors deleted tools and batch files from victim systems.",
             "source_ref": "intrusion-set--38fd6a28-3353-4f2b-bb2b-459fecd5c648",
             "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e89e41be-6a77-417a-b6e8-e0f526dc55cf",
+    "id": "bundle--225c847d-8798-4305-9459-112b7c4f6514",
     "spec_version": "2.0",
     "objects": [
         {
@@ -47,7 +47,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "If malware uses {{LinkById|T1032}}, SSL/TLS inspection can be used to detect command and control traffic within some encrypted communication channels. [[Citation: SANS Decrypting SSL]] SSL/TLS inspection does come with certain risks that should be considered before implementing to avoid potential security issues such as incomplete certificate validation. [[Citation: SEI SSL Inspection Risks]] After SSL/TLS inspection, additional cryptographic analysis may be needed to analyze the second layer of encryption.\n\nWith {{LinkById|T1024}}, if malware uses encryption with symmetric keys, it may be possible to obtain the algorithm and key from samples and use them to decode network traffic to detect malware communications signatures. [[Citation: Fidelis DarkComet]]\n\nIn general, analyze network data for uncommon data flows (e.g., a client sending significantly more data than it receives from a server). Processes utilizing the network that do not normally have network communication or have never been seen before are suspicious. Analyze packet contents to detect communications that do not follow the expected protocol behavior for the port that is being used. [[Citation: University of Birmingham C2]]",
+            "x_mitre_detection": "An adversary performs C2 communications using multiple layers of encryption, typically (but not exclusively) tunneling a custom encryption scheme within a protocol encryption scheme such as HTTPS or SMTPS.",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",

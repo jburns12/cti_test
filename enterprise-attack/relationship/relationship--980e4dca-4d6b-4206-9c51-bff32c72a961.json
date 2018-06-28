@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bb88156d-ea73-4614-abf5-e908605550fa",
+    "id": "bundle--7e2204ff-1e61-48c1-9c92-daa5d0e72119",
     "spec_version": "2.0",
     "objects": [
         {
@@ -13,6 +13,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0102}} can be used to discover current NetBIOS sessions.",
             "source_ref": "tool--b35068ec-107a-4266-bda8-eb7036267aea",
             "target_ref": "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475"
         }

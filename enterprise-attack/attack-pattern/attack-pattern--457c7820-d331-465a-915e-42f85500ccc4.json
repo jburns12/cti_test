@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a0a6865f-af26-478d-b73d-4cd069c9340d",
+    "id": "bundle--6f5c03e8-f192-4592-89c4-61fab4b53a8d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -46,7 +46,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Monitor processes and command-line parameters for signed binaries that may be used to proxy execution of malicious files. Correlate activity with other suspicious behavior to reduce false positives that may be due to normal benign use by users and administrators.",
+            "x_mitre_detection": "Binaries signed with trusted digital certificates can execute on Windows systems protected by digital signature validation. Several Microsoft signed binaries that are default on Windows installations can be used to proxy execution of other files. This behavior may be abused by adversaries to execute malicious files that could bypass application whitelisting and signature validation on systems. This technique accounts for proxy execution methods that are not already accounted for within the existing techniques.\n\n===Mavinject.exe===\nMavinject.exe is a Windows utility that allows for code execution. Mavinject can be used to input a DLL into a running process. (Citation: Twitter gN3mes1s Status Update MavInject32)\n\n<code>\"C:\\Program Files\\Common Files\\microsoft shared\\ClickToRun\\MavInject32.exe\" <PID> /INJECTRUNNING <PATH DLL></code>\n\n<code>C:\\Windows\\system32\\mavinject.exe <PID> /INJECTRUNNING <PATH DLL></code>\n\n===SyncAppvPublishingServer.exe===\nSyncAppvPublishingServer.exe can be used to run powershell scripts without executing powershell.exe. (Citation: Twitter monoxgas Status Update SyncAppvPublishingServer)\n\nSeveral others binaries exist that may be used to perform similar behavior. (Citation: GitHub Ultimate AppLocker Bypass List)",
             "x_mitre_platforms": [
                 "Windows"
             ],

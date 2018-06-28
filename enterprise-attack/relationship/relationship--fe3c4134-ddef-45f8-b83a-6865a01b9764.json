@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--67541cd6-d5d5-41bb-ad64-3449db69f55d",
+    "id": "bundle--6577198c-7fb4-4ae9-ada5-997aa85a916d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Regin appears to have functionality to modify remote Registry information. (Citation: Kaspersky Regin)",
+            "description": "Regin appears to have functionality to modify remote Registry information.",
             "external_references": [
                 {
                     "url": "https://securelist.com/files/2014/11/Kaspersky%20Lab%20whitepaper%20Regin%20platform%20eng.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0019}} appears to have functionality to modify remote Registry information.",
             "source_ref": "malware--4c59cce8-cb48-4141-b9f1-f646edfaadb0",
             "target_ref": "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--623f3e9b-4b48-4331-b5cd-51a55a26000f",
+    "id": "bundle--b8a7ea79-66bd-4e42-9656-4804ab9a62e8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -38,7 +38,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "A wide variety of cloud, virtual private services, hosting, compute, and storage solutions are available as 3rd party infrastructure services. These services could provide an adversary with another avenue of approach or compromise. (Citation: LUCKYCAT2012) (Citation: Schneier-cloud) (Citation: Computerworld-suppliers)"
         }
     ]
 }

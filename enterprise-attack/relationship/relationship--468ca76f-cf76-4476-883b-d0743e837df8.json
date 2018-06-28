@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8e14bb6c-54ad-45e9-9b90-90fafc69e106",
+    "id": "bundle--5c1ba11e-59fa-44ff-a1a6-8d75b6917fd6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "POWERSTATS has used ports 8060 and 8888 for C2. (Citation: Unit 42 MuddyWater Nov 2017)",
+            "description": "POWERSTATS has used ports 8060 and 8888 for C2.",
             "external_references": [
                 {
                     "url": "https://researchcenter.paloaltonetworks.com/2017/11/unit42-muddying-the-water-targeted-attacks-in-the-middle-east/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0223}} has used ports 8060 and 8888 for C2.",
             "source_ref": "malware--e8545794-b98c-492b-a5b3-4b5a02682e37",
             "target_ref": "attack-pattern--c848fcf7-6b62-4bde-8216-b6c157d48da0"
         }

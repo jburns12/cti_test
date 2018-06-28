@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f4dcde33-b729-4ecc-9ae8-d01937b6b0ff",
+    "id": "bundle--57323ab4-0c3d-4daf-bd29-0dd0499b3e96",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,6 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0002}} is a credential dumper capable of obtaining plaintext Windows account logins and passwords, along with many other features that make it useful for testing the security of networks. (Citation: Deply Mimikatz) (Citation: Adsecurity Mimikatz Guide)",
             "x_mitre_platforms": [
                 "Windows"
             ],

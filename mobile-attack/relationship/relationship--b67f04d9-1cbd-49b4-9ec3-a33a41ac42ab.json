@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9c2862a9-6c16-4a05-9b8a-b829909a2c39",
+    "id": "bundle--94779063-9d21-4bb6-8578-eb5161614159",
     "spec_version": "2.0",
     "objects": [
         {
@@ -13,6 +13,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "The {{LinkById|MOB-S0002}} Android malware family contains encrypted code along with an obfuscated decryption routine to make it difficult to analyze.",
             "source_ref": "malware--ca4f63b9-a358-4214-bb26-8c912318cfde",
             "target_ref": "attack-pattern--d13fa042-8f26-44e1-a2a8-af0bf8e2ac9a"
         }

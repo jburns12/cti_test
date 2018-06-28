@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ec0bd222-26dd-42aa-a34e-69037197dcb9",
+    "id": "bundle--752da216-0646-4b44-a92b-750831704a91",
     "spec_version": "2.0",
     "objects": [
         {
@@ -17,7 +17,8 @@
                     "url": "https://attack.mitre.org/wiki/Technique/T1214",
                     "source_name": "mitre-attack"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Do not store credentials within the Registry. Proactively search for credentials within Registry keys and attempt to remediate the risk. If necessary software must store credentials, then ensure those accounts have limited permissions so they cannot be abused if obtained by an adversary."
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e11dad6f-b422-4bcd-ab0d-9342c8ccd5bc",
+    "id": "bundle--8b5ed214-7191-476a-9687-031bb7644f50",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "A technique to push an [https://www.apple.com/ios iOS] or [https://www.android.com Android] MMS-type message to the target which does not require interaction on the part of the target to be successful. (Citation: BlackHat Stagefright) (Citation: WikiStagefright)"
         }
     ]
 }

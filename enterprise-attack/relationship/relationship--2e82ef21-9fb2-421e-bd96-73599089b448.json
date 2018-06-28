@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e24cb413-c15f-458f-b9d5-f1674ea5c257",
+    "id": "bundle--1cdca1c4-c058-4efa-95e7-6b2dca295e2e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "CopyKittens uses ZPP, a .NET console program, to compress files with ZIP. (Citation: ClearSky Wilted Tulip July 2017)",
+            "description": "CopyKittens uses ZPP, a .NET console program, to compress files with ZIP.",
             "external_references": [
                 {
                     "url": "http://www.clearskysec.com/wp-content/uploads/2017/07/Operation%20Wilted%20Tulip.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0052}} uses ZPP, a .NET console program, to compress files with ZIP.",
             "source_ref": "intrusion-set--dcd81c6e-ebf7-4a16-93e0-9a97fa49c88a",
             "target_ref": "attack-pattern--b9f5dbe2-4c55-4fc5-af2e-d42c1d182ec4"
         }

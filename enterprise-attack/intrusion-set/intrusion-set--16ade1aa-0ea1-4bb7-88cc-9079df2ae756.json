@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f0c8ec03-de3b-4c29-90db-b65609fcec7d",
+    "id": "bundle--b498787a-0930-4937-887e-1b11e0f17560",
     "spec_version": "2.0",
     "objects": [
         {
@@ -32,7 +32,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "{{LinkById|G0018}} is a China-based cyber threat group. It has previously used newsworthy events as lures to deliver malware and has primarily targeted organizations involved in financial, economic, and trade policy, typically using publicly available RATs such as {{LinkById|S0012}}, as well as some non-public backdoors. (Citation: FireEye admin@338)"
         }
     ]
 }

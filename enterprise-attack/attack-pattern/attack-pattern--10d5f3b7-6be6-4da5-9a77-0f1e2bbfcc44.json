@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--450b459d-7f94-44c0-a6c3-d05a28674936",
+    "id": "bundle--36325592-4ff4-4f5a-9927-bbde66b3412b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -31,6 +31,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "Some adversaries may employ sophisticated means to compromise computer components and install malicious firmware that will execute adversary code outside of the operating system and main system firmware or BIOS. This technique may be similar to {{LinkById|T1019}} but conducted upon other system components that may not have the same capability or level of integrity checking. Malicious device firmware could provide both a persistent level of access to systems despite potential typical failures to maintain access and hard disk re-images, as well as a way to evade host software-based defenses and integrity checks.",
             "x_mitre_platforms": [
                 "Windows"
             ],

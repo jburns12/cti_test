@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c83e00bf-4d18-4673-a5b8-e7ccb4eae06d",
+    "id": "bundle--9a0ae911-dfcd-4a23-b97d-40a2ac476774",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Some Backdoor.Oldrea samples use standard Base64 + bzip2, and some use standard Base64 + reverse XOR + RSA-2048 to decrypt data received from C2 servers. (Citation: Symantec Dragonfly)",
+            "description": "Some Backdoor.Oldrea samples use standard Base64 + bzip2, and some use standard Base64 + reverse XOR + RSA-2048 to decrypt data received from C2 servers.",
             "external_references": [
                 {
                     "url": "http://www.symantec.com/content/en/us/enterprise/media/security%20response/whitepapers/Dragonfly%20Threat%20Against%20Western%20Energy%20Suppliers.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "Some {{LinkById|S0093}} samples use standard Base64 + bzip2, and some use standard Base64 + reverse XOR + RSA-2048 to decrypt data received from C2 servers.",
             "source_ref": "malware--083bb47b-02c8-4423-81a2-f9ef58572974",
             "target_ref": "attack-pattern--ad255bfe-a9e6-4b52-a258-8d3462abe842"
         }

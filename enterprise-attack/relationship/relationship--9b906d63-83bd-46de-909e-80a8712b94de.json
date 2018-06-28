@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8437b7da-1982-4778-850e-693070b33c94",
+    "id": "bundle--873b5d2d-a4f7-4d57-91cc-b71c3fe2ed24",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Umbreon Umbreon provides additional access using its backdoor Espeon, providing a reverse shell upon receipt of a special packet (Citation: Umbreon Trend Micro)",
+            "description": "Umbreon Umbreon provides additional access using its backdoor Espeon, providing a reverse shell upon receipt of a special packet",
             "external_references": [
                 {
                     "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/pokemon-themed-umbreon-linux-rootkit-hits-x86-arm-systems/?%20ga=2.180041126.367598458.1505420282-1759340220.1502477046",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0221}} Umbreon provides additional access using its backdoor Espeon, providing a reverse shell upon receipt of a special packet",
             "source_ref": "malware--3d8e547d-9456-4f32-a895-dc86134e282f",
             "target_ref": "attack-pattern--451a9977-d255-43c9-b431-66de80130c8c"
         }

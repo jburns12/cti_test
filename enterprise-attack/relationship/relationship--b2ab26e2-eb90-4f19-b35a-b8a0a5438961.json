@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--215472a8-d2d1-4f36-87ed-8a4be88ce612",
+    "id": "bundle--14273667-6425-49e1-ab53-c78da9b7d1f2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "DustySky has two hard-coded domains for C2 servers; if the first does not respond, it will try the second. (Citation: DustySky)",
+            "description": "DustySky has two hard-coded domains for C2 servers; if the first does not respond, it will try the second.",
             "external_references": [
                 {
                     "description": "ClearSky. (2016, January 7). Operation DustySky. Retrieved January 8, 2016.",
@@ -19,6 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0062}} has two hard-coded domains for C2 servers; if the first does not respond, it will try the second.",
             "source_ref": "malware--687c23e4-4e25-4ee7-a870-c5e002511f54",
             "target_ref": "attack-pattern--f24faf46-3b26-4dbb-98f2-63460498e433"
         }

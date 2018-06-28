@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--de9651c8-e4ac-4d41-8200-f13630f1f54a",
+    "id": "bundle--1cb06f4f-659d-4402-a5e8-515aaec314f8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "A version of Daserf uses the MPRESS packer. (Citation: Trend Micro Daserf Nov 2017)",
+            "description": "A version of Daserf uses the MPRESS packer.",
             "external_references": [
                 {
                     "url": "http://blog.trendmicro.com/trendlabs-security-intelligence/redbaldknight-bronze-butler-daserf-backdoor-now-using-steganography/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "A version of {{LinkById|S0187}} uses the MPRESS packer.",
             "source_ref": "malware--b6b3dfc7-9a81-43ff-ac04-698bad48973a",
             "target_ref": "attack-pattern--6ff403bc-93e3-48be-8687-e102fdba8c88"
         }

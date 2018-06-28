@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d9806979-57a7-4ef8-8d53-818df4188029",
+    "id": "bundle--26746756-1ee0-445a-bb8d-487f9991c6a4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -38,7 +38,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Software applications will be built using different technologies, languages, and dependencies. This information may reveal vulnerabilities or opportunities to an adversary. (Citation: CommonApplicationAttacks) (Citation: WebApplicationSecurity) (Citation: SANSTop25)"
         }
     ]
 }

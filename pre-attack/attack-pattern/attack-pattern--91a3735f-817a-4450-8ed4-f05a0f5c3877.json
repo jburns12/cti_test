@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--abeac238-e5d0-4869-bbc5-bfb96a0d9dc7",
+    "id": "bundle--69792c75-1be0-4d52-9b57-babc2d48518a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -42,7 +42,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "An adversary undergoes an iterative target selection process that may begin either broadly and narrow down into specifics (strategic to tactical) or narrowly and expand outward (tactical to strategic).  As part of this process, an adversary may determine a high level target they wish to attack. One example of this may be a particular country, government, or commercial sector. (Citation: CyberAdversaryBehavior) (Citation: JP3-60) (Citation: JP3-12 (R)) (Citation: DoD Cyber 2015)"
         }
     ]
 }

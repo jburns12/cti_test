@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c49dcfd2-77eb-471c-a829-0837cc780743",
+    "id": "bundle--a6b7fdd5-e87e-4f74-93de-2cc1b0fe3897",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "TEXTMATE uses DNS TXT records for C2. (Citation: FireEye FIN7 March 2017)",
+            "description": "TEXTMATE uses DNS TXT records for C2.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/03/fin7%20spear%20phishing.html",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0146}} uses DNS TXT records for C2.",
             "source_ref": "malware--4f6aa78c-c3d4-4883-9840-96ca2f5d6d47",
             "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6"
         }

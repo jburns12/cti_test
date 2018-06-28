@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8b029cde-4805-4b79-8b32-a745275d3914",
+    "id": "bundle--ac51e26c-a79f-4983-bb35-476882a7b607",
     "spec_version": "2.0",
     "objects": [
         {
@@ -32,6 +32,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "A malicious app can exploit unpatched vulnerabilities in the operating system to obtain escalated privileges.",
             "x_mitre_platforms": [
                 "Android",
                 "iOS"

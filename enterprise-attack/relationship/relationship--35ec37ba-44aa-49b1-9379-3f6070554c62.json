@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ff6c6029-1d31-496e-b5cf-03b99bfec7ac",
+    "id": "bundle--287e6ba8-46eb-4824-bb76-41bfb8d8e411",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "RARSTONE obtains installer properties from Uninstall Registry Key entries to obtain information about installed applications and how to uninstall certain applications. (Citation: Camba RARSTONE)",
+            "description": "RARSTONE obtains installer properties from Uninstall Registry Key entries to obtain information about installed applications and how to uninstall certain applications.",
             "external_references": [
                 {
                     "url": "http://blog.trendmicro.com/trendlabs-security-intelligence/bkdr%20rarstone-new-rat-to-watch-out-for/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0055}} obtains installer properties from Uninstall Registry Key entries to obtain information about installed applications and how to uninstall certain applications.",
             "source_ref": "malware--8c553311-0baa-4146-997a-f79acef3d831",
             "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--787cccb8-6ba4-4616-9b2e-f18ec46dccee",
+    "id": "bundle--969b439e-f234-4c61-9754-9cef9518872a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "BOOTRASH is a Volume Boot Record (VBR) bootkit that uses the VBR to maintain persistence. (Citation: MTrends 2016)",
+            "description": "BOOTRASH is a Volume Boot Record (VBR) bootkit that uses the VBR to maintain persistence.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/regional/fr%20FR/offers/pdfs/ig-mtrends-2016.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0114}} is a Volume Boot Record (VBR) bootkit that uses the VBR to maintain persistence.",
             "source_ref": "malware--da2ef4a9-7cbe-400a-a379-e2f230f28db3",
             "target_ref": "attack-pattern--02fefddc-fb1b-423f-a76b-7552dd211d4d"
         }

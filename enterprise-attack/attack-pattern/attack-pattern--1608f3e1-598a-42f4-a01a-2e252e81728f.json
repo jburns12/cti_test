@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cb514e5f-9d5e-4a93-afec-7743d8c4adfc",
+    "id": "bundle--342df7be-7e86-4390-a080-a6fff2875917",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,7 +27,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "There are likely a variety of ways an adversary could collect email from a target, each with a different mechanism for detection.\n\nFile access of local system email files for [[Exfiltration]], unusual processes connecting to an email server within a network, or unusual access patterns or authentication attempts on a public-facing webmail server may all be indicators of malicious activity.\n\nMonitor processes and command-line arguments for actions that could be taken to gather local email files. Remote access tools with built-in features may interact directly with the Windows API to gather information. Information may also be acquired through Windows system management tools such as {{LinkById|T1047}} and {{LinkById|T1086}}.",
+            "x_mitre_detection": "Adversaries may target user email to collect sensitive information from a target.\n\nFiles containing email data can be acquired from a user's system, such as Outlook storage or cache files .pst and .ost.\n\nAdversaries may leverage a user's credentials and interact directly with the Exchange server to acquire information from within a network.\n\nSome adversaries may acquire user credentials and access externally facing webmail applications, such as Outlook Web Access.",
             "x_mitre_platforms": [
                 "Windows"
             ],

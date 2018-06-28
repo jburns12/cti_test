@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--76b2620b-9224-4f70-9950-2d6ce71bfbff",
+    "id": "bundle--0bd7b3d1-0e86-409a-8cf6-9345ca362467",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,7 +27,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Monitor the execution of and command-line arguments for applications that may be used by an adversary to gain [[Initial Access]] that require user interaction. This includes compression applications, such as those for zip files, that can be used to {{LinkById|T1140}} in payloads.\n\nAnti-virus can potentially detect malicious documents and files that are downloaded and execuited on the user's computer. Endpoint sensing or network sensing can potentially detect malicious events once the file is opened (such as a Microsoft Word document or PDF reaching out to the internet or spawning Powershell.exe) for techniques such as {{LinkById|T1203}} and {{LinkById|T1064}}.",
+            "x_mitre_detection": "An adversary may rely upon specific actions by a user in order to gain execution. This may be direct code execution, such as when a user opens a malicious executable delivered via {{LinkById|T1193}} with the icon and apparent extension of a document file. It also may lead to other execution techniques, such as when a user clicks on a link delivered via {{LinkById|T1192}} that leads to exploitation of a browser or application vulnerability via {{LinkById|T1203}}. While User Execution frequently occurs shortly after Initial Access it may occur at other phases of an intrusion, such as when an adversary places a file in a shared directory or on a user's desktop hoping that a user will click on it.",
             "x_mitre_platforms": [
                 "Linux",
                 "Windows",

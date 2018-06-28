@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e4e1ae17-bccf-4f55-b81f-8feb76326e9c",
+    "id": "bundle--dc06020d-c89b-4551-8502-27fe369c060f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -33,6 +33,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0183}} is a software suite and network that provides increased anonymity on the Internet. It creates a multi-hop proxy network and utilizes multilayer encryption to protect both the message and routing information. {{LinkById|S0183}} utilizes \"Onion Routing,\" in which messages are encrypted with multiple layers of encryption; at each step in the proxy network, the topmost layer is decrypted and the contents forwarded on to the next node until it reaches its destination. (Citation: Dingledine Tor The Second-Generation Onion Router)",
             "x_mitre_platforms": [
                 "Linux",
                 "Windows",

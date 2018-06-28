@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--85af094b-1e4f-478e-89f7-df2441b30846",
+    "id": "bundle--59013de0-c54a-4675-8ee9-bb27b345195f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "A FinFisher variant uses DLL search order hijacking. (Citation: Securelist BlackOasis Oct 2017)",
+            "description": "A FinFisher variant uses DLL search order hijacking.",
             "external_references": [
                 {
                     "url": "http://www.finfisher.com/FinFisher/index.html",
@@ -25,6 +25,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "A {{LinkById|S0182}} variant uses DLL search order hijacking.",
             "source_ref": "malware--a5528622-3a8a-4633-86ce-8cdaf8423858",
             "target_ref": "attack-pattern--46944654-fcc1-4f63-9dad-628102376586"
         }

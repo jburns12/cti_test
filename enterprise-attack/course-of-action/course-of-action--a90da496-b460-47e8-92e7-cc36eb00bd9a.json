@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e6a47160-3b5f-4f03-ac6e-ddf1f768144e",
+    "id": "bundle--795032f5-bf0b-4cf7-a03f-632caf976da4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -17,7 +17,8 @@
                     "url": "https://attack.mitre.org/wiki/Technique/T1121",
                     "source_name": "mitre-attack"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Regsvcs and Regasm may not be necessary within a given environment. Block execution of Regsvcs.exe and Regasm.exe if they are not required for a given system or network to prevent potential misuess by adversaries."
         }
     ]
 }

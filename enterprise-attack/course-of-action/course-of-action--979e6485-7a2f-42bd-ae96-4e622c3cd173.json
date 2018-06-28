@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3c6045c7-d858-40d6-8a59-1bb3e09c2dda",
+    "id": "bundle--921f50ee-f52f-4b20-b723-2f51363f34c5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -17,7 +17,8 @@
                     "url": "https://attack.mitre.org/wiki/Technique/T1021",
                     "source_name": "mitre-attack"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Limit the number of accounts that may use remote services. Use multifactor authentication where possible. Limit the permissions for accounts that are at higher risk of compromise; for example, configure SSH so users can only run specific programs. Prevent Credential Access techniques that may allow an adversary to acquire {{LinkById|T1078}} that can be used by existing services."
         }
     ]
 }

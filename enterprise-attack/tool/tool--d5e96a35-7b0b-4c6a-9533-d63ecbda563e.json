@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8dc89801-8a96-430d-b8e3-ac3954e46b94",
+    "id": "bundle--490aeca4-529c-4e99-9adf-06c74e5c791e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,6 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0040}} is a tool that proxies connections through intermediate hops and aids users in disguising their true geographical location. It can be used by adversaries to hide their location when interacting with the victim networks.  (Citation: Operation Quantum Entanglement)",
             "x_mitre_platforms": [
                 "Linux",
                 "Windows"

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bab3a077-2320-4021-933f-f02550a95553",
+    "id": "bundle--af24b1d2-d21e-4308-8f38-875ca56dd5a9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Cobalt Strike can query shared drives on the local system. (Citation: Cobalt Strike TTPs Dec 2017)",
+            "description": "Cobalt Strike can query shared drives on the local system.",
             "external_references": [
                 {
                     "url": "https://www.cobaltstrike.com/downloads/reports/tacticstechniquesandprocedures.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0154}} can query shared drives on the local system.",
             "source_ref": "tool--aafea02e-ece5-4bb2-91a6-3bf8c7f38a39",
             "target_ref": "attack-pattern--3489cfc5-640f-4bb3-a103-9137b97de79f"
         }

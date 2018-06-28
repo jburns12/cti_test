@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5064715c-45a6-4b19-9e72-adbe26b9649c",
+    "id": "bundle--faf75649-87e5-4d84-bd1d-085f730b8cfb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -32,7 +32,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "On both Android (6.0 and up) and iOS, the user can view which applications have permission to use the microphone or the camera through the device settings screen, and the user can choose to revoke the permissions.",
+            "x_mitre_detection": "An adversary could use a malicious or exploited application to surreptitiously record activities using the device microphone and/or camera through use of standard operating system APIs.",
             "x_mitre_platforms": [
                 "Android",
                 "iOS"

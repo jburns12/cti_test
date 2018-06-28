@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4ae7e15b-7dfb-4355-af12-0c8c145154e1",
+    "id": "bundle--ae277d12-e306-412d-b9a1-1425d094291c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,6 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0105}} is a command-line utility that can be used to query Active Directory for information from a system within a domain. (Citation: TechNet Dsquery) It is typically installed only on Windows Server versions but can be installed on non-server variants through the Microsoft-provided Remote Server Administration Tools bundle.",
             "x_mitre_platforms": [
                 "Windows"
             ],

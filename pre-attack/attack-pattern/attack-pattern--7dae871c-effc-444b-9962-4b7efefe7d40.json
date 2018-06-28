@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e005d49d-990b-40f9-8819-64d18fa79bf7",
+    "id": "bundle--6c9a2569-7197-449c-94a1-62876d0dd55b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -30,7 +30,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "An adversary may identify sensitive personnel information not typically posted on a social media site, such as address, marital status, financial history, and law enforcement infractions. This could be conducted by searching public records that are frequently available for free or at a low cost online. (Citation: RSA-APTRecon)"
         }
     ]
 }

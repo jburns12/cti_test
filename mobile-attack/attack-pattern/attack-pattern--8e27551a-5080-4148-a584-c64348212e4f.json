@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b4438d89-076f-44c7-bdae-723dca1d6a59",
+    "id": "bundle--702996e8-a717-4c88-978c-0144df347e75",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,6 +27,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "A malicious application could abuse Android device administrator access to wipe device contents, for example if a ransom is not paid.",
             "x_mitre_platforms": [
                 "Android"
             ]

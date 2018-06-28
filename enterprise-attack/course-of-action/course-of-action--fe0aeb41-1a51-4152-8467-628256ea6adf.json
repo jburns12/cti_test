@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4de79176-cb15-4bb8-8961-3df1beb37dcb",
+    "id": "bundle--f4cc1a65-dd52-4434-8e1b-605d66ef0e26",
     "spec_version": "2.0",
     "objects": [
         {
@@ -37,7 +37,8 @@
                     "description": "NSA Information Assurance Directorate. (2014, August). Application Whitelisting Using Microsoft AppLocker. Retrieved March 31, 2016.",
                     "source_name": "NSA MS AppLocker"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Use auditing tools capable of detecting privilege and service abuse opportunities on systems within an enterprise and correct them. Limit privileges of user accounts and groups so that only authorized administrators can interact with service changes and service configurations. Toolkits like the PowerSploit framework contain the PowerUp modules that can be used to explore systems for Privilege Escalation weaknesses. (Citation: Powersploit)\n\nIdentify and block potentially malicious software that may be executed through service abuse by using whitelisting (Citation: Beechey 2010) tools like AppLocker (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) that are capable of auditing and/or blocking unknown programs."
         }
     ]
 }

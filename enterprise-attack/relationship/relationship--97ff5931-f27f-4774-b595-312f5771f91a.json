@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a71bfab4-fc09-48ed-bc2a-27884845c8eb",
+    "id": "bundle--4739cda0-1098-4fa3-a544-0454aa901a7f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "SHIPSHAPE achieves persistence by creating a shortcut in the Startup folder. (Citation: FireEye APT30)",
+            "description": "SHIPSHAPE achieves persistence by creating a shortcut in the Startup folder.",
             "external_references": [
                 {
                     "url": "https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0028}} achieves persistence by creating a shortcut in the Startup folder.",
             "source_ref": "malware--b1de6916-7a22-4460-8d26-6b5483ffaa2a",
             "target_ref": "attack-pattern--970cdb5c-02fb-4c38-b17e-d6327cf3c810"
         }

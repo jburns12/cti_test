@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cff58bba-f593-4b2e-9376-92c845e02444",
+    "id": "bundle--9a7540fb-d879-4869-a4a0-439cdeef0ba8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -37,6 +37,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "An adversary may attempt to get detailed information about the operating system and hardware, including version, patches, and architecture.\n\nOn Android, much of this information is programmatically accessible to applications through the android.os.Build class (Citation: Android-Build).\n\nOn iOS, techniques exist for applications to programmatically access this information, for example as described in  (Citation: StackOverflow-iOSVersion).",
             "x_mitre_platforms": [
                 "Android",
                 "iOS"

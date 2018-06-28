@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e171d602-a606-4f5d-8eff-4c64d14cad74",
+    "id": "bundle--bc8d8fcd-1f19-4d0b-be5f-ccaef2736ba0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -52,6 +52,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "An app could download and execute dynamic code (not included in the original application package) after installation to evade static analysis techniques (and potentially dynamic analysis techniques) used for application vetting or application store review (Citation: Poeplau-ExecuteThis). \n\nOn Android, dynamic code could include native code, Dalvik code, or JavaScript code that uses the Android WebView's JavascriptInterface capability (Citation: Bromium-AndroidRCE).\n\nOn iOS, techniques for executing dynamic code downloaded after application installation include JSPatch (Citation: FireEye-JSPatch).  (Citation: Wang) et al. describe a related method of constructing malicious logic at app runtime on iOS (Citation: Wang).",
             "x_mitre_platforms": [
                 "Android",
                 "iOS"

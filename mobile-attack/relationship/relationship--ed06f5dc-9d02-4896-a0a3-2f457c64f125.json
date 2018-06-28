@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0e08863f-f78b-4d8a-8e2b-de18919bcae6",
+    "id": "bundle--c16b3e3a-233c-44a2-abbe-d2e1e91d6f79",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-18T15:59:03.864Z",
-            "description": "Dendroid \"can take pictures using the phone\u2019s camera, record audio and video\" (Citation: Lookout-Dendroid).",
+            "description": "Dendroid \"can take pictures using the phone\u2019s camera, record audio and video\".",
             "external_references": [
                 {
                     "url": "https://blog.lookout.com/blog/2014/03/06/dendroid/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|MOB-S0017}} \"can take pictures using the phone\u2019s camera, record audio and video\".",
             "source_ref": "malware--317a2c10-d489-431e-b6b2-f0251fddc88e",
             "target_ref": "attack-pattern--6683aa0c-d98a-4f5b-ac57-ca7e9934a760"
         }

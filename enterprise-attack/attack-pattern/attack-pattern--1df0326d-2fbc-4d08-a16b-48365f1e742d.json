@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3df89870-edb2-4dbe-9edd-067b6b22efff",
+    "id": "bundle--61a884c6-0e31-4917-a67b-907de3152ed6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -52,7 +52,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Examine data in user\u2019s SID-History attributes using the PowerShell Get-ADUser Cmdlet [[Citation: Microsoft Get-ADUser]], especially users who have SID-History values from the same domain. [[Citation: AdSecurity SID History Sept 2015]]\n\nMonitor Account Management events on Domain Controllers for successful and failed changes to SID-History. [[Citation: AdSecurity SID History Sept 2015]]  [[Citation: Microsoft DsAddSidHistory]]\n\nMonitor Windows API calls to the <code>DsAddSidHistory</code> function. [[Citation: Microsoft DsAddSidHistory]]",
+            "x_mitre_detection": "The Windows security identifier (SID) is a unique value that identifies a user or group account. SIDs are used by Windows security in both security descriptors and access tokens. (Citation: Microsoft SID) An account can hold additional SIDs in the SID-History Active Directory attribute (Citation: Microsoft SID)-History Attribute, allowing inter-operable account migration between domains (e.g., all values in SID-History are included in access tokens).\n\nAdversaries may use this mechanism for privilege escalation. With Domain Administrator (or equivalent) rights, harvested or well-known SID values (Citation: Microsoft Well Known SIDs Jun 2017) may be inserted into SID-History to enable impersonation of arbitrary users/groups such as Enterprise Administrators. This manipulation may result in elevated access to local resources and/or access to otherwise inaccessible domains via lateral movement techniques such as {{LinkById|T1021}}, {{LinkById|T1077}}, or {{LinkById|T1028}}.",
             "x_mitre_platforms": [
                 "Windows"
             ],

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8ac68816-9afe-4f05-9c45-54848343429f",
+    "id": "bundle--4339008b-f23f-4439-bd67-619d763f5246",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Briba connects to external C2 infrastructure over port 443. (Citation: Symantec Briba May 2012)",
+            "description": "Briba connects to external C2 infrastructure over port 443.",
             "external_references": [
                 {
                     "url": "https://www.symantec.com/security%20response/writeup.jsp?docid=2012-051515-2843-99",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0204}} connects to external C2 infrastructure over port 443.",
             "source_ref": "malware--79499993-a8d6-45eb-b343-bf58dea5bdde",
             "target_ref": "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e"
         }

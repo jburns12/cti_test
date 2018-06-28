@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1fc9f3a2-2f46-40eb-a00f-87952607faac",
+    "id": "bundle--5ac23291-ae98-4b89-a412-37faa3c82350",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Agent.btz creates a file named thumb.dd on all USB flash drives connected to the victim. This file contains information about the infected system and activity logs. (Citation: Securelist Agent.btz)",
+            "description": "Agent.btz creates a file named thumb.dd on all USB flash drives connected to the victim. This file contains information about the infected system and activity logs.",
             "external_references": [
                 {
                     "url": "https://securelist.com/agent-btz-a-source-of-inspiration/58551/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0092}} creates a file named thumb.dd on all USB flash drives connected to the victim. This file contains information about the infected system and activity logs.",
             "source_ref": "malware--40d3e230-ed32-469f-ba89-be70cc08ab39",
             "target_ref": "attack-pattern--e6415f09-df0e-48de-9aba-928c902b7549"
         }

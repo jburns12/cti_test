@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cbabcf8c-b847-44fb-8a93-dd54851e2c6b",
+    "id": "bundle--bb85e55f-30a9-442c-9d29-1335417649a2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,6 +27,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "Adversaries may attempt to get a listing of services running on remote hosts, including those that may be vulnerable to remote software exploitation. Methods to acquire this information include port scans and vulnerability scans from the mobile device. This technique may take advantage of the mobile device's access to an internal enterprise network either through local connectivity or through a Virtual Private Network (VPN).",
             "x_mitre_platforms": [
                 "Android",
                 "iOS"

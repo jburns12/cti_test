@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--300c934d-f932-488d-9e79-78380ed3d35b",
+    "id": "bundle--184fb458-8f12-4efd-8b3b-a43b743ed876",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-18T15:59:03.864Z",
-            "description": "Xbot \"can also remotely lock infected Android devices...and ask for a...cash card as ransom\" (Citation: PaloAlto-Xbot).",
+            "description": "Xbot \"can also remotely lock infected Android devices...and ask for a...cash card as ransom\".",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2016/02/new-android-trojan-xbot-phishes-credit-cards-and-bank-accounts-encrypts-devices-for-ransom/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|MOB-S0014}} \"can also remotely lock infected Android devices...and ask for a...cash card as ransom\".",
             "source_ref": "tool--da21929e-40c0-443d-bdf4-6b60d15448b4",
             "target_ref": "attack-pattern--9d7c32f4-ab39-49dc-8055-8106bc2294a1"
         }

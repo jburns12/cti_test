@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--123222b7-7d68-4c2a-b398-a983e40ef86d",
+    "id": "bundle--360debe9-216d-4cbf-b1f8-95c9977f713f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -20,7 +20,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Application developers should use device-provided credential storage mechanisms such as Android's KeyStore or iOS's KeyChain. These can prevent credentials from being exposed to an adversary."
         }
     ]
 }

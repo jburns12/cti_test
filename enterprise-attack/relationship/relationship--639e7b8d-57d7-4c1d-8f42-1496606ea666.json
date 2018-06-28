@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d2291736-0e26-451f-8d6d-26eff5e54136",
+    "id": "bundle--6ff39d53-18a2-475f-80cb-2d1fcd0e6eb5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "APT33 sent spear phishing emails containing links to .hta files. (Citation: FireEye APT33 Sept 2017)",
+            "description": "APT33 sent spear phishing emails containing links to .hta files.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/09/apt33-insights-into-iranian-cyber-espionage.html",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0064}} sent spear phishing emails containing links to .hta files.",
             "source_ref": "intrusion-set--fbd29c89-18ba-4c2d-b792-51c0adee049f",
             "target_ref": "attack-pattern--20138b9d-1aac-4a26-8654-a36b6bbf2bba"
         }

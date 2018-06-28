@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bc5e9b88-eb94-4fe2-bf91-c13462aaa0cc",
+    "id": "bundle--f4023fd5-b720-44bd-9311-cc24d21d20a7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -30,7 +30,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "A payload is the part of the malware which performs a malicious action. The adversary may re-use payloads when the needed capability is already available. (Citation: SonyDestover)"
         }
     ]
 }

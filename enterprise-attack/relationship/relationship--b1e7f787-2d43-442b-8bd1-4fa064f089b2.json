@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bad4e715-b356-431f-ac11-a8d3bc65358e",
+    "id": "bundle--698396ba-b6df-4d54-9d0c-ec4b53542483",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.061Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "C2 traffic for most Threat Group-3390 tools occurs over ports 53, 80, and 443. (Citation: Dell TG-3390)",
+            "description": "C2 traffic for most Threat Group-3390 tools occurs over ports 53, 80, and 443.",
             "external_references": [
                 {
                     "url": "http://www.secureworks.com/cyber-threat-intelligence/threats/threat-group-3390-targets-organizations-for-cyberespionage/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "C2 traffic for most {{LinkById|G0027}} tools occurs over ports 53, 80, and 443.",
             "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
             "target_ref": "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e"
         }

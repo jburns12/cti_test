@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--804d0a0d-7153-44b4-bc8d-caf1f51df798",
+    "id": "bundle--c2f1d07e-f2be-448a-af98-e964b0a76fa3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "An adversary can probe a victim's network to determine configurations. The configurations may provide opportunities to route traffic through the network in an undetected or less detectable way. (Citation: Li2014ExploitKits) (Citation: RecurlyGHOST)"
         }
     ]
 }

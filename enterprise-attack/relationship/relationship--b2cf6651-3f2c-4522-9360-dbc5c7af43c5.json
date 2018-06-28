@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--21c30917-1095-4b09-b9e1-f499a2707d13",
+    "id": "bundle--490ea555-87c9-438f-86db-372ba86de044",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Remsec schedules the execution one of its modules by creating a new scheduler task. (Citation: Kaspersky ProjectSauron Technical Analysis)",
+            "description": "Remsec schedules the execution one of its modules by creating a new scheduler task.",
             "external_references": [
                 {
                     "url": "https://securelist.com/files/2016/07/The-ProjectSauron-APT%20Technical%20Analysis%20KL.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0125}} schedules the execution one of its modules by creating a new scheduler task.",
             "source_ref": "malware--69d6f4a9-fcf0-4f51-bca7-597c51ad0bb8",
             "target_ref": "attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9"
         }

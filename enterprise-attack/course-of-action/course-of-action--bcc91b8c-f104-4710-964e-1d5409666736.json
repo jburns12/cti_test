@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4d57534d-63a9-40c0-924a-893be497652b",
+    "id": "bundle--d599522c-b691-4bff-8e34-4fd843d88927",
     "spec_version": "2.0",
     "objects": [
         {
@@ -22,7 +22,8 @@
                     "description": "US-CERT. (2015, November 13). Compromised Web Servers and Web Shells - Threat Awareness and Guidance. Retrieved June 8, 2016.",
                     "source_name": "US-CERT Alert TA15-314A Web Shells"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Ensure that externally facing Web servers are patched regularly to prevent adversary access through {{LinkById|T1068}} to gain remote code access or through file inclusion weaknesses that may allow adversaries to upload files or scripts that are automatically served as Web pages. \n\nAudit account and group permissions to ensure that accounts used to manage servers do not overlap with accounts and permissions of users in the internal network that could be acquired through Credential Access and used to log into the Web server and plant a Web shell or pivot from the Web server into the internal network. (Citation: US-CERT Alert TA15-314A Web Shells)"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--45041c7b-290c-4a63-8265-3c9f545436bb",
+    "id": "bundle--7cfdf35d-af24-48fc-b98c-cc520b69ac54",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Sowbug extracted Word documents from a file server on a victim network. (Citation: Symantec Sowbug Nov 2017)",
+            "description": "Sowbug extracted Word documents from a file server on a victim network.",
             "external_references": [
                 {
                     "url": "https://www.symantec.com/connect/blogs/sowbug-cyber-espionage-group-targets-south-american-and-southeast-asian-governments",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0054}} extracted Word documents from a file server on a victim network.",
             "source_ref": "intrusion-set--d1acfbb3-647b-4723-9154-800ec119006e",
             "target_ref": "attack-pattern--ae676644-d2d2-41b7-af7e-9bed1b55898c"
         }

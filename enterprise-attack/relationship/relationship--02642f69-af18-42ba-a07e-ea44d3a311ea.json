@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e5d93248-4359-476d-a279-8d13a9d16585",
+    "id": "bundle--093cb173-0d1b-4eb9-9ee9-a875662ab986",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "creates a backdoor by making a connection using a HTTP POST. (Citation: Symantec Vasport May 2012)",
+            "description": "creates a backdoor by making a connection using a HTTP POST.",
             "external_references": [
                 {
                     "url": "https://www.symantec.com/security%20response/writeup.jsp?docid=2012-051606-5938-99",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "creates a backdoor by making a connection using a HTTP POST.",
             "source_ref": "malware--f4d8a2d6-c684-453a-8a14-cf4a94f755c5",
             "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6"
         }

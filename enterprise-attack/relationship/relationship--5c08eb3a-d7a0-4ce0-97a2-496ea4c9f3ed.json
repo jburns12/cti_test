@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--071f26ef-443b-4da3-b58e-b00853fa38cc",
+    "id": "bundle--2a2900a8-b73a-4212-992f-bf83be107c3d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "creates a backdoor through which remote attackers can download files onto compromised hosts. (Citation: Symantec Linfo May 2012)",
+            "description": "creates a backdoor through which remote attackers can download files onto compromised hosts.",
             "external_references": [
                 {
                     "url": "https://www.symantec.com/security%20response/writeup.jsp?docid=2012-051605-2535-99",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "creates a backdoor through which remote attackers can download files onto compromised hosts.",
             "source_ref": "malware--e9e9bfe2-76f4-4870-a2a1-b7af89808613",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add"
         }

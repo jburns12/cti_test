@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d1b4ebc4-5e6a-4491-9478-d4e75e8e7328",
+    "id": "bundle--21f3c84f-efc3-41a7-8b33-6358f09e6754",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Cobalt Strike can exploit vulnerabilities such as MS14-058. (Citation: Cobalt Strike TTPs Dec 2017)",
+            "description": "Cobalt Strike can exploit vulnerabilities such as MS14-058.",
             "external_references": [
                 {
                     "url": "https://www.cobaltstrike.com/downloads/reports/tacticstechniquesandprocedures.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0154}} can exploit vulnerabilities such as MS14-058.",
             "source_ref": "tool--aafea02e-ece5-4bb2-91a6-3bf8c7f38a39",
             "target_ref": "attack-pattern--b21c3b2d-02e6-45b1-980b-e69051040839"
         }

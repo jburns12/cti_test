@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--133f729b-0f53-4fe3-b133-86bd0aee7ba4",
+    "id": "bundle--c3bc56c3-f02b-4b9b-929c-129ef4dbdd8f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -30,7 +30,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Open source intelligence (OSINT) is intelligence gathered from publicly available sources. This can include both information gathered on-line, such as from search engines, as well as in the physical world. (Citation: RSA-APTRecon)"
         },
         {
             "type": "attack-pattern",
@@ -63,7 +64,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "A wide variety of 3rd party software services  are available (e.g., [https://twitter.com Twitter], [https://www.dropbox.com Dropbox], [https://www.google.com/docs/about/ GoogleDocs]). Use of these solutions allow an adversary to stage, launch, and execute an attack from infrastructure that does not physically tie back to them and can be rapidly provisioned, modified, and shut down. (Citation: LUCKYCAT2012) (Citation: Nemucod Facebook)"
         },
         {
             "type": "attack-pattern",
@@ -96,7 +98,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "An adversary can probe a victim's network to determine configurations. The configurations may provide opportunities to route traffic through the network in an undetected or less detectable way. (Citation: Li2014ExploitKits) (Citation: RecurlyGHOST)"
         },
         {
             "type": "attack-pattern",
@@ -125,7 +128,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Understanding organizational skillsets and deficiencies could provide insight in to weakness in defenses, or opportunities for exploitation. (Citation: FakeLinkedIn)"
         },
         {
             "type": "attack-pattern",
@@ -158,7 +162,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Anonymity services reduce the amount of information available that can be used to track an adversary's activities.  Multiple options are available to hide activity, limit tracking, and increase anonymity. (Citation: TOR Design) (Citation: Stratfor2012)"
         },
         {
             "type": "attack-pattern",
@@ -191,7 +196,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Physical access may be required for certain types of adversarial actions. (Citation: CyberPhysicalAssessment) (Citation: CriticalInfrastructureAssessment)"
         },
         {
             "type": "attack-pattern",
@@ -224,7 +230,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Attempt to use default vendor credentials, brute force credentials, or previously obtained legitimate credentials to authenticate remotely. This access could be to a web portal, through a VPN, or in a phone app. (Citation: Remote Access Healthcare) (Citation: RDP Point of Sale)"
         },
         {
             "type": "attack-pattern",
@@ -261,7 +268,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "For attacks incorporating social engineering the utilization of an on-line persona is important. These personas may be fictitious or impersonate real people. The persona may exist on a single site or across multiple sites ([https://www.facebook.com Facebook], [https://www.linkedin.com LinkedIn], [https://twitter.com Twitter], [https://plus.google.com Google+], etc.). (Citation: NEWSCASTER2014) (Citation: BlackHatRobinSage) (Citation: RobinSageInterview)"
         },
         {
             "type": "attack-pattern",
@@ -290,7 +298,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Certain types of traffic (e.g., Twitter14, HTTP) are more commonly used than others. Utilizing more common protocols and software may make an adversary's traffic more difficult to distinguish from legitimate traffic. (Citation: symantecNITRO)"
         },
         {
             "type": "attack-pattern",
@@ -319,7 +328,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Active scanning is the act of sending transmissions to end nodes, and analyzing the responses, in order to identify information about the communications system. (Citation: RSA-APTRecon)"
         },
         {
             "type": "attack-pattern",
@@ -352,7 +362,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Social Engineering is the practice of manipulating people in order to get them to divulge information or take an action. (Citation: SEAttackVectors) (Citation: BeachSE2003)"
         },
         {
             "type": "attack-pattern",
@@ -385,7 +396,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Implementation plans specify how the goals of the strategic plan will be executed. (Citation: ChinaCollectionPlan) (Citation: OrderOfBattle)"
         },
         {
             "type": "attack-pattern",
@@ -422,7 +434,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "DNS Calc is a technique in which the octets of an IP address are used to calculate the port  for command and control servers from an initial DNS request. (Citation: CrowdstrikeNumberedPanda) (Citation: FireEyeDarwinsAPTGroup) (Citation: Rapid7G20Espionage)"
         },
         {
             "type": "attack-pattern",
@@ -459,7 +472,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "A wide variety of cloud, virtual private services, hosting, compute, and storage solutions are available as 3rd party infrastructure services. These services could provide an adversary with another avenue of approach or compromise. (Citation: LUCKYCAT2012) (Citation: Schneier-cloud) (Citation: Computerworld-suppliers)"
         },
         {
             "type": "attack-pattern",
@@ -488,7 +502,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Firmware is permanent software programmed into the read-only memory of a device. As with other types of software, firmware may be updated over time and have multiple versions. (Citation: Abdelnur Advanced Fingerprinting)"
         },
         {
             "type": "attack-pattern",
@@ -529,7 +544,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "An adversary undergoes an iterative target selection process that may begin either broadly and narrow down into specifics (strategic to tactical) or narrowly and expand outward (tactical to strategic).  As part of this process, an adversary may determine a high level target they wish to attack. One example of this may be a particular country, government, or commercial sector. (Citation: CyberAdversaryBehavior) (Citation: JP3-60) (Citation: JP3-12 (R)) (Citation: DoD Cyber 2015)"
         },
         {
             "type": "attack-pattern",
@@ -566,7 +582,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Removable media containing malware can be injected in to a supply chain at large or small scale. It can also be physically placed for someone to find or can be sent to someone in a more targeted manner. The intent is to have the user utilize the removable media on a system where the adversary is trying to gain access. (Citation: USBMalwareAttacks) (Citation: FPDefendNewDomain) (Citation: ParkingLotUSB)"
         },
         {
             "type": "attack-pattern",
@@ -595,7 +612,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Dynamic DNS is a method of automatically updating a name in the DNS system. Providers offer this rapid reconfiguration of IPs to hostnames as a service. (Citation: DellMirage2012)"
         },
         {
             "type": "attack-pattern",
@@ -636,7 +654,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "A technique in which a fully qualified domain name has multiple IP addresses assigned to it which are swapped with extreme frequency, using a combination of round robin IP address and short Time-To-Live (TTL) for a DNS resource record. (Citation: HoneynetFastFlux) (Citation: MisnomerFastFlux) (Citation: MehtaFastFluxPt1) (Citation: MehtaFastFluxPt2)"
         },
         {
             "type": "attack-pattern",
@@ -665,7 +684,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Host based hiding techniques are designed to allow an adversary to remain undetected on a machine upon which they have taken action. They may do this through the use of  static linking of binaries, polymorphic code, exploiting weakness in file formats, parsers, or self-deleting code. (Citation: VirutAP)"
         },
         {
             "type": "attack-pattern",
@@ -694,7 +714,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Business relationship information may be used by an adversary to shape social engineering attempts (exploiting who a target expects to hear from) or to plan for technical actions such as exploiting network trust relationship. (Citation: 11StepsAttackers)"
         },
         {
             "type": "attack-pattern",
@@ -727,7 +748,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Job postings, on either company sites, or in other forums, provide information on organizational structure, needs, and gaps in an organization. This may give an adversary an indication of weakness in an organization (such as under-resourced IT shop). Job postings can also provide information on an organizations structure which could be valuable in social engineering attempts. (Citation: JobPostingThreat) (Citation: RSA-APTRecon)"
         },
         {
             "type": "attack-pattern",
@@ -756,7 +778,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "An adversary may identify sensitive personnel information not typically posted on a social media site, such as address, marital status, financial history, and law enforcement infractions. This could be conducted by searching public records that are frequently available for free or at a low cost online. (Citation: RSA-APTRecon)"
         },
         {
             "type": "attack-pattern",
@@ -793,7 +816,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Many applications use third-party software libraries, often without full knowledge of the behavior of the libraries by the application developer. For example, mobile applications often incorporate advertising libraries to generate revenue for the application developer. Vulnerabilities in these third-party libraries could potentially be exploited in any application that uses the library, and even if the vulnerabilities are fixed, many applications may still use older, vulnerable versions of the library. (Citation: Flexera News Vulnerabilities) (Citation: Android Security Review 2015) (Citation: Android Multidex RCE)"
         },
         {
             "type": "attack-pattern",
@@ -822,7 +846,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "An adversary may research available open source information about a target commonly found on social media sites such as [https://www.facebook.com Facebook], [https://www.instagram.com Instagram], or [https://www.pinterest.com Pinterest].  Social media is public by design and provides insight into the interests and potentially inherent weaknesses of a target for exploitation by the adversary. (Citation: RSA-APTRecon)"
         },
         {
             "type": "attack-pattern",
@@ -855,7 +880,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Google and Apple provide Google Cloud Messaging and Apple Push Notification Service, respectively, services designed to enable efficient communication between third-party mobile app backend servers and the mobile apps running on individual devices. These services maintain an encrypted connection between every mobile device and Google or Apple that cannot easily be inspected and must be allowed to traverse networks as part of normal device operation. These services could be used by adversaries for communication to compromised mobile devices. (Citation: Securelist Mobile Malware 2013) (Citation: DroydSeuss)"
         },
         {
             "type": "attack-pattern",
@@ -884,7 +910,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Obfuscation is the act of creating communications that are more difficult to understand.  Encryption transforms the communications such that it requires a key to reverse the encryption. (Citation: FireEyeAPT28)"
         },
         {
             "type": "attack-pattern",
@@ -913,7 +940,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "A payload is the part of the malware which performs a malicious action. The adversary may re-use payloads when the needed capability is already available. (Citation: SonyDestover)"
         },
         {
             "type": "attack-pattern",
@@ -942,7 +970,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Proxies act as an intermediary for clients seeking resources from other systems. Using a proxy may make it more difficult to track back the origin of a network communication. (Citation: APT1)"
         },
         {
             "type": "attack-pattern",
@@ -971,7 +1000,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Replacing a legitimate binary with malware can be accomplished either by replacing a binary on a legitimate download site or standing up a fake or alternative site with the malicious binary. The intent is to have a user download and run the malicious binary thereby executing malware. (Citation: FSecureICS)"
         },
         {
             "type": "attack-pattern",
@@ -1004,7 +1034,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Certificates are designed to instill trust. They  include information about the key, information about its owner's identity, and the digital signature of an entity that has verified the certificate's contents are correct. If the signature is valid, and the person examining the certificate trusts the signer, then they know they can use that key to communicate with its owner. Acquiring a certificate for a  domain name similar to one that is expected to be trusted may allow an adversary to trick a user in to trusting the domain (e.g., vvachovia instead of [https://www.wellsfargo.com/about/corporate/wachovia/ Wachovia] -- homoglyphs). (Citation: SubvertSSL) (Citation: PaypalScam)"
         },
         {
             "type": "attack-pattern",
@@ -1037,7 +1068,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Emails with malicious links are designed to get a user to click on the link in order to deliver malware payloads. (Citation: GoogleDrive Phishing) (Citation: RSASEThreat)"
         },
         {
             "type": "attack-pattern",
@@ -1070,7 +1102,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Sending messages through social media platforms to individuals identified as a target. These messages may include malicious attachments or links to malicious sites or they may be designed to establish communications for future actions. (Citation: APT1) (Citation: Nemucod Facebook)"
         },
         {
             "type": "attack-pattern",
@@ -1099,7 +1132,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "An adversary can run their code on systems with cyber security protections, such as antivirus products, in place to see if their code is detected. They can also test their malware on freely available public services. (Citation: MalwareQAZirtest)"
         },
         {
             "type": "attack-pattern",
@@ -1132,7 +1166,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "A technique used to compromise victims wherein the victims visit a compromised website that redirects their browser to a malicious web site, such as an exploit kit's landing page.  The exploit kit landing page will probe the victim's operating system, web browser, or other software to find an exploitable vulnerability to infect the victim. (Citation: GeorgeDriveBy) (Citation: BellDriveBy)"
         },
         {
             "type": "attack-pattern",
@@ -1161,7 +1196,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Open source intelligence (OSINT) provides free, readily available information about a target while providing the target no indication they are of interest.  Such information can assist an adversary in crafting a successful approach for compromise. (Citation: RSA-APTRecon)"
         },
         {
             "type": "attack-pattern",
@@ -1190,7 +1226,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "A wide variety of 3rd party software services  are available (e.g., [https://twitter.com Twitter], [https://www.dropbox.com Dropbox], [https://www.google.com/docs/about/ GoogleDocs]). Use of these solutions allow an adversary to stage, launch, and execute an attack from infrastructure that does not physically tie back to them and can be rapidly provisioned, modified, and shut down. (Citation: LOWBALL2015)"
         },
         {
             "type": "attack-pattern",
@@ -1219,7 +1256,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "An adversary may analyze technical scanning results to identify weaknesses in the configuration or architecture of a victim network. These weaknesses could include  architectural flaws, misconfigurations, or improper security controls. (Citation: FireEyeAPT28)"
         },
         {
             "type": "attack-pattern",
@@ -1248,7 +1286,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Analyze strengths and weaknesses of the target for potential areas of where to focus compromise efforts. (Citation: FakeLinkedIn)"
         },
         {
             "type": "attack-pattern",
@@ -1277,7 +1316,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Key Intelligence Topics (KITs) and Key Intelligence Questions (KIQs) may be further subdivided to focus on political, economic, diplomatic, military, financial, or intellectual property categories.  An adversary may specify KITs or KIQs in this manner in order to understand how the information they are pursuing can have multiple uses and to consider all aspects of the types of information they need to target for a particular purpose. (Citation: CompetitiveIntelligence) (Citation: CompetitiveIntelligence)KIT."
         },
         {
             "type": "attack-pattern",
@@ -1310,7 +1350,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "An adversary may assess a target's operational security (OPSEC) practices in order to identify targeting options. A target may share different information in different settings or be more of less cautious in different environments. (Citation: Scasny2015) (Citation: EverstineAirStrikes)"
         },
         {
             "type": "attack-pattern",
@@ -1339,7 +1380,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Clicking on links in email, opening attachments, or visiting websites that result in drive by downloads can all result in compromise due to users performing actions of a cyber nature. (Citation: AnonHBGary)"
         },
         {
             "type": "attack-pattern",
@@ -1368,7 +1410,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Domain Names are the human readable names used to represent one or more IP addresses. They can be purchased or, in some cases, acquired for free. (Citation: PWCSofacy2014)"
         },
         {
             "type": "attack-pattern",
@@ -1401,7 +1444,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Instead of buying, leasing, or renting infrastructure an adversary may compromise infrastructure and use it for some or all of the attack cycle. (Citation: WateringHole2014) (Citation: FireEye Operation SnowMan)"
         },
         {
             "type": "attack-pattern",
@@ -1434,7 +1478,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Leadership conducts a cost/benefit analysis that generates a compelling need for information gathering which triggers a Key Intelligence Toptic (KIT) or Key Intelligence Question (KIQ). For example, an adversary compares the cost of cyber intrusions with the expected benefits from increased intelligence collection on cyber adversaries. (Citation: LowenthalCh4) (Citation: KIT-Herring)"
         },
         {
             "type": "attack-pattern",
@@ -1467,7 +1512,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Social Engineering is the practice of manipulating people in order to get them to divulge information or take an action. Human Intelligence (HUMINT) is intelligence collected and provided by human sources. (Citation: 17millionScam) (Citation: UbiquityEmailScam)"
         },
         {
             "type": "attack-pattern",
@@ -1496,7 +1542,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Use of removable media as part of the Launch phase requires an adversary to determine type, format, and content of the media and associated malware. (Citation: BadUSB)"
         },
         {
             "type": "attack-pattern",
@@ -1533,7 +1580,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Certain types of traffic (e.g., DNS tunneling, header inject) allow for user-defined fields. These fields can then be used to hide data. In addition to hiding data in network protocols, steganography techniques can be used to hide data in images or other file formats. Detection can be difficult unless a particular signature is already known. (Citation: BotnetsDNSC2) (Citation: HAMMERTOSS2015) (Citation: DNS-Tunnel)"
         },
         {
             "type": "attack-pattern",
@@ -1578,7 +1626,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "The approach or attack vector outlines the specifics behind how the adversary would like to attack the target.  As additional information is known through the other phases of PRE-ATT&CK, an adversary may update the approach or attack vector. (Citation: CyberAdversaryBehavior) (Citation: WITCHCOVEN2015) (Citation: JP3-60) (Citation: JP3-12 (R)) (Citation: DoD Cyber 2015)"
         },
         {
             "type": "attack-pattern",
@@ -1619,7 +1668,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "From a tactical viewpoint, an adversary could potentially have a primary and secondary level target.  The primary target represents the highest level tactical element the adversary wishes to attack.  For example, the corporate network within a corporation or the division within an agency. (Citation: CyberAdversaryBehavior) (Citation: JP3-60) (Citation: JP3-12 (R)) (Citation: DoD Cyber 2015)"
         },
         {
             "type": "attack-pattern",
@@ -1648,7 +1698,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Leadership derives Key Intelligence Topics (KITs) and Key Intelligence Questions (KIQs) from the areas of most interest to them.  KITs are an expression of management's intelligence needs with respect to early warning, strategic and operational decisions, knowing the competition, and understanding the competitive situation. KIQs are the critical questions aligned by KIT which provide the basis for collection plans, create a context for analytic work, and/or identify necessary external operations. (Citation: Herring1999)"
         },
         {
             "type": "attack-pattern",
@@ -1681,7 +1732,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "An adversary could distribute malicious software development tools (e.g., compiler) that hide malicious behavior in software built using the tools. (Citation: PA XcodeGhost) (Citation: Reflections on Trusting Trust)"
         },
         {
             "type": "attack-pattern",
@@ -1710,7 +1762,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Dynamic DNS is a automated method to rapidly update the domain name system mapping of hostnames to IPs. (Citation: FireEyeSupplyChain)"
         },
         {
             "type": "attack-pattern",
@@ -1743,7 +1796,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Once a persona has been developed an adversary will use it to create connections to targets of interest. These connections may be direct or may include trying to connect through others. (Citation: NEWSCASTER2014) (Citation: BlackHatRobinSage)"
         },
         {
             "type": "attack-pattern",
@@ -1776,7 +1830,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Through social engineering or other methods, an adversary can get users to perform physical actions that provide access to an adversary.  This could include providing a password over the phone or inserting a 'found' CD or USB into a system. (Citation: AnonHBGary) (Citation: CSOInsideOutside)"
         },
         {
             "type": "attack-pattern",
@@ -1809,7 +1864,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Leadership identifies gap areas that generate a compelling need to generate a Key Intelligence Topic (KIT) or Key Intelligence Question (KIQ). (Citation: ODNIIntegration) (Citation: ICD115)"
         },
         {
             "type": "attack-pattern",
@@ -1842,7 +1898,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "The attempt to identify people of interest or with an inherent weakness for direct or indirect targeting to determine an approach to compromise a person or organization.  Such targets may include individuals with poor OPSEC practices or those who have a trusted relationship with the intended target. (Citation: RSA-APTRecon) (Citation: Scasny2015)"
         },
         {
             "type": "attack-pattern",
@@ -1875,7 +1932,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Supply chains include the people, processes, and technologies used to move a product or service from a supplier to a consumer. Understanding supply chains may provide an adversary with opportunities to exploit the people, their positions, and relationships, that are part of the supply chain. (Citation: SmithSupplyChain) (Citation: CERT-UKSupplyChain)"
         },
         {
             "type": "attack-pattern",
@@ -1904,7 +1962,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "An adversary can attempt to identify web defensive services as [https://www.cloudflare.com/ CloudFlare], [https://github.com/jjxtra/Windows-IP-Ban-Service IPBan], and [https://www.snort.org/ Snort]. This may be done by passively detecting services, like [https://www.cloudflare.com/ CloudFlare] routing, or actively, such as by purposefully tripping security defenses. (Citation: NMAP WAF NSE)"
         },
         {
             "type": "attack-pattern",
@@ -1933,7 +1992,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Technical blogs and forums provide a way for technical staff to ask for assistance or troubleshoot problems. In doing so they may reveal information such as operating system (OS), network devices, or applications in use. (Citation: FunAndSun2012)"
         },
         {
             "type": "attack-pattern",
@@ -1962,7 +2022,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Obfuscation is hiding the day-to-day building and testing of new tools, chat servers, etc. (Citation: LUCKYCAT2012)"
         },
         {
             "type": "attack-pattern",
@@ -2003,7 +2064,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "The adversary can obtain an Apple iOS enterprise distribution key pair and certificate and use it to distribute malicious apps directly to Apple iOS devices without the need to publish the apps to the Apple App Store (where the apps could potentially be detected). (Citation: Apple Developer Enterprise Porgram Apps) (Citation: Fruit vs Zombies) (Citation: WIRELURKER) (Citation: Sideloading Change)"
         },
         {
             "type": "attack-pattern",
@@ -2032,7 +2094,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Redirecting a communication request from one address and port number combination to another. May be set up to obfuscate the final location of communications that will occur in later stages of an attack. (Citation: SecureWorks HTRAN Analysis)"
         },
         {
             "type": "attack-pattern",
@@ -2065,7 +2128,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "A technique to push an [https://www.apple.com/ios iOS] or [https://www.android.com Android] MMS-type message to the target which does not require interaction on the part of the target to be successful. (Citation: BlackHat Stagefright) (Citation: WikiStagefright)"
         },
         {
             "type": "attack-pattern",
@@ -2098,7 +2162,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Common Vulnerability Enumeration (CVE) is a dictionary of publicly known information about security vulnerabilities and exposures. An adversary can use this information to target specific software that may be vulnerable. (Citation: WeaponsVulnerable) (Citation: KasperskyCarbanak)"
         },
         {
             "type": "attack-pattern",
@@ -2127,7 +2192,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Fake certificates can be acquired by legal process or coercion. Or, an adversary can trick a Certificate Authority into issuing a certificate. These fake certificates can be used as a part of Man-in-the-Middle attacks. (Citation: SubvertSSL)"
         },
         {
             "type": "attack-pattern",
@@ -2156,7 +2222,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Emails with text only phishing messages do not contain any attachments or links to websites. They are designed to get a user to take a follow on action such as calling a phone number or wiring money. They can also be used to elicit an email response to confirm existence of an account or user. (Citation: Paypal Phone Scam)"
         },
         {
             "type": "attack-pattern",
@@ -2189,7 +2256,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Once divided into the most granular parts, analysts work with collection managers to task the collection management system with requirements and sub-requirements. (Citation: Heffter) (Citation: JP2-01)"
         },
         {
             "type": "attack-pattern",
@@ -2222,7 +2290,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "An  adversary can test physical access options in preparation for the actual attack. This could range from observing behaviors and noting security precautions to actually attempting access. (Citation: OCIAC Pre Incident Indicators) (Citation: NewsAgencySpy)"
         },
         {
             "type": "attack-pattern",
@@ -2251,7 +2320,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "A technique that takes advantage of flaws in client-side applications without targeting specific users. For example, an exploit placed on an often widely used public web site intended for drive-by delivery to whomever visits the site. (Citation: CitizenLabGreatCannon)"
         },
         {
             "type": "attack-pattern",
@@ -2288,7 +2358,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Data sets can be anything from Security Exchange Commission (SEC) filings to public phone numbers. Many datasets are now either publicly available for free or can be purchased from a variety of data vendors.  Open source intelligence (OSINT) is intelligence gathered from publicly available sources. This can include both information gathered on-line as well as in the physical world. (Citation: SANSThreatProfile) (Citation: Infosec-osint) (Citation: isight-osint)"
         },
         {
             "type": "attack-pattern",
@@ -2317,7 +2388,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Code signing is the process of digitally signing executables or scripts to confirm the software author and guarantee that the code has not been altered or corrupted. Users may trust a signed piece of code more than an signed piece of code even if they don't know who issued the certificate or who the author is. (Citation: Adobe Code Signing Cert)"
         },
         {
             "type": "attack-pattern",
@@ -2346,7 +2418,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Business processes, such as who typically communicates with who, or what the supply chain is for a particular part, provide opportunities for social engineering or other  (Citation: Warwick2015)"
         },
         {
             "type": "attack-pattern",
@@ -2375,7 +2448,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Analyze strengths and weaknesses of the target for potential areas of where to focus compromise efforts. (Citation: FakeLinkedIn)"
         },
         {
             "type": "attack-pattern",
@@ -2416,7 +2490,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Analysts assess current information available against requirements that outline needs and wants as part of the research baselining process to begin satisfying a requirement. (Citation: CyberAdvertisingChar) (Citation: CIATradecraft) (Citation: ForensicAdversaryModeling) (Citation: CyberAdversaryBehavior)"
         },
         {
             "type": "attack-pattern",
@@ -2449,7 +2524,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Once a 3rd party vendor has been identified as being of interest it can be probed for vulnerabilities just like the main target would be. (Citation: Zetter2015Threats) (Citation: WSJTargetBreach)"
         },
         {
             "type": "attack-pattern",
@@ -2478,7 +2554,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Users may be performing legitimate activity but using media that is compromised (e.g., using a USB drive that comes with malware installed during manufacture or supply). Upon insertion in the system the media auto-runs and the malware executes without further action by the user. (Citation: WSUSpect2015)"
         },
         {
             "type": "attack-pattern",
@@ -2507,7 +2584,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Command and Control (C2 or C&C) is a method by which the adversary communicates with malware. An adversary may use a variety of protocols and methods to execute C2 such as a centralized server, peer to peer, IRC, compromised web sites, or even social media. (Citation: HAMMERTOSS2015)"
         },
         {
             "type": "attack-pattern",
@@ -2540,7 +2618,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Instead of buying, leasing, or renting infrastructure an adversary may compromise infrastructure and use it for some or all of the attack cycle. (Citation: WateringHole2014) (Citation: FireEye Operation SnowMan)"
         },
         {
             "type": "attack-pattern",
@@ -2573,7 +2652,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Passive scanning is the act of looking at existing network traffic in order to identify information about the communications system. (Citation: SurveyDetectionStrategies) (Citation: CyberReconPaper)"
         },
         {
             "type": "attack-pattern",
@@ -2606,7 +2686,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Upon successful compromise the adversary may implement methods for confirming success including communication to a command and control server, exfiltration of data, or a verifiable intended effect such as a publicly accessible resource being inaccessible or a web page being defaced. (Citation: FireEye Malware Stages) (Citation: APTNetworkTrafficAnalysis)"
         },
         {
             "type": "attack-pattern",
@@ -2643,7 +2724,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Strategic plans outline the mission, vision, and goals for an adversary at a high level in relation to the key partners, topics, and functions the adversary carries out. (Citation: KPMGChina5Year) (Citation: China5YearPlans) (Citation: ChinaUN)"
         },
         {
             "type": "attack-pattern",
@@ -2672,7 +2754,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Exploits spread through advertising (malvertising) involve injecting malicious or malware-laden advertisements into legitimate online advertising networks and webpages. (Citation: TPMalvertising)"
         },
         {
             "type": "attack-pattern",
@@ -2701,7 +2784,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Determining if a \"corporate\" help desk exists, the degree of access and control it has, and whether there are \"edge\" units that may have different support processes and standards. (Citation: SANSCentratlizeManagement)"
         },
         {
             "type": "attack-pattern",
@@ -2742,7 +2826,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "If going from strategic down to tactical or vice versa, an  adversary would next consider the operational element.  For example, the specific company within an industry or agency within a government. (Citation: CyberAdversaryBehavior) (Citation: JP3-60) (Citation: JP3-12 (R)) (Citation: DoD Cyber 2015)"
         },
         {
             "type": "attack-pattern",
@@ -2779,7 +2864,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Both newly built personas and pre-compromised personas may require development of additional documentation to make them seem real. This could include filling out profile information, developing social networks, or incorporating photos. (Citation: NEWSCASTER2014) (Citation: BlackHatRobinSage) (Citation: RobinSageInterview)"
         },
         {
             "type": "attack-pattern",
@@ -2812,7 +2898,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "The use of algorithms in malware to periodically generate a large number of domain names which function as rendezvous points for malware command and control servers. (Citation: DamballaDGA) (Citation: DambballaDGACyberCriminals)"
         },
         {
             "type": "attack-pattern",
@@ -2845,7 +2932,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Client configurations information such as the operating system and web browser, along with additional information such as version or language, are often transmitted as part of web browsing communications.  This can be accomplished in several ways including use of a compromised web site to collect details on visiting computers. (Citation: UnseenWorldOfCookies) (Citation: Panopticlick)"
         },
         {
             "type": "attack-pattern",
@@ -2874,7 +2962,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "A form of social engineering designed build trust and to lay the foundation for future interactions or attacks. (Citation: BlackHatRobinSage)"
         },
         {
             "type": "attack-pattern",
@@ -2911,7 +3000,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Analysts identify gap areas that generate a compelling need to generate a Key Intelligence Topic (KIT) or Key Intelligence Question (KIQ). (Citation: BrighthubGapAnalysis) (Citation: ICD115) (Citation: JP2-01)"
         },
         {
             "type": "attack-pattern",
@@ -2940,7 +3030,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Personnel internally to a company may belong to a group or maintain a role with  electronic specialized access, authorities, or privilege that make them an attractive target for an adversary.  One example of this is a system administrator. (Citation: RSA-APTRecon)"
         },
         {
             "type": "attack-pattern",
@@ -2969,7 +3060,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Personnel internally to a company may have non-electronic specialized access, authorities, or privilege that make them an attractive target for an adversary.  One example of this is an individual with financial authority to authorize large transactions.  An adversary who compromises this individual might be able to subvert large dollar transfers. (Citation: RSA-APTRecon)"
         },
         {
             "type": "attack-pattern",
@@ -3002,7 +3094,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Supply chains include the people, processes, and technologies used to move a product or service from a supplier to a consumer. Understanding supply chains may provide an adversary with opportunities to exploit organizational relationships. (Citation: SmithSupplyChain) (Citation: CERT-UKSupplyChain)"
         },
         {
             "type": "attack-pattern",
@@ -3031,7 +3124,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "An adversary needs the necessary skills to set up procured equipment and software to create their desired infrastructure. (Citation: KasperskyRedOctober)"
         },
         {
             "type": "attack-pattern",
@@ -3060,7 +3154,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "The use of credentials by an adversary with the intent to hide their true identity and/or portray them self as another person or entity.  An adversary may use misattributable credentials in an attack to convince a victim that credentials are legitimate and trustworthy when this is not actually the case. (Citation: FakeSSLCerts)"
         },
         {
             "type": "attack-pattern",
@@ -3089,7 +3184,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Obfuscation is hiding the day-to-day building and testing of new tools, chat servers, etc. (Citation: FireEyeAPT17)"
         },
         {
             "type": "attack-pattern",
@@ -3126,7 +3222,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Configure and setup booter/stressor services, often intended for server stress testing, to enable denial of service attacks. (Citation: Krebs-Anna) (Citation: Krebs-Booter) (Citation: Krebs-Bazaar)"
         },
         {
             "type": "attack-pattern",
@@ -3155,7 +3252,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "After compromise, an adversary may utilize additional tools to facilitate their end goals. This may include tools to further explore the system, move laterally within a network, exfiltrate data, or destroy data. (Citation: SofacyHits)"
         },
         {
             "type": "attack-pattern",
@@ -3184,7 +3282,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Applicable agencies and/or personnel receive intelligence requirements and evaluate them to determine sub-requirements related to topics, questions, or requirements.  For example, an adversary's  nuclear energy requirements may be further divided into nuclear facilities versus nuclear warhead capabilities. (Citation: AnalystsAndPolicymaking)"
         },
         {
             "type": "attack-pattern",
@@ -3213,7 +3312,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "If an adversary can identify which security tools a victim is using they may be able to identify ways around those tools. (Citation: CrowdStrike Putter Panda)"
         },
         {
             "type": "attack-pattern",
@@ -3242,7 +3342,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "An adversary may secure and protect their infrastructure just as defenders do. This could include the use of VPNs, security software, logging and monitoring, passwords, or other defensive measures. (Citation: KrebsTerracottaVPN)"
         },
         {
             "type": "attack-pattern",
@@ -3271,7 +3372,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Spearphishing for information is a specific variant of spearphishing. Spearphishing for information is different from other forms of spearphishing in that it it doesn't leverage malicious code. All forms of spearphishing are elctronically delivered social engineering targeted at a specific individual, company, or industry. Spearphishing for information is an attempt to trick targets into divulging information, frequently credentials, without involving malicious code. Spearphishing for information frequently involves masquerading as a source with a reason to collect information (such as a system administrator or a bank) and providing a user with a website link to visit. The given website often closely resembles a legitimate site in appearance and has a URL containing elements from the real site. From the fake website, information is gathered in web forms and sent to the attacker. Spearphishing for information may also try to obtain information directly through the exchange of emails, instant messengers or other electronic conversation means. (Citation: ATTACKREF GRIZZLY STEPPE JAR)"
         },
         {
             "type": "attack-pattern",
@@ -3312,7 +3414,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Many mobile devices are configured to only allow applications to be installed from the mainstream vendor app stores (e.g., Apple App Store and Google Play Store). An adversary can submit multiple code samples to these stores deliberately designed to probe the stores' security analysis capabilities, with the goal of determining effective techniques to place malicious applications in the stores that could then be delivered to targeted devices. (Citation: Android Bouncer) (Citation: Adventures in BouncerLand) (Citation: Jekyll on iOS) (Citation: Fruit vs Zombies)"
         },
         {
             "type": "attack-pattern",
@@ -3341,7 +3444,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "An adversary can test the detections of malicious emails or files by using  publicly available services, such as virus total, to see if their files or emails cause an alert. They can also use similar services that are not openly available and don't publicly publish results or they can test on their own internal infrastructure. (Citation: WiredVirusTotal)"
         },
         {
             "type": "attack-pattern",
@@ -3374,7 +3478,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "An adversary may stage software and tools for use during later stages of an attack. The software and tools may be placed on systems legitimately in use by the adversary or may be placed on previously compromised infrastructure. (Citation: APT1) (Citation: RedOctober)"
         },
         {
             "type": "attack-pattern",
@@ -3403,7 +3508,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "A wide variety of cloud, virtual private services, hosting, compute, and storage solutions are available. Additionally botnets are available for rent or purchase. Use of these solutions allow an adversary to stage, launch, and execute an attack from infrastructure that does not physically tie back to them and can be rapidly provisioned, modified, and shut down. (Citation: TrendmicroHideoutsLease)"
         },
         {
             "type": "attack-pattern",
@@ -3436,7 +3542,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "In addition to a target's social media presence may exist a larger digital footprint, such as accounts and credentials on e-commerce sites or usernames and logins for email.  An adversary familiar with a target's username can mine to determine the target's larger digital footprint via publicly available sources. (Citation: DigitalFootprint) (Citation: trendmicro-vtech)"
         },
         {
             "type": "attack-pattern",
@@ -3465,7 +3572,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "An adversary can probe a victim's network to determine configurations. The configurations may provide opportunities to route traffic through the network in an undetected or less detectable way. (Citation: OSFingerprinting2014)"
         },
         {
             "type": "attack-pattern",
@@ -3494,7 +3602,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Social media provides insight into the target's affiliations with groups and organizations.  Certification information can explain their technical associations and professional associations. Personal information can provide data for exploitation or even blackmail. (Citation: Scasny2015)"
         },
         {
             "type": "attack-pattern",
@@ -3527,7 +3636,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "During mergers, divestitures, or other period of change in joint infrastructure or business processes there may be an opportunity for exploitation. During this type of churn, unusual requests, or other non standard practices may not be as noticeable. (Citation: RossiMergers) (Citation: MeidlHealthMergers)"
         },
         {
             "type": "attack-pattern",
@@ -3556,7 +3666,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Leadership organizes Key Intelligence Topics (KITs) and Key Intelligence Questions (KIQs) into three types of categories and creates more if necessary.  An example of a description of key players KIT would be when an adversary assesses the cyber defensive capabilities of a nation-state threat actor. (Citation: Herring1999)"
         },
         {
             "type": "attack-pattern",
@@ -3589,7 +3700,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "An exploit takes advantage of a bug or vulnerability in order to cause unintended or unanticipated behavior to occur on computer hardware or software. The adversary may use or modify existing exploits when those exploits are still relevant to the environment they are trying to compromise. (Citation: NYTStuxnet) (Citation: NationsBuying)"
         },
         {
             "type": "attack-pattern",
@@ -3622,7 +3734,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "For attacks incorporating social engineering the utilization of an on-line persona is important. Utilizing an existing persona with compromised accounts may engender a level of trust in a potential victim if they have a relationship, or knowledge of, the compromised persona. (Citation: AnonHBGary) (Citation: Hacked Social Media Accounts)"
         },
         {
             "type": "attack-pattern",
@@ -3655,7 +3768,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Externally facing systems allow connections from outside the network as a normal course of operations.  Externally facing systems may include, but are not limited to, websites, web portals, email, DNS, FTP, VPN concentrators, and boarder routers and firewalls. These systems could be in a demilitarized zone (DMZ) or may be within other parts of the internal environment. (Citation: CylanceOpCleaver) (Citation: DailyTechAntiSec)"
         },
         {
             "type": "attack-pattern",
@@ -3688,7 +3802,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Social Engineering is the practice of manipulating people in order to get them to divulge information or take an action. (Citation: SEAttackVectors) (Citation: BeachSE2003)"
         },
         {
             "type": "attack-pattern",
@@ -3717,7 +3832,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "A payload is the part of the malware which performs a malicious action. The adversary may create custom payloads when none exist with the needed capability or when targeting a specific environment. (Citation: APT1)"
         },
         {
             "type": "attack-pattern",
@@ -3754,7 +3870,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "DNS (cache) poisoning is the corruption of an Internet server's domain name system table by replacing an Internet address with that of another, rogue address. When a Web user seeks the page with that address, the request is redirected by the rogue entry in the table to a different address. (Citation: Google DNS Poisoning) (Citation: DNS Poisoning China) (Citation: Mexico Modem DNS Poison)"
         },
         {
             "type": "attack-pattern",
@@ -3787,7 +3904,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Infrastructure services includes the hardware, software, and network resources required to operate a communications environment. This infrastructure can be managed by a 3rd party rather than being managed by the owning organization. (Citation: FFIECAwareness) (Citation: Zetter2015Threats)"
         },
         {
             "type": "attack-pattern",
@@ -3820,7 +3938,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Network trusts enable communications between different networks with specific accesses and permissions. Network trusts could include the implementation of domain trusts or the use of virtual private networks (VPNs). (Citation: CuckoosEgg) (Citation: CuckoosEgg)Wikipedia (Citation: KGBComputerMe)"
         },
         {
             "type": "attack-pattern",
@@ -3861,7 +3980,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "The secondary level tactical element the adversary seeks to attack is the specific network or area of a network that is vulnerable to attack.  Within the corporate network example, the secondary level tactical element might be a SQL server or a domain controller with a known vulnerability. (Citation: CyberAdversaryBehavior) (Citation: JP3-60) (Citation: JP3-12 (R)) (Citation: DoD Cyber 2015)"
         },
         {
             "type": "attack-pattern",
@@ -3890,7 +4010,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Email addresses, logon credentials, and other forms of online identification typically share a common format. This makes guessing other credentials within the same domain easier. For example if a known email address is first.last@company.com it is likely that others in the company will have an email in the same format. (Citation: RSA-APTRecon)"
         },
         {
             "type": "attack-pattern",
@@ -3919,7 +4040,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Dumpster diving is looking through waste for information on technology, people, and/or organizational items of interest. (Citation: FriedDumpsters)"
         },
         {
             "type": "attack-pattern",
@@ -3948,7 +4070,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "The use of software, data, or commands to take advantage of a weakness in a computer system or program in order to cause unintended or unanticipated behavior. The weakness in the system can be a bug, a glitch, or a design vulnerability. (Citation: GoogleCrawlerSQLInj)"
         },
         {
             "type": "attack-pattern",
@@ -3981,7 +4104,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "During production and distribution, the placement of software, firmware, or a CPU chip in a computer, handheld, or other electronic device that enables an adversary to gain illegal entrance. (Citation: McDRecall) (Citation: SeagateMaxtor)"
         },
         {
             "type": "attack-pattern",
@@ -4014,7 +4138,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Business relationship information includes the associates of a target and may be discovered via social media sites such as [https://www.linkedin.com LinkedIn] or public press releases announcing new partnerships between organizations or people (such as key hire announcements in industry articles).  This information may be used by an adversary to shape social engineering attempts (exploiting who a target expects to hear from) or to plan for technical actions such as exploiting network trust relationship. (Citation: RSA-APTRecon) (Citation: Scasny2015)"
         },
         {
             "type": "attack-pattern",
@@ -4043,7 +4168,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Job postings, on either company sites, or in other forums, provide information on organizational structure and often provide contact information for someone within the organization. This may give an adversary  information on people within the organization which could be valuable in social engineering attempts. (Citation: JobPostingThreat)"
         },
         {
             "type": "attack-pattern",
@@ -4076,7 +4202,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Security defensive capabilities are designed to stop or limit unauthorized network traffic or other types of accesses. (Citation: OSFingerprinting2014) (Citation: NMAP WAF NSE)"
         },
         {
             "type": "attack-pattern",
@@ -4105,7 +4232,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Technology usage patterns include identifying if users work offsite, connect remotely, or other possibly less restricted/secured access techniques. (Citation: SANSRemoteAccess)"
         },
         {
             "type": "attack-pattern",
@@ -4138,7 +4266,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "A network topology is the arrangement of the various elements of a network (e.g., servers, workstations, printers, routers, firewalls, etc.). Mapping a network allows an adversary to understand how the elements are connected or related. (Citation: man traceroute) (Citation: Shodan Tutorial)"
         },
         {
             "type": "attack-pattern",
@@ -4167,7 +4296,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Using alternative payment options allows an adversary to hide their activities. Options include crypto currencies, barter systems, pre-paid cards or shell accounts. (Citation: Goodin300InBitcoins)"
         },
         {
             "type": "attack-pattern",
@@ -4196,7 +4326,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Obfuscation is the act of creating code that is more difficult to understand. Encoding transforms the code using a publicly available format. Encryption transforms the code such that it requires a key to reverse the encryption. (Citation: CylanceOpCleaver)"
         },
         {
             "type": "attack-pattern",
@@ -4225,7 +4356,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Templates and branding materials may be used by an adversary to add authenticity to social engineering message. (Citation: Scasny2015)"
         },
         {
             "type": "attack-pattern",
@@ -4254,7 +4386,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "An adversary will require some physical hardware and software. They may only need a lightweight set-up if most of their activities will take place using on-line infrastructure. Or, they may need to build extensive infrastructure if they want to test, communicate, and control other aspects of their activities on their own systems. (Citation: NYTStuxnet)"
         },
         {
             "type": "attack-pattern",
@@ -4283,7 +4416,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "A remote access tool (RAT) is a piece of software that allows a remote user to control a system as if they had physical access to that system. An adversary may utilize existing RATs, modify existing RATs, or create their own RAT. (Citation: ActiveMalwareEnergy)"
         },
         {
             "type": "attack-pattern",
@@ -4332,7 +4466,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Many mobile devices are configured to only allow applications to be installed from the mainstream vendor app stores (e.g., Apple App Store and Google Play Store).  These app stores scan submitted applications for malicious behavior.  However, applications can evade these scans by downloading and executing new code at runtime that was not included in the original application package. (Citation: Fruit vs Zombies) (Citation: Android Hax) (Citation: Execute This!) (Citation: HT Fake News App) (Citation: Anywhere Computing kill 2FA) (Citation: Android Security Review 2015)"
         },
         {
             "type": "attack-pattern",
@@ -4361,7 +4496,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Emails with malicious attachments are designed to get a user to open/execute the attachment in order to deliver malware payloads. (Citation: APT1)"
         },
         {
             "type": "attack-pattern",
@@ -4402,7 +4538,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "A technique used to compromise a specific group of end users by taking advantage of flaws in client-side applications. For example, infecting websites that members of a targeted group are known to visit with the goal to infect a targeted user's computer. (Citation: RSASEThreat) (Citation: WikiStagefright) (Citation: ForbesSecurityWeek) (Citation: StrongPity-waterhole)"
         },
         {
             "type": "attack-pattern",
@@ -4431,7 +4568,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Malware may perform differently on different platforms (computer vs handheld) and different operating systems ([http://www.ubuntu.com Ubuntu] vs [http://www.apple.com/osx/ OS X]), and versions ([http://windows.microsoft.com Windows] 7 vs 10) so malicious actors will test their malware in the environment(s) where they most expect it to be executed. (Citation: BypassMalwareDefense)"
         },
         {
             "type": "attack-pattern",
@@ -4460,7 +4598,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "If an adversary can gain physical access to the target's environment they can introduce a variety of  devices that provide compromise mechanisms. This could include installing keyboard loggers, adding routing/wireless equipment, or connecting computing devices. (Citation: Credit Card Skimmers)"
         },
         {
             "type": "attack-pattern",
@@ -4489,7 +4628,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "A wide variety of cloud, virtual private services, hosting, compute, and storage solutions are available. Additionally botnets are available for rent or purchase. Use of these solutions allow an adversary to stage, launch, and execute an attack from infrastructure that does not physically tie back to them and can be rapidly provisioned, modified, and shut down. (Citation: LUCKYCAT2012)"
         },
         {
             "type": "attack-pattern",
@@ -4518,7 +4658,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Code signing is the process of digitally signing executables and scripts to confirm the software author and guarantee that the code has not been altered or corrupted. Users may trust a signed piece of code more than an signed piece of code even if they don't know who issued the certificate or who the author is. (Citation: DiginotarCompromise)"
         },
         {
             "type": "attack-pattern",
@@ -4559,7 +4700,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "An adversary will assess collected information such as software/hardware versions, vulnerabilities, patch level, etc.  They will analyze technical scanning results to identify weaknesses in the confirmation or architecture. (Citation: SurveyDetectionStrategies) (Citation: CyberReconPaper) (Citation: RSA-APTRecon) (Citation: FireEyeAPT28)"
         },
         {
             "type": "attack-pattern",
@@ -4592,7 +4734,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Outsourcing, the arrangement of one company providing goods or services to another company for something that could be done in-house, provides another avenue for an adversary to target. Businesses often have networks, portals, or other technical connections between themselves and their outsourced/partner organizations that could be exploited. Additionally, outsourced/partner organization information could provide opportunities for phishing. (Citation: Scasny2015) (Citation: OPM Breach)"
         },
         {
             "type": "attack-pattern",
@@ -4621,7 +4764,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Leadership assesses the areas of most interest to them and generates Key Intelligence Topics (KIT) or Key Intelligence Questions (KIQ). For example, an adversary knows from open and closed source reporting that cyber is of interest, resulting in it being a KIT. (Citation: ODNIIntegration)"
         },
         {
             "type": "attack-pattern",
@@ -4654,7 +4798,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Once generated, Key Intelligence Topics (KITs), Key Intelligence Questions (KIQs), and/or intelligence requirements are assigned to applicable agencies and/or personnel. For example, an adversary may decide nuclear energy requirements should be assigned to a specific organization based on their mission. (Citation: AnalystsAndPolicymaking) (Citation: JP2-01)"
         },
         {
             "type": "attack-pattern",
@@ -4683,7 +4828,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Delivery systems are the infrastructure used by the adversary to host malware or other tools used during exploitation. Building and configuring delivery systems may include multiple activities such as registering domain names, renting hosting space, or configuring previously exploited environments. (Citation: APT1)"
         },
         {
             "type": "attack-pattern",
@@ -4712,7 +4858,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "The adversary can use account credentials or signing keys of an existing mobile app developer to publish malicious updates of existing mobile apps to an application store, or to abuse the developer's identity and reputation to publish new malicious apps.  Many mobile devices are configured to automatically install new versions of already-installed apps. (Citation: Fraudenlent Apps Stolen Dev Credentials)"
         },
         {
             "type": "attack-pattern",
@@ -4741,7 +4888,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "There is usually a delay between when a vulnerability or exploit is discovered and when it is made public. An adversary may target the systems of those known to research vulnerabilities in order to gain that knowledge for use during a different attack. (Citation: TempertonDarkHotel)"
         },
         {
             "type": "attack-pattern",
@@ -4774,7 +4922,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Social Engineering is the practice of manipulating people in order to get them to divulge information or take an action. (Citation: SEAttackVectors) (Citation: BeachSE2003)"
         },
         {
             "type": "attack-pattern",
@@ -4803,7 +4952,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Backup infrastructure allows an adversary to recover from environmental and system failures. It also facilitates recovery or movement to other infrastructure if the primary infrastructure is discovered or otherwise is no longer viable. (Citation: LUCKYCAT2012)"
         },
         {
             "type": "attack-pattern",
@@ -4836,7 +4986,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Credential pharming a  form of attack designed to steal users' credential by redirecting users to fraudulent websites. Pharming can be conducted either by changing the hosts file on a victim's computer or by exploitation of a vulnerability in DNS server software. (Citation: DriveByPharming) (Citation: GoogleDrive Phishing)"
         },
         {
             "type": "attack-pattern",
@@ -4869,7 +5020,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Leadership or key decision makers may derive specific intelligence requirements from Key Intelligence Topics (KITs) or Key Intelligence Questions (KIQs).  Specific intelligence requirements assist analysts in gathering information to establish a baseline of information about a topic or question and collection managers to clarify the types of information that should be collected to satisfy the requirement. (Citation: LowenthalCh4) (Citation: Heffter)"
         },
         {
             "type": "attack-pattern",
@@ -4898,7 +5050,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Domain Names are the human readable names used to represent one or more IP addresses. IP addresses are the unique identifier of computing devices on a network. Both pieces of information are valuable to an adversary who is looking to understand the structure of a network. (Citation: RSA-APTRecon)"
         },
         {
             "type": "attack-pattern",
@@ -4927,7 +5080,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Physical locality information may be used by an adversary to shape social engineering attempts (language, culture, events, weather, etc.) or to plan for physical actions such as dumpster diving or attempting to access a facility. (Citation: RSA-APTRecon)"
         },
         {
             "type": "attack-pattern",
@@ -4956,7 +5110,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "An exploit takes advantage of a bug or vulnerability in order to cause unintended or unanticipated behavior to occur on computer hardware or software. The adversary may need to discover new exploits when existing exploits are no longer relevant to the environment they are trying to compromise. An adversary may monitor exploit provider forums to understand the state of existing, as well as newly discovered, exploits. (Citation: EquationQA)"
         },
         {
             "type": "attack-pattern",
@@ -4985,7 +5140,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Domain Registration Hijacking is the act of changing the registration of a domain name without the permission of the original registrant. (Citation: ICANNDomainNameHijacking)"
         },
         {
             "type": "attack-pattern",
@@ -5022,7 +5178,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Software applications will be built using different technologies, languages, and dependencies. This information may reveal vulnerabilities or opportunities to an adversary. (Citation: CommonApplicationAttacks) (Citation: WebApplicationSecurity) (Citation: SANSTop25)"
         },
         {
             "type": "attack-pattern",
@@ -5051,7 +5208,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Analysts may receive Key Intelligence Topics (KITs) and Key Intelligence Questions (KIQs) from leadership or key decision makers and generate intelligence requirements to articulate intricacies of information required on a topic or question. (Citation: Herring1999)"
         },
         {
             "type": "attack-pattern",
@@ -5084,7 +5242,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Understanding an organizations business processes and tempo may allow an adversary to more effectively craft social engineering attempts or to better hide technical actions, such as those that generate network traffic. (Citation: Scasny2015) (Citation: Infosec-osint)"
         },
         {
             "type": "attack-pattern",
@@ -5113,7 +5272,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Job postings, on either company sites, or in other forums, provide information on organizational structure and often provide contact information for someone within the organization. This may give an adversary  information on technologies within the organization which could be valuable in attack or provide insight in to possible security weaknesses or limitations in detection or protection mechanisms. (Citation: JobPostingThreat)"
         },
         {
             "type": "attack-pattern",
@@ -5142,7 +5302,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "As with legitimate development efforts, different skill sets may be required for different phases of an attack. The skills needed may be located in house, can be developed, or may need to be contracted out. (Citation: APT1)"
         },
         {
             "type": "attack-pattern",
@@ -5179,7 +5340,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Supply chains include the people, processes, and technologies used to move a product or service from a supplier to a consumer. Understanding supply chains may provide an adversary with opportunities to exploit the technology or interconnections that are part of the supply chain. (Citation: SmithSupplyChain) (Citation: CERT-UKSupplyChain) (Citation: RSA-supply-chain)"
         },
         {
             "type": "attack-pattern",
@@ -5208,7 +5370,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "The utilization of resources not owned by the adversary to launch exploits or operations. This includes utilizing equipment that was previously compromised or leveraging access  gained by other methods (such as compromising an employee at a business partner location). (Citation: CitizenLabGreatCannon)"
         },
         {
             "type": "attack-pattern",
@@ -5237,7 +5400,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Technical network hiding techniques are methods of modifying traffic to evade network signature detection or to utilize misattribution techniques. Examples include channel/IP/VLAN hopping, mimicking legitimate operations, or seeding with misinformation. (Citation: HAMMERTOSS2015)"
         },
         {
             "type": "attack-pattern",
@@ -5266,7 +5430,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Obfuscation is hiding the day-to-day building and testing of new tools, chat servers, etc. (Citation: DellComfooMasters)"
         },
         {
             "type": "attack-pattern",
@@ -5303,7 +5468,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "For a computing resource to be accessible to the public, domain names and IP addresses must be registered with an authorized organization. (Citation: Google Domains WHOIS) (Citation: FunAndSun2012) (Citation: Scasny2015)"
         },
         {
             "type": "attack-pattern",
@@ -5332,7 +5498,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Every domain registrar maintains a publicly viewable database that displays contact information for every registered domain. Private 'whois' services display alternative information, such as their own company data, rather than the owner of the domain. (Citation: APT1)"
         },
         {
             "type": "attack-pattern",
@@ -5361,7 +5528,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Analysts may receive intelligence requirements from leadership and begin research process to satisfy a requirement.  Part of this process may include delineating between needs and wants and thinking through all the possible aspects associating with satisfying a requirement. (Citation: FBIIntelligencePrimer)"
         },
         {
             "type": "attack-pattern",
@@ -5394,7 +5562,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Execution of code and network communications often result in logging or other system or network forensic artifacts. An adversary can run their code to identify what is recorded under different conditions. This may result in changes to their code or adding additional actions (such as deleting a record from a log) to the code. (Citation: EDB-39007) (Citation: infosec-covering-tracks)"
         },
         {
             "type": "attack-pattern",
@@ -5427,7 +5596,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "The process of gathering domain account credentials in order to silently create subdomains pointed at malicious servers without tipping off the actual owner. (Citation: CiscoAngler) (Citation: ProofpointDomainShadowing)"
         },
         {
             "type": "attack-pattern",
@@ -5460,7 +5630,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Once they have been created, intelligence requirements, Key Intelligence Topics (KITs), and Key Intelligence Questions (KIQs) are submitted into a central management system. (Citation: ICD204) (Citation: KIT-Herring)"
         },
         {
             "type": "attack-pattern",
@@ -5489,7 +5660,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Callbacks are malware communications seeking instructions. An adversary will test their malware to ensure the appropriate instructions are conveyed and the callback software can be reached. (Citation: LeeBeaconing)"
         },
         {
             "type": "attack-pattern",
@@ -5518,7 +5690,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "An adversary can test their planned method of attack against existing security products such as email filters or intrusion detection sensors (IDS). (Citation: WiredVirusTotal)"
         },
         {
             "type": "attack-pattern",
@@ -5547,7 +5720,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "A technique used by the adversary similar to Dynamic DNS with the exception that the use of multiple DNS infrastructures likely have whois records. (Citation: KrebsStLouisFed)"
         },
         {
             "type": "relationship",
@@ -6977,7 +7151,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "{{LinkById|G0006}} is a Chinese threat group that has been attributed to the 2nd Bureau of the People\u2019s Liberation Army (PLA) General Staff Department\u2019s (GSD) 3rd Department, commonly known by its Military Unit Cover Designator (MUCD) as Unit 61398. (Citation: Mandiant APT1)"
         },
         {
             "type": "intrusion-set",
@@ -7072,7 +7247,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "{{LinkById|G0007}} is a threat group that has been attributed to the Russian government. (Citation: FireEye APT28) (Citation: SecureWorks TG-4127) (Citation: FireEye APT28) January 2017 (Citation: GRIZZLY STEPPE JAR) This group reportedly compromised the Democratic National Committee in April 2016. (Citation: Crowdstrike DNC June 2016)"
         },
         {
             "type": "intrusion-set",
@@ -7113,7 +7289,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "{{LinkById|G0014}} is a campaign name for activity involving threat group that has conducted activity originating primarily in China. (Citation: McAfee Night Dragon) The activity from this group is also known as Musical Chairs. (Citation: Arbor Musical Chairs Feb 2018)"
         },
         {
             "type": "intrusion-set",
@@ -7169,7 +7346,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "{{LinkById|G0005}} is a threat group that has been attributed to China. (Citation: Meyers Numbered Panda)"
         },
         {
             "type": "intrusion-set",
@@ -7200,7 +7378,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "{{LinkById|G0023}} is a China-based threat group that has launched spearphishing campaigns targeting Japanese and Taiwanese organizations. (Citation: FireEye EPS Awakens Part 2)"
         },
         {
             "type": "intrusion-set",
@@ -7236,7 +7415,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "{{LinkById|G0025}} is a China-based threat group that has conducted network intrusions against U.S. government entities, the defense industry, law firms, information technology companies, mining companies, and non-government organizations. (Citation: FireEye APT17)"
         },
         {
             "type": "intrusion-set",
@@ -7282,7 +7462,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "{{LinkById|G0003}} is a threat group that has been attributed to Iranian actors and is responsible for activity tracked as Operation Cleaver. (Citation: Cylance Cleaver) Strong circumstantial evidence suggests Cleaver is linked to Threat Group 2889 (TG-2889). (Citation: Dell Threat Group 2889)"
         }
     ]
 }

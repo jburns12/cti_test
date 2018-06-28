@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--538f383a-6d39-41cd-a424-34cb4ee53366",
+    "id": "bundle--bf6d0e86-fcc6-41d2-b429-126aa908c650",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Hydraq connects to a predefined domain on port 443 to exfil gathered information. (Citation: Symantec Hydraq Jan 2010)",
+            "description": "Hydraq connects to a predefined domain on port 443 to exfil gathered information.",
             "external_references": [
                 {
                     "url": "https://www.symantec.com/security%20response/writeup.jsp?docid=2010-011114-1830-99",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0203}} connects to a predefined domain on port 443 to exfil gathered information.",
             "source_ref": "malware--73a4793a-ce55-4159-b2a6-208ef29b326f",
             "target_ref": "attack-pattern--a19e86f8-1c0a-4fea-8407-23b73d615776"
         }

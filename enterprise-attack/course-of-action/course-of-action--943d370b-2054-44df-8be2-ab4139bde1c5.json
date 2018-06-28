@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8d98e291-04cc-4d02-985c-af0c4a765980",
+    "id": "bundle--ff1fe9e9-5ede-4a19-bb0a-6c8de418db97",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,7 +27,8 @@
                     "description": "Microsoft. (2013, July 31). Configuring Additional LSA Protection. Retrieved June 24, 2015.",
                     "source_name": "Microsoft Configure LSA"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Windows 8.1, Windows Server 2012 R2, and later versions, may make LSA run as a Protected Process Light (PPL) by setting the Registry key <code>HKLM\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\RunAsPPL</code>, which requires all DLLs loaded by LSA to be signed by Microsoft. (Citation: Graeber 2014) (Citation: Microsoft Configure LSA)"
         }
     ]
 }

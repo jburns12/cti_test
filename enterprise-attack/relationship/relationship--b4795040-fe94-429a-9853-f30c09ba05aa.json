@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--637724aa-f39c-41ca-89ee-09b92a7b572c",
+    "id": "bundle--40beb893-2a31-4e06-b67b-bb41c746488d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "HALFBAKED can obtain screenshots from the victim. (Citation: FireEye FIN7 April 2017)",
+            "description": "HALFBAKED can obtain screenshots from the victim.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0151}} can obtain screenshots from the victim.",
             "source_ref": "malware--0ced8926-914e-4c78-bc93-356fb90dbd1f",
             "target_ref": "attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688"
         }

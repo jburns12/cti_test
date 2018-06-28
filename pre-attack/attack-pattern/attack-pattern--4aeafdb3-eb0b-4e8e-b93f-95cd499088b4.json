@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f1d7cb07-a4e1-47ad-ba3d-b452308cbc01",
+    "id": "bundle--ab1023d2-e4d4-47c5-9518-f0325cdf532f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Externally facing systems allow connections from outside the network as a normal course of operations.  Externally facing systems may include, but are not limited to, websites, web portals, email, DNS, FTP, VPN concentrators, and boarder routers and firewalls. These systems could be in a demilitarized zone (DMZ) or may be within other parts of the internal environment. (Citation: CylanceOpCleaver) (Citation: DailyTechAntiSec)"
         }
     ]
 }

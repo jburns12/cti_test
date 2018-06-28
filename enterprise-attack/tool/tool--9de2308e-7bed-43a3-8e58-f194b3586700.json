@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--25dcfcc9-a5e2-4028-8474-6eff5b7c6cbb",
+    "id": "bundle--48c54afc-da47-43e3-a831-98b0de55cd25",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,6 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0006}} is a credential dumper. (Citation: Wikipedia pwdump)",
             "x_mitre_platforms": [
                 "Windows"
             ],

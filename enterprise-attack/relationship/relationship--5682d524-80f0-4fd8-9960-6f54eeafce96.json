@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6854e33c-9811-4987-836c-612800582d14",
+    "id": "bundle--ec02ad49-1fd6-44db-b678-48c1df4eb9cc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.045Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Turla may attempt to connect to systems within a victim's network using <code>net use</code> commands and a predefined list or collection of passwords. (Citation: Kaspersky Turla)",
+            "description": "Turla may attempt to connect to systems within a victim's network using <code>net use</code> commands and a predefined list or collection of passwords.",
             "external_references": [
                 {
                     "url": "https://securelist.com/the-epic-turla-operation/65545/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0010}} may attempt to connect to systems within a victim's network using <code>net use</code> commands and a predefined list or collection of passwords.",
             "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
             "target_ref": "attack-pattern--a93494bb-4b80-4ea1-8695-3236a49916fd"
         }

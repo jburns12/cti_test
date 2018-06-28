@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c61d4608-75d4-4e2a-aa56-4d28553ae3ee",
+    "id": "bundle--f2459cb5-b05d-47cf-af54-8ff2b1c1c93b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "PowerDuke has a command to write random data across a file and delete it. (Citation: Volexity PowerDuke November 2016)",
+            "description": "PowerDuke has a command to write random data across a file and delete it.",
             "external_references": [
                 {
                     "url": "https://www.volexity.com/blog/2016/11/09/powerduke-post-election-spear-phishing-campaigns-targeting-think-tanks-and-ngos/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0139}} has a command to write random data across a file and delete it.",
             "source_ref": "malware--00c3bfcb-99bd-4767-8c03-b08f585f5c8a",
             "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59"
         }

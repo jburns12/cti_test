@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--05d4895b-c507-4331-8208-cb7397119401",
+    "id": "bundle--89bd932f-10b1-44bf-88e9-848b4858ec3e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,7 +27,8 @@
                     "description": "Graeber, M. (2017, December 22). Code Signing Certificate Cloning Attacks and Defenses. Retrieved April 3, 2018.",
                     "source_name": "SpectorOps Code Signing Dec 2017"
                 }
-            ]
+            ],
+            "x_mitre_detection": "HTTP Public Key Pinning (HPKP) is one method to mitigate potential man-in-the-middle situations where and adversary uses a mis-issued or fraudulent certificate to intercept encrypted communications by enforcing use of an expected certificate. (Citation: Wikipedia HPKP)\n\nWindows Group Policy can be used to manage root certificates and the <code>Flags</code> value of <code>HKLM\\SOFTWARE\\Policies\\Microsoft\\SystemCertificates\\Root\\ProtectedRoots</code> can be set to 1 to prevent non-administrator users from making further root installations into their own HKCU certificate store. (Citation: SpectorOps Code Signing Dec 2017)"
         }
     ]
 }

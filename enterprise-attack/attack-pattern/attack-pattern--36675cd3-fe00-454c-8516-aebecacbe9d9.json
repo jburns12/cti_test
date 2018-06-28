@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d60af7c3-5965-4338-938b-02885aa7ded3",
+    "id": "bundle--1cf6885a-1b8f-4375-a872-bdc66dc55342",
     "spec_version": "2.0",
     "objects": [
         {
@@ -47,7 +47,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "All the login items are viewable by going to the Apple menu -> System Preferences -> Users & Groups -> Login items. This area should be monitored and whitelisted for known good applications. Monitor process execution resulting from login actions for unusual or unknown applications.",
+            "x_mitre_detection": "MacOS provides the option to list specific applications to run when a user logs in. These applications run under the logged in user's context, and will be started every time the user logs in. Login items installed using the Service Management Framework are not visible in the System Preferences and can only be removed by the application that created them (Citation: Adding Login Items). Users have direct control over login items installed using a shared file list which are also visible in System Preferences (Citation: Adding Login Items). These login items are stored in the user's <code>~/Library/Preferences/</code> directory in a plist file called <code>com.apple.loginitems.plist</code> (Citation: Methods of Mac Malware Persistence). Some of these applications can open visible dialogs to the user, but they don\u2019t all have to since there is an option to \u2018Hide\u2019 the window. If an adversary can register their own login item or modified an existing one, then they can use it to execute their code for a persistence mechanism each time the user logs in (Citation: Malware Persistence on OS X) (Citation: OSX.Dok Malware).",
             "x_mitre_platforms": [
                 "macOS"
             ],

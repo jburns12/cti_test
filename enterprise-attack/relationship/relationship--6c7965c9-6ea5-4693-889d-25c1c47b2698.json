@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6f242dac-3982-4aad-8b77-f866f1bef4d4",
+    "id": "bundle--3be767ba-37f0-4588-abe5-8486ffecba8b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Pupy can user PowerView to perform \u201cnet user\u201d commands and create local system and domain accounts. (Citation: GitHub Pupy)",
+            "description": "Pupy can user PowerView to perform \u201cnet user\u201d commands and create local system and domain accounts.",
             "external_references": [
                 {
                     "url": "https://github.com/n1nj4sec/pupy",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0192}} can user PowerView to perform \u201cnet user\u201d commands and create local system and domain accounts.",
             "source_ref": "tool--cb69b20d-56d0-41ab-8440-4a4b251614d4",
             "target_ref": "attack-pattern--e01be9c5-e763-4caf-aeb7-000b416aef67"
         }

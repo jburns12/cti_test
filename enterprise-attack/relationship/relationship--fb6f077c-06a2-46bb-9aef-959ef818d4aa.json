@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0481557c-9134-4d29-b3f0-56787fcaec4e",
+    "id": "bundle--22682d33-c170-4951-b7c5-21791067c0aa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.051Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Following exploitation with LOWBALL malware, admin@338 actors created a file containing a list of commands to be executed on the compromised computer. (Citation: FireEye admin@338)",
+            "description": "Following exploitation with LOWBALL malware, admin@338 actors created a file containing a list of commands to be executed on the compromised computer.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2015/11/china-based-threat.html",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "Following exploitation with {{LinkById|S0042}} malware, {{LinkById|G0018}} actors created a file containing a list of commands to be executed on the compromised computer.",
             "source_ref": "intrusion-set--16ade1aa-0ea1-4bb7-88cc-9079df2ae756",
             "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830"
         }

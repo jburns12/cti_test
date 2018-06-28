@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--283ba951-b111-4b9d-9397-6504fde82a1c",
+    "id": "bundle--3e7a757f-0588-4286-bc02-d2cec6bec2ec",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.039Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "APT28 has used COM hijacking for persistence by replacing the legitimate <code>MMDeviceEnumerator</code> object with a payload. (Citation: ESET Sednit Part 1)",
+            "description": "APT28 has used COM hijacking for persistence by replacing the legitimate <code>MMDeviceEnumerator</code> object with a payload.",
             "external_references": [
                 {
                     "url": "http://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part1.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0007}} has used COM hijacking for persistence by replacing the legitimate <code>MMDeviceEnumerator</code> object with a payload.",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "attack-pattern--9b52fca7-1a36-4da0-b62d-da5bd83b4d69"
         }

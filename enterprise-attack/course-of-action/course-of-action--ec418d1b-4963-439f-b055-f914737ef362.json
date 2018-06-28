@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e3b7eb27-80f2-4b57-8a74-5af67da9490c",
+    "id": "bundle--88406103-781c-43bd-ae1a-aa4377f11901",
     "spec_version": "2.0",
     "objects": [
         {
@@ -17,7 +17,8 @@
                     "url": "https://attack.mitre.org/wiki/Technique/T1118",
                     "source_name": "mitre-attack"
                 }
-            ]
+            ],
+            "x_mitre_detection": "InstallUtil may not be necessary within a given environment. Use application whitelisting configured to block execution of InstallUtil.exe if it is not required for a given system or network to prevent potential misuse by adversaries."
         }
     ]
 }

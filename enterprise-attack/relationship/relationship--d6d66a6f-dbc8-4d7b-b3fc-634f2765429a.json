@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fa11d045-0c8d-4aa8-8378-4249a72f57e7",
+    "id": "bundle--30d83619-57c5-47bc-8bd8-0d5b8e2d919c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Sowbug named its tools to masquerade as Windows or Adobe Reader software, such as by using the file name adobecms.exe and the directory <code>CSIDL_APPDATA\\microsoft\\security</code>. (Citation: Symantec Sowbug Nov 2017)",
+            "description": "Sowbug named its tools to masquerade as Windows or Adobe Reader software, such as by using the file name adobecms.exe and the directory <code>CSIDL_APPDATA\\microsoft\\security</code>.",
             "external_references": [
                 {
                     "url": "https://www.symantec.com/connect/blogs/sowbug-cyber-espionage-group-targets-south-american-and-southeast-asian-governments",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0054}} named its tools to masquerade as Windows or Adobe Reader software, such as by using the file name adobecms.exe and the directory <code>CSIDL_APPDATA\\microsoft\\security</code>.",
             "source_ref": "intrusion-set--d1acfbb3-647b-4723-9154-800ec119006e",
             "target_ref": "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0"
         }

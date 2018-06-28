@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c471039e-9e9a-41e9-a0c8-894f36bd1525",
+    "id": "bundle--ac25c89e-8c6e-453f-9233-69473dadf4e3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "SslMM creates a new thread implementing a keylogging facility using Windows Keyboard Accelerators. (Citation: Baumgartner Naikon 2015)",
+            "description": "SslMM creates a new thread implementing a keylogging facility using Windows Keyboard Accelerators.",
             "external_references": [
                 {
                     "url": "https://securelist.com/files/2015/05/TheNaikonAPT-MsnMM1.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0058}} creates a new thread implementing a keylogging facility using Windows Keyboard Accelerators.",
             "source_ref": "malware--2fb26586-2b53-4b9a-ad4f-2b3bcb9a2421",
             "target_ref": "attack-pattern--bb5a00de-e086-4859-a231-fa793f6797e2"
         }

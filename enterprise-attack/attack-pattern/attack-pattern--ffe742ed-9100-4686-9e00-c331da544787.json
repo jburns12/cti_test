@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--31d328f9-fce2-47a4-9630-604ca0870e19",
+    "id": "bundle--1eafef6f-7c6b-4ff5-b371-bd6c6c056b5a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -57,7 +57,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Ensure that proper logging of accounts used to log into systems is turned on and centrally collected. Windows logging is able to collect success/failure for accounts that may be used to move laterally and can be collected using tools such as Windows Event Forwarding. [[Citation: Lateral Movement Payne]] [[Citation: Windows Event Forwarding Payne]] Monitor remote login events and associated SMB activity for file transfers and remote process execution. Monitor the actions of remote users who connect to administrative shares. Monitor for use of tools and commands to connect to remote shares, such as {{LinkById|S0039}}, on the command-line interface and [[Discovery]] techniques that could be used to find remotely accessible systems.",
+            "x_mitre_detection": "Windows systems have hidden network shares that are accessible only to administrators and provide the ability for remote file copy and other administrative functions. Example network shares include <code>C$</code>, <code>ADMIN$</code>, and <code>IPC$</code>. \n\nAdversaries may use this technique in conjunction with administrator-level {{LinkById|T1078}} to remotely access a networked system over server message block (SMB) (Citation: Wikipedia SMB) to interact with systems using remote procedure calls (RPCs), (Citation: TechNet RPC) transfer files, and run transferred binaries through remote Execution. Example execution techniques that rely on authenticated sessions over SMB/RPC are {{LinkById|T1053}}, {{LinkById|T1035}}, and {{LinkById|T1047}}. Adversaries can also use NTLM hashes to access administrator shares on systems with {{LinkById|T1075}} and certain configuration and patch levels. (Citation: Microsoft Admin Shares)\n\nThe {{LinkById|S0039}} utility can be used to connect to Windows admin shares on remote systems using <code>net use</code> commands with valid credentials. (Citation: Technet Net Use)",
             "x_mitre_platforms": [
                 "Windows"
             ],

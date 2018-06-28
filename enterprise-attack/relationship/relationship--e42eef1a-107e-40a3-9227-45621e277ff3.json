@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--24e17d8d-5b96-417e-aa19-ccc1d8988c45",
+    "id": "bundle--63162e53-a8e2-4fc6-a63d-080662f269fd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.066Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Several Lazarus Group malware families install themselves as new services on victims. (Citation: Novetta Blockbuster Destructive Malware)",
+            "description": "Several Lazarus Group malware families install themselves as new services on victims.",
             "external_references": [
                 {
                     "url": "https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Report.pdf",
@@ -25,6 +25,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "Several {{LinkById|G0032}} malware families install themselves as new services on victims.",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--478aa214-2ca7-4ec0-9978-18798e514790"
         }

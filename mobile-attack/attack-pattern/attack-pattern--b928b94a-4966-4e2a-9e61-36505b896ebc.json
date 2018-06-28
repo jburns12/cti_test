@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7647dc66-70a2-450a-8b9d-7fb08ba1291b",
+    "id": "bundle--dcb1ed35-310c-4abe-b388-0617ff04b836",
     "spec_version": "2.0",
     "objects": [
         {
@@ -32,7 +32,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Enterprises could deploy integrity checking software to the computers that they use to develop code to detect presence of unauthorized, modified software development tools.",
+            "x_mitre_detection": "As demonstrated by the XcodeGhost attack (Citation: PaloAlto-XcodeGhost1), app developers could be provided with modified versions of software development tools (e.g. compilers) that automatically inject malicious or exploitable code into applications.",
             "x_mitre_platforms": [
                 "Android",
                 "iOS"

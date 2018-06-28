@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7399e770-f393-492c-a732-72164a7b4a5e",
+    "id": "bundle--d9c5f944-25c2-4851-b9fe-0732944293d3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Adversaries can direct BACKSPACE to execute from the command-line on infected hosts, or have BACKSPACE create a reverse shell. (Citation: FireEye APT30)",
+            "description": "Adversaries can direct BACKSPACE to execute from the command-line on infected hosts, or have BACKSPACE create a reverse shell.",
             "external_references": [
                 {
                     "url": "https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "Adversaries can direct {{LinkById|S0031}} to execute from the command-line on infected hosts, or have {{LinkById|S0031}} create a reverse shell.",
             "source_ref": "malware--fb261c56-b80e-43a9-8351-c84081e7213d",
             "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830"
         }

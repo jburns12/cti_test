@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1a96b4f8-446b-4921-ab84-aa03aa7d9629",
+    "id": "bundle--51ea0c47-d137-4298-b959-1181dcdede37",
     "spec_version": "2.0",
     "objects": [
         {
@@ -25,7 +25,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "In order to mitigate Signaling System 7 (SS7) exploitation, the Communications, Security, Reliability, and Interoperability Council (CSRIC) describes filtering interconnections between network operators to block inappropriate requests (Citation: CSRIC5-WG10-FinalReport)."
         }
     ]
 }

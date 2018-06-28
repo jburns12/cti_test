@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b418076a-fe0b-4a77-bb30-343b36b77af2",
+    "id": "bundle--58e046ed-c983-4b7e-85c0-c9cd2e9a0dd1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.034Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Ke3chang performs account discovery using commands such as <code>net localgroup administrators</code> and <code>net group \"REDACTED\" /domain</code> on specific permissions groups. (Citation: Villeneuve et al 2014)",
+            "description": "Ke3chang performs account discovery using commands such as <code>net localgroup administrators</code> and <code>net group \"REDACTED\" /domain</code> on specific permissions groups.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-ke3chang.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0004}} performs account discovery using commands such as <code>net localgroup administrators</code> and <code>net group \"REDACTED\" /domain</code> on specific permissions groups.",
             "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
             "target_ref": "attack-pattern--72b74d71-8169-42aa-92e0-e7b04b9f5a08"
         }

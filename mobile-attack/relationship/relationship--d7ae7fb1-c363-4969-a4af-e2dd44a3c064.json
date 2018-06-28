@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f166c8b7-9168-4e10-afe8-e5a4d158a405",
+    "id": "bundle--444228c5-2b90-48b4-b663-9a549659410d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-18T15:59:03.864Z",
-            "description": "Pegasus for Android attempts to modify the device's system partition (Citation: Lookout-PegasusAndroid).",
+            "description": "Pegasus for Android attempts to modify the device's system partition.",
             "external_references": [
                 {
                     "url": "https://blog.lookout.com/blog/2017/04/03/pegasus-android/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|MOB-S0032}} attempts to modify the device's system partition.",
             "source_ref": "malware--93799a9d-3537-43d8-b6f4-17215de1657c",
             "target_ref": "attack-pattern--c5089859-b21f-40a3-8be4-63e381b8b1c0"
         }

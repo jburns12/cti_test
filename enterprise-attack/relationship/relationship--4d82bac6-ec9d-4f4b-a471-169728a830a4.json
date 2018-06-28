@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--48040e09-7956-4042-a100-2da1cab8912f",
+    "id": "bundle--1b11c1e8-d8a6-4cbf-a123-5a97b69214c7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "APT3 has a tool that can enumerate current network connections. (Citation: Symantec Buckeye) (Citation: FireEye Clandestine Fox) (Citation: evolution of pirpi)",
+            "description": "APT3 has a tool that can enumerate current network connections.",
             "external_references": [
                 {
                     "url": "http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
@@ -30,6 +30,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0022}} has a tool that can enumerate current network connections.",
             "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
             "target_ref": "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dc4eea36-9189-4c64-84b3-b8fa635d0db7",
+    "id": "bundle--b5f01268-aae7-4e7e-bc83-549ab8cdfa50",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,6 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "Certutil is a command-line utility that can be used to obtain certificate authority information and configure Certificate Services. (Citation: TechNet Certutil)",
             "x_mitre_platforms": [
                 "Windows"
             ],

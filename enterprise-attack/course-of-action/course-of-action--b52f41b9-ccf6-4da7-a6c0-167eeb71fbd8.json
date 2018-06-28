@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5a188558-354b-4500-8dda-95e8abb120d3",
+    "id": "bundle--8ef3f0c2-0e41-4e09-977c-5a25595fda71",
     "spec_version": "2.0",
     "objects": [
         {
@@ -22,7 +22,8 @@
                     "description": "Mohta, A. (n.d.). Block Chrome Extensions using Google Chrome Group Policy Settings. Retrieved January 10, 2018.",
                     "source_name": "Technospot Chrome Extensions GP"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Only install browser extensions from trusted sources that can be verified. Ensure extensions that are installed are the intended ones as many malicious extensions will masquerade as legitimate ones.\n\nBrowser extensions for some browsers can be controlled through Group Policy. Set a browser extension white or black list as appropriate for your security policy. (Citation: Technospot Chrome Extensions GP)\n\nChange settings to prevent the browser from installing extensions without sufficient permissions.\n\nClose out all browser sessions when finished using them."
         }
     ]
 }

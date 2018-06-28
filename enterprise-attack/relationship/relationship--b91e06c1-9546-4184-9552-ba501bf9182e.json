@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--72d61d38-f45c-4ed0-bb17-35e5ff37cb67",
+    "id": "bundle--bfcb4af8-5fbc-4bda-b6bd-210d3493c9e7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -13,6 +13,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0100}} can be used to display adapter configuration on Windows systems, including information for TCP/IP, DNS, and DHCP.",
             "source_ref": "tool--294e2560-bd48-44b2-9da2-833b5588ad11",
             "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0"
         }

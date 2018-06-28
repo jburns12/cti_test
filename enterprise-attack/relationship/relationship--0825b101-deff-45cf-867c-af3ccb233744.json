@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dd74003d-fc7d-4061-82b2-f786e9f57f18",
+    "id": "bundle--34359ee2-1c3d-4afe-9dfc-7dc98d424413",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Hydraq creates a backdoor through which remote attackers can retrieve system information, such as CPU speed, from Registry keys. (Citation: Symantec Hydraq Jan 2010) (Citation: Symantec Trojan.Hydraq Jan 2010)",
+            "description": "Hydraq creates a backdoor through which remote attackers can retrieve system information, such as CPU speed, from Registry keys.",
             "external_references": [
                 {
                     "url": "https://www.symantec.com/connect/blogs/trojanhydraq-incident",
@@ -25,6 +25,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0203}} creates a backdoor through which remote attackers can retrieve system information, such as CPU speed, from Registry keys.",
             "source_ref": "malware--73a4793a-ce55-4159-b2a6-208ef29b326f",
             "target_ref": "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896"
         }

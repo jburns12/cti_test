@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0ae42ec5-e25a-40c6-80aa-16473ec3fe89",
+    "id": "bundle--c6cc41cc-aed2-41a7-bfd6-f31a205e8c85",
     "spec_version": "2.0",
     "objects": [
         {
@@ -42,7 +42,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "The adversary can obtain an Apple iOS enterprise distribution key pair and certificate and use it to distribute malicious apps directly to Apple iOS devices without the need to publish the apps to the Apple App Store (where the apps could potentially be detected). (Citation: Apple Developer Enterprise Porgram Apps) (Citation: Fruit vs Zombies) (Citation: WIRELURKER) (Citation: Sideloading Change)"
         }
     ]
 }

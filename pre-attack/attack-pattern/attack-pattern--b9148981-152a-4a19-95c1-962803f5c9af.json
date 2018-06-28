@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--94626be8-2a6f-462e-be6d-18d0695523c4",
+    "id": "bundle--bc778777-a4e2-439b-b9a5-83c07cc1af1c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -42,7 +42,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "The secondary level tactical element the adversary seeks to attack is the specific network or area of a network that is vulnerable to attack.  Within the corporate network example, the secondary level tactical element might be a SQL server or a domain controller with a known vulnerability. (Citation: CyberAdversaryBehavior) (Citation: JP3-60) (Citation: JP3-12 (R)) (Citation: DoD Cyber 2015)"
         }
     ]
 }

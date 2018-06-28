@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a988dc8a-4bea-404e-8f80-bedc76356a14",
+    "id": "bundle--a9dd5753-af43-4a28-843a-f67352b2213c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.080Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Gamaredon Group tools contained an application to check performance of USB flash drives. (Citation: Palo Alto Gamaredon Feb 2017)",
+            "description": "Gamaredon Group tools contained an application to check performance of USB flash drives.",
             "external_references": [
                 {
                     "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0047}} tools contained an application to check performance of USB flash drives.",
             "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
             "target_ref": "attack-pattern--348f1eef-964b-4eb6-bb53-69b3dcb0c643"
         }

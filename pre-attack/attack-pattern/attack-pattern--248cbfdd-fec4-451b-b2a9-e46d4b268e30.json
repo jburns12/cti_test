@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6252f679-acf7-425c-975a-a587e905b233",
+    "id": "bundle--117b4d80-bc7e-4f11-bdae-97489097dbb9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -42,7 +42,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "A technique in which a fully qualified domain name has multiple IP addresses assigned to it which are swapped with extreme frequency, using a combination of round robin IP address and short Time-To-Live (TTL) for a DNS resource record. (Citation: HoneynetFastFlux) (Citation: MisnomerFastFlux) (Citation: MehtaFastFluxPt1) (Citation: MehtaFastFluxPt2)"
         }
     ]
 }

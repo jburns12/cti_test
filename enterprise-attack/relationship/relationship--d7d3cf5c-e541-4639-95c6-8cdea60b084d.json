@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b47715c9-aee4-450c-98f8-a0f58945277c",
+    "id": "bundle--7e459d3a-2c08-4ba2-b991-466a5ee1a9aa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "cmd can be used to delete files from the file system. (Citation: TechNet Del)",
+            "description": "cmd can be used to delete files from the file system.",
             "external_references": [
                 {
                     "url": "https://technet.microsoft.com/en-us/library/cc771049.aspx",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0106}} can be used to delete files from the file system.",
             "source_ref": "tool--bba595da-b73a-4354-aa6c-224d4de7cb4e",
             "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59"
         }

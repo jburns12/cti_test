@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0113f866-797c-4839-9b89-a017a4d711a8",
+    "id": "bundle--389fcdc6-adb0-4b62-9794-9d4df11263fd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Once a 3rd party vendor has been identified as being of interest it can be probed for vulnerabilities just like the main target would be. (Citation: Zetter2015Threats) (Citation: WSJTargetBreach)"
         }
     ]
 }

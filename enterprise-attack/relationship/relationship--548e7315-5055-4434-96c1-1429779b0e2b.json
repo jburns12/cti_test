@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5f55a9b5-2e7a-4459-ac15-51f5a543e94d",
+    "id": "bundle--bb128602-3856-4097-9308-250cbbc954ee",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Pisloader has a command to collect the victim's IP address. (Citation: Palo Alto DNS Requests)",
+            "description": "Pisloader has a command to collect the victim's IP address.",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2016/05/unit42-new-wekby-attacks-use-dns-requests-as-command-and-control-mechanism/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0124}} has a command to collect the victim's IP address.",
             "source_ref": "malware--b96680d1-5eb3-4f07-b95c-00ab904ac236",
             "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0"
         }

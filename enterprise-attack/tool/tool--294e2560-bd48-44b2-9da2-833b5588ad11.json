@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4d90b107-f7bb-48b8-b0c0-0f9af6740fe7",
+    "id": "bundle--45dbd983-2aca-4ad8-81ad-e18aa95417cd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,6 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0100}} is a Windows utility that can be used to find information about a system's TCP/IP, DNS, DHCP, and adapter configuration. (Citation: TechNet Ipconfig)",
             "x_mitre_platforms": [
                 "Windows"
             ],

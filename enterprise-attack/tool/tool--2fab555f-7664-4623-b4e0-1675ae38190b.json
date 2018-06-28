@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0446f78f-1284-4d16-83bb-f17178644f4e",
+    "id": "bundle--3ac19987-3f49-4c24-8c86-bddcbd0a43c9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,6 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0121}} is a publicly-available tool that can dump active logon session password hashes from the lsass process. (Citation: Mandiant APT1)",
             "x_mitre_platforms": [
                 "Windows"
             ],

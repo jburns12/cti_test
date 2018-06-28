@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--00c0cb59-89c3-4090-b507-8efec949f0ed",
+    "id": "bundle--b8b790d7-0a4f-42e0-a44d-5cb7f7bb76e8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.072Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "TRINITY malware used by FIN6 encodes data gathered from the victim with a simple substitution cipher and single-byte XOR using the OxAA key. (Citation: FireEye FIN6 April 2016)",
+            "description": "TRINITY malware used by FIN6 encodes data gathered from the victim with a simple substitution cipher and single-byte XOR using the OxAA key.",
             "external_references": [
                 {
                     "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "TRINITY malware used by {{LinkById|G0037}} encodes data gathered from the victim with a simple substitution cipher and single-byte XOR using the OxAA key.",
             "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
             "target_ref": "attack-pattern--d54416bd-0803-41ca-870a-ce1af7c05638"
         }

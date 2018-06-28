@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d97eb13c-f015-48b7-90a2-cdb75bdd34f4",
+    "id": "bundle--03be630e-a21d-46dc-a2c6-e565b745e8ed",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "MobileOrder uses AES to encrypt C2 communications. (Citation: Scarlet Mimic Jan 2016)",
+            "description": "MobileOrder uses AES to encrypt C2 communications.",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2016/01/scarlet-mimic-years-long-espionage-targets-minority-activists/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0079}} uses AES to encrypt C2 communications.",
             "source_ref": "malware--463f68f1-5cde-4dc2-a831-68b73488f8f4",
             "target_ref": "attack-pattern--4b74a1d4-b0e9-4ef1-93f1-14ecc6e2f5b5"
         }

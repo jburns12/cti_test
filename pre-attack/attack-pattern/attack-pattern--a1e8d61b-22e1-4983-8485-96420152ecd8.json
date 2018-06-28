@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--148c6c9b-b621-43b5-a6b1-3057911c5055",
+    "id": "bundle--460fa5cc-a41e-437a-a679-edaf927d6efc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -30,7 +30,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "An adversary can probe a victim's network to determine configurations. The configurations may provide opportunities to route traffic through the network in an undetected or less detectable way. (Citation: OSFingerprinting2014)"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5b1d5a2d-8c62-43f2-942f-898aac7c1355",
+    "id": "bundle--ca73cedd-0f5a-4267-8c6f-ebf4e7d0b005",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "ZLib communicates over HTTP for C2. (Citation: Cylance Dust Storm)",
+            "description": "ZLib communicates over HTTP for C2.",
             "external_references": [
                 {
                     "url": "https://www.cylance.com/content/dam/cylance/pdfs/reports/Op%20Dust%20Storm%20Report.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0086}} communicates over HTTP for C2.",
             "source_ref": "malware--166c0eca-02fd-424a-92c0-6b5106994d31",
             "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e8102577-92c4-4456-bae6-edd41defa27f",
+    "id": "bundle--2a67c836-8728-49a1-8680-39e98187212c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Attempt to use default vendor credentials, brute force credentials, or previously obtained legitimate credentials to authenticate remotely. This access could be to a web portal, through a VPN, or in a phone app. (Citation: Remote Access Healthcare) (Citation: RDP Point of Sale)"
         }
     ]
 }

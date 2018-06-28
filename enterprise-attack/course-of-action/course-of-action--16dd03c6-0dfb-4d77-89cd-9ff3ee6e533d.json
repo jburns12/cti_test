@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6f3132ff-f741-4b66-a811-ccca377a7a33",
+    "id": "bundle--9fbaea6f-06a6-4a30-8daa-62d8d30ab685",
     "spec_version": "2.0",
     "objects": [
         {
@@ -42,7 +42,8 @@
                     "description": "Tomonaga, S. (2016, January 26). Windows Commands Abused by Attackers. Retrieved February 2, 2016.",
                     "source_name": "Windows Commands JPCERT"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Mitigating this technique specifically may be difficult as it requires fine-grained API control. Efforts should be focused on preventing unwanted or unknown code from executing on a system.\n\nIdentify and block potentially malicious software that may be used to record audio by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)"
         }
     ]
 }

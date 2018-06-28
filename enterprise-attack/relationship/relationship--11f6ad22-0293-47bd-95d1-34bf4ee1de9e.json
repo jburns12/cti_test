@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7eea52c6-2625-43dd-a9b2-70ec32e2f658",
+    "id": "bundle--78cae1f9-9940-4ba6-9ad8-c1588fc35d66",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "FIN5 maintains access to victim environments by using Valid Accounts Mitigation to access External Remote Services Mitigation as well as establishing a backup RDP tunnel by using FLIPSIDE. (Citation: Mandiant FIN5 GrrCON Oct 2016)",
+            "description": "FIN5 maintains access to victim environments by using Valid Accounts Mitigation to access External Remote Services Mitigation as well as establishing a backup RDP tunnel by using FLIPSIDE.",
             "external_references": [
                 {
                     "url": "https://www.youtube.com/watch?v=fevGZs0EQu8",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0053}} maintains access to victim environments by using {{LinkById|T1078}} to access {{LinkById|T1133}} as well as establishing a backup RDP tunnel by using {{LinkById|S0173}}.",
             "source_ref": "intrusion-set--85403903-15e0-4f9f-9be4-a259ecad4022",
             "target_ref": "attack-pattern--6aabc5ec-eae6-422c-8311-38d45ee9838a"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bc197a99-8854-4211-b7b3-b445037bd16e",
+    "id": "bundle--16716949-748e-4993-8a8c-156006762ac6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "MobileOrder communicates with its C2 server over TCP port 3728. (Citation: Scarlet Mimic Jan 2016)",
+            "description": "MobileOrder communicates with its C2 server over TCP port 3728.",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2016/01/scarlet-mimic-years-long-espionage-targets-minority-activists/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0079}} communicates with its C2 server over TCP port 3728.",
             "source_ref": "malware--463f68f1-5cde-4dc2-a831-68b73488f8f4",
             "target_ref": "attack-pattern--c848fcf7-6b62-4bde-8216-b6c157d48da0"
         }

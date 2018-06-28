@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e58c176a-1360-4862-8a64-6759757a7dc5",
+    "id": "bundle--18f1c99e-c08f-4bcd-b215-eeaeaa2c984d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.053Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Naikon uses commands such as <code>netsh advfirewall firewall</code> to discover local firewall settings. (Citation: Baumgartner Naikon 2015)",
+            "description": "Naikon uses commands such as <code>netsh advfirewall firewall</code> to discover local firewall settings.",
             "external_references": [
                 {
                     "url": "https://securelist.com/files/2015/05/TheNaikonAPT-MsnMM1.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0019}} uses commands such as <code>netsh advfirewall firewall</code> to discover local firewall settings.",
             "source_ref": "intrusion-set--2a158b0a-7ef8-43cb-9985-bf34d1e12050",
             "target_ref": "attack-pattern--241814ae-de3f-4656-b49e-f9a80764d4b7"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--10c6baa5-9d29-4f72-89ec-30e1c31f623b",
+    "id": "bundle--9815a4a7-f7cc-40b2-a5a0-3063e99bfec2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "APT28 has delivered JHUHUGIT by executing PowerShell commands through DDE in Word documents. (Citation: McAfee APT28 DDE1 Nov 2017) (Citation: McAfee APT28 DDE2 Nov 2017)",
+            "description": "APT28 has delivered JHUHUGIT by executing PowerShell commands through DDE in Word documents.",
             "external_references": [
                 {
                     "url": "https://securingtomorrow.mcafee.com/mcafee-labs/apt28-threat-group-adopts-dde-technique-nyc-attack-theme-in-latest-campaign/",
@@ -25,6 +25,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0007}} has delivered {{LinkById|S0044}} by executing PowerShell commands through DDE in Word documents.",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "attack-pattern--edbe24e9-aec4-4994-ac75-6a6bc7f1ddd0"
         }

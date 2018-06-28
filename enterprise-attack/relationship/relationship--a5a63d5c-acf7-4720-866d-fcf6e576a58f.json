@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4f7171f4-3f5f-4a86-8d72-7af31b91b217",
+    "id": "bundle--49ec2e5f-7b7a-4952-8c38-3fbcbe26f4f7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.032Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Malware used by Ke3chang can run commands on the command-line interface. (Citation: Villeneuve et al 2014)",
+            "description": "Malware used by Ke3chang can run commands on the command-line interface.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-ke3chang.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "Malware used by {{LinkById|G0004}} can run commands on the command-line interface.",
             "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
             "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830"
         }

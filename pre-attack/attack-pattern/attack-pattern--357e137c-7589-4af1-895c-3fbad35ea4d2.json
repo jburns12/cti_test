@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--56eda97b-e338-4005-82ca-2de59c4c4273",
+    "id": "bundle--31de9ed6-6eaa-4ed0-9d89-b55312e8b2a2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -30,7 +30,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Obfuscation is the act of creating code that is more difficult to understand. Encoding transforms the code using a publicly available format. Encryption transforms the code such that it requires a key to reverse the encryption. (Citation: CylanceOpCleaver)"
         }
     ]
 }

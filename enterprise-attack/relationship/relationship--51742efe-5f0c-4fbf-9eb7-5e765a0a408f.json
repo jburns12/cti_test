@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3c0ae8a5-e59b-4bdd-9c51-b634ee9626b3",
+    "id": "bundle--2dd65636-d6b9-432f-9752-40d0e2c95733",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Remsec can ping or traceroute a remote host. (Citation: Kaspersky ProjectSauron Technical Analysis)",
+            "description": "Remsec can ping or traceroute a remote host.",
             "external_references": [
                 {
                     "url": "https://securelist.com/files/2016/07/The-ProjectSauron-APT%20Technical%20Analysis%20KL.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0125}} can ping or traceroute a remote host.",
             "source_ref": "malware--69d6f4a9-fcf0-4f51-bca7-597c51ad0bb8",
             "target_ref": "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735"
         }

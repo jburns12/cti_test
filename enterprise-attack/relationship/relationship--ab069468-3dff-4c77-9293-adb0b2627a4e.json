@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9e1dd3ea-3f29-410c-9de6-f0f35e0d3483",
+    "id": "bundle--e187aadc-2652-4990-81d5-813f1d126a10",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Deep Panda has used the sticky-keys technique to bypass the RDP login screen on remote systems during intrusions. (Citation: RSA Shell Crew)",
+            "description": "Deep Panda has used the sticky-keys technique to bypass the RDP login screen on remote systems during intrusions.",
             "external_references": [
                 {
                     "url": "https://www.emc.com/collateral/white-papers/h12756-wp-shell-crew.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0009}} has used the sticky-keys technique to bypass the RDP login screen on remote systems during intrusions.",
             "source_ref": "intrusion-set--a653431d-6a5e-4600-8ad3-609b5af57064",
             "target_ref": "attack-pattern--9b99b83a-1aac-4e29-b975-b374950551a3"
         }

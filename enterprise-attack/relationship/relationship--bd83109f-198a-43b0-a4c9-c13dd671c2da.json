@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--32554bd4-4861-4441-aef2-c6700c7262c2",
+    "id": "bundle--87e77303-85f0-49d4-ae3d-c6a7c27cc152",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "OilRig has used Putty to access compromised systems. (Citation: Unit 42 Playbook OilRig Dec 2017)",
+            "description": "OilRig has used Putty to access compromised systems.",
             "external_references": [
                 {
                     "url": "https://pan-unit42.github.io/playbook%20viewer/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0049}} has used Putty to access compromised systems.",
             "source_ref": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",
             "target_ref": "attack-pattern--54a649ff-439a-41a4-9856-8d144a2551ba"
         }

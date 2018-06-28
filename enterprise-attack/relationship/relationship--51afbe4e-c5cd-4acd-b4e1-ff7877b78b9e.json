@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a04aa891-f82b-4aaa-a0f7-84af5057d173",
+    "id": "bundle--ba88cb16-70f6-4708-9657-2e55632f8fc8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "FIN7 spear phishing campaigns have included malicious Word documents with DDE execution. (Citation: CyberScoop FIN7 Oct 2017)",
+            "description": "FIN7 spear phishing campaigns have included malicious Word documents with DDE execution.",
             "external_references": [
                 {
                     "url": "https://www.cyberscoop.com/fin7-dde-morphisec-fileless-malware/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0046}} spear phishing campaigns have included malicious Word documents with DDE execution.",
             "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
             "target_ref": "attack-pattern--edbe24e9-aec4-4994-ac75-6a6bc7f1ddd0"
         }

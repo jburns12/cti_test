@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d1e8ffd8-5d0e-448c-8c0c-b0b2a005d23a",
+    "id": "bundle--e06bdb89-9449-48b9-bede-204b3a8bf901",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "RedLeaves is capable of downloading a file from a specified URL. (Citation: PWC Cloud Hopper Technical Annex April 2017)",
+            "description": "RedLeaves is capable of downloading a file from a specified URL.",
             "external_references": [
                 {
                     "url": "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-annex-b-final.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0153}} is capable of downloading a file from a specified URL.",
             "source_ref": "malware--17b40f60-729f-4fe8-8aea-cc9ee44a95d5",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add"
         }

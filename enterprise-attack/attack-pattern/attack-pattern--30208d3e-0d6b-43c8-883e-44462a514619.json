@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--edcab116-9c75-483a-98a1-1e507be735f1",
+    "id": "bundle--62914488-5897-4ad4-b0a8-cd27fb6bede5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,7 +27,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Depending on the method used, actions could include common file system commands and parameters on the command-line interface within batch files or scripts. A sequence of actions like this may be unusual, depending on the system and network environment. Automated collection may occur along with other techniques such as {{LinkById|T1074}}. As such, file access monitoring that shows an unusual process performing sequential file opens and potentially copy actions to another location on the file system for many files at once may indicate automated collection behavior. Remote access tools with built-in features may interact directly with the Windows API to gather data. Data may also be acquired through Windows system management tools such as {{LinkById|T1047}} and {{LinkById|T1086}}.",
+            "x_mitre_detection": "Once established within a system or network, an adversary may use automated techniques for collecting internal data. Methods for performing this technique could include use of {{LinkById|T1064}} to search for and copy information fitting set criteria such as file type, location, or name at specific time intervals. This functionality could also be built into remote access tools. \n\nThis technique may incorporate use of other techniques such as {{LinkById|T1083}} and {{LinkById|T1105}} to identify and move files.",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",

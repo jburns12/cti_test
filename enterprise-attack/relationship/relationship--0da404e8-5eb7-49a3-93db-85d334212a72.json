@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eda03fcb-6ac8-4ed3-ad9a-e306522aaf46",
+    "id": "bundle--7624d199-2387-476d-86cb-25a7cc13e0e9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "MuddyWater has used VBScript and JavaScript files to execute its POWERSTATS payload. (Citation: FireEye MuddyWater Mar 2018)",
+            "description": "MuddyWater has used VBScript and JavaScript files to execute its POWERSTATS payload.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2018/03/iranian-threat-group-updates-ttps-in-spear-phishing-campaign.html",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0069}} has used VBScript and JavaScript files to execute its {{LinkById|S0223}} payload.",
             "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
             "target_ref": "attack-pattern--7fd87010-3a00-4da3-b905-410525e8ec44"
         }

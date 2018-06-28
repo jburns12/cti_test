@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a548a9fe-6a26-4408-a9f6-df4c2d3f0cdd",
+    "id": "bundle--069e74d4-c11d-4cc8-81e2-89b4c7d8a0e9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -22,7 +22,8 @@
                     "description": "Ballenthin, W., et al. (2015). Windows Management Instrumentation (WMI) Offense, Defense, and Forensics. Retrieved March 30, 2016.",
                     "source_name": "FireEye WMI 2015"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Disabling WMI services may cause system instability and should be evaluated to assess the impact to a network. By default, only administrators are allowed to connect remotely using WMI; restrict other users that are allowed to connect, or disallow all users from connecting remotely to WMI. Prevent credential overlap across systems of administrator and privileged accounts. (Citation: FireEye WMI 2015)"
         }
     ]
 }

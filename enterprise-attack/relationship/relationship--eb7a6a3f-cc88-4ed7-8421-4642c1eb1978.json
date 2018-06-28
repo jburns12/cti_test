@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0488c761-153e-4ecd-af6f-03edc2165ae4",
+    "id": "bundle--0af77301-5bbe-4b5b-a105-749e581dfec6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "The \"ZR\" variant of BACKSPACE will check to see if known host-based firewalls are installed on the infected systems. BACKSPACE will attempt to establish a C2 channel, then will examine open windows to identify a pop-up from the firewall software and will simulate a mouse-click to allow the connection to proceed. (Citation: FireEye APT30)",
+            "description": "The \"ZR\" variant of BACKSPACE will check to see if known host-based firewalls are installed on the infected systems. BACKSPACE will attempt to establish a C2 channel, then will examine open windows to identify a pop-up from the firewall software and will simulate a mouse-click to allow the connection to proceed.",
             "external_references": [
                 {
                     "url": "https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "The \"ZR\" variant of {{LinkById|S0031}} will check to see if known host-based firewalls are installed on the infected systems. {{LinkById|S0031}} will attempt to establish a C2 channel, then will examine open windows to identify a pop-up from the firewall software and will simulate a mouse-click to allow the connection to proceed.",
             "source_ref": "malware--fb261c56-b80e-43a9-8351-c84081e7213d",
             "target_ref": "attack-pattern--2e0dd10b-676d-4964-acd0-8a404c92b044"
         }

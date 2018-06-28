@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1bc49ec4-3239-440f-b954-423b6c36b2fb",
+    "id": "bundle--bb41c441-7dd3-46a1-9aab-08b10a191a44",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Hi-Zor encrypts C2 traffic with HTTPS and also encodes it with a single-byte XOR key. (Citation: Fidelis INOCNATION)",
+            "description": "Hi-Zor encrypts C2 traffic with HTTPS and also encodes it with a single-byte XOR key.",
             "external_references": [
                 {
                     "url": "https://www.fidelissecurity.com/sites/default/files/FTA%201020%20Fidelis%20Inocnation%20FINAL%200.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0087}} encrypts C2 traffic with HTTPS and also encodes it with a single-byte XOR key.",
             "source_ref": "malware--5967cc93-57c9-404a-8ffd-097edfa7bdfc",
             "target_ref": "attack-pattern--428ca9f8-0e33-442a-be87-f869cb4cf73e"
         }

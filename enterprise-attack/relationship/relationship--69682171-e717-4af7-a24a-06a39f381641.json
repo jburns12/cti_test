@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0a5c338d-2715-42c3-975d-fa619f7f14c6",
+    "id": "bundle--0b349887-58d2-4a24-8063-5865dbad6511",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Threat Group-3390 actors use nbtscan to discover vulnerable systems. (Citation: Dell TG-3390)",
+            "description": "Threat Group-3390 actors use nbtscan to discover vulnerable systems.",
             "external_references": [
                 {
                     "url": "http://www.secureworks.com/cyber-threat-intelligence/threats/threat-group-3390-targets-organizations-for-cyberespionage/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0027}} actors use nbtscan to discover vulnerable systems.",
             "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
             "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0"
         }

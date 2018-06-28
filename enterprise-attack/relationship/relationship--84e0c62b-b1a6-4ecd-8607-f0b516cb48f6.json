@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3a37cf7a-8bed-45c6-8b12-408859500c95",
+    "id": "bundle--89fc8ca1-19be-4fbf-be74-514a22037f1d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "RTM tries to add a scheduled task to establish persistence. (Citation: ESET RTM Feb 2017)",
+            "description": "RTM tries to add a scheduled task to establish persistence.",
             "external_references": [
                 {
                     "url": "https://www.welivesecurity.com/wp-content/uploads/2017/02/Read-The-Manual.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0148}} tries to add a scheduled task to establish persistence.",
             "source_ref": "malware--92ec0cbd-2c30-44a2-b270-73f4ec949841",
             "target_ref": "attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9"
         }

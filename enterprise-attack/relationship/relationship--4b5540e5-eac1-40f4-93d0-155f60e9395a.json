@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ef2d9917-8759-4163-b6bd-f2573b0ec7da",
+    "id": "bundle--e0ffc3ae-1fa7-4de1-9d8b-f584d87af761",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "The C2 server response to a beacon sent by a variant of Emissary contains a 36-character GUID value that is used as an encryption key for subsequent network communications. Some variants of Emissary use various XOR operations to encrypt C2 data. (Citation: Lotus Blossom Dec 2015)",
+            "description": "The C2 server response to a beacon sent by a variant of Emissary contains a 36-character GUID value that is used as an encryption key for subsequent network communications. Some variants of Emissary use various XOR operations to encrypt C2 data.",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2015/12/attack-on-french-diplomat-linked-to-operation-lotus-blossom/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "The C2 server response to a beacon sent by a variant of {{LinkById|S0082}} contains a 36-character GUID value that is used as an encryption key for subsequent network communications. Some variants of {{LinkById|S0082}} use various XOR operations to encrypt C2 data.",
             "source_ref": "malware--0f862b01-99da-47cc-9bdb-db4a86a95bb1",
             "target_ref": "attack-pattern--3b3cbbe0-6ed3-4334-b543-3ddfd8c5642d"
         }

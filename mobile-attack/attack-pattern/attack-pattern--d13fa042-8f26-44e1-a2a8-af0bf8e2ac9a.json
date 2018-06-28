@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f9bc86ff-dbd1-421f-abff-2e60fd4bb8ef",
+    "id": "bundle--37a648c9-4620-49c6-8ceb-eaa9206d9b60",
     "spec_version": "2.0",
     "objects": [
         {
@@ -52,6 +52,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "An app could contain malicious code in obfuscated or encrypted form, then deobfuscate or decrypt the code at runtime to evade many app vetting techniques, as described in  (Citation: Rastogi) (Citation: Zhou) (Citation: TrendMicro-Obad) (Citation: Xiao-iOS).",
             "x_mitre_platforms": [
                 "Android",
                 "iOS"

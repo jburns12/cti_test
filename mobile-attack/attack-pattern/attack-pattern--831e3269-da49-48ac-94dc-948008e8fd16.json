@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--07a51f45-ecc7-42f0-bf90-9c17261a055d",
+    "id": "bundle--3a2cae39-4236-4c08-b253-85c9767d00fa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -42,7 +42,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "An EMM/MDM or mobile threat protection solution can identify the presence of unwanted or known insecure or malicious apps on devices.",
+            "x_mitre_detection": "An adversary with control of a target's Google account can use the Google Play Store's remote installation capability to install apps onto the Android devices associated with the Google account as described in  (Citation: Oberheide-RemoteInstall),  (Citation: Konoth). However, only applications that are available for download through the Google Play Store can be remotely installed using this technique.",
             "x_mitre_platforms": [
                 "Android"
             ]

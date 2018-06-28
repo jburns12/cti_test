@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--15498011-0e0e-4f3d-ad32-ceb5066ff6dc",
+    "id": "bundle--e69ebf96-39e4-48a2-8951-1004150cecba",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Rover automatically collects files from the local system and removable drives based on a predefined list of file extensions on a regular timeframe. (Citation: Palo Alto Rover)",
+            "description": "Rover automatically collects files from the local system and removable drives based on a predefined list of file extensions on a regular timeframe.",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2016/02/new-malware-rover-targets-indian-ambassador-to-afghanistan/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0090}} automatically collects files from the local system and removable drives based on a predefined list of file extensions on a regular timeframe.",
             "source_ref": "malware--6b616fc1-1505-48e3-8b2c-0d19337bff38",
             "target_ref": "attack-pattern--30208d3e-0d6b-43c8-883e-44462a514619"
         }

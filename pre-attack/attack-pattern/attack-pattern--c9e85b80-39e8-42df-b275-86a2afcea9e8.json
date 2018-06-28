@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fcc535fb-d6f9-41b0-a55e-d56939203cb6",
+    "id": "bundle--d85468d4-2101-4d36-b15b-04bf4bd45fd2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -42,7 +42,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Many mobile devices are configured to only allow applications to be installed from the mainstream vendor app stores (e.g., Apple App Store and Google Play Store). An adversary can submit multiple code samples to these stores deliberately designed to probe the stores' security analysis capabilities, with the goal of determining effective techniques to place malicious applications in the stores that could then be delivered to targeted devices. (Citation: Android Bouncer) (Citation: Adventures in BouncerLand) (Citation: Jekyll on iOS) (Citation: Fruit vs Zombies)"
         }
     ]
 }

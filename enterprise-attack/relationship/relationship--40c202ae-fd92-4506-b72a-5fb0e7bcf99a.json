@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9b57028a-83ea-4e17-a2bb-99097503a2ec",
+    "id": "bundle--ae66ab51-99b2-4bdd-bb6a-b1c77567e60d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Trojan.Karagany samples sometimes use common binary packers such as UPX and Aspack on top of a custom Delphi binary packer. (Citation: Symantec Dragonfly)",
+            "description": "Trojan.Karagany samples sometimes use common binary packers such as UPX and Aspack on top of a custom Delphi binary packer.",
             "external_references": [
                 {
                     "url": "http://www.symantec.com/content/en/us/enterprise/media/security%20response/whitepapers/Dragonfly%20Threat%20Against%20Western%20Energy%20Suppliers.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0094}} samples sometimes use common binary packers such as UPX and Aspack on top of a custom Delphi binary packer.",
             "source_ref": "malware--82cb34ba-02b5-432b-b2d2-07f55cbf674d",
             "target_ref": "attack-pattern--6ff403bc-93e3-48be-8687-e102fdba8c88"
         }

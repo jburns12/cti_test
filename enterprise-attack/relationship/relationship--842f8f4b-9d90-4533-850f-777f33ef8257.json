@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fea9a43f-186e-481a-98a4-6c2cd07019ad",
+    "id": "bundle--4b8ba3a1-56d9-4b7d-831e-ef92a2bef7fc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "T9000 uses the Skype API to record audio and video calls. It writes encrypted data to <code>%APPDATA%\\Intel\\Skype</code>. (Citation: Palo Alto T9000 Feb 2016)",
+            "description": "T9000 uses the Skype API to record audio and video calls. It writes encrypted data to <code>%APPDATA%\\Intel\\Skype</code>.",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2016/02/t9000-advanced-modular-backdoor-uses-complex-anti-analysis-techniques/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0098}} uses the Skype API to record audio and video calls. It writes encrypted data to <code>%APPDATA%\\Intel\\Skype</code>.",
             "source_ref": "malware--876f6a77-fbc5-4e13-ab1a-5611986730a3",
             "target_ref": "attack-pattern--1035cdf2-3e5f-446f-a7a7-e8f6d7925967"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e0fb5c6a-c874-4ad1-9606-bbe90b1cf514",
+    "id": "bundle--71a21bac-5062-4152-8c8c-01f8ed3bad10",
     "spec_version": "2.0",
     "objects": [
         {
@@ -17,7 +17,8 @@
                     "url": "https://attack.mitre.org/wiki/Technique/T1129",
                     "source_name": "mitre-attack"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Directly mitigating module loads and API calls related to module loads will likely have unintended side effects, such as preventing legitimate software from operating properly. Efforts should be focused on preventing adversary tools from running earlier in the chain of activity and on identifying and correlated subsequent behavior to determine if it is the result of malicious activity."
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f74354c6-2ec8-4375-b2c4-b8ff28117c87",
+    "id": "bundle--fbcc5eef-0dad-4e82-b210-44f25ae3ccac",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Sakula uses HTTP for C2. (Citation: Dell Sakula)",
+            "description": "Sakula uses HTTP for C2.",
             "external_references": [
                 {
                     "url": "http://www.secureworks.com/cyber-threat-intelligence/threats/sakula-malware-family/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0074}} uses HTTP for C2.",
             "source_ref": "malware--96b08451-b27a-4ff6-893f-790e26393a8e",
             "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6"
         }

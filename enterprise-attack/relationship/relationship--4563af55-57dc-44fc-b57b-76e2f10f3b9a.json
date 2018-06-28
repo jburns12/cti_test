@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4f1ae1ff-c745-4171-a33a-f451be2ce9c7",
+    "id": "bundle--a037a4b2-6982-4956-8117-4450e18efe04",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Dipsind can be configured to only run during normal working hours, which would make its communications harder to distinguish from normal traffic. (Citation: Microsoft PLATINUM April 2016)",
+            "description": "Dipsind can be configured to only run during normal working hours, which would make its communications harder to distinguish from normal traffic.",
             "external_references": [
                 {
                     "description": "Windows Defender Advanced Threat Hunting Team. (2016, April 29). PLATINUM: Targeted attacks in South and Southeast Asia. Retrieved February 15, 2018.",
@@ -19,6 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0200}} can be configured to only run during normal working hours, which would make its communications harder to distinguish from normal traffic.",
             "source_ref": "malware--e170995d-4f61-4f17-b60e-04f9a06ee517",
             "target_ref": "attack-pattern--4eeaf8a9-c86b-4954-a663-9555fb406466"
         }

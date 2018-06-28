@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--05863335-96d7-4547-94a3-7da63b7936c0",
+    "id": "bundle--ef1ad6da-c2e8-4618-8331-36f35a3c2066",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.077Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Strider has used local servers with both local network and Internet access to act as internal proxy nodes to exfiltrate data from other parts of the network without direct Internet access. (Citation: Kaspersky ProjectSauron Blog)",
+            "description": "Strider has used local servers with both local network and Internet access to act as internal proxy nodes to exfiltrate data from other parts of the network without direct Internet access.",
             "external_references": [
                 {
                     "url": "https://securelist.com/faq-the-projectsauron-apt/75533/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0041}} has used local servers with both local network and Internet access to act as internal proxy nodes to exfiltrate data from other parts of the network without direct Internet access.",
             "source_ref": "intrusion-set--277d2f87-2ae5-4730-a3aa-50c1fdff9656",
             "target_ref": "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea"
         }

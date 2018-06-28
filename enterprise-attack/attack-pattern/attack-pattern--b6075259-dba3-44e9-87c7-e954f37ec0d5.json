@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--39e8e5d1-d1fe-4de0-ac60-7f94352c96a9",
+    "id": "bundle--4f8f84ef-619a-4910-961d-8247efb9c4ca",
     "spec_version": "2.0",
     "objects": [
         {
@@ -37,7 +37,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Monitor processes for tools and command line arguments that may indicate they're being used for password policy discovery. Correlate that activity with other suspicious activity from the originating system to reduce potential false positives from valid user or administrator activity. Adversaries will likely attempt to find the password policy early in an operation and the activity is likely to happen with other [[Discovery]] activity.",
+            "x_mitre_detection": "Password policies for networks are a way to enforce complex passwords that are difficult to guess or crack through {{LinkById|T1110}}. An adversary may attempt to access detailed information about the password policy used within an enterprise network. This would help the adversary to create a list of common passwords and launch dictionary and/or brute force attacks which adheres to the policy (e.g. if the minimum password length should be 8, then not trying passwords such as 'pass123'; not checking for more than 3-4 passwords per account if the lockout is set to 6 as to not lock out accounts).\n\nPassword policies can be set and discovered on Windows, Linux, and macOS systems. (Citation: Superuser Linux Password Policies) (Citation: Jamf User Password Policies)\n\n===Windows===\n* <code>net accounts</code>\n* <code>net accounts /domain</code>\n\n===Linux===\n* <code>chage -l <username></code>\n* <code>cat /etc/pam.d/common-password</code>\n\n===macOS===\n* <code>pwpolicy getaccountpolicies</code>",
             "x_mitre_platforms": [
                 "Linux",
                 "Windows",

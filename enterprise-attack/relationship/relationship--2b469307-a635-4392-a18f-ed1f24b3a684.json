@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9726187a-abc4-43ba-8dd5-385f2c56dc10",
+    "id": "bundle--496ba239-71c8-4e45-bd25-f62183ed3e8f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0154}} can deliver \"beacon\" payloads for lateral movement by leveraging remote COM execution. [[Citation: \nCobalt Strike DCOM Jan 2017]]",
             "source_ref": "tool--aafea02e-ece5-4bb2-91a6-3bf8c7f38a39",
             "target_ref": "attack-pattern--772bc7a8-a157-42cc-8728-d648e25c7fe7"
         }

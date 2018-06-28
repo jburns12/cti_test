@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0efb4eaf-0965-4ff0-b5a4-1b60173e796f",
+    "id": "bundle--0f880d59-cd3b-41b0-b00f-1f679a038d96",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "PoisonIvy contains a keylogger. (Citation: FireEye Poison Ivy)",
+            "description": "PoisonIvy contains a keylogger.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-poison-ivy.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0012}} contains a keylogger.",
             "source_ref": "malware--b42378e0-f147-496f-992a-26a49705395b",
             "target_ref": "attack-pattern--bb5a00de-e086-4859-a231-fa793f6797e2"
         }

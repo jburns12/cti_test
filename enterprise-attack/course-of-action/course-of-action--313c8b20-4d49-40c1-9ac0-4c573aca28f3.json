@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dd6e2306-b322-4434-a805-51d11a0e7a15",
+    "id": "bundle--f538c3f9-e5b6-426d-8a7d-02988fb97250",
     "spec_version": "2.0",
     "objects": [
         {
@@ -32,7 +32,8 @@
                     "description": "NSA Information Assurance Directorate. (2014, August). Application Whitelisting Using Microsoft AppLocker. Retrieved March 31, 2016.",
                     "source_name": "NSA MS AppLocker"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Limit the privileges of user accounts so that only authorized administrators can perform Winlogon helper changes.\n\nIdentify and block potentially malicious software that may be executed through the Winlogon helper process by using whitelisting (Citation: Beechey 2010) tools like AppLocker (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) that are capable of auditing and/or blocking unknown DLLs."
         }
     ]
 }

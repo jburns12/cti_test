@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7b141ef4-e0df-4688-b2b9-77cb38520999",
+    "id": "bundle--4e79b4a8-3fd3-484d-aebb-f549b05dc204",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "POWERSOURCE is a PowerShell backdoor. (Citation: FireEye FIN7 March 2017) (Citation: Cisco DNSMessenger March 2017)",
+            "description": "POWERSOURCE is a PowerShell backdoor.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/03/fin7%20spear%20phishing.html",
@@ -25,6 +25,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0145}} is a PowerShell backdoor.",
             "source_ref": "malware--17e919aa-4a49-445c-b103-dbb8df9e7351",
             "target_ref": "attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--29a35d17-335b-46e0-8482-4f4a30ad3006",
+    "id": "bundle--ca9fc136-a11b-415e-8810-bddb5e0ac68c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -30,7 +30,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "An adversary will require some physical hardware and software. They may only need a lightweight set-up if most of their activities will take place using on-line infrastructure. Or, they may need to build extensive infrastructure if they want to test, communicate, and control other aspects of their activities on their own systems. (Citation: NYTStuxnet)"
         }
     ]
 }

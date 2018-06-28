@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4af8bd4c-ad14-4e11-b7d5-f22fcbe7cea9",
+    "id": "bundle--94f0ad32-8056-4771-ac80-aefb44df361e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "P2P ZeuS added junk data to outgoing UDP packets to peer implants. (Citation: Dell P2P ZeuS)",
+            "description": "P2P ZeuS added junk data to outgoing UDP packets to peer implants.",
             "external_references": [
                 {
                     "url": "http://www.secureworks.com/cyber-threat-intelligence/threats/The%20Lifecycle%20of%20Peer%20to%20Peer%20Gameover%20ZeuS/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0016}} added junk data to outgoing UDP packets to peer implants.",
             "source_ref": "malware--b2c5d3ca-b43a-4888-ad8d-e2d43497bf85",
             "target_ref": "attack-pattern--ad255bfe-a9e6-4b52-a258-8d3462abe842"
         }

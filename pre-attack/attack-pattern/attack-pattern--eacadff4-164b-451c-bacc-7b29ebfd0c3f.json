@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f7560117-d6f0-4fe1-895d-7da843c5c39f",
+    "id": "bundle--798a19f6-d333-4af7-a27e-8e8b1117c55d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -30,7 +30,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Use of removable media as part of the Launch phase requires an adversary to determine type, format, and content of the media and associated malware. (Citation: BadUSB)"
         }
     ]
 }

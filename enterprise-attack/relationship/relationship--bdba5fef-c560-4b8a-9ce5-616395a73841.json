@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b4118c07-d666-4f7d-b87f-25e121e2dd48",
+    "id": "bundle--17016cd8-44a3-4fc7-a6ff-2ae451a4062b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.048Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Taidoor uses RC4 to encrypt the message body of HTTP content. (Citation: TrendMicro Taidoor)",
+            "description": "Taidoor uses RC4 to encrypt the message body of HTTP content.",
             "external_references": [
                 {
                     "url": "http://www.trendmicro.com/cloud-content/us/pdfs/security-intelligence/white-papers/wp%20the%20taidoor%20campaign.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0015}} uses RC4 to encrypt the message body of HTTP content.",
             "source_ref": "intrusion-set--59140a2e-d117-4206-9b2c-2a8662bd9d46",
             "target_ref": "attack-pattern--4b74a1d4-b0e9-4ef1-93f1-14ecc6e2f5b5"
         }

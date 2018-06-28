@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--51ce7595-512c-4c81-873c-014447a19421",
+    "id": "bundle--9704870e-c7bd-4aa6-b69d-e5c3e4cf581c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "OSInfo discovers information about the infected machine (Citation: Symantec Buckeye).",
+            "description": "OSInfo discovers information about the infected machine.",
             "external_references": [
                 {
                     "url": "http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0165}} discovers information about the infected machine.",
             "source_ref": "malware--f6d1d2cb-12f5-4221-9636-44606ea1f3f8",
             "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1"
         }

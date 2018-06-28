@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--739bcdef-cbb3-4146-89a4-349085203c20",
+    "id": "bundle--cbf9b3b0-46a3-4c9b-ba62-2aeb73eab438",
     "spec_version": "2.0",
     "objects": [
         {
@@ -38,7 +38,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Many applications use third-party software libraries, often without full knowledge of the behavior of the libraries by the application developer. For example, mobile applications often incorporate advertising libraries to generate revenue for the application developer. Vulnerabilities in these third-party libraries could potentially be exploited in any application that uses the library, and even if the vulnerabilities are fixed, many applications may still use older, vulnerable versions of the library. (Citation: Flexera News Vulnerabilities) (Citation: Android Security Review 2015) (Citation: Android Multidex RCE)"
         }
     ]
 }

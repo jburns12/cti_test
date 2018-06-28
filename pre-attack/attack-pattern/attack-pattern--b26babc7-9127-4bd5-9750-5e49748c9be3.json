@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9bbc0f13-3288-47d2-a0cc-55bdf0562b84",
+    "id": "bundle--bab94d6b-5dca-4ebc-a2ea-63fe0d88b753",
     "spec_version": "2.0",
     "objects": [
         {
@@ -30,7 +30,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "If an adversary can identify which security tools a victim is using they may be able to identify ways around those tools. (Citation: CrowdStrike Putter Panda)"
         }
     ]
 }

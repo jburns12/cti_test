@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bb3f6e05-94b2-45a9-819d-a11debb29dc3",
+    "id": "bundle--30519127-eef4-4ef7-910b-838d5fbdc598",
     "spec_version": "2.0",
     "objects": [
         {
@@ -17,7 +17,8 @@
                     "url": "https://attack.mitre.org/wiki/Technique/T1062",
                     "source_name": "mitre-attack"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Prevent adversary access to privileged accounts necessary to install a hypervisor."
         }
     ]
 }

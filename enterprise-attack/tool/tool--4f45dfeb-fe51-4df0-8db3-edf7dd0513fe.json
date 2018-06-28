@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0463e25b-f454-4a70-9e43-e149d944d268",
+    "id": "bundle--74c26ec8-570c-4669-900f-d5509cefdb8b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,6 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0120}} is a Windows password hash dumper. (Citation: Mandiant APT1)",
             "x_mitre_platforms": [
                 "Windows"
             ],

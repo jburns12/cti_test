@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--77a2439c-047e-4fb4-a25b-945f743ac201",
+    "id": "bundle--c045e8ba-e4ae-42ac-a2f6-7cf9a2c5f6a2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Some MiniDuke components use Twitter to initially obtain the address of a C2 server or as a backup if no hard-coded C2 server responds. (Citation: F-Secure The Dukes) (Citation: Securelist MiniDuke Feb 2013)",
+            "description": "Some MiniDuke components use Twitter to initially obtain the address of a C2 server or as a backup if no hard-coded C2 server responds.",
             "external_references": [
                 {
                     "url": "https://www.f-secure.com/documents/996508/1030745/dukes%20whitepaper.pdf",
@@ -25,6 +25,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "Some {{LinkById|S0051}} components use Twitter to initially obtain the address of a C2 server or as a backup if no hard-coded C2 server responds.",
             "source_ref": "malware--5e7ef1dc-7fb6-4913-ac75-e06113b59e0c",
             "target_ref": "attack-pattern--830c9528-df21-472c-8c14-a036bf17d665"
         }

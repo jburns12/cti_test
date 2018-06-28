@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--67fd94b5-e527-4b2d-a4ba-9d8a39b6375a",
+    "id": "bundle--6388b4e1-d51c-4d36-9667-83f463b9700f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -22,7 +22,8 @@
                     "description": "Gardiner, J.,  Cova, M., Nagaraja, S. (2014, February). Command & Control Understanding, Denying and Detecting. Retrieved April 20, 2016.",
                     "source_name": "University of Birmingham C2"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Command and control infrastructure used in a multi-stage channel may be blocked if known ahead of time. If unique signatures are present in the C2 traffic, they could also be used as the basis of identifying and blocking the channel. (Citation: University of Birmingham C2)"
         }
     ]
 }

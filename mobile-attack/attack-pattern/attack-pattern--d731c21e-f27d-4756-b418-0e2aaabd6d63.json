@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bca1768a-a763-4e35-8f53-b9d86a531c9a",
+    "id": "bundle--1c1a85a8-a53b-498a-a01a-ae952eaebd3c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -37,6 +37,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "If network traffic between the mobile device and a remote server is not securely protected, then an attacker positioned on the network may be able to manipulate network communication without being detected. For example, FireEye researchers found in 2014 that 68% of the top 1,000 free applications in the Google Play Store had at least one Transport Layer Security (TLS) implementation vulnerability potentially opening the applications' network traffic to man-in-the-middle attacks (Citation: FireEye-SSL).",
             "x_mitre_platforms": [
                 "Android",
                 "iOS"

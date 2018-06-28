@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d2eec8d9-c8fd-46f8-83d1-92bb361edd79",
+    "id": "bundle--ce5ef747-ee4e-47e1-84cc-185c7d0df1a8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,7 +27,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "System and network discovery techniques normally occur throughout an operation as an adversary learns the environment. Data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities, such as [[Lateral Movement]], based on the information obtained.\n\nMonitor processes and command-line arguments for actions that could be taken to gather system information related to services. Remote access tools with built-in features may interact directly with the Windows API to gather information. Information may also be acquired through Windows system management tools such as {{LinkById|T1047}} and {{LinkById|T1086}}.",
+            "x_mitre_detection": "Adversaries may try to get information about registered services. Commands that may obtain information about services using operating system utilities are \"sc,\" \"tasklist /svc\" using {{LinkById|S0057}}, and \"net start\" using {{LinkById|S0039}}, but adversaries may also use other tools as well.",
             "x_mitre_platforms": [
                 "Windows"
             ],

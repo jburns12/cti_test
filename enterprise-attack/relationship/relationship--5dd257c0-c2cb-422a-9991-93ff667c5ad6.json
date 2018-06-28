@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6494b712-a4c3-4b67-b1c1-c459c0215dd4",
+    "id": "bundle--7589a37c-1f6a-4054-a791-9a742c69ad1f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "FALLCHILL can collect operating system (OS) version information, processor information, system name, and information about installed disks from the victim. (Citation: US-CERT FALLCHILL Nov 2017)",
+            "description": "FALLCHILL can collect operating system (OS) version information, processor information, system name, and information about installed disks from the victim.",
             "external_references": [
                 {
                     "url": "https://www.us-cert.gov/ncas/alerts/TA17-318A",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0181}} can collect operating system (OS) version information, processor information, system name, and information about installed disks from the victim.",
             "source_ref": "malware--fece06b7-d4b1-42cf-b81a-5323c917546e",
             "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1"
         }

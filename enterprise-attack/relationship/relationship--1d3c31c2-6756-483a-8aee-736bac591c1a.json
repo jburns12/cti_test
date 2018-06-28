@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--99ef7d58-5a27-4e1f-a4c4-20f96531307c",
+    "id": "bundle--788af011-5b9a-4cb5-9733-b91757b7d9a6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "ZeroT can add a new service to ensure PlugX persists on the system when delivered as another payload onto the system. (Citation: Proofpoint ZeroT Feb 2017)",
+            "description": "ZeroT can add a new service to ensure PlugX persists on the system when delivered as another payload onto the system.",
             "external_references": [
                 {
                     "url": "https://www.proofpoint.com/us/threat-insight/post/APT-targets-russia-belarus-zerot-plugx",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0230}} can add a new service to ensure {{LinkById|S0013}} persists on the system when delivered as another payload onto the system.",
             "source_ref": "malware--4ab44516-ad75-4e43-a280-705dc0420e2f",
             "target_ref": "attack-pattern--478aa214-2ca7-4ec0-9978-18798e514790"
         }

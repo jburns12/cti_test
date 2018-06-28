@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b9cf7d63-c384-4549-8bbd-ff3279ce31ab",
+    "id": "bundle--a497ea0e-21de-4a82-b371-b5fca831be5e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "BlackEnergy has run a plug-in on a victim to spread through the local network by using PsExec and accessing admin shares. (Citation: Securelist BlackEnergy Nov 2014)",
+            "description": "BlackEnergy has run a plug-in on a victim to spread through the local network by using PsExec and accessing admin shares.",
             "external_references": [
                 {
                     "url": "https://securelist.com/be2-custom-plugins-router-abuse-and-target-profiles/67353/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0089}} has run a plug-in on a victim to spread through the local network by using {{LinkById|S0029}} and accessing admin shares.",
             "source_ref": "malware--54cc1d4f-5c53-4f0e-9ef5-11b4998e82e4",
             "target_ref": "attack-pattern--ffe742ed-9100-4686-9e00-c331da544787"
         }

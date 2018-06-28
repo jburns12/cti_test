@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c5b476de-70b2-45df-8625-956f8ebed83f",
+    "id": "bundle--811585b1-706f-4250-a7d6-2e5b3fa7a3bc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -32,6 +32,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "Adversaries may attempt to exploit enterprise servers, workstations, or other resources over the network. This technique may take advantage of the mobile device's access to an internal enterprise network either through local connectivity or through a Virtual Private Network (VPN).",
             "x_mitre_platforms": [
                 "Android",
                 "iOS"

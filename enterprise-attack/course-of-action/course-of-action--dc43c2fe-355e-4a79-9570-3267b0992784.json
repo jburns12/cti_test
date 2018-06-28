@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ba685618-4630-4edf-9b3f-54bc904961d2",
+    "id": "bundle--afba0544-b0a4-411d-9f4f-3636485232a8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -17,7 +17,8 @@
                     "url": "https://attack.mitre.org/wiki/Technique/T1157",
                     "source_name": "mitre-attack"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Prevent users from being able to write files to the search paths for applications, both in the folders where applications are run from and the standard dylib folders. If users can't write to these directories, then they can't intercept the search path."
         }
     ]
 }

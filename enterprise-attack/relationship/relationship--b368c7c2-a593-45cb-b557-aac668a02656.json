@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3ef9a425-c0a7-4931-b7a0-05bdcf987796",
+    "id": "bundle--cdcc6814-53a1-4cba-a9a8-ada5d24e5a93",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.033Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Ke3chang performs discovery of permission groups <code>net group /domain</code>. (Citation: Villeneuve et al 2014)",
+            "description": "Ke3chang performs discovery of permission groups <code>net group /domain</code>.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-ke3chang.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0004}} performs discovery of permission groups <code>net group /domain</code>.",
             "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
             "target_ref": "attack-pattern--15dbf668-795c-41e6-8219-f0447c0e64ce"
         }

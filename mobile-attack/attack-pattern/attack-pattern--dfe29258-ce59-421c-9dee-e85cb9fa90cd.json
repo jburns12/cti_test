@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2857e749-1f84-41cc-bdf0-25d5a06425c6",
+    "id": "bundle--92fef040-5f1a-4ba7-b489-d29f1cf3da6b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -37,6 +37,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "Techniques have periodically been demonstrated that exploit vulnerabilities on Android (Citation: Wired-AndroidBypass), iOS (Citation: Kaspersky-iOSBypass), or other mobile devices to bypass the device lock screen. The vulnerabilities are generally patched by the device/operating system vendor once they become aware of their existence.",
             "x_mitre_platforms": [
                 "Android",
                 "iOS"

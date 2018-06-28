@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--96aca49a-69d4-481a-bdfc-ee8107d3de5a",
+    "id": "bundle--0228a347-129d-42e0-8cab-0af559112d97",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "CallMe uses AES to encrypt C2 traffic. (Citation: Scarlet Mimic Jan 2016)",
+            "description": "CallMe uses AES to encrypt C2 traffic.",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2016/01/scarlet-mimic-years-long-espionage-targets-minority-activists/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0077}} uses AES to encrypt C2 traffic.",
             "source_ref": "malware--cb7bcf6f-085f-41db-81ee-4b68481661b5",
             "target_ref": "attack-pattern--4b74a1d4-b0e9-4ef1-93f1-14ecc6e2f5b5"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fbf4c1f6-ffc5-4b45-ae32-28fe3cc3ab4f",
+    "id": "bundle--35792f42-b9d0-4dcb-b6da-3f4027047098",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Variants of Emissary encrypt payloads using various XOR ciphers, as well as a custom algorithm that uses the \"srand\" and \"rand\" functions. (Citation: Lotus Blossom Dec 2015) (Citation: Emissary Trojan Feb 2016)",
+            "description": "Variants of Emissary encrypt payloads using various XOR ciphers, as well as a custom algorithm that uses the \"srand\" and \"rand\" functions.",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2015/12/attack-on-french-diplomat-linked-to-operation-lotus-blossom/",
@@ -25,6 +25,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "Variants of {{LinkById|S0082}} encrypt payloads using various XOR ciphers, as well as a custom algorithm that uses the \"srand\" and \"rand\" functions.",
             "source_ref": "malware--0f862b01-99da-47cc-9bdb-db4a86a95bb1",
             "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a"
         }

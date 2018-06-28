@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ae4fc802-7c75-4e6e-8b2f-38288611f689",
+    "id": "bundle--73334ee4-d84a-4c65-a4d1-31626c5518e3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "OilRig has used <code>net group /domain</code>, <code>net localgroup administrators</code>, <code>net group \u201cdomain admins\u201d /domain</code>, and <code>net group \u201cExchange Trusted Subsystem\u201d /domain</code> to find group permission settings on a victim. (Citation: Palo Alto OilRig May 2016)",
+            "description": "OilRig has used <code>net group /domain</code>, <code>net localgroup administrators</code>, <code>net group \u201cdomain admins\u201d /domain</code>, and <code>net group \u201cExchange Trusted Subsystem\u201d /domain</code> to find group permission settings on a victim.",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2016/05/the-oilrig-campaign-attacks-on-saudi-arabian-organizations-deliver-helminth-backdoor/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0049}} has used <code>net group /domain</code>, <code>net localgroup administrators</code>, <code>net group \u201cdomain admins\u201d /domain</code>, and <code>net group \u201cExchange Trusted Subsystem\u201d /domain</code> to find group permission settings on a victim.",
             "source_ref": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",
             "target_ref": "attack-pattern--15dbf668-795c-41e6-8219-f0447c0e64ce"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--06a28033-4103-42c8-ae1a-a1cf388b7afa",
+    "id": "bundle--166c9230-ac7e-43ef-be2c-de46ff735f64",
     "spec_version": "2.0",
     "objects": [
         {
@@ -32,6 +32,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "An adversary may encrypt files stored on the mobile device to prevent the user from accessing them, only unlocking access to the files after a ransom is paid. Without escalated privileges, the adversary is generally limited to only encrypting files in external/shared storage locations. This technique has been demonstrated on Android, and we are unaware of any demonstrated use on iOS.",
             "x_mitre_platforms": [
                 "Android"
             ]

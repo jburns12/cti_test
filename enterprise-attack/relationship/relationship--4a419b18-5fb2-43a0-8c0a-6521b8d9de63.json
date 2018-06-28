@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1b84ac04-3595-4be0-964c-54a3fec59a65",
+    "id": "bundle--7e9da5fd-108f-49f7-9224-f3ecd8118363",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "H1N1 kills and disables services by using cmd.exe. (Citation: Cisco H1N1 Part 2)",
+            "description": "H1N1 kills and disables services by using cmd.exe.",
             "external_references": [
                 {
                     "url": "http://blogs.cisco.com/security/h1n1-technical-analysis-reveals-new-capabilities-part-2",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0132}} kills and disables services by using cmd.exe.",
             "source_ref": "malware--f8dfbc54-b070-4224-b560-79aaa5f835bd",
             "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830"
         }

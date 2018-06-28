@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2e524a64-2d3d-4044-bff3-bf17d62afe68",
+    "id": "bundle--157dfebe-a38e-404d-812e-078ecce16459",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Naid creates Registry entries that store information about a created service and point to a malicious DLL dropped to disk. (Citation: Symantec Naid June 2012)",
+            "description": "Naid creates Registry entries that store information about a created service and point to a malicious DLL dropped to disk.",
             "external_references": [
                 {
                     "url": "https://www.symantec.com/security%20response/writeup.jsp?docid=2012-061518-4639-99",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0205}} creates Registry entries that store information about a created service and point to a malicious DLL dropped to disk.",
             "source_ref": "malware--48523614-309e-43bf-a2b8-705c2b45d7b2",
             "target_ref": "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ce0b1f7e-01c7-4d27-816a-cc87f6be8c3e",
+    "id": "bundle--f53f1662-c409-4f38-b31a-dce183e73ca8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,7 +27,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Monitor processes and command-line arguments for actions that could be taken to collect files from a network share. Remote access tools with built-in features may interact directly with the Windows API to gather data. Data may also be acquired through Windows system management tools such as {{LinkById|T1047}} and {{LinkById|T1086}}.",
+            "x_mitre_detection": "Sensitive data can be collected from remote systems via shared network drives (host shared directory, network file server, etc.) that are accessible from the current system prior to Exfiltration.\n\nAdversaries may search network shares on computers they have compromised to find files of interest. Interactive command shells may be in use, and common functionality within {{LinkById|S0106}} may be used to gather information.",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",

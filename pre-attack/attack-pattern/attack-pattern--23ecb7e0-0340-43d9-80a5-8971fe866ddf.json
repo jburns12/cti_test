@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--496fdced-a731-43f4-b97d-04a6be3af1e3",
+    "id": "bundle--99ee4e53-3a5a-4cfe-b601-68f4e1867d1c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -30,7 +30,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Domain Names are the human readable names used to represent one or more IP addresses. IP addresses are the unique identifier of computing devices on a network. Both pieces of information are valuable to an adversary who is looking to understand the structure of a network. (Citation: RSA-APTRecon)"
         }
     ]
 }

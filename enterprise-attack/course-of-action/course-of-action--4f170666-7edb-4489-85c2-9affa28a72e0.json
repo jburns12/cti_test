@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--86158def-5604-43b4-88e8-33a72c9b366a",
+    "id": "bundle--f203c60b-80bf-48e9-9a8e-4ca26a8d0aa3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -17,7 +17,8 @@
                     "url": "https://attack.mitre.org/wiki/Technique/T1156",
                     "source_name": "mitre-attack"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Making these files immutable and only changeable by certain administrators will limit the ability for adversaries to easily create user level persistence."
         }
     ]
 }

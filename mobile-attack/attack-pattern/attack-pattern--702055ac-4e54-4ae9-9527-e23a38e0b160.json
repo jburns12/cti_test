@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d51028a0-2dce-40b3-b9d6-607d3ec54e66",
+    "id": "bundle--3d94cbee-0e31-4c43-abfd-662e4bf954a9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -36,6 +36,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "An adversary could attempt to read files that contain sensitive data or credentials (e.g., private keys, passwords, access tokens). This technique requires either escalated privileges or for the targeted app to have stored the data in an insecure manner (e.g., with insecure file permissions or in an insecure location such as an external storage directory).",
             "x_mitre_platforms": [
                 "Android",
                 "iOS"

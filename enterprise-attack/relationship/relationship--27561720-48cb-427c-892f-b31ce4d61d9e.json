@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a4e95cd5-40f0-4970-a680-5cd82b9d8dad",
+    "id": "bundle--b3441828-b8c6-47bf-8b48-15fe885c024f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "China Chopper executes code using HTTP POST commands. (Citation: FireEye Periscope March 2018)",
+            "description": "China Chopper executes code using HTTP POST commands.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2018/03/suspected-chinese-espionage-group-targeting-maritime-and-engineering-industries.html",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0020}} executes code using HTTP POST commands.",
             "source_ref": "malware--5a3a31fe-5a8f-48e1-bff0-a753e5b1be70",
             "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6"
         }

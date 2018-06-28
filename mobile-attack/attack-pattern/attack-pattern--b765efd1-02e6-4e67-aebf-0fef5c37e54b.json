@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d7a322dd-9d80-4372-af62-4880c7fba180",
+    "id": "bundle--7e22443e-af3d-4553-8ac1-5cd096b7af5c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -62,6 +62,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "An adversary could evade app vetting techniques by placing code in a malicious application to detect whether it is running in an app analysis environment and, if so, avoid performing malicious actions while under analysis.\n\nDiscussion of general Android anti-analysis techniques can be found in  (Citation: Petsas). Discussion of Google Play Store-specific anti-analysis techniques can be found in  (Citation: Oberheide-Bouncer),  (Citation: Percoco-Bouncer).\n\n (Citation: Wang) presents a discussion of iOS anti-analysis techniques.",
             "x_mitre_platforms": [
                 "Android",
                 "iOS"

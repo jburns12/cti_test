@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--63925a34-432f-4f7b-8152-ef55ba68ccbf",
+    "id": "bundle--897d0f59-cfa7-4726-8cd6-3cee1aa66cdf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "PlugX can be configured to use raw TCP or UDP for command and control. (Citation: Dell TG-3390)",
+            "description": "PlugX can be configured to use raw TCP or UDP for command and control.",
             "external_references": [
                 {
                     "url": "http://www.secureworks.com/cyber-threat-intelligence/threats/threat-group-3390-targets-organizations-for-cyberespionage/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0013}} can be configured to use raw TCP or UDP for command and control.",
             "source_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",
             "target_ref": "attack-pattern--c21d5a77-d422-4a69-acd7-2c53c1faa34b"
         }

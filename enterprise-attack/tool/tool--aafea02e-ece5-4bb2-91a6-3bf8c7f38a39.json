@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2dd6b8be-da4d-4df4-a879-5da1a91198d9",
+    "id": "bundle--40cef66a-bb21-493e-bfc0-6f12024cd5d8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,6 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0154}} is a commercial, full-featured, penetration testing tool which bills itself as \u201cadversary simulation software designed to execute targeted attacks and emulate the post-exploitation actions of advanced threat actors\u201d.  Cobalt Strike\u2019s interactive post-exploit capabilities cover the full range of ATT&CK tactics, all executed within a single, integrated system. (Citation: cobaltstrike manual)\n\nIn addition to its own capabilities, {{LinkById|S0154}} leverages the capabilities of other well-known tools such as Metasploit and {{LinkById|S0002}}. (Citation: cobaltstrike manual)",
             "x_mitre_platforms": [
                 "Windows"
             ],

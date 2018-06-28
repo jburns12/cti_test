@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3293f6ee-e92a-486c-949d-f58fdd4d586e",
+    "id": "bundle--5dacb606-e86f-4efa-8ba0-20caed74723a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,6 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0110}} is used to schedule tasks on a system to run at a specified date or time. (Citation: TechNet At)",
             "x_mitre_platforms": [
                 "Linux",
                 "Windows",

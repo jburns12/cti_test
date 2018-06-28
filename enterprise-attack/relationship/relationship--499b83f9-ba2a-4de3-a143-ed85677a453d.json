@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fc119194-0979-4ad1-90cc-4a62bf68abb8",
+    "id": "bundle--327f55a6-0e85-4fdf-bed9-57bc75110edb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "has exfiltrated data in HTTP POST headers. (Citation: FireEye APT37 Feb 2018)",
+            "description": "has exfiltrated data in HTTP POST headers.",
             "external_references": [
                 {
                     "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt%20APT37.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "has exfiltrated data in HTTP POST headers.",
             "source_ref": "malware--8ab98e25-1672-4b5f-a2fb-e60f08a5ea9e",
             "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6"
         }

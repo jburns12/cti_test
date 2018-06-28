@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3d834f8b-7891-4e65-974f-ebe5e891a783",
+    "id": "bundle--08d7c857-b934-4df0-bf3d-a49557706e7c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -13,6 +13,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "The {{LinkById|MOB-S0002}} Android malware family abuses device administrator access to make it more difficult for users to remove the application.",
             "source_ref": "malware--ca4f63b9-a358-4214-bb26-8c912318cfde",
             "target_ref": "attack-pattern--82f04b1e-5371-4a6f-be06-411f0f43b483"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ca6a1fb9-0f53-41ee-b755-53e1b75ee1e7",
+    "id": "bundle--de7975c0-4d52-4e50-9579-48bc8e488f3a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "CosmicDuke exfiltrates collected files over FTP or WebDAV. Exfiltration servers can be separately configured from C2 servers. (Citation: F-Secure Cosmicduke)",
+            "description": "CosmicDuke exfiltrates collected files over FTP or WebDAV. Exfiltration servers can be separately configured from C2 servers.",
             "external_references": [
                 {
                     "url": "https://www.f-secure.com/documents/996508/1030745/cosmicduke%20whitepaper.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0050}} exfiltrates collected files over FTP or WebDAV. Exfiltration servers can be separately configured from C2 servers.",
             "source_ref": "malware--2eb9b131-d333-4a48-9eb4-d8dec46c19ee",
             "target_ref": "attack-pattern--a19e86f8-1c0a-4fea-8407-23b73d615776"
         }

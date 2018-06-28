@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--43388e8e-121f-4569-941f-119b4357e082",
+    "id": "bundle--1d66f972-2392-4ab8-a346-aabc692fe8ae",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Wingbird performs multiple process injections to hijack system processes and execute malicious code. (Citation: Microsoft SIR Vol 21)",
+            "description": "Wingbird performs multiple process injections to hijack system processes and execute malicious code.",
             "external_references": [
                 {
                     "url": "http://download.microsoft.com/download/E/B/0/EB0F50CC-989C-4B66-B7F6-68CD3DC90DE3/Microsoft%20Security%20Intelligence%20Report%20Volume%2021%20English.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0176}} performs multiple process injections to hijack system processes and execute malicious code.",
             "source_ref": "malware--a8d3d497-2da9-4797-8e0b-ed176be08654",
             "target_ref": "attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d"
         }

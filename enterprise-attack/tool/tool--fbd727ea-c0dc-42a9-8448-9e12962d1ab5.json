@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--598bf455-8fd4-40e2-9433-b914d906a5bd",
+    "id": "bundle--0fd73cad-17e4-4770-84ee-a998a993d29d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,6 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0224}} is an automatic SQL Injection tool distributed by the Iranian ITSecTeam security company. Havij has been used by penetration testers and adversaries. (Citation: Check Point Havij Analysis)",
             "x_mitre_platforms": [
                 "Linux",
                 "Windows",

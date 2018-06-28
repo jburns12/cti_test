@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7dc84cba-98ef-40ec-85d3-d2a1e8b1f086",
+    "id": "bundle--0e8c0153-60fb-449b-b4dd-b639c79d3626",
     "spec_version": "2.0",
     "objects": [
         {
@@ -50,7 +50,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "Many mobile devices are configured to only allow applications to be installed from the mainstream vendor app stores (e.g., Apple App Store and Google Play Store).  These app stores scan submitted applications for malicious behavior.  However, applications can evade these scans by downloading and executing new code at runtime that was not included in the original application package. (Citation: Fruit vs Zombies) (Citation: Android Hax) (Citation: Execute This!) (Citation: HT Fake News App) (Citation: Anywhere Computing kill 2FA) (Citation: Android Security Review 2015)"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dfe7a329-4210-4309-91e3-17fb7915e6cc",
+    "id": "bundle--534bff54-9005-4689-8ff5-480b05cca485",
     "spec_version": "2.0",
     "objects": [
         {
@@ -56,6 +56,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "A malicious app or other attack vector could be used to exploit vulnerabilities in code running within the Trusted Execution Environment (TEE) (Citation: Thomas-TrustZone). The adversary could then obtain privileges held by the TEE potentially including the ability to access cryptographic keys or other sensitive data (Citation: QualcommKeyMaster). Escalated operating system privileges may be first required in order to have the ability to attack the TEE (Citation: EkbergTEE). If not, privileges within the TEE can potentially be used to exploit the operating system (Citation: laginimaineb-TEE).",
             "x_mitre_platforms": [
                 "Android"
             ]

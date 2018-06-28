@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d4557a9e-ddd5-4013-99b4-162f2d84ad84",
+    "id": "bundle--288c7864-d304-4391-88d5-7854786defab",
     "spec_version": "2.0",
     "objects": [
         {
@@ -17,7 +17,8 @@
                     "url": "https://attack.mitre.org/wiki/Technique/T1155",
                     "source_name": "mitre-attack"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Require that all AppleScript be signed by a trusted developer ID before being executed - this will prevent random AppleScript code from executing."
         }
     ]
 }

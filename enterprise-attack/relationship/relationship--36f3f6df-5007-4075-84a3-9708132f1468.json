@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--df661f8d-d601-4ee4-a24f-423c489b4a7d",
+    "id": "bundle--27259901-cbfa-4e3e-b9e1-88c8ce940b58",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "APT32 has used PubPrn.vbs within execution scripts to execute malware, possibly bypassing defenses. (Citation: Twitter ItsReallyNick Status Update APT32 PubPrn)",
+            "description": "APT32 has used PubPrn.vbs within execution scripts to execute malware, possibly bypassing defenses.",
             "external_references": [
                 {
                     "url": "https://twitter.com/ItsReallyNick/status/944321013084573697",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0050}} has used PubPrn.vbs within execution scripts to execute malware, possibly bypassing defenses.",
             "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
             "target_ref": "attack-pattern--f6fe9070-7a65-49ea-ae72-76292f42cebe"
         }

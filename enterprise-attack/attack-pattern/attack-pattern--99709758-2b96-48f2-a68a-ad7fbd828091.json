@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7695f9f1-4794-4621-b087-78c4b93f68cf",
+    "id": "bundle--e9b8ac72-671a-4f8f-b537-90d04c7c58d2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -32,7 +32,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Analyze network data for uncommon data flows (e.g., a client sending significantly more data than it receives from a server). Processes utilizing the network that do not normally have network communication or have never been seen before are suspicious. Analyze packet contents to detect communications that do not follow the expected protocol behavior for the port that is being used. [[Citation: University of Birmingham C2]] Correlating alerts between multiple communication channels can further help identify command-and-control behavior.",
+            "x_mitre_detection": "Some adversaries may split communications between different protocols.  There could be one protocol for inbound command and control and another for outbound data, allowing it to bypass certain firewall restrictions.  The split could also be random to simply avoid data threshold alerts on any one communication.",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",

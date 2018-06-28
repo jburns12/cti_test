@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1884a982-10fe-4274-ad07-3766a55f4806",
+    "id": "bundle--1a103099-09bf-4531-9c64-408507cd1c76",
     "spec_version": "2.0",
     "objects": [
         {
@@ -13,6 +13,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0027}} actors use {{LinkById|S0110}} to schedule tasks to run self-extracting RAR archives, which install {{LinkById|HTTPBrowser}} or {{LinkById|PlugX}} on other victims on a network.",
             "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
             "target_ref": "attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0bad0271-d0fe-4409-a442-b4daac32b546",
+    "id": "bundle--1c55d305-e079-40c3-8d12-359c9dfdb692",
     "spec_version": "2.0",
     "objects": [
         {
@@ -22,7 +22,8 @@
                     "description": "Trusted Computing Group. (2008, April 29). Trusted Platform Module (TPM) Summary. Retrieved June 8, 2016.",
                     "source_name": "TCG Trusted Platform Module"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Prevent adversary access to privileged accounts or access necessary to perform this technique. Check the integrity of the existing BIOS or EFI to determine if it is vulnerable to modification. Patch the BIOS and EFI as necessary. Use Trusted Platform Module technology. (Citation: TCG Trusted Platform Module)"
         }
     ]
 }

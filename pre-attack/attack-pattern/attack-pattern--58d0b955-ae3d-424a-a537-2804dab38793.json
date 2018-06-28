@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d4879026-a3d5-4d0f-90ed-ee0dbd043ea0",
+    "id": "bundle--df6a36cb-e3bc-4398-badd-71279f1637fa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "A technique used to compromise victims wherein the victims visit a compromised website that redirects their browser to a malicious web site, such as an exploit kit's landing page.  The exploit kit landing page will probe the victim's operating system, web browser, or other software to find an exploitable vulnerability to infect the victim. (Citation: GeorgeDriveBy) (Citation: BellDriveBy)"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d5461b1e-8033-4a1e-9738-27c2d399903d",
+    "id": "bundle--cf96f55d-c3d2-454c-9655-3cd74f45a5a6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,6 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0005}} is a password dumping tool. (Citation: Amplia WCE)",
             "x_mitre_platforms": [
                 "Windows"
             ],

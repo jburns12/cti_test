@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--afa29c2b-231a-4b20-be41-99999e2e1ee0",
+    "id": "bundle--20320c1f-2507-4ca4-b070-daa6b8656707",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,6 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0175}} is an open-source Tor plugin that tunnels Tor traffic through HTTPS connections.",
             "x_mitre_platforms": [
                 "Linux",
                 "Windows",

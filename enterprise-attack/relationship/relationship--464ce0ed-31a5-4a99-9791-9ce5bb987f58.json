@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--472cc1ed-eb3d-47ee-90ef-d8f022be30f8",
+    "id": "bundle--b317c2c9-0207-47b9-9a0b-f8fb3d23eac5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "PlugX has used to use DLL side-loading to evade anti-virus and to maintain persistence on a victim. (Citation: Stewart 2014) (Citation: FireEye Clandestine Fox Part 2) (Citation: Dell TG-3390) (Citation: PWC Cloud Hopper Technical Annex April 2017) (Citation: Palo Alto PlugX June 2017)",
+            "description": "PlugX has used to use DLL side-loading to evade anti-virus and to maintain persistence on a victim.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2014/06/clandestine-fox-part-deux.html",
@@ -40,6 +40,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0013}} has used to use DLL side-loading to evade anti-virus and to maintain persistence on a victim.",
             "source_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",
             "target_ref": "attack-pattern--b2001907-166b-4d71-bb3c-9d26c871de09"
         }

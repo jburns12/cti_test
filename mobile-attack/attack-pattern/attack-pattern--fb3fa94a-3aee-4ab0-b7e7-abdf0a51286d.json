@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--50334c31-b417-46b9-8f0a-bada3bd7d2c0",
+    "id": "bundle--00e19619-c9e1-4c9b-9bc2-30547414210b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -52,7 +52,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Network carriers may be able to use firewalls, Intrusion Detection Systems (IDS), or Intrusion Prevention Systems (IPS) to detect and/or block SS7 exploitation as described by the CSRIC [[Citation: CSRIC5-WG10-FinalReport]]. The CSRIC also suggests threat information sharing between telecommunications industry members.",
+            "x_mitre_detection": "An adversary could exploit signaling system vulnerabilities to redirect calls or text messages to a phone number under the attacker's control. The adversary could then act as a man-in-the-middle to intercept or manipulate the communication. These issues are discussed in  (Citation: Engel-SS7),  (Citation: Engel-SS7)-2008,  (Citation: 3GPP-Security),  (Citation: Positive-SS7), as well as in a report from the Communications, Security, Reliability, and Interoperability Council (CSRIC)  (Citation: CSRIC5-WG10-FinalReport).",
             "x_mitre_platforms": [
                 "Android",
                 "iOS"

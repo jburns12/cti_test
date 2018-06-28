@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5ae825b9-f673-486d-ac80-3a3b01ef474f",
+    "id": "bundle--3df855b8-1645-4ed3-9747-a5a647810cf5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.067Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Lazarus Group malware IndiaIndia saves information gathered about the victim to a file that is compressed with Zlib, encrypted, and uploaded to a C2 server. (Citation: Novetta Blockbuster Loaders) Lazarus Group malware RomeoDelta archives specified directories in .zip format, encrypts the .zip file, and uploads it to its C2 server. (Citation: Novetta Blockbuster RATs)",
+            "description": "Lazarus Group malware IndiaIndia saves information gathered about the victim to a file that is compressed with Zlib, encrypted, and uploaded to a C2 server. Lazarus Group malware RomeoDelta archives specified directories in .zip format, encrypts the .zip file, and uploads it to its C2 server.",
             "external_references": [
                 {
                     "url": "https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Report.pdf",
@@ -30,6 +30,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0032}} malware IndiaIndia saves information gathered about the victim to a file that is compressed with Zlib, encrypted, and uploaded to a C2 server. {{LinkById|G0032}} malware RomeoDelta archives specified directories in .zip format, encrypts the .zip file, and uploads it to its C2 server.",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--b9f5dbe2-4c55-4fc5-af2e-d42c1d182ec4"
         }

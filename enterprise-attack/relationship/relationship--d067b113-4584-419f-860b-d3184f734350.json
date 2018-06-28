@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e5e8ef04-f825-4edd-9a30-0b294219d7d6",
+    "id": "bundle--e5b0ba2e-f96b-4563-b6e8-dd4d34f9134b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "S-Type may create a .lnk file to itself that is saved in the Start menu folder. It may also create the Registry key <code>HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\ IMJPMIJ8.1{3 characters of Unique Identifier}</code>. (Citation: Cylance Dust Storm)",
+            "description": "S-Type may create a .lnk file to itself that is saved in the Start menu folder. It may also create the Registry key <code>HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\ IMJPMIJ8.1{3 characters of Unique Identifier}</code>.",
             "external_references": [
                 {
                     "url": "https://www.cylance.com/content/dam/cylance/pdfs/reports/Op%20Dust%20Storm%20Report.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0085}} may create a .lnk file to itself that is saved in the Start menu folder. It may also create the Registry key <code>HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\ IMJPMIJ8.1{3 characters of Unique Identifier}</code>.",
             "source_ref": "malware--66b1dcde-17a0-4c7b-95fa-b08d430c2131",
             "target_ref": "attack-pattern--9422fc14-1c43-410d-ab0f-a709b76c72dc"
         }

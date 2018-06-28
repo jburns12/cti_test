@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--178d6d54-4a38-4090-8e2f-12097bcdc869",
+    "id": "bundle--1e568fa9-e432-4f74-b29d-8572c2edeecd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "After initial compromise, Chaos will download a second stage to establish a more permanent presence on the affected system. (Citation: Chaos Stolen Backdoor)",
+            "description": "After initial compromise, Chaos will download a second stage to establish a more permanent presence on the affected system.",
             "external_references": [
                 {
                     "url": "http://gosecure.net/2018/02/14/chaos-stolen-backdoor-rising/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "After initial compromise, {{LinkById|S0220}} will download a second stage to establish a more permanent presence on the affected system.",
             "source_ref": "malware--5bcd5511-6756-4824-a692-e8bb109364af",
             "target_ref": "attack-pattern--84e02621-8fdf-470f-bd58-993bb6a89d91"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2a23a15b-0a6d-4d97-af2e-597b0e3f767d",
+    "id": "bundle--231b7fef-47fa-4c55-b327-790d9bb4e163",
     "spec_version": "2.0",
     "objects": [
         {
@@ -32,7 +32,8 @@
                     "description": "Microsoft. (2016, April 16). Implementing Least-Privilege Administrative Models. Retrieved June 3, 2016.",
                     "source_name": "TechNet Least Privilege"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Take measures to detect or prevent techniques such as {{LinkById|T1003}} or installation of keyloggers to acquire credentials through {{LinkById|T1056}}. Limit credential overlap across systems to prevent access if account credentials are obtained. Ensure that local administrator accounts have complex, unique passwords across all systems on the network. Do not put user or admin domain accounts in the local administrator groups across systems unless they are tightly controlled and use of accounts is segmented, as this is often equivalent to having a local administrator account with the same password on all systems. Follow best practices for design and administration of an enterprise network to limit privileged account use across administrative tiers. (Citation: Microsoft Securing Privileged Access). Audit domain and local accounts as well as their permission levels routinely to look for situations that could allow an adversary to gain wide access by obtaining credentials of a privileged account. (Citation: TechNet Credential Theft) (Citation: TechNet Least Privilege)"
         }
     ]
 }

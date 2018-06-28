@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e9870927-1f83-4716-9b65-f376520aed84",
+    "id": "bundle--c1adfd8d-c0a7-402e-90ab-a926aa52cbaf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.076Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Patchwork collected the victim computer name, OS version, and architecture type and sent the information to its C2 server . (Citation: Cymmetria Patchwork)",
+            "description": "Patchwork collected the victim computer name, OS version, and architecture type and sent the information to its C2 server .",
             "external_references": [
                 {
                     "url": "https://s3-us-west-2.amazonaws.com/cymmetria-blog/public/Unveiling%20Patchwork.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0040}} collected the victim computer name, OS version, and architecture type and sent the information to its C2 server .",
             "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
             "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1"
         }

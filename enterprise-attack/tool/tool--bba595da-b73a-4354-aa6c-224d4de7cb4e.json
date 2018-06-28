@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b7e42acc-29ba-4497-8716-75c941eaafd1",
+    "id": "bundle--96340adc-5baa-4f39-bae4-3b393d9f9503",
     "spec_version": "2.0",
     "objects": [
         {
@@ -44,6 +44,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0106}} is the Windows command-line interpreter that can be used to interact with systems and execute other processes and utilities. (Citation: TechNet Cmd)\n\nCmd.exe contains native functionality to perform many operations to interact with the system, including listing files in a directory (e.g., <code>dir</code> (Citation: TechNet Dir)), deleting files (e.g., <code>del</code> (Citation: TechNet Del)), and copying files (e.g., <code>copy</code> (Citation: TechNet Copy)).",
             "x_mitre_platforms": [
                 "Windows"
             ],

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--08ed46b4-aed2-42db-9d05-a8c4cb886651",
+    "id": "bundle--07f12f81-d0c4-4819-ba28-7f4936de28c7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -42,7 +42,8 @@
                     "description": "Tomonaga, S. (2016, January 26). Windows Commands Abused by Attackers. Retrieved February 2, 2016.",
                     "source_name": "Windows Commands JPCERT"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Protect shared folders by minimizing users who have write access. Use utilities that detect or mitigate common features used in exploitation, such as the Microsoft Enhanced Mitigation Experience Toolkit (EMET).\n\nReduce potential lateral movement risk by using web-based document management and collaboration services that do not use network file and directory sharing.\n\nIdentify potentially malicious software that may be used to taint content or may result from it and audit and/or block the unknown programs by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)"
         }
     ]
 }

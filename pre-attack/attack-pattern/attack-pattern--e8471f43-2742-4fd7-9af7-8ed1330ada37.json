@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--015897e4-3c25-4936-baa9-7c7e2e65285c",
+    "id": "bundle--5f9caf20-af11-41c1-ae48-3b2ee893cebd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "An adversary may stage software and tools for use during later stages of an attack. The software and tools may be placed on systems legitimately in use by the adversary or may be placed on previously compromised infrastructure. (Citation: APT1) (Citation: RedOctober)"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7235681a-6ef7-4280-be9f-7bdbd49a2d2d",
+    "id": "bundle--db55df26-45d4-4806-b08a-3ddbc5d50cde",
     "spec_version": "2.0",
     "objects": [
         {
@@ -22,7 +22,8 @@
                     "description": "Microsoft. (n.d.). Installing and Registering a Password Filter DLL. Retrieved November 21, 2017.",
                     "source_name": "Microsoft Install Password Filter n.d"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Ensure only valid password filters are registered. Filter DLLs must be present in Windows installation directory (<code>C:\\Windows\\System32\\</code> by default) of a domain controller and/or local computer with a corresponding entry in <code>HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\Notification Packages</code>.  (Citation: Microsoft Install Password Filter n.d)"
         }
     ]
 }

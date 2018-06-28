@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--465f392a-9406-47e3-a106-d79fea160aa1",
+    "id": "bundle--ec2cb698-d044-4b61-a19b-dfdb312d74fc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -32,7 +32,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "The device user can view a list of apps with Device Administrator privilege in the device settings.",
+            "x_mitre_detection": "A malicious application can request Device Administrator privileges. If the user grants the privileges, the application can take steps to make its removal more difficult.",
             "x_mitre_platforms": [
                 "Android"
             ]

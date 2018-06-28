@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--501db358-03a4-4d69-af97-e81fcb24a752",
+    "id": "bundle--6a3e69dd-be56-49e9-92cb-a2388af2270e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -42,7 +42,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Monitor and analyze logs from host-based detection mechanisms, such as Sysmon, for events such as process creations that include or are resulting from parameters associated with invoking programs/commands and/or spawning child processes. [[Citation: RSA Forfiles Aug 2017]]",
+            "x_mitre_detection": "Various Windows utilities may be used to execute commands, possibly without invoking {{LinkById|S0106}}. For example, {{LinkById|S0193}}, the Program Compatibility Assistant (pcalua.exe), components of the Windows Subsystem for Linux (WSL), as well as other utilities may invoke the execution of programs and commands from a {{LinkById|T1059}}, Run window, or via scripts.  (Citation: VectorSec ForFiles Aug 2017) (Citation: Evi1cg Forfiles Nov 2017)\n\nAdversaries may abuse these utilities for Defense Evasion, specifically to perform arbitrary execution while subverting detections and/or mitigation controls (such as Group Policy) that limit/prevent the usage of {{LinkById|S0106}}.",
             "x_mitre_platforms": [
                 "Windows"
             ],

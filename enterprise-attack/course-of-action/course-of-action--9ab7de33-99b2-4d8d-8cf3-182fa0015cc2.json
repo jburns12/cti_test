@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bc1d2932-c686-4bf3-983e-ff9facadf6f9",
+    "id": "bundle--8e79d06d-6801-47f2-b139-980090315d53",
     "spec_version": "2.0",
     "objects": [
         {
@@ -32,7 +32,8 @@
                     "description": "NSA Information Assurance Directorate. (2014, August). Application Whitelisting Using Microsoft AppLocker. Retrieved March 31, 2016.",
                     "source_name": "NSA MS AppLocker"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Restrict write access to logon scripts to specific administrators. Prevent access to administrator accounts by mitigating Credential Access techniques and limiting account access and permissions of {{LinkById|T1078}}.\n\nIdentify and block potentially malicious software that may be executed through logon script modification by using whitelisting (Citation: Beechey 2010) tools like AppLocker (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) that are capable of auditing and/or blocking unknown programs."
         }
     ]
 }

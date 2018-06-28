@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6a11d785-74b3-4cd4-82ab-182b271981e7",
+    "id": "bundle--569ba554-fd03-4bec-9384-6785aa9049b7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "A Lazarus Group malware sample adds persistence on the system by creating a shortcut in the user\u2019s Startup folder. (Citation: McAfee Lazarus Resurfaces Feb 2018)",
+            "description": "A Lazarus Group malware sample adds persistence on the system by creating a shortcut in the user\u2019s Startup folder.",
             "external_references": [
                 {
                     "url": "https://securingtomorrow.mcafee.com/mcafee-labs/lazarus-resurfaces-targets-global-banks-bitcoin-users/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "A {{LinkById|G0032}} malware sample adds persistence on the system by creating a shortcut in the user\u2019s Startup folder.",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--970cdb5c-02fb-4c38-b17e-d6327cf3c810"
         }

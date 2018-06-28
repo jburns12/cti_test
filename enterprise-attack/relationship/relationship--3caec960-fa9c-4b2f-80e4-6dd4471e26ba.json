@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3aea3bb6-d844-49f1-a1e6-974ae04186f7",
+    "id": "bundle--fa76f91b-275e-4b93-bf5e-0f7088c05396",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "A module in Prikormka collects information from the victim about its IP addresses and MAC addresses. (Citation: ESET Operation Groundbait)",
+            "description": "A module in Prikormka collects information from the victim about its IP addresses and MAC addresses.",
             "external_references": [
                 {
                     "url": "http://www.welivesecurity.com/wp-content/uploads/2016/05/Operation-Groundbait.pdf",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "A module in {{LinkById|S0113}} collects information from the victim about its IP addresses and MAC addresses.",
             "source_ref": "malware--37cc7eb6-12e3-467b-82e8-f20f2cc73c69",
             "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0"
         }

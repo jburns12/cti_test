@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b6bc1773-19fd-48b7-a4ba-17f361838116",
+    "id": "bundle--a8ba3c3e-1f27-46e7-b0a2-956adb26ec07",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.068Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Some Lazarus Group malware uses multiple channels for C2, such as RomeoWhiskey-Two, which consists of a RAT channel that parses data in datagram form and a Proxy channel that forms virtual point-to-point sessions. (Citation: Novetta Blockbuster RATs)",
+            "description": "Some Lazarus Group malware uses multiple channels for C2, such as RomeoWhiskey-Two, which consists of a RAT channel that parses data in datagram form and a Proxy channel that forms virtual point-to-point sessions.",
             "external_references": [
                 {
                     "url": "https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Report.pdf",
@@ -25,6 +25,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "Some {{LinkById|G0032}} malware uses multiple channels for C2, such as RomeoWhiskey-Two, which consists of a RAT channel that parses data in datagram form and a Proxy channel that forms virtual point-to-point sessions.",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--99709758-2b96-48f2-a68a-ad7fbd828091"
         }

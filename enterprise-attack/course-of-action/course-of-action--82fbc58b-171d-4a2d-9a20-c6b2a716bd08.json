@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7f5a7045-edc0-4add-9ed3-21d8bd3ff177",
+    "id": "bundle--faa89885-81cb-4a48-8cf3-a6a1269b0cf4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -32,7 +32,8 @@
                     "description": "Microsoft. (n.d.). Manage Trusted Publishers. Retrieved March 31, 2016.",
                     "source_name": "TechNet Trusted Publishers"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Process whitelisting and trusted publishers to verify authenticity of software can help prevent signed malicious or untrusted code from executing on a system. (Citation: NSA MS AppLocker) (Citation: TechNet Trusted Publishers) (Citation: Securelist Digital Certificates)"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0e738e18-38d8-4436-9b30-8813da65f9d4",
+    "id": "bundle--a6ed4060-f522-47ef-8037-2257946216d9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Pisloader uses cmd.exe to set the Registry Run key value. It also has a command to spawn a command shell. (Citation: Palo Alto DNS Requests)",
+            "description": "Pisloader uses cmd.exe to set the Registry Run key value. It also has a command to spawn a command shell.",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2016/05/unit42-new-wekby-attacks-use-dns-requests-as-command-and-control-mechanism/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0124}} uses cmd.exe to set the Registry Run key value. It also has a command to spawn a command shell.",
             "source_ref": "malware--b96680d1-5eb3-4f07-b95c-00ab904ac236",
             "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830"
         }

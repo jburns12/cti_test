@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1f750ea0-9ba2-407a-8cf6-027bf8c2bf17",
+    "id": "bundle--1c3a095a-7da8-4a63-93ce-1d212ba7ee24",
     "spec_version": "2.0",
     "objects": [
         {
@@ -17,7 +17,8 @@
                     "url": "https://attack.mitre.org/wiki/Technique/T1147",
                     "source_name": "mitre-attack"
                 }
-            ]
+            ],
+            "x_mitre_detection": "If the computer is domain joined, then group policy can help restrict the ability to create or hide users. Similarly, preventing the modification of the <code>/Library/Preferences/com.apple.loginwindow</code> <code>Hide500Users</code> value will force all users to be visible."
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8a4d80f0-e5d6-48e4-b5a4-9a88fc3c226d",
+    "id": "bundle--a04d2917-2d19-4c0e-a55c-ab61ef54cb86",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,6 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0231}} takes a PowerShell script and embeds the bytes of the script into the pixels of a PNG image. It generates a one liner for executing either from a file of from the web. Example of usage is embedding the PowerShell code from the Invoke-Mimikatz module and embed it into an image file. By calling the image file from a macro for example, the macro will download the picture and execute the PowerShell code, which in this case will dump the passwords. (Citation: GitHub Invoke-PSImage)",
             "x_mitre_platforms": [
                 "Windows"
             ],

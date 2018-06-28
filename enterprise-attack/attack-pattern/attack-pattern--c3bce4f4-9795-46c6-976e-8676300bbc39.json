@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2e973e42-f9c1-4778-9b19-a44c14bba3fa",
+    "id": "bundle--885a3c39-3ed2-4693-8af6-006f3b1f9c98",
     "spec_version": "2.0",
     "objects": [
         {
@@ -41,7 +41,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Monitor use of WinRM within an environment by tracking service execution. If it is not normally used or is disabled, then this may be an indicator of suspicious behavior. Monitor processes created and actions taken by the WinRM process or a WinRM invoked script to correlate it with other related events.",
+            "x_mitre_detection": "Windows Remote Management (WinRM) is the name of both a Windows service and a protocol that allows a user to interact with a remote system (e.g., run an executable, modify the Registry, modify services). (Citation: Microsoft WinRM) It may be called with the <code>winrm</code> command or by any number of programs such as PowerShell. (Citation: Jacobsen 2014)",
             "x_mitre_platforms": [
                 "Windows"
             ],

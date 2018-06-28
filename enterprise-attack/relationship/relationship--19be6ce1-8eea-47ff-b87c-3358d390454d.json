@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--753f15aa-e4b1-4325-9bd6-7a33b1e826a4",
+    "id": "bundle--7c8874d0-8958-4968-ad9a-6c6e48b6c818",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "China Chopper is capable of opening a command terminal. (Citation: SecureWorks BRONZE UNION June 2017)",
+            "description": "China Chopper is capable of opening a command terminal.",
             "external_references": [
                 {
                     "url": "https://www.secureworks.com/research/bronze-union",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0020}} is capable of opening a command terminal.",
             "source_ref": "malware--5a3a31fe-5a8f-48e1-bff0-a753e5b1be70",
             "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--478702b3-954a-4818-b5a0-fbc4aab1b9fa",
+    "id": "bundle--3fa1174d-a008-4d3b-a6c6-63b828a127ae",
     "spec_version": "2.0",
     "objects": [
         {
@@ -17,7 +17,8 @@
                     "url": "https://attack.mitre.org/wiki/Technique/T1206",
                     "source_name": "mitre-attack"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Setting the <code>timestamp_timeout</code> to 0 will require the user to input their password every time <code>sudo</code> is executed. Similarly, ensuring that the <code>tty_tickets</code> setting is enabled will prevent this leakage across tty sessions."
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9ed37693-c4c3-467d-a4a9-749dd334f722",
+    "id": "bundle--d2cff42e-89a7-4f5c-9b92-5604f5bb7822",
     "spec_version": "2.0",
     "objects": [
         {
@@ -37,7 +37,8 @@
                     "description": "Microsoft. (n.d.). User Account Control. Retrieved January 18, 2018.",
                     "source_name": "Microsoft UAC"
                 }
-            ]
+            ],
+            "x_mitre_detection": "This type of attack technique cannot be easily mitigated with preventive controls since it is based on the abuse of operating system design features. For example, mitigating specific Windows API calls and/or execution of particular file extensions will likely have unintended side effects, such as preventing legitimate software (i.e., drivers and configuration tools) from operating properly. Efforts should be focused on preventing adversary tools from running earlier in the chain of activity and on identification of subsequent malicious behavior.\n\nRestrict storage and execution of Control Panel items to protected directories, such as C:\\Windows, rather than user directories.\n\nIndex known safe Control Panel items and block potentially malicious software using whitelisting (Citation: Beechey 2010) tools like AppLocker (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) that are capable of auditing and/or blocking unknown executable files.\n\nConsider fully enabling User Account Control (UAC) to impede system-wide changes from illegitimate administrators. (Citation: Microsoft UAC)"
         }
     ]
 }

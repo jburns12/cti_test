@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--724ab84f-202f-426c-bf98-1cbb09e5c699",
+    "id": "bundle--bb0c82ba-db04-4bdb-9958-21cc009289c2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "APT28 exploited a Windows SMB Remote Code Execution Vulnerability to conduct lateral movement. (Citation: FireEye APT28 Hospitality Aug 2017) (Citation: MS17-010 March 2017)",
+            "description": "APT28 exploited a Windows SMB Remote Code Execution Vulnerability to conduct lateral movement.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf",
@@ -30,6 +30,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|G0007}} exploited a Windows SMB Remote Code Execution Vulnerability to conduct lateral movement.",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "attack-pattern--9db0cf3a-a3c9-4012-8268-123b9db6fd82"
         }

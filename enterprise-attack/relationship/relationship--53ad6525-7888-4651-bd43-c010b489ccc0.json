@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8937d1ad-cb9c-4982-b733-5d1ae9b5945f",
+    "id": "bundle--6cef8af5-f99c-48c3-8b29-345a18b44da3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "RawPOS encodes credit card data it collected from the victim with XOR. (Citation: TrendMicro RawPOS April 2015) (Citation: Visa RawPOS March 2015) (Citation: Mandiant FIN5 GrrCON Oct 2016)",
+            "description": "RawPOS encodes credit card data it collected from the victim with XOR.",
             "external_references": [
                 {
                     "description": "TrendLabs Security Intelligence Blog. (2015, April). RawPOS Technical Brief. Retrieved October 4, 2017.",
@@ -29,6 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0169}} encodes credit card data it collected from the victim with XOR.",
             "source_ref": "malware--9752aef4-a1f3-4328-929f-b64eb0536090",
             "target_ref": "attack-pattern--d54416bd-0803-41ca-870a-ce1af7c05638"
         }

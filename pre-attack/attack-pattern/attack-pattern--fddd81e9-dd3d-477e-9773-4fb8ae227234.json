@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f2e06a9e-7014-4db7-8770-6b7c3c9397e3",
+    "id": "bundle--0d86b46a-6b47-4ce9-b5b5-8f7e19b759bf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -30,7 +30,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detection": "A payload is the part of the malware which performs a malicious action. The adversary may create custom payloads when none exist with the needed capability or when targeting a specific environment. (Citation: APT1)"
         }
     ]
 }

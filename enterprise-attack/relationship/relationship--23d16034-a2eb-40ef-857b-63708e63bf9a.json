@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--689b5a88-6c82-4b90-9515-d96ece4c3e04",
+    "id": "bundle--8bf9717b-c429-4161-8e5c-77641a529176",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Orz can gather the victim OS version and whether it is 64 or 32 bit. (Citation: Proofpoint Leviathan Oct 2017)",
+            "description": "Orz can gather the victim OS version and whether it is 64 or 32 bit.",
             "external_references": [
                 {
                     "url": "https://www.proofpoint.com/us/threat-insight/post/leviathan-espionage-actor-spearphishes-maritime-and-defense-targets",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0229}} can gather the victim OS version and whether it is 64 or 32 bit.",
             "source_ref": "malware--06d735e7-1db1-4dbe-ab4b-acbe419f902b",
             "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1"
         }

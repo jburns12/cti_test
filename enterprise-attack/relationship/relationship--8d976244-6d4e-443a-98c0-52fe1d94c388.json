@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ce521705-3bbf-4739-9944-046c926026af",
+    "id": "bundle--fc9f02e9-df50-4378-b4ac-ff9a37517202",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "hcdLoader installs itself as a service for persistence. (Citation: Dell Lateral Movement) (Citation: ThreatStream Evasion Analysis)",
+            "description": "hcdLoader installs itself as a service for persistence.",
             "external_references": [
                 {
                     "url": "http://www.secureworks.com/resources/blog/where-you-at-indicators-of-lateral-movement-using-at-exe-on-windows-7-systems/",
@@ -25,6 +25,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0071}} installs itself as a service for persistence.",
             "source_ref": "malware--9e2bba94-950b-4fcf-8070-cb3f816c5f4e",
             "target_ref": "attack-pattern--478aa214-2ca7-4ec0-9978-18798e514790"
         }

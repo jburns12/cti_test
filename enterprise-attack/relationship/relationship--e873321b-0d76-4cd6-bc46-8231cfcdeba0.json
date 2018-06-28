@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a55987f4-1e75-406e-831a-ed675233a188",
+    "id": "bundle--96d604c5-7de5-4c8e-8ce4-6dff514be34b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Cobalt Strike allows adversaries to modify the way the \"beacon\" payload communicates. This is called \"Malleable C2\" in the Cobalt Strike manual and is intended to allow a penetration test team to mimic known APT C2 methods. (Citation: cobaltstrike manual) (Citation: GitHub Malleable C2)",
+            "description": "Cobalt Strike allows adversaries to modify the way the \"beacon\" payload communicates. This is called \"Malleable C2\" in the Cobalt Strike manual and is intended to allow a penetration test team to mimic known APT C2 methods.",
             "external_references": [
                 {
                     "url": "https://cobaltstrike.com/downloads/csmanual38.pdf",
@@ -25,6 +25,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0154}} allows adversaries to modify the way the \"beacon\" payload communicates. This is called \"Malleable C2\" in the {{LinkById|S0154}} manual and is intended to allow a penetration test team to mimic known APT C2 methods.",
             "source_ref": "tool--aafea02e-ece5-4bb2-91a6-3bf8c7f38a39",
             "target_ref": "attack-pattern--f72eb8a8-cd4c-461d-a814-3f862befbf00"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a7ea24ca-8fc2-4eff-bae5-12eec27f056a",
+    "id": "bundle--99109f24-f0c0-467c-b16c-be0717092eca",
     "spec_version": "2.0",
     "objects": [
         {
@@ -17,7 +17,8 @@
                     "url": "https://attack.mitre.org/wiki/Technique/T1188",
                     "source_name": "mitre-attack"
                 }
-            ]
+            ],
+            "x_mitre_detection": "Traffic to known anonymity networks and C2 infrastructure can be blocked through the use of network black and white lists. It should be noted that this kind of blocking may be circumvented by other techniques like {{LinkById|T1172}}."
         }
     ]
 }

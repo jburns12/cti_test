@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5881bbf3-bde6-4c7e-86e8-a88338201e8a",
+    "id": "bundle--314b54b4-6dce-4d48-89ac-1dd614ace292",
     "spec_version": "2.0",
     "objects": [
         {
@@ -9,7 +9,7 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-06-27T14:18:47.700Z",
-            "description": "RARSTONE uses SSL to encrypt its communication with its C2 server. (Citation: Aquino RARSTONE)",
+            "description": "RARSTONE uses SSL to encrypt its communication with its C2 server.",
             "external_references": [
                 {
                     "url": "http://blog.trendmicro.com/trendlabs-security-intelligence/rarstone-found-in-targeted-attacks/",
@@ -20,6 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_detection": "{{LinkById|S0055}} uses SSL to encrypt its communication with its C2 server.",
             "source_ref": "malware--8c553311-0baa-4146-997a-f79acef3d831",
             "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6"
         }
