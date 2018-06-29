@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b688c7e4-f485-4a6a-bc94-b65a682472ca",
+    "id": "bundle--02a34ed4-1a9c-4387-8be0-775b689f7acf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8526,6 +8526,16 @@
             "x_mitre_aliases": [
                 "Xbot"
             ]
+        },
+        {
+            "type": "marking-definition",
+            "id": "marking-definition-fa42a846-8d90-4e51-bc29-71d5b4802168",
+            "created_by_ref": "identity--c78cb6e5-0c4b-8297-d1b8b55e40b5",
+            "created": "2017-06-01T00:00:00Z",
+            "definition_type": "statement",
+            "definition": {
+                "statement": "Copyright 2017, The MITRE Corporation"
+            }
         }
     ]
 }
