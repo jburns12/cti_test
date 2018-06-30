@@ -1,0 +1,36 @@
+{
+    "type": "bundle",
+    "id": "bundle--de5167e9-d491-4db4-9ec0-c95dc7e62af3",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--2ec57bf1-fcc3-4c19-9516-79b7fde483af",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-06-18T16:40:07.760Z",
+            "name": "Untargeted client-side exploitation",
+            "description": "A technique that takes advantage of flaws in client-side applications without targeting specific users. For example, an exploit placed on an often widely used public web site intended for drive-by delivery to whomever visits the site. (Citation: CitizenLabGreatCannon)",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "launch",
+                    "kill_chain_name": "mitre-pre-attack"
+                }
+            ],
+            "external_references": [
+                {
+                    "external_id": "PRE-T1147",
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1147",
+                    "source_name": "mitre-pre-attack"
+                },
+                {
+                    "description": "Bill Marczak, Jakub Dalek, John Scott-Railton, Ron Deibert, Sarah McKune. (2015, April 10). China\u2019s Great Cannon. Retrieved March 9, 2017.",
+                    "source_name": "CitizenLabGreatCannon"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ]
+        }
+    ]
+}

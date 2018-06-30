@@ -1,0 +1,36 @@
+{
+    "type": "bundle",
+    "id": "bundle--27721414-31fa-47ce-ae74-1f3e497225f4",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--784ff1bc-1483-41fe-a172-4cd9ae25c06b",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-06-18T16:40:07.760Z",
+            "name": "Acquire OSINT data sets and information",
+            "description": "Open source intelligence (OSINT) is intelligence gathered from publicly available sources. This can include both information gathered on-line, such as from search engines, as well as in the physical world. (Citation: RSA-APTRecon)",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "technical-information-gathering",
+                    "kill_chain_name": "mitre-pre-attack"
+                }
+            ],
+            "external_references": [
+                {
+                    "external_id": "PRE-T1024",
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1024",
+                    "source_name": "mitre-pre-attack"
+                },
+                {
+                    "description": "Rotem Kerner. (2015, October). RECONNAISSANCE: A Walkthrough of the \u201cAPT\u201d Intelligence Gathering Process. Retrieved March 1, 2017.",
+                    "source_name": "RSA-APTRecon"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ]
+        }
+    ]
+}

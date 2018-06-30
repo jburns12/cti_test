@@ -1,0 +1,36 @@
+{
+    "type": "bundle",
+    "id": "bundle--f8f00179-3822-477b-801a-67184704376e",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--8b57a8f1-9cbc-4b95-b162-cc2a1add94f2",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-06-18T16:40:07.760Z",
+            "name": "Test malware to evade detection",
+            "description": "An adversary can run their code on systems with cyber security protections, such as antivirus products, in place to see if their code is detected. They can also test their malware on freely available public services. (Citation: MalwareQAZirtest)",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "test-capabilities",
+                    "kill_chain_name": "mitre-pre-attack"
+                }
+            ],
+            "external_references": [
+                {
+                    "external_id": "PRE-T1136",
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1136",
+                    "source_name": "mitre-pre-attack"
+                },
+                {
+                    "description": "Damballa Day Before Zero Blog. (2009, December 17). Malware QA and Exploit Testing Services \u2013 Virtest.com. Retrieved March 9, 2017.",
+                    "source_name": "MalwareQAZirtest"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ]
+        }
+    ]
+}

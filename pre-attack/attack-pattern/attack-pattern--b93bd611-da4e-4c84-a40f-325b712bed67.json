@@ -1,0 +1,40 @@
+{
+    "type": "bundle",
+    "id": "bundle--417deaa2-1201-4f79-8c45-775a6804295a",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--b93bd611-da4e-4c84-a40f-325b712bed67",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-06-18T16:40:07.760Z",
+            "name": "Task requirements",
+            "description": "Once divided into the most granular parts, analysts work with collection managers to task the collection management system with requirements and sub-requirements. (Citation: Heffter) (Citation: JP2-01)",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "priority-definition-direction",
+                    "kill_chain_name": "mitre-pre-attack"
+                }
+            ],
+            "external_references": [
+                {
+                    "external_id": "PRE-T1017",
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1017",
+                    "source_name": "mitre-pre-attack"
+                },
+                {
+                    "description": "Clyde R. Heffter. (2011, August 4). A Fresh Look at Collection Requirements. Retrieved March 2, 2017.",
+                    "source_name": "Heffter"
+                },
+                {
+                    "description": "Joint Chiefs of Staff. (2012, January 05). Joint and National Intelligence Support to Military Operations. Retrieved March 2, 2017.",
+                    "source_name": "JP2-01"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ]
+        }
+    ]
+}

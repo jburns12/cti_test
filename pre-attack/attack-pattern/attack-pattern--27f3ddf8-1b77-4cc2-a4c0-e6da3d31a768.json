@@ -1,0 +1,36 @@
+{
+    "type": "bundle",
+    "id": "bundle--d18a4be5-5f28-440e-90f7-abefb2e2cd88",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--27f3ddf8-1b77-4cc2-a4c0-e6da3d31a768",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-06-18T16:40:07.760Z",
+            "name": "Obtain/re-use payloads",
+            "description": "A payload is the part of the malware which performs a malicious action. The adversary may re-use payloads when the needed capability is already available. (Citation: SonyDestover)",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "build-capabilities",
+                    "kill_chain_name": "mitre-pre-attack"
+                }
+            ],
+            "external_references": [
+                {
+                    "external_id": "PRE-T1123",
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1123",
+                    "source_name": "mitre-pre-attack"
+                },
+                {
+                    "description": "Kurt Baumgartner. (2014, December 4). Sony/Destover: mystery North Korean actor\u2019s destructive and past network activity. Retrieved March 9, 2017.",
+                    "source_name": "SonyDestover"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ]
+        }
+    ]
+}

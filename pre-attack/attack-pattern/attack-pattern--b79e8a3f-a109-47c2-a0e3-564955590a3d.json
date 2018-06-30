@@ -1,0 +1,36 @@
+{
+    "type": "bundle",
+    "id": "bundle--9c2d013d-1179-4640-8534-068776be5b42",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--b79e8a3f-a109-47c2-a0e3-564955590a3d",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-06-18T16:40:07.760Z",
+            "name": "Non-traditional or less attributable payment options",
+            "description": "Using alternative payment options allows an adversary to hide their activities. Options include crypto currencies, barter systems, pre-paid cards or shell accounts. (Citation: Goodin300InBitcoins)",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "adversary-opsec",
+                    "kill_chain_name": "mitre-pre-attack"
+                }
+            ],
+            "external_references": [
+                {
+                    "external_id": "PRE-T1093",
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1093",
+                    "source_name": "mitre-pre-attack"
+                },
+                {
+                    "description": "Dan Goodin. (2013, October 17). You\u2019re infected\u2014if you want to see your data again, pay us $300 in Bitcoins. Retrieved March 6, 2017.",
+                    "source_name": "Goodin300InBitcoins"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ]
+        }
+    ]
+}

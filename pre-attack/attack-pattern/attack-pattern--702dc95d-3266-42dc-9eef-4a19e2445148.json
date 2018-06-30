@@ -1,0 +1,40 @@
+{
+    "type": "bundle",
+    "id": "bundle--e09dd0aa-3b96-4eea-aaf0-912c1a31c1e9",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--702dc95d-3266-42dc-9eef-4a19e2445148",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-06-18T16:40:07.760Z",
+            "name": "Push-notification client-side exploit",
+            "description": "A technique to push an [https://www.apple.com/ios iOS] or [https://www.android.com Android] MMS-type message to the target which does not require interaction on the part of the target to be successful. (Citation: BlackHat Stagefright) (Citation: WikiStagefright)",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "launch",
+                    "kill_chain_name": "mitre-pre-attack"
+                }
+            ],
+            "external_references": [
+                {
+                    "external_id": "PRE-T1150",
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1150",
+                    "source_name": "mitre-pre-attack"
+                },
+                {
+                    "description": "Joshua Drake. (2015, August 5). Stagefright: Scary Code in the Heart of Android. Retrieved March 29, 2017.",
+                    "source_name": "BlackHat Stagefright"
+                },
+                {
+                    "description": "Wikipedia contributors. (2017, March 8). Stagefright (bug). Retrieved March 9, 2017.",
+                    "source_name": "WikiStagefright"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ]
+        }
+    ]
+}

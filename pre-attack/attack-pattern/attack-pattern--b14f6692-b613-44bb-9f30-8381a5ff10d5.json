@@ -1,0 +1,36 @@
+{
+    "type": "bundle",
+    "id": "bundle--76a4ecd1-6319-4808-9db0-732c56dec313",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--b14f6692-b613-44bb-9f30-8381a5ff10d5",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-06-18T16:40:07.760Z",
+            "name": "Proxy/protocol relays",
+            "description": "Proxies act as an intermediary for clients seeking resources from other systems. Using a proxy may make it more difficult to track back the origin of a network communication. (Citation: APT1)",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "adversary-opsec",
+                    "kill_chain_name": "mitre-pre-attack"
+                }
+            ],
+            "external_references": [
+                {
+                    "external_id": "PRE-T1081",
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1081",
+                    "source_name": "mitre-pre-attack"
+                },
+                {
+                    "description": "Mandiant. (n.d.). APT1: Exposing One of China\u2019s Cyber Espionage Units. Retrieved March 5, 2017.",
+                    "source_name": "APT1"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ]
+        }
+    ]
+}

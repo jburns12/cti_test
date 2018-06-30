@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--3e71ac38-233a-41c4-b2a2-fe31f89cf881",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "relationship",
+            "id": "relationship--a5b4d08c-963a-48fe-8f22-ba344835d00e",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "BADNEWS has a command to download an .exe and use process hollowing to inject it into a new process.",
+            "external_references": [
+                {
+                    "url": "https://www.forcepoint.com/sites/default/files/resources/files/forcepoint-security-labs-monsoon-analysis-report.pdf",
+                    "description": "Settle, A., et al. (2016, August 8). MONSOON - Analysis Of An APT Campaign. Retrieved September 22, 2016.",
+                    "source_name": "Forcepoint Monsoon"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "source_ref": "malware--e9595678-d269-469e-ae6b-75e49259de63",
+            "target_ref": "attack-pattern--1c338d0f-a65e-4073-a5c1-c06878849f21"
+        }
+    ]
+}

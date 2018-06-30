@@ -1,0 +1,36 @@
+{
+    "type": "bundle",
+    "id": "bundle--67b45ee7-e3a9-467c-a8d8-265dbec8f126",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--092f05e3-f7c0-4cd2-91be-3a8d6ed3cadc",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-06-18T16:40:07.760Z",
+            "name": "Analyze organizational skillsets and deficiencies",
+            "description": "Analyze strengths and weaknesses of the target for potential areas of where to focus compromise efforts. (Citation: FakeLinkedIn)",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "technical-weakness-identification",
+                    "kill_chain_name": "mitre-pre-attack"
+                }
+            ],
+            "external_references": [
+                {
+                    "external_id": "PRE-T1066",
+                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1066",
+                    "source_name": "mitre-pre-attack"
+                },
+                {
+                    "description": "LIFARS. (2015, October 8). Hackers Fake LinkedIn Profiles to Scout Targets. Retrieved March 5, 2017.",
+                    "source_name": "FakeLinkedIn"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ]
+        }
+    ]
+}
