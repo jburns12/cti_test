@@ -8,7 +8,7 @@ import shutil
 
 import simplejson as json
 
-from modules import collections, cti, download, lookup, scrub, util
+from modules import collections, download, lookup, scrub, util
 
 # suppress InsecureRequestWarning: Unverified HTTPS request is being made
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
