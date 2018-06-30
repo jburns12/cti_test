@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--24c125d8-c6e7-4aa0-8e70-85f01e320210",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "relationship",
+            "id": "relationship--3b31b258-d3e0-4acc-9c20-de870baa64a0",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "The Komplex trojan supports file deletion.",
+            "external_references": [
+                {
+                    "url": "https://researchcenter.paloaltonetworks.com/2016/09/unit42-sofacys-komplex-os-x-trojan/",
+                    "description": "Dani Creus, Tyler Halfpop, Robert Falcone. (2016, September 26). Sofacy's 'Komplex' OS X Trojan. Retrieved July 8, 2017.",
+                    "source_name": "Sofacy Komplex Trojan"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "source_ref": "malware--f108215f-3487-489d-be8b-80e346d32518",
+            "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--6d17106f-648c-4dc6-a768-a3b3a4039642",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "relationship",
+            "id": "relationship--5e840479-61c1-44f5-8cb8-0e61ffe12b89",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Taidoor can perform DLL loading.",
+            "external_references": [
+                {
+                    "url": "http://www.trendmicro.com/cloud-content/us/pdfs/security-intelligence/white-papers/wp%20the%20taidoor%20campaign.pdf",
+                    "description": "Trend Micro. (2012). The Taidoor Campaign. Retrieved November 12, 2014.",
+                    "source_name": "TrendMicro Taidoor"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "source_ref": "malware--b143dfa4-e944-43ff-8429-bfffc308c517",
+            "target_ref": "attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d"
+        }
+    ]
+}

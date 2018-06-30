@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--3c503eff-925f-4864-8acf-5b5831d8e580",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "relationship",
+            "id": "relationship--cd2a7854-1339-4f40-8ba1-be032dc5249e",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "The BlackEnergy 3 variant drops its main DLL component and then creates a .lnk shortcut to that file in the startup folder.",
+            "external_references": [
+                {
+                    "url": "https://www.f-secure.com/documents/996508/1030745/blackenergy%20whitepaper.pdf",
+                    "description": "F-Secure Labs. (2014). BlackEnergy & Quedagh: The convergence of crimeware and APT attacks. Retrieved March 24, 2016.",
+                    "source_name": "F-Secure BlackEnergy 2014"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "source_ref": "malware--54cc1d4f-5c53-4f0e-9ef5-11b4998e82e4",
+            "target_ref": "attack-pattern--9422fc14-1c43-410d-ab0f-a709b76c72dc"
+        }
+    ]
+}

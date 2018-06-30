@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--41a0e701-2e85-4a78-bb00-1668a7cd82ec",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "relationship",
+            "id": "relationship--54e99ba2-143f-43be-8d7f-79de5551d1ac",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "BBSRAT can query service configuration information.",
+            "external_references": [
+                {
+                    "url": "http://researchcenter.paloaltonetworks.com/2015/12/bbsrat-attacks-targeting-russian-organizations-linked-to-roaming-tiger/",
+                    "description": "Lee, B. Grunzweig, J. (2015, December 22). BBSRAT Attacks Targeting Russian Organizations Linked to Roaming Tiger. Retrieved August 19, 2016.",
+                    "source_name": "Palo Alto Networks BBSRAT"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "source_ref": "malware--64d76fa5-cf8f-469c-b78c-1a4f7c5bad80",
+            "target_ref": "attack-pattern--322bad5a-1c49-4d23-ab79-76d641794afa"
+        }
+    ]
+}

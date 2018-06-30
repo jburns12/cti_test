@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--3b2251b4-f562-4a95-a6a6-eabb38604496",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "relationship",
+            "id": "relationship--47df35dd-7d45-452d-af46-d04348a6b363",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "ZeroT has obfuscated DLLs and functions using dummy API calls inserted between real instructions.",
+            "external_references": [
+                {
+                    "url": "https://www.proofpoint.com/us/threat-insight/post/APT-targets-russia-belarus-zerot-plugx",
+                    "description": "Huss, D., et al. (2017, February 2). Oops, they did it again: APT Targets Russia and Belarus with ZeroT and PlugX. Retrieved April 5, 2018.",
+                    "source_name": "Proofpoint ZeroT Feb 2017"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "source_ref": "malware--4ab44516-ad75-4e43-a280-705dc0420e2f",
+            "target_ref": "attack-pattern--519630c5-f03f-4882-825c-3af924935817"
+        }
+    ]
+}

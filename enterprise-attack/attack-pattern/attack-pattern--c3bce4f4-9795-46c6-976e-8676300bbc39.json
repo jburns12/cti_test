@@ -1,0 +1,65 @@
+{
+    "type": "bundle",
+    "id": "bundle--5fbceb83-a1fc-4d11-8eca-71917ac83ef4",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--c3bce4f4-9795-46c6-976e-8676300bbc39",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-05-31T21:30:33.723Z",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "name": "Windows Remote Management",
+            "description": "Windows Remote Management (WinRM) is the name of both a Windows service and a protocol that allows a user to interact with a remote system (e.g., run an executable, modify the Registry, modify services). (Citation: Microsoft WinRM) It may be called with the <code>winrm</code> command or by any number of programs such as PowerShell. (Citation: Jacobsen 2014)",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "execution",
+                    "kill_chain_name": "mitre-attack"
+                },
+                {
+                    "phase_name": "lateral-movement",
+                    "kill_chain_name": "mitre-attack"
+                }
+            ],
+            "external_references": [
+                {
+                    "external_id": "T1028",
+                    "url": "https://attack.mitre.org/wiki/Technique/T1028",
+                    "source_name": "mitre-attack"
+                },
+                {
+                    "url": "http://msdn.microsoft.com/en-us/library/aa384426",
+                    "description": "Microsoft. (n.d.). Windows Remote Management. Retrieved November 12, 2014.",
+                    "source_name": "Microsoft WinRM"
+                },
+                {
+                    "url": "https://www.slideshare.net/kieranjacobsen/lateral-movement-with-power-shell-2",
+                    "description": "Jacobsen, K. (2014, May 16). Lateral Movement with PowerShell&#91;slides&#93;. Retrieved November 12, 2014.",
+                    "source_name": "Jacobsen 2014"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_detection": "Monitor use of WinRM within an environment by tracking service execution. If it is not normally used or is disabled, then this may be an indicator of suspicious behavior. Monitor processes created and actions taken by the WinRM process or a WinRM invoked script to correlate it with other related events.",
+            "x_mitre_platforms": [
+                "Windows"
+            ],
+            "x_mitre_data_sources": [
+                "File monitoring",
+                "Authentication logs",
+                "Netflow/Enclave netflow",
+                "Process command-line parameters",
+                "Process monitoring"
+            ],
+            "x_mitre_permissions_required": [
+                "User",
+                "Administrator"
+            ],
+            "x_mitre_system_requirements": [
+                "WinRM listener turned on and configured on remote system"
+            ],
+            "x_mitre_remote_support": true
+        }
+    ]
+}

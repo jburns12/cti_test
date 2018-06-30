@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--15e022b5-10fd-45f4-a923-22245c34e724",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "relationship",
+            "id": "relationship--3e82234f-db7b-4a0f-8c0a-979b01381a6a",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "MuddyWater has used filenames and Registry key names associated with Windows Defender.",
+            "external_references": [
+                {
+                    "url": "https://www.fireeye.com/blog/threat-research/2018/03/iranian-threat-group-updates-ttps-in-spear-phishing-campaign.html",
+                    "description": "Singh, S. et al.. (2018, March 13). Iranian Threat Group Updates Tactics, Techniques and Procedures in Spear Phishing Campaign. Retrieved April 11, 2018.",
+                    "source_name": "FireEye MuddyWater Mar 2018"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
+            "target_ref": "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0"
+        }
+    ]
+}

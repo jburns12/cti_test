@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--29eb3f04-cfb9-4c09-8ae9-89e1f49d55e7",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "relationship",
+            "id": "relationship--33c8fb30-3515-4582-ad29-34fa0d7e15e5",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "FIN10 has deployed Meterpreter stagers and SplinterRAT instances in the victim network after moving laterally.",
+            "external_references": [
+                {
+                    "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin10.pdf",
+                    "description": "FireEye iSIGHT Intelligence. (2017, June 16). FIN10: Anatomy of a Cyber Extortion Operation. Retrieved June 25, 2017.",
+                    "source_name": "FireEye FIN10 June 2017"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "source_ref": "intrusion-set--fbe9387f-34e6-4828-ac28-3080020c597b",
+            "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add"
+        }
+    ]
+}

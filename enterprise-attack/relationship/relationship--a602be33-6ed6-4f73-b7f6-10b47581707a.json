@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--e4098654-d2c4-4315-bd8f-fd3080950a50",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "relationship",
+            "id": "relationship--a602be33-6ed6-4f73-b7f6-10b47581707a",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-05-31T21:33:27.070Z",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Poseidon Group searches for administrator accounts on both the local victim machine and the network.",
+            "external_references": [
+                {
+                    "url": "https://securelist.com/poseidon-group-a-targeted-attack-boutique-specializing-in-global-cyber-espionage/73673/",
+                    "description": "Kaspersky Lab's Global Research and Analysis Team. (2016, February 9). Poseidon Group: a Targeted Attack Boutique specializing in global cyber-espionage. Retrieved March 16, 2016.",
+                    "source_name": "Kaspersky Poseidon Group"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "source_ref": "intrusion-set--7ecc3b4f-5cdb-457e-b55a-df376b359446",
+            "target_ref": "attack-pattern--72b74d71-8169-42aa-92e0-e7b04b9f5a08"
+        }
+    ]
+}

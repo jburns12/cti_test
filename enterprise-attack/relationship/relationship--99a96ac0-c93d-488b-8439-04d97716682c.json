@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--bf25e56e-813b-42a7-ae45-fe0f127bc954",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "relationship",
+            "id": "relationship--99a96ac0-c93d-488b-8439-04d97716682c",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-04-18T17:59:24.739Z",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "menuPass has used legitimate access granted to Managed Service Providers in order to access victims of interest.",
+            "external_references": [
+                {
+                    "url": "https://www.fireeye.com/blog/threat-research/2017/04/apt10%20menupass%20grou.html",
+                    "description": "FireEye iSIGHT Intelligence. (2017, April 6). APT10 (MenuPass Group): New Tools, Global Campaign Latest Manifestation of Longstanding Threat. Retrieved June 29, 2017.",
+                    "source_name": "FireEye APT10 April 2017"
+                },
+                {
+                    "url": "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-annex-b-final.pdf",
+                    "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.",
+                    "source_name": "PWC Cloud Hopper Technical Annex April 2017"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+            "target_ref": "attack-pattern--9fa07bef-9c81-421e-a8e5-ad4366c5a925"
+        }
+    ]
+}

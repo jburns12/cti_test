@@ -1,0 +1,23 @@
+{
+    "type": "bundle",
+    "id": "bundle--5234f3ef-c019-405d-9d02-ddcb1464e1aa",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "course-of-action",
+            "id": "course-of-action--fdb1ae84-7b00-4d3d-b7dc-c774beef6425",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "name": "Account Manipulation Mitigation",
+            "description": "Use multifactor authentication. Follow guidelines to prevent or limit adversary access to Valid Accounts Mitigation.\n\nProtect domain controllers by ensuring proper security configuration for critical servers. Configure access controls and firewalls to limit access to these systems. Do not allow domain administrator accounts to be used for day-to-day operations that may expose them to potential adversaries on unprivileged systems.",
+            "external_references": [
+                {
+                    "external_id": "T1098",
+                    "url": "https://attack.mitre.org/wiki/Technique/T1098",
+                    "source_name": "mitre-attack"
+                }
+            ]
+        }
+    ]
+}

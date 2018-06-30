@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--1730061e-17e7-4613-9dab-ff1f8af36259",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "relationship",
+            "id": "relationship--ea61c268-d0d1-4cbe-8b26-16f70f515a04",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "description": "Remsec has a plugin to detect active drivers of some security products.",
+            "external_references": [
+                {
+                    "url": "https://securelist.com/files/2016/07/The-ProjectSauron-APT%20Technical%20Analysis%20KL.pdf",
+                    "description": "Kaspersky Lab's Global Research & Analysis Team. (2016, August 9). The ProjectSauron APT. Technical Analysis. Retrieved August 17, 2016.",
+                    "source_name": "Kaspersky ProjectSauron Technical Analysis"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "source_ref": "malware--69d6f4a9-fcf0-4f51-bca7-597c51ad0bb8",
+            "target_ref": "attack-pattern--241814ae-de3f-4656-b49e-f9a80764d4b7"
+        }
+    ]
+}

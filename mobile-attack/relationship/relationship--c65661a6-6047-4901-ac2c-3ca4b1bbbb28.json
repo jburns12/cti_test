@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--d3c52470-aa46-4f7a-9c18-c4a62818ec36",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "relationship",
+            "id": "relationship--c65661a6-6047-4901-ac2c-3ca4b1bbbb28",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-06-18T15:59:03.864Z",
+            "description": "DroidJack RAT captures \"call data\".",
+            "external_references": [
+                {
+                    "url": "https://www.zscaler.com/blogs/research/super-mario-run-malware-2-\u2013-droidjack-rat",
+                    "description": "Viral Gandhi. (2017, January 12). Super Mario Run Malware #2 \u2013 DroidJack RAT. Retrieved January 20, 2017.",
+                    "source_name": "Zscaler-SuperMarioRun"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "source_ref": "malware--05c4f87c-be8f-46ea-8d9a-2a0aad8f52c1",
+            "target_ref": "attack-pattern--79eec66a-9bd0-4a3f-ac82-19159e94bd44"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "type": "bundle",
+    "id": "bundle--afd59221-d5bd-499d-9b8e-e69aec582122",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "course-of-action",
+            "id": "course-of-action--2d704e56-e689-4011-b989-bf4e025a8727",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-06-27T14:18:47.700Z",
+            "name": "Plist Modification Mitigation",
+            "description": "Prevent plist files from being modified by users by making them read-only.",
+            "external_references": [
+                {
+                    "external_id": "T1150",
+                    "url": "https://attack.mitre.org/wiki/Technique/T1150",
+                    "source_name": "mitre-attack"
+                }
+            ]
+        }
+    ]
+}

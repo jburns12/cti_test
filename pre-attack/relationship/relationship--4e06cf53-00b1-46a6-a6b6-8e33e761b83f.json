@@ -1,0 +1,19 @@
+{
+    "type": "bundle",
+    "id": "bundle--e42a89d6-467e-42c2-934a-d2766ab3ac35",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "relationship",
+            "id": "relationship--4e06cf53-00b1-46a6-a6b6-8e33e761b83f",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-06-18T16:40:07.760Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "source_ref": "intrusion-set--c47f937f-1022-4f42-8525-e7a4779a14cb",
+            "target_ref": "attack-pattern--91a3735f-817a-4450-8ed4-f05a0f5c3877"
+        }
+    ]
+}
