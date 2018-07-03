@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--3f370b13-f0c5-4456-9f8e-0cb6d2166e87",
+    "id": "bundle--404e9f3f-2d54-4972-8fe5-277e0195a5ac",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--9c1ec4da-96d9-4173-b944-77c341a19572",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[FIN8](https://attack.mitre.org/group/G0061) has distributed targeted emails containing Word documents with embedded malicious macros.",
+            "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
+            "target_ref": "attack-pattern--6aac77c4-eaf2-4366-8c13-ce50ab951f38",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/06/obfuscation-in-the-wild.html",
@@ -27,11 +30,12 @@
                     "source_name": "FireEye Know Your Enemy FIN8 Aug 2016"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
-            "target_ref": "attack-pattern--6aac77c4-eaf2-4366-8c13-ce50ab951f38"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

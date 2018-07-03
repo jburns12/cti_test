@@ -1,26 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--271706ac-9ac7-4e4c-926f-72816c787dc2",
+    "id": "bundle--d3def8de-cce0-4080-9462-5e4bbb17fd38",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--46d818a5-67fa-4585-a7fc-ecf15376c8d5",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-10-25T14:48:31.294Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Modify OS Kernel or Boot Partition",
             "description": "If an adversary can escalate privileges, he or she may be able to use those privileges to place malicious code in the device kernel or other boot partition components, where the code may evade detection, may persist after device resets, and may not be removable by the device user. In some cases (e.g., the Samsung Knox warranty bit as described under Detection), the attack may be detected but could result in the device being placed in a state that no longer allows certain functionality.\n\nMany Android devices provide the ability to unlock the bootloader for development purposes, but doing so introduces the potential ability for others to maliciously update the kernel or other boot partition code.\n\nIf the bootloader is not unlocked, it may still be possible to exploit device vulnerabilities to update the code.",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "defense-evasion",
-                    "kill_chain_name": "mitre-mobile-attack"
-                },
-                {
-                    "phase_name": "persistence",
-                    "kill_chain_name": "mitre-mobile-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "MOB-T1001",
@@ -55,7 +42,23 @@
             "x_mitre_platforms": [
                 "Android",
                 "iOS"
-            ]
+            ],
+            "x_mitre_tactic_type": [
+                "Post-Adversary Device Access"
+            ],
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "defense-evasion",
+                    "kill_chain_name": "mitre-mobile-attack"
+                },
+                {
+                    "phase_name": "persistence",
+                    "kill_chain_name": "mitre-mobile-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-10-25T14:48:31.294Z"
         }
     ]
 }

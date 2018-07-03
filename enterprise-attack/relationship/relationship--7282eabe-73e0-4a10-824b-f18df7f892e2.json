@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--5f7dbcec-f407-4efc-85d2-20d8d9d90485",
+    "id": "bundle--305ab07f-b12a-4b0a-a69a-3ca424ec2ff3",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--7282eabe-73e0-4a10-824b-f18df7f892e2",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Trojan.Karagany](https://attack.mitre.org/software/S0094) can upload, download, and execute files on the victim.",
+            "source_ref": "malware--82cb34ba-02b5-432b-b2d2-07f55cbf674d",
+            "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://www.symantec.com/content/en/us/enterprise/media/security%20response/whitepapers/Dragonfly%20Threat%20Against%20Western%20Energy%20Suppliers.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "Symantec Dragonfly"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--82cb34ba-02b5-432b-b2d2-07f55cbf674d",
-            "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

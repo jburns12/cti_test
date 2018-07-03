@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--0fd20982-4ed8-4ada-8042-354be13c9bb7",
+    "id": "bundle--03ed4ed1-04c0-4565-81ad-8534e1f61893",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--76c12fc8-a4eb-45d6-a3b7-e371a7248f69",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-10-25T14:48:07.460Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Manipulate App Store Rankings or Ratings",
             "description": "An adversary could use access to a compromised device's credentials to attempt to manipulate app store rankings or ratings by triggering application downloads or posting fake reviews of applications. This technique likely requires privileged access (a rooted or jailbroken device).",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "effects",
-                    "kill_chain_name": "mitre-mobile-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "MOB-T1055",
@@ -30,7 +21,19 @@
             "x_mitre_platforms": [
                 "Android",
                 "iOS"
-            ]
+            ],
+            "x_mitre_tactic_type": [
+                "Post-Adversary Device Access"
+            ],
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "effects",
+                    "kill_chain_name": "mitre-mobile-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-10-25T14:48:07.460Z"
         }
     ]
 }

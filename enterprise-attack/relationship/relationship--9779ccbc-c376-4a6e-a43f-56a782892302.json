@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--48be4e22-fdfb-4b21-9e9a-07a15eb2e6d6",
+    "id": "bundle--b4c96255-8b60-4e19-bf9d-527b79e7c48a",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--9779ccbc-c376-4a6e-a43f-56a782892302",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[OilRig](https://attack.mitre.org/group/G0049) has used compromised credentials to access other systems on a victim network.",
+            "source_ref": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",
+            "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://pan-unit42.github.io/playbook%20viewer/",
@@ -17,11 +20,12 @@
                     "source_name": "Unit 42 Playbook OilRig Dec 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",
-            "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-01-16T16:13:52.465Z"
         }
     ]
 }

@@ -1,20 +1,16 @@
 {
     "type": "bundle",
-    "id": "bundle--6658d199-379f-4275-a0c6-175ff005b485",
+    "id": "bundle--b11c43d7-7b73-4d42-bc36-94aa0bb86ca5",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "intrusion-set",
             "id": "intrusion-set--df71bb3b-813c-45eb-a8bc-f2a419837411",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:31:55.093Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Molerats",
             "description": "[Molerats](https://attack.mitre.org/group/G0021) is a politically-motivated threat group that has been operating since 2012. The group's victims have primarily been in the Middle East, Europe, and the United States. (Citation: DustySky) (Citation: DustySky)2",
-            "aliases": [
-                "Molerats",
-                "Operation Molerats",
-                "Gaza Cybergang"
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
@@ -44,9 +40,16 @@
                     "source_name": "FireEye Operation Molerats"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
+            ],
+            "aliases": [
+                "Molerats",
+                "Operation Molerats",
+                "Gaza Cybergang"
+            ],
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:31:55.093Z"
         }
     ]
 }

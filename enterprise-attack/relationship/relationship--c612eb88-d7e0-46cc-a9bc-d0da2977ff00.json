@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--0921bc81-cb7e-47bb-be9a-f32fd941d2bd",
+    "id": "bundle--cc61bb98-a2bb-4e3a-a12e-a9430552e53e",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--c612eb88-d7e0-46cc-a9bc-d0da2977ff00",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[USBStealer](https://attack.mitre.org/software/S0136) drops commands for a second victim onto a removable media drive inserted into the first victim, and commands are executed when the drive is inserted into the second victim.",
+            "source_ref": "malware--af2ad3b7-ab6a-4807-91fd-51bcaff9acbb",
+            "target_ref": "attack-pattern--64196062-5210-42c3-9a02-563a0d1797ef",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://www.welivesecurity.com/2014/11/11/sednit-espionage-group-attacking-air-gapped-networks/",
@@ -17,11 +20,12 @@
                     "source_name": "ESET Sednit USBStealer 2014"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--af2ad3b7-ab6a-4807-91fd-51bcaff9acbb",
-            "target_ref": "attack-pattern--64196062-5210-42c3-9a02-563a0d1797ef"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

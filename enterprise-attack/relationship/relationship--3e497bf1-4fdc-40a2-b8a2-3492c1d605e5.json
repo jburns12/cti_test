@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--beda1ee9-9242-4013-88db-886c4a975667",
+    "id": "bundle--3d430b77-48e4-4445-8685-ab6f5dca5731",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--3e497bf1-4fdc-40a2-b8a2-3492c1d605e5",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[POSHSPY](https://attack.mitre.org/software/S0150) uploads data in 2048-byte chunks.",
+            "source_ref": "malware--5e595477-2e78-4ce7-ae42-e0b059b17808",
+            "target_ref": "attack-pattern--c3888c54-775d-4b2f-b759-75a2ececcbfd",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/03/dissecting%20one%20ofap.html",
@@ -17,11 +20,12 @@
                     "source_name": "FireEye POSHSPY April 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--5e595477-2e78-4ce7-ae42-e0b059b17808",
-            "target_ref": "attack-pattern--c3888c54-775d-4b2f-b759-75a2ececcbfd"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--d3188c4a-3457-4173-b2ee-3d24f85643e6",
+    "id": "bundle--206e43e3-99be-48be-93b8-a0222fb7c080",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--138da0bb-befa-45cd-9ca4-c74b86ac61ff",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Briba](https://attack.mitre.org/software/S0204) uses rundll32 within [Registry Run Keys / Start Folder Mitigation](https://attack.mitre.org/technique/T1060) entries to execute malicious DLLs.",
+            "source_ref": "malware--79499993-a8d6-45eb-b343-bf58dea5bdde",
+            "target_ref": "attack-pattern--62b8c999-dcc0-4755-bd69-09442d9359f5",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.symantec.com/security%20response/writeup.jsp?docid=2012-051515-2843-99",
@@ -17,11 +20,12 @@
                     "source_name": "Symantec Briba May 2012"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--79499993-a8d6-45eb-b343-bf58dea5bdde",
-            "target_ref": "attack-pattern--62b8c999-dcc0-4755-bd69-09442d9359f5"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

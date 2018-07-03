@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--2a5627e0-1cb7-484f-a59f-b97ec5e5ca09",
+    "id": "bundle--c158c82e-4c75-493d-8b9b-2c4c18e849df",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--35697909-4c19-4799-a5ac-3153750619f8",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Volgmer](https://attack.mitre.org/software/S0180) can gather system information from a victim.",
+            "source_ref": "malware--495b6cdb-7b5a-4fbc-8d33-e7ef68806d08",
+            "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.us-cert.gov/ncas/alerts/TA17-318B",
@@ -17,11 +20,12 @@
                     "source_name": "US-CERT Volgmer Nov 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--495b6cdb-7b5a-4fbc-8d33-e7ef68806d08",
-            "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-01-16T16:13:52.465Z"
         }
     ]
 }

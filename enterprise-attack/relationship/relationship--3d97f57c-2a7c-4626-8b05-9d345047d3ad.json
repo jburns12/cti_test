@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--d65a3d24-e38f-4f3f-93c5-cf4adc9726ec",
+    "id": "bundle--c8aa1e21-8b9e-4267-a83b-1b82881b4c3a",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--3d97f57c-2a7c-4626-8b05-9d345047d3ad",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[PlugX](https://attack.mitre.org/software/S0013) uses Pastebin to store its real C2 addresses.",
+            "source_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",
+            "target_ref": "attack-pattern--830c9528-df21-472c-8c14-a036bf17d665",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://researchcenter.paloaltonetworks.com/2017/06/unit42-paranoid-plugx/",
@@ -17,11 +20,12 @@
                     "source_name": "Palo Alto PlugX June 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",
-            "target_ref": "attack-pattern--830c9528-df21-472c-8c14-a036bf17d665"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

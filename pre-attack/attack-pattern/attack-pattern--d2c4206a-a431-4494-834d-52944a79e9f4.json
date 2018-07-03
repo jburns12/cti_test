@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--64f69d74-470f-441f-8c35-849ba01ec3bf",
+    "id": "bundle--31b71a80-f47a-4482-b32c-a154ded1b394",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--d2c4206a-a431-4494-834d-52944a79e9f4",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Distribute malicious software development tools",
             "description": "An adversary could distribute malicious software development tools (e.g., compiler) that hide malicious behavior in software built using the tools. (Citation: PA XcodeGhost) (Citation: Reflections on Trusting Trust)",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "stage-capabilities",
-                    "kill_chain_name": "mitre-pre-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "PRE-T1171",
@@ -34,7 +25,20 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detectable_by_common_defenses": "No",
+            "x_mitre_detectable_by_common_defenses_explanation": "Developers could check a hash or signature of their development tools to ensure that they match expected values (e.g., Apple provides instructions of how to do so for its Xcode developer tool), but developers may not always do so.",
+            "x_mitre_difficulty_for_adversary": "No",
+            "x_mitre_difficulty_for_adversary_explanation": "The adversary would need to either replace the tools provided at the official download location or influence developers to download the tools from an adversary-controlled third-party download location. Desktop operating systems (e.g., Windows, macOS) are increasingly encouraging use of vendor-provided official app stores to distribute software, which utilize code signing and increase the difficulty of replacing development tools with malicious versions.",
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "stage-capabilities",
+                    "kill_chain_name": "mitre-pre-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

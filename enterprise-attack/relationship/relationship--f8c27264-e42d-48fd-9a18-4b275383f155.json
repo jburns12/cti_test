@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--ae678148-6180-482a-b047-28a3d0075c45",
+    "id": "bundle--be7b8ac0-28d9-4d4e-8c89-1b6a4c3362f6",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--f8c27264-e42d-48fd-9a18-4b275383f155",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Elderwood](https://attack.mitre.org/group/G0066) has packed malware payloads before delivery to victims.",
+            "source_ref": "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
+            "target_ref": "attack-pattern--6ff403bc-93e3-48be-8687-e102fdba8c88",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://www.symantec.com/content/en/us/enterprise/media/security%20response/whitepapers/the-elderwood-project.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "Symantec Elderwood Sept 2012"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
-            "target_ref": "attack-pattern--6ff403bc-93e3-48be-8687-e102fdba8c88"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

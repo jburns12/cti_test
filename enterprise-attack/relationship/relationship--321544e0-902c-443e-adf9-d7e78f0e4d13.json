@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--968506b5-3a5b-442f-826f-d8701ad242da",
+    "id": "bundle--2ae9c35b-f652-4114-9b22-1919ee9b015e",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--321544e0-902c-443e-adf9-d7e78f0e4d13",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Unknown Logger](https://attack.mitre.org/software/S0130) is capable of downloading remote files.",
+            "source_ref": "malware--ab3580c8-8435-4117-aace-3d9fbe46aa56",
+            "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.forcepoint.com/sites/default/files/resources/files/forcepoint-security-labs-monsoon-analysis-report.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "Forcepoint Monsoon"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--ab3580c8-8435-4117-aace-3d9fbe46aa56",
-            "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

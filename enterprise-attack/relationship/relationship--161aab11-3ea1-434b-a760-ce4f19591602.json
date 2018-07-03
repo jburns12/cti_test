@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--54d6210e-0ce5-46a0-857e-f7352f8e25cf",
+    "id": "bundle--d035060a-cfad-4761-b02f-b4d093f29cf9",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--161aab11-3ea1-434b-a760-ce4f19591602",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "stages collected data in a text file.",
+            "source_ref": "malware--310f437b-29e7-4844-848c-7220868d074a",
+            "target_ref": "attack-pattern--7dd95ff6-712e-4056-9626-312ea4ab4c5e",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.symantec.com/security%20response/writeup.jsp?docid=2005-081910-3934-99",
@@ -17,11 +20,12 @@
                     "source_name": "Symantec Darkmoon Aug 2005"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--310f437b-29e7-4844-848c-7220868d074a",
-            "target_ref": "attack-pattern--7dd95ff6-712e-4056-9626-312ea4ab4c5e"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

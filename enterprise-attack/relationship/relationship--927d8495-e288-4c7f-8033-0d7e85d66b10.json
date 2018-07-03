@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--e041dddc-a9e6-4384-b04a-04ca1dc3deef",
+    "id": "bundle--2f94e05f-3c36-4435-81a1-496a8e3cd758",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--927d8495-e288-4c7f-8033-0d7e85d66b10",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[TA459](https://attack.mitre.org/group/G0062) has a VBScript for execution.",
+            "source_ref": "intrusion-set--62a64fd3-aaf7-4d09-a375-d6f8bb118481",
+            "target_ref": "attack-pattern--7fd87010-3a00-4da3-b905-410525e8ec44",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.proofpoint.com/us/threat-insight/post/apt-targets-financial-analysts",
@@ -17,11 +20,12 @@
                     "source_name": "Proofpoint TA459 April 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--62a64fd3-aaf7-4d09-a375-d6f8bb118481",
-            "target_ref": "attack-pattern--7fd87010-3a00-4da3-b905-410525e8ec44"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

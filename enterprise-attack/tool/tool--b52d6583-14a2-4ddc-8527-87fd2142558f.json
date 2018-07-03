@@ -1,19 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--33225f89-9443-4fda-a895-10cb9f7ae0c5",
+    "id": "bundle--25eb2d74-b99f-4274-ba7e-245f53d5c449",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "tool",
             "id": "tool--b52d6583-14a2-4ddc-8527-87fd2142558f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Invoke-PSImage",
             "description": "[Invoke-PSImage](https://attack.mitre.org/software/S0231) takes a PowerShell script and embeds the bytes of the script into the pixels of a PNG image. It generates a one liner for executing either from a file of from the web. Example of usage is embedding the PowerShell code from the Invoke-Mimikatz module and embed it into an image file. By calling the image file from a macro for example, the macro will download the picture and execute the PowerShell code, which in this case will dump the passwords. (Citation: GitHub Invoke-PSImage)",
-            "labels": [
-                "tool"
-            ],
             "external_references": [
                 {
                     "external_id": "S0231",
@@ -29,15 +23,21 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_platforms": [
-                "Windows"
+            "x_mitre_aliases": [
+                "Invoke-PSImage"
             ],
             "x_mitre_contributors": [
                 "Christiaan Beek, @ChristiaanBeek"
             ],
-            "x_mitre_aliases": [
-                "Invoke-PSImage"
-            ]
+            "x_mitre_platforms": [
+                "Windows"
+            ],
+            "type": "tool",
+            "labels": [
+                "tool"
+            ],
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

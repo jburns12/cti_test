@@ -1,14 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--2cf587e0-33c6-447a-9894-536bbca21f98",
+    "id": "bundle--89ca0db5-123b-4202-99c1-2bc2a856aaa5",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "course-of-action",
             "id": "course-of-action--9ab7de33-99b2-4d8d-8cf3-182fa0015cc2",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-07-03T13:33:43.876Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Logon Scripts Mitigation",
             "description": "Restrict write access to logon scripts to specific administrators. Prevent access to administrator accounts by mitigating Credential Access techniques and limiting account access and permissions of [Valid Accounts Mitigation](https://attack.mitre.org/technique/T1078).\n\nIdentify and block potentially malicious software that may be executed through logon script modification by using whitelisting (Citation: Beechey 2010) tools like AppLocker (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) that are capable of auditing and/or blocking unknown programs.",
             "external_references": [
@@ -32,7 +29,10 @@
                     "description": "NSA Information Assurance Directorate. (2014, August). Application Whitelisting Using Microsoft AppLocker. Retrieved March 31, 2016.",
                     "source_name": "NSA MS AppLocker"
                 }
-            ]
+            ],
+            "type": "course-of-action",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-07-03T13:33:43.876Z"
         }
     ]
 }

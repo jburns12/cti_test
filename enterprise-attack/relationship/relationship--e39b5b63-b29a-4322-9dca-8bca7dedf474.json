@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--90ba5437-a2e1-490e-9af9-4113e24e3a91",
+    "id": "bundle--fb44cd5e-c5fb-4c9f-8901-14fa06ddb796",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--e39b5b63-b29a-4322-9dca-8bca7dedf474",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Dragonfly](https://attack.mitre.org/group/G0035) downloaded tools from a remote server after they were inside the victim network.",
+            "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
+            "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.us-cert.gov/ncas/alerts/TA17-293A",
@@ -17,11 +20,12 @@
                     "source_name": "US-CERT APT Energy Oct 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
-            "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-01-16T16:13:52.465Z"
         }
     ]
 }

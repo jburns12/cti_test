@@ -1,14 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--6c398477-89eb-493f-b2f0-c102458a8cea",
+    "id": "bundle--0566d659-34ff-4394-a37e-87f1cafaea0d",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "course-of-action",
             "id": "course-of-action--8bd1ae32-a686-48f4-a6f8-470287f76152",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-07-03T13:33:43.876Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Automated Collection Mitigation",
             "description": "Encryption and off-system storage of sensitive information may be one way to mitigate collection of files, but may not stop an adversary from acquiring the information if an intrusion persists over a long period of time and the adversary is able to discover and access the data through other means. A keylogger installed on a system may be able to intercept passwords through [Input Capture Mitigation](https://attack.mitre.org/technique/T1056) and be used to decrypt protected documents that an adversary may have collected. Strong passwords should be used to prevent offline cracking of encrypted documents through [Brute Force Mitigation](https://attack.mitre.org/technique/T1110) techniques.\n\nIdentify unnecessary system utilities, third-party tools, or potentially malicious software that may be used to collect files and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
             "external_references": [
@@ -42,7 +39,10 @@
                     "description": "Microsoft. (2012, June 27). Using Software Restriction Policies and AppLocker Policies. Retrieved April 7, 2016.",
                     "source_name": "TechNet Applocker vs SRP"
                 }
-            ]
+            ],
+            "type": "course-of-action",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-07-03T13:33:43.876Z"
         }
     ]
 }

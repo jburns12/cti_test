@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--62185d2b-094d-45b0-a1b0-bbfa1eedb2f8",
+    "id": "bundle--994fffc8-eda6-4b5d-b7b5-1ae4255e64f1",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--76c9e8cb-52e1-4ddc-80d4-5f7231842e06",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "DNS poisoning",
             "description": "DNS (cache) poisoning is the corruption of an Internet server's domain name system table by replacing an Internet address with that of another, rogue address. When a Web user seeks the page with that address, the request is redirected by the rogue entry in the table to a different address. (Citation: Google DNS Poisoning) (Citation: DNS Poisoning China) (Citation: Mexico Modem DNS Poison)",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "launch",
-                    "kill_chain_name": "mitre-pre-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "PRE-T1159",
@@ -38,7 +29,20 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detectable_by_common_defenses": "Partial",
+            "x_mitre_detectable_by_common_defenses_explanation": "Tracking multiple DNS infrastructures will likely require multiple tools/services, more advanced analytics, and mature detection/response capabilities in order to be effective.   Few defenders demonstrate the mature processes to immediately detect and mitigate against the use of this technique.",
+            "x_mitre_difficulty_for_adversary": "Yes",
+            "x_mitre_difficulty_for_adversary_explanation": "Adversary poisons DNS entry to redirect traffic designated for one site to route to an adversary controlled resource.",
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "launch",
+                    "kill_chain_name": "mitre-pre-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

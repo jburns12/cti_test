@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--e348a843-8475-4634-92b2-55cc256a0cc5",
+    "id": "bundle--d55c39ca-c370-4544-ab1a-bae8cbeba7ff",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--e362d1ad-5d36-4f6d-b2b0-63af2f5f08ff",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:33:27.073Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Stealth Falcon](https://attack.mitre.org/group/G0038) malware creates a scheduled task entitled \u201cIE Web Cache\u201d to execute a malicious file hourly.",
+            "source_ref": "intrusion-set--894aab42-3371-47b1-8859-a4a074c804c8",
+            "target_ref": "attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://citizenlab.org/2016/05/stealth-falcon/",
@@ -17,11 +20,12 @@
                     "source_name": "Citizen Lab Stealth Falcon May 2016"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--894aab42-3371-47b1-8859-a4a074c804c8",
-            "target_ref": "attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:33:27.073Z"
         }
     ]
 }

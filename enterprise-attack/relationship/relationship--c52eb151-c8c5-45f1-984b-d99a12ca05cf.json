@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--17556508-819e-4ed1-b2f1-1d67bb9f37f7",
+    "id": "bundle--51e52e4f-a7fc-4692-a59c-d7b795c6cd73",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--c52eb151-c8c5-45f1-984b-d99a12ca05cf",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Derusbi](https://attack.mitre.org/software/S0021) binds to a raw socket on a random source port between 31800 and 31900 for C2.",
+            "source_ref": "malware--94379dec-5c87-49db-b36e-66abc0b81344",
+            "target_ref": "attack-pattern--c21d5a77-d422-4a69-acd7-2c53c1faa34b",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.fidelissecurity.com/sites/default/files/TA%20Fidelis%20Turbo%201602%200.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "Fidelis Turbo"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--94379dec-5c87-49db-b36e-66abc0b81344",
-            "target_ref": "attack-pattern--c21d5a77-d422-4a69-acd7-2c53c1faa34b"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--d5de5113-dc98-4940-a5e2-1e89298f51c6",
+    "id": "bundle--200b51de-38a7-4cfd-b2d1-d82fd3dde367",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--ac65e484-b59a-40e1-984e-02dc4b62b6f0",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[APT28](https://attack.mitre.org/group/G0007) attempted to get users to click on Microsoft Excel attachments containing malicious macro scripts.",
+            "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
+            "target_ref": "attack-pattern--8c32eb4d-805f-4fc5-bf60-c4d476c131b5",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://researchcenter.paloaltonetworks.com/2018/02/unit42-sofacy-attacks-multiple-government-entities/",
@@ -17,11 +20,12 @@
                     "source_name": "Unit 42 Sofacy Feb 2018"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
-            "target_ref": "attack-pattern--8c32eb4d-805f-4fc5-bf60-c4d476c131b5"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

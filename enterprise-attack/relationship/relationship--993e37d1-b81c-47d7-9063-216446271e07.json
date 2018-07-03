@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--bb9eb7fc-6e25-42fa-a111-86b5cbab2084",
+    "id": "bundle--0ce2bc52-7cb8-4d63-a214-d878af6df65e",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--993e37d1-b81c-47d7-9063-216446271e07",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[TA459](https://attack.mitre.org/group/G0062) has attempted to get victims to open malicious Microsoft Word attachment sent via spearphishing.",
+            "source_ref": "intrusion-set--62a64fd3-aaf7-4d09-a375-d6f8bb118481",
+            "target_ref": "attack-pattern--8c32eb4d-805f-4fc5-bf60-c4d476c131b5",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.proofpoint.com/us/threat-insight/post/apt-targets-financial-analysts",
@@ -17,11 +20,12 @@
                     "source_name": "Proofpoint TA459 April 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--62a64fd3-aaf7-4d09-a375-d6f8bb118481",
-            "target_ref": "attack-pattern--8c32eb4d-805f-4fc5-bf60-c4d476c131b5"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

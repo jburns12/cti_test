@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--7a967a06-4146-4811-8c0b-bae322620025",
+    "id": "bundle--d5769549-44ab-40a0-bc42-6ca69c74b9e1",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--e2ea7f6b-8d4f-49c3-819d-660530d12b77",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-10-25T14:48:19.265Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "System Information Discovery",
             "description": "An adversary may attempt to get detailed information about the operating system and hardware, including version, patches, and architecture.\n\nOn Android, much of this information is programmatically accessible to applications through the android.os.Build class (Citation: Android-Build).\n\nOn iOS, techniques exist for applications to programmatically access this information, for example as described in  (Citation: StackOverflow-iOSVersion).",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "discovery",
-                    "kill_chain_name": "mitre-mobile-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "MOB-T1029",
@@ -40,7 +31,19 @@
             "x_mitre_platforms": [
                 "Android",
                 "iOS"
-            ]
+            ],
+            "x_mitre_tactic_type": [
+                "Post-Adversary Device Access"
+            ],
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "discovery",
+                    "kill_chain_name": "mitre-mobile-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-10-25T14:48:19.265Z"
         }
     ]
 }

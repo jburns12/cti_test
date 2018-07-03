@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--4b9cccf9-46a6-4cdc-90b0-35a8d258a22d",
+    "id": "bundle--7d09ec3e-b24e-46f2-a9a9-150d91a67eb6",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--312c929a-abf6-44c1-95d6-6dde60c7a3fe",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[PowerSploit](https://attack.mitre.org/software/S0194) contains a collection of Privesc-PowerUp modules that can query Registry keys for potential opportunities.",
+            "source_ref": "tool--13cd9151-83b7-410d-9f98-25d0f0d1d80d",
+            "target_ref": "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://github.com/PowerShellMafia/PowerSploit",
@@ -22,11 +25,12 @@
                     "source_name": "PowerSploit Documentation"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "tool--13cd9151-83b7-410d-9f98-25d0f0d1d80d",
-            "target_ref": "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

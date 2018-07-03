@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--f8c26e64-983e-474e-be83-e2b7ff56cfd8",
+    "id": "bundle--bf40afff-1737-4fe0-94be-1ed47ed762ae",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--31fa5b03-1ede-4fab-8a68-ed831fcf4899",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Misattributable credentials",
             "description": "The use of credentials by an adversary with the intent to hide their true identity and/or portray them self as another person or entity.  An adversary may use misattributable credentials in an attack to convince a victim that credentials are legitimate and trustworthy when this is not actually the case. (Citation: FakeSSLCerts)",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "adversary-opsec",
-                    "kill_chain_name": "mitre-pre-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "PRE-T1099",
@@ -30,7 +21,20 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detectable_by_common_defenses": "Partial",
+            "x_mitre_detectable_by_common_defenses_explanation": "If a previous incident identified the credentials used by an adversary, defenders can potentially use these credentials to track the adversary through reuse of the same credentials.",
+            "x_mitre_difficulty_for_adversary": "Yes",
+            "x_mitre_difficulty_for_adversary_explanation": "An adversary can easily create and use misattributable credentials to obtain servers, build environment, [https://aws.amazon.com AWS] accounts, etc.  Many service providers require some form of identifiable information such as a phone number or email address, but there are several avenues to acquire these consistent with the misattributable identity.",
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "adversary-opsec",
+                    "kill_chain_name": "mitre-pre-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

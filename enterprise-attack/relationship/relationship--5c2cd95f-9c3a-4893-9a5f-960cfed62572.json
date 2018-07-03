@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--ce5bf02e-ba8e-46d8-979a-38f1d1917470",
+    "id": "bundle--b53d6889-6d3b-42fa-bda1-54e45b595df7",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--5c2cd95f-9c3a-4893-9a5f-960cfed62572",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[MuddyWater](https://attack.mitre.org/group/G0069) has used Daniel Bohannon\u2019s Invoke-Obfuscation framework. The group also used files with base64 encoded PowerShell commands.",
+            "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
+            "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://researchcenter.paloaltonetworks.com/2017/11/unit42-muddying-the-water-targeted-attacks-in-the-middle-east/",
@@ -27,11 +30,12 @@
                     "source_name": "GitHub Invoke-Obfuscation"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
-            "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

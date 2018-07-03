@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--1870ecf6-56f1-45f2-9eaf-b8a1a839daa1",
+    "id": "bundle--09dbdc4a-f651-4fbc-b441-3ed2ebd4aefb",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--9422fc14-1c43-410d-ab0f-a709b76c72dc",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:30:49.988Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Registry Run Keys / Start Folder",
             "description": "Adding an entry to the \"run keys\" in the Registry or startup folder will cause the program referenced to be executed when a user logs in. (Citation: Microsoft Run Key) The program will be executed under the context of the user and will have the account's associated permissions level.\n\nAdversaries can use these configuration locations to execute malware, such as remote access tools, to maintain persistence through system reboots. Adversaries may also use [Masquerading Mitigation](https://attack.mitre.org/technique/T1036) to make the Registry entries look as if they are associated with legitimate programs.",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "persistence",
-                    "kill_chain_name": "mitre-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "T1060",
@@ -37,18 +28,27 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Monitor Registry for changes to run keys that do not correlate with known software, patch cycles, etc. Monitor the start folder for additions or changes. Tools such as Sysinternals Autoruns may also be used to detect system changes that could be attempts at persistence, including listing the run keys' Registry locations and startup folders. (Citation: TechNet Autoruns) Suspicious program execution as startup programs may show up as outlier processes that have not been seen before when compared against historical data.\n\nChanges to these locations typically happen under normal conditions when legitimate software is installed. To increase confidence of malicious activity, data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities, such as network connections made for Command and Control, learning details about the environment through Discovery, and Lateral Movement.",
-            "x_mitre_platforms": [
-                "Windows"
-            ],
             "x_mitre_data_sources": [
                 "Windows Registry",
                 "File monitoring"
             ],
+            "x_mitre_detection": "Monitor Registry for changes to run keys that do not correlate with known software, patch cycles, etc. Monitor the start folder for additions or changes. Tools such as Sysinternals Autoruns may also be used to detect system changes that could be attempts at persistence, including listing the run keys' Registry locations and startup folders. (Citation: TechNet Autoruns) Suspicious program execution as startup programs may show up as outlier processes that have not been seen before when compared against historical data.\n\nChanges to these locations typically happen under normal conditions when legitimate software is installed. To increase confidence of malicious activity, data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities, such as network connections made for Command and Control, learning details about the environment through Discovery, and Lateral Movement.",
             "x_mitre_permissions_required": [
                 "User",
                 "Administrator"
-            ]
+            ],
+            "x_mitre_platforms": [
+                "Windows"
+            ],
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "persistence",
+                    "kill_chain_name": "mitre-attack"
+                }
+            ],
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:30:49.988Z"
         }
     ]
 }

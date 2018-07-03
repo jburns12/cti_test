@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--ecc2595c-2fa5-4903-bdfa-93b42451d8e8",
+    "id": "bundle--a31738ff-155d-463d-ae28-7b6361cd17d5",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--5d55979e-d4e8-44eb-97d6-e3e78baa60c7",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[MobileOrder](https://attack.mitre.org/software/S0079) exfiltrates data collected from the victim mobile device.",
+            "source_ref": "malware--463f68f1-5cde-4dc2-a831-68b73488f8f4",
+            "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2016/01/scarlet-mimic-years-long-espionage-targets-minority-activists/",
@@ -17,11 +20,12 @@
                     "source_name": "Scarlet Mimic Jan 2016"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--463f68f1-5cde-4dc2-a831-68b73488f8f4",
-            "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

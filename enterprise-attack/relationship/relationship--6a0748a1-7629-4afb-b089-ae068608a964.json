@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--98080b34-e436-4233-9a27-9bc5de492c1b",
+    "id": "bundle--6cb98dd3-04de-4738-bd2d-feab5000ba9b",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--6a0748a1-7629-4afb-b089-ae068608a964",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[spwebmember](https://attack.mitre.org/software/S0227) is used to enumerate and dump information from Microsoft SharePoint.",
+            "source_ref": "tool--33b9e38f-103c-412d-bdcf-904a91fff1e4",
+            "target_ref": "attack-pattern--d28ef391-8ed4-45dc-bc4a-2f43abf54416",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/march/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/",
@@ -17,11 +20,12 @@
                     "source_name": "NCC Group APT15 Alive and Strong"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "tool--33b9e38f-103c-412d-bdcf-904a91fff1e4",
-            "target_ref": "attack-pattern--d28ef391-8ed4-45dc-bc4a-2f43abf54416"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

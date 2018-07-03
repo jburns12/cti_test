@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--1e700a4f-1db0-4dd6-9a61-6578f07ae672",
+    "id": "bundle--fd0ca4ef-d334-494e-a2bb-4d9932b44d7e",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--d13fa042-8f26-44e1-a2a8-af0bf8e2ac9a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-10-25T14:48:32.328Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Obfuscated or Encrypted Payload",
             "description": "An app could contain malicious code in obfuscated or encrypted form, then deobfuscate or decrypt the code at runtime to evade many app vetting techniques, as described in  (Citation: Rastogi) (Citation: Zhou) (Citation: TrendMicro-Obad) (Citation: Xiao-iOS).",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "defense-evasion",
-                    "kill_chain_name": "mitre-mobile-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "MOB-T1009",
@@ -55,7 +46,19 @@
             "x_mitre_platforms": [
                 "Android",
                 "iOS"
-            ]
+            ],
+            "x_mitre_tactic_type": [
+                "Post-Adversary Device Access"
+            ],
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "defense-evasion",
+                    "kill_chain_name": "mitre-mobile-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-10-25T14:48:32.328Z"
         }
     ]
 }

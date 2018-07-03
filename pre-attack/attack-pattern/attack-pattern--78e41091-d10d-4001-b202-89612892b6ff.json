@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--554702a0-74d8-4c48-a69c-f0eb76460bdc",
+    "id": "bundle--ac42de73-31e2-4479-8442-6ee3945938ee",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--78e41091-d10d-4001-b202-89612892b6ff",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Identify supply chains",
             "description": "Supply chains include the people, processes, and technologies used to move a product or service from a supplier to a consumer. Understanding supply chains may provide an adversary with opportunities to exploit the technology or interconnections that are part of the supply chain. (Citation: SmithSupplyChain) (Citation: CERT-UKSupplyChain) (Citation: RSA-supply-chain)",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "technical-information-gathering",
-                    "kill_chain_name": "mitre-pre-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "PRE-T1023",
@@ -38,7 +29,20 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detectable_by_common_defenses": "No",
+            "x_mitre_detectable_by_common_defenses_explanation": "Difficult, if not impossible to detect, because the adversary may collect this information from external sources that cannot be monitored by a defender.",
+            "x_mitre_difficulty_for_adversary": "No",
+            "x_mitre_difficulty_for_adversary_explanation": "Supply chain diversity of sourcing increases adversary difficulty with accurate mapping.  Industry practice has moved towards agile sourcing.",
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "technical-information-gathering",
+                    "kill_chain_name": "mitre-pre-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

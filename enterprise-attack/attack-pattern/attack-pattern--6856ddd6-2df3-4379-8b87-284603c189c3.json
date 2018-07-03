@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--e0d396a0-84c7-4c71-a6cb-ba0d8537b56b",
+    "id": "bundle--9ec3ceff-71c2-4edf-9ef1-2bb4606b06f9",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--6856ddd6-2df3-4379-8b87-284603c189c3",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:30:28.613Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "System Firmware",
             "description": "The BIOS (Basic Input/Output System) and The Unified Extensible Firmware Interface (UEFI) or Extensible Firmware Interface (EFI) are examples of system firmware that operate as the software interface between the operating system and hardware of a computer. (Citation: Wikipedia BIOS) (Citation: Wikipedia UEFI) (Citation: About UEFI)\n\nSystem firmware like BIOS and (U)EFI underly the functionality of a computer and may be modified by an adversary to perform or assist in malicious activity. Capabilities exist to overwrite the system firmware, which may give sophisticated adversaries a means to install malicious firmware updates as a means of persistence on a system that may be difficult to detect.",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "persistence",
-                    "kill_chain_name": "mitre-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "T1019",
@@ -67,23 +58,32 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "System firmware manipulation may be detected. (Citation: MITRE Trustworthy Firmware Measurement) Dump and inspect BIOS images on vulnerable systems and compare against known good images. (Citation: MITRE Copernicus) Analyze differences to determine if malicious changes have occurred. Log attempts to read/write to BIOS and compare against known patching behavior.\n\nLikewise, EFI modules can be collected and compared against a known-clean list of EFI executable binaries to detect potentially malicious modules. The CHIPSEC framework can be used for analysis to determine if firmware modifications have been performed. (Citation: McAfee CHIPSEC Blog) (Citation: Github CHIPSEC) (Citation: Intel HackingTeam UEFI Rootkit)",
-            "x_mitre_platforms": [
-                "Windows"
+            "x_mitre_contributors": [
+                "Ryan Becwar",
+                "McAfee"
             ],
             "x_mitre_data_sources": [
                 "API monitoring",
                 "BIOS",
                 "EFI"
             ],
+            "x_mitre_detection": "System firmware manipulation may be detected. (Citation: MITRE Trustworthy Firmware Measurement) Dump and inspect BIOS images on vulnerable systems and compare against known good images. (Citation: MITRE Copernicus) Analyze differences to determine if malicious changes have occurred. Log attempts to read/write to BIOS and compare against known patching behavior.\n\nLikewise, EFI modules can be collected and compared against a known-clean list of EFI executable binaries to detect potentially malicious modules. The CHIPSEC framework can be used for analysis to determine if firmware modifications have been performed. (Citation: McAfee CHIPSEC Blog) (Citation: Github CHIPSEC) (Citation: Intel HackingTeam UEFI Rootkit)",
             "x_mitre_permissions_required": [
                 "Administrator",
                 "SYSTEM"
             ],
-            "x_mitre_contributors": [
-                "Ryan Becwar",
-                "McAfee"
-            ]
+            "x_mitre_platforms": [
+                "Windows"
+            ],
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "persistence",
+                    "kill_chain_name": "mitre-attack"
+                }
+            ],
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:30:28.613Z"
         }
     ]
 }

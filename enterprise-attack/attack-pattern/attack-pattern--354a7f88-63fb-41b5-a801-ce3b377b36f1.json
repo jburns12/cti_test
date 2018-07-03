@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--acb9144f-9a59-4e78-b7af-ed3e169c0e87",
+    "id": "bundle--36806246-4134-4ac8-ad0a-a4a4839abcb4",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:31:04.307Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "System Information Discovery",
             "description": "An adversary may attempt to get detailed information about the operating system and hardware, including version, patches, hotfixes, service packs, and architecture.\n\n===Windows===\n\nExample commands and utilities that obtain this information include <code>ver</code>, [Systeminfo](https://attack.mitre.org/software/S0096), and <code>dir</code> within [cmd](https://attack.mitre.org/software/S0106) for identifying information based on present files and directories.\n\n===Mac===\n\nOn Mac, the <code>systemsetup</code> command gives a detailed breakdown of the system, but it requires administrative privileges. Additionally, the <code>system_profiler</code> gives a very detailed breakdown of configurations, firewall rules, mounted volumes, hardware, and many other things without needing elevated permissions.",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "discovery",
-                    "kill_chain_name": "mitre-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "T1082",
@@ -27,19 +18,28 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_data_sources": [
+                "Process command-line parameters",
+                "Process monitoring"
+            ],
             "x_mitre_detection": "System and network discovery techniques normally occur throughout an operation as an adversary learns the environment. Data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities based on the information obtained.\n\nMonitor processes and command-line arguments for actions that could be taken to gather system and network information. Remote access tools with built-in features may interact directly with the Windows API to gather information. Information may also be acquired through Windows system management tools such as [cmd](https://attack.mitre.org/software/S0106) and [cmd](https://attack.mitre.org/software/S0106).",
+            "x_mitre_permissions_required": [
+                "User"
+            ],
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",
                 "Windows"
             ],
-            "x_mitre_data_sources": [
-                "Process command-line parameters",
-                "Process monitoring"
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "discovery",
+                    "kill_chain_name": "mitre-attack"
+                }
             ],
-            "x_mitre_permissions_required": [
-                "User"
-            ]
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:31:04.307Z"
         }
     ]
 }

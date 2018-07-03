@@ -1,26 +1,16 @@
 {
     "type": "bundle",
-    "id": "bundle--a5dd6b87-9c6e-4680-9760-9fa7985cfd6f",
+    "id": "bundle--3525d7ba-7abb-4751-b237-8098f129e4af",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "intrusion-set",
             "id": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:31:48.664Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "APT28",
             "description": "[APT28](https://attack.mitre.org/group/G0007) is a threat group that has been attributed to the Russian government. (Citation: FireEye APT28) (Citation: SecureWorks TG-4127) (Citation: FireEye APT28) January 2017 (Citation: GRIZZLY STEPPE JAR) This group reportedly compromised the Democratic National Committee in April 2016. (Citation: Crowdstrike DNC June 2016)",
-            "aliases": [
-                "APT28",
-                "Sednit",
-                "Sofacy",
-                "Pawn Storm",
-                "Fancy Bear",
-                "STRONTIUM",
-                "Tsar Team",
-                "Threat Group-4127",
-                "TG-4127"
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
@@ -94,9 +84,19 @@
                     "source_name": "SecureWorks TG-4127"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            "aliases": [
+                "APT28",
+                "Sednit",
+                "Sofacy",
+                "Pawn Storm",
+                "Fancy Bear",
+                "STRONTIUM",
+                "Tsar Team",
+                "Threat Group-4127",
+                "TG-4127"
+            ],
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:31:48.664Z"
         }
     ]
 }

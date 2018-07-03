@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--faf9c6fa-446c-43dc-90af-470c491a4211",
+    "id": "bundle--f40a107a-b43d-49cb-831a-484ac555c9e9",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--5301c007-7c00-4b4d-b355-864db8de052f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[CORESHELL](https://attack.mitre.org/software/S0137) collects hostname, volume serial number and OS version data from the victim and sends the information to its C2 server.",
+            "source_ref": "malware--60c18d06-7b91-4742-bae3-647845cd9d81",
+            "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "FireEye APT28"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--60c18d06-7b91-4742-bae3-647845cd9d81",
-            "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

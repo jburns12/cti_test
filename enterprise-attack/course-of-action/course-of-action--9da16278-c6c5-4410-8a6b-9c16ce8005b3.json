@@ -1,14 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--0739bf82-605a-4207-b3b8-b0ce86a34825",
+    "id": "bundle--8f8e1807-454a-4098-bf73-fd848b8c4c8b",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "course-of-action",
             "id": "course-of-action--9da16278-c6c5-4410-8a6b-9c16ce8005b3",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-07-03T13:33:43.876Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Screensaver Mitigation",
             "description": "Block .scr files from being executed from non-standard locations. Set Group Policy to force users to have a dedicated screensaver where local changes should not override the settings to prevent changes. Use Group Policy to disable screensavers if they are unnecessary. (Citation: TechNet Screensaver GP)",
             "external_references": [
@@ -22,7 +19,10 @@
                     "description": "Microsoft. (n.d.). Customizing the Desktop. Retrieved December 5, 2017.",
                     "source_name": "TechNet Screensaver GP"
                 }
-            ]
+            ],
+            "type": "course-of-action",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-07-03T13:33:43.876Z"
         }
     ]
 }

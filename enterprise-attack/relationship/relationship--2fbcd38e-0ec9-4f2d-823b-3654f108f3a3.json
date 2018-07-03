@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--47d3b06d-ad0a-44f2-8c26-549fb4f85cba",
+    "id": "bundle--75137984-e4c6-4982-8908-056627cce7a0",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--2fbcd38e-0ec9-4f2d-823b-3654f108f3a3",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Dragonfly](https://attack.mitre.org/group/G0035) used Web shells to maintain access to a victim network and download additional malicious files.",
+            "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
+            "target_ref": "attack-pattern--c16e5409-ee53-4d79-afdc-4099dc9292df",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.us-cert.gov/ncas/alerts/TA17-293A",
@@ -17,11 +20,12 @@
                     "source_name": "US-CERT APT Energy Oct 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
-            "target_ref": "attack-pattern--c16e5409-ee53-4d79-afdc-4099dc9292df"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-01-16T16:13:52.465Z"
         }
     ]
 }

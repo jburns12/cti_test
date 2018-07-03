@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--c2317ee8-1336-4cfe-bc48-fe251cd424a2",
+    "id": "bundle--623d11c4-2ab2-4b76-9619-8994095e07f4",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--a6525aec-acc4-47fe-92f9-b9b4de4b9228",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:30:50.342Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Graphical User Interface",
             "description": "Cause a binary or script to execute based on interacting with the file through a graphical user interface (GUI) or in an interactive remote session such as [Remote Desktop Protocol Mitigation](https://attack.mitre.org/technique/T1076).",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "execution",
-                    "kill_chain_name": "mitre-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "T1061",
@@ -27,24 +18,33 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Detection of execution through the GUI will likely lead to significant false positives. Other factors should be considered to detect misuse of services that can lead to adversaries gaining access to systems through interactive remote sessions. \n\nUnknown or unusual process launches outside of normal behavior on a particular system occurring through remote interactive sessions are suspicious. Collect and audit security logs that may indicate access to and use of [[Legitimate Credentials]] to access remote systems within the network.",
-            "x_mitre_platforms": [
-                "Linux",
-                "macOS",
-                "Windows"
-            ],
             "x_mitre_data_sources": [
                 "File monitoring",
                 "Binary file metadata",
                 "Process command-line parameters",
                 "Process monitoring"
             ],
+            "x_mitre_detection": "Detection of execution through the GUI will likely lead to significant false positives. Other factors should be considered to detect misuse of services that can lead to adversaries gaining access to systems through interactive remote sessions. \n\nUnknown or unusual process launches outside of normal behavior on a particular system occurring through remote interactive sessions are suspicious. Collect and audit security logs that may indicate access to and use of [[Legitimate Credentials]] to access remote systems within the network.",
+            "x_mitre_platforms": [
+                "Linux",
+                "macOS",
+                "Windows"
+            ],
             "x_mitre_permissions_required": [
                 "User",
                 "Administrator",
                 "SYSTEM"
             ],
-            "x_mitre_remote_support": true
+            "x_mitre_remote_support": true,
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "execution",
+                    "kill_chain_name": "mitre-attack"
+                }
+            ],
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:30:50.342Z"
         }
     ]
 }

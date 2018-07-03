@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--fbdaa82c-552d-45cf-9416-53992a7e7970",
+    "id": "bundle--27c2cbf4-985f-48aa-8fd3-c448882ed80a",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--4b45b720-a606-4c52-a28a-2ef298f9b42f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:33:27.071Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[FIN6](https://attack.mitre.org/group/G0037) has used Registry Run keys to establish persistence for its downloader tools known as HARDTACK and SHIPBREAD.",
+            "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+            "target_ref": "attack-pattern--9422fc14-1c43-410d-ab0f-a709b76c72dc",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "FireEye FIN6 April 2016"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
-            "target_ref": "attack-pattern--9422fc14-1c43-410d-ab0f-a709b76c72dc"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:33:27.071Z"
         }
     ]
 }

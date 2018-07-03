@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--198bbfbf-9ee8-4f18-900e-f6aee4f4dba8",
+    "id": "bundle--e2f79b6b-3de6-49ca-ab64-8849cc39c512",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--028ad431-84c5-4eb7-a364-2b797c234f88",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Acquire OSINT data sets and information",
             "description": "Data sets can be anything from Security Exchange Commission (SEC) filings to public phone numbers. Many datasets are now either publicly available for free or can be purchased from a variety of data vendors.  Open source intelligence (OSINT) is intelligence gathered from publicly available sources. This can include both information gathered on-line as well as in the physical world. (Citation: SANSThreatProfile) (Citation: Infosec-osint) (Citation: isight-osint)",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "organizational-information-gathering",
-                    "kill_chain_name": "mitre-pre-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "PRE-T1054",
@@ -38,7 +29,20 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detectable_by_common_defenses": "No",
+            "x_mitre_detectable_by_common_defenses_explanation": "This activity is indistinguishable from legitimate business uses and easy to obtain.",
+            "x_mitre_difficulty_for_adversary": "Yes",
+            "x_mitre_difficulty_for_adversary_explanation": "Large quantities of data exists on people, organizations and technologies whether divulged wittingly or collected as part of doing business on the Internet (unbeknownst to the user/company).  Search engine and database indexing companies continuously mine this information and make it available to anyone who queries for it.",
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "organizational-information-gathering",
+                    "kill_chain_name": "mitre-pre-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

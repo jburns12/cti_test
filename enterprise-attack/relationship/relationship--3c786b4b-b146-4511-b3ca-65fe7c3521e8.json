@@ -1,26 +1,30 @@
 {
     "type": "bundle",
-    "id": "bundle--f868f935-c5a5-429c-b246-126cd2dab7cc",
+    "id": "bundle--7aa082af-e71f-4c1e-8ba1-7110847c9622",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--3c786b4b-b146-4511-b3ca-65fe7c3521e8",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[JPIN](https://attack.mitre.org/software/S0201) can enumerate Registry keys.",
+            "source_ref": "malware--de6cb631-52f6-4169-a73b-7965390b0c30",
+            "target_ref": "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "description": "Windows Defender Advanced Threat Hunting Team. (2016, April 29). PLATINUM: Targeted attacks in South and Southeast Asia. Retrieved February 15, 2018.",
                     "source_name": "Microsoft PLATINUM April 2016"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--de6cb631-52f6-4169-a73b-7965390b0c30",
-            "target_ref": "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

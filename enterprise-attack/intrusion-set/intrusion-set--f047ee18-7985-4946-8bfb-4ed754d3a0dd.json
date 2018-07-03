@@ -1,18 +1,16 @@
 {
     "type": "bundle",
-    "id": "bundle--4b47e703-8f1b-4c7e-b5b4-1cc883edd823",
+    "id": "bundle--01ef505e-a709-4405-85a3-beb4339b8a35",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "intrusion-set",
             "id": "intrusion-set--f047ee18-7985-4946-8bfb-4ed754d3a0dd",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:31:51.026Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "APT30",
             "description": "[APT30](https://attack.mitre.org/group/G0013) is a threat group suspected to be associated with the Chinese government. (Citation: FireEye APT30) While [Naikon](https://attack.mitre.org/group/G0019) shares some characteristics with [APT30](https://attack.mitre.org/group/G0013), the two groups do not appear to be exact matches. (Citation: Baumgartner Golovkin Naikon 2015)",
-            "aliases": [
-                "APT30"
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
@@ -35,9 +33,11 @@
                     "source_name": "Baumgartner Golovkin Naikon 2015"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            "aliases": [
+                "APT30"
+            ],
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:31:51.026Z"
         }
     ]
 }

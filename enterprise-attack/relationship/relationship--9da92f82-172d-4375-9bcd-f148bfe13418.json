@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--85da76b3-14d9-4cce-9b4a-811a91cd29bf",
+    "id": "bundle--bc8cc0a9-1795-4514-912f-b8dbeedf9a04",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--9da92f82-172d-4375-9bcd-f148bfe13418",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[FIN8](https://attack.mitre.org/group/G0061) has tunneled RDP backdoors over port 443.",
+            "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
+            "target_ref": "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www2.fireeye.com/WBNR-Know-Your-Enemy-UNC622-Spear-Phishing.html",
@@ -17,11 +20,12 @@
                     "source_name": "FireEye Know Your Enemy FIN8 Aug 2016"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
-            "target_ref": "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

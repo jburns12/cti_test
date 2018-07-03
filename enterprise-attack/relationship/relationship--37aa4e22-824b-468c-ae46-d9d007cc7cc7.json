@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--45ffcbcc-8dac-456b-b928-26303189e6fb",
+    "id": "bundle--a8112ec1-70e4-4a96-9698-3e600ddb6ad5",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--37aa4e22-824b-468c-ae46-d9d007cc7cc7",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "New services created by [RawPOS](https://attack.mitre.org/software/S0169) are made to appear like legitimate Windows services, with names such as \"Windows Management Help Service\", \"Microsoft Support\", and \"Windows Advanced Task Manager\".",
+            "source_ref": "malware--9752aef4-a1f3-4328-929f-b64eb0536090",
+            "target_ref": "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "description": "Nesbit, B. and Ackerman, D. (2017, January). Malware Analysis Report - RawPOS Malware: Deconstructing an Intruder\u2019s Toolkit. Retrieved October 4, 2017.",
@@ -25,11 +28,12 @@
                     "source_name": "Mandiant FIN5 GrrCON Oct 2016"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--9752aef4-a1f3-4328-929f-b64eb0536090",
-            "target_ref": "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-01-16T16:13:52.465Z"
         }
     ]
 }

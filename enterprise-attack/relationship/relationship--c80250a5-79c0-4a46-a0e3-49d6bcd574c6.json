@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--973878a9-eff1-456c-ad6e-52933cd9d87b",
+    "id": "bundle--7333961c-44c8-4428-b1cd-ab3055d14a7e",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--c80250a5-79c0-4a46-a0e3-49d6bcd574c6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Sys10](https://attack.mitre.org/software/S0060) uses HTTP for C2.",
+            "source_ref": "malware--7f8730af-f683-423f-9ee1-5f6875a80481",
+            "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://securelist.com/files/2015/05/TheNaikonAPT-MsnMM1.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "Baumgartner Naikon 2015"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--7f8730af-f683-423f-9ee1-5f6875a80481",
-            "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

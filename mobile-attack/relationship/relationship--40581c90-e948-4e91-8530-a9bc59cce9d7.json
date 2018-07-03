@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--500228f1-bc68-4ac2-9406-f4edb9baa233",
+    "id": "bundle--99df797e-eb92-4a33-9058-242f9b76fb2a",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--40581c90-e948-4e91-8530-a9bc59cce9d7",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T14:44:41.004Z",
+            "relationship_type": "uses",
             "description": "[ZergHelper](https://attack.mitre.org/software/MOB-S0003) \"abuses enterprises certificate and personal certificates to sign and distribute apps, which may include code that hasn\u2019t been reviewed, or abuse private APIs.\"",
+            "source_ref": "malware--3c3b55a6-c3e9-4043-8aae-283fe96220c0",
+            "target_ref": "attack-pattern--51aedbd6-2837-4d15-aeb0-cb09f2bf22ac",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2016/02/pirated-ios-app-stores-client-successfully-evaded-apple-ios-code-review/",
@@ -17,11 +20,12 @@
                     "source_name": "ZergHelper"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "2f669986-b40b-4423-b720-4396ca6a462b"
             ],
-            "source_ref": "malware--3c3b55a6-c3e9-4043-8aae-283fe96220c0",
-            "target_ref": "attack-pattern--51aedbd6-2837-4d15-aeb0-cb09f2bf22ac"
+            "type": "relationship",
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

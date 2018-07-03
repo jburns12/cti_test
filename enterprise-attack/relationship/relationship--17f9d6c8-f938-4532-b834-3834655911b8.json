@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--a195bc43-6556-456f-9d9b-42ddea2af8e2",
+    "id": "bundle--45be2fb7-4e39-4c29-b330-2ba77b743252",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--17f9d6c8-f938-4532-b834-3834655911b8",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "The [Dyre](https://attack.mitre.org/software/S0024) crimeware toolkit has refined its detection of sandbox analysis environments by inspecting the process list and Registry.",
+            "source_ref": "malware--63c2a130-8a5b-452f-ad96-07cf0af12ffe",
+            "target_ref": "attack-pattern--241814ae-de3f-4656-b49e-f9a80764d4b7",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://www.seculert.com/blogs/new-dyre-version-yet-another-malware-evading-sandboxes",
@@ -17,11 +20,12 @@
                     "source_name": "Raff 2015"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--63c2a130-8a5b-452f-ad96-07cf0af12ffe",
-            "target_ref": "attack-pattern--241814ae-de3f-4656-b49e-f9a80764d4b7"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

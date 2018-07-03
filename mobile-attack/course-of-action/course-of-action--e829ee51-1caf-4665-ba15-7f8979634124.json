@@ -1,14 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--a731ad4b-6194-4b1c-a7f4-5a2ade25e768",
+    "id": "bundle--76c8a98a-f3b8-4dc4-9165-0df8e05a3bce",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "course-of-action",
             "id": "course-of-action--e829ee51-1caf-4665-ba15-7f8979634124",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-10-25T14:48:50.181Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Interconnection Filtering",
             "description": "In order to mitigate Signaling System 7 (SS7) exploitation, the Communications, Security, Reliability, and Interoperability Council (CSRIC) describes filtering interconnections between network operators to block inappropriate requests (Citation: CSRIC5-WG10-FinalReport).",
             "external_references": [
@@ -25,7 +22,10 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "type": "course-of-action",
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-10-25T14:48:50.181Z"
         }
     ]
 }

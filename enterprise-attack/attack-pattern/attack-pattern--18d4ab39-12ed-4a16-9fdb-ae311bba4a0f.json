@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--a2483e46-3671-481a-9bfb-ac5d243dcbd6",
+    "id": "bundle--d3f35a3c-7e97-428d-938a-860c0153026f",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--18d4ab39-12ed-4a16-9fdb-ae311bba4a0f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Rc.common",
             "description": "During the boot process, macOS executes <code>source /etc/rc.common</code>, which is a shell script containing various utility functions. This file also defines routines for processing command-line arguments and for gathering system settings, and is thus recommended to include in the start of Startup Item Scripts (Citation: Startup Items). In macOS and OS X, this is now a deprecated technique in favor of launch agents and launch daemons, but is currently still used.\n\nAdversaries can use the rc.common file as a way to hide code for persistence that will execute on each reboot as the root user (Citation: Methods of Mac Malware Persistence).",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "persistence",
-                    "kill_chain_name": "mitre-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "T1163",
@@ -37,17 +28,26 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "The <code>/etc/rc.common</code> file can be monitored to detect changes from the company policy. Monitor process execution resulting from the rc.common script for unusual or unknown applications or behavior.",
-            "x_mitre_platforms": [
-                "macOS"
-            ],
             "x_mitre_data_sources": [
                 "File monitoring",
                 "Process Monitoring"
             ],
+            "x_mitre_detection": "The <code>/etc/rc.common</code> file can be monitored to detect changes from the company policy. Monitor process execution resulting from the rc.common script for unusual or unknown applications or behavior.",
+            "x_mitre_platforms": [
+                "macOS"
+            ],
             "x_mitre_permissions_required": [
                 "root"
-            ]
+            ],
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "persistence",
+                    "kill_chain_name": "mitre-attack"
+                }
+            ],
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--e42a258b-29ce-4db2-b423-39546f832ba6",
+    "id": "bundle--cc8a5798-9c92-457a-aa91-6ae5700ade47",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--545a618f-9fe4-4573-a0a0-ecfcef0b407c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "Several [BRONZE BUTLER](https://attack.mitre.org/group/G0060) tools encode data with base64 when posting it to a C2 server.",
+            "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+            "target_ref": "attack-pattern--cc7b8c4e-9be0-47ca-b0bb-83915ec3ee2f",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
@@ -17,11 +20,12 @@
                     "source_name": "Secureworks BRONZE BUTLER Oct 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
-            "target_ref": "attack-pattern--cc7b8c4e-9be0-47ca-b0bb-83915ec3ee2f"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-01-16T16:13:52.465Z"
         }
     ]
 }

@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--876fcfee-feb4-41f8-831e-bda0882abdd7",
+    "id": "bundle--5706bf27-9969-4431-b628-f055c07239a7",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--fcb6fc55-8fa6-4ec7-a5a3-51de7dd90c1d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[APT37](https://attack.mitre.org/group/G0067) has access to destructive malware known as RUHAPPY that is capable of overwriting a machine's Master Boot Record (MBR).",
+            "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
+            "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt%20APT37.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "FireEye APT37 Feb 2018"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
-            "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

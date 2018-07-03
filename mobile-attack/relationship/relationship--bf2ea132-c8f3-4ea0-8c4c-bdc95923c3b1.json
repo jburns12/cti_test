@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--7ebff5cf-1a42-4b7c-8041-cd22dcee1ca7",
+    "id": "bundle--cfbebb96-1053-4e56-bf47-d84cfaf3f9b0",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--bf2ea132-c8f3-4ea0-8c4c-bdc95923c3b1",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T14:44:41.004Z",
+            "relationship_type": "uses",
             "description": "[SpyNote RAT](https://attack.mitre.org/software/MOB-S0021) can activate \"the device's microphone\" and listen \"to live conversations\".",
+            "source_ref": "malware--20dbaf05-59b8-4dc6-8777-0b17f4553a23",
+            "target_ref": "attack-pattern--6683aa0c-d98a-4f5b-ac57-ca7e9934a760",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.zscaler.com/blogs/research/spynote-rat-posing-netflix-app",
@@ -17,11 +20,12 @@
                     "source_name": "Zscaler-SpyNote"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "2f669986-b40b-4423-b720-4396ca6a462b"
             ],
-            "source_ref": "malware--20dbaf05-59b8-4dc6-8777-0b17f4553a23",
-            "target_ref": "attack-pattern--6683aa0c-d98a-4f5b-ac57-ca7e9934a760"
+            "type": "relationship",
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

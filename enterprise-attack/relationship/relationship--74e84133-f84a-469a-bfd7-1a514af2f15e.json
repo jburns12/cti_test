@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--df4cba44-52e1-4cd1-a8ac-93c88e87934f",
+    "id": "bundle--4aa39b67-74de-4756-91fd-b71223b09fe5",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--74e84133-f84a-469a-bfd7-1a514af2f15e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[T9000](https://attack.mitre.org/software/S0098) performs checks for various antivirus and security products during installation.",
+            "source_ref": "malware--876f6a77-fbc5-4e13-ab1a-5611986730a3",
+            "target_ref": "attack-pattern--241814ae-de3f-4656-b49e-f9a80764d4b7",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2016/02/t9000-advanced-modular-backdoor-uses-complex-anti-analysis-techniques/",
@@ -17,11 +20,12 @@
                     "source_name": "Palo Alto T9000 Feb 2016"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--876f6a77-fbc5-4e13-ab1a-5611986730a3",
-            "target_ref": "attack-pattern--241814ae-de3f-4656-b49e-f9a80764d4b7"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

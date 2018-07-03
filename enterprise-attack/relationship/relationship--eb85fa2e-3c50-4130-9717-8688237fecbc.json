@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--f0fe38e2-8e26-40f0-b1a0-9bff5163ff38",
+    "id": "bundle--c20f6557-7ff7-421e-a0bc-8efe83901c21",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--eb85fa2e-3c50-4130-9717-8688237fecbc",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:33:27.052Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[admin@338](https://attack.mitre.org/group/G0018) actors used the following commands after exploiting a machine with [LOWBALL](https://attack.mitre.org/software/S0042) malware to obtain information about the OS: <code>ver >> %temp%\\download</code> <code>systeminfo >> %temp%\\download</code>",
+            "source_ref": "intrusion-set--16ade1aa-0ea1-4bb7-88cc-9079df2ae756",
+            "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2015/11/china-based-threat.html",
@@ -17,11 +20,12 @@
                     "source_name": "FireEye admin@338"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--16ade1aa-0ea1-4bb7-88cc-9079df2ae756",
-            "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:33:27.052Z"
         }
     ]
 }

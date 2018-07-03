@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--edc91e04-b7f3-484d-aa0d-27fa4119563c",
+    "id": "bundle--eced9092-9a53-4eee-8cc2-13f083a07f44",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--1dc42b4c-4a93-4fc6-bad3-b5498ad500b1",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Pass-The-Hash Toolkit](https://attack.mitre.org/software/S0122) can perform pass the hash.",
+            "source_ref": "tool--a52edc76-328d-4596-85e7-d56ef5a9eb69",
+            "target_ref": "attack-pattern--c23b740b-a42b-47a1-aec2-9d48ddd547ff",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "Mandiant APT1"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "tool--a52edc76-328d-4596-85e7-d56ef5a9eb69",
-            "target_ref": "attack-pattern--c23b740b-a42b-47a1-aec2-9d48ddd547ff"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

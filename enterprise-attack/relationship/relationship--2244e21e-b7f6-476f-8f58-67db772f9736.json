@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--50be3d29-d7a1-4655-847c-e4142ae0295b",
+    "id": "bundle--62e4b473-6562-4fe2-96f5-3adb11f07855",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--2244e21e-b7f6-476f-8f58-67db772f9736",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "The [CALENDAR](https://attack.mitre.org/software/S0025) malware communicates through the use of events in Google Calendar.",
+            "source_ref": "malware--5a84dc36-df0d-4053-9b7c-f0c388a57283",
+            "target_ref": "attack-pattern--830c9528-df21-472c-8c14-a036bf17d665",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf",
@@ -22,11 +25,12 @@
                     "source_name": "Mandiant APT1 Appendix"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--5a84dc36-df0d-4053-9b7c-f0c388a57283",
-            "target_ref": "attack-pattern--830c9528-df21-472c-8c14-a036bf17d665"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

@@ -1,14 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--c8957cc6-0de9-4f10-aec3-45c31759e4dc",
+    "id": "bundle--d70e3898-d1f9-4791-a100-18eb865b870b",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "course-of-action",
             "id": "course-of-action--4490fee2-5c70-4db3-8db5-8d88767dbd55",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-07-03T13:33:43.876Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Credentials in Registry Mitigation",
             "description": "Do not store credentials within the Registry. Proactively search for credentials within Registry keys and attempt to remediate the risk. If necessary software must store credentials, then ensure those accounts have limited permissions so they cannot be abused if obtained by an adversary.",
             "external_references": [
@@ -17,7 +14,10 @@
                     "url": "https://attack.mitre.org/technique/T1214",
                     "source_name": "mitre-attack"
                 }
-            ]
+            ],
+            "type": "course-of-action",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-07-03T13:33:43.876Z"
         }
     ]
 }

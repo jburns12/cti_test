@@ -1,14 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--7c90cd1f-58d2-459d-af92-9cd5506451c7",
+    "id": "bundle--b29e5943-f830-4440-b1d5-da0a736bf448",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "course-of-action",
             "id": "course-of-action--1c6bc7f3-d517-4971-aed4-8f939090846b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-07-03T13:33:43.876Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Port Monitors Mitigation",
             "description": "Identify and block potentially malicious software that may persist in this manner by using whitelisting (Citation: Beechey 2010) tools capable of monitoring DLL loads by processes running under SYSTEM permissions.",
             "external_references": [
@@ -22,7 +19,10 @@
                     "description": "Beechey, J. (2010, December). Application Whitelisting: Panacea or Propaganda?. Retrieved November 18, 2014.",
                     "source_name": "Beechey 2010"
                 }
-            ]
+            ],
+            "type": "course-of-action",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-07-03T13:33:43.876Z"
         }
     ]
 }

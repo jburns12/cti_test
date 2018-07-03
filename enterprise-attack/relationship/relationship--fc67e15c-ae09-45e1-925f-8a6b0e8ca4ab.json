@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--00ed1209-8b49-4e40-a8ea-8f17d41e3de9",
+    "id": "bundle--ccadc9e4-619c-45fe-8ba9-bf3947d58aee",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--fc67e15c-ae09-45e1-925f-8a6b0e8ca4ab",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Janicab](https://attack.mitre.org/software/S0163) captured screenshots and sent them out to a C2 server.",
+            "source_ref": "malware--234e7770-99b0-4f65-b983-d3230f76a60b",
+            "target_ref": "attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://www.thesafemac.com/new-signed-malware-called-janicab/",
@@ -22,11 +25,12 @@
                     "source_name": "f-secure janicab"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--234e7770-99b0-4f65-b983-d3230f76a60b",
-            "target_ref": "attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

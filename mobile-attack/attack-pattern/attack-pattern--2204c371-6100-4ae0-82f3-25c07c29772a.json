@@ -1,26 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--6610603f-d837-44cc-82fd-e04aa701f1dd",
+    "id": "bundle--803dff19-92da-4146-883b-60f7f1db13b4",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--2204c371-6100-4ae0-82f3-25c07c29772a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-10-25T14:48:08.613Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Abuse Accessibility Features",
             "description": "A malicious app could abuse Android's accessibility features to capture sensitive data or perform other malicious actions, as demonstrated in a proof of concept created by Skycure (Citation: Skycure-Accessibility).",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "collection",
-                    "kill_chain_name": "mitre-mobile-attack"
-                },
-                {
-                    "phase_name": "credential-access",
-                    "kill_chain_name": "mitre-mobile-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "MOB-T1056",
@@ -38,7 +25,23 @@
             ],
             "x_mitre_platforms": [
                 "Android"
-            ]
+            ],
+            "x_mitre_tactic_type": [
+                "Post-Adversary Device Access"
+            ],
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "collection",
+                    "kill_chain_name": "mitre-mobile-attack"
+                },
+                {
+                    "phase_name": "credential-access",
+                    "kill_chain_name": "mitre-mobile-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-10-25T14:48:08.613Z"
         }
     ]
 }

@@ -1,19 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--e6778c08-736d-4b57-bf1d-2ee276a22e15",
+    "id": "bundle--cfb9f568-5232-487d-8203-a6bd3bce475e",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "tool",
             "id": "tool--da21929e-40c0-443d-bdf4-6b60d15448b4",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-10-25T14:48:48.609Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Xbot",
             "description": "Xbot is a family of Android malware analyzed by Palo Alto Networks (Citation: PaloAlto-Xbot) that \"tries to steal victims' banking credentials and credit card information\", \"can also remotely lock infected Android devices, encrypt the user's files in external storage (e.g., SD card), and then ask for a U.S. $100 PayPal cash card as ransom\" and \"will steal all SMS message and contact information, intercept certain SMS messages, and parse SMS messages for mTANs (Mobile Transaction Authentication Number) from banks.\"",
-            "labels": [
-                "tool"
-            ],
             "external_references": [
                 {
                     "external_id": "MOB-S0014",
@@ -31,7 +25,13 @@
             ],
             "x_mitre_aliases": [
                 "Xbot"
-            ]
+            ],
+            "type": "tool",
+            "labels": [
+                "tool"
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-10-25T14:48:48.609Z"
         }
     ]
 }

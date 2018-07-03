@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--3030fc85-2c56-4062-9888-901e93a2a7e0",
+    "id": "bundle--999c1b98-67c6-4d93-ba4d-8425c3d66f43",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--047ee6d3-1b85-4a0f-96a6-6ead4be43548",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:33:27.048Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Night Dragon](https://attack.mitre.org/group/G0014) is known to use software packing in its tools.",
+            "source_ref": "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
+            "target_ref": "attack-pattern--6ff403bc-93e3-48be-8687-e102fdba8c88",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://securingtomorrow.mcafee.com/wp-content/uploads/2011/02/McAfee%20NightDragon%20wp%20draft%20to%20customersv1-1.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "McAfee Night Dragon"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
-            "target_ref": "attack-pattern--6ff403bc-93e3-48be-8687-e102fdba8c88"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:33:27.048Z"
         }
     ]
 }

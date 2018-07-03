@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--376f76f0-5e45-4099-95e1-ef661656a739",
+    "id": "bundle--71d9cd1d-84d1-47b9-814d-35718ba05d05",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--46017368-6e09-412b-a29c-385be201cc03",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Obtain domain/IP registration information",
             "description": "For a computing resource to be accessible to the public, domain names and IP addresses must be registered with an authorized organization. (Citation: Google Domains WHOIS) (Citation: FunAndSun2012) (Citation: Scasny2015)",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "technical-information-gathering",
-                    "kill_chain_name": "mitre-pre-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "PRE-T1028",
@@ -38,7 +29,20 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detectable_by_common_defenses": "No",
+            "x_mitre_detectable_by_common_defenses_explanation": "Open access to DNS registration/routing information is inherent in Internet architecture.",
+            "x_mitre_difficulty_for_adversary": "Yes",
+            "x_mitre_difficulty_for_adversary_explanation": "Proliferation of DNS information makes registration information functionally freely available.",
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "technical-information-gathering",
+                    "kill_chain_name": "mitre-pre-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

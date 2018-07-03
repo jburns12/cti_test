@@ -1,14 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--b4eafd10-1fe9-460b-b290-ddd566f53287",
+    "id": "bundle--1ade684f-bc10-4d59-8b53-02d9b1dd63c1",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "course-of-action",
             "id": "course-of-action--402e92cd-5608-4f4b-9a34-a2c962e4bcd7",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-07-03T13:33:43.876Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Launch Daemon Mitigation",
             "description": "Limit privileges of user accounts and remediate Privilege Escalation vectors so only authorized administrators can create new Launch Daemons.",
             "external_references": [
@@ -17,7 +14,10 @@
                     "url": "https://attack.mitre.org/technique/T1160",
                     "source_name": "mitre-attack"
                 }
-            ]
+            ],
+            "type": "course-of-action",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-07-03T13:33:43.876Z"
         }
     ]
 }

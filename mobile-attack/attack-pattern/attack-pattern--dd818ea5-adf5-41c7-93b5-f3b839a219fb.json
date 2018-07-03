@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--8c6f6141-c059-4ba1-82f9-2380f726020f",
+    "id": "bundle--c8695ee6-4086-4127-bde3-649992b53b88",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--dd818ea5-adf5-41c7-93b5-f3b839a219fb",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-10-25T14:48:33.574Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Local Network Connections Discovery",
             "description": "On Android, applications can use standard APIs to gather a list of network connections to and from the device. For example, the Network Connections app available in the Google Play Store (Citation: ConnMonitor) advertises this functionality.",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "discovery",
-                    "kill_chain_name": "mitre-mobile-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "MOB-T1024",
@@ -34,7 +25,19 @@
             ],
             "x_mitre_platforms": [
                 "Android"
-            ]
+            ],
+            "x_mitre_tactic_type": [
+                "Post-Adversary Device Access"
+            ],
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "discovery",
+                    "kill_chain_name": "mitre-mobile-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-10-25T14:48:33.574Z"
         }
     ]
 }

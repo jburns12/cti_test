@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--3344ce98-ffcb-47e6-9e85-05379c47e4a2",
+    "id": "bundle--22068c84-57bf-4e10-87a1-4f2bb7d696de",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--fce2d07b-7bc7-497a-b21a-75a23fbccf50",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "A module in [Prikormka](https://attack.mitre.org/software/S0113) collects information from the victim about the current user name.",
+            "source_ref": "malware--37cc7eb6-12e3-467b-82e8-f20f2cc73c69",
+            "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://www.welivesecurity.com/wp-content/uploads/2016/05/Operation-Groundbait.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "ESET Operation Groundbait"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--37cc7eb6-12e3-467b-82e8-f20f2cc73c69",
-            "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

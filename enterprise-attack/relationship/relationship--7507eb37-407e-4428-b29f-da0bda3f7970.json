@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--3f20f536-0a5c-4066-87d1-2643b2fc6786",
+    "id": "bundle--8bb7cc0e-ad02-4278-b6e2-dba5c6cd633b",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--7507eb37-407e-4428-b29f-da0bda3f7970",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[OSInfo](https://attack.mitre.org/software/S0165) discovers information about the infected machine.",
+            "source_ref": "malware--f6d1d2cb-12f5-4221-9636-44606ea1f3f8",
+            "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
@@ -17,11 +20,12 @@
                     "source_name": "Symantec Buckeye"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--f6d1d2cb-12f5-4221-9636-44606ea1f3f8",
-            "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-01-16T16:13:52.465Z"
         }
     ]
 }

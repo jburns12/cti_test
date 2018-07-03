@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--ce4e38d2-eb74-4773-b143-309aa04c4f8f",
+    "id": "bundle--8ae661db-97de-4f65-a0cd-4a4df98b9bf4",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--8ca14a24-b8b3-4669-ae56-e7102b543dc6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Emissary](https://attack.mitre.org/software/S0082) has the capability to execute the command <code>net localgroup administrators</code>.",
+            "source_ref": "malware--0f862b01-99da-47cc-9bdb-db4a86a95bb1",
+            "target_ref": "attack-pattern--15dbf668-795c-41e6-8219-f0447c0e64ce",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2016/02/emissary-trojan-changelog-did-operation-lotus-blossom-cause-it-to-evolve/",
@@ -17,11 +20,12 @@
                     "source_name": "Emissary Trojan Feb 2016"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--0f862b01-99da-47cc-9bdb-db4a86a95bb1",
-            "target_ref": "attack-pattern--15dbf668-795c-41e6-8219-f0447c0e64ce"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

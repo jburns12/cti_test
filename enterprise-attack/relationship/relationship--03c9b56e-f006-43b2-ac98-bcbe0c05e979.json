@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--93556c20-a6e4-49e8-8ccd-38c8cd21c93b",
+    "id": "bundle--89c3a375-1396-4cdc-90c9-a43115893fcd",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--03c9b56e-f006-43b2-ac98-bcbe0c05e979",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[ChChes](https://attack.mitre.org/software/S0144) communicates to its C2 server over HTTP and embeds data within the Cookie HTTP header.",
+            "source_ref": "malware--dc5d1a33-62aa-4a0c-aa8c-589b87beb11e",
+            "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2017/02/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations/",
@@ -22,11 +25,12 @@
                     "source_name": "JPCERT ChChes Feb 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--dc5d1a33-62aa-4a0c-aa8c-589b87beb11e",
-            "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

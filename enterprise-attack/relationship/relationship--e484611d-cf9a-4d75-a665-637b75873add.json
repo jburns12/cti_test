@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--938adae6-99c6-4fc6-ac3d-450a4de3b3a5",
+    "id": "bundle--68e0a219-bd7c-48e8-a289-2d5d60e7ed05",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--e484611d-cf9a-4d75-a665-637b75873add",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "creates a Registry entry modifying the Logical Disk Manager service to point to a malicious DLL dropped to disk.",
+            "source_ref": "malware--310f437b-29e7-4844-848c-7220868d074a",
+            "target_ref": "attack-pattern--62dfd1ca-52d5-483c-a84b-d6e80bf94b7b",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.symantec.com/security%20response/writeup.jsp?docid=2005-081910-3934-99",
@@ -17,11 +20,12 @@
                     "source_name": "Symantec Darkmoon Aug 2005"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--310f437b-29e7-4844-848c-7220868d074a",
-            "target_ref": "attack-pattern--62dfd1ca-52d5-483c-a84b-d6e80bf94b7b"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

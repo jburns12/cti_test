@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--357f4e67-a0df-4a02-8d97-253f0198eb0a",
+    "id": "bundle--0c9cdbb8-962c-4317-b05a-948c5175c662",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--b928b94a-4966-4e2a-9e61-36505b896ebc",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-10-25T14:48:24.905Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Malicious Software Development Tools",
             "description": "As demonstrated by the XcodeGhost attack (Citation: PaloAlto-XcodeGhost1), app developers could be provided with modified versions of software development tools (e.g. compilers) that automatically inject malicious or exploitable code into applications.",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "supply-chain",
-                    "kill_chain_name": "mitre-mobile-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "MOB-T1065",
@@ -36,7 +27,19 @@
             "x_mitre_platforms": [
                 "Android",
                 "iOS"
-            ]
+            ],
+            "x_mitre_tactic_type": [
+                "Pre-Adversary Device Access"
+            ],
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "supply-chain",
+                    "kill_chain_name": "mitre-mobile-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-10-25T14:48:24.905Z"
         }
     ]
 }

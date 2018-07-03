@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--f03aa782-09e0-4f2a-b031-2c7863d427f3",
+    "id": "bundle--41749dd2-7d17-4b6d-a2e5-a1efc87882c5",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--1684e405-53bd-4951-a26d-e7c39887b06a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[WinMM](https://attack.mitre.org/software/S0059) sets a WH_CBT Windows hook to search for and capture files on the victim.",
+            "source_ref": "malware--22addc7b-b39f-483d-979a-1b35147da5de",
+            "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://securelist.com/files/2015/05/TheNaikonAPT-MsnMM1.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "Baumgartner Naikon 2015"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--22addc7b-b39f-483d-979a-1b35147da5de",
-            "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

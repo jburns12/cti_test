@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--36c0acdf-9969-4770-a554-cf7a6597f38e",
+    "id": "bundle--05847f1a-7afd-41e2-892a-56415aace1a8",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--68852bf2-c3cf-4d59-b1c1-f6af8fb61be6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[gh0st](https://attack.mitre.org/software/S0032) RAT is able to open a command shell.",
+            "source_ref": "malware--88c621a7-aef9-4ae0-94e3-1fc87123eb24",
+            "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2015/07/demonstrating%20hustle.html",
@@ -17,11 +20,12 @@
                     "source_name": "FireEye Hacking Team"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--88c621a7-aef9-4ae0-94e3-1fc87123eb24",
-            "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

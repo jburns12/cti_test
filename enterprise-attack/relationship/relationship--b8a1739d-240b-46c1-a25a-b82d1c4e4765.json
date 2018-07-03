@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--c12b42af-3e71-4d92-8cc5-09853c4234a5",
+    "id": "bundle--0009cae8-17db-4127-bd21-6532c0058d3a",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--b8a1739d-240b-46c1-a25a-b82d1c4e4765",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:33:27.045Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Turla](https://attack.mitre.org/group/G0010) surveys a system upon check-in to discover remote systems on a local network using the <code>net view</code> and <code>net view /DOMAIN</code> commands.",
+            "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
+            "target_ref": "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://securelist.com/the-epic-turla-operation/65545/",
@@ -17,11 +20,12 @@
                     "source_name": "Kaspersky Turla"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
-            "target_ref": "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:33:27.045Z"
         }
     ]
 }

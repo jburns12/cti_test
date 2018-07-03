@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--f3c68501-c568-4d99-b429-64aaf2e1f543",
+    "id": "bundle--7a16f647-55cb-465f-926d-908974f9a1f0",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--52278e18-f8b3-4bf1-a5d3-ac819ccfd301",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "is capable of logging keystrokes.",
+            "source_ref": "malware--0852567d-7958-4f4b-8947-4f840ec8d57d",
+            "target_ref": "attack-pattern--bb5a00de-e086-4859-a231-fa793f6797e2",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt%20APT37.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "FireEye APT37 Feb 2018"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--0852567d-7958-4f4b-8947-4f840ec8d57d",
-            "target_ref": "attack-pattern--bb5a00de-e086-4859-a231-fa793f6797e2"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

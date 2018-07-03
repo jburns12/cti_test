@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--a1f06d23-6d54-4b1b-a2e0-e93c9d9f44a1",
+    "id": "bundle--a273b99c-1345-44fb-8ed2-ccb7664f7dbb",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--60137eb6-ed8c-41ce-bf75-6b45cdafe751",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "The [Derusbi](https://attack.mitre.org/software/S0021) malware supports timestomping.",
+            "source_ref": "malware--94379dec-5c87-49db-b36e-66abc0b81344",
+            "target_ref": "attack-pattern--128c55d3-aeba-469f-bd3e-c8996ab4112a",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://www.novetta.com/wp-content/uploads/2014/11/Executive%20Summary-Final%201.pdf",
@@ -22,11 +25,12 @@
                     "source_name": "Fidelis Turbo"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--94379dec-5c87-49db-b36e-66abc0b81344",
-            "target_ref": "attack-pattern--128c55d3-aeba-469f-bd3e-c8996ab4112a"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

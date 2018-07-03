@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--b7740c25-7c99-4255-8c1b-8b757496d864",
+    "id": "bundle--32860a59-850a-4140-a6f2-23c925ee092e",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--d04d6101-f6f6-42a2-8679-351956b75228",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[POWERSOURCE](https://attack.mitre.org/software/S0145) has been observed being used to download [TEXTMATE](https://attack.mitre.org/software/S0146) and the Cobalt Strike Beacon payload onto victims.",
+            "source_ref": "malware--17e919aa-4a49-445c-b103-dbb8df9e7351",
+            "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/03/fin7%20spear%20phishing.html",
@@ -17,11 +20,12 @@
                     "source_name": "FireEye FIN7 March 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--17e919aa-4a49-445c-b103-dbb8df9e7351",
-            "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

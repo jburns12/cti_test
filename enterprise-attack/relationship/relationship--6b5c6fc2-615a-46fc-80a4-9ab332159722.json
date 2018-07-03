@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--5656c2a4-eb41-498e-bcb5-1401f1cfc101",
+    "id": "bundle--1e348698-f84d-4f5a-94c3-16a6c9dbc1e5",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--6b5c6fc2-615a-46fc-80a4-9ab332159722",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:33:27.061Z",
-            "modified": "2018-07-03T15:59:24.960Z",
+            "relationship_type": "uses",
             "description": "[Threat Group-3390](https://attack.mitre.org/wiki/Group/G0027) actors installed a credential logger on Microsoft Exchange servers.",
+            "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
+            "target_ref": "attack-pattern--bb5a00de-e086-4859-a231-fa793f6797e2",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "source_name": "Dell TG-3390",
@@ -17,11 +20,12 @@
                     "url": "http://www.secureworks.com/cyber-threat-intelligence/threats/threat-group-3390-targets-organizations-for-cyberespionage/"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
-            "target_ref": "attack-pattern--bb5a00de-e086-4859-a231-fa793f6797e2"
+            "type": "relationship",
+            "modified": "2018-07-03T15:59:24.960Z",
+            "created": "2017-05-31T21:33:27.061Z",
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
+            ]
         }
     ]
 }

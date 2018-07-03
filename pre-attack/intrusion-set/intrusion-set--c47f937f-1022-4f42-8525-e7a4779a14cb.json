@@ -1,22 +1,16 @@
 {
     "type": "bundle",
-    "id": "bundle--3ae75e61-5544-4e7b-bc8d-ca0a43152f74",
+    "id": "bundle--b4c2f8db-9cb0-4c86-93c5-244834b5bdd9",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "intrusion-set",
             "id": "intrusion-set--c47f937f-1022-4f42-8525-e7a4779a14cb",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:31:47.537Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "APT12",
             "description": "[APT12](https://attack.mitre.org/group/G0005) is a threat group that has been attributed to China. (Citation: Meyers Numbered Panda)",
-            "aliases": [
-                "APT12",
-                "IXESHE",
-                "DynCalc",
-                "Numbered Panda",
-                "DNSCALC"
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
@@ -55,9 +49,15 @@
                     "source_name": "Moran 2014"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            "aliases": [
+                "APT12",
+                "IXESHE",
+                "DynCalc",
+                "Numbered Panda",
+                "DNSCALC"
+            ],
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:31:47.537Z"
         }
     ]
 }

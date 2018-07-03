@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--47d2b31a-3ded-40c4-b107-210e84085681",
+    "id": "bundle--68877352-d0d6-453e-b341-c26666d50ded",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--b3f36317-3940-4d71-968f-e11ac1bf6a31",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Aggregate individual's digital footprint",
             "description": "In addition to a target's social media presence may exist a larger digital footprint, such as accounts and credentials on e-commerce sites or usernames and logins for email.  An adversary familiar with a target's username can mine to determine the target's larger digital footprint via publicly available sources. (Citation: DigitalFootprint) (Citation: trendmicro-vtech)",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "people-information-gathering",
-                    "kill_chain_name": "mitre-pre-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "PRE-T1052",
@@ -34,7 +25,20 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detectable_by_common_defenses": "No",
+            "x_mitre_detectable_by_common_defenses_explanation": "Searching publicly available sources that cannot be monitored by a defender.",
+            "x_mitre_difficulty_for_adversary": "Yes",
+            "x_mitre_difficulty_for_adversary_explanation": "Information readily available through searches",
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "people-information-gathering",
+                    "kill_chain_name": "mitre-pre-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

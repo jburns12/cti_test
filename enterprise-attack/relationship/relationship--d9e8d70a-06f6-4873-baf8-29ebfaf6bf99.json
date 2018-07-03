@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--7e9c42a8-bda4-4c82-8e99-759bae23261f",
+    "id": "bundle--ccde6701-f676-490d-89f7-f6a14e5cfc43",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--d9e8d70a-06f6-4873-baf8-29ebfaf6bf99",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[MiniDuke](https://attack.mitre.org/software/S0051) uses HTTP and HTTPS for command and control.",
+            "source_ref": "malware--5e7ef1dc-7fb6-4913-ac75-e06113b59e0c",
+            "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.f-secure.com/documents/996508/1030745/dukes%20whitepaper.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "F-Secure The Dukes"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--5e7ef1dc-7fb6-4913-ac75-e06113b59e0c",
-            "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

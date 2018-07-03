@@ -1,19 +1,23 @@
 {
     "type": "bundle",
-    "id": "bundle--7f8eb69c-548d-4a84-b135-93ee11453fa4",
+    "id": "bundle--b3574ddd-57e4-4667-ae48-9b61d7173474",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--4a687e50-e6b7-41df-93b1-6fed7db10f60",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:33:27.036Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
+            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
+            "target_ref": "malware--1d808f62-cf63-4063-9727-ff6132514c22",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
-            "target_ref": "malware--1d808f62-cf63-4063-9727-ff6132514c22"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
+            ],
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:33:27.036Z"
         }
     ]
 }

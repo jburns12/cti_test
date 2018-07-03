@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--32a609ee-a86d-4dc2-bbe4-55fc8f2fb815",
+    "id": "bundle--3698e096-17ed-47a0-a81a-464e7485be62",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--cd1e409b-e981-4c83-a9ea-86705a45f92c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[EvilGrab](https://attack.mitre.org/software/S0152) adds a Registry Run key for ctfmon.exe to establish persistence.",
+            "source_ref": "malware--2f1a9fd0-3b7c-4d77-a358-78db13adbe78",
+            "target_ref": "attack-pattern--9422fc14-1c43-410d-ab0f-a709b76c72dc",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-annex-b-final.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "PWC Cloud Hopper Technical Annex April 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--2f1a9fd0-3b7c-4d77-a358-78db13adbe78",
-            "target_ref": "attack-pattern--9422fc14-1c43-410d-ab0f-a709b76c72dc"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

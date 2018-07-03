@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--1e9ce72c-8de3-44d2-abee-c69b04ffdcc8",
+    "id": "bundle--ce087683-3d92-4ddb-9dcc-45a851a8f7bd",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--c65661a6-6047-4901-ac2c-3ca4b1bbbb28",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T14:44:41.004Z",
+            "relationship_type": "uses",
             "description": "[DroidJack RAT](https://attack.mitre.org/software/MOB-S0036) captures \"call data\".",
+            "source_ref": "malware--05c4f87c-be8f-46ea-8d9a-2a0aad8f52c1",
+            "target_ref": "attack-pattern--79eec66a-9bd0-4a3f-ac82-19159e94bd44",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.zscaler.com/blogs/research/super-mario-run-malware-2-\u2013-droidjack-rat",
@@ -17,11 +20,12 @@
                     "source_name": "Zscaler-SuperMarioRun"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "2f669986-b40b-4423-b720-4396ca6a462b"
             ],
-            "source_ref": "malware--05c4f87c-be8f-46ea-8d9a-2a0aad8f52c1",
-            "target_ref": "attack-pattern--79eec66a-9bd0-4a3f-ac82-19159e94bd44"
+            "type": "relationship",
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

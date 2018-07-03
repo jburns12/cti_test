@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--05eeb202-b507-4a7a-96ac-56a1721eda84",
+    "id": "bundle--89af4df1-71d3-45cf-887e-a1794af15db3",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--baabf444-1748-472f-b991-7a5b25e4e1bb",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Reg](https://attack.mitre.org/software/S0075) may be used to interact with and modify the Windows Registry of a local or remote system at the command-line interface.",
+            "source_ref": "tool--cde2d700-9ed1-46cf-9bce-07364fe8b24f",
+            "target_ref": "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://technet.microsoft.com/en-us/library/cc732643.aspx",
@@ -17,11 +20,12 @@
                     "source_name": "Microsoft Reg"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "tool--cde2d700-9ed1-46cf-9bce-07364fe8b24f",
-            "target_ref": "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

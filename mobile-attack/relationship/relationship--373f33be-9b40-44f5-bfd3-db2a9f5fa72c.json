@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--5759d0e9-21cd-41bf-a4e4-b15f05b16d52",
+    "id": "bundle--bac694c1-6124-4ad3-b785-e6f5ad8d2844",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--373f33be-9b40-44f5-bfd3-db2a9f5fa72c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T14:44:41.004Z",
+            "relationship_type": "uses",
             "description": "[OldBoot](https://attack.mitre.org/software/MOB-S0001) uses escalated privileges to modify the init script on the device's boot partition to maintain persistence.",
+            "source_ref": "malware--2074b2ad-612e-4758-adce-7901c1b49bbc",
+            "target_ref": "attack-pattern--46d818a5-67fa-4585-a7fc-ecf15376c8d5",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://thehackernews.com/2014/01/first-widely-distributed-android.html",
@@ -17,11 +20,12 @@
                     "source_name": "HackerNews-OldBoot"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "2f669986-b40b-4423-b720-4396ca6a462b"
             ],
-            "source_ref": "malware--2074b2ad-612e-4758-adce-7901c1b49bbc",
-            "target_ref": "attack-pattern--46d818a5-67fa-4585-a7fc-ecf15376c8d5"
+            "type": "relationship",
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

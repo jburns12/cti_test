@@ -1,19 +1,16 @@
 {
     "type": "bundle",
-    "id": "bundle--4eeabd16-88da-4d6f-afd7-2f12f9258ccd",
+    "id": "bundle--ad577ab6-0c55-431d-a182-3a40494f9cb9",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "intrusion-set",
             "id": "intrusion-set--d519164e-f5fa-4b8c-a1fb-cf0172ad0983",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:31:59.120Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Threat Group-1314",
             "description": "[Threat Group-1314](https://attack.mitre.org/group/G0028) is an unattributed threat group that has used compromised credentials to log into a victim's remote access infrastructure. (Citation: Dell TG-1314)",
-            "aliases": [
-                "Threat Group-1314",
-                "TG-1314"
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
@@ -35,9 +32,12 @@
                     "source_name": "Dell TG-1314"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            "aliases": [
+                "Threat Group-1314",
+                "TG-1314"
+            ],
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:31:59.120Z"
         }
     ]
 }

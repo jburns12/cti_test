@@ -1,26 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--1366ff47-2869-4093-9318-b8be46b76c3b",
+    "id": "bundle--9b5fa4fd-a9ba-4910-bd8c-ee2504be3875",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--702055ac-4e54-4ae9-9527-e23a38e0b160",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-10-25T14:48:15.402Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Access Sensitive Data or Credentials in Files",
             "description": "An adversary could attempt to read files that contain sensitive data or credentials (e.g., private keys, passwords, access tokens). This technique requires either escalated privileges or for the targeted app to have stored the data in an insecure manner (e.g., with insecure file permissions or in an insecure location such as an external storage directory).",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "collection",
-                    "kill_chain_name": "mitre-mobile-attack"
-                },
-                {
-                    "phase_name": "credential-access",
-                    "kill_chain_name": "mitre-mobile-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "MOB-T1012",
@@ -39,7 +26,23 @@
             "x_mitre_platforms": [
                 "Android",
                 "iOS"
-            ]
+            ],
+            "x_mitre_tactic_type": [
+                "Post-Adversary Device Access"
+            ],
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "collection",
+                    "kill_chain_name": "mitre-mobile-attack"
+                },
+                {
+                    "phase_name": "credential-access",
+                    "kill_chain_name": "mitre-mobile-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-10-25T14:48:15.402Z"
         }
     ]
 }

@@ -1,14 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--11439395-f1c7-43f4-b547-41a867a01cac",
+    "id": "bundle--c198d7fe-efb5-46d3-818d-3dcef161c81a",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "course-of-action",
             "id": "course-of-action--5391ece4-8866-415d-9b5e-8dc5944f612a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-07-03T13:33:43.876Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Source Mitigation",
             "description": "Due to potential legitimate uses of source commands, it's may be difficult to mitigate use of this technique.",
             "external_references": [
@@ -17,7 +14,10 @@
                     "url": "https://attack.mitre.org/technique/T1153",
                     "source_name": "mitre-attack"
                 }
-            ]
+            ],
+            "type": "course-of-action",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-07-03T13:33:43.876Z"
         }
     ]
 }

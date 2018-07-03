@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--7636ebf8-59e1-4014-a873-c32ac1c2f4d7",
+    "id": "bundle--c14ac864-e8c7-4aee-9143-3a9c25ee29da",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--d3b810ed-0be4-448b-b1ac-aa3a7dd16c91",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[MimiPenguin](https://attack.mitre.org/software/S0179) can dump process memory and extract clear-text credentials.",
+            "source_ref": "tool--5a33468d-844d-4b1f-98c9-0e786c556b27",
+            "target_ref": "attack-pattern--0a3ead4e-6d47-4ccb-854c-a6a4f9d96b22",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://github.com/huntergregal/mimipenguin",
@@ -17,11 +20,12 @@
                     "source_name": "MimiPenguin GitHub May 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "tool--5a33468d-844d-4b1f-98c9-0e786c556b27",
-            "target_ref": "attack-pattern--0a3ead4e-6d47-4ccb-854c-a6a4f9d96b22"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-01-16T16:13:52.465Z"
         }
     ]
 }

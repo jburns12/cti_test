@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--3c4846d1-7b1f-4c56-b863-88bec29988d0",
+    "id": "bundle--ecfddffb-3de8-4d5f-9d1e-da59cc177a50",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--0008005f-ca51-47c3-8369-55ee5de1c65a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T14:44:41.004Z",
+            "relationship_type": "uses",
             "description": "[SpyNote RAT](https://attack.mitre.org/software/MOB-S0021) uses an Android broadcast receiver to automatically start when the device boots.",
+            "source_ref": "malware--20dbaf05-59b8-4dc6-8777-0b17f4553a23",
+            "target_ref": "attack-pattern--bd4d32f5-eed4-4018-a649-40b229dd1d69",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.zscaler.com/blogs/research/spynote-rat-posing-netflix-app",
@@ -17,11 +20,12 @@
                     "source_name": "Zscaler-SpyNote"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "2f669986-b40b-4423-b720-4396ca6a462b"
             ],
-            "source_ref": "malware--20dbaf05-59b8-4dc6-8777-0b17f4553a23",
-            "target_ref": "attack-pattern--bd4d32f5-eed4-4018-a649-40b229dd1d69"
+            "type": "relationship",
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--fa221fcb-e120-48be-9828-bc36911fc48a",
+    "id": "bundle--d43dafee-5ff5-4392-b984-bdb101d7a5f0",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--1b143de7-af2d-4991-9e2e-aa85a8d7d330",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:33:27.039Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[APT28](https://attack.mitre.org/group/G0007) encrypted a .dll payload using RTL and a custom encryption algorithm. [APT28](https://attack.mitre.org/group/G0007) has also obfuscated payloads with base64 and XOR.",
+            "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
+            "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "description": "Bitdefender. (2015, December). APT28 Under the Scope. Retrieved February 23, 2017.",
@@ -21,11 +24,12 @@
                     "source_name": "Unit 42 Sofacy Feb 2018"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
-            "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:33:27.039Z"
         }
     ]
 }

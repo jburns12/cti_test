@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--e5cc78b0-e13d-4252-8b9d-530fd2d693b5",
+    "id": "bundle--82f4876a-ef8e-45f5-a04a-9b37bf9b38cd",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--6c174520-beea-43d9-aac6-28fb77f3e446",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:31:13.447Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Security Support Provider",
             "description": "Windows Security Support Provider (SSP) DLLs are loaded into the Local Security Authority (LSA) process at system start. Once loaded into the LSA, SSP DLLs have access to encrypted and plaintext passwords that are stored in Windows, such as any logged-on user's Domain password or smart card PINs. The SSP configuration is stored in two Registry keys: <code>HKLM\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\Security Packages</code> and <code>HKLM\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\OSConfig\\Security Packages</code>. An adversary may modify these Registry keys to add new SSPs, which will be loaded the next time the system boots, or when the AddSecurityPackage Windows API function is called.\n (Citation: Graeber 2014)",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "persistence",
-                    "kill_chain_name": "mitre-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "T1101",
@@ -37,18 +28,27 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Monitor the Registry for changes to the SSP Registry keys. Monitor the LSA process for DLL loads. Windows 8.1 and Windows Server 2012 R2 may generate events when unsigned SSP DLLs try to load into the LSA by setting the Registry key <code>HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Image File Execution Options\\LSASS.exe</code> with AuditLevel = 8. (Citation: Graeber 2014) (Citation: Microsoft Configure LSA)",
-            "x_mitre_platforms": [
-                "Windows"
-            ],
             "x_mitre_data_sources": [
                 "DLL monitoring",
                 "Windows Registry",
                 "Loaded DLLs"
             ],
+            "x_mitre_detection": "Monitor the Registry for changes to the SSP Registry keys. Monitor the LSA process for DLL loads. Windows 8.1 and Windows Server 2012 R2 may generate events when unsigned SSP DLLs try to load into the LSA by setting the Registry key <code>HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Image File Execution Options\\LSASS.exe</code> with AuditLevel = 8. (Citation: Graeber 2014) (Citation: Microsoft Configure LSA)",
             "x_mitre_permissions_required": [
                 "Administrator"
-            ]
+            ],
+            "x_mitre_platforms": [
+                "Windows"
+            ],
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "persistence",
+                    "kill_chain_name": "mitre-attack"
+                }
+            ],
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:31:13.447Z"
         }
     ]
 }

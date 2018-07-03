@@ -1,18 +1,16 @@
 {
     "type": "bundle",
-    "id": "bundle--13c31940-36ef-47c9-9d9b-91d7414f239b",
+    "id": "bundle--73eae540-6dd5-488b-a748-868dfb586f2f",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "intrusion-set",
             "id": "intrusion-set--fe98767f-9df8-42b9-83c9-004b1dec8647",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:31:50.198Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "PittyTiger",
             "description": "[PittyTiger](https://attack.mitre.org/group/G0011) is a threat group believed to operate out of China that uses multiple different types of malware to maintain command and control. (Citation: Bizeul 2014) (Citation: Villeneuve 2014)",
-            "aliases": [
-                "PittyTiger"
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
@@ -35,9 +33,14 @@
                     "source_name": "Villeneuve 2014"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
+            ],
+            "aliases": [
+                "PittyTiger"
+            ],
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:31:50.198Z"
         }
     ]
 }

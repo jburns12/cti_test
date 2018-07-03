@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--f295e55b-d716-46bd-9d41-9cba999a2ba6",
+    "id": "bundle--4dd66b81-59c2-4d33-b8d9-ccfa8528c92c",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--6f86d346-f092-4abc-80df-8558a90c426a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-10-25T14:48:21.023Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Remotely Track Device Without Authorization",
             "description": "An adversary who is able to obtain unauthorized access to or misuse authorized access to cloud services (e.g. Google's Android Device Manager or Apple iCloud's Find my iPhone) or to an enterprise mobility management (EMM) / mobile device management (MDM) server console could use that access to track mobile devices.",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "cloud-based",
-                    "kill_chain_name": "mitre-mobile-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "MOB-T1071",
@@ -41,7 +32,19 @@
             "x_mitre_platforms": [
                 "Android",
                 "iOS"
-            ]
+            ],
+            "x_mitre_tactic_type": [
+                "Without Adversary Device Access"
+            ],
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "cloud-based",
+                    "kill_chain_name": "mitre-mobile-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-10-25T14:48:21.023Z"
         }
     ]
 }

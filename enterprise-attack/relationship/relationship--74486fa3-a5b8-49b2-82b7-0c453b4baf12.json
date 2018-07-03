@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--a06d0994-3237-4b13-b45a-2094e0b05f5d",
+    "id": "bundle--f28aff1d-ddb7-4dea-9e14-800942446ea0",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--74486fa3-a5b8-49b2-82b7-0c453b4baf12",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Tor](https://attack.mitre.org/software/S0183) encapsulates traffic in multiple layers of encryption.",
+            "source_ref": "tool--ed7d0cb1-87a6-43b4-9f46-ef1bc56d6c68",
+            "target_ref": "attack-pattern--428ca9f8-0e33-442a-be87-f869cb4cf73e",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://www.dtic.mil/dtic/tr/fulltext/u2/a465464.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "Dingledine Tor The Second-Generation Onion Router"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "tool--ed7d0cb1-87a6-43b4-9f46-ef1bc56d6c68",
-            "target_ref": "attack-pattern--428ca9f8-0e33-442a-be87-f869cb4cf73e"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-01-16T16:13:52.465Z"
         }
     ]
 }

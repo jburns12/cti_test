@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--1b10f479-54b4-4629-a21a-59cbfe49ac28",
+    "id": "bundle--1732b192-bf7c-437d-b774-f49e6ad46008",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--743ed7c3-c0e3-4290-9410-f6bec9224c30",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[APT28](https://attack.mitre.org/group/G0007) has collected information from Microsoft SharePoint services within target networks.",
+            "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
+            "target_ref": "attack-pattern--d28ef391-8ed4-45dc-bc4a-2f43abf54416",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://paper.seebug.org/papers/APT/APT%20CyberCriminal%20Campagin/2015/2015.11.04%20Evolving%20Threats/cct-w08%20evolving-threats-dissection-of-a-cyber-espionage-attack.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "RSAC 2015 Abu Dhabi Stefano Maccaglia"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
-            "target_ref": "attack-pattern--d28ef391-8ed4-45dc-bc4a-2f43abf54416"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

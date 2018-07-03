@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--38cda8e8-81b6-4a24-9b2a-83537cbb7c45",
+    "id": "bundle--38c58973-e6b5-45f0-b42f-5c982b175d74",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--d93265a6-1f92-472b-9e47-48b7863d8171",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Sowbug](https://attack.mitre.org/group/G0054) has used credential dumping tools.",
+            "source_ref": "intrusion-set--d1acfbb3-647b-4723-9154-800ec119006e",
+            "target_ref": "attack-pattern--0a3ead4e-6d47-4ccb-854c-a6a4f9d96b22",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.symantec.com/connect/blogs/sowbug-cyber-espionage-group-targets-south-american-and-southeast-asian-governments",
@@ -17,11 +20,12 @@
                     "source_name": "Symantec Sowbug Nov 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--d1acfbb3-647b-4723-9154-800ec119006e",
-            "target_ref": "attack-pattern--0a3ead4e-6d47-4ccb-854c-a6a4f9d96b22"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-01-16T16:13:52.465Z"
         }
     ]
 }

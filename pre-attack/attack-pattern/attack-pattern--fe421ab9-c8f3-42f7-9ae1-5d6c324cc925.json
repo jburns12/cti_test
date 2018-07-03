@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--5353367c-b718-4a99-a03c-b651f6d96698",
+    "id": "bundle--14822c2e-88a7-4b9f-8592-54ef8c9890f3",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--fe421ab9-c8f3-42f7-9ae1-5d6c324cc925",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Analyze application security posture",
             "description": "An adversary can probe a victim's network to determine configurations. The configurations may provide opportunities to route traffic through the network in an undetected or less detectable way. (Citation: Li2014ExploitKits) (Citation: RecurlyGHOST)",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "technical-weakness-identification",
-                    "kill_chain_name": "mitre-pre-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "PRE-T1070",
@@ -34,7 +25,20 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detectable_by_common_defenses": "No",
+            "x_mitre_detectable_by_common_defenses_explanation": "This can be done offline after the data has been collected.",
+            "x_mitre_difficulty_for_adversary": "Yes",
+            "x_mitre_difficulty_for_adversary_explanation": "Analyze technical scanning results to identify weaknesses in the configuration or architecture.  Many of the common tools highlight these weakness automatically (e.g., software security scanning tools or published vulnerabilities about commonly used libraries).",
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "technical-weakness-identification",
+                    "kill_chain_name": "mitre-pre-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

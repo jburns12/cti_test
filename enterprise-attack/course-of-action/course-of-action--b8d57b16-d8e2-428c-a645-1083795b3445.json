@@ -1,14 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--a2bd81c6-22f5-4234-85c6-7f5e2e618118",
+    "id": "bundle--28d5b559-815b-49a3-809f-97b782b45d52",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "course-of-action",
             "id": "course-of-action--b8d57b16-d8e2-428c-a645-1083795b3445",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-07-03T13:33:43.876Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Communication Through Removable Media Mitigation",
             "description": "Disable Autorun if it is unnecessary. (Citation: Microsoft Disable Autorun) Disallow or restrict removable media at an organizational policy level if they are not required for business operations. (Citation: TechNet Removable Media Control)",
             "external_references": [
@@ -27,7 +24,10 @@
                     "description": "Microsoft. (2007, August 31). https://technet.microsoft.com/en-us/library/cc771759(v=ws.10).aspx. Retrieved April 20, 2016.",
                     "source_name": "TechNet Removable Media Control"
                 }
-            ]
+            ],
+            "type": "course-of-action",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-07-03T13:33:43.876Z"
         }
     ]
 }

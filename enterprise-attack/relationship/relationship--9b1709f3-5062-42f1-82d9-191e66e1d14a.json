@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--45e1e19d-8d37-4320-904d-d2085df2a772",
+    "id": "bundle--3be19808-116d-49b8-a9af-1297882b055d",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--9b1709f3-5062-42f1-82d9-191e66e1d14a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Nidiran](https://attack.mitre.org/software/S0118) can create a new service named msamger (Microsoft Security Accounts Manager), which mimics the legitimate Microsoft database by the same name.",
+            "source_ref": "malware--9e9b9415-a7df-406b-b14d-92bfe6809fbe",
+            "target_ref": "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://support.microsoft.com/en-us/kb/310105",
@@ -22,11 +25,12 @@
                     "source_name": "Symantec Backdoor.Nidiran"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--9e9b9415-a7df-406b-b14d-92bfe6809fbe",
-            "target_ref": "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

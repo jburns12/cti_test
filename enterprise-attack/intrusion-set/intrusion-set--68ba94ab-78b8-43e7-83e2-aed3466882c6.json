@@ -1,18 +1,16 @@
 {
     "type": "bundle",
-    "id": "bundle--a349b540-76c2-4764-8318-53c9ee537907",
+    "id": "bundle--7a47571c-b754-463c-9c1f-1642890bebc5",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "intrusion-set",
             "id": "intrusion-set--68ba94ab-78b8-43e7-83e2-aed3466882c6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "APT34",
             "description": "[APT34](https://attack.mitre.org/group/G0057) is an Iranian cyber espionage group that has been active since at least 2014. The group has targeted a variety of industries, including financial, government, energy, chemical, and telecommunications, and has largely focused its operations within the Middle East. FireEye assesses that the group works on behalf of the Iranian government based on infrastructure details that contain references to Iran, use of Iranian infrastructure, and targeting that aligns with nation-state interests. [APT34](https://attack.mitre.org/group/G0057) loosely aligns with public reporting related to [OilRig](https://attack.mitre.org/group/G0049), but may not wholly align due to companies tracking threat groups in different ways. (Citation: FireEye APT34 Dec 2017)",
-            "aliases": [
-                "APT34"
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
@@ -30,9 +28,11 @@
                     "source_name": "FireEye APT34 Dec 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            "aliases": [
+                "APT34"
+            ],
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-01-16T16:13:52.465Z"
         }
     ]
 }

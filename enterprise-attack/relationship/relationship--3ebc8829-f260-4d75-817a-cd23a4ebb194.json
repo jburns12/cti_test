@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--27d3680c-ca0a-49fd-a49f-2ee466c7c071",
+    "id": "bundle--770c523f-70a9-4fe7-8070-3f9d01822c83",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--3ebc8829-f260-4d75-817a-cd23a4ebb194",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "Before being appended to image files, [HAMMERTOSS](https://attack.mitre.org/software/S0037) commands are encrypted with a key composed of both a hard-coded value and a string contained on that day's tweet. To decrypt the commands, an investigator would need access to the intended malware sample, the day's tweet, and the image file containing the command.",
+            "source_ref": "malware--2daa14d6-cbf3-4308-bb8e-213c324a08e4",
+            "target_ref": "attack-pattern--3b3cbbe0-6ed3-4334-b543-3ddfd8c5642d",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "FireEye APT29"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--2daa14d6-cbf3-4308-bb8e-213c324a08e4",
-            "target_ref": "attack-pattern--3b3cbbe0-6ed3-4334-b543-3ddfd8c5642d"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

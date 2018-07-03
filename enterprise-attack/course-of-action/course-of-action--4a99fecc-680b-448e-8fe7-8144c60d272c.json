@@ -1,14 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--0092fa6c-d662-4e42-b725-d96c69ef164e",
+    "id": "bundle--ef430457-fe93-4f26-8960-8b6bea48c738",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "course-of-action",
             "id": "course-of-action--4a99fecc-680b-448e-8fe7-8144c60d272c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-07-03T13:33:43.876Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Brute Force Mitigation",
             "description": "Set account lockout policies after a certain number of failed login attempts to prevent passwords from being guessed. Use multifactor authentication. Follow best practices for mitigating access to [Valid Accounts Mitigation](https://attack.mitre.org/technique/T1078)",
             "external_references": [
@@ -17,7 +14,10 @@
                     "url": "https://attack.mitre.org/technique/T1110",
                     "source_name": "mitre-attack"
                 }
-            ]
+            ],
+            "type": "course-of-action",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-07-03T13:33:43.876Z"
         }
     ]
 }

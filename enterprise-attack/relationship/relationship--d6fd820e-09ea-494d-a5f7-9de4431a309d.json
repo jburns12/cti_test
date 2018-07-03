@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--f2fb08de-0134-42df-9f57-8cf38e521da4",
+    "id": "bundle--778162f8-842b-4ab8-8875-17373ab90028",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--d6fd820e-09ea-494d-a5f7-9de4431a309d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[RemoteCMD](https://attack.mitre.org/software/S0166) can execute commands remotely by creating a new service on the remote system.",
+            "source_ref": "malware--4e6b9625-bbda-4d96-a652-b3bb45453f26",
+            "target_ref": "attack-pattern--54a649ff-439a-41a4-9856-8d144a2551ba",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
@@ -17,11 +20,12 @@
                     "source_name": "Symantec Buckeye"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--4e6b9625-bbda-4d96-a652-b3bb45453f26",
-            "target_ref": "attack-pattern--54a649ff-439a-41a4-9856-8d144a2551ba"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-01-16T16:13:52.465Z"
         }
     ]
 }

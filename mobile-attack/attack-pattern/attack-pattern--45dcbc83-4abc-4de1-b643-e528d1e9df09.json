@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--99470ba7-f454-4220-8cc1-4440bc723269",
+    "id": "bundle--9c19ebbc-838e-47cc-8879-bc2709c67e50",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--45dcbc83-4abc-4de1-b643-e528d1e9df09",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-10-25T14:48:24.069Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Biometric Spoofing",
             "description": "An adversary could attempt to spoof a mobile device's biometric authentication mechanism, for example by providing a fake fingerprint as described by SRLabs in  (Citation: SRLabs-Fingerprint).\n\niOS partly mitigates this attack by requiring the device passcode rather than a fingerprint to unlock the device after every device restart and after 48 hours since the device was last unlocked (Citation: Apple-TouchID).",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "exploit-via-physical-access",
-                    "kill_chain_name": "mitre-mobile-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "MOB-T1063",
@@ -40,7 +31,19 @@
             "x_mitre_platforms": [
                 "Android",
                 "iOS"
-            ]
+            ],
+            "x_mitre_tactic_type": [
+                "Pre-Adversary Device Access"
+            ],
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "exploit-via-physical-access",
+                    "kill_chain_name": "mitre-mobile-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-10-25T14:48:24.069Z"
         }
     ]
 }

@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--46ba8240-9845-4a58-b7e5-dc948c96da54",
+    "id": "bundle--27600ed8-7563-4169-856a-0dc21c1460e4",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--4900fabf-1142-4c1f-92f5-0b590e049077",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Compromise 3rd party infrastructure to support delivery",
             "description": "Instead of buying, leasing, or renting infrastructure an adversary may compromise infrastructure and use it for some or all of the attack cycle. (Citation: WateringHole2014) (Citation: FireEye Operation SnowMan)",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "adversary-opsec",
-                    "kill_chain_name": "mitre-pre-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "PRE-T1089",
@@ -34,7 +25,20 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detectable_by_common_defenses": "No",
+            "x_mitre_detectable_by_common_defenses_explanation": "Defender will not have visibility on 3rd party sites unless target is successfully enticed to visit one.",
+            "x_mitre_difficulty_for_adversary": "Yes",
+            "x_mitre_difficulty_for_adversary_explanation": "Commonly used technique currently (e.g., [https://www.wordpress.com WordPress] sites) as precursor activity to launching attack against intended target (e.g., acquiring botnet or layers of proxies for reducing attribution possibilities).",
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "adversary-opsec",
+                    "kill_chain_name": "mitre-pre-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

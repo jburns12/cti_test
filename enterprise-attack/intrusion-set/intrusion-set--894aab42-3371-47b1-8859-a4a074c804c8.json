@@ -1,18 +1,16 @@
 {
     "type": "bundle",
-    "id": "bundle--66b7003c-c2df-427e-ac86-a7dd31dd94dc",
+    "id": "bundle--7d0fd482-0771-4a8d-a4be-e35daeb90655",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "intrusion-set",
             "id": "intrusion-set--894aab42-3371-47b1-8859-a4a074c804c8",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:32:06.390Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Stealth Falcon",
             "description": "[Stealth Falcon](https://attack.mitre.org/group/G0038) is a threat group that has conducted targeted spyware attacks against Emirati journalists, activists, and dissidents since at least 2012. Circumstantial evidence suggests there could be a link between this group and the United Arab Emirates (UAE) government, but that has not been confirmed. (Citation: Citizen Lab Stealth Falcon May 2016)",
-            "aliases": [
-                "Stealth Falcon"
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
@@ -30,9 +28,11 @@
                     "source_name": "Citizen Lab Stealth Falcon May 2016"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            "aliases": [
+                "Stealth Falcon"
+            ],
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:32:06.390Z"
         }
     ]
 }

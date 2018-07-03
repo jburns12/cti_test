@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--55154186-c1d7-4d31-a1ff-9fee0d049ac5",
+    "id": "bundle--46bb7317-06d2-4c53-9a76-832ab38e0afb",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--bbe37d7e-ad35-4c74-a57c-9a398ef6b1be",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[SEASHARPEE](https://attack.mitre.org/software/S0185) is a Web shell.",
+            "source_ref": "malware--0998045d-f96e-4284-95ce-3c8219707486",
+            "target_ref": "attack-pattern--c16e5409-ee53-4d79-afdc-4099dc9292df",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.brighttalk.com/webcast/10703/296317/apt34-new-targeted-attack-in-the-middle-east",
@@ -17,11 +20,12 @@
                     "source_name": "FireEye APT34 Webinar Dec 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--0998045d-f96e-4284-95ce-3c8219707486",
-            "target_ref": "attack-pattern--c16e5409-ee53-4d79-afdc-4099dc9292df"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-01-16T16:13:52.465Z"
         }
     ]
 }

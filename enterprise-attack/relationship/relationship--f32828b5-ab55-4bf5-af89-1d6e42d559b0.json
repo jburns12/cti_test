@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--92b69c5e-40f6-466d-8351-16675e9eeb54",
+    "id": "bundle--fc262130-99ce-4afd-bab4-b20a591dae18",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--f32828b5-ab55-4bf5-af89-1d6e42d559b0",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[POORAIM](https://attack.mitre.org/software/S0216) has been delivered through compromised sites acting as watering holes.",
+            "source_ref": "malware--53d47b09-09c2-4015-8d37-6633ecd53f79",
+            "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt%20APT37.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "FireEye APT37 Feb 2018"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--53d47b09-09c2-4015-8d37-6633ecd53f79",
-            "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

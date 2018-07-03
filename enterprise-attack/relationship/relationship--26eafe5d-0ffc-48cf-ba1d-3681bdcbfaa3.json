@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--f52e9e80-f1f4-480a-befa-f859a6178678",
+    "id": "bundle--68993139-6339-4d40-93f1-208331dcc3a4",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--26eafe5d-0ffc-48cf-ba1d-3681bdcbfaa3",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T15:59:25.325Z",
+            "relationship_type": "uses",
             "description": "[Threat Group-3390](https://attack.mitre.org/wiki/Group/G0027) has used command-line interfaces for execution.",
+            "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
+            "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.secureworks.com/research/bronze-union",
@@ -17,11 +20,12 @@
                     "source_name": "SecureWorks BRONZE UNION June 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
-            "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830"
+            "type": "relationship",
+            "modified": "2018-07-03T15:59:25.325Z",
+            "created": "2017-12-14T16:46:06.044Z",
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
+            ]
         }
     ]
 }

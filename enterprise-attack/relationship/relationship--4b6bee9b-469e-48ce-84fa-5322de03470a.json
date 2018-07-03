@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--a39cfae3-d2af-4dc4-ba11-df22f94a9892",
+    "id": "bundle--0fa61078-df0c-4439-98af-a648e969d287",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--4b6bee9b-469e-48ce-84fa-5322de03470a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "Some variants of [FakeM](https://attack.mitre.org/software/S0076) use RC4 to encrypt C2 traffic.",
+            "source_ref": "malware--bb3c1098-d654-4620-bf40-694386d28921",
+            "target_ref": "attack-pattern--4b74a1d4-b0e9-4ef1-93f1-14ecc6e2f5b5",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2016/01/scarlet-mimic-years-long-espionage-targets-minority-activists/",
@@ -17,11 +20,12 @@
                     "source_name": "Scarlet Mimic Jan 2016"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--bb3c1098-d654-4620-bf40-694386d28921",
-            "target_ref": "attack-pattern--4b74a1d4-b0e9-4ef1-93f1-14ecc6e2f5b5"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

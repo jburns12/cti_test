@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--990ecf26-9a58-4a3a-a2c7-fcff32ba398d",
+    "id": "bundle--a2e2d6ec-7400-4f7b-a12b-01462f81c882",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--3faed885-6a3d-444f-8e57-fd8818abb1cc",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T14:44:41.004Z",
+            "relationship_type": "uses",
             "description": "[AndroidOverlayMalware](https://attack.mitre.org/software/MOB-S0012) involved \"three campaigns in Europe\" that \"used view overlay techniques...to present nearly identical credential input UIs as seen in benign apps, subsequently tricking unwary users into providing their banking credentials.\"",
+            "source_ref": "malware--b6d3657a-2d6a-400f-8b7e-4d60391aa1f7",
+            "target_ref": "attack-pattern--3dd58c80-4c2e-458c-9503-1b2cd273c4d2",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2016/06/latest-android-overlay-malware-spreading-in-europe.html",
@@ -17,11 +20,12 @@
                     "source_name": "FireEye-AndroidOverlay"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "2f669986-b40b-4423-b720-4396ca6a462b"
             ],
-            "source_ref": "malware--b6d3657a-2d6a-400f-8b7e-4d60391aa1f7",
-            "target_ref": "attack-pattern--3dd58c80-4c2e-458c-9503-1b2cd273c4d2"
+            "type": "relationship",
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

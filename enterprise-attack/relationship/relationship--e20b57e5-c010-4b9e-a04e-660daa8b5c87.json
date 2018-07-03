@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--c5d7c41c-fc54-4b44-b22b-a60e1fded191",
+    "id": "bundle--c22ca4c0-c034-4541-92af-08c7d2c0abbb",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--e20b57e5-c010-4b9e-a04e-660daa8b5c87",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Sowbug](https://attack.mitre.org/group/G0054) obtained OS version and hardware configuration from a victim.",
+            "source_ref": "intrusion-set--d1acfbb3-647b-4723-9154-800ec119006e",
+            "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.symantec.com/connect/blogs/sowbug-cyber-espionage-group-targets-south-american-and-southeast-asian-governments",
@@ -17,11 +20,12 @@
                     "source_name": "Symantec Sowbug Nov 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--d1acfbb3-647b-4723-9154-800ec119006e",
-            "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-01-16T16:13:52.465Z"
         }
     ]
 }

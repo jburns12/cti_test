@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--7384d89b-b288-43bb-b1c0-50784ac1178b",
+    "id": "bundle--d38f09a2-29d2-4911-8276-10041b9ea6f0",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--4e6620ac-c30c-4f6d-918e-fa20cae7c1ce",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-10-25T14:48:11.535Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Access Contact List",
             "description": "An adversary could call standard operating system APIs from a malicious application to gather contact list (i.e., address book) data, or with escalated privileges could directly access files containing contact list data.",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "collection",
-                    "kill_chain_name": "mitre-mobile-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "MOB-T1035",
@@ -36,7 +27,19 @@
             "x_mitre_platforms": [
                 "Android",
                 "iOS"
-            ]
+            ],
+            "x_mitre_tactic_type": [
+                "Post-Adversary Device Access"
+            ],
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "collection",
+                    "kill_chain_name": "mitre-mobile-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-10-25T14:48:11.535Z"
         }
     ]
 }

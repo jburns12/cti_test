@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--32a09ff4-d8f3-4eb1-a47f-9d5a88196817",
+    "id": "bundle--167e3d9e-f689-4f31-b9e8-122f3ab77987",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--0d9114a6-6452-4668-95eb-f91bcb300d2d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[TEXTMATE](https://attack.mitre.org/software/S0146) uses DNS TXT records for C2.",
+            "source_ref": "malware--4f6aa78c-c3d4-4883-9840-96ca2f5d6d47",
+            "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/03/fin7%20spear%20phishing.html",
@@ -17,11 +20,12 @@
                     "source_name": "FireEye FIN7 March 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--4f6aa78c-c3d4-4883-9840-96ca2f5d6d47",
-            "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

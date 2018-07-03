@@ -1,14 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--2619df1a-bb3b-4953-bab3-74ffa6e9196b",
+    "id": "bundle--29ef7acc-0e41-42f9-83f4-3a6713f0e355",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "course-of-action",
             "id": "course-of-action--3e7018e9-7389-48e7-9208-0bdbcbba9483",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-07-03T13:33:43.876Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Clear Command History Mitigation",
             "description": "Preventing users from deleting or writing to certain files can stop adversaries from maliciously altering their <code>~/.bash_history</code> files. Additionally, making these environment variables readonly can make sure that the history is preserved   (Citation: Securing bash history).",
             "external_references": [
@@ -21,7 +18,10 @@
                     "description": "Mathew Branwell. (2012, March 21). Securing .bash_history file. Retrieved July 8, 2017.",
                     "source_name": "Securing bash history"
                 }
-            ]
+            ],
+            "type": "course-of-action",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-07-03T13:33:43.876Z"
         }
     ]
 }

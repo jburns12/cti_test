@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--db868473-f69d-4912-9a8b-ee06d6628e28",
+    "id": "bundle--280bba8b-da20-45da-8ef7-52f4f9b71a5d",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--8c7631c4-bc83-4ee5-abb5-c039d63da619",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "Some strings in [HOMEFRY](https://attack.mitre.org/software/S0232) are obfuscated with XOR x56.",
+            "source_ref": "malware--7451bcf9-e6e6-4a70-bc3d-1599173d0035",
+            "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2018/03/suspected-chinese-espionage-group-targeting-maritime-and-engineering-industries.html",
@@ -17,11 +20,12 @@
                     "source_name": "FireEye Periscope March 2018"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--7451bcf9-e6e6-4a70-bc3d-1599173d0035",
-            "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

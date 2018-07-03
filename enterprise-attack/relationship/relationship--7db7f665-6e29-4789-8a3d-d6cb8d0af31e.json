@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--2408399b-ede9-47c1-ab52-d72fd34750a5",
+    "id": "bundle--664bda73-a028-4894-af22-5127b849a0e3",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--7db7f665-6e29-4789-8a3d-d6cb8d0af31e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:33:27.071Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[GCMAN](https://attack.mitre.org/group/G0036) uses Putty and VNC for lateral movement.",
+            "source_ref": "intrusion-set--0ea72cd5-ca30-46ba-bc04-378f701c658f",
+            "target_ref": "attack-pattern--54a649ff-439a-41a4-9856-8d144a2551ba",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://securelist.com/apt-style-bank-robberies-increase-with-metel-gcman-and-carbanak-2-0-attacks/73638/",
@@ -17,11 +20,12 @@
                     "source_name": "Securelist GCMAN"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--0ea72cd5-ca30-46ba-bc04-378f701c658f",
-            "target_ref": "attack-pattern--54a649ff-439a-41a4-9856-8d144a2551ba"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:33:27.071Z"
         }
     ]
 }

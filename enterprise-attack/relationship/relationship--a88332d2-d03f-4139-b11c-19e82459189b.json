@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--a1686114-5143-44a4-a5c2-3b950ae2fbab",
+    "id": "bundle--c1ae4a5d-0565-4c76-8f7e-3796ce5dcba1",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--a88332d2-d03f-4139-b11c-19e82459189b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[POWRUNER](https://attack.mitre.org/software/S0184) may collect information about the system by running <code>hostname</code> and <code>systeminfo</code> on a victim.",
+            "source_ref": "malware--09b2cd76-c674-47cc-9f57-d2f2ad150a46",
+            "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/12/targeted-attack-in-middle-east-by-apt34.html",
@@ -17,11 +20,12 @@
                     "source_name": "FireEye APT34 Dec 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--09b2cd76-c674-47cc-9f57-d2f2ad150a46",
-            "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-01-16T16:13:52.465Z"
         }
     ]
 }

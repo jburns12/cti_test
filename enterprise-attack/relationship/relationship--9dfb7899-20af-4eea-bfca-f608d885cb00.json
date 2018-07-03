@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--4aeb66f0-4108-42fa-91e3-9f54e4062344",
+    "id": "bundle--78a3e6f3-b9d6-4467-a0f6-b7675d138863",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--9dfb7899-20af-4eea-bfca-f608d885cb00",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:33:27.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Turla](https://attack.mitre.org/group/G0010) surveys a system upon check-in to discover running processes using the <code>tasklist /v</code> command.",
+            "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
+            "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://securelist.com/the-epic-turla-operation/65545/",
@@ -17,11 +20,12 @@
                     "source_name": "Kaspersky Turla"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
-            "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:33:27.044Z"
         }
     ]
 }

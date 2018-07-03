@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--4dbdc691-cdc5-4c47-9f72-2058572368ac",
+    "id": "bundle--8f7b84e2-cc83-4bd4-99ff-4d297d2e97c6",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--eb74fa31-121d-4e43-9794-048a901f509a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Uroburos](https://attack.mitre.org/software/S0022) is a rootkit used by [Turla](https://attack.mitre.org/group/G0010).",
+            "source_ref": "malware--80a014ba-3fef-4768-990b-37d8bd10d7f4",
+            "target_ref": "attack-pattern--0f20e3cb-245b-4a61-8a91-2d93f7cb0e9b",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://securelist.com/the-epic-turla-operation/65545/",
@@ -17,11 +20,12 @@
                     "source_name": "Kaspersky Turla"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--80a014ba-3fef-4768-990b-37d8bd10d7f4",
-            "target_ref": "attack-pattern--0f20e3cb-245b-4a61-8a91-2d93f7cb0e9b"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

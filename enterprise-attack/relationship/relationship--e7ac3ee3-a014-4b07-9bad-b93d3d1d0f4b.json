@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--c1d322b2-2469-4289-9351-b4fb81cf2808",
+    "id": "bundle--42fa1295-3265-4289-9a30-059a7f2c031e",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--e7ac3ee3-a014-4b07-9bad-b93d3d1d0f4b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "The [Regin](https://attack.mitre.org/software/S0019) malware platform can use ICMP to communicate between infected computers.",
+            "source_ref": "malware--4c59cce8-cb48-4141-b9f1-f646edfaadb0",
+            "target_ref": "attack-pattern--c21d5a77-d422-4a69-acd7-2c53c1faa34b",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://securelist.com/files/2014/11/Kaspersky%20Lab%20whitepaper%20Regin%20platform%20eng.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "Kaspersky Regin"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--4c59cce8-cb48-4141-b9f1-f646edfaadb0",
-            "target_ref": "attack-pattern--c21d5a77-d422-4a69-acd7-2c53c1faa34b"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

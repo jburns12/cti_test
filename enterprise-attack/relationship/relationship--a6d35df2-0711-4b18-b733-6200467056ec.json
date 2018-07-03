@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--b574c3c6-c410-428b-82a3-dfe835be5ee4",
+    "id": "bundle--982001d8-4da1-49fc-9022-50e873b8a37b",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--a6d35df2-0711-4b18-b733-6200467056ec",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[APT37](https://attack.mitre.org/group/G0067) has used strategic web compromises, particularly of South Korean websites, to distribute malware. The group has also used torrent file-sharing sites to more indiscriminately disseminate malware to victims. As part of their compromises, the group has used a Javascript based profiler called RICECURRY to profile a victim's web browser and deliver malicious code accordingly.",
+            "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
+            "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt%20APT37.pdf",
@@ -22,11 +25,12 @@
                     "source_name": "Securelist ScarCruft Jun 2016"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
-            "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

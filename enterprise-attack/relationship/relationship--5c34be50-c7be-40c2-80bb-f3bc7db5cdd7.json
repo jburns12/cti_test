@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--bc08d581-2eb9-4c7f-94e4-b9dcde893e66",
+    "id": "bundle--a99f6f54-6b2a-4b4f-93c2-c922589cab23",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--5c34be50-c7be-40c2-80bb-f3bc7db5cdd7",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Sakula](https://attack.mitre.org/software/S0074) uses DLL side-loading, typically using a digitally signed sample of Kaspersky Anti-Virus (AV) 6.0 for Windows Workstations or McAfee's Outlook Scan About Box to load malicious DLL files.",
+            "source_ref": "malware--96b08451-b27a-4ff6-893f-790e26393a8e",
+            "target_ref": "attack-pattern--b2001907-166b-4d71-bb3c-9d26c871de09",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://www.secureworks.com/cyber-threat-intelligence/threats/sakula-malware-family/",
@@ -17,11 +20,12 @@
                     "source_name": "Dell Sakula"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--96b08451-b27a-4ff6-893f-790e26393a8e",
-            "target_ref": "attack-pattern--b2001907-166b-4d71-bb3c-9d26c871de09"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

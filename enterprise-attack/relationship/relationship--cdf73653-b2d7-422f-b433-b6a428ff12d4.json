@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--cbf78e84-45cc-4b5b-aeb2-0df8e2d446be",
+    "id": "bundle--550e99b6-d651-47aa-b54a-cd5071d49d88",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--cdf73653-b2d7-422f-b433-b6a428ff12d4",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:33:27.074Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Stealth Falcon](https://attack.mitre.org/group/G0038) malware gathers data from the local victim system.",
+            "source_ref": "intrusion-set--894aab42-3371-47b1-8859-a4a074c804c8",
+            "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://citizenlab.org/2016/05/stealth-falcon/",
@@ -17,11 +20,12 @@
                     "source_name": "Citizen Lab Stealth Falcon May 2016"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--894aab42-3371-47b1-8859-a4a074c804c8",
-            "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:33:27.074Z"
         }
     ]
 }

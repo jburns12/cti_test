@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--eb3b6f80-f859-4875-89c9-23536b0829a7",
+    "id": "bundle--541d818b-3d87-445e-badc-fe327d5cdbba",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--813e4416-bee6-4192-a712-6b5f80a7fff3",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[S-Type](https://attack.mitre.org/software/S0085) uses Base64 encoding for C2 traffic.",
+            "source_ref": "malware--66b1dcde-17a0-4c7b-95fa-b08d430c2131",
+            "target_ref": "attack-pattern--cc7b8c4e-9be0-47ca-b0bb-83915ec3ee2f",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.cylance.com/content/dam/cylance/pdfs/reports/Op%20Dust%20Storm%20Report.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "Cylance Dust Storm"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--66b1dcde-17a0-4c7b-95fa-b08d430c2131",
-            "target_ref": "attack-pattern--cc7b8c4e-9be0-47ca-b0bb-83915ec3ee2f"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

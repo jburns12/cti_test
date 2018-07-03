@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--66c7b86a-07d6-4c95-80fc-0db27a143df6",
+    "id": "bundle--bffcc5c3-cbdf-4efe-bc22-749f043e307d",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--52651225-0b3a-482d-aa7e-10618fd063b5",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-10-25T14:48:09.864Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Exploit SS7 to Track Device Location",
             "description": "An adversary could exploit signaling system vulnerabilities to track the location of mobile devices, for example as described in  (Citation: Engel-SS7),  (Citation: Engel-SS7)-2008,  (Citation: 3GPP-Security) and  (Citation: Positive-SS7), as well as in a report from the Communications, Security, Reliability, and Interoperability Council (CSRIC)  (Citation: CSRIC5-WG10-FinalReport).",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "cellular-network-based",
-                    "kill_chain_name": "mitre-mobile-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "MOB-T1053",
@@ -60,7 +51,19 @@
             "x_mitre_platforms": [
                 "Android",
                 "iOS"
-            ]
+            ],
+            "x_mitre_tactic_type": [
+                "Without Adversary Device Access"
+            ],
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "cellular-network-based",
+                    "kill_chain_name": "mitre-mobile-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-10-25T14:48:09.864Z"
         }
     ]
 }

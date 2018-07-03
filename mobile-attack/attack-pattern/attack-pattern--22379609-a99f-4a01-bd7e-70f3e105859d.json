@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--4b369b85-ba2b-4213-9079-106c98c0a97b",
+    "id": "bundle--f44b0b22-4885-47db-b312-9ef891769d13",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--22379609-a99f-4a01-bd7e-70f3e105859d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-10-25T14:48:13.259Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Exploit Enterprise Resources",
             "description": "Adversaries may attempt to exploit enterprise servers, workstations, or other resources over the network. This technique may take advantage of the mobile device's access to an internal enterprise network either through local connectivity or through a Virtual Private Network (VPN).",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "lateral-movement",
-                    "kill_chain_name": "mitre-mobile-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "MOB-T1031",
@@ -35,7 +26,19 @@
             "x_mitre_platforms": [
                 "Android",
                 "iOS"
-            ]
+            ],
+            "x_mitre_tactic_type": [
+                "Post-Adversary Device Access"
+            ],
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "lateral-movement",
+                    "kill_chain_name": "mitre-mobile-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-10-25T14:48:13.259Z"
         }
     ]
 }

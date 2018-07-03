@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--09cd8178-a7d8-4611-bb91-370ba19174e9",
+    "id": "bundle--41e85555-cfb3-4c5c-a792-d55e5e9aef25",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--283e242a-72d4-4b40-8905-888595c34919",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[BADNEWS](https://attack.mitre.org/software/S0128) typically loads its DLL file into a legitimate signed Java or VMware executable.",
+            "source_ref": "malware--e9595678-d269-469e-ae6b-75e49259de63",
+            "target_ref": "attack-pattern--b2001907-166b-4d71-bb3c-9d26c871de09",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.forcepoint.com/sites/default/files/resources/files/forcepoint-security-labs-monsoon-analysis-report.pdf",
@@ -22,11 +25,12 @@
                     "source_name": "PaloAlto Patchwork Mar 2018"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--e9595678-d269-469e-ae6b-75e49259de63",
-            "target_ref": "attack-pattern--b2001907-166b-4d71-bb3c-9d26c871de09"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--7ede0547-df9b-48bf-885f-29b5e3f62425",
+    "id": "bundle--b4cc5c42-5610-4c6e-a3cc-e1e8a95a5cb3",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--f0b3c919-bf39-4bc9-9488-5f30d5407c54",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[APT3](https://attack.mitre.org/group/G0022) has been known to create or enable accounts, such as <code>support_388945a0</code>.",
+            "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
+            "target_ref": "attack-pattern--e01be9c5-e763-4caf-aeb7-000b416aef67",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://carnal0wnage.attackresearch.com/2012/09/more-on-aptsim.html",
@@ -17,11 +20,12 @@
                     "source_name": "aptsim"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
-            "target_ref": "attack-pattern--e01be9c5-e763-4caf-aeb7-000b416aef67"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-01-16T16:13:52.465Z"
         }
     ]
 }

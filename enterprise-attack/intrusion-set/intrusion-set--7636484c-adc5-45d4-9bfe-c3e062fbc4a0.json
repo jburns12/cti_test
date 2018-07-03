@@ -1,18 +1,16 @@
 {
     "type": "bundle",
-    "id": "bundle--cf4e45a8-9e0a-4529-8c3f-51ad2c14220b",
+    "id": "bundle--42e93f58-45f0-4f8a-b29c-6eebf54caf84",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "intrusion-set",
             "id": "intrusion-set--7636484c-adc5-45d4-9bfe-c3e062fbc4a0",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Charming Kitten",
             "description": "[Charming Kitten](https://attack.mitre.org/group/G0058) is an Iranian cyber espionage group that has been active since approximately 2014. They appear to focus on targeting individuals of interest to Iran who work in academic research, human rights, and media, with most victims having been located in Iran, the US, Israel, and the UK. [Charming Kitten](https://attack.mitre.org/group/G0058) usually tries to access private email and Facebook accounts, and sometimes establishes a foothold on victim computers as a secondary objective. The group's TTPs overlap extensively with another group, [Magic Hound](https://attack.mitre.org/group/G0059), resulting in reporting that may not distinguish between the two groups' activities. (Citation: ClearSky Charming Kitten Dec 2017)",
-            "aliases": [
-                "Charming Kitten"
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
@@ -30,9 +28,11 @@
                     "source_name": "ClearSky Charming Kitten Dec 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            "aliases": [
+                "Charming Kitten"
+            ],
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-01-16T16:13:52.465Z"
         }
     ]
 }

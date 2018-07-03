@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--d6fd24b6-8ca7-4feb-a246-df24402f161e",
+    "id": "bundle--cf1b7b60-4803-4985-807e-6f9c5becca9d",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--757bed64-558b-4ea7-84b9-b82d8b23f9b2",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:33:27.035Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[APT1](https://attack.mitre.org/group/G0006) uses two utilities, GETMAIL and MAPIGET, to steal email. GETMAIL extracts emails from archived Outlook .pst files, and MAPIGET steals email still on Exchange servers that has not yet been archived.",
+            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
+            "target_ref": "attack-pattern--1608f3e1-598a-42f4-a01a-2e252e81728f",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "Mandiant APT1"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
-            "target_ref": "attack-pattern--1608f3e1-598a-42f4-a01a-2e252e81728f"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:33:27.035Z"
         }
     ]
 }

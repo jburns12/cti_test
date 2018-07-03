@@ -1,14 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--f8130317-7d61-45de-b01e-8532d248a020",
+    "id": "bundle--e39b6b5f-a6ff-4da1-afcd-91f178cd07ce",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "course-of-action",
             "id": "course-of-action--da8a87d2-946d-4c34-9a30-709058b98996",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-07-03T13:33:43.876Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Input Capture Mitigation",
             "description": "Identify and block potentially malicious software that may be used to acquire credentials or information from the user by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)\n\nIn cases where this behavior is difficult to detect or mitigate, efforts can be made to lessen some of the impact that might result from an adversary acquiring credential information. It is also good practice to follow mitigation recommendations for adversary use of [Valid Accounts Mitigation](https://attack.mitre.org/technique/T1078).",
             "external_references": [
@@ -42,7 +39,10 @@
                     "description": "Microsoft. (2012, June 27). Using Software Restriction Policies and AppLocker Policies. Retrieved April 7, 2016.",
                     "source_name": "TechNet Applocker vs SRP"
                 }
-            ]
+            ],
+            "type": "course-of-action",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-07-03T13:33:43.876Z"
         }
     ]
 }

@@ -1,18 +1,16 @@
 {
     "type": "bundle",
-    "id": "bundle--8931bacc-8f44-4792-a9bb-188fcbcdd268",
+    "id": "bundle--8e3622b6-36df-4d1a-bd3c-4f61c305f3cd",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "intrusion-set",
             "id": "intrusion-set--5cbe0d3b-6fb1-471f-b591-4b192915116d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:32:06.777Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Suckfly",
             "description": "[Suckfly](https://attack.mitre.org/group/G0039) is a China-based threat group that has been active since at least 2014. (Citation: Symantec Suckfly March 2016)",
-            "aliases": [
-                "Suckfly"
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
@@ -35,9 +33,14 @@
                     "source_name": "Symantec Suckfly May 2016"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
+            ],
+            "aliases": [
+                "Suckfly"
+            ],
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:32:06.777Z"
         }
     ]
 }

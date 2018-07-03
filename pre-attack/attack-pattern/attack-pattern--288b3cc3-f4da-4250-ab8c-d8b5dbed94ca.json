@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--701a732f-856b-47a0-9e1f-d117f3ea7d42",
+    "id": "bundle--bb0d7f79-baca-4910-a722-a61e3f8de095",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--288b3cc3-f4da-4250-ab8c-d8b5dbed94ca",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Identify web defensive services",
             "description": "An adversary can attempt to identify web defensive services as [https://www.cloudflare.com/ CloudFlare], [https://github.com/jjxtra/Windows-IP-Ban-Service IPBan], and [https://www.snort.org/ Snort]. This may be done by passively detecting services, like [https://www.cloudflare.com/ CloudFlare] routing, or actively, such as by purposefully tripping security defenses. (Citation: NMAP WAF NSE)",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "technical-information-gathering",
-                    "kill_chain_name": "mitre-pre-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "PRE-T1033",
@@ -30,7 +21,20 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detectable_by_common_defenses": "Yes",
+            "x_mitre_detectable_by_common_defenses_explanation": "Active service detection may trigger an alert.  Passive service enumeration is not detected.",
+            "x_mitre_difficulty_for_adversary": "Yes",
+            "x_mitre_difficulty_for_adversary_explanation": "Adversary can passively detect services (e.g., [https://www.cloudflare.com/ CloudFlare] routing) or actively detect services (e.g., by purposefully tripping security defenses)",
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "technical-information-gathering",
+                    "kill_chain_name": "mitre-pre-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

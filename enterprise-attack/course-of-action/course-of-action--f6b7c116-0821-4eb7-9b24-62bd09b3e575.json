@@ -1,14 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--3e028a14-2071-4c5f-a55d-41975a00db15",
+    "id": "bundle--f1eb6a81-e1fe-437a-8218-2a478341d577",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "course-of-action",
             "id": "course-of-action--f6b7c116-0821-4eb7-9b24-62bd09b3e575",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-07-03T13:33:43.876Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Port Knocking Mitigation",
             "description": "Mitigation of some variants of this technique could be achieved through the use of stateful firewalls, depending upon how it is implemented.",
             "external_references": [
@@ -17,7 +14,10 @@
                     "url": "https://attack.mitre.org/technique/T1205",
                     "source_name": "mitre-attack"
                 }
-            ]
+            ],
+            "type": "course-of-action",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-07-03T13:33:43.876Z"
         }
     ]
 }

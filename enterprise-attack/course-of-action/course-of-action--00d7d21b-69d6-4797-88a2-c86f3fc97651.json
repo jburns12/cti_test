@@ -1,14 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--ff86c61e-fb16-417a-897d-2a469d0d6b22",
+    "id": "bundle--a6346be5-d6c9-4981-95fe-eafd9f569ab6",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "course-of-action",
             "id": "course-of-action--00d7d21b-69d6-4797-88a2-c86f3fc97651",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-07-03T13:33:43.876Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Password Filter DLL Mitigation",
             "description": "Ensure only valid password filters are registered. Filter DLLs must be present in Windows installation directory (<code>C:\\Windows\\System32\\</code> by default) of a domain controller and/or local computer with a corresponding entry in <code>HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\Notification Packages</code>.  (Citation: Microsoft Install Password Filter n.d)",
             "external_references": [
@@ -22,7 +19,10 @@
                     "description": "Microsoft. (n.d.). Installing and Registering a Password Filter DLL. Retrieved November 21, 2017.",
                     "source_name": "Microsoft Install Password Filter n.d"
                 }
-            ]
+            ],
+            "type": "course-of-action",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-07-03T13:33:43.876Z"
         }
     ]
 }

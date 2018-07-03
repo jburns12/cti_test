@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--0f7ae85a-b4fa-43bf-be23-eff8b2544bb9",
+    "id": "bundle--f8956f4b-d518-48ea-8473-938a40a07267",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--4636d747-9b81-4139-b86d-6e4edbc4111e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "A [FinFisher](https://attack.mitre.org/software/S0182) variant uses a custom packer.",
+            "source_ref": "malware--a5528622-3a8a-4633-86ce-8cdaf8423858",
+            "target_ref": "attack-pattern--6ff403bc-93e3-48be-8687-e102fdba8c88",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://www.finfisher.com/FinFisher/index.html",
@@ -22,11 +25,12 @@
                     "source_name": "Securelist BlackOasis Oct 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--a5528622-3a8a-4633-86ce-8cdaf8423858",
-            "target_ref": "attack-pattern--6ff403bc-93e3-48be-8687-e102fdba8c88"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

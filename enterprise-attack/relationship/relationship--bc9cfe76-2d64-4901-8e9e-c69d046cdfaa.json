@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--104ccb23-76af-42db-bc3b-e6122098a4cf",
+    "id": "bundle--d96a2cb3-3a7a-445e-9313-4951f4bf0178",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--bc9cfe76-2d64-4901-8e9e-c69d046cdfaa",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[APT3](https://attack.mitre.org/group/G0022) has a tool that creates a new service for persistence.",
+            "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
+            "target_ref": "attack-pattern--478aa214-2ca7-4ec0-9978-18798e514790",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2014/11/operation%20doubletap.html",
@@ -17,11 +20,12 @@
                     "source_name": "FireEye Operation Double Tap"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
-            "target_ref": "attack-pattern--478aa214-2ca7-4ec0-9978-18798e514790"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-01-16T16:13:52.465Z"
         }
     ]
 }

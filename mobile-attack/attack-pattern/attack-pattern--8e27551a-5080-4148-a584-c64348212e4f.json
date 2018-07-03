@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--36e18f1c-df54-41db-9b07-6f7298eaa9c9",
+    "id": "bundle--d39f9476-c8df-4393-822d-b530fa458854",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--8e27551a-5080-4148-a584-c64348212e4f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-10-25T14:48:31.694Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Wipe Device Data",
             "description": "A malicious application could abuse Android device administrator access to wipe device contents, for example if a ransom is not paid.",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "effects",
-                    "kill_chain_name": "mitre-mobile-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "MOB-T1050",
@@ -29,7 +20,19 @@
             ],
             "x_mitre_platforms": [
                 "Android"
-            ]
+            ],
+            "x_mitre_tactic_type": [
+                "Post-Adversary Device Access"
+            ],
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "effects",
+                    "kill_chain_name": "mitre-mobile-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-10-25T14:48:31.694Z"
         }
     ]
 }

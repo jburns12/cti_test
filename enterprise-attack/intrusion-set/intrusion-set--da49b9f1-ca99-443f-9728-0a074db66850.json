@@ -1,18 +1,16 @@
 {
     "type": "bundle",
-    "id": "bundle--7245a70a-ee47-4f3e-bfc1-7d0c97630e80",
+    "id": "bundle--30dfc475-a0ed-4abe-a18b-44397add0e06",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "intrusion-set",
             "id": "intrusion-set--da49b9f1-ca99-443f-9728-0a074db66850",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "BlackOasis",
             "description": "[BlackOasis](https://attack.mitre.org/group/G0063) is a Middle Eastern threat group that is believed to be a customer of Gamma Group. The group has shown interest in prominent figures in the United Nations, as well as opposition bloggers, activists, regional news correspondents, and think tanks. (Citation: Securelist BlackOasis Oct 2017) (Citation: Securelist APT Trends Q2 2017) A group known by Microsoft as [NEODYMIUM](https://attack.mitre.org/group/G0055) is reportedly associated closely with [BlackOasis](https://attack.mitre.org/group/G0063) operations, but evidence that the group names are aliases has not been identified. (Citation: CyberScoop BlackOasis Oct 2017)",
-            "aliases": [
-                "BlackOasis"
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
@@ -40,9 +38,11 @@
                     "source_name": "CyberScoop BlackOasis Oct 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            "aliases": [
+                "BlackOasis"
+            ],
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

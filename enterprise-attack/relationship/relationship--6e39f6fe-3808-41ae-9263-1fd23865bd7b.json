@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--b6c6ca3a-fd1e-4419-a1d9-f30cc2d2333d",
+    "id": "bundle--4080270f-edbf-43cb-b4cb-5b5a71bb7167",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--6e39f6fe-3808-41ae-9263-1fd23865bd7b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "A variant of [Elise](https://attack.mitre.org/software/S0081) executes <code>dir C:\\progra~1</code> when initially run.",
+            "source_ref": "malware--7551188b-8f91-4d34-8350-0d0c57b2b913",
+            "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.paloaltonetworks.com/resources/research/unit42-operation-lotus-blossom.html",
@@ -17,11 +20,12 @@
                     "source_name": "Lotus Blossom Jun 2015"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--7551188b-8f91-4d34-8350-0d0c57b2b913",
-            "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

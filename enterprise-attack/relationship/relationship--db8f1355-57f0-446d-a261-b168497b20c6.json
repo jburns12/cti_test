@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--3b0582cd-3687-4ab6-bb34-cab7be03ad70",
+    "id": "bundle--cb630dfe-6575-4d04-9593-e6c29426b8df",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--db8f1355-57f0-446d-a261-b168497b20c6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[BADNEWS](https://attack.mitre.org/software/S0128) copies documents under 15MB found on the victim system to is the user's <code>%temp%\\SMB\\</code> folder.",
+            "source_ref": "malware--e9595678-d269-469e-ae6b-75e49259de63",
+            "target_ref": "attack-pattern--7dd95ff6-712e-4056-9626-312ea4ab4c5e",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.forcepoint.com/sites/default/files/resources/files/forcepoint-security-labs-monsoon-analysis-report.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "Forcepoint Monsoon"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--e9595678-d269-469e-ae6b-75e49259de63",
-            "target_ref": "attack-pattern--7dd95ff6-712e-4056-9626-312ea4ab4c5e"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

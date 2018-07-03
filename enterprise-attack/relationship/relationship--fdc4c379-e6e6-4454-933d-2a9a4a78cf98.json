@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--ec48478c-b62a-4f7e-81b0-6cc50ac867df",
+    "id": "bundle--39d23bf3-e769-4055-903a-941ecf123c0d",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--fdc4c379-e6e6-4454-933d-2a9a4a78cf98",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[TinyZBot](https://attack.mitre.org/software/S0004) supports execution from the command-line.",
+            "source_ref": "malware--c0c45d38-fe57-4cd4-b2b2-9ecd0ddd4ca9",
+            "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.cylance.com/content/dam/cylance/pages/operation-cleaver/Cylance%20Operation%20Cleaver%20Report.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "Cylance Cleaver"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--c0c45d38-fe57-4cd4-b2b2-9ecd0ddd4ca9",
-            "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

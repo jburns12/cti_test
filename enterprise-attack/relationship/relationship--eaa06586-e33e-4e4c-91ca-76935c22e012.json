@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--98eb7487-cc96-4a3c-8794-cf7b59809419",
+    "id": "bundle--e09be46c-0f67-470a-86b6-398a979034e1",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--eaa06586-e33e-4e4c-91ca-76935c22e012",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:33:27.033Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Ke3chang](https://attack.mitre.org/group/G0004) performs local network connection discovery using <code>netstat -ano</code> commands.",
+            "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+            "target_ref": "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-ke3chang.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "Villeneuve et al 2014"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
-            "target_ref": "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:33:27.033Z"
         }
     ]
 }

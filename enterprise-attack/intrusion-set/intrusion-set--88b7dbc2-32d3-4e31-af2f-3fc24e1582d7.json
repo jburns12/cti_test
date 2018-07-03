@@ -1,19 +1,16 @@
 {
     "type": "bundle",
-    "id": "bundle--2656e107-7ab8-420f-b7a3-324de69c6217",
+    "id": "bundle--8a7842b9-0601-41e6-b4ee-ca961a45d4cc",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "intrusion-set",
             "id": "intrusion-set--88b7dbc2-32d3-4e31-af2f-3fc24e1582d7",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:32:01.092Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Lotus Blossom",
             "description": "[Lotus Blossom](https://attack.mitre.org/group/G0030) is a threat group that has targeted government and military organizations in Southeast Asia. (Citation: Lotus Blossom Jun 2015)",
-            "aliases": [
-                "Lotus Blossom",
-                "Spring Dragon"
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
@@ -40,9 +37,12 @@
                     "source_name": "Spring Dragon Jun 2015"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            "aliases": [
+                "Lotus Blossom",
+                "Spring Dragon"
+            ],
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:32:01.092Z"
         }
     ]
 }

@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--f226d5fe-206a-4e3c-89f8-82b1d96b0408",
+    "id": "bundle--cc048173-5d05-438e-9b14-220e1fa65d4a",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--36f3f6df-5007-4075-84a3-9708132f1468",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[APT32](https://attack.mitre.org/group/G0050) has used PubPrn.vbs within execution scripts to execute malware, possibly bypassing defenses.",
+            "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+            "target_ref": "attack-pattern--f6fe9070-7a65-49ea-ae72-76292f42cebe",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://twitter.com/ItsReallyNick/status/944321013084573697",
@@ -17,11 +20,12 @@
                     "source_name": "Twitter ItsReallyNick Status Update APT32 PubPrn"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-            "target_ref": "attack-pattern--f6fe9070-7a65-49ea-ae72-76292f42cebe"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

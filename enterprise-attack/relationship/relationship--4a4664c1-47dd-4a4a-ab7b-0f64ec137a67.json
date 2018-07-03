@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--a9c87f77-3d53-45c8-ac00-ae79d7414aca",
+    "id": "bundle--f3298f80-5f7f-4ed5-b2a2-c6e4196511e4",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--4a4664c1-47dd-4a4a-ab7b-0f64ec137a67",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[ZeroT](https://attack.mitre.org/software/S0230) has used DLL side-loading to load malicious payloads.",
+            "source_ref": "malware--4ab44516-ad75-4e43-a280-705dc0420e2f",
+            "target_ref": "attack-pattern--b2001907-166b-4d71-bb3c-9d26c871de09",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.proofpoint.com/us/threat-insight/post/apt-targets-financial-analysts",
@@ -22,11 +25,12 @@
                     "source_name": "Proofpoint ZeroT Feb 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--4ab44516-ad75-4e43-a280-705dc0420e2f",
-            "target_ref": "attack-pattern--b2001907-166b-4d71-bb3c-9d26c871de09"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

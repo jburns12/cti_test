@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--2227e87b-c654-401f-976f-c04c034359e2",
+    "id": "bundle--427aa5e8-5440-48c6-b6af-6429ea2d28e2",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--847752f4-59a2-46e9-ae28-befe0142b223",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[GeminiDuke](https://attack.mitre.org/software/S0049) collects information on network settings and Internet proxy settings from the victim.",
+            "source_ref": "malware--199463de-d9be-46d6-bb41-07234c1dd5a6",
+            "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.f-secure.com/documents/996508/1030745/dukes%20whitepaper.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "F-Secure The Dukes"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--199463de-d9be-46d6-bb41-07234c1dd5a6",
-            "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

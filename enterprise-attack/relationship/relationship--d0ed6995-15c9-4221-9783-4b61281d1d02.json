@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--4534cff5-f468-461b-87c7-e2de7ba24911",
+    "id": "bundle--5fff17a2-4a47-4e98-af86-b514a309ab63",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--d0ed6995-15c9-4221-9783-4b61281d1d02",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[APT37](https://attack.mitre.org/group/G0067) has used port 8080 for C2.",
+            "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
+            "target_ref": "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://securelist.com/operation-daybreak/75100/",
@@ -17,11 +20,12 @@
                     "source_name": "Securelist ScarCruft Jun 2016"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
-            "target_ref": "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

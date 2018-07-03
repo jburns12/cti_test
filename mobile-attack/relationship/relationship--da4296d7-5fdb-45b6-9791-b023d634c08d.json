@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--e8a69d95-d4bf-4c63-9f63-c71f79b2229b",
+    "id": "bundle--06991152-6b51-41df-b903-b5839af3df2d",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--da4296d7-5fdb-45b6-9791-b023d634c08d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T14:44:41.004Z",
+            "relationship_type": "uses",
             "description": "[RCSAndroid](https://attack.mitre.org/software/MOB-S0011) can \"[r]ecord location\".",
+            "source_ref": "malware--363bc05d-13cb-4e98-a5b7-e250f2bbdc2b",
+            "target_ref": "attack-pattern--99e6295e-741b-4857-b6e5-64989eb039b4",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://github.com/hackedteam/core-android/tree/master/RCSAndroid",
@@ -22,11 +25,12 @@
                     "source_name": "TrendMicro-RCSAndroid"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "2f669986-b40b-4423-b720-4396ca6a462b"
             ],
-            "source_ref": "malware--363bc05d-13cb-4e98-a5b7-e250f2bbdc2b",
-            "target_ref": "attack-pattern--99e6295e-741b-4857-b6e5-64989eb039b4"
+            "type": "relationship",
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--f8af6a9b-b116-4b35-9e8c-1ae6a5dce0d5",
+    "id": "bundle--184cefdd-f20d-4ff2-896d-7ae630c5c41c",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--fee82671-3bba-48c7-bef8-63b2b2bb0fa7",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[ZeroT](https://attack.mitre.org/software/S0230) has encrypted its payload with RC4.",
+            "source_ref": "malware--4ab44516-ad75-4e43-a280-705dc0420e2f",
+            "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.proofpoint.com/us/threat-insight/post/APT-targets-russia-belarus-zerot-plugx",
@@ -17,11 +20,12 @@
                     "source_name": "Proofpoint ZeroT Feb 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--4ab44516-ad75-4e43-a280-705dc0420e2f",
-            "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

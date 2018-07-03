@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--63e436d9-7ef4-436e-8381-348421d1ad3d",
+    "id": "bundle--b1cfe481-4639-4668-8f10-09ee24be7b1a",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--831e3269-da49-48ac-94dc-948008e8fd16",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-10-25T14:48:34.830Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Remotely Install Application",
             "description": "An adversary with control of a target's Google account can use the Google Play Store's remote installation capability to install apps onto the Android devices associated with the Google account as described in  (Citation: Oberheide-RemoteInstall),  (Citation: Konoth). However, only applications that are available for download through the Google Play Store can be remotely installed using this technique.",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "app-delivery-via-authorized-app-store",
-                    "kill_chain_name": "mitre-mobile-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "MOB-T1046",
@@ -45,7 +36,19 @@
             "x_mitre_detection": "An EMM/MDM or mobile threat protection solution can identify the presence of unwanted or known insecure or malicious apps on devices.",
             "x_mitre_platforms": [
                 "Android"
-            ]
+            ],
+            "x_mitre_tactic_type": [
+                "Pre-Adversary Device Access"
+            ],
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "app-delivery-via-authorized-app-store",
+                    "kill_chain_name": "mitre-mobile-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-10-25T14:48:34.830Z"
         }
     ]
 }

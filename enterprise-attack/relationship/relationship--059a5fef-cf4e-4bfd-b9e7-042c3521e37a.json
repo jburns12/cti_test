@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--11e77fe7-daf9-4287-87c0-3104a945e323",
+    "id": "bundle--befdd5f8-7dd7-42bf-bb1c-264dc1bebf1d",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--059a5fef-cf4e-4bfd-b9e7-042c3521e37a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Briba](https://attack.mitre.org/software/S0204) connects to external C2 infrastructure over port 443.",
+            "source_ref": "malware--79499993-a8d6-45eb-b343-bf58dea5bdde",
+            "target_ref": "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.symantec.com/security%20response/writeup.jsp?docid=2012-051515-2843-99",
@@ -17,11 +20,12 @@
                     "source_name": "Symantec Briba May 2012"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--79499993-a8d6-45eb-b343-bf58dea5bdde",
-            "target_ref": "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

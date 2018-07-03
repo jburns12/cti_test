@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--53236018-26b0-4120-825c-4e088c7e5f8e",
+    "id": "bundle--17c75dd9-2b2f-4b87-9c37-dfed01a700c7",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--7d481598-ece7-469c-b231-619a804c25e5",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T14:44:41.004Z",
+            "relationship_type": "uses",
             "description": "[Pegasus](https://attack.mitre.org/software/MOB-S0005) captures \"SMS messages the victim sends or receives\".",
+            "source_ref": "malware--33d9d91d-aad9-49d5-a516-220ce101ac8a",
+            "target_ref": "attack-pattern--e8b4e1ec-8e3b-484c-9038-4459b1ed8060",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://info.lookout.com/rs/051-ESQ-475/images/lookout-pegasus-technical-analysis.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "Lookout-Pegasus"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "2f669986-b40b-4423-b720-4396ca6a462b"
             ],
-            "source_ref": "malware--33d9d91d-aad9-49d5-a516-220ce101ac8a",
-            "target_ref": "attack-pattern--e8b4e1ec-8e3b-484c-9038-4459b1ed8060"
+            "type": "relationship",
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

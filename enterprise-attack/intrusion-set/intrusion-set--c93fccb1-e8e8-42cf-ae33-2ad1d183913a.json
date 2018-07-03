@@ -1,22 +1,16 @@
 {
     "type": "bundle",
-    "id": "bundle--32a1d749-7b8e-4544-affd-86075eea5218",
+    "id": "bundle--e3518e68-c60b-4f39-afa4-64bb621ecd93",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "intrusion-set",
             "id": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:32:03.807Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Lazarus Group",
             "description": "[Lazarus Group](https://attack.mitre.org/group/G0032) is a threat group that has been attributed to the North Korean government. (Citation: US-CERT HIDDEN COBRA June 2017) The group has been active since at least 2009 and was reportedly responsible for the November 2014 destructive wiper attack against Sony Pictures Entertainment as part of a campaign named Operation Blockbuster by Novetta. Malware used by [Lazarus Group](https://attack.mitre.org/group/G0032) correlates to other reported campaigns, including Operation Flame, Operation 1Mission, Operation Troy, DarkSeoul, and Ten Days of Rain. (Citation: Novetta Blockbuster)",
-            "aliases": [
-                "Lazarus Group",
-                "HIDDEN COBRA",
-                "Guardians of Peace",
-                "ZINC",
-                "NICKEL ACADEMY"
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
@@ -65,9 +59,15 @@
                     "source_name": "Secureworks NICKEL ACADEMY Dec 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            "aliases": [
+                "Lazarus Group",
+                "HIDDEN COBRA",
+                "Guardians of Peace",
+                "ZINC",
+                "NICKEL ACADEMY"
+            ],
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:32:03.807Z"
         }
     ]
 }

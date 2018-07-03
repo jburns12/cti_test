@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--67e53e92-3b5a-4696-932d-784b0c68d309",
+    "id": "bundle--a088931e-846e-4b14-a0ed-b418b846e710",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--9e66ec3b-cdd6-461c-bd84-e75316818e15",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T14:44:41.004Z",
+            "relationship_type": "uses",
             "description": "[X-Agent](https://attack.mitre.org/software/MOB-S0030) was believed to have been used to obtain \"gross locational data\" of Ukrainian artillery forces.",
+            "source_ref": "malware--56660521-6db4-4e5a-a927-464f22954b7c",
+            "target_ref": "attack-pattern--99e6295e-741b-4857-b6e5-64989eb039b4",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.crowdstrike.com/wp-content/brochures/FancyBearTracksUkrainianArtillery.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "CrowdStrike-Android"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "2f669986-b40b-4423-b720-4396ca6a462b"
             ],
-            "source_ref": "malware--56660521-6db4-4e5a-a927-464f22954b7c",
-            "target_ref": "attack-pattern--99e6295e-741b-4857-b6e5-64989eb039b4"
+            "type": "relationship",
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

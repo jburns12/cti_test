@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--4dc302ae-634f-42d0-845e-5a652a8f4823",
+    "id": "bundle--884dc8e3-7a6e-40ba-8624-fd4b51423489",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--1cabd067-2229-488f-a244-03aa087b7e54",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Leviathan](https://attack.mitre.org/group/G0065) has received C2 instructions from user profiles created on legitimate websites such as Github and TechNet.",
+            "source_ref": "intrusion-set--7113eaa5-ba79-4fb3-b68a-398ee9cd698e",
+            "target_ref": "attack-pattern--830c9528-df21-472c-8c14-a036bf17d665",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2018/03/suspected-chinese-espionage-group-targeting-maritime-and-engineering-industries.html",
@@ -17,11 +20,12 @@
                     "source_name": "FireEye Periscope March 2018"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--7113eaa5-ba79-4fb3-b68a-398ee9cd698e",
-            "target_ref": "attack-pattern--830c9528-df21-472c-8c14-a036bf17d665"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

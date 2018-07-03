@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--187ea68d-3473-4dcc-b5a9-67c40b924559",
+    "id": "bundle--8e265e8d-164c-43de-9793-03e11c6e1eda",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--ce42140b-f801-40da-8185-105a9b1a915a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[PlugX](https://attack.mitre.org/software/S0013) can be added as a service to establish persistence.",
+            "source_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",
+            "target_ref": "attack-pattern--478aa214-2ca7-4ec0-9978-18798e514790",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://labs.lastline.com/an-analysis-of-plugx",
@@ -32,11 +35,12 @@
                     "source_name": "Proofpoint ZeroT Feb 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",
-            "target_ref": "attack-pattern--478aa214-2ca7-4ec0-9978-18798e514790"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

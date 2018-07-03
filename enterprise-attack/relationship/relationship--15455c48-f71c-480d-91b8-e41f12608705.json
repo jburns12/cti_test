@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--f82d01e1-195c-44a1-8d55-585fe7d5bc16",
+    "id": "bundle--62c3db11-1275-4af2-a254-008e4c8fa24b",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--15455c48-f71c-480d-91b8-e41f12608705",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Hydraq](https://attack.mitre.org/software/S0203) creates a backdoor through which remote attackers can load and call DLL functions.",
+            "source_ref": "malware--73a4793a-ce55-4159-b2a6-208ef29b326f",
+            "target_ref": "attack-pattern--0a5231ec-41af-4a35-83d0-6bdf11f28c65",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.symantec.com/connect/blogs/trojanhydraq-incident",
@@ -22,11 +25,12 @@
                     "source_name": "Symantec Hydraq Jan 2010"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--73a4793a-ce55-4159-b2a6-208ef29b326f",
-            "target_ref": "attack-pattern--0a5231ec-41af-4a35-83d0-6bdf11f28c65"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

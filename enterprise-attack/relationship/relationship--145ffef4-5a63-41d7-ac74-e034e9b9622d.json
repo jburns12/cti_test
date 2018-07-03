@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--bab75ef3-7455-4630-a7e8-b7bd33da006f",
+    "id": "bundle--6315b497-f786-47af-8513-b797ee2df878",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--145ffef4-5a63-41d7-ac74-e034e9b9622d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[PUNCHTRACK](https://attack.mitre.org/software/S0197) scrapes memory for properly formatted payment card data.",
+            "source_ref": "malware--c4de7d83-e875-4c88-8b5d-06c41e5b7e79",
+            "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2016/05/windows-zero-day-payment-cards.html",
@@ -22,11 +25,12 @@
                     "source_name": "FireEye Know Your Enemy FIN8 Aug 2016"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--c4de7d83-e875-4c88-8b5d-06c41e5b7e79",
-            "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

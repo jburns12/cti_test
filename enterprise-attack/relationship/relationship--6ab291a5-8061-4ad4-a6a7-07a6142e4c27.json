@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--ab27a5ec-ce14-47a9-ab48-9219b2a9fd71",
+    "id": "bundle--2c7ebcbf-2d1c-435c-adf5-5be25a553461",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--6ab291a5-8061-4ad4-a6a7-07a6142e4c27",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:33:27.068Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Lazarus Group](https://attack.mitre.org/group/G0032) malware attempts to maintain persistence by saving itself in the Start menu folder or by adding a Registry Run key.",
+            "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
+            "target_ref": "attack-pattern--9422fc14-1c43-410d-ab0f-a709b76c72dc",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Report.pdf",
@@ -27,11 +30,12 @@
                     "source_name": "McAfee Lazarus Resurfaces Feb 2018"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
-            "target_ref": "attack-pattern--9422fc14-1c43-410d-ab0f-a709b76c72dc"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:33:27.068Z"
         }
     ]
 }

@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--a55595d3-a36d-4460-a004-d57cd14db661",
+    "id": "bundle--c27a3b85-3b0f-449f-a376-6c2f2599405a",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--13d8aec7-3e49-41f8-b57c-475cdc0d9632",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:33:27.061Z",
-            "modified": "2018-07-03T15:59:25.243Z",
+            "relationship_type": "uses",
             "description": "[Threat Group-3390](https://attack.mitre.org/wiki/Group/G0027) actors use the Hunter tool to conduct network service discovery for vulnerable systems.",
+            "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
+            "target_ref": "attack-pattern--2de38279-043e-47e8-aaad-1b07af6d0790",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "source_name": "Dell TG-3390",
@@ -17,11 +20,12 @@
                     "url": "http://www.secureworks.com/cyber-threat-intelligence/threats/threat-group-3390-targets-organizations-for-cyberespionage/"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
-            "target_ref": "attack-pattern--2de38279-043e-47e8-aaad-1b07af6d0790"
+            "type": "relationship",
+            "modified": "2018-07-03T15:59:25.243Z",
+            "created": "2017-05-31T21:33:27.061Z",
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
+            ]
         }
     ]
 }

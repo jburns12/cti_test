@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--72c98860-7ad3-4b1a-b66f-3bb75a625028",
+    "id": "bundle--b2b88e0a-7f0b-45bb-bf9d-5c8025ec36de",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--695c2f41-140a-48f9-9e14-0cd58d7712d1",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[OLDBAIT](https://attack.mitre.org/software/S0138) collects credentials from Internet Explorer, Mozilla Firefox, Eudora, and several email clients.",
+            "source_ref": "malware--2dd34b01-6110-4aac-835d-b5e7b936b0be",
+            "target_ref": "attack-pattern--0a3ead4e-6d47-4ccb-854c-a6a4f9d96b22",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "FireEye APT28"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--2dd34b01-6110-4aac-835d-b5e7b936b0be",
-            "target_ref": "attack-pattern--0a3ead4e-6d47-4ccb-854c-a6a4f9d96b22"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

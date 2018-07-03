@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--518a9d91-8060-420b-ad1d-aeed43d38fed",
+    "id": "bundle--53405b9c-8d27-4890-96a0-f04fcefdc260",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--a08dadbf-6f68-415f-9daa-f84571af83a2",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[ChChes](https://attack.mitre.org/software/S0144) collects the victim computer name.",
+            "source_ref": "malware--dc5d1a33-62aa-4a0c-aa8c-589b87beb11e",
+            "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/04/apt10%20menupass%20grou.html",
@@ -17,11 +20,12 @@
                     "source_name": "FireEye APT10 April 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--dc5d1a33-62aa-4a0c-aa8c-589b87beb11e",
-            "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

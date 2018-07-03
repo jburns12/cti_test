@@ -1,19 +1,16 @@
 {
     "type": "bundle",
-    "id": "bundle--914e83a7-43fe-4728-aa1d-f4285252f5b4",
+    "id": "bundle--6d44da1c-bb94-41bb-8b4f-dbb2a1b60beb",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "intrusion-set",
             "id": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:32:05.217Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Dragonfly",
             "description": "[Dragonfly](https://attack.mitre.org/group/G0035) is a cyber espionage group that has been active since at least 2011. They initially targeted defense and aviation companies but shifted to focus on the energy sector in early 2013. They have also targeted companies related to industrial control systems. The group appeared to decrease activity following public exposure in 2014, and re-emerged in late 2015 through 2017. (Citation: Symantec Dragonfly) (Citation: Symantec Dragonfly) Sept 2017",
-            "aliases": [
-                "Dragonfly",
-                "Energetic Bear"
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
@@ -35,9 +32,12 @@
                     "source_name": "Symantec Dragonfly"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            "aliases": [
+                "Dragonfly",
+                "Energetic Bear"
+            ],
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:32:05.217Z"
         }
     ]
 }

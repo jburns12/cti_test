@@ -1,14 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--e9370a08-8ea1-400f-82ef-57c887d5e2a0",
+    "id": "bundle--5b6f8fab-2e9a-4a26-b4b8-e61ef83bca51",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "course-of-action",
             "id": "course-of-action--c3cf2312-3aab-4aaf-86e6-ab3505430482",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-07-03T13:33:43.876Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Rc.common Mitigation",
             "description": "Limit privileges of user accounts so only authorized users can edit the rc.common file.",
             "external_references": [
@@ -17,7 +14,10 @@
                     "url": "https://attack.mitre.org/technique/T1163",
                     "source_name": "mitre-attack"
                 }
-            ]
+            ],
+            "type": "course-of-action",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-07-03T13:33:43.876Z"
         }
     ]
 }

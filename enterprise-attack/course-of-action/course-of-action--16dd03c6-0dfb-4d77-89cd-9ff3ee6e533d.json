@@ -1,14 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--84844531-e10a-4685-b6bd-e6c91d63ef0b",
+    "id": "bundle--bd1e23fb-b01d-4602-935c-ea26fb4b337d",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "course-of-action",
             "id": "course-of-action--16dd03c6-0dfb-4d77-89cd-9ff3ee6e533d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-07-03T13:33:43.876Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Audio Capture Mitigation",
             "description": "Mitigating this technique specifically may be difficult as it requires fine-grained API control. Efforts should be focused on preventing unwanted or unknown code from executing on a system.\n\nIdentify and block potentially malicious software that may be used to record audio by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
             "external_references": [
@@ -42,7 +39,10 @@
                     "description": "Tomonaga, S. (2016, January 26). Windows Commands Abused by Attackers. Retrieved February 2, 2016.",
                     "source_name": "Windows Commands JPCERT"
                 }
-            ]
+            ],
+            "type": "course-of-action",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-07-03T13:33:43.876Z"
         }
     ]
 }

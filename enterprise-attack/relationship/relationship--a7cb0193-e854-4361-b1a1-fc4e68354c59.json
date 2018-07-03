@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--acc14193-d564-47d5-a866-6038dac469d2",
+    "id": "bundle--f40efaa5-83a5-4e42-b30a-3e62ac73f987",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--a7cb0193-e854-4361-b1a1-fc4e68354c59",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Derusbi](https://attack.mitre.org/software/S0021) obfuscates C2 traffic with variable 4-byte XOR keys.",
+            "source_ref": "malware--94379dec-5c87-49db-b36e-66abc0b81344",
+            "target_ref": "attack-pattern--3b3cbbe0-6ed3-4334-b543-3ddfd8c5642d",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.fidelissecurity.com/sites/default/files/TA%20Fidelis%20Turbo%201602%200.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "Fidelis Turbo"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--94379dec-5c87-49db-b36e-66abc0b81344",
-            "target_ref": "attack-pattern--3b3cbbe0-6ed3-4334-b543-3ddfd8c5642d"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

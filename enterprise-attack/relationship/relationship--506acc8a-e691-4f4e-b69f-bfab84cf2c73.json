@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--504d77a1-14cf-42ea-b8a3-ca3b8ea550c7",
+    "id": "bundle--a2f2efeb-83ea-4b3e-bbd6-27a8ab7a05fc",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--506acc8a-e691-4f4e-b69f-bfab84cf2c73",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[FIN7](https://attack.mitre.org/group/G0046) has used application shim databases for persistence.",
+            "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
+            "target_ref": "attack-pattern--7c93aa74-4bc0-4a9e-90ea-f25f86301566",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/05/fin7-shim-databases-persistence.html",
@@ -17,11 +20,12 @@
                     "source_name": "FireEye FIN7 Shim Databases"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
-            "target_ref": "attack-pattern--7c93aa74-4bc0-4a9e-90ea-f25f86301566"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

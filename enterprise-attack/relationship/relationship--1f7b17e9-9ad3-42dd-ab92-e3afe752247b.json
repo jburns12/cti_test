@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--64e33e2e-9119-4033-a20b-3787f69e9b70",
+    "id": "bundle--442e211b-87aa-4ce9-98f3-a6b90a4efc42",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--1f7b17e9-9ad3-42dd-ab92-e3afe752247b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[FIN7](https://attack.mitre.org/group/G0046) malware has created scheduled tasks to establish persistence.",
+            "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
+            "target_ref": "attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
@@ -22,11 +25,12 @@
                     "source_name": "Morphisec FIN7 June 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
-            "target_ref": "attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

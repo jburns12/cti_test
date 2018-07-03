@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--6422478b-88a4-4e36-ac37-aa98dd524738",
+    "id": "bundle--615198f2-91a0-4211-8411-e59ba2666ec6",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--d3234cf8-0ef7-4447-ae3a-9624f3229265",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[XTunnel](https://attack.mitre.org/software/S0117) relays traffic between a C2 server and a victim.",
+            "source_ref": "malware--7343e208-7cab-45f2-a47b-41ba5e2f0fab",
+            "target_ref": "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.crowdstrike.com/blog/bears-midst-intrusion-democratic-national-committee/",
@@ -17,11 +20,12 @@
                     "source_name": "Crowdstrike DNC June 2016"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--7343e208-7cab-45f2-a47b-41ba5e2f0fab",
-            "target_ref": "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

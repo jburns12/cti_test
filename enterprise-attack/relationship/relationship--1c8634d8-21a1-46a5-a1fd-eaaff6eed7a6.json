@@ -1,19 +1,23 @@
 {
     "type": "bundle",
-    "id": "bundle--1fb0a244-43e4-4b87-aadd-391db0ba7eb8",
+    "id": "bundle--da5a8f07-6e20-4ec1-ae59-016b8c6f9a74",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--1c8634d8-21a1-46a5-a1fd-eaaff6eed7a6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
+            "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
+            "target_ref": "tool--0a68f1f1-da74-4d28-8d9a-696c082706cc",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
-            "target_ref": "tool--0a68f1f1-da74-4d28-8d9a-696c082706cc"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
+            ],
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

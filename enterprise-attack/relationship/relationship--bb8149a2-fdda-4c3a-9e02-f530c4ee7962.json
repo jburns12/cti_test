@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--5024c3d5-7df6-4c89-adc6-b4d23075d823",
+    "id": "bundle--2d324118-b89b-4a02-8854-0d4ccef073aa",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--bb8149a2-fdda-4c3a-9e02-f530c4ee7962",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[GLOOXMAIL](https://attack.mitre.org/software/S0026) communicates to servers operated by Google using the Jabber/XMPP protocol.",
+            "source_ref": "malware--f2e8c7a1-cae1-45c4-baf0-6f21bdcbb2c2",
+            "target_ref": "attack-pattern--830c9528-df21-472c-8c14-a036bf17d665",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf",
@@ -22,11 +25,12 @@
                     "source_name": "CyberESI GTALK"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--f2e8c7a1-cae1-45c4-baf0-6f21bdcbb2c2",
-            "target_ref": "attack-pattern--830c9528-df21-472c-8c14-a036bf17d665"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

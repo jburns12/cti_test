@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--4f47a6c7-7569-4a6f-8020-7c11d5968820",
+    "id": "bundle--d1fcbfb2-4774-458d-9e77-3dcf8f3d1436",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--f146a331-3595-46be-abef-518708e34def",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:33:27.067Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "Several [Lazarus Group](https://attack.mitre.org/group/G0032) malware families encrypt C2 traffic using custom code that uses XOR with an ADD operation and XOR with a SUB operation. Another [Lazarus Group](https://attack.mitre.org/group/G0032) malware sample XORs C2 traffic.",
+            "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
+            "target_ref": "attack-pattern--3b3cbbe0-6ed3-4334-b543-3ddfd8c5642d",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Report.pdf",
@@ -27,11 +30,12 @@
                     "source_name": "McAfee Lazarus Resurfaces Feb 2018"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
-            "target_ref": "attack-pattern--3b3cbbe0-6ed3-4334-b543-3ddfd8c5642d"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:33:27.067Z"
         }
     ]
 }

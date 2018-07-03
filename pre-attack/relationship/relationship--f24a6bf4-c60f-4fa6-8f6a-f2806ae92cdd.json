@@ -1,19 +1,23 @@
 {
     "type": "bundle",
-    "id": "bundle--807f9fb0-a844-48d5-8765-cff0b23877a7",
+    "id": "bundle--bacf327a-fde3-4814-bc51-6dbb09ead576",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--f24a6bf4-c60f-4fa6-8f6a-f2806ae92cdd",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T14:44:41.004Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--20a66013-8dab-4ca3-a67d-766c842c561c",
+            "target_ref": "attack-pattern--54eb2bab-125f-4d1c-b999-0c692860bafe",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "source_ref": "attack-pattern--20a66013-8dab-4ca3-a67d-766c842c561c",
-            "target_ref": "attack-pattern--54eb2bab-125f-4d1c-b999-0c692860bafe"
+            "x_mitre_collections": [
+                "062767bd-02d2-4b72-84ba-56caef0f8658"
+            ],
+            "type": "relationship",
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

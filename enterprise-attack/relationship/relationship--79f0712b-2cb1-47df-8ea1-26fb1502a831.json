@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--55e0a89e-4e5d-4d92-928b-93f673993e00",
+    "id": "bundle--b1d34c65-19c9-49d5-b7c6-8216e9d17423",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--79f0712b-2cb1-47df-8ea1-26fb1502a831",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[BADNEWS](https://attack.mitre.org/software/S0128) encodes C2 traffic with base64.",
+            "source_ref": "malware--e9595678-d269-469e-ae6b-75e49259de63",
+            "target_ref": "attack-pattern--cc7b8c4e-9be0-47ca-b0bb-83915ec3ee2f",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.forcepoint.com/sites/default/files/resources/files/forcepoint-security-labs-monsoon-analysis-report.pdf",
@@ -22,11 +25,12 @@
                     "source_name": "PaloAlto Patchwork Mar 2018"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--e9595678-d269-469e-ae6b-75e49259de63",
-            "target_ref": "attack-pattern--cc7b8c4e-9be0-47ca-b0bb-83915ec3ee2f"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

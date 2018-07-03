@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--3d0d680e-4880-4c54-a231-a28e3e4063f0",
+    "id": "bundle--1546a7fa-d87c-4ca2-b3da-77cc0b5ef314",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--a0f1273a-e422-4801-a911-e7cb223ebea2",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[ADVSTORESHELL](https://attack.mitre.org/software/S0045) can list connected devices.",
+            "source_ref": "malware--fb575479-14ef-41e9-bfab-0b7cf10bec73",
+            "target_ref": "attack-pattern--348f1eef-964b-4eb6-bb53-69b3dcb0c643",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part-2.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "ESET Sednit Part 2"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--fb575479-14ef-41e9-bfab-0b7cf10bec73",
-            "target_ref": "attack-pattern--348f1eef-964b-4eb6-bb53-69b3dcb0c643"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

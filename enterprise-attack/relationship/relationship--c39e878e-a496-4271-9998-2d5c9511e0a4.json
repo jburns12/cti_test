@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--63767998-7618-4517-8cab-095f3454f282",
+    "id": "bundle--435f6d49-8159-4702-8dce-56a31f268203",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--c39e878e-a496-4271-9998-2d5c9511e0a4",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Kasidet](https://attack.mitre.org/software/S0088) has the ability to download and execute additional files.",
+            "source_ref": "malware--26fed817-e7bf-41f9-829a-9075ffac45c2",
+            "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://research.zscaler.com/2016/01/malicious-office-files-dropping-kasidet.html",
@@ -17,11 +20,12 @@
                     "source_name": "Zscaler Kasidet"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--26fed817-e7bf-41f9-829a-9075ffac45c2",
-            "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

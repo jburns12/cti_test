@@ -1,22 +1,16 @@
 {
     "type": "bundle",
-    "id": "bundle--f88025e8-9fb3-48c5-9cb4-65938ee671bc",
+    "id": "bundle--d4ccca5f-e010-4519-9350-97a513ad4d49",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "intrusion-set",
             "id": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:32:07.145Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Patchwork",
             "description": "[Patchwork](https://attack.mitre.org/group/G0040) is a threat group that was first observed in December 2015. While the group has not been definitively attributed, circumstantial evidence suggests the group may be a pro-Indian or Indian entity. Much of the code used by this group was copied and pasted from online forums. (Citation: Cymmetria Patchwork) (Citation: Symantec Patchwork)",
-            "aliases": [
-                "Patchwork",
-                "Dropping Elephant",
-                "Chinastrats",
-                "MONSOON",
-                "Operation Hangover"
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
@@ -75,9 +69,18 @@
                     "source_name": "Operation Hangover May 2013"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
+            ],
+            "aliases": [
+                "Patchwork",
+                "Dropping Elephant",
+                "Chinastrats",
+                "MONSOON",
+                "Operation Hangover"
+            ],
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:32:07.145Z"
         }
     ]
 }

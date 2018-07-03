@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--01afe725-c1ee-40e9-baea-6afb59359a05",
+    "id": "bundle--06ae4882-d80b-432f-b5f4-cf70b1b2bbbd",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--fb3fa94a-3aee-4ab0-b7e7-abdf0a51286d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-10-25T14:48:06.524Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Exploit SS7 to Redirect Phone Calls/SMS",
             "description": "An adversary could exploit signaling system vulnerabilities to redirect calls or text messages to a phone number under the attacker's control. The adversary could then act as a man-in-the-middle to intercept or manipulate the communication. These issues are discussed in  (Citation: Engel-SS7),  (Citation: Engel-SS7)-2008,  (Citation: 3GPP-Security),  (Citation: Positive-SS7), as well as in a report from the Communications, Security, Reliability, and Interoperability Council (CSRIC)  (Citation: CSRIC5-WG10-FinalReport).",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "cellular-network-based",
-                    "kill_chain_name": "mitre-mobile-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "MOB-T1052",
@@ -56,7 +47,19 @@
             "x_mitre_platforms": [
                 "Android",
                 "iOS"
-            ]
+            ],
+            "x_mitre_tactic_type": [
+                "Without Adversary Device Access"
+            ],
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "cellular-network-based",
+                    "kill_chain_name": "mitre-mobile-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-10-25T14:48:06.524Z"
         }
     ]
 }

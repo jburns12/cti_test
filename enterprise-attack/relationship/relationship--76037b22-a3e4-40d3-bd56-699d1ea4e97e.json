@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--084d1099-d746-41c7-b25c-7d98c5fdcfe8",
+    "id": "bundle--8a67842c-2a1a-4e59-96c4-811f5c029147",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--76037b22-a3e4-40d3-bd56-699d1ea4e97e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Mimikatz](https://attack.mitre.org/software/S0002)\u2019s <code>LSADUMP::DCSync</code>, <code>KERBEROS::Golden</code>, and <code>KERBEROS::PTT</code> modules implement the three steps required to extract the krbtgt account hash and create/use Kerberos tickets.",
+            "source_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
+            "target_ref": "attack-pattern--a257ed11-ff3b-4216-8c9d-3938ef57064c",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://adsecurity.org/?page%20id=1821",
@@ -27,11 +30,12 @@
                     "source_name": "Harmj0y DCSync Sept 2015"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
-            "target_ref": "attack-pattern--a257ed11-ff3b-4216-8c9d-3938ef57064c"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-01-16T16:13:52.465Z"
         }
     ]
 }

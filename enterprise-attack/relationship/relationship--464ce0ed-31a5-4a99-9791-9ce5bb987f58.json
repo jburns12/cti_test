@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--da8635cb-ba8b-4ef5-8a95-d8f7db11e461",
+    "id": "bundle--440d1b07-5a4c-4e1c-83e0-f3e4ada723e4",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--464ce0ed-31a5-4a99-9791-9ce5bb987f58",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[PlugX](https://attack.mitre.org/software/S0013) has used to use DLL side-loading to evade anti-virus and to maintain persistence on a victim.",
+            "source_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",
+            "target_ref": "attack-pattern--b2001907-166b-4d71-bb3c-9d26c871de09",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2014/06/clandestine-fox-part-deux.html",
@@ -37,11 +40,12 @@
                     "source_name": "Palo Alto PlugX June 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",
-            "target_ref": "attack-pattern--b2001907-166b-4d71-bb3c-9d26c871de09"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

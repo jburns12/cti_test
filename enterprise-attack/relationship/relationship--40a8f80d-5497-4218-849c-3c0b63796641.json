@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--8849b6f9-f860-4c34-9d81-71cdc868fb97",
+    "id": "bundle--17ceb77a-1392-4ac4-bfdc-d02e3e1aba19",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--40a8f80d-5497-4218-849c-3c0b63796641",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[CHOPSTICK](https://attack.mitre.org/software/S0023) may store RC4 encrypted configuration information in the Windows Registry.",
+            "source_ref": "malware--ccd61dfc-b03f-4689-8c18-7c97eab08472",
+            "target_ref": "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "FireEye APT28"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--ccd61dfc-b03f-4689-8c18-7c97eab08472",
-            "target_ref": "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

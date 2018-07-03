@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--8cb00866-b7a9-4571-a189-80f70813394b",
+    "id": "bundle--eef96a25-5d1d-4315-8034-9bb98dba96a3",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--18bfa01c-9fa9-409f-91f5-4a2822609d81",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Test physical access",
             "description": "An  adversary can test physical access options in preparation for the actual attack. This could range from observing behaviors and noting security precautions to actually attempting access. (Citation: OCIAC Pre Incident Indicators) (Citation: NewsAgencySpy)",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "test-capabilities",
-                    "kill_chain_name": "mitre-pre-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "PRE-T1137",
@@ -34,7 +25,20 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detectable_by_common_defenses": "Yes",
+            "x_mitre_detectable_by_common_defenses_explanation": "Defender often install badging, cameras, security guards or other detection techniques for physical security and monitoring.",
+            "x_mitre_difficulty_for_adversary": "No",
+            "x_mitre_difficulty_for_adversary_explanation": "Requires a physical presence in the space being entered and increased risk of being detected/detained (e.g., recorded on video camera)",
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "test-capabilities",
+                    "kill_chain_name": "mitre-pre-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

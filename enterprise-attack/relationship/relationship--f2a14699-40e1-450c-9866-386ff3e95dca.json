@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--d780fab0-67d9-438f-8c53-3b034b0ab4ed",
+    "id": "bundle--70452bd6-7323-41ee-ae31-020dbbe9fab8",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--f2a14699-40e1-450c-9866-386ff3e95dca",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "has created password-protected RAR, WinImage, and zip archives to be exfiltrated.",
+            "source_ref": "malware--8ab98e25-1672-4b5f-a2fb-e60f08a5ea9e",
+            "target_ref": "attack-pattern--b9f5dbe2-4c55-4fc5-af2e-d42c1d182ec4",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt%20APT37.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "FireEye APT37 Feb 2018"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--8ab98e25-1672-4b5f-a2fb-e60f08a5ea9e",
-            "target_ref": "attack-pattern--b9f5dbe2-4c55-4fc5-af2e-d42c1d182ec4"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

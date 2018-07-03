@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--b0482602-ee87-48cb-aa3b-e7d1886777fc",
+    "id": "bundle--36d5b1c3-6480-42f8-9dfa-37fe7288ffd4",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--b7601a08-a52d-4daa-acb9-2f5e3392b6c3",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[ZLib](https://attack.mitre.org/software/S0086) has the ability to discover and manipulate Windows services.",
+            "source_ref": "malware--166c0eca-02fd-424a-92c0-6b5106994d31",
+            "target_ref": "attack-pattern--322bad5a-1c49-4d23-ab79-76d641794afa",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.cylance.com/content/dam/cylance/pdfs/reports/Op%20Dust%20Storm%20Report.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "Cylance Dust Storm"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--166c0eca-02fd-424a-92c0-6b5106994d31",
-            "target_ref": "attack-pattern--322bad5a-1c49-4d23-ab79-76d641794afa"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

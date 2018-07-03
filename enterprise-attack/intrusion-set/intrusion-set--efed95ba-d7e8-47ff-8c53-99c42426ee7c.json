@@ -1,18 +1,16 @@
 {
     "type": "bundle",
-    "id": "bundle--ab824374-f7e1-472d-8d2f-e0e1151bdc3d",
+    "id": "bundle--818f0894-9e43-43b8-85c7-149454b12c21",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "intrusion-set",
             "id": "intrusion-set--efed95ba-d7e8-47ff-8c53-99c42426ee7c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "PROMETHIUM",
             "description": "[PROMETHIUM](https://attack.mitre.org/group/G0056) is an activity group that has been active since at least 2012. The group conducted a campaign in May 2016 and has heavily targeted Turkish victims. [PROMETHIUM](https://attack.mitre.org/group/G0056) has demonstrated similarity to another activity group called [NEODYMIUM](https://attack.mitre.org/group/G0055) due to overlapping victim and campaign characteristics. (Citation: Microsoft NEODYMIUM Dec 2016) (Citation: Microsoft SIR Vol 21)",
-            "aliases": [
-                "PROMETHIUM"
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
@@ -35,9 +33,11 @@
                     "source_name": "Microsoft SIR Vol 21"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            "aliases": [
+                "PROMETHIUM"
+            ],
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-01-16T16:13:52.465Z"
         }
     ]
 }

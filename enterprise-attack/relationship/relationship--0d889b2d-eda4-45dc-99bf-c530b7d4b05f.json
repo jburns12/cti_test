@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--673662c0-ea7f-4640-a40d-5e265df80ad4",
+    "id": "bundle--11fd2a01-1a2b-4d4d-bc8b-3ce7bdd84d19",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--0d889b2d-eda4-45dc-99bf-c530b7d4b05f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[menuPass](https://attack.mitre.org/group/G0045) has used tcping.exe, similar to [Ping](https://attack.mitre.org/software/S0097), to probe port status on systems of interest.",
+            "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+            "target_ref": "attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-annex-b-final.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "PWC Cloud Hopper Technical Annex April 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
-            "target_ref": "attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

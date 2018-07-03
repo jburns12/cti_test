@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--60501af5-60b8-49b8-88f4-b8de3aba253f",
+    "id": "bundle--205543da-82ad-4a1b-bb86-986b38f6c192",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--633baf01-6de4-4963-bb54-ff6c6357bed3",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-10-25T14:48:21.354Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Rogue Wi-Fi Access Points",
             "description": "An adversary could set up unauthorized Wi-Fi access points or compromise existing access points and, if the device connects to them, carry out network-based attacks such as eavesdropping on or modifying network communication as described in NIST SP 800-153 (Citation: NIST-SP800153). \n\nFor example, Kaspersky describes a threat actor they call DarkHotel that targeted hotel Wi-Fi networks, using them to compromise computers belonging to business executives (Citation: Kaspersky-DarkHotel).",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "general-network-based",
-                    "kill_chain_name": "mitre-mobile-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "MOB-T1068",
@@ -45,7 +36,19 @@
             "x_mitre_platforms": [
                 "Android",
                 "iOS"
-            ]
+            ],
+            "x_mitre_tactic_type": [
+                "Without Adversary Device Access"
+            ],
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "general-network-based",
+                    "kill_chain_name": "mitre-mobile-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-10-25T14:48:21.354Z"
         }
     ]
 }

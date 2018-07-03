@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--af7b2f0b-f911-4a86-b2e7-7564d466f61d",
+    "id": "bundle--d99dcf71-3af0-4935-abed-67184cf4caa8",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--351c0927-2fc1-4a2c-ad84-cbbee7eb8172",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-10-25T14:48:29.405Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Exploit OS Vulnerability",
             "description": "A malicious app can exploit unpatched vulnerabilities in the operating system to obtain escalated privileges.",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "privilege-escalation",
-                    "kill_chain_name": "mitre-mobile-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "MOB-T1007",
@@ -35,7 +26,19 @@
             "x_mitre_platforms": [
                 "Android",
                 "iOS"
-            ]
+            ],
+            "x_mitre_tactic_type": [
+                "Post-Adversary Device Access"
+            ],
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "privilege-escalation",
+                    "kill_chain_name": "mitre-mobile-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-10-25T14:48:29.405Z"
         }
     ]
 }

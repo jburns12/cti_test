@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--4ae290be-59b9-4235-a10f-07f8f33de5c8",
+    "id": "bundle--c8ac27a5-4d22-4659-bf07-072ce29d7f97",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--dac7355a-9d13-4155-a053-d0c18fe92f53",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Cobalt Strike](https://attack.mitre.org/software/S0154) can use Window admin shares (C$ and ADMIN$) for lateral movement.",
+            "source_ref": "tool--aafea02e-ece5-4bb2-91a6-3bf8c7f38a39",
+            "target_ref": "attack-pattern--ffe742ed-9100-4686-9e00-c331da544787",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.cobaltstrike.com/downloads/reports/tacticstechniquesandprocedures.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "Cobalt Strike TTPs Dec 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "tool--aafea02e-ece5-4bb2-91a6-3bf8c7f38a39",
-            "target_ref": "attack-pattern--ffe742ed-9100-4686-9e00-c331da544787"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-01-16T16:13:52.465Z"
         }
     ]
 }

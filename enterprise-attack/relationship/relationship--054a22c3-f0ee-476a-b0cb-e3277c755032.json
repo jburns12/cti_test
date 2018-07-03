@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--b48e2424-d3b1-4525-afef-bdb34a7a3cc5",
+    "id": "bundle--68c85d9d-d7ca-4fc0-8328-d53d6e775e1a",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--054a22c3-f0ee-476a-b0cb-e3277c755032",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[BlackEnergy](https://attack.mitre.org/software/S0089) attempts to bypass default User Access Control (UAC) settings by exploiting a backward-compatibility setting found in Windows 7 and later.",
+            "source_ref": "malware--54cc1d4f-5c53-4f0e-9ef5-11b4998e82e4",
+            "target_ref": "attack-pattern--ca1a3f50-5ebd-41f8-8320-2c7d6a6e88be",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.f-secure.com/documents/996508/1030745/blackenergy%20whitepaper.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "F-Secure BlackEnergy 2014"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--54cc1d4f-5c53-4f0e-9ef5-11b4998e82e4",
-            "target_ref": "attack-pattern--ca1a3f50-5ebd-41f8-8320-2c7d6a6e88be"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

@@ -1,14 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--e1d80863-3a2c-4081-b885-ae094380a798",
+    "id": "bundle--b6ff8a64-96e8-4894-a9d4-e603cfcaf0ee",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "course-of-action",
             "id": "course-of-action--0beabf44-e8d8-4ae4-9122-ef56369a2564",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-10-25T14:48:51.657Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Use Recent OS Version",
             "description": "New mobile operating system versions bring not only patches against discovered vulnerabilities but also often bring security architecture improvements that provide resilience against potential vulnerabilities or weaknesses that have not yet been discovered. They may also bring improvements that block use of observed adversary techniques.",
             "external_references": [
@@ -20,7 +17,10 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "type": "course-of-action",
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-10-25T14:48:51.657Z"
         }
     ]
 }

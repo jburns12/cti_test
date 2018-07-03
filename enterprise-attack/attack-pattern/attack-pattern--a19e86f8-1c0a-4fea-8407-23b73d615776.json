@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--4d283ca7-3a60-4369-934b-74a156292512",
+    "id": "bundle--5cd5d27a-cce7-404e-9cff-db07226d4574",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--a19e86f8-1c0a-4fea-8407-23b73d615776",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:30:44.720Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Exfiltration Over Alternative Protocol",
             "description": "Data exfiltration is performed with a different protocol from the main command and control protocol or channel. The data is likely to be sent to an alternate network location from the main command and control server. Alternate protocols include FTP, SMTP, HTTP/S, DNS, or some other network protocol. Different channels could include Internet Web services such as cloud storage.",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "exfiltration",
-                    "kill_chain_name": "mitre-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "T1048",
@@ -32,12 +23,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Analyze network data for uncommon data flows (e.g., a client sending significantly more data than it receives from a server). Processes utilizing the network that do not normally have network communication or have never been seen before are suspicious. Analyze packet contents to detect communications that do not follow the expected protocol behavior for the port that is being used. (Citation: University of Birmingham C2)",
-            "x_mitre_platforms": [
-                "Linux",
-                "macOS",
-                "Windows"
-            ],
             "x_mitre_data_sources": [
                 "User interface",
                 "Process monitoring",
@@ -46,7 +31,22 @@
                 "Netflow/Enclave netflow",
                 "Network protocol analysis"
             ],
-            "x_mitre_network_requirements": true
+            "x_mitre_detection": "Analyze network data for uncommon data flows (e.g., a client sending significantly more data than it receives from a server). Processes utilizing the network that do not normally have network communication or have never been seen before are suspicious. Analyze packet contents to detect communications that do not follow the expected protocol behavior for the port that is being used. (Citation: University of Birmingham C2)",
+            "x_mitre_network_requirements": true,
+            "x_mitre_platforms": [
+                "Linux",
+                "macOS",
+                "Windows"
+            ],
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "exfiltration",
+                    "kill_chain_name": "mitre-attack"
+                }
+            ],
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:30:44.720Z"
         }
     ]
 }

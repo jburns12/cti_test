@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--b4d03e83-7c7d-42d6-83a6-76129fb9d226",
+    "id": "bundle--6fa2ff69-c226-451b-8c2d-ecf4098db6a2",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--a49ed7b1-8160-48ae-a65f-feeb4747c522",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "Some [Volgmer](https://attack.mitre.org/software/S0180) use SSL to encrypt C2 communications.",
+            "source_ref": "malware--495b6cdb-7b5a-4fbc-8d33-e7ef68806d08",
+            "target_ref": "attack-pattern--4b74a1d4-b0e9-4ef1-93f1-14ecc6e2f5b5",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.us-cert.gov/ncas/alerts/TA17-318B",
@@ -17,11 +20,12 @@
                     "source_name": "US-CERT Volgmer Nov 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--495b6cdb-7b5a-4fbc-8d33-e7ef68806d08",
-            "target_ref": "attack-pattern--4b74a1d4-b0e9-4ef1-93f1-14ecc6e2f5b5"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-01-16T16:13:52.465Z"
         }
     ]
 }

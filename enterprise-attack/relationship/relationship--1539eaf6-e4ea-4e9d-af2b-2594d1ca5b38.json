@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--2b2c808e-cb83-4906-a804-e04273b52433",
+    "id": "bundle--f516fadf-5eae-4031-a930-e34d3b786b32",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--1539eaf6-e4ea-4e9d-af2b-2594d1ca5b38",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[H1N1](https://attack.mitre.org/software/S0132) has functionality to copy itself to network shares.",
+            "source_ref": "malware--f8dfbc54-b070-4224-b560-79aaa5f835bd",
+            "target_ref": "attack-pattern--246fd3c7-f5e3-466d-8787-4c13d9e3b61c",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://blogs.cisco.com/security/h1n1-technical-analysis-reveals-new-capabilities-part-2",
@@ -17,11 +20,12 @@
                     "source_name": "Cisco H1N1 Part 2"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--f8dfbc54-b070-4224-b560-79aaa5f835bd",
-            "target_ref": "attack-pattern--246fd3c7-f5e3-466d-8787-4c13d9e3b61c"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--44c99221-01bf-47c6-99b2-e9f08388c68f",
+    "id": "bundle--9fb47e62-7620-41ec-9fca-3a288762db9d",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--5c816fc0-c4e3-47ef-8193-ef88eabdfc7e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:33:27.052Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[admin@338](https://attack.mitre.org/group/G0018) actors used the following commands after exploiting a machine with [LOWBALL](https://attack.mitre.org/software/S0042) malware to obtain information about files and directories: <code>dir c:\\ >> %temp%\\download</code> <code>dir \"c:\\Documents and Settings\" >> %temp%\\download</code> <code>dir \"c:\\Program Files\\\" >> %temp%\\download</code> <code>dir d:\\ >> %temp%\\download</code>",
+            "source_ref": "intrusion-set--16ade1aa-0ea1-4bb7-88cc-9079df2ae756",
+            "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2015/11/china-based-threat.html",
@@ -17,11 +20,12 @@
                     "source_name": "FireEye admin@338"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--16ade1aa-0ea1-4bb7-88cc-9079df2ae756",
-            "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:33:27.052Z"
         }
     ]
 }

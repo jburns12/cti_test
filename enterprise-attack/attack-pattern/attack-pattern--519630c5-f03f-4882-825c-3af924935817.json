@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--15a2fbc3-48c5-4174-9125-d67938a1d2e4",
+    "id": "bundle--34cd4066-0e3c-4a79-a3f4-a587ac394a0e",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--519630c5-f03f-4882-825c-3af924935817",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:30:22.096Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Binary Padding",
             "description": "Some security tools inspect files with static signatures to determine if they are known malicious. Adversaries may add data to files to increase the size beyond what security tools are capable of handling or to change the file hash to avoid hash-based blacklists.",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "defense-evasion",
-                    "kill_chain_name": "mitre-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "T1009",
@@ -27,16 +18,25 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_defense_bypassed": [
+                "Anti-virus",
+                "Signature-based detection"
+            ],
             "x_mitre_detection": "Depending on the method used to pad files, a file-based signature may be capable of detecting padding using a scanning or on-access based tool. \n\nWhen executed, the resulting process from padded files may also exhibit other behavior characteristics of being used to conduct an intrusion such as system and network information Discovery or Lateral Movement, which could be used as event indicators that point to the source file.",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",
                 "Windows"
             ],
-            "x_mitre_defense_bypassed": [
-                "Anti-virus",
-                "Signature-based detection"
-            ]
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "defense-evasion",
+                    "kill_chain_name": "mitre-attack"
+                }
+            ],
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:30:22.096Z"
         }
     ]
 }

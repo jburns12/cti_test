@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--8cf70ece-e2e3-4464-86a5-8cbfdf8080a8",
+    "id": "bundle--7110f334-a6df-43fe-b2c0-2e18a4635281",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--1f972385-7f1c-4cbd-a071-951973e6d229",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "Some [MiniDuke](https://attack.mitre.org/software/S0051) components use Twitter to initially obtain the address of a C2 server or as a backup if no hard-coded C2 server responds.",
+            "source_ref": "malware--5e7ef1dc-7fb6-4913-ac75-e06113b59e0c",
+            "target_ref": "attack-pattern--830c9528-df21-472c-8c14-a036bf17d665",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.f-secure.com/documents/996508/1030745/dukes%20whitepaper.pdf",
@@ -22,11 +25,12 @@
                     "source_name": "Securelist MiniDuke Feb 2013"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--5e7ef1dc-7fb6-4913-ac75-e06113b59e0c",
-            "target_ref": "attack-pattern--830c9528-df21-472c-8c14-a036bf17d665"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--22d6abbf-8d3f-4b6a-982a-f9e7dbd41c24",
+    "id": "bundle--e3e4b907-23ee-4b74-a8b5-21b5d3072763",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--13efc415-5e17-4a16-81c2-64e74815907f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T14:44:41.004Z",
+            "relationship_type": "uses",
             "description": "[XcodeGhost](https://attack.mitre.org/software/MOB-S0013) can \"[p]rompt a fake alert dialog to phish user credentials.\"",
+            "source_ref": "malware--d9e07aea-baad-4b68-bdca-90c77647d7f9",
+            "target_ref": "attack-pattern--3dd58c80-4c2e-458c-9503-1b2cd273c4d2",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2015/09/update-xcodeghost-attacker-can-phish-passwords-and-open-urls-though-infected-apps/",
@@ -17,11 +20,12 @@
                     "source_name": "PaloAlto-XcodeGhost"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "2f669986-b40b-4423-b720-4396ca6a462b"
             ],
-            "source_ref": "malware--d9e07aea-baad-4b68-bdca-90c77647d7f9",
-            "target_ref": "attack-pattern--3dd58c80-4c2e-458c-9503-1b2cd273c4d2"
+            "type": "relationship",
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

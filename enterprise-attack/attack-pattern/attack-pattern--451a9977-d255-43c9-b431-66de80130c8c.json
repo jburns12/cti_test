@@ -1,30 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--c7a03779-381e-4ab7-aeea-f81af4ce2055",
+    "id": "bundle--6a854d66-ef2b-4016-8e4f-caf472a6f661",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--451a9977-d255-43c9-b431-66de80130c8c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Port Knocking",
             "description": "Port Knocking is a well-established method used by both defenders and adversaries to hide open ports from access.  To enable the port, the system expects a series of packets with certain characteristics before the port will be opened.  This is often accomlished by the host based firewall, but could also be implemented by custom software.  \n\nThis technique has been observed to both for the dynamic opening of a listening port as well as the initiating of a connection to a listening server on a different system.\n\nThe observation of the signal packets to trigger the communication can be conducted through different methods.  One means, originally implemented by Cd00r, is to use the libpcap libraries to sniff for the packets in question.  Another method leverages raw sockets, which enables the malware to use ports that are already open for use by other programs.",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "command-and-control",
-                    "kill_chain_name": "mitre-attack"
-                },
-                {
-                    "phase_name": "defense-evasion",
-                    "kill_chain_name": "mitre-attack"
-                },
-                {
-                    "phase_name": "persistence",
-                    "kill_chain_name": "mitre-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "T1205",
@@ -42,7 +25,24 @@
             ],
             "x_mitre_permissions_required": [
                 "User"
-            ]
+            ],
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "command-and-control",
+                    "kill_chain_name": "mitre-attack"
+                },
+                {
+                    "phase_name": "defense-evasion",
+                    "kill_chain_name": "mitre-attack"
+                },
+                {
+                    "phase_name": "persistence",
+                    "kill_chain_name": "mitre-attack"
+                }
+            ],
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--fb809a4c-f520-4f7e-bb8b-438d6005244d",
+    "id": "bundle--8709908f-6431-43dc-955b-0b76f96659f5",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--820c50f3-65e8-4a3a-a71a-e079ae8badad",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Remsec](https://attack.mitre.org/software/S0125) contains a network loader to receive executable modules from remote attackers and run them on the local victim. It can also upload and download files over HTTP and HTTPS.",
+            "source_ref": "malware--69d6f4a9-fcf0-4f51-bca7-597c51ad0bb8",
+            "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://www.symantec.com/content/en/us/enterprise/media/security%20response/whitepapers/Symantec%20Remsec%20IOCs.pdf",
@@ -22,11 +25,12 @@
                     "source_name": "Kaspersky ProjectSauron Technical Analysis"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--69d6f4a9-fcf0-4f51-bca7-597c51ad0bb8",
-            "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

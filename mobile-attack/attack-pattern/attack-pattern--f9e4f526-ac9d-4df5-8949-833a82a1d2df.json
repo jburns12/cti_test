@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--0f8ef912-b011-49bb-9b43-eb2cf2d655d4",
+    "id": "bundle--7931a757-8183-49c2-b02d-ca07d85537ef",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--f9e4f526-ac9d-4df5-8949-833a82a1d2df",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-10-25T14:48:09.446Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Malicious or Vulnerable Built-in Device Functionality",
             "description": "The mobile device could contain built-in functionality with malicious behavior or exploitable vulnerabilities. An adversary could deliberately insert and take advantage of the malicious behavior or could exploit inadvertent vulnerabilities. In many cases, it is difficult to be certain whether exploitable functionality is due to malicious intent or simply an inadvertent mistake.",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "supply-chain",
-                    "kill_chain_name": "mitre-mobile-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "MOB-T1076",
@@ -30,7 +21,19 @@
             "x_mitre_platforms": [
                 "Android",
                 "iOS"
-            ]
+            ],
+            "x_mitre_tactic_type": [
+                "Pre-Adversary Device Access"
+            ],
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "supply-chain",
+                    "kill_chain_name": "mitre-mobile-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-10-25T14:48:09.446Z"
         }
     ]
 }

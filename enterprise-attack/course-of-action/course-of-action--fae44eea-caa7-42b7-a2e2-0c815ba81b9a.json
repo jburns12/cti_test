@@ -1,14 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--4ed5d9aa-3f5f-414d-ac0d-57bb367abae9",
+    "id": "bundle--f6cbb7e2-9416-4298-8ebc-9c6f2ee756d4",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "course-of-action",
             "id": "course-of-action--fae44eea-caa7-42b7-a2e2-0c815ba81b9a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-07-03T13:33:43.876Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Hidden Window Mitigation",
             "description": "Whitelist programs that are allowed to have this plist tag. All other programs should be considered suspicious.",
             "external_references": [
@@ -17,7 +14,10 @@
                     "url": "https://attack.mitre.org/technique/T1143",
                     "source_name": "mitre-attack"
                 }
-            ]
+            ],
+            "type": "course-of-action",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-07-03T13:33:43.876Z"
         }
     ]
 }

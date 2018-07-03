@@ -1,14 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--67ad1a83-4b99-4da2-b7fe-ccc4af5c7ab7",
+    "id": "bundle--78503787-ceef-441d-b977-6667ab3da9e0",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "course-of-action",
             "id": "course-of-action--e8d22ec6-2236-48de-954b-974d17492782",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-07-03T13:33:43.876Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Two-Factor Authentication Interception Mitigation",
             "description": "Remove smart cards when not in use. Protect devices and services used to transmit and receive out-of-band codes.\n\nIdentify and block potentially malicious software that may be used to intercept 2FA credentials on a system by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
             "external_references": [
@@ -42,7 +39,10 @@
                     "description": "Microsoft. (2012, June 27). Using Software Restriction Policies and AppLocker Policies. Retrieved April 7, 2016.",
                     "source_name": "TechNet Applocker vs SRP"
                 }
-            ]
+            ],
+            "type": "course-of-action",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-07-03T13:33:43.876Z"
         }
     ]
 }

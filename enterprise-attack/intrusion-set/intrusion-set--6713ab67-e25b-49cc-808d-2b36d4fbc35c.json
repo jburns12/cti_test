@@ -1,18 +1,16 @@
 {
     "type": "bundle",
-    "id": "bundle--4ed33388-2804-4c10-978a-eaad2dac8e1e",
+    "id": "bundle--ebeecbc6-df1c-45be-b823-276b16b45581",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "intrusion-set",
             "id": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:31:47.177Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Ke3chang",
             "description": "[Ke3chang](https://attack.mitre.org/group/G0004) is a threat group attributed to actors operating out of China. (Citation: Villeneuve et al 2014)",
-            "aliases": [
-                "Ke3chang"
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
@@ -30,9 +28,14 @@
                     "source_name": "Villeneuve et al 2014"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
+            ],
+            "aliases": [
+                "Ke3chang"
+            ],
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:31:47.177Z"
         }
     ]
 }

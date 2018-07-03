@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--36d3ceb9-8682-4216-88f7-7089e79c3154",
+    "id": "bundle--47b3e0e8-0da1-48a7-99dc-0e2496457cda",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--2e82ef21-9fb2-421e-bd96-73599089b448",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[CopyKittens](https://attack.mitre.org/group/G0052) uses ZPP, a .NET console program, to compress files with ZIP.",
+            "source_ref": "intrusion-set--dcd81c6e-ebf7-4a16-93e0-9a97fa49c88a",
+            "target_ref": "attack-pattern--b9f5dbe2-4c55-4fc5-af2e-d42c1d182ec4",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://www.clearskysec.com/wp-content/uploads/2017/07/Operation%20Wilted%20Tulip.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "ClearSky Wilted Tulip July 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--dcd81c6e-ebf7-4a16-93e0-9a97fa49c88a",
-            "target_ref": "attack-pattern--b9f5dbe2-4c55-4fc5-af2e-d42c1d182ec4"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-01-16T16:13:52.465Z"
         }
     ]
 }

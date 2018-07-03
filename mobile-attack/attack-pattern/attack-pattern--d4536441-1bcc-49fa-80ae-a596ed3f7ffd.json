@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--0a83167c-8da2-4897-bb75-8d89118787d8",
+    "id": "bundle--15cb1b8e-a887-4f3b-a6b6-fc8e2c82c971",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--d4536441-1bcc-49fa-80ae-a596ed3f7ffd",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-10-25T14:48:32.740Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Local Network Configuration Discovery",
             "description": "On Android, details of onboard network interfaces are accessible to apps through the java.net. (Citation: NetworkInterface) class (Citation: NetworkInterface). The Android  (Citation: TelephonyManager) class can be used to gather related information such as the IMSI, IMEI, and phone number (Citation: TelephonyManager).",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "discovery",
-                    "kill_chain_name": "mitre-mobile-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "MOB-T1025",
@@ -39,7 +30,19 @@
             ],
             "x_mitre_platforms": [
                 "Android"
-            ]
+            ],
+            "x_mitre_tactic_type": [
+                "Post-Adversary Device Access"
+            ],
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "discovery",
+                    "kill_chain_name": "mitre-mobile-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-10-25T14:48:32.740Z"
         }
     ]
 }

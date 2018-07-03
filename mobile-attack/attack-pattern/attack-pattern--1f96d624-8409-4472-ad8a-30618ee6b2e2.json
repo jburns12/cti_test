@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--1bd6d730-fb1f-4371-b8a9-1e2b0e8f967c",
+    "id": "bundle--2c749ff8-6233-4252-aa45-ecff48d116c7",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--1f96d624-8409-4472-ad8a-30618ee6b2e2",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-10-25T14:48:10.699Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "App Delivered via Email Attachment",
             "description": "The application is delivered as an email attachment.",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "app-delivery-via-other-means",
-                    "kill_chain_name": "mitre-mobile-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "MOB-T1037",
@@ -41,7 +32,19 @@
             "x_mitre_platforms": [
                 "Android",
                 "iOS"
-            ]
+            ],
+            "x_mitre_tactic_type": [
+                "Pre-Adversary Device Access"
+            ],
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "app-delivery-via-other-means",
+                    "kill_chain_name": "mitre-mobile-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-10-25T14:48:10.699Z"
         }
     ]
 }

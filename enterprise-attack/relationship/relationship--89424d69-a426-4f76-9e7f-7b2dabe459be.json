@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--438d1a2d-694d-4840-b907-6e4f7a4082fd",
+    "id": "bundle--804a3a83-d97b-4a1e-b78d-d55bf5e44c3e",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--89424d69-a426-4f76-9e7f-7b2dabe459be",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[POWERSOURCE](https://attack.mitre.org/software/S0145) is a PowerShell backdoor.",
+            "source_ref": "malware--17e919aa-4a49-445c-b103-dbb8df9e7351",
+            "target_ref": "attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/03/fin7%20spear%20phishing.html",
@@ -22,11 +25,12 @@
                     "source_name": "Cisco DNSMessenger March 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--17e919aa-4a49-445c-b103-dbb8df9e7351",
-            "target_ref": "attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

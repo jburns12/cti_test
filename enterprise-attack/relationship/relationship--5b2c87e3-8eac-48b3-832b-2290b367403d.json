@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--a93c8f7f-3f54-462f-85c9-fe3568154a1f",
+    "id": "bundle--4d7de162-c76d-4f81-8dc7-6e05cb86bb71",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--5b2c87e3-8eac-48b3-832b-2290b367403d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[BlackEnergy](https://attack.mitre.org/software/S0089) has gathered information about local network connections using [netstat](https://attack.mitre.org/software/S0104).",
+            "source_ref": "malware--54cc1d4f-5c53-4f0e-9ef5-11b4998e82e4",
+            "target_ref": "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.f-secure.com/documents/996508/1030745/blackenergy%20whitepaper.pdf",
@@ -22,11 +25,12 @@
                     "source_name": "Securelist BlackEnergy Nov 2014"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--54cc1d4f-5c53-4f0e-9ef5-11b4998e82e4",
-            "target_ref": "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

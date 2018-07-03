@@ -1,19 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--c7e0fa68-311d-4678-aa6c-6db0b200d76e",
+    "id": "bundle--c08600b0-2949-4b93-bbdc-6883820c44b1",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "tool",
             "id": "tool--4664b683-f578-434f-919b-1c1aad2a1111",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:33:04.545Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "netstat",
             "description": "[netstat](https://attack.mitre.org/software/S0104) is an operating system utility that displays active TCP connections, listening ports, and network statistics. (Citation: TechNet Netstat)",
-            "labels": [
-                "tool"
-            ],
             "external_references": [
                 {
                     "external_id": "S0104",
@@ -29,15 +23,21 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_aliases": [
+                "netstat",
+                "netstat.exe"
+            ],
             "x_mitre_platforms": [
                 "Linux",
                 "Windows",
                 "macOS"
             ],
-            "x_mitre_aliases": [
-                "netstat",
-                "netstat.exe"
-            ]
+            "type": "tool",
+            "labels": [
+                "tool"
+            ],
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:33:04.545Z"
         }
     ]
 }

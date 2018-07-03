@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--965d5521-b3c1-4808-8682-bb95b54f5e04",
+    "id": "bundle--038dae3f-f1d1-41c6-b66e-41be4e08293d",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--2141aea0-cf38-49aa-9e51-ac34092bc30a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Procure required equipment and software",
             "description": "An adversary will require some physical hardware and software. They may only need a lightweight set-up if most of their activities will take place using on-line infrastructure. Or, they may need to build extensive infrastructure if they want to test, communicate, and control other aspects of their activities on their own systems. (Citation: NYTStuxnet)",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "establish-&-maintain-infrastructure",
-                    "kill_chain_name": "mitre-pre-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "PRE-T1112",
@@ -30,7 +21,20 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detectable_by_common_defenses": "No",
+            "x_mitre_detectable_by_common_defenses_explanation": "Outside of highly specific or rare HW, nearly impossible to detect and track.",
+            "x_mitre_difficulty_for_adversary": "Yes",
+            "x_mitre_difficulty_for_adversary_explanation": "Ease and availability of current hardware and software, mobile phones (cash and go phones), and additional online technology simplifies adversary process to achieve this technique (and possibly without traceability). The adversary has control of the infrastructure and will likely be able to add/remove tools to infrastructure, whether acquired via hacking or standard computer acquisition (e.g., [https://aws.amazon.com AWS], VPS).",
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "establish-&-maintain-infrastructure",
+                    "kill_chain_name": "mitre-pre-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

@@ -1,26 +1,30 @@
 {
     "type": "bundle",
-    "id": "bundle--21a56f2b-c1ca-4422-86a7-665b1859948d",
+    "id": "bundle--a28e1299-ce0b-4053-a26f-d1656f645897",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--f33725f4-cce5-4868-b494-d73419c76bdf",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[DustySky](https://attack.mitre.org/software/S0062) collects information about running processes from victims.",
+            "source_ref": "malware--687c23e4-4e25-4ee7-a870-c5e002511f54",
+            "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "description": "ClearSky. (2016, January 7). Operation DustySky. Retrieved January 8, 2016.",
                     "source_name": "DustySky"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--687c23e4-4e25-4ee7-a870-c5e002511f54",
-            "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

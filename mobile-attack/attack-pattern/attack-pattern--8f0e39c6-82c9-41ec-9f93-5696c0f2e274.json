@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--40f229ba-2f40-453c-a5a2-4c5c45304d4d",
+    "id": "bundle--ee0d304e-e888-4cf4-bfd7-ae1aba999ab3",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--8f0e39c6-82c9-41ec-9f93-5696c0f2e274",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-10-25T14:48:09.082Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Premium SMS Toll Fraud",
             "description": "A malicious app could use standard Android APIs to send SMS messages. SMS messages could potentially be sent to premium numbers that charge the device owner and generate revenue for an adversary, for example as described by Lookout in  (Citation: Lookout-SMS).\n\nOn iOS, apps cannot send SMS messages.\n\nOn Android, apps must hold the SEND_SMS permission to send SMS messages. Additionally, Android version 4.2 and above has mitigations against this threat by requiring user consent before allowing SMS messages to be sent to premium numbers (Citation: AndroidSecurity2014).",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "effects",
-                    "kill_chain_name": "mitre-mobile-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "MOB-T1051",
@@ -40,7 +31,19 @@
             "x_mitre_detection": "As described in Google's Android Security 2014 Year in Review Report  (Citation: AndroidSecurity2014), starting with Android 4.2 the user is prompted and must provide consent before applications can send SMS messages to premium numbers.\n\nOn Android 6.0 and up, the user can view which applications have permission to send SMS messages through the device settings screen, and the user can choose to revoke the permissions.",
             "x_mitre_platforms": [
                 "Android"
-            ]
+            ],
+            "x_mitre_tactic_type": [
+                "Post-Adversary Device Access"
+            ],
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "effects",
+                    "kill_chain_name": "mitre-mobile-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-10-25T14:48:09.082Z"
         }
     ]
 }

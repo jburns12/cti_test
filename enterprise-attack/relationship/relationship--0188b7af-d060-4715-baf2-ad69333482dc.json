@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--68487a73-695d-497b-8949-4a0d3cbcc879",
+    "id": "bundle--90d36813-df34-41a5-9ced-bb4f155c818e",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--0188b7af-d060-4715-baf2-ad69333482dc",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Orz](https://attack.mitre.org/software/S0229) can gather victim drive information.",
+            "source_ref": "malware--06d735e7-1db1-4dbe-ab4b-acbe419f902b",
+            "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.proofpoint.com/us/threat-insight/post/leviathan-espionage-actor-spearphishes-maritime-and-defense-targets",
@@ -17,11 +20,12 @@
                     "source_name": "Proofpoint Leviathan Oct 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--06d735e7-1db1-4dbe-ab4b-acbe419f902b",
-            "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

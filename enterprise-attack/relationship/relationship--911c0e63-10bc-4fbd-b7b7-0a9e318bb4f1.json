@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--ec5bee23-0f31-4690-bc02-ec50db8d6c3f",
+    "id": "bundle--72561f14-41fb-4c56-a18c-43a0160e768f",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--911c0e63-10bc-4fbd-b7b7-0a9e318bb4f1",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[POWERSTATS](https://attack.mitre.org/software/S0223) uses PowerShell.",
+            "source_ref": "malware--e8545794-b98c-492b-a5b3-4b5a02682e37",
+            "target_ref": "attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://researchcenter.paloaltonetworks.com/2017/11/unit42-muddying-the-water-targeted-attacks-in-the-middle-east/",
@@ -17,11 +20,12 @@
                     "source_name": "Unit 42 MuddyWater Nov 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--e8545794-b98c-492b-a5b3-4b5a02682e37",
-            "target_ref": "attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

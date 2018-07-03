@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--5658d0ab-9efb-4d19-ac66-26e1c04da56d",
+    "id": "bundle--da37fa11-afac-423b-85a5-a301bc516ec0",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--8f269f6c-9e8b-4296-ab47-2f60c9156b58",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:33:27.038Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[APT28](https://attack.mitre.org/group/G0007) executed [CHOPSTICK](https://attack.mitre.org/software/S0023) by using rundll32 commands such as <code>rundll32.exe \u201cC:\\Windows\\twain_64.dll\u201d</code>. [APT28](https://attack.mitre.org/group/G0007) also executed a .dll for a first stage dropper using rundll32.exe. An [APT28](https://attack.mitre.org/group/G0007) loader Trojan saved a batch script that uses rundll32 to execute a DLL payload.",
+            "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
+            "target_ref": "attack-pattern--62b8c999-dcc0-4755-bd69-09442d9359f5",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "description": "Bitdefender. (2015, December). APT28 Under the Scope. Retrieved February 23, 2017.",
@@ -26,11 +29,12 @@
                     "source_name": "Unit 42 Playbook Sofacy Feb 2018"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
-            "target_ref": "attack-pattern--62b8c999-dcc0-4755-bd69-09442d9359f5"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:33:27.038Z"
         }
     ]
 }

@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--808be612-c309-446a-b9c6-a030241bb42f",
+    "id": "bundle--51e36adc-6664-41ee-a659-7c1890a1902b",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--b13fd1c9-a42c-45fc-9db8-1cd691740e0a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[HTTPBrowser](https://attack.mitre.org/software/S0070) deletes its original installer file once installation is complete.",
+            "source_ref": "malware--e066bf86-9cfb-407a-9d25-26fd5d91e360",
+            "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://research.zscaler.com/2015/08/chinese-cyber-espionage-apt-group.html",
@@ -17,11 +20,12 @@
                     "source_name": "ZScaler Hacking Team"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--e066bf86-9cfb-407a-9d25-26fd5d91e360",
-            "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

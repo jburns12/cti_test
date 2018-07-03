@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--e76dc7db-e526-4eb0-a7e6-660e1f243c9f",
+    "id": "bundle--3b4515f5-04b8-47d2-8805-8ad211336469",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--8f142a25-f6c3-4520-bd50-2ae3ab50ed3e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-10-25T14:48:17.533Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "URL Scheme Hijacking",
             "description": "An iOS application may be able to maliciously claim a URL scheme, allowing it to intercept calls that are meant for a different application. This technique, for example, could be used to capture OAuth authorization codes as described in  (Citation: IETF-PKCE) or to phish user credentials as described in  (Citation: MobileIron-XARA). Related potential security implications are described in  (Citation: Dhanjani-URLScheme). FireEye researchers describe URL scheme hijacking in a blog post (Citation: FireEye-Masque2), including evidence of its use.",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "credential-access",
-                    "kill_chain_name": "mitre-mobile-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "MOB-T1018",
@@ -54,7 +45,19 @@
             ],
             "x_mitre_platforms": [
                 "iOS"
-            ]
+            ],
+            "x_mitre_tactic_type": [
+                "Post-Adversary Device Access"
+            ],
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "credential-access",
+                    "kill_chain_name": "mitre-mobile-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-10-25T14:48:17.533Z"
         }
     ]
 }

@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--99d592c4-6fa0-4e10-9ee5-dace6d193195",
+    "id": "bundle--e394f1d5-17bc-4079-93ba-63d68c8b1e0f",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--97ff5931-f27f-4774-b595-312f5771f91a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[SHIPSHAPE](https://attack.mitre.org/software/S0028) achieves persistence by creating a shortcut in the Startup folder.",
+            "source_ref": "malware--b1de6916-7a22-4460-8d26-6b5483ffaa2a",
+            "target_ref": "attack-pattern--970cdb5c-02fb-4c38-b17e-d6327cf3c810",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "FireEye APT30"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--b1de6916-7a22-4460-8d26-6b5483ffaa2a",
-            "target_ref": "attack-pattern--970cdb5c-02fb-4c38-b17e-d6327cf3c810"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

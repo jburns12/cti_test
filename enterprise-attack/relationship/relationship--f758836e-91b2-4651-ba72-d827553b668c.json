@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--d33c7cb1-d47b-400c-be57-fcee1aae6395",
+    "id": "bundle--789b675e-af29-44c4-8b8c-0f8a8ecc76c5",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--f758836e-91b2-4651-ba72-d827553b668c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[POSHSPY](https://attack.mitre.org/software/S0150) uses a WMI event subscription to establish persistence.",
+            "source_ref": "malware--5e595477-2e78-4ce7-ae42-e0b059b17808",
+            "target_ref": "attack-pattern--e906ae4d-1d3a-4675-be23-22f7311c0da4",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/03/dissecting%20one%20ofap.html",
@@ -17,11 +20,12 @@
                     "source_name": "FireEye POSHSPY April 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--5e595477-2e78-4ce7-ae42-e0b059b17808",
-            "target_ref": "attack-pattern--e906ae4d-1d3a-4675-be23-22f7311c0da4"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

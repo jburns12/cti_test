@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--4f3dd47f-b26c-4cb5-8c42-deee78e0f708",
+    "id": "bundle--df9cae16-e8e6-4e19-a239-d6c3a0d2ccea",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--a54a7708-8f64-45f3-ad51-1abf976986a0",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Mine technical blogs/forums",
             "description": "Technical blogs and forums provide a way for technical staff to ask for assistance or troubleshoot problems. In doing so they may reveal information such as operating system (OS), network devices, or applications in use. (Citation: FunAndSun2012)",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "technical-information-gathering",
-                    "kill_chain_name": "mitre-pre-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "PRE-T1034",
@@ -30,7 +21,20 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detectable_by_common_defenses": "No",
+            "x_mitre_detectable_by_common_defenses_explanation": "Cannot detect access to public sites.",
+            "x_mitre_difficulty_for_adversary": "Yes",
+            "x_mitre_difficulty_for_adversary_explanation": "Success is dependent upon the existence of detailed technical specifications for target network posted in blogs/forums.  Poor OPSEC practices result in an adversary gleaning a lot of sensitive information about configurations and/or issues encountered.",
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "technical-information-gathering",
+                    "kill_chain_name": "mitre-pre-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

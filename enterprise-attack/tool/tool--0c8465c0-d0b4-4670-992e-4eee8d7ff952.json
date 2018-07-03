@@ -1,19 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--9554dce3-de9b-40c7-8897-45c81d70e3e9",
+    "id": "bundle--cd98fddf-2933-4057-8603-96f4676cf146",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "tool",
             "id": "tool--0c8465c0-d0b4-4670-992e-4eee8d7ff952",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:33:06.824Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "at",
             "description": "[at](https://attack.mitre.org/software/S0110) is used to schedule tasks on a system to run at a specified date or time. (Citation: TechNet At)",
-            "labels": [
-                "tool"
-            ],
             "external_references": [
                 {
                     "external_id": "S0110",
@@ -29,15 +23,21 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_aliases": [
+                "at",
+                "at.exe"
+            ],
             "x_mitre_platforms": [
                 "Linux",
                 "Windows",
                 "macOS"
             ],
-            "x_mitre_aliases": [
-                "at",
-                "at.exe"
-            ]
+            "type": "tool",
+            "labels": [
+                "tool"
+            ],
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:33:06.824Z"
         }
     ]
 }

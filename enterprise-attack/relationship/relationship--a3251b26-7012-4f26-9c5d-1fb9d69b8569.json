@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--a48fe3c0-0c1f-472f-95a7-996fab02e235",
+    "id": "bundle--edd5441b-c32f-479e-8f01-ae925ab30363",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--a3251b26-7012-4f26-9c5d-1fb9d69b8569",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[HTTPBrowser](https://attack.mitre.org/software/S0070) is capable of listing files, folders, and drives on a victim.",
+            "source_ref": "malware--e066bf86-9cfb-407a-9d25-26fd5d91e360",
+            "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://www.secureworks.com/cyber-threat-intelligence/threats/threat-group-3390-targets-organizations-for-cyberespionage/",
@@ -22,11 +25,12 @@
                     "source_name": "ZScaler Hacking Team"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--e066bf86-9cfb-407a-9d25-26fd5d91e360",
-            "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

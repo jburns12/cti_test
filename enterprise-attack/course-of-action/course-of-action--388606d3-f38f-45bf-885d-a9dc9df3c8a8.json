@@ -1,14 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--26223fdf-90c6-4ad7-8086-85d3f65fb659",
+    "id": "bundle--1e2408a4-b51f-4135-9323-1c4e6a732524",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "course-of-action",
             "id": "course-of-action--388606d3-f38f-45bf-885d-a9dc9df3c8a8",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-07-03T13:33:43.876Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Disabling Security Tools Mitigation",
             "description": "Ensure proper process, registry, and file permissions are in place to prevent adversaries from disabling or interfering with security services.",
             "external_references": [
@@ -17,7 +14,10 @@
                     "url": "https://attack.mitre.org/technique/T1089",
                     "source_name": "mitre-attack"
                 }
-            ]
+            ],
+            "type": "course-of-action",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-07-03T13:33:43.876Z"
         }
     ]
 }

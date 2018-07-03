@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--5dcf8e9a-43ee-4dc5-8542-2dfec12167b8",
+    "id": "bundle--92746892-fe47-4d9f-89fb-bb3ddea9e66c",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--fb6a804a-1929-4c13-a78d-1cf724c09e77",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[RIPTIDE](https://attack.mitre.org/software/S0003) is a RAT that communicates with HTTP.",
+            "source_ref": "malware--ad4f146f-e3ec-444a-ba71-24bffd7f0f8e",
+            "target_ref": "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2014/09/darwins-favorite-apt-group-2.html",
@@ -17,11 +20,12 @@
                     "source_name": "Moran 2014"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--ad4f146f-e3ec-444a-ba71-24bffd7f0f8e",
-            "target_ref": "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

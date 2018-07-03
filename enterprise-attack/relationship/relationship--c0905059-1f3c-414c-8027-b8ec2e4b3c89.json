@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--24222f28-e780-4da4-b90f-72f16c232bcd",
+    "id": "bundle--26242de0-54ad-45f9-a758-b45872ea8cd1",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--c0905059-1f3c-414c-8027-b8ec2e4b3c89",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "When the [Duqu](https://attack.mitre.org/software/S0038) command and control is operating over HTTP or HTTPS, Duqu uploads data to its controller by appending it to a blank JPG file.",
+            "source_ref": "malware--68dca94f-c11d-421e-9287-7c501108e18c",
+            "target_ref": "attack-pattern--ad255bfe-a9e6-4b52-a258-8d3462abe842",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.symantec.com/content/en/us/enterprise/media/security%20response/whitepapers/w32%20duqu%20the%20precursor%20to%20the%20next%20stuxnet.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "Symantec W32.Duqu"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--68dca94f-c11d-421e-9287-7c501108e18c",
-            "target_ref": "attack-pattern--ad255bfe-a9e6-4b52-a258-8d3462abe842"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

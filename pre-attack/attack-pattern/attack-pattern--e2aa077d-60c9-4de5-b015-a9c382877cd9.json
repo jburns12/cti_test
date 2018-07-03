@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--4d57f08a-4232-4abc-9137-7ffced7c687a",
+    "id": "bundle--2826a67d-fc72-4d79-8ad3-744ccee919e2",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--e2aa077d-60c9-4de5-b015-a9c382877cd9",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Assess opportunities created by business deals",
             "description": "During mergers, divestitures, or other period of change in joint infrastructure or business processes there may be an opportunity for exploitation. During this type of churn, unusual requests, or other non standard practices may not be as noticeable. (Citation: RossiMergers) (Citation: MeidlHealthMergers)",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "organizational-weakness-identification",
-                    "kill_chain_name": "mitre-pre-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "PRE-T1076",
@@ -34,7 +25,20 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detectable_by_common_defenses": "No",
+            "x_mitre_detectable_by_common_defenses_explanation": "Most of this activity would target partners and business processes.  Partners would not report.  Difficult to tie this activity to a cyber attack.",
+            "x_mitre_difficulty_for_adversary": "No",
+            "x_mitre_difficulty_for_adversary_explanation": "Mapping joint infrastructure and business processes is difficult without insider knowledge or SIGINT capability.  While a merger creates and opportunity to exploit potentially cumbersome or sloppy business processes, advance notice of a merger is difficult; merger information is typically close-hold until the deal is done.",
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "organizational-weakness-identification",
+                    "kill_chain_name": "mitre-pre-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

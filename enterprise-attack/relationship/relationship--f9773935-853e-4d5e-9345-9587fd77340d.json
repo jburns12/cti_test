@@ -1,26 +1,30 @@
 {
     "type": "bundle",
-    "id": "bundle--007a1ef0-959d-4f1e-8058-3f4439a8aee4",
+    "id": "bundle--b54871a8-077e-4a49-937b-cb5d234359a1",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--f9773935-853e-4d5e-9345-9587fd77340d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[DustySky](https://attack.mitre.org/software/S0062) scans the victim for files that contain certain keywords from a list that is obtained from the C2 as a text file. It also collects information about installed software.",
+            "source_ref": "malware--687c23e4-4e25-4ee7-a870-c5e002511f54",
+            "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "description": "ClearSky. (2016, January 7). Operation DustySky. Retrieved January 8, 2016.",
                     "source_name": "DustySky"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--687c23e4-4e25-4ee7-a870-c5e002511f54",
-            "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

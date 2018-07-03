@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--db14ed0f-18cf-4dbf-bca7-fbeddab384bf",
+    "id": "bundle--ed337e50-1779-4454-a199-bbad9d637284",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--51aedbd6-2837-4d15-aeb0-cb09f2bf22ac",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-10-25T14:48:16.288Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Abuse of iOS Enterprise App Signing Key",
             "description": "An adversary could abuse an iOS enterprise app signing key (intended for enterprise in-house distribution of apps) to sign malicious iOS apps so that they can be installed on iOS devices without the app needing to be published on Apple's App Store. For example, Xiao describes use of this technique in  (Citation: Xiao-iOS).",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "app-delivery-via-other-means",
-                    "kill_chain_name": "mitre-mobile-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "MOB-T1048",
@@ -40,7 +31,19 @@
             "x_mitre_detection": "iOS 9 and above typically requires explicit user consent before allowing installation of applications signed with enterprise distribution keys rather than installed from Apple's App Store.",
             "x_mitre_platforms": [
                 "iOS"
-            ]
+            ],
+            "x_mitre_tactic_type": [
+                "Pre-Adversary Device Access"
+            ],
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "app-delivery-via-other-means",
+                    "kill_chain_name": "mitre-mobile-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-10-25T14:48:16.288Z"
         }
     ]
 }

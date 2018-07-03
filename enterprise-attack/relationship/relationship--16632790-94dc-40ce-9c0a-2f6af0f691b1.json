@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--81f951bf-2309-4f1b-acdd-d5bf694cc51a",
+    "id": "bundle--594a9bb5-09bf-4ce6-b67b-22cdb18ab46e",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--16632790-94dc-40ce-9c0a-2f6af0f691b1",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Pteranodon](https://attack.mitre.org/software/S0147) can execute commands on the victim.",
+            "source_ref": "malware--5f9f7648-04ba-4a9f-bb4c-2a13e74572bd",
+            "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution/",
@@ -17,11 +20,12 @@
                     "source_name": "Palo Alto Gamaredon Feb 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--5f9f7648-04ba-4a9f-bb4c-2a13e74572bd",
-            "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

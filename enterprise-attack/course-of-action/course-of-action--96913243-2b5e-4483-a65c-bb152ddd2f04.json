@@ -1,14 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--0d1e8030-3a15-4850-bf94-4cb766cefdcc",
+    "id": "bundle--564520cf-df2e-4787-91c2-0a830b66d01d",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "course-of-action",
             "id": "course-of-action--96913243-2b5e-4483-a65c-bb152ddd2f04",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-07-03T13:33:43.876Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "DLL Search Order Hijacking Mitigation",
             "description": "Disallow loading of remote DLLs. (Citation: Microsoft DLL Preloading) This is included by default in Windows Server 2012+ and is available by patch for XP+ and Server 2003+. (Citation: Microsoft DLL Search) Path Algorithm\n\nEnable Safe DLL Search Mode to force search for system DLLs in directories with greater restrictions (e.g. <code>%SYSTEMROOT%</code>)to be used before local directory DLLs (e.g. a user's home directory). The Safe DLL Search Mode can be enabled via Group Policy at Computer Configuration > [Policies] > Administrative Templates > MSS (Legacy): MSS: (SafeDllSearchMode) Enable Safe DLL search mode.  The associated Windows Registry key for this is located at <code>HKLM\\SYSTEM\\CurrentControlSet\\Control\\Session Manager\\SafeDLLSearchMode</code> (Citation: Microsoft DLL Search)\n\nUse auditing tools capable of detecting DLL search order hijacking opportunities on systems within an enterprise and correct them. Toolkits like the PowerSploit framework contain PowerUp modules that can be used to explore systems for DLL hijacking weaknesses. (Citation: Powersploit)\n\nIdentify and block potentially malicious software that may be executed through search order hijacking by using whitelisting (Citation: Beechey 2010) tools like AppLocker (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) that are capable of auditing and/or blocking unknown DLLs.",
             "external_references": [
@@ -47,7 +44,10 @@
                     "description": "Microsoft. (2010, August 12). More information about the DLL Preloading remote attack vector. Retrieved December 5, 2014.",
                     "source_name": "Microsoft DLL Preloading"
                 }
-            ]
+            ],
+            "type": "course-of-action",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-07-03T13:33:43.876Z"
         }
     ]
 }

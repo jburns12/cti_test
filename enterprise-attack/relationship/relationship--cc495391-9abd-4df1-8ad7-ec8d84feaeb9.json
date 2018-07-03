@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--a156eeed-4d23-470a-a76b-06b0ca224b74",
+    "id": "bundle--449c2838-c44d-4a80-be6e-9f6703c8a02b",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--cc495391-9abd-4df1-8ad7-ec8d84feaeb9",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Sowbug](https://attack.mitre.org/group/G0054) listed remote shared drives that were accessible from a victim.",
+            "source_ref": "intrusion-set--d1acfbb3-647b-4723-9154-800ec119006e",
+            "target_ref": "attack-pattern--3489cfc5-640f-4bb3-a103-9137b97de79f",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.symantec.com/connect/blogs/sowbug-cyber-espionage-group-targets-south-american-and-southeast-asian-governments",
@@ -17,11 +20,12 @@
                     "source_name": "Symantec Sowbug Nov 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--d1acfbb3-647b-4723-9154-800ec119006e",
-            "target_ref": "attack-pattern--3489cfc5-640f-4bb3-a103-9137b97de79f"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-01-16T16:13:52.465Z"
         }
     ]
 }

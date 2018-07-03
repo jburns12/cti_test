@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--54f5bc91-4cd1-4558-b13f-c5f044f0b717",
+    "id": "bundle--ea3861e0-4abb-4d0e-8b3e-db052adc09b3",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--99e6295e-741b-4857-b6e5-64989eb039b4",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-10-25T14:48:12.267Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Location Tracking",
             "description": "An adversary could use a malicious or exploited application to surreptitiously track the device's physical location through use of standard operating system APIs.",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "collection",
-                    "kill_chain_name": "mitre-mobile-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "MOB-T1033",
@@ -36,7 +27,19 @@
             "x_mitre_platforms": [
                 "Android",
                 "iOS"
-            ]
+            ],
+            "x_mitre_tactic_type": [
+                "Post-Adversary Device Access"
+            ],
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "collection",
+                    "kill_chain_name": "mitre-mobile-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-10-25T14:48:12.267Z"
         }
     ]
 }

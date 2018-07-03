@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--985a2133-cac2-4f93-86d0-676f7da633ce",
+    "id": "bundle--af003219-8e6a-4063-8973-0f1611b04bc5",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--bf8ae26c-c28c-4de7-a3e2-ad1a2851c1c0",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[CallMe](https://attack.mitre.org/software/S0077) uses AES to encrypt C2 traffic.",
+            "source_ref": "malware--cb7bcf6f-085f-41db-81ee-4b68481661b5",
+            "target_ref": "attack-pattern--4b74a1d4-b0e9-4ef1-93f1-14ecc6e2f5b5",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2016/01/scarlet-mimic-years-long-espionage-targets-minority-activists/",
@@ -17,11 +20,12 @@
                     "source_name": "Scarlet Mimic Jan 2016"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--cb7bcf6f-085f-41db-81ee-4b68481661b5",
-            "target_ref": "attack-pattern--4b74a1d4-b0e9-4ef1-93f1-14ecc6e2f5b5"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

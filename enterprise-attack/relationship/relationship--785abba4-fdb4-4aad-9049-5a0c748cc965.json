@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--080d1d47-9db1-4aa6-a39f-4bc92a89476a",
+    "id": "bundle--900f32fd-e5c3-4ea2-aa54-5d14cc8d5374",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--785abba4-fdb4-4aad-9049-5a0c748cc965",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[XAgentOSX](https://attack.mitre.org/software/S0161) contains the ftpUpload function to use the FTPManager:uploadFile method to upload files from the target system.",
+            "source_ref": "malware--59a97b15-8189-4d51-9404-e1ce8ea4a069",
+            "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit42-xagentosx-sofacys-xagent-macos-tool/",
@@ -17,11 +20,12 @@
                     "source_name": "XAgentOSX"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--59a97b15-8189-4d51-9404-e1ce8ea4a069",
-            "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--b4fcde4e-217a-44a2-98c2-d5794e835863",
+    "id": "bundle--f50cef46-7647-4d91-9234-4e8da81d85f2",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--147d2e66-25de-42ea-8592-eb51333f595c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[BlackEnergy](https://attack.mitre.org/software/S0089) is capable of taking screenshots.",
+            "source_ref": "malware--54cc1d4f-5c53-4f0e-9ef5-11b4998e82e4",
+            "target_ref": "attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://securelist.com/be2-custom-plugins-router-abuse-and-target-profiles/67353/",
@@ -17,11 +20,12 @@
                     "source_name": "Securelist BlackEnergy Nov 2014"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--54cc1d4f-5c53-4f0e-9ef5-11b4998e82e4",
-            "target_ref": "attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

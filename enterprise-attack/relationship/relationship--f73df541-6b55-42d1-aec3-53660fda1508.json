@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--f83d5384-f6f0-4de3-866c-9c43bb7e35b1",
+    "id": "bundle--dbab2761-bf2b-4005-a8e3-3d73ccdbe508",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--f73df541-6b55-42d1-aec3-53660fda1508",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:33:27.080Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Gamaredon Group](https://attack.mitre.org/group/G0047) has used various batch scripts to establish C2, download additional files, and conduct other functions.",
+            "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+            "target_ref": "attack-pattern--7fd87010-3a00-4da3-b905-410525e8ec44",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution/",
@@ -17,11 +20,12 @@
                     "source_name": "Palo Alto Gamaredon Feb 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
-            "target_ref": "attack-pattern--7fd87010-3a00-4da3-b905-410525e8ec44"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:33:27.080Z"
         }
     ]
 }

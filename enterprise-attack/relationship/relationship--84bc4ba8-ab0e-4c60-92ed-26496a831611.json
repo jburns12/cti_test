@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--dea33c88-467d-4c6d-b948-92ca10a4e7d9",
+    "id": "bundle--71398551-d6eb-4eae-9f1b-ce871a3fe47b",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--84bc4ba8-ab0e-4c60-92ed-26496a831611",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "To establish persistence, [Truvasys](https://attack.mitre.org/software/S0178) adds a Registry Run key with a value \"TaskMgr\" in an attempt to masquerade as the legitimate Windows Task Manager.",
+            "source_ref": "malware--691c60e2-273d-4d56-9ce6-b67e0f8719ad",
+            "target_ref": "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?Name=Backdoor:Win32/Truvasys.A!dha",
@@ -17,11 +20,12 @@
                     "source_name": "Microsoft Win Defender Truvasys Sep 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--691c60e2-273d-4d56-9ce6-b67e0f8719ad",
-            "target_ref": "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-01-16T16:13:52.465Z"
         }
     ]
 }

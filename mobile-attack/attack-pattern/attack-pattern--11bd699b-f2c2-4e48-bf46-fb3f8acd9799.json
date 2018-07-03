@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--1f6da296-777e-400a-86ed-1671e711b21f",
+    "id": "bundle--1ed89ea4-99c8-4f13-a1fc-07f66793d0ca",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--11bd699b-f2c2-4e48-bf46-fb3f8acd9799",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-10-25T14:48:30.462Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Insecure Third-Party Libraries",
             "description": "Third-party libraries incorporated into mobile apps could contain malicious behavior, privacy-invasive behavior, or exploitable vulnerabilities. An adversary could deliberately insert malicious behavior or could exploit inadvertent vulnerabilities.\n\nFor example, Ryan Welton of NowSecure identified exploitable remote code execution vulnerabilities in a third-party advertisement library (Citation: NowSecure-RemoteCode). Grace et al. identified security issues in mobile advertisement libraries (Citation: Grace-Advertisement).",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "supply-chain",
-                    "kill_chain_name": "mitre-mobile-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "MOB-T1028",
@@ -45,7 +36,19 @@
             "x_mitre_platforms": [
                 "Android",
                 "iOS"
-            ]
+            ],
+            "x_mitre_tactic_type": [
+                "Pre-Adversary Device Access"
+            ],
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "supply-chain",
+                    "kill_chain_name": "mitre-mobile-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-10-25T14:48:30.462Z"
         }
     ]
 }

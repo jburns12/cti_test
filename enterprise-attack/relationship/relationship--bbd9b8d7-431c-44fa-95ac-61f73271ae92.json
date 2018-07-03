@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--d55db83d-1065-4711-bea5-e56ac28763ad",
+    "id": "bundle--07f0967e-4aa7-42ab-bc85-e4dc6a6ca8df",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--bbd9b8d7-431c-44fa-95ac-61f73271ae92",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[BlackEnergy](https://attack.mitre.org/software/S0089) has run a keylogger plug-in on a victim.",
+            "source_ref": "malware--54cc1d4f-5c53-4f0e-9ef5-11b4998e82e4",
+            "target_ref": "attack-pattern--bb5a00de-e086-4859-a231-fa793f6797e2",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://securelist.com/be2-custom-plugins-router-abuse-and-target-profiles/67353/",
@@ -17,11 +20,12 @@
                     "source_name": "Securelist BlackEnergy Nov 2014"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--54cc1d4f-5c53-4f0e-9ef5-11b4998e82e4",
-            "target_ref": "attack-pattern--bb5a00de-e086-4859-a231-fa793f6797e2"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--2788face-88f1-421b-b4eb-224ccace246a",
+    "id": "bundle--398253e5-f6e7-4443-938f-a1972aca55bc",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--128eb6e8-d1a7-4ff6-85e6-a68cfea3298e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[SLOWDRIFT](https://attack.mitre.org/software/S0218) collects and sends system information to its C2.",
+            "source_ref": "malware--414dc555-c79e-4b24-a2da-9b607f7eaf16",
+            "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt%20APT37.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "FireEye APT37 Feb 2018"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--414dc555-c79e-4b24-a2da-9b607f7eaf16",
-            "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

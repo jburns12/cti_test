@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--c203b5ea-98f3-4a29-b18a-519e56711009",
+    "id": "bundle--cfedbac6-303c-4d78-88e4-0be0ba221ca0",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--f19f6e41-14b2-44a1-940f-6a6f2cfab6be",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[LOWBALL](https://attack.mitre.org/software/S0042) command and control occurs via HTTPS over port 443.",
+            "source_ref": "malware--2a6f4c7b-e690-4cc7-ab6b-1f821fb6b80b",
+            "target_ref": "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2015/11/china-based-threat.html",
@@ -17,11 +20,12 @@
                     "source_name": "FireEye admin@338"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--2a6f4c7b-e690-4cc7-ab6b-1f821fb6b80b",
-            "target_ref": "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

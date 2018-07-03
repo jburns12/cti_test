@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--f772cd6b-621b-486e-b3e4-afea9071fae3",
+    "id": "bundle--c5675ba5-e0ca-4210-8b62-cb5fc17a2c5d",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--2325c0b2-fb89-44e1-9206-e495811f2907",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:33:27.066Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Lazarus Group](https://attack.mitre.org/group/G0032) malware WhiskeyDelta-Two contains a function that attempts to rename the administrator\u2019s account.",
+            "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
+            "target_ref": "attack-pattern--a10641f4-87b4-45a3-a906-92a149cb2c27",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Report.pdf",
@@ -22,11 +25,12 @@
                     "source_name": "Novetta Blockbuster Destructive Malware"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
-            "target_ref": "attack-pattern--a10641f4-87b4-45a3-a906-92a149cb2c27"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:33:27.066Z"
         }
     ]
 }

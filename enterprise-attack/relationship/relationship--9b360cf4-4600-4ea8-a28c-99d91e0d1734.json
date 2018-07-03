@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--c102c285-27a1-4087-8161-cbae54fa9df0",
+    "id": "bundle--e2f0e370-c418-45e9-8c76-108344a96463",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--9b360cf4-4600-4ea8-a28c-99d91e0d1734",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:33:27.075Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Suckfly](https://attack.mitre.org/group/G0039) the victim's internal network for hosts with ports 8080, 5900, and 40 open.",
+            "source_ref": "intrusion-set--5cbe0d3b-6fb1-471f-b591-4b192915116d",
+            "target_ref": "attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://www.symantec.com/connect/blogs/indian-organizations-targeted-suckfly-attacks",
@@ -17,11 +20,12 @@
                     "source_name": "Symantec Suckfly May 2016"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--5cbe0d3b-6fb1-471f-b591-4b192915116d",
-            "target_ref": "attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:33:27.075Z"
         }
     ]
 }

@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--0f77852b-9a97-470a-b207-0fd2ed0729d7",
+    "id": "bundle--b1f699ec-2262-45ca-b637-8fd51d1b01b0",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--e30cc912-7ea1-4683-9219-543b86cbdec9",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-10-25T14:48:28.786Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Fake Developer Accounts",
             "description": "An adversary could use fake identities, payment cards, etc., to create developer accounts to publish malicious applications to app stores. For example, Oberheide and Miller describe use of this technique in  (Citation: Oberheide-Bouncer).",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "app-delivery-via-authorized-app-store",
-                    "kill_chain_name": "mitre-mobile-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "MOB-T1045",
@@ -35,7 +26,19 @@
             "x_mitre_platforms": [
                 "Android",
                 "iOS"
-            ]
+            ],
+            "x_mitre_tactic_type": [
+                "Pre-Adversary Device Access"
+            ],
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "app-delivery-via-authorized-app-store",
+                    "kill_chain_name": "mitre-mobile-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-10-25T14:48:28.786Z"
         }
     ]
 }

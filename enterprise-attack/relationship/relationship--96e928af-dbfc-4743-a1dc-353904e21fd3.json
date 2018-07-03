@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--bca1ecd1-351e-4ad9-a24a-6c16093007ad",
+    "id": "bundle--10fc5377-6671-406e-bba6-9a0e727d4483",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--96e928af-dbfc-4743-a1dc-353904e21fd3",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Prikormka](https://attack.mitre.org/software/S0113) contains a module that collects documents with certain extensions from removable media or fixed drives connected via USB.",
+            "source_ref": "malware--37cc7eb6-12e3-467b-82e8-f20f2cc73c69",
+            "target_ref": "attack-pattern--1b7ba276-eedc-4951-a762-0ceea2c030ec",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://www.welivesecurity.com/wp-content/uploads/2016/05/Operation-Groundbait.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "ESET Operation Groundbait"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--37cc7eb6-12e3-467b-82e8-f20f2cc73c69",
-            "target_ref": "attack-pattern--1b7ba276-eedc-4951-a762-0ceea2c030ec"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

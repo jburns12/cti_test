@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--5ce014d7-eb74-40ef-94f4-22fa663f1f6c",
+    "id": "bundle--1c07725e-6b16-4082-9126-9dbefaba3c7c",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--18d3f4c7-2888-4d27-9ac7-b7ade1a1c04c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T14:44:41.004Z",
+            "relationship_type": "uses",
             "description": "[Adups](https://attack.mitre.org/software/MOB-S0025) reportedly \"transmitted the full contents of text messages\".",
+            "source_ref": "malware--f6ac21b6-2592-400c-8472-10d0e2f1bfaf",
+            "target_ref": "attack-pattern--e8b4e1ec-8e3b-484c-9038-4459b1ed8060",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.nytimes.com/2016/11/16/us/politics/china-phones-software-security.html",
@@ -17,11 +20,12 @@
                     "source_name": "NYTimes-BackDoor"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "2f669986-b40b-4423-b720-4396ca6a462b"
             ],
-            "source_ref": "malware--f6ac21b6-2592-400c-8472-10d0e2f1bfaf",
-            "target_ref": "attack-pattern--e8b4e1ec-8e3b-484c-9038-4459b1ed8060"
+            "type": "relationship",
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

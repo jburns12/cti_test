@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--e48a883a-e120-455a-9cc6-7b7e803d22eb",
+    "id": "bundle--cd9bf889-9874-496f-956d-7b49f590351a",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--e2ee6825-43c2-441f-ba96-404a330a9059",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T14:44:41.004Z",
+            "relationship_type": "uses",
             "description": "[Charger](https://attack.mitre.org/software/MOB-S0039) \"steals contacts...from the user's device\".",
+            "source_ref": "malware--d1c600f8-0fb6-4367-921b-85b71947d950",
+            "target_ref": "attack-pattern--4e6620ac-c30c-4f6d-918e-fa20cae7c1ce",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://blog.checkpoint.com/2017/01/24/charger-malware/",
@@ -17,11 +20,12 @@
                     "source_name": "CheckPoint-Charger"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "2f669986-b40b-4423-b720-4396ca6a462b"
             ],
-            "source_ref": "malware--d1c600f8-0fb6-4367-921b-85b71947d950",
-            "target_ref": "attack-pattern--4e6620ac-c30c-4f6d-918e-fa20cae7c1ce"
+            "type": "relationship",
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

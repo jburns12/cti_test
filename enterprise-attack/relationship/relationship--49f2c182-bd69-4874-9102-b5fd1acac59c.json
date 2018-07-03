@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--db64b875-2bcc-49f4-9a86-dedcb3a6bbf1",
+    "id": "bundle--d982375e-4dc0-4ee0-8064-f62fd7996124",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--49f2c182-bd69-4874-9102-b5fd1acac59c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:33:27.033Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Ke3chang](https://attack.mitre.org/group/G0004) transferred compressed and encrypted RAR files containing exfiltration through the established backdoor command and control channel during operations.",
+            "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+            "target_ref": "attack-pattern--92d7da27-2d91-488e-a00c-059dc162766d",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-ke3chang.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "Villeneuve et al 2014"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
-            "target_ref": "attack-pattern--92d7da27-2d91-488e-a00c-059dc162766d"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:33:27.033Z"
         }
     ]
 }

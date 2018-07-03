@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--cab367da-33b3-48ff-8931-543dd7e68c28",
+    "id": "bundle--3db067be-5159-4711-b4ce-90b79748bbc0",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--c8c5b766-a719-43bd-988a-cb00beedbba3",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:33:27.062Z",
-            "modified": "2018-07-03T15:59:24.890Z",
+            "relationship_type": "uses",
             "description": "[Threat Group-3390](https://attack.mitre.org/wiki/Group/G0027) actors have encrypted data for exfiltration using the password \"admin-windows2014\" (with the year corresponding to the year of the intrusion).",
+            "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
+            "target_ref": "attack-pattern--d54416bd-0803-41ca-870a-ce1af7c05638",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "source_name": "Dell TG-3390",
@@ -17,11 +20,12 @@
                     "url": "http://www.secureworks.com/cyber-threat-intelligence/threats/threat-group-3390-targets-organizations-for-cyberespionage/"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
-            "target_ref": "attack-pattern--d54416bd-0803-41ca-870a-ce1af7c05638"
+            "type": "relationship",
+            "modified": "2018-07-03T15:59:24.890Z",
+            "created": "2017-05-31T21:33:27.062Z",
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
+            ]
         }
     ]
 }

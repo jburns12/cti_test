@@ -1,14 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--293bdcdb-f239-4785-865f-c362b37e6ed4",
+    "id": "bundle--0a96038d-2b7d-4122-90bb-bb6e8cc3847f",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "course-of-action",
             "id": "course-of-action--57019a80-8523-46b6-be7d-f763a15a2cc6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-07-03T13:33:43.876Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Scripting Mitigation",
             "description": "Turn off unused features or restrict access to scripting engines such as VBScript or scriptable administration frameworks such as PowerShell.\n\nConfigure Office security settings enable Protected View, to execute within a sandbox environment, and to block macros through Group Policy. (Citation: Microsoft Block Office Macros) Other types of virtualization and application microsegmentation may also mitigate the impact of compromise. The risks of additional exploits and weaknesses in implementation may still exist. (Citation: Ars Technica Pwn2Own 2017 VM Escape)",
             "external_references": [
@@ -27,7 +24,10 @@
                     "description": "Goodin, D. (2017, March 17). Virtual machine escape fetches $105,000 at Pwn2Own hacking contest - updated. Retrieved March 12, 2018.",
                     "source_name": "Ars Technica Pwn2Own 2017 VM Escape"
                 }
-            ]
+            ],
+            "type": "course-of-action",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-07-03T13:33:43.876Z"
         }
     ]
 }

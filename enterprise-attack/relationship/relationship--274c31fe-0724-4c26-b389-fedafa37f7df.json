@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--01e3d5a2-f603-45fb-9c66-796804362354",
+    "id": "bundle--9daf5d8f-2687-4b42-be5d-8d70b5a30876",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--274c31fe-0724-4c26-b389-fedafa37f7df",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[POWERSTATS](https://attack.mitre.org/software/S0223) can disable Microsoft Office Protected View by changing Registry keys.",
+            "source_ref": "malware--e8545794-b98c-492b-a5b3-4b5a02682e37",
+            "target_ref": "attack-pattern--2e0dd10b-676d-4964-acd0-8a404c92b044",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2018/03/iranian-threat-group-updates-ttps-in-spear-phishing-campaign.html",
@@ -17,11 +20,12 @@
                     "source_name": "FireEye MuddyWater Mar 2018"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--e8545794-b98c-492b-a5b3-4b5a02682e37",
-            "target_ref": "attack-pattern--2e0dd10b-676d-4964-acd0-8a404c92b044"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

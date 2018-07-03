@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--5b2c8af0-1650-4395-a079-f720db64b5ec",
+    "id": "bundle--e21e9ef9-58b4-43c4-a85e-8cce7f1e548b",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--5bb94c21-96c6-4c71-ae46-b222a69a493a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[NETEAGLE](https://attack.mitre.org/software/S0034) allows adversaries to enumerate and modify the infected host's file system. It supports searching for directories, creating directories, listing directory contents, reading and writing to files, retrieving file attributes, and retrieving volume information.",
+            "source_ref": "malware--53cf6cc4-65aa-445a-bcf8-c3d296f8a7a2",
+            "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "FireEye APT30"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--53cf6cc4-65aa-445a-bcf8-c3d296f8a7a2",
-            "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

@@ -1,14 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--76a17b90-2389-4dae-8e96-2c945089d623",
+    "id": "bundle--31c5a512-c744-4288-8faf-75e477e2af43",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "course-of-action",
             "id": "course-of-action--06824aa2-94a5-474c-97f6-57c2e983d885",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-07-03T13:33:43.876Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Login Item Mitigation",
             "description": "Restrict users from being able to create their own login items. Additionally, holding the shift key during login prevents apps from opening automatically (Citation: Re-Open windows on Mac).",
             "external_references": [
@@ -22,7 +19,10 @@
                     "description": "Apple. (2016, December 6). Automatically re-open windows, apps, and documents on your Mac. Retrieved July 11, 2017.",
                     "source_name": "Re-Open windows on Mac"
                 }
-            ]
+            ],
+            "type": "course-of-action",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-07-03T13:33:43.876Z"
         }
     ]
 }

@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--1fb1adf9-200f-463d-a92c-8bdda7909297",
+    "id": "bundle--2c66d6d1-8ca3-44ef-aeaf-600851fe61ef",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--87b8b451-bf9b-4e93-b591-05ef502970f5",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Magic Hound](https://attack.mitre.org/group/G0059) malware can list a victim's logical drives and the type, as well the total/free space of the fixed devices. Other malware can list a directory's contents.",
+            "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+            "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit42-magic-hound-campaign-attacks-saudi-targets/",
@@ -17,11 +20,12 @@
                     "source_name": "Unit 42 Magic Hound Feb 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
-            "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-01-16T16:13:52.465Z"
         }
     ]
 }

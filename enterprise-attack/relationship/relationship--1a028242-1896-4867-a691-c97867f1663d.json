@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--61b711da-4114-458a-a7a0-95649166f760",
+    "id": "bundle--a1e994b3-14a3-43c5-8338-e7c82879f2a3",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--1a028242-1896-4867-a691-c97867f1663d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Elise](https://attack.mitre.org/software/S0081) encrypts exfiltrated data with RC4.",
+            "source_ref": "malware--7551188b-8f91-4d34-8350-0d0c57b2b913",
+            "target_ref": "attack-pattern--4b74a1d4-b0e9-4ef1-93f1-14ecc6e2f5b5",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.paloaltonetworks.com/resources/research/unit42-operation-lotus-blossom.html",
@@ -17,11 +20,12 @@
                     "source_name": "Lotus Blossom Jun 2015"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--7551188b-8f91-4d34-8350-0d0c57b2b913",
-            "target_ref": "attack-pattern--4b74a1d4-b0e9-4ef1-93f1-14ecc6e2f5b5"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

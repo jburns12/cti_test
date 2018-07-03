@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--2452b809-beca-4532-964d-f46735fc6db7",
+    "id": "bundle--a9cc088f-bb59-431f-b5b4-3967a35947c6",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--6874b50a-10e8-4036-bb2d-aabab35ec75b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "A [gh0st](https://attack.mitre.org/software/S0032) variant has used DLL side-loading.",
+            "source_ref": "malware--88c621a7-aef9-4ae0-94e3-1fc87123eb24",
+            "target_ref": "attack-pattern--b2001907-166b-4d71-bb3c-9d26c871de09",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.arbornetworks.com/blog/asert/musical-chairs-playing-tetris/",
@@ -17,11 +20,12 @@
                     "source_name": "Arbor Musical Chairs Feb 2018"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--88c621a7-aef9-4ae0-94e3-1fc87123eb24",
-            "target_ref": "attack-pattern--b2001907-166b-4d71-bb3c-9d26c871de09"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

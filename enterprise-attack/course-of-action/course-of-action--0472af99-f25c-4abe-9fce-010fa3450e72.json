@@ -1,14 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--de560b57-b48e-4e18-92d3-dbbd8a6ce872",
+    "id": "bundle--849c4b86-0883-4e1d-9691-bf7c6e89fcb6",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "course-of-action",
             "id": "course-of-action--0472af99-f25c-4abe-9fce-010fa3450e72",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-07-03T13:33:43.876Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Credentials in Files Mitigation",
             "description": "Establish an organizational policy that prohibits password storage in files. Ensure that developers and system administrators are aware of the risk associated with having plaintext passwords in software configuration files that may be left on endpoint systems or servers. Preemptively search for files containing passwords and remove when found. Restrict file shares to specific directories with access only to necessary users. Remove vulnerable Group Policy Preferences. (Citation: Microsoft MS14-025)",
             "external_references": [
@@ -22,7 +19,10 @@
                     "description": "Microsoft. (2014, May 13). MS14-025: Vulnerability in Group Policy Preferences could allow elevation of privilege. Retrieved January 28, 2015.",
                     "source_name": "Microsoft MS14-025"
                 }
-            ]
+            ],
+            "type": "course-of-action",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-07-03T13:33:43.876Z"
         }
     ]
 }

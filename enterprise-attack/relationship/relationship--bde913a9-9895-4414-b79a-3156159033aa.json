@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--a14d5ee9-b4b5-40d1-8be5-09e602fd35b2",
+    "id": "bundle--e4e2abec-b8f7-41db-aa04-8a242359f70c",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--bde913a9-9895-4414-b79a-3156159033aa",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:33:27.033Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Ke3chang](https://attack.mitre.org/group/G0004) is known to use RAR with passwords to encrypt data prior to exfiltration.",
+            "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+            "target_ref": "attack-pattern--d54416bd-0803-41ca-870a-ce1af7c05638",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-ke3chang.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "Villeneuve et al 2014"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
-            "target_ref": "attack-pattern--d54416bd-0803-41ca-870a-ce1af7c05638"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:33:27.033Z"
         }
     ]
 }

@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--63b45296-af47-4407-8cf1-6101b7413399",
+    "id": "bundle--75796285-ac47-42a7-9f84-f4d931ebbd75",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--47109a67-e1af-4f5c-8c58-c1580ff5c6ec",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Regin](https://attack.mitre.org/software/S0019) stage 1 modules for 64-bit systems have been found to be signed with fake certificates masquerading as originating from Microsoft Corporation and Broadcom Corporation.",
+            "source_ref": "malware--4c59cce8-cb48-4141-b9f1-f646edfaadb0",
+            "target_ref": "attack-pattern--1b84d551-6de8-4b96-9930-d177677c3b1d",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://securelist.com/files/2014/11/Kaspersky%20Lab%20whitepaper%20Regin%20platform%20eng.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "Kaspersky Regin"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--4c59cce8-cb48-4141-b9f1-f646edfaadb0",
-            "target_ref": "attack-pattern--1b84d551-6de8-4b96-9930-d177677c3b1d"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

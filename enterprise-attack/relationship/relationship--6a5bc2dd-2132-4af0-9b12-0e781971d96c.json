@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--18694b7b-b1c0-48ea-8e55-f5150f4b7a18",
+    "id": "bundle--111d0aaf-e0dc-44d6-833c-ea8270a78b22",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--6a5bc2dd-2132-4af0-9b12-0e781971d96c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:33:27.076Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Patchwork](https://attack.mitre.org/group/G0040) scanned the \u201cProgram Files\u201d directories for a directory with the string \u201cTotal Security\u201d (the installation path of the \u201c360 Total Security\u201d antivirus tool).",
+            "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
+            "target_ref": "attack-pattern--241814ae-de3f-4656-b49e-f9a80764d4b7",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://s3-us-west-2.amazonaws.com/cymmetria-blog/public/Unveiling%20Patchwork.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "Cymmetria Patchwork"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
-            "target_ref": "attack-pattern--241814ae-de3f-4656-b49e-f9a80764d4b7"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:33:27.076Z"
         }
     ]
 }

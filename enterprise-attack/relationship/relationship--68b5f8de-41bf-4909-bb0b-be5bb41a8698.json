@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--1e4040f4-9aac-48d8-97d1-73c20bc77a25",
+    "id": "bundle--17e3f979-f911-4bb6-8ec8-b39f3ff0c3e8",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--68b5f8de-41bf-4909-bb0b-be5bb41a8698",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Naid](https://attack.mitre.org/software/S0205) connects to external C2 infrastructure over port 443.",
+            "source_ref": "malware--48523614-309e-43bf-a2b8-705c2b45d7b2",
+            "target_ref": "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.symantec.com/security%20response/writeup.jsp?docid=2012-061518-4639-99",
@@ -17,11 +20,12 @@
                     "source_name": "Symantec Naid June 2012"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--48523614-309e-43bf-a2b8-705c2b45d7b2",
-            "target_ref": "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

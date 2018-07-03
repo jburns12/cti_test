@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--8b359879-d724-496e-b7da-bc6126d92693",
+    "id": "bundle--c477fd8f-9434-4ce8-9891-f42bc7d5c401",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--c56de8bc-ad9e-415a-8840-ae294ed4f88a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Power Loader](https://attack.mitre.org/software/S0177) overwrites Explorer\u2019s Shell_TrayWnd extra window memory to redirect execution to a NTDLL function that is abused to assemble and execute a return-oriented programming (ROP) chain and create a malicious thread within Explorer.exe.",
+            "source_ref": "malware--0a9c51e0-825d-4b9b-969d-ce86ed8ce3c3",
+            "target_ref": "attack-pattern--52f3d5a6-8a0f-4f82-977e-750abf90d0b0",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.malwaretech.com/2013/08/powerloader-injection-something-truly.html",
@@ -22,11 +25,12 @@
                     "source_name": "WeLiveSecurity Gapz and Redyms Mar 2013"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--0a9c51e0-825d-4b9b-969d-ce86ed8ce3c3",
-            "target_ref": "attack-pattern--52f3d5a6-8a0f-4f82-977e-750abf90d0b0"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-01-16T16:13:52.465Z"
         }
     ]
 }

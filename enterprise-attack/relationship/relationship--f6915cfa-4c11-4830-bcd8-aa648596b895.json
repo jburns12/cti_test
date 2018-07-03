@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--8c89a4c3-7c69-44a9-ac65-7f7f2d7a1d41",
+    "id": "bundle--9e169010-03ca-48b9-8287-70eb222ffc71",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--f6915cfa-4c11-4830-bcd8-aa648596b895",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[CopyKittens](https://attack.mitre.org/group/G0052) digitally signed an executable with a stolen certificate from legitimate company AI Squared.",
+            "source_ref": "intrusion-set--dcd81c6e-ebf7-4a16-93e0-9a97fa49c88a",
+            "target_ref": "attack-pattern--1b84d551-6de8-4b96-9930-d177677c3b1d",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://www.clearskysec.com/wp-content/uploads/2017/07/Operation%20Wilted%20Tulip.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "ClearSky Wilted Tulip July 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--dcd81c6e-ebf7-4a16-93e0-9a97fa49c88a",
-            "target_ref": "attack-pattern--1b84d551-6de8-4b96-9930-d177677c3b1d"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-01-16T16:13:52.465Z"
         }
     ]
 }

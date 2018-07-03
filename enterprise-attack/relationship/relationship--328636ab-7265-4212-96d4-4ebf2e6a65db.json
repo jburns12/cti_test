@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--b6cda752-91bc-4569-ac14-4dcd0e4e70a9",
+    "id": "bundle--798a95e1-2bc2-4124-a301-5fa9384ba9d7",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--328636ab-7265-4212-96d4-4ebf2e6a65db",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Pupy](https://attack.mitre.org/software/S0192) has a module for loading and executing PowerShell scripts.",
+            "source_ref": "tool--cb69b20d-56d0-41ab-8440-4a4b251614d4",
+            "target_ref": "attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://github.com/n1nj4sec/pupy",
@@ -17,11 +20,12 @@
                     "source_name": "GitHub Pupy"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "tool--cb69b20d-56d0-41ab-8440-4a4b251614d4",
-            "target_ref": "attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

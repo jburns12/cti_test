@@ -1,26 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--fa6e48e0-44fe-4a7a-8260-230a51cff750",
+    "id": "bundle--1882a78c-3643-4b82-a06f-ac0c5a8199d1",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--b3c2e5de-0941-4b57-ba61-af029eb5517a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-10-25T14:48:27.307Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Alternate Network Mediums",
             "description": "Adversaries can communicate using cellular networks rather than enterprise Wi-Fi in order to bypass enterprise network monitoring systems. Adversaries may also communicate using other non-Internet Protocol mediums such as SMS, NFC, or Bluetooth to bypass network monitoring systems.",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "command-and-control",
-                    "kill_chain_name": "mitre-mobile-attack"
-                },
-                {
-                    "phase_name": "exfiltration",
-                    "kill_chain_name": "mitre-mobile-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "MOB-T1041",
@@ -39,7 +26,23 @@
             "x_mitre_platforms": [
                 "Android",
                 "iOS"
-            ]
+            ],
+            "x_mitre_tactic_type": [
+                "Post-Adversary Device Access"
+            ],
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "command-and-control",
+                    "kill_chain_name": "mitre-mobile-attack"
+                },
+                {
+                    "phase_name": "exfiltration",
+                    "kill_chain_name": "mitre-mobile-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-10-25T14:48:27.307Z"
         }
     ]
 }

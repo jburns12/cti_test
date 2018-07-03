@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--55d8f547-638c-4833-a7ea-07cdeed4e14a",
+    "id": "bundle--813944f4-e741-4caf-bfd6-34439756bff1",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--09266cb7-26b3-4959-bcff-a91e309b5588",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Helminth](https://attack.mitre.org/software/S0170) has used a scheduled task for persistence.",
+            "source_ref": "malware--eff1a885-6f90-42a1-901f-eef6e7a1905e",
+            "target_ref": "attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://www.clearskysec.com/oilrig/",
@@ -17,11 +20,12 @@
                     "source_name": "ClearSky OilRig Jan 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--eff1a885-6f90-42a1-901f-eef6e7a1905e",
-            "target_ref": "attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-01-16T16:13:52.465Z"
         }
     ]
 }

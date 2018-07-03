@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--106733f8-6d6c-4e74-bb61-76372ae01716",
+    "id": "bundle--ddac9fa5-15ff-4c75-91a0-e0dafee60694",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--953134ab-5816-43b8-b2b1-8f4c9305f57a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Sowbug](https://attack.mitre.org/group/G0054) extracted documents and bundled them into a RAR archive.",
+            "source_ref": "intrusion-set--d1acfbb3-647b-4723-9154-800ec119006e",
+            "target_ref": "attack-pattern--b9f5dbe2-4c55-4fc5-af2e-d42c1d182ec4",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.symantec.com/connect/blogs/sowbug-cyber-espionage-group-targets-south-american-and-southeast-asian-governments",
@@ -17,11 +20,12 @@
                     "source_name": "Symantec Sowbug Nov 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--d1acfbb3-647b-4723-9154-800ec119006e",
-            "target_ref": "attack-pattern--b9f5dbe2-4c55-4fc5-af2e-d42c1d182ec4"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-01-16T16:13:52.465Z"
         }
     ]
 }

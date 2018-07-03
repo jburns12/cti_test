@@ -1,26 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--758b6213-88c8-41f9-8509-548f3f170194",
+    "id": "bundle--f5f466de-5c2d-494a-b69d-c18a94a42301",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--a93ccb8f-3996-42e2-b7c7-bb599d4e205f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-10-25T14:48:35.247Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Repackaged Application",
             "description": "An adversary could download a legitimate app, disassemble it, add malicious code, and then reassemble the app, for example as described by  (Citation: Zhou) and Jiang in  (Citation: Zhou). The app would appear to be the original app but contain additional malicious functionality. The adversary could then publish this app to app stores or use another delivery technique.",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "app-delivery-via-authorized-app-store",
-                    "kill_chain_name": "mitre-mobile-attack"
-                },
-                {
-                    "phase_name": "app-delivery-via-other-means",
-                    "kill_chain_name": "mitre-mobile-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "MOB-T1047",
@@ -45,7 +32,23 @@
             "x_mitre_platforms": [
                 "Android",
                 "iOS"
-            ]
+            ],
+            "x_mitre_tactic_type": [
+                "Pre-Adversary Device Access"
+            ],
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "app-delivery-via-authorized-app-store",
+                    "kill_chain_name": "mitre-mobile-attack"
+                },
+                {
+                    "phase_name": "app-delivery-via-other-means",
+                    "kill_chain_name": "mitre-mobile-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-10-25T14:48:35.247Z"
         }
     ]
 }

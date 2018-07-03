@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--5b0dbe1f-f746-4e91-8834-881ddc6aa7fa",
+    "id": "bundle--c45cab55-c152-4978-823e-2dce8a0550e4",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--62adb627-f647-498e-b4cc-41499361bacb",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-10-25T14:48:20.727Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Access Calendar Entries",
             "description": "An adversary could call standard operating system APIs from a malicious application to gather calendar entry data, or with escalated privileges could directly access files containing calendar data.",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "collection",
-                    "kill_chain_name": "mitre-mobile-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "MOB-T1038",
@@ -36,7 +27,19 @@
             "x_mitre_platforms": [
                 "Android",
                 "iOS"
-            ]
+            ],
+            "x_mitre_tactic_type": [
+                "Post-Adversary Device Access"
+            ],
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "collection",
+                    "kill_chain_name": "mitre-mobile-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-10-25T14:48:20.727Z"
         }
     ]
 }

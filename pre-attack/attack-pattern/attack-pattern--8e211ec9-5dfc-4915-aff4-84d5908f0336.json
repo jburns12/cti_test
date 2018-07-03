@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--734a18cb-4253-4d10-95ec-e7ec8f16c4b5",
+    "id": "bundle--5d54e25f-6967-497f-b7a9-ed496ec3311e",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--8e211ec9-5dfc-4915-aff4-84d5908f0336",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "C2 protocol development",
             "description": "Command and Control (C2 or C&C) is a method by which the adversary communicates with malware. An adversary may use a variety of protocols and methods to execute C2 such as a centralized server, peer to peer, IRC, compromised web sites, or even social media. (Citation: HAMMERTOSS2015)",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "build-capabilities",
-                    "kill_chain_name": "mitre-pre-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "PRE-T1129",
@@ -30,7 +21,20 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detectable_by_common_defenses": "No",
+            "x_mitre_detectable_by_common_defenses_explanation": "Adversary will likely use code repositories, but development will be performed on their local systems.",
+            "x_mitre_difficulty_for_adversary": "Yes",
+            "x_mitre_difficulty_for_adversary_explanation": "C2 over commonly used and permitted protocols provides the necessary cover and access.",
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "build-capabilities",
+                    "kill_chain_name": "mitre-pre-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

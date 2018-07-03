@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--415c501e-8d66-46f3-93e2-bd305fece0cb",
+    "id": "bundle--67c8a8ef-c71c-4631-babc-a4f6a50189e0",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--5a1876a1-144f-4416-b9bf-6df819613962",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[PUNCHBUGGY](https://attack.mitre.org/software/S0196) mimics filenames from %SYSTEM%\\System32 to hide DLLs in %WINDIR% and/or %TEMP%.",
+            "source_ref": "malware--5c6ed2dc-37f4-40ea-b2e1-4c76140a388c",
+            "target_ref": "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www2.fireeye.com/WBNR-Know-Your-Enemy-UNC622-Spear-Phishing.html",
@@ -17,11 +20,12 @@
                     "source_name": "FireEye Know Your Enemy FIN8 Aug 2016"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--5c6ed2dc-37f4-40ea-b2e1-4c76140a388c",
-            "target_ref": "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

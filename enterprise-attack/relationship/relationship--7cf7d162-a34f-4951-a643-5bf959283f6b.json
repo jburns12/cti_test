@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--659152fb-9845-4061-91bc-949fc4e6ecca",
+    "id": "bundle--4b3ed43b-d213-4611-b3fc-ed62c7a4e60e",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--7cf7d162-a34f-4951-a643-5bf959283f6b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Trojan.Karagany](https://attack.mitre.org/software/S0094) can create a directory (<code>C:\\ProgramData\\Mail\\MailAg\\gl</code>) to use as a temporary directory for uploading files.",
+            "source_ref": "malware--82cb34ba-02b5-432b-b2d2-07f55cbf674d",
+            "target_ref": "attack-pattern--7dd95ff6-712e-4056-9626-312ea4ab4c5e",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://www.symantec.com/content/en/us/enterprise/media/security%20response/whitepapers/Dragonfly%20Threat%20Against%20Western%20Energy%20Suppliers.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "Symantec Dragonfly"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--82cb34ba-02b5-432b-b2d2-07f55cbf674d",
-            "target_ref": "attack-pattern--7dd95ff6-712e-4056-9626-312ea4ab4c5e"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

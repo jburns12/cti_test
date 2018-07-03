@@ -1,22 +1,16 @@
 {
     "type": "bundle",
-    "id": "bundle--af7c278d-2013-4487-87c8-ba8a68ee66ce",
+    "id": "bundle--b1c22696-cd6a-4beb-924f-5668dcee9714",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "intrusion-set",
             "id": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:32:09.054Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "menuPass",
             "description": "[menuPass](https://attack.mitre.org/group/G0045) is a threat group that appears to originate from China and has been active since approximately 2009. The group has targeted healthcare, defense, aerospace, and government sectors, and has targeted Japanese victims since at least 2014. In 2016 and 2017, the group targeted managed IT service providers, manufacturing and mining companies, and a university. (Citation: Palo Alto menuPass Feb 2017) (Citation: Crowdstrike CrowdCast Oct 2013) (Citation: FireEye Poison Ivy) (Citation: PWC Cloud Hopper April 2017) (Citation: FireEye APT10 April 2017)",
-            "aliases": [
-                "menuPass",
-                "Stone Panda",
-                "APT10",
-                "Red Apollo",
-                "CVNX"
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
@@ -70,9 +64,15 @@
                     "source_name": "FireEye APT10 April 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            "aliases": [
+                "menuPass",
+                "Stone Panda",
+                "APT10",
+                "Red Apollo",
+                "CVNX"
+            ],
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:32:09.054Z"
         }
     ]
 }

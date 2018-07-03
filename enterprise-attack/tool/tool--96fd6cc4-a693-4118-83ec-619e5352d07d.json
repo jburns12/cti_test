@@ -1,19 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--cabbae6c-dfca-4ad5-9648-3b78b0cbda10",
+    "id": "bundle--f5d546f9-4640-4323-9ad4-6d221ae698e8",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "tool",
             "id": "tool--96fd6cc4-a693-4118-83ec-619e5352d07d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Winexe",
             "description": "is a lightweight, open source tool similar to [PsExec](https://attack.mitre.org/software/S0029) designed to allow system administrators to execute commands on remote servers. (Citation: Winexe Github Sept 2013)  is unique in that it is a GNU/Linux based client. (Citation: \u00dcberwachung APT28 Forfiles June 2015)",
-            "labels": [
-                "tool"
-            ],
             "external_references": [
                 {
                     "external_id": "S0191",
@@ -38,12 +32,18 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_aliases": [
+                "Winexe"
+            ],
             "x_mitre_platforms": [
                 "Windows"
             ],
-            "x_mitre_aliases": [
-                "Winexe"
-            ]
+            "type": "tool",
+            "labels": [
+                "tool"
+            ],
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--fe8ffc78-2af5-4cf5-8659-d7f447984950",
+    "id": "bundle--b6298034-a17b-482d-b74c-71c4e6545d7d",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--6a5848a8-6201-4a2c-8a6a-ca5af8c6f3df",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:30:47.384Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Indicator Blocking",
             "description": "An adversary may attempt to block indicators or events from leaving the host machine. In the case of network-based reporting of indicators, an adversary may block traffic associated with reporting to prevent central analysis. This may be accomplished by many means, such as stopping a local process or creating a host-based firewall rule to block traffic to a specific server.",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "defense-evasion",
-                    "kill_chain_name": "mitre-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "T1054",
@@ -27,10 +18,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Detect lack of reported activity from a host sensor. Different methods of blocking may cause different disruptions in reporting. Systems may suddenly stop reporting all data or only certain kinds of data.\n\nDepending on the types of host information collected, an analyst may be able to detect the event that triggered a process to stop or connection to be blocked.",
-            "x_mitre_platforms": [
-                "Windows"
-            ],
             "x_mitre_data_sources": [
                 "Sensor health and status",
                 "Process command-line parameters",
@@ -40,7 +27,20 @@
                 "Anti-virus",
                 "Log analysis",
                 "Host intrusion prevention systems"
-            ]
+            ],
+            "x_mitre_detection": "Detect lack of reported activity from a host sensor. Different methods of blocking may cause different disruptions in reporting. Systems may suddenly stop reporting all data or only certain kinds of data.\n\nDepending on the types of host information collected, an analyst may be able to detect the event that triggered a process to stop or connection to be blocked.",
+            "x_mitre_platforms": [
+                "Windows"
+            ],
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "defense-evasion",
+                    "kill_chain_name": "mitre-attack"
+                }
+            ],
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:30:47.384Z"
         }
     ]
 }

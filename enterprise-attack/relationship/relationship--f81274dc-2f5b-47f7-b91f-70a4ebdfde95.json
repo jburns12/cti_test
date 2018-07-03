@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--a64e6ff9-5db2-49fd-9117-bb6548a9ba34",
+    "id": "bundle--1267b25e-a0a3-4079-9e46-fa8b331214f8",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--f81274dc-2f5b-47f7-b91f-70a4ebdfde95",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Helminth](https://attack.mitre.org/software/S0170) splits data into chunks up to 23 bytes and sends the data in DNS queries to its C2 server.",
+            "source_ref": "malware--eff1a885-6f90-42a1-901f-eef6e7a1905e",
+            "target_ref": "attack-pattern--c3888c54-775d-4b2f-b759-75a2ececcbfd",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2016/05/the-oilrig-campaign-attacks-on-saudi-arabian-organizations-deliver-helminth-backdoor/",
@@ -17,11 +20,12 @@
                     "source_name": "Palo Alto OilRig May 2016"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--eff1a885-6f90-42a1-901f-eef6e7a1905e",
-            "target_ref": "attack-pattern--c3888c54-775d-4b2f-b759-75a2ececcbfd"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-01-16T16:13:52.465Z"
         }
     ]
 }

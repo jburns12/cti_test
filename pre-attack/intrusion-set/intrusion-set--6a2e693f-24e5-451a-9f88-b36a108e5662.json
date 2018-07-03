@@ -1,21 +1,16 @@
 {
     "type": "bundle",
-    "id": "bundle--b57ac475-4823-4299-bd12-f4086c562499",
+    "id": "bundle--91ec9311-7204-4d79-b0a2-67ddd4f390f2",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "intrusion-set",
             "id": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:31:47.955Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "APT1",
             "description": "[APT1](https://attack.mitre.org/group/G0006) is a Chinese threat group that has been attributed to the 2nd Bureau of the People\u2019s Liberation Army (PLA) General Staff Department\u2019s (GSD) 3rd Department, commonly known by its Military Unit Cover Designator (MUCD) as Unit 61398. (Citation: Mandiant APT1)",
-            "aliases": [
-                "APT1",
-                "Comment Crew",
-                "Comment Group",
-                "Comment Panda"
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
@@ -50,9 +45,14 @@
                     "source_name": "CrowdStrike Putter Panda"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            "aliases": [
+                "APT1",
+                "Comment Crew",
+                "Comment Group",
+                "Comment Panda"
+            ],
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:31:47.955Z"
         }
     ]
 }

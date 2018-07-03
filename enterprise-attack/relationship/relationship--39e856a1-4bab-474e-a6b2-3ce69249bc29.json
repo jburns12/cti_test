@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--08f7bb10-9917-4b54-b877-1296ed6b9080",
+    "id": "bundle--cc01dcc0-6c94-4ade-a2c6-1028b47d723f",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--39e856a1-4bab-474e-a6b2-3ce69249bc29",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Mis-Type](https://attack.mitre.org/software/S0084) may create a file containing the results of the command <code>cmd.exe /c ipconfig /all</code>.",
+            "source_ref": "malware--e1161124-f22e-487f-9d5f-ed8efc8dcd61",
+            "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.cylance.com/content/dam/cylance/pdfs/reports/Op%20Dust%20Storm%20Report.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "Cylance Dust Storm"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--e1161124-f22e-487f-9d5f-ed8efc8dcd61",
-            "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

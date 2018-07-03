@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--9b1e6183-621c-4439-8a80-1c02190fd1f6",
+    "id": "bundle--2de9c4f7-9597-4961-af06-3dc6be1810de",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--3a241a6c-11ee-4abc-a551-b5d4e594aad4",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[OLDBAIT](https://attack.mitre.org/software/S0138) installs itself in <code>%ALLUSERPROFILE%\\\\Application Data\\Microsoft\\MediaPlayer\\updatewindws.exe</code>; the directory name is missing a space and the file name is missing the letter \"o.\"",
+            "source_ref": "malware--2dd34b01-6110-4aac-835d-b5e7b936b0be",
+            "target_ref": "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "FireEye APT28"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--2dd34b01-6110-4aac-835d-b5e7b936b0be",
-            "target_ref": "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

@@ -1,19 +1,16 @@
 {
     "type": "bundle",
-    "id": "bundle--07ed801c-b852-4101-8a17-733928bd46cc",
+    "id": "bundle--56ebd47f-af85-4eb1-a379-e9c1578175c4",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "intrusion-set",
             "id": "intrusion-set--a0cb9370-e39b-44d5-9f50-ef78e412b973",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:31:45.629Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Axiom",
             "description": "[Axiom](https://attack.mitre.org/group/G0001)]] is a cyber espionage group suspected to be associated with the Chinese government. It is responsible for the Operation SMN campaign. (Citation: Axiom) Though both this group and [Winnti Group](https://attack.mitre.org/group/G0044) use the malware [Winnti](https://attack.mitre.org/software/S0141), the two groups appear to be distinct based on differences in reporting on the groups' TTPs and targeting. (Citation: Kaspersky Winnti April 2013) (Citation: Kaspersky Winnti June 2015) (Citation: Novetta Winnti April 2015)",
-            "aliases": [
-                "Axiom",
-                "Group 72"
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
@@ -50,9 +47,12 @@
                     "source_name": "Cisco Group 72"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            "aliases": [
+                "Axiom",
+                "Group 72"
+            ],
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:31:45.629Z"
         }
     ]
 }

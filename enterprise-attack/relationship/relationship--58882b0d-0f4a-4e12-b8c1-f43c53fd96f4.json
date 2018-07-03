@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--a2817d88-7013-416c-97af-0576f35402c9",
+    "id": "bundle--711d2724-e665-4a9f-a006-f5dc5a657c6a",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--58882b0d-0f4a-4e12-b8c1-f43c53fd96f4",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:33:27.041Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Carbanak](https://attack.mitre.org/group/G0008) actors used legitimate credentials of banking employees to perform operations that sent them millions of dollars.",
+            "source_ref": "intrusion-set--55033a4d-3ffe-46b2-99b4-2c1541e9ce1c",
+            "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://securelist.com/files/2015/02/Carbanak%20APT%20eng.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "Kaspersky Carbanak"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--55033a4d-3ffe-46b2-99b4-2c1541e9ce1c",
-            "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:33:27.041Z"
         }
     ]
 }

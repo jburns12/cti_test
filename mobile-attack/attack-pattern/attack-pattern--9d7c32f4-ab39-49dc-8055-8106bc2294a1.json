@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--8c32691b-895a-48d9-91a5-9c1df183ab41",
+    "id": "bundle--4c1da4d4-ac45-44fe-97a2-69e3575cd482",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--9d7c32f4-ab39-49dc-8055-8106bc2294a1",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-10-25T14:48:17.886Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Lock User Out of Device",
             "description": "An adversary may seek to lock the legitimate user out of the device, for example until a ransom is paid.\n\nOn Android versions prior to 7, apps can abuse Device Administrator access to reset the device lock passcode to lock the user out of the device.\n\nOn iOS devices, this technique does not work because mobile device management servers can only remove the screen lock passcode, they cannot set a new passcode. However, on jailbroken devices, malware has been demonstrated that can lock the user out of the device (Citation: KeyRaider).",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "effects",
-                    "kill_chain_name": "mitre-mobile-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "MOB-T1049",
@@ -40,7 +31,19 @@
             "x_mitre_platforms": [
                 "Android",
                 "iOS"
-            ]
+            ],
+            "x_mitre_tactic_type": [
+                "Post-Adversary Device Access"
+            ],
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "effects",
+                    "kill_chain_name": "mitre-mobile-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-10-25T14:48:17.886Z"
         }
     ]
 }

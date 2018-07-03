@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--72da3b8f-e662-445f-a482-31fa0da4ba2e",
+    "id": "bundle--aa29f4c2-86a5-4165-b1fc-821d42c1f667",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--35f02c40-d46f-44fa-8ba2-5106357494b4",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[FALLCHILL](https://attack.mitre.org/software/S0181) uses fake Transport Layer Security (TLS) to communicate with its C2 server, encoding data with RC4 encryption.",
+            "source_ref": "malware--fece06b7-d4b1-42cf-b81a-5323c917546e",
+            "target_ref": "attack-pattern--3b3cbbe0-6ed3-4334-b543-3ddfd8c5642d",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.us-cert.gov/ncas/alerts/TA17-318A",
@@ -17,11 +20,12 @@
                     "source_name": "US-CERT FALLCHILL Nov 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--fece06b7-d4b1-42cf-b81a-5323c917546e",
-            "target_ref": "attack-pattern--3b3cbbe0-6ed3-4334-b543-3ddfd8c5642d"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-01-16T16:13:52.465Z"
         }
     ]
 }

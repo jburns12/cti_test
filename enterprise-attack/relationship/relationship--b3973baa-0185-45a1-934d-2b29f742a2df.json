@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--db20fd97-fa27-4e19-a024-8eadcd28931a",
+    "id": "bundle--66d74145-805f-46a8-ac7e-01a0f0cf030b",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--b3973baa-0185-45a1-934d-2b29f742a2df",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[XTunnel](https://attack.mitre.org/software/S0117) uses SSL/TLS and RC4 to encrypt traffic.",
+            "source_ref": "malware--7343e208-7cab-45f2-a47b-41ba5e2f0fab",
+            "target_ref": "attack-pattern--4b74a1d4-b0e9-4ef1-93f1-14ecc6e2f5b5",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.invincea.com/2016/07/tunnel-of-gov-dnc-hack-and-the-russian-xtunnel/",
@@ -22,11 +25,12 @@
                     "source_name": "ESET Sednit Part 2"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--7343e208-7cab-45f2-a47b-41ba5e2f0fab",
-            "target_ref": "attack-pattern--4b74a1d4-b0e9-4ef1-93f1-14ecc6e2f5b5"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

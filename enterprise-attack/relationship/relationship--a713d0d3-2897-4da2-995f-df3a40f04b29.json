@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--94f8d282-a90d-48d8-aa3e-c83db1f072fe",
+    "id": "bundle--d9b84ecd-98f8-41ba-b129-41940d458c75",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--a713d0d3-2897-4da2-995f-df3a40f04b29",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[NETEAGLE](https://attack.mitre.org/software/S0034) will attempt to detect if the infected host is configured to a proxy. If so, [NETEAGLE](https://attack.mitre.org/software/S0034) will send beacons via an HTTP POST request; otherwise it will send beacons via UDP/6000.",
+            "source_ref": "malware--53cf6cc4-65aa-445a-bcf8-c3d296f8a7a2",
+            "target_ref": "attack-pattern--f24faf46-3b26-4dbb-98f2-63460498e433",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "FireEye APT30"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--53cf6cc4-65aa-445a-bcf8-c3d296f8a7a2",
-            "target_ref": "attack-pattern--f24faf46-3b26-4dbb-98f2-63460498e433"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

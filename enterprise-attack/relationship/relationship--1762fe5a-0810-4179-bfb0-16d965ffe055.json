@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--5150584a-401c-49fd-bd14-3f76ea575961",
+    "id": "bundle--2e546d52-bddf-4458-9ff3-1b3e66eaecf4",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--1762fe5a-0810-4179-bfb0-16d965ffe055",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[HTTPBrowser](https://attack.mitre.org/software/S0070) abuses the Windows DLL load order by using a legitimate Symantec anti-virus binary, VPDN_LU.exe, to load a malicious DLL that mimics a legitimate Symantec DLL, navlu.dll.",
+            "source_ref": "malware--e066bf86-9cfb-407a-9d25-26fd5d91e360",
+            "target_ref": "attack-pattern--46944654-fcc1-4f63-9dad-628102376586",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://research.zscaler.com/2015/08/chinese-cyber-espionage-apt-group.html",
@@ -17,11 +20,12 @@
                     "source_name": "ZScaler Hacking Team"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--e066bf86-9cfb-407a-9d25-26fd5d91e360",
-            "target_ref": "attack-pattern--46944654-fcc1-4f63-9dad-628102376586"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

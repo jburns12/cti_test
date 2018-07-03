@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--a3adb754-04b9-42ad-8b45-22b39ca7a30a",
+    "id": "bundle--4505ecd1-1acc-497e-8080-7ada9053dfd8",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--3268cdc0-7cee-4fe5-92cc-2c3cdc06712b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Derusbi](https://attack.mitre.org/software/S0021) is capable of creating a remote Bash shell and executing commands.",
+            "source_ref": "malware--94379dec-5c87-49db-b36e-66abc0b81344",
+            "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.fidelissecurity.com/sites/default/files/TA%20Fidelis%20Turbo%201602%200.pdf",
@@ -22,11 +25,12 @@
                     "source_name": "FireEye Periscope March 2018"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--94379dec-5c87-49db-b36e-66abc0b81344",
-            "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

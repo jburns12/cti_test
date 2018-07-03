@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--6e0c7e48-740e-4422-98e3-c9784804cd41",
+    "id": "bundle--364cace8-2c4c-4eb8-9e17-47c673142e6b",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--70f3eaca-179d-4412-ad32-c4e3cf60c27c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:33:27.031Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "The [Axiom](https://attack.mitre.org/group/G0001) group is known to have used RDP during operations.",
+            "source_ref": "intrusion-set--a0cb9370-e39b-44d5-9f50-ef78e412b973",
+            "target_ref": "attack-pattern--51dea151-0898-4a45-967c-3ebee0420484",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://www.novetta.com/wp-content/uploads/2014/11/Executive%20Summary-Final%201.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "Axiom"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--a0cb9370-e39b-44d5-9f50-ef78e412b973",
-            "target_ref": "attack-pattern--51dea151-0898-4a45-967c-3ebee0420484"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:33:27.031Z"
         }
     ]
 }

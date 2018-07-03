@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--1b371824-99c6-45de-9529-e445dcf21821",
+    "id": "bundle--48e27460-6cae-41e6-8588-b7c735946b76",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--b3981ca6-7ef0-4625-99a8-9cbec731bac9",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Helminth](https://attack.mitre.org/software/S0170) has checked for the local admin group domain admin group and Exchange Trusted Subsystem groups using the commands <code>net group Exchange Trusted Subsystem /domain</code> and <code>net group domain admins /domain</code>.",
+            "source_ref": "malware--eff1a885-6f90-42a1-901f-eef6e7a1905e",
+            "target_ref": "attack-pattern--15dbf668-795c-41e6-8219-f0447c0e64ce",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://pan-unit42.github.io/playbook%20viewer/",
@@ -17,11 +20,12 @@
                     "source_name": "Unit 42 Playbook OilRig Dec 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--eff1a885-6f90-42a1-901f-eef6e7a1905e",
-            "target_ref": "attack-pattern--15dbf668-795c-41e6-8219-f0447c0e64ce"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-01-16T16:13:52.465Z"
         }
     ]
 }

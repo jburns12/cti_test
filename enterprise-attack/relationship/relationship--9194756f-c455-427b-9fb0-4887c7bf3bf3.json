@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--49feece2-4eb6-4714-8cd4-191ff5328239",
+    "id": "bundle--06327472-cafb-4d9b-a223-b8097d7523a3",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--9194756f-c455-427b-9fb0-4887c7bf3bf3",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[RedLeaves](https://attack.mitre.org/software/S0153) can receive and execute commands with cmd.exe. It can also provide a reverse shell.",
+            "source_ref": "malware--17b40f60-729f-4fe8-8aea-cc9ee44a95d5",
+            "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-annex-b-final.pdf",
@@ -22,11 +25,12 @@
                     "source_name": "FireEye APT10 April 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--17b40f60-729f-4fe8-8aea-cc9ee44a95d5",
-            "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

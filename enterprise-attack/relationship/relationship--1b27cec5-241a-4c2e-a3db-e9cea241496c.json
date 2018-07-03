@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--8625ab81-a151-4499-8799-a6358190f2a1",
+    "id": "bundle--054cee6b-451d-4915-aba6-1c87db0f5cc3",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--1b27cec5-241a-4c2e-a3db-e9cea241496c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[HTRAN](https://attack.mitre.org/software/S0040) is used for proxying connections to obfuscate command and control infrastructure.",
+            "source_ref": "tool--d5e96a35-7b0b-4c6a-9533-d63ecbda563e",
+            "target_ref": "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-quantum-entanglement.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "Operation Quantum Entanglement"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "tool--d5e96a35-7b0b-4c6a-9533-d63ecbda563e",
-            "target_ref": "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--761e6ebc-660d-4f61-bfb4-451374293b59",
+    "id": "bundle--9be3e550-a677-44ed-bf73-2287ffdc16d8",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--559c0d59-16a7-4c1c-801d-6c8c32ffc5ce",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[PUNCHBUGGY](https://attack.mitre.org/software/S0196) can establish using a Registry run key.",
+            "source_ref": "malware--5c6ed2dc-37f4-40ea-b2e1-4c76140a388c",
+            "target_ref": "attack-pattern--9422fc14-1c43-410d-ab0f-a709b76c72dc",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www2.fireeye.com/WBNR-Know-Your-Enemy-UNC622-Spear-Phishing.html",
@@ -17,11 +20,12 @@
                     "source_name": "FireEye Know Your Enemy FIN8 Aug 2016"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--5c6ed2dc-37f4-40ea-b2e1-4c76140a388c",
-            "target_ref": "attack-pattern--9422fc14-1c43-410d-ab0f-a709b76c72dc"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

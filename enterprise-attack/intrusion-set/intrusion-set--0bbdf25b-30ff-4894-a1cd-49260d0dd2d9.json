@@ -1,24 +1,16 @@
 {
     "type": "bundle",
-    "id": "bundle--55be12f4-2cc4-4afa-bdea-31425358ad35",
+    "id": "bundle--ed0ff792-abf6-46aa-b049-0cc0d939ba66",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "intrusion-set",
             "id": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:31:55.853Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "APT3",
             "description": "[APT3](https://attack.mitre.org/group/G0022) is a China-based threat group that researchers have attributed to China's Ministry of State Security. (Citation: FireEye Clandestine Wolf) (Citation: Recorded Future APT3 May 2017) This group is responsible for the campaigns known as Operation Clandestine Fox, Operation Clandestine Wolf, and Operation Double Tap. (Citation: FireEye Clandestine Wolf) (Citation: FireEye Operation Double Tap) As of June 2015, the group appears to have shifted from targeting primarily US victims to primarily political organizations in Hong Kong. (Citation: Symantec Buckeye)\n\n (Citation: APT3 Adversary Emulation Plan)",
-            "aliases": [
-                "APT3",
-                "Gothic Panda",
-                "Pirpi",
-                "UPS Team",
-                "Buckeye",
-                "Threat Group-0110",
-                "TG-0110"
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
@@ -85,9 +77,17 @@
                     "source_name": "APT3 Adversary Emulation Plan"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            "aliases": [
+                "APT3",
+                "Gothic Panda",
+                "Pirpi",
+                "UPS Team",
+                "Buckeye",
+                "Threat Group-0110",
+                "TG-0110"
+            ],
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:31:55.853Z"
         }
     ]
 }

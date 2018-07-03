@@ -1,20 +1,16 @@
 {
     "type": "bundle",
-    "id": "bundle--5e45edf8-1c94-405e-ba49-bb16f3fccd49",
+    "id": "bundle--ceeb1b67-85b9-4691-842a-24fc79107465",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "intrusion-set",
             "id": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:31:49.816Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Turla",
             "description": "[Turla](https://attack.mitre.org/group/G0010) is a threat group that has infected victims in over 45 countries, spanning a range of industries including government, embassies, military, education, research and pharmaceutical companies. They are known for conducting watering hole and spearphishing campaigns. (Citation: Kaspersky Turla) (Citation: ESET Gazer Aug 2017)",
-            "aliases": [
-                "Turla",
-                "Waterbug",
-                "WhiteBear"
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
@@ -55,9 +51,16 @@
                     "source_name": "Securelist WhiteBear Aug 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
+            ],
+            "aliases": [
+                "Turla",
+                "Waterbug",
+                "WhiteBear"
+            ],
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:31:49.816Z"
         }
     ]
 }

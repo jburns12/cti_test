@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--1e3291c9-1fef-4629-915b-86278157b5e3",
+    "id": "bundle--f940e58f-42b1-4a21-991d-5c0d05bdcb6f",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--6fce6a21-ab9b-44a5-be20-9b631109487b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T14:44:41.004Z",
+            "relationship_type": "uses",
             "description": "[MazarBOT](https://attack.mitre.org/software/MOB-S0019) is delivered via an unsolicited text message containing a link to a web download URI.",
+            "source_ref": "malware--5ddf81ea-2c06-497b-8c30-5f1ab89a40f9",
+            "target_ref": "attack-pattern--6b846ad0-cc20-4db6-aa34-91561397c5e2",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.tripwire.com/state-of-security/security-data-protection/android-malware-sms/",
@@ -17,11 +20,12 @@
                     "source_name": "Tripwire-MazarBOT"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "2f669986-b40b-4423-b720-4396ca6a462b"
             ],
-            "source_ref": "malware--5ddf81ea-2c06-497b-8c30-5f1ab89a40f9",
-            "target_ref": "attack-pattern--6b846ad0-cc20-4db6-aa34-91561397c5e2"
+            "type": "relationship",
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

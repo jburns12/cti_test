@@ -1,19 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--fe840c69-96f9-41c5-ae86-b4e263656ffc",
+    "id": "bundle--f45e49ba-b7af-4ab2-9eb2-9ea3e54fd50c",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "tool",
             "id": "tool--13cd9151-83b7-410d-9f98-25d0f0d1d80d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "PowerSploit",
             "description": "[PowerSploit](https://attack.mitre.org/software/S0194) is an open source, offensive security framework compromised of [PowerShell Mitigation](https://attack.mitre.org/technique/T1086) modules and scripts that perform a wide range of tasks related to penetration testing such as code execution, persistence, bypassing anti-virus, recon, and exfiltration. (Citation: GitHub PowerSploit May 2012) (Citation: PowerShellMagazine PowerSploit July 2014) (Citation: PowerSploit Documentation)",
-            "labels": [
-                "tool"
-            ],
             "external_references": [
                 {
                     "external_id": "S0194",
@@ -39,12 +33,18 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_aliases": [
+                "PowerSploit"
+            ],
             "x_mitre_platforms": [
                 "Windows"
             ],
-            "x_mitre_aliases": [
-                "PowerSploit"
-            ]
+            "type": "tool",
+            "labels": [
+                "tool"
+            ],
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

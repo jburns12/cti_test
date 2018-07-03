@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--52841540-950b-45e1-a674-f1c0bdb4451f",
+    "id": "bundle--6dfc2c7a-c72e-4fab-9f0b-9f72e2bffa94",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--94040d2e-3f60-423c-8a93-a83b61cafe7d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T14:44:41.004Z",
+            "relationship_type": "uses",
             "description": "[Pegasus](https://attack.mitre.org/software/MOB-S0005) \"constantly updates and sends the location of the phone\".",
+            "source_ref": "malware--33d9d91d-aad9-49d5-a516-220ce101ac8a",
+            "target_ref": "attack-pattern--99e6295e-741b-4857-b6e5-64989eb039b4",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://info.lookout.com/rs/051-ESQ-475/images/lookout-pegasus-technical-analysis.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "Lookout-Pegasus"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "2f669986-b40b-4423-b720-4396ca6a462b"
             ],
-            "source_ref": "malware--33d9d91d-aad9-49d5-a516-220ce101ac8a",
-            "target_ref": "attack-pattern--99e6295e-741b-4857-b6e5-64989eb039b4"
+            "type": "relationship",
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

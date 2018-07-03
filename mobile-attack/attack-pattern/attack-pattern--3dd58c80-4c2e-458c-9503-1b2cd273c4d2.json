@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--bb01ab0d-6be2-4c03-a9df-cc878b8cea86",
+    "id": "bundle--b307bbbc-3b79-4ef8-9d4e-fa359dfe46cf",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--3dd58c80-4c2e-458c-9503-1b2cd273c4d2",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-10-25T14:48:34.407Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "User Interface Spoofing",
             "description": "At least three methods exist to perform User Interface Spoofing:\n\nFirst, on both Android and iOS, an adversary could impersonate the user interface of a legitimate app or device function to trick a user into entering account credentials. \n\nSecond, on both Android and iOS, a malicious app could impersonate the identity of another app in order to trick users into installing and using it.\n\nThird, on older versions of Android, a malicious app could abuse mobile operating system features to interfere with a running legitimate app as described in  (Citation: Felt-PhishingOnMobileDevices) and  (Citation: Hassell-ExploitingAndroid). However, this technique appears to have been addressed starting in Android 5.0 with the deprecation of the Android's ActivityManager.getRunningTasks method and modification of its behavior (Citation: Android-getRunningTasks) and further addressed in Android 5.1.1 (Citation: StackOverflow-getRunningAppProcesses) to prevent a malicious app from determining what app is currently in the foreground.",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "credential-access",
-                    "kill_chain_name": "mitre-mobile-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "MOB-T1014",
@@ -55,7 +46,19 @@
             "x_mitre_platforms": [
                 "Android",
                 "iOS"
-            ]
+            ],
+            "x_mitre_tactic_type": [
+                "Post-Adversary Device Access"
+            ],
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "credential-access",
+                    "kill_chain_name": "mitre-mobile-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-10-25T14:48:34.407Z"
         }
     ]
 }

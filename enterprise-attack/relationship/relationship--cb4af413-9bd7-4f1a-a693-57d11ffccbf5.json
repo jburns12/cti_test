@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--0cb94aa0-f595-4264-89d8-bb407d1c61d7",
+    "id": "bundle--9344c53b-9129-4d28-92d9-5325e7f14926",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--cb4af413-9bd7-4f1a-a693-57d11ffccbf5",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "Some variants of [Cherry Picker](https://attack.mitre.org/software/S0107) use AppInit_DLLs to achieve persistence by creating the following Registry key: <code>HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Windows \"AppInit_DLLs\"=\"pserver32.dll\"</code>",
+            "source_ref": "malware--b2203c59-4089-4ee4-bfe1-28fa25f0dbfe",
+            "target_ref": "attack-pattern--317fefa6-46c7-4062-adb6-2008cf6bcb41",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.trustwave.com/Resources/SpiderLabs-Blog/Shining-the-Spotlight-on-Cherry-Picker-PoS-Malware/",
@@ -17,11 +20,12 @@
                     "source_name": "Trustwave Cherry Picker"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--b2203c59-4089-4ee4-bfe1-28fa25f0dbfe",
-            "target_ref": "attack-pattern--317fefa6-46c7-4062-adb6-2008cf6bcb41"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

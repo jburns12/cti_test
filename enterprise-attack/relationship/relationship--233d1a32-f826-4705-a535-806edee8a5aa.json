@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--81e7e0c1-83c4-482b-b65a-b0eb337fca8f",
+    "id": "bundle--0f8ce3cd-52c0-4c8c-b103-4350bd52eff7",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--233d1a32-f826-4705-a535-806edee8a5aa",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[CozyCar](https://attack.mitre.org/software/S0046) uses Twitter as a backup C2 channel to Twitter accounts specified in its configuration file.",
+            "source_ref": "malware--e6ef745b-077f-42e1-a37d-29eecff9c754",
+            "target_ref": "attack-pattern--830c9528-df21-472c-8c14-a036bf17d665",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.f-secure.com/documents/996508/1030745/CozyDuke",
@@ -17,11 +20,12 @@
                     "source_name": "F-Secure CozyDuke"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--e6ef745b-077f-42e1-a37d-29eecff9c754",
-            "target_ref": "attack-pattern--830c9528-df21-472c-8c14-a036bf17d665"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

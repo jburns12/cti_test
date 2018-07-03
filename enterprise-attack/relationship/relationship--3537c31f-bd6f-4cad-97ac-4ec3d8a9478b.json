@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--7d5e3611-fb3e-45c7-b661-65d629ecb21f",
+    "id": "bundle--e4e106c4-aeab-475d-9be9-0d767034fef7",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--3537c31f-bd6f-4cad-97ac-4ec3d8a9478b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Helminth](https://attack.mitre.org/software/S0170) establishes persistence by creating a shortcut.",
+            "source_ref": "malware--eff1a885-6f90-42a1-901f-eef6e7a1905e",
+            "target_ref": "attack-pattern--970cdb5c-02fb-4c38-b17e-d6327cf3c810",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2016/05/the-oilrig-campaign-attacks-on-saudi-arabian-organizations-deliver-helminth-backdoor/",
@@ -17,11 +20,12 @@
                     "source_name": "Palo Alto OilRig May 2016"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--eff1a885-6f90-42a1-901f-eef6e7a1905e",
-            "target_ref": "attack-pattern--970cdb5c-02fb-4c38-b17e-d6327cf3c810"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-01-16T16:13:52.465Z"
         }
     ]
 }

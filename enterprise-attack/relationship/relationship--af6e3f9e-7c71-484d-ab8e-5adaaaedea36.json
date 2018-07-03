@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--d9a13c58-76c2-496e-a91f-86c392d0c9df",
+    "id": "bundle--7a3b3f3c-5cf7-4260-a886-7ef008e98f3a",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--af6e3f9e-7c71-484d-ab8e-5adaaaedea36",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[WinMM](https://attack.mitre.org/software/S0059) uses NetUser-GetInfo to identify that it is running under an \u201cAdmin\u201d account on the local system.",
+            "source_ref": "malware--22addc7b-b39f-483d-979a-1b35147da5de",
+            "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://securelist.com/files/2015/05/TheNaikonAPT-MsnMM1.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "Baumgartner Naikon 2015"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--22addc7b-b39f-483d-979a-1b35147da5de",
-            "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--f52e645e-9454-4e08-9987-f831096aea4a",
+    "id": "bundle--6733576a-4035-43bd-a234-64c2b68b670e",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--4a0cbe7f-e88c-4ef6-8bf7-9f6e17e8de04",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Pupy](https://attack.mitre.org/software/S0192) can migrate into another process using reflective DLL injection.",
+            "source_ref": "tool--cb69b20d-56d0-41ab-8440-4a4b251614d4",
+            "target_ref": "attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://github.com/n1nj4sec/pupy",
@@ -17,11 +20,12 @@
                     "source_name": "GitHub Pupy"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "tool--cb69b20d-56d0-41ab-8440-4a4b251614d4",
-            "target_ref": "attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

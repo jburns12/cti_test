@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--dc39e793-6d17-4c26-b64e-06f6cc054b02",
+    "id": "bundle--fd182fc6-7d1b-49f0-bb2a-25821d347414",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--6fdc3210-9754-4157-b386-8fcd680e732c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:33:27.043Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Deep Panda](https://attack.mitre.org/group/G0009) has used PowerShell scripts to download and execute programs in memory, without writing to disk.",
+            "source_ref": "intrusion-set--a653431d-6a5e-4600-8ad3-609b5af57064",
+            "target_ref": "attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://blog.crowdstrike.com/deep-thought-chinese-targeting-national-security-think-tanks/",
@@ -17,11 +20,12 @@
                     "source_name": "Alperovitch 2014"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--a653431d-6a5e-4600-8ad3-609b5af57064",
-            "target_ref": "attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:33:27.043Z"
         }
     ]
 }

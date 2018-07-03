@@ -1,14 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--7921cb8e-8698-4fbe-af11-6c732c022384",
+    "id": "bundle--394372b0-74dc-4a64-b563-3efa86c34078",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "course-of-action",
             "id": "course-of-action--624d063d-cda8-4616-b4e4-54c04e427aec",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-07-03T13:33:43.876Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Netsh Helper DLL Mitigation",
             "description": "Identify and block potentially malicious software that may persist in this manner by using whitelisting (Citation: Beechey 2010) tools capable of monitoring DLL loads by Windows utilities like AppLocker. (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker)",
             "external_references": [
@@ -32,7 +29,10 @@
                     "description": "NSA Information Assurance Directorate. (2014, August). Application Whitelisting Using Microsoft AppLocker. Retrieved March 31, 2016.",
                     "source_name": "NSA MS AppLocker"
                 }
-            ]
+            ],
+            "type": "course-of-action",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-07-03T13:33:43.876Z"
         }
     ]
 }

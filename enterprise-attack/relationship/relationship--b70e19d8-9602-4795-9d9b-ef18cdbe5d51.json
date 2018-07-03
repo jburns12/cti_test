@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--b28c6f04-f226-463c-a6ea-a441b531a44a",
+    "id": "bundle--7a524c7e-5974-4b6f-8136-09e580d40be8",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--b70e19d8-9602-4795-9d9b-ef18cdbe5d51",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[PowerSploit](https://attack.mitre.org/software/S0194)'s <code>Get-ProcessTokenGroup</code> Privesc-PowerUp module can enumerate all SIDs associated with its current token.",
+            "source_ref": "tool--13cd9151-83b7-410d-9f98-25d0f0d1d80d",
+            "target_ref": "attack-pattern--72b74d71-8169-42aa-92e0-e7b04b9f5a08",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://github.com/PowerShellMafia/PowerSploit",
@@ -22,11 +25,12 @@
                     "source_name": "PowerSploit Documentation"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "tool--13cd9151-83b7-410d-9f98-25d0f0d1d80d",
-            "target_ref": "attack-pattern--72b74d71-8169-42aa-92e0-e7b04b9f5a08"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

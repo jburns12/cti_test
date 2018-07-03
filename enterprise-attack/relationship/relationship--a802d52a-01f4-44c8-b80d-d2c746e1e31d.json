@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--5c998a04-86f6-4311-8464-d268bffb0992",
+    "id": "bundle--af33d2fe-baa8-471b-bbc4-380f74177b63",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--a802d52a-01f4-44c8-b80d-d2c746e1e31d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[ChChes](https://attack.mitre.org/software/S0144) collects the victim's %TEMP% directory path and version of Internet Explorer.",
+            "source_ref": "malware--dc5d1a33-62aa-4a0c-aa8c-589b87beb11e",
+            "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/04/apt10%20menupass%20grou.html",
@@ -17,11 +20,12 @@
                     "source_name": "FireEye APT10 April 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--dc5d1a33-62aa-4a0c-aa8c-589b87beb11e",
-            "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

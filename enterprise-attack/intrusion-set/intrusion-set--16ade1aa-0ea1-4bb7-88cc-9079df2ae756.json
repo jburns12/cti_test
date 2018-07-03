@@ -1,18 +1,16 @@
 {
     "type": "bundle",
-    "id": "bundle--9cac6e42-14bf-436f-9fd9-813834322b57",
+    "id": "bundle--4c813ba9-c4ec-4756-9619-47c7a0e850c0",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "intrusion-set",
             "id": "intrusion-set--16ade1aa-0ea1-4bb7-88cc-9079df2ae756",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:31:53.579Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "admin@338",
             "description": "[admin@338](https://attack.mitre.org/group/G0018) is a China-based cyber threat group. It has previously used newsworthy events as lures to deliver malware and has primarily targeted organizations involved in financial, economic, and trade policy, typically using publicly available RATs such as [PoisonIvy](https://attack.mitre.org/software/S0012), as well as some non-public backdoors. (Citation: FireEye admin@338)",
-            "aliases": [
-                "admin@338"
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
@@ -30,9 +28,14 @@
                     "source_name": "FireEye admin@338"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
+            ],
+            "aliases": [
+                "admin@338"
+            ],
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:31:53.579Z"
         }
     ]
 }

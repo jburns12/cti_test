@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--38e9953a-5583-4a1d-a83c-660c88a301a9",
+    "id": "bundle--c9970a47-982a-4f98-936b-ffe484b13d62",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--535e3fbe-e6d9-4608-9689-f8f1f8c1ddc9",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Backdoor.Oldrea](https://attack.mitre.org/software/S0093) injects itself into explorer.exe.",
+            "source_ref": "malware--083bb47b-02c8-4423-81a2-f9ef58572974",
+            "target_ref": "attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://www.symantec.com/content/en/us/enterprise/media/security%20response/whitepapers/Dragonfly%20Threat%20Against%20Western%20Energy%20Suppliers.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "Symantec Dragonfly"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--083bb47b-02c8-4423-81a2-f9ef58572974",
-            "target_ref": "attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

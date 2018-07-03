@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--88c5cbbc-1be7-4591-8c02-b9b6441a575b",
+    "id": "bundle--707c86c9-2b3d-4c68-a246-da2176e9756e",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--7e4be913-d916-4a79-ac00-262a49afe070",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T14:44:41.004Z",
+            "relationship_type": "uses",
             "description": "[Charger](https://attack.mitre.org/software/MOB-S0039) \"checks whether it is being run in an emulator before it starts its malicious activity\".",
+            "source_ref": "malware--d1c600f8-0fb6-4367-921b-85b71947d950",
+            "target_ref": "attack-pattern--b765efd1-02e6-4e67-aebf-0fef5c37e54b",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://blog.checkpoint.com/2017/01/24/charger-malware/",
@@ -17,11 +20,12 @@
                     "source_name": "CheckPoint-Charger"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "2f669986-b40b-4423-b720-4396ca6a462b"
             ],
-            "source_ref": "malware--d1c600f8-0fb6-4367-921b-85b71947d950",
-            "target_ref": "attack-pattern--b765efd1-02e6-4e67-aebf-0fef5c37e54b"
+            "type": "relationship",
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

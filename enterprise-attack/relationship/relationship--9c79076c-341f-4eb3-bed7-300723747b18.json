@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--f8e16024-9008-47f6-8872-7d71600a7c70",
+    "id": "bundle--2bb4d188-ee24-4574-8fa3-58b778465df2",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--9c79076c-341f-4eb3-bed7-300723747b18",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[POWERSOURCE](https://attack.mitre.org/software/S0145) queries Registry keys in preparation for setting Run keys to achieve persistence.",
+            "source_ref": "malware--17e919aa-4a49-445c-b103-dbb8df9e7351",
+            "target_ref": "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://blog.talosintelligence.com/2017/03/dnsmessenger.html",
@@ -17,11 +20,12 @@
                     "source_name": "Cisco DNSMessenger March 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--17e919aa-4a49-445c-b103-dbb8df9e7351",
-            "target_ref": "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

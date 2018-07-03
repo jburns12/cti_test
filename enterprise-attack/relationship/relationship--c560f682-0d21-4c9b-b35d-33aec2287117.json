@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--cc27dfb1-534b-4420-bb20-ec916d422865",
+    "id": "bundle--ec4bcfda-0042-4a30-a0b5-781550f965fa",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--c560f682-0d21-4c9b-b35d-33aec2287117",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[POWERSOURCE](https://attack.mitre.org/software/S0145) uses DNS TXT records for C2.",
+            "source_ref": "malware--17e919aa-4a49-445c-b103-dbb8df9e7351",
+            "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/03/fin7%20spear%20phishing.html",
@@ -22,11 +25,12 @@
                     "source_name": "Cisco DNSMessenger March 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--17e919aa-4a49-445c-b103-dbb8df9e7351",
-            "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

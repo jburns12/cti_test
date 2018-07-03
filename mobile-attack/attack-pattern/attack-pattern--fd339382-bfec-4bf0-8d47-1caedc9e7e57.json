@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--9241bf92-f2f6-4be4-a2fd-f8d1ac76dab5",
+    "id": "bundle--4ccb3174-279f-483c-a1d3-ed90952f024f",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--fd339382-bfec-4bf0-8d47-1caedc9e7e57",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-10-25T14:48:06.822Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Malicious Web Content",
             "description": "Content of a web page could be designed to exploit vulnerabilities in a web browser running on the mobile device.",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "exploit-via-internet",
-                    "kill_chain_name": "mitre-mobile-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "MOB-T1059",
@@ -35,7 +26,19 @@
             "x_mitre_platforms": [
                 "Android",
                 "iOS"
-            ]
+            ],
+            "x_mitre_tactic_type": [
+                "Pre-Adversary Device Access"
+            ],
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "exploit-via-internet",
+                    "kill_chain_name": "mitre-mobile-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-10-25T14:48:06.822Z"
         }
     ]
 }

@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--17b08128-75fe-4a9f-86a5-2a1a07e7513a",
+    "id": "bundle--9fcdff50-d3c3-404d-ba44-cb42106a8eaf",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--ee40d054-6e83-4302-88dc-a3af98821d8d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Analyze social and business relationships, interests, and affiliations",
             "description": "Social media provides insight into the target's affiliations with groups and organizations.  Certification information can explain their technical associations and professional associations. Personal information can provide data for exploitation or even blackmail. (Citation: Scasny2015)",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "people-weakness-identification",
-                    "kill_chain_name": "mitre-pre-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "PRE-T1072",
@@ -30,7 +21,20 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detectable_by_common_defenses": "No",
+            "x_mitre_detectable_by_common_defenses_explanation": "Public sources are external to the defender's organization.  Some social media sites have an option to show you when users are looking at your profile, but an adversary can evade this tracking depending on how they conduct the searches.",
+            "x_mitre_difficulty_for_adversary": "Yes",
+            "x_mitre_difficulty_for_adversary_explanation": "Social and business relationship information for an individual can be found by examining their social media contacts (e.g., [https://www.facebook.com Facebook] and [https://www.linkedin.com LinkedIn]).  Social media also provides insight into the target's affiliations with groups and organizations.  Finally, certification information can explain their technical associations and professional associations.",
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "people-weakness-identification",
+                    "kill_chain_name": "mitre-pre-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

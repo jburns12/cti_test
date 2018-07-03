@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--9926793b-0a51-41ef-a20c-e6a12b56c80d",
+    "id": "bundle--191ecdc7-f9b2-4042-a992-057ba1fe9441",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--06814fdf-8bf8-43eb-b448-812541b46afa",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Orz](https://attack.mitre.org/software/S0229) can execute shell commands.",
+            "source_ref": "malware--06d735e7-1db1-4dbe-ab4b-acbe419f902b",
+            "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.proofpoint.com/us/threat-insight/post/leviathan-espionage-actor-spearphishes-maritime-and-defense-targets",
@@ -17,11 +20,12 @@
                     "source_name": "Proofpoint Leviathan Oct 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--06d735e7-1db1-4dbe-ab4b-acbe419f902b",
-            "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

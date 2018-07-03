@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--e87e5b70-01de-4f2d-a87b-1e436aa3527a",
+    "id": "bundle--a88ee202-1953-482d-bc83-2cd32ccffdd7",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--f296fc9c-2ff5-43ee-941e-6b49c438270a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-10-25T14:48:23.652Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Device Unlock Code Guessing or Brute Force",
             "description": "An adversary could make educated guesses of the device lock screen's PIN/password (e.g., commonly used values, birthdays, anniversaries) or attempt a dictionary or brute force attack against it. Brute force attacks could potentially be automated (Citation: PopSci-IPBox).",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "exploit-via-physical-access",
-                    "kill_chain_name": "mitre-mobile-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "MOB-T1062",
@@ -35,7 +26,19 @@
             "x_mitre_platforms": [
                 "Android",
                 "iOS"
-            ]
+            ],
+            "x_mitre_tactic_type": [
+                "Pre-Adversary Device Access"
+            ],
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "exploit-via-physical-access",
+                    "kill_chain_name": "mitre-mobile-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-10-25T14:48:23.652Z"
         }
     ]
 }

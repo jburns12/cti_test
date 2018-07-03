@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--3de2cbae-718e-4b05-a0aa-1e2b262d1add",
+    "id": "bundle--751c284c-9383-4bf7-b698-4d82e5790caf",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--537d027b-0559-4d1a-8f28-a918d3d23e63",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Elderwood](https://attack.mitre.org/group/G0066) has delivered zero-day exploits and malware to victims via targeted emails containing malicious attachments.",
+            "source_ref": "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
+            "target_ref": "attack-pattern--6aac77c4-eaf2-4366-8c13-ce50ab951f38",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://www.symantec.com/content/en/us/enterprise/media/security%20response/whitepapers/the-elderwood-project.pdf",
@@ -22,11 +25,12 @@
                     "source_name": "CSM Elderwood Sept 2012"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
-            "target_ref": "attack-pattern--6aac77c4-eaf2-4366-8c13-ce50ab951f38"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

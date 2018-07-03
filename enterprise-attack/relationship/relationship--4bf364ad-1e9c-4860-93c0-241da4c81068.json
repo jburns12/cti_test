@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--ac03960e-64d8-49b5-8f3d-feb519699b06",
+    "id": "bundle--024b1bbe-cf80-4d21-9a0d-914edf092a54",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--4bf364ad-1e9c-4860-93c0-241da4c81068",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[RARSTONE](https://attack.mitre.org/software/S0055) downloads its backdoor component from a C2 server and loads it directly into memory.",
+            "source_ref": "malware--8c553311-0baa-4146-997a-f79acef3d831",
+            "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://blog.trendmicro.com/trendlabs-security-intelligence/rarstone-found-in-targeted-attacks/",
@@ -17,11 +20,12 @@
                     "source_name": "Aquino RARSTONE"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--8c553311-0baa-4146-997a-f79acef3d831",
-            "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

@@ -1,26 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--cdab7a4c-5dd7-46bf-b96e-652afc572fdf",
+    "id": "bundle--4c06099c-580b-4faa-adfb-e3956e51a816",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--d2e112dc-f6d4-488d-b8df-ecbfb57a0a2d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-10-25T14:48:25.740Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Jamming or Denial of Service",
             "description": "An attacker could jam radio signals (e.g. Wi-Fi, cellular, GPS) to prevent the mobile device from communicating as described in draft NIST SP 800-187 (Citation: NIST-SP800187).",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "cellular-network-based",
-                    "kill_chain_name": "mitre-mobile-attack"
-                },
-                {
-                    "phase_name": "general-network-based",
-                    "kill_chain_name": "mitre-mobile-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "MOB-T1067",
@@ -59,7 +46,23 @@
             "x_mitre_platforms": [
                 "Android",
                 "iOS"
-            ]
+            ],
+            "x_mitre_tactic_type": [
+                "Without Adversary Device Access"
+            ],
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "cellular-network-based",
+                    "kill_chain_name": "mitre-mobile-attack"
+                },
+                {
+                    "phase_name": "general-network-based",
+                    "kill_chain_name": "mitre-mobile-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-10-25T14:48:25.740Z"
         }
     ]
 }

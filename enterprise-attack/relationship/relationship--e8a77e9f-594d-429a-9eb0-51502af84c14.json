@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--c6a41419-6a2f-4f7d-adc9-b6cb4cc30b68",
+    "id": "bundle--adb97795-3144-499d-bf36-d5f0e9e5668e",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--e8a77e9f-594d-429a-9eb0-51502af84c14",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[MuddyWater](https://attack.mitre.org/group/G0069) has used PowerShell for execution.",
+            "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
+            "target_ref": "attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2018/03/iranian-threat-group-updates-ttps-in-spear-phishing-campaign.html",
@@ -17,11 +20,12 @@
                     "source_name": "FireEye MuddyWater Mar 2018"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
-            "target_ref": "attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

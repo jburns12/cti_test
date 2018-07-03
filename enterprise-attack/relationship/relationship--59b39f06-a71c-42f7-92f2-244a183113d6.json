@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--cd41668f-af16-48ee-865d-88418eebcac3",
+    "id": "bundle--6a39dda7-5844-4f83-96c4-16f12e2b9070",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--59b39f06-a71c-42f7-92f2-244a183113d6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[BBSRAT](https://attack.mitre.org/software/S0127) can start, stop, or delete services.",
+            "source_ref": "malware--64d76fa5-cf8f-469c-b78c-1a4f7c5bad80",
+            "target_ref": "attack-pattern--f44731de-ea9f-406d-9b83-30ecbb9b4392",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2015/12/bbsrat-attacks-targeting-russian-organizations-linked-to-roaming-tiger/",
@@ -17,11 +20,12 @@
                     "source_name": "Palo Alto Networks BBSRAT"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--64d76fa5-cf8f-469c-b78c-1a4f7c5bad80",
-            "target_ref": "attack-pattern--f44731de-ea9f-406d-9b83-30ecbb9b4392"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

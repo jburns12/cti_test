@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--5ace26d2-9894-4bd3-94c2-efd208365676",
+    "id": "bundle--197b98ec-b510-4807-a7d8-00a0eb90239d",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--3c52b081-7521-4b73-8603-e6d05496db0c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Hydraq](https://attack.mitre.org/software/S0203) creates a backdoor through which remote attackers can retrieve IP addresses of compromised machines.",
+            "source_ref": "malware--73a4793a-ce55-4159-b2a6-208ef29b326f",
+            "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.symantec.com/connect/blogs/trojanhydraq-incident",
@@ -22,11 +25,12 @@
                     "source_name": "Symantec Hydraq Jan 2010"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--73a4793a-ce55-4159-b2a6-208ef29b326f",
-            "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

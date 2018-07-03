@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--a41e628a-b94e-4b17-9f7f-cad673bd0c8f",
+    "id": "bundle--3b359edd-52ca-4855-9be1-f683dbd3dfe0",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--93b12e1a-7f21-4fa0-9b2a-c96c7c270625",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-05-31T21:33:27.046Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[PittyTiger](https://attack.mitre.org/group/G0011) attempts to obtain legitimate credentials during operations.",
+            "source_ref": "intrusion-set--fe98767f-9df8-42b9-83c9-004b1dec8647",
+            "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://blog.cassidiancybersecurity.com/post/2014/07/The-Eye-of-the-Tiger2",
@@ -17,11 +20,12 @@
                     "source_name": "Bizeul 2014"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--fe98767f-9df8-42b9-83c9-004b1dec8647",
-            "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:33:27.046Z"
         }
     ]
 }

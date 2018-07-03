@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--38bcbd3a-7880-4dc5-8528-4967f705e308",
+    "id": "bundle--210375ef-6983-42f6-934e-286b24af4a32",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--1251d1e2-21d3-48f2-a869-44507b34943a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[TURNEDUP](https://attack.mitre.org/software/S0199) is capable of downloading additional files.",
+            "source_ref": "malware--db1355a7-e5c9-4e2c-8da7-eccf2ae9bf5c",
+            "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/09/apt33-insights-into-iranian-cyber-espionage.html",
@@ -17,11 +20,12 @@
                     "source_name": "FireEye APT33 Sept 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--db1355a7-e5c9-4e2c-8da7-eccf2ae9bf5c",
-            "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

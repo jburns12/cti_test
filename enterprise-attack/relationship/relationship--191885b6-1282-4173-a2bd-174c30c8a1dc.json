@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--5d212581-8bad-4cc5-aa25-a1ae2feff047",
+    "id": "bundle--52aad148-db07-462f-bced-ee54dbdfc947",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--191885b6-1282-4173-a2bd-174c30c8a1dc",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "Variants of [WEBC2](https://attack.mitre.org/software/S0109) achieve persistence by using DLL search order hijacking, usually by copying the DLL file to <code>%SYSTEMROOT%</code> (<code>C:\\WINDOWS\\ntshrui.dll</code>).",
+            "source_ref": "malware--1d808f62-cf63-4063-9727-ff6132514c22",
+            "target_ref": "attack-pattern--46944654-fcc1-4f63-9dad-628102376586",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report-appendix.zip",
@@ -17,11 +20,12 @@
                     "source_name": "Mandiant APT1 Appendix"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--1d808f62-cf63-4063-9727-ff6132514c22",
-            "target_ref": "attack-pattern--46944654-fcc1-4f63-9dad-628102376586"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--4da30a3c-f9d0-44be-9464-a46023fd5b5c",
+    "id": "bundle--01dc6a97-2390-4685-9628-5a9225dc847d",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--e35a6a79-0ffc-4835-aaf8-e42dd20a7e45",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Patchwork](https://attack.mitre.org/group/G0040) has used spearphishing with links to deliver files with exploits to initial victims.",
+            "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
+            "target_ref": "attack-pattern--20138b9d-1aac-4a26-8654-a36b6bbf2bba",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://www.symantec.com/connect/blogs/patchwork-cyberespionage-group-expands-targets-governments-wide-range-industries",
@@ -17,11 +20,12 @@
                     "source_name": "Symantec Patchwork"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
-            "target_ref": "attack-pattern--20138b9d-1aac-4a26-8654-a36b6bbf2bba"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--2a488730-41e6-4864-a85d-a1c150520050",
+    "id": "bundle--7ccd98e6-226b-4965-878e-f794c6abcc68",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--deafd60c-af1a-40eb-bc43-287b37553fae",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[PlugX](https://attack.mitre.org/software/S0013) can use the Windows API function CreateProcess to execute another process.",
+            "source_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",
+            "target_ref": "attack-pattern--391d824f-0ef1-47a0-b0ee-c59a75e27670",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://labs.lastline.com/an-analysis-of-plugx",
@@ -17,11 +20,12 @@
                     "source_name": "Lastline PlugX Analysis"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",
-            "target_ref": "attack-pattern--391d824f-0ef1-47a0-b0ee-c59a75e27670"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

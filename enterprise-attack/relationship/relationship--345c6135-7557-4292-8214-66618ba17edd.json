@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--3d8ededa-d936-47fa-83a7-c8c33ec6cb54",
+    "id": "bundle--8a72ca36-668f-4392-828b-bb5d720b53a8",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--345c6135-7557-4292-8214-66618ba17edd",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[RARSTONE](https://attack.mitre.org/software/S0055) uses SSL to encrypt its communication with its C2 server.",
+            "source_ref": "malware--8c553311-0baa-4146-997a-f79acef3d831",
+            "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://blog.trendmicro.com/trendlabs-security-intelligence/rarstone-found-in-targeted-attacks/",
@@ -17,11 +20,12 @@
                     "source_name": "Aquino RARSTONE"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--8c553311-0baa-4146-997a-f79acef3d831",
-            "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

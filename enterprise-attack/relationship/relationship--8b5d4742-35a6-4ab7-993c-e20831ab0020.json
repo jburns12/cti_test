@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--328d1f44-9926-4be8-85a1-0848a65b03ca",
+    "id": "bundle--70b7c13c-603a-433e-951f-37a69c9d6dd5",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--8b5d4742-35a6-4ab7-993c-e20831ab0020",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Janicab](https://attack.mitre.org/software/S0163) captured audio and sent it out to a C2 server.",
+            "source_ref": "malware--234e7770-99b0-4f65-b983-d3230f76a60b",
+            "target_ref": "attack-pattern--1035cdf2-3e5f-446f-a7a7-e8f6d7925967",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://www.thesafemac.com/new-signed-malware-called-janicab/",
@@ -22,11 +25,12 @@
                     "source_name": "f-secure janicab"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--234e7770-99b0-4f65-b983-d3230f76a60b",
-            "target_ref": "attack-pattern--1035cdf2-3e5f-446f-a7a7-e8f6d7925967"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--66f3f5dc-d9d2-4cd3-a19d-0a8e3346bb21",
+    "id": "bundle--de32ac45-c503-446f-9968-73493146251e",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--1334cbe3-8613-4279-9a1f-58781c2656a4",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-01-16T21:43:14.128Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[APT3](https://attack.mitre.org/group/G0022) has been known to brute force password hashes to be able to leverage plain text credentials.",
+            "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
+            "target_ref": "attack-pattern--a93494bb-4b80-4ea1-8695-3236a49916fd",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://attack.mitre.org/w/img%20auth.php/6/6c/APT3%20Adversary%20Emulation%20Plan.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "APT3 Adversary Emulation Plan"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
-            "target_ref": "attack-pattern--a93494bb-4b80-4ea1-8695-3236a49916fd"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-01-16T21:43:14.128Z"
         }
     ]
 }

@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--288a258d-48f8-496e-b264-5ff0486152df",
+    "id": "bundle--47b5e8b3-a2e8-46cf-a03c-b4e1705efc4f",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--a549ccf7-8610-4cf8-80d7-98491566c0cd",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[ZeroT](https://attack.mitre.org/software/S0230) has used HTTP for C2.",
+            "source_ref": "malware--4ab44516-ad75-4e43-a280-705dc0420e2f",
+            "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.proofpoint.com/us/threat-insight/post/apt-targets-financial-analysts",
@@ -22,11 +25,12 @@
                     "source_name": "Proofpoint ZeroT Feb 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--4ab44516-ad75-4e43-a280-705dc0420e2f",
-            "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

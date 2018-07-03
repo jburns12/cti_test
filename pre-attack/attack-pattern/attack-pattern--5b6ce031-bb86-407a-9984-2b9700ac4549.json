@@ -1,22 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--55e1a6c4-6516-4f53-9d6c-8616c067c8e0",
+    "id": "bundle--a4aa625b-1b1f-4f45-aabb-e10e88d4feab",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "attack-pattern",
             "id": "attack-pattern--5b6ce031-bb86-407a-9984-2b9700ac4549",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Identify business relationships",
             "description": "Business relationship information includes the associates of a target and may be discovered via social media sites such as [https://www.linkedin.com LinkedIn] or public press releases announcing new partnerships between organizations or people (such as key hire announcements in industry articles).  This information may be used by an adversary to shape social engineering attempts (exploiting who a target expects to hear from) or to plan for technical actions such as exploiting network trust relationship. (Citation: RSA-APTRecon) (Citation: Scasny2015)",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "people-information-gathering",
-                    "kill_chain_name": "mitre-pre-attack"
-                }
-            ],
             "external_references": [
                 {
                     "external_id": "PRE-T1049",
@@ -34,7 +25,20 @@
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ]
+            ],
+            "x_mitre_detectable_by_common_defenses": "No",
+            "x_mitre_detectable_by_common_defenses_explanation": "Searching publicly available sources that cannot be monitored by a defender.  Much of this information is widely known and difficult to obscure.",
+            "x_mitre_difficulty_for_adversary": "Yes",
+            "x_mitre_difficulty_for_adversary_explanation": "Made easier by today's current social media.",
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "people-information-gathering",
+                    "kill_chain_name": "mitre-pre-attack"
+                }
+            ],
+            "modified": "2018-07-03T14:44:41.004Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

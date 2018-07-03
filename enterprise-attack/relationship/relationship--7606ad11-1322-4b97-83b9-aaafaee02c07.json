@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--842c6b88-bca6-4101-a362-85c872834a5e",
+    "id": "bundle--573d8d32-858a-4ab1-bca5-ae5608e41b8c",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--7606ad11-1322-4b97-83b9-aaafaee02c07",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[APT28](https://attack.mitre.org/group/G0007) has used legitimate credentials to maintain access to a victim network and exfiltrate data.",
+            "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
+            "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://documents.trendmicro.com/assets/wp/wp-two-years-of-pawn-storm.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "Trend Micro Pawn Storm April 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
-            "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-12-14T16:46:06.044Z"
         }
     ]
 }

@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--f16fca0b-d1ef-4f6b-a6f7-28dc68154c51",
+    "id": "bundle--04cc37e9-3d0f-46ca-940b-2a91eb994210",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--69682171-e717-4af7-a24a-06a39f381641",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-07-03T15:59:25.077Z",
+            "relationship_type": "uses",
             "description": "[Threat Group-3390](https://attack.mitre.org/wiki/Group/G0027) actors use nbtscan to discover vulnerable systems.",
+            "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
+            "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "source_name": "Dell TG-3390",
@@ -17,11 +20,12 @@
                     "url": "http://www.secureworks.com/cyber-threat-intelligence/threats/threat-group-3390-targets-organizations-for-cyberespionage/"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
-            "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0"
+            "type": "relationship",
+            "modified": "2018-07-03T15:59:25.077Z",
+            "created": "2017-12-14T16:46:06.044Z",
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
+            ]
         }
     ]
 }

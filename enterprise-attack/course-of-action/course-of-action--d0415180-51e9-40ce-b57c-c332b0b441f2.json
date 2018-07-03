@@ -1,14 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--290ce458-64fe-4a00-9eb2-cdbb34a613e0",
+    "id": "bundle--ac96f5d1-4f78-4934-b5dc-d78a2138103b",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "course-of-action",
             "id": "course-of-action--d0415180-51e9-40ce-b57c-c332b0b441f2",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-07-03T13:33:43.876Z",
-            "modified": "2018-07-03T13:33:43.876Z",
             "name": "PowerShell Mitigation",
             "description": "It may be possible to remove PowerShell from systems when not needed, but a review should be performed to assess the impact to an environment, since it could be in use for many legitimate purposes and administrative functions. When PowerShell is necessary, restrict PowerShell execution policy to administrators and to only execute signed scripts. Be aware that there are methods of bypassing the PowerShell execution policy, depending on environment configuration. (Citation: Netspi PowerShell Execution Policy Bypass) Disable/restrict the WinRM Service to help prevent uses of PowerShell for remote execution.",
             "external_references": [
@@ -22,7 +19,10 @@
                     "description": "Sutherland, S. (2014, September 9). 15 Ways to Bypass the PowerShell Execution Policy. Retrieved July 23, 2015.",
                     "source_name": "Netspi PowerShell Execution Policy Bypass"
                 }
-            ]
+            ],
+            "type": "course-of-action",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-07-03T13:33:43.876Z"
         }
     ]
 }

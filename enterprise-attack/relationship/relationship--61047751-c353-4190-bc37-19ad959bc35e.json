@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--55e6f881-9efd-4b33-b32f-8357530d4a07",
+    "id": "bundle--8157e760-9a9a-4402-96b0-a04f9a99ca2c",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--61047751-c353-4190-bc37-19ad959bc35e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Gazer](https://attack.mitre.org/software/S0168) communicates with its C2 servers over HTTP.",
+            "source_ref": "malware--76abb3ef-dafd-4762-97cb-a35379429db4",
+            "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.welivesecurity.com/wp-content/uploads/2017/08/eset-gazer.pdf",
@@ -17,11 +20,12 @@
                     "source_name": "ESET Gazer Aug 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--76abb3ef-dafd-4762-97cb-a35379429db4",
-            "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-01-16T16:13:52.465Z"
         }
     ]
 }

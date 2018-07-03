@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--f7ff344e-e384-42e7-98a3-90843273cf41",
+    "id": "bundle--054de613-1425-40ba-934d-d556f8d4116b",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--d36e441f-3455-4373-a1e9-be28f3d50c76",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Magic Hound](https://attack.mitre.org/group/G0059) sent malicious attachments to victims over email, including an Excel spreadsheet containing macros to download Pupy.",
+            "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+            "target_ref": "attack-pattern--6aac77c4-eaf2-4366-8c13-ce50ab951f38",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "https://www.secureworks.com/research/the-curious-case-of-mia-ash",
@@ -17,11 +20,12 @@
                     "source_name": "SecureWorks Mia Ash July 2017"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
-            "target_ref": "attack-pattern--6aac77c4-eaf2-4366-8c13-ce50ab951f38"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }

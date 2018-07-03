@@ -1,15 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--6a0257d2-6b77-4f26-be2c-ee82d18aa090",
+    "id": "bundle--062d609c-6049-4375-abe1-112498f6e97e",
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "relationship",
             "id": "relationship--e795d8ec-a11c-4809-a70a-46aa033fec82",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "relationship_type": "uses",
             "description": "[Chaos](https://attack.mitre.org/software/S0220) provides a reverse shell is triggered upon receipt of a packet with a special string, sent to any port.",
+            "source_ref": "malware--5bcd5511-6756-4824-a692-e8bb109364af",
+            "target_ref": "attack-pattern--451a9977-d255-43c9-b431-66de80130c8c",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "url": "http://gosecure.net/2018/02/14/chaos-stolen-backdoor-rising/",
@@ -17,11 +20,12 @@
                     "source_name": "Chaos Stolen Backdoor"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            "x_mitre_collections": [
+                "95ecc380-afe9-11e4-9b6c-751b66dd541e"
             ],
-            "source_ref": "malware--5bcd5511-6756-4824-a692-e8bb109364af",
-            "target_ref": "attack-pattern--451a9977-d255-43c9-b431-66de80130c8c"
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2018-04-18T17:59:24.739Z"
         }
     ]
 }
