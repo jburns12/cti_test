@@ -1,0 +1,20 @@
+{
+    "type": "bundle",
+    "id": "bundle--27a252c0-2965-41c7-82c3-e0e5677995e2",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--3cdc74fc-a291-4253-98b4-ca33e021914a",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "relationship_type": "uses",
+            "source_ref": "intrusion-set--df71bb3b-813c-45eb-a8bc-f2a419837411",
+            "target_ref": "malware--687c23e4-4e25-4ee7-a870-c5e002511f54",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "type": "relationship",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "created": "2017-05-31T21:33:27.055Z"
+        }
+    ]
+}
