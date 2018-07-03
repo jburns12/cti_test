@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--509db592-2477-4d6b-a8cf-84110f0acc3c",
+    "id": "bundle--8e0ce1c0-bb85-496a-baa9-ac55ea5f91a1",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--a73f9ed3-7f51-4709-a63f-f5ef59aa25cf",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Threat Group-3390](https://attack.mitre.org/wiki/Group/G0027) has used RAR to compress, encrypt, and password-protect files prior to exfiltration.",
+            "description": "[Threat Group-3390](https://attack.mitre.org/group/G0027) has used RAR to compress, encrypt, and password-protect files prior to exfiltration.",
             "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
             "target_ref": "attack-pattern--b9f5dbe2-4c55-4fc5-af2e-d42c1d182ec4",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T15:59:25.247Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "created": "2017-05-31T21:33:27.061Z"
         }
     ]

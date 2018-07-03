@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--dc011fd9-a6c5-4296-adff-6c1d223d91ac",
+    "id": "bundle--f1b4e5e8-15cc-4281-ad39-0e6a5045c7a4",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--2a93ea80-d0f6-4b81-887d-8911f7573245",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Threat Group-3390](https://attack.mitre.org/wiki/Group/G0027) actors have used DLL side-loading. Actors have used legitimate Kaspersky anti-virus variants in which the DLL acts as a stub loader that loads and executes the shell code.",
+            "description": "[Threat Group-3390](https://attack.mitre.org/group/G0027) actors have used DLL side-loading. Actors have used legitimate Kaspersky anti-virus variants in which the DLL acts as a stub loader that loads and executes the shell code.",
             "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
             "target_ref": "attack-pattern--b2001907-166b-4d71-bb3c-9d26c871de09",
             "object_marking_refs": [
@@ -15,9 +15,9 @@
             ],
             "external_references": [
                 {
-                    "source_name": "Dell TG-3390",
+                    "url": "http://www.secureworks.com/cyber-threat-intelligence/threats/threat-group-3390-targets-organizations-for-cyberespionage/",
                     "description": "Dell SecureWorks Counter Threat Unit Threat Intelligence. (2015, August 5). Threat Group-3390 Targets Organizations for Cyberespionage. Retrieved January 25, 2016.",
-                    "url": "http://www.secureworks.com/cyber-threat-intelligence/threats/threat-group-3390-targets-organizations-for-cyberespionage/"
+                    "source_name": "Dell TG-3390"
                 },
                 {
                     "url": "https://www.secureworks.com/research/bronze-union",
@@ -26,7 +26,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T15:59:24.849Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "created": "2017-05-31T21:33:27.061Z"
         }
     ]

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--e89fa731-edc0-4b09-92ab-83eeec2d1b38",
+    "id": "bundle--b6821c4c-fa96-4510-8f85-ee1b2e62a259",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--aec0a948-428f-4327-b466-a0472da12928",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Threat Group-3390](https://attack.mitre.org/wiki/Group/G0027) ran a command to compile an archive of file types of interest from the victim user's directories.",
+            "description": "[Threat Group-3390](https://attack.mitre.org/group/G0027) ran a command to compile an archive of file types of interest from the victim user's directories.",
             "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
             "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T15:59:25.085Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "created": "2017-05-31T21:33:27.062Z"
         }
     ]

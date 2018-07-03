@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--58f827e2-d1d8-4842-96aa-9ff8e35e6def",
+    "id": "bundle--9a1e77cf-5908-4587-a053-3bdee3036404",
     "spec_version": "2.0",
     "objects": [
         {
@@ -23,7 +23,7 @@
                 "Process monitoring",
                 "Application Logs"
             ],
-            "x_mitre_detection": "Detecting software exploitation may be difficult depending on the tools available. Software exploits may not always succeed or may cause the exploited process to become unstable or crash. Also look for behavior on the endpoint system that might indicate successful compromise, such as abnormal behavior of the processes. This could include suspicious files written to disk, evidence of [Windows Admin Shares Mitigation](https://attack.mitre.org/technique/T1077) for attempts to hide execution or evidence of Discovery.\n\nHigher privileges are often necessary to perform additional actions such as some methods of [Windows Admin Shares Mitigation](https://attack.mitre.org/technique/T1077). Look for additional activity that may indicate an adversary has gained higher privileges.",
+            "x_mitre_detection": "Detecting software exploitation may be difficult depending on the tools available. Software exploits may not always succeed or may cause the exploited process to become unstable or crash. Also look for behavior on the endpoint system that might indicate successful compromise, such as abnormal behavior of the processes. This could include suspicious files written to disk, evidence of [Net](https://attack.mitre.org/software/S0039) for attempts to hide execution or evidence of Discovery.\n\nHigher privileges are often necessary to perform additional actions such as some methods of [Net](https://attack.mitre.org/software/S0039). Look for additional activity that may indicate an adversary has gained higher privileges.",
             "x_mitre_effective_permissions": [
                 "User"
             ],

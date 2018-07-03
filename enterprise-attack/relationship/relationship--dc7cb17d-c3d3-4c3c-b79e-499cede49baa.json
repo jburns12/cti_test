@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--1f5b10f7-0aae-4043-b0f1-488b981ab754",
+    "id": "bundle--0c7e57a0-7f0f-44c4-9070-613f77d0ddb7",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--dc7cb17d-c3d3-4c3c-b79e-499cede49baa",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Threat Group-3390](https://attack.mitre.org/wiki/Group/G0027) has detached network shares after exfiltrating files, likely to evade detection.",
+            "description": "[Threat Group-3390](https://attack.mitre.org/group/G0027) has detached network shares after exfiltrating files, likely to evade detection.",
             "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
             "target_ref": "attack-pattern--e7eab98d-ae11-4491-bd28-a53ba875865a",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T15:59:25.315Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

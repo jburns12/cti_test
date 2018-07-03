@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--44d5d720-74bd-49b2-a296-6378b8cbfc63",
+    "id": "bundle--57b02c77-88bd-42dd-a25b-4bf27f65a01b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,32 +8,36 @@
             "id": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Threat Group-3390",
-            "description": "[Threat Group-3390](https://attack.mitre.org/wiki/Group/G0027) is a Chinese threat group that has extensively used strategic Web compromises to target victims. (Citation: Dell TG-3390) The group has targeted organizations in the aerospace, government, defense, technology, energy, and manufacturing sectors. (Citation: SecureWorks BRONZE UNION June 2017)",
+            "description": "[Threat Group-3390](https://attack.mitre.org/group/G0027) is a Chinese threat group that has extensively used strategic Web compromises to target victims. (Citation: Dell TG-3390) The group has targeted organizations in the aerospace, government, defense, technology, energy, and manufacturing sectors. (Citation: SecureWorks BRONZE UNION June 2017)",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
-                    "source_name": "TG-3390",
-                    "description": "(Citation: Dell TG-3390)"
-                },
-                {
-                    "source_name": "Emissary Panda",
-                    "description": "(Citation: Gallagher 2015)"
-                },
-                {
-                    "source_name": "BRONZE UNION",
-                    "description": "(Citation: SecureWorks BRONZE UNION June 2017)"
-                },
-                {
                     "external_id": "G0027",
-                    "url": "https://attack.mitre.org/wiki/Group/G0027",
+                    "url": "https://attack.mitre.org/group/G0027",
                     "source_name": "mitre-attack"
                 },
                 {
-                    "source_name": "Dell TG-3390",
+                    "description": "(Citation: Dell TG-3390)",
+                    "source_name": "Threat Group-3390"
+                },
+                {
+                    "description": "(Citation: Dell TG-3390)",
+                    "source_name": "TG-3390"
+                },
+                {
+                    "description": "(Citation: Gallagher 2015)",
+                    "source_name": "Emissary Panda"
+                },
+                {
+                    "description": "(Citation: SecureWorks BRONZE UNION June 2017)",
+                    "source_name": "BRONZE UNION"
+                },
+                {
+                    "url": "http://www.secureworks.com/cyber-threat-intelligence/threats/threat-group-3390-targets-organizations-for-cyberespionage/",
                     "description": "Dell SecureWorks Counter Threat Unit Threat Intelligence. (2015, August 5). Threat Group-3390 Targets Organizations for Cyberespionage. Retrieved January 25, 2016.",
-                    "url": "http://www.secureworks.com/cyber-threat-intelligence/threats/threat-group-3390-targets-organizations-for-cyberespionage/"
+                    "source_name": "Dell TG-3390"
                 },
                 {
                     "url": "https://www.secureworks.com/research/bronze-union",
@@ -52,7 +56,7 @@
                 "Emissary Panda",
                 "BRONZE UNION"
             ],
-            "modified": "2018-07-03T15:59:24.041Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "created": "2017-05-31T21:31:58.518Z"
         }
     ]
