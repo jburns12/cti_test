@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ba2a51f9-5e0b-4149-94a6-31ef1620f662",
+    "id": "bundle--31655b8f-a556-42cd-94ce-c0b687669bc5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -30,6 +30,7 @@
                 "Process monitoring"
             ],
             "x_mitre_detection": "Compression software and compressed files can be detected in many ways. Common utilities that may be present on the system or brought in by an adversary may be detectable through process monitoring and monitoring for command-line arguments for known compression utilities. This may yield a significant amount of benign events, depending on how systems in the environment are typically used.\n\nIf the communications channel is unencrypted, compressed files can be detected in transit during exfiltration with a network intrusion detection or data loss prevention system analyzing file headers. (Citation: Wikipedia File Header Signatures)",
+            "x_mitre_network_requirements": false,
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",

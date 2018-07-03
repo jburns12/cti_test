@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c840a87b-59de-4bdc-bccd-92201c493d2c",
+    "id": "bundle--48a2b36c-21ab-43b4-99c0-6bc13e11301c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -23,6 +23,7 @@
                 "Data loss prevention"
             ],
             "x_mitre_detection": "Monitor file access on removable media. Detect processes that execute when removable media is mounted.",
+            "x_mitre_network_requirements": false,
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",

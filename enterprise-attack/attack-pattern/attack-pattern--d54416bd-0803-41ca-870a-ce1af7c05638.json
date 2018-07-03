@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b72dfa60-23f7-4d82-a0a6-fe0dcd8f250f",
+    "id": "bundle--283d45fd-9c15-466a-80c8-22eba51cdc06",
     "spec_version": "2.0",
     "objects": [
         {
@@ -35,6 +35,7 @@
                 "Process monitoring"
             ],
             "x_mitre_detection": "Encryption software and encrypted files can be detected in many ways. Common utilities that may be present on the system or brought in by an adversary may be detectable through process monitoring and monitoring for command-line arguments for known encryption utilities. This may yield a significant amount of benign events, depending on how systems in the environment are typically used. Often the encryption key is stated within command-line invocation of the software. \n\nA process that loads the Windows DLL crypt32.dll may be used to perform encryption, decryption, or verification of file signatures. \n\nNetwork traffic may also be analyzed for entropy to determine if encrypted data is being transmitted. (Citation: Zhang 2013) If the communications channel is unencrypted, encrypted files of known file types can be detected in transit during exfiltration with a network intrusion detection or data loss prevention system analyzing file headers. (Citation: Wikipedia File Header Signatures)",
+            "x_mitre_network_requirements": false,
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",
