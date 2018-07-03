@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--e1e07961-1af7-4d79-87bd-c9d6fca60748",
+    "id": "bundle--91e36b3c-634a-416e-a279-d665cb591fef",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--2ec57bf1-fcc3-4c19-9516-79b7fde483af",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Untargeted client-side exploitation",
-            "description": "A technique that takes advantage of flaws in client-side applications without targeting specific users. For example, an exploit placed on an often widely used public web site intended for drive-by delivery to whomever visits the site. (Citation: CitizenLabGreatCannon)",
+            "description": "This technique has been deprecated. Please see ATT&CK's Initial Access and Execution tactics for replacement techniques.\n\nA technique that takes advantage of flaws in client-side applications without targeting specific users. For example, an exploit placed on an often widely used public web site intended for drive-by delivery to whomever visits the site. (Citation: CitizenLabGreatCannon)",
             "external_references": [
                 {
                     "external_id": "PRE-T1147",
@@ -23,6 +23,7 @@
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "x_mitre_detectable_by_common_defenses": "Yes",
+            "x_mitre_deprecated": "true",
             "x_mitre_detectable_by_common_defenses_explanation": "Defensive technologies exist to scan web content before delivery to the requested end user.  However, this is not fool proof as some sites encrypt web communications and the adversary constantly moves to sites not previously flagged as malicious thus defeating this defense.  Host-based defenses can also aid in detection/mitigation as well as detection by the web site that got compromised.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Commonly executed technique to place an exploit on an often widely used public web site intended for driveby delivery.",
@@ -33,7 +34,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-07-03T14:44:41.004Z",
+            "modified": "2018-07-03T21:43:15.705Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

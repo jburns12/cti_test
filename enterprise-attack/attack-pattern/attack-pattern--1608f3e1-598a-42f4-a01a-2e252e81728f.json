@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--70f5e494-5444-4430-9e4f-5647eb97cac2",
+    "id": "bundle--dab7fc1b-48a0-44da-aa93-5dde67338901",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
                 "Process monitoring",
                 "Process use of network"
             ],
-            "x_mitre_detection": "There are likely a variety of ways an adversary could collect email from a target, each with a different mechanism for detection.\n\nFile access of local system email files for Exfiltration, unusual processes connecting to an email server within a network, or unusual access patterns or authentication attempts on a public-facing webmail server may all be indicators of malicious activity.\n\nMonitor processes and command-line arguments for actions that could be taken to gather local email files. Remote access tools with built-in features may interact directly with the Windows API to gather information. Information may also be acquired through Windows system management tools such as [Pass the Hash Mitigation](https://attack.mitre.org/technique/T1075) and [Pass the Hash Mitigation](https://attack.mitre.org/technique/T1075).",
+            "x_mitre_detection": "There are likely a variety of ways an adversary could collect email from a target, each with a different mechanism for detection.\n\nFile access of local system email files for Exfiltration, unusual processes connecting to an email server within a network, or unusual access patterns or authentication attempts on a public-facing webmail server may all be indicators of malicious activity.\n\nMonitor processes and command-line arguments for actions that could be taken to gather local email files. Remote access tools with built-in features may interact directly with the Windows API to gather information. Information may also be acquired through Windows system management tools such as [Dynamic Data Exchange Mitigation](https://attack.mitre.org/technique/T1173) and [Dynamic Data Exchange Mitigation](https://attack.mitre.org/technique/T1173).",
             "x_mitre_platforms": [
                 "Windows"
             ],
