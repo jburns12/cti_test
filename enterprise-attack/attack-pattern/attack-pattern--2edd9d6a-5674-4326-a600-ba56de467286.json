@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--25fc2c9a-3545-4fe7-aba0-663daf04d7e6",
+    "id": "bundle--fe38b0ad-08b7-4155-9068-74e15d5a7680",
     "spec_version": "2.0",
     "objects": [
         {
@@ -31,7 +31,7 @@
                 "Process command-line parameters",
                 "Process Monitoring"
             ],
-            "x_mitre_detection": "Monitor processes for applications that can be used to query the Registry, such as [Process Injection Mitigation](https://attack.mitre.org/technique/T1055), and collect command parameters that may indicate credentials are being searched. Correlate activity with related suspicious behavior that may indicate an active intrusion to reduce false positives.",
+            "x_mitre_detection": "Monitor processes for applications that can be used to query the Registry, such as [HTRAN](https://attack.mitre.org/software/S0040), and collect command parameters that may indicate credentials are being searched. Correlate activity with related suspicious behavior that may indicate an active intrusion to reduce false positives.",
             "x_mitre_permissions_required": [
                 "User",
                 "Administrator"
