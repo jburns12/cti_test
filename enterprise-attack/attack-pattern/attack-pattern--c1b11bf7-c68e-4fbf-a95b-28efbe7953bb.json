@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3ce0dd0f-7dd3-4aec-a424-4310be75d3b9",
+    "id": "bundle--b2290af7-744d-4a40-864a-bcebd2f2ea55",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--c1b11bf7-c68e-4fbf-a95b-28efbe7953bb",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "SSH Hijacking",
-            "description": "Secure Shell (SSH) is a standard means of remote access on Linux and Mac systems. It allows a user to connect to another system via an encrypted tunnel, commonly authenticating through a password, certificate or the use of an asymmetric encryption key pair.\n\nIn order to move laterally from a compromised host, adversaries may take advantage of trust relationships established with other systems via public key authentication in active SSH sessions by hijacking an existing connection to another system. This may occur through compromising the SSH agent itself or by having access to the agent's socket. If an adversary is able to obtain root access, then hijacking SSH sessions is likely trivial. (Citation: Slideshare Abusing SSH) (Citation: SSHjack Blackhat) (Citation: Clockwork SSH Agent Hijacking) Compromising the SSH agent also provides access to intercept SSH credentials. (Citation: Welivesecurity Ebury SSH)\n\nSSH Hijacking Mitigation differs from use of Remote Services Mitigation because it injects into an existing SSH session rather than creating a new session using Valid Accounts Mitigation.",
+            "description": "Secure Shell (SSH) is a standard means of remote access on Linux and Mac systems. It allows a user to connect to another system via an encrypted tunnel, commonly authenticating through a password, certificate or the use of an asymmetric encryption key pair.\n\nIn order to move laterally from a compromised host, adversaries may take advantage of trust relationships established with other systems via public key authentication in active SSH sessions by hijacking an existing connection to another system. This may occur through compromising the SSH agent itself or by having access to the agent's socket. If an adversary is able to obtain root access, then hijacking SSH sessions is likely trivial. (Citation: Slideshare Abusing SSH) (Citation: SSHjack Blackhat) (Citation: Clockwork SSH Agent Hijacking) Compromising the SSH agent also provides access to intercept SSH credentials. (Citation: Welivesecurity Ebury SSH)\n\n[SSH Hijacking Mitigation](https://attack.mitre.org/technique/T1184) differs from use of [Remote Services Mitigation](https://attack.mitre.org/technique/T1021) because it injects into an existing SSH session rather than creating a new session using [Valid Accounts Mitigation](https://attack.mitre.org/technique/T1078).",
             "kill_chain_phases": [
                 {
                     "phase_name": "lateral-movement",
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "T1184",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1184",
+                    "url": "https://attack.mitre.org/technique/T1184",
                     "source_name": "mitre-attack"
                 },
                 {

@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--d8cab640-4caa-4b81-8ffb-61434fcbbc96",
+    "id": "bundle--aeb8e1a6-53d3-456d-b68e-c7ae584bee3d",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--1e614ba5-2fc5-4464-b512-2ceafb14d76d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Indirect Command Execution Mitigation",
             "description": "Identify or block potentially malicious software that may contain abusive functionality by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP). These mechanisms can also be used to disable and/or limit user access to Windows utilities used to invoke execution.",
             "external_references": [
                 {
                     "external_id": "T1202",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1202",
+                    "url": "https://attack.mitre.org/technique/T1202",
                     "source_name": "mitre-attack"
                 },
                 {

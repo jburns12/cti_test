@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--b20b8e0c-4968-4d9b-947d-9fcfb34cd905",
+    "id": "bundle--5c6775f6-9783-4c35-9f43-10ca8eb20fbb",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--51b37302-b844-4c08-ac98-ae6955ed1f55",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Screen Capture Mitigation",
             "description": "Blocking software based on screen capture functionality may be difficult, and there may be legitimate software that performs those actions. Instead, identify potentially malicious software that may have functionality to acquire screen captures, and audit and/or block it by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
             "external_references": [
                 {
                     "external_id": "T1113",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1113",
+                    "url": "https://attack.mitre.org/technique/T1113",
                     "source_name": "mitre-attack"
                 },
                 {

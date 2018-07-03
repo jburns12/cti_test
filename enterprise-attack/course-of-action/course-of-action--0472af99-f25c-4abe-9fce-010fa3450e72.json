@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--18cdd2f0-f6bf-407a-a984-4b901dbe4af3",
+    "id": "bundle--de560b57-b48e-4e18-92d3-dbbd8a6ce872",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--0472af99-f25c-4abe-9fce-010fa3450e72",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Credentials in Files Mitigation",
             "description": "Establish an organizational policy that prohibits password storage in files. Ensure that developers and system administrators are aware of the risk associated with having plaintext passwords in software configuration files that may be left on endpoint systems or servers. Preemptively search for files containing passwords and remove when found. Restrict file shares to specific directories with access only to necessary users. Remove vulnerable Group Policy Preferences. (Citation: Microsoft MS14-025)",
             "external_references": [
                 {
                     "external_id": "T1081",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1081",
+                    "url": "https://attack.mitre.org/technique/T1081",
                     "source_name": "mitre-attack"
                 },
                 {

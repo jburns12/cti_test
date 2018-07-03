@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2a2531e0-c44e-4368-9162-dc56c9f94955",
+    "id": "bundle--cc72e2ea-18c9-4d66-9078-46767ebe6daa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--e8471f43-2742-4fd7-9af7-8ed1330ada37",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Upload, install, and configure software/tools",
             "description": "An adversary may stage software and tools for use during later stages of an attack. The software and tools may be placed on systems legitimately in use by the adversary or may be placed on previously compromised infrastructure. (Citation: APT1) (Citation: RedOctober)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1139",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1139",
+                    "url": "https://attack.mitre.org/technique/PRE-T1139",
                     "source_name": "mitre-pre-attack"
                 },
                 {

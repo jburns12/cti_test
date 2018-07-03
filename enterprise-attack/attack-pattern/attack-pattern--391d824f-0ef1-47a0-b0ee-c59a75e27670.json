@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d96396be-6b74-436c-8e45-f45d783af2fe",
+    "id": "bundle--b13aaf66-d8f5-468b-af3c-cd3a74a3c64d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--391d824f-0ef1-47a0-b0ee-c59a75e27670",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:31:17.472Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Execution through API",
             "description": "Adversary tools may directly use the Windows application programming interface (API) to execute binaries. Functions such as the Windows API CreateProcess will allow programs and scripts to start other processes with proper path and argument parameters. (Citation: Microsoft CreateProcess)\n\nAdditional Windows API calls that can be used to execute binaries include: (Citation: Kanthak Verifier)\n\n*CreateProcessA() and CreateProcessW(),\n*CreateProcessAsUserA() and CreateProcessAsUserW(),\n*CreateProcessInternalA() and CreateProcessInternalW(),\n*CreateProcessWithLogonW(), CreateProcessWithTokenW(),\n*LoadLibraryA() and LoadLibraryW(),\n*LoadLibraryExA() and LoadLibraryExW(),\n*LoadModule(),\n*LoadPackagedLibrary(),\n*WinExec(),\n*ShellExecuteA() and ShellExecuteW(),\n*ShellExecuteExA() and ShellExecuteExW()",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "T1106",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1106",
+                    "url": "https://attack.mitre.org/technique/T1106",
                     "source_name": "mitre-attack"
                 },
                 {

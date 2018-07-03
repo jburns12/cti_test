@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--090a751c-7125-449c-9aae-8299cf6ab290",
+    "id": "bundle--28e6a65c-977c-425c-82f1-9bd21bf2a4bc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,8 +8,8 @@
             "id": "relationship--907df22e-fdfe-4b93-8b18-ebf66f83868c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-27T14:18:47.700Z",
-            "description": "S-Type may create the file <code>%HOMEPATH%\\Start Menu\\Programs\\Startup\\Realtek {Unique Identifier}.lnk</code>, which points to the malicious msdtc.exe file already created in the %CommonFiles% directory.",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "description": "[S-Type](https://attack.mitre.org/software/S0085) may create the file <code>%HOMEPATH%\\Start Menu\\Programs\\Startup\\Realtek {Unique Identifier}.lnk</code>, which points to the malicious msdtc.exe file already created in the %CommonFiles% directory.",
             "external_references": [
                 {
                     "url": "https://www.cylance.com/content/dam/cylance/pdfs/reports/Op%20Dust%20Storm%20Report.pdf",

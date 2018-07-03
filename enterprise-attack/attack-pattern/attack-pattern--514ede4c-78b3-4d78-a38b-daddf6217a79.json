@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8bd61bec-6121-43c4-8fb5-7336283ea15a",
+    "id": "bundle--6cd64188-0f4f-4139-821f-303a3db1448c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--514ede4c-78b3-4d78-a38b-daddf6217a79",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:30:20.148Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Winlogon Helper DLL",
             "description": "Winlogon.exe is a Windows component responsible for actions at logon/logoff as well as the secure attention sequence (SAS) triggered by Ctrl-Alt-Delete. Registry entries in <code>HKLM\\Software\\[Wow6432Node\\]Microsoft\\Windows NT\\CurrentVersion\\Winlogon\\</code> and <code>HKCU\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon\\</code> are used to manage additional helper programs and functionalities that support Winlogon. (Citation: Cylance Reg Persistence Sept 2013) \n\nMalicious modifications to these Registry keys may cause Winlogon to load and execute malicious DLLs and/or executables. Specifically, the following subkeys have been known to be possibly vulnerable to abuse: (Citation: Cylance Reg Persistence Sept 2013)\n* Winlogon\\Notify - points to notification package DLLs that handle Winlogon events\n* Winlogon\\Userinit - points to userinit.exe, the user initialization program executed when a user logs on\n* Winlogon\\Shell - points to explorer.exe, the system shell executed when a user logs on\n\nAdversaries may take advantage of these features to repeatedly execute malicious code and establish Persistence.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "T1004",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1004",
+                    "url": "https://attack.mitre.org/technique/T1004",
                     "source_name": "mitre-attack"
                 },
                 {

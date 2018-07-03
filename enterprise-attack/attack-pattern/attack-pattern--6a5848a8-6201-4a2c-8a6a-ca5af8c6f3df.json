@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--71f48337-90e2-4d22-82c0-25a2137e7ede",
+    "id": "bundle--fe8ffc78-2af5-4cf5-8659-d7f447984950",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--6a5848a8-6201-4a2c-8a6a-ca5af8c6f3df",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:30:47.384Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Indicator Blocking",
             "description": "An adversary may attempt to block indicators or events from leaving the host machine. In the case of network-based reporting of indicators, an adversary may block traffic associated with reporting to prevent central analysis. This may be accomplished by many means, such as stopping a local process or creating a host-based firewall rule to block traffic to a specific server.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "T1054",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1054",
+                    "url": "https://attack.mitre.org/technique/T1054",
                     "source_name": "mitre-attack"
                 }
             ],

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--826be106-2024-4744-b737-d5166e63065b",
+    "id": "bundle--e76dc7db-e526-4eb0-a7e6-660e1f243c9f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--8f142a25-f6c3-4520-bd50-2ae3ab50ed3e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-10-25T14:48:17.533Z",
-            "modified": "2018-06-18T15:59:03.864Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "URL Scheme Hijacking",
             "description": "An iOS application may be able to maliciously claim a URL scheme, allowing it to intercept calls that are meant for a different application. This technique, for example, could be used to capture OAuth authorization codes as described in  (Citation: IETF-PKCE) or to phish user credentials as described in  (Citation: MobileIron-XARA). Related potential security implications are described in  (Citation: Dhanjani-URLScheme). FireEye researchers describe URL scheme hijacking in a blog post (Citation: FireEye-Masque2), including evidence of its use.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "MOB-T1018",
-                    "url": "https://attack.mitre.org/mobile/index.php/Technique/MOB-T1018",
+                    "url": "https://attack.mitre.org/technique/MOB-T1018",
                     "source_name": "mitre-mobile-attack"
                 },
                 {

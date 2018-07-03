@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--76a8e9ab-c9eb-44fb-a0ef-c8013e51b56f",
+    "id": "bundle--d09a3ddd-26fd-4cf4-8987-fd1801c3f4d5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,8 +8,8 @@
             "id": "relationship--384c75e4-04e7-4ff8-9da6-0c8a03cb7a61",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Most Sakula samples maintain persistence by setting the Registry Run key <code>SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\</code> in the HKLM or HKCU hive, with the Registry value and file name varying by sample.",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "description": "Most [Sakula](https://attack.mitre.org/software/S0074) samples maintain persistence by setting the Registry Run key <code>SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\</code> in the HKLM or HKCU hive, with the Registry value and file name varying by sample.",
             "external_references": [
                 {
                     "url": "http://www.secureworks.com/cyber-threat-intelligence/threats/sakula-malware-family/",

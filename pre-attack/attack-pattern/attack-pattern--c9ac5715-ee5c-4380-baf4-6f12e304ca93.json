@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f158a282-ab0a-4b49-819c-005decd3fc99",
+    "id": "bundle--dcf96ec1-a478-4630-bcf3-7c8fd43ce096",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--c9ac5715-ee5c-4380-baf4-6f12e304ca93",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Test signature detection for file upload/email filters",
             "description": "An adversary can test their planned method of attack against existing security products such as email filters or intrusion detection sensors (IDS). (Citation: WiredVirusTotal)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1138",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1138",
+                    "url": "https://attack.mitre.org/technique/PRE-T1138",
                     "source_name": "mitre-pre-attack"
                 },
                 {

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--23f52ad5-0263-4d97-902d-4961ecdc29d7",
+    "id": "bundle--8b359879-d724-496e-b7da-bc6126d92693",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,8 +8,8 @@
             "id": "relationship--c56de8bc-ad9e-415a-8840-ae294ed4f88a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Power Loader overwrites Explorer\u2019s Shell_TrayWnd extra window memory to redirect execution to a NTDLL function that is abused to assemble and execute a return-oriented programming (ROP) chain and create a malicious thread within Explorer.exe.",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "description": "[Power Loader](https://attack.mitre.org/software/S0177) overwrites Explorer\u2019s Shell_TrayWnd extra window memory to redirect execution to a NTDLL function that is abused to assemble and execute a return-oriented programming (ROP) chain and create a malicious thread within Explorer.exe.",
             "external_references": [
                 {
                     "url": "https://www.malwaretech.com/2013/08/powerloader-injection-something-truly.html",

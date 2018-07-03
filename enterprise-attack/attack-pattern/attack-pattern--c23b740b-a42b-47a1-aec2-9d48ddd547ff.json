@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d201a4fe-4890-43ae-aa72-1e3fa1e951e8",
+    "id": "bundle--a7c47a04-0ee7-44a0-9d85-7a6d32b09672",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--c23b740b-a42b-47a1-aec2-9d48ddd547ff",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:30:59.339Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Pass the Hash",
             "description": "Pass the hash (PtH) is a method of authenticating as a user without having access to the user's cleartext password. This method bypasses standard authentication steps that require a cleartext password, moving directly into the portion of the authentication that uses the password hash. In this technique, valid password hashes for the account being used are captured using a Credential Access technique. Captured hashes are used with PtH to authenticate as that user. Once authenticated, PtH may be used to perform actions on local or remote systems. \n\nWindows 7 and higher with KB2871997 require valid domain user credentials or RID 500 administrator hashes. (Citation: NSA Spotting)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "T1075",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1075",
+                    "url": "https://attack.mitre.org/technique/T1075",
                     "source_name": "mitre-attack"
                 },
                 {

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4f674e48-9efe-488f-976d-4d4cd32f5ae7",
+    "id": "bundle--6014baba-7c8a-4b25-8c9c-b28336d33443",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--9e09ddb2-1746-4448-9cad-7f8b41777d6d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Keychain",
             "description": "Keychains are the built-in way for macOS to keep track of users' passwords and credentials for many services and features such as WiFi passwords, websites, secure notes, certificates, and Kerberos. Keychain files are located in <code>~/Library/Keychains/</code>,<code>/Library/Keychains/</code>, and <code>/Network/Library/Keychains/</code>. (Citation: Wikipedia keychain) The <code>security</code> command-line utility, which is built into macOS by default, provides a useful way to manage these credentials.\n\nTo manage their credentials, users have to use additional credentials to access their keychain. If an adversary knows the credentials for the login keychain, then they can get access to all the other credentials stored in this vault. (Citation: External to DA, the OS X Way) By default, the passphrase for the keychain is the user\u2019s logon credentials.",
             "kill_chain_phases": [
@@ -20,11 +20,11 @@
             "external_references": [
                 {
                     "external_id": "T1142",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1142",
+                    "url": "https://attack.mitre.org/technique/T1142",
                     "source_name": "mitre-attack"
                 },
                 {
-                    "url": "https://en.wikipedia.org/wiki/Keychain%20(software)",
+                    "url": "https://en.wikipedia.org/Keychain%20(software)",
                     "description": "Wikipedia. (n.d.). Keychain (software). Retrieved July 5, 2017.",
                     "source_name": "Wikipedia keychain"
                 },

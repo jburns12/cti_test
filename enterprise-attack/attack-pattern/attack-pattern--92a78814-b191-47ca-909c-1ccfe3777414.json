@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--719f7d3d-4974-4671-a91d-0f5aad2d4300",
+    "id": "bundle--b4c20f06-8612-434b-a38f-f328817e3951",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--92a78814-b191-47ca-909c-1ccfe3777414",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:30:57.201Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Third-party Software",
             "description": "Third-party applications and software deployment systems may be in use in the network environment for administration purposes (e.g., SCCM, VNC, HBSS, Altiris, etc.). If an adversary gains access to these systems, then they may be able to execute code.\n\nAdversaries may gain access to and use third-party application deployment systems installed within an enterprise network. Access to a network-wide or enterprise-wide software deployment system enables an adversary to have remote code execution on all systems that are connected to such a system. The access may be used to laterally move to systems, gather information, or cause a specific effect, such as wiping the hard drives on all endpoints.\n\nThe permissions required for this action vary by system configuration; local credentials may be sufficient with direct access to the deployment server, or specific domain credentials may be required. However, the system may require an administrative account to log in or to perform software deployment.",
             "kill_chain_phases": [
@@ -24,7 +24,7 @@
             "external_references": [
                 {
                     "external_id": "T1072",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1072",
+                    "url": "https://attack.mitre.org/technique/T1072",
                     "source_name": "mitre-attack"
                 }
             ],

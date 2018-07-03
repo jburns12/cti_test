@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--c3f0c232-9c5b-4552-a2dc-778c66ce4c01",
+    "id": "bundle--d45aa2d6-d7e0-46ca-9e8e-61f8a3ffcc71",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--95c29444-49f9-49f7-8b20-bcd68d8fcaa6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "AppCert DLLs Mitigation",
             "description": "Identify and block potentially malicious software that may be executed through AppCert DLLs by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) that are capable of auditing and/or blocking unknown DLLs.",
             "external_references": [
                 {
                     "external_id": "T1182",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1182",
+                    "url": "https://attack.mitre.org/technique/T1182",
                     "source_name": "mitre-attack"
                 },
                 {

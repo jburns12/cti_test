@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7cfc1619-02f3-4acc-9a6d-53f231bc5ce3",
+    "id": "bundle--6f1e0646-e3f2-4ab0-a8e6-99d929f58022",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--44dca04b-808d-46ca-b25f-d85236d4b9f8",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Bash History",
             "description": "Bash keeps track of the commands users type on the command-line with the \"history\" utility. Once a user logs out, the history is flushed to the user\u2019s <code>.bash_history</code> file. For each user, this file resides at the same location: <code>~/.bash_history</code>. Typically, this file keeps track of the user\u2019s last 500 commands. Users often type usernames and passwords on the command-line as parameters to programs, which then get saved to this file when they log out. Attackers can abuse this by looking through the file for potential credentials. (Citation: External to DA, the OS X Way)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "T1139",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1139",
+                    "url": "https://attack.mitre.org/technique/T1139",
                     "source_name": "mitre-attack"
                 },
                 {

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--aa8d77c8-5764-43eb-805c-6e9d2c543f8c",
+    "id": "bundle--0f4ce100-fb40-4bf8-85ac-99adbd7d6ed7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--772bc7a8-a157-42cc-8728-d648e25c7fe7",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Distributed Component Object Model",
-            "description": "Windows Distributed Component Object Model (DCOM) is transparent middleware that extends the functionality of Component Object Model (COM) (Citation: Microsoft COM) beyond a local computer using remote procedure call (RPC) technology. COM is a component of the Windows application programming interface (API) that enables interaction between software objects. Through COM, a client object can call methods of server objects, which are typically Dynamic Link Libraries (DLL) or executables (EXE).\n\nPermissions to interact with local and remote server COM objects are specified by access control lists (ACL) in the Registry. (Citation: Microsoft COM) ACL (Citation: Microsoft Process Wide Com Keys) (Citation: Microsoft System Wide Com Keys) By default, only Administrators may remotely activate and launch COM objects through DCOM.\n\nAdversaries may use DCOM for lateral movement. Through DCOM, adversaries operating in the context of an appropriately privileged user can remotely obtain arbitrary and even direct shellcode execution through Office applications (Citation: Enigma Outlook DCOM Lateral Movement Nov 2017) as well as other Windows objects that contain insecure methods. (Citation: Enigma MMC20 COM Jan 2017) (Citation: Enigma DCOM Lateral Movement Jan 2017) DCOM can also execute macros in existing documents (Citation: Enigma Excel DCOM Sept 2017) and may also invoke Dynamic Data Exchange Mitigation (DDE) execution directly through a COM created instance of a Microsoft Office application (Citation: Cyberreason DCOM DDE Lateral Movement Nov 2017), bypassing the need for a malicious document.",
+            "description": "Windows Distributed Component Object Model (DCOM) is transparent middleware that extends the functionality of Component Object Model (COM) (Citation: Microsoft COM) beyond a local computer using remote procedure call (RPC) technology. COM is a component of the Windows application programming interface (API) that enables interaction between software objects. Through COM, a client object can call methods of server objects, which are typically Dynamic Link Libraries (DLL) or executables (EXE).\n\nPermissions to interact with local and remote server COM objects are specified by access control lists (ACL) in the Registry. (Citation: Microsoft COM) ACL (Citation: Microsoft Process Wide Com Keys) (Citation: Microsoft System Wide Com Keys) By default, only Administrators may remotely activate and launch COM objects through DCOM.\n\nAdversaries may use DCOM for lateral movement. Through DCOM, adversaries operating in the context of an appropriately privileged user can remotely obtain arbitrary and even direct shellcode execution through Office applications (Citation: Enigma Outlook DCOM Lateral Movement Nov 2017) as well as other Windows objects that contain insecure methods. (Citation: Enigma MMC20 COM Jan 2017) (Citation: Enigma DCOM Lateral Movement Jan 2017) DCOM can also execute macros in existing documents (Citation: Enigma Excel DCOM Sept 2017) and may also invoke [Dynamic Data Exchange Mitigation](https://attack.mitre.org/technique/T1173) (DDE) execution directly through a COM created instance of a Microsoft Office application (Citation: Cyberreason DCOM DDE Lateral Movement Nov 2017), bypassing the need for a malicious document.",
             "kill_chain_phases": [
                 {
                     "phase_name": "lateral-movement",
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "T1175",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1175",
+                    "url": "https://attack.mitre.org/technique/T1175",
                     "source_name": "mitre-attack"
                 },
                 {

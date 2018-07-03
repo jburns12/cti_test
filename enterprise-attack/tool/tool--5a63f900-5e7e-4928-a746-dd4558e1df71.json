@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4974d463-3e37-4368-b393-ae925e03c957",
+    "id": "bundle--42f78ba3-ce27-408c-8c9f-efacd99dd49b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,16 +8,16 @@
             "id": "tool--5a63f900-5e7e-4928-a746-dd4558e1df71",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:06.083Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "netsh",
-            "description": "netsh is a scripting utility used to interact with networking components on local or remote systems. (Citation: TechNet Netsh)",
+            "description": "[netsh](https://attack.mitre.org/software/S0108) is a scripting utility used to interact with networking components on local or remote systems. (Citation: TechNet Netsh)",
             "labels": [
                 "tool"
             ],
             "external_references": [
                 {
                     "external_id": "S0108",
-                    "url": "https://attack.mitre.org/wiki/Software/S0108",
+                    "url": "https://attack.mitre.org/software/S0108",
                     "source_name": "mitre-attack"
                 },
                 {

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8f5c7c1e-5e78-4a00-8846-69e26cbb8492",
+    "id": "bundle--c7e0fa68-311d-4678-aa6c-6db0b200d76e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,16 +8,16 @@
             "id": "tool--4664b683-f578-434f-919b-1c1aad2a1111",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:04.545Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "netstat",
-            "description": "netstat is an operating system utility that displays active TCP connections, listening ports, and network statistics. (Citation: TechNet Netstat)",
+            "description": "[netstat](https://attack.mitre.org/software/S0104) is an operating system utility that displays active TCP connections, listening ports, and network statistics. (Citation: TechNet Netstat)",
             "labels": [
                 "tool"
             ],
             "external_references": [
                 {
                     "external_id": "S0104",
-                    "url": "https://attack.mitre.org/wiki/Software/S0104",
+                    "url": "https://attack.mitre.org/software/S0104",
                     "source_name": "mitre-attack"
                 },
                 {

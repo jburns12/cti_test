@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bcd2348e-9fc4-4300-a8ba-556bd304f313",
+    "id": "bundle--8cb00866-b7a9-4571-a189-80f70813394b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--18bfa01c-9fa9-409f-91f5-4a2822609d81",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Test physical access",
             "description": "An  adversary can test physical access options in preparation for the actual attack. This could range from observing behaviors and noting security precautions to actually attempting access. (Citation: OCIAC Pre Incident Indicators) (Citation: NewsAgencySpy)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1137",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1137",
+                    "url": "https://attack.mitre.org/technique/PRE-T1137",
                     "source_name": "mitre-pre-attack"
                 },
                 {

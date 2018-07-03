@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5238a3c7-59e5-4d42-8617-80cd171a843d",
+    "id": "bundle--a1c53293-91ca-42b7-b9c0-9bb419d48a51",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--b765efd1-02e6-4e67-aebf-0fef5c37e54b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-10-25T14:48:26.473Z",
-            "modified": "2018-06-18T15:59:03.864Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Detect App Analysis Environment",
             "description": "An adversary could evade app vetting techniques by placing code in a malicious application to detect whether it is running in an app analysis environment and, if so, avoid performing malicious actions while under analysis.\n\nDiscussion of general Android anti-analysis techniques can be found in  (Citation: Petsas). Discussion of Google Play Store-specific anti-analysis techniques can be found in  (Citation: Oberheide-Bouncer),  (Citation: Percoco-Bouncer).\n\n (Citation: Wang) presents a discussion of iOS anti-analysis techniques.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "MOB-T1043",
-                    "url": "https://attack.mitre.org/mobile/index.php/Technique/MOB-T1043",
+                    "url": "https://attack.mitre.org/technique/MOB-T1043",
                     "source_name": "mitre-mobile-attack"
                 },
                 {

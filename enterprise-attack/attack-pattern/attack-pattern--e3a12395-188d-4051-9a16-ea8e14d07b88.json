@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--264ab540-8c55-4de3-91f0-d92e933bb5eb",
+    "id": "bundle--f124ad27-160b-42d3-97be-83f9cd4609c5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:30:43.915Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Network Service Scanning",
             "description": "Adversaries may attempt to get a listing of services running on remote hosts, including those that may be vulnerable to remote software exploitation. Methods to acquire this information include port scans and vulnerability scans using tools that are brought onto a system.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "T1046",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1046",
+                    "url": "https://attack.mitre.org/technique/T1046",
                     "source_name": "mitre-attack"
                 }
             ],

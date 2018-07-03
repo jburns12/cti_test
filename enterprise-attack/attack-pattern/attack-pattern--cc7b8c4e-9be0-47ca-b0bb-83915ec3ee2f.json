@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1dc56712-dc0c-4c55-90df-7e9be6035f47",
+    "id": "bundle--8cc35333-2959-414b-bde3-54c2103fc181",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--cc7b8c4e-9be0-47ca-b0bb-83915ec3ee2f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:31:43.540Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Data Encoding",
             "description": "Command and control (C2) information is encoded using a standard data encoding system. Use of data encoding may be to adhere to existing protocol specifications and includes use of ASCII, Unicode, Base64,  MIME, UTF-8, or other binary-to-text and character encoding systems. (Citation: Wikipedia Binary-to-text Encoding) (Citation: Wikipedia Character Encoding) Some data encoding systems may also result in data compression, such as gzip.",
             "kill_chain_phases": [
@@ -20,16 +20,16 @@
             "external_references": [
                 {
                     "external_id": "T1132",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1132",
+                    "url": "https://attack.mitre.org/technique/T1132",
                     "source_name": "mitre-attack"
                 },
                 {
-                    "url": "https://en.wikipedia.org/wiki/Binary-to-text%20encoding",
+                    "url": "https://en.wikipedia.org/Binary-to-text%20encoding",
                     "description": "Wikipedia. (2016, December 26). Binary-to-text encoding. Retrieved March 1, 2017.",
                     "source_name": "Wikipedia Binary-to-text Encoding"
                 },
                 {
-                    "url": "https://en.wikipedia.org/wiki/Character%20encoding",
+                    "url": "https://en.wikipedia.org/Character%20encoding",
                     "description": "Wikipedia. (2017, February 19). Character Encoding. Retrieved March 1, 2017.",
                     "source_name": "Wikipedia Character Encoding"
                 },

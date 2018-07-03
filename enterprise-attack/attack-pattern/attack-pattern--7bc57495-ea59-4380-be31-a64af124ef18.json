@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0ce3bc20-9905-433c-b191-d25c39278caf",
+    "id": "bundle--f49fbaea-b377-42cc-a555-cabfbc1118d0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:31:04.710Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "File and Directory Discovery",
             "description": "Adversaries may enumerate files and directories or may search in specific locations of a host or network share for certain information within a file system. \n\n===Windows===\n\nExample utilities used to obtain this information are <code>dir</code> and <code>tree</code>. (Citation: Windows Commands JPCERT) Custom tools may also be used to gather file and directory information and interact with the Windows API.\n\n===Mac and Linux===\n\nIn Mac and Linux, this kind of discovery is accomplished with the <code>ls</code>, <code>find</code>, and <code>locate</code> commands.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "T1083",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1083",
+                    "url": "https://attack.mitre.org/technique/T1083",
                     "source_name": "mitre-attack"
                 },
                 {
@@ -32,7 +32,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "System and network discovery techniques normally occur throughout an operation as an adversary learns the environment. Data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities, such as Collection and Exfiltration, based on the information obtained.\n\nMonitor processes and command-line arguments for actions that could be taken to gather system and network information. Remote access tools with built-in features may interact directly with the Windows API to gather information. Information may also be acquired through Windows system management tools such as Process Injection Mitigation and Process Injection Mitigation.",
+            "x_mitre_detection": "System and network discovery techniques normally occur throughout an operation as an adversary learns the environment. Data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities, such as Collection and Exfiltration, based on the information obtained.\n\nMonitor processes and command-line arguments for actions that could be taken to gather system and network information. Remote access tools with built-in features may interact directly with the Windows API to gather information. Information may also be acquired through Windows system management tools such as [Process Injection Mitigation](https://attack.mitre.org/technique/T1055) and [Process Injection Mitigation](https://attack.mitre.org/technique/T1055).",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",

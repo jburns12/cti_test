@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--81e28c61-a239-48e0-a53c-f2295b058e0c",
+    "id": "bundle--b17c3fc5-375f-498d-901a-fb1ff36708f9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--393e8c12-a416-4575-ba90-19cc85656796",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-10-25T14:48:26.104Z",
-            "modified": "2018-06-18T15:59:03.864Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Eavesdrop on Insecure Network Communication",
             "description": "If network traffic between the mobile device and remote servers is unencrypted or is encrypted in an insecure manner, then an adversary positioned on the network can eavesdrop on communication. For example, He et al. (Citation: mHealth) describe numerous healthcare-related applications that did not properly protect network communication.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "MOB-T1042",
-                    "url": "https://attack.mitre.org/mobile/index.php/Technique/MOB-T1042",
+                    "url": "https://attack.mitre.org/technique/MOB-T1042",
                     "source_name": "mitre-mobile-attack"
                 },
                 {

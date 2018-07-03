@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7b4d87c5-fbea-4c5d-91fc-1553b9920500",
+    "id": "bundle--3aba47b5-5c09-4671-bb36-726ee4971617",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:30:49.546Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Command-Line Interface",
-            "description": "Command-line interfaces provide a way of interacting with computer systems and is a common feature across many types of operating system platforms. (Citation: Wikipedia Command-Line Interface) One example command-line interface on Windows systems is cmd, which can be used to perform a number of tasks including execution of other software. Command-line interfaces can be interacted with locally or remotely via a remote desktop application, reverse shell session, etc. Commands that are executed run with the current permission level of the command-line interface process unless the command includes process invocation that changes permissions context for that execution (e.g. Scheduled Task Mitigation).\n\nAdversaries may use command-line interfaces to interact with systems and execute other software during the course of an operation.",
+            "description": "Command-line interfaces provide a way of interacting with computer systems and is a common feature across many types of operating system platforms. (Citation: Wikipedia Command-Line Interface) One example command-line interface on Windows systems is [cmd](https://attack.mitre.org/software/S0106), which can be used to perform a number of tasks including execution of other software. Command-line interfaces can be interacted with locally or remotely via a remote desktop application, reverse shell session, etc. Commands that are executed run with the current permission level of the command-line interface process unless the command includes process invocation that changes permissions context for that execution (e.g. [Scheduled Task Mitigation](https://attack.mitre.org/technique/T1053)).\n\nAdversaries may use command-line interfaces to interact with systems and execute other software during the course of an operation.",
             "kill_chain_phases": [
                 {
                     "phase_name": "execution",
@@ -20,11 +20,11 @@
             "external_references": [
                 {
                     "external_id": "T1059",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1059",
+                    "url": "https://attack.mitre.org/technique/T1059",
                     "source_name": "mitre-attack"
                 },
                 {
-                    "url": "https://en.wikipedia.org/wiki/Command-line%20interface",
+                    "url": "https://en.wikipedia.org/Command-line%20interface",
                     "description": "Wikipedia. (2016, June 26). Command-line interface. Retrieved June 27, 2016.",
                     "source_name": "Wikipedia Command-Line Interface"
                 }

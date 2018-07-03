@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1d667154-9d99-48e1-9ee3-902d21ba6cbe",
+    "id": "bundle--5b0dbe1f-f746-4e91-8834-881ddc6aa7fa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--62adb627-f647-498e-b4cc-41499361bacb",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-10-25T14:48:20.727Z",
-            "modified": "2018-06-18T15:59:03.864Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Access Calendar Entries",
             "description": "An adversary could call standard operating system APIs from a malicious application to gather calendar entry data, or with escalated privileges could directly access files containing calendar data.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "MOB-T1038",
-                    "url": "https://attack.mitre.org/mobile/index.php/Technique/MOB-T1038",
+                    "url": "https://attack.mitre.org/technique/MOB-T1038",
                     "source_name": "mitre-mobile-attack"
                 },
                 {

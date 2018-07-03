@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--2ae55c44-6d09-49a3-9199-80afbe5e225f",
+    "id": "bundle--b3b7077e-14c9-4ba1-b5cf-f16fb4204f2d",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--910482b1-6749-4934-abcb-3e34d58294fc",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Distributed Component Object Model Mitigation",
             "description": "Modify Registry settings (directly or using Dcomcnfg.exe) in <code>HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\AppID\\{AppID_GUID}</code> associated with the process-wide security of individual COM applications. (Citation: Microsoft Process Wide Com Keys)\n\nModify Registry settings (directly or using Dcomcnfg.exe) in <code>HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Ole</code> associated with system-wide security defaults for all COM applications that do no set their own process-wide security. (Citation: Microsoft System Wide Com Keys) (Citation: Microsoft COM) ACL\n\nConsider disabling DCOM through Dcomcnfg.exe. (Citation: Microsoft Disable DCOM)\n\nEnable Windows firewall, which prevents DCOM instantiation by default.\n\nEnsure all COM alerts and Protected View are enabled. (Citation: Microsoft Protected View)",
             "external_references": [
                 {
                     "external_id": "T1175",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1175",
+                    "url": "https://attack.mitre.org/technique/T1175",
                     "source_name": "mitre-attack"
                 },
                 {

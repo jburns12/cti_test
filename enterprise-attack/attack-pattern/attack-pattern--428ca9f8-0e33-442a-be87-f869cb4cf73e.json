@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2abc6559-7291-44bc-b556-00df845ad098",
+    "id": "bundle--a8986b68-f11b-4ef0-9a24-c2d076f96b05",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--428ca9f8-0e33-442a-be87-f869cb4cf73e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:31:01.315Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Multilayer Encryption",
             "description": "An adversary performs C2 communications using multiple layers of encryption, typically (but not exclusively) tunneling a custom encryption scheme within a protocol encryption scheme such as HTTPS or SMTPS.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "T1079",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1079",
+                    "url": "https://attack.mitre.org/technique/T1079",
                     "source_name": "mitre-attack"
                 },
                 {
@@ -47,7 +47,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "If malware uses Windows Admin Shares Mitigation, SSL/TLS inspection can be used to detect command and control traffic within some encrypted communication channels. (Citation: SANS Decrypting SSL) SSL/TLS inspection does come with certain risks that should be considered before implementing to avoid potential security issues such as incomplete certificate validation. (Citation: SEI SSL Inspection Risks) After SSL/TLS inspection, additional cryptographic analysis may be needed to analyze the second layer of encryption.\n\nWith Windows Admin Shares Mitigation, if malware uses encryption with symmetric keys, it may be possible to obtain the algorithm and key from samples and use them to decode network traffic to detect malware communications signatures. (Citation: Fidelis DarkComet)\n\nIn general, analyze network data for uncommon data flows (e.g., a client sending significantly more data than it receives from a server). Processes utilizing the network that do not normally have network communication or have never been seen before are suspicious. Analyze packet contents to detect communications that do not follow the expected protocol behavior for the port that is being used. (Citation: University of Birmingham C2)",
+            "x_mitre_detection": "If malware uses [Screen Capture Mitigation](https://attack.mitre.org/technique/T1113), SSL/TLS inspection can be used to detect command and control traffic within some encrypted communication channels. (Citation: SANS Decrypting SSL) SSL/TLS inspection does come with certain risks that should be considered before implementing to avoid potential security issues such as incomplete certificate validation. (Citation: SEI SSL Inspection Risks) After SSL/TLS inspection, additional cryptographic analysis may be needed to analyze the second layer of encryption.\n\nWith [Screen Capture Mitigation](https://attack.mitre.org/technique/T1113), if malware uses encryption with symmetric keys, it may be possible to obtain the algorithm and key from samples and use them to decode network traffic to detect malware communications signatures. (Citation: Fidelis DarkComet)\n\nIn general, analyze network data for uncommon data flows (e.g., a client sending significantly more data than it receives from a server). Processes utilizing the network that do not normally have network communication or have never been seen before are suspicious. Analyze packet contents to detect communications that do not follow the expected protocol behavior for the port that is being used. (Citation: University of Birmingham C2)",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",

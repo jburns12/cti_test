@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--204a0ecb-da6e-43c7-803e-3b0695011617",
+    "id": "bundle--6d23fd82-40af-4d8c-8025-2ac1e9fd82e7",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--797312d4-8a84-4daf-9c56-57da4133c322",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Trusted Relationship Mitigation",
             "description": "Network segmentation can be used to isolate infrastructure components that do not require broad network access. Properly manage accounts and permissions used by parties in trusted relationships to minimize potential abuse by the party and if the party is compromised by an adversary. Vet the security policies and procedures of organizations that are contracted for work that require privileged access to network resources.",
             "external_references": [
                 {
                     "external_id": "T1199",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1199",
+                    "url": "https://attack.mitre.org/technique/T1199",
                     "source_name": "mitre-attack"
                 }
             ]

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2d3637ce-7d29-4c63-9c65-9eac42e11c4f",
+    "id": "bundle--51acdac8-22ff-427e-9085-c71ca2d2f91b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--51ea26b1-ff1e-4faa-b1a0-1114cd298c87",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:30:25.159Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Exfiltration Over Other Network Medium",
             "description": "Exfiltration could occur over a different network medium than the command and control channel. If the command and control network is a wired Internet connection, the exfiltration may occur, for example, over a WiFi connection, modem, cellular data connection, Bluetooth, or another radio frequency (RF) channel. Adversaries could choose to do this if they have sufficient access or proximity, and the connection might not be secured or defended as well as the primary Internet-connected channel because it is not routed through the same enterprise network.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "T1011",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1011",
+                    "url": "https://attack.mitre.org/technique/T1011",
                     "source_name": "mitre-attack"
                 }
             ],

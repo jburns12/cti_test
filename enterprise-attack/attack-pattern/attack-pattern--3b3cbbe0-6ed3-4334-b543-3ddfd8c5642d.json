@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f071cd4b-b41c-4f08-948d-d0a976b5d250",
+    "id": "bundle--3f6d0621-069c-4d10-b316-f3bbd76b2e83",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--3b3cbbe0-6ed3-4334-b543-3ddfd8c5642d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:30:31.197Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Custom Cryptographic Protocol",
             "description": "Adversaries may use a custom cryptographic protocol or algorithm to hide command and control traffic. A simple scheme, such as XOR-ing the plaintext with a fixed key, will produce a very weak ciphertext.\n\nCustom encryption schemes may vary in sophistication. Analysis and reverse engineering of malware samples may be enough to discover the algorithm and encryption key used.\n\nSome adversaries may also attempt to implement their own version of a well-known cryptographic algorithm instead of using a known implementation library, which may lead to unintentional errors. (Citation: F-Secure Cosmicduke)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "T1024",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1024",
+                    "url": "https://attack.mitre.org/technique/T1024",
                     "source_name": "mitre-attack"
                 },
                 {

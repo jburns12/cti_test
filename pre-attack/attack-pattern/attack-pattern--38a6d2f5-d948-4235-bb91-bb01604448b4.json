@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7c741870-530d-4834-94a5-460fc293606f",
+    "id": "bundle--76ffc1e4-df50-44ee-a3ec-a3a8e050aa4c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--38a6d2f5-d948-4235-bb91-bb01604448b4",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Credential pharming",
             "description": "Credential pharming a  form of attack designed to steal users' credential by redirecting users to fraudulent websites. Pharming can be conducted either by changing the hosts file on a victim's computer or by exploitation of a vulnerability in DNS server software. (Citation: DriveByPharming) (Citation: GoogleDrive Phishing)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1151",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1151",
+                    "url": "https://attack.mitre.org/technique/PRE-T1151",
                     "source_name": "mitre-pre-attack"
                 },
                 {

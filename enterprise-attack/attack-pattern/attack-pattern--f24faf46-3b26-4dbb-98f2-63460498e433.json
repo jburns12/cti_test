@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b307a4ba-8299-409d-86d4-32fdf8e7cd3b",
+    "id": "bundle--e3fb4ae2-d63b-4b5c-a59f-c7e55bb796ae",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--f24faf46-3b26-4dbb-98f2-63460498e433",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:30:21.689Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Fallback Channels",
             "description": "Adversaries may use fallback or alternate communication channels if the primary channel is compromised or inaccessible in order to maintain reliable command and control and to avoid data transfer thresholds.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "T1008",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1008",
+                    "url": "https://attack.mitre.org/technique/T1008",
                     "source_name": "mitre-attack"
                 },
                 {

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c2408f35-df9c-4bc0-8b1d-a84835af0308",
+    "id": "bundle--46f0257d-9c01-46d2-b53d-0462fb3d1102",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--6ff403bc-93e3-48be-8687-e102fdba8c88",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:30:43.472Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Software Packing",
             "description": "Software packing is a method of compressing or encrypting an executable. Packing an executable changes the file signature in an attempt to avoid signature-based detection. Most decompression techniques decompress the executable code in memory.\n\nUtilities used to perform software packing are called packers. Example packers are MPRESS and UPX. A more comprehensive list of known packers is available, (Citation: Wikipedia Exe Compression) but adversaries may create their own packing techniques that do not leave the same artifacts as well-known packers to evade defenses.",
             "kill_chain_phases": [
@@ -20,11 +20,11 @@
             "external_references": [
                 {
                     "external_id": "T1045",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1045",
+                    "url": "https://attack.mitre.org/technique/T1045",
                     "source_name": "mitre-attack"
                 },
                 {
-                    "url": "http://en.wikipedia.org/wiki/Executable%20compression",
+                    "url": "http://en.wikipedia.org/Executable%20compression",
                     "description": "Executable compression. (n.d.).  Retrieved December 4, 2014.",
                     "source_name": "Wikipedia Exe Compression"
                 }

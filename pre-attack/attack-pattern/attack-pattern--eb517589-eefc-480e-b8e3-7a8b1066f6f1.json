@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--db2af8bb-4a1f-42c9-a477-2d6ee35d24db",
+    "id": "bundle--f381ad72-ec35-472f-8c56-34d16de681ad",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--eb517589-eefc-480e-b8e3-7a8b1066f6f1",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Targeted social media phishing",
             "description": "Sending messages through social media platforms to individuals identified as a target. These messages may include malicious attachments or links to malicious sites or they may be designed to establish communications for future actions. (Citation: APT1) (Citation: Nemucod Facebook)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1143",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1143",
+                    "url": "https://attack.mitre.org/technique/PRE-T1143",
                     "source_name": "mitre-pre-attack"
                 },
                 {

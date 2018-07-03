@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--feb4e675-4efc-4cf3-8074-ac0df7e4a821",
+    "id": "bundle--23c65840-6239-4784-9968-022054e1240d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--d9e88203-2b5d-405f-a406-2933b1e3d7e4",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-10-25T14:48:10.285Z",
-            "modified": "2018-06-18T15:59:03.864Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Encrypt Files for Ransom",
             "description": "An adversary may encrypt files stored on the mobile device to prevent the user from accessing them, only unlocking access to the files after a ransom is paid. Without escalated privileges, the adversary is generally limited to only encrypting files in external/shared storage locations. This technique has been demonstrated on Android, and we are unaware of any demonstrated use on iOS.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "MOB-T1074",
-                    "url": "https://attack.mitre.org/mobile/index.php/Technique/MOB-T1074",
+                    "url": "https://attack.mitre.org/technique/MOB-T1074",
                     "source_name": "mitre-mobile-attack"
                 },
                 {

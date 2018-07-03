@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--70069586-cd9f-45ad-8e96-b42082d19224",
+    "id": "bundle--a5ee8621-c0ce-49c0-bb68-a693542a007e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--dfe29258-ce59-421c-9dee-e85cb9fa90cd",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-10-25T14:48:24.488Z",
-            "modified": "2018-06-18T15:59:03.864Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Lockscreen Bypass",
             "description": "Techniques have periodically been demonstrated that exploit vulnerabilities on Android (Citation: Wired-AndroidBypass), iOS (Citation: Kaspersky-iOSBypass), or other mobile devices to bypass the device lock screen. The vulnerabilities are generally patched by the device/operating system vendor once they become aware of their existence.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "MOB-T1064",
-                    "url": "https://attack.mitre.org/mobile/index.php/Technique/MOB-T1064",
+                    "url": "https://attack.mitre.org/technique/MOB-T1064",
                     "source_name": "mitre-mobile-attack"
                 },
                 {

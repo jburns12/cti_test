@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--5ea4d8b0-18b1-4a8a-b086-510b8f78eb26",
+    "id": "bundle--516bcc44-88ae-4a4d-9317-a6f4b002cd8b",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--41cff8e9-fd05-408e-b3d5-d98c54c20bcf",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "SSH Hijacking Mitigation",
             "description": "Ensure SSH key pairs have strong passwords and refrain from using key-store technologies such as ssh-agent unless they are properly protected. Ensure that all private keys are stored securely in locations where only the legitimate owner has access to with strong passwords and are rotated frequently. Ensure proper file permissions are set and harden system to prevent root privilege escalation opportunities. Do not allow remote access via SSH as root or other privileged accounts. Ensure that agent forwarding is disabled on systems that do not explicitly require this feature to prevent misuse. (Citation: Symantec SSH and ssh-agent)",
             "external_references": [
                 {
                     "external_id": "T1184",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1184",
+                    "url": "https://attack.mitre.org/technique/T1184",
                     "source_name": "mitre-attack"
                 },
                 {

@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--89e7063e-0f95-42cb-ac97-90af55c06313",
+    "id": "bundle--293bdcdb-f239-4785-865f-c362b37e6ed4",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--57019a80-8523-46b6-be7d-f763a15a2cc6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Scripting Mitigation",
             "description": "Turn off unused features or restrict access to scripting engines such as VBScript or scriptable administration frameworks such as PowerShell.\n\nConfigure Office security settings enable Protected View, to execute within a sandbox environment, and to block macros through Group Policy. (Citation: Microsoft Block Office Macros) Other types of virtualization and application microsegmentation may also mitigate the impact of compromise. The risks of additional exploits and weaknesses in implementation may still exist. (Citation: Ars Technica Pwn2Own 2017 VM Escape)",
             "external_references": [
                 {
                     "external_id": "T1064",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1064",
+                    "url": "https://attack.mitre.org/technique/T1064",
                     "source_name": "mitre-attack"
                 },
                 {

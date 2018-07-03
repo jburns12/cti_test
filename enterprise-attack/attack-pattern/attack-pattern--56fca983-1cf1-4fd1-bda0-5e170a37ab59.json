@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e9c118bf-0fcb-4fda-9a98-20a4aea85234",
+    "id": "bundle--f662bc00-fd7f-4593-b119-4ec6c148a5c3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:31:17.915Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "File Deletion",
-            "description": "Malware, tools, or other non-native files dropped or created on a system by an adversary may leave traces behind as to what was done within a network and how. Adversaries may remove these files over the course of an intrusion to keep their footprint low or remove them at the end as part of the post-intrusion cleanup process.\n\nThere are tools available from the host operating system to perform cleanup, but adversaries may use other tools as well. Examples include native cmd functions such as DEL, secure deletion tools such as Windows Sysinternals SDelete, or other third-party file deletion tools. (Citation: Trend Micro APT Attack Tools)",
+            "description": "Malware, tools, or other non-native files dropped or created on a system by an adversary may leave traces behind as to what was done within a network and how. Adversaries may remove these files over the course of an intrusion to keep their footprint low or remove them at the end as part of the post-intrusion cleanup process.\n\nThere are tools available from the host operating system to perform cleanup, but adversaries may use other tools as well. Examples include native [cmd](https://attack.mitre.org/software/S0106) functions such as DEL, secure deletion tools such as Windows Sysinternals SDelete, or other third-party file deletion tools. (Citation: Trend Micro APT Attack Tools)",
             "kill_chain_phases": [
                 {
                     "phase_name": "defense-evasion",
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "T1107",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1107",
+                    "url": "https://attack.mitre.org/technique/T1107",
                     "source_name": "mitre-attack"
                 },
                 {

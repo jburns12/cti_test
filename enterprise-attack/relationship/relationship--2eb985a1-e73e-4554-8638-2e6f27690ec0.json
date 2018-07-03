@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f6dbab0f-e91e-4ded-b29f-5c469677efca",
+    "id": "bundle--d986eef2-8e85-44fd-a327-dadb8dc168ef",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,8 +8,8 @@
             "id": "relationship--2eb985a1-e73e-4554-8638-2e6f27690ec0",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Sykipot may use <code>net group \"domain admins\" /domain</code> to display accounts in the \"domain admins\" permissions group and <code>net localgroup \"administrators\"</code> to list local system administrator group membership.",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "description": "[Sykipot](https://attack.mitre.org/software/S0018) may use <code>net group \"domain admins\" /domain</code> to display accounts in the \"domain admins\" permissions group and <code>net localgroup \"administrators\"</code> to list local system administrator group membership.",
             "external_references": [
                 {
                     "url": "https://www.alienvault.com/open-threat-exchange/blog/another-sykipot-sample-likely-targeting-us-federal-agencies",

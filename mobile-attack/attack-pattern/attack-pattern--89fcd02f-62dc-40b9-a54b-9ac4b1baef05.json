@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e0ee01bc-6b98-4534-8fe6-9c5e7733e983",
+    "id": "bundle--cf2915a9-a0f5-498c-94ef-14330481b005",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--89fcd02f-62dc-40b9-a54b-9ac4b1baef05",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-10-25T14:48:28.456Z",
-            "modified": "2018-06-18T15:59:03.864Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Device Type Discovery",
             "description": "On Android, device type information is accessible to apps through the android.os.Build class (Citation: Android-Build). Device information could be used to target privilege escalation exploits.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "MOB-T1022",
-                    "url": "https://attack.mitre.org/mobile/index.php/Technique/MOB-T1022",
+                    "url": "https://attack.mitre.org/technique/MOB-T1022",
                     "source_name": "mitre-mobile-attack"
                 },
                 {

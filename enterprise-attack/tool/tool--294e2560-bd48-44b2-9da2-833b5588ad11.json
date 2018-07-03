@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bfe5fd0d-16e6-4cf4-86d2-4dfa2cfb19c7",
+    "id": "bundle--fb55f36c-192c-4cc0-8224-bec4504fcd8e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,16 +8,16 @@
             "id": "tool--294e2560-bd48-44b2-9da2-833b5588ad11",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:02.863Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "ipconfig",
-            "description": "ipconfig is a Windows utility that can be used to find information about a system's TCP/IP, DNS, DHCP, and adapter configuration. (Citation: TechNet Ipconfig)",
+            "description": "[ipconfig](https://attack.mitre.org/software/S0100) is a Windows utility that can be used to find information about a system's TCP/IP, DNS, DHCP, and adapter configuration. (Citation: TechNet Ipconfig)",
             "labels": [
                 "tool"
             ],
             "external_references": [
                 {
                     "external_id": "S0100",
-                    "url": "https://attack.mitre.org/wiki/Software/S0100",
+                    "url": "https://attack.mitre.org/software/S0100",
                     "source_name": "mitre-attack"
                 },
                 {

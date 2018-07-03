@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--817168f2-0da0-446c-afd8-c9b620328d18",
+    "id": "bundle--2790dce6-24ae-41b9-9aac-7f8d077578bc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--d40239b3-05ff-46d8-9bdd-b46d13463ef9",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Hardware Additions",
             "description": "Computer accessories, computers or networking hardware may be introduced into a system as a vector to gain execution. While public references of usage by APT groups are scarce, many penetration testers leverage hardware additions for initial access. Commercial and open source products are leveraged with capabilities such as passive network tapping (Citation: Ossmann Star Feb 2011), man-in-the middle encryption breaking (Citation: Aleks Weapons Nov 2015), keystroke injection (Citation: Hak5 RubberDuck Dec 2016), kernel memory reading via DMA (Citation: Frisk DMA August 2016), adding new wireless access to an existing network (Citation: McMillan Pwn March 2012), and others.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "T1200",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1200",
+                    "url": "https://attack.mitre.org/technique/T1200",
                     "source_name": "mitre-attack"
                 },
                 {

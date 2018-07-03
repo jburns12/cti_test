@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1f27d492-49cb-4547-94b6-7b8d2ab8663b",
+    "id": "bundle--2ade64c1-cbd7-43b7-8096-86417246b6bc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--b2001907-166b-4d71-bb3c-9d26c871de09",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:30:58.007Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "DLL Side-Loading",
             "description": "Programs may specify DLLs that are loaded at runtime. Programs that improperly or vaguely specify a required DLL may be open to a vulnerability in which an unintended DLL is loaded. Side-loading vulnerabilities specifically occur when Windows Side-by-Side (WinSxS) manifests (Citation: MSDN Manifests) are not explicit enough about characteristics of the DLL to be loaded. Adversaries may take advantage of a legitimate program that is vulnerable to side-loading to load a malicious DLL. (Citation: Stewart 2014)\n\nAdversaries likely use this technique as a means of masking actions they perform under a legitimate, trusted system or software process.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "T1073",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1073",
+                    "url": "https://attack.mitre.org/technique/T1073",
                     "source_name": "mitre-attack"
                 },
                 {

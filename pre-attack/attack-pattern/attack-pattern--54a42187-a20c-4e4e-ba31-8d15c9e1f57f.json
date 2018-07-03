@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c9c820df-a5e5-4f74-a024-fc5ea42cebd6",
+    "id": "bundle--f2496e1b-4624-4b6d-b84a-5edc1260bbff",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--54a42187-a20c-4e4e-ba31-8d15c9e1f57f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "SSL certificate acquisition for trust breaking",
             "description": "Fake certificates can be acquired by legal process or coercion. Or, an adversary can trick a Certificate Authority into issuing a certificate. These fake certificates can be used as a part of Man-in-the-Middle attacks. (Citation: SubvertSSL)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1115",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1115",
+                    "url": "https://attack.mitre.org/technique/PRE-T1115",
                     "source_name": "mitre-pre-attack"
                 },
                 {

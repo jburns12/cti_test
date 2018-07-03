@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d03f277b-50c7-4045-881a-0721fb4d5058",
+    "id": "bundle--8e318072-fd7f-4cd2-80ad-e7ae7a63fd20",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,8 +8,8 @@
             "id": "relationship--25cb2c8f-79d2-4157-8329-fb86caaca0c3",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-27T14:18:47.700Z",
-            "description": "LOWBALL uses the Dropbox API to request two files, one of which is the same file as the one dropped by the malicious email attachment. This is most likely meant to be a mechanism to update the compromised host with a new version of the LOWBALL malware.",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "description": "[LOWBALL](https://attack.mitre.org/software/S0042) uses the Dropbox API to request two files, one of which is the same file as the one dropped by the malicious email attachment. This is most likely meant to be a mechanism to update the compromised host with a new version of the [LOWBALL](https://attack.mitre.org/software/S0042) malware.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2015/11/china-based-threat.html",

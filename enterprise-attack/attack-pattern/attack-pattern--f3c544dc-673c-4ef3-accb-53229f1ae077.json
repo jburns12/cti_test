@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d30da5d2-bc09-4cbf-af43-16107117206b",
+    "id": "bundle--c46811c8-3eff-4685-9e7e-bcb1c2ccf68f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--f3c544dc-673c-4ef3-accb-53229f1ae077",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:31:37.450Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "System Time Discovery",
-            "description": "The system time is set and stored by the Windows Time Service within a domain to maintain time synchronization between systems and services in an enterprise network. (Citation: MSDN System Time) (Citation: Technet Windows Time Service)\n\nAn adversary may gather the system time and/or time zone from a local or remote system. This information may be gathered in a number of ways, such as with Net on Windows by performing <code>net time \\\\hostname</code> to gather the system time on a remote system. The victim's time zone may also be inferred from the current system time or gathered by using <code>w32tm /tz</code>. (Citation: Technet Windows Time Service) The information could be useful for performing other techniques, such as executing a file with a Scheduled Task Mitigation (Citation: RSA EU12 They're Inside), or to discover locality information based on time zone to assist in victim targeting.",
+            "description": "The system time is set and stored by the Windows Time Service within a domain to maintain time synchronization between systems and services in an enterprise network. (Citation: MSDN System Time) (Citation: Technet Windows Time Service)\n\nAn adversary may gather the system time and/or time zone from a local or remote system. This information may be gathered in a number of ways, such as with [Net](https://attack.mitre.org/software/S0039) on Windows by performing <code>net time \\\\hostname</code> to gather the system time on a remote system. The victim's time zone may also be inferred from the current system time or gathered by using <code>w32tm /tz</code>. (Citation: Technet Windows Time Service) The information could be useful for performing other techniques, such as executing a file with a [Scheduled Task Mitigation](https://attack.mitre.org/technique/T1053) (Citation: RSA EU12 They're Inside), or to discover locality information based on time zone to assist in victim targeting.",
             "kill_chain_phases": [
                 {
                     "phase_name": "discovery",
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "T1124",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1124",
+                    "url": "https://attack.mitre.org/technique/T1124",
                     "source_name": "mitre-attack"
                 },
                 {

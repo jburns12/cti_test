@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bba321d6-1bd1-43fa-8ce1-ec6cacd220d7",
+    "id": "bundle--211207f4-eb6e-42bf-8ed3-f0acb27d80e5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--cdfdb0cd-a839-403c-9dd6-8a85d8c5c73d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Map network topology",
             "description": "A network topology is the arrangement of the various elements of a network (e.g., servers, workstations, printers, routers, firewalls, etc.). Mapping a network allows an adversary to understand how the elements are connected or related. (Citation: man traceroute) (Citation: Shodan Tutorial)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1029",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1029",
+                    "url": "https://attack.mitre.org/technique/PRE-T1029",
                     "source_name": "mitre-pre-attack"
                 },
                 {

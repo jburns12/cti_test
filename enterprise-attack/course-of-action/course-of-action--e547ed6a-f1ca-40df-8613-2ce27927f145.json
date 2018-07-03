@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--d5106e1f-e4c2-4ee3-baa4-88329ffd713e",
+    "id": "bundle--9e70192d-75e2-4277-959d-7419f849ce33",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--e547ed6a-f1ca-40df-8613-2ce27927f145",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Exfiltration Over Physical Medium Mitigation",
             "description": "Disable Autorun if it is unnecessary. (Citation: Microsoft Disable Autorun) Disallow or restrict removable media at an organizational policy level if they are not required for business operations. (Citation: TechNet Removable Media Control)",
             "external_references": [
                 {
                     "external_id": "T1052",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1052",
+                    "url": "https://attack.mitre.org/technique/T1052",
                     "source_name": "mitre-attack"
                 },
                 {

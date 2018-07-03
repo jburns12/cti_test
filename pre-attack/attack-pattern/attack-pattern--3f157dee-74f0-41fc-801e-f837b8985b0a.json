@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b624b924-cb13-45cc-9cfe-ae2d89eca7f2",
+    "id": "bundle--18eedbd6-1dd9-4b5d-9c71-90de14603e32",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--3f157dee-74f0-41fc-801e-f837b8985b0a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Shadow DNS",
             "description": "The process of gathering domain account credentials in order to silently create subdomains pointed at malicious servers without tipping off the actual owner. (Citation: CiscoAngler) (Citation: ProofpointDomainShadowing)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1117",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1117",
+                    "url": "https://attack.mitre.org/technique/PRE-T1117",
                     "source_name": "mitre-pre-attack"
                 },
                 {

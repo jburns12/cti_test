@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cbbc01a4-a172-4189-9675-fd6e748e5e64",
+    "id": "bundle--f4e2d3cd-7382-4f18-a2d1-402218f57f10",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--e51398e6-53dc-4e9f-a323-e54683d8672b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Compromise 3rd party infrastructure to support delivery",
             "description": "Instead of buying, leasing, or renting infrastructure an adversary may compromise infrastructure and use it for some or all of the attack cycle. (Citation: WateringHole2014) (Citation: FireEye Operation SnowMan)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1111",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1111",
+                    "url": "https://attack.mitre.org/technique/PRE-T1111",
                     "source_name": "mitre-pre-attack"
                 },
                 {

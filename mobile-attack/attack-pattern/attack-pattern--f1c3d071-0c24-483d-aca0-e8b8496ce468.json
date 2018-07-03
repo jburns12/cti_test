@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9d4a74a0-eecf-43cc-b19f-04dd9c045d37",
+    "id": "bundle--805f29de-01d0-4195-904b-47db01691d2d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--f1c3d071-0c24-483d-aca0-e8b8496ce468",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-10-25T14:48:18.583Z",
-            "modified": "2018-06-18T15:59:03.864Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Modify Trusted Execution Environment",
             "description": "If an adversary can escalate privileges, he or she may be able to use those privileges to place malicious code in the device's Trusted Execution Environment (TEE) or other similar isolated execution environment where the code can evade detection, may persist after device resets, and may not be removable by the device user. Running code within the TEE may provide an adversary with the ability to monitor or tamper with overall device behavior.\n\nThomas Roth describes the potential for placing a rootkit within the TrustZone secure world (Citation: Roth-Rootkits).",
             "kill_chain_phases": [
@@ -24,7 +24,7 @@
             "external_references": [
                 {
                     "external_id": "MOB-T1002",
-                    "url": "https://attack.mitre.org/mobile/index.php/Technique/MOB-T1002",
+                    "url": "https://attack.mitre.org/technique/MOB-T1002",
                     "source_name": "mitre-mobile-attack"
                 },
                 {

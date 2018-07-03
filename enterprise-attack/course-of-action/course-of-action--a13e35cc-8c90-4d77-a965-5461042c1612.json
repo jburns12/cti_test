@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--758a8f09-b769-4d71-bc37-46e5e5de73a6",
+    "id": "bundle--1d9c309f-d08f-44b5-ad30-f9e2a8486d48",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--a13e35cc-8c90-4d77-a965-5461042c1612",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Shortcut Modification Mitigation",
             "description": "Limit permissions for who can create symbolic links in Windows to appropriate groups such as Administrators and necessary groups for virtualization. This can be done through GPO: Computer Configuration > [Policies] > Windows Settings > Security Settings > Local Policies > User Rights Assignment: Create symbolic links. (Citation: UCF STIG Symbolic Links)\n\nIdentify and block unknown, potentially malicious software that may be executed through shortcut modification by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
             "external_references": [
                 {
                     "external_id": "T1023",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1023",
+                    "url": "https://attack.mitre.org/technique/T1023",
                     "source_name": "mitre-attack"
                 },
                 {

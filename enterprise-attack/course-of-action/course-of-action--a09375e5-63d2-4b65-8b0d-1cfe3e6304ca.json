@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--fb63034e-9d70-4ae9-a9c7-f43a1991ce29",
+    "id": "bundle--3fa70c03-9a8f-4fba-b757-3141363940da",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--a09375e5-63d2-4b65-8b0d-1cfe3e6304ca",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Obfuscated Files or Information Mitigation",
             "description": "Ensure logging and detection mechanisms analyze commands after being processed/interpreted, rather than the raw input. Consider utilizing the Antimalware Scan Interface (AMSI) on Windows 10 for this functionality. (Citation: Microsoft AMSI June 2015)\n\nMitigation of compressed and encrypted files sent over the network and through email may not be advised since it may impact normal operations.",
             "external_references": [
                 {
                     "external_id": "T1027",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1027",
+                    "url": "https://attack.mitre.org/technique/T1027",
                     "source_name": "mitre-attack"
                 },
                 {

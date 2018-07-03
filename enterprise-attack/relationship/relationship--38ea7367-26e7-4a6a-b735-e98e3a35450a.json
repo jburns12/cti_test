@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8a385a52-b8ca-43ba-af50-579dfa1548e1",
+    "id": "bundle--aeebb03f-a70b-4f97-bc01-c92d3f93b39f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,8 +8,8 @@
             "id": "relationship--38ea7367-26e7-4a6a-b735-e98e3a35450a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Shamoon accesses network share(s), enables share access to the target device, and copies an executable payload to the target system, and uses a Scheduled Task Mitigation to execute the malware.",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "description": "[Shamoon](https://attack.mitre.org/software/S0140) accesses network share(s), enables share access to the target device, and copies an executable payload to the target system, and uses a [Scheduled Task Mitigation](https://attack.mitre.org/technique/T1053) to execute the malware.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2016/11/fireeye%20respondsto.html",

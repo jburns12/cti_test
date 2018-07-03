@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c369cd2d-0574-413a-a681-9d8cc322947e",
+    "id": "bundle--07b9f0cf-db6c-4a14-8d3f-20c7c42632aa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,8 +8,8 @@
             "id": "relationship--e68ff1c2-ef03-486b-96df-167a1652a97b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-06-27T14:18:47.700Z",
-            "description": "For C2 over HTTP, Helminth encodes data with base64 and sends it via the \"Cookie\" field of HTTP requests. For C2 over DNS, Helminth converts ASCII characters into their hexadecimal values and sends the data in cleartext.",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "description": "For C2 over HTTP, [Helminth](https://attack.mitre.org/software/S0170) encodes data with base64 and sends it via the \"Cookie\" field of HTTP requests. For C2 over DNS, [Helminth](https://attack.mitre.org/software/S0170) converts ASCII characters into their hexadecimal values and sends the data in cleartext.",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2016/05/the-oilrig-campaign-attacks-on-saudi-arabian-organizations-deliver-helminth-backdoor/",

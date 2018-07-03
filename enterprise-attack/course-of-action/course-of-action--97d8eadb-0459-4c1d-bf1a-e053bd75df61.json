@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--48966a5f-0726-4e17-b73c-0f296ca82b06",
+    "id": "bundle--c7f95f4a-e92a-4343-8d88-784ceea5d058",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--97d8eadb-0459-4c1d-bf1a-e053bd75df61",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Supply Chain Compromise Mitigation",
             "description": "Apply supply chain risk management (SCRM) practices and procedures (Citation: MITRE SE Guide 2014), such as supply chain analysis and appropriate risk management, throughout the life-cycle of a system.\n\nLeverage established software development lifecycle (SDLC) practices (Citation: NIST Supply Chain 2012): \n* Uniquely Identify Supply Chain Elements, Processes, and Actors\n* Limit Access and Exposure within the Supply Chain\n* Establish and Maintain the Provenance of Elements, Processes, Tools, and Data\n* Share Information within Strict Limits\n* Perform SCRM Awareness and Training\n* Use Defensive Design for Systems, Elements, and Processes\n* Perform Continuous Integrator Review\n* Strengthen Delivery Mechanisms\n* Assure Sustainment Activities and Processes\n* Manage Disposal and Final Disposition Activities throughout the System or Element Life Cycle",
             "external_references": [
                 {
                     "external_id": "T1195",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1195",
+                    "url": "https://attack.mitre.org/technique/T1195",
                     "source_name": "mitre-attack"
                 },
                 {

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7fc7472b-1de6-417e-a63f-1e0635c4d413",
+    "id": "bundle--348da46a-ca49-4baf-8bab-c2803f94fadb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--b332a960-3c04-495a-827f-f17a5daed3a6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-10-25T14:48:14.003Z",
-            "modified": "2018-06-18T15:59:03.864Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Disguise Root/Jailbreak Indicators",
             "description": "An adversary could use knowledge of the techniques used by security software to evade detection. For example, some mobile security products perform compromised device detection by searching for particular artifacts such as an installed \"su\" binary, but that check could be evaded by naming the binary something else. Similarly, polymorphic code techniques could be used to evade signature-based detection as described by  (Citation: Rastogi) et al. (Citation: Rastogi). \n\n (Citation: Brodie) (Citation: Brodie) describes limitations of jailbreak/root detection mechanisms.\n\n (Citation: Tan) (Citation: Tan) describes his experience defeating the jailbreak detection used by the iOS version of Good for Enterprise.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "MOB-T1011",
-                    "url": "https://attack.mitre.org/mobile/index.php/Technique/MOB-T1011",
+                    "url": "https://attack.mitre.org/technique/MOB-T1011",
                     "source_name": "mitre-mobile-attack"
                 },
                 {

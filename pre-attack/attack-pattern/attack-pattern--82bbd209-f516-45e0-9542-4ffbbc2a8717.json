@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--471768a8-ce61-45c0-972e-eb8fedb67f17",
+    "id": "bundle--9672a6e1-5b5a-45fa-9eda-d4bf22378586",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--82bbd209-f516-45e0-9542-4ffbbc2a8717",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Discover new exploits and monitor exploit-provider forums",
             "description": "An exploit takes advantage of a bug or vulnerability in order to cause unintended or unanticipated behavior to occur on computer hardware or software. The adversary may need to discover new exploits when existing exploits are no longer relevant to the environment they are trying to compromise. An adversary may monitor exploit provider forums to understand the state of existing, as well as newly discovered, exploits. (Citation: EquationQA)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1127",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1127",
+                    "url": "https://attack.mitre.org/technique/PRE-T1127",
                     "source_name": "mitre-pre-attack"
                 },
                 {

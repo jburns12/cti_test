@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7ea00c80-164a-45a1-acaa-1339dcf8f96d",
+    "id": "bundle--758b6213-88c8-41f9-8509-548f3f170194",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--a93ccb8f-3996-42e2-b7c7-bb599d4e205f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-10-25T14:48:35.247Z",
-            "modified": "2018-06-18T15:59:03.864Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Repackaged Application",
             "description": "An adversary could download a legitimate app, disassemble it, add malicious code, and then reassemble the app, for example as described by  (Citation: Zhou) and Jiang in  (Citation: Zhou). The app would appear to be the original app but contain additional malicious functionality. The adversary could then publish this app to app stores or use another delivery technique.",
             "kill_chain_phases": [
@@ -24,7 +24,7 @@
             "external_references": [
                 {
                     "external_id": "MOB-T1047",
-                    "url": "https://attack.mitre.org/mobile/index.php/Technique/MOB-T1047",
+                    "url": "https://attack.mitre.org/technique/MOB-T1047",
                     "source_name": "mitre-mobile-attack"
                 },
                 {

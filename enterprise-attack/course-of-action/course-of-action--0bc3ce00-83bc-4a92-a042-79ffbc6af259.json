@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--b5a6def2-e504-444a-836d-62bd2fb1e696",
+    "id": "bundle--9df8227f-f21e-45c6-857a-a724850f6dbc",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--0bc3ce00-83bc-4a92-a042-79ffbc6af259",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Windows Management Instrumentation Event Subscription Mitigation",
             "description": "Disabling WMI services may cause system instability and should be evaluated to assess the impact to a network. By default, only administrators are allowed to connect remotely using WMI; restrict other users that are allowed to connect, or disallow all users from connecting remotely to WMI. Prevent credential overlap across systems of administrator and privileged accounts. (Citation: FireEye WMI 2015)",
             "external_references": [
                 {
                     "external_id": "T1084",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1084",
+                    "url": "https://attack.mitre.org/technique/T1084",
                     "source_name": "mitre-attack"
                 },
                 {

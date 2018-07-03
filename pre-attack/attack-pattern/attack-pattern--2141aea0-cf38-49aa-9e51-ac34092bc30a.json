@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--240023de-15ba-4a2b-968e-37907431469a",
+    "id": "bundle--965d5521-b3c1-4808-8682-bb95b54f5e04",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--2141aea0-cf38-49aa-9e51-ac34092bc30a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Procure required equipment and software",
             "description": "An adversary will require some physical hardware and software. They may only need a lightweight set-up if most of their activities will take place using on-line infrastructure. Or, they may need to build extensive infrastructure if they want to test, communicate, and control other aspects of their activities on their own systems. (Citation: NYTStuxnet)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1112",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1112",
+                    "url": "https://attack.mitre.org/technique/PRE-T1112",
                     "source_name": "mitre-pre-attack"
                 },
                 {

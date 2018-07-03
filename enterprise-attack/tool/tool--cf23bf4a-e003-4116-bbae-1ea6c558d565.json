@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--923e00fc-bb06-47cd-bd13-06621c189fd2",
+    "id": "bundle--4e661454-2f5a-45f4-b135-3eabb1af0c69",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,20 +8,20 @@
             "id": "tool--cf23bf4a-e003-4116-bbae-1ea6c558d565",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:00.565Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "FTP",
-            "description": "FTP is a utility commonly available with operating systems to transfer information over the File Transfer Protocol (FTP). Adversaries can use it to transfer other tools onto a system or to exfiltrate data. (Citation: Wikipedia FTP)",
+            "description": "[FTP](https://attack.mitre.org/software/S0095) is a utility commonly available with operating systems to transfer information over the File Transfer Protocol (FTP). Adversaries can use it to transfer other tools onto a system or to exfiltrate data. (Citation: Wikipedia FTP)",
             "labels": [
                 "tool"
             ],
             "external_references": [
                 {
                     "external_id": "S0095",
-                    "url": "https://attack.mitre.org/wiki/Software/S0095",
+                    "url": "https://attack.mitre.org/software/S0095",
                     "source_name": "mitre-attack"
                 },
                 {
-                    "url": "https://en.wikipedia.org/wiki/File%20Transfer%20Protocol",
+                    "url": "https://en.wikipedia.org/File%20Transfer%20Protocol",
                     "description": "Wikipedia. (2016, June 15). File Transfer Protocol. Retrieved July 20, 2016.",
                     "source_name": "Wikipedia FTP"
                 }

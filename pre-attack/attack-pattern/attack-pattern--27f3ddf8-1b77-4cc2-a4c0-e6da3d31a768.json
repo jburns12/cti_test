@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c8e283a5-0e97-4a38-ae84-3777074f42ef",
+    "id": "bundle--30ece161-ab6b-43a6-a693-53598dd2aa87",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--27f3ddf8-1b77-4cc2-a4c0-e6da3d31a768",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Obtain/re-use payloads",
             "description": "A payload is the part of the malware which performs a malicious action. The adversary may re-use payloads when the needed capability is already available. (Citation: SonyDestover)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1123",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1123",
+                    "url": "https://attack.mitre.org/technique/PRE-T1123",
                     "source_name": "mitre-pre-attack"
                 },
                 {

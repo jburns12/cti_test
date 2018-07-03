@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e1ff0fcf-b54d-49e8-834c-44143c86a586",
+    "id": "bundle--f9399094-5c01-4757-aaa3-cd57d014aabb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,8 +8,8 @@
             "id": "relationship--2a93ea80-d0f6-4b81-887d-8911f7573245",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.061Z",
-            "modified": "2018-06-28T19:48:46.706Z",
-            "description": "Threat Group-3390 actors have used DLL side-loading. Actors have used legitimate Kaspersky anti-virus variants in which the DLL acts as a stub loader that loads and executes the shell code.",
+            "modified": "2018-07-03T15:59:24.849Z",
+            "description": "[Threat Group-3390](https://attack.mitre.org/wiki/Group/G0027) actors have used DLL side-loading. Actors have used legitimate Kaspersky anti-virus variants in which the DLL acts as a stub loader that loads and executes the shell code.",
             "external_references": [
                 {
                     "source_name": "Dell TG-3390",
@@ -17,9 +17,9 @@
                     "url": "http://www.secureworks.com/cyber-threat-intelligence/threats/threat-group-3390-targets-organizations-for-cyberespionage/"
                 },
                 {
-                    "source_name": "SecureWorks BRONZE UNION June 2017",
+                    "url": "https://www.secureworks.com/research/bronze-union",
                     "description": "Counter Threat Unit Research Team. (2017, June 27). BRONZE UNION Cyberespionage Persists Despite Disclosures. Retrieved July 13, 2017.",
-                    "url": "https://www.secureworks.com/research/bronze-union"
+                    "source_name": "SecureWorks BRONZE UNION June 2017"
                 }
             ],
             "object_marking_refs": [

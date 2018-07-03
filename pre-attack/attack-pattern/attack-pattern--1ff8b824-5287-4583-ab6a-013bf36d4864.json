@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a6d314d5-d963-4545-968c-7ce2f0a73867",
+    "id": "bundle--9e6da06a-705e-4bb9-b9d5-ad62be6e4df1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--1ff8b824-5287-4583-ab6a-013bf36d4864",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Data Hiding",
             "description": "Certain types of traffic (e.g., DNS tunneling, header inject) allow for user-defined fields. These fields can then be used to hide data. In addition to hiding data in network protocols, steganography techniques can be used to hide data in images or other file formats. Detection can be difficult unless a particular signature is already known. (Citation: BotnetsDNSC2) (Citation: HAMMERTOSS2015) (Citation: DNS-Tunnel)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1097",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1097",
+                    "url": "https://attack.mitre.org/technique/PRE-T1097",
                     "source_name": "mitre-pre-attack"
                 },
                 {

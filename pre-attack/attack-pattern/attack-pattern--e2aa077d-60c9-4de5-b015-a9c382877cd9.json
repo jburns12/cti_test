@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5c736536-2e6a-461e-8a87-34d824b9f158",
+    "id": "bundle--4d57f08a-4232-4abc-9137-7ffced7c687a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--e2aa077d-60c9-4de5-b015-a9c382877cd9",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Assess opportunities created by business deals",
             "description": "During mergers, divestitures, or other period of change in joint infrastructure or business processes there may be an opportunity for exploitation. During this type of churn, unusual requests, or other non standard practices may not be as noticeable. (Citation: RossiMergers) (Citation: MeidlHealthMergers)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1076",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1076",
+                    "url": "https://attack.mitre.org/technique/PRE-T1076",
                     "source_name": "mitre-pre-attack"
                 },
                 {

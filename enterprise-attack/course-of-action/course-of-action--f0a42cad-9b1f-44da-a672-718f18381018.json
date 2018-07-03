@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--6d2416b7-416a-4776-8b84-e89aea123088",
+    "id": "bundle--5223b584-ff72-49de-a423-1df92c30d42f",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--f0a42cad-9b1f-44da-a672-718f18381018",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Taint Shared Content Mitigation",
             "description": "Protect shared folders by minimizing users who have write access. Use utilities that detect or mitigate common features used in exploitation, such as the Microsoft Enhanced Mitigation Experience Toolkit (EMET).\n\nReduce potential lateral movement risk by using web-based document management and collaboration services that do not use network file and directory sharing.\n\nIdentify potentially malicious software that may be used to taint content or may result from it and audit and/or block the unknown programs by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
             "external_references": [
                 {
                     "external_id": "T1080",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1080",
+                    "url": "https://attack.mitre.org/technique/T1080",
                     "source_name": "mitre-attack"
                 },
                 {

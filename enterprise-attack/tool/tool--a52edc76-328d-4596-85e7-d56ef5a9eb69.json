@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f8957e6f-165f-449b-a6d3-49f610fcad13",
+    "id": "bundle--a3e1c50d-af8d-4c57-9284-c44d335f38ae",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,16 +8,16 @@
             "id": "tool--a52edc76-328d-4596-85e7-d56ef5a9eb69",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:11.426Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Pass-The-Hash Toolkit",
-            "description": "Pass-The-Hash Toolkit is a toolkit that allows an adversary to \"pass\" a password hash (without knowing the original password) to log in to systems. (Citation: Mandiant APT1)",
+            "description": "[Pass-The-Hash Toolkit](https://attack.mitre.org/software/S0122) is a toolkit that allows an adversary to \"pass\" a password hash (without knowing the original password) to log in to systems. (Citation: Mandiant APT1)",
             "labels": [
                 "tool"
             ],
             "external_references": [
                 {
                     "external_id": "S0122",
-                    "url": "https://attack.mitre.org/wiki/Software/S0122",
+                    "url": "https://attack.mitre.org/software/S0122",
                     "source_name": "mitre-attack"
                 },
                 {

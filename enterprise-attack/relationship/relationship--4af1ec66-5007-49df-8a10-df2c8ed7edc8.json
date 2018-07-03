@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d8812245-c716-4d5b-a08d-d1868e5a6d98",
+    "id": "bundle--9e5f8c06-e23a-4937-9472-dd6413fcbaf4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,8 +8,8 @@
             "id": "relationship--4af1ec66-5007-49df-8a10-df2c8ed7edc8",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-27T14:18:47.700Z",
-            "description": "BBSRAT has been loaded through DLL side-loading of a legitimate Citrix executable that is set to persist through the registry run key location: <code>HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\ssonsvr.exe</code>",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "description": "[BBSRAT](https://attack.mitre.org/software/S0127) has been loaded through DLL side-loading of a legitimate Citrix executable that is set to persist through the registry run key location: <code>HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\ssonsvr.exe</code>",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],

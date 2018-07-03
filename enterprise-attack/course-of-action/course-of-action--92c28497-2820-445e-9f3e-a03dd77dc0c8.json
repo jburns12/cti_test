@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--9a5bbf44-b6c8-4f8a-99a3-5bd77a4da7f3",
+    "id": "bundle--fc909ba9-4591-4e21-a25f-6a9fc8a8aee8",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--92c28497-2820-445e-9f3e-a03dd77dc0c8",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Exfiltration Over Command and Control Channel Mitigation",
             "description": "Mitigations for command and control apply. Network intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary malware can be used to mitigate activity at the network level. Signatures are often for unique indicators within protocols and may be based on the specific obfuscation technique used by a particular adversary or tool, and will likely be different across various malware families and versions. Adversaries will likely change tool command and control signatures over time or construct protocols in such a way to avoid detection by common defensive tools. (Citation: University of Birmingham C2)",
             "external_references": [
                 {
                     "external_id": "T1041",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1041",
+                    "url": "https://attack.mitre.org/technique/T1041",
                     "source_name": "mitre-attack"
                 },
                 {

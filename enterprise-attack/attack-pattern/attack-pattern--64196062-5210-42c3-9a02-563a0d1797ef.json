@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5c430070-c8a0-4d21-ba5e-65b58ec922dd",
+    "id": "bundle--c83c936a-c6b9-4bb1-98f5-810c06169f5e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--64196062-5210-42c3-9a02-563a0d1797ef",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:31:09.379Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Communication Through Removable Media",
-            "description": "Adversaries can perform command and control between compromised hosts on potentially disconnected networks using removable media to transfer commands from system to system. Both systems would need to be compromised, with the likelihood that an Internet-connected system was compromised first and the second through lateral movement by Replication Through Removable Media Mitigation. Commands and files would be relayed from the disconnected system to the Internet-connected system to which the adversary has direct access.",
+            "description": "Adversaries can perform command and control between compromised hosts on potentially disconnected networks using removable media to transfer commands from system to system. Both systems would need to be compromised, with the likelihood that an Internet-connected system was compromised first and the second through lateral movement by [Replication Through Removable Media Mitigation](https://attack.mitre.org/technique/T1091). Commands and files would be relayed from the disconnected system to the Internet-connected system to which the adversary has direct access.",
             "kill_chain_phases": [
                 {
                     "phase_name": "command-and-control",
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "T1092",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1092",
+                    "url": "https://attack.mitre.org/technique/T1092",
                     "source_name": "mitre-attack"
                 }
             ],

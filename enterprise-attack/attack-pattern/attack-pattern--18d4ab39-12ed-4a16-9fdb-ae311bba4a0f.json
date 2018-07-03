@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--53692135-e73c-4973-860a-e4127b9dc524",
+    "id": "bundle--a2483e46-3671-481a-9bfb-ac5d243dcbd6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--18d4ab39-12ed-4a16-9fdb-ae311bba4a0f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Rc.common",
             "description": "During the boot process, macOS executes <code>source /etc/rc.common</code>, which is a shell script containing various utility functions. This file also defines routines for processing command-line arguments and for gathering system settings, and is thus recommended to include in the start of Startup Item Scripts (Citation: Startup Items). In macOS and OS X, this is now a deprecated technique in favor of launch agents and launch daemons, but is currently still used.\n\nAdversaries can use the rc.common file as a way to hide code for persistence that will execute on each reboot as the root user (Citation: Methods of Mac Malware Persistence).",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "T1163",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1163",
+                    "url": "https://attack.mitre.org/technique/T1163",
                     "source_name": "mitre-attack"
                 },
                 {

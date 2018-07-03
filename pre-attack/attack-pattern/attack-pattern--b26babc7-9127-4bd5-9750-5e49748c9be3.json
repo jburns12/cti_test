@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7a8766b6-6f4f-400c-9468-08f510d9a370",
+    "id": "bundle--6591b571-35ea-4d65-8e92-1217315e9a5d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--b26babc7-9127-4bd5-9750-5e49748c9be3",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Research visibility gap of security vendors",
             "description": "If an adversary can identify which security tools a victim is using they may be able to identify ways around those tools. (Citation: CrowdStrike Putter Panda)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1067",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1067",
+                    "url": "https://attack.mitre.org/technique/PRE-T1067",
                     "source_name": "mitre-pre-attack"
                 },
                 {

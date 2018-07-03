@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e34b2b19-2387-4421-b0ad-bcd6137e73f5",
+    "id": "bundle--6109cd56-9614-4994-a835-2e24343c98f0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--5a68c603-d7f9-4535-927e-ab56819eaa85",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Compromise 3rd party or closed-source vulnerability/exploit information",
             "description": "There is usually a delay between when a vulnerability or exploit is discovered and when it is made public. An adversary may target the systems of those known to research vulnerabilities in order to gain that knowledge for use during a different attack. (Citation: TempertonDarkHotel)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1131",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1131",
+                    "url": "https://attack.mitre.org/technique/PRE-T1131",
                     "source_name": "mitre-pre-attack"
                 },
                 {

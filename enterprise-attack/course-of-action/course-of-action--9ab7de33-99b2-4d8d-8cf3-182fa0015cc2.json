@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--028f69f9-1c2a-496b-a076-c9c46cb4768d",
+    "id": "bundle--2cf587e0-33c6-447a-9894-536bbca21f98",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--9ab7de33-99b2-4d8d-8cf3-182fa0015cc2",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Logon Scripts Mitigation",
-            "description": "Restrict write access to logon scripts to specific administrators. Prevent access to administrator accounts by mitigating Credential Access techniques and limiting account access and permissions of Valid Accounts Mitigation.\n\nIdentify and block potentially malicious software that may be executed through logon script modification by using whitelisting (Citation: Beechey 2010) tools like AppLocker (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) that are capable of auditing and/or blocking unknown programs.",
+            "description": "Restrict write access to logon scripts to specific administrators. Prevent access to administrator accounts by mitigating Credential Access techniques and limiting account access and permissions of [Valid Accounts Mitigation](https://attack.mitre.org/technique/T1078).\n\nIdentify and block potentially malicious software that may be executed through logon script modification by using whitelisting (Citation: Beechey 2010) tools like AppLocker (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) that are capable of auditing and/or blocking unknown programs.",
             "external_references": [
                 {
                     "external_id": "T1037",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1037",
+                    "url": "https://attack.mitre.org/technique/T1037",
                     "source_name": "mitre-attack"
                 },
                 {

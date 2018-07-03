@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e96587fc-5b5d-4d52-960e-d31dc3b18689",
+    "id": "bundle--7cf1c953-99b4-49a2-94a5-9cdb0f9a6519",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,8 +8,8 @@
             "id": "relationship--c1884e62-7b2e-45a1-89fd-c76b1b717f50",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-27T14:18:47.700Z",
-            "description": "OwaAuth has been loaded onto Exchange servers and disguised as an ISAPI filter (DLL file). The IIS w3wp.exe process then loads the malicious DLL.",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "description": "[OwaAuth](https://attack.mitre.org/software/S0072) has been loaded onto Exchange servers and disguised as an ISAPI filter (DLL file). The IIS w3wp.exe process then loads the malicious DLL.",
             "external_references": [
                 {
                     "url": "http://www.secureworks.com/cyber-threat-intelligence/threats/threat-group-3390-targets-organizations-for-cyberespionage/",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1c6db88d-cdbb-454f-a8ff-0649911028c3",
+    "id": "bundle--f810cb14-2673-4c67-b1f7-23e24668f5bf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--d58f3996-e293-4f69-a2c8-0e1851cb8297",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Obtain Apple iOS enterprise distribution key pair and certificate",
             "description": "The adversary can obtain an Apple iOS enterprise distribution key pair and certificate and use it to distribute malicious apps directly to Apple iOS devices without the need to publish the apps to the Apple App Store (where the apps could potentially be detected). (Citation: Apple Developer Enterprise Porgram Apps) (Citation: Fruit vs Zombies) (Citation: WIRELURKER) (Citation: Sideloading Change)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1169",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1169",
+                    "url": "https://attack.mitre.org/technique/PRE-T1169",
                     "source_name": "mitre-pre-attack"
                 },
                 {

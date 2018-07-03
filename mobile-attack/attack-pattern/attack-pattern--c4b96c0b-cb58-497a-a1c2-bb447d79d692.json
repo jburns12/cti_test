@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b1c8c32e-88b3-4605-bfe8-be227079bca5",
+    "id": "bundle--9ced3ba7-e921-4e71-afa9-2f37fd27931e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--c4b96c0b-cb58-497a-a1c2-bb447d79d692",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-10-25T14:48:19.996Z",
-            "modified": "2018-06-18T15:59:03.864Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Capture Clipboard Data",
             "description": "A malicious app or other attack vector could capture sensitive data stored in the device clipboard, for example passwords being copy-and-pasted from a password manager app.",
             "kill_chain_phases": [
@@ -24,7 +24,7 @@
             "external_references": [
                 {
                     "external_id": "MOB-T1017",
-                    "url": "https://attack.mitre.org/mobile/index.php/Technique/MOB-T1017",
+                    "url": "https://attack.mitre.org/technique/MOB-T1017",
                     "source_name": "mitre-mobile-attack"
                 },
                 {

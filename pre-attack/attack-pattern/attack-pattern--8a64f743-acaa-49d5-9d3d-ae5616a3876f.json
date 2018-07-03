@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5ec90850-aa9a-4f8a-86a2-e08861661e9d",
+    "id": "bundle--32360dc3-eb71-4925-96fd-5e6d27999c97",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--8a64f743-acaa-49d5-9d3d-ae5616a3876f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Exploit public-facing application",
             "description": "The use of software, data, or commands to take advantage of a weakness in a computer system or program in order to cause unintended or unanticipated behavior. The weakness in the system can be a bug, a glitch, or a design vulnerability. (Citation: GoogleCrawlerSQLInj)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1154",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1154",
+                    "url": "https://attack.mitre.org/technique/PRE-T1154",
                     "source_name": "mitre-pre-attack"
                 },
                 {

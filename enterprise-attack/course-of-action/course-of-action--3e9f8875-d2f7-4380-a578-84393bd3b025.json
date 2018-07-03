@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--1172a721-6305-41ae-b9c8-82828eafc8d7",
+    "id": "bundle--6658a1b5-745e-4197-a84e-ed91ea097031",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--3e9f8875-d2f7-4380-a578-84393bd3b025",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Windows Remote Management Mitigation",
             "description": "Disable the WinRM service. If the service is necessary, lock down critical enclaves with separate WinRM infrastructure, accounts, and permissions. Follow WinRM best practices on configuration of authentication methods and use of host firewalls to restrict WinRM access to allow communication only to/from specific devices. (Citation: NSA Spotting)",
             "external_references": [
                 {
                     "external_id": "T1028",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1028",
+                    "url": "https://attack.mitre.org/technique/T1028",
                     "source_name": "mitre-attack"
                 },
                 {

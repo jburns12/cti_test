@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b9bbb80c-2fa5-4bdf-aa9b-0d744eb877f3",
+    "id": "bundle--ec96fd62-2039-4682-ba97-c75835376f7b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--6b846ad0-cc20-4db6-aa34-91561397c5e2",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-10-25T14:48:11.861Z",
-            "modified": "2018-06-18T15:59:03.864Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "App Delivered via Web Download",
             "description": "The application is downloaded from an arbitrary web site. A link to the application's download URI may be sent in an email or SMS, placed on another web site that the target is likely to view, or sent via other means (such as QR code).",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "MOB-T1034",
-                    "url": "https://attack.mitre.org/mobile/index.php/Technique/MOB-T1034",
+                    "url": "https://attack.mitre.org/technique/MOB-T1034",
                     "source_name": "mitre-mobile-attack"
                 },
                 {

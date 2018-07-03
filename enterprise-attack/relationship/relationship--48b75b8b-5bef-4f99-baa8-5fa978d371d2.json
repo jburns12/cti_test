@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f61f1268-ede0-4bd8-8231-02f18f81e9fc",
+    "id": "bundle--817946a7-dbd9-4850-bd5d-5fc8621f7cce",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,8 +8,8 @@
             "id": "relationship--48b75b8b-5bef-4f99-baa8-5fa978d371d2",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-27T14:18:47.700Z",
-            "description": "The Remsec loader implements itself with the name Security Support Provider, a legitimate Windows function. Various Remsec .exe files mimic legitimate file names used by Microsoft, Symantec, Kaspersky, Hewlett-Packard, and VMWare. Remsec also disguised malicious modules using similar filenames as custom network encryption software on victims.",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "description": "The [Remsec](https://attack.mitre.org/software/S0125) loader implements itself with the name Security Support Provider, a legitimate Windows function. Various [Remsec](https://attack.mitre.org/software/S0125) .exe files mimic legitimate file names used by Microsoft, Symantec, Kaspersky, Hewlett-Packard, and VMWare. [Remsec](https://attack.mitre.org/software/S0125) also disguised malicious modules using similar filenames as custom network encryption software on victims.",
             "external_references": [
                 {
                     "url": "http://www.symantec.com/content/en/us/enterprise/media/security%20response/whitepapers/Symantec%20Remsec%20IOCs.pdf",

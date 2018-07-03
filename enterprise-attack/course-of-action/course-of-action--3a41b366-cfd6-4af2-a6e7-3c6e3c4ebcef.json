@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--53091de0-0d80-4f49-934e-aec299331e16",
+    "id": "bundle--d53f598c-a727-4fac-853b-94411f6ae99f",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--3a41b366-cfd6-4af2-a6e7-3c6e3c4ebcef",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Control Panel Items Mitigation",
             "description": "This type of attack technique cannot be easily mitigated with preventive controls since it is based on the abuse of operating system design features. For example, mitigating specific Windows API calls and/or execution of particular file extensions will likely have unintended side effects, such as preventing legitimate software (i.e., drivers and configuration tools) from operating properly. Efforts should be focused on preventing adversary tools from running earlier in the chain of activity and on identification of subsequent malicious behavior.\n\nRestrict storage and execution of Control Panel items to protected directories, such as C:\\Windows, rather than user directories.\n\nIndex known safe Control Panel items and block potentially malicious software using whitelisting (Citation: Beechey 2010) tools like AppLocker (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) that are capable of auditing and/or blocking unknown executable files.\n\nConsider fully enabling User Account Control (UAC) to impede system-wide changes from illegitimate administrators. (Citation: Microsoft UAC)",
             "external_references": [
                 {
                     "external_id": "T1196",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1196",
+                    "url": "https://attack.mitre.org/technique/T1196",
                     "source_name": "mitre-attack"
                 },
                 {

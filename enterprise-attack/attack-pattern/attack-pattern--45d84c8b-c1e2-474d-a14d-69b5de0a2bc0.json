@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--74ab7eaa-e158-4b83-ad0d-07acaf3438ed",
+    "id": "bundle--dbd1722a-5df1-4f48-83ce-1c3c5e2f505d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--45d84c8b-c1e2-474d-a14d-69b5de0a2bc0",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Source",
             "description": "The <code>source</code> command loads functions into the current shell or executes files in the current context. This built-in command can be run in two different ways <code>source /path/to/filename [arguments]</code> or <code>. /path/to/filename [arguments]</code>. Take note of the space after the \".\". Without a space, a new shell is created that runs the program instead of running the program within the current context. This is often used to make certain features or functions available to a shell or to update a specific shell's environment. \n\nAdversaries can abuse this functionality to execute programs. The file executed with this technique does not need to be marked executable beforehand.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "T1153",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1153",
+                    "url": "https://attack.mitre.org/technique/T1153",
                     "source_name": "mitre-attack"
                 }
             ],

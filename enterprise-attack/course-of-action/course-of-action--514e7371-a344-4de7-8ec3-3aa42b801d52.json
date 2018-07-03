@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--53fb6342-cf20-444f-a667-b815683860a0",
+    "id": "bundle--94e2d02e-b54f-4b8f-bad4-dc6bb187fbf0",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--514e7371-a344-4de7-8ec3-3aa42b801d52",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Multi-Stage Channels Mitigation",
             "description": "Command and control infrastructure used in a multi-stage channel may be blocked if known ahead of time. If unique signatures are present in the C2 traffic, they could also be used as the basis of identifying and blocking the channel. (Citation: University of Birmingham C2)",
             "external_references": [
                 {
                     "external_id": "T1104",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1104",
+                    "url": "https://attack.mitre.org/technique/T1104",
                     "source_name": "mitre-attack"
                 },
                 {

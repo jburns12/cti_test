@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--05fa3b2e-38bb-420f-894d-50c06f36e1db",
+    "id": "bundle--f8f3a6f7-dcc0-4ef3-afb4-3b9f4b0f5329",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:31:52.748Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "APT29",
-            "description": "APT29 is threat group that has been attributed to the Russian government and has operated since at least 2008. (Citation: F-Secure The Dukes) (Citation: GRIZZLY STEPPE JAR) This group reportedly compromised the Democratic National Committee starting in the summer of 2015. (Citation: Crowdstrike DNC June 2016)",
+            "description": "[APT29](https://attack.mitre.org/group/G0016) is threat group that has been attributed to the Russian government and has operated since at least 2008. (Citation: F-Secure The Dukes) (Citation: GRIZZLY STEPPE JAR) This group reportedly compromised the Democratic National Committee starting in the summer of 2015. (Citation: Crowdstrike DNC June 2016)",
             "aliases": [
                 "APT29",
                 "The Dukes",
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "G0016",
-                    "url": "https://attack.mitre.org/wiki/Group/G0016",
+                    "url": "https://attack.mitre.org/group/G0016",
                     "source_name": "mitre-attack"
                 },
                 {

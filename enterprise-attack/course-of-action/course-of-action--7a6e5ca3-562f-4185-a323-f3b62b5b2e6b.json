@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--4dd2ea8a-1b31-4bf4-b1b6-fe210463a2a6",
+    "id": "bundle--31bc552c-05bf-48fc-983b-643e9f752743",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--7a6e5ca3-562f-4185-a323-f3b62b5b2e6b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "LSASS Driver Mitigation",
             "description": "On Windows 8.1 and Server 2012 R2, enable LSA Protection by setting the Registry key <code>HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\RunAsPPL</code> to <code>dword:00000001</code>. (Citation: Microsoft LSA Protection Mar 2014) LSA Protection ensures that LSA plug-ins and drivers are only loaded if they are digitally signed with a Microsoft signature and adhere to the Microsoft Security Development Lifecycle (SDL) process guidance.\n\nOn Windows 10 and Server 2016, enable Windows Defender Credential Guard (Citation: Microsoft Enable Cred Guard April 2017) to run lsass.exe in an isolated virtualized environment without any device drivers. (Citation: Microsoft Credential Guard April 2017)\n\nEnsure safe DLL search mode is enabled <code>HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Control\\Session Manager\\SafeDllSearchMode</code> to mitigate risk that lsass.exe loads a malicious code library. (Citation: Microsoft DLL Security)",
             "external_references": [
                 {
                     "external_id": "T1177",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1177",
+                    "url": "https://attack.mitre.org/technique/T1177",
                     "source_name": "mitre-attack"
                 },
                 {

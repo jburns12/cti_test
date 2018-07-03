@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--f58b624f-72e1-411c-99f9-d9e6fea02277",
+    "id": "bundle--1518e3fa-3484-4ce8-ad7d-693a9421ed5d",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--ed202147-4026-4330-b5bd-1e8dfa8cf7cc",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Modify Registry Mitigation",
-            "description": "Misconfiguration of permissions in the Registry may lead to opportunities for an adversary to execute code, like through Service Registry Permissions Weakness Mitigation. Ensure proper permissions are set for Registry hives to prevent users from modifying keys for system components that may lead to privilege escalation.\n\nIdentify and block unnecessary system utilities or potentially malicious software that may be used to modify the Registry by using whitelisting (Citation: Beechey 2010) tools like AppLocker (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
+            "description": "Misconfiguration of permissions in the Registry may lead to opportunities for an adversary to execute code, like through [Service Registry Permissions Weakness Mitigation](https://attack.mitre.org/technique/T1058). Ensure proper permissions are set for Registry hives to prevent users from modifying keys for system components that may lead to privilege escalation.\n\nIdentify and block unnecessary system utilities or potentially malicious software that may be used to modify the Registry by using whitelisting (Citation: Beechey 2010) tools like AppLocker (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
             "external_references": [
                 {
                     "external_id": "T1112",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1112",
+                    "url": "https://attack.mitre.org/technique/T1112",
                     "source_name": "mitre-attack"
                 },
                 {

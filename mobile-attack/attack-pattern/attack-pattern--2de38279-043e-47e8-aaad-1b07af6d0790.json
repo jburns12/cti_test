@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ae5880cd-3d5e-45e2-997f-a5d270e17388",
+    "id": "bundle--c7bbec85-822c-4c1e-a28d-841129e35992",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--2de38279-043e-47e8-aaad-1b07af6d0790",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-10-25T14:48:26.890Z",
-            "modified": "2018-06-18T15:59:03.864Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Network Service Scanning",
             "description": "Adversaries may attempt to get a listing of services running on remote hosts, including those that may be vulnerable to remote software exploitation. Methods to acquire this information include port scans and vulnerability scans from the mobile device. This technique may take advantage of the mobile device's access to an internal enterprise network either through local connectivity or through a Virtual Private Network (VPN).",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "MOB-T1026",
-                    "url": "https://attack.mitre.org/mobile/index.php/Technique/MOB-T1026",
+                    "url": "https://attack.mitre.org/technique/MOB-T1026",
                     "source_name": "mitre-mobile-attack"
                 }
             ],

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fbe936d5-d88a-44b9-976a-4566874523b7",
+    "id": "bundle--b89fb443-5c20-4660-a039-f3ec32e12a0e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--f72eb8a8-cd4c-461d-a814-3f862befbf00",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:31:10.314Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Custom Command and Control Protocol",
-            "description": "Adversaries may communicate using a custom command and control protocol instead of using existing Standard Application Layer Protocol Mitigation to encapsulate commands. Implementations could mimic well-known protocols.",
+            "description": "Adversaries may communicate using a custom command and control protocol instead of using existing [Standard Application Layer Protocol Mitigation](https://attack.mitre.org/technique/T1071) to encapsulate commands. Implementations could mimic well-known protocols.",
             "kill_chain_phases": [
                 {
                     "phase_name": "command-and-control",
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "T1094",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1094",
+                    "url": "https://attack.mitre.org/technique/T1094",
                     "source_name": "mitre-attack"
                 },
                 {

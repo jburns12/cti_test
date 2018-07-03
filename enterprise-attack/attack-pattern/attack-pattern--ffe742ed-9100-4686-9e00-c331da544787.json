@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c96ba488-50fb-43e4-a4b4-e92adef5d0d1",
+    "id": "bundle--d5b3eda9-3370-42f9-aff8-ea804d23b22b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--ffe742ed-9100-4686-9e00-c331da544787",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:31:00.200Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Windows Admin Shares",
-            "description": "Windows systems have hidden network shares that are accessible only to administrators and provide the ability for remote file copy and other administrative functions. Example network shares include <code>C$</code>, <code>ADMIN$</code>, and <code>IPC$</code>. \n\nAdversaries may use this technique in conjunction with administrator-level Valid Accounts Mitigation to remotely access a networked system over server message block (SMB) (Citation: Wikipedia SMB) to interact with systems using remote procedure calls (RPCs), (Citation: TechNet RPC) transfer files, and run transferred binaries through remote Execution. Example execution techniques that rely on authenticated sessions over SMB/RPC are Scheduled Task Mitigation, Service Execution Mitigation, and Windows Management Instrumentation Mitigation. Adversaries can also use NTLM hashes to access administrator shares on systems with Pass the Hash Mitigation and certain configuration and patch levels. (Citation: Microsoft Admin Shares)\n\nThe Net utility can be used to connect to Windows admin shares on remote systems using <code>net use</code> commands with valid credentials. (Citation: Technet Net Use)",
+            "description": "Windows systems have hidden network shares that are accessible only to administrators and provide the ability for remote file copy and other administrative functions. Example network shares include <code>C$</code>, <code>ADMIN$</code>, and <code>IPC$</code>. \n\nAdversaries may use this technique in conjunction with administrator-level [Valid Accounts Mitigation](https://attack.mitre.org/technique/T1078) to remotely access a networked system over server message block (SMB) (Citation: Wikipedia SMB) to interact with systems using remote procedure calls (RPCs), (Citation: TechNet RPC) transfer files, and run transferred binaries through remote Execution. Example execution techniques that rely on authenticated sessions over SMB/RPC are [Scheduled Task Mitigation](https://attack.mitre.org/technique/T1053), [Service Execution Mitigation](https://attack.mitre.org/technique/T1035), and [Windows Management Instrumentation Mitigation](https://attack.mitre.org/technique/T1047). Adversaries can also use NTLM hashes to access administrator shares on systems with [Pass the Hash Mitigation](https://attack.mitre.org/technique/T1075) and certain configuration and patch levels. (Citation: Microsoft Admin Shares)\n\nThe [Net](https://attack.mitre.org/software/S0039) utility can be used to connect to Windows admin shares on remote systems using <code>net use</code> commands with valid credentials. (Citation: Technet Net Use)",
             "kill_chain_phases": [
                 {
                     "phase_name": "lateral-movement",
@@ -20,11 +20,11 @@
             "external_references": [
                 {
                     "external_id": "T1077",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1077",
+                    "url": "https://attack.mitre.org/technique/T1077",
                     "source_name": "mitre-attack"
                 },
                 {
-                    "url": "https://en.wikipedia.org/wiki/Server%20Message%20Block",
+                    "url": "https://en.wikipedia.org/Server%20Message%20Block",
                     "description": "Wikipedia. (2016, June 12). Server Message Block. Retrieved June 12, 2016.",
                     "source_name": "Wikipedia SMB"
                 },
@@ -57,7 +57,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Ensure that proper logging of accounts used to log into systems is turned on and centrally collected. Windows logging is able to collect success/failure for accounts that may be used to move laterally and can be collected using tools such as Windows Event Forwarding. (Citation: Lateral Movement Payne) (Citation: Windows Event Forwarding Payne) Monitor remote login events and associated SMB activity for file transfers and remote process execution. Monitor the actions of remote users who connect to administrative shares. Monitor for use of tools and commands to connect to remote shares, such as Net, on the command-line interface and Discovery techniques that could be used to find remotely accessible systems.",
+            "x_mitre_detection": "Ensure that proper logging of accounts used to log into systems is turned on and centrally collected. Windows logging is able to collect success/failure for accounts that may be used to move laterally and can be collected using tools such as Windows Event Forwarding. (Citation: Lateral Movement Payne) (Citation: Windows Event Forwarding Payne) Monitor remote login events and associated SMB activity for file transfers and remote process execution. Monitor the actions of remote users who connect to administrative shares. Monitor for use of tools and commands to connect to remote shares, such as [Net](https://attack.mitre.org/software/S0039), on the command-line interface and Discovery techniques that could be used to find remotely accessible systems.",
             "x_mitre_platforms": [
                 "Windows"
             ],

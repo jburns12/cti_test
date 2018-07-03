@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1970b739-7e7a-466e-972c-cfb3e2a732d0",
+    "id": "bundle--aed42513-5064-421c-8b1a-23c54df53c2b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--3d1488a6-59e6-455a-8b80-78b53edc33fe",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Obtain booter/stressor subscription",
             "description": "Configure and setup booter/stressor services, often intended for server stress testing, to enable denial of service attacks. (Citation: Krebs-Anna) (Citation: Krebs-Booter) (Citation: Krebs-Bazaar)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1173",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1173",
+                    "url": "https://attack.mitre.org/technique/PRE-T1173",
                     "source_name": "mitre-pre-attack"
                 },
                 {

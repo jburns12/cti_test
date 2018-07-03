@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b9f47955-76a2-4408-8b4c-70e92ad4f6a4",
+    "id": "bundle--3b7a9d43-8d7b-47c5-ab66-ea502a172f63",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--856a9371-4f0f-4ea9-946e-f3144204240f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Determine 3rd party infrastructure services",
             "description": "Infrastructure services includes the hardware, software, and network resources required to operate a communications environment. This infrastructure can be managed by a 3rd party rather than being managed by the owning organization. (Citation: FFIECAwareness) (Citation: Zetter2015Threats)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1037",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1037",
+                    "url": "https://attack.mitre.org/technique/PRE-T1037",
                     "source_name": "mitre-pre-attack"
                 },
                 {

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fbc4643b-b718-4735-bd36-4aac197a5152",
+    "id": "bundle--b856e850-baa5-4b91-bdc8-be44315f4b03",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--198ce408-1470-45ee-b47f-7056050d4fc2",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-10-25T14:48:28.067Z",
-            "modified": "2018-06-18T15:59:03.864Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Application Discovery",
             "description": "Adversaries may seek to identify all applications installed on the device. One use case for doing so is to identify the presence of endpoint security applications that may increase the adversary's risk of detection. Another use case is to identify the presence of applications that the adversary may wish to target.\n\nOn Android, applications can use methods in the PackageManager class (Citation: Android-PackageManager) to enumerate other apps installed on device, or an entity with shell access can use the pm command line tool.\n\nOn iOS, apps can use private API calls to obtain a list of other apps installed on the device as described by Kurtz (Citation: Kurtz-MaliciousiOSApps), however use of private API calls will likely prevent the application from being distributed through Apple's App Store.",
             "kill_chain_phases": [
@@ -24,7 +24,7 @@
             "external_references": [
                 {
                     "external_id": "MOB-T1021",
-                    "url": "https://attack.mitre.org/mobile/index.php/Technique/MOB-T1021",
+                    "url": "https://attack.mitre.org/technique/MOB-T1021",
                     "source_name": "mitre-mobile-attack"
                 },
                 {

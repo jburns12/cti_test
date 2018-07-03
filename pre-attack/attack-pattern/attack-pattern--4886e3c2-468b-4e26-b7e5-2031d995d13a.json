@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fc30d7e9-67db-41ee-b89d-941e79059a5b",
+    "id": "bundle--d2e9850c-c5f1-4ed8-b100-5d49bde4f929",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--4886e3c2-468b-4e26-b7e5-2031d995d13a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Build or acquire exploits",
             "description": "An exploit takes advantage of a bug or vulnerability in order to cause unintended or unanticipated behavior to occur on computer hardware or software. The adversary may use or modify existing exploits when those exploits are still relevant to the environment they are trying to compromise. (Citation: NYTStuxnet) (Citation: NationsBuying)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1126",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1126",
+                    "url": "https://attack.mitre.org/technique/PRE-T1126",
                     "source_name": "mitre-pre-attack"
                 },
                 {

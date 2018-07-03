@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--58540f4f-008f-4460-a441-9df4764c3aac",
+    "id": "bundle--c103ed25-6682-49bf-b615-9bce2372381d",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--d9f4b5fa-2a39-4bdf-b40a-ea998933cd6d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Video Capture Mitigation",
             "description": "Mitigating this technique specifically may be difficult as it requires fine-grained API control. Efforts should be focused on preventing unwanted or unknown code from executing on a system.\n\nIdentify and block potentially malicious software that may be used to capture video and images by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
             "external_references": [
                 {
                     "external_id": "T1125",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1125",
+                    "url": "https://attack.mitre.org/technique/T1125",
                     "source_name": "mitre-attack"
                 },
                 {

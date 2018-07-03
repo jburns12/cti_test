@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--82a81f58-4ba5-497d-99dd-ab44c6dbc83a",
+    "id": "bundle--1bd6a67b-d08e-46e2-8a57-b10b932aae85",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--8b57a8f1-9cbc-4b95-b162-cc2a1add94f2",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Test malware to evade detection",
             "description": "An adversary can run their code on systems with cyber security protections, such as antivirus products, in place to see if their code is detected. They can also test their malware on freely available public services. (Citation: MalwareQAZirtest)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1136",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1136",
+                    "url": "https://attack.mitre.org/technique/PRE-T1136",
                     "source_name": "mitre-pre-attack"
                 },
                 {

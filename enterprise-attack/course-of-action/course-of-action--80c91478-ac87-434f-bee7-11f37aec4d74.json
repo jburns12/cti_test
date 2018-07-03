@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--12d1b442-d94f-4a23-a95f-7d1235e4a3d2",
+    "id": "bundle--e22625e6-35b0-4ed5-9993-3150befe864d",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--80c91478-ac87-434f-bee7-11f37aec4d74",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Dynamic Data Exchange Mitigation",
             "description": "Registry keys specific to Microsoft Office feature control security can be set to disable automatic DDE/OLE execution. (Citation: Microsoft DDE Advisory Nov 2017) (Citation: BleepingComputer DDE Disabled in Word Dec 2017) (Citation: GitHub Disable DDEAUTO Oct 2017) Microsoft also created Registry keys to completely disable DDE execution in Word and Excel. (Citation: Microsoft ADV170021 Dec 2017)\n\nEnsure Protected View is enabled (Citation: Microsoft Protected View) and consider disabling embedded files in Office programs, such as OneNote, not enrolled in Protected View. (Citation: Enigma Reviving DDE Jan 2018) (Citation: GitHub Disable DDEAUTO Oct 2017)\n\nOn Windows 10, enable Attack Surface Reduction (ASR) rules to prevent DDE attacks and spawning of child processes from Office programs. (Citation: Microsoft ASR Nov 2017) (Citation: Enigma Reviving DDE Jan 2018)",
             "external_references": [
                 {
                     "external_id": "T1173",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1173",
+                    "url": "https://attack.mitre.org/technique/T1173",
                     "source_name": "mitre-attack"
                 },
                 {

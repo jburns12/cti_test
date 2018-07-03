@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dee84b59-d701-4e11-95ff-54a9a69b57d1",
+    "id": "bundle--457bdf75-dcca-4ea2-9967-9733f01f8651",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--aa8bfbc9-78dc-41a4-a03b-7453e0fdccda",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Dylib Hijacking",
             "description": "macOS and OS X use a common method to look for required dynamic libraries (dylib) to load into a program based on search paths. Adversaries can take advantage of ambiguous paths to plant dylibs to gain privilege escalation or persistence.\n\nA common method is to see what dylibs an application uses, then plant a malicious version with the same name higher up in the search path. This typically results in the dylib being in the same folder as the application itself. (Citation: Writing Bad Malware for OSX) (Citation: Malware Persistence on OS X)\nIf the program is configured to run at a higher privilege level than the current user, then when the dylib is loaded into the application, the dylib will also run at that elevated level. This can be used by adversaries as a privilege escalation technique.",
             "kill_chain_phases": [
@@ -24,7 +24,7 @@
             "external_references": [
                 {
                     "external_id": "T1157",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1157",
+                    "url": "https://attack.mitre.org/technique/T1157",
                     "source_name": "mitre-attack"
                 },
                 {

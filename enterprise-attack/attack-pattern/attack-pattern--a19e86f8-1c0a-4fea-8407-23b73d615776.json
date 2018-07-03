@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--711688a8-0532-4b73-b769-1c0422424931",
+    "id": "bundle--4d283ca7-3a60-4369-934b-74a156292512",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--a19e86f8-1c0a-4fea-8407-23b73d615776",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:30:44.720Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Exfiltration Over Alternative Protocol",
             "description": "Data exfiltration is performed with a different protocol from the main command and control protocol or channel. The data is likely to be sent to an alternate network location from the main command and control server. Alternate protocols include FTP, SMTP, HTTP/S, DNS, or some other network protocol. Different channels could include Internet Web services such as cloud storage.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "T1048",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1048",
+                    "url": "https://attack.mitre.org/technique/T1048",
                     "source_name": "mitre-attack"
                 },
                 {

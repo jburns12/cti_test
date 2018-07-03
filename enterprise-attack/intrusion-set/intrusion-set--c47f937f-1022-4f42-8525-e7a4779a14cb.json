@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0bd2c249-7742-4c31-89dd-5f3103d5c35d",
+    "id": "bundle--3ae75e61-5544-4e7b-bc8d-ca0a43152f74",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "intrusion-set--c47f937f-1022-4f42-8525-e7a4779a14cb",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:31:47.537Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "APT12",
-            "description": "APT12 is a threat group that has been attributed to China. (Citation: Meyers Numbered Panda)",
+            "description": "[APT12](https://attack.mitre.org/group/G0005) is a threat group that has been attributed to China. (Citation: Meyers Numbered Panda)",
             "aliases": [
                 "APT12",
                 "IXESHE",
@@ -21,7 +21,7 @@
             "external_references": [
                 {
                     "external_id": "G0005",
-                    "url": "https://attack.mitre.org/wiki/Group/G0005",
+                    "url": "https://attack.mitre.org/group/G0005",
                     "source_name": "mitre-attack"
                 },
                 {

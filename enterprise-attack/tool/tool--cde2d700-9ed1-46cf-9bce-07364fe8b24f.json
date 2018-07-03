@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b09ea923-9e9d-4427-955d-4b5192523f4f",
+    "id": "bundle--e8cce813-8325-4e1b-95ec-68a0817a5924",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,16 +8,16 @@
             "id": "tool--cde2d700-9ed1-46cf-9bce-07364fe8b24f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:32:49.000Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Reg",
-            "description": "Reg is a Windows utility used to interact with the Windows Registry. It can be used at the command-line interface to query, add, modify, and remove information. (Citation: Microsoft Reg)\n\nUtilities such as Reg are known to be used by persistent threats. (Citation: Windows Commands JPCERT)",
+            "description": "[Reg](https://attack.mitre.org/software/S0075) is a Windows utility used to interact with the Windows Registry. It can be used at the command-line interface to query, add, modify, and remove information. (Citation: Microsoft Reg)\n\nUtilities such as [Reg](https://attack.mitre.org/software/S0075) are known to be used by persistent threats. (Citation: Windows Commands JPCERT)",
             "labels": [
                 "tool"
             ],
             "external_references": [
                 {
                     "external_id": "S0075",
-                    "url": "https://attack.mitre.org/wiki/Software/S0075",
+                    "url": "https://attack.mitre.org/software/S0075",
                     "source_name": "mitre-attack"
                 },
                 {

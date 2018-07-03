@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--42009c9e-b50d-4d9f-bdeb-a07a158470c3",
+    "id": "bundle--b9fb84d7-6e73-4b01-a77f-0d3acd7cab93",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--4320b080-9ae9-4541-9b8b-bcd0961dbbbd",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Data Staged Mitigation",
             "description": "Identify unnecessary system utilities or potentially malicious software that may be used to collect data from removable media, and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
             "external_references": [
                 {
                     "external_id": "T1074",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1074",
+                    "url": "https://attack.mitre.org/technique/T1074",
                     "source_name": "mitre-attack"
                 },
                 {

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2b46337a-4f6e-438b-a4c7-cd24b956b938",
+    "id": "bundle--82da7d2c-9874-4948-bbd8-4b977042c751",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--a10641f4-87b4-45a3-a906-92a149cb2c27",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:31:12.196Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Account Manipulation",
             "description": "Account manipulation may aid adversaries in maintaining access to credentials and certain permission levels within an environment. Manipulation could consist of modifying permissions, modifying credentials, adding or changing permission groups, modifying account settings, or modifying how authentication is performed. In order to create or manipulate accounts, the adversary must already have sufficient permissions on systems or the domain.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "T1098",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1098",
+                    "url": "https://attack.mitre.org/technique/T1098",
                     "source_name": "mitre-attack"
                 },
                 {

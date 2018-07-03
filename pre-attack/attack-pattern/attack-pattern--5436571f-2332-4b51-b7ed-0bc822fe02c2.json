@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--732f31b9-091b-4ba4-a621-69072c18d3b0",
+    "id": "bundle--e8983bfe-eb69-4865-8d16-4652526dc641",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--5436571f-2332-4b51-b7ed-0bc822fe02c2",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "OS-vendor provided communication channels",
             "description": "Google and Apple provide Google Cloud Messaging and Apple Push Notification Service, respectively, services designed to enable efficient communication between third-party mobile app backend servers and the mobile apps running on individual devices. These services maintain an encrypted connection between every mobile device and Google or Apple that cannot easily be inspected and must be allowed to traverse networks as part of normal device operation. These services could be used by adversaries for communication to compromised mobile devices. (Citation: Securelist Mobile Malware 2013) (Citation: DroydSeuss)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1167",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1167",
+                    "url": "https://attack.mitre.org/technique/PRE-T1167",
                     "source_name": "mitre-pre-attack"
                 },
                 {

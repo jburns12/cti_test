@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8cb09c10-f8b0-44f6-bec5-29d92874137b",
+    "id": "bundle--91151014-dd2a-426c-bff5-b40b94acb011",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--7a265bf0-6acc-4f43-8b22-2e58b443e62e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Choose pre-compromised mobile app developer account credentials or signing keys",
             "description": "The adversary can use account credentials or signing keys of an existing mobile app developer to publish malicious updates of existing mobile apps to an application store, or to abuse the developer's identity and reputation to publish new malicious apps.  Many mobile devices are configured to automatically install new versions of already-installed apps. (Citation: Fraudenlent Apps Stolen Dev Credentials)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1168",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1168",
+                    "url": "https://attack.mitre.org/technique/PRE-T1168",
                     "source_name": "mitre-pre-attack"
                 },
                 {

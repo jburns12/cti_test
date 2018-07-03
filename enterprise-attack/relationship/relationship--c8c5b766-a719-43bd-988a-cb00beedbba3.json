@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--47e85faa-c5c7-4093-99cd-a84cc8775c1a",
+    "id": "bundle--cab367da-33b3-48ff-8931-543dd7e68c28",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--c8c5b766-a719-43bd-988a-cb00beedbba3",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.062Z",
-            "modified": "2018-06-28T19:48:46.740Z",
-            "description": "Threat Group-3390 has used RAR to compress, encrypt, and password-protect files prior to exfiltration.",
+            "modified": "2018-07-03T15:59:24.890Z",
+            "description": "[Threat Group-3390](https://attack.mitre.org/wiki/Group/G0027) actors have encrypted data for exfiltration using the password \"admin-windows2014\" (with the year corresponding to the year of the intrusion).",
             "external_references": [
                 {
-                    "source_name": "SecureWorks BRONZE UNION June 2017",
-                    "description": "Counter Threat Unit Research Team. (2017, June 27). BRONZE UNION Cyberespionage Persists Despite Disclosures. Retrieved July 13, 2017.",
-                    "url": "https://www.secureworks.com/research/bronze-union"
+                    "source_name": "Dell TG-3390",
+                    "description": "Dell SecureWorks Counter Threat Unit Threat Intelligence. (2015, August 5). Threat Group-3390 Targets Organizations for Cyberespionage. Retrieved January 25, 2016.",
+                    "url": "http://www.secureworks.com/cyber-threat-intelligence/threats/threat-group-3390-targets-organizations-for-cyberespionage/"
                 }
             ],
             "object_marking_refs": [

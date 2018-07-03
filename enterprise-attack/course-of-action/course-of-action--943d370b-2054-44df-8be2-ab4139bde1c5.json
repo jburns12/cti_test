@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--ed390361-2bbb-4ab0-b45a-3b535c472a92",
+    "id": "bundle--20864e1b-bf0f-4ef9-81e0-d2314d37dad1",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--943d370b-2054-44df-8be2-ab4139bde1c5",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Authentication Package Mitigation",
             "description": "Windows 8.1, Windows Server 2012 R2, and later versions, may make LSA run as a Protected Process Light (PPL) by setting the Registry key <code>HKLM\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\RunAsPPL</code>, which requires all DLLs loaded by LSA to be signed by Microsoft. (Citation: Graeber 2014) (Citation: Microsoft Configure LSA)",
             "external_references": [
                 {
                     "external_id": "T1131",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1131",
+                    "url": "https://attack.mitre.org/technique/T1131",
                     "source_name": "mitre-attack"
                 },
                 {

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--797628f0-84c2-48d4-9322-30151a98fa48",
+    "id": "bundle--9b626679-00b4-4242-99fa-dd9316a01403",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,8 +8,8 @@
             "id": "relationship--4b5540e5-eac1-40f4-93d0-155f60e9395a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-27T14:18:47.700Z",
-            "description": "The C2 server response to a beacon sent by a variant of Emissary contains a 36-character GUID value that is used as an encryption key for subsequent network communications. Some variants of Emissary use various XOR operations to encrypt C2 data.",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "description": "The C2 server response to a beacon sent by a variant of [Emissary](https://attack.mitre.org/software/S0082) contains a 36-character GUID value that is used as an encryption key for subsequent network communications. Some variants of [Emissary](https://attack.mitre.org/software/S0082) use various XOR operations to encrypt C2 data.",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2015/12/attack-on-french-diplomat-linked-to-operation-lotus-blossom/",

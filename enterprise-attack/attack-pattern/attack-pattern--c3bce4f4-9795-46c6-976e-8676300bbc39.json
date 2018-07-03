@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6bed43eb-bdcf-4b1b-bec3-351df7ae6585",
+    "id": "bundle--39dda8c3-b280-454a-aeeb-8ccd721789df",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--c3bce4f4-9795-46c6-976e-8676300bbc39",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:30:33.723Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Windows Remote Management",
             "description": "Windows Remote Management (WinRM) is the name of both a Windows service and a protocol that allows a user to interact with a remote system (e.g., run an executable, modify the Registry, modify services). (Citation: Microsoft WinRM) It may be called with the <code>winrm</code> command or by any number of programs such as PowerShell. (Citation: Jacobsen 2014)",
             "kill_chain_phases": [
@@ -24,7 +24,7 @@
             "external_references": [
                 {
                     "external_id": "T1028",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1028",
+                    "url": "https://attack.mitre.org/technique/T1028",
                     "source_name": "mitre-attack"
                 },
                 {

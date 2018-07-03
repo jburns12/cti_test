@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c767a828-898e-4adf-b628-518875ad237a",
+    "id": "bundle--f295e55b-d716-46bd-9d41-9cba999a2ba6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--6f86d346-f092-4abc-80df-8558a90c426a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-10-25T14:48:21.023Z",
-            "modified": "2018-06-18T15:59:03.864Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Remotely Track Device Without Authorization",
             "description": "An adversary who is able to obtain unauthorized access to or misuse authorized access to cloud services (e.g. Google's Android Device Manager or Apple iCloud's Find my iPhone) or to an enterprise mobility management (EMM) / mobile device management (MDM) server console could use that access to track mobile devices.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "MOB-T1071",
-                    "url": "https://attack.mitre.org/mobile/index.php/Technique/MOB-T1071",
+                    "url": "https://attack.mitre.org/technique/MOB-T1071",
                     "source_name": "mitre-mobile-attack"
                 },
                 {

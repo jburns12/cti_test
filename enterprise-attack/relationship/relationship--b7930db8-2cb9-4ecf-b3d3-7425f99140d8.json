@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2dce7224-fa8e-40e0-aa31-144064e64ee5",
+    "id": "bundle--5fdae061-ec38-49ef-97e8-1cd8122792c6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,8 +8,8 @@
             "id": "relationship--b7930db8-2cb9-4ecf-b3d3-7425f99140d8",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Mimikatz performs credential dumping to obtain account and password information useful in gaining access to additional systems and enterprise network resources. It contains functionality to acquire information about credentials in many ways, including from the LSA, SAM table, credential vault, DCSync/NetSync, and DPAPI.",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "description": "[Mimikatz](https://attack.mitre.org/software/S0002) performs credential dumping to obtain account and password information useful in gaining access to additional systems and enterprise network resources. It contains functionality to acquire information about credentials in many ways, including from the LSA, SAM table, credential vault, DCSync/NetSync, and DPAPI.",
             "external_references": [
                 {
                     "url": "https://github.com/gentilkiwi/mimikatz",
@@ -17,7 +17,7 @@
                     "source_name": "Deply Mimikatz"
                 },
                 {
-                    "url": "https://github.com/gentilkiwi/mimikatz/wiki/module-~-lsadump",
+                    "url": "https://github.com/gentilkiwi/mimikatz/module-~-lsadump",
                     "description": "Deply, B., Le Toux, V. (2016, June 5). module ~ lsadump. Retrieved August 7, 2017.",
                     "source_name": "GitHub Mimikatz lsadump Module"
                 },

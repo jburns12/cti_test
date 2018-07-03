@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5f744681-7961-4fee-8b03-ece2ed7b6d50",
+    "id": "bundle--5bfba718-608c-4bc9-9e9f-10e0dd827b1d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,8 +8,8 @@
             "id": "relationship--a61cf8cf-87f1-4061-ae9d-31e8162bdfef",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Mis-Type first attempts to use a Base64-encoded network protocol over a raw TCP socket for C2, and if that method fails, falls back to a secondary HTTP-based protocol to communicate to an alternate C2 server.",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "description": "[Mis-Type](https://attack.mitre.org/software/S0084) first attempts to use a Base64-encoded network protocol over a raw TCP socket for C2, and if that method fails, falls back to a secondary HTTP-based protocol to communicate to an alternate C2 server.",
             "external_references": [
                 {
                     "url": "https://www.cylance.com/content/dam/cylance/pdfs/reports/Op%20Dust%20Storm%20Report.pdf",

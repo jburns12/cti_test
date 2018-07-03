@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--d01d3922-392b-4c49-bfaa-b9d5c3ae32e0",
+    "id": "bundle--7597e43d-e00f-4488-b388-1f6d0cc5a758",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--c085476e-1964-4d7f-86e1-d8657a7741e8",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Accessibility Features Mitigation",
             "description": "To use this technique remotely, an adversary must use it in conjunction with RDP. Ensure that Network Level Authentication is enabled to force the remote desktop session to authenticate before the session is created and the login screen displayed. It is enabled by default on Windows Vista and later. (Citation: TechNet RDP NLA)\n\nIf possible, use a Remote Desktop Gateway to manage connections and security configuration of RDP within a network. (Citation: TechNet RDP Gateway)\n\nIdentify and block potentially malicious software that may be executed by an adversary with this technique by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
             "external_references": [
                 {
                     "external_id": "T1015",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1015",
+                    "url": "https://attack.mitre.org/technique/T1015",
                     "source_name": "mitre-attack"
                 },
                 {

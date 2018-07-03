@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e0d792a5-d483-4ca3-a939-83954544528e",
+    "id": "bundle--c14f4183-ee36-414d-8512-83d95c206c36",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--a0a189c8-d3bd-4991-bf6f-153d185ee373",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "LC_MAIN Hijacking",
             "description": "As of OS X 10.8, mach-O binaries introduced a new header called LC_MAIN that points to the binary\u2019s entry point for execution. Previously, there were two headers to achieve this same effect: LC_THREAD and LC_UNIXTHREAD  (Citation: Prolific OSX Malware History). The entry point for a binary can be hijacked so that initial execution flows to a malicious addition (either another section or a code cave) and then goes back to the initial entry point so that the victim doesn\u2019t know anything was different  (Citation: Methods of Mac Malware Persistence). By modifying a binary in this way, application whitelisting can be bypassed because the file name or application path is still the same.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "T1149",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1149",
+                    "url": "https://attack.mitre.org/technique/T1149",
                     "source_name": "mitre-attack"
                 },
                 {

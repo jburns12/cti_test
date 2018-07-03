@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--c06d3cfc-daa8-4500-80af-68079bc00634",
+    "id": "bundle--31f7bc2a-c068-4509-b0b5-4e892e8a8df7",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--902286b2-96cc-4dd7-931f-e7340c9961da",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "File System Logical Offsets Mitigation",
             "description": "Identify potentially malicious software that may be used to access logical drives in this manner, and audit and/or block it by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
             "external_references": [
                 {
                     "external_id": "T1006",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1006",
+                    "url": "https://attack.mitre.org/technique/T1006",
                     "source_name": "mitre-attack"
                 },
                 {

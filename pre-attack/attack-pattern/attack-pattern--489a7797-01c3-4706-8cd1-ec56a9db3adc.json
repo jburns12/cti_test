@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2b95e546-fc46-470a-9607-91caba296c4e",
+    "id": "bundle--dc380ff4-41e0-4a5b-ab63-7479928c72ba",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--489a7797-01c3-4706-8cd1-ec56a9db3adc",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Spear phishing messages with malicious links",
             "description": "Emails with malicious links are designed to get a user to click on the link in order to deliver malware payloads. (Citation: GoogleDrive Phishing) (Citation: RSASEThreat)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1146",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1146",
+                    "url": "https://attack.mitre.org/technique/PRE-T1146",
                     "source_name": "mitre-pre-attack"
                 },
                 {

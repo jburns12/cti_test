@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e96de39b-9cf1-412f-bff0-fc60c6677e54",
+    "id": "bundle--d442bad1-c66a-4e65-aed4-df5f3b464862",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,8 +8,8 @@
             "id": "relationship--6c879d75-7f07-44ff-9801-815a549cdc44",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-27T14:18:47.700Z",
-            "description": "The Komplex trojan creates a persistent launch agent called with <code>$HOME/Library/LaunchAgents/com.apple.updates.plist</code> with <code>launchctl load -w ~/Library/LaunchAgents/com.apple.updates.plist</code>.",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "description": "The [Komplex](https://attack.mitre.org/software/S0162) trojan creates a persistent launch agent called with <code>$HOME/Library/LaunchAgents/com.apple.updates.plist</code> with <code>launchctl load -w ~/Library/LaunchAgents/com.apple.updates.plist</code>.",
             "external_references": [
                 {
                     "url": "https://researchcenter.paloaltonetworks.com/2016/09/unit42-sofacys-komplex-os-x-trojan/",

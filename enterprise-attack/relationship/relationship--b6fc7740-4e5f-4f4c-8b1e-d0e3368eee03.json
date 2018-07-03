@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ddb3478a-3c55-4439-9d63-196e62b45e51",
+    "id": "bundle--f56892d4-bba6-46b7-9601-377f4e5a6de8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,8 +8,8 @@
             "id": "relationship--b6fc7740-4e5f-4f4c-8b1e-d0e3368eee03",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Most of the strings in ADVSTORESHELL are encrypted with an XOR-based algorithm; some strings are also encrypted with 3DES and reversed. API function names are also reversed, presumably to avoid detection in memory.",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "description": "Most of the strings in [ADVSTORESHELL](https://attack.mitre.org/software/S0045) are encrypted with an XOR-based algorithm; some strings are also encrypted with 3DES and reversed. API function names are also reversed, presumably to avoid detection in memory.",
             "external_references": [
                 {
                     "url": "https://securelist.com/sofacy-apt-hits-high-profile-targets-with-updated-toolset/72924/",

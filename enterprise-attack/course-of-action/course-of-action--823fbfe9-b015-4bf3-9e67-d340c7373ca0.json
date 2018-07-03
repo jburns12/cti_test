@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--3eddedef-8495-454b-96cf-1122c75bac0d",
+    "id": "bundle--04c54b71-c703-4932-b1a8-622440c8bffe",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--823fbfe9-b015-4bf3-9e67-d340c7373ca0",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Trusted Developer Utilities Mitigation",
             "description": "MSBuild.exe, dnx.exe, rcsi.exe, WinDbg.exe, cdb.exe, and tracker.exe may not be necessary within a given environment and should be removed if not used.\n\nUse application whitelisting configured to block execution of MSBuild.exe, dnx.exe, rcsi.exe, WinDbg.exe, and cdb.exe if they are not required for a given system or network to prevent potential misuse by adversaries. (Citation: Microsoft GitHub Device Guard CI Policies) (Citation: Exploit Monday Mitigate Device Guard Bypases) (Citation: GitHub mattifestation DeviceGuardBypass) (Citation: SubTee MSBuild)",
             "external_references": [
                 {
                     "external_id": "T1127",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1127",
+                    "url": "https://attack.mitre.org/technique/T1127",
                     "source_name": "mitre-attack"
                 },
                 {
@@ -23,7 +23,7 @@
                     "source_name": "Exploit Monday Mitigate Device Guard Bypases"
                 },
                 {
-                    "url": "https://github.com/mattifestation/DeviceGuardBypassMitigationRules",
+                    "url": "https://github.com/mattifestation/DeviceGuardBypassmitigationRules",
                     "description": "Graeber, M. (2016, November 13). DeviceGuardBypassMitigationRules. Retrieved November 30, 2016.",
                     "source_name": "GitHub mattifestation DeviceGuardBypass"
                 },

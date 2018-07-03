@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9d7f1564-f136-4706-82f5-6ad2ecf4bec6",
+    "id": "bundle--4c7f37fb-87d6-40e5-abd9-4252d8662508",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--762771c2-3675-4535-88e9-b1f891758974",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Identify personnel with an authority/privilege",
             "description": "Personnel internally to a company may have non-electronic specialized access, authorities, or privilege that make them an attractive target for an adversary.  One example of this is an individual with financial authority to authorize large transactions.  An adversary who compromises this individual might be able to subvert large dollar transfers. (Citation: RSA-APTRecon)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1048",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1048",
+                    "url": "https://attack.mitre.org/technique/PRE-T1048",
                     "source_name": "mitre-pre-attack"
                 },
                 {

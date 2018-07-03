@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e57b9c0a-dfc5-4859-bc69-cebecd5a09a9",
+    "id": "bundle--6610603f-d837-44cc-82fd-e04aa701f1dd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--2204c371-6100-4ae0-82f3-25c07c29772a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-10-25T14:48:08.613Z",
-            "modified": "2018-06-18T15:59:03.864Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Abuse Accessibility Features",
             "description": "A malicious app could abuse Android's accessibility features to capture sensitive data or perform other malicious actions, as demonstrated in a proof of concept created by Skycure (Citation: Skycure-Accessibility).",
             "kill_chain_phases": [
@@ -24,7 +24,7 @@
             "external_references": [
                 {
                     "external_id": "MOB-T1056",
-                    "url": "https://attack.mitre.org/mobile/index.php/Technique/MOB-T1056",
+                    "url": "https://attack.mitre.org/technique/MOB-T1056",
                     "source_name": "mitre-mobile-attack"
                 },
                 {

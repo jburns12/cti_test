@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c25ca97c-3101-4ba6-a108-6bbb7e54f33c",
+    "id": "bundle--0c0f53b6-c7ea-4b35-b293-99789d26c5f4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--784ff1bc-1483-41fe-a172-4cd9ae25c06b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Acquire OSINT data sets and information",
             "description": "Open source intelligence (OSINT) is intelligence gathered from publicly available sources. This can include both information gathered on-line, such as from search engines, as well as in the physical world. (Citation: RSA-APTRecon)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1024",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1024",
+                    "url": "https://attack.mitre.org/technique/PRE-T1024",
                     "source_name": "mitre-pre-attack"
                 },
                 {

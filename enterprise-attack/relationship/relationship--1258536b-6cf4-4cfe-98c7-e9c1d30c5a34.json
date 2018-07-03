@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7152d152-43d6-470c-8364-caefc2fd1d32",
+    "id": "bundle--65b033fd-212f-4224-beb7-c4fa1b89ab39",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,8 +8,8 @@
             "id": "relationship--1258536b-6cf4-4cfe-98c7-e9c1d30c5a34",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.056Z",
-            "modified": "2018-06-27T14:18:47.700Z",
-            "description": "An APT3 downloader first establishes a SOCKS5 connection to 192.157.198[.]103 using TCP port 1913; once the server response is verified, it then requests a connection to 192.184.60[.]229 on TCP port 81.",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "description": "An [APT3](https://attack.mitre.org/group/G0022) downloader first establishes a SOCKS5 connection to 192.157.198[.]103 using TCP port 1913; once the server response is verified, it then requests a connection to 192.184.60[.]229 on TCP port 81.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2014/11/operation%20doubletap.html",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--88ff23f3-50e7-49a8-b082-976b5e345df1",
+    "id": "bundle--8b196fcc-8174-422d-a08e-f33bc58936a2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,8 +8,8 @@
             "id": "relationship--968610c5-7fa5-4840-b9bb-2f70eecd87fa",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Duqu examines running system processes for tokens that have specific system privileges. If it finds one, it will copy the token and store it for later use. Eventually it will start new processes with the stored token attached. It can also steal tokens to acquire administrative privileges.",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "description": "[Duqu](https://attack.mitre.org/software/S0038) examines running system processes for tokens that have specific system privileges. If it finds one, it will copy the token and store it for later use. Eventually it will start new processes with the stored token attached. It can also steal tokens to acquire administrative privileges.",
             "external_references": [
                 {
                     "url": "https://securelist.com/files/2015/06/The%20Mystery%20of%20Duqu%202%200%20a%20sophisticated%20cyberespionage%20actor%20returns.pdf",

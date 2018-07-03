@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--de01d432-0c21-4c80-8f98-6e65f632d1e4",
+    "id": "bundle--5353367c-b718-4a99-a03c-b651f6d96698",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--fe421ab9-c8f3-42f7-9ae1-5d6c324cc925",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Analyze application security posture",
             "description": "An adversary can probe a victim's network to determine configurations. The configurations may provide opportunities to route traffic through the network in an undetected or less detectable way. (Citation: Li2014ExploitKits) (Citation: RecurlyGHOST)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1070",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1070",
+                    "url": "https://attack.mitre.org/technique/PRE-T1070",
                     "source_name": "mitre-pre-attack"
                 },
                 {

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--467dd480-7f08-4bab-bb0a-ee7d87585230",
+    "id": "bundle--0eab886f-fbc5-47a0-bb3b-a100498c5789",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,8 +8,8 @@
             "id": "relationship--a1fe7df1-7c20-422e-8e86-042cd11b3501",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.038Z",
-            "modified": "2018-06-27T14:18:47.700Z",
-            "description": "APT28 used SMTP as a communication channel in various implants, initially using self-registered Google Mail accounts and later compromised email servers of its victims. Later implants such as CHOPSTICK use a blend of HTTP and other legitimate channels, depending on module configuration.",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "description": "[APT28](https://attack.mitre.org/group/G0007) used SMTP as a communication channel in various implants, initially using self-registered Google Mail accounts and later compromised email servers of its victims. Later implants such as [CHOPSTICK](https://attack.mitre.org/software/S0023) use a blend of HTTP and other legitimate channels, depending on module configuration.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf",

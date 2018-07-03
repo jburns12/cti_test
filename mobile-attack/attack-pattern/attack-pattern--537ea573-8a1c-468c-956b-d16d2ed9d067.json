@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7838f5dc-2a1e-47d7-9c97-7eb41d993ff5",
+    "id": "bundle--af6d84a2-fcf6-433a-b4c6-2c85622180f9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--537ea573-8a1c-468c-956b-d16d2ed9d067",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-10-25T14:48:07.827Z",
-            "modified": "2018-06-18T15:59:03.864Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Remotely Wipe Data Without Authorization",
             "description": "An adversary who is able to obtain unauthorized access to or misuse authorized access to cloud services (e.g. Google's Android Device Manager or Apple iCloud's Find my iPhone) or to an EMM console could use that access to wipe enrolled devices (Citation: Honan-Hacking).",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "MOB-T1072",
-                    "url": "https://attack.mitre.org/mobile/index.php/Technique/MOB-T1072",
+                    "url": "https://attack.mitre.org/technique/MOB-T1072",
                     "source_name": "mitre-mobile-attack"
                 },
                 {

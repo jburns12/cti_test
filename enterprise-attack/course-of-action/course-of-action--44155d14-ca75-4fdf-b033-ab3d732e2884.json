@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--463b1745-cff3-4c5c-93d4-497f39abf25a",
+    "id": "bundle--b38d6c5a-9244-474b-9244-21a704580c35",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--44155d14-ca75-4fdf-b033-ab3d732e2884",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Kernel Modules and Extensions Mitigation",
             "description": "Common tools for detecting Linux rootkits include: rkhunter (Citation: SourceForge rkhunter), chrootkit (Citation: Chkrootkit Main), although rootkits may be designed to evade certain detection tools.\n\nLKMs and Kernel extensions require root level permissions to be installed. Limit access to the root account and prevent users from loading kernel modules and extensions through proper privilege separation and limiting Privilege Escalation opportunities.\n\nApplication whitelisting and software restriction tools, such as SELinux, can also aide in restricting kernel module loading. (Citation: Kernel.org Restrict Kernel Module)",
             "external_references": [
                 {
                     "external_id": "T1215",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1215",
+                    "url": "https://attack.mitre.org/technique/T1215",
                     "source_name": "mitre-attack"
                 },
                 {

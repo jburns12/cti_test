@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--95be36f5-59ac-4254-a106-38454318298e",
+    "id": "bundle--b931b451-1ca5-4894-a224-2b56fc122986",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--a21a6a79-f9a1-4c87-aed9-ba2d79536881",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-10-25T14:48:05.928Z",
-            "modified": "2018-06-18T15:59:03.864Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Stolen Developer Credentials or Signing Keys",
             "description": "An adversary could steal developer account credentials on an app store and/or signing keys to publish malicious updates to existing Android or iOS apps, or to abuse the developer's identity and reputation to publish new malicious applications. For example, Infoworld describes this technique and suggests mitigations in  (Citation: Infoworld-Appstore).",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "MOB-T1044",
-                    "url": "https://attack.mitre.org/mobile/index.php/Technique/MOB-T1044",
+                    "url": "https://attack.mitre.org/technique/MOB-T1044",
                     "source_name": "mitre-mobile-attack"
                 },
                 {

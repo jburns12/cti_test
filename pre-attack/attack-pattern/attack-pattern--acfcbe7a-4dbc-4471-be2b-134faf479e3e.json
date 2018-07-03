@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c5d4b5b0-948b-405d-bf26-45e0e9faef5c",
+    "id": "bundle--7eef6ac8-ba66-46a4-84b8-60f3b590250e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--acfcbe7a-4dbc-4471-be2b-134faf479e3e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Receive KITs/KIQs and determine requirements",
             "description": "Applicable agencies and/or personnel receive intelligence requirements and evaluate them to determine sub-requirements related to topics, questions, or requirements.  For example, an adversary's  nuclear energy requirements may be further divided into nuclear facilities versus nuclear warhead capabilities. (Citation: AnalystsAndPolicymaking)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1016",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1016",
+                    "url": "https://attack.mitre.org/technique/PRE-T1016",
                     "source_name": "mitre-pre-attack"
                 },
                 {

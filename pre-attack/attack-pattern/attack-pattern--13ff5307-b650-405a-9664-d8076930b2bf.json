@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a0009898-1b99-4a39-a905-be79068eb9ec",
+    "id": "bundle--713536e4-7739-47a9-8f25-4b12791129fb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--13ff5307-b650-405a-9664-d8076930b2bf",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Port redirector",
             "description": "Redirecting a communication request from one address and port number combination to another. May be set up to obfuscate the final location of communications that will occur in later stages of an attack. (Citation: SecureWorks HTRAN Analysis)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1140",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1140",
+                    "url": "https://attack.mitre.org/technique/PRE-T1140",
                     "source_name": "mitre-pre-attack"
                 },
                 {

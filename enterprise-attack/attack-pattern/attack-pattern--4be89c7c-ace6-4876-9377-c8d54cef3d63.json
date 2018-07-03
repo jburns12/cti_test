@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5549f308-7384-43ca-a6c5-426dd63f7745",
+    "id": "bundle--bad46715-680d-4641-85f6-c25fd4a8110e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--4be89c7c-ace6-4876-9377-c8d54cef3d63",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:30:50.958Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Hypervisor",
-            "description": "A type-1 hypervisor is a software layer that sits between the guest operating systems and system's hardware. (Citation: Wikipedia Hypervisor) It presents a virtual running environment to an operating system. An example of a common hypervisor is Xen. (Citation: Wikipedia Xen) A type-1 hypervisor operates at a level below the operating system and could be designed with Rootkit Mitigation functionality to hide its existence from the guest operating system. (Citation: Myers 2007) A malicious hypervisor of this nature could be used to persist on systems through interruption.",
+            "description": "A type-1 hypervisor is a software layer that sits between the guest operating systems and system's hardware. (Citation: Wikipedia Hypervisor) It presents a virtual running environment to an operating system. An example of a common hypervisor is Xen. (Citation: Wikipedia Xen) A type-1 hypervisor operates at a level below the operating system and could be designed with [Rootkit Mitigation](https://attack.mitre.org/technique/T1014) functionality to hide its existence from the guest operating system. (Citation: Myers 2007) A malicious hypervisor of this nature could be used to persist on systems through interruption.",
             "kill_chain_phases": [
                 {
                     "phase_name": "persistence",
@@ -20,16 +20,16 @@
             "external_references": [
                 {
                     "external_id": "T1062",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1062",
+                    "url": "https://attack.mitre.org/technique/T1062",
                     "source_name": "mitre-attack"
                 },
                 {
-                    "url": "https://en.wikipedia.org/wiki/Hypervisor",
+                    "url": "https://en.wikipedia.org/Hypervisor",
                     "description": "Wikipedia. (2016, May 23). Hypervisor. Retrieved June 11, 2016.",
                     "source_name": "Wikipedia Hypervisor"
                 },
                 {
-                    "url": "http://en.wikipedia.org/wiki/Xen",
+                    "url": "http://en.wikipedia.org/Xen",
                     "description": "Xen. (n.d.). In Wikipedia. Retrieved November 13, 2014.",
                     "source_name": "Wikipedia Xen"
                 },

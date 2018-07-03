@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--197a79f8-b87f-4bff-a005-00885e8cff30",
+    "id": "bundle--7c90cd1f-58d2-459d-af92-9cd5506451c7",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--1c6bc7f3-d517-4971-aed4-8f939090846b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Port Monitors Mitigation",
             "description": "Identify and block potentially malicious software that may persist in this manner by using whitelisting (Citation: Beechey 2010) tools capable of monitoring DLL loads by processes running under SYSTEM permissions.",
             "external_references": [
                 {
                     "external_id": "T1013",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1013",
+                    "url": "https://attack.mitre.org/technique/T1013",
                     "source_name": "mitre-attack"
                 },
                 {

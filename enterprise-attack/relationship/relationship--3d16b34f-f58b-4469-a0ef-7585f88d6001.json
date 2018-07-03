@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--df7360d7-e794-4428-ad7a-d17732a3b42b",
+    "id": "bundle--b87fdd9b-d6fa-458d-8bfb-7bfe6de658ae",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,8 +8,8 @@
             "id": "relationship--3d16b34f-f58b-4469-a0ef-7585f88d6001",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-27T14:18:47.700Z",
-            "description": "If a victim meets certain criteria, T9000 uses the AppInit_DLL functionality to achieve persistence by ensuring that every user mode process that is spawned will load its malicious DLL, ResN32.dll. It does this by creating the following Registry keys: <code>HKLM\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Windows\\AppInit_DLLs \u2013 %APPDATA%\\Intel\\ResN32.dll</code> and <code>HKLM\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Windows\\LoadAppInit_DLLs \u2013 0x1</code>.",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "description": "If a victim meets certain criteria, [T9000](https://attack.mitre.org/software/S0098) uses the AppInit_DLL functionality to achieve persistence by ensuring that every user mode process that is spawned will load its malicious DLL, ResN32.dll. It does this by creating the following Registry keys: <code>HKLM\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Windows\\AppInit_DLLs \u2013 %APPDATA%\\Intel\\ResN32.dll</code> and <code>HKLM\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Windows\\LoadAppInit_DLLs \u2013 0x1</code>.",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2016/02/t9000-advanced-modular-backdoor-uses-complex-anti-analysis-techniques/",

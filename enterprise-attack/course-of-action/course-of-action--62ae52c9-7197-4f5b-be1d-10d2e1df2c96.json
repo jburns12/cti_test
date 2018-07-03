@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--c048b67f-49fb-471b-bf0c-b07fb3db6597",
+    "id": "bundle--d3f6c4f7-f865-4f15-85d4-ad2d4b1005c4",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--62ae52c9-7197-4f5b-be1d-10d2e1df2c96",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Domain Fronting Mitigation",
             "description": "If it is possible to inspect HTTPS traffic, the captures can be analyzed for connections that appear to be Domain Fronting.\n\nIn order to use domain fronting, attackers will likely need to deploy additional tools to compromised systems. (Citation: FireEye APT29 Domain Fronting With TOR March 2017) (Citation: Mandiant No Easy Breach) It may be possible to detect or prevent the installation of these tools with Host-based solutions.",
             "external_references": [
                 {
                     "external_id": "T1172",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1172",
+                    "url": "https://attack.mitre.org/technique/T1172",
                     "source_name": "mitre-attack"
                 },
                 {

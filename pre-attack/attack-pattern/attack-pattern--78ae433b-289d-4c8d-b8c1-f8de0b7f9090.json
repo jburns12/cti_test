@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--934df42e-70c2-4985-acbd-f903b332fc0a",
+    "id": "bundle--26f9ec6f-fba0-492c-ada1-bc523080d034",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--78ae433b-289d-4c8d-b8c1-f8de0b7f9090",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Enumerate client configurations",
             "description": "Client configurations information such as the operating system and web browser, along with additional information such as version or language, are often transmitted as part of web browsing communications.  This can be accomplished in several ways including use of a compromised web site to collect details on visiting computers. (Citation: UnseenWorldOfCookies) (Citation: Panopticlick)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1039",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1039",
+                    "url": "https://attack.mitre.org/technique/PRE-T1039",
                     "source_name": "mitre-pre-attack"
                 },
                 {

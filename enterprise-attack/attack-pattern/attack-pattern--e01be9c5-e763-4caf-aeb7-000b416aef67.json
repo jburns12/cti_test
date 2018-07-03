@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1ba57638-3725-4454-b674-f93849269e00",
+    "id": "bundle--784fc980-407e-41cb-ace8-892406100781",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--e01be9c5-e763-4caf-aeb7-000b416aef67",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Create Account",
             "description": "Adversaries with a sufficient level of access may create a local system or domain account. Such accounts may be used for persistence that do not require persistent remote access tools to be deployed on the system.\n\nThe <code>net user</code> commands can be used to create a local or domain account.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "T1136",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1136",
+                    "url": "https://attack.mitre.org/technique/T1136",
                     "source_name": "mitre-attack"
                 },
                 {

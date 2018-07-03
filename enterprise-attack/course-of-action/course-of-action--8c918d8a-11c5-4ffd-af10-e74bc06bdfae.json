@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--6a8dbb5b-a07a-4b49-884e-bb4255badffe",
+    "id": "bundle--1e08721f-5086-4159-ad31-c4991b402dda",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--8c918d8a-11c5-4ffd-af10-e74bc06bdfae",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Rundll32 Mitigation",
             "description": "Microsoft's Enhanced Mitigation Experience Toolkit (EMET) Attack Surface Reduction (ASR) feature can be used to block methods of using rundll32.exe to bypass whitelisting. (Citation: Secure Host Baseline EMET)",
             "external_references": [
                 {
                     "external_id": "T1085",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1085",
+                    "url": "https://attack.mitre.org/technique/T1085",
                     "source_name": "mitre-attack"
                 },
                 {

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d631d29f-64eb-4e5e-94d8-ea7a2d5397b6",
+    "id": "bundle--3a942796-f2b0-453a-bd30-a003ee94433d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--a7c620e5-cbc9-41b2-9695-418ef560f16c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Conduct passive scanning",
             "description": "Passive scanning is the act of looking at existing network traffic in order to identify information about the communications system. (Citation: SurveyDetectionStrategies) (Citation: CyberReconPaper)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1030",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1030",
+                    "url": "https://attack.mitre.org/technique/PRE-T1030",
                     "source_name": "mitre-pre-attack"
                 },
                 {

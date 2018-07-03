@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--39b23d18-3182-4cf4-be2f-6aa9275c4261",
+    "id": "bundle--f729cae9-639a-436d-a588-2f5e87dff6f3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--3f18edba-28f4-4bb9-82c3-8aa60dcac5f7",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Supply Chain Compromise",
             "description": "Supply chain compromise is the manipulation of products or product delivery mechanisms prior to receipt by a final consumer for the purpose of data or system compromise. Supply chain compromise can take place at any stage of the supply chain including:\n* Manipulation of development tools\n* Manipulation of a development environment\n* Manipulation of source code repositories (public or private)\n* Manipulation of software update/distribution mechanisms\n* Compromised/infected system images (multiple cases of removable media infected at the factory)\n* Replacement of legitimate software with modified versions\n* Sales of modified/counterfeit products to legitimate distributors\n* Shipment interdiction\n\nWhile supply chain compromise can impact any component of hardware or software, attackers looking to gain execution have often focused on malicious additions to legitimate software in software distribution or update channels. (Citation: Avast CCleaner3 2018) (Citation: Microsoft Dofoil 2018) (Citation: Command Five SK 2011) Targeting may be specific to a desired victim set (Citation: Symantec Elderwood Sept 2012) or malicious software may be distributed to a broad set of consumers but only move on to additional tactics  on specific victims. (Citation: Avast CCleaner3 2018) (Citation: Command Five SK 2011)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "T1195",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1195",
+                    "url": "https://attack.mitre.org/technique/T1195",
                     "source_name": "mitre-attack"
                 },
                 {

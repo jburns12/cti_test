@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e8b15793-a730-4311-b970-bde5d1620d96",
+    "id": "bundle--890d6f6e-0b8d-4a2e-ae88-1416710ed570",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,8 +8,8 @@
             "id": "relationship--d39e3775-9221-4020-b826-edc111e36c7c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-06-27T14:18:47.700Z",
-            "description": "OilRig has used <code>net group /domain</code>, <code>net localgroup administrators</code>, <code>net group \u201cdomain admins\u201d /domain</code>, and <code>net group \u201cExchange Trusted Subsystem\u201d /domain</code> to find group permission settings on a victim.",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "description": "[OilRig](https://attack.mitre.org/group/G0049) has used <code>net group /domain</code>, <code>net localgroup administrators</code>, <code>net group \u201cdomain admins\u201d /domain</code>, and <code>net group \u201cExchange Trusted Subsystem\u201d /domain</code> to find group permission settings on a victim.",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2016/05/the-oilrig-campaign-attacks-on-saudi-arabian-organizations-deliver-helminth-backdoor/",

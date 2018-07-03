@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--308e45f3-79ae-410d-83fd-9c20633fb8d5",
+    "id": "bundle--005e64d3-7882-4f19-a78f-8277cb9248b3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--e042a41b-5ecf-4f3a-8f1f-1b528c534772",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Test malware in various execution environments",
             "description": "Malware may perform differently on different platforms (computer vs handheld) and different operating systems ([http://www.ubuntu.com Ubuntu] vs [http://www.apple.com/osx/ OS X]), and versions ([http://windows.microsoft.com Windows] 7 vs 10) so malicious actors will test their malware in the environment(s) where they most expect it to be executed. (Citation: BypassMalwareDefense)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1134",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1134",
+                    "url": "https://attack.mitre.org/technique/PRE-T1134",
                     "source_name": "mitre-pre-attack"
                 },
                 {

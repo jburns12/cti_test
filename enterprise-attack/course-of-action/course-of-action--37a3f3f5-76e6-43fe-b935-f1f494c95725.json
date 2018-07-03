@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--70cce9db-d99b-410d-b611-d2f2d9633446",
+    "id": "bundle--8c430b87-e566-4713-8306-54a5af44f221",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--37a3f3f5-76e6-43fe-b935-f1f494c95725",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Exploitation for Defense Evasion Mitigation",
             "description": "Update software regularly by employing patch management for internal enterprise endpoints and servers. Develop a robust cyber threat intelligence capability to determine what types and levels of threat may use software exploits and 0-days against a particular organization. Make it difficult for adversaries to advance their operation through exploitation of undiscovered or unpatched vulnerabilities by using sandboxing, if available. Other types of virtualization and application microsegmentation may also mitigate the impact of some types of exploitation. The risks of additional exploits and weaknesses in implementation may still exist. (Citation: Ars Technica Pwn2Own 2017 VM Escape)\n\nSecurity applications that look for behavior used during exploitation such as Windows Defender Exploit Guard (WDEG) and the Enhanced Mitigation Experience Toolkit (EMET) can be used to mitigate some exploitation behavior. (Citation: TechNet Moving Beyond EMET) Control flow integrity checking is another way to potentially identify and stop a software exploit from occurring. (Citation: Wikipedia Control Flow Integrity) Many of these protections depend on the architecture and target application binary for compatibility and may not work for software targeted for defense evasion.",
             "external_references": [
                 {
                     "external_id": "T1211",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1211",
+                    "url": "https://attack.mitre.org/technique/T1211",
                     "source_name": "mitre-attack"
                 },
                 {
@@ -28,7 +28,7 @@
                     "source_name": "TechNet Moving Beyond EMET"
                 },
                 {
-                    "url": "https://en.wikipedia.org/wiki/Control-flow%20integrity",
+                    "url": "https://en.wikipedia.org/Control-flow%20integrity",
                     "description": "Wikipedia. (2018, January 11). Control-flow integrity. Retrieved March 12, 2018.",
                     "source_name": "Wikipedia Control Flow Integrity"
                 }

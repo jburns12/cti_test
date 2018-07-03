@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--99aacd3b-a819-43c6-b4b2-2f8503084e15",
+    "id": "bundle--87d0cd2d-7705-4734-8904-b8723ba497fe",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--89a79d91-53e0-4ef5-ba28-558cb8b01f76",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Identify groups/roles",
             "description": "Personnel internally to a company may belong to a group or maintain a role with  electronic specialized access, authorities, or privilege that make them an attractive target for an adversary.  One example of this is a system administrator. (Citation: RSA-APTRecon)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1047",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1047",
+                    "url": "https://attack.mitre.org/technique/PRE-T1047",
                     "source_name": "mitre-pre-attack"
                 },
                 {

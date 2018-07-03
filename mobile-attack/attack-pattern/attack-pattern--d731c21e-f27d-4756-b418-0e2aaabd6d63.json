@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2c44bc4d-378a-4b00-8dea-72b5095d2d83",
+    "id": "bundle--92568eba-3be2-40c3-a7b4-64f1c1284e87",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--d731c21e-f27d-4756-b418-0e2aaabd6d63",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-10-25T14:48:25.322Z",
-            "modified": "2018-06-18T15:59:03.864Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Manipulate Device Communication",
             "description": "If network traffic between the mobile device and a remote server is not securely protected, then an attacker positioned on the network may be able to manipulate network communication without being detected. For example, FireEye researchers found in 2014 that 68% of the top 1,000 free applications in the Google Play Store had at least one Transport Layer Security (TLS) implementation vulnerability potentially opening the applications' network traffic to man-in-the-middle attacks (Citation: FireEye-SSL).",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "MOB-T1066",
-                    "url": "https://attack.mitre.org/mobile/index.php/Technique/MOB-T1066",
+                    "url": "https://attack.mitre.org/technique/MOB-T1066",
                     "source_name": "mitre-mobile-attack"
                 },
                 {

@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--38279c4b-e0d5-4867-b430-f86bd126e6f5",
+    "id": "bundle--7a822133-d7c3-4b56-af96-6eaefd17b748",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--c61fee9f-16fb-4f8c-bbf0-869093fcd4a6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Access Token Manipulation Mitigation",
-            "description": "Access tokens are an integral part of the security system within Windows and cannot be turned off.  However, an attacker must already have administrator level access on the local system to make full use of this technique; be sure to restrict users and accounts to the least privileges they require to do their job.\n\nAny user can also spoof access tokens if they have legitimate credentials.  Follow mitigation guidelines for preventing adversary use of Valid Accounts Mitigation. Limit permissions so that users and user groups cannot create tokens. This setting should be defined for the local system account only. GPO: Computer Configuration > [Policies] > Windows Settings > Security Settings > Local Policies > User Rights Assignment: Create a token object. (Citation: Microsoft Create Token) Also define who can create a process level token to only the local and network service through GPO: Computer Configuration > [Policies] > Windows Settings > Security Settings > Local Policies > User Rights Assignment: Replace a process level token. (Citation: Microsoft Replace Process Token)\n\nAlso limit opportunities for adversaries to increase privileges by limiting Privilege Escalation opportunities.",
+            "description": "Access tokens are an integral part of the security system within Windows and cannot be turned off.  However, an attacker must already have administrator level access on the local system to make full use of this technique; be sure to restrict users and accounts to the least privileges they require to do their job.\n\nAny user can also spoof access tokens if they have legitimate credentials.  Follow mitigation guidelines for preventing adversary use of [Valid Accounts Mitigation](https://attack.mitre.org/technique/T1078). Limit permissions so that users and user groups cannot create tokens. This setting should be defined for the local system account only. GPO: Computer Configuration > [Policies] > Windows Settings > Security Settings > Local Policies > User Rights Assignment: Create a token object. (Citation: Microsoft Create Token) Also define who can create a process level token to only the local and network service through GPO: Computer Configuration > [Policies] > Windows Settings > Security Settings > Local Policies > User Rights Assignment: Replace a process level token. (Citation: Microsoft Replace Process Token)\n\nAlso limit opportunities for adversaries to increase privileges by limiting Privilege Escalation opportunities.",
             "external_references": [
                 {
                     "external_id": "T1134",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1134",
+                    "url": "https://attack.mitre.org/technique/T1134",
                     "source_name": "mitre-attack"
                 },
                 {

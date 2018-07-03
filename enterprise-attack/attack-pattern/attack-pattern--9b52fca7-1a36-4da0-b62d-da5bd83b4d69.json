@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7dcc1d49-6ba6-4b90-82ed-470aa1e45785",
+    "id": "bundle--50c4258c-1f4d-4716-a441-a50882815322",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--9b52fca7-1a36-4da0-b62d-da5bd83b4d69",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:31:33.979Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Component Object Model Hijacking",
             "description": "The  (Citation: Microsoft Component Object Model) (COM) is a system within Windows to enable interaction between software components through the operating system. (Citation: Microsoft Component Object Model) Adversaries can use this system to insert malicious code that can be executed in place of legitimate software through hijacking the COM references and relationships as a means for persistence. Hijacking a COM object requires a change in the Windows Registry to replace a reference to a legitimate system component which may cause that component to not work when executed. When that system component is executed through normal system operation the adversary's code will be executed instead. (Citation: GDATA COM Hijacking) An adversary is likely to hijack objects that are used frequently enough to maintain a consistent level of persistence, but are unlikely to break noticeable functionality within the system as to avoid system instability that could lead to detection.",
             "kill_chain_phases": [
@@ -24,7 +24,7 @@
             "external_references": [
                 {
                     "external_id": "T1122",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1122",
+                    "url": "https://attack.mitre.org/technique/T1122",
                     "source_name": "mitre-attack"
                 },
                 {

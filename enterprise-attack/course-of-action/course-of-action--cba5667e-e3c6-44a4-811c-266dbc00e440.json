@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--a43ef8c8-287f-4886-83e7-e842c78ecfb5",
+    "id": "bundle--a5c69517-5375-4327-b0e7-c19fb1f6fbd9",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--cba5667e-e3c6-44a4-811c-266dbc00e440",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Extra Window Memory Injection Mitigation",
             "description": "This type of attack technique cannot be easily mitigated with preventive controls since it is based on the abuse of operating system design features. For example, mitigating specific API calls will likely have unintended side effects, such as preventing legitimate software (i.e., security products) from operating properly. Efforts should be focused on preventing adversary tools from running earlier in the chain of activity and on identifying subsequent malicious behavior.\n\nAlthough EWM injection may be used to evade certain types of defenses, it is still good practice to identify potentially malicious software that may be used to perform adversarial actions and audit and/or block it by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
             "external_references": [
                 {
                     "external_id": "T1181",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1181",
+                    "url": "https://attack.mitre.org/technique/T1181",
                     "source_name": "mitre-attack"
                 },
                 {

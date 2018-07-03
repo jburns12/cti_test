@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5ff37678-e204-4ff8-a718-0d76fceceffc",
+    "id": "bundle--a3ed491a-a8bd-4b15-9bf5-319a1848810f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,8 +8,8 @@
             "id": "relationship--0e27ebb3-2d48-48f6-ab99-968c0a992c61",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Downdelph inserts pseudo-random characters between each original character during encoding of C2 network requests, making it difficult to write signatures on them.",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "description": "[Downdelph](https://attack.mitre.org/software/S0134) inserts pseudo-random characters between each original character during encoding of C2 network requests, making it difficult to write signatures on them.",
             "external_references": [
                 {
                     "url": "http://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part3.pdf",

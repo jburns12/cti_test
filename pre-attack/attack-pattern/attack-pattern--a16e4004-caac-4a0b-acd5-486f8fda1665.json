@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7fcb9c7d-d6bc-40f1-a0f4-91dd340569bb",
+    "id": "bundle--dc3dc3b1-f952-466f-b274-64ef3c8b6d02",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--a16e4004-caac-4a0b-acd5-486f8fda1665",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Review logs and residual traces",
             "description": "Execution of code and network communications often result in logging or other system or network forensic artifacts. An adversary can run their code to identify what is recorded under different conditions. This may result in changes to their code or adding additional actions (such as deleting a record from a log) to the code. (Citation: EDB-39007) (Citation: infosec-covering-tracks)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1135",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1135",
+                    "url": "https://attack.mitre.org/technique/PRE-T1135",
                     "source_name": "mitre-pre-attack"
                 },
                 {

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--348e3666-1f64-4f37-b4d1-163af8ad33ef",
+    "id": "bundle--18d69914-9cd8-4d8a-b9d7-adf761c5c9e3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--a1e8d61b-22e1-4983-8485-96420152ecd8",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Analyze hardware/software security defensive capabilities",
             "description": "An adversary can probe a victim's network to determine configurations. The configurations may provide opportunities to route traffic through the network in an undetected or less detectable way. (Citation: OSFingerprinting2014)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1071",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1071",
+                    "url": "https://attack.mitre.org/technique/PRE-T1071",
                     "source_name": "mitre-pre-attack"
                 },
                 {

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8ec80498-a776-41c8-aa7c-5b584da4e0cb",
+    "id": "bundle--893bd6b4-5e54-46dc-9e9d-90fbfc0fb93e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--7823039f-e2d5-4997-853c-ec983631206b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "DNSCalc",
             "description": "DNS Calc is a technique in which the octets of an IP address are used to calculate the port  for command and control servers from an initial DNS request. (Citation: CrowdstrikeNumberedPanda) (Citation: FireEyeDarwinsAPTGroup) (Citation: Rapid7G20Espionage)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1101",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1101",
+                    "url": "https://attack.mitre.org/technique/PRE-T1101",
                     "source_name": "mitre-pre-attack"
                 },
                 {

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9f9ef2fc-5f6c-4878-9f17-74b4471c6424",
+    "id": "bundle--c4435183-ceb9-4c70-b274-432e5a4b66f1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,8 +8,8 @@
             "id": "relationship--677f32ad-2aa1-4fe3-8dab-73494891aa4a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-27T14:18:47.700Z",
-            "description": "During the T9000 installation process, it drops a copy of the legitimate Microsoft binary igfxtray.exe. The executable contains a side-loading weakness which is used to load a portion of the malware.",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "description": "During the [T9000](https://attack.mitre.org/software/S0098) installation process, it drops a copy of the legitimate Microsoft binary igfxtray.exe. The executable contains a side-loading weakness which is used to load a portion of the malware.",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2016/02/t9000-advanced-modular-backdoor-uses-complex-anti-analysis-techniques/",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a01f9671-3d5f-4918-8243-2e32b79efd2f",
+    "id": "bundle--ea729f0d-3129-4f76-b403-39b5a4648d45",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,8 +8,8 @@
             "id": "relationship--259b878f-147e-443b-8360-aabc00cf6d73",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-27T14:18:47.700Z",
-            "description": "HTTPBrowser has established persistence by setting the <code>HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run</code> key value for <code>wdm</code> to the path of the executable. It has also used the Registry entry <code>HKEY_USERS\\Software\\Microsoft\\Windows\\CurrentVersion\\Run vpdn \u201c%ALLUSERPROFILE%\\%APPDATA%\\vpdn\\VPDN_LU.exe\u201d</code> to establish persistence.",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "description": "[HTTPBrowser](https://attack.mitre.org/software/S0070) has established persistence by setting the <code>HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run</code> key value for <code>wdm</code> to the path of the executable. It has also used the Registry entry <code>HKEY_USERS\\Software\\Microsoft\\Windows\\CurrentVersion\\Run vpdn \u201c%ALLUSERPROFILE%\\%APPDATA%\\vpdn\\VPDN_LU.exe\u201d</code> to establish persistence.",
             "external_references": [
                 {
                     "url": "https://www.threatstream.com/blog/evasive-maneuvers-the-wekby-group-attempts-to-evade-analysis-via-custom-rop",

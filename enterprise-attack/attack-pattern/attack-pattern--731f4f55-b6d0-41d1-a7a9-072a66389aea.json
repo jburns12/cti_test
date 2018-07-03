@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f7e53c64-17ff-4c84-8498-99ae0b6597c2",
+    "id": "bundle--41767fda-fe20-4802-813c-a6bc09f55d3b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:31:08.479Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Connection Proxy",
-            "description": "A connection proxy is used to direct network traffic between systems or act as an intermediary for network communications. Many tools exist that enable traffic redirection through proxies or port redirection, including HTRAN, ZXProxy, and ZXPortMap. (Citation: Trend Micro APT Attack Tools)\n\nThe definition of a proxy can also be expanded out to encompass trust relationships between networks in peer-to-peer, mesh, or trusted connections between networks consisting of hosts or systems that regularly communicate with each other.\n\nThe network may be within a single organization or across organizations with trust relationships. Adversaries could use these types of relationships to manage command and control communications, to reduce the number of simultaneous outbound network connections, to provide resiliency in the face of connection loss, or to ride over existing trusted communications paths between victims to avoid suspicion.",
+            "description": "A connection proxy is used to direct network traffic between systems or act as an intermediary for network communications. Many tools exist that enable traffic redirection through proxies or port redirection, including [HTRAN](https://attack.mitre.org/software/S0040), ZXProxy, and ZXPortMap. (Citation: Trend Micro APT Attack Tools)\n\nThe definition of a proxy can also be expanded out to encompass trust relationships between networks in peer-to-peer, mesh, or trusted connections between networks consisting of hosts or systems that regularly communicate with each other.\n\nThe network may be within a single organization or across organizations with trust relationships. Adversaries could use these types of relationships to manage command and control communications, to reduce the number of simultaneous outbound network connections, to provide resiliency in the face of connection loss, or to ride over existing trusted communications paths between victims to avoid suspicion.",
             "kill_chain_phases": [
                 {
                     "phase_name": "command-and-control",
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "T1090",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1090",
+                    "url": "https://attack.mitre.org/technique/T1090",
                     "source_name": "mitre-attack"
                 },
                 {

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c7b21b92-568d-4ee0-be4f-99ffe4406e12",
+    "id": "bundle--0cf043ed-f550-4f24-9a5e-17c6da606392",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--62166220-e498-410f-a90a-19d4339d4e99",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Image File Execution Options Injection",
             "description": "Image File Execution Options (IFEO) enable a developer to attach a debugger to an application. When a process is created, any executable file present in an application\u2019s IFEO will be prepended to the application\u2019s name, effectively launching the new process under the debugger (e.g., \u201cC:\\dbg\\ntsd.exe -g  notepad.exe\u201d). (Citation: Microsoft Dev Blog IFEO Mar 2010)\n\nIFEOs can be set directly via the Registry or in Global Flags via the Gflags tool. (Citation: Microsoft GFlags Mar 2017) IFEOs are represented as Debugger Values in the Registry under <code>HKLM\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Image File Execution Options/<executable></code> and <code> HKLM\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows NT\\CurrentVersion\\Image File Execution Options\\<executable> </code> where <code><executable></code> is the binary on which the debugger is attached. (Citation: Microsoft Dev Blog IFEO Mar 2010)\n\nSimilar to Process Injection, this value can be abused to obtain persistence and privilege escalation by causing a malicious executable to be loaded and run in the context of separate processes on the computer. (Citation: Engame Process Injection July 2017) Installing IFEO mechanisms may also provide Persistence via continuous invocation.\n\nMalware may also use IFEO for Defense Evasion by registering invalid debuggers that redirect and effectively disable various system and security applications. (Citation: FSecure Hupigon) (Citation: Symantec Ushedix June 2008)",
             "kill_chain_phases": [
@@ -28,7 +28,7 @@
             "external_references": [
                 {
                     "external_id": "T1183",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1183",
+                    "url": "https://attack.mitre.org/technique/T1183",
                     "source_name": "mitre-attack"
                 },
                 {

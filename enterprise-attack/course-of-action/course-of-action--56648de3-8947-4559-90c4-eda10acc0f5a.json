@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--e7573534-7ff4-468d-b7b7-c5233a24b878",
+    "id": "bundle--3454f204-663b-4207-b605-e4d9113d79f9",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--56648de3-8947-4559-90c4-eda10acc0f5a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Keychain Mitigation",
             "description": "The password for the user's login keychain can be changed from the user's login password. This increases the complexity for an adversary because they need to know an additional password.",
             "external_references": [
                 {
                     "external_id": "T1142",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1142",
+                    "url": "https://attack.mitre.org/technique/T1142",
                     "source_name": "mitre-attack"
                 }
             ]

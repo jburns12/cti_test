@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9bd54ac9-a65c-422f-961b-4d10ddd7f207",
+    "id": "bundle--28f51005-8b3b-4c23-945c-9d45dfe99002",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--aadaee0d-794c-4642-8293-7ec22a99fb1a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Domain registration hijacking",
             "description": "Domain Registration Hijacking is the act of changing the registration of a domain name without the permission of the original registrant. (Citation: ICANNDomainNameHijacking)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1103",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1103",
+                    "url": "https://attack.mitre.org/technique/PRE-T1103",
                     "source_name": "mitre-pre-attack"
                 },
                 {

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--79532f0e-da59-41e7-aca5-fb86fbd48e5d",
+    "id": "bundle--ab2cf73c-141b-49f4-95a8-7de1d9eddd51",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--9c306d8d-cde7-4b4c-b6e8-d0bb16caca36",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Exploitation for Credential Access",
             "description": "Exploitation of a software vulnerability occurs when an adversary takes advantage of a programming error in a program, service, or within the operating system software or kernel itself to execute adversary-controlled code.\u00a0Credentialing and authentication mechanisms may be targeted for exploitation by adversaries as a means to gain access to useful credentials or circumvent the process to gain access to systems. One example of this is MS14-068, which targets Kerberos and can be used to forge Kerberos tickets using domain user permissions. (Citation: Technet MS14-068) (Citation: ADSecurity Detecting Forged Tickets) Exploitation for credential access may also result in Privilege Escalation depending on the process targeted or credentials obtained.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "T1212",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1212",
+                    "url": "https://attack.mitre.org/technique/T1212",
                     "source_name": "mitre-attack"
                 },
                 {

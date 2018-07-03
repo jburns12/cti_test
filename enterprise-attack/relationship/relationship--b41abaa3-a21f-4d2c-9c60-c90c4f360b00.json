@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f7256fd5-20ae-483f-84a3-a2ed75012b98",
+    "id": "bundle--0cc07c1b-2cae-492c-99f1-91d0bc7d108c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,8 +8,8 @@
             "id": "relationship--b41abaa3-a21f-4d2c-9c60-c90c4f360b00",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-27T14:18:47.700Z",
-            "description": "If NETEAGLE does not detect a proxy configured on the infected machine, it will send beacons via UDP/6000. Also, after retrieving a C2 IP address and Port Number, NETEAGLE will initiate a TCP connection to this socket. The ensuing connection is a plaintext C2 channel in which commands are specified by DWORDs.",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "description": "If [NETEAGLE](https://attack.mitre.org/software/S0034) does not detect a proxy configured on the infected machine, it will send beacons via UDP/6000. Also, after retrieving a C2 IP address and Port Number, [NETEAGLE](https://attack.mitre.org/software/S0034) will initiate a TCP connection to this socket. The ensuing connection is a plaintext C2 channel in which commands are specified by DWORDs.",
             "external_references": [
                 {
                     "url": "https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--40b7e29c-2950-4444-a18a-d1040b3a9a18",
+    "id": "bundle--af7b2f0b-f911-4a86-b2e7-7564d466f61d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--351c0927-2fc1-4a2c-ad84-cbbee7eb8172",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-10-25T14:48:29.405Z",
-            "modified": "2018-06-18T15:59:03.864Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Exploit OS Vulnerability",
             "description": "A malicious app can exploit unpatched vulnerabilities in the operating system to obtain escalated privileges.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "MOB-T1007",
-                    "url": "https://attack.mitre.org/mobile/index.php/Technique/MOB-T1007",
+                    "url": "https://attack.mitre.org/technique/MOB-T1007",
                     "source_name": "mitre-mobile-attack"
                 },
                 {

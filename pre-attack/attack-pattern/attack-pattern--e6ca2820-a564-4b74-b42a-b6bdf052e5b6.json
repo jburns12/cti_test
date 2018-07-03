@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--efc7a6f0-48a8-45aa-a39d-a7cfb3a75199",
+    "id": "bundle--d96d5575-371d-4359-a3cd-44bcb309f5cf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--e6ca2820-a564-4b74-b42a-b6bdf052e5b6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Obfuscate infrastructure",
             "description": "Obfuscation is hiding the day-to-day building and testing of new tools, chat servers, etc. (Citation: LUCKYCAT2012)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1086",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1086",
+                    "url": "https://attack.mitre.org/technique/PRE-T1086",
                     "source_name": "mitre-pre-attack"
                 },
                 {

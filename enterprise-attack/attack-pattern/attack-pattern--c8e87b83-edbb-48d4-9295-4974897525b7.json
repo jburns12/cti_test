@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7d9aa05a-5af6-43c1-9a42-d35efa45724c",
+    "id": "bundle--3d4ba73b-1634-4166-b4f7-6427a69fcbdd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--c8e87b83-edbb-48d4-9295-4974897525b7",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "BITS Jobs",
-            "description": "Windows Background Intelligent Transfer Service (BITS) is a low-bandwidth, asynchronous file transfer mechanism exposed through Component Object Model (COM) (Citation: Microsoft COM). (Citation: Microsoft BITS) BITS is commonly used by updaters, messengers, and other applications preferred to operate in the background (using available idle bandwidth) without interrupting other networked applications. File transfer tasks are implemented as BITS jobs, which contain a queue of one or more file operations.\n\nThe interface to create and manage BITS jobs is accessible through PowerShell Mitigation  (Citation: Microsoft BITS) and the BITSAdmin tool. (Citation: Microsoft BITS)Admin\n\nAdversaries may abuse BITS to download, execute, and even clean up after malicious code. BITS tasks are self-contained in the BITS job database, without new files or registry modifications, and often permitted by host firewalls. (Citation: CTU BITS Malware June 2016) (Citation: Mondok Windows PiggyBack BITS May 2007) (Citation: Symantec BITS May 2007) BITS enabled execution may also allow Persistence by creating long-standing jobs (the default maximum lifetime is 90 days and extendable) or invoking an arbitrary program when a job completes or errors (including after system reboots). (Citation: PaloAlto UBoatRAT Nov 2017) (Citation: CTU BITS Malware June 2016)\n\nBITS upload functionalities can also be used to perform Exfiltration Over Alternative Protocol Mitigation. (Citation: CTU BITS Malware June 2016)",
+            "description": "Windows Background Intelligent Transfer Service (BITS) is a low-bandwidth, asynchronous file transfer mechanism exposed through Component Object Model (COM) (Citation: Microsoft COM). (Citation: Microsoft BITS) BITS is commonly used by updaters, messengers, and other applications preferred to operate in the background (using available idle bandwidth) without interrupting other networked applications. File transfer tasks are implemented as BITS jobs, which contain a queue of one or more file operations.\n\nThe interface to create and manage BITS jobs is accessible through [PowerShell Mitigation](https://attack.mitre.org/technique/T1086)  (Citation: Microsoft BITS) and the [BITSAdmin](https://attack.mitre.org/software/S0190) tool. (Citation: Microsoft BITS)Admin\n\nAdversaries may abuse BITS to download, execute, and even clean up after malicious code. BITS tasks are self-contained in the BITS job database, without new files or registry modifications, and often permitted by host firewalls. (Citation: CTU BITS Malware June 2016) (Citation: Mondok Windows PiggyBack BITS May 2007) (Citation: Symantec BITS May 2007) BITS enabled execution may also allow Persistence by creating long-standing jobs (the default maximum lifetime is 90 days and extendable) or invoking an arbitrary program when a job completes or errors (including after system reboots). (Citation: PaloAlto UBoatRAT Nov 2017) (Citation: CTU BITS Malware June 2016)\n\nBITS upload functionalities can also be used to perform [Exfiltration Over Alternative Protocol Mitigation](https://attack.mitre.org/technique/T1048). (Citation: CTU BITS Malware June 2016)",
             "kill_chain_phases": [
                 {
                     "phase_name": "defense-evasion",
@@ -24,7 +24,7 @@
             "external_references": [
                 {
                     "external_id": "T1197",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1197",
+                    "url": "https://attack.mitre.org/technique/T1197",
                     "source_name": "mitre-attack"
                 },
                 {
@@ -66,7 +66,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "BITS runs as a service and its status can be checked with the Sc query utility (<code>sc query bits</code>). (Citation: Microsoft Issues with BITS July 2011) Active BITS tasks can be enumerated using the Exfiltration Over Alternative Protocol Mitigation tool (<code>bitsadmin /list /allusers /verbose</code>). (Citation: Microsoft BITS)\n\nMonitor usage of the Exfiltration Over Alternative Protocol Mitigation tool (especially the \u2018Transfer\u2019, 'Create', 'AddFile', 'SetNotifyFlags', 'SetNotifyCmdLine', 'SetMinRetryDelay', 'SetCustomHeaders', and 'Resume' command options)  (Citation: Microsoft BITS)Admin and the Windows Event log for BITS activity. Also consider investigating more detailed information about jobs by parsing the BITS job database. (Citation: CTU BITS Malware June 2016)\n\nMonitor and analyze network activity generated by BITS. BITS jobs use HTTP(S) and SMB for remote connections and are tethered to the creating user and will only function when that user is logged on (this rule applies even if a user attaches the job to a service account). (Citation: Microsoft BITS)",
+            "x_mitre_detection": "BITS runs as a service and its status can be checked with the Sc query utility (<code>sc query bits</code>). (Citation: Microsoft Issues with BITS July 2011) Active BITS tasks can be enumerated using the [Exfiltration Over Alternative Protocol Mitigation](https://attack.mitre.org/technique/T1048) tool (<code>bitsadmin /list /allusers /verbose</code>). (Citation: Microsoft BITS)\n\nMonitor usage of the [Exfiltration Over Alternative Protocol Mitigation](https://attack.mitre.org/technique/T1048) tool (especially the \u2018Transfer\u2019, 'Create', 'AddFile', 'SetNotifyFlags', 'SetNotifyCmdLine', 'SetMinRetryDelay', 'SetCustomHeaders', and 'Resume' command options)  (Citation: Microsoft BITS)Admin and the Windows Event log for BITS activity. Also consider investigating more detailed information about jobs by parsing the BITS job database. (Citation: CTU BITS Malware June 2016)\n\nMonitor and analyze network activity generated by BITS. BITS jobs use HTTP(S) and SMB for remote connections and are tethered to the creating user and will only function when that user is logged on (this rule applies even if a user attaches the job to a service account). (Citation: Microsoft BITS)",
             "x_mitre_platforms": [
                 "Windows"
             ],

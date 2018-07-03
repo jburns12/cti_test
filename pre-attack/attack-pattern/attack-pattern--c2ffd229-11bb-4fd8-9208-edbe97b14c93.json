@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--30fe6f4a-1505-4139-95a9-16fd0068267b",
+    "id": "bundle--153ce62c-ef25-4edc-bd8d-c7b9293bf511",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--c2ffd229-11bb-4fd8-9208-edbe97b14c93",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Obfuscation or cryptography",
             "description": "Obfuscation is the act of creating communications that are more difficult to understand.  Encryption transforms the communications such that it requires a key to reverse the encryption. (Citation: FireEyeAPT28)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1090",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1090",
+                    "url": "https://attack.mitre.org/technique/PRE-T1090",
                     "source_name": "mitre-pre-attack"
                 },
                 {

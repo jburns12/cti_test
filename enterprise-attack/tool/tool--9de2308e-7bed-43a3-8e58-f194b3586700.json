@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bcc1631e-494c-49fb-93ea-eabc4928f6fb",
+    "id": "bundle--0a0770d4-2b42-4a9d-a05a-d689cbd3c990",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,20 +8,20 @@
             "id": "tool--9de2308e-7bed-43a3-8e58-f194b3586700",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:32:13.051Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "pwdump",
-            "description": "pwdump is a credential dumper. (Citation: Wikipedia pwdump)",
+            "description": "[pwdump](https://attack.mitre.org/software/S0006) is a credential dumper. (Citation: Wikipedia pwdump)",
             "labels": [
                 "tool"
             ],
             "external_references": [
                 {
                     "external_id": "S0006",
-                    "url": "https://attack.mitre.org/wiki/Software/S0006",
+                    "url": "https://attack.mitre.org/software/S0006",
                     "source_name": "mitre-attack"
                 },
                 {
-                    "url": "https://en.wikipedia.org/wiki/Pwdump",
+                    "url": "https://en.wikipedia.org/Pwdump",
                     "description": "Wikipedia. (1985, June 22). pwdump. Retrieved June 22, 2016.",
                     "source_name": "Wikipedia pwdump"
                 }

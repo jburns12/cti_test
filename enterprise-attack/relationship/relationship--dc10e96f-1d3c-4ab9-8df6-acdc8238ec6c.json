@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a01d2f5e-b941-44ae-be6d-d3010d0a93bc",
+    "id": "bundle--75f9c36c-d45a-44bb-9fa1-1b8764e5e8a0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,8 +8,8 @@
             "id": "relationship--dc10e96f-1d3c-4ab9-8df6-acdc8238ec6c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.038Z",
-            "modified": "2018-06-27T14:18:47.700Z",
-            "description": "APT28 added \"junk data\" to each encoded string, preventing trivial decoding without knowledge of the junk removal algorithm. Each implant was given a \"junk length\" value when created, tracked by the controller software to allow seamless communication but prevent analysis of the command protocol on the wire.",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "description": "[APT28](https://attack.mitre.org/group/G0007) added \"junk data\" to each encoded string, preventing trivial decoding without knowledge of the junk removal algorithm. Each implant was given a \"junk length\" value when created, tracked by the controller software to allow seamless communication but prevent analysis of the command protocol on the wire.",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf",

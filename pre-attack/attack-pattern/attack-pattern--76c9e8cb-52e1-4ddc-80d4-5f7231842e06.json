@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--27462dd1-a060-4b93-a73f-07612ac6b257",
+    "id": "bundle--62185d2b-094d-45b0-a1b0-bbfa1eedb2f8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--76c9e8cb-52e1-4ddc-80d4-5f7231842e06",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "DNS poisoning",
             "description": "DNS (cache) poisoning is the corruption of an Internet server's domain name system table by replacing an Internet address with that of another, rogue address. When a Web user seeks the page with that address, the request is redirected by the rogue entry in the table to a different address. (Citation: Google DNS Poisoning) (Citation: DNS Poisoning China) (Citation: Mexico Modem DNS Poison)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1159",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1159",
+                    "url": "https://attack.mitre.org/technique/PRE-T1159",
                     "source_name": "mitre-pre-attack"
                 },
                 {

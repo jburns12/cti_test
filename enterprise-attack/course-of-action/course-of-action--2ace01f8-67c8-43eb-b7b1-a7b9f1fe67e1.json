@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--77bbdd00-0338-4218-8902-afc5dddf2e8f",
+    "id": "bundle--fff654f5-0bc3-4120-9d31-a10384763c25",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--2ace01f8-67c8-43eb-b7b1-a7b9f1fe67e1",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "File and Directory Discovery Mitigation",
             "description": "File system activity is a common part of an operating system, so it is unlikely that mitigation would be appropriate for this technique. It may still be beneficial to identify and block unnecessary system utilities or potentially malicious software by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
             "external_references": [
                 {
                     "external_id": "T1083",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1083",
+                    "url": "https://attack.mitre.org/technique/T1083",
                     "source_name": "mitre-attack"
                 },
                 {

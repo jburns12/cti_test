@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7a979bae-f0c8-4bbb-9742-6207f43a430d",
+    "id": "bundle--2ba9c8e8-7381-4bd1-8a0f-449a9d78ea06",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--830c9528-df21-472c-8c14-a036bf17d665",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:31:13.915Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Web Service",
             "description": "Adversaries may use an existing, legitimate external Web service as a means for relaying commands to a compromised system.\n\nThese commands may also include pointers to command and control (C2) infrastructure. Adversaries may post content, known as a dead drop resolver, on Web services with embedded (and often obfuscated/encoded) domains or IP addresses. Once infected, victims will reach out to and be redirected by these resolvers.\n\nPopular websites and social media acting as a mechanism for C2 may give a significant amount of cover due to the likelihood that hosts within a network are already communicating with them prior to a compromise. Using common services, such as those offered by Google or Twitter, makes it easier for adversaries to hide in expected noise. Web service providers commonly use SSL/TLS encryption, giving adversaries an added level of protection.\n\nUse of Web services may also protect back-end C2 infrastructure from discovery through malware binary analysis while also enabling operational resiliency (since this infrastructure may be dynamically changed).",
             "kill_chain_phases": [
@@ -24,7 +24,7 @@
             "external_references": [
                 {
                     "external_id": "T1102",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1102",
+                    "url": "https://attack.mitre.org/technique/T1102",
                     "source_name": "mitre-attack"
                 },
                 {

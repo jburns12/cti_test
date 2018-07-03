@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--20be9a1b-ec0f-4343-bec3-6b3bd12f24c3",
+    "id": "bundle--a44093d7-e65e-44ed-9c05-736d723299dc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,16 +8,16 @@
             "id": "tool--ed7d0cb1-87a6-43b4-9f46-ef1bc56d6c68",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Tor",
-            "description": "Tor is a software suite and network that provides increased anonymity on the Internet. It creates a multi-hop proxy network and utilizes multilayer encryption to protect both the message and routing information. Tor utilizes \"Onion Routing,\" in which messages are encrypted with multiple layers of encryption; at each step in the proxy network, the topmost layer is decrypted and the contents forwarded on to the next node until it reaches its destination. (Citation: Dingledine Tor The Second-Generation Onion Router)",
+            "description": "[Tor](https://attack.mitre.org/software/S0183) is a software suite and network that provides increased anonymity on the Internet. It creates a multi-hop proxy network and utilizes multilayer encryption to protect both the message and routing information. [Tor](https://attack.mitre.org/software/S0183) utilizes \"Onion Routing,\" in which messages are encrypted with multiple layers of encryption; at each step in the proxy network, the topmost layer is decrypted and the contents forwarded on to the next node until it reaches its destination. (Citation: Dingledine Tor The Second-Generation Onion Router)",
             "labels": [
                 "tool"
             ],
             "external_references": [
                 {
                     "external_id": "S0183",
-                    "url": "https://attack.mitre.org/wiki/Software/S0183",
+                    "url": "https://attack.mitre.org/software/S0183",
                     "source_name": "mitre-attack"
                 },
                 {

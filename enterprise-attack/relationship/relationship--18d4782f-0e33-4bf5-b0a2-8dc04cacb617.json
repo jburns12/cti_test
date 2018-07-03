@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4319b73f-6d79-4457-808d-01f84a3a6128",
+    "id": "bundle--10675329-7f7d-472b-8a19-3628a0347f38",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,8 +8,8 @@
             "id": "relationship--18d4782f-0e33-4bf5-b0a2-8dc04cacb617",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Some Orz versions have an embedded DLL known as MockDll that uses Process Hollowing Mitigation and regsvr32 to execute another payload.",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "description": "Some [Orz](https://attack.mitre.org/software/S0229) versions have an embedded DLL known as MockDll that uses [Process Hollowing Mitigation](https://attack.mitre.org/technique/T1093) and regsvr32 to execute another payload.",
             "external_references": [
                 {
                     "url": "https://www.proofpoint.com/us/threat-insight/post/leviathan-espionage-actor-spearphishes-maritime-and-defense-targets",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2f81cbc4-6b45-4167-90ab-c96a567eb0c5",
+    "id": "bundle--a439cc0a-56ac-4d2b-b1d7-8eee8870a8e6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--799ace7f-e227-4411-baa0-8868704f2a69",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:30:55.892Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Indicator Removal on Host",
             "description": "Adversaries may delete or alter generated event files on a host system, including potentially captured files such as quarantined malware. This may compromise the integrity of the security solution, causing events to go unreported, or make forensic analysis and incident response more difficult due to lack of sufficient data to determine what occurred.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "T1070",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1070",
+                    "url": "https://attack.mitre.org/technique/T1070",
                     "source_name": "mitre-attack"
                 }
             ],

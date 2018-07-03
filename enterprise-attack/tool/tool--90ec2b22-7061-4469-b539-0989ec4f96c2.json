@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2a5e8311-c07d-4511-9890-648666b008e9",
+    "id": "bundle--0ed8cf95-1db6-49ff-ac7c-c7a2c20b0118",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,16 +8,16 @@
             "id": "tool--90ec2b22-7061-4469-b539-0989ec4f96c2",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Forfiles",
-            "description": "Forfiles is a Windows utility commonly used in batch jobs to execute commands on one or more selected files or directories (ex: list all directories in a drive, read the first line of all files created yesterday, etc.). Forfiles can be executed from either the command line, Run window, or batch files/scripts.  (Citation: Microsoft Forfiles Aug 2016)",
+            "description": "[Forfiles](https://attack.mitre.org/software/S0193) is a Windows utility commonly used in batch jobs to execute commands on one or more selected files or directories (ex: list all directories in a drive, read the first line of all files created yesterday, etc.). Forfiles can be executed from either the command line, Run window, or batch files/scripts.  (Citation: Microsoft Forfiles Aug 2016)",
             "labels": [
                 "tool"
             ],
             "external_references": [
                 {
                     "external_id": "S0193",
-                    "url": "https://attack.mitre.org/wiki/Software/S0193",
+                    "url": "https://attack.mitre.org/software/S0193",
                     "source_name": "mitre-attack"
                 },
                 {

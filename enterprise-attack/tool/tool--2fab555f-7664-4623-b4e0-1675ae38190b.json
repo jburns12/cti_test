@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--98151776-2459-4c67-9834-f55e78515151",
+    "id": "bundle--443893df-1c80-4767-bbe3-b5e6b930ad10",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,16 +8,16 @@
             "id": "tool--2fab555f-7664-4623-b4e0-1675ae38190b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:10.962Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Lslsass",
-            "description": "Lslsass is a publicly-available tool that can dump active logon session password hashes from the lsass process. (Citation: Mandiant APT1)",
+            "description": "[Lslsass](https://attack.mitre.org/software/S0121) is a publicly-available tool that can dump active logon session password hashes from the lsass process. (Citation: Mandiant APT1)",
             "labels": [
                 "tool"
             ],
             "external_references": [
                 {
                     "external_id": "S0121",
-                    "url": "https://attack.mitre.org/wiki/Software/S0121",
+                    "url": "https://attack.mitre.org/software/S0121",
                     "source_name": "mitre-attack"
                 },
                 {

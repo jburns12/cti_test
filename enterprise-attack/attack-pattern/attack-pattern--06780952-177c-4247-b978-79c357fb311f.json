@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f4f6ecdb-f923-4372-bda3-7b8c473b476d",
+    "id": "bundle--73c38bca-8bc1-464c-92b6-38484a85e671",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--06780952-177c-4247-b978-79c357fb311f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Plist Modification",
             "description": "Property list (plist) files contain all of the information that macOS and OS X uses to configure applications and services. These files are UT-8 encoded and formatted like XML documents via a series of keys surrounded by < >. They detail when programs should execute, file paths to the executables, program arguments, required OS permissions, and many others. plists are located in certain locations depending on their purpose such as <code>/Library/Preferences</code> (which execute with elevated privileges) and <code>~/Library/Preferences</code> (which execute with a user's privileges). \nAdversaries can modify these plist files to point to their own code, can use them to execute their code in the context of another user, bypass whitelisting procedures, or even use them as a persistence mechanism. (Citation: Sofacy Komplex Trojan)",
             "kill_chain_phases": [
@@ -28,7 +28,7 @@
             "external_references": [
                 {
                     "external_id": "T1150",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1150",
+                    "url": "https://attack.mitre.org/technique/T1150",
                     "source_name": "mitre-attack"
                 },
                 {

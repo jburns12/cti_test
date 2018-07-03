@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b42c26ba-e653-4d22-b9d1-109390cb13fa",
+    "id": "bundle--0f5d4132-32b9-4663-ae35-7d139d1d1c6e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,16 +8,16 @@
             "id": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:32:09.460Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "FIN7",
-            "description": "FIN7 is a financially motivated threat group that has primarily targeted the retail and hospitality sectors, often using point-of-sale malware. It is sometimes referred to as Carbanak Group, but these appear to be two groups using the same Carbanak malware and are therefore tracked separately. (Citation: FireEye FIN7 March 2017) (Citation: FireEye FIN7 April 2017)",
+            "description": "[FIN7](https://attack.mitre.org/group/G0046) is a financially motivated threat group that has primarily targeted the retail and hospitality sectors, often using point-of-sale malware. It is sometimes referred to as [Carbanak](https://attack.mitre.org/group/G0008) Group, but these appear to be two groups using the same [Carbanak](https://attack.mitre.org/software/S0030) malware and are therefore tracked separately. (Citation: FireEye FIN7 March 2017) (Citation: FireEye FIN7 April 2017)",
             "aliases": [
                 "FIN7"
             ],
             "external_references": [
                 {
                     "external_id": "G0046",
-                    "url": "https://attack.mitre.org/wiki/Group/G0046",
+                    "url": "https://attack.mitre.org/group/G0046",
                     "source_name": "mitre-attack"
                 },
                 {

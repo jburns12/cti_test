@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a0ebc6a0-e1ee-4aca-9f6e-f7d09596f702",
+    "id": "bundle--3d244cb7-2337-4b34-b9ec-fa952be98fb0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--3911658a-6506-4deb-9ab4-595a51ae71ad",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-10-25T14:48:16.650Z",
-            "modified": "2018-06-18T15:59:03.864Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Commonly Used Port",
             "description": "Adversaries may communicate over a commonly used port to bypass firewalls or network detection systems and to blend with normal network activity to avoid more detailed inspection. They may use commonly open ports such as\n* TCP:80 (HTTP)\n* TCP:443 (HTTPS)\n* TCP:25 (SMTP)\n* TCP/UDP:53 (DNS)\n\nThey may use the protocol associated with the port or a completely different protocol.",
             "kill_chain_phases": [
@@ -24,7 +24,7 @@
             "external_references": [
                 {
                     "external_id": "MOB-T1039",
-                    "url": "https://attack.mitre.org/mobile/index.php/Technique/MOB-T1039",
+                    "url": "https://attack.mitre.org/technique/MOB-T1039",
                     "source_name": "mitre-mobile-attack"
                 }
             ],

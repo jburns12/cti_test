@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c0c0237e-4f81-46a6-8499-e6fe5803e53e",
+    "id": "bundle--bcecae54-91c1-4a06-b91e-a0f11f63748b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--1def484d-2343-470d-8925-88f45b5f9615",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Assess vulnerability of 3rd party vendors",
             "description": "Once a 3rd party vendor has been identified as being of interest it can be probed for vulnerabilities just like the main target would be. (Citation: Zetter2015Threats) (Citation: WSJTargetBreach)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1075",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1075",
+                    "url": "https://attack.mitre.org/technique/PRE-T1075",
                     "source_name": "mitre-pre-attack"
                 },
                 {

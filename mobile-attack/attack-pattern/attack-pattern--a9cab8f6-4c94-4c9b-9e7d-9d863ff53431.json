@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--21c0dc7c-5d21-4c5d-aeac-55ef90ca5bbe",
+    "id": "bundle--602caeb7-3769-4dfb-9a2d-3795a2ed51b0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--a9cab8f6-4c94-4c9b-9e7d-9d863ff53431",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-10-25T14:48:19.682Z",
-            "modified": "2018-06-18T15:59:03.864Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Malicious Media Content",
             "description": "Content of a media (audio or video) file could be designed to exploit vulnerabilities in parsers on the mobile device, as for example demonstrated by the Android Stagefright vulnerability (Citation: Zimperium-Stagefright).",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "MOB-T1060",
-                    "url": "https://attack.mitre.org/mobile/index.php/Technique/MOB-T1060",
+                    "url": "https://attack.mitre.org/technique/MOB-T1060",
                     "source_name": "mitre-mobile-attack"
                 },
                 {

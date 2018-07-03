@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--072be4ab-a0f8-4c57-8d70-a53011ff0ba0",
+    "id": "bundle--d01a016d-3b98-43ce-ad19-054c5e9efe76",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--b9f5dbe2-4c55-4fc5-af2e-d42c1d182ec4",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:30:19.338Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Data Compressed",
             "description": "An adversary may compress data (e.g., sensitive documents) that is collected prior to exfiltration in order to make it portable and minimize the amount of data sent over the network. The compression is done separately from the exfiltration channel and is performed using a custom program or algorithm, or a more common compression library or utility such as 7zip, RAR, ZIP, or zlib.",
             "kill_chain_phases": [
@@ -20,11 +20,11 @@
             "external_references": [
                 {
                     "external_id": "T1002",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1002",
+                    "url": "https://attack.mitre.org/technique/T1002",
                     "source_name": "mitre-attack"
                 },
                 {
-                    "url": "https://en.wikipedia.org/wiki/List%20of%20file%20signatures",
+                    "url": "https://en.wikipedia.org/List%20of%20file%20signatures",
                     "description": "Wikipedia. (2016, March 31). List of file signatures. Retrieved April 22, 2016.",
                     "source_name": "Wikipedia File Header Signatures"
                 }

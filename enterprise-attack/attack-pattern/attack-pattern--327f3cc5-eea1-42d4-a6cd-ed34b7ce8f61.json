@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a40e1680-7aca-4695-bb29-f4dd94f4bbba",
+    "id": "bundle--1f5adee0-b642-4dc2-9de1-19c631f8eba4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--327f3cc5-eea1-42d4-a6cd-ed34b7ce8f61",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:30:27.755Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Application Deployment Software",
             "description": "Adversaries may deploy malicious software to systems within a network using application deployment systems employed by enterprise administrators. The permissions required for this action vary by system configuration; local credentials may be sufficient with direct access to the deployment server, or specific domain credentials may be required. However, the system may require an administrative account to log in or to perform software deployment.\n\nAccess to a network-wide or enterprise-wide software deployment system enables an adversary to have remote code execution on all systems that are connected to such a system. The access may be used to laterally move to systems, gather information, or cause a specific effect, such as wiping the hard drives on all endpoints.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "T1017",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1017",
+                    "url": "https://attack.mitre.org/technique/T1017",
                     "source_name": "mitre-attack"
                 }
             ],

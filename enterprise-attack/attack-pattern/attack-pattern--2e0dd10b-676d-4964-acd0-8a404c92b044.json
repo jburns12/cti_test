@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--658ac373-64c2-43cb-863b-6294c50838a3",
+    "id": "bundle--3687c7d2-b8e2-4533-8229-3b9e4e0f084e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--2e0dd10b-676d-4964-acd0-8a404c92b044",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:31:07.958Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Disabling Security Tools",
             "description": "Adversaries may disable security tools to avoid possible detection of their tools and activities. This can take the form of killing security software or event logging processes, deleting Registry keys so that tools do not start at run time, or other methods to interfere with security scanning or event reporting.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "T1089",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1089",
+                    "url": "https://attack.mitre.org/technique/T1089",
                     "source_name": "mitre-attack"
                 }
             ],

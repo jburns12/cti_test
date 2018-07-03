@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0769811a-44ec-4069-b7fe-8d6cb9aaefcd",
+    "id": "bundle--53017b6e-f645-4220-8e63-950eb712690e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--388f3a5c-2cdd-466c-9159-b507fa429fcd",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Hardware or software supply chain implant",
             "description": "During production and distribution, the placement of software, firmware, or a CPU chip in a computer, handheld, or other electronic device that enables an adversary to gain illegal entrance. (Citation: McDRecall) (Citation: SeagateMaxtor)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1142",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1142",
+                    "url": "https://attack.mitre.org/technique/PRE-T1142",
                     "source_name": "mitre-pre-attack"
                 },
                 {

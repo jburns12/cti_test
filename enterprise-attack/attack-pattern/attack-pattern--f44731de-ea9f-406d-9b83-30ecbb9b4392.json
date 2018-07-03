@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bb0f7167-d2cb-4e7a-a4a2-9b1338812c1a",
+    "id": "bundle--50341832-ed81-4fe9-8580-a706a2f30109",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--f44731de-ea9f-406d-9b83-30ecbb9b4392",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:30:36.550Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Service Execution",
-            "description": "Adversaries may execute a binary, command, or script via a method that interacts with Windows services, such as the Service Control Manager. This can be done by either creating a new service or modifying an existing service. This technique is the execution used in conjunction with New Service Mitigation and Modify Existing Service Mitigation during service persistence or privilege escalation.",
+            "description": "Adversaries may execute a binary, command, or script via a method that interacts with Windows services, such as the Service Control Manager. This can be done by either creating a new service or modifying an existing service. This technique is the execution used in conjunction with [New Service Mitigation](https://attack.mitre.org/technique/T1050) and [Modify Existing Service Mitigation](https://attack.mitre.org/technique/T1031) during service persistence or privilege escalation.",
             "kill_chain_phases": [
                 {
                     "phase_name": "execution",
@@ -20,14 +20,14 @@
             "external_references": [
                 {
                     "external_id": "T1035",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1035",
+                    "url": "https://attack.mitre.org/technique/T1035",
                     "source_name": "mitre-attack"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Changes to service Registry entries and command-line invocation of tools capable of modifying services that do not correlate with known software, patch cycles, etc., may be suspicious. If a service is used only to execute a binary or script and not to persist, then it will likely be changed back to its original form shortly after the service is restarted so the service is not left broken, as is the case with the common administrator tool Modify Existing Service Mitigation.",
+            "x_mitre_detection": "Changes to service Registry entries and command-line invocation of tools capable of modifying services that do not correlate with known software, patch cycles, etc., may be suspicious. If a service is used only to execute a binary or script and not to persist, then it will likely be changed back to its original form shortly after the service is restarted so the service is not left broken, as is the case with the common administrator tool [Modify Existing Service Mitigation](https://attack.mitre.org/technique/T1031).",
             "x_mitre_platforms": [
                 "Windows"
             ],

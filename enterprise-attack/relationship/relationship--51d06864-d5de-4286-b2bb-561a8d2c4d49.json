@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d312c500-da91-477b-ac60-bbadb2f0bae9",
+    "id": "bundle--670e1040-f9db-40e2-a6af-eb1e1868815f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,8 +8,8 @@
             "id": "relationship--51d06864-d5de-4286-b2bb-561a8d2c4d49",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-27T14:18:47.700Z",
-            "description": "APT28 has used built-in tools like <code>ps aux</code> on macOS to determine which processes are running. An APT28 loader Trojan will enumerate the victim's processes searching for explorer.exe if its current process does not have necessary permissions.",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "description": "[APT28](https://attack.mitre.org/group/G0007) has used built-in tools like <code>ps aux</code> on macOS to determine which processes are running. An [APT28](https://attack.mitre.org/group/G0007) loader Trojan will enumerate the victim's processes searching for explorer.exe if its current process does not have necessary permissions.",
             "external_references": [
                 {
                     "url": "https://pan-unit42.github.io/playbook%20viewer/",

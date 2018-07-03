@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--9c80866d-f905-4014-ab96-f02b7ded5f37",
+    "id": "bundle--aea29079-2ee9-4369-a01e-0f56743cf142",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--bd2554b8-634f-4434-a986-9b49c29da2ae",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Security Software Discovery Mitigation",
             "description": "Identify unnecessary system utilities or potentially malicious software that may be used to acquire information about local security software, and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
             "external_references": [
                 {
                     "external_id": "T1063",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1063",
+                    "url": "https://attack.mitre.org/technique/T1063",
                     "source_name": "mitre-attack"
                 },
                 {

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--797c614a-ca86-459f-969c-621314a4da93",
+    "id": "bundle--ed51fb1f-9ed3-4540-b741-0a94e7a1d2ff",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--274164c6-4297-42d4-84b5-2369e51013fe",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Domain Generation Algorithms (DGA)",
             "description": "The use of algorithms in malware to periodically generate a large number of domain names which function as rendezvous points for malware command and control servers. (Citation: DamballaDGA) (Citation: DambballaDGACyberCriminals)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1100",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1100",
+                    "url": "https://attack.mitre.org/technique/PRE-T1100",
                     "source_name": "mitre-pre-attack"
                 },
                 {

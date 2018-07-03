@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--93dcce92-30e6-4409-bf1f-7022fee05c51",
+    "id": "bundle--e9c7d760-d6e7-4182-9c04-d556c466f205",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,8 +8,8 @@
             "id": "relationship--54188543-7746-4158-9a9f-5556bb99ec7a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-06-27T14:18:47.700Z",
-            "description": "A backdoor used by APT29 created a Tor hidden service to forward traffic from the Tor client to local ports 3389 (RDP), 139 (Netbios), and 445 (SMB) enabling full remote access from outside the network.",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "description": "A backdoor used by [APT29](https://attack.mitre.org/group/G0016) created a Tor hidden service to forward traffic from the Tor client to local ports 3389 (RDP), 139 (Netbios), and 445 (SMB) enabling full remote access from outside the network.",
             "external_references": [
                 {
                     "url": "http://www.slideshare.net/MatthewDunwoody1/no-easy-breach-derby-con-2016",

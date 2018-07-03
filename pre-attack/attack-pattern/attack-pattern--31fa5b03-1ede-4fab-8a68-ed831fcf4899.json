@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e926971c-2ae1-4ebc-97af-302da51d4afa",
+    "id": "bundle--f8c26e64-983e-474e-be83-e2b7ff56cfd8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--31fa5b03-1ede-4fab-8a68-ed831fcf4899",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Misattributable credentials",
             "description": "The use of credentials by an adversary with the intent to hide their true identity and/or portray them self as another person or entity.  An adversary may use misattributable credentials in an attack to convince a victim that credentials are legitimate and trustworthy when this is not actually the case. (Citation: FakeSSLCerts)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1099",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1099",
+                    "url": "https://attack.mitre.org/technique/PRE-T1099",
                     "source_name": "mitre-pre-attack"
                 },
                 {

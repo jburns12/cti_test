@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--40719b71-537f-4529-a77c-472c058054ef",
+    "id": "bundle--4d0e0695-a59b-4e70-8522-22b93110a5b2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--e7eab98d-ae11-4491-bd28-a53ba875865a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:31:38.350Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Network Share Connection Removal",
-            "description": "Windows shared drive and Windows Admin Shares Mitigation connections can be removed when no longer needed. Net is an example utility that can be used to remove network share connections with the <code>net use \\\\system\\share /delete</code> command. (Citation: Technet Net Use)\n\nAdversaries may remove share connections that are no longer useful in order to clean up traces of their operation.",
+            "description": "Windows shared drive and [Windows Admin Shares Mitigation](https://attack.mitre.org/technique/T1077) connections can be removed when no longer needed. [Net](https://attack.mitre.org/software/S0039) is an example utility that can be used to remove network share connections with the <code>net use \\\\system\\share /delete</code> command. (Citation: Technet Net Use)\n\nAdversaries may remove share connections that are no longer useful in order to clean up traces of their operation.",
             "kill_chain_phases": [
                 {
                     "phase_name": "defense-evasion",
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "T1126",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1126",
+                    "url": "https://attack.mitre.org/technique/T1126",
                     "source_name": "mitre-attack"
                 },
                 {
@@ -32,7 +32,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Network share connections may be common depending on how an network environment is used. Monitor command-line invocation of <code>net use</code> commands associated with establishing and removing remote shares over SMB, including following best practices for detection of Net. SMB traffic between systems may also be captured and decoded to look for related network share session and file transfer activity. Windows authentication logs are also useful in determining when authenticated network shares are established and by which account, and can be used to correlate network share activity to other events to investigate potentially malicious activity.",
+            "x_mitre_detection": "Network share connections may be common depending on how an network environment is used. Monitor command-line invocation of <code>net use</code> commands associated with establishing and removing remote shares over SMB, including following best practices for detection of [Net](https://attack.mitre.org/software/S0039). SMB traffic between systems may also be captured and decoded to look for related network share session and file transfer activity. Windows authentication logs are also useful in determining when authenticated network shares are established and by which account, and can be used to correlate network share activity to other events to investigate potentially malicious activity.",
             "x_mitre_platforms": [
                 "Windows"
             ],

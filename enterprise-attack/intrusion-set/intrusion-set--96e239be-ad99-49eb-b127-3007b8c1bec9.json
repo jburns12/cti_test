@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2d3b05da-cd7e-4898-ad2c-31ae9012f78a",
+    "id": "bundle--2ad08a0f-83b9-4700-9bac-2d3ac502ae9a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,16 +8,16 @@
             "id": "intrusion-set--96e239be-ad99-49eb-b127-3007b8c1bec9",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:31:54.697Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Equation",
-            "description": "Equation is a sophisticated threat group that employs multiple remote access tools. The group is known to use zero-day exploits and has developed the capability to overwrite the firmware of hard disk drives. (Citation: Kaspersky Equation QA)",
+            "description": "[Equation](https://attack.mitre.org/group/G0020) is a sophisticated threat group that employs multiple remote access tools. The group is known to use zero-day exploits and has developed the capability to overwrite the firmware of hard disk drives. (Citation: Kaspersky Equation QA)",
             "aliases": [
                 "Equation"
             ],
             "external_references": [
                 {
                     "external_id": "G0020",
-                    "url": "https://attack.mitre.org/wiki/Group/G0020",
+                    "url": "https://attack.mitre.org/group/G0020",
                     "source_name": "mitre-attack"
                 },
                 {

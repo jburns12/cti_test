@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2ac720c6-6cc1-4189-b08a-a1db6b08aa85",
+    "id": "bundle--c4960f9e-bb78-44cb-87da-ae4e3a80d65a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--795c1a92-3a26-453e-b99a-6a566aa94dc6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Acquire and/or use 3rd party infrastructure services",
             "description": "A wide variety of cloud, virtual private services, hosting, compute, and storage solutions are available. Additionally botnets are available for rent or purchase. Use of these solutions allow an adversary to stage, launch, and execute an attack from infrastructure that does not physically tie back to them and can be rapidly provisioned, modified, and shut down. (Citation: TrendmicroHideoutsLease)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1106",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1106",
+                    "url": "https://attack.mitre.org/technique/PRE-T1106",
                     "source_name": "mitre-pre-attack"
                 },
                 {

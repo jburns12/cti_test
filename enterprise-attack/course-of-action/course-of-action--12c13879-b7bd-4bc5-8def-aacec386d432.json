@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--be1dc1b8-5d94-439c-a66e-7efe101d1dfd",
+    "id": "bundle--43aa4488-cbdd-44b3-a89f-abfb896a7cd2",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--12c13879-b7bd-4bc5-8def-aacec386d432",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Regsvr32 Mitigation",
             "description": "Microsoft's Enhanced Mitigation Experience Toolkit (EMET) Attack Surface Reduction (ASR) feature can be used to block regsvr32.exe from being used to bypass whitelisting. (Citation: Secure Host Baseline EMET)",
             "external_references": [
                 {
                     "external_id": "T1117",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1117",
+                    "url": "https://attack.mitre.org/technique/T1117",
                     "source_name": "mitre-attack"
                 },
                 {

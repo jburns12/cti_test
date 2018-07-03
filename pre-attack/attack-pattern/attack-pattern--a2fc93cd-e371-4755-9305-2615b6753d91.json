@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b33cdbea-8257-4da7-b149-fd1800e0979f",
+    "id": "bundle--978b8f59-8c27-4aa7-b247-8d0bb822bb29",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--a2fc93cd-e371-4755-9305-2615b6753d91",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Determine external network trust dependencies",
             "description": "Network trusts enable communications between different networks with specific accesses and permissions. Network trusts could include the implementation of domain trusts or the use of virtual private networks (VPNs). (Citation: CuckoosEgg) (Citation: CuckoosEgg)Wikipedia (Citation: KGBComputerMe)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1036",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1036",
+                    "url": "https://attack.mitre.org/technique/PRE-T1036",
                     "source_name": "mitre-pre-attack"
                 },
                 {

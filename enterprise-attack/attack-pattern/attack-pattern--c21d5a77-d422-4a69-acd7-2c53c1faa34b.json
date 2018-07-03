@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9da838e7-85f5-4d8b-bfe5-442cf4d65776",
+    "id": "bundle--3be78ee2-e6c3-4036-bbfc-caea0eee001a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--c21d5a77-d422-4a69-acd7-2c53c1faa34b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:31:10.728Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Standard Non-Application Layer Protocol",
             "description": "Use of a standard non-application layer protocol for communication between host and C2 server or among infected hosts within a network. The list of possible protocols is extensive. (Citation: Wikipedia OSI) Specific examples include use of network layer protocols, such as the Internet Control Message Protocol (ICMP), and transport layer protocols, such as the User Datagram Protocol (UDP).\n\nICMP communication between hosts is one example. Because ICMP is part of the Internet Protocol Suite, it is required to be implemented by all IP-compatible hosts; (Citation: Microsoft ICMP) however, it is not as commonly monitored as other Internet Protocols such as TCP or UDP and may be used by adversaries to hide communications.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "T1095",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1095",
+                    "url": "https://attack.mitre.org/technique/T1095",
                     "source_name": "mitre-attack"
                 },
                 {

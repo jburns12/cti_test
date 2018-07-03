@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--248de886-0c44-4e2c-8b28-5e199dfbecec",
+    "id": "bundle--74568950-3642-4698-9e1c-1d958acd8596",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,13 +8,13 @@
             "id": "relationship--59a6700b-3ae5-4039-a07c-cbbf6eb7a78e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-28T19:48:46.596Z",
-            "description": "Threat Group-3390 has deployed backup web shells and obtained OWA account credentials during intrusions that it subsequently used to attempt to regain access when evicted from a victim network.",
+            "modified": "2018-07-03T15:59:25.081Z",
+            "description": "[Threat Group-3390](https://attack.mitre.org/wiki/Group/G0027) has deployed backup web shells and obtained OWA account credentials during intrusions that it subsequently used to attempt to regain access when evicted from a victim network.",
             "external_references": [
                 {
-                    "source_name": "SecureWorks BRONZE UNION June 2017",
+                    "url": "https://www.secureworks.com/research/bronze-union",
                     "description": "Counter Threat Unit Research Team. (2017, June 27). BRONZE UNION Cyberespionage Persists Despite Disclosures. Retrieved July 13, 2017.",
-                    "url": "https://www.secureworks.com/research/bronze-union"
+                    "source_name": "SecureWorks BRONZE UNION June 2017"
                 }
             ],
             "object_marking_refs": [

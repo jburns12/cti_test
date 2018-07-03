@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e7c37545-1b09-4960-8d85-f2bb1df84a60",
+    "id": "bundle--00fbb7f5-0646-49fa-917f-50c36426b253",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--c9fb4451-729d-4771-b205-52c1829f949c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Identify resources required to build capabilities",
             "description": "As with legitimate development efforts, different skill sets may be required for different phases of an attack. The skills needed may be located in house, can be developed, or may need to be contracted out. (Citation: APT1)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1125",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1125",
+                    "url": "https://attack.mitre.org/technique/PRE-T1125",
                     "source_name": "mitre-pre-attack"
                 },
                 {

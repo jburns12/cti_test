@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--48cf4b4b-b885-48f5-87eb-a2aa4b5a28bf",
+    "id": "bundle--ef377eb1-4f9e-416a-8277-585e88285124",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,16 +8,16 @@
             "id": "tool--b07c2c47-fefb-4d7c-a69e-6a3296171f54",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:32:13.755Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "gsecdump",
-            "description": "gsecdump is a publicly-available credential dumper used to obtain password hashes and LSA secrets from Windows operating systems. (Citation: TrueSec Gsecdump)",
+            "description": "[gsecdump](https://attack.mitre.org/software/S0008) is a publicly-available credential dumper used to obtain password hashes and LSA secrets from Windows operating systems. (Citation: TrueSec Gsecdump)",
             "labels": [
                 "tool"
             ],
             "external_references": [
                 {
                     "external_id": "S0008",
-                    "url": "https://attack.mitre.org/wiki/Software/S0008",
+                    "url": "https://attack.mitre.org/software/S0008",
                     "source_name": "mitre-attack"
                 },
                 {

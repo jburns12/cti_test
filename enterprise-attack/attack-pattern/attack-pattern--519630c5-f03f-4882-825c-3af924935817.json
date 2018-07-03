@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--05e9790f-1d79-478c-80f5-9095da416d24",
+    "id": "bundle--15a2fbc3-48c5-4174-9125-d67938a1d2e4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--519630c5-f03f-4882-825c-3af924935817",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:30:22.096Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Binary Padding",
             "description": "Some security tools inspect files with static signatures to determine if they are known malicious. Adversaries may add data to files to increase the size beyond what security tools are capable of handling or to change the file hash to avoid hash-based blacklists.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "T1009",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1009",
+                    "url": "https://attack.mitre.org/technique/T1009",
                     "source_name": "mitre-attack"
                 }
             ],

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d39d2139-e8d5-4c3a-8c78-59c6aa8574b3",
+    "id": "bundle--5150584a-401c-49fd-bd14-3f76ea575961",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,8 +8,8 @@
             "id": "relationship--1762fe5a-0810-4179-bfb0-16d965ffe055",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-27T14:18:47.700Z",
-            "description": "HTTPBrowser abuses the Windows DLL load order by using a legitimate Symantec anti-virus binary, VPDN_LU.exe, to load a malicious DLL that mimics a legitimate Symantec DLL, navlu.dll.",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "description": "[HTTPBrowser](https://attack.mitre.org/software/S0070) abuses the Windows DLL load order by using a legitimate Symantec anti-virus binary, VPDN_LU.exe, to load a malicious DLL that mimics a legitimate Symantec DLL, navlu.dll.",
             "external_references": [
                 {
                     "url": "http://research.zscaler.com/2015/08/chinese-cyber-espionage-apt-group.html",

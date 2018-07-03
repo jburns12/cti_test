@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--854690f1-6cfb-4744-a740-dc4e76f02313",
+    "id": "bundle--4d3957b8-222f-479c-9641-7750e8b65443",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,8 +8,8 @@
             "id": "relationship--cbc4c186-028e-4a24-93ff-5f2bb7edd98a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-27T14:18:47.700Z",
-            "description": "Pisloader obfuscates files by splitting strings into smaller sub-strings and including \"garbage\" strings that are never used. The malware also uses return-oriented programming (ROP) technique and single-byte XOR to obfuscate data.",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "description": "[Pisloader](https://attack.mitre.org/software/S0124) obfuscates files by splitting strings into smaller sub-strings and including \"garbage\" strings that are never used. The malware also uses return-oriented programming (ROP) technique and single-byte XOR to obfuscate data.",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2016/05/unit42-new-wekby-attacks-use-dns-requests-as-command-and-control-mechanism/",

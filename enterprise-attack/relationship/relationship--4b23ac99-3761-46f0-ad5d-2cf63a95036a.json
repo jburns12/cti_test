@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5fb11faa-7119-4acd-8cf8-b21407aa86b7",
+    "id": "bundle--60287de6-a2fa-46c6-bdf2-4b90a9d30ff2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,8 +8,8 @@
             "id": "relationship--4b23ac99-3761-46f0-ad5d-2cf63a95036a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-27T14:18:47.700Z",
-            "description": "S-Type primarily uses port 80 for C2, but falls back to ports 443 or 8080 if initial communication fails.",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "description": "[S-Type](https://attack.mitre.org/software/S0085) primarily uses port 80 for C2, but falls back to ports 443 or 8080 if initial communication fails.",
             "external_references": [
                 {
                     "url": "https://www.cylance.com/content/dam/cylance/pdfs/reports/Op%20Dust%20Storm%20Report.pdf",

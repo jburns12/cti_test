@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--62c2654a-9f94-49cd-8797-f30c86fad78c",
+    "id": "bundle--376f76f0-5e45-4099-95e1-ef661656a739",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--46017368-6e09-412b-a29c-385be201cc03",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Obtain domain/IP registration information",
             "description": "For a computing resource to be accessible to the public, domain names and IP addresses must be registered with an authorized organization. (Citation: Google Domains WHOIS) (Citation: FunAndSun2012) (Citation: Scasny2015)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1028",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1028",
+                    "url": "https://attack.mitre.org/technique/PRE-T1028",
                     "source_name": "mitre-pre-attack"
                 },
                 {

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3d2945e3-23db-4942-9aed-38cd88177620",
+    "id": "bundle--020d225d-f2ee-41a0-904f-d4f574b8354e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--9755ecdc-deb0-40e6-af49-713cb0f8ed92",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Remote access tool development",
             "description": "A remote access tool (RAT) is a piece of software that allows a remote user to control a system as if they had physical access to that system. An adversary may utilize existing RATs, modify existing RATs, or create their own RAT. (Citation: ActiveMalwareEnergy)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1128",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1128",
+                    "url": "https://attack.mitre.org/technique/PRE-T1128",
                     "source_name": "mitre-pre-attack"
                 },
                 {

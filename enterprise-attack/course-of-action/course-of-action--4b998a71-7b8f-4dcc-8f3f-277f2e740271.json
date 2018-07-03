@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--9ea4f47d-6f17-4272-8e45-1c54cc1150fe",
+    "id": "bundle--0e178f58-b7b5-4b8d-a2a0-85c5206fe001",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--4b998a71-7b8f-4dcc-8f3f-277f2e740271",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Indicator Removal from Tools Mitigation",
             "description": "Mitigation is difficult in instances like this because the adversary may have access to the system through another channel and can learn what techniques or tools are blocked by resident defenses. Exercising best practices with configuration and security as well as ensuring that proper process is followed during investigation of potential compromise is essential to detecting a larger intrusion through discrete alerts.\n\nIdentify and block potentially malicious software that may be used by an adversary by using whitelisting (Citation: Beechey 2010) tools like AppLocker (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
             "external_references": [
                 {
                     "external_id": "T1066",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1066",
+                    "url": "https://attack.mitre.org/technique/T1066",
                     "source_name": "mitre-attack"
                 },
                 {

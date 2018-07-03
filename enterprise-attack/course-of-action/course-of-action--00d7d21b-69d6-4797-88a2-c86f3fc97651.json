@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--6f0ab04f-44fa-4447-93ff-dc774031a738",
+    "id": "bundle--ff86c61e-fb16-417a-897d-2a469d0d6b22",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--00d7d21b-69d6-4797-88a2-c86f3fc97651",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Password Filter DLL Mitigation",
             "description": "Ensure only valid password filters are registered. Filter DLLs must be present in Windows installation directory (<code>C:\\Windows\\System32\\</code> by default) of a domain controller and/or local computer with a corresponding entry in <code>HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\Notification Packages</code>.  (Citation: Microsoft Install Password Filter n.d)",
             "external_references": [
                 {
                     "external_id": "T1174",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1174",
+                    "url": "https://attack.mitre.org/technique/T1174",
                     "source_name": "mitre-attack"
                 },
                 {

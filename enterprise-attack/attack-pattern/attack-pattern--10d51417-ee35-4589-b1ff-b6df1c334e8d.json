@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1e63a205-beea-4419-8a5f-e6d7e3b4cbcb",
+    "id": "bundle--5dcc6046-51f6-4533-8a8b-17ddd141abe7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--10d51417-ee35-4589-b1ff-b6df1c334e8d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:31:44.421Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "External Remote Services",
-            "description": "Remote services such as VPNs, Citrix, and other access mechanisms allow users to connect to internal enterprise network resources from external locations. There are often remote service gateways that manage connections and credential authentication for these services. Services such as Windows Remote Management Mitigation can also be used externally.\n\nAdversaries may use remote services to access and persist within a network. (Citation: Volexity Virtual Private Keylogging) Access to Valid Accounts Mitigation to use the service is often a requirement, which could be obtained through credential pharming or by obtaining the credentials from users after compromising the enterprise network. Access to remote services may be used as part of Redundant Access Mitigation during an operation.",
+            "description": "Remote services such as VPNs, Citrix, and other access mechanisms allow users to connect to internal enterprise network resources from external locations. There are often remote service gateways that manage connections and credential authentication for these services. Services such as [Windows Remote Management Mitigation](https://attack.mitre.org/technique/T1028) can also be used externally.\n\nAdversaries may use remote services to access and persist within a network. (Citation: Volexity Virtual Private Keylogging) Access to [Valid Accounts Mitigation](https://attack.mitre.org/technique/T1078) to use the service is often a requirement, which could be obtained through credential pharming or by obtaining the credentials from users after compromising the enterprise network. Access to remote services may be used as part of [Redundant Access Mitigation](https://attack.mitre.org/technique/T1108) during an operation.",
             "kill_chain_phases": [
                 {
                     "phase_name": "persistence",
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "T1133",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1133",
+                    "url": "https://attack.mitre.org/technique/T1133",
                     "source_name": "mitre-attack"
                 },
                 {
@@ -32,7 +32,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Follow best practices for detecting adversary use of Redundant Access Mitigation for authenticating to remote services. Collect authentication logs and analyze for unusual access patterns, windows of activity, and access outside of normal business hours.",
+            "x_mitre_detection": "Follow best practices for detecting adversary use of [Redundant Access Mitigation](https://attack.mitre.org/technique/T1108) for authenticating to remote services. Collect authentication logs and analyze for unusual access patterns, windows of activity, and access outside of normal business hours.",
             "x_mitre_platforms": [
                 "Windows"
             ],

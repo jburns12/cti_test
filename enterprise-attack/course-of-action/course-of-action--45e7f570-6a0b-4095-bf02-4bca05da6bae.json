@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--0aa91424-950d-4bc8-94cc-84f7220e4204",
+    "id": "bundle--dc131f31-dbd2-4a28-a4ed-f33786381e83",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--45e7f570-6a0b-4095-bf02-4bca05da6bae",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Masquerading Mitigation",
             "description": "When creating security rules, avoid exclusions based on file name or file path. Require signed binaries. Use file system access controls to protect folders such as C:\\Windows\\System32. Use tools that restrict program execution via whitelisting by attributes other than file name.\n\nIdentify potentially malicious software that may look like a legitimate program based on name and location, and audit and/or block it by using whitelisting (Citation: Beechey 2010) tools like AppLocker (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
             "external_references": [
                 {
                     "external_id": "T1036",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1036",
+                    "url": "https://attack.mitre.org/technique/T1036",
                     "source_name": "mitre-attack"
                 },
                 {

@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--f4dbeea7-abed-4430-a2d7-678171d3a796",
+    "id": "bundle--b51471de-8531-4943-8a84-943e7baa687d",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--19edfa02-1a5f-47e4-ad82-3288f57f64cf",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Clipboard Data Mitigation",
             "description": "Instead of blocking software based on clipboard capture behavior, identify potentially malicious software that may contain this functionality, and audit and/or block it by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
             "external_references": [
                 {
                     "external_id": "T1115",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1115",
+                    "url": "https://attack.mitre.org/technique/T1115",
                     "source_name": "mitre-attack"
                 },
                 {

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ee6ba854-3cda-4a05-a73d-c19977e044e2",
+    "id": "bundle--e1e881be-8cab-45f0-bd6d-6efa53c5b24c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--6be14413-578e-46c1-8304-310762b3ecd5",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Kernel Modules and Extensions",
-            "description": "Loadable Kernel Modules (or LKMs) are pieces of code that can be loaded and unloaded into the kernel upon demand. They extend the functionality of the kernel without the need to reboot the system. For example, one type of module is the device driver, which allows the kernel to access hardware connected to the system. (Citation: Linux Kernel Programming)\u00a0When used maliciously, Loadable Kernel Modules (LKMs) can be a type of kernel-mode Rootkit Mitigation that run with the highest operating system privilege (Ring 0). (Citation: Linux Kernel Module Programming Guide)\u00a0Adversaries can use loadable kernel modules to covertly persist on a system and evade defenses. Examples have been found in the wild and there are some open source projects. (Citation: Volatility Phalanx2) (Citation: CrowdStrike Linux Rootkit) (Citation: GitHub Reptile) (Citation: GitHub Diamorphine)\n\nCommon features of LKM based rootkits include: hiding itself, selective hiding of files, processes and network activity, as well as log tampering, providing authenticated backdoors and enabling root access to non-privileged users. (Citation: iDefense Rootkit Overview)\n\nKernel extensions, also called kext, are used for macOS to load functionality onto a system similar to LKMs for Linux. They are loaded and unloaded through <code>kextload</code> and <code>kextunload</code> commands. Several examples have been found where this can be used. (Citation: RSAC 2015 San Francisco Patrick Wardle) (Citation: Synack Secure Kernel Extension Broken) Examples have been found in the wild. (Citation: Securelist Ventir)",
+            "description": "Loadable Kernel Modules (or LKMs) are pieces of code that can be loaded and unloaded into the kernel upon demand. They extend the functionality of the kernel without the need to reboot the system. For example, one type of module is the device driver, which allows the kernel to access hardware connected to the system. (Citation: Linux Kernel Programming)\u00a0When used maliciously, Loadable Kernel Modules (LKMs) can be a type of kernel-mode [Rootkit Mitigation](https://attack.mitre.org/technique/T1014) that run with the highest operating system privilege (Ring 0). (Citation: Linux Kernel Module Programming Guide)\u00a0Adversaries can use loadable kernel modules to covertly persist on a system and evade defenses. Examples have been found in the wild and there are some open source projects. (Citation: Volatility Phalanx2) (Citation: CrowdStrike Linux Rootkit) (Citation: GitHub Reptile) (Citation: GitHub Diamorphine)\n\nCommon features of LKM based rootkits include: hiding itself, selective hiding of files, processes and network activity, as well as log tampering, providing authenticated backdoors and enabling root access to non-privileged users. (Citation: iDefense Rootkit Overview)\n\nKernel extensions, also called kext, are used for macOS to load functionality onto a system similar to LKMs for Linux. They are loaded and unloaded through <code>kextload</code> and <code>kextunload</code> commands. Several examples have been found where this can be used. (Citation: RSAC 2015 San Francisco Patrick Wardle) (Citation: Synack Secure Kernel Extension Broken) Examples have been found in the wild. (Citation: Securelist Ventir)",
             "kill_chain_phases": [
                 {
                     "phase_name": "persistence",
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "T1215",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1215",
+                    "url": "https://attack.mitre.org/technique/T1215",
                     "source_name": "mitre-attack"
                 },
                 {
@@ -74,7 +74,7 @@
                     "source_name": "Securelist Ventir"
                 },
                 {
-                    "url": "https://en.wikipedia.org/wiki/Loadable%20kernel%20module#Linux",
+                    "url": "https://en.wikipedia.org/Loadable%20kernel%20module#Linux",
                     "description": "Wikipedia. (2018, March 17). Loadable kernel module. Retrieved April 9, 2018.",
                     "source_name": "Wikipedia Loadable Kernel Module"
                 },

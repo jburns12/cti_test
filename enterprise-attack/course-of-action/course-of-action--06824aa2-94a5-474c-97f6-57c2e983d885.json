@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--fe4834a9-4ada-4efa-b3dc-02be0c3bfa4a",
+    "id": "bundle--76a17b90-2389-4dae-8e96-2c945089d623",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--06824aa2-94a5-474c-97f6-57c2e983d885",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Login Item Mitigation",
             "description": "Restrict users from being able to create their own login items. Additionally, holding the shift key during login prevents apps from opening automatically (Citation: Re-Open windows on Mac).",
             "external_references": [
                 {
                     "external_id": "T1162",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1162",
+                    "url": "https://attack.mitre.org/technique/T1162",
                     "source_name": "mitre-attack"
                 },
                 {

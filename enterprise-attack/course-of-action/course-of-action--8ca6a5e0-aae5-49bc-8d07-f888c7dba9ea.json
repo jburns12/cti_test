@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--649061be-f137-4931-b100-6fb1eea5f1a1",
+    "id": "bundle--bb6e208f-36c9-4ad3-b83a-9c9f7cf57647",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--8ca6a5e0-aae5-49bc-8d07-f888c7dba9ea",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Office Application Startup Mitigation",
             "description": "Follow Office macro security best practices suitable for your environment. Disable Office VBA macros from executing. Even setting to disable with notification could enable unsuspecting users to execute potentially malicious macros. (Citation: TechNet Office Macro Security)\n\nFor the Office Test method, create the Registry key used to execute it and set the permissions to \"Read Control\" to prevent easy access to the key without administrator permissions or requiring Privilege Escalation. (Citation: Palo Alto Office Test Sofacy)\n\nDisable Office add-ins. If they are required, follow best practices for securing them by requiring them to be signed and disabling user notification for allowing add-ins. For some add-ins types (WLL, VBA) additional mitigation is likely required as disabling add-ins in the Office Trust Center does not disable WLL nor does it prevent VBA code from executing. (Citation: MRWLabs Office Persistence Add-ins)",
             "external_references": [
                 {
                     "external_id": "T1137",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1137",
+                    "url": "https://attack.mitre.org/technique/T1137",
                     "source_name": "mitre-attack"
                 },
                 {

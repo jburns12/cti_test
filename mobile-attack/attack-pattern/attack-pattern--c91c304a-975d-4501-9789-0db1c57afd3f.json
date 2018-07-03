@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ee109293-c036-4151-b9e9-6afec7fb8ac6",
+    "id": "bundle--41ab08b4-5cd0-4c40-9672-8d79af52afb4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--c91c304a-975d-4501-9789-0db1c57afd3f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-10-25T14:48:07.149Z",
-            "modified": "2018-06-18T15:59:03.864Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Exploit Baseband Vulnerability",
             "description": "A message sent over a radio interface (typically cellular, but potentially Bluetooth, GPS, NFC, Wi-Fi or other) to the mobile device could exploit a vulnerability in code running on the device.\n\nD. Komaromy and N. Golde demonstrated baseband exploitation of a Samsung mobile device at the PacSec 2015 security conference (Citation: Register-BaseStation).\n\nWeinmann described and demonstrated \"the risk of remotely exploitable memory corruptions in cellular baseband stacks.\" (Citation: Weinmann-Baseband)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "MOB-T1058",
-                    "url": "https://attack.mitre.org/mobile/index.php/Technique/MOB-T1058",
+                    "url": "https://attack.mitre.org/technique/MOB-T1058",
                     "source_name": "mitre-mobile-attack"
                 },
                 {

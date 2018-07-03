@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3d8adb41-861f-4487-9a43-3209d99a073d",
+    "id": "bundle--b06893d0-6717-4bac-853b-b43de7c23f2c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--b3253d9e-ba11-430f-b5a3-4db844ce5413",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Unauthorized user introduces compromise delivery mechanism",
             "description": "If an adversary can gain physical access to the target's environment they can introduce a variety of  devices that provide compromise mechanisms. This could include installing keyboard loggers, adding routing/wireless equipment, or connecting computing devices. (Citation: Credit Card Skimmers)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1164",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1164",
+                    "url": "https://attack.mitre.org/technique/PRE-T1164",
                     "source_name": "mitre-pre-attack"
                 },
                 {

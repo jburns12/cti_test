@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4a1c291e-76e0-4980-a677-3a1fd360a909",
+    "id": "bundle--63e436d9-7ef4-436e-8381-348421d1ad3d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--831e3269-da49-48ac-94dc-948008e8fd16",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-10-25T14:48:34.830Z",
-            "modified": "2018-06-18T15:59:03.864Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Remotely Install Application",
             "description": "An adversary with control of a target's Google account can use the Google Play Store's remote installation capability to install apps onto the Android devices associated with the Google account as described in  (Citation: Oberheide-RemoteInstall),  (Citation: Konoth). However, only applications that are available for download through the Google Play Store can be remotely installed using this technique.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "MOB-T1046",
-                    "url": "https://attack.mitre.org/mobile/index.php/Technique/MOB-T1046",
+                    "url": "https://attack.mitre.org/technique/MOB-T1046",
                     "source_name": "mitre-mobile-attack"
                 },
                 {

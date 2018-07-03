@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--932bc7bd-fd03-4d2b-90b3-042d1b6cc89e",
+    "id": "bundle--727c19b5-1c1f-47e1-a6d6-0938fcd71a67",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,20 +8,20 @@
             "id": "tool--362dc67f-4e85-4562-9dac-1b6b7f3ec4b5",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:03.377Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "ifconfig",
-            "description": "ifconfig is a Unix-based utility used to gather information about and interact with the TCP/IP settings on a system. (Citation: Wikipedia Ifconfig)",
+            "description": "[ifconfig](https://attack.mitre.org/software/S0101) is a Unix-based utility used to gather information about and interact with the TCP/IP settings on a system. (Citation: Wikipedia Ifconfig)",
             "labels": [
                 "tool"
             ],
             "external_references": [
                 {
                     "external_id": "S0101",
-                    "url": "https://attack.mitre.org/wiki/Software/S0101",
+                    "url": "https://attack.mitre.org/software/S0101",
                     "source_name": "mitre-attack"
                 },
                 {
-                    "url": "https://en.wikipedia.org/wiki/Ifconfig",
+                    "url": "https://en.wikipedia.org/Ifconfig",
                     "description": "Wikipedia. (2016, January 26). ifconfig. Retrieved April 17, 2016.",
                     "source_name": "Wikipedia Ifconfig"
                 }

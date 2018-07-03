@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--06d2cad9-a8c8-47f2-ae27-b2301f12a809",
+    "id": "bundle--e24f2d2c-7d74-482c-9869-5bd071bb6213",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--f4c5d1d9-8f0e-46f1-a9fa-f9a440926046",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Confirmation of launched compromise achieved",
             "description": "Upon successful compromise the adversary may implement methods for confirming success including communication to a command and control server, exfiltration of data, or a verifiable intended effect such as a publicly accessible resource being inaccessible or a web page being defaced. (Citation: FireEye Malware Stages) (Citation: APTNetworkTrafficAnalysis)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1160",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1160",
+                    "url": "https://attack.mitre.org/technique/PRE-T1160",
                     "source_name": "mitre-pre-attack"
                 },
                 {

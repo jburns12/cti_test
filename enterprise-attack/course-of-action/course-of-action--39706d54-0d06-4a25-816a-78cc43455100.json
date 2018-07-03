@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--12332dda-8ac8-4511-a825-773242a7466b",
+    "id": "bundle--3692bdb7-5151-43ef-89ff-636b143eca5f",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--39706d54-0d06-4a25-816a-78cc43455100",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Data from Removable Media Mitigation",
             "description": "Identify unnecessary system utilities or potentially malicious software that may be used to collect data from removable media, and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
             "external_references": [
                 {
                     "external_id": "T1025",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1025",
+                    "url": "https://attack.mitre.org/technique/T1025",
                     "source_name": "mitre-attack"
                 },
                 {

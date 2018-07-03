@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f9d6ffa7-8635-4222-a705-06b4216e2242",
+    "id": "bundle--75ccf028-391d-46f8-8b16-a7fbfe67d556",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--34450117-d1d5-417c-bb74-4359fc6551ca",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Analyze presence of outsourced capabilities",
             "description": "Outsourcing, the arrangement of one company providing goods or services to another company for something that could be done in-house, provides another avenue for an adversary to target. Businesses often have networks, portals, or other technical connections between themselves and their outsourced/partner organizations that could be exploited. Additionally, outsourced/partner organization information could provide opportunities for phishing. (Citation: Scasny2015) (Citation: OPM Breach)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1080",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1080",
+                    "url": "https://attack.mitre.org/technique/PRE-T1080",
                     "source_name": "mitre-pre-attack"
                 },
                 {

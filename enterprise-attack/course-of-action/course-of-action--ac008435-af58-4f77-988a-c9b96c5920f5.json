@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--d18cb9f5-2813-4e48-bc7c-8259f1bef75c",
+    "id": "bundle--293eb840-4082-4b15-bb1c-a1865868b114",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--ac008435-af58-4f77-988a-c9b96c5920f5",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "NTFS File Attributes Mitigation",
             "description": "It may be difficult or inadvisable to block access to EA and ADSs. (Citation: Microsoft ADS Mar 2014) (Citation: Symantec ADS May 2009) Efforts should be focused on preventing potentially malicious software from running. Identify and block potentially malicious software that may contain functionality to hide information in EA and ADSs by using whitelisting (Citation: Beechey 2010) tools like AppLocker (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)\n\nConsider adjusting read and write permissions for NTFS EA, though this should be tested to ensure routine OS operations are not impeded. (Citation: InsiderThreat NTFS EA Oct 2017)",
             "external_references": [
                 {
                     "external_id": "T1096",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1096",
+                    "url": "https://attack.mitre.org/technique/T1096",
                     "source_name": "mitre-attack"
                 },
                 {

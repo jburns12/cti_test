@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3a8b0a1c-41b2-44e0-8a37-a6c132b549f8",
+    "id": "bundle--59c869b8-0503-4d89-8443-be8abe8626dc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,8 +8,8 @@
             "id": "relationship--b596251a-73db-4e53-a04d-51be783b0241",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T15:59:03.864Z",
-            "description": "On jailbroken iOS devices, \"[m]ost KeyRaider samples hook SSLRead and SSLWrite functions in the itunesstored process\" to intercept device communication with the Apple App Store and search \"for specific patterns to find the Apple account's username, password and device's GUID in the data being transferred\".",
+            "modified": "2018-07-03T14:44:41.004Z",
+            "description": "On jailbroken iOS devices, \"[m]ost [KeyRaider](https://attack.mitre.org/software/MOB-S0004) samples hook SSLRead and SSLWrite functions in the itunesstored process\" to intercept device communication with the Apple App Store and search \"for specific patterns to find the Apple account's username, password and device's GUID in the data being transferred\".",
             "external_references": [
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2015/08/keyraider-ios-malware-steals-over-225000-apple-accounts-to-create-free-app-utopia/",

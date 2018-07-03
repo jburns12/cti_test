@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d5388438-0304-4f85-b306-fb0f1933164d",
+    "id": "bundle--bd1b0e6c-3661-4bdd-8d64-b4c82144f5ff",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--4aeafdb3-eb0b-4e8e-b93f-95cd499088b4",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T16:40:07.760Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Compromise of externally facing system",
             "description": "Externally facing systems allow connections from outside the network as a normal course of operations.  Externally facing systems may include, but are not limited to, websites, web portals, email, DNS, FTP, VPN concentrators, and boarder routers and firewalls. These systems could be in a demilitarized zone (DMZ) or may be within other parts of the internal environment. (Citation: CylanceOpCleaver) (Citation: DailyTechAntiSec)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "PRE-T1165",
-                    "url": "https://attack.mitre.org/pre-attack/index.php/Technique/PRE-T1165",
+                    "url": "https://attack.mitre.org/technique/PRE-T1165",
                     "source_name": "mitre-pre-attack"
                 },
                 {

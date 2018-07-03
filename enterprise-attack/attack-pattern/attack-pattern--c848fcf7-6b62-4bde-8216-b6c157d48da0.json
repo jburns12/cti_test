@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8d36d0aa-bd39-4533-b80b-63b910eca633",
+    "id": "bundle--c7c60ee8-5329-4a32-a181-118c062dfaf8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--c848fcf7-6b62-4bde-8216-b6c157d48da0",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:30:53.408Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Uncommonly Used Port",
             "description": "Adversaries may conduct C2 communications over a non-standard port to bypass proxies and firewalls that have been improperly configured.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "T1065",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1065",
+                    "url": "https://attack.mitre.org/technique/T1065",
                     "source_name": "mitre-attack"
                 },
                 {

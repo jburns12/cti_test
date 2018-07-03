@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--90a6de98-450b-4072-af4a-4946c3862f72",
+    "id": "bundle--44c99221-01bf-47c6-99b2-e9f08388c68f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,8 +8,8 @@
             "id": "relationship--5c816fc0-c4e3-47ef-8193-ef88eabdfc7e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:33:27.052Z",
-            "modified": "2018-06-27T14:18:47.700Z",
-            "description": "admin@338 actors used the following commands after exploiting a machine with LOWBALL malware to obtain information about files and directories: <code>dir c:\\ >> %temp%\\download</code> <code>dir \"c:\\Documents and Settings\" >> %temp%\\download</code> <code>dir \"c:\\Program Files\\\" >> %temp%\\download</code> <code>dir d:\\ >> %temp%\\download</code>",
+            "modified": "2018-07-03T13:33:43.876Z",
+            "description": "[admin@338](https://attack.mitre.org/group/G0018) actors used the following commands after exploiting a machine with [LOWBALL](https://attack.mitre.org/software/S0042) malware to obtain information about files and directories: <code>dir c:\\ >> %temp%\\download</code> <code>dir \"c:\\Documents and Settings\" >> %temp%\\download</code> <code>dir \"c:\\Program Files\\\" >> %temp%\\download</code> <code>dir d:\\ >> %temp%\\download</code>",
             "external_references": [
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2015/11/china-based-threat.html",

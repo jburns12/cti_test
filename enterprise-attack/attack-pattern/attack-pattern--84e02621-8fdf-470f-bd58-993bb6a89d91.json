@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d33b2347-2729-4e35-9aa5-df331ca1d400",
+    "id": "bundle--49fcfc24-7509-4053-b6da-290323af92c9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--84e02621-8fdf-470f-bd58-993bb6a89d91",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:31:15.935Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Multi-Stage Channels",
-            "description": "Adversaries may create multiple stages for command and control that are employed under different conditions or for certain functions. Use of multiple stages may obfuscate the command and control channel to make detection more difficult.\n\nRemote access tools will call back to the first-stage command and control server for instructions. The first stage may have automated capabilities to collect basic host information, update tools, and upload additional files. A second remote access tool (RAT) could be uploaded at that point to redirect the host to the second-stage command and control server. The second stage will likely be more fully featured and allow the adversary to interact with the system through a reverse shell and additional RAT features.\n\nThe different stages will likely be hosted separately with no overlapping infrastructure. The loader may also have backup first-stage callbacks or Fallback Channels Mitigation in case the original first-stage communication path is discovered and blocked.",
+            "description": "Adversaries may create multiple stages for command and control that are employed under different conditions or for certain functions. Use of multiple stages may obfuscate the command and control channel to make detection more difficult.\n\nRemote access tools will call back to the first-stage command and control server for instructions. The first stage may have automated capabilities to collect basic host information, update tools, and upload additional files. A second remote access tool (RAT) could be uploaded at that point to redirect the host to the second-stage command and control server. The second stage will likely be more fully featured and allow the adversary to interact with the system through a reverse shell and additional RAT features.\n\nThe different stages will likely be hosted separately with no overlapping infrastructure. The loader may also have backup first-stage callbacks or [Fallback Channels Mitigation](https://attack.mitre.org/technique/T1008) in case the original first-stage communication path is discovered and blocked.",
             "kill_chain_phases": [
                 {
                     "phase_name": "command-and-control",
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "T1104",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1104",
+                    "url": "https://attack.mitre.org/technique/T1104",
                     "source_name": "mitre-attack"
                 }
             ],

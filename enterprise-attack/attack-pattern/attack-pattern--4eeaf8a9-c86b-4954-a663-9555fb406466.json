@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d9ae3b1b-a531-4ee7-8577-48881c865c77",
+    "id": "bundle--e7725a56-eb9f-4a95-85a9-7e73a015f852",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--4eeaf8a9-c86b-4954-a663-9555fb406466",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:30:34.139Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Scheduled Transfer",
             "description": "Data exfiltration may be performed only at certain times of day or at certain intervals.  This could be done to blend traffic patterns with normal activity or availability.\n\nWhen scheduled exfiltration is used, other exfiltration techniques likely apply as well to transfer the information out of the network, such as Exfiltration Over Command and Control Channel and Exfiltration Over Alternative Protocol.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "T1029",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1029",
+                    "url": "https://attack.mitre.org/technique/T1029",
                     "source_name": "mitre-attack"
                 }
             ],

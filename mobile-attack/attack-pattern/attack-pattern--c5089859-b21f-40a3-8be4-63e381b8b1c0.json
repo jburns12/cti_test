@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c166ad0f-e256-477b-9806-ca52f0a94eb6",
+    "id": "bundle--f1744cb6-0128-4278-9249-f68fda45b946",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--c5089859-b21f-40a3-8be4-63e381b8b1c0",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-10-25T14:48:30.890Z",
-            "modified": "2018-06-18T15:59:03.864Z",
+            "modified": "2018-07-03T14:44:41.004Z",
             "name": "Modify System Partition",
             "description": "If an adversary can escalate privileges, he or she may be able to use those privileges to place malicious code in the device system partition, where it may persist after device resets and may not be easily removed by the device user.\n\nMany Android devices provide the ability to unlock the bootloader for development purposes. An unlocked bootloader may provide the ability for an adversary to modify the system partition. Even if the bootloader is locked, it may be possible for an adversary to escalate privileges and then modify the system partition.",
             "kill_chain_phases": [
@@ -24,7 +24,7 @@
             "external_references": [
                 {
                     "external_id": "MOB-T1003",
-                    "url": "https://attack.mitre.org/mobile/index.php/Technique/MOB-T1003",
+                    "url": "https://attack.mitre.org/technique/MOB-T1003",
                     "source_name": "mitre-mobile-attack"
                 },
                 {

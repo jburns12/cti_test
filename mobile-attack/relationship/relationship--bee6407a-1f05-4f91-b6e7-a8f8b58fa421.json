@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5bb002d8-e002-4e82-a22f-0f4ca7c8e59f",
+    "id": "bundle--2bc4dd81-2cd2-4573-a285-dd4bad4753af",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,8 +8,8 @@
             "id": "relationship--bee6407a-1f05-4f91-b6e7-a8f8b58fa421",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-06-18T15:59:03.864Z",
-            "description": "Charger \"encodes strings into binary arrays, making it hard to inspect them\", and \"loads code from encrypted resources dynamically, which most detection engines cannot penetrate and inspect. The dynamically-loaded code is also flooded with meaningless commands that mask the actual commands passing through.\"",
+            "modified": "2018-07-03T14:44:41.004Z",
+            "description": "[Charger](https://attack.mitre.org/software/MOB-S0039) \"encodes strings into binary arrays, making it hard to inspect them\", and \"loads code from encrypted resources dynamically, which most detection engines cannot penetrate and inspect. The dynamically-loaded code is also flooded with meaningless commands that mask the actual commands passing through.\"",
             "external_references": [
                 {
                     "url": "http://blog.checkpoint.com/2017/01/24/charger-malware/",

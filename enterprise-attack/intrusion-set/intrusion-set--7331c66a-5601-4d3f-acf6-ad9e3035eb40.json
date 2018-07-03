@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b65dd067-a313-4dfe-af08-8d0357158738",
+    "id": "bundle--6ad9a2c2-4ec4-4a51-a7bd-260210dd8e72",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,16 +8,16 @@
             "id": "intrusion-set--7331c66a-5601-4d3f-acf6-ad9e3035eb40",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:32:08.304Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Group5",
-            "description": "Group5 is a threat group with a suspected Iranian nexus, though this attribution is not definite. The group has targeted individuals connected to the Syrian opposition via spearphishing and watering holes, normally using Syrian and Iranian themes. Group5 has used two commonly available remote access tools (RATs), njRAT and NanoCore, as well as an Android RAT, DroidJack. (Citation: Citizen Lab Group5)",
+            "description": "[Group5](https://attack.mitre.org/group/G0043) is a threat group with a suspected Iranian nexus, though this attribution is not definite. The group has targeted individuals connected to the Syrian opposition via spearphishing and watering holes, normally using Syrian and Iranian themes. [Group5](https://attack.mitre.org/group/G0043) has used two commonly available remote access tools (RATs), njRAT and NanoCore, as well as an Android RAT, DroidJack. (Citation: Citizen Lab Group5)",
             "aliases": [
                 "Group5"
             ],
             "external_references": [
                 {
                     "external_id": "G0043",
-                    "url": "https://attack.mitre.org/wiki/Group/G0043",
+                    "url": "https://attack.mitre.org/group/G0043",
                     "source_name": "mitre-attack"
                 },
                 {

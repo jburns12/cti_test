@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--68245b07-6720-4fb1-88cc-405dfcdeec37",
+    "id": "bundle--df7136dc-abb9-4954-9d84-5beb77afca65",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--52d40641-c480-4ad5-81a3-c80ccaddf82d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:31:43.135Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Authentication Package",
             "description": "Windows Authentication Package DLLs are loaded by the Local Security Authority (LSA) process at system start. They provide support for multiple logon processes and multiple security protocols to the operating system. (Citation: MSDN Authentication Packages)\n\nAdversaries can use the autostart mechanism provided by LSA Authentication Packages for persistence by placing a reference to a binary in the Windows Registry location <code>HKLM\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\</code> with the key value of <code>\"Authentication Packages\"=<target binary></code>. The binary will then be executed by the system when the authentication packages are loaded.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "T1131",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1131",
+                    "url": "https://attack.mitre.org/technique/T1131",
                     "source_name": "mitre-attack"
                 },
                 {

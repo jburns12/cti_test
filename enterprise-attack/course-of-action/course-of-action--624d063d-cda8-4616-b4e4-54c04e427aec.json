@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--cb133c01-8b66-4f1e-b5ae-991dbb6b9760",
+    "id": "bundle--7921cb8e-8698-4fbe-af11-6c732c022384",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "course-of-action",
             "id": "course-of-action--624d063d-cda8-4616-b4e4-54c04e427aec",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2018-06-27T14:18:47.700Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "created": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Netsh Helper DLL Mitigation",
             "description": "Identify and block potentially malicious software that may persist in this manner by using whitelisting (Citation: Beechey 2010) tools capable of monitoring DLL loads by Windows utilities like AppLocker. (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker)",
             "external_references": [
                 {
                     "external_id": "T1128",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1128",
+                    "url": "https://attack.mitre.org/technique/T1128",
                     "source_name": "mitre-attack"
                 },
                 {

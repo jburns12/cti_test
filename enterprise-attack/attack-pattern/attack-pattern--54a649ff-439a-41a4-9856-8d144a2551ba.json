@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cef3e3bc-80b1-48ac-8bf6-b6c34ada174b",
+    "id": "bundle--aaf2187a-a03e-46ee-885b-dda2c4c3305d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,9 +8,9 @@
             "id": "attack-pattern--54a649ff-439a-41a4-9856-8d144a2551ba",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-05-31T21:30:29.858Z",
-            "modified": "2018-06-27T14:18:47.700Z",
+            "modified": "2018-07-03T13:33:43.876Z",
             "name": "Remote Services",
-            "description": "An adversary may use Valid Accounts Mitigation to log into a service specifically designed to accept remote connections, such as telnet, SSH, and VNC. The adversary may then perform actions as the logged-on user.",
+            "description": "An adversary may use [Valid Accounts Mitigation](https://attack.mitre.org/technique/T1078) to log into a service specifically designed to accept remote connections, such as telnet, SSH, and VNC. The adversary may then perform actions as the logged-on user.",
             "kill_chain_phases": [
                 {
                     "phase_name": "lateral-movement",
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "external_id": "T1021",
-                    "url": "https://attack.mitre.org/wiki/Technique/T1021",
+                    "url": "https://attack.mitre.org/technique/T1021",
                     "source_name": "mitre-attack"
                 }
             ],
