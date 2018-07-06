@@ -1,19 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--d8a96dd9-2b01-434c-be13-4cc1b370e111",
+    "id": "bundle--84d4d01a-f193-4930-b327-20fd1ed31360",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--b55534ba-37ce-47f2-a961-edeaeedcb399",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
+            "description": "APT12 quickly adapts its methods when their tactics and techniques are publicly disclosed.",
             "source_ref": "intrusion-set--c47f937f-1022-4f42-8525-e7a4779a14cb",
             "target_ref": "attack-pattern--e6ca2820-a564-4b74-b42a-b6bdf052e5b6",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "type": "relationship",
-            "modified": "2018-07-03T21:43:15.705Z",
+            "modified": "2018-07-05T20:13:52.280Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

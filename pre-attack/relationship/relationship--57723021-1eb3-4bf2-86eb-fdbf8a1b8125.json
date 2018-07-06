@@ -1,19 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--b8e078a8-a1c5-46a1-962d-fa69ee7ffd83",
+    "id": "bundle--def05f0b-3df1-4622-b070-c2d17e5e97d7",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--57723021-1eb3-4bf2-86eb-fdbf8a1b8125",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
+            "description": "Night Dragon used spearphishing attacks against mobile work laptops.",
             "source_ref": "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
             "target_ref": "attack-pattern--e24a9f99-cb76-42a3-a50b-464668773e97",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "type": "relationship",
-            "modified": "2018-07-03T21:43:15.705Z",
+            "modified": "2018-07-05T20:13:52.280Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

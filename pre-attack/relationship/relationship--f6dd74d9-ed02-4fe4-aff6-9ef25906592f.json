@@ -1,19 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--634ec6a8-342d-4739-9d0d-e91958aa936a",
+    "id": "bundle--5b2ab851-df2f-4e92-8ba9-05fc97146340",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--f6dd74d9-ed02-4fe4-aff6-9ef25906592f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
+            "description": "Night Dragon has been known to target specific groups within a network for their spear-phishing attacks.",
             "source_ref": "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
             "target_ref": "attack-pattern--89a79d91-53e0-4ef5-ba28-558cb8b01f76",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "type": "relationship",
-            "modified": "2018-07-03T21:43:15.705Z",
+            "modified": "2018-07-05T20:13:52.280Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

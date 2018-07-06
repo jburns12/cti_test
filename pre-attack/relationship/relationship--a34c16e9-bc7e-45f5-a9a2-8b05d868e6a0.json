@@ -1,19 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--c740f55f-3886-4c1c-92c4-dc1e31e4795b",
+    "id": "bundle--3a34eadb-41a2-4ff6-999b-9fe3bb3d5e8e",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--a34c16e9-bc7e-45f5-a9a2-8b05d868e6a0",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
+            "description": "Night Dragon uses privately developed and customized remote access tools.",
             "source_ref": "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
             "target_ref": "attack-pattern--9755ecdc-deb0-40e6-af49-713cb0f8ed92",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "type": "relationship",
-            "modified": "2018-07-03T21:43:15.705Z",
+            "modified": "2018-07-05T20:13:52.280Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]
