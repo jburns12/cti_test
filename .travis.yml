@@ -1,10 +1,4 @@
-branches:
-only:
-- master
-os:
-- linux
-sudo: true
-before_install:
-  - chmod +x ./webhook.sh
+language: bash
+
 script:
-- "/bin/bash ./webhook.sh"
+  - bash webhook.sh
