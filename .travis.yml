@@ -4,5 +4,7 @@ only:
 os:
 - linux
 sudo: true
+before_install:
+  - chmod +x ./webhook.sh
 script:
 - "/bin/bash ./webhook.sh"
