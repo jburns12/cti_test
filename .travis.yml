@@ -3,6 +3,6 @@ only:
 - master
 os:
 - linux
-sudo: false
+sudo: true
 script:
 - "/bin/bash ./webhook.sh"
