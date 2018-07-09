@@ -3,7 +3,7 @@ This document describes how to query and manipulate ATT&CK data in this reposito
 * a [MediaWiki API](https://attack.mitre.org/wiki/Using_the_API) accessible from attack.mitre.org
 * a JSON-based [STIX 2.0](https://oasis-open.github.io/cti-documentation/stix/intro) format.
 
-THIS IS A TEST! For the time being, either method to access the data will get you the latest version. In the future, however, the MediaWiki API will be deprecated and the STIX-based format will be the only way to get machine-readable access to the ATT&CK data. Luckily, STIX 2.0 is just JSON and so should be very accessible from Python and other programming languages. If you are using Python, the [python-stix2](https://github.com/oasis-open/cti-python-stix2) library can help you work with the content as shown in the examples below.
+For the time being, either method to access the data will get you the latest version. In the future, however, the MediaWiki API will be deprecated and the STIX-based format will be the only way to get machine-readable access to the ATT&CK data. Luckily, STIX 2.0 is just JSON and so should be very accessible from Python and other programming languages. If you are using Python, the [python-stix2](https://github.com/oasis-open/cti-python-stix2) library can help you work with the content as shown in the examples below.
 
 # Mapping Concepts
 First, we must describe how ATT&CK objects and properties map to STIX 2.0 objects and properties.
