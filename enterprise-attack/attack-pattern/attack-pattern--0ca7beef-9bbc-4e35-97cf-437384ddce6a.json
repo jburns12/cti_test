@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a5c2806b-5bbc-4197-bb0c-7fb0de6cfa87",
+    "id": "bundle--8d10c89d-acd3-4865-aeba-520594258301",
     "spec_version": "2.0",
     "objects": [
         {
@@ -13,6 +13,11 @@
                     "external_id": "T1044",
                     "url": "https://attack.mitre.org/technique/T1044",
                     "source_name": "mitre-attack"
+                },
+                {
+                    "external_id": "CAPEC-17",
+                    "url": "https://capec.mitre.org/data/definitions/17.html",
+                    "source_name": "capec"
                 },
                 {
                     "url": "https://www.mozilla.org/en-US/security/advisories/mfsa2012-98/",
@@ -61,7 +66,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-05T17:11:44.997Z",
             "created": "2017-05-31T21:30:43.063Z"
         }
     ]

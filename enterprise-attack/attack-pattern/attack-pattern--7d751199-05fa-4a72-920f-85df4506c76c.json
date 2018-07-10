@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--02912b07-bc88-47cf-b255-ea6253ebe301",
+    "id": "bundle--99dfe8da-858b-4bd0-99bd-a2dc6617ef69",
     "spec_version": "2.0",
     "objects": [
         {
@@ -22,7 +22,7 @@
                 "Network protocol analysis",
                 "Netflow/Enclave netflow"
             ],
-            "x_mitre_detection": "When observing use of Multi-hop proxies, network data from the actual command and control servers could allow correlating incoming and outgoing flows to trace malicious traffic back to its source. Multi-hop proxies can also be detected by alerting on traffic to known anonymity networks (such as [Process Injection Mitigation](https://attack.mitre.org/technique/T1055)) or known adversary infrastructure that uses this technique.",
+            "x_mitre_detection": "When observing use of Multi-hop proxies, network data from the actual command and control servers could allow correlating incoming and outgoing flows to trace malicious traffic back to its source. Multi-hop proxies can also be detected by alerting on traffic to known anonymity networks (such as [Spearphishing via Service Mitigation](https://attack.mitre.org/technique/T1194)) or known adversary infrastructure that uses this technique.",
             "x_mitre_network_requirements": true,
             "x_mitre_platforms": [
                 "Linux",
@@ -36,7 +36,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-05T17:11:44.997Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

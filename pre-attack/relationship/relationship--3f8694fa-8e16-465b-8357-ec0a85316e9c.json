@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--ef5bc25f-25f2-4c86-9fb0-aaa53f89983a",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--3f8694fa-8e16-465b-8357-ec0a85316e9c",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "relationship_type": "uses",
+            "description": "Cleaver impersonates potential employers by providing a fake r\u00e9sum\u00e9 creation suite. The program installs TinyZBot when victims attempt to submit a resume. This system included multiple domains and companies to appear more legitimate. Victims are less likely to report suspicions of infections on their work network out of fear of being caught applying for another job.",
+            "source_ref": "intrusion-set--8f5e8dc7-739d-4f5e-a8a1-a66e004d7063",
+            "target_ref": "attack-pattern--b79a1960-d0be-4b51-bb62-b27e91e1dea0",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "type": "relationship",
+            "modified": "2018-07-05T20:13:52.280Z",
+            "created": "2017-12-14T16:46:06.044Z"
+        }
+    ]
+}

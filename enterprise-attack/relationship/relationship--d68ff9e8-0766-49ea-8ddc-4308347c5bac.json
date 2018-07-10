@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--3cfebde2-6abb-4223-a70a-61f1005ae472",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--d68ff9e8-0766-49ea-8ddc-4308347c5bac",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "relationship_type": "uses",
+            "description": "[Hydraq](https://attack.mitre.org/software/S0203) creates a backdoor through which remote attackers can adjust token privileges.",
+            "source_ref": "malware--73a4793a-ce55-4159-b2a6-208ef29b326f",
+            "target_ref": "attack-pattern--dcaa092b-7de9-4a21-977f-7fcb77e89c48",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://www.symantec.com/security%20response/writeup.jsp?docid=2010-011114-1830-99",
+                    "description": "Lelli, A. (2010, January 11). Trojan.Hydraq. Retrieved February 20, 2018.",
+                    "source_name": "Symantec Hydraq Jan 2010"
+                }
+            ],
+            "type": "relationship",
+            "modified": "2018-07-05T17:11:44.997Z",
+            "created": "2018-04-18T17:59:24.739Z"
+        }
+    ]
+}

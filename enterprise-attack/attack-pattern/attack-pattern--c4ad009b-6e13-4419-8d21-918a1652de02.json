@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--995d5228-f49f-4fc7-a6e3-9e3633cd4893",
+    "id": "bundle--9b43bdb2-6f89-4b48-a6cf-c1158e876aa8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -13,6 +13,11 @@
                     "external_id": "T1034",
                     "url": "https://attack.mitre.org/technique/T1034",
                     "source_name": "mitre-attack"
+                },
+                {
+                    "external_id": "CAPEC-159",
+                    "url": "https://capec.mitre.org/data/definitions/159.html",
+                    "source_name": "capec"
                 },
                 {
                     "url": "https://blogs.technet.microsoft.com/srd/2014/04/08/ms14-019-fixing-a-binary-hijacking-via-cmd-or-bat-file/",
@@ -85,7 +90,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-05T17:11:44.997Z",
             "created": "2017-05-31T21:30:36.140Z"
         }
     ]

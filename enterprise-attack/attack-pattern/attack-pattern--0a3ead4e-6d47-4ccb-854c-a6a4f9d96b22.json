@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--26c956ad-c8c7-461b-8764-86d3122f2a49",
+    "id": "bundle--c9d1e036-9a6a-44c2-bd34-b69d9c473184",
     "spec_version": "2.0",
     "objects": [
         {
@@ -13,6 +13,11 @@
                     "external_id": "T1003",
                     "url": "https://attack.mitre.org/technique/T1003",
                     "source_name": "mitre-attack"
+                },
+                {
+                    "external_id": "CAPEC-567",
+                    "url": "https://capec.mitre.org/data/definitions/567.html",
+                    "source_name": "capec"
                 },
                 {
                     "url": "https://github.com/mattifestation/PowerSploit",
@@ -30,7 +35,7 @@
                     "source_name": "Harmj0y Mimikatz and DCSync"
                 },
                 {
-                    "url": "https://github.com/gentilkiwi/mimikatz/module-~-lsadump",
+                    "url": "https://github.com/gentilkiwi/mimikatz/wiki/module-~-lsadump",
                     "description": "Deply, B., Le Toux, V. (2016, June 5). module ~ lsadump. Retrieved August 7, 2017.",
                     "source_name": "GitHub Mimikatz lsadump Module"
                 },
@@ -85,7 +90,7 @@
                     "source_name": "GitHub Creddump7"
                 },
                 {
-                    "url": "https://en.wikipedia.org/Active%20Directory",
+                    "url": "https://en.wikipedia.org/wiki/Active%20Directory",
                     "description": "Wikipedia. (2018, March 10). Active Directory. Retrieved April 11, 2018.",
                     "source_name": "Wikipedia Active Directory"
                 },
@@ -143,7 +148,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-05T17:11:44.997Z",
             "created": "2017-05-31T21:30:19.735Z"
         }
     ]

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c0a5a073-cdd5-4af3-8f07-95dacacb03a8",
+    "id": "bundle--0e484271-b889-4043-bf9b-7d2c202b465d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -13,6 +13,11 @@
                     "external_id": "T1015",
                     "url": "https://attack.mitre.org/technique/T1015",
                     "source_name": "mitre-attack"
+                },
+                {
+                    "external_id": "CAPEC-558",
+                    "url": "https://capec.mitre.org/data/definitions/558.html",
+                    "source_name": "capec"
                 },
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2012/08/hikit-rootkit-advanced-persistent-attack-techniques-part-1.html",
@@ -62,7 +67,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-05T17:11:44.997Z",
             "created": "2017-05-31T21:30:26.946Z"
         }
     ]

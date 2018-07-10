@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7d11c29e-977a-468b-b5c3-cd6514583405",
+    "id": "bundle--f8ff723c-1e10-4cef-8dc8-4ebf5185667c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -13,6 +13,11 @@
                     "external_id": "T1056",
                     "url": "https://attack.mitre.org/technique/T1056",
                     "source_name": "mitre-attack"
+                },
+                {
+                    "external_id": "CAPEC-569",
+                    "url": "https://capec.mitre.org/data/definitions/569.html",
+                    "source_name": "capec"
                 },
                 {
                     "description": "Tinaztepe,  E. (n.d.). The Adventures of a Keystroke:  An in-depth look into keyloggers on Windows. Retrieved April 27, 2016.",
@@ -62,7 +67,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-05T17:11:44.997Z",
             "created": "2017-05-31T21:30:48.323Z"
         }
     ]

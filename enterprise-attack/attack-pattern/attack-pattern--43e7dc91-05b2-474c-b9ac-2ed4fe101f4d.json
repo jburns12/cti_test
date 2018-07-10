@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1ea542ef-d0b2-4d5a-8c43-f1824dbc2143",
+    "id": "bundle--07ed6423-3cf5-491e-948f-ea9ee0619d4f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -13,6 +13,11 @@
                     "external_id": "T1055",
                     "url": "https://attack.mitre.org/technique/T1055",
                     "source_name": "mitre-attack"
+                },
+                {
+                    "external_id": "CAPEC-242",
+                    "url": "https://capec.mitre.org/data/definitions/242.html",
+                    "source_name": "capec"
                 },
                 {
                     "url": "https://github.com/mattifestation/PowerSploit",
@@ -141,7 +146,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-05T17:11:44.997Z",
             "created": "2017-05-31T21:30:47.843Z"
         }
     ]
