@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--673759cb-9b21-4e82-8de9-6d0324811aef",
+    "id": "bundle--0f7ca223-6341-4b35-b4bc-f8ddcd7d17ba",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--060e7485-d2a9-4aa2-a742-58f7e4e6086a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[FIN8](https://attack.mitre.org/group/G0061) has utilized [Valid Accounts Mitigation](https://attack.mitre.org/technique/T1078) during and.",
+            "description": "[FIN8](https://attack.mitre.org/group/G0061) has utilized [Valid Accounts](https://attack.mitre.org/technique/T1078) during and.",
             "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
             "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-05T17:11:44.997Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

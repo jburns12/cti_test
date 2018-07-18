@@ -1,18 +1,23 @@
 {
     "type": "bundle",
-    "id": "bundle--b7e83bc4-39ec-4aff-a602-83d5a5931413",
+    "id": "bundle--65ed9f8d-b875-458a-b384-680c52c625e7",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--54a649ff-439a-41a4-9856-8d144a2551ba",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Remote Services",
-            "description": "An adversary may use [Valid Accounts Mitigation](https://attack.mitre.org/technique/T1078) to log into a service specifically designed to accept remote connections, such as telnet, SSH, and VNC. The adversary may then perform actions as the logged-on user.",
+            "description": "An adversary may use [Valid Accounts](https://attack.mitre.org/technique/T1078) to log into a service specifically designed to accept remote connections, such as telnet, SSH, and VNC. The adversary may then perform actions as the logged-on user.",
             "external_references": [
                 {
                     "external_id": "T1021",
                     "url": "https://attack.mitre.org/technique/T1021",
                     "source_name": "mitre-attack"
+                },
+                {
+                    "external_id": "CAPEC-555",
+                    "url": "https://capec.mitre.org/data/definitions/555.html",
+                    "source_name": "capec"
                 }
             ],
             "object_marking_refs": [
@@ -37,7 +42,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-05T17:11:44.997Z",
             "created": "2017-05-31T21:30:29.858Z"
         }
     ]

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--af2c46ab-7ff1-4b66-a019-b58639cc8370",
+    "id": "bundle--b7c02aa2-05c9-4716-a1a0-4f277844b3db",
     "spec_version": "2.0",
     "objects": [
         {
@@ -13,6 +13,11 @@
                     "external_id": "T1007",
                     "url": "https://attack.mitre.org/technique/T1007",
                     "source_name": "mitre-attack"
+                },
+                {
+                    "external_id": "CAPEC-574",
+                    "url": "https://capec.mitre.org/data/definitions/574.html",
+                    "source_name": "capec"
                 }
             ],
             "object_marking_refs": [
@@ -22,7 +27,7 @@
                 "Process command-line parameters",
                 "Process monitoring"
             ],
-            "x_mitre_detection": "System and network discovery techniques normally occur throughout an operation as an adversary learns the environment. Data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities, such as Lateral Movement, based on the information obtained.\n\nMonitor processes and command-line arguments for actions that could be taken to gather system information related to services. Remote access tools with built-in features may interact directly with the Windows API to gather information. Information may also be acquired through Windows system management tools such as [Net](https://attack.mitre.org/software/S0039) and [Net](https://attack.mitre.org/software/S0039).",
+            "x_mitre_detection": "System and network discovery techniques normally occur throughout an operation as an adversary learns the environment. Data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities, such as Lateral Movement, based on the information obtained.\n\nMonitor processes and command-line arguments for actions that could be taken to gather system information related to services. Remote access tools with built-in features may interact directly with the Windows API to gather information. Information may also be acquired through Windows system management tools such as [Windows Management Instrumentation](https://attack.mitre.org/technique/T1047) and [PowerShell](https://attack.mitre.org/technique/T1086).",
             "x_mitre_permissions_required": [
                 "User",
                 "Administrator",
@@ -38,7 +43,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-05T17:11:44.997Z",
             "created": "2017-05-31T21:30:21.315Z"
         }
     ]

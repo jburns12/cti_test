@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0b2a8e68-89b0-4926-9ef6-eb7c47b393ca",
+    "id": "bundle--3e0d9648-ee49-42b9-a20f-b24109db66f6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -13,6 +13,11 @@
                     "external_id": "T1058",
                     "url": "https://attack.mitre.org/technique/T1058",
                     "source_name": "mitre-attack"
+                },
+                {
+                    "external_id": "CAPEC-203",
+                    "url": "https://capec.mitre.org/data/definitions/203.html",
+                    "source_name": "capec"
                 },
                 {
                     "url": "https://msdn.microsoft.com/library/windows/desktop/ms724878.aspx",
@@ -42,7 +47,7 @@
                 "Services",
                 "Windows Registry"
             ],
-            "x_mitre_detection": "Service changes are reflected in the Registry. Modification to existing services should not occur frequently. If a service binary path or failure parameters are changed to values that are not typical for that service and does not correlate with software updates, then it may be due to malicious activity. Data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities, such as network connections made for Command and Control, learning details about the environment through Discovery, and Lateral Movement.\n\nTools such as Sysinternals Autoruns may also be used to detect system changes that could be attempts at persistence, including listing current service information. (Citation: TechNet Autoruns) Look for changes to services that do not correlate with known software, patch cycles, etc. Suspicious program execution through services may show up as outlier processes that have not been seen before when compared against historical data.\n\nMonitor processes and command-line arguments for actions that could be done to modify services. Remote access tools with built-in features may interact directly with the Windows API to perform these functions outside of typical system utilities. Services may also be changed through Windows system management tools such as [Reg](https://attack.mitre.org/software/S0075) and [Reg](https://attack.mitre.org/software/S0075), so additional logging may need to be configured to gather the appropriate data.",
+            "x_mitre_detection": "Service changes are reflected in the Registry. Modification to existing services should not occur frequently. If a service binary path or failure parameters are changed to values that are not typical for that service and does not correlate with software updates, then it may be due to malicious activity. Data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities, such as network connections made for Command and Control, learning details about the environment through Discovery, and Lateral Movement.\n\nTools such as Sysinternals Autoruns may also be used to detect system changes that could be attempts at persistence, including listing current service information. (Citation: TechNet Autoruns) Look for changes to services that do not correlate with known software, patch cycles, etc. Suspicious program execution through services may show up as outlier processes that have not been seen before when compared against historical data.\n\nMonitor processes and command-line arguments for actions that could be done to modify services. Remote access tools with built-in features may interact directly with the Windows API to perform these functions outside of typical system utilities. Services may also be changed through Windows system management tools such as [Windows Management Instrumentation](https://attack.mitre.org/technique/T1047) and [PowerShell](https://attack.mitre.org/technique/T1086), so additional logging may need to be configured to gather the appropriate data.",
             "x_mitre_effective_permissions": [
                 "SYSTEM"
             ],
@@ -67,7 +72,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-05T17:11:44.997Z",
             "created": "2017-05-31T21:30:49.119Z"
         }
     ]

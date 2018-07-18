@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--7058a1cc-f0ec-4216-bf76-9a82595bbf14",
+    "id": "bundle--a345dd9e-3d6d-46f0-b010-b6f9a8b4edb6",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--8dd9d97d-0eb1-4e17-94ac-5589db51f878",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Shamoon](https://attack.mitre.org/software/S0140) copies an executable payload to the target system by using [Windows Admin Shares Mitigation](https://attack.mitre.org/technique/T1077) and then scheduling an unnamed task to execute the malware.",
+            "description": "[Shamoon](https://attack.mitre.org/software/S0140) copies an executable payload to the target system by using [Windows Admin Shares](https://attack.mitre.org/technique/T1077) and then scheduling an unnamed task to execute the malware.",
             "source_ref": "malware--8901ac23-6b50-410c-b0dd-d8174a86f9b3",
             "target_ref": "attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9",
             "object_marking_refs": [
@@ -26,7 +26,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-05T17:11:44.997Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

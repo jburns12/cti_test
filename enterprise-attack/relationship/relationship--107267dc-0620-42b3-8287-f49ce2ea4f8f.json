@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--60006335-c537-46d4-9136-6e2688ca7927",
+    "id": "bundle--8168edec-e377-4a7b-8faf-9c0e31b64dc7",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--107267dc-0620-42b3-8287-f49ce2ea4f8f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[PUNCHBUGGY](https://attack.mitre.org/software/S0196) can load a DLL using [Rundll32 Mitigation](https://attack.mitre.org/technique/T1085).",
+            "description": "[PUNCHBUGGY](https://attack.mitre.org/software/S0196) can load a DLL using [Rundll32](https://attack.mitre.org/technique/T1085).",
             "source_ref": "malware--5c6ed2dc-37f4-40ea-b2e1-4c76140a388c",
             "target_ref": "attack-pattern--62b8c999-dcc0-4755-bd69-09442d9359f5",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-05T17:11:44.997Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

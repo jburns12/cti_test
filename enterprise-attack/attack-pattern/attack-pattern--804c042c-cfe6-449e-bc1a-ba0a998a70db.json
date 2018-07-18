@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3126c07b-b3ce-4e02-ac7f-d51b3bf78959",
+    "id": "bundle--04d707be-f43d-4fa2-8212-5fd9bc256db9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -13,6 +13,11 @@
                     "external_id": "T1051",
                     "url": "https://attack.mitre.org/technique/T1051",
                     "source_name": "mitre-attack"
+                },
+                {
+                    "external_id": "CAPEC-563",
+                    "url": "https://capec.mitre.org/data/definitions/563.html",
+                    "source_name": "capec"
                 }
             ],
             "object_marking_refs": [
@@ -36,7 +41,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-05T17:11:44.997Z",
             "created": "2017-05-31T21:30:46.047Z"
         }
     ]

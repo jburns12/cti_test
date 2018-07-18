@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--f5cbef29-025b-42b9-b903-b1f3207f12fc",
+    "id": "bundle--e793f08b-e833-4241-a9f6-414ef1603b0b",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "course-of-action--94f6b4f5-b528-4f50-91d5-f66457c2f8f7",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Man in the Browser Mitigation",
-            "description": "Since browser pivoting requires a high integrity process to launch from, restricting user permissions and addressing Privilege Escalation and [Bypass User Account Control Mitigation](https://attack.mitre.org/technique/T1088) opportunities can limit the exposure to this technique. \n\nClose all browser sessions regularly and when they are no longer needed.",
+            "description": "Since browser pivoting requires a high integrity process to launch from, restricting user permissions and addressing Privilege Escalation and [Bypass User Account Control](https://attack.mitre.org/technique/T1088) opportunities can limit the exposure to this technique. \n\nClose all browser sessions regularly and when they are no longer needed.",
             "external_references": [
                 {
                     "external_id": "T1185",
@@ -16,8 +16,8 @@
                 }
             ],
             "type": "course-of-action",
-            "modified": "2018-07-03T13:33:43.876Z",
-            "created": "2018-07-03T13:33:43.876Z"
+            "modified": "2018-07-05T17:11:44.997Z",
+            "created": "2018-07-05T17:11:44.997Z"
         }
     ]
 }

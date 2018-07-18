@@ -1,18 +1,23 @@
 {
     "type": "bundle",
-    "id": "bundle--0d135f9a-9ebb-47b4-b8cb-383dd50e0591",
+    "id": "bundle--89d84063-8248-4f8b-9e5d-d44b1571eac0",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--246fd3c7-f5e3-466d-8787-4c13d9e3b61c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Taint Shared Content",
-            "description": "Content stored on network drives or in other shared locations may be tainted by adding malicious programs, scripts, or exploit code to otherwise valid files. Once a user opens the shared tainted content, the malicious portion can be executed to run the adversary's code on a remote system. Adversaries may use tainted shared content to move laterally.\n\nA directory share pivot is a variation on this technique that uses several other techniques to propagate malware when users access a shared network directory. It uses [Shortcut Modification Mitigation](https://attack.mitre.org/technique/T1023) of directory .LNK files that use [Masquerading Mitigation](https://attack.mitre.org/technique/T1036) to look like the real directories, which are hidden through [Hidden Files and Directories Mitigation](https://attack.mitre.org/technique/T1158). The malicious .LNK-based directories have an embedded command that executes the hidden malware file in the directory and then opens the real intended directory so that the user's expected action still occurs. When used with frequently used network directories, the technique may result in frequent reinfections and broad access to systems and potentially to new and higher privileged accounts. (Citation: Retwin Directory Share Pivot)",
+            "description": "Content stored on network drives or in other shared locations may be tainted by adding malicious programs, scripts, or exploit code to otherwise valid files. Once a user opens the shared tainted content, the malicious portion can be executed to run the adversary's code on a remote system. Adversaries may use tainted shared content to move laterally.\n\nA directory share pivot is a variation on this technique that uses several other techniques to propagate malware when users access a shared network directory. It uses [Shortcut Modification](https://attack.mitre.org/technique/T1023) of directory .LNK files that use [Masquerading](https://attack.mitre.org/technique/T1036) to look like the real directories, which are hidden through [Hidden Files and Directories](https://attack.mitre.org/technique/T1158). The malicious .LNK-based directories have an embedded command that executes the hidden malware file in the directory and then opens the real intended directory so that the user's expected action still occurs. When used with frequently used network directories, the technique may result in frequent reinfections and broad access to systems and potentially to new and higher privileged accounts. (Citation: Retwin Directory Share Pivot)",
             "external_references": [
                 {
                     "external_id": "T1080",
                     "url": "https://attack.mitre.org/technique/T1080",
                     "source_name": "mitre-attack"
+                },
+                {
+                    "external_id": "CAPEC-562",
+                    "url": "https://capec.mitre.org/data/definitions/562.html",
+                    "source_name": "capec"
                 },
                 {
                     "url": "https://rewtin.blogspot.ch/2017/11/abusing-user-shares-for-efficient.html",
@@ -47,7 +52,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-05T17:11:44.997Z",
             "created": "2017-05-31T21:31:01.759Z"
         }
     ]

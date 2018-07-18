@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--d6802376-0861-468b-93f0-5b7389f5f21a",
+    "id": "bundle--f2aa1b2b-4e41-4d65-850a-11eefa1e152d",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--38ea7367-26e7-4a6a-b735-e98e3a35450a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Shamoon](https://attack.mitre.org/software/S0140) accesses network share(s), enables share access to the target device, and copies an executable payload to the target system, and uses a [Scheduled Task Mitigation](https://attack.mitre.org/technique/T1053) to execute the malware.",
+            "description": "[Shamoon](https://attack.mitre.org/software/S0140) accesses network share(s), enables share access to the target device, and copies an executable payload to the target system, and uses a [Scheduled Task](https://attack.mitre.org/technique/T1053) to execute the malware.",
             "source_ref": "malware--8901ac23-6b50-410c-b0dd-d8174a86f9b3",
             "target_ref": "attack-pattern--ffe742ed-9100-4686-9e00-c331da544787",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-05T17:11:44.997Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

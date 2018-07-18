@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--d65057b5-fcb4-4b73-82d8-7f5d26ddcaae",
+    "id": "bundle--f0c1dfef-a087-482f-bef1-d3e5fcffb0f5",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "course-of-action--d45f03a8-790a-4f90-b956-cd7e5b8886bf",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Valid Accounts Mitigation",
-            "description": "Take measures to detect or prevent techniques such as [Credential Dumping Mitigation](https://attack.mitre.org/technique/T1003) or installation of keyloggers to acquire credentials through [Input Capture Mitigation](https://attack.mitre.org/technique/T1056). Limit credential overlap across systems to prevent access if account credentials are obtained. Ensure that local administrator accounts have complex, unique passwords across all systems on the network. Do not put user or admin domain accounts in the local administrator groups across systems unless they are tightly controlled and use of accounts is segmented, as this is often equivalent to having a local administrator account with the same password on all systems. Follow best practices for design and administration of an enterprise network to limit privileged account use across administrative tiers. (Citation: Microsoft Securing Privileged Access). Audit domain and local accounts as well as their permission levels routinely to look for situations that could allow an adversary to gain wide access by obtaining credentials of a privileged account. (Citation: TechNet Credential Theft) (Citation: TechNet Least Privilege)",
+            "description": "Take measures to detect or prevent techniques such as [Credential Dumping](https://attack.mitre.org/technique/T1003) or installation of keyloggers to acquire credentials through [Input Capture](https://attack.mitre.org/technique/T1056). Limit credential overlap across systems to prevent access if account credentials are obtained. Ensure that local administrator accounts have complex, unique passwords across all systems on the network. Do not put user or admin domain accounts in the local administrator groups across systems unless they are tightly controlled and use of accounts is segmented, as this is often equivalent to having a local administrator account with the same password on all systems. Follow best practices for design and administration of an enterprise network to limit privileged account use across administrative tiers. (Citation: Microsoft Securing Privileged Access). Audit domain and local accounts as well as their permission levels routinely to look for situations that could allow an adversary to gain wide access by obtaining credentials of a privileged account. (Citation: TechNet Credential Theft) (Citation: TechNet Least Privilege)",
             "external_references": [
                 {
                     "external_id": "T1078",
@@ -31,8 +31,8 @@
                 }
             ],
             "type": "course-of-action",
-            "modified": "2018-07-03T13:33:43.876Z",
-            "created": "2018-07-03T13:33:43.876Z"
+            "modified": "2018-07-05T17:11:44.997Z",
+            "created": "2018-07-05T17:11:44.997Z"
         }
     ]
 }

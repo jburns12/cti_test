@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--8d92d29c-a98f-401d-b31c-5bd9905204ec",
+    "id": "bundle--d17cb2da-c2b9-4b03-9da7-16241c9305e2",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--f72eb8a8-cd4c-461d-a814-3f862befbf00",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Custom Command and Control Protocol",
-            "description": "Adversaries may communicate using a custom command and control protocol instead of using existing [Standard Application Layer Protocol Mitigation](https://attack.mitre.org/technique/T1071) to encapsulate commands. Implementations could mimic well-known protocols.",
+            "description": "Adversaries may communicate using a custom command and control protocol instead of using existing [Standard Application Layer Protocol](https://attack.mitre.org/technique/T1071) to encapsulate commands. Implementations could mimic well-known protocols.",
             "external_references": [
                 {
                     "external_id": "T1094",
@@ -43,7 +43,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-05T17:11:44.997Z",
             "created": "2017-05-31T21:31:10.314Z"
         }
     ]

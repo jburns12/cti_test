@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--b6603547-e8a8-429c-ba24-2dcc2a76d736",
+    "id": "bundle--6abf72dd-7a79-4c1a-b88f-0cfa7001cd4c",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--30208d3e-0d6b-43c8-883e-44462a514619",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Automated Collection",
-            "description": "Once established within a system or network, an adversary may use automated techniques for collecting internal data. Methods for performing this technique could include use of [Scripting Mitigation](https://attack.mitre.org/technique/T1064) to search for and copy information fitting set criteria such as file type, location, or name at specific time intervals. This functionality could also be built into remote access tools. \n\nThis technique may incorporate use of other techniques such as [File and Directory Discovery Mitigation](https://attack.mitre.org/technique/T1083) and [Remote File Copy Mitigation](https://attack.mitre.org/technique/T1105) to identify and move files.",
+            "description": "Once established within a system or network, an adversary may use automated techniques for collecting internal data. Methods for performing this technique could include use of [Scripting](https://attack.mitre.org/technique/T1064) to search for and copy information fitting set criteria such as file type, location, or name at specific time intervals. This functionality could also be built into remote access tools. \n\nThis technique may incorporate use of other techniques such as [File and Directory Discovery](https://attack.mitre.org/technique/T1083) and [Remote File Copy](https://attack.mitre.org/technique/T1105) to identify and move files.",
             "external_references": [
                 {
                     "external_id": "T1119",
@@ -23,7 +23,7 @@
                 "Process command-line parameters",
                 "Data loss prevention"
             ],
-            "x_mitre_detection": "Depending on the method used, actions could include common file system commands and parameters on the command-line interface within batch files or scripts. A sequence of actions like this may be unusual, depending on the system and network environment. Automated collection may occur along with other techniques such as [Remote File Copy Mitigation](https://attack.mitre.org/technique/T1105). As such, file access monitoring that shows an unusual process performing sequential file opens and potentially copy actions to another location on the file system for many files at once may indicate automated collection behavior. Remote access tools with built-in features may interact directly with the Windows API to gather data. Data may also be acquired through Windows system management tools such as [Remote File Copy Mitigation](https://attack.mitre.org/technique/T1105) and [Remote File Copy Mitigation](https://attack.mitre.org/technique/T1105).",
+            "x_mitre_detection": "Depending on the method used, actions could include common file system commands and parameters on the command-line interface within batch files or scripts. A sequence of actions like this may be unusual, depending on the system and network environment. Automated collection may occur along with other techniques such as [Data Staged](https://attack.mitre.org/technique/T1074). As such, file access monitoring that shows an unusual process performing sequential file opens and potentially copy actions to another location on the file system for many files at once may indicate automated collection behavior. Remote access tools with built-in features may interact directly with the Windows API to gather data. Data may also be acquired through Windows system management tools such as [Windows Management Instrumentation](https://attack.mitre.org/technique/T1047) and [PowerShell](https://attack.mitre.org/technique/T1086).",
             "x_mitre_permissions_required": [
                 "User"
             ],
@@ -42,7 +42,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-05T17:11:44.997Z",
             "created": "2017-05-31T21:31:27.985Z"
         }
     ]

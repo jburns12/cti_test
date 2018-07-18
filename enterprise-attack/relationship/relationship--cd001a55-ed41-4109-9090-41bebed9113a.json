@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--6dd5b8f6-6b1d-447e-abfd-f6a908569e82",
+    "id": "bundle--48ddd82c-633e-4662-899d-fb6f87d18924",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--cd001a55-ed41-4109-9090-41bebed9113a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[FIN8](https://attack.mitre.org/group/G0061)'s malicious spearphishing payloads are executed as [PowerShell Mitigation](https://attack.mitre.org/technique/T1086). [FIN8](https://attack.mitre.org/group/G0061) has also used [PowerShell Mitigation](https://attack.mitre.org/technique/T1086) during and.",
+            "description": "[FIN8](https://attack.mitre.org/group/G0061)'s malicious spearphishing payloads are executed as [PowerShell](https://attack.mitre.org/technique/T1086). [FIN8](https://attack.mitre.org/group/G0061) has also used [PowerShell](https://attack.mitre.org/technique/T1086) during and.",
             "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
             "target_ref": "attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0",
             "object_marking_refs": [
@@ -26,7 +26,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-05T17:11:44.997Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

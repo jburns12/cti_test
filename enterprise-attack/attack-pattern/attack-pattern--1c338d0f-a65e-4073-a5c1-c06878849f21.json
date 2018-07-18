@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--992ee31b-3a53-4ae5-a80c-cd44f5ab75b4",
+    "id": "bundle--8d6a2b1f-1033-4b37-ac38-5efbfbf91c6a",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--1c338d0f-a65e-4073-a5c1-c06878849f21",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Process Hollowing",
-            "description": "Process hollowing occurs when a process is created in a suspended state then its memory is unmapped and replaced with malicious code. Similar to [Process Injection Mitigation](https://attack.mitre.org/technique/T1055), execution of the malicious code is masked under a legitimate process and may evade defenses and detection analysis. (Citation: Leitch Hollowing) (Citation: Engame Process Injection July 2017)",
+            "description": "Process hollowing occurs when a process is created in a suspended state then its memory is unmapped and replaced with malicious code. Similar to [Process Injection](https://attack.mitre.org/technique/T1055), execution of the malicious code is masked under a legitimate process and may evade defenses and detection analysis. (Citation: Leitch Hollowing) (Citation: Engame Process Injection July 2017)",
             "external_references": [
                 {
                     "external_id": "T1093",
@@ -52,7 +52,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-05T17:11:44.997Z",
             "created": "2017-05-31T21:31:09.815Z"
         }
     ]
