@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--bf004b91-5752-4b13-b885-d29bdb11a945",
+    "id": "bundle--1ad71934-4c69-4d9e-abe3-a9c9ce970382",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--3257eb21-f9a7-4430-8de1-d8b6e288f529",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Network Sniffing",
-            "description": "Network sniffing refers to using the network interface on a system to monitor or capture information sent over a wired or wireless connection.\n\nUser credentials may be sent over an insecure, unencrypted protocol that can be captured and obtained through network packet analysis. An adversary may place a network interface into promiscuous mode, using a utility to capture traffic in transit over the network or use span ports to capture a larger amount of data. In addition, techniques for name service resolution poisoning, such as [LLMNR/NBT-NS Poisoning Mitigation](https://attack.mitre.org/technique/T1171), can be used to capture credentials to websites, proxies, and internal systems by redirecting traffic to an adversary.",
+            "description": "Network sniffing refers to using the network interface on a system to monitor or capture information sent over a wired or wireless connection.\n\nUser credentials may be sent over an insecure, unencrypted protocol that can be captured and obtained through network packet analysis. An adversary may place a network interface into promiscuous mode, using a utility to capture traffic in transit over the network or use span ports to capture a larger amount of data. In addition, techniques for name service resolution poisoning, such as [LLMNR/NBT-NS Poisoning](https://attack.mitre.org/technique/T1171), can be used to capture credentials to websites, proxies, and internal systems by redirecting traffic to an adversary.",
             "external_references": [
                 {
                     "external_id": "T1040",

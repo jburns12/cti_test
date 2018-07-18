@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--3fa0c9aa-431d-4ae3-abdd-5bd2c6d892d6",
+    "id": "bundle--8119124e-de0e-4472-a7a5-e18b23de7be3",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "course-of-action--752db800-ea54-4e7a-b4c1-2a0292350ea7",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Multi-hop Proxy Mitigation",
-            "description": "Traffic to known anonymity networks and C2 infrastructure can be blocked through the use of network black and white lists. It should be noted that this kind of blocking may be circumvented by other techniques like [Domain Fronting Mitigation](https://attack.mitre.org/technique/T1172).",
+            "description": "Traffic to known anonymity networks and C2 infrastructure can be blocked through the use of network black and white lists. It should be noted that this kind of blocking may be circumvented by other techniques like [Domain Fronting](https://attack.mitre.org/technique/T1172).",
             "external_references": [
                 {
                     "external_id": "T1188",

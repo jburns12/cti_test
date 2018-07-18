@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--4852a755-dbc7-4b5c-90cd-600b520bc4ac",
+    "id": "bundle--32d30425-05d5-43af-8e7c-685a3aeb505d",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "course-of-action--94e95eeb-7cdb-4bd7-afba-f32fda303dbb",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Network Share Connection Removal Mitigation",
-            "description": "Follow best practices for mitigation of activity related to establishing [Windows Admin Shares Mitigation](https://attack.mitre.org/technique/T1077). \n\nIdentify unnecessary system utilities or potentially malicious software that may be used to leverage network shares, and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
+            "description": "Follow best practices for mitigation of activity related to establishing [Windows Admin Shares](https://attack.mitre.org/technique/T1077). \n\nIdentify unnecessary system utilities or potentially malicious software that may be used to leverage network shares, and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
             "external_references": [
                 {
                     "external_id": "T1126",

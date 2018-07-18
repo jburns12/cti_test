@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fec9f2ac-b46d-4f70-8465-f803ba50b056",
+    "id": "bundle--e6c31fd6-9bab-4760-b6a6-de62f1d760c0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -85,7 +85,7 @@
                 "User",
                 "Administrator"
             ],
-            "x_mitre_detection": "There are many ways to perform UAC bypasses when a user is in the local administrator group on a system, so it may be difficult to target detection on all variations. Efforts should likely be placed on mitigation and collecting enough information on process launches and actions that could be performed before and after a UAC bypass is performed. Monitor process API calls for behavior that may be indicative of [Remote Desktop Protocol Mitigation](https://attack.mitre.org/technique/T1076) and unusual loaded DLLs through [Remote Desktop Protocol Mitigation](https://attack.mitre.org/technique/T1076), which indicate attempts to gain access to higher privileged processes.\n\nSome UAC bypass methods rely on modifying specific, user-accessible Registry settings.  For example:\n\n* The <code>eventvwr.exe</code> bypass uses the <code>[HKEY_CURRENT_USER]\\Software\\Classes\\mscfile\\shell\\open\\command</code> Registry key. (Citation: enigma0x3 Fileless UAC Bypass)\n* The <code>sdclt.exe</code> bypass uses the <code>[HKEY_CURRENT_USER]\\Software\\Microsoft\\Windows\\CurrentVersion\\App Paths\\control.exe</code> and <code>[HKEY_CURRENT_USER]\\Software\\Classes\\exefile\\shell\\runas\\command\\isolatedCommand</code> Registry keys. (Citation: enigma0x3 sdclt app paths) (Citation: enigma0x3 sdclt bypass)\n\nAnalysts should monitor these Registry settings for unauthorized changes.",
+            "x_mitre_detection": "There are many ways to perform UAC bypasses when a user is in the local administrator group on a system, so it may be difficult to target detection on all variations. Efforts should likely be placed on mitigation and collecting enough information on process launches and actions that could be performed before and after a UAC bypass is performed. Monitor process API calls for behavior that may be indicative of [Remote Desktop Protocol](https://attack.mitre.org/technique/T1076) and unusual loaded DLLs through [Remote Desktop Protocol](https://attack.mitre.org/technique/T1076), which indicate attempts to gain access to higher privileged processes.\n\nSome UAC bypass methods rely on modifying specific, user-accessible Registry settings.  For example:\n\n* The <code>eventvwr.exe</code> bypass uses the <code>[HKEY_CURRENT_USER]\\Software\\Classes\\mscfile\\shell\\open\\command</code> Registry key. (Citation: enigma0x3 Fileless UAC Bypass)\n* The <code>sdclt.exe</code> bypass uses the <code>[HKEY_CURRENT_USER]\\Software\\Microsoft\\Windows\\CurrentVersion\\App Paths\\control.exe</code> and <code>[HKEY_CURRENT_USER]\\Software\\Classes\\exefile\\shell\\runas\\command\\isolatedCommand</code> Registry keys. (Citation: enigma0x3 sdclt app paths) (Citation: enigma0x3 sdclt bypass)\n\nAnalysts should monitor these Registry settings for unauthorized changes.",
             "x_mitre_effective_permissions": [
                 "Administrator"
             ],

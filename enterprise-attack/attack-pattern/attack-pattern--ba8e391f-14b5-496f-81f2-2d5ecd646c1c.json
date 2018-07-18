@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--ffe693e8-a661-4979-9af4-996bc3ecaa12",
+    "id": "bundle--313167fd-8750-44b2-a2e3-026d7fcaa791",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--ba8e391f-14b5-496f-81f2-2d5ecd646c1c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Credentials in Files",
-            "description": "Adversaries may search local file systems and remote file shares for files containing passwords.  These can be files created by users to store their own credentials, shared credential stores for a group of individuals, configuration files containing passwords for a system or service, or source code/binary files containing embedded passwords.\n\nIt is possible to extract passwords from backups or saved virtual machines through [Credential Dumping Mitigation](https://attack.mitre.org/technique/T1003). (Citation: CG 2014) Passwords may also be obtained from Group Policy Preferences stored on the Windows Domain Controller. (Citation: SRD GPP)",
+            "description": "Adversaries may search local file systems and remote file shares for files containing passwords.  These can be files created by users to store their own credentials, shared credential stores for a group of individuals, configuration files containing passwords for a system or service, or source code/binary files containing embedded passwords.\n\nIt is possible to extract passwords from backups or saved virtual machines through [Credential Dumping](https://attack.mitre.org/technique/T1003). (Citation: CG 2014) Passwords may also be obtained from Group Policy Preferences stored on the Windows Domain Controller. (Citation: SRD GPP)",
             "external_references": [
                 {
                     "external_id": "T1081",
@@ -37,7 +37,7 @@
                 "File monitoring",
                 "Process command-line parameters"
             ],
-            "x_mitre_detection": "While detecting adversaries accessing these files may be difficult without knowing they exist in the first place, it may be possible to detect adversary use of credentials they have obtained. Monitor the command-line arguments of executing processes for suspicious words or regular expressions that may indicate searching for a password (for example: password, pwd, login, secure, or credentials). See [Credential Dumping Mitigation](https://attack.mitre.org/technique/T1003) for more information.",
+            "x_mitre_detection": "While detecting adversaries accessing these files may be difficult without knowing they exist in the first place, it may be possible to detect adversary use of credentials they have obtained. Monitor the command-line arguments of executing processes for suspicious words or regular expressions that may indicate searching for a password (for example: password, pwd, login, secure, or credentials). See [Credential Dumping](https://attack.mitre.org/technique/T1003) for more information.",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",

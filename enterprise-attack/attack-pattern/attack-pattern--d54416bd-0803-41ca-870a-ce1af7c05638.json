@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--4f2b6c36-cd1f-4dac-997a-d445f7c4e3cd",
+    "id": "bundle--c33ddaca-d33e-46de-b4c5-21c06179ebf2",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--d54416bd-0803-41ca-870a-ce1af7c05638",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Data Encrypted",
-            "description": "Data is encrypted before being exfiltrated in order to hide the information that is being exfiltrated from detection or to make the exfiltration less conspicuous upon inspection by a defender. The encryption is performed by a utility, programming library, or custom algorithm on the data itself and is considered separate from any encryption performed by the command and control or file transfer protocol. Common file archive formats that can encrypt files are RAR and zip.\n\nOther exfiltration techniques likely apply as well to transfer the information out of the network, such as [Exfiltration Over Command and Control Channel Mitigation](https://attack.mitre.org/technique/T1041) and [Exfiltration Over Alternative Protocol Mitigation](https://attack.mitre.org/technique/T1048)",
+            "description": "Data is encrypted before being exfiltrated in order to hide the information that is being exfiltrated from detection or to make the exfiltration less conspicuous upon inspection by a defender. The encryption is performed by a utility, programming library, or custom algorithm on the data itself and is considered separate from any encryption performed by the command and control or file transfer protocol. Common file archive formats that can encrypt files are RAR and zip.\n\nOther exfiltration techniques likely apply as well to transfer the information out of the network, such as [Exfiltration Over Command and Control Channel](https://attack.mitre.org/technique/T1041) and [Exfiltration Over Alternative Protocol](https://attack.mitre.org/technique/T1048)",
             "external_references": [
                 {
                     "external_id": "T1022",

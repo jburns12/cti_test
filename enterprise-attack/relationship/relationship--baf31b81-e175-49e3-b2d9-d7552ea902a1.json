@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--bab8d09a-cbf4-4875-97dd-27fb41b7051e",
+    "id": "bundle--c472eea4-df7b-40dd-a24b-6827228fa781",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--baf31b81-e175-49e3-b2d9-d7552ea902a1",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[POWERSTATS](https://attack.mitre.org/software/S0223) uses character replacement, [PowerShell Mitigation](https://attack.mitre.org/technique/T1086) environment variables, and XOR encoding to obfuscate code.",
+            "description": "[POWERSTATS](https://attack.mitre.org/software/S0223) uses character replacement, [PowerShell](https://attack.mitre.org/technique/T1086) environment variables, and XOR encoding to obfuscate code.",
             "source_ref": "malware--e8545794-b98c-492b-a5b3-4b5a02682e37",
             "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
             "object_marking_refs": [

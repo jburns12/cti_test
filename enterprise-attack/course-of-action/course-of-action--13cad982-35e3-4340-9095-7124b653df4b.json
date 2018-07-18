@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--387adaf7-ff9e-4f55-aefe-7806847e3de6",
+    "id": "bundle--8fc94a47-c64a-4050-beaa-c6258c17beea",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "course-of-action--13cad982-35e3-4340-9095-7124b653df4b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Data from Information Repositories Mitigation",
-            "description": "To mitigate adversary access to information repositories for collection:\n\n* Develop and publish policies that define acceptable information to be stored\n* Appropriate implementation of access control mechanisms that include both authentication and appropriate authorization\n* Enforce the principle of least-privilege\n* Periodic privilege review of accounts\n* Mitigate access to [Valid Accounts Mitigation](https://attack.mitre.org/technique/T1078) that may be used to access repositories",
+            "description": "To mitigate adversary access to information repositories for collection:\n\n* Develop and publish policies that define acceptable information to be stored\n* Appropriate implementation of access control mechanisms that include both authentication and appropriate authorization\n* Enforce the principle of least-privilege\n* Periodic privilege review of accounts\n* Mitigate access to [Valid Accounts](https://attack.mitre.org/technique/T1078) that may be used to access repositories",
             "external_references": [
                 {
                     "external_id": "T1213",

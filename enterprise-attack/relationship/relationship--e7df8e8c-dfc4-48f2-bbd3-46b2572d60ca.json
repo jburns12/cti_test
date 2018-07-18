@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--6707ee08-6609-4291-845e-e3114f385ff6",
+    "id": "bundle--62b8bb5c-335a-46c2-81a7-8c721857b7a3",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--e7df8e8c-dfc4-48f2-bbd3-46b2572d60ca",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[PowerSploit](https://attack.mitre.org/software/S0194) modules are written in and executed via [PowerShell Mitigation](https://attack.mitre.org/technique/T1086).",
+            "description": "[PowerSploit](https://attack.mitre.org/software/S0194) modules are written in and executed via [PowerShell](https://attack.mitre.org/technique/T1086).",
             "source_ref": "tool--13cd9151-83b7-410d-9f98-25d0f0d1d80d",
             "target_ref": "attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0",
             "object_marking_refs": [

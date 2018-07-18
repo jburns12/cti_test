@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--a9bdf3b0-f6f1-4a0d-be1d-0a64cc723784",
+    "id": "bundle--26eb7931-dc21-43e5-9401-6a1c55a2811c",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--9422fc14-1c43-410d-ab0f-a709b76c72dc",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Registry Run Keys / Start Folder",
-            "description": "Adding an entry to the \"run keys\" in the Registry or startup folder will cause the program referenced to be executed when a user logs in. (Citation: Microsoft Run Key) The program will be executed under the context of the user and will have the account's associated permissions level.\n\nAdversaries can use these configuration locations to execute malware, such as remote access tools, to maintain persistence through system reboots. Adversaries may also use [Masquerading Mitigation](https://attack.mitre.org/technique/T1036) to make the Registry entries look as if they are associated with legitimate programs.",
+            "description": "Adding an entry to the \"run keys\" in the Registry or startup folder will cause the program referenced to be executed when a user logs in. (Citation: Microsoft Run Key) The program will be executed under the context of the user and will have the account's associated permissions level.\n\nAdversaries can use these configuration locations to execute malware, such as remote access tools, to maintain persistence through system reboots. Adversaries may also use [Masquerading](https://attack.mitre.org/technique/T1036) to make the Registry entries look as if they are associated with legitimate programs.",
             "external_references": [
                 {
                     "external_id": "T1060",

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--3ff1d137-af0a-47cb-a9e3-9fe6f3267b82",
+    "id": "bundle--5e3d8754-ec90-422d-9872-7c53219cba9d",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--2d2ebfcb-0b2c-4c69-877e-2ca633c95a17",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[PowerSploit](https://attack.mitre.org/software/S0194)'s <code>Invoke-WmiCommand</code> CodeExecution module uses WMI to execute and retrieve the output from a [PowerShell Mitigation](https://attack.mitre.org/technique/T1086) payload.",
+            "description": "[PowerSploit](https://attack.mitre.org/software/S0194)'s <code>Invoke-WmiCommand</code> CodeExecution module uses WMI to execute and retrieve the output from a [PowerShell](https://attack.mitre.org/technique/T1086) payload.",
             "source_ref": "tool--13cd9151-83b7-410d-9f98-25d0f0d1d80d",
             "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
             "object_marking_refs": [

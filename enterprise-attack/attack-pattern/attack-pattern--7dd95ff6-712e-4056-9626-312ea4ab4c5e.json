@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--8d937ffe-3152-4853-834d-9bfc48d3c5e3",
+    "id": "bundle--7861598b-1aca-4d14-b5a0-6add36b84dff",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--7dd95ff6-712e-4056-9626-312ea4ab4c5e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Data Staged",
-            "description": "Collected data is staged in a central location or directory prior to [[Exfiltration]]. Data may be kept in separate files or combined into one file through techniques such as [Data Compressed Mitigation](https://attack.mitre.org/technique/T1002) or [Data Encrypted Mitigation](https://attack.mitre.org/technique/T1022).\n\nInteractive command shells may be used, and common functionality within [cmd](https://attack.mitre.org/software/S0106) and bash may be used to copy data into a staging location.",
+            "description": "Collected data is staged in a central location or directory prior to [[Exfiltration]]. Data may be kept in separate files or combined into one file through techniques such as [Data Compressed](https://attack.mitre.org/technique/T1002) or [Data Encrypted](https://attack.mitre.org/technique/T1022).\n\nInteractive command shells may be used, and common functionality within [cmd](https://attack.mitre.org/software/S0106) and bash may be used to copy data into a staging location.",
             "external_references": [
                 {
                     "external_id": "T1074",

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--9f7019b8-cdf3-413f-8ddd-4f7e77a8a72e",
+    "id": "bundle--eb706d1b-62b3-4405-bb8b-b422a3cabb8f",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--e039e3d4-2e3d-4e6e-902e-5e1834abe8e4",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "Some [Orz](https://attack.mitre.org/software/S0229) versions have an embedded DLL known as MockDll that uses process hollowing and [Regsvr32 Mitigation](https://attack.mitre.org/technique/T1117) to execute another payload.",
+            "description": "Some [Orz](https://attack.mitre.org/software/S0229) versions have an embedded DLL known as MockDll that uses process hollowing and [Regsvr32](https://attack.mitre.org/technique/T1117) to execute another payload.",
             "source_ref": "malware--06d735e7-1db1-4dbe-ab4b-acbe419f902b",
             "target_ref": "attack-pattern--1c338d0f-a65e-4073-a5c1-c06878849f21",
             "object_marking_refs": [

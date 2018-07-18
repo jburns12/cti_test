@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--418b04a3-fcac-439e-ac07-f2a5887c0f40",
+    "id": "bundle--9c0acb4e-f911-40ef-8393-5414231940d2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -28,7 +28,7 @@
                 "Process monitoring",
                 "Application Logs"
             ],
-            "x_mitre_detection": "Detecting software exploitation may be difficult depending on the tools available. Software exploits may not always succeed or may cause the exploited process to become unstable or crash. Also look for behavior on the endpoint system that might indicate successful compromise, such as abnormal behavior of the processes. This could include suspicious files written to disk, evidence of [User Execution Mitigation](https://attack.mitre.org/technique/T1204) for attempts to hide execution or evidence of [[Discovery]].\n\nHigher privileges are often necessary to perform additional actions such as some methods of [User Execution Mitigation](https://attack.mitre.org/technique/T1204). Look for additional activity that may indicate an adversary has gained higher privileges.",
+            "x_mitre_detection": "Detecting software exploitation may be difficult depending on the tools available. Software exploits may not always succeed or may cause the exploited process to become unstable or crash. Also look for behavior on the endpoint system that might indicate successful compromise, such as abnormal behavior of the processes. This could include suspicious files written to disk, evidence of [User Execution](https://attack.mitre.org/technique/T1204) for attempts to hide execution or evidence of [[Discovery]].\n\nHigher privileges are often necessary to perform additional actions such as some methods of [User Execution](https://attack.mitre.org/technique/T1204). Look for additional activity that may indicate an adversary has gained higher privileges.",
             "x_mitre_effective_permissions": [
                 "User"
             ],

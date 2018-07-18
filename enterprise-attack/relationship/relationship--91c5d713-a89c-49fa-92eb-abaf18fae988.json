@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--230e7efc-0bde-49cb-8f6c-8b6e047e02ee",
+    "id": "bundle--9278f845-6d77-4a3e-97f7-9ecbe016df97",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--91c5d713-a89c-49fa-92eb-abaf18fae988",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[PowerSploit](https://attack.mitre.org/software/S0194)'s <code>New-UserPersistenceOption</code> Persistence argument can be used to establish via a [Scheduled Task Mitigation](https://attack.mitre.org/technique/T1053).",
+            "description": "[PowerSploit](https://attack.mitre.org/software/S0194)'s <code>New-UserPersistenceOption</code> Persistence argument can be used to establish via a [Scheduled Task](https://attack.mitre.org/technique/T1053).",
             "source_ref": "tool--13cd9151-83b7-410d-9f98-25d0f0d1d80d",
             "target_ref": "attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9",
             "object_marking_refs": [

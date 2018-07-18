@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--f7a1e6cd-111d-4f33-b16e-b64f46066c09",
+    "id": "bundle--fecd9f1c-98b4-4685-9351-2c59f0585dd8",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "course-of-action--beb45abb-11e8-4aef-9778-1f9ac249784f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Bypass User Account Control Mitigation",
-            "description": "Remove users from the local administrator group on systems. Although UAC bypass techniques exist, it is still prudent to use the highest enforcement level for UAC when possible and mitigate bypass opportunities that exist with techniques such as [DLL Search Order Hijacking Mitigation](https://attack.mitre.org/technique/T1038). \n\nCheck for common UAC bypass weaknesses on Windows systems to be aware of the risk posture and address issues where appropriate. (Citation: Github UACMe)",
+            "description": "Remove users from the local administrator group on systems. Although UAC bypass techniques exist, it is still prudent to use the highest enforcement level for UAC when possible and mitigate bypass opportunities that exist with techniques such as [DLL Search Order Hijacking](https://attack.mitre.org/technique/T1038). \n\nCheck for common UAC bypass weaknesses on Windows systems to be aware of the risk posture and address issues where appropriate. (Citation: Github UACMe)",
             "external_references": [
                 {
                     "external_id": "T1088",

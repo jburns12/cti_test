@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--8e09a307-a9e5-4b88-9caf-a7743aab29ef",
+    "id": "bundle--4be73c24-9c6e-4002-a0a3-436e0aed152b",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--11f6ad22-0293-47bd-95d1-34bf4ee1de9e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[FIN5](https://attack.mitre.org/group/G0053) maintains access to victim environments by using [Valid Accounts Mitigation](https://attack.mitre.org/technique/T1078) to access [External Remote Services Mitigation](https://attack.mitre.org/technique/T1133) as well as establishing a backup RDP tunnel by using [FLIPSIDE](https://attack.mitre.org/software/S0173).",
+            "description": "[FIN5](https://attack.mitre.org/group/G0053) maintains access to victim environments by using [Valid Accounts](https://attack.mitre.org/technique/T1078) to access [External Remote Services](https://attack.mitre.org/technique/T1133) as well as establishing a backup RDP tunnel by using [FLIPSIDE](https://attack.mitre.org/software/S0173).",
             "source_ref": "intrusion-set--85403903-15e0-4f9f-9be4-a259ecad4022",
             "target_ref": "attack-pattern--6aabc5ec-eae6-422c-8311-38d45ee9838a",
             "object_marking_refs": [

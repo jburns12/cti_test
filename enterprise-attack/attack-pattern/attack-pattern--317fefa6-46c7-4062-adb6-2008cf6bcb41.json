@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--8e4f2f11-8264-424f-a09f-88464d981ec0",
+    "id": "bundle--90208358-c995-44f1-a33f-d8241ef85cb0",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--317fefa6-46c7-4062-adb6-2008cf6bcb41",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "AppInit DLLs",
-            "description": "Dynamic-link libraries (DLLs) that are specified in the AppInit_DLLs value in the Registry keys <code>HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Windows</code> or <code>HKEY_LOCAL_MACHINE\\Software\\Wow6432Node\\Microsoft\\Windows NT\\CurrentVersion\\Windows</code> are loaded by user32.dll into every process that loads user32.dll. In practice this is nearly every program, since user32.dll is a very common library. (Citation: Engame Process Injection July 2017) Similar to [Process Injection Mitigation](https://attack.mitre.org/technique/T1055), these values can be abused to obtain persistence and privilege escalation by causing a malicious DLL to be loaded and run in the context of separate processes on the computer. (Citation: AppInit Registry)\n\nThe AppInit DLL functionality is disabled in Windows 8 and later versions when secure boot is enabled. (Citation: AppInit Secure Boot)",
+            "description": "Dynamic-link libraries (DLLs) that are specified in the AppInit_DLLs value in the Registry keys <code>HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Windows</code> or <code>HKEY_LOCAL_MACHINE\\Software\\Wow6432Node\\Microsoft\\Windows NT\\CurrentVersion\\Windows</code> are loaded by user32.dll into every process that loads user32.dll. In practice this is nearly every program, since user32.dll is a very common library. (Citation: Engame Process Injection July 2017) Similar to [Process Injection](https://attack.mitre.org/technique/T1055), these values can be abused to obtain persistence and privilege escalation by causing a malicious DLL to be loaded and run in the context of separate processes on the computer. (Citation: AppInit Registry)\n\nThe AppInit DLL functionality is disabled in Windows 8 and later versions when secure boot is enabled. (Citation: AppInit Secure Boot)",
             "external_references": [
                 {
                     "external_id": "T1103",
