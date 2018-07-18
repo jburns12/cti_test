@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--e0306640-abfd-4251-aafa-171eb971ad56",
+    "id": "bundle--40fc4436-0ce4-44c8-bafb-feeb7c61394c",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "course-of-action--fe0aeb41-1a51-4152-8467-628256ea6adf",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Modify Existing Service Mitigation",
-            "description": "Use auditing tools capable of detecting privilege and service abuse opportunities on systems within an enterprise and correct them. Limit privileges of user accounts and groups so that only authorized administrators can interact with service changes and service configurations. Toolkits like the PowerSploit framework contain the PowerUp modules that can be used to explore systems for Privilege Escalation weaknesses. (Citation: Powersploit)\n\nIdentify and block potentially malicious software that may be executed through service abuse by using whitelisting (Citation: Beechey 2010) tools like AppLocker (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) that are capable of auditing and/or blocking unknown programs.",
+            "description": "Use auditing tools capable of detecting privilege and service abuse opportunities on systems within an enterprise and correct them. Limit privileges of user accounts and groups so that only authorized administrators can interact with service changes and service configurations. Toolkits like the PowerSploit framework contain the PowerUp modules that can be used to explore systems for [[Privilege Escalation]] weaknesses. (Citation: Powersploit)\n\nIdentify and block potentially malicious software that may be executed through service abuse by using whitelisting (Citation: Beechey 2010) tools like AppLocker (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) that are capable of auditing and/or blocking unknown programs.",
             "external_references": [
                 {
                     "external_id": "T1031",

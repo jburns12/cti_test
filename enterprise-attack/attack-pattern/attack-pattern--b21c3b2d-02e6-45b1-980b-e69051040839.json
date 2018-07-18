@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--723802bc-e4eb-401f-aa09-de0f2e39c2de",
+    "id": "bundle--418b04a3-fcac-439e-ac07-f2a5887c0f40",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--b21c3b2d-02e6-45b1-980b-e69051040839",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Exploitation for Privilege Escalation",
-            "description": "Exploitation of a software vulnerability occurs when an adversary takes advantage of a programming error in a program, service, or within the operating system software or kernel itself to execute adversary-controlled code. Security constructs such as permission levels will often hinder access to information and use of certain techniques, so adversaries will likely need to perform Privilege Escalation to include use of software exploitation to circumvent those restrictions.\n\nWhen initially gaining access to a system, an adversary may be operating within a lower privileged process which will prevent them from accessing certain resources on the system. Vulnerabilities may exist, usually in operating system components and software commonly running at higher permissions, that can be exploited to gain higher levels of access on the system. This could enable someone to move from unprivileged or user level permissions to SYSTEM or root permissions depending on the component that is vulnerable. This may be a necessary step for an adversary compromising a endpoint system that has been properly configured and limits other privilege escalation methods.",
+            "description": "Exploitation of a software vulnerability occurs when an adversary takes advantage of a programming error in a program, service, or within the operating system software or kernel itself to execute adversary-controlled code. Security constructs such as permission levels will often hinder access to information and use of certain techniques, so adversaries will likely need to perform [[Privilege Escalation]] to include use of software exploitation to circumvent those restrictions.\n\nWhen initially gaining access to a system, an adversary may be operating within a lower privileged process which will prevent them from accessing certain resources on the system. Vulnerabilities may exist, usually in operating system components and software commonly running at higher permissions, that can be exploited to gain higher levels of access on the system. This could enable someone to move from unprivileged or user level permissions to SYSTEM or root permissions depending on the component that is vulnerable. This may be a necessary step for an adversary compromising a endpoint system that has been properly configured and limits other privilege escalation methods.",
             "external_references": [
                 {
                     "external_id": "T1068",
@@ -28,7 +28,7 @@
                 "Process monitoring",
                 "Application Logs"
             ],
-            "x_mitre_detection": "Detecting software exploitation may be difficult depending on the tools available. Software exploits may not always succeed or may cause the exploited process to become unstable or crash. Also look for behavior on the endpoint system that might indicate successful compromise, such as abnormal behavior of the processes. This could include suspicious files written to disk, evidence of [User Execution Mitigation](https://attack.mitre.org/technique/T1204) for attempts to hide execution or evidence of Discovery.\n\nHigher privileges are often necessary to perform additional actions such as some methods of [User Execution Mitigation](https://attack.mitre.org/technique/T1204). Look for additional activity that may indicate an adversary has gained higher privileges.",
+            "x_mitre_detection": "Detecting software exploitation may be difficult depending on the tools available. Software exploits may not always succeed or may cause the exploited process to become unstable or crash. Also look for behavior on the endpoint system that might indicate successful compromise, such as abnormal behavior of the processes. This could include suspicious files written to disk, evidence of [User Execution Mitigation](https://attack.mitre.org/technique/T1204) for attempts to hide execution or evidence of [[Discovery]].\n\nHigher privileges are often necessary to perform additional actions such as some methods of [User Execution Mitigation](https://attack.mitre.org/technique/T1204). Look for additional activity that may indicate an adversary has gained higher privileges.",
             "x_mitre_effective_permissions": [
                 "User"
             ],

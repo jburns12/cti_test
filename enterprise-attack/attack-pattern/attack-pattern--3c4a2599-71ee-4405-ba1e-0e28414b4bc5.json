@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--090720c4-65eb-42ae-b29a-ae2a0fdac2af",
+    "id": "bundle--91489390-1296-43a8-ab21-14311657f99a",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Data from Local System",
-            "description": "Sensitive data can be collected from local system sources, such as the file system or databases of information residing on the system prior to Exfiltration.\n\nAdversaries will often search the file system on computers they have compromised to find files of interest. They may do this using a [Command-Line Interface Mitigation](https://attack.mitre.org/technique/T1059), such as [cmd](https://attack.mitre.org/software/S0106), which has functionality to interact with the file system to gather information. Some adversaries may also use [Automated Collection Mitigation](https://attack.mitre.org/technique/T1119) on the local system.",
+            "description": "Sensitive data can be collected from local system sources, such as the file system or databases of information residing on the system prior to [[Exfiltration]].\n\nAdversaries will often search the file system on computers they have compromised to find files of interest. They may do this using a [Command-Line Interface Mitigation](https://attack.mitre.org/technique/T1059), such as [cmd](https://attack.mitre.org/software/S0106), which has functionality to interact with the file system to gather information. Some adversaries may also use [Automated Collection Mitigation](https://attack.mitre.org/technique/T1119) on the local system.",
             "external_references": [
                 {
                     "external_id": "T1005",

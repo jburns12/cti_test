@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--7766e922-82be-443c-9eed-bfcda7e5a902",
+    "id": "bundle--7a9247db-0937-42d9-8237-7cbb44649836",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--3b0e52ce-517a-4614-a523-1bd5deef6c5e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Indirect Command Execution",
-            "description": "Various Windows utilities may be used to execute commands, possibly without invoking [cmd](https://attack.mitre.org/software/S0106). For example, [Forfiles](https://attack.mitre.org/software/S0193), the Program Compatibility Assistant (pcalua.exe), components of the Windows Subsystem for Linux (WSL), as well as other utilities may invoke the execution of programs and commands from a [Command-Line Interface Mitigation](https://attack.mitre.org/technique/T1059), Run window, or via scripts.  (Citation: VectorSec ForFiles Aug 2017) (Citation: Evi1cg Forfiles Nov 2017)\n\nAdversaries may abuse these utilities for Defense Evasion, specifically to perform arbitrary execution while subverting detections and/or mitigation controls (such as Group Policy) that limit/prevent the usage of [cmd](https://attack.mitre.org/software/S0106).",
+            "description": "Various Windows utilities may be used to execute commands, possibly without invoking [cmd](https://attack.mitre.org/software/S0106). For example, [Forfiles](https://attack.mitre.org/software/S0193), the Program Compatibility Assistant (pcalua.exe), components of the Windows Subsystem for Linux (WSL), as well as other utilities may invoke the execution of programs and commands from a [Command-Line Interface Mitigation](https://attack.mitre.org/technique/T1059), Run window, or via scripts.  (Citation: VectorSec ForFiles Aug 2017) (Citation: Evi1cg Forfiles Nov 2017)\n\nAdversaries may abuse these utilities for [[Defense Evasion]], specifically to perform arbitrary execution while subverting detections and/or mitigation controls (such as Group Policy) that limit/prevent the usage of [cmd](https://attack.mitre.org/software/S0106).",
             "external_references": [
                 {
                     "external_id": "T1202",

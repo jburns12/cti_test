@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--e220d906-a4fb-44f8-b83e-f3a598627c5e",
+    "id": "bundle--dedb1247-0dab-4cc9-962c-7d2a7caff067",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Windows Management Instrumentation",
-            "description": "Windows Management Instrumentation (WMI) is a Windows administration feature that provides a uniform environment for local and remote access to Windows system components. It relies on the WMI service for local and remote access and the server message block (SMB) (Citation: Wikipedia SMB) and Remote Procedure Call Service (RPCS) (Citation: TechNet RPC) for remote access. RPCS operates over port 135. (Citation: MSDN WMI)\n\nAn adversary can use WMI to interact with local and remote systems and use it as a means to perform many tactic functions, such as gathering information for Discovery and remote Execution of files as part of Lateral Movement. (Citation: FireEye WMI 2015)",
+            "description": "Windows Management Instrumentation (WMI) is a Windows administration feature that provides a uniform environment for local and remote access to Windows system components. It relies on the WMI service for local and remote access and the server message block (SMB) (Citation: Wikipedia SMB) and Remote Procedure Call Service (RPCS) (Citation: TechNet RPC) for remote access. RPCS operates over port 135. (Citation: MSDN WMI)\n\nAn adversary can use WMI to interact with local and remote systems and use it as a means to perform many tactic functions, such as gathering information for [[Discovery]] and remote [[Execution]] of files as part of [[Lateral Movement]]. (Citation: FireEye WMI 2015)",
             "external_references": [
                 {
                     "external_id": "T1047",

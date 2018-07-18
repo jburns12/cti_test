@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f0f6a348-0c24-408c-83b2-c151114561fb",
+    "id": "bundle--3c5411a3-173b-4307-8a96-72c98322a4c3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -35,7 +35,7 @@
             "x_mitre_contributors": [
                 "David Routin"
             ],
-            "x_mitre_detection": "Processes that write or overwrite many files to a network shared directory may be suspicious. Monitor processes that are executed from removable media for malicious or abnormal activity such as network connections due to Command and Control and possible network Discovery techniques.\n\nFrequently scan shared network directories for malicious files, hidden files, .LNK files, and other file types that may not typical exist in directories used to share specific types of content.",
+            "x_mitre_detection": "Processes that write or overwrite many files to a network shared directory may be suspicious. Monitor processes that are executed from removable media for malicious or abnormal activity such as network connections due to [[Command and Control]] and possible network [[Discovery]] techniques.\n\nFrequently scan shared network directories for malicious files, hidden files, .LNK files, and other file types that may not typical exist in directories used to share specific types of content.",
             "x_mitre_permissions_required": [
                 "User"
             ],

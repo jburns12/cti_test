@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--3796899b-f0f7-4048-a240-1a4ceeec0162",
+    "id": "bundle--fb5fe7df-5ea3-4e8b-8c38-d46de550eee7",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "System Owner/User Discovery",
-            "description": "===Windows===\n\nAdversaries may attempt to identify the primary user, currently logged in user, set of users that commonly uses a system, or whether a user is actively using the system. They may do this, for example, by retrieving account usernames or by using [Credential Dumping Mitigation](https://attack.mitre.org/technique/T1003). The information may be collected in a number of different ways using other Discovery techniques, because user and username details are prevalent throughout a system and include running process ownership, file/directory ownership, session information, and system logs.\n\n===Mac===\n\nOn Mac, the currently logged in user can be identified with <code>users</code>,<code>w</code>, and <code>who</code>.\n\n===Linux===\n\nOn Linux, the currently logged in user can be identified with <code>w</code> and <code>who</code>.",
+            "description": "===Windows===\n\nAdversaries may attempt to identify the primary user, currently logged in user, set of users that commonly uses a system, or whether a user is actively using the system. They may do this, for example, by retrieving account usernames or by using [Credential Dumping Mitigation](https://attack.mitre.org/technique/T1003). The information may be collected in a number of different ways using other [[Discovery]] techniques, because user and username details are prevalent throughout a system and include running process ownership, file/directory ownership, session information, and system logs.\n\n===Mac===\n\nOn Mac, the currently logged in user can be identified with <code>users</code>,<code>w</code>, and <code>who</code>.\n\n===Linux===\n\nOn Linux, the currently logged in user can be identified with <code>w</code> and <code>who</code>.",
             "external_references": [
                 {
                     "external_id": "T1033",

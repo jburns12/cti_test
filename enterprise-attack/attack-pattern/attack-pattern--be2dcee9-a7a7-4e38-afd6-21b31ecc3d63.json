@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--73f18d1b-3c92-434c-a2e0-d60930d01868",
+    "id": "bundle--6962aa20-b115-476d-9a21-9b64c8c481f6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -23,7 +23,7 @@
                 "System calls",
                 "Process Monitoring"
             ],
-            "x_mitre_detection": "Detecting software exploitation may be difficult depending on the tools available. Also look for behavior on the endpoint system that might indicate successful compromise, such as abnormal behavior of the browser or Office processes. This could include suspicious files written to disk, evidence of [Spearphishing via Service Mitigation](https://attack.mitre.org/technique/T1194) for attempts to hide execution, evidence of Discovery, or other unusual network traffic that may indicate additional tools transferred to the system.",
+            "x_mitre_detection": "Detecting software exploitation may be difficult depending on the tools available. Also look for behavior on the endpoint system that might indicate successful compromise, such as abnormal behavior of the browser or Office processes. This could include suspicious files written to disk, evidence of [Spearphishing via Service Mitigation](https://attack.mitre.org/technique/T1194) for attempts to hide execution, evidence of [[Discovery]], or other unusual network traffic that may indicate additional tools transferred to the system.",
             "x_mitre_platforms": [
                 "Linux",
                 "Windows",

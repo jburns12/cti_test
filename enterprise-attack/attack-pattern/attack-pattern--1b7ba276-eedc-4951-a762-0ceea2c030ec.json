@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--8c617616-0ed0-4dbd-a6f8-fa39c5a5f0dc",
+    "id": "bundle--3c642fb2-c6e4-48f0-b6ca-21d462a36288",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--1b7ba276-eedc-4951-a762-0ceea2c030ec",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Data from Removable Media",
-            "description": "Sensitive data can be collected from any removable media (optical disk drive, USB memory, etc.) connected to the compromised system prior to Exfiltration.\n\nAdversaries may search connected removable media on computers they have compromised to find files of interest. Interactive command shells may be in use, and common functionality within [cmd](https://attack.mitre.org/software/S0106) may be used to gather information. Some adversaries may also use [Automated Collection Mitigation](https://attack.mitre.org/technique/T1119) on removable media.",
+            "description": "Sensitive data can be collected from any removable media (optical disk drive, USB memory, etc.) connected to the compromised system prior to [[Exfiltration]].\n\nAdversaries may search connected removable media on computers they have compromised to find files of interest. Interactive command shells may be in use, and common functionality within [cmd](https://attack.mitre.org/software/S0106) may be used to gather information. Some adversaries may also use [Automated Collection Mitigation](https://attack.mitre.org/technique/T1119) on removable media.",
             "external_references": [
                 {
                     "external_id": "T1025",

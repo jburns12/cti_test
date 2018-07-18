@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--aafdf35c-7aea-41a2-9589-a8ac07a379e9",
+    "id": "bundle--65162e25-245b-49af-b220-1ec54a51f164",
     "spec_version": "2.0",
     "objects": [
         {
@@ -25,7 +25,7 @@
                 "Process command-line parameters",
                 "Process use of network"
             ],
-            "x_mitre_detection": "System and network discovery techniques normally occur throughout an operation as an adversary learns the environment. Data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities, such as Lateral Movement, based on the information obtained.\n\nNormal, benign system and network events from legitimate remote service scanning may be uncommon, depending on the environment and how they are used. Legitimate open port and vulnerability scanning may be conducted within the environment and will need to be deconflicted with any detection capabilities developed. Network intrusion detection systems can also be used to identify scanning activity. Monitor for process use of the networks and inspect intra-network flows to detect port scans.",
+            "x_mitre_detection": "System and network discovery techniques normally occur throughout an operation as an adversary learns the environment. Data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities, such as [[Lateral Movement]], based on the information obtained.\n\nNormal, benign system and network events from legitimate remote service scanning may be uncommon, depending on the environment and how they are used. Legitimate open port and vulnerability scanning may be conducted within the environment and will need to be deconflicted with any detection capabilities developed. Network intrusion detection systems can also be used to identify scanning activity. Monitor for process use of the networks and inspect intra-network flows to detect port scans.",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",

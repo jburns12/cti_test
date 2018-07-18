@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--4250ac8d-e7ae-4aab-a6ac-912055ca04a5",
+    "id": "bundle--71e3e780-cf59-4e6b-b176-4cefb4274ce5",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "course-of-action--9ab7de33-99b2-4d8d-8cf3-182fa0015cc2",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Logon Scripts Mitigation",
-            "description": "Restrict write access to logon scripts to specific administrators. Prevent access to administrator accounts by mitigating Credential Access techniques and limiting account access and permissions of [Valid Accounts Mitigation](https://attack.mitre.org/technique/T1078).\n\nIdentify and block potentially malicious software that may be executed through logon script modification by using whitelisting (Citation: Beechey 2010) tools like AppLocker (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) that are capable of auditing and/or blocking unknown programs.",
+            "description": "Restrict write access to logon scripts to specific administrators. Prevent access to administrator accounts by mitigating [[Credential Access]] techniques and limiting account access and permissions of [Valid Accounts Mitigation](https://attack.mitre.org/technique/T1078).\n\nIdentify and block potentially malicious software that may be executed through logon script modification by using whitelisting (Citation: Beechey 2010) tools like AppLocker (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) that are capable of auditing and/or blocking unknown programs.",
             "external_references": [
                 {
                     "external_id": "T1037",

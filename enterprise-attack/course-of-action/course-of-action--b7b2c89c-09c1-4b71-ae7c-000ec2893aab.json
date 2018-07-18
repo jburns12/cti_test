@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--c92103c7-9616-441f-830e-1dbb6e2de383",
+    "id": "bundle--97d07ec2-83b2-4d29-8744-9bb5ca803a05",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "course-of-action--b7b2c89c-09c1-4b71-ae7c-000ec2893aab",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "New Service Mitigation",
-            "description": "Limit privileges of user accounts and remediate Privilege Escalation vectors so only  authorized administrators can create new services.\n\nIdentify and block unnecessary system utilities or potentially malicious software that may be used to create services by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
+            "description": "Limit privileges of user accounts and remediate [[Privilege Escalation]] vectors so only  authorized administrators can create new services.\n\nIdentify and block unnecessary system utilities or potentially malicious software that may be used to create services by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
             "external_references": [
                 {
                     "external_id": "T1050",

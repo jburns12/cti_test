@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9f3892fb-cf7e-4da4-95a5-7b7cbea4b2e4",
+    "id": "bundle--f83e0f74-b902-421c-b916-62e93776e5ee",
     "spec_version": "2.0",
     "objects": [
         {
@@ -23,7 +23,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Correlate use of login activity related to remote services with unusual behavior or other malicious or suspicious activity. Adversaries will likely need to learn about an environment and the relationships between systems through Discovery techniques prior to attempting Lateral Movement.",
+            "x_mitre_detection": "Correlate use of login activity related to remote services with unusual behavior or other malicious or suspicious activity. Adversaries will likely need to learn about an environment and the relationships between systems through [[Discovery]] techniques prior to attempting [[Lateral Movement]].",
             "x_mitre_data_sources": [
                 "Authentication logs"
             ],

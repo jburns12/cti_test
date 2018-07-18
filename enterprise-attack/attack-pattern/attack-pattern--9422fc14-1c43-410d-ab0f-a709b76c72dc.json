@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--55a6783f-12a5-4036-b8d9-6d3051e74ae1",
+    "id": "bundle--a9bdf3b0-f6f1-4a0d-be1d-0a64cc723784",
     "spec_version": "2.0",
     "objects": [
         {
@@ -37,7 +37,7 @@
                 "Windows Registry",
                 "File monitoring"
             ],
-            "x_mitre_detection": "Monitor Registry for changes to run keys that do not correlate with known software, patch cycles, etc. Monitor the start folder for additions or changes. Tools such as Sysinternals Autoruns may also be used to detect system changes that could be attempts at persistence, including listing the run keys' Registry locations and startup folders. (Citation: TechNet Autoruns) Suspicious program execution as startup programs may show up as outlier processes that have not been seen before when compared against historical data.\n\nChanges to these locations typically happen under normal conditions when legitimate software is installed. To increase confidence of malicious activity, data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities, such as network connections made for Command and Control, learning details about the environment through Discovery, and Lateral Movement.",
+            "x_mitre_detection": "Monitor Registry for changes to run keys that do not correlate with known software, patch cycles, etc. Monitor the start folder for additions or changes. Tools such as Sysinternals Autoruns may also be used to detect system changes that could be attempts at persistence, including listing the run keys' Registry locations and startup folders. (Citation: TechNet Autoruns) Suspicious program execution as startup programs may show up as outlier processes that have not been seen before when compared against historical data.\n\nChanges to these locations typically happen under normal conditions when legitimate software is installed. To increase confidence of malicious activity, data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities, such as network connections made for [[Command and Control]], learning details about the environment through [[Discovery]], and [[Lateral Movement]].",
             "x_mitre_permissions_required": [
                 "User",
                 "Administrator"

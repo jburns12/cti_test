@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2ab61e17-3508-42eb-bffd-a30d1bc2b68f",
+    "id": "bundle--cfc0bbd9-6767-42f9-baa7-6efeee69ea80",
     "spec_version": "2.0",
     "objects": [
         {
@@ -35,7 +35,7 @@
                 "Process command-line parameters",
                 "Process Monitoring"
             ],
-            "x_mitre_detection": "Monitor processes for tools and command line arguments that may indicate they're being used for password policy discovery. Correlate that activity with other suspicious activity from the originating system to reduce potential false positives from valid user or administrator activity. Adversaries will likely attempt to find the password policy early in an operation and the activity is likely to happen with other Discovery activity.",
+            "x_mitre_detection": "Monitor processes for tools and command line arguments that may indicate they're being used for password policy discovery. Correlate that activity with other suspicious activity from the originating system to reduce potential false positives from valid user or administrator activity. Adversaries will likely attempt to find the password policy early in an operation and the activity is likely to happen with other [[Discovery]] activity.",
             "x_mitre_permissions_required": [
                 "User"
             ],

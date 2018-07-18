@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--298457e0-5b8a-45b7-a626-3dfbbcda0216",
+    "id": "bundle--a3552ba7-149a-4fd4-9114-239c51637701",
     "spec_version": "2.0",
     "objects": [
         {
@@ -23,7 +23,7 @@
                 "Authentication logs",
                 "Third-party application logs"
             ],
-            "x_mitre_detection": "Establish monitoring for activity conducted by second and third party providers and other trusted entities that may be leveraged as a means to gain access to the network. Depending on the type of relationship, an adversary may have access to significant amounts of information about the target before conducting an operation, especially if the trusted relationship is based on IT services. Adversaries may be able to act quickly towards an objective, so proper monitoring for behavior related to Credential Access, Lateral Movement, and Collection will be important to detect the intrusion.",
+            "x_mitre_detection": "Establish monitoring for activity conducted by second and third party providers and other trusted entities that may be leveraged as a means to gain access to the network. Depending on the type of relationship, an adversary may have access to significant amounts of information about the target before conducting an operation, especially if the trusted relationship is based on IT services. Adversaries may be able to act quickly towards an objective, so proper monitoring for behavior related to [[Credential Access]], [[Lateral Movement]], and [[Collection]] will be important to detect the intrusion.",
             "x_mitre_platforms": [
                 "Linux",
                 "Windows",
