@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--156899fc-2e91-4fe6-b967-dbf9024b74d5",
+    "id": "bundle--4c1a45ea-860f-4295-bd0b-ae358b03dff0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,7 +27,7 @@
                 "Anti-virus",
                 "Signature-based detection"
             ],
-            "x_mitre_detection": "Depending on the method used to pad files, a file-based signature may be capable of detecting padding using a scanning or on-access based tool. \n\nWhen executed, the resulting process from padded files may also exhibit other behavior characteristics of being used to conduct an intrusion such as system and network information [[Discovery]] or [[Lateral Movement]], which could be used as event indicators that point to the source file.",
+            "x_mitre_detection": "Depending on the method used to pad files, a file-based signature may be capable of detecting padding using a scanning or on-access based tool. \n\nWhen executed, the resulting process from padded files may also exhibit other behavior characteristics of being used to conduct an intrusion such as system and network information Discovery or Lateral Movement, which could be used as event indicators that point to the source file.",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",

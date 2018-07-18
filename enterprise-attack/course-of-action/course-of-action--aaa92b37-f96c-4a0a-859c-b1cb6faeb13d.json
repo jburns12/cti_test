@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--753a113f-9593-4010-824f-d1332db8389e",
+    "id": "bundle--7b442089-9980-4247-aa3a-c24d1eea00e9",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "course-of-action--aaa92b37-f96c-4a0a-859c-b1cb6faeb13d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Graphical User Interface Mitigation",
-            "description": "Prevent adversaries from gaining access to credentials through [[Credential Access]] that can be used to log into remote desktop sessions on systems.\n\nIdentify unnecessary system utilities, third-party tools, or potentially malicious software that may be used to log into remote interactive sessions, and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools, like AppLocker (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) and Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
+            "description": "Prevent adversaries from gaining access to credentials through Credential Access that can be used to log into remote desktop sessions on systems.\n\nIdentify unnecessary system utilities, third-party tools, or potentially malicious software that may be used to log into remote interactive sessions, and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools, like AppLocker (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) and Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
             "external_references": [
                 {
                     "external_id": "T1061",

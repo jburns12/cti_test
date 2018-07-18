@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--60497626-93d6-4ac1-90ed-4bf38f1c1fe6",
+    "id": "bundle--528bf60c-c84a-4485-a6b1-1e0f61de5bcc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -22,7 +22,7 @@
                 "File monitoring",
                 "Data loss prevention"
             ],
-            "x_mitre_detection": "Monitor file access on removable media. Detect processes that execute from removable media after it is mounted or when initiated by a user. If a remote access tool is used in this manner to move laterally, then additional actions are likely to occur after execution, such as opening network connections for [[Command and Control]] and system and network information [[Discovery]].",
+            "x_mitre_detection": "Monitor file access on removable media. Detect processes that execute from removable media after it is mounted or when initiated by a user. If a remote access tool is used in this manner to move laterally, then additional actions are likely to occur after execution, such as opening network connections for Command and Control and system and network information Discovery.",
             "x_mitre_permissions_required": [
                 "User"
             ],

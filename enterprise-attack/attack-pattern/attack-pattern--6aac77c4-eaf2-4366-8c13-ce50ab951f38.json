@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bcd33d8c-ab26-4c37-8444-12c1bab21778",
+    "id": "bundle--f5f611f1-aaab-4497-ba60-ae7a32fe1880",
     "spec_version": "2.0",
     "objects": [
         {
@@ -31,7 +31,7 @@
                 "Detonation chamber",
                 "Email gateway"
             ],
-            "x_mitre_detection": "Network intrusion detection systems and email gateways can be used to detect spearphishing with malicious attachments in transit. Detonation chambers may also be used to identify malicious attachments. Solutions can be signature and behavior based, but adversaries may construct attachments in a way to avoid these systems.\n\nAnti-virus can potentially detect malicious documents and attachments as they're scanned to be stored on the email server or on the user's computer. Endpoint sensing or network sensing can potentially detect malicious events once the attachment is opened (such as a Microsoft Word document or PDF reaching out to the internet or spawning Powershell.exe) for techniques such as [User Execution](https://attack.mitre.org/technique/T1204) and [User Execution](https://attack.mitre.org/technique/T1204).",
+            "x_mitre_detection": "Network intrusion detection systems and email gateways can be used to detect spearphishing with malicious attachments in transit. Detonation chambers may also be used to identify malicious attachments. Solutions can be signature and behavior based, but adversaries may construct attachments in a way to avoid these systems.\n\nAnti-virus can potentially detect malicious documents and attachments as they're scanned to be stored on the email server or on the user's computer. Endpoint sensing or network sensing can potentially detect malicious events once the attachment is opened (such as a Microsoft Word document or PDF reaching out to the internet or spawning Powershell.exe) for techniques such as [Exploitation for Client Execution](https://attack.mitre.org/technique/T1203) and [Scripting](https://attack.mitre.org/technique/T1064).",
             "x_mitre_platforms": [
                 "Linux",
                 "Windows",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d90cdfa7-ae4b-4df7-9b42-c83ce1ec5b32",
+    "id": "bundle--fd1f4dc9-5ca6-4138-85eb-f10d7c902db7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -65,7 +65,7 @@
             "x_mitre_contributors": [
                 "Stefan Kanthak"
             ],
-            "x_mitre_detection": "Monitor file creation for files named after partial directories and in locations that may be searched for common processes through the environment variable, or otherwise should not be user writable. Monitor the executing process for process executable paths that are named for partial directories. Monitor file creation for programs that are named after Windows system programs or programs commonly executed without a path (such as \"findstr,\" \"net,\" and \"python\"). If this activity occurs outside of known administration activity, upgrades, installations, or patches, then it may be suspicious. \n\nData and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities, such as network connections made for [[Command and Control]], learning details about the environment through [[Discovery]], and [[Lateral Movement]].",
+            "x_mitre_detection": "Monitor file creation for files named after partial directories and in locations that may be searched for common processes through the environment variable, or otherwise should not be user writable. Monitor the executing process for process executable paths that are named for partial directories. Monitor file creation for programs that are named after Windows system programs or programs commonly executed without a path (such as \"findstr,\" \"net,\" and \"python\"). If this activity occurs outside of known administration activity, upgrades, installations, or patches, then it may be suspicious. \n\nData and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities, such as network connections made for Command and Control, learning details about the environment through Discovery, and Lateral Movement.",
             "x_mitre_effective_permissions": [
                 "User",
                 "Administrator",

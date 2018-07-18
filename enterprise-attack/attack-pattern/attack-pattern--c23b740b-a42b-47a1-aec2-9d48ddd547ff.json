@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--169c82b5-5b83-4e15-8f87-17dc532bf055",
+    "id": "bundle--a3af1cab-129e-47f2-967d-e1788379069c",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--c23b740b-a42b-47a1-aec2-9d48ddd547ff",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Pass the Hash",
-            "description": "Pass the hash (PtH) is a method of authenticating as a user without having access to the user's cleartext password. This method bypasses standard authentication steps that require a cleartext password, moving directly into the portion of the authentication that uses the password hash. In this technique, valid password hashes for the account being used are captured using a [[Credential Access]] technique. Captured hashes are used with PtH to authenticate as that user. Once authenticated, PtH may be used to perform actions on local or remote systems. \n\nWindows 7 and higher with KB2871997 require valid domain user credentials or RID 500 administrator hashes. (Citation: NSA Spotting)",
+            "description": "Pass the hash (PtH) is a method of authenticating as a user without having access to the user's cleartext password. This method bypasses standard authentication steps that require a cleartext password, moving directly into the portion of the authentication that uses the password hash. In this technique, valid password hashes for the account being used are captured using a Credential Access technique. Captured hashes are used with PtH to authenticate as that user. Once authenticated, PtH may be used to perform actions on local or remote systems. \n\nWindows 7 and higher with KB2871997 require valid domain user credentials or RID 500 administrator hashes. (Citation: NSA Spotting)",
             "external_references": [
                 {
                     "external_id": "T1075",

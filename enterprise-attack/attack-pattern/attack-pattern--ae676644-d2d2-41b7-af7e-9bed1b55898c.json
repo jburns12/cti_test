@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--fb8d6a71-31d2-4bce-982e-5fb8843a2990",
+    "id": "bundle--0a59b944-869b-4481-930a-b9a9271b7a57",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--ae676644-d2d2-41b7-af7e-9bed1b55898c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Data from Network Shared Drive",
-            "description": "Sensitive data can be collected from remote systems via shared network drives (host shared directory, network file server, etc.) that are accessible from the current system prior to [[Exfiltration]].\n\nAdversaries may search network shares on computers they have compromised to find files of interest. Interactive command shells may be in use, and common functionality within [cmd](https://attack.mitre.org/software/S0106) may be used to gather information.",
+            "description": "Sensitive data can be collected from remote systems via shared network drives (host shared directory, network file server, etc.) that are accessible from the current system prior to Exfiltration.\n\nAdversaries may search network shares on computers they have compromised to find files of interest. Interactive command shells may be in use, and common functionality within [cmd](https://attack.mitre.org/software/S0106) may be used to gather information.",
             "external_references": [
                 {
                     "external_id": "T1039",
@@ -23,7 +23,7 @@
                 "Process monitoring",
                 "Process command-line parameters"
             ],
-            "x_mitre_detection": "Monitor processes and command-line arguments for actions that could be taken to collect files from a network share. Remote access tools with built-in features may interact directly with the Windows API to gather data. Data may also be acquired through Windows system management tools such as [cmd](https://attack.mitre.org/software/S0106) and [cmd](https://attack.mitre.org/software/S0106).",
+            "x_mitre_detection": "Monitor processes and command-line arguments for actions that could be taken to collect files from a network share. Remote access tools with built-in features may interact directly with the Windows API to gather data. Data may also be acquired through Windows system management tools such as [Windows Management Instrumentation](https://attack.mitre.org/technique/T1047) and [PowerShell](https://attack.mitre.org/technique/T1086).",
             "x_mitre_system_requirements": [
                 "Privileges to access network shared drive"
             ],

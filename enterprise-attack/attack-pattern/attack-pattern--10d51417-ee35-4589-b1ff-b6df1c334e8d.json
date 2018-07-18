@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b8ae360f-0e99-482e-ace0-159de18cc5fa",
+    "id": "bundle--cab63b37-abdc-40f0-a410-977bb7f59936",
     "spec_version": "2.0",
     "objects": [
         {
@@ -30,7 +30,7 @@
             "x_mitre_data_sources": [
                 "Authentication logs"
             ],
-            "x_mitre_detection": "Follow best practices for detecting adversary use of [Redundant Access](https://attack.mitre.org/technique/T1108) for authenticating to remote services. Collect authentication logs and analyze for unusual access patterns, windows of activity, and access outside of normal business hours.",
+            "x_mitre_detection": "Follow best practices for detecting adversary use of [Valid Accounts](https://attack.mitre.org/technique/T1078) for authenticating to remote services. Collect authentication logs and analyze for unusual access patterns, windows of activity, and access outside of normal business hours.",
             "x_mitre_permissions_required": [
                 "User"
             ],

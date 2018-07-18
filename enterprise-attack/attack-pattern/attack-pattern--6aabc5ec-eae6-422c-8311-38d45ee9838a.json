@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--48b0ec15-4e71-4f12-ba40-66756ad3f05a",
+    "id": "bundle--e9d03a0f-20cc-421f-845b-86ddef1b6a74",
     "spec_version": "2.0",
     "objects": [
         {
@@ -36,7 +36,7 @@
                 "Anti-virus",
                 "Network intrusion detection system"
             ],
-            "x_mitre_detection": "Existing methods of detecting remote access tools are helpful. Backup remote access tools or other access points may not have established command and control channels open during an intrusion, so the volume of data transferred may not be as high as the primary channel unless access is lost.\n\nDetection of tools based on beacon traffic, [[Command and Control]] protocol, or adversary infrastructure require prior threat intelligence on tools, IP addresses, and/or domains the adversary may use, along with the ability to detect use at the network boundary. Prior knowledge of indicators of compromise may also help detect adversary tools at the endpoint if tools are available to scan for those indicators.\n\nIf an intrusion is in progress and sufficient endpoint data or decoded command and control traffic is collected, then defenders will likely be able to detect additional tools dropped as the adversary is conducting the operation.\n\nFor alternative access using externally accessible VPNs or remote services, follow detection recommendations under [Web Shell](https://attack.mitre.org/technique/T1100) and [Web Shell](https://attack.mitre.org/technique/T1100) to collect account use information.",
+            "x_mitre_detection": "Existing methods of detecting remote access tools are helpful. Backup remote access tools or other access points may not have established command and control channels open during an intrusion, so the volume of data transferred may not be as high as the primary channel unless access is lost.\n\nDetection of tools based on beacon traffic, Command and Control protocol, or adversary infrastructure require prior threat intelligence on tools, IP addresses, and/or domains the adversary may use, along with the ability to detect use at the network boundary. Prior knowledge of indicators of compromise may also help detect adversary tools at the endpoint if tools are available to scan for those indicators.\n\nIf an intrusion is in progress and sufficient endpoint data or decoded command and control traffic is collected, then defenders will likely be able to detect additional tools dropped as the adversary is conducting the operation.\n\nFor alternative access using externally accessible VPNs or remote services, follow detection recommendations under [Valid Accounts](https://attack.mitre.org/technique/T1078) and [External Remote Services](https://attack.mitre.org/technique/T1133) to collect account use information.",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",

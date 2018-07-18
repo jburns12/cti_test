@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--c7cd568c-3a38-4a53-8627-c783948e73f1",
+    "id": "bundle--f66370a1-2ce8-4338-adce-27cc0ceae5e4",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--92d7da27-2d91-488e-a00c-059dc162766d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Exfiltration Over Command and Control Channel",
-            "description": "Data exfiltration is performed over the [[Command and Control]] channel.  Data is encoded into the normal communications channel using the same protocol as command and control communications.",
+            "description": "Data exfiltration is performed over the Command and Control channel.  Data is encoded into the normal communications channel using the same protocol as command and control communications.",
             "external_references": [
                 {
                     "external_id": "T1041",

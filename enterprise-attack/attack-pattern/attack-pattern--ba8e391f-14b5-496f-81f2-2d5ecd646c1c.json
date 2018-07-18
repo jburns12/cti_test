@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--313167fd-8750-44b2-a2e3-026d7fcaa791",
+    "id": "bundle--0a513f15-4c12-428c-abfd-34764d76270c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -37,7 +37,7 @@
                 "File monitoring",
                 "Process command-line parameters"
             ],
-            "x_mitre_detection": "While detecting adversaries accessing these files may be difficult without knowing they exist in the first place, it may be possible to detect adversary use of credentials they have obtained. Monitor the command-line arguments of executing processes for suspicious words or regular expressions that may indicate searching for a password (for example: password, pwd, login, secure, or credentials). See [Credential Dumping](https://attack.mitre.org/technique/T1003) for more information.",
+            "x_mitre_detection": "While detecting adversaries accessing these files may be difficult without knowing they exist in the first place, it may be possible to detect adversary use of credentials they have obtained. Monitor the command-line arguments of executing processes for suspicious words or regular expressions that may indicate searching for a password (for example: password, pwd, login, secure, or credentials). See [Valid Accounts](https://attack.mitre.org/technique/T1078) for more information.",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",

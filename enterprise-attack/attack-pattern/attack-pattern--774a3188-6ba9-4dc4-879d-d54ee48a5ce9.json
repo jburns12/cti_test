@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--ff826985-9b38-4fad-9f72-48795e39cb09",
+    "id": "bundle--1e5aae89-caae-4dc0-b062-aeda6f9fcb4f",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--774a3188-6ba9-4dc4-879d-d54ee48a5ce9",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Automated Exfiltration",
-            "description": "Data, such as sensitive documents, may be exfiltrated through the use of automated processing or [Scripting](https://attack.mitre.org/technique/T1064) after being gathered during [[Collection]]. \n\nWhen automated exfiltration is used, other exfiltration techniques likely apply as well to transfer the information out of the network, such as [Exfiltration Over Command and Control Channel](https://attack.mitre.org/technique/T1041) and [Exfiltration Over Alternative Protocol](https://attack.mitre.org/technique/T1048).",
+            "description": "Data, such as sensitive documents, may be exfiltrated through the use of automated processing or [Scripting](https://attack.mitre.org/technique/T1064) after being gathered during Collection. \n\nWhen automated exfiltration is used, other exfiltration techniques likely apply as well to transfer the information out of the network, such as [Exfiltration Over Command and Control Channel](https://attack.mitre.org/technique/T1041) and [Exfiltration Over Alternative Protocol](https://attack.mitre.org/technique/T1048).",
             "external_references": [
                 {
                     "external_id": "T1020",

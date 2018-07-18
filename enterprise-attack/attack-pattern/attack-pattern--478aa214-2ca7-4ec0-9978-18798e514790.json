@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fef893da-4c4b-47a4-a28a-b539b516d75c",
+    "id": "bundle--aed65c86-7e74-4da1-ae50-8e6bf43938d3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -38,7 +38,7 @@
                 "Process monitoring",
                 "Process command-line parameters"
             ],
-            "x_mitre_detection": "Monitor service creation through changes in the Registry and common utilities using command-line invocation. New, benign services may be created during installation of new software. Data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities, such as network connections made for [[Command and Control]], learning details about the environment through [[Discovery]], and [[Lateral Movement]].\n\nTools such as Sysinternals Autoruns may also be used to detect system changes that could be attempts at persistence. (Citation: TechNet Autoruns) Look for changes to services that do not correlate with known software, patch cycles, etc. Suspicious program execution through services may show up as outlier processes that have not been seen before when compared against historical data.\n\nMonitor processes and command-line arguments for actions that could create services. Remote access tools with built-in features may interact directly with the Windows API to perform these functions outside of typical system utilities. Services may also be created through Windows system management tools such as [Service Execution](https://attack.mitre.org/technique/T1035) and [Service Execution](https://attack.mitre.org/technique/T1035), so additional logging may need to be configured to gather the appropriate data.",
+            "x_mitre_detection": "Monitor service creation through changes in the Registry and common utilities using command-line invocation. New, benign services may be created during installation of new software. Data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities, such as network connections made for Command and Control, learning details about the environment through Discovery, and Lateral Movement.\n\nTools such as Sysinternals Autoruns may also be used to detect system changes that could be attempts at persistence. (Citation: TechNet Autoruns) Look for changes to services that do not correlate with known software, patch cycles, etc. Suspicious program execution through services may show up as outlier processes that have not been seen before when compared against historical data.\n\nMonitor processes and command-line arguments for actions that could create services. Remote access tools with built-in features may interact directly with the Windows API to perform these functions outside of typical system utilities. Services may also be created through Windows system management tools such as [Windows Management Instrumentation](https://attack.mitre.org/technique/T1047) and [PowerShell](https://attack.mitre.org/technique/T1086), so additional logging may need to be configured to gather the appropriate data.",
             "x_mitre_effective_permissions": [
                 "SYSTEM"
             ],

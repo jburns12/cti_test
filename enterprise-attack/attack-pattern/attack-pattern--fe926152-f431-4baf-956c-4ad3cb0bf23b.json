@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--069ced49-7025-4d4c-99be-376c7bd0bb75",
+    "id": "bundle--b281c7a9-88e2-4edc-9eaa-4491b99c5ef5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -30,7 +30,7 @@
                 "Anti-virus",
                 "System access controls"
             ],
-            "x_mitre_detection": "Exploitation for defense evasion may happen shortly after the system has been compromised to prevent detection during later actions for for additional tools that may be brought in and used. Detecting software exploitation may be difficult depending on the tools available. Software exploits may not always succeed or may cause the exploited process to become unstable or crash. Also look for behavior on the system that might indicate successful compromise, such as abnormal behavior of processes. This could include suspicious files written to disk, evidence of [Security Software Discovery](https://attack.mitre.org/technique/T1063) for attempts to hide execution or evidence of [[Discovery]].",
+            "x_mitre_detection": "Exploitation for defense evasion may happen shortly after the system has been compromised to prevent detection during later actions for for additional tools that may be brought in and used. Detecting software exploitation may be difficult depending on the tools available. Software exploits may not always succeed or may cause the exploited process to become unstable or crash. Also look for behavior on the system that might indicate successful compromise, such as abnormal behavior of processes. This could include suspicious files written to disk, evidence of [Process Injection](https://attack.mitre.org/technique/T1055) for attempts to hide execution or evidence of Discovery.",
             "x_mitre_permissions_required": [
                 "User"
             ],

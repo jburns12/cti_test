@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c89fd472-0115-4a61-9268-488625c87934",
+    "id": "bundle--be6f1713-3019-4964-86b6-9b4382d7645b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -18,7 +18,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Changes to service Registry entries and command-line invocation of tools capable of modifying services that do not correlate with known software, patch cycles, etc., may be suspicious. If a service is used only to execute a binary or script and not to persist, then it will likely be changed back to its original form shortly after the service is restarted so the service is not left broken, as is the case with the common administrator tool [Modify Existing Service](https://attack.mitre.org/technique/T1031).",
+            "x_mitre_detection": "Changes to service Registry entries and command-line invocation of tools capable of modifying services that do not correlate with known software, patch cycles, etc., may be suspicious. If a service is used only to execute a binary or script and not to persist, then it will likely be changed back to its original form shortly after the service is restarted so the service is not left broken, as is the case with the common administrator tool [PsExec](https://attack.mitre.org/software/S0029).",
             "x_mitre_data_sources": [
                 "Windows Registry",
                 "Process command-line parameters",

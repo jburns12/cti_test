@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2f5ee333-ebc2-433f-a5fc-417729ade625",
+    "id": "bundle--d2a818c5-4559-4462-a9a8-397e6dfdc3ca",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,7 +27,7 @@
                 "Process command-line parameters",
                 "Process Monitoring"
             ],
-            "x_mitre_detection": "Monitor processes and command-line arguments for actions that could be taken to gather browser bookmark information. Remote access tools with built-in features may interact directly using APIs to gather information. Information may also be acquired through system management tools such as [Credentials in Files](https://attack.mitre.org/technique/T1081) and [Credentials in Files](https://attack.mitre.org/technique/T1081).\n\nSystem and network discovery techniques normally occur throughout an operation as an adversary learns the environment. Data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities, such as [[Collection]] and [[Exfiltration]], based on the information obtained.",
+            "x_mitre_detection": "Monitor processes and command-line arguments for actions that could be taken to gather browser bookmark information. Remote access tools with built-in features may interact directly using APIs to gather information. Information may also be acquired through system management tools such as [Windows Management Instrumentation](https://attack.mitre.org/technique/T1047) and [PowerShell](https://attack.mitre.org/technique/T1086).\n\nSystem and network discovery techniques normally occur throughout an operation as an adversary learns the environment. Data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities, such as Collection and Exfiltration, based on the information obtained.",
             "x_mitre_permissions_required": [
                 "User"
             ],
