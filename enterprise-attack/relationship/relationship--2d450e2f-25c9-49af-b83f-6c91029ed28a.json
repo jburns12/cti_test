@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--e2209042-c7a5-4182-b7cb-24b3bf714359",
+    "id": "bundle--24960656-33b3-4918-9412-0722d65adeb4",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--2d450e2f-25c9-49af-b83f-6c91029ed28a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT28](https://attack.mitre.org/group/G0007) can deploy a tool to perform keylogging.",
+            "description": "[APT28](https://attack.mitre.org/groups/G0007) can deploy a tool to perform keylogging.",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "attack-pattern--bb5a00de-e086-4859-a231-fa793f6797e2",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.039Z"
         }
     ]

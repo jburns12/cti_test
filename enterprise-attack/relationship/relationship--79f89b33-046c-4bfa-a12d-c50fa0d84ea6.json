@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--c10410fb-348c-4aac-950b-dec35e53c3c4",
+    "id": "bundle--855534cb-cede-413d-8b88-3320f29227af",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--79f89b33-046c-4bfa-a12d-c50fa0d84ea6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Magic Hound](https://attack.mitre.org/group/G0059) malware can use a SOAP Web service to communicate with its C2 server.",
+            "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) malware can use a SOAP Web service to communicate with its C2 server.",
             "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
             "target_ref": "attack-pattern--830c9528-df21-472c-8c14-a036bf17d665",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

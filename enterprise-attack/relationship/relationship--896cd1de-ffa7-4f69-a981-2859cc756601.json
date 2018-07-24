@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--69976bc2-d62e-42fa-a4bd-32fc990a3573",
+    "id": "bundle--1793a2b4-9f7a-455a-bc7c-4ae6ebc7aa62",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--896cd1de-ffa7-4f69-a981-2859cc756601",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[CopyKittens](https://attack.mitre.org/group/G0052) uses rundll32 to load various tools on victims, including a lateral movement tool named Vminst, Cobalt Strike, and shellcode.",
+            "description": "[CopyKittens](https://attack.mitre.org/groups/G0052) uses rundll32 to load various tools on victims, including a lateral movement tool named Vminst, Cobalt Strike, and shellcode.",
             "source_ref": "intrusion-set--dcd81c6e-ebf7-4a16-93e0-9a97fa49c88a",
             "target_ref": "attack-pattern--62b8c999-dcc0-4755-bd69-09442d9359f5",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

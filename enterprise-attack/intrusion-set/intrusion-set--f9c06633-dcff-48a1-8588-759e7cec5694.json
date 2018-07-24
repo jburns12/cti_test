@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0cdcdde6-eff8-4980-ba72-5c8bf1cdcfec",
+    "id": "bundle--653d7429-3ff8-4987-96f6-4ca04ef2be3d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,14 +8,14 @@
             "id": "intrusion-set--f9c06633-dcff-48a1-8588-759e7cec5694",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "PLATINUM",
-            "description": "[PLATINUM](https://attack.mitre.org/group/G0068) is an activity group that has targeted victims since at least 2009. The group has focused on targets associated with governments and related organizations in South and Southeast Asia. (Citation: Microsoft PLATINUM April 2016)",
+            "description": "[PLATINUM](https://attack.mitre.org/groups/G0068) is an activity group that has targeted victims since at least 2009. The group has focused on targets associated with governments and related organizations in South and Southeast Asia. (Citation: Microsoft PLATINUM April 2016)",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
                     "external_id": "G0068",
-                    "url": "https://attack.mitre.org/group/G0068",
+                    "url": "https://attack.mitre.org/groups/G0068",
                     "source_name": "mitre-attack"
                 },
                 {
@@ -33,7 +33,7 @@
             "aliases": [
                 "PLATINUM"
             ],
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

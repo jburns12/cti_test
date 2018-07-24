@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--c9ee227c-e738-45b4-a201-4c4ec6c35e24",
+    "id": "bundle--40cd4eab-be34-4f81-8fa8-dadcf4aab457",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--92bc1e7b-6700-4d11-b82e-24284f30c2d7",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[FIN8](https://attack.mitre.org/group/G0061) has deleted tmp and prefetch files during post compromise cleanup activities.",
+            "description": "[FIN8](https://attack.mitre.org/groups/G0061) has deleted tmp and prefetch files during post compromise cleanup activities.",
             "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
             "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--09614641-188a-4a75-b81d-3bc6e4cee793",
+    "id": "bundle--24661523-37df-45f7-b26c-1a876116f8b5",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--d36e441f-3455-4373-a1e9-be28f3d50c76",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Magic Hound](https://attack.mitre.org/group/G0059) sent malicious attachments to victims over email, including an Excel spreadsheet containing macros to download Pupy.",
+            "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) sent malicious attachments to victims over email, including an Excel spreadsheet containing macros to download Pupy.",
             "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
             "target_ref": "attack-pattern--6aac77c4-eaf2-4366-8c13-ce50ab951f38",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--b2115640-e608-4b28-a5e9-a508f722297b",
+    "id": "bundle--e0e4add7-e7d1-4472-8d46-333184b3e325",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--4a0887ab-3ec3-436a-b378-6e28847dfb1e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT29](https://attack.mitre.org/group/G0016) used named and hijacked scheduled tasks to establish persistence.",
+            "description": "[APT29](https://attack.mitre.org/groups/G0016) used named and hijacked scheduled tasks to establish persistence.",
             "source_ref": "intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542",
             "target_ref": "attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.049Z"
         }
     ]

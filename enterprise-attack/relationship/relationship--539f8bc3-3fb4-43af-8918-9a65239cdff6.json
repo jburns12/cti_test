@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--c41d4514-11b1-4fc3-bd37-3b7bbc42b512",
+    "id": "bundle--f10167ca-45c9-48ed-af00-9dcb667a961b",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--539f8bc3-3fb4-43af-8918-9a65239cdff6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Carbanak](https://attack.mitre.org/group/G0008) installs VNC server software that executes through rundll32.",
+            "description": "[Carbanak](https://attack.mitre.org/groups/G0008) installs VNC server software that executes through rundll32.",
             "source_ref": "intrusion-set--55033a4d-3ffe-46b2-99b4-2c1541e9ce1c",
             "target_ref": "attack-pattern--62b8c999-dcc0-4755-bd69-09442d9359f5",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.042Z"
         }
     ]

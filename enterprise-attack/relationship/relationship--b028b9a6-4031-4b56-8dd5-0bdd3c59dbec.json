@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--3faaf1b6-2dc8-4f8c-8ffb-f907d953b922",
+    "id": "bundle--6d411c33-cdea-4e06-978a-9ba0ac50a173",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--b028b9a6-4031-4b56-8dd5-0bdd3c59dbec",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT3](https://attack.mitre.org/group/G0022) has used tools to compress data before exfilling it.",
+            "description": "[APT3](https://attack.mitre.org/groups/G0022) has used tools to compress data before exfilling it.",
             "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
             "target_ref": "attack-pattern--b9f5dbe2-4c55-4fc5-af2e-d42c1d182ec4",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--e83371a1-53c2-4254-be92-d70f4d16f808",
+    "id": "bundle--570a532e-8fa8-4961-a071-1318f9c818c2",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--4ad9aa86-f489-4f0f-926f-f381221c3705",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[BlackOasis](https://attack.mitre.org/group/G0063)'s first stage shellcode contains a NOP sled with alternative instructions that was likely designed to bypass antivirus tools.",
+            "description": "[BlackOasis](https://attack.mitre.org/groups/G0063)'s first stage shellcode contains a NOP sled with alternative instructions that was likely designed to bypass antivirus tools.",
             "source_ref": "intrusion-set--da49b9f1-ca99-443f-9728-0a074db66850",
             "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

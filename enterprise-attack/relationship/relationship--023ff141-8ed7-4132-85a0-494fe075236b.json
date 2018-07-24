@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--e6e7b2e0-2365-47bc-89a3-fa3eb6f01892",
+    "id": "bundle--cd165057-db6f-4de9-b6ce-b63838ca348d",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--023ff141-8ed7-4132-85a0-494fe075236b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Magic Hound](https://attack.mitre.org/group/G0059) malware is capable of keylogging.",
+            "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) malware is capable of keylogging.",
             "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
             "target_ref": "attack-pattern--bb5a00de-e086-4859-a231-fa793f6797e2",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

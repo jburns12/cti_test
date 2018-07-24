@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--47512d33-eceb-4249-83b3-c946eb14a4ab",
+    "id": "bundle--870312e4-0fe7-4459-8bd6-e479821a1d18",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--0512a63b-58c8-4b0c-b2b4-e4da562cee5f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Threat Group-1314](https://attack.mitre.org/group/G0028) actors mapped network drives using <code>net use</code>.",
+            "description": "[Threat Group-1314](https://attack.mitre.org/groups/G0028) actors mapped network drives using <code>net use</code>.",
             "source_ref": "intrusion-set--d519164e-f5fa-4b8c-a1fb-cf0172ad0983",
             "target_ref": "attack-pattern--ffe742ed-9100-4686-9e00-c331da544787",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.064Z"
         }
     ]

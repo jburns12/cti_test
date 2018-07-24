@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--227a2892-d670-42fa-a6ce-d1968aa2cce8",
+    "id": "bundle--09188abd-e18c-4891-aca2-7aea25597ca7",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--a1fe7df1-7c20-422e-8e86-042cd11b3501",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT28](https://attack.mitre.org/group/G0007) used SMTP as a communication channel in various implants, initially using self-registered Google Mail accounts and later compromised email servers of its victims. Later implants such as [CHOPSTICK](https://attack.mitre.org/software/S0023) use a blend of HTTP and other legitimate channels, depending on module configuration.",
+            "description": "[APT28](https://attack.mitre.org/groups/G0007) used SMTP as a communication channel in various implants, initially using self-registered Google Mail accounts and later compromised email servers of its victims. Later implants such as [CHOPSTICK](https://attack.mitre.org/software/S0023) use a blend of HTTP and other legitimate channels, depending on module configuration.",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.038Z"
         }
     ]

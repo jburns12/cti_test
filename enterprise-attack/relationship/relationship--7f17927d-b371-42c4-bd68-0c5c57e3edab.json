@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--85bf5c0e-7f4e-43b6-aeb1-969268e8bd98",
+    "id": "bundle--443b4ce1-cfaa-45d9-9b0c-c3d7fb8c6c31",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--7f17927d-b371-42c4-bd68-0c5c57e3edab",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Magic Hound](https://attack.mitre.org/group/G0059) malware can delete files.",
+            "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) malware can delete files.",
             "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
             "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

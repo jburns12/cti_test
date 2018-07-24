@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--11fbc273-67fa-4b58-9c57-17a1b1dfa49b",
+    "id": "bundle--6ed7fd11-ce61-4dc4-b801-46d04a6bfb1c",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--1d3654f8-3a5e-4ef8-826f-4242ecf78c0a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT32](https://attack.mitre.org/group/G0050) compromised McAfee ePO to move laterally by distributing malware as a software deployment task.",
+            "description": "[APT32](https://attack.mitre.org/groups/G0050) compromised McAfee ePO to move laterally by distributing malware as a software deployment task.",
             "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
             "target_ref": "attack-pattern--327f3cc5-eea1-42d4-a6cd-ed34b7ce8f61",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

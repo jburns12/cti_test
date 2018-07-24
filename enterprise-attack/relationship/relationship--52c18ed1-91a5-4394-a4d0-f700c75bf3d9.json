@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--51b7c58c-dbce-47c8-bdef-b5a208a56442",
+    "id": "bundle--50185866-01ae-4a05-8b0e-fa3b7895fd8e",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--52c18ed1-91a5-4394-a4d0-f700c75bf3d9",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Turla](https://attack.mitre.org/group/G0010) surveys a system upon check-in to discover running services and associated processes using the <code>tasklist /svc</code> command.",
+            "description": "[Turla](https://attack.mitre.org/groups/G0010) surveys a system upon check-in to discover running services and associated processes using the <code>tasklist /svc</code> command.",
             "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
             "target_ref": "attack-pattern--322bad5a-1c49-4d23-ab79-76d641794afa",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.044Z"
         }
     ]

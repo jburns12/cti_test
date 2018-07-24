@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bfeaf233-444d-4fa4-a587-a670177ffb08",
+    "id": "bundle--f9808a21-f8f1-4b42-bb7c-dc2fa07e12bc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,14 +8,14 @@
             "id": "intrusion-set--f3bdec95-3d62-42d9-a840-29630f6cdc1a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "DragonOK",
-            "description": "[DragonOK](https://attack.mitre.org/group/G0017) is a threat group that has targeted Japanese organizations with phishing emails. Due to overlapping TTPs, including similar custom tools, [DragonOK](https://attack.mitre.org/group/G0017) is thought to have a direct or indirect relationship with the threat group [Moafee](https://attack.mitre.org/group/G0002). (Citation: Operation Quantum Entanglement) It is known to use a variety of malware, including Sysget/HelloBridge, PlugX, PoisonIvy, FormerFirstRat, NFlog, and NewCT. (Citation: New DragonOK)",
+            "description": "[DragonOK](https://attack.mitre.org/groups/G0017) is a threat group that has targeted Japanese organizations with phishing emails. Due to overlapping TTPs, including similar custom tools, [DragonOK](https://attack.mitre.org/groups/G0017) is thought to have a direct or indirect relationship with the threat group [Moafee](https://attack.mitre.org/groups/G0002). (Citation: Operation Quantum Entanglement) It is known to use a variety of malware, including Sysget/HelloBridge, PlugX, PoisonIvy, FormerFirstRat, NFlog, and NewCT. (Citation: New DragonOK)",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
                     "external_id": "G0017",
-                    "url": "https://attack.mitre.org/group/G0017",
+                    "url": "https://attack.mitre.org/groups/G0017",
                     "source_name": "mitre-attack"
                 },
                 {
@@ -36,7 +36,7 @@
             "aliases": [
                 "DragonOK"
             ],
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:31:53.197Z"
         }
     ]

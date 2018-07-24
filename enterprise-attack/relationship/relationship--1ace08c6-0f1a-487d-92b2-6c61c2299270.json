@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--7416f3e3-ca03-4a30-a8f6-44433b97a20e",
+    "id": "bundle--db0f871b-14ad-4789-a32b-59a663297c93",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--1ace08c6-0f1a-487d-92b2-6c61c2299270",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[FIN5](https://attack.mitre.org/group/G0053) uses to clean up the environment and attempt to prevent detection.",
+            "description": "[FIN5](https://attack.mitre.org/groups/G0053) uses to clean up the environment and attempt to prevent detection.",
             "source_ref": "intrusion-set--85403903-15e0-4f9f-9be4-a259ecad4022",
             "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

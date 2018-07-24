@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--6fd5de40-7e1a-4781-859d-e0591d83c08e",
+    "id": "bundle--d800a44e-b83c-4f3c-94d4-8af61f628ef5",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--4fab8d06-e6fb-472f-91ee-f2fd29ef444e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Deep Panda](https://attack.mitre.org/group/G0009) has used regsvr32.exe to execute a server variant of [Derusbi](https://attack.mitre.org/software/S0021) in victim networks.",
+            "description": "[Deep Panda](https://attack.mitre.org/groups/G0009) has used regsvr32.exe to execute a server variant of [Derusbi](https://attack.mitre.org/software/S0021) in victim networks.",
             "source_ref": "intrusion-set--a653431d-6a5e-4600-8ad3-609b5af57064",
             "target_ref": "attack-pattern--68f7e3a1-f09f-4164-9a62-16b648a0dd5a",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.043Z"
         }
     ]

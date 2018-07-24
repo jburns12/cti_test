@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--58877afe-db4a-4059-82a8-f5c69a5880d3",
+    "id": "bundle--d0457d47-2967-44fa-acfe-e66faa2bfe45",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--808f140e-8b7b-4efa-8708-2f2308b2fc41",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Magic Hound](https://attack.mitre.org/group/G0059) sent shortened URL links over email to victims. The URLs linked to Word documents with malicious macros that execute PowerShells scripts to download Pupy.",
+            "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) sent shortened URL links over email to victims. The URLs linked to Word documents with malicious macros that execute PowerShells scripts to download Pupy.",
             "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
             "target_ref": "attack-pattern--20138b9d-1aac-4a26-8654-a36b6bbf2bba",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

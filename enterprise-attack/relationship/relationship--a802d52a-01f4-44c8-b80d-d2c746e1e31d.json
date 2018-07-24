@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--08fa6492-b5aa-45da-a19f-c1acfa83f351",
+    "id": "bundle--65aa097b-0394-4dc4-af37-38605d928c22",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--a802d52a-01f4-44c8-b80d-d2c746e1e31d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[ChChes](https://attack.mitre.org/software/S0144) identifies the file path for the %TEMP% director and sets its current working directory to that path.",
+            "description": "[ChChes](https://attack.mitre.org/software/S0144) collects the victim's %TEMP% directory path and version of Internet Explorer.",
             "source_ref": "malware--dc5d1a33-62aa-4a0c-aa8c-589b87beb11e",
             "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
             "object_marking_refs": [
@@ -15,13 +15,13 @@
             ],
             "external_references": [
                 {
-                    "url": "http://researchcenter.paloaltonetworks.com/2017/02/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations/",
-                    "description": "Miller-Osborn, J. and Grunzweig, J.. (2017, February 16). menuPass Returns with New Malware and New Attacks Against Japanese Academics and Organizations. Retrieved March 1, 2017.",
-                    "source_name": "Palo Alto menuPass Feb 2017"
+                    "url": "https://www.fireeye.com/blog/threat-research/2017/04/apt10%20menupass%20grou.html",
+                    "description": "FireEye iSIGHT Intelligence. (2017, April 6). APT10 (MenuPass Group): New Tools, Global Campaign Latest Manifestation of Longstanding Threat. Retrieved June 29, 2017.",
+                    "source_name": "FireEye APT10 April 2017"
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

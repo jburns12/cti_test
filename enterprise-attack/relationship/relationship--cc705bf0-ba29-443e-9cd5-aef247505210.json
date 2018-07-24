@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--c1602c72-0e25-4411-982c-9cfd4952fd16",
+    "id": "bundle--f9d8e4be-51de-4909-87a0-31cd7cf10d69",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--cc705bf0-ba29-443e-9cd5-aef247505210",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT3](https://attack.mitre.org/group/G0022) places scripts in the startup folder for persistence.",
+            "description": "[APT3](https://attack.mitre.org/groups/G0022) places scripts in the startup folder for persistence.",
             "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
             "target_ref": "attack-pattern--9422fc14-1c43-410d-ab0f-a709b76c72dc",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

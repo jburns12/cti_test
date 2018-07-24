@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--fe8fb6a1-13db-422d-af4d-c0b1cc283080",
+    "id": "bundle--a9fa0cd8-554e-4e32-8cad-2c8a86f4d187",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--5e4ec089-c86d-4684-9783-af348d4aaa14",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Dragonfly](https://attack.mitre.org/group/G0035) used remote access services, including VPN and Outlook Web Access (OWA).",
+            "description": "[Dragonfly](https://attack.mitre.org/groups/G0035) used remote access services, including VPN and Outlook Web Access (OWA).",
             "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
             "target_ref": "attack-pattern--10d51417-ee35-4589-b1ff-b6df1c334e8d",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

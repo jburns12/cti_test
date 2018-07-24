@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--7772c07c-cf6f-48d7-8e35-9b9bfc49a090",
+    "id": "bundle--a2af3887-4458-412c-95c5-ef967b92026e",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--6ab291a5-8061-4ad4-a6a7-07a6142e4c27",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Lazarus Group](https://attack.mitre.org/group/G0032) malware attempts to maintain persistence by saving itself in the Start menu folder or by adding a Registry Run key.",
+            "description": "[Lazarus Group](https://attack.mitre.org/groups/G0032) malware attempts to maintain persistence by saving itself in the Start menu folder or by adding a Registry Run key.",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--9422fc14-1c43-410d-ab0f-a709b76c72dc",
             "object_marking_refs": [
@@ -31,7 +31,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.068Z"
         }
     ]

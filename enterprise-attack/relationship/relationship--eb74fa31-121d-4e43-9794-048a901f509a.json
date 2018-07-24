@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--3d473d7a-b6ef-496e-aa4f-f27f0ab92427",
+    "id": "bundle--2d1579f9-b33d-4085-bbdb-af3e1756caef",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--eb74fa31-121d-4e43-9794-048a901f509a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Uroburos](https://attack.mitre.org/software/S0022) is a rootkit used by [Turla](https://attack.mitre.org/group/G0010).",
+            "description": "[Uroburos](https://attack.mitre.org/software/S0022) is a rootkit used by [Turla](https://attack.mitre.org/groups/G0010).",
             "source_ref": "malware--80a014ba-3fef-4768-990b-37d8bd10d7f4",
             "target_ref": "attack-pattern--0f20e3cb-245b-4a61-8a91-2d93f7cb0e9b",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

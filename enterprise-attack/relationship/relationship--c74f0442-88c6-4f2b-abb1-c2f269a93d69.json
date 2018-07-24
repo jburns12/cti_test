@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--277bdbd6-888e-4af7-bdb0-a7647086eddf",
+    "id": "bundle--6aef9ce2-fbb1-4059-b7e0-28f3910f0b66",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--c74f0442-88c6-4f2b-abb1-c2f269a93d69",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Dragonfly](https://attack.mitre.org/group/G0035) dropped and executed Hydra, a password cracker.",
+            "description": "[Dragonfly](https://attack.mitre.org/groups/G0035) dropped and executed Hydra, a password cracker.",
             "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
             "target_ref": "attack-pattern--a93494bb-4b80-4ea1-8695-3236a49916fd",
             "object_marking_refs": [
@@ -26,7 +26,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--810aaa63-251b-41d0-941a-46e13d487c7e",
+    "id": "bundle--dcaed03d-3bfa-4863-8d7c-969e4009b35c",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--8447c89e-a743-430e-8ef5-41abfcde1a01",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "Malware used by [Group5](https://attack.mitre.org/group/G0043) is capable of capturing keystrokes.",
+            "description": "Malware used by [Group5](https://attack.mitre.org/groups/G0043) is capable of capturing keystrokes.",
             "source_ref": "intrusion-set--7331c66a-5601-4d3f-acf6-ad9e3035eb40",
             "target_ref": "attack-pattern--bb5a00de-e086-4859-a231-fa793f6797e2",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.078Z"
         }
     ]

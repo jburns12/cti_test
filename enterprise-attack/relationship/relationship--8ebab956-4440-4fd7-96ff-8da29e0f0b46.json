@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--5b6a85ec-e9c0-4e66-a64f-18b908e6c803",
+    "id": "bundle--2066ffe9-d019-4c96-8149-de3f105900de",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--8ebab956-4440-4fd7-96ff-8da29e0f0b46",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Stealth Falcon](https://attack.mitre.org/group/G0038) malware gathers the registered user and primary owner name via WMI.",
+            "description": "[Stealth Falcon](https://attack.mitre.org/groups/G0038) malware gathers the registered user and primary owner name via WMI.",
             "source_ref": "intrusion-set--894aab42-3371-47b1-8859-a4a074c804c8",
             "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.073Z"
         }
     ]

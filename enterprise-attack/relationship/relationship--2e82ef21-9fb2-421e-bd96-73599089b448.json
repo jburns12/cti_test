@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--2421fda6-17b6-4f23-92d7-8bc7902bd996",
+    "id": "bundle--f8989c54-6cc0-4f73-bb99-e92f3ae93659",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--2e82ef21-9fb2-421e-bd96-73599089b448",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[CopyKittens](https://attack.mitre.org/group/G0052) uses ZPP, a .NET console program, to compress files with ZIP.",
+            "description": "[CopyKittens](https://attack.mitre.org/groups/G0052) uses ZPP, a .NET console program, to compress files with ZIP.",
             "source_ref": "intrusion-set--dcd81c6e-ebf7-4a16-93e0-9a97fa49c88a",
             "target_ref": "attack-pattern--b9f5dbe2-4c55-4fc5-af2e-d42c1d182ec4",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

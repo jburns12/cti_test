@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--c6952602-b5c3-40dc-ac5f-3484c965bdb6",
+    "id": "bundle--365a61df-c950-4e5a-a42b-1ae00ca65ee2",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--e25b4146-2f52-4c5b-a1f8-3e868e767f84",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[FIN5](https://attack.mitre.org/group/G0053) has used legitimate VPN, RDP, Citrix, or VNC credentials to maintain access to a victim environment.",
+            "description": "[FIN5](https://attack.mitre.org/groups/G0053) has used legitimate VPN, RDP, Citrix, or VNC credentials to maintain access to a victim environment.",
             "source_ref": "intrusion-set--85403903-15e0-4f9f-9be4-a259ecad4022",
             "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
             "object_marking_refs": [
@@ -31,7 +31,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

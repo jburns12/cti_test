@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--f0842cad-e673-4541-90e8-09b5cd35b1ef",
+    "id": "bundle--f2a54d3b-311b-40e7-af7f-94bee241773f",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--e35a6a79-0ffc-4835-aaf8-e42dd20a7e45",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Patchwork](https://attack.mitre.org/group/G0040) has used spearphishing with links to deliver files with exploits to initial victims.",
+            "description": "[Patchwork](https://attack.mitre.org/groups/G0040) has used spearphishing with links to deliver files with exploits to initial victims.",
             "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
             "target_ref": "attack-pattern--20138b9d-1aac-4a26-8654-a36b6bbf2bba",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

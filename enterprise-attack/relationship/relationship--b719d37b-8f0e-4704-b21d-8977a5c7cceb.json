@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--4b11794d-1355-490e-9102-822087008c72",
+    "id": "bundle--46474400-1c31-4497-a228-10d3706dd7a6",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--b719d37b-8f0e-4704-b21d-8977a5c7cceb",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT28](https://attack.mitre.org/group/G0007) has used CVE-2015-1701 to access the SYSTEM token and copy it into the current process as part of privilege escalation.",
+            "description": "[APT28](https://attack.mitre.org/groups/G0007) has used CVE-2015-1701 to access the SYSTEM token and copy it into the current process as part of privilege escalation.",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "attack-pattern--dcaa092b-7de9-4a21-977f-7fcb77e89c48",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

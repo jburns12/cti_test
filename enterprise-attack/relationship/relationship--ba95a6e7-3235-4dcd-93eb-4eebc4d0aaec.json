@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--8d82528e-41a7-4474-9fff-5c279d00b67b",
+    "id": "bundle--ed755463-da84-429d-90f6-4f8b20433e7b",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--ba95a6e7-3235-4dcd-93eb-4eebc4d0aaec",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Dragonfly](https://attack.mitre.org/group/G0035) has used a scheduled task to execute a malicious file.",
+            "description": "[Dragonfly](https://attack.mitre.org/groups/G0035) has used a scheduled task to execute a malicious file.",
             "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
             "target_ref": "attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

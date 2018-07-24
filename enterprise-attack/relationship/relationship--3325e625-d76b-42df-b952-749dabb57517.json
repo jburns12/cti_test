@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--31714ac5-d928-42f9-844e-cd1222329578",
+    "id": "bundle--8f954557-aed7-44e4-bf07-b61d7f682822",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--3325e625-d76b-42df-b952-749dabb57517",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Turla](https://attack.mitre.org/group/G0010) surveys a system upon check-in to discover active local network connections using the <code>netstat -an</code>, <code>net use</code>, <code>net file</code>, and <code>net session</code> commands.",
+            "description": "[Turla](https://attack.mitre.org/groups/G0010) surveys a system upon check-in to discover active local network connections using the <code>netstat -an</code>, <code>net use</code>, <code>net file</code>, and <code>net session</code> commands.",
             "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
             "target_ref": "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.045Z"
         }
     ]

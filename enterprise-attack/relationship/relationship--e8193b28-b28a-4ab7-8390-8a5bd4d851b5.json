@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--45261944-a65b-40fd-b11d-b97f57dcdb64",
+    "id": "bundle--381bc694-a0b1-45cd-a69d-faf4fa6cd13b",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--e8193b28-b28a-4ab7-8390-8a5bd4d851b5",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Threat Group-3390](https://attack.mitre.org/group/G0027) has deleted existing logs and exfiltrated file archives from a victim.",
+            "description": "[Threat Group-3390](https://attack.mitre.org/groups/G0027) has deleted existing logs and exfiltrated file archives from a victim.",
             "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
             "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

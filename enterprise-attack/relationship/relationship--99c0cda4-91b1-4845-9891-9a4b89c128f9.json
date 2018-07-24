@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--a06a27ef-1ce9-4355-99a5-93e160056ec1",
+    "id": "bundle--edb26d3f-25f5-4505-81b8-3fbe5460c887",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--99c0cda4-91b1-4845-9891-9a4b89c128f9",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT3](https://attack.mitre.org/group/G0022) has been known to side load DLLs with a valid version of Chrome with one of their tools.",
+            "description": "[APT3](https://attack.mitre.org/groups/G0022) has been known to side load DLLs with a valid version of Chrome with one of their tools.",
             "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
             "target_ref": "attack-pattern--b2001907-166b-4d71-bb3c-9d26c871de09",
             "object_marking_refs": [
@@ -26,7 +26,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

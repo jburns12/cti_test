@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--c7296f56-2433-477f-bf18-f611fd9f6153",
+    "id": "bundle--473c063f-dbda-4bdd-9f29-34fabf151107",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--9ef58dda-688d-4461-b5fc-25f2ba3a9c54",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[BRONZE BUTLER](https://attack.mitre.org/group/G0060) has used [at](https://attack.mitre.org/software/S0110) and [schtasks](https://attack.mitre.org/software/S0111) to register a scheduled task to execute malware during lateral movement.",
+            "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has used [at](https://attack.mitre.org/software/S0110) and [schtasks](https://attack.mitre.org/software/S0111) to register a scheduled task to execute malware during lateral movement.",
             "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
             "target_ref": "attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--40557422-07b3-4ec6-b3b8-21e3bd4878b8",
+    "id": "bundle--a4642740-e327-4e13-b4fa-bcaa36a62422",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--bdba5fef-c560-4b8a-9ce5-616395a73841",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Taidoor](https://attack.mitre.org/group/G0015) uses RC4 to encrypt the message body of HTTP content.",
+            "description": "[Taidoor](https://attack.mitre.org/groups/G0015) uses RC4 to encrypt the message body of HTTP content.",
             "source_ref": "intrusion-set--59140a2e-d117-4206-9b2c-2a8662bd9d46",
             "target_ref": "attack-pattern--4b74a1d4-b0e9-4ef1-93f1-14ecc6e2f5b5",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.048Z"
         }
     ]

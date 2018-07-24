@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--c3b06e93-c827-4955-8bf6-8d6f476d8b1b",
+    "id": "bundle--2a21b501-86fb-488f-ba36-1b294c0f2b83",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--51afbe4e-c5cd-4acd-b4e1-ff7877b78b9e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[FIN7](https://attack.mitre.org/group/G0046) spear phishing campaigns have included malicious Word documents with DDE execution.",
+            "description": "[FIN7](https://attack.mitre.org/groups/G0046) spear phishing campaigns have included malicious Word documents with DDE execution.",
             "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
             "target_ref": "attack-pattern--edbe24e9-aec4-4994-ac75-6a6bc7f1ddd0",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

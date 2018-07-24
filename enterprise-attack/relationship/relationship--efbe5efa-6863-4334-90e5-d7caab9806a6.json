@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--327edaaa-26d4-4582-a63e-3a268a3ce6f1",
+    "id": "bundle--f9ac50c6-7985-4912-acf1-52af7991023b",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--efbe5efa-6863-4334-90e5-d7caab9806a6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Stealth Falcon](https://attack.mitre.org/group/G0038) malware gathers system information via WMI, including the system directory, build number, serial number, version, manufacturer, model, and total physical memory.",
+            "description": "[Stealth Falcon](https://attack.mitre.org/groups/G0038) malware gathers system information via WMI, including the system directory, build number, serial number, version, manufacturer, model, and total physical memory.",
             "source_ref": "intrusion-set--894aab42-3371-47b1-8859-a4a074c804c8",
             "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.073Z"
         }
     ]

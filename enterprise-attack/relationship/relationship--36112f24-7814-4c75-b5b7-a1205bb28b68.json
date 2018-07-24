@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--758c4ac9-a41e-41ca-887b-c34bab54cc07",
+    "id": "bundle--218a9d1a-04d1-4c18-b2c9-2bc5254f5dec",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--36112f24-7814-4c75-b5b7-a1205bb28b68",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "A [Gamaredon Group](https://attack.mitre.org/group/G0047) file stealer can gather the victim's computer name and drive serial numbers to send to a C2 server.",
+            "description": "A [Gamaredon Group](https://attack.mitre.org/groups/G0047) file stealer can gather the victim's computer name and drive serial numbers to send to a C2 server.",
             "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
             "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.080Z"
         }
     ]

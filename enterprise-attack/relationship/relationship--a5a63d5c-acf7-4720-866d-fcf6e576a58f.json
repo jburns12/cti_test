@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--7b3c43c2-f4cd-4f09-a3f3-30f0305cc699",
+    "id": "bundle--73530b4e-1c7d-4b02-a9c0-1d664a6e921f",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--a5a63d5c-acf7-4720-866d-fcf6e576a58f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "Malware used by [Ke3chang](https://attack.mitre.org/group/G0004) can run commands on the command-line interface.",
+            "description": "Malware used by [Ke3chang](https://attack.mitre.org/groups/G0004) can run commands on the command-line interface.",
             "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
             "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.032Z"
         }
     ]

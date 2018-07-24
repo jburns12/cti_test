@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--d685d3ae-9317-453f-9b3c-0c62b9c55bd9",
+    "id": "bundle--2f78789c-60af-4459-9fb5-c40dcc01aac8",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--93b12e1a-7f21-4fa0-9b2a-c96c7c270625",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[PittyTiger](https://attack.mitre.org/group/G0011) attempts to obtain legitimate credentials during operations.",
+            "description": "[PittyTiger](https://attack.mitre.org/groups/G0011) attempts to obtain legitimate credentials during operations.",
             "source_ref": "intrusion-set--fe98767f-9df8-42b9-83c9-004b1dec8647",
             "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.046Z"
         }
     ]

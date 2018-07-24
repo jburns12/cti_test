@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--09e91a01-5ad4-4ba6-b444-1e7f08b014d5",
+    "id": "bundle--c9740969-8b78-4b86-b2e9-1de4e47a0047",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--ab7eb363-c775-4065-a80d-1b324f22d0b8",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "The [Ke3chang](https://attack.mitre.org/group/G0004) group has been known to compress data before exfiltration.",
+            "description": "The [Ke3chang](https://attack.mitre.org/groups/G0004) group has been known to compress data before exfiltration.",
             "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
             "target_ref": "attack-pattern--b9f5dbe2-4c55-4fc5-af2e-d42c1d182ec4",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.033Z"
         }
     ]

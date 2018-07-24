@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--c3d87b97-65a1-4d49-bfcd-c75319d60aed",
+    "id": "bundle--187bfdfa-0ca3-418c-b493-ea08bfb702f8",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--5f00edf9-fcfc-4514-8d06-bc69f91f9260",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT32](https://attack.mitre.org/group/G0050) has used PowerShell-based tools and shellcode loaders for execution.",
+            "description": "[APT32](https://attack.mitre.org/groups/G0050) has used PowerShell-based tools and shellcode loaders for execution.",
             "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
             "target_ref": "attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--6c6da476-2a54-4fd4-97d3-72cdf6ca67d1",
+    "id": "bundle--64895ab5-5a8a-49c5-ba47-8d63926595e5",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--660d09ce-8722-42b3-8503-911dff37bf22",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[ASPXSpy](https://attack.mitre.org/software/S0073) is a Web shell. The ASPXTool version used by [Threat Group-3390](https://attack.mitre.org/group/G0027) has been deployed to accessible servers running Internet Information Services (IIS).",
+            "description": "[ASPXSpy](https://attack.mitre.org/software/S0073) is a Web shell. The ASPXTool version used by [Threat Group-3390](https://attack.mitre.org/groups/G0027) has been deployed to accessible servers running Internet Information Services (IIS).",
             "source_ref": "malware--56f46b17-8cfa-46c0-b501-dd52fef394e2",
             "target_ref": "attack-pattern--c16e5409-ee53-4d79-afdc-4099dc9292df",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

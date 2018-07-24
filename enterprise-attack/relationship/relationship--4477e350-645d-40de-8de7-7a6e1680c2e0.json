@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--5ab40999-a4e9-440d-a683-19d701090982",
+    "id": "bundle--83adfe88-db38-4e5c-a70f-369cbabfb57a",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--4477e350-645d-40de-8de7-7a6e1680c2e0",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT32](https://attack.mitre.org/group/G0050) uses [Cobalt Strike](https://attack.mitre.org/software/S0154)'s malleable C2 functionality to blend in with network traffic.",
+            "description": "[APT32](https://attack.mitre.org/groups/G0050) uses [Cobalt Strike](https://attack.mitre.org/software/S0154)'s malleable C2 functionality to blend in with network traffic.",
             "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
             "target_ref": "attack-pattern--f72eb8a8-cd4c-461d-a814-3f862befbf00",
             "object_marking_refs": [
@@ -26,7 +26,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

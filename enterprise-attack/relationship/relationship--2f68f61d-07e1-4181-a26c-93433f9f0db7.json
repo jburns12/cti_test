@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--389cbd16-4cf1-46b7-86c9-22a641e13cc6",
+    "id": "bundle--8b794fb0-b751-4814-b776-b5d27d5c46cf",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--2f68f61d-07e1-4181-a26c-93433f9f0db7",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[CopyKittens](https://attack.mitre.org/group/G0052) has used PowerShell Empire.",
+            "description": "[CopyKittens](https://attack.mitre.org/groups/G0052) has used PowerShell Empire.",
             "source_ref": "intrusion-set--dcd81c6e-ebf7-4a16-93e0-9a97fa49c88a",
             "target_ref": "attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

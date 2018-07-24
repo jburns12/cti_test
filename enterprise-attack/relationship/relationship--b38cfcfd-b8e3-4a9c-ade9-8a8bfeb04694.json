@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--bb1b1cd3-a7e2-478e-a2d7-fb870a513ab1",
+    "id": "bundle--78a3b209-739d-4a11-935a-dff712e9d433",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--b38cfcfd-b8e3-4a9c-ade9-8a8bfeb04694",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Threat Group-1314](https://attack.mitre.org/group/G0028) actors used a victim's endpoint management platform, Altiris, for lateral movement.",
+            "description": "[Threat Group-1314](https://attack.mitre.org/groups/G0028) actors used a victim's endpoint management platform, Altiris, for lateral movement.",
             "source_ref": "intrusion-set--d519164e-f5fa-4b8c-a1fb-cf0172ad0983",
             "target_ref": "attack-pattern--92a78814-b191-47ca-909c-1ccfe3777414",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.063Z"
         }
     ]

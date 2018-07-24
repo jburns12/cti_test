@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--e5b2ece0-2999-4297-9256-61220c8e5dc3",
+    "id": "bundle--04f00edc-79cc-4fd4-9514-847008965482",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--28139c5b-be96-44d2-8e54-425311d108d6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "A [Patchwork](https://attack.mitre.org/group/G0040) payload uses process hollowing to hide the UAC bypass vulnerability exploitation inside svchost.exe.",
+            "description": "A [Patchwork](https://attack.mitre.org/groups/G0040) payload uses process hollowing to hide the UAC bypass vulnerability exploitation inside svchost.exe.",
             "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
             "target_ref": "attack-pattern--1c338d0f-a65e-4073-a5c1-c06878849f21",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.077Z"
         }
     ]

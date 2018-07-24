@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--6c5635d8-500f-4159-a025-2a2726a369d9",
+    "id": "bundle--67a10416-c3c4-44d9-9a3f-8e9c05e4adb1",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--36f3f6df-5007-4075-84a3-9708132f1468",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT32](https://attack.mitre.org/group/G0050) has used PubPrn.vbs within execution scripts to execute malware, possibly bypassing defenses.",
+            "description": "[APT32](https://attack.mitre.org/groups/G0050) has used PubPrn.vbs within execution scripts to execute malware, possibly bypassing defenses.",
             "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
             "target_ref": "attack-pattern--f6fe9070-7a65-49ea-ae72-76292f42cebe",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--3aa61d31-ade5-4b76-8aa9-8a1289f203db",
+    "id": "bundle--4d2c716f-22b6-4ef8-991d-accd55ddebc4",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--df4b49f1-71ca-4744-8554-47bf36174d89",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "An [APT3](https://attack.mitre.org/group/G0022) downloader establishes SOCKS5 connections for its initial C2.",
+            "description": "An [APT3](https://attack.mitre.org/groups/G0022) downloader establishes SOCKS5 connections for its initial C2.",
             "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
             "target_ref": "attack-pattern--c21d5a77-d422-4a69-acd7-2c53c1faa34b",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.056Z"
         }
     ]

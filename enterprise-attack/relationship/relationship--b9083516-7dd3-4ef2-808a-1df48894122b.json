@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--2010986a-9c14-464c-b2c9-8f94212dbe24",
+    "id": "bundle--95fcebfb-f908-4c28-8f31-1b3b603b8711",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--b9083516-7dd3-4ef2-808a-1df48894122b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Group5](https://attack.mitre.org/group/G0043) packed an executable by base64 encoding the PE file and breaking it up into numerous lines.",
+            "description": "[Group5](https://attack.mitre.org/groups/G0043) packed an executable by base64 encoding the PE file and breaking it up into numerous lines.",
             "source_ref": "intrusion-set--7331c66a-5601-4d3f-acf6-ad9e3035eb40",
             "target_ref": "attack-pattern--6ff403bc-93e3-48be-8687-e102fdba8c88",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.078Z"
         }
     ]

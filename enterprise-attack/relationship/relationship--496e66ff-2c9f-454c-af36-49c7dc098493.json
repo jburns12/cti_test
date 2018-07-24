@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--5a437b04-6be0-437c-ac83-0731a10cbb7d",
+    "id": "bundle--096bf255-1a00-4a3f-9dc1-5386fcd27b73",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--496e66ff-2c9f-454c-af36-49c7dc098493",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Dragonfly](https://attack.mitre.org/group/G0035) used RDP to connect to additional victims.",
+            "description": "[Dragonfly](https://attack.mitre.org/groups/G0035) used RDP to connect to additional victims.",
             "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
             "target_ref": "attack-pattern--51dea151-0898-4a45-967c-3ebee0420484",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

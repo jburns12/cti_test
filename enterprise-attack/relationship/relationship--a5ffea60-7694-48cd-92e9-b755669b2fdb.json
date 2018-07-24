@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--91582980-e5df-4111-9b19-de5d360cbde6",
+    "id": "bundle--00521eca-f785-49a6-8dcf-b5fb130a9f58",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--a5ffea60-7694-48cd-92e9-b755669b2fdb",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "A [Gamaredon Group](https://attack.mitre.org/group/G0047) file stealer can gather the victim's username to send to a C2 server.",
+            "description": "A [Gamaredon Group](https://attack.mitre.org/groups/G0047) file stealer can gather the victim's username to send to a C2 server.",
             "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
             "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.080Z"
         }
     ]

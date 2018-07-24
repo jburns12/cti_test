@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--13817ba7-bda3-4b16-a1d1-a07b1926bb45",
+    "id": "bundle--ef2bace8-36fc-4a02-9caf-31c567dac9ae",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--921c2a85-eab7-4cfc-9ac5-98a463262c17",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "An [APT28](https://attack.mitre.org/group/G0007) macro uses the command <code>certutil -decode</code> to decode contents of a .txt file storing the base64 encoded payload.",
+            "description": "An [APT28](https://attack.mitre.org/groups/G0007) macro uses the command <code>certutil -decode</code> to decode contents of a .txt file storing the base64 encoded payload.",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

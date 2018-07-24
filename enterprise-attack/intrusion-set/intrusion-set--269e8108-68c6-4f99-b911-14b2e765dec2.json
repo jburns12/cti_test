@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--65838393-100c-41bd-93e2-a6d51ac08af0",
+    "id": "bundle--03f775cf-3968-4fb0-a65c-ef3dccab55aa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,14 +8,14 @@
             "id": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "MuddyWater",
-            "description": "[MuddyWater](https://attack.mitre.org/group/G0069) is an Iranian threat group that has primarily targeted Middle Eastern nations. Activity from this group was previously linked to [FIN7](https://attack.mitre.org/group/G0046), but is believed to be a distinct group motivated by espionage. (Citation: Unit 42 MuddyWater Nov 2017)",
+            "description": "[MuddyWater](https://attack.mitre.org/groups/G0069) is an Iranian threat group that has primarily targeted Middle Eastern nations. Activity from this group was previously linked to [FIN7](https://attack.mitre.org/groups/G0046), but is believed to be a distinct group motivated by espionage. (Citation: Unit 42 MuddyWater Nov 2017)",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
                     "external_id": "G0069",
-                    "url": "https://attack.mitre.org/group/G0069",
+                    "url": "https://attack.mitre.org/groups/G0069",
                     "source_name": "mitre-attack"
                 },
                 {
@@ -41,7 +41,7 @@
                 "MuddyWater",
                 "TEMP.Zagros"
             ],
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

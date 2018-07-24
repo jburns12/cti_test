@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--3f24ec4a-30f0-41cc-87bd-b3bc3f87dab9",
+    "id": "bundle--29025c50-faad-4121-9984-fb7177ba2630",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--daf56e8e-ea82-4ef2-bb03-78dd7e6ef3c0",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT3](https://attack.mitre.org/group/G0022) has a tool that can list out currently running processes.",
+            "description": "[APT3](https://attack.mitre.org/groups/G0022) has a tool that can list out currently running processes.",
             "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
             "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
             "object_marking_refs": [
@@ -26,7 +26,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

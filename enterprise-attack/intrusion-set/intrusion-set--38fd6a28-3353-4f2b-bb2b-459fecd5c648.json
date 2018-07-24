@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0d87073d-65b6-4113-86bb-9b56ccb031b5",
+    "id": "bundle--d373a9b3-5fbe-43dc-8cf2-499c8469a2cc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,14 +8,14 @@
             "id": "intrusion-set--38fd6a28-3353-4f2b-bb2b-459fecd5c648",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "APT18",
-            "description": "[APT18](https://attack.mitre.org/group/G0026) is a threat group that has operated since at least 2009 and has targeted a range of industries, including technology, manufacturing, human rights groups, government, and medical. (Citation: Dell Lateral Movement)",
+            "description": "[APT18](https://attack.mitre.org/groups/G0026) is a threat group that has operated since at least 2009 and has targeted a range of industries, including technology, manufacturing, human rights groups, government, and medical. (Citation: Dell Lateral Movement)",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
                     "external_id": "G0026",
-                    "url": "https://attack.mitre.org/group/G0026",
+                    "url": "https://attack.mitre.org/groups/G0026",
                     "source_name": "mitre-attack"
                 },
                 {
@@ -51,7 +51,7 @@
                 "TG-0416",
                 "Dynamite Panda"
             ],
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:31:57.733Z"
         }
     ]

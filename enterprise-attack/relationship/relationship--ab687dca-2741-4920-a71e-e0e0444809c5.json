@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--4ce2e9a9-c24d-4c3d-9191-3da4a4117e06",
+    "id": "bundle--7fc1583e-d2c1-4dc5-8987-ccd60b87f222",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--ab687dca-2741-4920-a71e-e0e0444809c5",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Lazarus Group](https://attack.mitre.org/group/G0032) malware SierraAlfa sends data to one of the hard-coded C2 servers chosen at random, and if the transmission fails, chooses a new C2 server to attempt the transmission again.",
+            "description": "[Lazarus Group](https://attack.mitre.org/groups/G0032) malware SierraAlfa sends data to one of the hard-coded C2 servers chosen at random, and if the transmission fails, chooses a new C2 server to attempt the transmission again.",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--f24faf46-3b26-4dbb-98f2-63460498e433",
             "object_marking_refs": [
@@ -26,7 +26,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.069Z"
         }
     ]

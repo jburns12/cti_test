@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--e8522f7b-c1e8-4632-93b2-334ccda0b40c",
+    "id": "bundle--6bcd638f-b545-4399-b24e-7cf0a92e54d6",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--7ac10827-9bf6-4d60-aa16-9f2d2930b373",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Magic Hound](https://attack.mitre.org/group/G0059) malware has obtained the victim username and sent it to the C2 server.",
+            "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) malware has obtained the victim username and sent it to the C2 server.",
             "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
             "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--cd57d849-6495-4d21-8f9f-d3eba9d8be6b",
+    "id": "bundle--e64c1824-d0ab-46f4-ad35-dc10d3fbfc1b",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--644b6c21-90f0-43b7-8da4-7f6f24ddabb6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT28](https://attack.mitre.org/group/G0007) has downloaded additional files, including by using a first-stage downloader to contact the C2 server to obtain the second-stage implant.",
+            "description": "[APT28](https://attack.mitre.org/groups/G0007) has downloaded additional files, including by using a first-stage downloader to contact the C2 server to obtain the second-stage implant.",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "object_marking_refs": [
@@ -25,7 +25,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.038Z"
         }
     ]

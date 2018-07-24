@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--491a28b7-4d70-4f11-a643-3edc7699465a",
+    "id": "bundle--a921a07d-cc29-4cc3-b80c-d68b46cbee15",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--ae61abba-14fb-4d4e-9f8e-a3b18500b449",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "Various [Lazarus Group](https://attack.mitre.org/group/G0032) malware modifies the Windows firewall to allow incoming connections or disable it entirely using [netsh](https://attack.mitre.org/software/S0108). [Lazarus Group](https://attack.mitre.org/group/G0032) malware TangoDelta attempts to terminate various processes associated with McAfee.",
+            "description": "Various [Lazarus Group](https://attack.mitre.org/groups/G0032) malware modifies the Windows firewall to allow incoming connections or disable it entirely using [netsh](https://attack.mitre.org/software/S0108). [Lazarus Group](https://attack.mitre.org/groups/G0032) malware TangoDelta attempts to terminate various processes associated with McAfee.",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--2e0dd10b-676d-4964-acd0-8a404c92b044",
             "object_marking_refs": [
@@ -31,7 +31,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.067Z"
         }
     ]

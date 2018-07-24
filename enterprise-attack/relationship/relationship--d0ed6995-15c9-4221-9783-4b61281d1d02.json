@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--1aa0fdfd-82aa-4045-8384-17ffb1f4dfcc",
+    "id": "bundle--f2e3466c-fbb1-4ba3-93b5-ddb3967ede81",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--d0ed6995-15c9-4221-9783-4b61281d1d02",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT37](https://attack.mitre.org/group/G0067) has used port 8080 for C2.",
+            "description": "[APT37](https://attack.mitre.org/groups/G0067) has used port 8080 for C2.",
             "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
             "target_ref": "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

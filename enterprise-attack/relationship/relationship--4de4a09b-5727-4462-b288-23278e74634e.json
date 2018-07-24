@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--fd827763-50b5-4926-b0a8-18ee79a7b554",
+    "id": "bundle--8ac5dc84-4e3a-4af1-82c7-7a64703b5e97",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--4de4a09b-5727-4462-b288-23278e74634e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[FIN10](https://attack.mitre.org/group/G0051) has executed malicious .bat files containing PowerShell commands.",
+            "description": "[FIN10](https://attack.mitre.org/groups/G0051) has executed malicious .bat files containing PowerShell commands.",
             "source_ref": "intrusion-set--fbe9387f-34e6-4828-ac28-3080020c597b",
             "target_ref": "attack-pattern--7fd87010-3a00-4da3-b905-410525e8ec44",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

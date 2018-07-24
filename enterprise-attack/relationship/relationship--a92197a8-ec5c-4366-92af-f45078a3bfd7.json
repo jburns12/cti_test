@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--7fd7a743-ff23-404f-929f-0ad1b42295ee",
+    "id": "bundle--e8a27820-3041-4c76-8ac1-f7e753b7f4e1",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--a92197a8-ec5c-4366-92af-f45078a3bfd7",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT3](https://attack.mitre.org/group/G0022) replaces the Sticky Keys binary <code>C:\\Windows\\System32\\sethc.exe</code> for persistence.",
+            "description": "[APT3](https://attack.mitre.org/groups/G0022) replaces the Sticky Keys binary <code>C:\\Windows\\System32\\sethc.exe</code> for persistence.",
             "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
             "target_ref": "attack-pattern--9b99b83a-1aac-4e29-b975-b374950551a3",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

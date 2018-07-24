@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--2233a622-fc2a-4cbe-ba65-7d11865d4cff",
+    "id": "bundle--dd8d60b1-7a85-4c54-9290-3acfea522ad8",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--9779ccbc-c376-4a6e-a43f-56a782892302",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[OilRig](https://attack.mitre.org/group/G0049) has used compromised credentials to access other systems on a victim network.",
+            "description": "[OilRig](https://attack.mitre.org/groups/G0049) has used compromised credentials to access other systems on a victim network.",
             "source_ref": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",
             "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--36d86cd3-6c21-4ae5-b860-7fcda743bff6",
+    "id": "bundle--91d4d503-aa49-4783-b25c-636df3c0a91a",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--0583724d-7778-42ed-995c-acad526db4ba",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[PLATINUM](https://attack.mitre.org/group/G0068) has sometimes used drive-by attacks against vulnerable browser plugins.",
+            "description": "[PLATINUM](https://attack.mitre.org/groups/G0068) has sometimes used drive-by attacks against vulnerable browser plugins.",
             "source_ref": "intrusion-set--f9c06633-dcff-48a1-8588-759e7cec5694",
             "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
             "object_marking_refs": [
@@ -20,7 +20,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

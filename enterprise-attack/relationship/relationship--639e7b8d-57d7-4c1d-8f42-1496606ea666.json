@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--e5c95335-5815-482f-8233-3c7ce6a14e69",
+    "id": "bundle--c348d66e-3b21-4a28-af80-077ecfc61d59",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--639e7b8d-57d7-4c1d-8f42-1496606ea666",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT33](https://attack.mitre.org/group/G0064) sent spear phishing emails containing links to .hta files.",
+            "description": "[APT33](https://attack.mitre.org/groups/G0064) sent spear phishing emails containing links to .hta files.",
             "source_ref": "intrusion-set--fbd29c89-18ba-4c2d-b792-51c0adee049f",
             "target_ref": "attack-pattern--20138b9d-1aac-4a26-8654-a36b6bbf2bba",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

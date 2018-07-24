@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--815ecc91-4b8e-4fdf-b4e5-87c5b5d8ab98",
+    "id": "bundle--d322c549-8633-4443-804c-4d5206053664",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--a8b248fe-a27c-40fd-83d5-f4382035d656",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT3](https://attack.mitre.org/group/G0022) has a tool that looks for files and directories on the local file system.",
+            "description": "[APT3](https://attack.mitre.org/groups/G0022) has a tool that looks for files and directories on the local file system.",
             "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
             "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
             "object_marking_refs": [
@@ -26,7 +26,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

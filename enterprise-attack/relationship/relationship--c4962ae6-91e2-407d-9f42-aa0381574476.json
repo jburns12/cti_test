@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--b2cf22fa-2aad-4dd3-a1ae-26fda6cf0caf",
+    "id": "bundle--c4c4a01a-0c62-4dcb-ab55-e76163d9cd59",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--c4962ae6-91e2-407d-9f42-aa0381574476",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[admin@338](https://attack.mitre.org/group/G0018) actors used the following commands following exploitation of a machine with [LOWBALL](https://attack.mitre.org/software/S0042) malware to enumerate user accounts: <code>net user >> %temp%\\download</code> <code>net user /domain >> %temp%\\download</code>",
+            "description": "[admin@338](https://attack.mitre.org/groups/G0018) actors used the following commands following exploitation of a machine with [LOWBALL](https://attack.mitre.org/software/S0042) malware to enumerate user accounts: <code>net user >> %temp%\\download</code> <code>net user /domain >> %temp%\\download</code>",
             "source_ref": "intrusion-set--16ade1aa-0ea1-4bb7-88cc-9079df2ae756",
             "target_ref": "attack-pattern--72b74d71-8169-42aa-92e0-e7b04b9f5a08",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.052Z"
         }
     ]

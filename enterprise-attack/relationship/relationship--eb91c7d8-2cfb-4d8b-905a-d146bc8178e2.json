@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--b6d568db-792c-4fd6-b5c5-246f6d388a1d",
+    "id": "bundle--f320a1e2-f4b4-43b8-be40-62bed38cd710",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--eb91c7d8-2cfb-4d8b-905a-d146bc8178e2",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[BRONZE BUTLER](https://attack.mitre.org/group/G0060) has created forged Kerberos Ticket Granting Ticket (TGT) and Ticket Granting Service (TGS) tickets to maintain administrative access.",
+            "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has created forged Kerberos Ticket Granting Ticket (TGT) and Ticket Granting Service (TGS) tickets to maintain administrative access.",
             "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
             "target_ref": "attack-pattern--a257ed11-ff3b-4216-8c9d-3938ef57064c",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]
