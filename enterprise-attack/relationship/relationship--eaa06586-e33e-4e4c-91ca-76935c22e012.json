@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--e4a9f1e7-a46b-4056-8b83-a6271ea73120",
+    "id": "bundle--f05b3316-e441-46f5-a2fb-6cf49e7418d7",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--eaa06586-e33e-4e4c-91ca-76935c22e012",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Ke3chang](https://attack.mitre.org/group/G0004) performs local network connection discovery using <code>netstat -ano</code> commands.",
+            "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) performs local network connection discovery using <code>netstat -ano</code> commands.",
             "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
             "target_ref": "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.033Z"
         }
     ]

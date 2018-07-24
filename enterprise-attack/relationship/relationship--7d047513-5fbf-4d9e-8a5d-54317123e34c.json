@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--2df99fc0-0ca4-499d-b8b1-af0179d4f3ec",
+    "id": "bundle--a752f3d2-460c-4714-8f8f-47b1495118ce",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--7d047513-5fbf-4d9e-8a5d-54317123e34c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[admin@338](https://attack.mitre.org/group/G0018) actors used the following command following exploitation of a machine with [LOWBALL](https://attack.mitre.org/software/S0042) malware to list local groups: <code>net localgroup administrator >> %temp%\\download</code>",
+            "description": "[admin@338](https://attack.mitre.org/groups/G0018) actors used the following command following exploitation of a machine with [LOWBALL](https://attack.mitre.org/software/S0042) malware to list local groups: <code>net localgroup administrator >> %temp%\\download</code>",
             "source_ref": "intrusion-set--16ade1aa-0ea1-4bb7-88cc-9079df2ae756",
             "target_ref": "attack-pattern--15dbf668-795c-41e6-8219-f0447c0e64ce",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.052Z"
         }
     ]

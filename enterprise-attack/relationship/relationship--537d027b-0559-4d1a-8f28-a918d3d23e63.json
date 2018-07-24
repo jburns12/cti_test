@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--8fc09d43-390c-4814-9f1e-66b9d39f3efd",
+    "id": "bundle--b5278a84-f066-4c0e-bafe-d76ca73c322b",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--537d027b-0559-4d1a-8f28-a918d3d23e63",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Elderwood](https://attack.mitre.org/group/G0066) has delivered zero-day exploits and malware to victims via targeted emails containing malicious attachments.",
+            "description": "[Elderwood](https://attack.mitre.org/groups/G0066) has delivered zero-day exploits and malware to victims via targeted emails containing malicious attachments.",
             "source_ref": "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
             "target_ref": "attack-pattern--6aac77c4-eaf2-4366-8c13-ce50ab951f38",
             "object_marking_refs": [
@@ -26,7 +26,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

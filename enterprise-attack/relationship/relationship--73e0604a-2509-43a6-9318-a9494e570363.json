@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--fbb09a29-547e-47f7-8bed-5abc10c18fcc",
+    "id": "bundle--dc282397-069f-4d26-9aff-5508824b801b",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--73e0604a-2509-43a6-9318-a9494e570363",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT28](https://attack.mitre.org/group/G0007) has used [Forfiles](https://attack.mitre.org/software/S0193) to stage documents before.",
+            "description": "[APT28](https://attack.mitre.org/groups/G0007) has used [Forfiles](https://attack.mitre.org/software/S0193) to stage documents before.",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a19a68d4-9f11-4cdb-b57b-5a8ffdaee52e",
+    "id": "bundle--e0b0c4f7-07b4-4f40-9b92-89f57d68c351",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,14 +8,14 @@
             "id": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "FIN8",
-            "description": "[FIN8](https://attack.mitre.org/group/G0061) is a financially motivated threat group known to launch tailored spearphishing campaigns targeting the retail, restaurant, and hospitality industries. (Citation: FireEye Obfuscation June 2017) (Citation: FireEye Fin8 May 2016)",
+            "description": "[FIN8](https://attack.mitre.org/groups/G0061) is a financially motivated threat group known to launch tailored spearphishing campaigns targeting the retail, restaurant, and hospitality industries. (Citation: FireEye Obfuscation June 2017) (Citation: FireEye Fin8 May 2016)",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
                     "external_id": "G0061",
-                    "url": "https://attack.mitre.org/group/G0061",
+                    "url": "https://attack.mitre.org/groups/G0061",
                     "source_name": "mitre-attack"
                 },
                 {
@@ -36,7 +36,7 @@
             "aliases": [
                 "FIN8"
             ],
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

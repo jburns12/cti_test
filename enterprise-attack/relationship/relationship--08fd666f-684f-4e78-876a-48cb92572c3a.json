@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--4f33774f-aeef-44a7-8807-aafbfd2997cf",
+    "id": "bundle--226f4f9b-1ab8-474f-bfb6-bd61d624dde9",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--08fd666f-684f-4e78-876a-48cb92572c3a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "An [APT28](https://attack.mitre.org/group/G0007) loader Trojan saves its payload with hidden file attributes.",
+            "description": "An [APT28](https://attack.mitre.org/groups/G0007) loader Trojan saves its payload with hidden file attributes.",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "attack-pattern--dc27c2ec-c5f9-4228-ba57-d67b590bda93",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

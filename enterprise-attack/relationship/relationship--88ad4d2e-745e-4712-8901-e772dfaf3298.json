@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--cf1b1483-cd7f-4ff8-b70a-2bbbcc37d7ba",
+    "id": "bundle--7b6b7ef2-c7b6-43e2-b833-347dcc55901e",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--88ad4d2e-745e-4712-8901-e772dfaf3298",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Turla](https://attack.mitre.org/group/G0010) has used valid digital certificates from Sysprint AG to sign its [Epic](https://attack.mitre.org/software/S0091) dropper.",
+            "description": "[Turla](https://attack.mitre.org/groups/G0010) has used valid digital certificates from Sysprint AG to sign its [Epic](https://attack.mitre.org/software/S0091) dropper.",
             "source_ref": "malware--6b62e336-176f-417b-856a-8552dd8c44e1",
             "target_ref": "attack-pattern--1b84d551-6de8-4b96-9930-d177677c3b1d",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

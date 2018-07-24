@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--f7255edf-793e-48a5-896c-19e613f6b90a",
+    "id": "bundle--ee891397-56f7-42bb-9c4d-abade7b54bb2",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--6175bbbe-1bc1-4562-8c5f-9e437348636a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT18](https://attack.mitre.org/group/G0026) actors deleted tools and batch files from victim systems.",
+            "description": "[APT18](https://attack.mitre.org/groups/G0026) actors deleted tools and batch files from victim systems.",
             "source_ref": "intrusion-set--38fd6a28-3353-4f2b-bb2b-459fecd5c648",
             "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.060Z"
         }
     ]

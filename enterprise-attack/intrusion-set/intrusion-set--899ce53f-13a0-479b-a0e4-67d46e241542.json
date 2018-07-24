@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4a1fc0e6-85f1-4e1a-96ba-16a093fb9a28",
+    "id": "bundle--c5cc5916-f1c9-440d-a7b9-a70072acffe9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,14 +8,14 @@
             "id": "intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "APT29",
-            "description": "[APT29](https://attack.mitre.org/group/G0016) is threat group that has been attributed to the Russian government and has operated since at least 2008. (Citation: F-Secure The Dukes) (Citation: GRIZZLY STEPPE JAR) This group reportedly compromised the Democratic National Committee starting in the summer of 2015. (Citation: Crowdstrike DNC June 2016)",
+            "description": "[APT29](https://attack.mitre.org/groups/G0016) is threat group that has been attributed to the Russian government and has operated since at least 2008. (Citation: F-Secure The Dukes) (Citation: GRIZZLY STEPPE JAR) This group reportedly compromised the Democratic National Committee starting in the summer of 2015. (Citation: Crowdstrike DNC June 2016)",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
                     "external_id": "G0016",
-                    "url": "https://attack.mitre.org/group/G0016",
+                    "url": "https://attack.mitre.org/groups/G0016",
                     "source_name": "mitre-attack"
                 },
                 {
@@ -55,7 +55,7 @@
                 "Cozy Bear",
                 "CozyDuke"
             ],
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:31:52.748Z"
         }
     ]

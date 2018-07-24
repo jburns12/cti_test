@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--bf9c0f9e-3d2e-4ccd-86c3-ab7552220db3",
+    "id": "bundle--99b32957-62d5-4f6f-8094-8def6b783f78",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--58fdc63b-05b4-4db9-90fe-c80f7956292f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[BRONZE BUTLER](https://attack.mitre.org/group/G0060) malware has used HTTP for C2.",
+            "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) malware has used HTTP for C2.",
             "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
             "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

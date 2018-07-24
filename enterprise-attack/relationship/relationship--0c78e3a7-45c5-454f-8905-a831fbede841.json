@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--a5aa5387-7b90-4f9e-97bd-be0c2b57e39e",
+    "id": "bundle--9c5f959f-8340-4416-857b-e789e9660097",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--0c78e3a7-45c5-454f-8905-a831fbede841",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "TRINITY malware used by [FIN6](https://attack.mitre.org/group/G0037) encodes data gathered from the victim with a simple substitution cipher and single-byte XOR using the OxAA key.",
+            "description": "TRINITY malware used by [FIN6](https://attack.mitre.org/groups/G0037) encodes data gathered from the victim with a simple substitution cipher and single-byte XOR using the OxAA key.",
             "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
             "target_ref": "attack-pattern--d54416bd-0803-41ca-870a-ce1af7c05638",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.072Z"
         }
     ]

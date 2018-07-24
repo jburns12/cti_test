@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--46539de6-fa5b-4a4d-ac28-8d85f740512d",
+    "id": "bundle--82d4eb34-df2b-4d53-a06d-85c6d4a7b5c6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,14 +8,14 @@
             "id": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "APT32",
-            "description": "[APT32](https://attack.mitre.org/group/G0050) is a threat group that has been active since at least 2014. The group has targeted multiple private sector industries as well as with foreign governments, dissidents, and journalists, and has extensively used strategic web compromises to compromise victims. The group is believed to be Vietnam-based. (Citation: FireEye APT32 May 2017) (Citation: Volexity OceanLotus Nov 2017)",
+            "description": "[APT32](https://attack.mitre.org/groups/G0050) is a threat group that has been active since at least 2014. The group has targeted multiple private sector industries as well as with foreign governments, dissidents, and journalists, and has extensively used strategic web compromises to compromise victims. The group is believed to be Vietnam-based. (Citation: FireEye APT32 May 2017) (Citation: Volexity OceanLotus Nov 2017)",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
                     "external_id": "G0050",
-                    "url": "https://attack.mitre.org/group/G0050",
+                    "url": "https://attack.mitre.org/groups/G0050",
                     "source_name": "mitre-attack"
                 },
                 {
@@ -41,7 +41,7 @@
                 "APT32",
                 "OceanLotus Group"
             ],
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

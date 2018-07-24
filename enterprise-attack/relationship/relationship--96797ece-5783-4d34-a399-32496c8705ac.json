@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--6fdf7627-4650-41d9-abff-19a0fefc6cc2",
+    "id": "bundle--29607280-d939-4c73-99ac-27805f05c64e",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--96797ece-5783-4d34-a399-32496c8705ac",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT3](https://attack.mitre.org/group/G0022) will copy files over to Windows Admin Shares (like ADMIN$) as part of lateral movement.",
+            "description": "[APT3](https://attack.mitre.org/groups/G0022) will copy files over to Windows Admin Shares (like ADMIN$) as part of lateral movement.",
             "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
             "target_ref": "attack-pattern--ffe742ed-9100-4686-9e00-c331da544787",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--3c904e63-e3e6-4182-a9bf-9d9b0627e11c",
+    "id": "bundle--6de30266-67cf-40ab-a390-5ba9698cd9f7",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--b368c7c2-a593-45cb-b557-aac668a02656",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Ke3chang](https://attack.mitre.org/group/G0004) performs discovery of permission groups <code>net group /domain</code>.",
+            "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) performs discovery of permission groups <code>net group /domain</code>.",
             "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
             "target_ref": "attack-pattern--15dbf668-795c-41e6-8219-f0447c0e64ce",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.033Z"
         }
     ]

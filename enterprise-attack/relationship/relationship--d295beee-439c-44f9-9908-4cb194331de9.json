@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--0a5be7a2-46fa-4c99-8946-dc9624336578",
+    "id": "bundle--5dc4e2b9-2813-4098-912b-b71d58df4b6b",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--d295beee-439c-44f9-9908-4cb194331de9",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "The [Deep Panda](https://attack.mitre.org/group/G0009) group is known to utilize WMI for lateral movement.",
+            "description": "The [Deep Panda](https://attack.mitre.org/groups/G0009) group is known to utilize WMI for lateral movement.",
             "source_ref": "intrusion-set--a653431d-6a5e-4600-8ad3-609b5af57064",
             "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.043Z"
         }
     ]

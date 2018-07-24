@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--2eeb9655-01f9-4ad2-9adc-667a96223fe2",
+    "id": "bundle--7797ec34-1c97-40fc-9460-719b9eeafd07",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--2ccda6d1-5196-4e22-b94a-01c3676fecc9",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT34](https://attack.mitre.org/group/G0057) has frequently used Web shells, often to maintain access to a victim network.",
+            "description": "[APT34](https://attack.mitre.org/groups/G0057) has frequently used Web shells, often to maintain access to a victim network.",
             "source_ref": "intrusion-set--68ba94ab-78b8-43e7-83e2-aed3466882c6",
             "target_ref": "attack-pattern--c16e5409-ee53-4d79-afdc-4099dc9292df",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

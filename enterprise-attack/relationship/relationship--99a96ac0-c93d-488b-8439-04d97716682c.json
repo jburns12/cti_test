@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--e3317504-8d68-4a19-89eb-ce658617a2c1",
+    "id": "bundle--3e0eecad-aee9-4b78-a47d-6def2fe5f10d",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--99a96ac0-c93d-488b-8439-04d97716682c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[menuPass](https://attack.mitre.org/group/G0045) has used legitimate access granted to Managed Service Providers in order to access victims of interest.",
+            "description": "[menuPass](https://attack.mitre.org/groups/G0045) has used legitimate access granted to Managed Service Providers in order to access victims of interest.",
             "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
             "target_ref": "attack-pattern--9fa07bef-9c81-421e-a8e5-ad4366c5a925",
             "object_marking_refs": [
@@ -26,7 +26,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

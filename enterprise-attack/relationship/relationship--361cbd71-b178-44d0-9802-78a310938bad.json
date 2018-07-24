@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--0a8fc088-9f48-4e71-a0aa-c2febc57b3ae",
+    "id": "bundle--96a251b7-24ce-4920-8a17-a521223106e1",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--361cbd71-b178-44d0-9802-78a310938bad",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Molerats](https://attack.mitre.org/group/G0021) has used forged Microsoft code-signing certificates on malware.",
+            "description": "[Molerats](https://attack.mitre.org/groups/G0021) has used forged Microsoft code-signing certificates on malware.",
             "source_ref": "intrusion-set--df71bb3b-813c-45eb-a8bc-f2a419837411",
             "target_ref": "attack-pattern--1b84d551-6de8-4b96-9930-d177677c3b1d",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.055Z"
         }
     ]

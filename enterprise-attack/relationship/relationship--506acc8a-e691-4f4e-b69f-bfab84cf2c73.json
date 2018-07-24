@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--f24e957e-cfe0-4479-b332-65779b8e7a4c",
+    "id": "bundle--02b2d765-3f80-485a-a582-ffee1a0121b5",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--506acc8a-e691-4f4e-b69f-bfab84cf2c73",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[FIN7](https://attack.mitre.org/group/G0046) has used application shim databases for persistence.",
+            "description": "[FIN7](https://attack.mitre.org/groups/G0046) has used application shim databases for persistence.",
             "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
             "target_ref": "attack-pattern--7c93aa74-4bc0-4a9e-90ea-f25f86301566",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

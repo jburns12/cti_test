@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--32cc19b6-3ac6-4387-a572-83b02cc00581",
+    "id": "bundle--fb499df0-6f1e-4d0f-bded-dcd8dda96855",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--699ddfef-6e95-42cf-b212-dc661f790adc",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "Several [Lazarus Group](https://attack.mitre.org/group/G0032) malware families gather a list of running processes on a victim system and send it to their C2 server.",
+            "description": "Several [Lazarus Group](https://attack.mitre.org/groups/G0032) malware families gather a list of running processes on a victim system and send it to their C2 server.",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
             "object_marking_refs": [
@@ -31,7 +31,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.067Z"
         }
     ]

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--57580790-ded5-4198-b1a2-9618cf1f6c20",
+    "id": "bundle--983742fd-f72c-407e-a87d-45a5f4ed9363",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--c3dd754d-3e2b-4761-8d21-2e7a52fc6616",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[FIN8](https://attack.mitre.org/group/G0061) has used remote code execution to download subsequent payloads.",
+            "description": "[FIN8](https://attack.mitre.org/groups/G0061) has used remote code execution to download subsequent payloads.",
             "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

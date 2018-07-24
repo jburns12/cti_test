@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--ecef2ff2-62de-45d9-9940-c44c14d089aa",
+    "id": "bundle--465538b1-df90-4409-8ffa-c77427ef3c6e",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--87b74ba7-99c4-464c-86d2-1dd8c8b578b1",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Turla](https://attack.mitre.org/group/G0010) surveys a system upon check-in to discover the system time by using the <code>net time</code> command.",
+            "description": "[Turla](https://attack.mitre.org/groups/G0010) surveys a system upon check-in to discover the system time by using the <code>net time</code> command.",
             "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
             "target_ref": "attack-pattern--f3c544dc-673c-4ef3-accb-53229f1ae077",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.045Z"
         }
     ]

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--0bad082d-b504-4ab2-a873-e8933c285b1e",
+    "id": "bundle--4e2a6166-6bf2-4225-a6f2-9e1c66c9041b",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--15bbd8e5-60ad-4906-8231-f92c231bb1ec",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT28](https://attack.mitre.org/group/G0007) sent spearphishing emails with Microsoft Excel attachments containing malicious macro scripts.",
+            "description": "[APT28](https://attack.mitre.org/groups/G0007) sent spearphishing emails with Microsoft Excel attachments containing malicious macro scripts.",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "attack-pattern--6aac77c4-eaf2-4366-8c13-ce50ab951f38",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

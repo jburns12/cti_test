@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--64ad1a05-7a56-4226-9bf0-8cd2f85093e0",
+    "id": "bundle--f5573878-3a45-4acd-9679-0ad151f80a17",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--e11a3d87-d9cf-4dcf-b722-fef4b0a324b4",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Axiom](https://attack.mitre.org/group/G0001) has been observed using SQL injection to gain access to systems.",
+            "description": "[Axiom](https://attack.mitre.org/groups/G0001) has been observed using SQL injection to gain access to systems.",
             "source_ref": "intrusion-set--a0cb9370-e39b-44d5-9f50-ef78e412b973",
             "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
             "object_marking_refs": [
@@ -26,7 +26,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

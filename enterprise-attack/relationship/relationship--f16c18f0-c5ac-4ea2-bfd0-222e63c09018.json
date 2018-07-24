@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--ec10f3c3-95f7-47cc-90a0-415f0a180721",
+    "id": "bundle--78233cc1-121a-4b14-afc9-e40dd08f20c8",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--f16c18f0-c5ac-4ea2-bfd0-222e63c09018",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[menuPass](https://attack.mitre.org/group/G0045) has used Putty Secure Copy Client (PSCP) to transfer data.",
+            "description": "[menuPass](https://attack.mitre.org/groups/G0045) has used Putty Secure Copy Client (PSCP) to transfer data.",
             "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
             "target_ref": "attack-pattern--54a649ff-439a-41a4-9856-8d144a2551ba",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

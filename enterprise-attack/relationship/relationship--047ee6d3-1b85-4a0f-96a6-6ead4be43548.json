@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--d4f5ce7a-68c6-437e-a8de-1f0b73e937a9",
+    "id": "bundle--6954d48c-9c66-4095-9ec1-5a2849fa197b",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--047ee6d3-1b85-4a0f-96a6-6ead4be43548",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Night Dragon](https://attack.mitre.org/group/G0014) is known to use software packing in its tools.",
+            "description": "[Night Dragon](https://attack.mitre.org/groups/G0014) is known to use software packing in its tools.",
             "source_ref": "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
             "target_ref": "attack-pattern--6ff403bc-93e3-48be-8687-e102fdba8c88",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.048Z"
         }
     ]

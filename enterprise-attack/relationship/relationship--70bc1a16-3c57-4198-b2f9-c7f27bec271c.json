@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--4303a025-a0fb-463a-afd5-4484bac4abc5",
+    "id": "bundle--bf2da66b-5265-4447-9d06-aafb4a76103b",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--70bc1a16-3c57-4198-b2f9-c7f27bec271c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT32](https://attack.mitre.org/group/G0050) has used legitimate local admin account credentials.",
+            "description": "[APT32](https://attack.mitre.org/groups/G0050) has used legitimate local admin account credentials.",
             "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
             "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

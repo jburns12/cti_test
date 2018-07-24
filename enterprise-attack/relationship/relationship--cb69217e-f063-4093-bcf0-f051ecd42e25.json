@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--7942d14c-134e-475d-b6e8-8891f5064266",
+    "id": "bundle--7aa86bcd-f596-4a48-8a7a-603deb9c2b7b",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--cb69217e-f063-4093-bcf0-f051ecd42e25",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT28](https://attack.mitre.org/group/G0007) deployed the open source tool Responder to conduct NetBIOS Name Service poisoning, which captured usernames and hashed passwords that allowed access to legitimate credentials.",
+            "description": "[APT28](https://attack.mitre.org/groups/G0007) deployed the open source tool Responder to conduct NetBIOS Name Service poisoning, which captured usernames and hashed passwords that allowed access to legitimate credentials.",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "attack-pattern--3257eb21-f9a7-4430-8de1-d8b6e288f529",
             "object_marking_refs": [
@@ -26,7 +26,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a6a537dc-2a47-45b0-9059-8b8e9eefac5a",
+    "id": "bundle--0da428c3-aea8-43b5-be12-ae01cd9de0d3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,14 +8,14 @@
             "id": "intrusion-set--0ea72cd5-ca30-46ba-bc04-378f701c658f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "GCMAN",
-            "description": "[GCMAN](https://attack.mitre.org/group/G0036) is a threat group that focuses on targeting banks for the purpose of transferring money to e-currency services. (Citation: Securelist GCMAN)",
+            "description": "[GCMAN](https://attack.mitre.org/groups/G0036) is a threat group that focuses on targeting banks for the purpose of transferring money to e-currency services. (Citation: Securelist GCMAN)",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
                     "external_id": "G0036",
-                    "url": "https://attack.mitre.org/group/G0036",
+                    "url": "https://attack.mitre.org/groups/G0036",
                     "source_name": "mitre-attack"
                 },
                 {
@@ -31,7 +31,7 @@
             "aliases": [
                 "GCMAN"
             ],
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:32:05.611Z"
         }
     ]

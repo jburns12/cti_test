@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--c7d18936-2df7-4b06-b24b-35fa742dcb0f",
+    "id": "bundle--0d28cec6-db8d-466e-85c9-ab62705116ed",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--3ef6a3fb-0d59-4ba5-b2d0-dc32d547b74f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[FIN5](https://attack.mitre.org/group/G0053) has used the open source tool Essential NetTools to map the network and build a list of targets.",
+            "description": "[FIN5](https://attack.mitre.org/groups/G0053) has used the open source tool Essential NetTools to map the network and build a list of targets.",
             "source_ref": "intrusion-set--85403903-15e0-4f9f-9be4-a259ecad4022",
             "target_ref": "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--eb70a970-8f54-4165-9ef9-ca9899f2f319",
+    "id": "bundle--9717c180-fa48-4ac9-ac31-39db9e485da6",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--ec4d07a2-8c8b-4df8-bb9e-b8c3e23d8dc5",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[BRONZE BUTLER](https://attack.mitre.org/group/G0060) has used a tool called RarStar that encodes data with a custom XOR algorithm when posting it to a C2 server.",
+            "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has used a tool called RarStar that encodes data with a custom XOR algorithm when posting it to a C2 server.",
             "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
             "target_ref": "attack-pattern--3b3cbbe0-6ed3-4334-b543-3ddfd8c5642d",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

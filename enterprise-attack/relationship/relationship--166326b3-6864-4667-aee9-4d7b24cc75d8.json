@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--de28ebe9-979e-4955-bb59-9eb02ede56a7",
+    "id": "bundle--59b83d5a-fd8a-49a6-8f1e-91d430ef386b",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--166326b3-6864-4667-aee9-4d7b24cc75d8",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[OilRig](https://attack.mitre.org/group/G0049) has used HTTP and DNS for C2.",
+            "description": "[OilRig](https://attack.mitre.org/groups/G0049) has used HTTP and DNS for C2.",
             "source_ref": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",
             "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--6412fa47-da66-4d8c-bd52-dbcd98c924f3",
+    "id": "bundle--11061524-a68e-4e30-827c-f2d918236948",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--3b521f87-a77d-4c8d-8ab8-ffc6dbc3d62e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT18](https://attack.mitre.org/group/G0026) actors leverage legitimate credentials to log into external remote services.",
+            "description": "[APT18](https://attack.mitre.org/groups/G0026) actors leverage legitimate credentials to log into external remote services.",
             "source_ref": "intrusion-set--38fd6a28-3353-4f2b-bb2b-459fecd5c648",
             "target_ref": "attack-pattern--10d51417-ee35-4589-b1ff-b6df1c334e8d",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.060Z"
         }
     ]

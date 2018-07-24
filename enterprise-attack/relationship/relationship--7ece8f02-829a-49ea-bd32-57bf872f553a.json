@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--24dafd5a-dd51-4796-a2fb-3dc8a4f5c460",
+    "id": "bundle--e40b9fc3-94dc-42d0-a58f-e713bb57a3fd",
     "spec_version": "2.0",
     "objects": [
         {
-            "id": "relationship--2da49be7-0c4d-4568-946a-bc2111c59665",
+            "id": "relationship--7ece8f02-829a-49ea-bd32-57bf872f553a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT32](https://attack.mitre.org/group/G0050) has cleared select event log entries.",
+            "description": "[APT32](https://attack.mitre.org/groups/G0050) has cleared select event log entries.",
             "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
             "target_ref": "attack-pattern--799ace7f-e227-4411-baa0-8868704f2a69",
             "object_marking_refs": [
@@ -21,8 +21,8 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
-            "created": "2018-07-24T11:45:58.439Z"
+            "modified": "2018-07-24T17:26:20.956Z",
+            "created": "2018-07-24T17:26:20.956Z"
         }
     ]
 }

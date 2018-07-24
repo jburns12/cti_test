@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--33f92646-ed64-4dee-a341-47a0c1a2cb0a",
+    "id": "bundle--19865935-ebf1-4ae8-9548-b007d042659c",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--930175b1-0f2f-4f0b-99ad-13a4b304cc29",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Dragonfly](https://attack.mitre.org/group/G0035) dropped and executed SecretsDump, a tool that dumps password hashes.",
+            "description": "[Dragonfly](https://attack.mitre.org/groups/G0035) dropped and executed SecretsDump, a tool that dumps password hashes.",
             "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
             "target_ref": "attack-pattern--0a3ead4e-6d47-4ccb-854c-a6a4f9d96b22",
             "object_marking_refs": [
@@ -26,7 +26,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--d37eaad3-2c58-44f2-a8d0-344e86b4c262",
+    "id": "bundle--29da1a8e-5b2e-4875-b0eb-3ddb6e9da38b",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--eaaf6671-ead6-441b-b8d0-037a1e47572e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "TRINITY malware used by [FIN6](https://attack.mitre.org/group/G0037) identifies payment card track data on the victim and then copies it to a local file in a subdirectory of <code>C:\\Windows\\</code>. Once the malware collects the data, [FIN6](https://attack.mitre.org/group/G0037) actors compressed data and moved it to another staging system before exfiltration.",
+            "description": "TRINITY malware used by [FIN6](https://attack.mitre.org/groups/G0037) identifies payment card track data on the victim and then copies it to a local file in a subdirectory of <code>C:\\Windows\\</code>. Once the malware collects the data, [FIN6](https://attack.mitre.org/groups/G0037) actors compressed data and moved it to another staging system before exfiltration.",
             "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
             "target_ref": "attack-pattern--7dd95ff6-712e-4056-9626-312ea4ab4c5e",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.072Z"
         }
     ]

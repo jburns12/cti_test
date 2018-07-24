@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--c11a8cbe-7ad6-46ee-9fec-97fe82bcd6b0",
+    "id": "bundle--a135abc2-dcb8-4def-816b-95cd80fe7946",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--1083404f-57df-48dc-a3b9-8c60fb5fd2f7",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[FIN8](https://attack.mitre.org/group/G0061) has cleared logs during post compromise cleanup activities.",
+            "description": "[FIN8](https://attack.mitre.org/groups/G0061) has cleared logs during post compromise cleanup activities.",
             "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
             "target_ref": "attack-pattern--799ace7f-e227-4411-baa0-8868704f2a69",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--62b64166-54ec-4f41-b31d-b5e83a7a4c95",
+    "id": "bundle--a3908ce2-aca5-43aa-8a62-f7ba482f35cc",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--51006a56-a1fa-4467-b930-6488de0d32bd",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "The [Equation](https://attack.mitre.org/group/G0020) group is known to have the capability to overwrite the firmware on hard drives from some manufacturers.",
+            "description": "The [Equation](https://attack.mitre.org/groups/G0020) group is known to have the capability to overwrite the firmware on hard drives from some manufacturers.",
             "source_ref": "intrusion-set--96e239be-ad99-49eb-b127-3007b8c1bec9",
             "target_ref": "attack-pattern--10d5f3b7-6be6-4da5-9a77-0f1e2bbfcc44",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.055Z"
         }
     ]

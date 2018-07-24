@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--f1d7fe47-f69e-44d6-bd4f-48cc122bc421",
+    "id": "bundle--f57042f5-90ce-400e-bf75-682767158bd6",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--d7c5e4f4-cede-4a81-b46f-035b9e702e61",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[BRONZE BUTLER](https://attack.mitre.org/group/G0060) has used various tools to download files, including DGet (a similar tool to wget).",
+            "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has used various tools to download files, including DGet (a similar tool to wget).",
             "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

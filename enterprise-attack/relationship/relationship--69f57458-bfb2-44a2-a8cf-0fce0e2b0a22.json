@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--77d3a2a2-0452-4bbd-bba8-9496f023abf6",
+    "id": "bundle--306f5f90-e6ee-4293-86c2-31c0f43e7486",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--69f57458-bfb2-44a2-a8cf-0fce0e2b0a22",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT28](https://attack.mitre.org/group/G0007) has delivered [JHUHUGIT](https://attack.mitre.org/software/S0044) by executing PowerShell commands through DDE in Word documents.",
+            "description": "[APT28](https://attack.mitre.org/groups/G0007) has delivered [JHUHUGIT](https://attack.mitre.org/software/S0044) by executing PowerShell commands through DDE in Word documents.",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "attack-pattern--edbe24e9-aec4-4994-ac75-6a6bc7f1ddd0",
             "object_marking_refs": [
@@ -26,7 +26,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

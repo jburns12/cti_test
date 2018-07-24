@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--8ae6d5c3-cd80-437d-b0ad-ad2eef048bc5",
+    "id": "bundle--7f0ad8f8-caeb-4577-a313-0c91cce00ac3",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--55ffbd77-ec97-4dca-9399-b9e4b62fbbf8",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[FIN5](https://attack.mitre.org/group/G0053) scans processes on all victim systems in the environment and uses automated scripts to pull back the results.",
+            "description": "[FIN5](https://attack.mitre.org/groups/G0053) scans processes on all victim systems in the environment and uses automated scripts to pull back the results.",
             "source_ref": "intrusion-set--85403903-15e0-4f9f-9be4-a259ecad4022",
             "target_ref": "attack-pattern--30208d3e-0d6b-43c8-883e-44462a514619",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

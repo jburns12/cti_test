@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--89b56005-a420-4791-b4ce-0878847108af",
+    "id": "bundle--9a9a5bfb-3d0e-4188-93be-2974ebe7d166",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--b0db4b00-8716-430f-a9d8-29a878a12eac",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Dragonfly](https://attack.mitre.org/group/G0035) deleted a file immediately after executing it on a victim host.",
+            "description": "[Dragonfly](https://attack.mitre.org/groups/G0035) deleted a file immediately after executing it on a victim host.",
             "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
             "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

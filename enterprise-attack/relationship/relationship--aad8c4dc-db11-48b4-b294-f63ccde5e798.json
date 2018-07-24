@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--34f22a4e-2556-4f71-8c26-d33a3ef39b23",
+    "id": "bundle--886f7c16-a61e-4116-b318-3652147c65d0",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--aad8c4dc-db11-48b4-b294-f63ccde5e798",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Carbanak](https://attack.mitre.org/group/G0008) malware installs itself as a service to provide persistence and SYSTEM privileges.",
+            "description": "[Carbanak](https://attack.mitre.org/groups/G0008) malware installs itself as a service to provide persistence and SYSTEM privileges.",
             "source_ref": "intrusion-set--55033a4d-3ffe-46b2-99b4-2c1541e9ce1c",
             "target_ref": "attack-pattern--478aa214-2ca7-4ec0-9978-18798e514790",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.042Z"
         }
     ]

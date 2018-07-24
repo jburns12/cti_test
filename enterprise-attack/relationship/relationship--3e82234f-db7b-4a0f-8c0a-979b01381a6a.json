@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--fe889bd8-2717-4fe0-9d07-3cc210678950",
+    "id": "bundle--0f052b06-f379-4800-996a-a5f5a86b4f27",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--3e82234f-db7b-4a0f-8c0a-979b01381a6a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[MuddyWater](https://attack.mitre.org/group/G0069) has used filenames and Registry key names associated with Windows Defender.",
+            "description": "[MuddyWater](https://attack.mitre.org/groups/G0069) has used filenames and Registry key names associated with Windows Defender.",
             "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
             "target_ref": "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

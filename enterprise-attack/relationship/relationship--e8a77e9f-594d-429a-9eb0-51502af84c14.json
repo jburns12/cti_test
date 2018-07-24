@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--8f2bee6d-0a30-4a6f-a366-d00628c86ae1",
+    "id": "bundle--a3920b68-b6ab-4faa-aa74-c5f9f23230fb",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--e8a77e9f-594d-429a-9eb0-51502af84c14",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[MuddyWater](https://attack.mitre.org/group/G0069) has used PowerShell for execution.",
+            "description": "[MuddyWater](https://attack.mitre.org/groups/G0069) has used PowerShell for execution.",
             "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
             "target_ref": "attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

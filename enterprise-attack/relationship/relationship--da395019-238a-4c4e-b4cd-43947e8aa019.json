@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--07b3a20d-b18c-4340-83ae-bcb64bda62d1",
+    "id": "bundle--06ed58ee-865b-477c-87ca-903ccdede4b2",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--da395019-238a-4c4e-b4cd-43947e8aa019",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "To move laterally on a victim network, [FIN6](https://attack.mitre.org/group/G0037) has used credentials stolen from various systems on which it gathered usernames and password hashes.",
+            "description": "To move laterally on a victim network, [FIN6](https://attack.mitre.org/groups/G0037) has used credentials stolen from various systems on which it gathered usernames and password hashes.",
             "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
             "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.072Z"
         }
     ]

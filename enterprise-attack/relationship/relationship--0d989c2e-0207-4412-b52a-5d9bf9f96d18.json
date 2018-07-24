@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--d68ca805-6cc9-4e5f-921a-70a50b161237",
+    "id": "bundle--c20a50d8-0c0b-4e67-b3d0-9ae0a1b7604a",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--0d989c2e-0207-4412-b52a-5d9bf9f96d18",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "In one instance, [menuPass](https://attack.mitre.org/group/G0045) added [PlugX](https://attack.mitre.org/software/S0013) as a service with a display name of \"Corel Writing Tools Utility.\"",
+            "description": "In one instance, [menuPass](https://attack.mitre.org/groups/G0045) added [PlugX](https://attack.mitre.org/software/S0013) as a service with a display name of \"Corel Writing Tools Utility.\"",
             "source_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",
             "target_ref": "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

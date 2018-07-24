@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--c564eeb2-1603-46eb-86f7-8d9959a21f28",
+    "id": "bundle--6004217f-5a1c-4f09-a4a7-c67ba12b8ce4",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--2fbcd38e-0ec9-4f2d-823b-3654f108f3a3",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Dragonfly](https://attack.mitre.org/group/G0035) used Web shells to maintain access to a victim network and download additional malicious files.",
+            "description": "[Dragonfly](https://attack.mitre.org/groups/G0035) used Web shells to maintain access to a victim network and download additional malicious files.",
             "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
             "target_ref": "attack-pattern--c16e5409-ee53-4d79-afdc-4099dc9292df",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

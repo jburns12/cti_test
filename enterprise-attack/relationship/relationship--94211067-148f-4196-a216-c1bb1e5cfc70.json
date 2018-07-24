@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--5dc493f6-e020-4792-808e-ee700cd62f8f",
+    "id": "bundle--252f3b4d-8f93-4944-a6e7-66c7c62d16f9",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--94211067-148f-4196-a216-c1bb1e5cfc70",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "Malware used by [Putter Panda](https://attack.mitre.org/group/G0024) attempts to terminate processes corresponding to two components of Sophos Anti-Virus (SAVAdminService.exe and SavService.exe).",
+            "description": "Malware used by [Putter Panda](https://attack.mitre.org/groups/G0024) attempts to terminate processes corresponding to two components of Sophos Anti-Virus (SAVAdminService.exe and SavService.exe).",
             "source_ref": "intrusion-set--5ce5392a-3a6c-4e07-9df3-9b6a9159ac45",
             "target_ref": "attack-pattern--2e0dd10b-676d-4964-acd0-8a404c92b044",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.059Z"
         }
     ]

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--c3acfd7c-ed39-40ad-b281-c6b2d4656264",
+    "id": "bundle--4332383a-6238-43e3-b21a-21310f8a5fa6",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--5f055076-79d1-44e8-95cb-43fc515df2f6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Lazarus Group](https://attack.mitre.org/group/G0032) malware IndiaIndia saves information gathered about the victim to a file that is saved in the %TEMP% directory, then compressed, encrypted, and uploaded to a C2 server.",
+            "description": "[Lazarus Group](https://attack.mitre.org/groups/G0032) malware IndiaIndia saves information gathered about the victim to a file that is saved in the %TEMP% directory, then compressed, encrypted, and uploaded to a C2 server.",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--7dd95ff6-712e-4056-9626-312ea4ab4c5e",
             "object_marking_refs": [
@@ -26,7 +26,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.068Z"
         }
     ]

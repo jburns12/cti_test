@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--4e3e517d-4c2a-46ab-8cde-c989611bde63",
+    "id": "bundle--e94c3ed6-2386-47a1-b9c2-72eecaf2c32a",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--059f8b03-59f9-45da-9c12-862f50e5fe45",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[FIN10](https://attack.mitre.org/group/G0051) has used batch scripts and scheduled tasks to delete critical system files.",
+            "description": "[FIN10](https://attack.mitre.org/groups/G0051) has used batch scripts and scheduled tasks to delete critical system files.",
             "source_ref": "intrusion-set--fbe9387f-34e6-4828-ac28-3080020c597b",
             "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

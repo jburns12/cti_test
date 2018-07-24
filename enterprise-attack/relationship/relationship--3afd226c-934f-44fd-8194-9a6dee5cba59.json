@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--64109722-fc66-46d1-818f-baf94404ba34",
+    "id": "bundle--92a066c1-4899-4236-9cd5-187ee6fa91af",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--3afd226c-934f-44fd-8194-9a6dee5cba59",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Lazarus Group](https://attack.mitre.org/group/G0032) malware uses multiple types of encryption and encoding in its malware files, including AES, Caracachs, RC4, basic XOR with constant 0xA7, and other techniques.",
+            "description": "[Lazarus Group](https://attack.mitre.org/groups/G0032) malware uses multiple types of encryption and encoding in its malware files, including AES, Caracachs, RC4, basic XOR with constant 0xA7, and other techniques.",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
             "object_marking_refs": [
@@ -36,7 +36,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.065Z"
         }
     ]

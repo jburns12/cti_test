@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--b6cc5189-3437-4d69-b7f4-aa8f9994f3ce",
+    "id": "bundle--0366a061-e4cf-4fa8-b9af-0206aed5b70d",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--c3a1969b-1edb-4a78-80ab-b122cc2822e4",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Group5](https://attack.mitre.org/group/G0043) disguised its malicious binaries with several layers of obfuscation, including encrypting the files.",
+            "description": "[Group5](https://attack.mitre.org/groups/G0043) disguised its malicious binaries with several layers of obfuscation, including encrypting the files.",
             "source_ref": "intrusion-set--7331c66a-5601-4d3f-acf6-ad9e3035eb40",
             "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.078Z"
         }
     ]

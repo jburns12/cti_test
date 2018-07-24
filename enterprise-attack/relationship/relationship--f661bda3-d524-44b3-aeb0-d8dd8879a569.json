@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--78547b0d-b81f-42a3-9bed-4e98c5d815de",
+    "id": "bundle--691c7523-2d7b-464b-bfae-b7f888d40426",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--f661bda3-d524-44b3-aeb0-d8dd8879a569",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT3](https://attack.mitre.org/group/G0022) has a tool that can copy files to remote machines.",
+            "description": "[APT3](https://attack.mitre.org/groups/G0022) has a tool that can copy files to remote machines.",
             "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

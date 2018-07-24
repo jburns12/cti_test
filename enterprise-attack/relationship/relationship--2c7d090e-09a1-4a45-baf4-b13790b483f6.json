@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--d84c11d3-2135-4109-a240-be7dcd9d4b29",
+    "id": "bundle--2cdd5e10-1e76-4300-a916-4d8b54be32c4",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--2c7d090e-09a1-4a45-baf4-b13790b483f6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Leviathan](https://attack.mitre.org/group/G0065) has obfuscated code using base64 and gzip compression.",
+            "description": "[Leviathan](https://attack.mitre.org/groups/G0065) has obfuscated code using base64 and gzip compression.",
             "source_ref": "intrusion-set--7113eaa5-ba79-4fb3-b68a-398ee9cd698e",
             "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

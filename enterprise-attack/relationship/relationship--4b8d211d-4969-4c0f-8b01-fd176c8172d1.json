@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--1060a48d-b6da-4f3b-82da-c2f1f2a73948",
+    "id": "bundle--b329d14c-86ca-47b4-899d-e4201ab08b3c",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--4b8d211d-4969-4c0f-8b01-fd176c8172d1",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT28](https://attack.mitre.org/group/G0007) has cleared event logs using the commands <code>wevtutil cl System</code> and <code>wevtutil cl Security</code>.",
+            "description": "[APT28](https://attack.mitre.org/groups/G0007) has cleared event logs using the commands <code>wevtutil cl System</code> and <code>wevtutil cl Security</code>.",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "attack-pattern--799ace7f-e227-4411-baa0-8868704f2a69",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.038Z"
         }
     ]

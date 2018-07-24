@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--ce1d3e29-b9fa-4fb3-a9fa-9c1fd42c5c0f",
+    "id": "bundle--ea0bc7bc-2bc3-43a5-8051-e5cb9490919d",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--f3f122f1-998f-4079-afad-7a59e39f89b7",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT29](https://attack.mitre.org/group/G0016) has used various forms spearphishing attempting to get a user to open links or attachments.",
+            "description": "[APT29](https://attack.mitre.org/groups/G0016) has used various forms spearphishing attempting to get a user to open links or attachments.",
             "source_ref": "intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542",
             "target_ref": "attack-pattern--8c32eb4d-805f-4fc5-bf60-c4d476c131b5",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

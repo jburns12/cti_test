@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--9a0b3b75-15d8-4636-ad26-6bf73fd146e1",
+    "id": "bundle--296e7b86-f366-465c-8b90-ab4012a6d0ed",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--e2675622-ec8e-4894-9f5e-3c82944e3019",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Turla](https://attack.mitre.org/group/G0010) surveys a system upon check-in to discover operating system configuration details using the <code>systeminfo</code> and <code>set</code> commands.",
+            "description": "[Turla](https://attack.mitre.org/groups/G0010) surveys a system upon check-in to discover operating system configuration details using the <code>systeminfo</code> and <code>set</code> commands.",
             "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
             "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.045Z"
         }
     ]

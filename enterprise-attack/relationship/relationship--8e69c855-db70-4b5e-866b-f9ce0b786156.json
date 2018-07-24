@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--cee14292-0979-4c3b-9b4b-b0b704aeabda",
+    "id": "bundle--23bf24e3-41af-43db-9478-524c571c68ca",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--8e69c855-db70-4b5e-866b-f9ce0b786156",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "Malware used by [Group5](https://attack.mitre.org/group/G0043) is capable of watching the victim's screen.",
+            "description": "Malware used by [Group5](https://attack.mitre.org/groups/G0043) is capable of watching the victim's screen.",
             "source_ref": "intrusion-set--7331c66a-5601-4d3f-acf6-ad9e3035eb40",
             "target_ref": "attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.078Z"
         }
     ]

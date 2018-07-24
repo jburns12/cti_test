@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--35494573-defc-427a-8c82-4eed998f2d07",
+    "id": "bundle--7052cf62-835f-4163-90e2-3fa96f7f63c0",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--38a72b32-dc04-493d-8b92-31174c32f3ed",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT1](https://attack.mitre.org/group/G0006) has collected files from a local victim.",
+            "description": "[APT1](https://attack.mitre.org/groups/G0006) has collected files from a local victim.",
             "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
             "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.036Z"
         }
     ]

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--1f989189-a7cd-4156-8ad5-3db8429e1b85",
+    "id": "bundle--2da2f1c5-4578-4c39-9917-1c4e82f35b70",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--273ad96c-269f-4736-a3de-646713c15b50",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Leviathan](https://attack.mitre.org/group/G0065) has downloaded additional scripts and files from adversary-controlled servers. [Leviathan](https://attack.mitre.org/group/G0065) has also used an uploader known as LUNCHMONEY that can exfiltrate files to Dropbox.",
+            "description": "[Leviathan](https://attack.mitre.org/groups/G0065) has downloaded additional scripts and files from adversary-controlled servers. [Leviathan](https://attack.mitre.org/groups/G0065) has also used an uploader known as LUNCHMONEY that can exfiltrate files to Dropbox.",
             "source_ref": "intrusion-set--7113eaa5-ba79-4fb3-b68a-398ee9cd698e",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "object_marking_refs": [
@@ -26,7 +26,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

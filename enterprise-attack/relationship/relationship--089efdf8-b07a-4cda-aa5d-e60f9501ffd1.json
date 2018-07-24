@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--ab75b7c6-3f64-40bc-8513-a0c7d6666a00",
+    "id": "bundle--a32a765e-c211-44e0-9514-3334126fba34",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--089efdf8-b07a-4cda-aa5d-e60f9501ffd1",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "The [BRONZE BUTLER](https://attack.mitre.org/group/G0060) uploader or malware the uploader uses <code>command</code> to delete the RAR archives after they have been exfiltrated.",
+            "description": "The [BRONZE BUTLER](https://attack.mitre.org/groups/G0060) uploader or malware the uploader uses <code>command</code> to delete the RAR archives after they have been exfiltrated.",
             "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
             "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

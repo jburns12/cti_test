@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--4ef5c74c-3f51-4d8b-9c9f-746c4fd55ed9",
+    "id": "bundle--0d6ddc34-3e36-4e41-be8a-f4ceadbae940",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--1262d88d-0eb1-4d19-b84a-9793ef3e4d03",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Elderwood](https://attack.mitre.org/group/G0066) has leveraged multiple types of spearphishing in order to attempt to get a user to open links and attachments.",
+            "description": "[Elderwood](https://attack.mitre.org/groups/G0066) has leveraged multiple types of spearphishing in order to attempt to get a user to open links and attachments.",
             "source_ref": "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
             "target_ref": "attack-pattern--8c32eb4d-805f-4fc5-bf60-c4d476c131b5",
             "object_marking_refs": [
@@ -26,7 +26,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

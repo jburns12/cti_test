@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--d89154f2-7a65-49e0-82b8-1b93aa6d8c39",
+    "id": "bundle--63171b16-3747-405a-b78f-59813482601a",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--d57dd9d9-d075-48c4-ae54-ed0aeae575de",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[BRONZE BUTLER](https://attack.mitre.org/group/G0060) has used VBS, VBE, and batch scripts for execution.",
+            "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has used VBS, VBE, and batch scripts for execution.",
             "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
             "target_ref": "attack-pattern--7fd87010-3a00-4da3-b905-410525e8ec44",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

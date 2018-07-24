@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--52a1c8be-3492-453e-b0ab-d14d48c50b38",
+    "id": "bundle--203cb7f6-de87-413b-81a3-9b1a12270a24",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--4da943df-a7dc-499f-a8b7-ca8d298d8ff6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[admin@338](https://attack.mitre.org/group/G0018) actors used the following command to rename one of their tools to a benign file name: <code>ren \"%temp%\\upload\" audiodg.exe</code>",
+            "description": "[admin@338](https://attack.mitre.org/groups/G0018) actors used the following command to rename one of their tools to a benign file name: <code>ren \"%temp%\\upload\" audiodg.exe</code>",
             "source_ref": "intrusion-set--16ade1aa-0ea1-4bb7-88cc-9079df2ae756",
             "target_ref": "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.052Z"
         }
     ]

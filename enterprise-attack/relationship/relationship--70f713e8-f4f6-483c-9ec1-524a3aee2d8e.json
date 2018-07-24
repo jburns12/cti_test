@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--928e3e00-e5e0-4e0b-9d74-03f7826274cf",
+    "id": "bundle--f220af47-674a-44d6-983f-00d53e33d0f6",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--70f713e8-f4f6-483c-9ec1-524a3aee2d8e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT34](https://attack.mitre.org/group/G0057) malware often uses HTTP and DNS for C2. The group has also used the Plink utility and other tools to create tunnels to C2 servers.",
+            "description": "[APT34](https://attack.mitre.org/groups/G0057) malware often uses HTTP and DNS for C2. The group has also used the Plink utility and other tools to create tunnels to C2 servers.",
             "source_ref": "intrusion-set--68ba94ab-78b8-43e7-83e2-aed3466882c6",
             "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

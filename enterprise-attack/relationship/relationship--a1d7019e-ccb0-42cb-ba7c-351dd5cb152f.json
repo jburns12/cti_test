@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--b1192935-eaf3-4ac0-bdd7-19f5c2b20ebf",
+    "id": "bundle--7ddb85a2-20e4-498b-aefb-dcd7f87225d4",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--a1d7019e-ccb0-42cb-ba7c-351dd5cb152f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT29](https://attack.mitre.org/group/G0016) has used spearphishing with a link to trick victims into clicking on a link to a zip file containing malicious files.",
+            "description": "[APT29](https://attack.mitre.org/groups/G0016) has used spearphishing with a link to trick victims into clicking on a link to a zip file containing malicious files.",
             "source_ref": "intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542",
             "target_ref": "attack-pattern--20138b9d-1aac-4a26-8654-a36b6bbf2bba",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

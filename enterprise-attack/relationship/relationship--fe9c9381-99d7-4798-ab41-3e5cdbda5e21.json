@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--618d70dd-442b-4ccc-a7f6-0135e45b767c",
+    "id": "bundle--3a43767b-7968-4d1c-9e59-fcf346d95b20",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--fe9c9381-99d7-4798-ab41-3e5cdbda5e21",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "Based on comparison of [Gazer](https://attack.mitre.org/software/S0168) versions, [Turla](https://attack.mitre.org/group/G0010) made an effort to obfuscate strings in the malware that could be used as IoCs, including the mutex name and named pipe.",
+            "description": "Based on comparison of [Gazer](https://attack.mitre.org/software/S0168) versions, [Turla](https://attack.mitre.org/groups/G0010) made an effort to obfuscate strings in the malware that could be used as IoCs, including the mutex name and named pipe.",
             "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
             "target_ref": "attack-pattern--00d0b012-8a03-410e-95de-5826bf542de6",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

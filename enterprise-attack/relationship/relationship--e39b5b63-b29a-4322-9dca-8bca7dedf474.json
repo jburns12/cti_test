@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--dc8da0e7-7b86-478e-ab6c-a988979d6bfb",
+    "id": "bundle--371bb78c-ddf9-40bb-aeb3-6c24003ad59c",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--e39b5b63-b29a-4322-9dca-8bca7dedf474",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Dragonfly](https://attack.mitre.org/group/G0035) downloaded tools from a remote server after they were inside the victim network.",
+            "description": "[Dragonfly](https://attack.mitre.org/groups/G0035) downloaded tools from a remote server after they were inside the victim network.",
             "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

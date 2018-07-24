@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--61e91c81-e31a-4fb1-82ce-2460760f36c4",
+    "id": "bundle--912adc4f-389b-4ed3-bbe4-c67b02828651",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--98908617-068d-4b6e-bcba-ad213c137b1e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT32](https://attack.mitre.org/group/G0050) has used scheduled tasks to persist on victim systems.",
+            "description": "[APT32](https://attack.mitre.org/groups/G0050) has used scheduled tasks to persist on victim systems.",
             "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
             "target_ref": "attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

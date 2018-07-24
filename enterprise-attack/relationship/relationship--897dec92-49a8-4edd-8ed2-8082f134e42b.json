@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--33d60675-018a-48fa-8899-590c353df5af",
+    "id": "bundle--114edc5f-84c2-4e1e-92d2-725c12cb5457",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--897dec92-49a8-4edd-8ed2-8082f134e42b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT3](https://attack.mitre.org/group/G0022) has used PowerShell on victim systems to download and run payloads after exploitation.",
+            "description": "[APT3](https://attack.mitre.org/groups/G0022) has used PowerShell on victim systems to download and run payloads after exploitation.",
             "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
             "target_ref": "attack-pattern--7fd87010-3a00-4da3-b905-410525e8ec44",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.057Z"
         }
     ]

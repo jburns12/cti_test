@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--05e69402-012b-4011-8239-1ff9fa50eaf2",
+    "id": "bundle--71e5a05b-41d2-4a4e-a6de-c8fc1da584cf",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--81682d49-acb2-4439-a7da-1a28126cea94",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "A [Lazarus Group](https://attack.mitre.org/group/G0032) malware sample encodes data with base64.",
+            "description": "A [Lazarus Group](https://attack.mitre.org/groups/G0032) malware sample encodes data with base64.",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--cc7b8c4e-9be0-47ca-b0bb-83915ec3ee2f",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

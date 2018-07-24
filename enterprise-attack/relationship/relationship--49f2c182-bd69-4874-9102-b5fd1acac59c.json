@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--9209f14d-96be-4c9c-96fa-3402149e23ae",
+    "id": "bundle--e0d864ae-3571-46f2-9b6e-4a248583c0b4",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--49f2c182-bd69-4874-9102-b5fd1acac59c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Ke3chang](https://attack.mitre.org/group/G0004) transferred compressed and encrypted RAR files containing exfiltration through the established backdoor command and control channel during operations.",
+            "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) transferred compressed and encrypted RAR files containing exfiltration through the established backdoor command and control channel during operations.",
             "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
             "target_ref": "attack-pattern--92d7da27-2d91-488e-a00c-059dc162766d",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.033Z"
         }
     ]

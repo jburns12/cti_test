@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--5d6c6834-9b21-4bbb-ada3-53937e4b9157",
+    "id": "bundle--e2e34c67-d0b7-43b5-9ae5-59358323857b",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--d361058d-a11b-470d-bed8-44bfd8e50393",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "A [Gamaredon Group](https://attack.mitre.org/group/G0047) file stealer transfers collected files to a hardcoded C2 server.",
+            "description": "A [Gamaredon Group](https://attack.mitre.org/groups/G0047) file stealer transfers collected files to a hardcoded C2 server.",
             "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
             "target_ref": "attack-pattern--92d7da27-2d91-488e-a00c-059dc162766d",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.080Z"
         }
     ]

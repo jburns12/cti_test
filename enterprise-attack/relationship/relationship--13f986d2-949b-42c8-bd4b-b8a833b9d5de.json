@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--43fe6de8-49e0-4c6a-8052-536165ed9822",
+    "id": "bundle--a22c7ab7-0df4-4c87-bea9-80fa478184fe",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--13f986d2-949b-42c8-bd4b-b8a833b9d5de",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT3](https://attack.mitre.org/group/G0022) has been known to use multiple backdoors per campaign.",
+            "description": "[APT3](https://attack.mitre.org/groups/G0022) has been known to use multiple backdoors per campaign.",
             "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
             "target_ref": "attack-pattern--6aabc5ec-eae6-422c-8311-38d45ee9838a",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T21:43:14.128Z"
         }
     ]

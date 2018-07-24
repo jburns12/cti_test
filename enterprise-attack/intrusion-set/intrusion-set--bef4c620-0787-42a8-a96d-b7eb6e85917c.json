@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--59aff5f0-5bb2-4e67-8e05-aff10509cad5",
+    "id": "bundle--e2cbdb96-8fe9-4c83-af21-9523c7dff78b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,14 +8,14 @@
             "id": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "APT28",
-            "description": "[APT28](https://attack.mitre.org/group/G0007) is a threat group that has been attributed to the Russian government. (Citation: FireEye APT28) (Citation: SecureWorks TG-4127) (Citation: FireEye APT28) January 2017 (Citation: GRIZZLY STEPPE JAR) This group reportedly compromised the Democratic National Committee in April 2016. (Citation: Crowdstrike DNC June 2016)",
+            "description": "[APT28](https://attack.mitre.org/groups/G0007) is a threat group that has been attributed to the Russian government. (Citation: FireEye APT28) (Citation: SecureWorks TG-4127) (Citation: FireEye APT28) January 2017 (Citation: GRIZZLY STEPPE JAR) This group reportedly compromised the Democratic National Committee in April 2016. (Citation: Crowdstrike DNC June 2016)",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
                     "external_id": "G0007",
-                    "url": "https://attack.mitre.org/group/G0007",
+                    "url": "https://attack.mitre.org/groups/G0007",
                     "source_name": "mitre-attack"
                 },
                 {
@@ -100,7 +100,7 @@
                 "Threat Group-4127",
                 "TG-4127"
             ],
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:31:48.664Z"
         }
     ]

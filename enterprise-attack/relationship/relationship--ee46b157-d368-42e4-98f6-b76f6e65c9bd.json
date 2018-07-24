@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--49c9e0d6-ca29-450f-905e-2af77e6e447c",
+    "id": "bundle--f2acffc9-0c40-45f2-b669-df12cb34f9d3",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--ee46b157-d368-42e4-98f6-b76f6e65c9bd",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[FIN8](https://attack.mitre.org/group/G0061) uses [dsquery](https://attack.mitre.org/software/S0105) and other Active Directory utilities to enumerate hosts.",
+            "description": "[FIN8](https://attack.mitre.org/groups/G0061) uses [dsquery](https://attack.mitre.org/software/S0105) and other Active Directory utilities to enumerate hosts.",
             "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
             "target_ref": "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

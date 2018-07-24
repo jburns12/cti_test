@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--f72f02bd-f0ae-4710-8cdc-989d598aaa26",
+    "id": "bundle--351454c6-3c1e-401f-b764-7fc275a9dc22",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--beda360a-6477-48b9-b7d1-4643d02bc3c9",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[MuddyWater](https://attack.mitre.org/group/G0069) has performed credential dumping with [Mimikatz](https://attack.mitre.org/software/S0002) and Lazagne.",
+            "description": "[MuddyWater](https://attack.mitre.org/groups/G0069) has performed credential dumping with [Mimikatz](https://attack.mitre.org/software/S0002) and Lazagne.",
             "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
             "target_ref": "attack-pattern--0a3ead4e-6d47-4ccb-854c-a6a4f9d96b22",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

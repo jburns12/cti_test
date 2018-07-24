@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--a89ee13c-5b0c-4e27-a09c-026d3620129f",
+    "id": "bundle--fa4b9a5c-5a15-425a-b5ea-cc4938ff765c",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--39076217-a5bf-4b1b-b085-8dbf7ba92265",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Dragonfly](https://attack.mitre.org/group/G0035) used various scripts for execution, and was observed installing Python 2.7 on a victim.",
+            "description": "[Dragonfly](https://attack.mitre.org/groups/G0035) used various scripts for execution, and was observed installing Python 2.7 on a victim.",
             "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
             "target_ref": "attack-pattern--7fd87010-3a00-4da3-b905-410525e8ec44",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

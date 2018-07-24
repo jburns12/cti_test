@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--8d8ae62d-b9ff-477a-b4da-bcb32ed87859",
+    "id": "bundle--3eadd627-5a3f-4f1e-ba96-381ab72d36cb",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--239d98a7-f134-4270-8333-c2df2feaa9ca",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[menuPass](https://attack.mitre.org/group/G0045) has sent malicious Office documents via email as part of spearphishing campaigns as well as executables disguised as documents.",
+            "description": "[menuPass](https://attack.mitre.org/groups/G0045) has sent malicious Office documents via email as part of spearphishing campaigns as well as executables disguised as documents.",
             "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
             "target_ref": "attack-pattern--6aac77c4-eaf2-4366-8c13-ce50ab951f38",
             "object_marking_refs": [
@@ -26,7 +26,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

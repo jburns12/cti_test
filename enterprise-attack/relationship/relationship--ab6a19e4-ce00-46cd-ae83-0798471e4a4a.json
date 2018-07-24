@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--881605a3-6b90-4667-bca7-d216c91dbb2a",
+    "id": "bundle--4d51d651-b20b-4fb6-8221-f3af528f3046",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--ab6a19e4-ce00-46cd-ae83-0798471e4a4a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Threat Group-3390](https://attack.mitre.org/group/G0027) actors look for and use VPN profiles during an operation to access the network using external VPN services.",
+            "description": "[Threat Group-3390](https://attack.mitre.org/groups/G0027) actors look for and use VPN profiles during an operation to access the network using external VPN services.",
             "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
             "target_ref": "attack-pattern--10d51417-ee35-4589-b1ff-b6df1c334e8d",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.062Z"
         }
     ]

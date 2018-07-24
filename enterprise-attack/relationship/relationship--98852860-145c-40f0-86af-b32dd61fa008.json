@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--6be4ca57-e59c-4ed5-882a-22d5f81ad45e",
+    "id": "bundle--bcfa182c-399f-4eab-94f4-e99c7e549ff1",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--98852860-145c-40f0-86af-b32dd61fa008",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT34](https://attack.mitre.org/group/G0057) used the Plink utility and other tools to create tunnels to C2 servers.",
+            "description": "[APT34](https://attack.mitre.org/groups/G0057) used the Plink utility and other tools to create tunnels to C2 servers.",
             "source_ref": "intrusion-set--68ba94ab-78b8-43e7-83e2-aed3466882c6",
             "target_ref": "attack-pattern--4b74a1d4-b0e9-4ef1-93f1-14ecc6e2f5b5",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

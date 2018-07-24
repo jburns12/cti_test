@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--ca5c824f-e7b9-47bb-a05c-b97a1406b21e",
+    "id": "bundle--4026d31f-c72a-4abf-8954-257ae705e5d9",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--a48e7d01-012a-4336-9676-0f34e8501e22",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[FIN10](https://attack.mitre.org/group/G0051) has used RDP to move laterally to systems in the victim environment.",
+            "description": "[FIN10](https://attack.mitre.org/groups/G0051) has used RDP to move laterally to systems in the victim environment.",
             "source_ref": "intrusion-set--fbe9387f-34e6-4828-ac28-3080020c597b",
             "target_ref": "attack-pattern--51dea151-0898-4a45-967c-3ebee0420484",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

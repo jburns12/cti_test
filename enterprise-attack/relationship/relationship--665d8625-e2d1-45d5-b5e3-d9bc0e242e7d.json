@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--eb74d077-df34-4da5-ba9c-f4e35be12f17",
+    "id": "bundle--737a6ccf-13b8-48e9-b6cc-4a7968d21c1a",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--665d8625-e2d1-45d5-b5e3-d9bc0e242e7d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT37](https://attack.mitre.org/group/G0067) has collected data from victims' local systems.",
+            "description": "[APT37](https://attack.mitre.org/groups/G0067) has collected data from victims' local systems.",
             "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
             "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

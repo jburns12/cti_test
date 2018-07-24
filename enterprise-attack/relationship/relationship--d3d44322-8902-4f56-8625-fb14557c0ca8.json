@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--212aeec0-b8da-497d-86c0-909da47da4c4",
+    "id": "bundle--b03200ca-fc99-469c-88bd-8ed8acaa9916",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--d3d44322-8902-4f56-8625-fb14557c0ca8",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT33](https://attack.mitre.org/group/G0064) has used valid accounts for privilege escalation.",
+            "description": "[APT33](https://attack.mitre.org/groups/G0064) has used valid accounts for privilege escalation.",
             "source_ref": "intrusion-set--fbd29c89-18ba-4c2d-b792-51c0adee049f",
             "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

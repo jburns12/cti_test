@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--345d3b59-9773-4925-95f8-9cc3cda16355",
+    "id": "bundle--9ee2bb86-f19c-46a7-934e-a644ba57ee32",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--aea8401e-774e-47b1-86ac-220cacd11a3c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[FIN6](https://attack.mitre.org/group/G0037) has used scheduled tasks to establish persistence for various malware it uses, including downloaders known as HARDTACK and SHIPBREAD and PoS malware known as TRINITY.",
+            "description": "[FIN6](https://attack.mitre.org/groups/G0037) has used scheduled tasks to establish persistence for various malware it uses, including downloaders known as HARDTACK and SHIPBREAD and PoS malware known as TRINITY.",
             "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
             "target_ref": "attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.071Z"
         }
     ]

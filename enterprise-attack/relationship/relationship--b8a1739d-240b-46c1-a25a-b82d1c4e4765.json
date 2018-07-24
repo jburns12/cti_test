@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--4b8d3954-a6e0-47a2-8360-1656a251f2dd",
+    "id": "bundle--55507361-76b8-4f6f-94e2-d6a859148216",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--b8a1739d-240b-46c1-a25a-b82d1c4e4765",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Turla](https://attack.mitre.org/group/G0010) surveys a system upon check-in to discover remote systems on a local network using the <code>net view</code> and <code>net view /DOMAIN</code> commands.",
+            "description": "[Turla](https://attack.mitre.org/groups/G0010) surveys a system upon check-in to discover remote systems on a local network using the <code>net view</code> and <code>net view /DOMAIN</code> commands.",
             "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
             "target_ref": "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.045Z"
         }
     ]

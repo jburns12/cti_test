@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--a15d9c26-8767-4f2a-a2af-852222929d71",
+    "id": "bundle--f4cc2ac8-de9f-4d5a-bb64-2ca9bf99f181",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--0d63f3cf-bace-4210-9b76-199c5cdb8764",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Stealth Falcon](https://attack.mitre.org/group/G0038) malware uses PowerShell and WMI to script data collection and command execution on the victim.",
+            "description": "[Stealth Falcon](https://attack.mitre.org/groups/G0038) malware uses PowerShell and WMI to script data collection and command execution on the victim.",
             "source_ref": "intrusion-set--894aab42-3371-47b1-8859-a4a074c804c8",
             "target_ref": "attack-pattern--7fd87010-3a00-4da3-b905-410525e8ec44",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.074Z"
         }
     ]

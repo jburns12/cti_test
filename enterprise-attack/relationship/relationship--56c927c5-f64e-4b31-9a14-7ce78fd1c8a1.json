@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--6174b9a9-9fec-455d-b0ca-19027b973ac3",
+    "id": "bundle--d1109ef2-dc6d-4b1b-aa9b-d9b09dabfc90",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--56c927c5-f64e-4b31-9a14-7ce78fd1c8a1",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT3](https://attack.mitre.org/group/G0022) obfuscates files or information to help evade defensive measures.",
+            "description": "[APT3](https://attack.mitre.org/groups/G0022) obfuscates files or information to help evade defensive measures.",
             "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
             "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

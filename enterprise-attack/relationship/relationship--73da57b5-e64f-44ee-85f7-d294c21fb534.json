@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--ec1b3a63-f095-4e7b-8ad9-955fa3f1690b",
+    "id": "bundle--74661d1a-9229-4925-a22f-5647106c5f00",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--73da57b5-e64f-44ee-85f7-d294c21fb534",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Stealth Falcon](https://attack.mitre.org/group/G0038) malware encrypts C2 traffic using RC4 with a hard-coded key.",
+            "description": "[Stealth Falcon](https://attack.mitre.org/groups/G0038) malware encrypts C2 traffic using RC4 with a hard-coded key.",
             "source_ref": "intrusion-set--894aab42-3371-47b1-8859-a4a074c804c8",
             "target_ref": "attack-pattern--4b74a1d4-b0e9-4ef1-93f1-14ecc6e2f5b5",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.073Z"
         }
     ]

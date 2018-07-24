@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--0225aa09-c33f-4385-bdc4-2497b61f9cdc",
+    "id": "bundle--24386c6d-5c00-4c3c-b516-4d0d0cdf1b6c",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--062ebca3-abf7-449a-ad84-f04a3cada4dd",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Equation](https://attack.mitre.org/group/G0020) contains functionality to search for specific information about the attached hard drive that could be used to identify and overwrite the firmware.",
+            "description": "[Equation](https://attack.mitre.org/groups/G0020) contains functionality to search for specific information about the attached hard drive that could be used to identify and overwrite the firmware.",
             "source_ref": "intrusion-set--96e239be-ad99-49eb-b127-3007b8c1bec9",
             "target_ref": "attack-pattern--348f1eef-964b-4eb6-bb53-69b3dcb0c643",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.055Z"
         }
     ]

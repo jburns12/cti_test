@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--cf17d9e4-b18e-4cb2-b2ec-1c38f3459c2f",
+    "id": "bundle--035f01f2-68cb-4037-bbd3-ab7c7dba4caa",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--27b05a62-5310-40d9-9e49-b4dce3afad55",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Darkhotel](https://attack.mitre.org/group/G0012) uses a virus that propagates by infecting executables stored on shared drives.",
+            "description": "[Darkhotel](https://attack.mitre.org/groups/G0012) uses a virus that propagates by infecting executables stored on shared drives.",
             "source_ref": "intrusion-set--9e729a7e-0dd6-4097-95bf-db8d64911383",
             "target_ref": "attack-pattern--246fd3c7-f5e3-466d-8787-4c13d9e3b61c",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.047Z"
         }
     ]

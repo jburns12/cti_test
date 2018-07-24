@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--abd7743c-d762-4d8f-8f65-030bf0a793e2",
+    "id": "bundle--d7e043fa-8788-4995-a06f-a4a1a7602083",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--b2dbbb46-9659-4277-8753-c469c4bfe409",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Threat Group-3390](https://attack.mitre.org/group/G0027) has used <code>net user</code> to conduct internal discovery of systems.",
+            "description": "[Threat Group-3390](https://attack.mitre.org/groups/G0027) has used <code>net user</code> to conduct internal discovery of systems.",
             "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
             "target_ref": "attack-pattern--72b74d71-8169-42aa-92e0-e7b04b9f5a08",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

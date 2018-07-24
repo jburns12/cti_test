@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--c675b2e0-c0cd-4bdd-88b7-5aec5a0179f2",
+    "id": "bundle--e773983e-8159-4275-a72f-5c990435dcf3",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--6476b9fe-dc7f-4578-a39d-beebc8390af2",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Strider](https://attack.mitre.org/group/G0041) has used local servers with both local network and Internet access to act as internal proxy nodes to exfiltrate data from other parts of the network without direct Internet access.",
+            "description": "[Strider](https://attack.mitre.org/groups/G0041) has used local servers with both local network and Internet access to act as internal proxy nodes to exfiltrate data from other parts of the network without direct Internet access.",
             "source_ref": "intrusion-set--277d2f87-2ae5-4730-a3aa-50c1fdff9656",
             "target_ref": "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.077Z"
         }
     ]

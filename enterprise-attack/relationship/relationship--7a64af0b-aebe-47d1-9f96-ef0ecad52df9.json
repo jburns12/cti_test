@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--78891b5f-6df2-4baf-bbe6-2320d487f92a",
+    "id": "bundle--79193bc1-c299-421e-88dc-012b5f41e337",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--7a64af0b-aebe-47d1-9f96-ef0ecad52df9",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Leviathan](https://attack.mitre.org/group/G0065) has sent spearphishing emails with malicious attachments, including .rtf, .doc, and .xls files.",
+            "description": "[Leviathan](https://attack.mitre.org/groups/G0065) has sent spearphishing emails with malicious attachments, including .rtf, .doc, and .xls files.",
             "source_ref": "intrusion-set--7113eaa5-ba79-4fb3-b68a-398ee9cd698e",
             "target_ref": "attack-pattern--6aac77c4-eaf2-4366-8c13-ce50ab951f38",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

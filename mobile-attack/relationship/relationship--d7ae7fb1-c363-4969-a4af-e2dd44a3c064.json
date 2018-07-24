@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--af545f42-14ce-493f-8e45-8eb23f12f211",
+    "id": "bundle--f74eed73-0965-423e-b317-8781ace72ffe",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--d7ae7fb1-c363-4969-a4af-e2dd44a3c064",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Pegasus for Android](https://attack.mitre.org/software/MOB-S0032) attempts to modify the device's system partition.",
+            "description": "[Pegasus for Android](https://attack.mitre.org/software/MOB-S0032) modifies the system partition to maintain persistence.",
             "source_ref": "malware--93799a9d-3537-43d8-b6f4-17215de1657c",
             "target_ref": "attack-pattern--c5089859-b21f-40a3-8be4-63e381b8b1c0",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T14:44:41.004Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

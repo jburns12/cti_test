@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c3e8ac6c-9449-46d2-a813-b12fad398fde",
+    "id": "bundle--b47c00cd-0cb2-4e4e-b8fa-06195ed77d2d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,14 +8,14 @@
             "id": "intrusion-set--ae41895a-243f-4a65-b99b-d85022326c31",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Dust Storm",
-            "description": "[Dust Storm](https://attack.mitre.org/group/G0031) is a threat group that has targeted multiple industries in Japan, South Korea, the United States, Europe, and several Southeast Asian countries. (Citation: Cylance Dust Storm)",
+            "description": "[Dust Storm](https://attack.mitre.org/groups/G0031) is a threat group that has targeted multiple industries in Japan, South Korea, the United States, Europe, and several Southeast Asian countries. (Citation: Cylance Dust Storm)",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
                     "external_id": "G0031",
-                    "url": "https://attack.mitre.org/group/G0031",
+                    "url": "https://attack.mitre.org/groups/G0031",
                     "source_name": "mitre-attack"
                 },
                 {
@@ -31,7 +31,7 @@
             "aliases": [
                 "Dust Storm"
             ],
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:32:03.306Z"
         }
     ]

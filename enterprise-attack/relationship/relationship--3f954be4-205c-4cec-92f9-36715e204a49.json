@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--5334c5ca-26ab-4524-ae82-ac8ce0a6830d",
+    "id": "bundle--837865fa-28c7-430b-9959-210daecd82b2",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--3f954be4-205c-4cec-92f9-36715e204a49",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Patchwork](https://attack.mitre.org/group/G0040) added the path of its second-stage malware to the startup folder to achieve persistence.",
+            "description": "[Patchwork](https://attack.mitre.org/groups/G0040) added the path of its second-stage malware to the startup folder to achieve persistence.",
             "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
             "target_ref": "attack-pattern--9422fc14-1c43-410d-ab0f-a709b76c72dc",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.076Z"
         }
     ]

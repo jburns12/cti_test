@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--ad263b04-ead5-4144-9580-4060c3e81d02",
+    "id": "bundle--31d8dda2-d124-477a-9af6-4248a1b92fd6",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--d35f6c6f-c1ed-4b0d-b95f-9fd762eb3ac7",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "Several [Lazarus Group](https://attack.mitre.org/group/G0032) malware families use timestomping, including modifying the last write timestamp of a specified Registry key to a random date, as well as copying the timestamp for legitimate .exe files (such as calc.exe or mspaint.exe) to its dropped files.",
+            "description": "Several [Lazarus Group](https://attack.mitre.org/groups/G0032) malware families use timestomping, including modifying the last write timestamp of a specified Registry key to a random date, as well as copying the timestamp for legitimate .exe files (such as calc.exe or mspaint.exe) to its dropped files.",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--128c55d3-aeba-469f-bd3e-c8996ab4112a",
             "object_marking_refs": [
@@ -31,7 +31,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.066Z"
         }
     ]

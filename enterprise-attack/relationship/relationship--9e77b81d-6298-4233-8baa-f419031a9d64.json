@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--fe52fb5e-3d43-4762-9ad2-c088159a554e",
+    "id": "bundle--d45a3ecf-8a7b-418f-b9e7-36cb10763308",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--9e77b81d-6298-4233-8baa-f419031a9d64",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[FIN7](https://attack.mitre.org/group/G0046) has used mshta.exe to execute VBScript to execute malicious code on victim systems.",
+            "description": "[FIN7](https://attack.mitre.org/groups/G0046) has used mshta.exe to execute VBScript to execute malicious code on victim systems.",
             "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
             "target_ref": "attack-pattern--a127c32c-cbb0-4f9d-be07-881a792408ec",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

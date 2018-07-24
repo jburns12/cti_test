@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--03e9d05d-a17c-4e96-932c-3b892f9ee461",
+    "id": "bundle--f6ae11a8-f234-42ad-b717-48d929c962cb",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--16c7058c-8fa5-4477-8332-9e76fcb38924",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[FIN6](https://attack.mitre.org/group/G0037) has used Metasploit\u2019s [PsExec](https://attack.mitre.org/software/S0029) NTDSGRAB module to obtain a copy of the victim's Active Directory database.",
+            "description": "[FIN6](https://attack.mitre.org/groups/G0037) has used Metasploit\u2019s [PsExec](https://attack.mitre.org/software/S0029) NTDSGRAB module to obtain a copy of the victim's Active Directory database.",
             "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
             "target_ref": "attack-pattern--72b74d71-8169-42aa-92e0-e7b04b9f5a08",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.071Z"
         }
     ]

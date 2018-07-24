@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--f7a5ae6e-ce6b-47c8-bf63-757916bd283a",
+    "id": "bundle--e858bcd9-1ea5-4d7d-9fe4-60f853b961d3",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--4eec017c-8bf2-4eda-8c92-15926fc7e5aa",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "Several [Lazarus Group](https://attack.mitre.org/group/G0032) malware families collect information on the type and version of the victim OS, as well as the victim computer name and CPU information.",
+            "description": "Several [Lazarus Group](https://attack.mitre.org/groups/G0032) malware families collect information on the type and version of the victim OS, as well as the victim computer name and CPU information.",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
             "object_marking_refs": [
@@ -36,7 +36,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.066Z"
         }
     ]

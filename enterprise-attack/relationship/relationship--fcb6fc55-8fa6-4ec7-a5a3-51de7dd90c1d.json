@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--c9e0a43a-9e8c-4298-932a-bb4ded52d3da",
+    "id": "bundle--e0020ab5-816f-4ec9-94bb-fdea4479d510",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--fcb6fc55-8fa6-4ec7-a5a3-51de7dd90c1d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT37](https://attack.mitre.org/group/G0067) has access to destructive malware known as RUHAPPY that is capable of overwriting a machine's Master Boot Record (MBR).",
+            "description": "[APT37](https://attack.mitre.org/groups/G0067) has access to destructive malware known as RUHAPPY that is capable of overwriting a machine's Master Boot Record (MBR).",
             "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
             "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

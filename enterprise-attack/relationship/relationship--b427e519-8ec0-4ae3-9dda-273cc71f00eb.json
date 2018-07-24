@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--07dc7176-1b12-43df-a96c-3472bbecd308",
+    "id": "bundle--d5996a78-b18f-4c0a-a82f-96afee04f259",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--b427e519-8ec0-4ae3-9dda-273cc71f00eb",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Leviathan](https://attack.mitre.org/group/G0065) uses a backdoor known as BADFLICK that is is capable of generating a reverse shell.",
+            "description": "[Leviathan](https://attack.mitre.org/groups/G0065) uses a backdoor known as BADFLICK that is is capable of generating a reverse shell.",
             "source_ref": "intrusion-set--7113eaa5-ba79-4fb3-b68a-398ee9cd698e",
             "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T11:45:58.439Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]
