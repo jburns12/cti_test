@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--874c7c11-04ad-4c5c-875d-2cb456c019cd",
+    "id": "bundle--e00b430b-5c48-4bcd-bd20-3bdf9c14be9d",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--55ea8954-9b81-45e4-89c9-a6b55f5b2541",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[FIN8](https://attack.mitre.org/group/G0061) has used scheduled tasks to maintain RDP backdoors.",
+            "description": "[FIN8](https://attack.mitre.org/groups/G0061) has used scheduled tasks to maintain RDP backdoors.",
             "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
             "target_ref": "attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

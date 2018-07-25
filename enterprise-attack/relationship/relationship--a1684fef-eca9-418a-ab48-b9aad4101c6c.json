@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--11800b23-ae97-499f-bdf5-b5fefe1c17d9",
+    "id": "bundle--39267b73-2e55-4b37-9bae-c0220ae71f82",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--a1684fef-eca9-418a-ab48-b9aad4101c6c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[BRONZE BUTLER](https://attack.mitre.org/group/G0060) has used RC4 encryption (for Datper malware) and AES (for xxmm malware) to obfuscate HTTP traffic.",
+            "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has used RC4 encryption (for Datper malware) and AES (for xxmm malware) to obfuscate HTTP traffic.",
             "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
             "target_ref": "attack-pattern--4b74a1d4-b0e9-4ef1-93f1-14ecc6e2f5b5",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

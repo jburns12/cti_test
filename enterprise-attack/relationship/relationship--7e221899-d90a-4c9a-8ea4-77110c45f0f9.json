@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--a8580d20-b0c1-4e6f-80f4-303bc11eb1dd",
+    "id": "bundle--a924d87c-d4ba-41fd-908d-414a00a2256e",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--7e221899-d90a-4c9a-8ea4-77110c45f0f9",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "Some [Lazarus Group](https://attack.mitre.org/group/G0032) malware uses multiple channels for C2, such as RomeoWhiskey-Two, which consists of a RAT channel that parses data in datagram form and a Proxy channel that forms virtual point-to-point sessions.",
+            "description": "Some [Lazarus Group](https://attack.mitre.org/groups/G0032) malware uses multiple channels for C2, such as RomeoWhiskey-Two, which consists of a RAT channel that parses data in datagram form and a Proxy channel that forms virtual point-to-point sessions.",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--99709758-2b96-48f2-a68a-ad7fbd828091",
             "object_marking_refs": [
@@ -26,7 +26,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.068Z"
         }
     ]

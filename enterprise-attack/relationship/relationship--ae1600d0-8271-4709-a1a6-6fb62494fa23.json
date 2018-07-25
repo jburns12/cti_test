@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--81053b45-dbfb-479e-8695-4d56dea4a54d",
+    "id": "bundle--68efb826-ceab-454d-aadc-cabaaba5c8de",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--ae1600d0-8271-4709-a1a6-6fb62494fa23",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Sowbug](https://attack.mitre.org/group/G0054) has used keylogging tools.",
+            "description": "[Sowbug](https://attack.mitre.org/groups/G0054) has used keylogging tools.",
             "source_ref": "intrusion-set--d1acfbb3-647b-4723-9154-800ec119006e",
             "target_ref": "attack-pattern--bb5a00de-e086-4859-a231-fa793f6797e2",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

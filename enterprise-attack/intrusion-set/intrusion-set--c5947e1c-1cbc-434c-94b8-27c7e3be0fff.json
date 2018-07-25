@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--41ac440f-35b2-4d25-a4ff-dcf670f797bd",
+    "id": "bundle--94f7b9cb-93ae-44df-8183-2065bd5865b9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,14 +8,14 @@
             "id": "intrusion-set--c5947e1c-1cbc-434c-94b8-27c7e3be0fff",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Winnti Group",
-            "description": "[Winnti Group](https://attack.mitre.org/group/G0044) is a threat group with Chinese origins that has been active since at least 2010. The group has heavily targeted the gaming industry, but it has also expanded the scope of its targeting. Though both this group and [Axiom](https://attack.mitre.org/group/G0001) use the malware [Winnti](https://attack.mitre.org/software/S0141), the two groups appear to be distinct based on differences in reporting on the groups' TTPs and targeting. (Citation: Kaspersky Winnti April 2013) (Citation: Kaspersky Winnti June 2015) (Citation: Novetta Winnti April 2015)",
+            "description": "[Winnti Group](https://attack.mitre.org/groups/G0044) is a threat group with Chinese origins that has been active since at least 2010. The group has heavily targeted the gaming industry, but it has also expanded the scope of its targeting. Though both this group and [Axiom](https://attack.mitre.org/groups/G0001) use the malware [Winnti](https://attack.mitre.org/software/S0141), the two groups appear to be distinct based on differences in reporting on the groups' TTPs and targeting. (Citation: Kaspersky Winnti April 2013) (Citation: Kaspersky Winnti June 2015) (Citation: Novetta Winnti April 2015)",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
                     "external_id": "G0044",
-                    "url": "https://attack.mitre.org/group/G0044",
+                    "url": "https://attack.mitre.org/groups/G0044",
                     "source_name": "mitre-attack"
                 },
                 {
@@ -51,7 +51,7 @@
                 "Winnti Group",
                 "Blackfly"
             ],
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:32:08.682Z"
         }
     ]

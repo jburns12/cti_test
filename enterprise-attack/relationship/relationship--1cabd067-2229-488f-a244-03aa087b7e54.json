@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--2032093a-26ba-49da-b529-93f16d8c5ab7",
+    "id": "bundle--5bee7759-7284-4f5c-b385-2c8874c92a2a",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--1cabd067-2229-488f-a244-03aa087b7e54",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Leviathan](https://attack.mitre.org/group/G0065) has received C2 instructions from user profiles created on legitimate websites such as Github and TechNet.",
+            "description": "[Leviathan](https://attack.mitre.org/groups/G0065) has received C2 instructions from user profiles created on legitimate websites such as Github and TechNet.",
             "source_ref": "intrusion-set--7113eaa5-ba79-4fb3-b68a-398ee9cd698e",
             "target_ref": "attack-pattern--830c9528-df21-472c-8c14-a036bf17d665",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

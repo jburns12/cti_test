@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--cb0ba86c-0bdb-430d-ae9f-b1104d58ce5e",
+    "id": "bundle--761059bf-998b-48ad-b4c9-5ed08f93cb21",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--67f19627-27a5-4898-bab5-7b235aa4ad77",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT18](https://attack.mitre.org/group/G0026) actors used the native [at](https://attack.mitre.org/software/S0110) Windows task scheduler tool to use scheduled tasks for execution on a victim network.",
+            "description": "[APT18](https://attack.mitre.org/groups/G0026) actors used the native [at](https://attack.mitre.org/software/S0110) Windows task scheduler tool to use scheduled tasks for execution on a victim network.",
             "source_ref": "intrusion-set--38fd6a28-3353-4f2b-bb2b-459fecd5c648",
             "target_ref": "attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.060Z"
         }
     ]

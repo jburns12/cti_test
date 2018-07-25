@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--4f22ddaf-8669-4104-bed2-8957fc02700d",
+    "id": "bundle--6bf20525-43a3-4860-9e32-38406d185743",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--dd4c02ea-b54a-4753-beb5-3248d89a7e04",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT1](https://attack.mitre.org/group/G0006) has used the Windows command shell to execute commands.",
+            "description": "[APT1](https://attack.mitre.org/groups/G0006) has used the Windows command shell to execute commands.",
             "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
             "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.035Z"
         }
     ]

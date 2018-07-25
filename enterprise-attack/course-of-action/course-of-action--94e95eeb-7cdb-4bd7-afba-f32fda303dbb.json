@@ -1,17 +1,17 @@
 {
     "type": "bundle",
-    "id": "bundle--ab9fcf15-8777-40ec-a7d1-8a0d8096506d",
+    "id": "bundle--247caa87-d47b-459b-8535-9e64e49b5836",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "course-of-action--94e95eeb-7cdb-4bd7-afba-f32fda303dbb",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Network Share Connection Removal Mitigation",
-            "description": "Follow best practices for mitigation of activity related to establishing [Windows Admin Shares Mitigation](https://attack.mitre.org/technique/T1077). \n\nIdentify unnecessary system utilities or potentially malicious software that may be used to leverage network shares, and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
+            "description": "Follow best practices for mitigation of activity related to establishing [Windows Admin Shares](https://attack.mitre.org/technique/T1077). \n\nIdentify unnecessary system utilities or potentially malicious software that may be used to leverage network shares, and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
             "external_references": [
                 {
                     "external_id": "T1126",
-                    "url": "https://attack.mitre.org/technique/T1126",
+                    "url": "https://attack.mitre.org/techniques/T1126",
                     "source_name": "mitre-attack"
                 },
                 {
@@ -41,8 +41,8 @@
                 }
             ],
             "type": "course-of-action",
-            "modified": "2018-07-03T13:33:43.876Z",
-            "created": "2018-07-03T13:33:43.876Z"
+            "modified": "2018-07-24T17:26:20.956Z",
+            "created": "2018-07-24T17:26:20.956Z"
         }
     ]
 }

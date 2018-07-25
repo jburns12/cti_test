@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--940786f1-aa50-466a-a18b-70a4fb77d790",
+    "id": "bundle--9eab42cf-742d-4480-b6f4-dcbeeaa6c647",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--ca429946-3c81-4773-8254-108dbdbb9da9",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[PLATINUM](https://attack.mitre.org/group/G0068) has used various methods of process injection including hot patching.",
+            "description": "[PLATINUM](https://attack.mitre.org/groups/G0068) has used various methods of process injection including hot patching.",
             "source_ref": "intrusion-set--f9c06633-dcff-48a1-8588-759e7cec5694",
             "target_ref": "attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d",
             "object_marking_refs": [
@@ -20,7 +20,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--a651dd84-3a37-4ea9-b0f9-ddfadd5797b9",
+    "id": "bundle--2a9e2d77-ff09-472f-b818-1f17ce1f42b6",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--df69c29c-01c4-4541-988e-8a5765439d56",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Poseidon Group](https://attack.mitre.org/group/G0033) tools attempt to spoof anti-virus processes as a means of self-defense.",
+            "description": "[Poseidon Group](https://attack.mitre.org/groups/G0033) tools attempt to spoof anti-virus processes as a means of self-defense.",
             "source_ref": "intrusion-set--7ecc3b4f-5cdb-457e-b55a-df376b359446",
             "target_ref": "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.070Z"
         }
     ]

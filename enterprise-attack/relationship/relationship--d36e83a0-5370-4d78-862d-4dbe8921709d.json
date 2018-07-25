@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--e709fdd4-138c-4cad-8437-4be216ee1de3",
+    "id": "bundle--4c1e5793-b3e0-4087-a6ed-2692f2a4ef3d",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--d36e83a0-5370-4d78-862d-4dbe8921709d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[BRONZE BUTLER](https://attack.mitre.org/group/G0060) has used PowerShell for execution.",
+            "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has used PowerShell for execution.",
             "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
             "target_ref": "attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--014ccc02-edf9-4ca0-9539-9882884b0be5",
+    "id": "bundle--4fd0d84b-cb99-45cc-8bdf-af616345f4a1",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--91b22928-d538-4460-a5ff-7a0a5e797430",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Elderwood](https://attack.mitre.org/group/G0066) has delivered zero-day exploits and malware to victims by injecting malicious code into specific public Web pages visited by targets within a particular sector.",
+            "description": "[Elderwood](https://attack.mitre.org/groups/G0066) has delivered zero-day exploits and malware to victims by injecting malicious code into specific public Web pages visited by targets within a particular sector.",
             "source_ref": "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
             "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
             "object_marking_refs": [
@@ -31,7 +31,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

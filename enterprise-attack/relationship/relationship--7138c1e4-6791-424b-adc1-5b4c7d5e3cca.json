@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--e41d5989-42e7-4be5-ab7c-5363e73c19c5",
+    "id": "bundle--5a3f7c76-d81b-47e4-ad87-d0faac404518",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--7138c1e4-6791-424b-adc1-5b4c7d5e3cca",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Naikon](https://attack.mitre.org/group/G0019) uses commands such as <code>netsh interface show</code> to discover network interface settings.",
+            "description": "[Naikon](https://attack.mitre.org/groups/G0019) uses commands such as <code>netsh interface show</code> to discover network interface settings.",
             "source_ref": "intrusion-set--2a158b0a-7ef8-43cb-9985-bf34d1e12050",
             "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.053Z"
         }
     ]

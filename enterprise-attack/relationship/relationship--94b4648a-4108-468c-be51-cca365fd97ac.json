@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--49bcb2fe-94db-4c59-a15a-534db2754f0d",
+    "id": "bundle--5039c325-a6ee-4ef4-b9f8-2e3812cb0fb0",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--94b4648a-4108-468c-be51-cca365fd97ac",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Stealth Falcon](https://attack.mitre.org/group/G0038) malware gathers system information via Windows Management Instrumentation (WMI).",
+            "description": "[Stealth Falcon](https://attack.mitre.org/groups/G0038) malware gathers system information via Windows Management Instrumentation (WMI).",
             "source_ref": "intrusion-set--894aab42-3371-47b1-8859-a4a074c804c8",
             "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.073Z"
         }
     ]

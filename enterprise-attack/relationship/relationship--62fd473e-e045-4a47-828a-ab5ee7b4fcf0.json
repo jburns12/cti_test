@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--1a95d604-456e-407b-a2c0-1866770c58ae",
+    "id": "bundle--7271ea21-645d-409c-806a-af64324de1cb",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--62fd473e-e045-4a47-828a-ab5ee7b4fcf0",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Patchwork](https://attack.mitre.org/group/G0040) has used watering holes to deliver files with exploits to initial victims.",
+            "description": "[Patchwork](https://attack.mitre.org/groups/G0040) has used watering holes to deliver files with exploits to initial victims.",
             "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
             "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

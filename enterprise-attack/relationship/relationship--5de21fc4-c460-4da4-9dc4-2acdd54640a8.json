@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--0d572ff4-3245-4eaf-b424-9d9a4251ecba",
+    "id": "bundle--d5463d65-6b48-47b6-a2ee-8189f3b71567",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--5de21fc4-c460-4da4-9dc4-2acdd54640a8",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT29](https://attack.mitre.org/group/G0016) used Kerberos ticket attacks for lateral movement.",
+            "description": "[APT29](https://attack.mitre.org/groups/G0016) used Kerberos ticket attacks for lateral movement.",
             "source_ref": "intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542",
             "target_ref": "attack-pattern--c23b740b-a42b-47a1-aec2-9d48ddd547ff",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.049Z"
         }
     ]

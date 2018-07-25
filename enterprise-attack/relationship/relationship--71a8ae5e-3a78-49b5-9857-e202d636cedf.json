@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--0f0c01d9-838f-46da-b4bb-3d8626cb8d6b",
+    "id": "bundle--b8cf4fdf-927d-41b5-ae9a-a686f56f3fd1",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--71a8ae5e-3a78-49b5-9857-e202d636cedf",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT32](https://attack.mitre.org/group/G0050) has used scheduled task raw XML with a backdated timestamp of June 2, 2016.",
+            "description": "[APT32](https://attack.mitre.org/groups/G0050) has used scheduled task raw XML with a backdated timestamp of June 2, 2016.",
             "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
             "target_ref": "attack-pattern--128c55d3-aeba-469f-bd3e-c8996ab4112a",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--d61293a0-2627-46d8-9c89-9dfe4ea9c93d",
+    "id": "bundle--d3131959-598a-401c-abe7-95521efb6662",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--37c94531-1e56-4640-93fd-e9fd65da4f80",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Darkhotel](https://attack.mitre.org/group/G0012) uses a sophisticated keylogger.",
+            "description": "[Darkhotel](https://attack.mitre.org/groups/G0012) uses a sophisticated keylogger.",
             "source_ref": "intrusion-set--9e729a7e-0dd6-4097-95bf-db8d64911383",
             "target_ref": "attack-pattern--bb5a00de-e086-4859-a231-fa793f6797e2",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.047Z"
         }
     ]

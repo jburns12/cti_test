@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--e10bda06-4be7-4c0c-9541-17e995f10b37",
+    "id": "bundle--de353870-a347-445b-9b30-7ba88d84cc16",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--e2ce90d2-7470-4f2d-a86c-f429b934ab35",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "The [Poseidon Group](https://attack.mitre.org/group/G0033)'s Information Gathering Tool (IGT) includes PowerShell components.",
+            "description": "The [Poseidon Group](https://attack.mitre.org/groups/G0033)'s Information Gathering Tool (IGT) includes PowerShell components.",
             "source_ref": "intrusion-set--7ecc3b4f-5cdb-457e-b55a-df376b359446",
             "target_ref": "attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.070Z"
         }
     ]

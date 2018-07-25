@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--863cb2c5-e567-4bd6-ba2e-fd8c5ddfc0c7",
+    "id": "bundle--20ab05bf-1ae4-498d-b9be-5343b78c6ee3",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--6fdc3210-9754-4157-b386-8fcd680e732c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Deep Panda](https://attack.mitre.org/group/G0009) has used PowerShell scripts to download and execute programs in memory, without writing to disk.",
+            "description": "[Deep Panda](https://attack.mitre.org/groups/G0009) has used PowerShell scripts to download and execute programs in memory, without writing to disk.",
             "source_ref": "intrusion-set--a653431d-6a5e-4600-8ad3-609b5af57064",
             "target_ref": "attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.043Z"
         }
     ]

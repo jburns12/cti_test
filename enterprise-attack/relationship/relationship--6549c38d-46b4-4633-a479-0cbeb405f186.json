@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--ec394586-a60d-4e59-8d31-37d4193ae314",
+    "id": "bundle--6d594d0f-36ef-456e-b67d-21b503c3aa66",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--6549c38d-46b4-4633-a479-0cbeb405f186",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "A [Lazarus Group](https://attack.mitre.org/group/G0032) malware sample conducts C2 over HTTP.",
+            "description": "A [Lazarus Group](https://attack.mitre.org/groups/G0032) malware sample conducts C2 over HTTP.",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

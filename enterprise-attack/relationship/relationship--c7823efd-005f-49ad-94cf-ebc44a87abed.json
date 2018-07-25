@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--59cc63ea-9bca-4e5a-8432-389e15f21f1b",
+    "id": "bundle--cb273687-43a8-478e-b9cd-64ce52e6bc2d",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--c7823efd-005f-49ad-94cf-ebc44a87abed",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "The file name AcroRD32.exe, a legitimate process name for Adobe's Acrobat Reader, was used by [APT1](https://attack.mitre.org/group/G0006) as a name for malware.",
+            "description": "The file name AcroRD32.exe, a legitimate process name for Adobe's Acrobat Reader, was used by [APT1](https://attack.mitre.org/groups/G0006) as a name for malware.",
             "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
             "target_ref": "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0",
             "object_marking_refs": [
@@ -26,7 +26,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.035Z"
         }
     ]

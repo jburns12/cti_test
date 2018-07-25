@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--50c4ee14-4e99-421e-8f11-b8d5c6103435",
+    "id": "bundle--9b327ea0-5394-4ac3-9427-2cc6cb44c68c",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--b03aafb3-dc03-4e12-9354-69a579b60aaf",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Dust Storm](https://attack.mitre.org/group/G0031) has used Android backdoors capable of enumerating specific files on the infected devices.",
+            "description": "[Dust Storm](https://attack.mitre.org/groups/G0031) has used Android backdoors capable of enumerating specific files on the infected devices.",
             "source_ref": "intrusion-set--ae41895a-243f-4a65-b99b-d85022326c31",
             "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.065Z"
         }
     ]

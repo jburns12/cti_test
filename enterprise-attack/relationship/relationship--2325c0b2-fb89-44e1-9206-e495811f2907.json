@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--c6ab106f-2f1e-4eb6-9bef-1068c3aba76e",
+    "id": "bundle--da2cc17b-d640-4f0e-bae7-45fc64c756e6",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--2325c0b2-fb89-44e1-9206-e495811f2907",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Lazarus Group](https://attack.mitre.org/group/G0032) malware WhiskeyDelta-Two contains a function that attempts to rename the administrator\u2019s account.",
+            "description": "[Lazarus Group](https://attack.mitre.org/groups/G0032) malware WhiskeyDelta-Two contains a function that attempts to rename the administrator\u2019s account.",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--a10641f4-87b4-45a3-a906-92a149cb2c27",
             "object_marking_refs": [
@@ -26,7 +26,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.066Z"
         }
     ]

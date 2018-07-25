@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--ebc3e1de-2fb0-48a6-8cdf-5e1e640ae4d9",
+    "id": "bundle--c5cc8f67-8717-4c76-8f9a-a2a17a184de8",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--7ca1b40d-d1de-48ab-b8ad-023ad9877def",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Lazarus Group](https://attack.mitre.org/group/G0032) malware WhiskeyAlfa-Three modifies sector 0 of the Master Boot Record (MBR) to ensure that the malware will persist even if a victim machine shuts down.",
+            "description": "[Lazarus Group](https://attack.mitre.org/groups/G0032) malware WhiskeyAlfa-Three modifies sector 0 of the Master Boot Record (MBR) to ensure that the malware will persist even if a victim machine shuts down.",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--02fefddc-fb1b-423f-a76b-7552dd211d4d",
             "object_marking_refs": [
@@ -26,7 +26,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.069Z"
         }
     ]

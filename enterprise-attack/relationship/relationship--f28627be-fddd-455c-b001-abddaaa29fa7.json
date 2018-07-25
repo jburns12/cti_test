@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--300408aa-da6c-4c0e-9368-b741dfafa1c3",
+    "id": "bundle--570fa511-2c87-4ef4-9206-93d1817b4cb5",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--f28627be-fddd-455c-b001-abddaaa29fa7",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Winnti Group](https://attack.mitre.org/group/G0044) used stolen certificates to sign its malware.",
+            "description": "[Winnti Group](https://attack.mitre.org/groups/G0044) used stolen certificates to sign its malware.",
             "source_ref": "intrusion-set--c5947e1c-1cbc-434c-94b8-27c7e3be0fff",
             "target_ref": "attack-pattern--1b84d551-6de8-4b96-9930-d177677c3b1d",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.079Z"
         }
     ]

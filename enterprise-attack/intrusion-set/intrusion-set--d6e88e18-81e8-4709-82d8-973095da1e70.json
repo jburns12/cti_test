@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7d0f5562-8420-476b-9bcd-f9b7a459ac71",
+    "id": "bundle--4e727311-6d55-4a1e-a8e2-28307c29b2aa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,14 +8,14 @@
             "id": "intrusion-set--d6e88e18-81e8-4709-82d8-973095da1e70",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "APT16",
-            "description": "[APT16](https://attack.mitre.org/group/G0023) is a China-based threat group that has launched spearphishing campaigns targeting Japanese and Taiwanese organizations. (Citation: FireEye EPS Awakens Part 2)",
+            "description": "[APT16](https://attack.mitre.org/groups/G0023) is a China-based threat group that has launched spearphishing campaigns targeting Japanese and Taiwanese organizations. (Citation: FireEye EPS Awakens Part 2)",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
                     "external_id": "G0023",
-                    "url": "https://attack.mitre.org/group/G0023",
+                    "url": "https://attack.mitre.org/groups/G0023",
                     "source_name": "mitre-attack"
                 },
                 {
@@ -31,7 +31,7 @@
             "aliases": [
                 "APT16"
             ],
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:31:56.270Z"
         }
     ]

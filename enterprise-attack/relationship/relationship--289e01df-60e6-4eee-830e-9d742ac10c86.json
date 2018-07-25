@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--65751d7e-41bd-4b74-9abd-a79cf0006401",
+    "id": "bundle--4ec18e4d-2db2-4125-98a7-94317921ff7c",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--289e01df-60e6-4eee-830e-9d742ac10c86",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Threat Group-1314](https://attack.mitre.org/group/G0028) actors spawned shells on remote systems on a victim network to execute commands.",
+            "description": "[Threat Group-1314](https://attack.mitre.org/groups/G0028) actors spawned shells on remote systems on a victim network to execute commands.",
             "source_ref": "intrusion-set--d519164e-f5fa-4b8c-a1fb-cf0172ad0983",
             "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.064Z"
         }
     ]

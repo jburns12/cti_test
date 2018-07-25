@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--27e438eb-4eef-4592-9099-b94e4c9054c8",
+    "id": "bundle--91fd132a-98eb-4601-8d81-f8a411358add",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--86461465-cb29-4fc9-8fa8-8956c0f94536",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Dust Storm](https://attack.mitre.org/group/G0031) has encoded payloads with a single-byte XOR, both skipping the key itself and zeroing in an attempt to avoid exposing the key.",
+            "description": "[Dust Storm](https://attack.mitre.org/groups/G0031) has encoded payloads with a single-byte XOR, both skipping the key itself and zeroing in an attempt to avoid exposing the key.",
             "source_ref": "intrusion-set--ae41895a-243f-4a65-b99b-d85022326c31",
             "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.065Z"
         }
     ]

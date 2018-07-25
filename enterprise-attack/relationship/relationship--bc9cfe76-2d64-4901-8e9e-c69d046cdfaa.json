@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--ef70986b-19dd-4028-900c-ed9703adf938",
+    "id": "bundle--aeac079c-7a43-49af-b40a-00feb13f0213",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--bc9cfe76-2d64-4901-8e9e-c69d046cdfaa",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT3](https://attack.mitre.org/group/G0022) has a tool that creates a new service for persistence.",
+            "description": "[APT3](https://attack.mitre.org/groups/G0022) has a tool that creates a new service for persistence.",
             "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
             "target_ref": "attack-pattern--478aa214-2ca7-4ec0-9978-18798e514790",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

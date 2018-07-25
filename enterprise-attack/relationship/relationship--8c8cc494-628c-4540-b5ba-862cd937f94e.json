@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--9a2df365-ad62-40c1-af3d-41a4bc6f81f5",
+    "id": "bundle--c68a9393-519a-4c5e-a72e-887a63365fe2",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--8c8cc494-628c-4540-b5ba-862cd937f94e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Dragonfly](https://attack.mitre.org/group/G0035) has performed forced authentication to gather hashed user credentials over SMB using spearphishing attachments with external resource links and by modifying .LNK file icon resources to collect credentials from virtualized systems.",
+            "description": "[Dragonfly](https://attack.mitre.org/groups/G0035) has performed forced authentication to gather hashed user credentials over SMB using spearphishing attachments with external resource links and by modifying .LNK file icon resources to collect credentials from virtualized systems.",
             "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
             "target_ref": "attack-pattern--b77cf5f3-6060-475d-bd60-40ccbf28fdc2",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

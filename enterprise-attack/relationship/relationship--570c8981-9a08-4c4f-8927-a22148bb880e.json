@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--6bcbf88b-6a9d-453c-9228-233c749ad6fb",
+    "id": "bundle--de5ac494-1dee-4ea3-81d5-2ff47992a053",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--570c8981-9a08-4c4f-8927-a22148bb880e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Dragonfly](https://attack.mitre.org/group/G0035) created accounts that appeared to be tailored to each individual staging target.",
+            "description": "[Dragonfly](https://attack.mitre.org/groups/G0035) created accounts that appeared to be tailored to each individual staging target.",
             "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
             "target_ref": "attack-pattern--e01be9c5-e763-4caf-aeb7-000b416aef67",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

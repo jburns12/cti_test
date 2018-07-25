@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--bc20dad1-a4cf-4636-8de4-1e871a57e388",
+    "id": "bundle--0f9caa76-7c76-4ab4-b328-b468a87cc70c",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--e65112dc-8a58-486f-9f3b-5a84925a3e53",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT29](https://attack.mitre.org/group/G0016) used sticky-keys to obtain unauthenticated, privileged console access.",
+            "description": "[APT29](https://attack.mitre.org/groups/G0016) used sticky-keys to obtain unauthenticated, privileged console access.",
             "source_ref": "intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542",
             "target_ref": "attack-pattern--9b99b83a-1aac-4e29-b975-b374950551a3",
             "object_marking_refs": [
@@ -26,7 +26,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.049Z"
         }
     ]

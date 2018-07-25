@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--c60d0d45-062f-4428-9645-c15758025e89",
+    "id": "bundle--5d3dbf33-994b-4090-a60e-e85244ec40a4",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--13a8be40-1190-4553-b026-58c5088c322a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "Several tools used by [Suckfly](https://attack.mitre.org/group/G0039) have been command-line driven.",
+            "description": "Several tools used by [Suckfly](https://attack.mitre.org/groups/G0039) have been command-line driven.",
             "source_ref": "intrusion-set--5cbe0d3b-6fb1-471f-b591-4b192915116d",
             "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.075Z"
         }
     ]

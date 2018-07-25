@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8b8473e6-6058-47e6-908c-e392ac048edc",
+    "id": "bundle--5aed44f2-a0f0-4ed5-bb8c-97cc9939060a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -13,6 +13,21 @@
                     "external_id": "T1195",
                     "url": "https://attack.mitre.org/technique/T1195",
                     "source_name": "mitre-attack"
+                },
+                {
+                    "external_id": "CAPEC-437",
+                    "url": "https://capec.mitre.org/data/definitions/437.html",
+                    "source_name": "capec"
+                },
+                {
+                    "external_id": "CAPEC-438",
+                    "url": "https://capec.mitre.org/data/definitions/438.html",
+                    "source_name": "capec"
+                },
+                {
+                    "external_id": "CAPEC-439",
+                    "url": "https://capec.mitre.org/data/definitions/439.html",
+                    "source_name": "capec"
                 },
                 {
                     "url": "https://blog.avast.com/new-investigations-in-ccleaner-incident-point-to-a-possible-third-stage-that-had-keylogger-capacities",
@@ -55,7 +70,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

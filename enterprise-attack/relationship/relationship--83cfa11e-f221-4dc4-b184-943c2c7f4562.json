@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--57d6bc53-3bde-4402-a006-785afaec2c83",
+    "id": "bundle--61ad637c-45ae-490e-9a2a-60141ad631b7",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--83cfa11e-f221-4dc4-b184-943c2c7f4562",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Moafee](https://attack.mitre.org/group/G0002) has been known to employ binary padding.",
+            "description": "[Moafee](https://attack.mitre.org/groups/G0002) has been known to employ binary padding.",
             "source_ref": "intrusion-set--2e5d3a83-fe00-41a5-9b60-237efc84832f",
             "target_ref": "attack-pattern--519630c5-f03f-4882-825c-3af924935817",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.032Z"
         }
     ]

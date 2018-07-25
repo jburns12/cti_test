@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--6766a7ce-98b0-4e50-8d89-6572597f7e0b",
+    "id": "bundle--c81bcaae-93df-4ce2-856a-19456adc18ae",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--ab51525b-93c6-4ea8-bd83-b9547f1317bb",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT29](https://attack.mitre.org/group/G0016) used WMI to steal credentials and execute backdoors at a future time.",
+            "description": "[APT29](https://attack.mitre.org/groups/G0016) used WMI to steal credentials and execute backdoors at a future time.",
             "source_ref": "intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542",
             "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.049Z"
         }
     ]

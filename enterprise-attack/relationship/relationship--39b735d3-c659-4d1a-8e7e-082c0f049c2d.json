@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--9610e4a9-c34f-4781-a05b-53539bdb6b25",
+    "id": "bundle--e9fa1566-75ac-4693-9f1a-8830f6d81e99",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--39b735d3-c659-4d1a-8e7e-082c0f049c2d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Lazarus Group](https://attack.mitre.org/group/G0032) malware IndiaIndia checks Registry keys within HKCU and HKLM to determine if certain applications are present, including SecureCRT, Terminal Services, RealVNC, TightVNC, UltraVNC, Radmin, mRemote, TeamViewer, FileZilla, pcAnyware, and Remote Desktop. Another [Lazarus Group](https://attack.mitre.org/group/G0032) malware sample checks for the presence of the following Registry key:<code>HKEY_CURRENT_USER\\Software\\Bitcoin\\Bitcoin-Qt</code>.",
+            "description": "[Lazarus Group](https://attack.mitre.org/groups/G0032) malware IndiaIndia checks Registry keys within HKCU and HKLM to determine if certain applications are present, including SecureCRT, Terminal Services, RealVNC, TightVNC, UltraVNC, Radmin, mRemote, TeamViewer, FileZilla, pcAnyware, and Remote Desktop. Another [Lazarus Group](https://attack.mitre.org/groups/G0032) malware sample checks for the presence of the following Registry key:<code>HKEY_CURRENT_USER\\Software\\Bitcoin\\Bitcoin-Qt</code>.",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896",
             "object_marking_refs": [
@@ -31,7 +31,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.067Z"
         }
     ]

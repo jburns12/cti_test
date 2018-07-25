@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--83276ff6-7eb8-48fd-b69e-58420dd91991",
+    "id": "bundle--ca69c018-033a-430a-b89d-ec8cebdd5c8c",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--a39bc982-3934-4ec7-ba33-0de9331d55f5",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT34](https://attack.mitre.org/group/G0057) has used .bat and .vbs scripts for execution.",
+            "description": "[APT34](https://attack.mitre.org/groups/G0057) has used .bat and .vbs scripts for execution.",
             "source_ref": "intrusion-set--68ba94ab-78b8-43e7-83e2-aed3466882c6",
             "target_ref": "attack-pattern--7fd87010-3a00-4da3-b905-410525e8ec44",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

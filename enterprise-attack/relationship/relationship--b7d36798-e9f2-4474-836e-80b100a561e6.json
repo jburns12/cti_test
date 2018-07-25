@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--bc893394-e7ff-47ca-9f20-5c6f7e297fc5",
+    "id": "bundle--c3042d86-6a7f-4d90-9d3c-350f48ceb2b5",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--b7d36798-e9f2-4474-836e-80b100a561e6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Leviathan](https://attack.mitre.org/group/G0065) has used C:\\Windows\\Debug and C:\\Perflogs as staging directories.",
+            "description": "[Leviathan](https://attack.mitre.org/groups/G0065) has used C:\\Windows\\Debug and C:\\Perflogs as staging directories.",
             "source_ref": "intrusion-set--7113eaa5-ba79-4fb3-b68a-398ee9cd698e",
             "target_ref": "attack-pattern--7dd95ff6-712e-4056-9626-312ea4ab4c5e",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

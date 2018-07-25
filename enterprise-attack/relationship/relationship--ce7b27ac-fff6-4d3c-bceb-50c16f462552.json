@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--7c2b1f93-eb92-49bf-8b10-6cb53c403ae2",
+    "id": "bundle--fe237b03-55dc-467b-8ae5-5ff676fe16a7",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--ce7b27ac-fff6-4d3c-bceb-50c16f462552",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[POWERSTATS](https://attack.mitre.org/software/S0223) can retrieve and execute additional [PowerShell Mitigation](https://attack.mitre.org/technique/T1086) payloads from the C2 server.",
+            "description": "[POWERSTATS](https://attack.mitre.org/software/S0223) can retrieve and execute additional [PowerShell](https://attack.mitre.org/technique/T1086) payloads from the C2 server.",
             "source_ref": "malware--e8545794-b98c-492b-a5b3-4b5a02682e37",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

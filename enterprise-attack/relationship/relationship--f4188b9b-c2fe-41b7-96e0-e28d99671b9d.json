@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--3c8e6eeb-020d-4974-b262-2db91cd696a2",
+    "id": "bundle--f46b87b2-c89b-4b4d-94b4-8ece8e1946ea",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--f4188b9b-c2fe-41b7-96e0-e28d99671b9d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[BRONZE BUTLER](https://attack.mitre.org/group/G0060) has compressed and encrypted data into password-protected RAR archives prior to exfiltration.",
+            "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has compressed and encrypted data into password-protected RAR archives prior to exfiltration.",
             "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
             "target_ref": "attack-pattern--d54416bd-0803-41ca-870a-ce1af7c05638",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

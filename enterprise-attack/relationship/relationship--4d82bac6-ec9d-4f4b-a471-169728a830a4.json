@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--388d54f9-d8c5-4c1c-8c5a-01add2fe5040",
+    "id": "bundle--5f91609c-8c20-43e1-aae2-406bb4de48ab",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--4d82bac6-ec9d-4f4b-a471-169728a830a4",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT3](https://attack.mitre.org/group/G0022) has a tool that can enumerate current network connections.",
+            "description": "[APT3](https://attack.mitre.org/groups/G0022) has a tool that can enumerate current network connections.",
             "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
             "target_ref": "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475",
             "object_marking_refs": [
@@ -31,7 +31,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

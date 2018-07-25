@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--e7dcf954-1c61-474d-a2d1-01c754c4f3c8",
+    "id": "bundle--c0b1db35-d4b5-4549-8878-5ac4aeb541a6",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--4c06e313-2cde-494c-a8dc-449649a1afa6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Lazarus Group](https://attack.mitre.org/group/G0032) malware uses Caracachs encryption to encrypt C2 payloads.",
+            "description": "[Lazarus Group](https://attack.mitre.org/groups/G0032) malware uses Caracachs encryption to encrypt C2 payloads.",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--4b74a1d4-b0e9-4ef1-93f1-14ecc6e2f5b5",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.066Z"
         }
     ]

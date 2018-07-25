@@ -1,17 +1,17 @@
 {
     "type": "bundle",
-    "id": "bundle--9d948e17-7661-44f9-842a-cfde2d3d99d0",
+    "id": "bundle--af529714-4728-4253-b418-e5fd7f41f0e6",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "course-of-action--da8a87d2-946d-4c34-9a30-709058b98996",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Input Capture Mitigation",
-            "description": "Identify and block potentially malicious software that may be used to acquire credentials or information from the user by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)\n\nIn cases where this behavior is difficult to detect or mitigate, efforts can be made to lessen some of the impact that might result from an adversary acquiring credential information. It is also good practice to follow mitigation recommendations for adversary use of [Valid Accounts Mitigation](https://attack.mitre.org/technique/T1078).",
+            "description": "Identify and block potentially malicious software that may be used to acquire credentials or information from the user by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)\n\nIn cases where this behavior is difficult to detect or mitigate, efforts can be made to lessen some of the impact that might result from an adversary acquiring credential information. It is also good practice to follow mitigation recommendations for adversary use of [Valid Accounts](https://attack.mitre.org/technique/T1078).",
             "external_references": [
                 {
                     "external_id": "T1056",
-                    "url": "https://attack.mitre.org/technique/T1056",
+                    "url": "https://attack.mitre.org/techniques/T1056",
                     "source_name": "mitre-attack"
                 },
                 {
@@ -41,8 +41,8 @@
                 }
             ],
             "type": "course-of-action",
-            "modified": "2018-07-03T13:33:43.876Z",
-            "created": "2018-07-03T13:33:43.876Z"
+            "modified": "2018-07-24T17:26:20.956Z",
+            "created": "2018-07-24T17:26:20.956Z"
         }
     ]
 }

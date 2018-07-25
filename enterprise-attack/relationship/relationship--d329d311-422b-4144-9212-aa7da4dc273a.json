@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--02f7a228-8cd1-4136-a0ae-967e42d3920a",
+    "id": "bundle--bf06c752-d7a0-496c-b3d6-92b8f0187d8c",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--d329d311-422b-4144-9212-aa7da4dc273a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[OilRig](https://attack.mitre.org/group/G0049) has used an IIS backdoor (RGDoor) via Web shell to establish redundant access. The group has also used harvested credentials to gain access to Internet-accessible resources such as Outlook Web Access, which could be used for redundant access.",
+            "description": "[OilRig](https://attack.mitre.org/groups/G0049) has used an IIS backdoor (RGDoor) via Web shell to establish redundant access. The group has also used harvested credentials to gain access to Internet-accessible resources such as Outlook Web Access, which could be used for redundant access.",
             "source_ref": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",
             "target_ref": "attack-pattern--6aabc5ec-eae6-422c-8311-38d45ee9838a",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

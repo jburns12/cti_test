@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--6c0e0de1-b105-4220-bfe6-cc5c6f9a517e",
+    "id": "bundle--ad122e1a-f953-4b10-a836-fc67bd645190",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--a381abec-332f-4b93-9585-875561eb52c1",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Magic Hound](https://attack.mitre.org/group/G0059) has attempted to get users to execute malware via social media and spearphishing emails.",
+            "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has attempted to get users to execute malware via social media and spearphishing emails.",
             "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
             "target_ref": "attack-pattern--8c32eb4d-805f-4fc5-bf60-c4d476c131b5",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

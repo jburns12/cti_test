@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--30fb1aa6-0588-40f3-82b4-7e4c491bbbdb",
+    "id": "bundle--55cd27c2-169c-48ba-9a07-e05657b7546b",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--926d0b0c-9421-4b8e-a740-8823e35c642f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Dragonfly](https://attack.mitre.org/group/G0035) has performed screen captures of victims.",
+            "description": "[Dragonfly](https://attack.mitre.org/groups/G0035) has performed screen captures of victims.",
             "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
             "target_ref": "attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688",
             "object_marking_refs": [
@@ -26,7 +26,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

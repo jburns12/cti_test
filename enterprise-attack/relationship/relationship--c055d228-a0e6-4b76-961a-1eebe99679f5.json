@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--e1ba2501-fd3c-4668-ac5d-a4e8a983d3e6",
+    "id": "bundle--e71a2b5a-0a9a-411f-b1d6-b8c73b83a70f",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--c055d228-a0e6-4b76-961a-1eebe99679f5",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "A [Lazarus Group](https://attack.mitre.org/group/G0032) malware sample performs reflective DLL injection.",
+            "description": "A [Lazarus Group](https://attack.mitre.org/groups/G0032) malware sample performs reflective DLL injection.",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

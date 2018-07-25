@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--4aa721fb-78ed-4b54-9b3a-19263e86eddd",
+    "id": "bundle--44582366-f831-4123-a8a8-b41d3e5ec09e",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--fa6292a2-c184-4bc9-a37f-0c1ac61e1135",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Turla](https://attack.mitre.org/group/G0010) surveys a system upon check-in to discover files in specific locations on the hard disk %TEMP% directory, the current user's desktop, and in the Program Files directory.",
+            "description": "[Turla](https://attack.mitre.org/groups/G0010) surveys a system upon check-in to discover files in specific locations on the hard disk %TEMP% directory, the current user's desktop, and in the Program Files directory.",
             "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
             "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.045Z"
         }
     ]

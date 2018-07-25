@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--035e7638-533e-42c4-a608-2895a454d8f1",
+    "id": "bundle--930ad5d2-624d-442a-9ef8-2344953adaf0",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--596c4579-14ea-4c1f-9503-cf47693f18a8",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Dragonfly](https://attack.mitre.org/group/G0035) deleted system, security, terminal services, remote services, and audit logs from a victim.",
+            "description": "[Dragonfly](https://attack.mitre.org/groups/G0035) deleted system, security, terminal services, remote services, and audit logs from a victim.",
             "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
             "target_ref": "attack-pattern--799ace7f-e227-4411-baa0-8868704f2a69",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

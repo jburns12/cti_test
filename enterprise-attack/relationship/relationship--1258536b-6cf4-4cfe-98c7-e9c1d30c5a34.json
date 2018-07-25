@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--1c0d99ca-cffd-4972-8e20-3a3c481ea671",
+    "id": "bundle--3ee08107-c7b5-4eee-a848-58c7cae3fcf4",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--1258536b-6cf4-4cfe-98c7-e9c1d30c5a34",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "An [APT3](https://attack.mitre.org/group/G0022) downloader first establishes a SOCKS5 connection to 192.157.198[.]103 using TCP port 1913; once the server response is verified, it then requests a connection to 192.184.60[.]229 on TCP port 81.",
+            "description": "An [APT3](https://attack.mitre.org/groups/G0022) downloader first establishes a SOCKS5 connection to 192.157.198[.]103 using TCP port 1913; once the server response is verified, it then requests a connection to 192.184.60[.]229 on TCP port 81.",
             "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
             "target_ref": "attack-pattern--84e02621-8fdf-470f-bd58-993bb6a89d91",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.056Z"
         }
     ]

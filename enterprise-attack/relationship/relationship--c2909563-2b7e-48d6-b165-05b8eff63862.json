@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--faa9914e-90df-4f3d-a071-cc13d938c742",
+    "id": "bundle--e5c808af-b5d4-454f-a83e-3baceb7f89a5",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--c2909563-2b7e-48d6-b165-05b8eff63862",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[menuPass](https://attack.mitre.org/group/G0045) has collected data from remote systems by mounting network shares with <code>net use</code> and using Robocopy to transfer data.",
+            "description": "[menuPass](https://attack.mitre.org/groups/G0045) has collected data from remote systems by mounting network shares with <code>net use</code> and using Robocopy to transfer data.",
             "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
             "target_ref": "attack-pattern--ae676644-d2d2-41b7-af7e-9bed1b55898c",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

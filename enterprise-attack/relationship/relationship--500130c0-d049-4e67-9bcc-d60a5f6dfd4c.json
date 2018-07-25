@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--68df497f-1acc-4bef-bddb-7811ab42dd49",
+    "id": "bundle--a98cd9c9-aeb0-4ec7-8347-1a4438276075",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--500130c0-d049-4e67-9bcc-d60a5f6dfd4c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "Various [Lazarus Group](https://attack.mitre.org/group/G0032) malware enumerates logged-on users.",
+            "description": "Various [Lazarus Group](https://attack.mitre.org/groups/G0032) malware enumerates logged-on users.",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
             "object_marking_refs": [
@@ -41,7 +41,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.069Z"
         }
     ]

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--ee1d70a1-6737-42e0-b19c-6d8abb651678",
+    "id": "bundle--74ca8564-45b8-4de9-ba1d-ac418ec824c9",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--82ce1bf6-b1a1-4a82-9c86-8ff372d6a873",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[FIN8](https://attack.mitre.org/group/G0061) has used environment variables and standard input (stdin) to obfuscate command-line arguments. [FIN8](https://attack.mitre.org/group/G0061) also obfuscates malicious macros delivered as payloads.",
+            "description": "[FIN8](https://attack.mitre.org/groups/G0061) has used environment variables and standard input (stdin) to obfuscate command-line arguments. [FIN8](https://attack.mitre.org/groups/G0061) also obfuscates malicious macros delivered as payloads.",
             "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
             "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
             "object_marking_refs": [
@@ -26,7 +26,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

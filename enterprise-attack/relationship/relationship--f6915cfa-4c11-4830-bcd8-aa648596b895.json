@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--a1896257-614d-4c4f-90d9-b0b76f5f357c",
+    "id": "bundle--77d0433e-424e-400b-96cc-14df3d654c34",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--f6915cfa-4c11-4830-bcd8-aa648596b895",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[CopyKittens](https://attack.mitre.org/group/G0052) digitally signed an executable with a stolen certificate from legitimate company AI Squared.",
+            "description": "[CopyKittens](https://attack.mitre.org/groups/G0052) digitally signed an executable with a stolen certificate from legitimate company AI Squared.",
             "source_ref": "intrusion-set--dcd81c6e-ebf7-4a16-93e0-9a97fa49c88a",
             "target_ref": "attack-pattern--1b84d551-6de8-4b96-9930-d177677c3b1d",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

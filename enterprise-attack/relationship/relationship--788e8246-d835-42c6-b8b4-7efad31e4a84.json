@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--564190f0-8c84-427f-8778-06d0c55c3e5c",
+    "id": "bundle--497b2dd1-54aa-4551-b2b1-69f56ba8a351",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--788e8246-d835-42c6-b8b4-7efad31e4a84",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "A [Gamaredon Group](https://attack.mitre.org/group/G0047) file stealer has the capability to steal data from newly connected logical volumes on a system, including USB drives.",
+            "description": "A [Gamaredon Group](https://attack.mitre.org/groups/G0047) file stealer has the capability to steal data from newly connected logical volumes on a system, including USB drives.",
             "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
             "target_ref": "attack-pattern--1b7ba276-eedc-4951-a762-0ceea2c030ec",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.080Z"
         }
     ]

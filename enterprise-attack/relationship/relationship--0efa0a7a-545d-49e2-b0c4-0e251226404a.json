@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--bffc97ce-6868-480b-8509-673855ae38d9",
+    "id": "bundle--231afcfb-efc5-4bd2-89e7-39283df862c9",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--0efa0a7a-545d-49e2-b0c4-0e251226404a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Sowbug](https://attack.mitre.org/group/G0054) identified and extracted all Word documents on a server by using a command containing *.doc and *.docx. The actors also searched for documents based on a specific date range and attempted to identify all installed software on a victim.",
+            "description": "[Sowbug](https://attack.mitre.org/groups/G0054) identified and extracted all Word documents on a server by using a command containing *.doc and *.docx. The actors also searched for documents based on a specific date range and attempted to identify all installed software on a victim.",
             "source_ref": "intrusion-set--d1acfbb3-647b-4723-9154-800ec119006e",
             "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

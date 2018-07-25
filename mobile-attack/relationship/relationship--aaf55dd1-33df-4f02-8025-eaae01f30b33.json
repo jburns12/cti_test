@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--d552faa9-7a7c-478c-9ffd-1825644d9613",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--aaf55dd1-33df-4f02-8025-eaae01f30b33",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "relationship_type": "uses",
+            "description": "[AndroRAT](https://attack.mitre.org/software/MOB-S0008) collects contact list information.",
+            "source_ref": "malware--a3dad2be-ce62-4440-953b-00fbce7aba93",
+            "target_ref": "attack-pattern--4e6620ac-c30c-4f6d-918e-fa20cae7c1ce",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://blog.lookout.com/blog/2016/05/25/spoofed-apps/",
+                    "description": "Lookout. (2016, May 25). 5 active mobile threats spoofing enterprise apps. Retrieved December 19, 2016.",
+                    "source_name": "Lookout-EnterpriseApps"
+                }
+            ],
+            "type": "relationship",
+            "modified": "2018-07-24T17:26:20.956Z",
+            "created": "2017-12-14T16:46:06.044Z"
+        }
+    ]
+}

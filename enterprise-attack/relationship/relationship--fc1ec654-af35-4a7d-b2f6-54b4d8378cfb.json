@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--f02add38-9634-4e8c-b631-4c2316ef35ae",
+    "id": "bundle--953d0399-2605-478a-9cce-8dff882fd775",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--fc1ec654-af35-4a7d-b2f6-54b4d8378cfb",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT34](https://attack.mitre.org/group/G0057) can download remote files onto victims.",
+            "description": "[APT34](https://attack.mitre.org/groups/G0057) can download remote files onto victims.",
             "source_ref": "intrusion-set--68ba94ab-78b8-43e7-83e2-aed3466882c6",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

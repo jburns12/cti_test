@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--352a404c-346b-4fef-81ef-1d2c71714968",
+    "id": "bundle--b136f9b6-2d94-45ca-a28d-2f1fafecb359",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--39fdd17c-5f59-4daf-bf14-95841b5ec248",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Lazarus Group](https://attack.mitre.org/group/G0032) uses multiple proxies to obfuscate network traffic from victims.",
+            "description": "[Lazarus Group](https://attack.mitre.org/groups/G0032) uses multiple proxies to obfuscate network traffic from victims.",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

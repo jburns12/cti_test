@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--24659721-a5fa-41ec-a41b-9e1a75bd427e",
+    "id": "bundle--052d9dff-447d-424a-9565-505f34f43297",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--87ddc052-0933-4722-9fb2-4653c4a3663c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT3](https://attack.mitre.org/group/G0022) has been known to stage files for exfiltration in a single location.",
+            "description": "[APT3](https://attack.mitre.org/groups/G0022) has been known to stage files for exfiltration in a single location.",
             "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
             "target_ref": "attack-pattern--7dd95ff6-712e-4056-9626-312ea4ab4c5e",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

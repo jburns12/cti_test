@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--908e768c-2f66-42fa-8b5c-de0f96b7c38f",
+    "id": "bundle--919dd3e7-5bcb-424e-a6d6-ee1ab11abe89",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--8b3f374c-9f56-4493-8b85-72d0750d0c59",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[FIN10](https://attack.mitre.org/group/G0051) has established persistence by using S4U tasks as well as the Scheduled Task option in PowerShell Empire.",
+            "description": "[FIN10](https://attack.mitre.org/groups/G0051) has established persistence by using S4U tasks as well as the Scheduled Task option in PowerShell Empire.",
             "source_ref": "intrusion-set--fbe9387f-34e6-4828-ac28-3080020c597b",
             "target_ref": "attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9",
             "object_marking_refs": [
@@ -26,7 +26,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

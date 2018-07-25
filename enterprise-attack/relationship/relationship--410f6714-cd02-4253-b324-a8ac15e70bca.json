@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--49c5f0ec-717a-4147-92d5-d6353c80925f",
+    "id": "bundle--48cb87eb-61bc-4db0-ae59-9e89903bc896",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--410f6714-cd02-4253-b324-a8ac15e70bca",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT29](https://attack.mitre.org/group/G0016) has used spearphishing with an attachment to deliver files with exploits to initial victims.",
+            "description": "[APT29](https://attack.mitre.org/groups/G0016) has used spearphishing with an attachment to deliver files with exploits to initial victims.",
             "source_ref": "intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542",
             "target_ref": "attack-pattern--6aac77c4-eaf2-4366-8c13-ce50ab951f38",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

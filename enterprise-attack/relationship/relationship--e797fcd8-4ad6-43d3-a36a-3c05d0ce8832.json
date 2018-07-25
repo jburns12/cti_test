@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--722eef6e-fa6c-4702-b2dd-acfa622b7165",
+    "id": "bundle--20584407-12dc-4a8f-8198-774d672b510c",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--e797fcd8-4ad6-43d3-a36a-3c05d0ce8832",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[PLATINUM](https://attack.mitre.org/group/G0068) has sent spearphishing emails with attachments to victims as its primary initial access vector.",
+            "description": "[PLATINUM](https://attack.mitre.org/groups/G0068) has sent spearphishing emails with attachments to victims as its primary initial access vector.",
             "source_ref": "intrusion-set--f9c06633-dcff-48a1-8588-759e7cec5694",
             "target_ref": "attack-pattern--6aac77c4-eaf2-4366-8c13-ce50ab951f38",
             "object_marking_refs": [
@@ -20,7 +20,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

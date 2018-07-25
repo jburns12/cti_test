@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--7aacf051-19c6-4e4b-81f8-fc18216dfe4c",
+    "id": "bundle--f86431c0-156c-493d-b9af-f9cafff7895d",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--bd83109f-198a-43b0-a4c9-c13dd671c2da",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[OilRig](https://attack.mitre.org/group/G0049) has used Putty to access compromised systems.",
+            "description": "[OilRig](https://attack.mitre.org/groups/G0049) has used Putty to access compromised systems.",
             "source_ref": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",
             "target_ref": "attack-pattern--54a649ff-439a-41a4-9856-8d144a2551ba",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

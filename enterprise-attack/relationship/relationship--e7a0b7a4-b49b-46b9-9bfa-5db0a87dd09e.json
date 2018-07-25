@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--7e0c4ec1-1dbc-4d8b-8900-f0076d936286",
+    "id": "bundle--e647e2d0-ff5a-4712-910d-0d772a393667",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--e7a0b7a4-b49b-46b9-9bfa-5db0a87dd09e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[SeaDuke](https://attack.mitre.org/software/S0053) uses a module to execute Mimikatz with PowerShell to perform [Pass the Ticket Mitigation](https://attack.mitre.org/technique/T1097).",
+            "description": "[SeaDuke](https://attack.mitre.org/software/S0053) uses a module to execute Mimikatz with PowerShell to perform [Pass the Ticket](https://attack.mitre.org/technique/T1097).",
             "source_ref": "malware--67e6d66b-1b82-4699-b47a-e2efb6268d14",
             "target_ref": "attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

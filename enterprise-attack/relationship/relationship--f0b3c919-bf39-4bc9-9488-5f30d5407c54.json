@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--0123f393-2ab2-4f10-ba55-0da1cae4bfab",
+    "id": "bundle--675a8bc0-0e31-4e1a-8185-d135d541301e",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--f0b3c919-bf39-4bc9-9488-5f30d5407c54",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT3](https://attack.mitre.org/group/G0022) has been known to create or enable accounts, such as <code>support_388945a0</code>.",
+            "description": "[APT3](https://attack.mitre.org/groups/G0022) has been known to create or enable accounts, such as <code>support_388945a0</code>.",
             "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
             "target_ref": "attack-pattern--e01be9c5-e763-4caf-aeb7-000b416aef67",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

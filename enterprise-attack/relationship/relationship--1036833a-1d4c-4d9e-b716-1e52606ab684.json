@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--1af53944-35c9-4a78-ba9b-d44b55125e04",
+    "id": "bundle--cf84363a-f1f4-4636-a7d9-8248df043a79",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--1036833a-1d4c-4d9e-b716-1e52606ab684",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT28](https://attack.mitre.org/group/G0007) has performed timestomping on victim files.",
+            "description": "[APT28](https://attack.mitre.org/groups/G0007) has performed timestomping on victim files.",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "attack-pattern--128c55d3-aeba-469f-bd3e-c8996ab4112a",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.038Z"
         }
     ]

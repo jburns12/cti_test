@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--3663dfbd-5e18-4338-aaec-b6f17642252e",
+    "id": "bundle--62a967cb-d36e-4668-9884-1c3c5e7a120c",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--4ebc7501-9471-4f37-92e1-8711073bd062",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[PLATINUM](https://attack.mitre.org/group/G0068) is capable of using Windows hook interfaces for information gathering such as credential access.",
+            "description": "[PLATINUM](https://attack.mitre.org/groups/G0068) is capable of using Windows hook interfaces for information gathering such as credential access.",
             "source_ref": "intrusion-set--f9c06633-dcff-48a1-8588-759e7cec5694",
             "target_ref": "attack-pattern--66f73398-8394-4711-85e5-34c8540b22a5",
             "object_marking_refs": [
@@ -20,7 +20,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

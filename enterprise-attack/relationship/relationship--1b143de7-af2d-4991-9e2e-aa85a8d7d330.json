@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--bba6e566-46c5-41e7-9177-d3ff287fd14a",
+    "id": "bundle--72d3a67b-03bc-4fef-9257-6926f5f4293c",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--1b143de7-af2d-4991-9e2e-aa85a8d7d330",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT28](https://attack.mitre.org/group/G0007) encrypted a .dll payload using RTL and a custom encryption algorithm. [APT28](https://attack.mitre.org/group/G0007) has also obfuscated payloads with base64 and XOR.",
+            "description": "[APT28](https://attack.mitre.org/groups/G0007) encrypted a .dll payload using RTL and a custom encryption algorithm. [APT28](https://attack.mitre.org/groups/G0007) has also obfuscated payloads with base64 and XOR.",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
             "object_marking_refs": [
@@ -25,7 +25,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.039Z"
         }
     ]

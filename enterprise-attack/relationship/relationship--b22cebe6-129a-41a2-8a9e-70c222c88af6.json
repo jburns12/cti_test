@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--b8a44c4f-eaa7-4b49-a640-3ac2404679af",
+    "id": "bundle--7916e14c-89a6-49d2-88a4-475425839fbd",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--b22cebe6-129a-41a2-8a9e-70c222c88af6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[OilRig](https://attack.mitre.org/group/G0049) has run <code>whoami</code> on a victim.",
+            "description": "[OilRig](https://attack.mitre.org/groups/G0049) has run <code>whoami</code> on a victim.",
             "source_ref": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",
             "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
             "object_marking_refs": [
@@ -26,7 +26,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

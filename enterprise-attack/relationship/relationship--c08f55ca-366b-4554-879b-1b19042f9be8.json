@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--4f56d68b-24e0-47a0-a70f-603fef065d92",
+    "id": "bundle--f0a65c33-ef06-4fe9-bf79-a22270914c53",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--c08f55ca-366b-4554-879b-1b19042f9be8",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[TA459](https://attack.mitre.org/group/G0062) has used PowerShell for execution of a payload.",
+            "description": "[TA459](https://attack.mitre.org/groups/G0062) has used PowerShell for execution of a payload.",
             "source_ref": "intrusion-set--62a64fd3-aaf7-4d09-a375-d6f8bb118481",
             "target_ref": "attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

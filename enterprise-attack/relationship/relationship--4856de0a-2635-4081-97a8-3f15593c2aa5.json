@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--8100e9d3-4853-4b84-9c52-1e50e0541b44",
+    "id": "bundle--ef18fd14-1c53-4c88-9dcb-18384d4db05e",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--4856de0a-2635-4081-97a8-3f15593c2aa5",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[FIN7](https://attack.mitre.org/group/G0046) uses a PowerShell script to launch shellcode that retrieves an additional payload.",
+            "description": "[FIN7](https://attack.mitre.org/groups/G0046) uses a PowerShell script to launch shellcode that retrieves an additional payload.",
             "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
             "target_ref": "attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0",
             "object_marking_refs": [
@@ -26,7 +26,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

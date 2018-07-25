@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--26ef9749-1f42-4f38-9655-d8a78fc38c75",
+    "id": "bundle--1e150de3-2704-4b05-8efb-b95af5993ff6",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--a9bc7666-f637-4093-a5bb-4edb61710e45",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "Malware used by [Group5](https://attack.mitre.org/group/G0043) is capable of remotely deleting files from victims.",
+            "description": "Malware used by [Group5](https://attack.mitre.org/groups/G0043) is capable of remotely deleting files from victims.",
             "source_ref": "intrusion-set--7331c66a-5601-4d3f-acf6-ad9e3035eb40",
             "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.078Z"
         }
     ]

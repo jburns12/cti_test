@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--a54d34f8-77cd-4a94-93b5-3f95acfceba9",
+    "id": "bundle--b0b03fda-35e4-4c92-8554-c714aa25afa8",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--0d889b2d-eda4-45dc-99bf-c530b7d4b05f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[menuPass](https://attack.mitre.org/group/G0045) has used tcping.exe, similar to [Ping](https://attack.mitre.org/software/S0097), to probe port status on systems of interest.",
+            "description": "[menuPass](https://attack.mitre.org/groups/G0045) has used tcping.exe, similar to [Ping](https://attack.mitre.org/software/S0097), to probe port status on systems of interest.",
             "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
             "target_ref": "attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

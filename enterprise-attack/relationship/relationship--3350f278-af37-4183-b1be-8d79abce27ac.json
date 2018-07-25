@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--fff23fc9-e9c0-496f-b2fc-00cf50563ab9",
+    "id": "bundle--5a9559e4-6eaf-4930-a814-e2ab6ca40410",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--3350f278-af37-4183-b1be-8d79abce27ac",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[PLATINUM](https://attack.mitre.org/group/G0068) has attempted to get users to open malicious files by sending spearphishing emails with attachments to victims.",
+            "description": "[PLATINUM](https://attack.mitre.org/groups/G0068) has attempted to get users to open malicious files by sending spearphishing emails with attachments to victims.",
             "source_ref": "intrusion-set--f9c06633-dcff-48a1-8588-759e7cec5694",
             "target_ref": "attack-pattern--8c32eb4d-805f-4fc5-bf60-c4d476c131b5",
             "object_marking_refs": [
@@ -20,7 +20,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

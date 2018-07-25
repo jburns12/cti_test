@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fa2ea759-b615-4754-8c12-159b491d5485",
+    "id": "bundle--8d8fbc58-83fb-4295-93ac-ecdd94605c21",
     "spec_version": "2.0",
     "objects": [
         {
@@ -13,6 +13,11 @@
                     "external_id": "T1042",
                     "url": "https://attack.mitre.org/technique/T1042",
                     "source_name": "mitre-attack"
+                },
+                {
+                    "external_id": "CAPEC-556",
+                    "url": "https://capec.mitre.org/data/definitions/556.html",
+                    "source_name": "capec"
                 },
                 {
                     "url": "https://support.microsoft.com/en-us/help/18539/windows-7-change-default-programs",
@@ -53,7 +58,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:30:42.222Z"
         }
     ]

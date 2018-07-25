@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--e8dc92d0-70f2-4cbd-9b27-dcd6570f367d",
+    "id": "bundle--24e91ebd-41e6-42dc-a96b-81663b904b21",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--1e1b566b-152a-4778-a03f-0ce94b72c5f2",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Dragonfly](https://attack.mitre.org/group/G0035) identified and browsed file servers on the victim network, viewing files pertaining to ICS or Supervisory Control and Data Acquisition (SCADA) systems.",
+            "description": "[Dragonfly](https://attack.mitre.org/groups/G0035) identified and browsed file servers on the victim network, viewing files pertaining to ICS or Supervisory Control and Data Acquisition (SCADA) systems.",
             "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
             "target_ref": "attack-pattern--3489cfc5-640f-4bb3-a103-9137b97de79f",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

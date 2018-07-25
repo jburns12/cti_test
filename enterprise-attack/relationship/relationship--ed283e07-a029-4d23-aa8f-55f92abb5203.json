@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--3d105938-f708-4f78-b545-4926efca8e95",
+    "id": "bundle--2fdf6809-0191-4524-9d35-9333def1c731",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--ed283e07-a029-4d23-aa8f-55f92abb5203",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT3](https://attack.mitre.org/group/G0022) has used a keylogging tool that records keystrokes in encrypted files.",
+            "description": "[APT3](https://attack.mitre.org/groups/G0022) has used a keylogging tool that records keystrokes in encrypted files.",
             "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
             "target_ref": "attack-pattern--bb5a00de-e086-4859-a231-fa793f6797e2",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.057Z"
         }
     ]

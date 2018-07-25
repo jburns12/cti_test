@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--828de9a1-8a41-4af3-9e81-49e74a9c6daf",
+    "id": "bundle--f974960b-45e6-46e7-92e6-0f7f6ee9f883",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--74859e2a-7a8f-4b87-b75c-7286b3de685c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[FIN7](https://attack.mitre.org/group/G0046) malware has created a Registry Run key pointing to its malicious LNK file to establish persistence.",
+            "description": "[FIN7](https://attack.mitre.org/groups/G0046) malware has created a Registry Run key pointing to its malicious LNK file to establish persistence.",
             "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
             "target_ref": "attack-pattern--9422fc14-1c43-410d-ab0f-a709b76c72dc",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

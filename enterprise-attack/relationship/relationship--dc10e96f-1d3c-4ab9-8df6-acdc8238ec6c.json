@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--8e24a568-7429-4624-a5cc-9905423bbabb",
+    "id": "bundle--7486fc82-e8b2-454a-a421-2ca8e83a8e89",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--dc10e96f-1d3c-4ab9-8df6-acdc8238ec6c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT28](https://attack.mitre.org/group/G0007) added \"junk data\" to each encoded string, preventing trivial decoding without knowledge of the junk removal algorithm. Each implant was given a \"junk length\" value when created, tracked by the controller software to allow seamless communication but prevent analysis of the command protocol on the wire.",
+            "description": "[APT28](https://attack.mitre.org/groups/G0007) added \"junk data\" to each encoded string, preventing trivial decoding without knowledge of the junk removal algorithm. Each implant was given a \"junk length\" value when created, tracked by the controller software to allow seamless communication but prevent analysis of the command protocol on the wire.",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "attack-pattern--ad255bfe-a9e6-4b52-a258-8d3462abe842",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.038Z"
         }
     ]

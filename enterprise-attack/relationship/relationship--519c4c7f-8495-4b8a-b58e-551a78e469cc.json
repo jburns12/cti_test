@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--6caccaf6-4751-40ea-bd1b-fff00245efc8",
+    "id": "bundle--0a20224d-3273-4fd8-9d11-b18ab7dd84df",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--519c4c7f-8495-4b8a-b58e-551a78e469cc",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Turla](https://attack.mitre.org/group/G0010) surveys a system upon check-in to discover information in the Windows Registry with the <code>reg query</code> command.",
+            "description": "[Turla](https://attack.mitre.org/groups/G0010) surveys a system upon check-in to discover information in the Windows Registry with the <code>reg query</code> command.",
             "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
             "target_ref": "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.045Z"
         }
     ]

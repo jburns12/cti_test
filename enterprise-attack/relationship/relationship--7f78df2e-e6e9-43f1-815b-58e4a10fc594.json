@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--ffe49cb6-8e44-4a06-b790-19c5b772b6bb",
+    "id": "bundle--b96ab5a4-dc09-4729-a9b5-ae06d8a89681",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--7f78df2e-e6e9-43f1-815b-58e4a10fc594",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT29](https://attack.mitre.org/group/G0016) has used encoded PowerShell scripts uploaded to [CozyCar](https://attack.mitre.org/software/S0046) installations to download and install [SeaDuke](https://attack.mitre.org/software/S0053). [APT29](https://attack.mitre.org/group/G0016) also used PowerShell scripts to evade defenses.",
+            "description": "[APT29](https://attack.mitre.org/groups/G0016) has used encoded PowerShell scripts uploaded to [CozyCar](https://attack.mitre.org/software/S0046) installations to download and install [SeaDuke](https://attack.mitre.org/software/S0053). [APT29](https://attack.mitre.org/groups/G0016) also used PowerShell scripts to evade defenses.",
             "source_ref": "intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542",
             "target_ref": "attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0",
             "object_marking_refs": [
@@ -26,7 +26,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.048Z"
         }
     ]

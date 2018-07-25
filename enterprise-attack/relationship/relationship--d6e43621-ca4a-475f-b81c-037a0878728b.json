@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--c3c4b6b2-4e35-4873-999f-9688bb7b3315",
+    "id": "bundle--91203dae-89b4-4244-86e1-06cb2c4fc7d5",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--d6e43621-ca4a-475f-b81c-037a0878728b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Patchwork](https://attack.mitre.org/group/G0040) used [PowerSploit](https://attack.mitre.org/software/S0194) to download and run a reverse shell.",
+            "description": "[Patchwork](https://attack.mitre.org/groups/G0040) used [PowerSploit](https://attack.mitre.org/software/S0194) to download and run a reverse shell.",
             "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
             "target_ref": "attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.075Z"
         }
     ]

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--9d834a31-f175-41c2-ae68-a1ae34da7969",
+    "id": "bundle--5d79c801-13e4-4c8a-a274-6ca51558aefe",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--a5888362-00f3-4c9e-98ee-048aee5169e1",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[FIN10](https://attack.mitre.org/group/G0051) uses PowerShell for execution as well as PowerShell Empire to establish persistence.",
+            "description": "[FIN10](https://attack.mitre.org/groups/G0051) uses PowerShell for execution as well as PowerShell Empire to establish persistence.",
             "source_ref": "intrusion-set--fbe9387f-34e6-4828-ac28-3080020c597b",
             "target_ref": "attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0",
             "object_marking_refs": [
@@ -26,7 +26,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

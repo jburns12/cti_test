@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--43d9fdea-ee2a-48b5-8a39-5562f8d31097",
+    "id": "bundle--a7126828-cd6d-4c03-9869-584c69a8c3f3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -13,6 +13,11 @@
                     "external_id": "T1068",
                     "url": "https://attack.mitre.org/technique/T1068",
                     "source_name": "mitre-attack"
+                },
+                {
+                    "external_id": "CAPEC-69",
+                    "url": "https://capec.mitre.org/data/definitions/69.html",
+                    "source_name": "capec"
                 }
             ],
             "object_marking_refs": [
@@ -23,7 +28,7 @@
                 "Process monitoring",
                 "Application Logs"
             ],
-            "x_mitre_detection": "Detecting software exploitation may be difficult depending on the tools available. Software exploits may not always succeed or may cause the exploited process to become unstable or crash. Also look for behavior on the endpoint system that might indicate successful compromise, such as abnormal behavior of the processes. This could include suspicious files written to disk, evidence of [Net](https://attack.mitre.org/software/S0039) for attempts to hide execution or evidence of Discovery.\n\nHigher privileges are often necessary to perform additional actions such as some methods of [Net](https://attack.mitre.org/software/S0039). Look for additional activity that may indicate an adversary has gained higher privileges.",
+            "x_mitre_detection": "Detecting software exploitation may be difficult depending on the tools available. Software exploits may not always succeed or may cause the exploited process to become unstable or crash. Also look for behavior on the endpoint system that might indicate successful compromise, such as abnormal behavior of the processes. This could include suspicious files written to disk, evidence of [Process Injection](https://attack.mitre.org/technique/T1055) for attempts to hide execution or evidence of Discovery.\n\nHigher privileges are often necessary to perform additional actions such as some methods of [Credential Dumping](https://attack.mitre.org/technique/T1003). Look for additional activity that may indicate an adversary has gained higher privileges.",
             "x_mitre_effective_permissions": [
                 "User"
             ],
@@ -45,7 +50,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:30:55.066Z"
         }
     ]

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--fc13bfb2-18c5-431d-af3e-ab9397d755e3",
+    "id": "bundle--a5e793e4-3a28-44bf-9214-75eab46a223e",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--c63c7dc5-e374-4bf0-9839-0f940ac6d46c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "A [Gamaredon Group](https://attack.mitre.org/group/G0047) file stealer can communicate over HTTP for C2.",
+            "description": "A [Gamaredon Group](https://attack.mitre.org/groups/G0047) file stealer can communicate over HTTP for C2.",
             "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
             "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.080Z"
         }
     ]

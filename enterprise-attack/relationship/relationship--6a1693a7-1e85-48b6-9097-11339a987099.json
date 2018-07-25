@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--965c8453-705b-4b69-87a4-1653ab42050a",
+    "id": "bundle--569a98a6-dca6-4f5d-9844-cd69891717ca",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--6a1693a7-1e85-48b6-9097-11339a987099",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "After re-establishing access to a victim network, [Threat Group-3390](https://attack.mitre.org/group/G0027) actors download tools including [gsecdump](https://attack.mitre.org/software/S0008) and WCE that are staged temporarily on websites that were previously compromised but never used.",
+            "description": "After re-establishing access to a victim network, [Threat Group-3390](https://attack.mitre.org/groups/G0027) actors download tools including [gsecdump](https://attack.mitre.org/software/S0008) and WCE that are staged temporarily on websites that were previously compromised but never used.",
             "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.062Z"
         }
     ]

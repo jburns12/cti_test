@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--ce37af70-e437-4c2d-b2a8-ac912410491c",
+    "id": "bundle--cacf6faf-ced8-4d08-9fee-a3ba99c50b4a",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--927d8495-e288-4c7f-8033-0d7e85d66b10",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[TA459](https://attack.mitre.org/group/G0062) has a VBScript for execution.",
+            "description": "[TA459](https://attack.mitre.org/groups/G0062) has a VBScript for execution.",
             "source_ref": "intrusion-set--62a64fd3-aaf7-4d09-a375-d6f8bb118481",
             "target_ref": "attack-pattern--7fd87010-3a00-4da3-b905-410525e8ec44",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--d1a67b2b-d130-4898-bb90-600ba33d4de6",
+    "id": "bundle--8a73b268-4c13-4561-8886-b8a7663a2e0f",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--95fc970d-98cd-4bc9-895a-9534ba89c795",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[FIN7](https://attack.mitre.org/group/G0046) has used fragmented strings, environment variables, standard input (stdin), and native character-replacement functionalities to obfuscate commmands.",
+            "description": "[FIN7](https://attack.mitre.org/groups/G0046) has used fragmented strings, environment variables, standard input (stdin), and native character-replacement functionalities to obfuscate commmands.",
             "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
             "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

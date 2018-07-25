@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--14b73f54-3a42-4632-9808-60a3b1b21819",
+    "id": "bundle--faf1fc8b-01d9-46d7-9602-3c78dc8369cb",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--97ea3b82-58ba-4a3e-8e6d-367755f83fa6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[FIN6](https://attack.mitre.org/group/G0037) has used a Metasploit PowerShell module to download and execute shellcode and to set up a local listener.",
+            "description": "[FIN6](https://attack.mitre.org/groups/G0037) has used a Metasploit PowerShell module to download and execute shellcode and to set up a local listener.",
             "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
             "target_ref": "attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.071Z"
         }
     ]

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--f2c8b646-c987-4351-9c9a-884c7e72ac33",
+    "id": "bundle--fc78c9cd-7d56-422f-a099-f62a491e791f",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--4a6248d4-4fa1-404a-abed-84e9b7c32dbe",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Turla](https://attack.mitre.org/group/G0010) uses <code>net use</code> commands to connect to lateral systems within a network.",
+            "description": "[Turla](https://attack.mitre.org/groups/G0010) uses <code>net use</code> commands to connect to lateral systems within a network.",
             "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
             "target_ref": "attack-pattern--ffe742ed-9100-4686-9e00-c331da544787",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.045Z"
         }
     ]

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--d2cfaa43-c153-4fb7-bbca-6e60bec69d92",
+    "id": "bundle--048eba7a-7ead-4911-98d4-6b922605e5e3",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--22ccfcb8-cb4a-4b9e-bc2d-c0bd2701e2e9",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT28](https://attack.mitre.org/group/G0007) has used pass the hash for lateral movement.",
+            "description": "[APT28](https://attack.mitre.org/groups/G0007) has used pass the hash for lateral movement.",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "attack-pattern--c23b740b-a42b-47a1-aec2-9d48ddd547ff",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.040Z"
         }
     ]

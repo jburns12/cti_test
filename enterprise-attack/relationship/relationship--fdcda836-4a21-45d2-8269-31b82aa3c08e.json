@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--7692cd35-cf85-447a-8266-ef7093fbcbb6",
+    "id": "bundle--f47b0e67-a7f8-49d0-8ce2-f92cbb25e517",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--fdcda836-4a21-45d2-8269-31b82aa3c08e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT29](https://attack.mitre.org/group/G0016) has bypassed UAC.",
+            "description": "[APT29](https://attack.mitre.org/groups/G0016) has bypassed UAC.",
             "source_ref": "intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542",
             "target_ref": "attack-pattern--ca1a3f50-5ebd-41f8-8320-2c7d6a6e88be",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.049Z"
         }
     ]

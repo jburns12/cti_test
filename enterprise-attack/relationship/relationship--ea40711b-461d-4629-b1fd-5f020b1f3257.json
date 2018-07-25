@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--c64975b5-3492-4576-a61b-359e83316729",
+    "id": "bundle--d4c7c96f-c21c-4f18-87ed-1b8fb3c26a0b",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--ea40711b-461d-4629-b1fd-5f020b1f3257",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT1](https://attack.mitre.org/group/G0006) has used batch scripting to automate execution of commands.",
+            "description": "[APT1](https://attack.mitre.org/groups/G0006) has used batch scripting to automate execution of commands.",
             "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
             "target_ref": "attack-pattern--7fd87010-3a00-4da3-b905-410525e8ec44",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.035Z"
         }
     ]

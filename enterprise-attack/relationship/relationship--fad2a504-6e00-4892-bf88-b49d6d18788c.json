@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--72ad1259-38ba-4e14-8e8f-e5ed39664a4e",
+    "id": "bundle--aabef713-1235-4480-9f68-bfa1465630b1",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--fad2a504-6e00-4892-bf88-b49d6d18788c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Axiom](https://attack.mitre.org/group/G0001) has been known to dump credentials.",
+            "description": "[Axiom](https://attack.mitre.org/groups/G0001) has been known to dump credentials.",
             "source_ref": "intrusion-set--a0cb9370-e39b-44d5-9f50-ef78e412b973",
             "target_ref": "attack-pattern--0a3ead4e-6d47-4ccb-854c-a6a4f9d96b22",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.031Z"
         }
     ]

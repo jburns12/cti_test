@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e617623f-8cff-4076-9775-5d54de0f8983",
+    "id": "bundle--0a4536be-0ddc-4005-b552-a70dee1de8b8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -13,6 +13,11 @@
                     "external_id": "T1037",
                     "url": "https://attack.mitre.org/technique/T1037",
                     "source_name": "mitre-attack"
+                },
+                {
+                    "external_id": "CAPEC-564",
+                    "url": "https://capec.mitre.org/data/definitions/564.html",
+                    "source_name": "capec"
                 },
                 {
                     "url": "https://technet.microsoft.com/en-us/library/cc758918(v=ws.10).aspx",
@@ -51,7 +56,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:30:38.910Z"
         }
     ]

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--4afe064d-ae5e-4576-b247-bcd9d4046f5a",
+    "id": "bundle--54e3d31a-4129-4a37-94f0-45e56e7dd018",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--ec99ea0b-1020-4ccc-bdc8-d545a4d3ccf6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT34](https://attack.mitre.org/group/G0057) has used [certutil](https://attack.mitre.org/software/S0160) to decode base64-encoded files on victims.",
+            "description": "[APT34](https://attack.mitre.org/groups/G0057) has used [certutil](https://attack.mitre.org/software/S0160) to decode base64-encoded files on victims.",
             "source_ref": "intrusion-set--68ba94ab-78b8-43e7-83e2-aed3466882c6",
             "target_ref": "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

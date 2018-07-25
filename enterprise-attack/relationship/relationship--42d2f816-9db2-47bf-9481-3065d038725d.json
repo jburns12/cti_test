@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--a8887477-0a98-4f81-8089-267e9199711c",
+    "id": "bundle--523a9fa7-b207-4c55-a321-1d5c81334d33",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--42d2f816-9db2-47bf-9481-3065d038725d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Ke3chang](https://attack.mitre.org/group/G0004) actors have been known to copy files to the network shares of other computers to move laterally.",
+            "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) actors have been known to copy files to the network shares of other computers to move laterally.",
             "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
             "target_ref": "attack-pattern--ffe742ed-9100-4686-9e00-c331da544787",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.034Z"
         }
     ]

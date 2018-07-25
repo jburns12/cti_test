@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--a7b1437e-2822-4d49-ad4e-a98422498a4f",
+    "id": "bundle--07b5376c-3d17-4170-aac3-435ee0397a7e",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--b8df1d2c-f014-4f51-a277-8050adafb865",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[FIN8](https://attack.mitre.org/group/G0061) aggregates staged data from a network into a single location.",
+            "description": "[FIN8](https://attack.mitre.org/groups/G0061) aggregates staged data from a network into a single location.",
             "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
             "target_ref": "attack-pattern--7dd95ff6-712e-4056-9626-312ea4ab4c5e",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

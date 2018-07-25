@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--00e512ef-1ec8-43f7-b242-ec6801c6052c",
+    "id": "bundle--ecf5ac5b-307c-4efb-9bda-a37f4d70d1bb",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--8e28cc53-3fd4-42ed-8516-71fd9ee57641",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Patchwork](https://attack.mitre.org/group/G0040) collected and exfiltrated files from the infected system.",
+            "description": "[Patchwork](https://attack.mitre.org/groups/G0040) collected and exfiltrated files from the infected system.",
             "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
             "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.075Z"
         }
     ]

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--3cbf6f8c-fe67-4250-9f56-28394d3d7599",
+    "id": "bundle--fae995b3-de6b-4dc8-8d5f-fcb7e4406d59",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--115562b8-9d7c-435e-af6e-0be6249742d0",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "Several [Lazarus Group](https://attack.mitre.org/group/G0032) malware families are capable of downloading and executing binaries from its C2 server.",
+            "description": "Several [Lazarus Group](https://attack.mitre.org/groups/G0032) malware families are capable of downloading and executing binaries from its C2 server.",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "object_marking_refs": [
@@ -31,7 +31,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.067Z"
         }
     ]

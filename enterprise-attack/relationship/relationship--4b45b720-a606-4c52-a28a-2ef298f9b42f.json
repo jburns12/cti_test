@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--7b66b987-61c1-4499-9eb6-6e9ad432ce33",
+    "id": "bundle--0420d032-4fbe-43e4-a110-6d15b7e7f975",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--4b45b720-a606-4c52-a28a-2ef298f9b42f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[FIN6](https://attack.mitre.org/group/G0037) has used Registry Run keys to establish persistence for its downloader tools known as HARDTACK and SHIPBREAD.",
+            "description": "[FIN6](https://attack.mitre.org/groups/G0037) has used Registry Run keys to establish persistence for its downloader tools known as HARDTACK and SHIPBREAD.",
             "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
             "target_ref": "attack-pattern--9422fc14-1c43-410d-ab0f-a709b76c72dc",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.071Z"
         }
     ]

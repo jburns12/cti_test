@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--423fe827-2927-43b0-88b2-8b122fa91d73",
+    "id": "bundle--eb2a6651-5bf6-4aff-b880-fe4c0bcce6c0",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--170e2f76-5b6a-4eee-8ea4-d1171368b4a9",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Lazarus Group](https://attack.mitre.org/group/G0032) malware IndiaIndia obtains and sends to its C2 server the title of the window for each running process. The KilaAlfa keylogger also reports the title of the window in the foreground.",
+            "description": "[Lazarus Group](https://attack.mitre.org/groups/G0032) malware IndiaIndia obtains and sends to its C2 server the title of the window for each running process. The KilaAlfa keylogger also reports the title of the window in the foreground.",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--4ae4f953-fe58-4cc8-a327-33257e30a830",
             "object_marking_refs": [
@@ -31,7 +31,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.067Z"
         }
     ]

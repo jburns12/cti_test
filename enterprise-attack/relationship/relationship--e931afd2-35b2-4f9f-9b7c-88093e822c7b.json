@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--77304eaf-d5e7-4544-a768-ee7a45aa04e5",
+    "id": "bundle--5308fb19-db19-4664-82a8-ccf6775b55dc",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--e931afd2-35b2-4f9f-9b7c-88093e822c7b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Magic Hound](https://attack.mitre.org/group/G0059) used various social media channels to spearphish victims.",
+            "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) used various social media channels to spearphish victims.",
             "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
             "target_ref": "attack-pattern--d3df754e-997b-4cf9-97d4-70feb3120847",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

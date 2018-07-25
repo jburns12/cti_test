@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--6105a528-80bc-48e9-81e2-f250c88b9a7c",
+    "id": "bundle--b7a48073-4772-4530-80b0-55e8d2ca95d1",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--8f269f6c-9e8b-4296-ab47-2f60c9156b58",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT28](https://attack.mitre.org/group/G0007) executed [CHOPSTICK](https://attack.mitre.org/software/S0023) by using rundll32 commands such as <code>rundll32.exe \u201cC:\\Windows\\twain_64.dll\u201d</code>. [APT28](https://attack.mitre.org/group/G0007) also executed a .dll for a first stage dropper using rundll32.exe. An [APT28](https://attack.mitre.org/group/G0007) loader Trojan saved a batch script that uses rundll32 to execute a DLL payload.",
+            "description": "[APT28](https://attack.mitre.org/groups/G0007) executed [CHOPSTICK](https://attack.mitre.org/software/S0023) by using rundll32 commands such as <code>rundll32.exe \u201cC:\\Windows\\twain_64.dll\u201d</code>. [APT28](https://attack.mitre.org/groups/G0007) also executed a .dll for a first stage dropper using rundll32.exe. An [APT28](https://attack.mitre.org/groups/G0007) loader Trojan saved a batch script that uses rundll32 to execute a DLL payload.",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "attack-pattern--62b8c999-dcc0-4755-bd69-09442d9359f5",
             "object_marking_refs": [
@@ -30,7 +30,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.038Z"
         }
     ]

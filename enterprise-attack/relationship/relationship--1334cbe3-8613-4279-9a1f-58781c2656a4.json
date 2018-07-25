@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--507dfef1-0a9a-4b88-b9cb-e0ac3e617d39",
+    "id": "bundle--308d562d-f691-4fdf-a1cf-9fbf38dfa958",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--1334cbe3-8613-4279-9a1f-58781c2656a4",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT3](https://attack.mitre.org/group/G0022) has been known to brute force password hashes to be able to leverage plain text credentials.",
+            "description": "[APT3](https://attack.mitre.org/groups/G0022) has been known to brute force password hashes to be able to leverage plain text credentials.",
             "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
             "target_ref": "attack-pattern--a93494bb-4b80-4ea1-8695-3236a49916fd",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T21:43:14.128Z"
         }
     ]

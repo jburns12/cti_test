@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--f84b80d8-a7f2-4b03-8edd-9b0c420281dc",
+    "id": "bundle--a9acbef7-0d89-497b-bd62-571b75f24959",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--2e77d363-e38f-40ad-a6ef-9222dc12793d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Naikon](https://attack.mitre.org/group/G0019) uses commands such as <code>netsh advfirewall firewall</code> to discover local firewall settings.",
+            "description": "[Naikon](https://attack.mitre.org/groups/G0019) uses commands such as <code>netsh advfirewall firewall</code> to discover local firewall settings.",
             "source_ref": "intrusion-set--2a158b0a-7ef8-43cb-9985-bf34d1e12050",
             "target_ref": "attack-pattern--241814ae-de3f-4656-b49e-f9a80764d4b7",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.053Z"
         }
     ]

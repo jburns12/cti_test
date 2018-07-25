@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--265e13b4-aea8-4b0b-9569-a3f5c4f05da1",
+    "id": "bundle--8f1ea9ac-a5a5-4291-b005-aa4a5ad33c23",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--9eefeafd-aca1-4e4c-8d29-ea6f9154808a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Turla](https://attack.mitre.org/group/G0010) surveys a system upon check-in to discover network configuration details using the <code>arp -a</code>, <code>nbtstat -n</code>, and <code>net config</code> commands.",
+            "description": "[Turla](https://attack.mitre.org/groups/G0010) surveys a system upon check-in to discover network configuration details using the <code>arp -a</code>, <code>nbtstat -n</code>, and <code>net config</code> commands.",
             "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
             "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.044Z"
         }
     ]

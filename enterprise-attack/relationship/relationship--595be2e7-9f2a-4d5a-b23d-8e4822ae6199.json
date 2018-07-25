@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--a45b185c-0794-4fed-a99b-47c057159fe5",
+    "id": "bundle--439c75e3-da1a-4ea8-a93a-67b17db994a0",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--595be2e7-9f2a-4d5a-b23d-8e4822ae6199",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[BRONZE BUTLER](https://attack.mitre.org/group/G0060) has exfiltrated files stolen from file shares.",
+            "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has exfiltrated files stolen from file shares.",
             "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
             "target_ref": "attack-pattern--ae676644-d2d2-41b7-af7e-9bed1b55898c",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

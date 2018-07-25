@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--41999b0e-8f02-45f2-920a-83d9fc17e466",
+    "id": "bundle--a47c72e1-5556-46ea-bd13-7cbe0e2accf7",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--3b35fec9-ee0d-4c2d-9936-0aa06ad6a49a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "The [APT1](https://attack.mitre.org/group/G0006) group is known to have used pass the hash.",
+            "description": "The [APT1](https://attack.mitre.org/groups/G0006) group is known to have used pass the hash.",
             "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
             "target_ref": "attack-pattern--c23b740b-a42b-47a1-aec2-9d48ddd547ff",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.035Z"
         }
     ]

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--63c6077f-7b15-4ee0-9339-19ae9b66f77f",
+    "id": "bundle--4b112a30-4ac0-4a1a-bcf8-623fe53dbdc6",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--743ed7c3-c0e3-4290-9410-f6bec9224c30",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT28](https://attack.mitre.org/group/G0007) has collected information from Microsoft SharePoint services within target networks.",
+            "description": "[APT28](https://attack.mitre.org/groups/G0007) has collected information from Microsoft SharePoint services within target networks.",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "attack-pattern--d28ef391-8ed4-45dc-bc4a-2f43abf54416",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

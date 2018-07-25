@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--e7f91db2-9ad0-497f-8c51-bc39b9515d69",
+    "id": "bundle--6336c5c2-e8d4-4478-96eb-807bc7706b3c",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--7fe2431d-30b9-45ef-8857-ecef17e428a9",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT37](https://attack.mitre.org/group/G0067) has used Windows DDE for execution of commands and a malicious VBS.",
+            "description": "[APT37](https://attack.mitre.org/groups/G0067) has used Windows DDE for execution of commands and a malicious VBS.",
             "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
             "target_ref": "attack-pattern--edbe24e9-aec4-4994-ac75-6a6bc7f1ddd0",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

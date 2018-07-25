@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--18f4e701-78c8-4f37-b546-649921b27966",
+    "id": "bundle--a4620fb3-1432-4102-86b3-b1eeb190359c",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--4c6aea43-27ba-4e6a-8907-e5db364a145b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[BRONZE BUTLER](https://attack.mitre.org/group/G0060) malware xxmm contains a UAC bypass tool for privilege escalation.",
+            "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) malware xxmm contains a UAC bypass tool for privilege escalation.",
             "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
             "target_ref": "attack-pattern--ca1a3f50-5ebd-41f8-8320-2c7d6a6e88be",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

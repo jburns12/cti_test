@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--8fa9ac5e-3339-49b4-8744-59dc86b690e2",
+    "id": "bundle--f7615b99-68d7-4a06-bc77-729bfa19ff0b",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--fa155ccc-b9db-48f6-bb1a-a367596668ad",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[BRONZE BUTLER](https://attack.mitre.org/group/G0060) has used <code>net user /domain</code> to identify account information.",
+            "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has used <code>net user /domain</code> to identify account information.",
             "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
             "target_ref": "attack-pattern--72b74d71-8169-42aa-92e0-e7b04b9f5a08",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

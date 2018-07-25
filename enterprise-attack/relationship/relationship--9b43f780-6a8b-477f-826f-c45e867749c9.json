@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--e20a7230-fb5a-4c15-b03a-911d67e9368c",
+    "id": "bundle--03b970a4-4a9b-4c06-ad5b-c2ed07e23faf",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--9b43f780-6a8b-477f-826f-c45e867749c9",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[FIN5](https://attack.mitre.org/group/G0053) has cleared event logs from victims.",
+            "description": "[FIN5](https://attack.mitre.org/groups/G0053) has cleared event logs from victims.",
             "source_ref": "intrusion-set--85403903-15e0-4f9f-9be4-a259ecad4022",
             "target_ref": "attack-pattern--799ace7f-e227-4411-baa0-8868704f2a69",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--e6a55826-6e4c-4268-9e92-0f426b3bc250",
+    "id": "bundle--9249c989-eeea-4775-a375-f3addec0d961",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--9e90e4a5-844c-4516-9044-6f35bbf27806",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT28](https://attack.mitre.org/group/G0007) has deployed a bootkit along with [Downdelph](https://attack.mitre.org/software/S0134) to ensure its persistence on the victim. The bootkit shares code with some variants of [BlackEnergy](https://attack.mitre.org/software/S0089).",
+            "description": "[APT28](https://attack.mitre.org/groups/G0007) has deployed a bootkit along with [Downdelph](https://attack.mitre.org/software/S0134) to ensure its persistence on the victim. The bootkit shares code with some variants of [BlackEnergy](https://attack.mitre.org/software/S0089).",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "attack-pattern--02fefddc-fb1b-423f-a76b-7552dd211d4d",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.039Z"
         }
     ]

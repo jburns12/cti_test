@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--6d9c55f6-e96a-4c47-a0be-7ae740a0e70b",
+    "id": "bundle--61125ae3-2457-4b76-b772-85fc68d21776",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--a93494bb-4b80-4ea1-8695-3236a49916fd",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Brute Force",
-            "description": "Adversaries may use brute force techniques to attempt access to accounts when passwords are unknown or when password hashes are obtained.\n\n[Credential Dumping Mitigation](https://attack.mitre.org/technique/T1003) to obtain password hashes may only get an adversary so far when [Pass the Hash Mitigation](https://attack.mitre.org/technique/T1075) is not an option. Techniques to systematically guess the passwords used to compute hashes are available, or the adversary may use a pre-computed rainbow table. Cracking hashes is usually done on adversary-controlled systems outside of the target network. (Citation: Wikipedia Password cracking)\n\nAdversaries may attempt to brute force logins without knowledge of passwords or hashes during an operation either with zero knowledge or by attempting a list of known or possible passwords. This is a riskier option because it could cause numerous authentication failures and account lockouts, depending on the organization's login failure policies. (Citation: Cylance Cleaver)\n\nA related technique called password spraying uses one password, or a small list of passwords, that matches the complexity policy of the domain and may be a commonly used password. Logins are attempted with that password and many different accounts on a network to avoid account lockouts that would normally occur when brute forcing a single account with many passwords. (Citation: BlackHillsInfosec Password Spraying)",
+            "description": "Adversaries may use brute force techniques to attempt access to accounts when passwords are unknown or when password hashes are obtained.\n\n[Credential Dumping](https://attack.mitre.org/technique/T1003) to obtain password hashes may only get an adversary so far when [Pass the Hash](https://attack.mitre.org/technique/T1075) is not an option. Techniques to systematically guess the passwords used to compute hashes are available, or the adversary may use a pre-computed rainbow table. Cracking hashes is usually done on adversary-controlled systems outside of the target network. (Citation: Wikipedia Password cracking)\n\nAdversaries may attempt to brute force logins without knowledge of passwords or hashes during an operation either with zero knowledge or by attempting a list of known or possible passwords. This is a riskier option because it could cause numerous authentication failures and account lockouts, depending on the organization's login failure policies. (Citation: Cylance Cleaver)\n\nA related technique called password spraying uses one password, or a small list of passwords, that matches the complexity policy of the domain and may be a commonly used password. Logins are attempted with that password and many different accounts on a network to avoid account lockouts that would normally occur when brute forcing a single account with many passwords. (Citation: BlackHillsInfosec Password Spraying)",
             "external_references": [
                 {
                     "external_id": "T1110",
@@ -15,7 +15,7 @@
                     "source_name": "mitre-attack"
                 },
                 {
-                    "url": "https://en.wikipedia.org/Password%20cracking",
+                    "url": "https://en.wikipedia.org/wiki/Password%20cracking",
                     "description": "Wikipedia. (n.d.). Password cracking. Retrieved December 23, 2015.",
                     "source_name": "Wikipedia Password cracking"
                 },
@@ -39,7 +39,7 @@
             "x_mitre_data_sources": [
                 "Authentication logs"
             ],
-            "x_mitre_detection": "It is difficult to detect when hashes are cracked, since this is generally done outside the scope of the target network. \n\nMonitor authentication logs for system and application login failures of [Pass the Hash Mitigation](https://attack.mitre.org/technique/T1075). If authentication failures are high, then there may be a brute force attempt to gain access to a system using legitimate credentials.\n\nAlso monitor for many failed authentication attempts across various accounts that may result from password spraying attempts.",
+            "x_mitre_detection": "It is difficult to detect when hashes are cracked, since this is generally done outside the scope of the target network. \n\nMonitor authentication logs for system and application login failures of [Valid Accounts](https://attack.mitre.org/technique/T1078). If authentication failures are high, then there may be a brute force attempt to gain access to a system using legitimate credentials.\n\nAlso monitor for many failed authentication attempts across various accounts that may result from password spraying attempts.",
             "x_mitre_permissions_required": [
                 "User"
             ],
@@ -55,7 +55,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:31:22.767Z"
         }
     ]

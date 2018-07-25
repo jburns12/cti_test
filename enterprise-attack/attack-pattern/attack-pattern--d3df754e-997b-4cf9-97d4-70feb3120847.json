@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bb5790cf-d704-4671-8d26-890245d32bc2",
+    "id": "bundle--53e14913-8f93-4163-a0f0-c8f7f95dcd85",
     "spec_version": "2.0",
     "objects": [
         {
@@ -13,6 +13,11 @@
                     "external_id": "T1194",
                     "url": "https://attack.mitre.org/technique/T1194",
                     "source_name": "mitre-attack"
+                },
+                {
+                    "external_id": "CAPEC-163",
+                    "url": "https://capec.mitre.org/data/definitions/163.html",
+                    "source_name": "capec"
                 }
             ],
             "object_marking_refs": [
@@ -23,7 +28,7 @@
                 "Anti-virus",
                 "Web proxy"
             ],
-            "x_mitre_detection": "Because most common third-party services used for spearphishing via service leverage TLS encryption, SSL/TLS inspection is generally required to detect the initial communication/delivery. With SSL/TLS inspection intrusion detection signatures or other security gateway appliances may be able to detect malware. \n\nAnti-virus can potentially detect malicious documents and files that are downloaded on the user's computer. Endpoint sensing or network sensing can potentially detect malicious events once the file is opened (such as a Microsoft Word document or PDF reaching out to the internet or spawning Powershell.exe) for techniques such as [Windows Remote Management Mitigation](https://attack.mitre.org/technique/T1028) and [Windows Remote Management Mitigation](https://attack.mitre.org/technique/T1028).",
+            "x_mitre_detection": "Because most common third-party services used for spearphishing via service leverage TLS encryption, SSL/TLS inspection is generally required to detect the initial communication/delivery. With SSL/TLS inspection intrusion detection signatures or other security gateway appliances may be able to detect malware. \n\nAnti-virus can potentially detect malicious documents and files that are downloaded on the user's computer. Endpoint sensing or network sensing can potentially detect malicious events once the file is opened (such as a Microsoft Word document or PDF reaching out to the internet or spawning Powershell.exe) for techniques such as [Exploitation for Client Execution](https://attack.mitre.org/technique/T1203) and [Scripting](https://attack.mitre.org/technique/T1064).",
             "x_mitre_platforms": [
                 "Linux",
                 "Windows",
@@ -36,7 +41,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

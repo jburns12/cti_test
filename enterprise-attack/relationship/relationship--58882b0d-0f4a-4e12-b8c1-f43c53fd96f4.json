@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--86c0bb7a-2065-4125-a45f-ef7fa7466306",
+    "id": "bundle--43fe4fab-63a9-4f44-9b98-1cdeac86abc4",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--58882b0d-0f4a-4e12-b8c1-f43c53fd96f4",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Carbanak](https://attack.mitre.org/group/G0008) actors used legitimate credentials of banking employees to perform operations that sent them millions of dollars.",
+            "description": "[Carbanak](https://attack.mitre.org/groups/G0008) actors used legitimate credentials of banking employees to perform operations that sent them millions of dollars.",
             "source_ref": "intrusion-set--55033a4d-3ffe-46b2-99b4-2c1541e9ce1c",
             "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.041Z"
         }
     ]

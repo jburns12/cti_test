@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--4c243175-2d92-4d27-9eb6-5d990215816b",
+    "id": "bundle--d7e5b854-edcf-4f5b-b6db-c22937df1b47",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--79057890-3cd0-4124-8b35-b86db6b4f9d7",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT32](https://attack.mitre.org/group/G0050) has used JavaScript that communicates over HTTP or HTTPS to attacker controlled domains to download additional frameworks.",
+            "description": "[APT32](https://attack.mitre.org/groups/G0050) has used JavaScript that communicates over HTTP or HTTPS to attacker controlled domains to download additional frameworks.",
             "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
             "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

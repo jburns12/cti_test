@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--311d8a13-f10f-4d61-8848-343bb664e52e",
+    "id": "bundle--3e4bd7cc-d75f-452c-8a8a-c8f33c81cf53",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--2d840d1b-28d7-4387-86fd-6d3df8650171",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[BRONZE BUTLER](https://attack.mitre.org/group/G0060) has used a tool to capture screenshots.",
+            "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has used a tool to capture screenshots.",
             "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
             "target_ref": "attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

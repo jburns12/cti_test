@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--87422865-6ca8-4a6e-a007-18292ba3dd0c",
+    "id": "bundle--473494c2-8963-4954-9a36-9ff9e970b572",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--33c8fb30-3515-4582-ad29-34fa0d7e15e5",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[FIN10](https://attack.mitre.org/group/G0051) has deployed Meterpreter stagers and SplinterRAT instances in the victim network after moving laterally.",
+            "description": "[FIN10](https://attack.mitre.org/groups/G0051) has deployed Meterpreter stagers and SplinterRAT instances in the victim network after moving laterally.",
             "source_ref": "intrusion-set--fbe9387f-34e6-4828-ac28-3080020c597b",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

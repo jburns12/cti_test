@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--cef30bdd-e466-4fd9-8bb1-a46e4b91fa43",
+    "id": "bundle--3523819b-49d1-4c2f-b9df-72fb3f23c92b",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--05604d66-735a-4369-bc31-c7915bb3f2e0",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Group5](https://attack.mitre.org/group/G0043) C2 servers communicated with malware over TCP 8081, 8282, and 8083.",
+            "description": "[Group5](https://attack.mitre.org/groups/G0043) C2 servers communicated with malware over TCP 8081, 8282, and 8083.",
             "source_ref": "intrusion-set--7331c66a-5601-4d3f-acf6-ad9e3035eb40",
             "target_ref": "attack-pattern--c848fcf7-6b62-4bde-8216-b6c157d48da0",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.079Z"
         }
     ]

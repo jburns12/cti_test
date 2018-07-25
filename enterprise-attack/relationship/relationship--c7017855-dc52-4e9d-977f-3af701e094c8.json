@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--3c43a112-be8b-49cd-bf74-c72cb64cfa6d",
+    "id": "bundle--746afe17-ea8e-4570-98f0-67409dbd0e04",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--c7017855-dc52-4e9d-977f-3af701e094c8",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT32](https://attack.mitre.org/group/G0050) has used Web shells to maintain access to victim websites.",
+            "description": "[APT32](https://attack.mitre.org/groups/G0050) has used Web shells to maintain access to victim websites.",
             "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
             "target_ref": "attack-pattern--c16e5409-ee53-4d79-afdc-4099dc9292df",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

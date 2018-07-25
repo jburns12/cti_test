@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--1a7f327c-fad2-48bb-90dd-075820df93d5",
+    "id": "bundle--f6fe94fb-cf95-4bc5-986d-e8093b745bd9",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--59b95288-b954-4118-9a88-8e2ad85a1265",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Dragonfly](https://attack.mitre.org/group/G0035) leveraged Outlook Web Access.",
+            "description": "[Dragonfly](https://attack.mitre.org/groups/G0035) leveraged Outlook Web Access.",
             "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
             "target_ref": "attack-pattern--1608f3e1-598a-42f4-a01a-2e252e81728f",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

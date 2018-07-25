@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--aa3f32f4-2d8e-4779-9082-e64d506e3bee",
+    "id": "bundle--0de3befb-5614-4a1e-92de-734e47f3cd40",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--e42eef1a-107e-40a3-9227-45621e277ff3",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "Several [Lazarus Group](https://attack.mitre.org/group/G0032) malware families install themselves as new services on victims.",
+            "description": "Several [Lazarus Group](https://attack.mitre.org/groups/G0032) malware families install themselves as new services on victims.",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--478aa214-2ca7-4ec0-9978-18798e514790",
             "object_marking_refs": [
@@ -26,7 +26,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.066Z"
         }
     ]

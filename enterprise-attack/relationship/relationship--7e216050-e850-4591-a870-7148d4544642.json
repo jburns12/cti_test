@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--ae850bcf-8385-4eab-bf9c-8375d8c9ef63",
+    "id": "bundle--e7f116d5-b4ad-4192-a6b6-352365d02473",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--7e216050-e850-4591-a870-7148d4544642",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT34](https://attack.mitre.org/group/G0057) has used the command-line interface for execution.",
+            "description": "[APT34](https://attack.mitre.org/groups/G0057) has used the command-line interface for execution.",
             "source_ref": "intrusion-set--68ba94ab-78b8-43e7-83e2-aed3466882c6",
             "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
             "object_marking_refs": [
@@ -26,7 +26,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

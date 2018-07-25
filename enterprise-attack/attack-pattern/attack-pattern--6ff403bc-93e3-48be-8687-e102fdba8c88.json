@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f90454b4-55e6-42ef-ae9b-e9d64f00cb98",
+    "id": "bundle--5b1e113d-c4cd-434c-9698-83a808b2fa1f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -15,7 +15,12 @@
                     "source_name": "mitre-attack"
                 },
                 {
-                    "url": "http://en.wikipedia.org/Executable%20compression",
+                    "external_id": "CAPEC-570",
+                    "url": "https://capec.mitre.org/data/definitions/570.html",
+                    "source_name": "capec"
+                },
+                {
+                    "url": "http://en.wikipedia.org/wiki/Executable%20compression",
                     "description": "Executable compression. (n.d.).  Retrieved December 4, 2014.",
                     "source_name": "Wikipedia Exe Compression"
                 }
@@ -42,7 +47,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:30:43.472Z"
         }
     ]

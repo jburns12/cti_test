@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--4a258d04-6db0-4998-b574-fb0e62f3f363",
+    "id": "bundle--b7a4363b-4049-4363-be22-cf709625654a",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--f0ef3f47-5651-4638-a007-cb585d3174b0",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "The Ritsol backdoor trojan used by [Elderwood](https://attack.mitre.org/group/G0066) can download files onto a compromised host from a remote location.",
+            "description": "The Ritsol backdoor trojan used by [Elderwood](https://attack.mitre.org/groups/G0066) can download files onto a compromised host from a remote location.",
             "source_ref": "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

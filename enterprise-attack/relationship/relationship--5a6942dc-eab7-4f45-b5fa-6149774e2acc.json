@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--531f50f7-edcf-4fbc-85b5-97a494ca6d43",
+    "id": "bundle--6544af90-8f8c-42e0-8538-da9c21e09a19",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--5a6942dc-eab7-4f45-b5fa-6149774e2acc",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[menuPass](https://attack.mitre.org/group/G0045) has used the Microsoft administration tool csvde.exe to export Active Directory data.",
+            "description": "[menuPass](https://attack.mitre.org/groups/G0045) has used the Microsoft administration tool csvde.exe to export Active Directory data.",
             "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
             "target_ref": "attack-pattern--72b74d71-8169-42aa-92e0-e7b04b9f5a08",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

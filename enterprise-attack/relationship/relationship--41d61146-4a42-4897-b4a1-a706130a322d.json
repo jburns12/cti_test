@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--748db5fb-b5a4-4f60-96fa-de03f7513570",
+    "id": "bundle--8113cffb-9790-4680-97ce-fea15c3b3ffd",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--41d61146-4a42-4897-b4a1-a706130a322d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "An [APT3](https://attack.mitre.org/group/G0022) downloader uses the Windows command <code>\"cmd.exe\" /C whoami</code>. The group also uses a tool to execute commands on remote computers.",
+            "description": "An [APT3](https://attack.mitre.org/groups/G0022) downloader uses the Windows command <code>\"cmd.exe\" /C whoami</code>. The group also uses a tool to execute commands on remote computers.",
             "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
             "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
             "object_marking_refs": [
@@ -26,7 +26,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.056Z"
         }
     ]

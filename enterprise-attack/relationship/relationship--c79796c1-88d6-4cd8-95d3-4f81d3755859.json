@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--c115e525-30db-4085-8c80-f92101d8dca3",
+    "id": "bundle--4d7e8e2b-0b61-48a7-bfa8-d46b4132f896",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--c79796c1-88d6-4cd8-95d3-4f81d3755859",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Lazarus Group](https://attack.mitre.org/group/G0032) malware SierraCharlie uses RDP for propagation.",
+            "description": "[Lazarus Group](https://attack.mitre.org/groups/G0032) malware SierraCharlie uses RDP for propagation.",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--51dea151-0898-4a45-967c-3ebee0420484",
             "object_marking_refs": [
@@ -26,7 +26,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.069Z"
         }
     ]

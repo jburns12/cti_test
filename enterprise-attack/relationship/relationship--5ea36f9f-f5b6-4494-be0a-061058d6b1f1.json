@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--bb4ca838-c8cf-43c2-98db-376d70d552f6",
+    "id": "bundle--6f13e685-f7b2-49e8-bf67-1291b534f950",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--5ea36f9f-f5b6-4494-be0a-061058d6b1f1",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT28](https://attack.mitre.org/group/G0007) has deleted files from the system via the NSFileManager:removeFileAtPath method.",
+            "description": "[APT28](https://attack.mitre.org/groups/G0007) has deleted files from the system via the NSFileManager:removeFileAtPath method.",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

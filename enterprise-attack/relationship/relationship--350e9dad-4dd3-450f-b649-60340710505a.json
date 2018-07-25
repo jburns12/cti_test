@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--c00170bb-1183-4986-a07c-cb87cd10ffb8",
+    "id": "bundle--fa2ddd59-e5d5-4d76-894c-3481d0680b2f",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--350e9dad-4dd3-450f-b649-60340710505a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[menuPass](https://attack.mitre.org/group/G0045) has attempted to get victims to open malicious files sent via email as part of spearphishing campaigns.",
+            "description": "[menuPass](https://attack.mitre.org/groups/G0045) has attempted to get victims to open malicious files sent via email as part of spearphishing campaigns.",
             "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
             "target_ref": "attack-pattern--8c32eb4d-805f-4fc5-bf60-c4d476c131b5",
             "object_marking_refs": [
@@ -26,7 +26,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--4583c9bb-8fce-40a8-9db6-53f19a933a28",
+    "id": "bundle--ab1c9bf8-454a-450f-9075-4c5ffd5c7141",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--0a8ee649-e907-4a73-8513-3019b2d771a0",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Lazarus Group](https://attack.mitre.org/group/G0032) malware SierraBravo-Two generates an email message via SMTP containing information about newly infected victims.",
+            "description": "[Lazarus Group](https://attack.mitre.org/groups/G0032) malware SierraBravo-Two generates an email message via SMTP containing information about newly infected victims.",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--a19e86f8-1c0a-4fea-8407-23b73d615776",
             "object_marking_refs": [
@@ -26,7 +26,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.069Z"
         }
     ]

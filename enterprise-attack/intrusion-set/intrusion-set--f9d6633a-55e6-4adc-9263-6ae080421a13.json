@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2600a50c-b30a-4f4e-8ebb-042502e7e799",
+    "id": "bundle--b9434694-07a0-4be5-a75c-b92479a64318",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,14 +8,14 @@
             "id": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Magic Hound",
-            "description": "[Magic Hound](https://attack.mitre.org/group/G0059) is an espionage campaign operating primarily in the Middle East that dates back to at least mid-2016. The group behind the campaign has primarily targeted organizations in the energy, government, and technology sectors that are either based or have business interests in Saudi Arabia. (Citation: Unit 42 Magic Hound Feb 2017)",
+            "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) is an espionage campaign operating primarily in the Middle East that dates back to at least mid-2016. The group behind the campaign has primarily targeted organizations in the energy, government, and technology sectors that are either based or have business interests in Saudi Arabia. (Citation: Unit 42 Magic Hound Feb 2017)",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
                     "external_id": "G0059",
-                    "url": "https://attack.mitre.org/group/G0059",
+                    "url": "https://attack.mitre.org/groups/G0059",
                     "source_name": "mitre-attack"
                 },
                 {
@@ -74,7 +74,7 @@
                 "Newscaster",
                 "Cobalt Gypsy"
             ],
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

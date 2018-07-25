@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--54f095a7-ea93-43d6-b573-b0e222264a70",
+    "id": "bundle--07bb2aa3-2338-4fc4-8c98-154708fed8dc",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--b51f3b69-d62b-4ccf-9ce8-62ec7f934e4b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Lazarus Group](https://attack.mitre.org/group/G0032) malware uses a unique form of communication encryption that mimics TLS but uses a different encryption method, evading SSL man-in-the-middle decryption attacks.",
+            "description": "[Lazarus Group](https://attack.mitre.org/groups/G0032) malware uses a unique form of communication encryption that mimics TLS but uses a different encryption method, evading SSL man-in-the-middle decryption attacks.",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--f72eb8a8-cd4c-461d-a814-3f862befbf00",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.065Z"
         }
     ]

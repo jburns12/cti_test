@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--6e768a04-03a6-444a-afbb-fe46fd546bfa",
+    "id": "bundle--6670006f-b92e-41ba-86a9-8cc61808aee5",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--9da92f82-172d-4375-9bcd-f148bfe13418",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[FIN8](https://attack.mitre.org/group/G0061) has tunneled RDP backdoors over port 443.",
+            "description": "[FIN8](https://attack.mitre.org/groups/G0061) has tunneled RDP backdoors over port 443.",
             "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
             "target_ref": "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

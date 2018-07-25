@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--115337b1-d32d-47de-ab4a-0764e3fc80fb",
+    "id": "bundle--33e453d4-b818-46d5-8c8a-a25f642fb242",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--48042284-2fde-43f0-a3dc-f64e9f16bd77",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "A keylogging tool used by [APT3](https://attack.mitre.org/group/G0022) gathers network information from the victim, including the MAC address, IP address, WINS, DHCP server, and gateway.",
+            "description": "A keylogging tool used by [APT3](https://attack.mitre.org/groups/G0022) gathers network information from the victim, including the MAC address, IP address, WINS, DHCP server, and gateway.",
             "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
             "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
             "object_marking_refs": [
@@ -26,7 +26,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.057Z"
         }
     ]

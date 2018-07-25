@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--1608aaa3-f629-4d38-bc84-4aaee8e5c7db",
+    "id": "bundle--2f9174bd-786e-4a9c-99dd-7d1bffc532ef",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--76021528-7cb6-461a-870a-f681cac19285",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[TA459](https://attack.mitre.org/group/G0062) has targeted victims using spearphishing emails with malicious Microsoft Word attachments.",
+            "description": "[TA459](https://attack.mitre.org/groups/G0062) has targeted victims using spearphishing emails with malicious Microsoft Word attachments.",
             "source_ref": "intrusion-set--62a64fd3-aaf7-4d09-a375-d6f8bb118481",
             "target_ref": "attack-pattern--6aac77c4-eaf2-4366-8c13-ce50ab951f38",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

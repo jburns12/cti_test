@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--92aabd21-bb9a-477d-9ab8-b312ae2266fc",
+    "id": "bundle--24c1d186-9a90-4e7b-82c8-4cb0d13139b5",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--4de2ac9b-4e51-4d73-8fe3-d7d1659778b8",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Stealth Falcon](https://attack.mitre.org/group/G0038) malware gathers a list of running processes.",
+            "description": "[Stealth Falcon](https://attack.mitre.org/groups/G0038) malware gathers a list of running processes.",
             "source_ref": "intrusion-set--894aab42-3371-47b1-8859-a4a074c804c8",
             "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.074Z"
         }
     ]

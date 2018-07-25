@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--647f47f2-1bb2-4296-bc50-2079e20cd7bd",
+    "id": "bundle--747fda22-4386-47e4-8001-126169c9c2b5",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--45626c7f-c401-427b-9589-c91a4b2a4f7f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[FIN8](https://attack.mitre.org/group/G0061) has exploited the CVE-2016-0167 local vulnerability.",
+            "description": "[FIN8](https://attack.mitre.org/groups/G0061) has exploited the CVE-2016-0167 local vulnerability.",
             "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
             "target_ref": "attack-pattern--b21c3b2d-02e6-45b1-980b-e69051040839",
             "object_marking_refs": [
@@ -26,7 +26,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

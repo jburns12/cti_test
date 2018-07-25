@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--b91cbf72-119a-4905-8d80-96c880d71c11",
+    "id": "bundle--1691c7b6-45da-4438-af1f-1374ac842aa7",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--95805281-96b1-49ea-95ee-9d654178c5c3",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[BRONZE BUTLER](https://attack.mitre.org/group/G0060) typically use <code>ping</code> and [Net](https://attack.mitre.org/software/S0039) to enumerate systems.",
+            "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) typically use <code>ping</code> and [Net](https://attack.mitre.org/software/S0039) to enumerate systems.",
             "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
             "target_ref": "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

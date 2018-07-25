@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--749d95b1-ee08-44e0-977c-d8fe6c350b6e",
+    "id": "bundle--b03511c0-047b-4eb7-8b17-601428615abb",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--6b5c6fc2-615a-46fc-80a4-9ab332159722",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Threat Group-3390](https://attack.mitre.org/group/G0027) actors installed a credential logger on Microsoft Exchange servers.",
+            "description": "[Threat Group-3390](https://attack.mitre.org/groups/G0027) actors installed a credential logger on Microsoft Exchange servers.",
             "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
             "target_ref": "attack-pattern--bb5a00de-e086-4859-a231-fa793f6797e2",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.061Z"
         }
     ]

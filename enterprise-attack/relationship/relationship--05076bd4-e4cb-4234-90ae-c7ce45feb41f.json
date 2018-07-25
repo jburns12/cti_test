@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--35efc8b0-abed-4c51-8b5f-9f03e7deb061",
+    "id": "bundle--38bab7bf-1dad-4f01-96df-9ff4105a439c",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--05076bd4-e4cb-4234-90ae-c7ce45feb41f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Dragonfly](https://attack.mitre.org/group/G0035) has used PowerShell.",
+            "description": "[Dragonfly](https://attack.mitre.org/groups/G0035) has used PowerShell.",
             "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
             "target_ref": "attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0",
             "object_marking_refs": [
@@ -31,7 +31,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

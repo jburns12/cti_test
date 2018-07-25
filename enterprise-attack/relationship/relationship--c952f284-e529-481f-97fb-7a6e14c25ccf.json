@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--e3b7bd4a-954d-4f2a-b10b-94534053b6b7",
+    "id": "bundle--71c38d1b-d3b7-450d-a15f-931005497876",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--c952f284-e529-481f-97fb-7a6e14c25ccf",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "Droppers used by [Putter Panda](https://attack.mitre.org/group/G0024) use RC4 or a 16-byte XOR key consisting of the bytes 0xA0 \u2013 0xAF to obfuscate payloads.",
+            "description": "Droppers used by [Putter Panda](https://attack.mitre.org/groups/G0024) use RC4 or a 16-byte XOR key consisting of the bytes 0xA0 \u2013 0xAF to obfuscate payloads.",
             "source_ref": "intrusion-set--5ce5392a-3a6c-4e07-9df3-9b6a9159ac45",
             "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-03T13:33:43.876Z",
+            "modified": "2018-07-24T17:26:20.956Z",
             "created": "2017-05-31T21:33:27.058Z"
         }
     ]
