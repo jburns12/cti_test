@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--4d1fdd71-be24-4436-bd45-48193d2153a2",
+    "id": "bundle--9a1ad9a6-edea-452d-a47a-28a238eb1170",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--138da0bb-befa-45cd-9ca4-c74b86ac61ff",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Briba](https://attack.mitre.org/software/S0204) uses rundll32 within [Registry Run Keys / Start Folder](https://attack.mitre.org/technique/T1060) entries to execute malicious DLLs.",
+            "description": "[Briba](https://attack.mitre.org/software/S0204) uses rundll32 within [Registry Run Keys / Start Folder](https://attack.mitre.org/techniques/T1060) entries to execute malicious DLLs.",
             "source_ref": "malware--79499993-a8d6-45eb-b343-bf58dea5bdde",
             "target_ref": "attack-pattern--62b8c999-dcc0-4755-bd69-09442d9359f5",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T17:26:20.956Z",
+            "modified": "2018-08-15T18:30:24.296Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

@@ -1,17 +1,17 @@
 {
     "type": "bundle",
-    "id": "bundle--f6f9ab82-925a-407f-a4eb-b8c3a13565b9",
+    "id": "bundle--9f35a50e-1d3b-40a9-a278-01c071562749",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--970cdb5c-02fb-4c38-b17e-d6327cf3c810",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Shortcut Modification",
-            "description": "Shortcuts or symbolic links are ways of referencing other files or programs that will be opened or executed when the shortcut is clicked or executed by a system startup process. Adversaries could use shortcuts to execute their tools for persistence. They may create a new shortcut as a means of indirection that may use [Masquerading](https://attack.mitre.org/technique/T1036) to look like a legitimate program. Adversaries could also edit the target path or entirely replace an existing shortcut so their tools will be executed instead of the intended legitimate program.",
+            "description": "Shortcuts or symbolic links are ways of referencing other files or programs that will be opened or executed when the shortcut is clicked or executed by a system startup process. Adversaries could use shortcuts to execute their tools for persistence. They may create a new shortcut as a means of indirection that may use [Masquerading](https://attack.mitre.org/techniques/T1036) to look like a legitimate program. Adversaries could also edit the target path or entirely replace an existing shortcut so their tools will be executed instead of the intended legitimate program.",
             "external_references": [
                 {
                     "external_id": "T1023",
-                    "url": "https://attack.mitre.org/technique/T1023",
+                    "url": "https://attack.mitre.org/techniques/T1023",
                     "source_name": "mitre-attack"
                 }
             ],
@@ -41,7 +41,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-24T17:26:20.956Z",
+            "modified": "2018-08-15T18:30:24.296Z",
             "created": "2017-05-31T21:30:30.757Z"
         }
     ]

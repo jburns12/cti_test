@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dc194fa9-27d8-4e5f-957a-336364be47e4",
+    "id": "bundle--e1b49d48-1347-4392-95e1-d409886858c0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -11,7 +11,7 @@
             "external_references": [
                 {
                     "external_id": "T1039",
-                    "url": "https://attack.mitre.org/technique/T1039",
+                    "url": "https://attack.mitre.org/techniques/T1039",
                     "source_name": "mitre-attack"
                 }
             ],
@@ -23,7 +23,7 @@
                 "Process monitoring",
                 "Process command-line parameters"
             ],
-            "x_mitre_detection": "Monitor processes and command-line arguments for actions that could be taken to collect files from a network share. Remote access tools with built-in features may interact directly with the Windows API to gather data. Data may also be acquired through Windows system management tools such as [Windows Management Instrumentation](https://attack.mitre.org/technique/T1047) and [PowerShell](https://attack.mitre.org/technique/T1086).",
+            "x_mitre_detection": "Monitor processes and command-line arguments for actions that could be taken to collect files from a network share. Remote access tools with built-in features may interact directly with the Windows API to gather data. Data may also be acquired through Windows system management tools such as [Windows Management Instrumentation](https://attack.mitre.org/techniques/T1047) and [PowerShell](https://attack.mitre.org/techniques/T1086).",
             "x_mitre_system_requirements": [
                 "Privileges to access network shared drive"
             ],
@@ -39,7 +39,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-24T17:26:20.956Z",
+            "modified": "2018-08-15T18:30:24.296Z",
             "created": "2017-05-31T21:30:41.022Z"
         }
     ]

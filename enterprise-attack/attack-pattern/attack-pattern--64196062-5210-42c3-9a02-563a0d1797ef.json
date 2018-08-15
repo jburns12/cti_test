@@ -1,17 +1,17 @@
 {
     "type": "bundle",
-    "id": "bundle--dad9ecda-4e4a-4e69-8e74-33a5bf4b3b27",
+    "id": "bundle--fba0af8f-71c6-4006-a8f3-39227fa47246",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--64196062-5210-42c3-9a02-563a0d1797ef",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Communication Through Removable Media",
-            "description": "Adversaries can perform command and control between compromised hosts on potentially disconnected networks using removable media to transfer commands from system to system. Both systems would need to be compromised, with the likelihood that an Internet-connected system was compromised first and the second through lateral movement by [Replication Through Removable Media](https://attack.mitre.org/technique/T1091). Commands and files would be relayed from the disconnected system to the Internet-connected system to which the adversary has direct access.",
+            "description": "Adversaries can perform command and control between compromised hosts on potentially disconnected networks using removable media to transfer commands from system to system. Both systems would need to be compromised, with the likelihood that an Internet-connected system was compromised first and the second through lateral movement by [Replication Through Removable Media](https://attack.mitre.org/techniques/T1091). Commands and files would be relayed from the disconnected system to the Internet-connected system to which the adversary has direct access.",
             "external_references": [
                 {
                     "external_id": "T1092",
-                    "url": "https://attack.mitre.org/technique/T1092",
+                    "url": "https://attack.mitre.org/techniques/T1092",
                     "source_name": "mitre-attack"
                 }
             ],
@@ -36,7 +36,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-24T17:26:20.956Z",
+            "modified": "2018-08-15T18:30:24.296Z",
             "created": "2017-05-31T21:31:09.379Z"
         }
     ]

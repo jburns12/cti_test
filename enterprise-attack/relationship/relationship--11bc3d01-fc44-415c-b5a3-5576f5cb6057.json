@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--70459f39-c16d-4719-b0ed-2ce04826be12",
+    "id": "bundle--e419a560-3710-499c-99c3-4c06cee03891",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--11bc3d01-fc44-415c-b5a3-5576f5cb6057",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[T9000](https://attack.mitre.org/software/S0098) searches removable storage devices for files with a pre-defined list of file extensions (e.g. *.doc, *.ppt, *.xls, *.docx, *.pptx, *.xlsx). Any matching files are encrypted and written to a local user directory.",
+            "description": "[T9000](https://attack.mitre.org/software/S0098) searches removable storage devices for files with a pre-defined list of file extensions (e.g. * .doc, *.ppt, *.xls, *.docx, *.pptx, *.xlsx). Any matching files are encrypted and written to a local user directory.",
             "source_ref": "malware--876f6a77-fbc5-4e13-ab1a-5611986730a3",
             "target_ref": "attack-pattern--30208d3e-0d6b-43c8-883e-44462a514619",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T17:26:20.956Z",
+            "modified": "2018-08-15T18:30:24.296Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

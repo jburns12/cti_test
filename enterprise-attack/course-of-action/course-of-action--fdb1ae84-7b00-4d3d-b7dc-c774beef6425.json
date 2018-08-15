@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--45b1b0fc-f2ae-47bf-9a99-0bef82204181",
+    "id": "bundle--dc606ac7-a167-4446-bbed-0f64215f0590",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "course-of-action--fdb1ae84-7b00-4d3d-b7dc-c774beef6425",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Account Manipulation Mitigation",
-            "description": "Use multifactor authentication. Follow guidelines to prevent or limit adversary access to [Valid Accounts](https://attack.mitre.org/technique/T1078).\n\nProtect domain controllers by ensuring proper security configuration for critical servers. Configure access controls and firewalls to limit access to these systems. Do not allow domain administrator accounts to be used for day-to-day operations that may expose them to potential adversaries on unprivileged systems.",
+            "description": "Use multifactor authentication. Follow guidelines to prevent or limit adversary access to [Valid Accounts](https://attack.mitre.org/techniques/T1078).\n\nProtect domain controllers by ensuring proper security configuration for critical servers. Configure access controls and firewalls to limit access to these systems. Do not allow domain administrator accounts to be used for day-to-day operations that may expose them to potential adversaries on unprivileged systems.",
             "external_references": [
                 {
                     "external_id": "T1098",
@@ -16,8 +16,8 @@
                 }
             ],
             "type": "course-of-action",
-            "modified": "2018-07-24T17:26:20.956Z",
-            "created": "2018-07-24T17:26:20.956Z"
+            "modified": "2018-08-15T18:30:24.296Z",
+            "created": "2018-08-15T18:30:24.296Z"
         }
     ]
 }

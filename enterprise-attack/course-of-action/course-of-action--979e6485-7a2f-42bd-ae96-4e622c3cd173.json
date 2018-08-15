@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--20224927-4d2d-4b57-be5d-8181070a1b7c",
+    "id": "bundle--fa8c5ea4-8803-408d-b3f0-d116ce2825ff",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "course-of-action--979e6485-7a2f-42bd-ae96-4e622c3cd173",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Remote Services Mitigation",
-            "description": "Limit the number of accounts that may use remote services. Use multifactor authentication where possible. Limit the permissions for accounts that are at higher risk of compromise; for example, configure SSH so users can only run specific programs. Prevent Credential Access techniques that may allow an adversary to acquire [Valid Accounts](https://attack.mitre.org/technique/T1078) that can be used by existing services.",
+            "description": "Limit the number of accounts that may use remote services. Use multifactor authentication where possible. Limit the permissions for accounts that are at higher risk of compromise; for example, configure SSH so users can only run specific programs. Prevent Credential Access techniques that may allow an adversary to acquire [Valid Accounts](https://attack.mitre.org/techniques/T1078) that can be used by existing services.",
             "external_references": [
                 {
                     "external_id": "T1021",
@@ -16,8 +16,8 @@
                 }
             ],
             "type": "course-of-action",
-            "modified": "2018-07-24T17:26:20.956Z",
-            "created": "2018-07-24T17:26:20.956Z"
+            "modified": "2018-08-15T18:30:24.296Z",
+            "created": "2018-08-15T18:30:24.296Z"
         }
     ]
 }

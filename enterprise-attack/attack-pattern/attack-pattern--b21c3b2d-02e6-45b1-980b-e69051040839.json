@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a7126828-cd6d-4c03-9869-584c69a8c3f3",
+    "id": "bundle--dda92eb2-c572-4c51-adb8-5eca05b076bf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -11,7 +11,7 @@
             "external_references": [
                 {
                     "external_id": "T1068",
-                    "url": "https://attack.mitre.org/technique/T1068",
+                    "url": "https://attack.mitre.org/techniques/T1068",
                     "source_name": "mitre-attack"
                 },
                 {
@@ -28,7 +28,7 @@
                 "Process monitoring",
                 "Application Logs"
             ],
-            "x_mitre_detection": "Detecting software exploitation may be difficult depending on the tools available. Software exploits may not always succeed or may cause the exploited process to become unstable or crash. Also look for behavior on the endpoint system that might indicate successful compromise, such as abnormal behavior of the processes. This could include suspicious files written to disk, evidence of [Process Injection](https://attack.mitre.org/technique/T1055) for attempts to hide execution or evidence of Discovery.\n\nHigher privileges are often necessary to perform additional actions such as some methods of [Credential Dumping](https://attack.mitre.org/technique/T1003). Look for additional activity that may indicate an adversary has gained higher privileges.",
+            "x_mitre_detection": "Detecting software exploitation may be difficult depending on the tools available. Software exploits may not always succeed or may cause the exploited process to become unstable or crash. Also look for behavior on the endpoint system that might indicate successful compromise, such as abnormal behavior of the processes. This could include suspicious files written to disk, evidence of [Process Injection](https://attack.mitre.org/techniques/T1055) for attempts to hide execution or evidence of Discovery.\n\nHigher privileges are often necessary to perform additional actions such as some methods of [Credential Dumping](https://attack.mitre.org/techniques/T1003). Look for additional activity that may indicate an adversary has gained higher privileges.",
             "x_mitre_effective_permissions": [
                 "User"
             ],
@@ -50,7 +50,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-24T17:26:20.956Z",
+            "modified": "2018-08-15T18:30:24.296Z",
             "created": "2017-05-31T21:30:55.066Z"
         }
     ]

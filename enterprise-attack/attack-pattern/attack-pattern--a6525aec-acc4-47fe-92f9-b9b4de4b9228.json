@@ -1,17 +1,17 @@
 {
     "type": "bundle",
-    "id": "bundle--9216fcdc-cd93-4c78-8ee7-f0dc38ad0ddf",
+    "id": "bundle--5dac1363-b3e6-4648-8563-61cbc30a5819",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--a6525aec-acc4-47fe-92f9-b9b4de4b9228",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Graphical User Interface",
-            "description": "Cause a binary or script to execute based on interacting with the file through a graphical user interface (GUI) or in an interactive remote session such as [Remote Desktop Protocol](https://attack.mitre.org/technique/T1076).",
+            "description": "Cause a binary or script to execute based on interacting with the file through a graphical user interface (GUI) or in an interactive remote session such as [Remote Desktop Protocol](https://attack.mitre.org/techniques/T1076).",
             "external_references": [
                 {
                     "external_id": "T1061",
-                    "url": "https://attack.mitre.org/technique/T1061",
+                    "url": "https://attack.mitre.org/techniques/T1061",
                     "source_name": "mitre-attack"
                 }
             ],
@@ -43,7 +43,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-24T17:26:20.956Z",
+            "modified": "2018-08-15T18:30:24.296Z",
             "created": "2017-05-31T21:30:50.342Z"
         }
     ]

@@ -1,17 +1,17 @@
 {
     "type": "bundle",
-    "id": "bundle--1e0784a3-cb6e-4ee6-8ca9-a8b985f5df27",
+    "id": "bundle--d0a62e40-768a-44cc-8806-ae0a659c9c77",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Remote System Discovery",
-            "description": "Adversaries will likely attempt to get a listing of other systems by IP address, hostname, or other logical identifier on a network that may be used for Lateral Movement from the current system. Functionality could exist within remote access tools to enable this, but utilities available on the operating system could also be used. \n\n===Windows===\n\nExamples of tools and commands that acquire this information include \"ping\" or \"net view\" using [Net](https://attack.mitre.org/software/S0039).\n\n===Mac===\n\nSpecific to Mac, the <code>bonjour</code> protocol to discover additional Mac-based systems within the same broadcast domain. Utilities such as \"ping\" and others can be used to gather information about remote systems.\n\n===Linux===\n\nUtilities such as \"ping\" and others can be used to gather information about remote systems.",
+            "description": "Adversaries will likely attempt to get a listing of other systems by IP address, hostname, or other logical identifier on a network that may be used for Lateral Movement from the current system. Functionality could exist within remote access tools to enable this, but utilities available on the operating system could also be used. \n\n### Windows\n\nExamples of tools and commands that acquire this information include \"ping\" or \"net view\" using [Net](https://attack.mitre.org/software/S0039).\n\n### Mac\n\nSpecific to Mac, the <code>bonjour</code> protocol to discover additional Mac-based systems within the same broadcast domain. Utilities such as \"ping\" and others can be used to gather information about remote systems.\n\n### Linux\n\nUtilities such as \"ping\" and others can be used to gather information about remote systems.",
             "external_references": [
                 {
                     "external_id": "T1018",
-                    "url": "https://attack.mitre.org/technique/T1018",
+                    "url": "https://attack.mitre.org/techniques/T1018",
                     "source_name": "mitre-attack"
                 }
             ],
@@ -24,7 +24,7 @@
                 "Process monitoring",
                 "Process use of network"
             ],
-            "x_mitre_detection": "System and network discovery techniques normally occur throughout an operation as an adversary learns the environment. Data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities, such as Lateral Movement, based on the information obtained.\n\nNormal, benign system and network events related to legitimate remote system discovery may be uncommon, depending on the environment and how they are used. Monitor processes and command-line arguments for actions that could be taken to gather system and network information. Remote access tools with built-in features may interact directly with the Windows API to gather information. Information may also be acquired through Windows system management tools such as [Windows Management Instrumentation](https://attack.mitre.org/technique/T1047) and [PowerShell](https://attack.mitre.org/technique/T1086).",
+            "x_mitre_detection": "System and network discovery techniques normally occur throughout an operation as an adversary learns the environment. Data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities, such as Lateral Movement, based on the information obtained.\n\nNormal, benign system and network events related to legitimate remote system discovery may be uncommon, depending on the environment and how they are used. Monitor processes and command-line arguments for actions that could be taken to gather system and network information. Remote access tools with built-in features may interact directly with the Windows API to gather information. Information may also be acquired through Windows system management tools such as [Windows Management Instrumentation](https://attack.mitre.org/techniques/T1047) and [PowerShell](https://attack.mitre.org/techniques/T1086).",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",
@@ -42,7 +42,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-24T17:26:20.956Z",
+            "modified": "2018-08-15T18:30:24.296Z",
             "created": "2017-05-31T21:30:28.187Z"
         }
     ]

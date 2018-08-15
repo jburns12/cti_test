@@ -1,17 +1,17 @@
 {
     "type": "bundle",
-    "id": "bundle--68b28d92-9f5b-44b4-8f86-4e1b8ec9ef34",
+    "id": "bundle--85ced18a-101f-43ba-8c76-9c87af93c0ae",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Process Discovery",
-            "description": "Adversaries may attempt to get information about running processes on a system. Information obtained could be used to gain an understanding of common software running on systems within the network.\n\n===Windows===\n\nAn example command that would obtain details on processes is \"tasklist\" using the [Tasklist](https://attack.mitre.org/software/S0057) utility.\n\n===Mac and Linux===\n\nIn Mac and Linux, this is accomplished with the <code>ps</code> command.",
+            "description": "Adversaries may attempt to get information about running processes on a system. Information obtained could be used to gain an understanding of common software running on systems within the network.\n\n### Windows\n\nAn example command that would obtain details on processes is \"tasklist\" using the [Tasklist](https://attack.mitre.org/software/S0057) utility.\n\n### Mac and Linux\n\nIn Mac and Linux, this is accomplished with the <code>ps</code> command.",
             "external_references": [
                 {
                     "external_id": "T1057",
-                    "url": "https://attack.mitre.org/technique/T1057",
+                    "url": "https://attack.mitre.org/techniques/T1057",
                     "source_name": "mitre-attack"
                 },
                 {
@@ -27,7 +27,7 @@
                 "Process command-line parameters",
                 "Process monitoring"
             ],
-            "x_mitre_detection": "System and network discovery techniques normally occur throughout an operation as an adversary learns the environment. Data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities, such as Lateral Movement, based on the information obtained.\n\nNormal, benign system and network events that look like process discovery may be uncommon, depending on the environment and how they are used. Monitor processes and command-line arguments for actions that could be taken to gather system and network information. Remote access tools with built-in features may interact directly with the Windows API to gather information. Information may also be acquired through Windows system management tools such as [Windows Management Instrumentation](https://attack.mitre.org/technique/T1047) and [PowerShell](https://attack.mitre.org/technique/T1086).",
+            "x_mitre_detection": "System and network discovery techniques normally occur throughout an operation as an adversary learns the environment. Data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities, such as Lateral Movement, based on the information obtained.\n\nNormal, benign system and network events that look like process discovery may be uncommon, depending on the environment and how they are used. Monitor processes and command-line arguments for actions that could be taken to gather system and network information. Remote access tools with built-in features may interact directly with the Windows API to gather information. Information may also be acquired through Windows system management tools such as [Windows Management Instrumentation](https://attack.mitre.org/techniques/T1047) and [PowerShell](https://attack.mitre.org/techniques/T1086).",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",
@@ -48,7 +48,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-24T17:26:20.956Z",
+            "modified": "2018-08-15T18:30:24.296Z",
             "created": "2017-05-31T21:30:48.728Z"
         }
     ]

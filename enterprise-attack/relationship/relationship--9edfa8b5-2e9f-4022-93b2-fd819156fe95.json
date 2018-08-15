@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--8294e704-a9f9-4545-9a19-a365d4108234",
+    "id": "bundle--2ec92124-8bf8-495f-83a6-5cd3764db1e2",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--9edfa8b5-2e9f-4022-93b2-fd819156fe95",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "can be used to create [BITS Jobs](https://attack.mitre.org/technique/T1197) to upload and/or download files.",
+            "description": "can be used to create [BITS Jobs](https://attack.mitre.org/techniques/T1197) to upload and/or download files.",
             "source_ref": "tool--64764dc6-a032-495f-8250-1e4c06bdc163",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T17:26:20.956Z",
+            "modified": "2018-08-15T18:30:24.296Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

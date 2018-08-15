@@ -1,17 +1,17 @@
 {
     "type": "bundle",
-    "id": "bundle--fa6d895e-4a75-42eb-9b80-5d2bac544e22",
+    "id": "bundle--7529ceef-8f45-40f5-b91b-1a02f0465f85",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--10d51417-ee35-4589-b1ff-b6df1c334e8d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "External Remote Services",
-            "description": "Remote services such as VPNs, Citrix, and other access mechanisms allow users to connect to internal enterprise network resources from external locations. There are often remote service gateways that manage connections and credential authentication for these services. Services such as [Windows Remote Management](https://attack.mitre.org/technique/T1028) can also be used externally.\n\nAdversaries may use remote services to access and persist within a network. (Citation: Volexity Virtual Private Keylogging) Access to [Valid Accounts](https://attack.mitre.org/technique/T1078) to use the service is often a requirement, which could be obtained through credential pharming or by obtaining the credentials from users after compromising the enterprise network. Access to remote services may be used as part of [Redundant Access](https://attack.mitre.org/technique/T1108) during an operation.",
+            "description": "Remote services such as VPNs, Citrix, and other access mechanisms allow users to connect to internal enterprise network resources from external locations. There are often remote service gateways that manage connections and credential authentication for these services. Services such as [Windows Remote Management](https://attack.mitre.org/techniques/T1028) can also be used externally.\n\nAdversaries may use remote services to access and persist within a network. (Citation: Volexity Virtual Private Keylogging) Access to [Valid Accounts](https://attack.mitre.org/techniques/T1078) to use the service is often a requirement, which could be obtained through credential pharming or by obtaining the credentials from users after compromising the enterprise network. Access to remote services may be used as part of [Redundant Access](https://attack.mitre.org/techniques/T1108) during an operation.",
             "external_references": [
                 {
                     "external_id": "T1133",
-                    "url": "https://attack.mitre.org/technique/T1133",
+                    "url": "https://attack.mitre.org/techniques/T1133",
                     "source_name": "mitre-attack"
                 },
                 {
@@ -30,7 +30,7 @@
             "x_mitre_data_sources": [
                 "Authentication logs"
             ],
-            "x_mitre_detection": "Follow best practices for detecting adversary use of [Valid Accounts](https://attack.mitre.org/technique/T1078) for authenticating to remote services. Collect authentication logs and analyze for unusual access patterns, windows of activity, and access outside of normal business hours.",
+            "x_mitre_detection": "Follow best practices for detecting adversary use of [Valid Accounts](https://attack.mitre.org/techniques/T1078) for authenticating to remote services. Collect authentication logs and analyze for unusual access patterns, windows of activity, and access outside of normal business hours.",
             "x_mitre_permissions_required": [
                 "User"
             ],
@@ -44,7 +44,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-24T17:26:20.956Z",
+            "modified": "2018-08-15T18:30:24.296Z",
             "created": "2017-05-31T21:31:44.421Z"
         }
     ]

@@ -1,17 +1,17 @@
 {
     "type": "bundle",
-    "id": "bundle--43093623-01b8-4db6-ab83-5866709a10e1",
+    "id": "bundle--9d90ee4f-9d84-4152-9ac3-fb6452b8167d",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--128c55d3-aeba-469f-bd3e-c8996ab4112a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Timestomp",
-            "description": "Timestomping is a technique that modifies the timestamps of a file (the modify, access, create, and change times), often to mimic files that are in the same folder. This is done, for example, on files that have been modified or created by the adversary so that they do not appear conspicuous to forensic investigators or file analysis tools. Timestomping may be used along with file name [Masquerading](https://attack.mitre.org/technique/T1036) to hide malware and tools. (Citation: WindowsIR Anti-Forensic Techniques)",
+            "description": "Timestomping is a technique that modifies the timestamps of a file (the modify, access, create, and change times), often to mimic files that are in the same folder. This is done, for example, on files that have been modified or created by the adversary so that they do not appear conspicuous to forensic investigators or file analysis tools. Timestomping may be used along with file name [Masquerading](https://attack.mitre.org/techniques/T1036) to hide malware and tools. (Citation: WindowsIR Anti-Forensic Techniques)",
             "external_references": [
                 {
                     "external_id": "T1099",
-                    "url": "https://attack.mitre.org/technique/T1099",
+                    "url": "https://attack.mitre.org/techniques/T1099",
                     "source_name": "mitre-attack"
                 },
                 {
@@ -48,7 +48,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-24T17:26:20.956Z",
+            "modified": "2018-08-15T18:30:24.296Z",
             "created": "2017-05-31T21:31:12.675Z"
         }
     ]

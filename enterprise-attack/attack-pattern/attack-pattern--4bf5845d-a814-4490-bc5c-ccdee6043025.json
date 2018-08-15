@@ -1,17 +1,17 @@
 {
     "type": "bundle",
-    "id": "bundle--526616a9-a6c9-4c2b-82fb-6f390cbdfb66",
+    "id": "bundle--3e73569f-1cbc-49bb-ab19-daae732ef927",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--4bf5845d-a814-4490-bc5c-ccdee6043025",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "AppCert DLLs",
-            "description": "Dynamic-link libraries (DLLs) that are specified in the AppCertDLLs value in the Registry key <code>HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Control\\Session Manager</code> are loaded into every process that calls the ubiquitously used application programming interface (API) functions: (Citation: Engame Process Injection July 2017)\n*CreateProcess\n*CreateProcessAsUser\n*CreateProcessWithLoginW\n*CreateProcessWithTokenW\n*WinExec\nSimilar to [Process Injection](https://attack.mitre.org/technique/T1055), this value can be abused to obtain persistence and privilege escalation by causing a malicious DLL to be loaded and run in the context of separate processes on the computer.",
+            "description": "Dynamic-link libraries (DLLs) that are specified in the AppCertDLLs value in the Registry key <code>HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Control\\Session Manager</code> are loaded into every process that calls the ubiquitously used application programming interface (API) functions: (Citation: Engame Process Injection July 2017)\n* CreateProcess\n* CreateProcessAsUser\n* CreateProcessWithLoginW\n* CreateProcessWithTokenW\n* WinExec\nSimilar to [Process Injection](https://attack.mitre.org/techniques/T1055), this value can be abused to obtain persistence and privilege escalation by causing a malicious DLL to be loaded and run in the context of separate processes on the computer.",
             "external_references": [
                 {
                     "external_id": "T1182",
-                    "url": "https://attack.mitre.org/technique/T1182",
+                    "url": "https://attack.mitre.org/techniques/T1182",
                     "source_name": "mitre-attack"
                 },
                 {
@@ -61,7 +61,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-24T17:26:20.956Z",
+            "modified": "2018-08-15T18:30:24.296Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

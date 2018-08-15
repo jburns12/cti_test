@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--485344a0-5de6-4b3a-810e-2916babd14b1",
+    "id": "bundle--a7af799c-2711-414b-abbc-c6bf15f93e5c",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--3e5cf341-4707-4de3-bb06-43530ee3e90f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[Mimikatz](https://attack.mitre.org/software/S0002)'s <code>MISC::AddSid</code> module can appended any SID or user/group account to a user's SID-History. [Mimikatz](https://attack.mitre.org/software/S0002) also utilizes [SID-History Injection](https://attack.mitre.org/technique/T1178) to expand the scope of other components such as generated Kerberos Golden Tickets and DCSync beyond a single domain.",
+            "description": "[Mimikatz](https://attack.mitre.org/software/S0002)'s <code>MISC::AddSid</code> module can appended any SID or user/group account to a user's SID-History. [Mimikatz](https://attack.mitre.org/software/S0002) also utilizes [SID-History Injection](https://attack.mitre.org/techniques/T1178) to expand the scope of other components such as generated Kerberos Golden Tickets and DCSync beyond a single domain.",
             "source_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
             "target_ref": "attack-pattern--1df0326d-2fbc-4d08-a16b-48365f1e742d",
             "object_marking_refs": [
@@ -26,7 +26,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-07-24T17:26:20.956Z",
+            "modified": "2018-08-15T18:30:24.296Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

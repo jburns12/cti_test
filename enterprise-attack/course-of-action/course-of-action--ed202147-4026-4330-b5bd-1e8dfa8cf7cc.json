@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--4cc5f400-19de-40a7-a6c7-9c14476c6997",
+    "id": "bundle--40fbf4ce-653b-48e6-81e5-e8ef2fac7b46",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "course-of-action--ed202147-4026-4330-b5bd-1e8dfa8cf7cc",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Modify Registry Mitigation",
-            "description": "Misconfiguration of permissions in the Registry may lead to opportunities for an adversary to execute code, like through [Service Registry Permissions Weakness](https://attack.mitre.org/technique/T1058). Ensure proper permissions are set for Registry hives to prevent users from modifying keys for system components that may lead to privilege escalation.\n\nIdentify and block unnecessary system utilities or potentially malicious software that may be used to modify the Registry by using whitelisting (Citation: Beechey 2010) tools like AppLocker (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
+            "description": "Misconfiguration of permissions in the Registry may lead to opportunities for an adversary to execute code, like through [Service Registry Permissions Weakness](https://attack.mitre.org/techniques/T1058). Ensure proper permissions are set for Registry hives to prevent users from modifying keys for system components that may lead to privilege escalation.\n\nIdentify and block unnecessary system utilities or potentially malicious software that may be used to modify the Registry by using whitelisting (Citation: Beechey 2010) tools like AppLocker (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
             "external_references": [
                 {
                     "external_id": "T1112",
@@ -41,8 +41,8 @@
                 }
             ],
             "type": "course-of-action",
-            "modified": "2018-07-24T17:26:20.956Z",
-            "created": "2018-07-24T17:26:20.956Z"
+            "modified": "2018-08-15T18:30:24.296Z",
+            "created": "2018-08-15T18:30:24.296Z"
         }
     ]
 }

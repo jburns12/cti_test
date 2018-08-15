@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--26e55b7e-b88b-4b40-a85f-15ab18c829b6",
+    "id": "bundle--9ae162d4-0f3c-4c01-a1d4-af6491176c75",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "course-of-action--8bd1ae32-a686-48f4-a6f8-470287f76152",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Automated Collection Mitigation",
-            "description": "Encryption and off-system storage of sensitive information may be one way to mitigate collection of files, but may not stop an adversary from acquiring the information if an intrusion persists over a long period of time and the adversary is able to discover and access the data through other means. A keylogger installed on a system may be able to intercept passwords through [Input Capture](https://attack.mitre.org/technique/T1056) and be used to decrypt protected documents that an adversary may have collected. Strong passwords should be used to prevent offline cracking of encrypted documents through [Brute Force](https://attack.mitre.org/technique/T1110) techniques.\n\nIdentify unnecessary system utilities, third-party tools, or potentially malicious software that may be used to collect files and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
+            "description": "Encryption and off-system storage of sensitive information may be one way to mitigate collection of files, but may not stop an adversary from acquiring the information if an intrusion persists over a long period of time and the adversary is able to discover and access the data through other means. A keylogger installed on a system may be able to intercept passwords through [Input Capture](https://attack.mitre.org/techniques/T1056) and be used to decrypt protected documents that an adversary may have collected. Strong passwords should be used to prevent offline cracking of encrypted documents through [Brute Force](https://attack.mitre.org/techniques/T1110) techniques.\n\nIdentify unnecessary system utilities, third-party tools, or potentially malicious software that may be used to collect files and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
             "external_references": [
                 {
                     "external_id": "T1119",
@@ -41,8 +41,8 @@
                 }
             ],
             "type": "course-of-action",
-            "modified": "2018-07-24T17:26:20.956Z",
-            "created": "2018-07-24T17:26:20.956Z"
+            "modified": "2018-08-15T18:30:24.296Z",
+            "created": "2018-08-15T18:30:24.296Z"
         }
     ]
 }

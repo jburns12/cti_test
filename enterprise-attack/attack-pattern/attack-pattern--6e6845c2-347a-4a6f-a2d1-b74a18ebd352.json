@@ -1,17 +1,17 @@
 {
     "type": "bundle",
-    "id": "bundle--4cbe0ece-ca53-463a-b545-fc39707c5af5",
+    "id": "bundle--edc4990f-ab6e-4e94-965e-eea91700aa98",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--6e6845c2-347a-4a6f-a2d1-b74a18ebd352",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "LSASS Driver",
-            "description": "The Windows security subsystem is a set of components that manage and enforce the security policy for a computer or domain. The Local Security Authority (LSA) is the main component responsible for local security policy and user authentication. The LSA includes multiple dynamic link libraries (DLLs) associated with various other security functions, all of which run in the context of the LSA Subsystem Service (LSASS) lsass.exe process.  (Citation: Microsoft Security Subsystem)\n\nAdversaries may target lsass.exe drivers to obtain execution and/or persistence. By either replacing or adding illegitimate drivers (e.g., [DLL Side-Loading](https://attack.mitre.org/technique/T1073) or [DLL Search Order Hijacking](https://attack.mitre.org/technique/T1038)), an adversary can achieve arbitrary code execution triggered by continuous LSA operations.",
+            "description": "The Windows security subsystem is a set of components that manage and enforce the security policy for a computer or domain. The Local Security Authority (LSA) is the main component responsible for local security policy and user authentication. The LSA includes multiple dynamic link libraries (DLLs) associated with various other security functions, all of which run in the context of the LSA Subsystem Service (LSASS) lsass.exe process.  (Citation: Microsoft Security Subsystem)\n\nAdversaries may target lsass.exe drivers to obtain execution and/or persistence. By either replacing or adding illegitimate drivers (e.g., [DLL Side-Loading](https://attack.mitre.org/techniques/T1073) or [DLL Search Order Hijacking](https://attack.mitre.org/techniques/T1038)), an adversary can achieve arbitrary code execution triggered by continuous LSA operations.",
             "external_references": [
                 {
                     "external_id": "T1177",
-                    "url": "https://attack.mitre.org/technique/T1177",
+                    "url": "https://attack.mitre.org/techniques/T1177",
                     "source_name": "mitre-attack"
                 },
                 {
@@ -69,7 +69,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-24T17:26:20.956Z",
+            "modified": "2018-08-15T18:30:24.296Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]
