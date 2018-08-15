@@ -1,17 +1,17 @@
 {
     "type": "bundle",
-    "id": "bundle--0990a6a4-71c5-45f4-8c87-36e6355c84b7",
+    "id": "bundle--aa991c04-16a7-4332-a232-e37df7bb3270",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--9422fc14-1c43-410d-ab0f-a709b76c72dc",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Registry Run Keys / Start Folder",
-            "description": "Adding an entry to the \"run keys\" in the Registry or startup folder will cause the program referenced to be executed when a user logs in. (Citation: Microsoft Run Key) The program will be executed under the context of the user and will have the account's associated permissions level.\n\nAdversaries can use these configuration locations to execute malware, such as remote access tools, to maintain persistence through system reboots. Adversaries may also use [Masquerading](https://attack.mitre.org/technique/T1036) to make the Registry entries look as if they are associated with legitimate programs.",
+            "description": "Adding an entry to the \"run keys\" in the Registry or startup folder will cause the program referenced to be executed when a user logs in. (Citation: Microsoft Run Key) The program will be executed under the context of the user and will have the account's associated permissions level.\n\nAdversaries can use these configuration locations to execute malware, such as remote access tools, to maintain persistence through system reboots. Adversaries may also use [Masquerading](https://attack.mitre.org/techniques/T1036) to make the Registry entries look as if they are associated with legitimate programs.",
             "external_references": [
                 {
                     "external_id": "T1060",
-                    "url": "https://attack.mitre.org/technique/T1060",
+                    "url": "https://attack.mitre.org/techniques/T1060",
                     "source_name": "mitre-attack"
                 },
                 {
@@ -52,7 +52,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-24T17:26:20.956Z",
+            "modified": "2018-08-15T18:30:24.296Z",
             "created": "2017-05-31T21:30:49.988Z"
         }
     ]

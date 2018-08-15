@@ -1,17 +1,17 @@
 {
     "type": "bundle",
-    "id": "bundle--34a81cde-4b9c-4b4c-ab65-2ec0ab9bfa85",
+    "id": "bundle--ea22e894-4928-4176-8d7a-289420faf1a4",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--9fa07bef-9c81-421e-a8e5-ad4366c5a925",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Trusted Relationship",
-            "description": "Adversaries may breach or otherwise leverage organizations who have access to intended victims. Access through trusted third party relationship exploits an existing connection that may not be protected or receives less scrutiny than standard mechanisms of gaining access to a network.\n\nOrganizations often grant elevated access to second or third-party external providers in order to allow them to manage internal systems. Some examples of these relationships include IT services contractors, managed security providers, infrastructure contractors (e.g. HVAC, elevators, physical security). The third-party provider's access may be intended to be limited to the infrastructure being maintained, but may exist on the same network as the rest of the enterprise. As such, [Valid Accounts](https://attack.mitre.org/technique/T1078) used by the other party for access to internal network systems may be compromised and used.",
+            "description": "Adversaries may breach or otherwise leverage organizations who have access to intended victims. Access through trusted third party relationship exploits an existing connection that may not be protected or receives less scrutiny than standard mechanisms of gaining access to a network.\n\nOrganizations often grant elevated access to second or third-party external providers in order to allow them to manage internal systems. Some examples of these relationships include IT services contractors, managed security providers, infrastructure contractors (e.g. HVAC, elevators, physical security). The third-party provider's access may be intended to be limited to the infrastructure being maintained, but may exist on the same network as the rest of the enterprise. As such, [Valid Accounts](https://attack.mitre.org/techniques/T1078) used by the other party for access to internal network systems may be compromised and used.",
             "external_references": [
                 {
                     "external_id": "T1199",
-                    "url": "https://attack.mitre.org/technique/T1199",
+                    "url": "https://attack.mitre.org/techniques/T1199",
                     "source_name": "mitre-attack"
                 }
             ],
@@ -36,7 +36,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-24T17:26:20.956Z",
+            "modified": "2018-08-15T18:30:24.296Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

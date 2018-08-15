@@ -1,17 +1,17 @@
 {
     "type": "bundle",
-    "id": "bundle--2f65a8eb-34d0-4bfd-81ad-2af1d43f7581",
+    "id": "bundle--446f4084-9fec-488d-a61b-1971cb967134",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--54a649ff-439a-41a4-9856-8d144a2551ba",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Remote Services",
-            "description": "An adversary may use [Valid Accounts](https://attack.mitre.org/technique/T1078) to log into a service specifically designed to accept remote connections, such as telnet, SSH, and VNC. The adversary may then perform actions as the logged-on user.",
+            "description": "An adversary may use [Valid Accounts](https://attack.mitre.org/techniques/T1078) to log into a service specifically designed to accept remote connections, such as telnet, SSH, and VNC. The adversary may then perform actions as the logged-on user.",
             "external_references": [
                 {
                     "external_id": "T1021",
-                    "url": "https://attack.mitre.org/technique/T1021",
+                    "url": "https://attack.mitre.org/techniques/T1021",
                     "source_name": "mitre-attack"
                 },
                 {
@@ -42,7 +42,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-24T17:26:20.956Z",
+            "modified": "2018-08-15T18:30:24.296Z",
             "created": "2017-05-31T21:30:29.858Z"
         }
     ]

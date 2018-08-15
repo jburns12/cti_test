@@ -1,17 +1,17 @@
 {
     "type": "bundle",
-    "id": "bundle--88abde55-794e-4742-a90b-39ff2537d5bd",
+    "id": "bundle--6901903d-8ebf-4c3e-bffe-b71cb316c2d5",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--3489cfc5-640f-4bb3-a103-9137b97de79f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Network Share Discovery",
-            "description": "Networks often contain shared network drives and folders that enable users to access file directories on various systems across a network. \n\n===Windows===\n\nFile sharing over a Windows network occurs over the SMB protocol. (Citation: Wikipedia Shared Resource) (Citation: TechNet Shared Folder)\n\n[Net](https://attack.mitre.org/software/S0039) can be used to query a remote system for available shared drives using the <code>net view \\\\remotesystem</code> command. It can also be used to query shared drives on the local system using <code>net share</code>.\n\nAdversaries may look for folders and drives shared on remote systems as a means of identifying sources of information to gather as a precursor for Collection and to identify potential systems of interest for Lateral Movement.\n\n===Mac===\n\nOn Mac, locally mounted shares can be viewed with the <code>df -aH</code> command.",
+            "description": "Networks often contain shared network drives and folders that enable users to access file directories on various systems across a network. \n\n### Windows\n\nFile sharing over a Windows network occurs over the SMB protocol. (Citation: Wikipedia Shared Resource) (Citation: TechNet Shared Folder)\n\n[Net](https://attack.mitre.org/software/S0039) can be used to query a remote system for available shared drives using the <code>net view \\\\remotesystem</code> command. It can also be used to query shared drives on the local system using <code>net share</code>.\n\nAdversaries may look for folders and drives shared on remote systems as a means of identifying sources of information to gather as a precursor for Collection and to identify potential systems of interest for Lateral Movement.\n\n### Mac\n\nOn Mac, locally mounted shares can be viewed with the <code>df -aH</code> command.",
             "external_references": [
                 {
                     "external_id": "T1135",
-                    "url": "https://attack.mitre.org/technique/T1135",
+                    "url": "https://attack.mitre.org/techniques/T1135",
                     "source_name": "mitre-attack"
                 },
                 {
@@ -34,7 +34,7 @@
                 "Network protocol analysis",
                 "Process use of network"
             ],
-            "x_mitre_detection": "System and network discovery techniques normally occur throughout an operation as an adversary learns the environment. Data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities, such as Lateral Movement, based on the information obtained.\n\nNormal, benign system and network events related to legitimate remote system discovery may be uncommon, depending on the environment and how they are used. Monitor processes and command-line arguments for actions that could be taken to gather system and network information. Remote access tools with built-in features may interact directly with the Windows API to gather information. Information may also be acquired through Windows system management tools such as [Windows Management Instrumentation](https://attack.mitre.org/technique/T1047) and [PowerShell](https://attack.mitre.org/technique/T1086).",
+            "x_mitre_detection": "System and network discovery techniques normally occur throughout an operation as an adversary learns the environment. Data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities, such as Lateral Movement, based on the information obtained.\n\nNormal, benign system and network events related to legitimate remote system discovery may be uncommon, depending on the environment and how they are used. Monitor processes and command-line arguments for actions that could be taken to gather system and network information. Remote access tools with built-in features may interact directly with the Windows API to gather information. Information may also be acquired through Windows system management tools such as [Windows Management Instrumentation](https://attack.mitre.org/techniques/T1047) and [PowerShell](https://attack.mitre.org/techniques/T1086).",
             "x_mitre_platforms": [
                 "macOS",
                 "Windows"
@@ -49,7 +49,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-24T17:26:20.956Z",
+            "modified": "2018-08-15T18:30:24.296Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

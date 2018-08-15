@@ -1,17 +1,17 @@
 {
     "type": "bundle",
-    "id": "bundle--c1900bbc-5be7-4dde-bb5f-c1b219433f74",
+    "id": "bundle--e56f3832-5e58-46a6-979c-19551cc69594",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Screen Capture",
-            "description": "Adversaries may attempt to take screen captures of the desktop to gather information over the course of an operation. Screen capturing functionality may be included as a feature of a remote access tool used in post-compromise operations.\n\n===Mac===\n\nOn OSX, the native command <code>screencapture</code> is used to capture screenshots.\n\n===Linux===\n\nOn Linux, there is the native command <code>xwd</code>. (Citation: Antiquated Mac Malware)",
+            "description": "Adversaries may attempt to take screen captures of the desktop to gather information over the course of an operation. Screen capturing functionality may be included as a feature of a remote access tool used in post-compromise operations.\n\n### Mac\n\nOn OSX, the native command <code>screencapture</code> is used to capture screenshots.\n\n### Linux\n\nOn Linux, there is the native command <code>xwd</code>. (Citation: Antiquated Mac Malware)",
             "external_references": [
                 {
                     "external_id": "T1113",
-                    "url": "https://attack.mitre.org/technique/T1113",
+                    "url": "https://attack.mitre.org/techniques/T1113",
                     "source_name": "mitre-attack"
                 },
                 {
@@ -41,7 +41,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-24T17:26:20.956Z",
+            "modified": "2018-08-15T18:30:24.296Z",
             "created": "2017-05-31T21:31:25.060Z"
         }
     ]

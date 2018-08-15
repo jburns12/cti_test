@@ -1,17 +1,17 @@
 {
     "type": "bundle",
-    "id": "bundle--b0b470a2-b87f-4c58-88ab-7b77ad818d61",
+    "id": "bundle--5cad7344-09a3-457d-89da-7c14bb069954",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--ce73ea43-8e77-47ba-9c11-5e9c9c58b9ff",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Hidden Users",
-            "description": "Every user account in macOS has a userID associated with it. When creating a user, you can specify the userID for that account. There is a property value in <code>/Library/Preferences/com.apple.loginwindow</code> called <code>Hide500Users</code> that prevents users with userIDs 500 and lower from appearing at the login screen. By using the [Create Account](https://attack.mitre.org/technique/T1136) technique with a userID under 500 and enabling this property (setting it to Yes), an adversary can hide their user accounts much more easily: <code>sudo dscl . -create /Users/username UniqueID 401</code> (Citation: Cybereason OSX Pirrit).",
+            "description": "Every user account in macOS has a userID associated with it. When creating a user, you can specify the userID for that account. There is a property value in <code>/Library/Preferences/com.apple.loginwindow</code> called <code>Hide500Users</code> that prevents users with userIDs 500 and lower from appearing at the login screen. By using the [Create Account](https://attack.mitre.org/techniques/T1136) technique with a userID under 500 and enabling this property (setting it to Yes), an adversary can hide their user accounts much more easily: <code>sudo dscl . -create /Users/username UniqueID 401</code> (Citation: Cybereason OSX Pirrit).",
             "external_references": [
                 {
                     "external_id": "T1147",
-                    "url": "https://attack.mitre.org/technique/T1147",
+                    "url": "https://attack.mitre.org/techniques/T1147",
                     "source_name": "mitre-attack"
                 },
                 {
@@ -42,7 +42,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-24T17:26:20.956Z",
+            "modified": "2018-08-15T18:30:24.296Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

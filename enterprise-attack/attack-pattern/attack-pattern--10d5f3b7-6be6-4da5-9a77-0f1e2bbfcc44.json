@@ -1,17 +1,17 @@
 {
     "type": "bundle",
-    "id": "bundle--f1e23f55-e374-47fb-abcf-9167ba5e8fcb",
+    "id": "bundle--8acaea49-2ad6-4600-a14d-b3f197f96e02",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--10d5f3b7-6be6-4da5-9a77-0f1e2bbfcc44",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Component Firmware",
-            "description": "Some adversaries may employ sophisticated means to compromise computer components and install malicious firmware that will execute adversary code outside of the operating system and main system firmware or BIOS. This technique may be similar to [System Firmware](https://attack.mitre.org/technique/T1019) but conducted upon other system components that may not have the same capability or level of integrity checking. Malicious device firmware could provide both a persistent level of access to systems despite potential typical failures to maintain access and hard disk re-images, as well as a way to evade host software-based defenses and integrity checks.",
+            "description": "Some adversaries may employ sophisticated means to compromise computer components and install malicious firmware that will execute adversary code outside of the operating system and main system firmware or BIOS. This technique may be similar to [System Firmware](https://attack.mitre.org/techniques/T1019) but conducted upon other system components that may not have the same capability or level of integrity checking. Malicious device firmware could provide both a persistent level of access to systems despite potential typical failures to maintain access and hard disk re-images, as well as a way to evade host software-based defenses and integrity checks.",
             "external_references": [
                 {
                     "external_id": "T1109",
-                    "url": "https://attack.mitre.org/technique/T1109",
+                    "url": "https://attack.mitre.org/techniques/T1109",
                     "source_name": "mitre-attack"
                 }
             ],
@@ -43,7 +43,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-24T17:26:20.956Z",
+            "modified": "2018-08-15T18:30:24.296Z",
             "created": "2017-05-31T21:31:22.374Z"
         }
     ]

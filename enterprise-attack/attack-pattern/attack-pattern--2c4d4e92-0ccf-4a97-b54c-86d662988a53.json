@@ -1,17 +1,17 @@
 {
     "type": "bundle",
-    "id": "bundle--23fedfa6-5a70-411c-9a38-ad1d9c11d45e",
+    "id": "bundle--0e95c240-2968-43ed-800a-11e03a8044e6",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--2c4d4e92-0ccf-4a97-b54c-86d662988a53",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Office Application Startup",
-            "description": "Microsoft Office is a fairly common application suite on Windows-based operating systems within an enterprise network. There are multiple mechanisms that can be used with Office for persistence when an Office-based application is started.\n\n===Office Template Macros===\n\nMicrosoft Office contains templates that are part of common Office applications and are used to customize styles. The base templates within the application are used each time an application starts. (Citation: Microsoft Change Normal Template)\n\nOffice Visual Basic for Applications (VBA) macros (Citation: MSDN VBA in Office) can inserted into the base templated and used to execute code when the respective Office application starts in order to obtain persistence. Examples for both Word and Excel have been discovered and published. By default, Word has a Normal.dotm template created that can be modified to include a malicious macro. Excel does not have a template file created by default, but one can be added that will automatically be loaded. (Citation: enigma0x3 normal.dotm) (Citation: Hexacorn Office Template Macros)\n\nWord Normal.dotm location:<code>C:\\Users\\(username)\\AppData\\Roaming\\Microsoft\\Templates\\Normal.dotm</code>\n\nExcel Personal.xlsb location:<code>C:\\Users\\(username)\\AppData\\Roaming\\Microsoft\\Excel\\XLSTART\\PERSONAL.XLSB</code>\n\nAn adversary may need to enable macros to execute unrestricted depending on the system or enterprise security policy on use of macros.\n\n===Office Test===\n\nA Registry location was found that when a DLL reference was placed within it the corresponding DLL pointed to by the binary path would be executed every time an Office application is started (Citation: Hexacorn Office Test)\n\n<code>HKEY_CURRENT_USER\\Software\\Microsoft\\Office test\\Special\\Perf</code>\n\n===Add-ins===\n\nOffice add-ins can be used to add functionality to Office programs. (Citation: Microsoft Office Add-ins)\n\nAdd-ins can also be used to obtain persistence because they can be set to execute code when an Office application starts. There are different types of add-ins that can be used by the various Office products; including Word/Excel add-in Libraries (WLL/XLL), VBA add-ins, Office Component Object Model (COM) add-ins, automation add-ins, VBA Editor (VBE), and Visual Studio Tools for Office (VSTO) add-ins. (Citation: MRWLabs Office Persistence Add-ins)",
+            "description": "Microsoft Office is a fairly common application suite on Windows-based operating systems within an enterprise network. There are multiple mechanisms that can be used with Office for persistence when an Office-based application is started.\n\n### Office Template Macros\n\nMicrosoft Office contains templates that are part of common Office applications and are used to customize styles. The base templates within the application are used each time an application starts. (Citation: Microsoft Change Normal Template)\n\nOffice Visual Basic for Applications (VBA) macros (Citation: MSDN VBA in Office) can inserted into the base templated and used to execute code when the respective Office application starts in order to obtain persistence. Examples for both Word and Excel have been discovered and published. By default, Word has a Normal.dotm template created that can be modified to include a malicious macro. Excel does not have a template file created by default, but one can be added that will automatically be loaded. (Citation: enigma0x3 normal.dotm) (Citation: Hexacorn Office Template Macros)\n\nWord Normal.dotm location:<code>C:\\Users\\(username)\\AppData\\Roaming\\Microsoft\\Templates\\Normal.dotm</code>\n\nExcel Personal.xlsb location:<code>C:\\Users\\(username)\\AppData\\Roaming\\Microsoft\\Excel\\XLSTART\\PERSONAL.XLSB</code>\n\nAn adversary may need to enable macros to execute unrestricted depending on the system or enterprise security policy on use of macros.\n\n### Office Test\n\nA Registry location was found that when a DLL reference was placed within it the corresponding DLL pointed to by the binary path would be executed every time an Office application is started (Citation: Hexacorn Office Test)\n\n<code>HKEY_CURRENT_USER\\Software\\Microsoft\\Office test\\Special\\Perf</code>\n\n### Add-ins\n\nOffice add-ins can be used to add functionality to Office programs. (Citation: Microsoft Office Add-ins)\n\nAdd-ins can also be used to obtain persistence because they can be set to execute code when an Office application starts. There are different types of add-ins that can be used by the various Office products; including Word/Excel add-in Libraries (WLL/XLL), VBA add-ins, Office Component Object Model (COM) add-ins, automation add-ins, VBA Editor (VBE), and Visual Studio Tools for Office (VSTO) add-ins. (Citation: MRWLabs Office Persistence Add-ins)",
             "external_references": [
                 {
                     "external_id": "T1137",
-                    "url": "https://attack.mitre.org/technique/T1137",
+                    "url": "https://attack.mitre.org/techniques/T1137",
                     "source_name": "mitre-attack"
                 },
                 {
@@ -81,7 +81,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-24T17:26:20.956Z",
+            "modified": "2018-08-15T18:30:24.296Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

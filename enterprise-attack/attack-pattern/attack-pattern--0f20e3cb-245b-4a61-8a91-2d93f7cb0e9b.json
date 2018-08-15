@@ -1,17 +1,17 @@
 {
     "type": "bundle",
-    "id": "bundle--51cb1276-9ddb-48a3-9021-ef66ad73a2d9",
+    "id": "bundle--355c850b-0180-4008-940c-f0ba411543cb",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--0f20e3cb-245b-4a61-8a91-2d93f7cb0e9b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Rootkit",
-            "description": "Rootkits are programs that hide the existence of malware by intercepting (i.e., [Hooking](https://attack.mitre.org/technique/T1179)) and modifying operating system API calls that supply system information. (Citation: Symantec Windows Rootkits) Rootkits or rootkit enabling functionality may reside at the user or kernel level in the operating system or lower, to include a [Hypervisor](https://attack.mitre.org/technique/T1062), Master Boot Record, or the [System Firmware](https://attack.mitre.org/technique/T1019). (Citation: Wikipedia Rootkit)\n\nAdversaries may use rootkits to hide the presence of programs, files, network connections, services, drivers, and other system components. Rootkits have been seen for Windows, Linux, and Mac OS X systems. (Citation: CrowdStrike Linux Rootkit) (Citation: BlackHat Mac OSX Rootkit)",
+            "description": "Rootkits are programs that hide the existence of malware by intercepting (i.e., [Hooking](https://attack.mitre.org/techniques/T1179)) and modifying operating system API calls that supply system information. (Citation: Symantec Windows Rootkits) Rootkits or rootkit enabling functionality may reside at the user or kernel level in the operating system or lower, to include a [Hypervisor](https://attack.mitre.org/techniques/T1062), Master Boot Record, or the [System Firmware](https://attack.mitre.org/techniques/T1019). (Citation: Wikipedia Rootkit)\n\nAdversaries may use rootkits to hide the presence of programs, files, network connections, services, drivers, and other system components. Rootkits have been seen for Windows, Linux, and Mac OS X systems. (Citation: CrowdStrike Linux Rootkit) (Citation: BlackHat Mac OSX Rootkit)",
             "external_references": [
                 {
                     "external_id": "T1014",
-                    "url": "https://attack.mitre.org/technique/T1014",
+                    "url": "https://attack.mitre.org/techniques/T1014",
                     "source_name": "mitre-attack"
                 },
                 {
@@ -70,7 +70,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-24T17:26:20.956Z",
+            "modified": "2018-08-15T18:30:24.296Z",
             "created": "2017-05-31T21:30:26.496Z"
         }
     ]

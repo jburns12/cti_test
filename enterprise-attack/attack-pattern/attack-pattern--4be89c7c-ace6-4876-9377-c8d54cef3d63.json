@@ -1,17 +1,17 @@
 {
     "type": "bundle",
-    "id": "bundle--69c4f9a0-3d92-4290-80d5-e2b2ef0b6941",
+    "id": "bundle--e0a5c3f1-ca1a-4997-8cbc-19141da863c9",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--4be89c7c-ace6-4876-9377-c8d54cef3d63",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Hypervisor",
-            "description": "A type-1 hypervisor is a software layer that sits between the guest operating systems and system's hardware. (Citation: Wikipedia Hypervisor) It presents a virtual running environment to an operating system. An example of a common hypervisor is Xen. (Citation: Wikipedia Xen) A type-1 hypervisor operates at a level below the operating system and could be designed with [Rootkit](https://attack.mitre.org/technique/T1014) functionality to hide its existence from the guest operating system. (Citation: Myers 2007) A malicious hypervisor of this nature could be used to persist on systems through interruption.",
+            "description": "A type-1 hypervisor is a software layer that sits between the guest operating systems and system's hardware. (Citation: Wikipedia Hypervisor) It presents a virtual running environment to an operating system. An example of a common hypervisor is Xen. (Citation: Wikipedia Xen) A type-1 hypervisor operates at a level below the operating system and could be designed with [Rootkit](https://attack.mitre.org/techniques/T1014) functionality to hide its existence from the guest operating system. (Citation: Myers 2007) A malicious hypervisor of this nature could be used to persist on systems through interruption.",
             "external_references": [
                 {
                     "external_id": "T1062",
-                    "url": "https://attack.mitre.org/technique/T1062",
+                    "url": "https://attack.mitre.org/techniques/T1062",
                     "source_name": "mitre-attack"
                 },
                 {
@@ -61,7 +61,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-24T17:26:20.956Z",
+            "modified": "2018-08-15T18:30:24.296Z",
             "created": "2017-05-31T21:30:50.958Z"
         }
     ]

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--45fe13c0-c1f2-4d7f-bab3-3bc3b03bd5dc",
+    "id": "bundle--244d27b6-fdba-495a-bc2c-202950cae6eb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -11,7 +11,7 @@
             "external_references": [
                 {
                     "external_id": "T1194",
-                    "url": "https://attack.mitre.org/technique/T1194",
+                    "url": "https://attack.mitre.org/techniques/T1194",
                     "source_name": "mitre-attack"
                 },
                 {
@@ -28,7 +28,7 @@
                 "Anti-virus",
                 "Web proxy"
             ],
-            "x_mitre_detection": "Because most common third-party services used for spearphishing via service leverage TLS encryption, SSL/TLS inspection is generally required to detect the initial communication/delivery. With SSL/TLS inspection intrusion detection signatures or other security gateway appliances may be able to detect malware. \n\nAnti-virus can potentially detect malicious documents and files that are downloaded on the user's computer. Endpoint sensing or network sensing can potentially detect malicious events once the file is opened (such as a Microsoft Word document or PDF reaching out to the internet or spawning Powershell.exe) for techniques such as [Exploitation for Client Execution](https://attack.mitre.org/technique/T1203) and [Scripting](https://attack.mitre.org/technique/T1064).",
+            "x_mitre_detection": "Because most common third-party services used for spearphishing via service leverage TLS encryption, SSL/TLS inspection is generally required to detect the initial communication/delivery. With SSL/TLS inspection intrusion detection signatures or other security gateway appliances may be able to detect malware. \n\nAnti-virus can potentially detect malicious documents and files that are downloaded on the user's computer. Endpoint sensing or network sensing can potentially detect malicious events once the file is opened (such as a Microsoft Word document or PDF reaching out to the internet or spawning Powershell.exe) for techniques such as [Exploitation for Client Execution](https://attack.mitre.org/techniques/T1203) and [Scripting](https://attack.mitre.org/techniques/T1064).",
             "x_mitre_platforms": [
                 "Linux",
                 "Windows",
@@ -41,7 +41,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-07-24T17:26:20.956Z",
+            "modified": "2018-08-15T18:30:24.296Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]
