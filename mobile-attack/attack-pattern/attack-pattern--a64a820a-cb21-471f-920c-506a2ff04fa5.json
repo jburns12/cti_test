@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--09d1415d-7a4f-4f24-91df-f08abdb4d025",
+    "id": "bundle--09670cde-cc21-4d13-847e-df00d5ed6b81",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,29 +10,29 @@
             "description": "An adversary could convince the mobile network operator (e.g. through social networking or forged identification) to issue a new SIM card and associate it with an existing phone number and account (Citation: NYGov-Simswap). The adversary could then obtain SMS messages or hijack phone calls intended for someone else (Citation: Betanews-Simswap). One use case is intercepting authentication messages or phone calls to obtain illicit access to online banking or other online accounts (Citation: Guardian-Simswap).",
             "external_references": [
                 {
-                    "external_id": "MOB-T1054",
+                    "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/techniques/MOB-T1054",
-                    "source_name": "mitre-mobile-attack"
+                    "external_id": "MOB-T1054"
                 },
                 {
-                    "external_id": "STA-22",
+                    "source_name": "NIST Mobile Threat Catalogue",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/stack-threats/STA-22.html",
-                    "source_name": "NIST Mobile Threat Catalogue"
+                    "external_id": "STA-22"
                 },
                 {
-                    "url": "http://www.dos.ny.gov/consumerprotection/scams/att-sim.html",
+                    "source_name": "NYGov-Simswap",
                     "description": "New York Department of State. (2016, February 12). AT&T SIM-Card Switch Scam. Retrieved August 23, 2016.",
-                    "source_name": "NYGov-Simswap"
+                    "url": "http://www.dos.ny.gov/consumerprotection/scams/att-sim.html"
                 },
                 {
-                    "url": "http://betanews.com/2016/02/12/everything-you-need-to-know-about-sim-swap-scams/",
+                    "source_name": "Betanews-Simswap",
                     "description": "Alex Cambell. (2016, February 12). Everything you need to know about SIM swap scams. Retrieved December 12, 2016.",
-                    "source_name": "Betanews-Simswap"
+                    "url": "http://betanews.com/2016/02/12/everything-you-need-to-know-about-sim-swap-scams/"
                 },
                 {
-                    "url": "https://www.theguardian.com/money/2016/apr/16/sim-swap-fraud-mobile-banking-fraudsters",
+                    "source_name": "Guardian-Simswap",
                     "description": "Miles Brignall. (2016, April 16). Sim-swap fraud claims another mobile banking victim. Retrieved December 12, 2016.",
-                    "source_name": "Guardian-Simswap"
+                    "url": "https://www.theguardian.com/money/2016/apr/16/sim-swap-fraud-mobile-banking-fraudsters"
                 }
             ],
             "object_marking_refs": [
@@ -48,8 +48,8 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "phase_name": "cellular-network-based",
-                    "kill_chain_name": "mitre-mobile-attack"
+                    "kill_chain_name": "mitre-mobile-attack",
+                    "phase_name": "cellular-network-based"
                 }
             ],
             "modified": "2018-08-15T19:40:57.315Z",

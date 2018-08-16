@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--90629603-a53a-4425-8d71-97b99ae659a3",
+    "id": "bundle--218b41e8-dbe5-4042-a5a7-862b1681b888",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,9 +10,9 @@
             "description": "An adversary could use access to a compromised device's credentials to attempt to manipulate app store rankings or ratings by triggering application downloads or posting fake reviews of applications. This technique likely requires privileged access (a rooted or jailbroken device).",
             "external_references": [
                 {
-                    "external_id": "MOB-T1055",
+                    "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/techniques/MOB-T1055",
-                    "source_name": "mitre-mobile-attack"
+                    "external_id": "MOB-T1055"
                 }
             ],
             "object_marking_refs": [
@@ -28,8 +28,8 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "phase_name": "effects",
-                    "kill_chain_name": "mitre-mobile-attack"
+                    "kill_chain_name": "mitre-mobile-attack",
+                    "phase_name": "effects"
                 }
             ],
             "modified": "2018-08-15T19:40:57.315Z",

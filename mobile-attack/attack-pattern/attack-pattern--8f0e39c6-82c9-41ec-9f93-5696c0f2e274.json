@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9825d065-595c-4d61-9ad0-2692394691b0",
+    "id": "bundle--fd6f52ec-8178-4161-a0de-e806c79a6cbf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,19 +10,19 @@
             "description": "A malicious app could use standard Android APIs to send SMS messages. SMS messages could potentially be sent to premium numbers that charge the device owner and generate revenue for an adversary, for example as described by Lookout in  (Citation: Lookout-SMS).\n\nOn iOS, apps cannot send SMS messages.\n\nOn Android, apps must hold the SEND_SMS permission to send SMS messages. Additionally, Android version 4.2 and above has mitigations against this threat by requiring user consent before allowing SMS messages to be sent to premium numbers (Citation: AndroidSecurity2014).",
             "external_references": [
                 {
-                    "external_id": "MOB-T1051",
+                    "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/techniques/MOB-T1051",
-                    "source_name": "mitre-mobile-attack"
+                    "external_id": "MOB-T1051"
                 },
                 {
-                    "url": "https://blog.lookout.com/blog/2013/08/02/dragon-lady/",
+                    "source_name": "Lookout-SMS",
                     "description": "Ryan Sammy. (2013, August 2). 10 Organizations Build 60% of Russian Toll Fraud Malware. Retrieved December 22, 2016.",
-                    "source_name": "Lookout-SMS"
+                    "url": "https://blog.lookout.com/blog/2013/08/02/dragon-lady/"
                 },
                 {
-                    "url": "https://static.googleusercontent.com/media/source.android.com/en//security/reports/Google%20Android%20Security%202014%20Report%20Final.pdf",
+                    "source_name": "AndroidSecurity2014",
                     "description": "Google. (2014). Android Security 2014 Year in Review. Retrieved December 12, 2016.",
-                    "source_name": "AndroidSecurity2014"
+                    "url": "https://static.googleusercontent.com/media/source.android.com/en//security/reports/Google%20Android%20Security%202014%20Report%20Final.pdf"
                 }
             ],
             "object_marking_refs": [
@@ -38,8 +38,8 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "phase_name": "effects",
-                    "kill_chain_name": "mitre-mobile-attack"
+                    "kill_chain_name": "mitre-mobile-attack",
+                    "phase_name": "effects"
                 }
             ],
             "modified": "2018-08-15T19:40:57.315Z",

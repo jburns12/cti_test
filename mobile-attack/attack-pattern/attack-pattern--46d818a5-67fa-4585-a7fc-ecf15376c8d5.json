@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6c6bf2e8-be06-4bae-a877-80f0aa34718a",
+    "id": "bundle--5cf0570a-15f7-4cba-877b-efb1fa7069d0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,29 +10,29 @@
             "description": "If an adversary can escalate privileges, he or she may be able to use those privileges to place malicious code in the device kernel or other boot partition components, where the code may evade detection, may persist after device resets, and may not be removable by the device user. In some cases (e.g., the Samsung Knox warranty bit as described under Detection), the attack may be detected but could result in the device being placed in a state that no longer allows certain functionality.\n\nMany Android devices provide the ability to unlock the bootloader for development purposes, but doing so introduces the potential ability for others to maliciously update the kernel or other boot partition code.\n\nIf the bootloader is not unlocked, it may still be possible to exploit device vulnerabilities to update the code.",
             "external_references": [
                 {
-                    "external_id": "MOB-T1001",
+                    "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/techniques/MOB-T1001",
-                    "source_name": "mitre-mobile-attack"
+                    "external_id": "MOB-T1001"
                 },
                 {
-                    "external_id": "APP-26",
+                    "source_name": "NIST Mobile Threat Catalogue",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/application-threats/APP-26.html",
-                    "source_name": "NIST Mobile Threat Catalogue"
+                    "external_id": "APP-26"
                 },
                 {
-                    "external_id": "APP-27",
+                    "source_name": "NIST Mobile Threat Catalogue",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/application-threats/APP-27.html",
-                    "source_name": "NIST Mobile Threat Catalogue"
+                    "external_id": "APP-27"
                 },
                 {
-                    "url": "https://www2.samsungknox.com/en/faq/what-knox-warranty-bit-and-how-it-triggered",
+                    "source_name": "Samsung-KnoxWarrantyBit",
                     "description": "Samsung. (n.d.). What is a Knox Warranty Bit and how is it triggered?. Retrieved December 21, 2016.",
-                    "source_name": "Samsung-KnoxWarrantyBit"
+                    "url": "https://www2.samsungknox.com/en/faq/what-knox-warranty-bit-and-how-it-triggered"
                 },
                 {
-                    "url": "https://www.apple.com/business/docs/iOS%20Security%20Guide.pdf",
+                    "source_name": "Apple-iOSSecurityGuide",
                     "description": "Apple. (2016, May). iOS Security. Retrieved December 21, 2016.",
-                    "source_name": "Apple-iOSSecurityGuide"
+                    "url": "https://www.apple.com/business/docs/iOS%20Security%20Guide.pdf"
                 }
             ],
             "object_marking_refs": [
@@ -49,12 +49,12 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "phase_name": "defense-evasion",
-                    "kill_chain_name": "mitre-mobile-attack"
+                    "kill_chain_name": "mitre-mobile-attack",
+                    "phase_name": "defense-evasion"
                 },
                 {
-                    "phase_name": "persistence",
-                    "kill_chain_name": "mitre-mobile-attack"
+                    "kill_chain_name": "mitre-mobile-attack",
+                    "phase_name": "persistence"
                 }
             ],
             "modified": "2018-08-15T19:40:57.315Z",

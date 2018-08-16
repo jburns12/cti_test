@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9f3195f3-53d2-437e-b673-aa0492217356",
+    "id": "bundle--63a271ab-a088-4513-b97c-21e8646c7a91",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,9 +10,9 @@
             "description": "An adversary could seek to generate fraudulent advertising revenue from mobile devices, for example by triggering automatic clicks of advertising links without user involvement.",
             "external_references": [
                 {
-                    "external_id": "MOB-T1075",
+                    "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/techniques/MOB-T1075",
-                    "source_name": "mitre-mobile-attack"
+                    "external_id": "MOB-T1075"
                 }
             ],
             "object_marking_refs": [
@@ -28,8 +28,8 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "phase_name": "effects",
-                    "kill_chain_name": "mitre-mobile-attack"
+                    "kill_chain_name": "mitre-mobile-attack",
+                    "phase_name": "effects"
                 }
             ],
             "modified": "2018-08-15T19:40:57.315Z",

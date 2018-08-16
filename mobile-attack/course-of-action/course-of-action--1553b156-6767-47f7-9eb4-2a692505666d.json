@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--28ab8cbe-8d93-4caf-a49b-246830674e99",
+    "id": "bundle--de1bd1ed-46b5-45f9-a0ca-2dd21182693f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,9 +10,9 @@
             "description": "Enterprises can vet applications for exploitable vulnerabilities or unwanted (privacy-invasive or malicious) behaviors. Enterprises can inspect applications themselves or use a third-party service.\n\nEnterprises may impose policies to only allow pre-approved applications to be installed on their devices or may impose policies to block use of specific applications known to have issues. In Bring Your Own Device (BYOD) environments, enterprises may only be able to impose these policies over an enterprise-managed portion of the device.\n\nApplication Vetting is not a complete mitigation. Techniques such as [Detect App Analysis Environment](https://attack.mitre.org/techniques/MOB-T1043) exist that can enable adversaries to bypass vetting.",
             "external_references": [
                 {
-                    "external_id": "MOB-M1005",
+                    "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/mitigations/MOB-M1005",
-                    "source_name": "mitre-mobile-attack"
+                    "external_id": "MOB-M1005"
                 }
             ],
             "object_marking_refs": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0a371b90-a615-410c-b69b-245d98e5922a",
+    "id": "bundle--ad478436-9b9c-4882-a748-d5e2929478c7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,19 +10,19 @@
             "description": "An adversary may attempt to get detailed information about the operating system and hardware, including version, patches, and architecture.\n\nOn Android, much of this information is programmatically accessible to applications through the android.os.Build class (Citation: Android-Build).\n\nOn iOS, techniques exist for applications to programmatically access this information, for example as described in  (Citation: StackOverflow-iOSVersion).",
             "external_references": [
                 {
-                    "external_id": "MOB-T1029",
+                    "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/techniques/MOB-T1029",
-                    "source_name": "mitre-mobile-attack"
+                    "external_id": "MOB-T1029"
                 },
                 {
-                    "url": "https://zeltser.com/third-party-keyboards-security/",
+                    "source_name": "Android-Build",
                     "description": "Android. (n.d.). Build. Retrieved December 21, 2016.",
-                    "source_name": "Android-Build"
+                    "url": "https://zeltser.com/third-party-keyboards-security/"
                 },
                 {
-                    "url": "http://stackoverflow.com/questions/7848766/how-can-we-programmatically-detect-which-ios-version-is-device-running-on",
+                    "source_name": "StackOverflow-iOSVersion",
                     "description": "Stack Overflow. (n.d.). How can we programmatically detect which iOS version is device running on?. Retrieved December 21, 2016.",
-                    "source_name": "StackOverflow-iOSVersion"
+                    "url": "http://stackoverflow.com/questions/7848766/how-can-we-programmatically-detect-which-ios-version-is-device-running-on"
                 }
             ],
             "object_marking_refs": [
@@ -38,8 +38,8 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "phase_name": "discovery",
-                    "kill_chain_name": "mitre-mobile-attack"
+                    "kill_chain_name": "mitre-mobile-attack",
+                    "phase_name": "discovery"
                 }
             ],
             "modified": "2018-08-15T19:40:57.315Z",

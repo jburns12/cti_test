@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--1b80c8a6-8ba3-4432-b081-539a94a33e46",
+    "id": "bundle--5413a129-065d-490e-8a58-883ffbf276df",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "course-of-action--da8a87d2-946d-4c34-9a30-709058b98996",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Input Capture Mitigation",
-            "description": "Identify and block potentially malicious software that may be used to acquire credentials or information from the user by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)\n\nIn cases where this behavior is difficult to detect or mitigate, efforts can be made to lessen some of the impact that might result from an adversary acquiring credential information. It is also good practice to follow mitigation recommendations for adversary use of [Valid Accounts](https://attack.mitre.org/techniques/T1078).",
+            "description": "Identify and block potentially malicious software that may be used to acquire credentials or information from the user by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)\n\n\nIn cases where this behavior is difficult to detect or mitigate, efforts can be made to lessen some of the impact that might result from an adversary acquiring credential information. It is also good practice to follow mitigation recommendations for adversary use of [Valid Accounts](https://attack.mitre.org/techniques/T1078).",
             "external_references": [
                 {
                     "external_id": "T1056",
@@ -41,8 +41,8 @@
                 }
             ],
             "type": "course-of-action",
-            "modified": "2018-08-15T18:30:24.296Z",
-            "created": "2018-08-15T18:30:24.296Z"
+            "modified": "2018-08-16T16:59:54.597Z",
+            "created": "2018-08-16T16:59:54.597Z"
         }
     ]
 }

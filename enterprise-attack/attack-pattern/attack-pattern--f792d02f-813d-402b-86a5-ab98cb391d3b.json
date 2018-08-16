@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--1fb14f6e-5c9e-47e6-9407-07d10850efe3",
+    "id": "bundle--cb83b69f-0af7-4128-9751-e3b121f2a5cd",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--f792d02f-813d-402b-86a5-ab98cb391d3b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "InstallUtil",
-            "description": "InstallUtil is a command-line utility that allows for installation and uninstallation of resources by executing specific installer components specified in .NET binaries. (Citation: MSDN InstallUtil) InstallUtil is located in the .NET directories on a Windows system: <code>C:\\Windows\\Microsoft.NET\\Framework\\v<version>\\InstallUtil.exe</code> and <code>C:\\Windows\\Microsoft.NET\\Framework64\\v<version>\\InstallUtil.exe</code>. InstallUtil.exe is digitally signed by Microsoft.\n\nAdversaries may use InstallUtil to proxy execution of code through a trusted Windows utility. InstallUtil may also be used to bypass process whitelisting through use of attributes within the binary that execute the class decorated with the attribute <code>[System.ComponentModel.RunInstaller(true)]</code>. (Citation: SubTee GitHub All The Things Application Whitelisting Bypass)",
+            "description": "InstallUtil is a command-line utility that allows for installation and uninstallation of resources by executing specific installer components specified in .NET binaries. (Citation: MSDN InstallUtil) InstallUtil is located in the .NET directories on a Windows system: <code>C:\\Windows\\Microsoft.NET\\Framework\\v<version>\\InstallUtil.exe</code> and <code>C:\\Windows\\Microsoft.NET\\Framework64\\v<version>\\InstallUtil.exe</code>. InstallUtil.exe is digitally signed by Microsoft.\n\n\nAdversaries may use InstallUtil to proxy execution of code through a trusted Windows utility. InstallUtil may also be used to bypass process whitelisting through use of attributes within the binary that execute the class decorated with the attribute <code>[System.ComponentModel.RunInstaller(true)]</code>. (Citation: SubTee GitHub All The Things Application Whitelisting Bypass)",
             "external_references": [
                 {
                     "external_id": "T1118",
@@ -57,7 +57,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-08-15T18:30:24.296Z",
+            "modified": "2018-08-16T16:59:54.597Z",
             "created": "2017-05-31T21:31:27.510Z"
         }
     ]

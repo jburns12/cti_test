@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--64d7119d-6adb-4c9d-aaf4-50a8a5d0bfeb",
+    "id": "bundle--f2279d85-3872-49a2-9e35-4cc99dc5705d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,19 +10,19 @@
             "description": "An adversary could attempt to spoof a mobile device's biometric authentication mechanism, for example by providing a fake fingerprint as described by SRLabs in  (Citation: SRLabs-Fingerprint).\n\niOS partly mitigates this attack by requiring the device passcode rather than a fingerprint to unlock the device after every device restart and after 48 hours since the device was last unlocked (Citation: Apple-TouchID).",
             "external_references": [
                 {
-                    "external_id": "MOB-T1063",
+                    "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/techniques/MOB-T1063",
-                    "source_name": "mitre-mobile-attack"
+                    "external_id": "MOB-T1063"
                 },
                 {
-                    "url": "https://srlabs.de/bites/spoofing-fingerprints/",
+                    "source_name": "SRLabs-Fingerprint",
                     "description": "SRLabs. (n.d.). Fingerprints are not fit for secure device unlocking. Retrieved December 23, 2016.",
-                    "source_name": "SRLabs-Fingerprint"
+                    "url": "https://srlabs.de/bites/spoofing-fingerprints/"
                 },
                 {
-                    "url": "https://support.apple.com/en-us/HT204587",
+                    "source_name": "Apple-TouchID",
                     "description": "Apple. (2015, November 3). About Touch ID security on iPhone and iPad. Retrieved December 23, 2016.",
-                    "source_name": "Apple-TouchID"
+                    "url": "https://support.apple.com/en-us/HT204587"
                 }
             ],
             "object_marking_refs": [
@@ -38,8 +38,8 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "phase_name": "exploit-via-physical-access",
-                    "kill_chain_name": "mitre-mobile-attack"
+                    "kill_chain_name": "mitre-mobile-attack",
+                    "phase_name": "exploit-via-physical-access"
                 }
             ],
             "modified": "2018-08-15T19:40:57.315Z",

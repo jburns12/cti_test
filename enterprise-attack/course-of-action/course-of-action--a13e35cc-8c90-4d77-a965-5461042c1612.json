@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--56987165-45cd-4f0b-aad9-00b7bed89887",
+    "id": "bundle--d54168d5-0b48-432d-8624-1dfff26becb3",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "course-of-action--a13e35cc-8c90-4d77-a965-5461042c1612",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Shortcut Modification Mitigation",
-            "description": "Limit permissions for who can create symbolic links in Windows to appropriate groups such as Administrators and necessary groups for virtualization. This can be done through GPO: Computer Configuration > [Policies] > Windows Settings > Security Settings > Local Policies > User Rights Assignment: Create symbolic links. (Citation: UCF STIG Symbolic Links)\n\nIdentify and block unknown, potentially malicious software that may be executed through shortcut modification by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
+            "description": "Limit permissions for who can create symbolic links in Windows to appropriate groups such as Administrators and necessary groups for virtualization. This can be done through GPO: Computer Configuration > [Policies] > Windows Settings > Security Settings > Local Policies > User Rights Assignment: Create symbolic links. (Citation: UCF STIG Symbolic Links)\n\n\nIdentify and block unknown, potentially malicious software that may be executed through shortcut modification by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
             "external_references": [
                 {
                     "external_id": "T1023",
@@ -46,8 +46,8 @@
                 }
             ],
             "type": "course-of-action",
-            "modified": "2018-08-15T18:30:24.296Z",
-            "created": "2018-08-15T18:30:24.296Z"
+            "modified": "2018-08-16T16:59:54.597Z",
+            "created": "2018-08-16T16:59:54.597Z"
         }
     ]
 }

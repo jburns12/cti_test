@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--33d87faf-9872-46f4-b70d-bc2ae6595f64",
+    "id": "bundle--8b99c9d9-6a52-4443-aeb9-d2685792f922",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--30973a08-aed9-4edf-8604-9084ce1b5c4f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Clipboard Data",
-            "description": "Adversaries may collect data stored in the Windows clipboard from users copying information within or between applications. \n\n### Windows\n\nApplications can access clipboard data by using the Windows API. (Citation: MSDN Clipboard) \n\n### Mac\n\nOSX provides a native command, <code>pbpaste</code>, to grab clipboard contents  (Citation: Operating with EmPyre).",
+            "description": "Adversaries may collect data stored in the Windows clipboard from users copying information within or between applications. \n\n### Windows\n\nApplications can access clipboard data by using the Windows API. (Citation: MSDN Clipboard) \n\n\n### Mac\n\nOSX provides a native command, <code>pbpaste</code>, to grab clipboard contents  (Citation: Operating with EmPyre).",
             "external_references": [
                 {
                     "external_id": "T1115",
@@ -44,7 +44,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-08-15T18:30:24.296Z",
+            "modified": "2018-08-16T16:59:54.597Z",
             "created": "2017-05-31T21:31:25.967Z"
         }
     ]

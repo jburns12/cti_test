@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7cfbe8dc-298a-4005-936f-10dc538b3c64",
+    "id": "bundle--1b3ab1d3-8b7b-4160-b15c-4d530ef0f972",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,9 +10,9 @@
             "description": "Warn device users not to accept requests to grant Device Administrator access to applications without good reason.\n\nAdditionally, application vetting should include a check on whether the application requests Device Administrator access. Applications that do request Device Administrator access should be carefully scrutinized and only allowed to be used if a valid reason exists.",
             "external_references": [
                 {
-                    "external_id": "MOB-M1007",
+                    "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/mitigations/MOB-M1007",
-                    "source_name": "mitre-mobile-attack"
+                    "external_id": "MOB-M1007"
                 }
             ],
             "object_marking_refs": [

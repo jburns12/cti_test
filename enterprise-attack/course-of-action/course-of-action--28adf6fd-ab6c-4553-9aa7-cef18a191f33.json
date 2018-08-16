@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--f93f6912-cd35-42cd-8b0c-ea441f24a0af",
+    "id": "bundle--981ac63a-28b4-4f84-abae-64c8afb6f6da",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "course-of-action--28adf6fd-ab6c-4553-9aa7-cef18a191f33",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Data Compressed Mitigation",
-            "description": "Identify unnecessary system utilities, third-party tools, or potentially malicious software that may be used to compress files, and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)\n\nIf network intrusion prevention or data loss prevention tools are set to block specific file types from leaving the network over unencrypted channels, then an adversary may move to an encrypted channel.",
+            "description": "Identify unnecessary system utilities, third-party tools, or potentially malicious software that may be used to compress files, and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)\n\n\nIf network intrusion prevention or data loss prevention tools are set to block specific file types from leaving the network over unencrypted channels, then an adversary may move to an encrypted channel.",
             "external_references": [
                 {
                     "external_id": "T1002",
@@ -41,8 +41,8 @@
                 }
             ],
             "type": "course-of-action",
-            "modified": "2018-08-15T18:30:24.296Z",
-            "created": "2018-08-15T18:30:24.296Z"
+            "modified": "2018-08-16T16:59:54.597Z",
+            "created": "2018-08-16T16:59:54.597Z"
         }
     ]
 }

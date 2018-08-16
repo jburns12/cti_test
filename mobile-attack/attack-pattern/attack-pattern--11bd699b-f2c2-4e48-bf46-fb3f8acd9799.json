@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--deb87993-1008-4a43-a80d-58b066abed14",
+    "id": "bundle--71ffd699-7a93-4f57-bf39-6972f4333879",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,24 +10,24 @@
             "description": "Third-party libraries incorporated into mobile apps could contain malicious behavior, privacy-invasive behavior, or exploitable vulnerabilities. An adversary could deliberately insert malicious behavior or could exploit inadvertent vulnerabilities.\n\nFor example, Ryan Welton of NowSecure identified exploitable remote code execution vulnerabilities in a third-party advertisement library (Citation: NowSecure-RemoteCode). Grace et al. identified security issues in mobile advertisement libraries (Citation: Grace-Advertisement).",
             "external_references": [
                 {
-                    "external_id": "MOB-T1028",
+                    "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/techniques/MOB-T1028",
-                    "source_name": "mitre-mobile-attack"
+                    "external_id": "MOB-T1028"
                 },
                 {
-                    "external_id": "APP-6",
+                    "source_name": "NIST Mobile Threat Catalogue",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/application-threats/APP-6.html",
-                    "source_name": "NIST Mobile Threat Catalogue"
+                    "external_id": "APP-6"
                 },
                 {
-                    "url": "https://www.nowsecure.com/blog/2015/06/15/a-pattern-for-remote-code-execution-using-arbitrary-file-writes-and-multidex-applications/",
+                    "source_name": "NowSecure-RemoteCode",
                     "description": "Ryan Welton. (2015, June 15). A Pattern for Remote Code Execution using Arbitrary File Writes and MultiDex Applications. Retrieved December 22, 2016.",
-                    "source_name": "NowSecure-RemoteCode"
+                    "url": "https://www.nowsecure.com/blog/2015/06/15/a-pattern-for-remote-code-execution-using-arbitrary-file-writes-and-multidex-applications/"
                 },
                 {
-                    "url": "https://www.nowsecure.com/blog/2015/06/15/a-pattern-for-remote-code-execution-using-arbitrary-file-writes-and-multidex-applications/",
+                    "source_name": "Grace-Advertisement",
                     "description": "M. Grace et al. (2012, April 16-18). Unsafe exposure analysis of mobile in-app advertisements. Retrieved December 22, 2016.",
-                    "source_name": "Grace-Advertisement"
+                    "url": "https://www.nowsecure.com/blog/2015/06/15/a-pattern-for-remote-code-execution-using-arbitrary-file-writes-and-multidex-applications/"
                 }
             ],
             "object_marking_refs": [
@@ -43,8 +43,8 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "phase_name": "supply-chain",
-                    "kill_chain_name": "mitre-mobile-attack"
+                    "kill_chain_name": "mitre-mobile-attack",
+                    "phase_name": "supply-chain"
                 }
             ],
             "modified": "2018-08-15T19:40:57.315Z",

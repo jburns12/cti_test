@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--65aec509-e845-4076-b901-780032ce1055",
+    "id": "bundle--429adee5-5357-49ec-b624-da3bae0fa5de",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,9 +10,9 @@
             "description": "On devices that provide the capability to unlock the bootloader (hence allowing any operating system code to be flashed onto the device), perform periodic checks to ensure that the bootloader is locked.",
             "external_references": [
                 {
-                    "external_id": "MOB-M1003",
+                    "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/mitigations/MOB-M1003",
-                    "source_name": "mitre-mobile-attack"
+                    "external_id": "MOB-M1003"
                 }
             ],
             "object_marking_refs": [

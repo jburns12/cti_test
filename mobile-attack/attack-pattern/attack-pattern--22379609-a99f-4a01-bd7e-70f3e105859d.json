@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e9985e74-dcb4-43fd-ac3f-bcc14730ae87",
+    "id": "bundle--cb26835e-b78b-4851-a84b-291673caa3d2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,14 +10,14 @@
             "description": "Adversaries may attempt to exploit enterprise servers, workstations, or other resources over the network. This technique may take advantage of the mobile device's access to an internal enterprise network either through local connectivity or through a Virtual Private Network (VPN).",
             "external_references": [
                 {
-                    "external_id": "MOB-T1031",
+                    "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/techniques/MOB-T1031",
-                    "source_name": "mitre-mobile-attack"
+                    "external_id": "MOB-T1031"
                 },
                 {
-                    "external_id": "APP-32",
+                    "source_name": "NIST Mobile Threat Catalogue",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/application-threats/APP-32.html",
-                    "source_name": "NIST Mobile Threat Catalogue"
+                    "external_id": "APP-32"
                 }
             ],
             "object_marking_refs": [
@@ -33,8 +33,8 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "phase_name": "lateral-movement",
-                    "kill_chain_name": "mitre-mobile-attack"
+                    "kill_chain_name": "mitre-mobile-attack",
+                    "phase_name": "lateral-movement"
                 }
             ],
             "modified": "2018-08-15T19:40:57.315Z",

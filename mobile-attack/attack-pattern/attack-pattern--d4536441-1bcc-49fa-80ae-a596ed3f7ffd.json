@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--956c2290-1e6f-455f-980c-f7647d27b216",
+    "id": "bundle--d136b470-905b-45c5-b89b-82c09737efbb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,19 +10,19 @@
             "description": "On Android, details of onboard network interfaces are accessible to apps through the java.net. (Citation: NetworkInterface) class (Citation: NetworkInterface). The Android  (Citation: TelephonyManager) class can be used to gather related information such as the IMSI, IMEI, and phone number (Citation: TelephonyManager).",
             "external_references": [
                 {
-                    "external_id": "MOB-T1025",
+                    "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/techniques/MOB-T1025",
-                    "source_name": "mitre-mobile-attack"
+                    "external_id": "MOB-T1025"
                 },
                 {
-                    "url": "https://developer.android.com/reference/java/net/NetworkInterface.html",
+                    "source_name": "NetworkInterface",
                     "description": "Android. (n.d.). NetworkInterface. Retrieved December 21, 2016.",
-                    "source_name": "NetworkInterface"
+                    "url": "https://developer.android.com/reference/java/net/NetworkInterface.html"
                 },
                 {
-                    "url": "https://developer.android.com/reference/android/telephony/TelephonyManager.html",
+                    "source_name": "TelephonyManager",
                     "description": "Android. (n.d.). TelephonyManager. Retrieved December 21, 2016.",
-                    "source_name": "TelephonyManager"
+                    "url": "https://developer.android.com/reference/android/telephony/TelephonyManager.html"
                 }
             ],
             "object_marking_refs": [
@@ -37,8 +37,8 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "phase_name": "discovery",
-                    "kill_chain_name": "mitre-mobile-attack"
+                    "kill_chain_name": "mitre-mobile-attack",
+                    "phase_name": "discovery"
                 }
             ],
             "modified": "2018-08-15T19:40:57.315Z",

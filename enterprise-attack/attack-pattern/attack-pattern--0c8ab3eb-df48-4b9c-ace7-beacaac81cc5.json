@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--ce32bf64-ed08-4b48-be75-db2aa58fbd09",
+    "id": "bundle--5f63f425-115e-42d2-b98e-9b6cf88b2982",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--0c8ab3eb-df48-4b9c-ace7-beacaac81cc5",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "File System Logical Offsets",
-            "description": "Windows allows programs to have direct access to logical volumes. Programs with direct access may read and write files directly from the drive by analyzing file system data structures. This technique bypasses Windows file access controls as well as file system monitoring tools. (Citation: Hakobyan 2009)\n\nUtilities, such as NinjaCopy, exist to perform these actions in PowerShell. (Citation: Github PowerSploit Ninjacopy)",
+            "description": "Windows allows programs to have direct access to logical volumes. Programs with direct access may read and write files directly from the drive by analyzing file system data structures. This technique bypasses Windows file access controls as well as file system monitoring tools. (Citation: Hakobyan 2009)\n\n\nUtilities, such as NinjaCopy, exist to perform these actions in PowerShell. (Citation: Github PowerSploit Ninjacopy)",
             "external_references": [
                 {
                     "external_id": "T1006",
@@ -35,7 +35,7 @@
                 "File monitoring",
                 "File system access controls"
             ],
-            "x_mitre_detection": "Monitor handle opens on drive volumes that are made by processes to determine when they may directly access logical drives. (Citation: Github PowerSploit Ninjacopy)\n\nMonitor processes and command-line arguments for actions that could be taken to copy files from the logical drive and evade common file system protections. Since this technique may also be used through [PowerShell](https://attack.mitre.org/techniques/T1086), additional logging of PowerShell scripts is recommended.",
+            "x_mitre_detection": "Monitor handle opens on drive volumes that are made by processes to determine when they may directly access logical drives. (Citation: Github PowerSploit Ninjacopy)\n\n\nMonitor processes and command-line arguments for actions that could be taken to copy files from the logical drive and evade common file system protections. Since this technique may also be used through [PowerShell](https://attack.mitre.org/techniques/T1086), additional logging of PowerShell scripts is recommended.",
             "x_mitre_permissions_required": [
                 "Administrator"
             ],
@@ -49,7 +49,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-08-15T18:30:24.296Z",
+            "modified": "2018-08-16T16:59:54.597Z",
             "created": "2017-05-31T21:30:20.934Z"
         }
     ]

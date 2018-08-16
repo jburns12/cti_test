@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cbf78853-951f-40de-a22d-abd53706a9d2",
+    "id": "bundle--15fb500b-cb4d-4c1d-96ef-8b3d22c08cab",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,14 +10,14 @@
             "description": "ART (the Android Runtime) compiles optimized code on the device itself to improve performance. If an adversary can escalate privileges, he or she may be able to use those privileges to modify the cached code in order to hide malicious behavior. Since the code is compiled on the device, it may not receive the same level of integrity checks that are provided to code running in the system partition.\n\nSabanal describes the potential use of this technique in  (Citation: Sabanal-ART).",
             "external_references": [
                 {
-                    "external_id": "MOB-T1006",
+                    "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/techniques/MOB-T1006",
-                    "source_name": "mitre-mobile-attack"
+                    "external_id": "MOB-T1006"
                 },
                 {
-                    "url": "https://www.blackhat.com/docs/asia-15/materials/asia-15-Sabanal-Hiding-Behind-ART-wp.pdf",
+                    "source_name": "Sabanal-ART",
                     "description": "Paul Sabanal. (2015). Hiding Behind ART. Retrieved December 21, 2016.",
-                    "source_name": "Sabanal-ART"
+                    "url": "https://www.blackhat.com/docs/asia-15/materials/asia-15-Sabanal-Hiding-Behind-ART-wp.pdf"
                 }
             ],
             "object_marking_refs": [
@@ -32,8 +32,8 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "phase_name": "persistence",
-                    "kill_chain_name": "mitre-mobile-attack"
+                    "kill_chain_name": "mitre-mobile-attack",
+                    "phase_name": "persistence"
                 }
             ],
             "modified": "2018-08-15T19:40:57.315Z",

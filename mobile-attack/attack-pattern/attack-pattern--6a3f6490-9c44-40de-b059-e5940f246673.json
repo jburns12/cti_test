@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--22770137-ae24-42e3-90a3-1d4a2bd86ee9",
+    "id": "bundle--1248c11a-0956-4e31-ad0d-d91ea12c4720",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,19 +10,19 @@
             "description": "Adversaries may communicate using a common, standardized application layer protocol such as HTTP, HTTPS, SMTP, or DNS to avoid detection by blending in with existing traffic.\n\nIn the mobile environment, the Google Cloud Messaging (GCM; two-way) and Apple Push Notification Service (APNS; one-way server-to-device) are commonly used protocols on Android and iOS respectively that would blend in with routine device traffic and are difficult for enterprises to inspect. As described by Kaspersky (Citation: Kaspersky-MobileMalware), Google responds to reports of abuse by blocking access to GCM.",
             "external_references": [
                 {
-                    "external_id": "MOB-T1040",
+                    "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/techniques/MOB-T1040",
-                    "source_name": "mitre-mobile-attack"
+                    "external_id": "MOB-T1040"
                 },
                 {
-                    "external_id": "APP-29",
+                    "source_name": "NIST Mobile Threat Catalogue",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/application-threats/APP-29.html",
-                    "source_name": "NIST Mobile Threat Catalogue"
+                    "external_id": "APP-29"
                 },
                 {
-                    "url": "https://securelist.com/analysis/kaspersky-security-bulletin/58335/mobile-malware-evolution-2013/",
+                    "source_name": "Kaspersky-MobileMalware",
                     "description": "Roman Unuchek and Victor Chebyshev. (2014, February 24). Mobile Malware Evolution: 2013. Retrieved December 22, 2016.",
-                    "source_name": "Kaspersky-MobileMalware"
+                    "url": "https://securelist.com/analysis/kaspersky-security-bulletin/58335/mobile-malware-evolution-2013/"
                 }
             ],
             "object_marking_refs": [
@@ -38,12 +38,12 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "phase_name": "command-and-control",
-                    "kill_chain_name": "mitre-mobile-attack"
+                    "kill_chain_name": "mitre-mobile-attack",
+                    "phase_name": "command-and-control"
                 },
                 {
-                    "phase_name": "exfiltration",
-                    "kill_chain_name": "mitre-mobile-attack"
+                    "kill_chain_name": "mitre-mobile-attack",
+                    "phase_name": "exfiltration"
                 }
             ],
             "modified": "2018-08-15T19:40:57.315Z",

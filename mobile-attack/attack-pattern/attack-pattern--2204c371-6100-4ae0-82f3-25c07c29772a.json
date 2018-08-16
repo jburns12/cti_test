@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ff69934e-3416-4e21-8242-b73f3840e8f7",
+    "id": "bundle--06a2a88c-2528-4ca2-ab1c-a3c1e1b505aa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,14 +10,14 @@
             "description": "A malicious app could abuse Android's accessibility features to capture sensitive data or perform other malicious actions, as demonstrated in a proof of concept created by Skycure (Citation: Skycure-Accessibility).",
             "external_references": [
                 {
-                    "external_id": "MOB-T1056",
+                    "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/techniques/MOB-T1056",
-                    "source_name": "mitre-mobile-attack"
+                    "external_id": "MOB-T1056"
                 },
                 {
-                    "url": "https://www.skycure.com/blog/accessibility-clickjacking/",
+                    "source_name": "Skycure-Accessibility",
                     "description": "Yair Amit. (2016, March 3). \u201cAccessibility Clickjacking\u201d \u2013 The Next Evolution in Android Malware that Impacts More Than 500 Million Devices. Retrieved December 21, 2016.",
-                    "source_name": "Skycure-Accessibility"
+                    "url": "https://www.skycure.com/blog/accessibility-clickjacking/"
                 }
             ],
             "object_marking_refs": [
@@ -32,12 +32,12 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "phase_name": "collection",
-                    "kill_chain_name": "mitre-mobile-attack"
+                    "kill_chain_name": "mitre-mobile-attack",
+                    "phase_name": "collection"
                 },
                 {
-                    "phase_name": "credential-access",
-                    "kill_chain_name": "mitre-mobile-attack"
+                    "kill_chain_name": "mitre-mobile-attack",
+                    "phase_name": "credential-access"
                 }
             ],
             "modified": "2018-08-15T19:40:57.315Z",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7e510df5-8c1b-43bb-bf86-493b6b1f9a6c",
+    "id": "bundle--f0c5fe9b-a04b-4d20-a611-b05bd6075e9b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,19 +10,19 @@
             "description": "An adversary who is able to obtain unauthorized access to or misuse authorized access to cloud services (e.g. Google's Android Device Manager or Apple iCloud's Find my iPhone) or to an enterprise mobility management (EMM) / mobile device management (MDM) server console could use that access to track mobile devices.",
             "external_references": [
                 {
-                    "external_id": "MOB-T1071",
+                    "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/techniques/MOB-T1071",
-                    "source_name": "mitre-mobile-attack"
+                    "external_id": "MOB-T1071"
                 },
                 {
-                    "external_id": "ECO-5",
+                    "source_name": "NIST Mobile Threat Catalogue",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/ecosystem-threats/ECO-5.html",
-                    "source_name": "NIST Mobile Threat Catalogue"
+                    "external_id": "ECO-5"
                 },
                 {
-                    "external_id": "EMM-7",
+                    "source_name": "NIST Mobile Threat Catalogue",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/emm-threats/EMM-7.html",
-                    "source_name": "NIST Mobile Threat Catalogue"
+                    "external_id": "EMM-7"
                 }
             ],
             "object_marking_refs": [
@@ -39,8 +39,8 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "phase_name": "cloud-based",
-                    "kill_chain_name": "mitre-mobile-attack"
+                    "kill_chain_name": "mitre-mobile-attack",
+                    "phase_name": "cloud-based"
                 }
             ],
             "modified": "2018-08-15T19:40:57.315Z",

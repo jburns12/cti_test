@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--a052569c-8d2b-4204-bbb4-0dfc50a51427",
+    "id": "bundle--3276ae1c-1acd-41b4-abc5-6f30f640eb49",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "course-of-action--a3e12b04-8598-4909-8855-2c97c1e7d549",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Kerberoasting Mitigation",
-            "description": "Ensure strong password length (ideally 25+ characters) and complexity for service accounts and that these passwords periodically expire. (Citation: AdSecurity Cracking Kerberos Dec 2015) Also consider using Group Managed Service Accounts or another third party product such as password vaulting. (Citation: AdSecurity Cracking Kerberos Dec 2015)\n\nLimit service accounts to minimal required privileges, including membership in privileged groups such as Domain Administrators. (Citation: AdSecurity Cracking Kerberos Dec 2015)\n\nEnable AES Kerberos encryption (or another stronger encryption algorithm), rather than RC4, where possible. (Citation: AdSecurity Cracking Kerberos Dec 2015)",
+            "description": "Ensure strong password length (ideally 25+ characters) and complexity for service accounts and that these passwords periodically expire. (Citation: AdSecurity Cracking Kerberos Dec 2015) Also consider using Group Managed Service Accounts or another third party product such as password vaulting. (Citation: AdSecurity Cracking Kerberos Dec 2015)\n\n\nLimit service accounts to minimal required privileges, including membership in privileged groups such as Domain Administrators. (Citation: AdSecurity Cracking Kerberos Dec 2015)\n\n\nEnable AES Kerberos encryption (or another stronger encryption algorithm), rather than RC4, where possible. (Citation: AdSecurity Cracking Kerberos Dec 2015)",
             "external_references": [
                 {
                     "external_id": "T1208",
@@ -21,8 +21,8 @@
                 }
             ],
             "type": "course-of-action",
-            "modified": "2018-08-15T18:30:24.296Z",
-            "created": "2018-08-15T18:30:24.296Z"
+            "modified": "2018-08-16T16:59:54.597Z",
+            "created": "2018-08-16T16:59:54.597Z"
         }
     ]
 }

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--1417e1a5-e00a-4714-a31c-e4334b7bb639",
+    "id": "bundle--3443d3e8-a6ee-4aae-8f04-b6299f2bd611",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "course-of-action--a1482e43-f3ff-4fbd-94de-ad1244738166",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Time Providers Mitigation",
-            "description": "Identify and block potentially malicious software that may be executed as a time provider by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) that are capable of auditing and/or blocking unknown DLLs.\n\nConsider using Group Policy to configure and block subsequent modifications to W32Time parameters. (Citation: Microsoft W32Time May 2017)",
+            "description": "Identify and block potentially malicious software that may be executed as a time provider by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) that are capable of auditing and/or blocking unknown DLLs.\n\n\nConsider using Group Policy to configure and block subsequent modifications to W32Time parameters. (Citation: Microsoft W32Time May 2017)",
             "external_references": [
                 {
                     "external_id": "T1209",
@@ -36,8 +36,8 @@
                 }
             ],
             "type": "course-of-action",
-            "modified": "2018-08-15T18:30:24.296Z",
-            "created": "2018-08-15T18:30:24.296Z"
+            "modified": "2018-08-16T16:59:54.597Z",
+            "created": "2018-08-16T16:59:54.597Z"
         }
     ]
 }

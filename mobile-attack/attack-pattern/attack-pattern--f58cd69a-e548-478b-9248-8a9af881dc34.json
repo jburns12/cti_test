@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9e9c9d21-0550-41f4-b462-ff1907375128",
+    "id": "bundle--16b84c80-4dfb-42c3-8164-165507a6fb97",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,19 +10,19 @@
             "description": "An adversary could cause the mobile device to use less secure protocols, for example by jamming frequencies used by newer protocols such as LTE and only allowing older protocols such as GSM to communicate as described in draft NIST SP 800-187 (Citation: NIST-SP800187). Use of less secure protocols may make communication easier to eavesdrop upon or manipulate.",
             "external_references": [
                 {
-                    "external_id": "MOB-T1069",
+                    "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/techniques/MOB-T1069",
-                    "source_name": "mitre-mobile-attack"
+                    "external_id": "MOB-T1069"
                 },
                 {
-                    "external_id": "CEL-3",
+                    "source_name": "NIST Mobile Threat Catalogue",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/cellular-threats/CEL-3.html",
-                    "source_name": "NIST Mobile Threat Catalogue"
+                    "external_id": "CEL-3"
                 },
                 {
-                    "url": "http://csrc.nist.gov/publications/drafts/800-187/sp800%20187%20draft.pdf",
+                    "source_name": "NIST-SP800187",
                     "description": "Jeffrey Cichonski, Joshua M Franklin, Michael Bartock. (2016, November). Guide to LTE Security (DRAFT). Retrieved January 20, 2017.",
-                    "source_name": "NIST-SP800187"
+                    "url": "http://csrc.nist.gov/publications/drafts/800-187/sp800%20187%20draft.pdf"
                 }
             ],
             "object_marking_refs": [
@@ -38,12 +38,12 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "phase_name": "cellular-network-based",
-                    "kill_chain_name": "mitre-mobile-attack"
+                    "kill_chain_name": "mitre-mobile-attack",
+                    "phase_name": "cellular-network-based"
                 },
                 {
-                    "phase_name": "general-network-based",
-                    "kill_chain_name": "mitre-mobile-attack"
+                    "kill_chain_name": "mitre-mobile-attack",
+                    "phase_name": "general-network-based"
                 }
             ],
             "modified": "2018-08-15T19:40:57.315Z",

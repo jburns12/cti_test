@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--67f3a52c-046d-41c9-80e5-e0d7703f5157",
+    "id": "bundle--85197ce1-55cc-4a2e-9684-2e0945f112bb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,24 +10,24 @@
             "description": "If an adversary can escalate privileges, he or she may be able to use those privileges to place malicious code in the device system partition, where it may persist after device resets and may not be easily removed by the device user.\n\nMany Android devices provide the ability to unlock the bootloader for development purposes. An unlocked bootloader may provide the ability for an adversary to modify the system partition. Even if the bootloader is locked, it may be possible for an adversary to escalate privileges and then modify the system partition.",
             "external_references": [
                 {
-                    "external_id": "MOB-T1003",
+                    "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/techniques/MOB-T1003",
-                    "source_name": "mitre-mobile-attack"
+                    "external_id": "MOB-T1003"
                 },
                 {
-                    "external_id": "APP-27",
+                    "source_name": "NIST Mobile Threat Catalogue",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/application-threats/APP-27.html",
-                    "source_name": "NIST Mobile Threat Catalogue"
+                    "external_id": "APP-27"
                 },
                 {
-                    "url": "https://source.android.com/security/verifiedboot/",
+                    "source_name": "Android-VerifiedBoot",
                     "description": "Android. (n.d.). Verified Boot. Retrieved December 21, 2016.",
-                    "source_name": "Android-VerifiedBoot"
+                    "url": "https://source.android.com/security/verifiedboot/"
                 },
                 {
-                    "url": "https://www.apple.com/business/docs/iOS%20Security%20Guide.pdf",
+                    "source_name": "Apple-iOSSecurityGuide",
                     "description": "Apple. (2016, May). iOS Security. Retrieved December 21, 2016.",
-                    "source_name": "Apple-iOSSecurityGuide"
+                    "url": "https://www.apple.com/business/docs/iOS%20Security%20Guide.pdf"
                 }
             ],
             "object_marking_refs": [
@@ -44,12 +44,12 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "phase_name": "defense-evasion",
-                    "kill_chain_name": "mitre-mobile-attack"
+                    "kill_chain_name": "mitre-mobile-attack",
+                    "phase_name": "defense-evasion"
                 },
                 {
-                    "phase_name": "persistence",
-                    "kill_chain_name": "mitre-mobile-attack"
+                    "kill_chain_name": "mitre-mobile-attack",
+                    "phase_name": "persistence"
                 }
             ],
             "modified": "2018-08-15T19:40:57.315Z",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6f916435-9b35-498e-b082-1007502a6520",
+    "id": "bundle--a9317ec5-a966-49c8-8c26-06be76420c57",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,9 +10,9 @@
             "description": "The mobile device could contain built-in functionality with malicious behavior or exploitable vulnerabilities. An adversary could deliberately insert and take advantage of the malicious behavior or could exploit inadvertent vulnerabilities. In many cases, it is difficult to be certain whether exploitable functionality is due to malicious intent or simply an inadvertent mistake.",
             "external_references": [
                 {
-                    "external_id": "MOB-T1076",
+                    "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/techniques/MOB-T1076",
-                    "source_name": "mitre-mobile-attack"
+                    "external_id": "MOB-T1076"
                 }
             ],
             "object_marking_refs": [
@@ -28,8 +28,8 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "phase_name": "supply-chain",
-                    "kill_chain_name": "mitre-mobile-attack"
+                    "kill_chain_name": "mitre-mobile-attack",
+                    "phase_name": "supply-chain"
                 }
             ],
             "modified": "2018-08-15T19:40:57.315Z",

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--cd741995-3703-4f7f-af66-01e122792106",
+    "id": "bundle--1230a64a-66c2-4eb4-a2c7-79194448ae11",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "tool--bba595da-b73a-4354-aa6c-224d4de7cb4e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "cmd",
-            "description": "[cmd](https://attack.mitre.org/software/S0106) is the Windows command-line interpreter that can be used to interact with systems and execute other processes and utilities. (Citation: TechNet Cmd)\n\nCmd.exe contains native functionality to perform many operations to interact with the system, including listing files in a directory (e.g., <code>dir</code> (Citation: TechNet Dir)), deleting files (e.g., <code>del</code> (Citation: TechNet Del)), and copying files (e.g., <code>copy</code> (Citation: TechNet Copy)).",
+            "description": "[cmd](https://attack.mitre.org/software/S0106) is the Windows command-line interpreter that can be used to interact with systems and execute other processes and utilities. (Citation: TechNet Cmd)\n\n\nCmd.exe contains native functionality to perform many operations to interact with the system, including listing files in a directory (e.g., <code>dir</code> (Citation: TechNet Dir)), deleting files (e.g., <code>del</code> (Citation: TechNet Del)), and copying files (e.g., <code>copy</code> (Citation: TechNet Copy)).",
             "external_references": [
                 {
                     "external_id": "S0106",
@@ -49,7 +49,7 @@
             "labels": [
                 "tool"
             ],
-            "modified": "2018-08-15T18:30:24.296Z",
+            "modified": "2018-08-16T16:59:54.597Z",
             "created": "2017-05-31T21:33:05.319Z"
         }
     ]

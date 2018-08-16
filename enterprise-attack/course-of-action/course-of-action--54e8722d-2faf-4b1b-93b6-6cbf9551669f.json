@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--97f9fcc6-7613-47e3-8a68-791b1e789c33",
+    "id": "bundle--5f85f839-74f8-456c-8f08-359f63f299f5",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "course-of-action--54e8722d-2faf-4b1b-93b6-6cbf9551669f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Hardware Additions Mitigation",
-            "description": "Establish network access control policies, such as using device certificates and the 802.1x standard. (Citation: Wikipedia 802.1x) Restrict use of DHCP to registered devices to prevent unregistered devices from communicating with trusted systems. \n\nBlock unknown devices and accessories by endpoint security configuration and monitoring agent.",
+            "description": "Establish network access control policies, such as using device certificates and the 802.1x standard. (Citation: Wikipedia 802.1x) Restrict use of DHCP to registered devices to prevent unregistered devices from communicating with trusted systems. \n\n\nBlock unknown devices and accessories by endpoint security configuration and monitoring agent.",
             "external_references": [
                 {
                     "external_id": "T1200",
@@ -21,8 +21,8 @@
                 }
             ],
             "type": "course-of-action",
-            "modified": "2018-08-15T18:30:24.296Z",
-            "created": "2018-08-15T18:30:24.296Z"
+            "modified": "2018-08-16T16:59:54.597Z",
+            "created": "2018-08-16T16:59:54.597Z"
         }
     ]
 }

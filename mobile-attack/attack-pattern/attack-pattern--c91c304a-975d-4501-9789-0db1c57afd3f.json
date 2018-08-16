@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cf3903b0-ecb8-4b0d-8699-07747524a361",
+    "id": "bundle--8dd82743-ba6d-48fd-97ba-c0c8d9f981af",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,29 +10,29 @@
             "description": "A message sent over a radio interface (typically cellular, but potentially Bluetooth, GPS, NFC, Wi-Fi or other) to the mobile device could exploit a vulnerability in code running on the device.\n\nD. Komaromy and N. Golde demonstrated baseband exploitation of a Samsung mobile device at the PacSec 2015 security conference (Citation: Register-BaseStation).\n\nWeinmann described and demonstrated \"the risk of remotely exploitable memory corruptions in cellular baseband stacks.\" (Citation: Weinmann-Baseband)",
             "external_references": [
                 {
-                    "external_id": "MOB-T1058",
+                    "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/techniques/MOB-T1058",
-                    "source_name": "mitre-mobile-attack"
+                    "external_id": "MOB-T1058"
                 },
                 {
-                    "external_id": "STA-18",
+                    "source_name": "NIST Mobile Threat Catalogue",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/stack-threats/STA-18.html",
-                    "source_name": "NIST Mobile Threat Catalogue"
+                    "external_id": "STA-18"
                 },
                 {
-                    "external_id": "STA-19",
+                    "source_name": "NIST Mobile Threat Catalogue",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/stack-threats/STA-19.html",
-                    "source_name": "NIST Mobile Threat Catalogue"
+                    "external_id": "STA-19"
                 },
                 {
-                    "url": "http://www.theregister.co.uk/2015/11/12/mobile%20pwn2own1/",
+                    "source_name": "Register-BaseStation",
                     "description": "D. Pauli. (2015, November 12). Samsung S6 calls open to man-in-the-middle base station snooping. Retrieved December 23, 2016.",
-                    "source_name": "Register-BaseStation"
+                    "url": "http://www.theregister.co.uk/2015/11/12/mobile%20pwn2own1/"
                 },
                 {
-                    "url": "https://www.usenix.org/system/files/conference/woot12/woot12-final24.pdf",
+                    "source_name": "Weinmann-Baseband",
                     "description": "R. Weinmann. (2012, August 6-7). Baseband Attacks: Remote Exploitation of Memory Corruptions in Cellular Protocol Stacks. Retrieved December 23, 2016.",
-                    "source_name": "Weinmann-Baseband"
+                    "url": "https://www.usenix.org/system/files/conference/woot12/woot12-final24.pdf"
                 }
             ],
             "object_marking_refs": [
@@ -48,8 +48,8 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "phase_name": "exploit-via-cellular-network",
-                    "kill_chain_name": "mitre-mobile-attack"
+                    "kill_chain_name": "mitre-mobile-attack",
+                    "phase_name": "exploit-via-cellular-network"
                 }
             ],
             "modified": "2018-08-15T19:40:57.315Z",

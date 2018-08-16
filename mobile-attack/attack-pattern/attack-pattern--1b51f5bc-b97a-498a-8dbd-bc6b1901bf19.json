@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--accc4e90-f917-46b9-8120-5c5b7430f58e",
+    "id": "bundle--b6c46a6d-5ec8-4a98-a3cf-44fda341f5ba",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,14 +10,14 @@
             "description": "On Android versions prior to 5, applications can observe information about other processes that are running through methods in the ActivityManager class. On Android versions prior to 7, applications can obtain this information by executing the <code>ps</code> command, or by examining the <code>/proc</code> directory. Starting in Android version 7, use of the Linux kernel's <code>hidepid</code> feature prevents applications (without escalated privileges) from accessing this information (Citation: Android-SELinuxChanges).",
             "external_references": [
                 {
-                    "external_id": "MOB-T1027",
+                    "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/techniques/MOB-T1027",
-                    "source_name": "mitre-mobile-attack"
+                    "external_id": "MOB-T1027"
                 },
                 {
-                    "url": "https://code.google.com/p/android/issues/detail?id=205565",
+                    "source_name": "Android-SELinuxChanges",
                     "description": "Various. (2016, March 31). Overly restrictive SELinux filesystem permissions in Android N. Retrieved December 21, 2016.",
-                    "source_name": "Android-SELinuxChanges"
+                    "url": "https://code.google.com/p/android/issues/detail?id=205565"
                 }
             ],
             "object_marking_refs": [
@@ -32,8 +32,8 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "phase_name": "discovery",
-                    "kill_chain_name": "mitre-mobile-attack"
+                    "kill_chain_name": "mitre-mobile-attack",
+                    "phase_name": "discovery"
                 }
             ],
             "modified": "2018-08-15T19:40:57.315Z",

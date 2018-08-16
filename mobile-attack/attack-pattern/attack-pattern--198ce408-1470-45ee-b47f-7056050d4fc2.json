@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--803507f5-83fd-4fa9-8cc4-01e8461552aa",
+    "id": "bundle--f783fbb5-b984-4da3-92a8-c1e9a04e99e6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,19 +10,19 @@
             "description": "Adversaries may seek to identify all applications installed on the device. One use case for doing so is to identify the presence of endpoint security applications that may increase the adversary's risk of detection. Another use case is to identify the presence of applications that the adversary may wish to target.\n\nOn Android, applications can use methods in the PackageManager class (Citation: Android-PackageManager) to enumerate other apps installed on device, or an entity with shell access can use the pm command line tool.\n\nOn iOS, apps can use private API calls to obtain a list of other apps installed on the device as described by Kurtz (Citation: Kurtz-MaliciousiOSApps), however use of private API calls will likely prevent the application from being distributed through Apple's App Store.",
             "external_references": [
                 {
-                    "external_id": "MOB-T1021",
+                    "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/techniques/MOB-T1021",
-                    "source_name": "mitre-mobile-attack"
+                    "external_id": "MOB-T1021"
                 },
                 {
-                    "url": "https://developer.android.com/reference/android/content/pm/PackageManager.html",
+                    "source_name": "Android-PackageManager",
                     "description": "Android. (n.d.). PackageManager. Retrieved December 21, 2016.",
-                    "source_name": "Android-PackageManager"
+                    "url": "https://developer.android.com/reference/android/content/pm/PackageManager.html"
                 },
                 {
-                    "url": "https://andreas-kurtz.de/2014/09/malicious-ios-apps/",
+                    "source_name": "Kurtz-MaliciousiOSApps",
                     "description": "Andreas Kurtz. (2014, September 18). Malicious iOS Apps. Retrieved December 21, 2016.",
-                    "source_name": "Kurtz-MaliciousiOSApps"
+                    "url": "https://andreas-kurtz.de/2014/09/malicious-ios-apps/"
                 }
             ],
             "object_marking_refs": [
@@ -38,12 +38,12 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "phase_name": "defense-evasion",
-                    "kill_chain_name": "mitre-mobile-attack"
+                    "kill_chain_name": "mitre-mobile-attack",
+                    "phase_name": "defense-evasion"
                 },
                 {
-                    "phase_name": "discovery",
-                    "kill_chain_name": "mitre-mobile-attack"
+                    "kill_chain_name": "mitre-mobile-attack",
+                    "phase_name": "discovery"
                 }
             ],
             "modified": "2018-08-15T19:40:57.315Z",

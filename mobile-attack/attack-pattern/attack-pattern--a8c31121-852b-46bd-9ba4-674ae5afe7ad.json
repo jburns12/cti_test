@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4c33ef5c-3fa9-49eb-b8ec-60a088c96072",
+    "id": "bundle--d80412aa-c240-4f5d-8d1e-aa1dbd2b6265",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,14 +10,14 @@
             "description": "A malicious app can register as a device keyboard and intercept keypresses containing sensitive values such as usernames and passwords. Zeltser (Citation: Zeltser-Keyboard) describes these risks.\n\nBoth iOS and Android require the user to explicitly authorize use of third party keyboard apps. Users should be advised to use extreme caution before granting this authorization when it is requested.",
             "external_references": [
                 {
-                    "external_id": "MOB-T1020",
+                    "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/techniques/MOB-T1020",
-                    "source_name": "mitre-mobile-attack"
+                    "external_id": "MOB-T1020"
                 },
                 {
-                    "url": "https://zeltser.com/third-party-keyboards-security/",
+                    "source_name": "Zeltser-Keyboard",
                     "description": "Lenny Zeltser. (2016, July 30). Security of Third-Party Keyboard Apps on Mobile Devices. Retrieved December 21, 2016.",
-                    "source_name": "Zeltser-Keyboard"
+                    "url": "https://zeltser.com/third-party-keyboards-security/"
                 }
             ],
             "object_marking_refs": [
@@ -33,12 +33,12 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "phase_name": "collection",
-                    "kill_chain_name": "mitre-mobile-attack"
+                    "kill_chain_name": "mitre-mobile-attack",
+                    "phase_name": "collection"
                 },
                 {
-                    "phase_name": "credential-access",
-                    "kill_chain_name": "mitre-mobile-attack"
+                    "kill_chain_name": "mitre-mobile-attack",
+                    "phase_name": "credential-access"
                 }
             ],
             "modified": "2018-08-15T19:40:57.315Z",

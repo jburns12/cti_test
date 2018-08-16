@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9ec507a1-5bc1-4184-88d5-2cd51741fbc1",
+    "id": "bundle--e56ce38a-deef-487d-93ac-90cc81efeb87",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,9 +10,9 @@
             "description": "Adversaries may attempt to get a listing of services running on remote hosts, including those that may be vulnerable to remote software exploitation. Methods to acquire this information include port scans and vulnerability scans from the mobile device. This technique may take advantage of the mobile device's access to an internal enterprise network either through local connectivity or through a Virtual Private Network (VPN).",
             "external_references": [
                 {
-                    "external_id": "MOB-T1026",
+                    "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/techniques/MOB-T1026",
-                    "source_name": "mitre-mobile-attack"
+                    "external_id": "MOB-T1026"
                 }
             ],
             "object_marking_refs": [
@@ -28,8 +28,8 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "phase_name": "discovery",
-                    "kill_chain_name": "mitre-mobile-attack"
+                    "kill_chain_name": "mitre-mobile-attack",
+                    "phase_name": "discovery"
                 }
             ],
             "modified": "2018-08-15T19:40:57.315Z",

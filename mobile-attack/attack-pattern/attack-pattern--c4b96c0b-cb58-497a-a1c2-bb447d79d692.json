@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--29def3f0-2a04-460c-a0d6-a59d60539434",
+    "id": "bundle--ea56f0d8-86bb-4205-9bfd-5cbea40d944f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,14 +10,14 @@
             "description": "A malicious app or other attack vector could capture sensitive data stored in the device clipboard, for example passwords being copy-and-pasted from a password manager app.",
             "external_references": [
                 {
-                    "external_id": "MOB-T1017",
+                    "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/techniques/MOB-T1017",
-                    "source_name": "mitre-mobile-attack"
+                    "external_id": "MOB-T1017"
                 },
                 {
-                    "external_id": "APP-35",
+                    "source_name": "NIST Mobile Threat Catalogue",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/application-threats/APP-35.html",
-                    "source_name": "NIST Mobile Threat Catalogue"
+                    "external_id": "APP-35"
                 }
             ],
             "object_marking_refs": [
@@ -33,12 +33,12 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "phase_name": "collection",
-                    "kill_chain_name": "mitre-mobile-attack"
+                    "kill_chain_name": "mitre-mobile-attack",
+                    "phase_name": "collection"
                 },
                 {
-                    "phase_name": "credential-access",
-                    "kill_chain_name": "mitre-mobile-attack"
+                    "kill_chain_name": "mitre-mobile-attack",
+                    "phase_name": "credential-access"
                 }
             ],
             "modified": "2018-08-15T19:40:57.315Z",

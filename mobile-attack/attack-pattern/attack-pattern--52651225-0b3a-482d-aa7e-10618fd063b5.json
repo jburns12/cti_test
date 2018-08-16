@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8e2e8e21-8085-4898-bedd-4113212541a0",
+    "id": "bundle--2020d750-60b4-4641-b667-927a182d8ea7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,38 +10,38 @@
             "description": "An adversary could exploit signaling system vulnerabilities to track the location of mobile devices, for example as described in  (Citation: Engel-SS7),  (Citation: Engel-SS7)-2008,  (Citation: 3GPP-Security) and  (Citation: Positive-SS7), as well as in a report from the Communications, Security, Reliability, and Interoperability Council (CSRIC)  (Citation: CSRIC5-WG10-FinalReport).",
             "external_references": [
                 {
-                    "external_id": "MOB-T1053",
+                    "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/techniques/MOB-T1053",
-                    "source_name": "mitre-mobile-attack"
+                    "external_id": "MOB-T1053"
                 },
                 {
-                    "external_id": "CEL-38",
+                    "source_name": "NIST Mobile Threat Catalogue",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/cellular-threats/CEL-38.html",
-                    "source_name": "NIST Mobile Threat Catalogue"
+                    "external_id": "CEL-38"
                 },
                 {
-                    "url": "https://berlin.ccc.de/~tobias/31c3-ss7-locate-track-manipulate.pdf",
+                    "source_name": "Engel-SS7",
                     "description": "Tobias Engel. (2014, December). SS7: Locate. Track. Manipulate.. Retrieved December 19, 2016.",
-                    "source_name": "Engel-SS7"
+                    "url": "https://berlin.ccc.de/~tobias/31c3-ss7-locate-track-manipulate.pdf"
                 },
                 {
-                    "url": "http://www.3gpp.org/ftp/tsg%20sa/wg3%20security/%20specs/33900-120.pdf",
+                    "source_name": "3GPP-Security",
                     "description": "3GPP. (2000, January). A Guide to 3rd Generation Security. Retrieved December 19, 2016.",
-                    "source_name": "3GPP-Security"
+                    "url": "http://www.3gpp.org/ftp/tsg%20sa/wg3%20security/%20specs/33900-120.pdf"
                 },
                 {
-                    "url": "https://www.ptsecurity.com/upload/ptcom/PT-SS7-AD-Data-Sheet-eng.pdf",
+                    "source_name": "Positive-SS7",
                     "description": "Positive Technologies. (n.d.). SS7 Attack Discovery. Retrieved December 19, 2016.",
-                    "source_name": "Positive-SS7"
+                    "url": "https://www.ptsecurity.com/upload/ptcom/PT-SS7-AD-Data-Sheet-eng.pdf"
                 },
                 {
-                    "url": "https://www.fcc.gov/files/csric5-wg10-finalreport031517pdf",
+                    "source_name": "CSRIC5-WG10-FinalReport",
                     "description": "Communications Security, Reliability, Interoperability Council (CSRIC). (2017, March). Working Group 10 Legacy Systems Risk Reductions Final Report. Retrieved May 24, 2017.",
-                    "source_name": "CSRIC5-WG10-FinalReport"
+                    "url": "https://www.fcc.gov/files/csric5-wg10-finalreport031517pdf"
                 },
                 {
-                    "description": "CSRIC-WG1-FinalReport",
-                    "source_name": "CSRIC-WG1-FinalReport"
+                    "source_name": "CSRIC-WG1-FinalReport",
+                    "description": "CSRIC-WG1-FinalReport"
                 }
             ],
             "object_marking_refs": [
@@ -58,8 +58,8 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "phase_name": "cellular-network-based",
-                    "kill_chain_name": "mitre-mobile-attack"
+                    "kill_chain_name": "mitre-mobile-attack",
+                    "phase_name": "cellular-network-based"
                 }
             ],
             "modified": "2018-08-15T19:40:57.315Z",

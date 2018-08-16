@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--32fe6953-e5ef-40fb-9718-d8f6b7df1543",
+    "id": "bundle--17e6c8a0-6e57-4f7c-b570-ea581e2b36da",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,14 +10,14 @@
             "description": "An adversary could use a malicious or exploited application to surreptitiously record activities using the device microphone and/or camera through use of standard operating system APIs.",
             "external_references": [
                 {
-                    "external_id": "MOB-T1032",
+                    "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/techniques/MOB-T1032",
-                    "source_name": "mitre-mobile-attack"
+                    "external_id": "MOB-T1032"
                 },
                 {
-                    "external_id": "APP-19",
+                    "source_name": "NIST Mobile Threat Catalogue",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/application-threats/APP-19.html",
-                    "source_name": "NIST Mobile Threat Catalogue"
+                    "external_id": "APP-19"
                 }
             ],
             "object_marking_refs": [
@@ -34,8 +34,8 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "phase_name": "collection",
-                    "kill_chain_name": "mitre-mobile-attack"
+                    "kill_chain_name": "mitre-mobile-attack",
+                    "phase_name": "collection"
                 }
             ],
             "modified": "2018-08-15T19:40:57.315Z",

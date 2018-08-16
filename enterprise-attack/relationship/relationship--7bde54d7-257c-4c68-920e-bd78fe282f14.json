@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--9b02b70f-9d24-4949-b30d-229535d9d378",
+    "id": "bundle--18b43546-8394-405f-9550-3e4e28bc48ed",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--7bde54d7-257c-4c68-920e-bd78fe282f14",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[JPIN](https://attack.mitre.org/software/S0201) can communicate over FTP and send email over SMTP.",
+            "description": "[JPIN](https://attack.mitre.org/software/S0201) can use HTTP for C2.",
             "source_ref": "malware--de6cb631-52f6-4169-a73b-7965390b0c30",
             "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6",
             "object_marking_refs": [
@@ -20,7 +20,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-08-15T18:30:24.296Z",
+            "modified": "2018-08-16T16:59:54.597Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

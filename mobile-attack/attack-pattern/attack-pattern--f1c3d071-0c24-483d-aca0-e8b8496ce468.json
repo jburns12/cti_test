@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--58cd82a9-abd0-4820-924e-0fd0547c6147",
+    "id": "bundle--4b01b34c-689a-4dc8-921d-0eba3a6877fa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,24 +10,24 @@
             "description": "If an adversary can escalate privileges, he or she may be able to use those privileges to place malicious code in the device's Trusted Execution Environment (TEE) or other similar isolated execution environment where the code can evade detection, may persist after device resets, and may not be removable by the device user. Running code within the TEE may provide an adversary with the ability to monitor or tamper with overall device behavior.\n\nThomas Roth describes the potential for placing a rootkit within the TrustZone secure world (Citation: Roth-Rootkits).",
             "external_references": [
                 {
-                    "external_id": "MOB-T1002",
+                    "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/techniques/MOB-T1002",
-                    "source_name": "mitre-mobile-attack"
+                    "external_id": "MOB-T1002"
                 },
                 {
-                    "external_id": "APP-27",
+                    "source_name": "NIST Mobile Threat Catalogue",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/application-threats/APP-27.html",
-                    "source_name": "NIST Mobile Threat Catalogue"
+                    "external_id": "APP-27"
                 },
                 {
-                    "url": "https://hackinparis.com/data/slides/2013/Slidesthomasroth.pdf",
+                    "source_name": "Roth-Rootkits",
                     "description": "Thomas Roth. (2013). Next generation mobile rootkits. Retrieved December 21, 2016.",
-                    "source_name": "Roth-Rootkits"
+                    "url": "https://hackinparis.com/data/slides/2013/Slidesthomasroth.pdf"
                 },
                 {
-                    "url": "https://www.apple.com/business/docs/iOS%20Security%20Guide.pdf",
+                    "source_name": "Apple-iOSSecurityGuide",
                     "description": "Apple. (2016, May). iOS Security. Retrieved December 21, 2016.",
-                    "source_name": "Apple-iOSSecurityGuide"
+                    "url": "https://www.apple.com/business/docs/iOS%20Security%20Guide.pdf"
                 }
             ],
             "object_marking_refs": [
@@ -43,12 +43,12 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "phase_name": "defense-evasion",
-                    "kill_chain_name": "mitre-mobile-attack"
+                    "kill_chain_name": "mitre-mobile-attack",
+                    "phase_name": "defense-evasion"
                 },
                 {
-                    "phase_name": "persistence",
-                    "kill_chain_name": "mitre-mobile-attack"
+                    "kill_chain_name": "mitre-mobile-attack",
+                    "phase_name": "persistence"
                 }
             ],
             "modified": "2018-08-15T19:40:57.315Z",

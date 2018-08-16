@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c383af67-0c69-4461-92b6-cf19ffa93007",
+    "id": "bundle--55470c9a-8a9f-429a-b325-53fa89ffe106",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,19 +10,19 @@
             "description": "An adversary could set up a rogue cellular base station and then use it to eavesdrop on or manipulate cellular device communication. For example, Ritter and DePerry of iSEC Partners demonstrated this technique using a compromised cellular femtocell at Black Hat USA 2013 (Citation: Computerworld-Femtocell).",
             "external_references": [
                 {
-                    "external_id": "MOB-T1070",
+                    "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/techniques/MOB-T1070",
-                    "source_name": "mitre-mobile-attack"
+                    "external_id": "MOB-T1070"
                 },
                 {
-                    "external_id": "CEL-7",
+                    "source_name": "NIST Mobile Threat Catalogue",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/cellular-threats/CEL-7.html",
-                    "source_name": "NIST Mobile Threat Catalogue"
+                    "external_id": "CEL-7"
                 },
                 {
-                    "url": "http://www.computerworld.com/article/2484538/cybercrime-hacking/researchers-exploit-cellular-tech-flaws-to-intercept-phone-calls.html",
+                    "source_name": "Computerworld-Femtocell",
                     "description": "Jaikumar Vijayan. (2013, August 1). Researchers exploit cellular tech flaws to intercept phone calls. Retrieved December 24, 2016.",
-                    "source_name": "Computerworld-Femtocell"
+                    "url": "http://www.computerworld.com/article/2484538/cybercrime-hacking/researchers-exploit-cellular-tech-flaws-to-intercept-phone-calls.html"
                 }
             ],
             "object_marking_refs": [
@@ -38,8 +38,8 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "phase_name": "cellular-network-based",
-                    "kill_chain_name": "mitre-mobile-attack"
+                    "kill_chain_name": "mitre-mobile-attack",
+                    "phase_name": "cellular-network-based"
                 }
             ],
             "modified": "2018-08-15T19:40:57.315Z",

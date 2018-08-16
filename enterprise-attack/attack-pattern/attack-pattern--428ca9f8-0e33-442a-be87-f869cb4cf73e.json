@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4351888b-e402-46bd-9336-dd41ba4db5ee",
+    "id": "bundle--b5c738c4-6854-4aad-9470-7b266b384b56",
     "spec_version": "2.0",
     "objects": [
         {
@@ -44,7 +44,7 @@
                 "Malware reverse engineering",
                 "Process monitoring"
             ],
-            "x_mitre_detection": "If malware uses [Standard Cryptographic Protocol](https://attack.mitre.org/techniques/T1032), SSL/TLS inspection can be used to detect command and control traffic within some encrypted communication channels. (Citation: SANS Decrypting SSL) SSL/TLS inspection does come with certain risks that should be considered before implementing to avoid potential security issues such as incomplete certificate validation. (Citation: SEI SSL Inspection Risks) After SSL/TLS inspection, additional cryptographic analysis may be needed to analyze the second layer of encryption.\n\nWith [Custom Cryptographic Protocol](https://attack.mitre.org/techniques/T1024), if malware uses encryption with symmetric keys, it may be possible to obtain the algorithm and key from samples and use them to decode network traffic to detect malware communications signatures. (Citation: Fidelis DarkComet)\n\nIn general, analyze network data for uncommon data flows (e.g., a client sending significantly more data than it receives from a server). Processes utilizing the network that do not normally have network communication or have never been seen before are suspicious. Analyze packet contents to detect communications that do not follow the expected protocol behavior for the port that is being used. (Citation: University of Birmingham C2)",
+            "x_mitre_detection": "If malware uses [Standard Cryptographic Protocol](https://attack.mitre.org/techniques/T1032), SSL/TLS inspection can be used to detect command and control traffic within some encrypted communication channels. (Citation: SANS Decrypting SSL) SSL/TLS inspection does come with certain risks that should be considered before implementing to avoid potential security issues such as incomplete certificate validation. (Citation: SEI SSL Inspection Risks) After SSL/TLS inspection, additional cryptographic analysis may be needed to analyze the second layer of encryption.\n\n\nWith [Custom Cryptographic Protocol](https://attack.mitre.org/techniques/T1024), if malware uses encryption with symmetric keys, it may be possible to obtain the algorithm and key from samples and use them to decode network traffic to detect malware communications signatures. (Citation: Fidelis DarkComet)\n\n\nIn general, analyze network data for uncommon data flows (e.g., a client sending significantly more data than it receives from a server). Processes utilizing the network that do not normally have network communication or have never been seen before are suspicious. Analyze packet contents to detect communications that do not follow the expected protocol behavior for the port that is being used. (Citation: University of Birmingham C2)",
             "x_mitre_network_requirements": true,
             "x_mitre_platforms": [
                 "Linux",
@@ -58,7 +58,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-08-15T18:30:24.296Z",
+            "modified": "2018-08-16T16:59:54.597Z",
             "created": "2017-05-31T21:31:01.315Z"
         }
     ]

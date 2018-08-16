@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--16fa4eb7-8012-4674-8d46-792869a5c0dc",
+    "id": "bundle--09540a33-b5f2-46bc-a192-1f9f5e6827d8",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--5e4a2073-9643-44cb-a0b5-e7f4048446c7",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Browser Bookmark Discovery",
-            "description": "Adversaries may enumerate browser bookmarks to learn more about compromised hosts. Browser bookmarks may reveal personal information about users (ex: banking sites, interests, social media, etc.) as well as details about internal network resources such as servers, tools/dashboards, or other related infrastructure.\n\nBrowser bookmarks may also highlight additional targets after an adversary has access to valid credentials, especially [Credentials in Files](https://attack.mitre.org/techniques/T1081) associated with logins cached by a browser.\n\nSpecific storage locations vary based on platform and/or application, but browser bookmarks are typically stored in local files/databases.",
+            "description": "Adversaries may enumerate browser bookmarks to learn more about compromised hosts. Browser bookmarks may reveal personal information about users (ex: banking sites, interests, social media, etc.) as well as details about internal network resources such as servers, tools/dashboards, or other related infrastructure.\n\n\nBrowser bookmarks may also highlight additional targets after an adversary has access to valid credentials, especially [Credentials in Files](https://attack.mitre.org/techniques/T1081) associated with logins cached by a browser.\n\nSpecific storage locations vary based on platform and/or application, but browser bookmarks are typically stored in local files/databases.",
             "external_references": [
                 {
                     "external_id": "T1217",
@@ -43,7 +43,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-08-15T18:30:24.296Z",
+            "modified": "2018-08-16T16:59:54.597Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

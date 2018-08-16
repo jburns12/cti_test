@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f30da0a0-fa01-4548-8f51-c38ac4850c2d",
+    "id": "bundle--526c4469-b4ee-4ca7-83e3-879c998cedb0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,19 +10,19 @@
             "description": "The application is delivered as an email attachment.",
             "external_references": [
                 {
-                    "external_id": "MOB-T1037",
+                    "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/techniques/MOB-T1037",
-                    "source_name": "mitre-mobile-attack"
+                    "external_id": "MOB-T1037"
                 },
                 {
-                    "external_id": "AUT-9",
+                    "source_name": "NIST Mobile Threat Catalogue",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/authentication-threats/AUT-9.html",
-                    "source_name": "NIST Mobile Threat Catalogue"
+                    "external_id": "AUT-9"
                 },
                 {
-                    "external_id": "ECO-13",
+                    "source_name": "NIST Mobile Threat Catalogue",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/ecosystem-threats/ECO-13.html",
-                    "source_name": "NIST Mobile Threat Catalogue"
+                    "external_id": "ECO-13"
                 }
             ],
             "object_marking_refs": [
@@ -39,8 +39,8 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "phase_name": "app-delivery-via-other-means",
-                    "kill_chain_name": "mitre-mobile-attack"
+                    "kill_chain_name": "mitre-mobile-attack",
+                    "phase_name": "app-delivery-via-other-means"
                 }
             ],
             "modified": "2018-08-15T19:40:57.315Z",

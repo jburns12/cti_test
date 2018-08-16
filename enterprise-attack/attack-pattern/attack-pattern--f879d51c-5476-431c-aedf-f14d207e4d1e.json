@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--4420e21c-d0ba-40ea-8544-b45d84f389d0",
+    "id": "bundle--9e0b48f4-406c-4cd3-8716-ec8c02fc04a9",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Commonly Used Port",
-            "description": "Adversaries may communicate over a commonly used port to bypass firewalls or network detection systems and to blend with normal network activity to avoid more detailed inspection. They may use commonly open ports such as\n* TCP:80 (HTTP)\n* TCP:443 (HTTPS)\n* TCP:25 (SMTP)\n* TCP/UDP:53 (DNS)\n\nThey may use the protocol associated with the port or a completely different protocol. \n\nFor connections that occur internally within an enclave (such as those between a proxy or pivot node and other nodes), examples of common ports are \n* TCP/UDP:135 (RPC)\n* TCP/UDP:22 (SSH)\n* TCP/UDP:3389 (RDP)",
+            "description": "Adversaries may communicate over a commonly used port to bypass firewalls or network detection systems and to blend with normal network activity to avoid more detailed inspection. They may use commonly open ports such as\n* TCP:80 (HTTP)\n\n* TCP:443 (HTTPS)\n\n* TCP:25 (SMTP)\n\n* TCP/UDP:53 (DNS)\n\n\nThey may use the protocol associated with the port or a completely different protocol. \n\nFor connections that occur internally within an enclave (such as those between a proxy or pivot node and other nodes), examples of common ports are \n* TCP/UDP:135 (RPC)\n\n* TCP/UDP:22 (SSH)\n\n* TCP/UDP:3389 (RDP)",
             "external_references": [
                 {
                     "external_id": "T1043",
@@ -43,7 +43,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-08-15T18:30:24.296Z",
+            "modified": "2018-08-16T16:59:54.597Z",
             "created": "2017-05-31T21:30:42.657Z"
         }
     ]
