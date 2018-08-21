@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ed3887ca-f692-4a8d-812f-4974c0fda798",
+    "id": "bundle--2c50ad6e-9e92-49f7-9b82-9d84f4979683",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,14 +10,14 @@
             "description": "On Android, applications can use standard APIs to gather a list of network connections to and from the device. For example, the Network Connections app available in the Google Play Store (Citation: ConnMonitor) advertises this functionality.",
             "external_references": [
                 {
-                    "source_name": "mitre-mobile-attack",
+                    "external_id": "MOB-T1024",
                     "url": "https://attack.mitre.org/techniques/MOB-T1024",
-                    "external_id": "MOB-T1024"
+                    "source_name": "mitre-mobile-attack"
                 },
                 {
-                    "source_name": "ConnMonitor",
+                    "url": "https://play.google.com/store/apps/details?id=com.antispycell.connmonitor&hl=en",
                     "description": "Anti Spy Mobile. (2016, March 14). Network Connections. Retrieved December 21, 2016.",
-                    "url": "https://play.google.com/store/apps/details?id=com.antispycell.connmonitor&hl=en"
+                    "source_name": "ConnMonitor"
                 }
             ],
             "object_marking_refs": [
@@ -32,11 +32,11 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "kill_chain_name": "mitre-mobile-attack",
-                    "phase_name": "discovery"
+                    "phase_name": "discovery",
+                    "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-08-15T19:40:57.315Z",
+            "modified": "2018-08-16T16:59:54.597Z",
             "created": "2017-10-25T14:48:33.574Z"
         }
     ]

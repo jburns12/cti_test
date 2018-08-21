@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e3357d8c-7d03-4b8d-89ef-face89480bf6",
+    "id": "bundle--58cb3ced-6aa6-4172-922c-327d3e3e6b67",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,14 +10,14 @@
             "description": "A malicious app can register to receive intents meant for other applications and may then be able to receive sensitive values such as OAuth authorization codes as described in  (Citation: IETF-PKCE).",
             "external_references": [
                 {
-                    "source_name": "mitre-mobile-attack",
+                    "external_id": "MOB-T1019",
                     "url": "https://attack.mitre.org/techniques/MOB-T1019",
-                    "external_id": "MOB-T1019"
+                    "source_name": "mitre-mobile-attack"
                 },
                 {
-                    "source_name": "IETF-PKCE",
+                    "url": "https://tools.ietf.org/html/rfc7636",
                     "description": "N. Sakimura, J. Bradley, and N. Agarwal. (2015, September). IETF RFC 7636: Proof Key for Code Exchange by OAuth Public Clients. Retrieved December 21, 2016.",
-                    "url": "https://tools.ietf.org/html/rfc7636"
+                    "source_name": "IETF-PKCE"
                 }
             ],
             "object_marking_refs": [
@@ -32,11 +32,11 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "kill_chain_name": "mitre-mobile-attack",
-                    "phase_name": "credential-access"
+                    "phase_name": "credential-access",
+                    "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-08-15T19:40:57.315Z",
+            "modified": "2018-08-16T16:59:54.597Z",
             "created": "2017-10-25T14:48:32.008Z"
         }
     ]

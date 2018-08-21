@@ -1,18 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--84cc2191-2849-46b7-bc7c-d5428f764a40",
+    "id": "bundle--80c78b7b-27c1-4ab9-991d-2f1ccbf69549",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--3911658a-6506-4deb-9ab4-595a51ae71ad",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Commonly Used Port",
-            "description": "Adversaries may communicate over a commonly used port to bypass firewalls or network detection systems and to blend with normal network activity to avoid more detailed inspection. They may use commonly open ports such as\n* TCP:80 (HTTP)\n* TCP:443 (HTTPS)\n* TCP:25 (SMTP)\n* TCP/UDP:53 (DNS)\n\nThey may use the protocol associated with the port or a completely different protocol.",
+            "description": "Adversaries may communicate over a commonly used port to bypass firewalls or network detection systems and to blend with normal network activity to avoid more detailed inspection. They may use commonly open ports such as\n* TCP:80 (HTTP)\n\n* TCP:443 (HTTPS)\n\n* TCP:25 (SMTP)\n\n* TCP/UDP:53 (DNS)\n\n\nThey may use the protocol associated with the port or a completely different protocol.",
             "external_references": [
                 {
-                    "source_name": "mitre-mobile-attack",
+                    "external_id": "MOB-T1039",
                     "url": "https://attack.mitre.org/techniques/MOB-T1039",
-                    "external_id": "MOB-T1039"
+                    "source_name": "mitre-mobile-attack"
                 }
             ],
             "object_marking_refs": [
@@ -28,15 +28,15 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "kill_chain_name": "mitre-mobile-attack",
-                    "phase_name": "command-and-control"
+                    "phase_name": "command-and-control",
+                    "kill_chain_name": "mitre-mobile-attack"
                 },
                 {
-                    "kill_chain_name": "mitre-mobile-attack",
-                    "phase_name": "exfiltration"
+                    "phase_name": "exfiltration",
+                    "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-08-15T19:40:57.315Z",
+            "modified": "2018-08-16T16:59:54.597Z",
             "created": "2017-10-25T14:48:16.650Z"
         }
     ]

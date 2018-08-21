@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--70c05ac7-931a-4434-9381-191b1c084078",
+    "id": "bundle--bc598819-2a87-4eab-9ce8-2094b11c80bf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,14 +10,14 @@
             "description": "Xbot is a family of Android malware analyzed by Palo Alto Networks (Citation: PaloAlto-Xbot) that \"tries to steal victims' banking credentials and credit card information\", \"can also remotely lock infected Android devices, encrypt the user's files in external storage (e.g., SD card), and then ask for a U.S. $100 PayPal cash card as ransom\" and \"will steal all SMS message and contact information, intercept certain SMS messages, and parse SMS messages for mTANs (Mobile Transaction Authentication Number) from banks.\"",
             "external_references": [
                 {
-                    "source_name": "mitre-mobile-attack",
+                    "external_id": "MOB-S0014",
                     "url": "https://attack.mitre.org/software/MOB-S0014",
-                    "external_id": "MOB-S0014"
+                    "source_name": "mitre-mobile-attack"
                 },
                 {
-                    "source_name": "PaloAlto-Xbot",
+                    "url": "http://researchcenter.paloaltonetworks.com/2016/02/new-android-trojan-xbot-phishes-credit-cards-and-bank-accounts-encrypts-devices-for-ransom/",
                     "description": "Cong Zheng, Claud Xiao and Zhi Xu. (2016, February 18). New Android Trojan \u201cXbot\u201d Phishes Credit Cards and Bank Accounts, Encrypts Devices for Ransom. Retrieved December 21, 2016.",
-                    "url": "http://researchcenter.paloaltonetworks.com/2016/02/new-android-trojan-xbot-phishes-credit-cards-and-bank-accounts-encrypts-devices-for-ransom/"
+                    "source_name": "PaloAlto-Xbot"
                 }
             ],
             "object_marking_refs": [
@@ -30,7 +30,7 @@
             "labels": [
                 "tool"
             ],
-            "modified": "2018-08-15T19:40:57.315Z",
+            "modified": "2018-08-16T16:59:54.597Z",
             "created": "2017-10-25T14:48:48.609Z"
         }
     ]

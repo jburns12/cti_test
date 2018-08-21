@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e741159b-2880-4c8f-9225-137a40099169",
+    "id": "bundle--0d96e9b4-4e11-439d-aa00-b18ba361a4ee",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,24 +10,24 @@
             "description": "An adversary could steal developer account credentials on an app store and/or signing keys to publish malicious updates to existing Android or iOS apps, or to abuse the developer's identity and reputation to publish new malicious applications. For example, Infoworld describes this technique and suggests mitigations in  (Citation: Infoworld-Appstore).",
             "external_references": [
                 {
-                    "source_name": "mitre-mobile-attack",
+                    "external_id": "MOB-T1044",
                     "url": "https://attack.mitre.org/techniques/MOB-T1044",
-                    "external_id": "MOB-T1044"
+                    "source_name": "mitre-mobile-attack"
                 },
                 {
-                    "source_name": "NIST Mobile Threat Catalogue",
+                    "external_id": "ECO-16",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/ecosystem-threats/ECO-16.html",
-                    "external_id": "ECO-16"
+                    "source_name": "NIST Mobile Threat Catalogue"
                 },
                 {
-                    "source_name": "NIST Mobile Threat Catalogue",
+                    "external_id": "ECO-17",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/ecosystem-threats/ECO-17.html",
-                    "external_id": "ECO-17"
+                    "source_name": "NIST Mobile Threat Catalogue"
                 },
                 {
-                    "source_name": "Infoworld-Appstore",
+                    "url": "http://www.infoworld.com/article/2854963/mobile-development/how-to-keep-your-app-store-dev-account-from-being-hijacked.html",
                     "description": "Galen Gruman. (2014, December 5). Keep out hijackers: Secure your app store dev account. Retrieved December 22, 2016.",
-                    "url": "http://www.infoworld.com/article/2854963/mobile-development/how-to-keep-your-app-store-dev-account-from-being-hijacked.html"
+                    "source_name": "Infoworld-Appstore"
                 }
             ],
             "object_marking_refs": [
@@ -44,11 +44,11 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "kill_chain_name": "mitre-mobile-attack",
-                    "phase_name": "app-delivery-via-authorized-app-store"
+                    "phase_name": "app-delivery-via-authorized-app-store",
+                    "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-08-15T19:40:57.315Z",
+            "modified": "2018-08-16T16:59:54.597Z",
             "created": "2017-10-25T14:48:05.928Z"
         }
     ]

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dcbeaece-6317-444b-8c52-0e77f6f157d0",
+    "id": "bundle--b039845f-b5bf-4484-9b2c-bd0998f45b48",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,14 +10,14 @@
             "description": "An adversary could make educated guesses of the device lock screen's PIN/password (e.g., commonly used values, birthdays, anniversaries) or attempt a dictionary or brute force attack against it. Brute force attacks could potentially be automated (Citation: PopSci-IPBox).",
             "external_references": [
                 {
-                    "source_name": "mitre-mobile-attack",
+                    "external_id": "MOB-T1062",
                     "url": "https://attack.mitre.org/techniques/MOB-T1062",
-                    "external_id": "MOB-T1062"
+                    "source_name": "mitre-mobile-attack"
                 },
                 {
-                    "source_name": "PopSci-IPBox",
+                    "url": "http://www.popsci.com/box-can-figure-out-your-4-digit-iphone-passcode",
                     "description": "Dan Moren. (2015, March 18). This Box Can Figure Out Your 4-Digit iPhone Passcode. Retrieved December 23, 2016.",
-                    "url": "http://www.popsci.com/box-can-figure-out-your-4-digit-iphone-passcode"
+                    "source_name": "PopSci-IPBox"
                 }
             ],
             "object_marking_refs": [
@@ -33,11 +33,11 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "kill_chain_name": "mitre-mobile-attack",
-                    "phase_name": "exploit-via-physical-access"
+                    "phase_name": "exploit-via-physical-access",
+                    "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-08-15T19:40:57.315Z",
+            "modified": "2018-08-16T16:59:54.597Z",
             "created": "2017-10-25T14:48:23.652Z"
         }
     ]

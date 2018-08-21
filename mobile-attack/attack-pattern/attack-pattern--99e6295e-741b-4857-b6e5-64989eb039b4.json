@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3e3d325a-7409-4325-a320-306959dddaef",
+    "id": "bundle--47bb88a3-3676-4f73-9e69-0ab062573795",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,14 +10,14 @@
             "description": "An adversary could use a malicious or exploited application to surreptitiously track the device's physical location through use of standard operating system APIs.",
             "external_references": [
                 {
-                    "source_name": "mitre-mobile-attack",
+                    "external_id": "MOB-T1033",
                     "url": "https://attack.mitre.org/techniques/MOB-T1033",
-                    "external_id": "MOB-T1033"
+                    "source_name": "mitre-mobile-attack"
                 },
                 {
-                    "source_name": "NIST Mobile Threat Catalogue",
+                    "external_id": "APP-24",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/application-threats/APP-24.html",
-                    "external_id": "APP-24"
+                    "source_name": "NIST Mobile Threat Catalogue"
                 }
             ],
             "object_marking_refs": [
@@ -34,11 +34,11 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "kill_chain_name": "mitre-mobile-attack",
-                    "phase_name": "collection"
+                    "phase_name": "collection",
+                    "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-08-15T19:40:57.315Z",
+            "modified": "2018-08-16T16:59:54.597Z",
             "created": "2017-10-25T14:48:12.267Z"
         }
     ]

@@ -1,28 +1,28 @@
 {
     "type": "bundle",
-    "id": "bundle--f783fbb5-b984-4da3-92a8-c1e9a04e99e6",
+    "id": "bundle--c1ab61bc-aa16-4ee7-9add-b7eaaa248af1",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--198ce408-1470-45ee-b47f-7056050d4fc2",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Application Discovery",
-            "description": "Adversaries may seek to identify all applications installed on the device. One use case for doing so is to identify the presence of endpoint security applications that may increase the adversary's risk of detection. Another use case is to identify the presence of applications that the adversary may wish to target.\n\nOn Android, applications can use methods in the PackageManager class (Citation: Android-PackageManager) to enumerate other apps installed on device, or an entity with shell access can use the pm command line tool.\n\nOn iOS, apps can use private API calls to obtain a list of other apps installed on the device as described by Kurtz (Citation: Kurtz-MaliciousiOSApps), however use of private API calls will likely prevent the application from being distributed through Apple's App Store.",
+            "description": "Adversaries may seek to identify all applications installed on the device. One use case for doing so is to identify the presence of endpoint security applications that may increase the adversary's risk of detection. Another use case is to identify the presence of applications that the adversary may wish to target.\n\nOn Android, applications can use methods in the PackageManager class (Citation: Android-PackageManager) to enumerate other apps installed on device, or an entity with shell access can use the pm command line tool.\n\n\nOn iOS, apps can use private API calls to obtain a list of other apps installed on the device as described by Kurtz (Citation: Kurtz-MaliciousiOSApps), however use of private API calls will likely prevent the application from being distributed through Apple's App Store.",
             "external_references": [
                 {
-                    "source_name": "mitre-mobile-attack",
+                    "external_id": "MOB-T1021",
                     "url": "https://attack.mitre.org/techniques/MOB-T1021",
-                    "external_id": "MOB-T1021"
+                    "source_name": "mitre-mobile-attack"
                 },
                 {
-                    "source_name": "Android-PackageManager",
+                    "url": "https://developer.android.com/reference/android/content/pm/PackageManager.html",
                     "description": "Android. (n.d.). PackageManager. Retrieved December 21, 2016.",
-                    "url": "https://developer.android.com/reference/android/content/pm/PackageManager.html"
+                    "source_name": "Android-PackageManager"
                 },
                 {
-                    "source_name": "Kurtz-MaliciousiOSApps",
+                    "url": "https://andreas-kurtz.de/2014/09/malicious-ios-apps/",
                     "description": "Andreas Kurtz. (2014, September 18). Malicious iOS Apps. Retrieved December 21, 2016.",
-                    "url": "https://andreas-kurtz.de/2014/09/malicious-ios-apps/"
+                    "source_name": "Kurtz-MaliciousiOSApps"
                 }
             ],
             "object_marking_refs": [
@@ -38,15 +38,15 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "kill_chain_name": "mitre-mobile-attack",
-                    "phase_name": "defense-evasion"
+                    "phase_name": "defense-evasion",
+                    "kill_chain_name": "mitre-mobile-attack"
                 },
                 {
-                    "kill_chain_name": "mitre-mobile-attack",
-                    "phase_name": "discovery"
+                    "phase_name": "discovery",
+                    "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-08-15T19:40:57.315Z",
+            "modified": "2018-08-16T16:59:54.597Z",
             "created": "2017-10-25T14:48:28.067Z"
         }
     ]

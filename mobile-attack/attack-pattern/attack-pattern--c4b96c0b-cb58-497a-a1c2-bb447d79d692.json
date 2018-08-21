@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ea56f0d8-86bb-4205-9bfd-5cbea40d944f",
+    "id": "bundle--71f60f30-fc5b-463f-88c1-0f0329fee24f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,14 +10,14 @@
             "description": "A malicious app or other attack vector could capture sensitive data stored in the device clipboard, for example passwords being copy-and-pasted from a password manager app.",
             "external_references": [
                 {
-                    "source_name": "mitre-mobile-attack",
+                    "external_id": "MOB-T1017",
                     "url": "https://attack.mitre.org/techniques/MOB-T1017",
-                    "external_id": "MOB-T1017"
+                    "source_name": "mitre-mobile-attack"
                 },
                 {
-                    "source_name": "NIST Mobile Threat Catalogue",
+                    "external_id": "APP-35",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/application-threats/APP-35.html",
-                    "external_id": "APP-35"
+                    "source_name": "NIST Mobile Threat Catalogue"
                 }
             ],
             "object_marking_refs": [
@@ -33,15 +33,15 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "kill_chain_name": "mitre-mobile-attack",
-                    "phase_name": "collection"
+                    "phase_name": "collection",
+                    "kill_chain_name": "mitre-mobile-attack"
                 },
                 {
-                    "kill_chain_name": "mitre-mobile-attack",
-                    "phase_name": "credential-access"
+                    "phase_name": "credential-access",
+                    "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-08-15T19:40:57.315Z",
+            "modified": "2018-08-16T16:59:54.597Z",
             "created": "2017-10-25T14:48:19.996Z"
         }
     ]

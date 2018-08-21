@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--45a1cc99-5a4a-4eac-af1e-6d5d3c163b8a",
+    "id": "bundle--70b41aec-b498-4675-8002-1848cbc3ba9d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,9 +10,9 @@
             "description": "A malicious application could abuse Android device administrator access to wipe device contents, for example if a ransom is not paid.",
             "external_references": [
                 {
-                    "source_name": "mitre-mobile-attack",
+                    "external_id": "MOB-T1050",
                     "url": "https://attack.mitre.org/techniques/MOB-T1050",
-                    "external_id": "MOB-T1050"
+                    "source_name": "mitre-mobile-attack"
                 }
             ],
             "object_marking_refs": [
@@ -27,11 +27,11 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "kill_chain_name": "mitre-mobile-attack",
-                    "phase_name": "effects"
+                    "phase_name": "effects",
+                    "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-08-15T19:40:57.315Z",
+            "modified": "2018-08-16T16:59:54.597Z",
             "created": "2017-10-25T14:48:31.694Z"
         }
     ]

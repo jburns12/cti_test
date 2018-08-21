@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5cf0570a-15f7-4cba-877b-efb1fa7069d0",
+    "id": "bundle--4e545fc0-59d1-4f02-8c5d-5d3284561a86",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,35 +10,35 @@
             "description": "If an adversary can escalate privileges, he or she may be able to use those privileges to place malicious code in the device kernel or other boot partition components, where the code may evade detection, may persist after device resets, and may not be removable by the device user. In some cases (e.g., the Samsung Knox warranty bit as described under Detection), the attack may be detected but could result in the device being placed in a state that no longer allows certain functionality.\n\nMany Android devices provide the ability to unlock the bootloader for development purposes, but doing so introduces the potential ability for others to maliciously update the kernel or other boot partition code.\n\nIf the bootloader is not unlocked, it may still be possible to exploit device vulnerabilities to update the code.",
             "external_references": [
                 {
-                    "source_name": "mitre-mobile-attack",
+                    "external_id": "MOB-T1001",
                     "url": "https://attack.mitre.org/techniques/MOB-T1001",
-                    "external_id": "MOB-T1001"
+                    "source_name": "mitre-mobile-attack"
                 },
                 {
-                    "source_name": "NIST Mobile Threat Catalogue",
+                    "external_id": "APP-26",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/application-threats/APP-26.html",
-                    "external_id": "APP-26"
+                    "source_name": "NIST Mobile Threat Catalogue"
                 },
                 {
-                    "source_name": "NIST Mobile Threat Catalogue",
+                    "external_id": "APP-27",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/application-threats/APP-27.html",
-                    "external_id": "APP-27"
+                    "source_name": "NIST Mobile Threat Catalogue"
                 },
                 {
-                    "source_name": "Samsung-KnoxWarrantyBit",
+                    "url": "https://www2.samsungknox.com/en/faq/what-knox-warranty-bit-and-how-it-triggered",
                     "description": "Samsung. (n.d.). What is a Knox Warranty Bit and how is it triggered?. Retrieved December 21, 2016.",
-                    "url": "https://www2.samsungknox.com/en/faq/what-knox-warranty-bit-and-how-it-triggered"
+                    "source_name": "Samsung-KnoxWarrantyBit"
                 },
                 {
-                    "source_name": "Apple-iOSSecurityGuide",
+                    "url": "https://www.apple.com/business/docs/iOS%20Security%20Guide.pdf",
                     "description": "Apple. (2016, May). iOS Security. Retrieved December 21, 2016.",
-                    "url": "https://www.apple.com/business/docs/iOS%20Security%20Guide.pdf"
+                    "source_name": "Apple-iOSSecurityGuide"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "The Android SafetyNet API's remote attestation capability could potentially be used to identify and respond to compromised devices. Samsung KNOX also provides a remote attestation capability on supported Samsung Android devices.\n\nSamsung KNOX devices include a non-reversible Knox warranty bit fuse that is triggered \"if a non-Knox kernel has been loaded on the device\" (Citation: Samsung-KnoxWarrantyBit). If triggered, enterprise Knox container services will no longer be available on the device.\n\nAs described in the iOS Security Guide (Citation: Apple-iOSSecurityGuide), iOS devices will fail to boot or fail to allow device activation if unauthorized modifications are detected.\n\nMany enterprise applications perform their own checks to detect and respond to compromised devices. These checks are not foolproof but can detect common signs of compromise.",
+            "x_mitre_detection": "The Android SafetyNet API's remote attestation capability could potentially be used to identify and respond to compromised devices. Samsung KNOX also provides a remote attestation capability on supported Samsung Android devices.\n\nSamsung KNOX devices include a non-reversible Knox warranty bit fuse that is triggered \"if a non-Knox kernel has been loaded on the device\" (Citation: Samsung-KnoxWarrantyBit). If triggered, enterprise Knox container services will no longer be available on the device.\n\n\nAs described in the iOS Security Guide (Citation: Apple-iOSSecurityGuide), iOS devices will fail to boot or fail to allow device activation if unauthorized modifications are detected.\n\n\nMany enterprise applications perform their own checks to detect and respond to compromised devices. These checks are not foolproof but can detect common signs of compromise.",
             "x_mitre_platforms": [
                 "Android",
                 "iOS"
@@ -49,15 +49,15 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "kill_chain_name": "mitre-mobile-attack",
-                    "phase_name": "defense-evasion"
+                    "phase_name": "defense-evasion",
+                    "kill_chain_name": "mitre-mobile-attack"
                 },
                 {
-                    "kill_chain_name": "mitre-mobile-attack",
-                    "phase_name": "persistence"
+                    "phase_name": "persistence",
+                    "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-08-15T19:40:57.315Z",
+            "modified": "2018-08-16T16:59:54.597Z",
             "created": "2017-10-25T14:48:31.294Z"
         }
     ]

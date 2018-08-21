@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--24eb8d63-ca76-40e7-8232-787bca57f4a6",
+    "id": "bundle--5a0d2ca8-0427-443e-a9b2-111d23386546",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,14 +10,14 @@
             "description": "On Android, device type information is accessible to apps through the android.os.Build class (Citation: Android-Build). Device information could be used to target privilege escalation exploits.",
             "external_references": [
                 {
-                    "source_name": "mitre-mobile-attack",
+                    "external_id": "MOB-T1022",
                     "url": "https://attack.mitre.org/techniques/MOB-T1022",
-                    "external_id": "MOB-T1022"
+                    "source_name": "mitre-mobile-attack"
                 },
                 {
-                    "source_name": "Android-Build",
+                    "url": "https://zeltser.com/third-party-keyboards-security/",
                     "description": "Android. (n.d.). Build. Retrieved December 21, 2016.",
-                    "url": "https://zeltser.com/third-party-keyboards-security/"
+                    "source_name": "Android-Build"
                 }
             ],
             "object_marking_refs": [
@@ -32,11 +32,11 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "kill_chain_name": "mitre-mobile-attack",
-                    "phase_name": "discovery"
+                    "phase_name": "discovery",
+                    "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-08-15T19:40:57.315Z",
+            "modified": "2018-08-16T16:59:54.597Z",
             "created": "2017-10-25T14:48:28.456Z"
         }
     ]

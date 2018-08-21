@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--350f353f-ae33-4c75-8f7a-fcb429807ad4",
+    "id": "bundle--fa19b850-0619-4e9f-b154-e0d4f3b4b93c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,14 +10,14 @@
             "description": "A malicious application can request Device Administrator privileges. If the user grants the privileges, the application can take steps to make its removal more difficult.",
             "external_references": [
                 {
-                    "source_name": "mitre-mobile-attack",
+                    "external_id": "MOB-T1004",
                     "url": "https://attack.mitre.org/techniques/MOB-T1004",
-                    "external_id": "MOB-T1004"
+                    "source_name": "mitre-mobile-attack"
                 },
                 {
-                    "source_name": "NIST Mobile Threat Catalogue",
+                    "external_id": "APP-22",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/application-threats/APP-22.html",
-                    "external_id": "APP-22"
+                    "source_name": "NIST Mobile Threat Catalogue"
                 }
             ],
             "object_marking_refs": [
@@ -33,11 +33,11 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "kill_chain_name": "mitre-mobile-attack",
-                    "phase_name": "persistence"
+                    "phase_name": "persistence",
+                    "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-08-15T19:40:57.315Z",
+            "modified": "2018-08-16T16:59:54.597Z",
             "created": "2017-10-25T14:48:29.774Z"
         }
     ]

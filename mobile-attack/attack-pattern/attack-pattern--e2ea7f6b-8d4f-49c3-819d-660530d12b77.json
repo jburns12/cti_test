@@ -1,28 +1,28 @@
 {
     "type": "bundle",
-    "id": "bundle--ad478436-9b9c-4882-a748-d5e2929478c7",
+    "id": "bundle--97c0b739-c07d-4721-a6bb-131d58e9ea46",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--e2ea7f6b-8d4f-49c3-819d-660530d12b77",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "System Information Discovery",
-            "description": "An adversary may attempt to get detailed information about the operating system and hardware, including version, patches, and architecture.\n\nOn Android, much of this information is programmatically accessible to applications through the android.os.Build class (Citation: Android-Build).\n\nOn iOS, techniques exist for applications to programmatically access this information, for example as described in  (Citation: StackOverflow-iOSVersion).",
+            "description": "An adversary may attempt to get detailed information about the operating system and hardware, including version, patches, and architecture.\n\nOn Android, much of this information is programmatically accessible to applications through the android.os.Build class (Citation: Android-Build).\n\n\nOn iOS, techniques exist for applications to programmatically access this information, for example as described in  (Citation: StackOverflow-iOSVersion).",
             "external_references": [
                 {
-                    "source_name": "mitre-mobile-attack",
+                    "external_id": "MOB-T1029",
                     "url": "https://attack.mitre.org/techniques/MOB-T1029",
-                    "external_id": "MOB-T1029"
+                    "source_name": "mitre-mobile-attack"
                 },
                 {
-                    "source_name": "Android-Build",
+                    "url": "https://zeltser.com/third-party-keyboards-security/",
                     "description": "Android. (n.d.). Build. Retrieved December 21, 2016.",
-                    "url": "https://zeltser.com/third-party-keyboards-security/"
+                    "source_name": "Android-Build"
                 },
                 {
-                    "source_name": "StackOverflow-iOSVersion",
+                    "url": "http://stackoverflow.com/questions/7848766/how-can-we-programmatically-detect-which-ios-version-is-device-running-on",
                     "description": "Stack Overflow. (n.d.). How can we programmatically detect which iOS version is device running on?. Retrieved December 21, 2016.",
-                    "url": "http://stackoverflow.com/questions/7848766/how-can-we-programmatically-detect-which-ios-version-is-device-running-on"
+                    "source_name": "StackOverflow-iOSVersion"
                 }
             ],
             "object_marking_refs": [
@@ -38,11 +38,11 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "kill_chain_name": "mitre-mobile-attack",
-                    "phase_name": "discovery"
+                    "phase_name": "discovery",
+                    "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-08-15T19:40:57.315Z",
+            "modified": "2018-08-16T16:59:54.597Z",
             "created": "2017-10-25T14:48:19.265Z"
         }
     ]

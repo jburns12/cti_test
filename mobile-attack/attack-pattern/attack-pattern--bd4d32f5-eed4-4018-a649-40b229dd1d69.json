@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d50702aa-cbeb-411f-a1d8-1dd6e81e69b1",
+    "id": "bundle--edae367b-9c0b-4f17-aa2f-94478cacba87",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,14 +10,14 @@
             "description": "An Android application can listen for the BOOT_COMPLETED broadcast, ensuring that the app's functionality will be activated every time the device starts up without having to wait for the device user to manually start the app.\n\n (Citation: Zhou) and Jiang (Citation: Zhou) analyzed 1260 Android malware samples belonging to 49 families of malware, and determined that 29 malware families and 83.3% of the samples listened for BOOT_COMPLETED.",
             "external_references": [
                 {
-                    "source_name": "mitre-mobile-attack",
+                    "external_id": "MOB-T1005",
                     "url": "https://attack.mitre.org/techniques/MOB-T1005",
-                    "external_id": "MOB-T1005"
+                    "source_name": "mitre-mobile-attack"
                 },
                 {
-                    "source_name": "Zhou",
+                    "url": "http://ieeexplore.ieee.org/document/6234407",
                     "description": "Yajin Zhou and Xuxian Jiang. (2012, May). Dissecting Android Malware: Characterization and Evolution. Retrieved December 9, 2016.",
-                    "url": "http://ieeexplore.ieee.org/document/6234407"
+                    "source_name": "Zhou"
                 }
             ],
             "object_marking_refs": [
@@ -32,11 +32,11 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "kill_chain_name": "mitre-mobile-attack",
-                    "phase_name": "persistence"
+                    "phase_name": "persistence",
+                    "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-08-15T19:40:57.315Z",
+            "modified": "2018-08-16T16:59:54.597Z",
             "created": "2017-10-25T14:48:30.127Z"
         }
     ]

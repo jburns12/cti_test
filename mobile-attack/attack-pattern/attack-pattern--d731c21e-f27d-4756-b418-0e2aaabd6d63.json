@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0dfe520a-ce7f-4e7c-82b5-6c06ae2d2447",
+    "id": "bundle--53a174bd-21eb-41aa-8387-bebe66e5569f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,19 +10,19 @@
             "description": "If network traffic between the mobile device and a remote server is not securely protected, then an attacker positioned on the network may be able to manipulate network communication without being detected. For example, FireEye researchers found in 2014 that 68% of the top 1,000 free applications in the Google Play Store had at least one Transport Layer Security (TLS) implementation vulnerability potentially opening the applications' network traffic to man-in-the-middle attacks (Citation: FireEye-SSL).",
             "external_references": [
                 {
-                    "source_name": "mitre-mobile-attack",
+                    "external_id": "MOB-T1066",
                     "url": "https://attack.mitre.org/techniques/MOB-T1066",
-                    "external_id": "MOB-T1066"
+                    "source_name": "mitre-mobile-attack"
                 },
                 {
-                    "source_name": "NIST Mobile Threat Catalogue",
+                    "external_id": "APP-1",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/application-threats/APP-1.html",
-                    "external_id": "APP-1"
+                    "source_name": "NIST Mobile Threat Catalogue"
                 },
                 {
-                    "source_name": "FireEye-SSL",
+                    "url": "https://www.fireeye.com/blog/threat-research/2014/08/ssl-vulnerabilities-who-listens-when-android-applications-talk.html",
                     "description": "Adrian Mettler, Yulong Zhang, Vishwanath Raman. (2014, August 20). SSL VULNERABILITIES: WHO LISTENS WHEN ANDROID APPLICATIONS TALK?. Retrieved December 24, 2016.",
-                    "url": "https://www.fireeye.com/blog/threat-research/2014/08/ssl-vulnerabilities-who-listens-when-android-applications-talk.html"
+                    "source_name": "FireEye-SSL"
                 }
             ],
             "object_marking_refs": [
@@ -38,11 +38,11 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "kill_chain_name": "mitre-mobile-attack",
-                    "phase_name": "general-network-based"
+                    "phase_name": "general-network-based",
+                    "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-08-15T19:40:57.315Z",
+            "modified": "2018-08-16T16:59:54.597Z",
             "created": "2017-10-25T14:48:25.322Z"
         }
     ]

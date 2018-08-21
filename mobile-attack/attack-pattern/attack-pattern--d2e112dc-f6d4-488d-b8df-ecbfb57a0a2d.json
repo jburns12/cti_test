@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fb99b77f-2bcb-442a-9547-1c82fd84581f",
+    "id": "bundle--55a8d48c-f9e2-48e0-9f92-e99e7b84947e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,34 +10,34 @@
             "description": "An attacker could jam radio signals (e.g. Wi-Fi, cellular, GPS) to prevent the mobile device from communicating as described in draft NIST SP 800-187 (Citation: NIST-SP800187).",
             "external_references": [
                 {
-                    "source_name": "mitre-mobile-attack",
+                    "external_id": "MOB-T1067",
                     "url": "https://attack.mitre.org/techniques/MOB-T1067",
-                    "external_id": "MOB-T1067"
+                    "source_name": "mitre-mobile-attack"
                 },
                 {
-                    "source_name": "NIST Mobile Threat Catalogue",
+                    "external_id": "CEL-7",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/cellular-threats/CEL-7.html",
-                    "external_id": "CEL-7"
+                    "source_name": "NIST Mobile Threat Catalogue"
                 },
                 {
-                    "source_name": "NIST Mobile Threat Catalogue",
+                    "external_id": "CEL-8",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/cellular-threats/CEL-8.html",
-                    "external_id": "CEL-8"
+                    "source_name": "NIST Mobile Threat Catalogue"
                 },
                 {
-                    "source_name": "NIST Mobile Threat Catalogue",
+                    "external_id": "LPN-5",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/lan-pan-threats/LPN-5.html",
-                    "external_id": "LPN-5"
+                    "source_name": "NIST Mobile Threat Catalogue"
                 },
                 {
-                    "source_name": "NIST Mobile Threat Catalogue",
+                    "external_id": "GPS-0",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/gps-threats/GPS-0.html",
-                    "external_id": "GPS-0"
+                    "source_name": "NIST Mobile Threat Catalogue"
                 },
                 {
-                    "source_name": "NIST-SP800187",
+                    "url": "http://csrc.nist.gov/publications/drafts/800-187/sp800%20187%20draft.pdf",
                     "description": "Jeffrey Cichonski, Joshua M Franklin, Michael Bartock. (2016, November). Guide to LTE Security (DRAFT). Retrieved January 20, 2017.",
-                    "url": "http://csrc.nist.gov/publications/drafts/800-187/sp800%20187%20draft.pdf"
+                    "source_name": "NIST-SP800187"
                 }
             ],
             "object_marking_refs": [
@@ -53,15 +53,15 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "kill_chain_name": "mitre-mobile-attack",
-                    "phase_name": "cellular-network-based"
+                    "phase_name": "cellular-network-based",
+                    "kill_chain_name": "mitre-mobile-attack"
                 },
                 {
-                    "kill_chain_name": "mitre-mobile-attack",
-                    "phase_name": "general-network-based"
+                    "phase_name": "general-network-based",
+                    "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-08-15T19:40:57.315Z",
+            "modified": "2018-08-16T16:59:54.597Z",
             "created": "2017-10-25T14:48:25.740Z"
         }
     ]

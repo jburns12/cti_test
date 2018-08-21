@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e5926b61-653e-465e-9e5c-27c2d3bea10e",
+    "id": "bundle--3a4b04c9-868b-4098-8e97-3fee8d63ff52",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,24 +10,24 @@
             "description": "If network traffic between the mobile device and remote servers is unencrypted or is encrypted in an insecure manner, then an adversary positioned on the network can eavesdrop on communication. For example, He et al. (Citation: mHealth) describe numerous healthcare-related applications that did not properly protect network communication.",
             "external_references": [
                 {
-                    "source_name": "mitre-mobile-attack",
+                    "external_id": "MOB-T1042",
                     "url": "https://attack.mitre.org/techniques/MOB-T1042",
-                    "external_id": "MOB-T1042"
+                    "source_name": "mitre-mobile-attack"
                 },
                 {
-                    "source_name": "NIST Mobile Threat Catalogue",
+                    "external_id": "APP-0",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/application-threats/APP-0.html",
-                    "external_id": "APP-0"
+                    "source_name": "NIST Mobile Threat Catalogue"
                 },
                 {
-                    "source_name": "NIST Mobile Threat Catalogue",
+                    "external_id": "APP-1",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/application-threats/APP-1.html",
-                    "external_id": "APP-1"
+                    "source_name": "NIST Mobile Threat Catalogue"
                 },
                 {
-                    "source_name": "mHealth",
+                    "url": "https://experts.illinois.edu/en/publications/security-concerns-in-android-mhealth-apps",
                     "description": "D. He et al.. (2014). Security Concerns in Android mHealth Apps. Retrieved December 24, 2016.",
-                    "url": "https://experts.illinois.edu/en/publications/security-concerns-in-android-mhealth-apps"
+                    "source_name": "mHealth"
                 }
             ],
             "object_marking_refs": [
@@ -43,11 +43,11 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "kill_chain_name": "mitre-mobile-attack",
-                    "phase_name": "general-network-based"
+                    "phase_name": "general-network-based",
+                    "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-08-15T19:40:57.315Z",
+            "modified": "2018-08-16T16:59:54.597Z",
             "created": "2017-10-25T14:48:26.104Z"
         }
     ]

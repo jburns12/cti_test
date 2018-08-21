@@ -1,38 +1,38 @@
 {
     "type": "bundle",
-    "id": "bundle--8dd82743-ba6d-48fd-97ba-c0c8d9f981af",
+    "id": "bundle--3961b012-e0cb-4eb2-a75e-457ecc711e88",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--c91c304a-975d-4501-9789-0db1c57afd3f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Exploit Baseband Vulnerability",
-            "description": "A message sent over a radio interface (typically cellular, but potentially Bluetooth, GPS, NFC, Wi-Fi or other) to the mobile device could exploit a vulnerability in code running on the device.\n\nD. Komaromy and N. Golde demonstrated baseband exploitation of a Samsung mobile device at the PacSec 2015 security conference (Citation: Register-BaseStation).\n\nWeinmann described and demonstrated \"the risk of remotely exploitable memory corruptions in cellular baseband stacks.\" (Citation: Weinmann-Baseband)",
+            "description": "A message sent over a radio interface (typically cellular, but potentially Bluetooth, GPS, NFC, Wi-Fi or other) to the mobile device could exploit a vulnerability in code running on the device.\n\nD. Komaromy and N. Golde demonstrated baseband exploitation of a Samsung mobile device at the PacSec 2015 security conference (Citation: Register-BaseStation).\n\n\nWeinmann described and demonstrated \"the risk of remotely exploitable memory corruptions in cellular baseband stacks.\" (Citation: Weinmann-Baseband)",
             "external_references": [
                 {
-                    "source_name": "mitre-mobile-attack",
+                    "external_id": "MOB-T1058",
                     "url": "https://attack.mitre.org/techniques/MOB-T1058",
-                    "external_id": "MOB-T1058"
+                    "source_name": "mitre-mobile-attack"
                 },
                 {
-                    "source_name": "NIST Mobile Threat Catalogue",
+                    "external_id": "STA-18",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/stack-threats/STA-18.html",
-                    "external_id": "STA-18"
+                    "source_name": "NIST Mobile Threat Catalogue"
                 },
                 {
-                    "source_name": "NIST Mobile Threat Catalogue",
+                    "external_id": "STA-19",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/stack-threats/STA-19.html",
-                    "external_id": "STA-19"
+                    "source_name": "NIST Mobile Threat Catalogue"
                 },
                 {
-                    "source_name": "Register-BaseStation",
+                    "url": "http://www.theregister.co.uk/2015/11/12/mobile%20pwn2own1/",
                     "description": "D. Pauli. (2015, November 12). Samsung S6 calls open to man-in-the-middle base station snooping. Retrieved December 23, 2016.",
-                    "url": "http://www.theregister.co.uk/2015/11/12/mobile%20pwn2own1/"
+                    "source_name": "Register-BaseStation"
                 },
                 {
-                    "source_name": "Weinmann-Baseband",
+                    "url": "https://www.usenix.org/system/files/conference/woot12/woot12-final24.pdf",
                     "description": "R. Weinmann. (2012, August 6-7). Baseband Attacks: Remote Exploitation of Memory Corruptions in Cellular Protocol Stacks. Retrieved December 23, 2016.",
-                    "url": "https://www.usenix.org/system/files/conference/woot12/woot12-final24.pdf"
+                    "source_name": "Weinmann-Baseband"
                 }
             ],
             "object_marking_refs": [
@@ -48,11 +48,11 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "kill_chain_name": "mitre-mobile-attack",
-                    "phase_name": "exploit-via-cellular-network"
+                    "phase_name": "exploit-via-cellular-network",
+                    "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-08-15T19:40:57.315Z",
+            "modified": "2018-08-16T16:59:54.597Z",
             "created": "2017-10-25T14:48:07.149Z"
         }
     ]

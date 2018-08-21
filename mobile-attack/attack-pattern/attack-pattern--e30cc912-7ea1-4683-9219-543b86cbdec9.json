@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1c6478fa-db42-4b5d-8dda-d29750922598",
+    "id": "bundle--60ad4bb5-8b0f-45ec-9ad8-f3e656a89478",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,14 +10,14 @@
             "description": "An adversary could use fake identities, payment cards, etc., to create developer accounts to publish malicious applications to app stores. For example, Oberheide and Miller describe use of this technique in  (Citation: Oberheide-Bouncer).",
             "external_references": [
                 {
-                    "source_name": "mitre-mobile-attack",
+                    "external_id": "MOB-T1045",
                     "url": "https://attack.mitre.org/techniques/MOB-T1045",
-                    "external_id": "MOB-T1045"
+                    "source_name": "mitre-mobile-attack"
                 },
                 {
-                    "source_name": "Oberheide-Bouncer",
+                    "url": "https://jon.oberheide.org/files/summercon12-bouncer.pdf",
                     "description": "Jon Oberheide and Charlie Miller. (2012). Dissecting the Android Bouncer. Retrieved December 12, 2016.",
-                    "url": "https://jon.oberheide.org/files/summercon12-bouncer.pdf"
+                    "source_name": "Oberheide-Bouncer"
                 }
             ],
             "object_marking_refs": [
@@ -33,11 +33,11 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "kill_chain_name": "mitre-mobile-attack",
-                    "phase_name": "app-delivery-via-authorized-app-store"
+                    "phase_name": "app-delivery-via-authorized-app-store",
+                    "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-08-15T19:40:57.315Z",
+            "modified": "2018-08-16T16:59:54.597Z",
             "created": "2017-10-25T14:48:28.786Z"
         }
     ]

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e3a3377c-6924-4215-ac6f-12e77d8ec987",
+    "id": "bundle--f5efaa6d-4401-4e8e-94a7-0d5e20ae32e3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,14 +10,14 @@
             "description": "A malicious app can exploit unpatched vulnerabilities in the operating system to obtain escalated privileges.",
             "external_references": [
                 {
-                    "source_name": "mitre-mobile-attack",
+                    "external_id": "MOB-T1007",
                     "url": "https://attack.mitre.org/techniques/MOB-T1007",
-                    "external_id": "MOB-T1007"
+                    "source_name": "mitre-mobile-attack"
                 },
                 {
-                    "source_name": "NIST Mobile Threat Catalogue",
+                    "external_id": "APP-26",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/application-threats/APP-26.html",
-                    "external_id": "APP-26"
+                    "source_name": "NIST Mobile Threat Catalogue"
                 }
             ],
             "object_marking_refs": [
@@ -33,11 +33,11 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "kill_chain_name": "mitre-mobile-attack",
-                    "phase_name": "privilege-escalation"
+                    "phase_name": "privilege-escalation",
+                    "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-08-15T19:40:57.315Z",
+            "modified": "2018-08-16T16:59:54.597Z",
             "created": "2017-10-25T14:48:29.405Z"
         }
     ]

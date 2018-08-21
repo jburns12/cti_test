@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d12b6d19-f498-48ee-aa7e-af0e07c9ca98",
+    "id": "bundle--831d05c8-e365-4a8c-9f66-5c003eb25b5f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,24 +10,24 @@
             "description": "An adversary who is able to obtain unauthorized access to or misuse authorized access to cloud backup services (e.g. Google's Android backup service or Apple's iCloud) could use that access to obtain sensitive data stored in device backups. For example, the Elcomsoft Phone Breaker product advertises the ability to retrieve iOS backup data from Apple's iCloud (Citation: Elcomsoft-EPPB).",
             "external_references": [
                 {
-                    "source_name": "mitre-mobile-attack",
+                    "external_id": "MOB-T1073",
                     "url": "https://attack.mitre.org/techniques/MOB-T1073",
-                    "external_id": "MOB-T1073"
+                    "source_name": "mitre-mobile-attack"
                 },
                 {
-                    "source_name": "NIST Mobile Threat Catalogue",
+                    "external_id": "ECO-0",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/ecosystem-threats/ECO-0.html",
-                    "external_id": "ECO-0"
+                    "source_name": "NIST Mobile Threat Catalogue"
                 },
                 {
-                    "source_name": "NIST Mobile Threat Catalogue",
+                    "external_id": "ECO-1",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/ecosystem-threats/ECO-1.html",
-                    "external_id": "ECO-1"
+                    "source_name": "NIST Mobile Threat Catalogue"
                 },
                 {
-                    "source_name": "Elcomsoft-EPPB",
+                    "url": "https://www.elcomsoft.com/eppb.html",
                     "description": "Elcomsoft. (n.d.). Elcomsoft Phone Breaker. Retrieved December 29, 2016.",
-                    "url": "https://www.elcomsoft.com/eppb.html"
+                    "source_name": "Elcomsoft-EPPB"
                 }
             ],
             "object_marking_refs": [
@@ -44,11 +44,11 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "kill_chain_name": "mitre-mobile-attack",
-                    "phase_name": "cloud-based"
+                    "phase_name": "cloud-based",
+                    "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-08-15T19:40:57.315Z",
+            "modified": "2018-08-16T16:59:54.597Z",
             "created": "2017-10-25T14:48:18.237Z"
         }
     ]

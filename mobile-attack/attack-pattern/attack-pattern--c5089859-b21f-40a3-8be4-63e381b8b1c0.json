@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--85197ce1-55cc-4a2e-9684-2e0945f112bb",
+    "id": "bundle--b087c27a-a652-453b-a0fa-7b901b41b721",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,30 +10,30 @@
             "description": "If an adversary can escalate privileges, he or she may be able to use those privileges to place malicious code in the device system partition, where it may persist after device resets and may not be easily removed by the device user.\n\nMany Android devices provide the ability to unlock the bootloader for development purposes. An unlocked bootloader may provide the ability for an adversary to modify the system partition. Even if the bootloader is locked, it may be possible for an adversary to escalate privileges and then modify the system partition.",
             "external_references": [
                 {
-                    "source_name": "mitre-mobile-attack",
+                    "external_id": "MOB-T1003",
                     "url": "https://attack.mitre.org/techniques/MOB-T1003",
-                    "external_id": "MOB-T1003"
+                    "source_name": "mitre-mobile-attack"
                 },
                 {
-                    "source_name": "NIST Mobile Threat Catalogue",
+                    "external_id": "APP-27",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/application-threats/APP-27.html",
-                    "external_id": "APP-27"
+                    "source_name": "NIST Mobile Threat Catalogue"
                 },
                 {
-                    "source_name": "Android-VerifiedBoot",
+                    "url": "https://source.android.com/security/verifiedboot/",
                     "description": "Android. (n.d.). Verified Boot. Retrieved December 21, 2016.",
-                    "url": "https://source.android.com/security/verifiedboot/"
+                    "source_name": "Android-VerifiedBoot"
                 },
                 {
-                    "source_name": "Apple-iOSSecurityGuide",
+                    "url": "https://www.apple.com/business/docs/iOS%20Security%20Guide.pdf",
                     "description": "Apple. (2016, May). iOS Security. Retrieved December 21, 2016.",
-                    "url": "https://www.apple.com/business/docs/iOS%20Security%20Guide.pdf"
+                    "source_name": "Apple-iOSSecurityGuide"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Android devices with the Verified Boot capability (Citation: Android-VerifiedBoot) perform cryptographic checks of the integrity of the system partition.\n\nThe Android SafetyNet API's remote attestation capability could potentially be used to identify and respond to compromised devices.\n\nSamsung KNOX also provides a remote attestation capability on supported Samsung Android devices.\n\nAs described in the iOS Security Guide (Citation: Apple-iOSSecurityGuide), iOS devices will fail to boot or fail to allow device activation if unauthorized modifications are detected.",
+            "x_mitre_detection": "Android devices with the Verified Boot capability (Citation: Android-VerifiedBoot) perform cryptographic checks of the integrity of the system partition.\n\n\nThe Android SafetyNet API's remote attestation capability could potentially be used to identify and respond to compromised devices.\n\nSamsung KNOX also provides a remote attestation capability on supported Samsung Android devices.\n\nAs described in the iOS Security Guide (Citation: Apple-iOSSecurityGuide), iOS devices will fail to boot or fail to allow device activation if unauthorized modifications are detected.",
             "x_mitre_platforms": [
                 "Android",
                 "iOS"
@@ -44,15 +44,15 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "kill_chain_name": "mitre-mobile-attack",
-                    "phase_name": "defense-evasion"
+                    "phase_name": "defense-evasion",
+                    "kill_chain_name": "mitre-mobile-attack"
                 },
                 {
-                    "kill_chain_name": "mitre-mobile-attack",
-                    "phase_name": "persistence"
+                    "phase_name": "persistence",
+                    "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-08-15T19:40:57.315Z",
+            "modified": "2018-08-16T16:59:54.597Z",
             "created": "2017-10-25T14:48:30.890Z"
         }
     ]

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--287fde3a-4a63-44c1-b162-8c7e747e65e6",
+    "id": "bundle--cd70fdb5-dca8-4fea-9fe0-beb65a429eb1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,24 +10,24 @@
             "description": "An adversary who is able to obtain unauthorized access to or misuse authorized access to cloud services (e.g. Google's Android Device Manager or Apple iCloud's Find my iPhone) or to an EMM console could use that access to wipe enrolled devices (Citation: Honan-Hacking).",
             "external_references": [
                 {
-                    "source_name": "mitre-mobile-attack",
+                    "external_id": "MOB-T1072",
                     "url": "https://attack.mitre.org/techniques/MOB-T1072",
-                    "external_id": "MOB-T1072"
+                    "source_name": "mitre-mobile-attack"
                 },
                 {
-                    "source_name": "NIST Mobile Threat Catalogue",
+                    "external_id": "ECO-5",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/ecosystem-threats/ECO-5.html",
-                    "external_id": "ECO-5"
+                    "source_name": "NIST Mobile Threat Catalogue"
                 },
                 {
-                    "source_name": "NIST Mobile Threat Catalogue",
+                    "external_id": "EMM-7",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/emm-threats/EMM-7.html",
-                    "external_id": "EMM-7"
+                    "source_name": "NIST Mobile Threat Catalogue"
                 },
                 {
-                    "source_name": "Honan-Hacking",
+                    "url": "https://www.wired.com/2012/08/apple-amazon-mat-honan-hacking/",
                     "description": "Mat Honan. (2012, August 6). How Apple and Amazon Security Flaws Led to My Epic Hacking. Retrieved December 29, 2016.",
-                    "url": "https://www.wired.com/2012/08/apple-amazon-mat-honan-hacking/"
+                    "source_name": "Honan-Hacking"
                 }
             ],
             "object_marking_refs": [
@@ -44,11 +44,11 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "kill_chain_name": "mitre-mobile-attack",
-                    "phase_name": "cloud-based"
+                    "phase_name": "cloud-based",
+                    "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-08-15T19:40:57.315Z",
+            "modified": "2018-08-16T16:59:54.597Z",
             "created": "2017-10-25T14:48:07.827Z"
         }
     ]

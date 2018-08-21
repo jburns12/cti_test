@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--06a2a88c-2528-4ca2-ab1c-a3c1e1b505aa",
+    "id": "bundle--0101f4da-d0c2-47e0-bbfd-2f6a96d25222",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,14 +10,14 @@
             "description": "A malicious app could abuse Android's accessibility features to capture sensitive data or perform other malicious actions, as demonstrated in a proof of concept created by Skycure (Citation: Skycure-Accessibility).",
             "external_references": [
                 {
-                    "source_name": "mitre-mobile-attack",
+                    "external_id": "MOB-T1056",
                     "url": "https://attack.mitre.org/techniques/MOB-T1056",
-                    "external_id": "MOB-T1056"
+                    "source_name": "mitre-mobile-attack"
                 },
                 {
-                    "source_name": "Skycure-Accessibility",
+                    "url": "https://www.skycure.com/blog/accessibility-clickjacking/",
                     "description": "Yair Amit. (2016, March 3). \u201cAccessibility Clickjacking\u201d \u2013 The Next Evolution in Android Malware that Impacts More Than 500 Million Devices. Retrieved December 21, 2016.",
-                    "url": "https://www.skycure.com/blog/accessibility-clickjacking/"
+                    "source_name": "Skycure-Accessibility"
                 }
             ],
             "object_marking_refs": [
@@ -32,15 +32,15 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "kill_chain_name": "mitre-mobile-attack",
-                    "phase_name": "collection"
+                    "phase_name": "collection",
+                    "kill_chain_name": "mitre-mobile-attack"
                 },
                 {
-                    "kill_chain_name": "mitre-mobile-attack",
-                    "phase_name": "credential-access"
+                    "phase_name": "credential-access",
+                    "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-08-15T19:40:57.315Z",
+            "modified": "2018-08-16T16:59:54.597Z",
             "created": "2017-10-25T14:48:08.613Z"
         }
     ]

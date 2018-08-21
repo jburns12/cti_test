@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9a54d055-637c-4c17-9b49-ea0b20c6e136",
+    "id": "bundle--60ee540f-77a5-4739-945b-4aeb6ab05268",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,14 +10,14 @@
             "description": "As demonstrated by the XcodeGhost attack (Citation: PaloAlto-XcodeGhost1), app developers could be provided with modified versions of software development tools (e.g. compilers) that automatically inject malicious or exploitable code into applications.",
             "external_references": [
                 {
-                    "source_name": "mitre-mobile-attack",
+                    "external_id": "MOB-T1065",
                     "url": "https://attack.mitre.org/techniques/MOB-T1065",
-                    "external_id": "MOB-T1065"
+                    "source_name": "mitre-mobile-attack"
                 },
                 {
-                    "source_name": "PaloAlto-XcodeGhost1",
+                    "url": "http://researchcenter.paloaltonetworks.com/2015/09/novel-malware-xcodeghost-modifies-xcode-infects-apple-ios-apps-and-hits-app-store/",
                     "description": "Claud Xiao. (2015, September 17). Novel Malware XcodeGhost Modifies Xcode, Infects Apple iOS Apps and Hits App Store. Retrieved December 21, 2016.",
-                    "url": "http://researchcenter.paloaltonetworks.com/2015/09/novel-malware-xcodeghost-modifies-xcode-infects-apple-ios-apps-and-hits-app-store/"
+                    "source_name": "PaloAlto-XcodeGhost1"
                 }
             ],
             "object_marking_refs": [
@@ -34,11 +34,11 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "kill_chain_name": "mitre-mobile-attack",
-                    "phase_name": "supply-chain"
+                    "phase_name": "supply-chain",
+                    "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-08-15T19:40:57.315Z",
+            "modified": "2018-08-16T16:59:54.597Z",
             "created": "2017-10-25T14:48:24.905Z"
         }
     ]

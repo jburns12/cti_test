@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f3f693b5-f37c-4388-9d95-db222386cfd3",
+    "id": "bundle--f439540c-ab08-454f-aea5-0011ca557cc5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,34 +10,34 @@
             "description": "An adversary could exploit signaling system vulnerabilities to redirect calls or text messages to a phone number under the attacker's control. The adversary could then act as a man-in-the-middle to intercept or manipulate the communication. These issues are discussed in  (Citation: Engel-SS7),  (Citation: Engel-SS7)-2008,  (Citation: 3GPP-Security),  (Citation: Positive-SS7), as well as in a report from the Communications, Security, Reliability, and Interoperability Council (CSRIC)  (Citation: CSRIC5-WG10-FinalReport).",
             "external_references": [
                 {
-                    "source_name": "mitre-mobile-attack",
+                    "external_id": "MOB-T1052",
                     "url": "https://attack.mitre.org/techniques/MOB-T1052",
-                    "external_id": "MOB-T1052"
+                    "source_name": "mitre-mobile-attack"
                 },
                 {
-                    "source_name": "NIST Mobile Threat Catalogue",
+                    "external_id": "CEL-37",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/cellular-threats/CEL-37.html",
-                    "external_id": "CEL-37"
+                    "source_name": "NIST Mobile Threat Catalogue"
                 },
                 {
-                    "source_name": "Engel-SS7",
+                    "url": "https://berlin.ccc.de/~tobias/31c3-ss7-locate-track-manipulate.pdf",
                     "description": "Tobias Engel. (2014, December). SS7: Locate. Track. Manipulate.. Retrieved December 19, 2016.",
-                    "url": "https://berlin.ccc.de/~tobias/31c3-ss7-locate-track-manipulate.pdf"
+                    "source_name": "Engel-SS7"
                 },
                 {
-                    "source_name": "3GPP-Security",
+                    "url": "http://www.3gpp.org/ftp/tsg%20sa/wg3%20security/%20specs/33900-120.pdf",
                     "description": "3GPP. (2000, January). A Guide to 3rd Generation Security. Retrieved December 19, 2016.",
-                    "url": "http://www.3gpp.org/ftp/tsg%20sa/wg3%20security/%20specs/33900-120.pdf"
+                    "source_name": "3GPP-Security"
                 },
                 {
-                    "source_name": "Positive-SS7",
+                    "url": "https://www.ptsecurity.com/upload/ptcom/PT-SS7-AD-Data-Sheet-eng.pdf",
                     "description": "Positive Technologies. (n.d.). SS7 Attack Discovery. Retrieved December 19, 2016.",
-                    "url": "https://www.ptsecurity.com/upload/ptcom/PT-SS7-AD-Data-Sheet-eng.pdf"
+                    "source_name": "Positive-SS7"
                 },
                 {
-                    "source_name": "CSRIC5-WG10-FinalReport",
+                    "url": "https://www.fcc.gov/files/csric5-wg10-finalreport031517pdf",
                     "description": "Communications Security, Reliability, Interoperability Council (CSRIC). (2017, March). Working Group 10 Legacy Systems Risk Reductions Final Report. Retrieved May 24, 2017.",
-                    "url": "https://www.fcc.gov/files/csric5-wg10-finalreport031517pdf"
+                    "source_name": "CSRIC5-WG10-FinalReport"
                 }
             ],
             "object_marking_refs": [
@@ -54,11 +54,11 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "kill_chain_name": "mitre-mobile-attack",
-                    "phase_name": "cellular-network-based"
+                    "phase_name": "cellular-network-based",
+                    "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-08-15T19:40:57.315Z",
+            "modified": "2018-08-16T16:59:54.597Z",
             "created": "2017-10-25T14:48:06.524Z"
         }
     ]

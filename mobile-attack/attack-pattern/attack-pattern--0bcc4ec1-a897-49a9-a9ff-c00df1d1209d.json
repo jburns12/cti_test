@@ -1,28 +1,28 @@
 {
     "type": "bundle",
-    "id": "bundle--d9ef07cf-0cb3-474a-8f4e-7c0b3adf00ca",
+    "id": "bundle--422b7836-cbc5-4abb-9c42-2f7b109eba88",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--0bcc4ec1-a897-49a9-a9ff-c00df1d1209d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Malicious SMS Message",
-            "description": "An SMS message could contain content designed to exploit vulnerabilities in the SMS parser on the receiving device. For example, Mulliner and Miller demonstrated such an attack against the iPhone in 2009 as described in  (Citation: Forbes-iPhoneSMS).\n\nAn SMS message could also contain a link to a web site containing malicious content designed to exploit the device web browser.\n\nAs described by SRLabs in  (Citation: SRLabs-SIMCard), vulnerable SIM cards may be remotely exploited and reprogrammed via SMS messages.",
+            "description": "An SMS message could contain content designed to exploit vulnerabilities in the SMS parser on the receiving device. For example, Mulliner and Miller demonstrated such an attack against the iPhone in 2009 as described in  (Citation: Forbes-iPhoneSMS).\n\n\nAn SMS message could also contain a link to a web site containing malicious content designed to exploit the device web browser.\n\nAs described by SRLabs in  (Citation: SRLabs-SIMCard), vulnerable SIM cards may be remotely exploited and reprogrammed via SMS messages.",
             "external_references": [
                 {
-                    "source_name": "mitre-mobile-attack",
+                    "external_id": "MOB-T1057",
                     "url": "https://attack.mitre.org/techniques/MOB-T1057",
-                    "external_id": "MOB-T1057"
+                    "source_name": "mitre-mobile-attack"
                 },
                 {
-                    "source_name": "Forbes-iPhoneSMS",
+                    "url": "http://www.forbes.com/2009/07/28/hackers-iphone-apple-technology-security-hackers.html",
                     "description": "Andy Greenberg. (2009, July 28). How to Hijack 'Every iPhone In The World'. Retrieved December 23, 2016.",
-                    "url": "http://www.forbes.com/2009/07/28/hackers-iphone-apple-technology-security-hackers.html"
+                    "source_name": "Forbes-iPhoneSMS"
                 },
                 {
-                    "source_name": "SRLabs-SIMCard",
+                    "url": "https://srlabs.de/bites/rooting-sim-cards/",
                     "description": "SRLabs. (n.d.). SIM cards are prone to remote hacking. Retrieved December 23, 2016.",
-                    "url": "https://srlabs.de/bites/rooting-sim-cards/"
+                    "source_name": "SRLabs-SIMCard"
                 }
             ],
             "object_marking_refs": [
@@ -38,11 +38,11 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "kill_chain_name": "mitre-mobile-attack",
-                    "phase_name": "exploit-via-cellular-network"
+                    "phase_name": "exploit-via-cellular-network",
+                    "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-08-15T19:40:57.315Z",
+            "modified": "2018-08-16T16:59:54.597Z",
             "created": "2017-10-25T14:48:08.155Z"
         }
     ]

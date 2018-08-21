@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e9621d2f-eccc-495f-90d6-7f7387323fa0",
+    "id": "bundle--3b19775a-2203-443d-b719-22b49e88cf27",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,19 +10,19 @@
             "description": "The application is downloaded from an arbitrary web site. A link to the application's download URI may be sent in an email or SMS, placed on another web site that the target is likely to view, or sent via other means (such as QR code).",
             "external_references": [
                 {
-                    "source_name": "mitre-mobile-attack",
+                    "external_id": "MOB-T1034",
                     "url": "https://attack.mitre.org/techniques/MOB-T1034",
-                    "external_id": "MOB-T1034"
+                    "source_name": "mitre-mobile-attack"
                 },
                 {
-                    "source_name": "NIST Mobile Threat Catalogue",
+                    "external_id": "AUT-9",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/authentication-threats/AUT-9.html",
-                    "external_id": "AUT-9"
+                    "source_name": "NIST Mobile Threat Catalogue"
                 },
                 {
-                    "source_name": "NIST Mobile Threat Catalogue",
+                    "external_id": "ECO-21",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/ecosystem-threats/ECO-21.html",
-                    "external_id": "ECO-21"
+                    "source_name": "NIST Mobile Threat Catalogue"
                 }
             ],
             "object_marking_refs": [
@@ -39,11 +39,11 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "kill_chain_name": "mitre-mobile-attack",
-                    "phase_name": "app-delivery-via-other-means"
+                    "phase_name": "app-delivery-via-other-means",
+                    "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-08-15T19:40:57.315Z",
+            "modified": "2018-08-16T16:59:54.597Z",
             "created": "2017-10-25T14:48:11.861Z"
         }
     ]

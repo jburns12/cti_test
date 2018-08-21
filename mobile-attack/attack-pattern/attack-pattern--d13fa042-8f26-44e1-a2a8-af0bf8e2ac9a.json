@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dd815a24-b5db-43c2-b1d1-c324e4730b5b",
+    "id": "bundle--11901969-0423-4d9d-98f6-b695b254c028",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,34 +10,34 @@
             "description": "An app could contain malicious code in obfuscated or encrypted form, then deobfuscate or decrypt the code at runtime to evade many app vetting techniques, as described in  (Citation: Rastogi) (Citation: Zhou) (Citation: TrendMicro-Obad) (Citation: Xiao-iOS).",
             "external_references": [
                 {
-                    "source_name": "mitre-mobile-attack",
+                    "external_id": "MOB-T1009",
                     "url": "https://attack.mitre.org/techniques/MOB-T1009",
-                    "external_id": "MOB-T1009"
+                    "source_name": "mitre-mobile-attack"
                 },
                 {
-                    "source_name": "NIST Mobile Threat Catalogue",
+                    "external_id": "APP-21",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/application-threats/APP-21.html",
-                    "external_id": "APP-21"
+                    "source_name": "NIST Mobile Threat Catalogue"
                 },
                 {
-                    "source_name": "Rastogi",
+                    "url": "http://pages.cs.wisc.edu/~vrastogi/static/papers/rcj13b.pdf",
                     "description": "Vaibhav Rastogi, Yan Chen, and Xuxian Jiang. (2013, May). DroidChameleon: Evaluating Android Anti-malware against Transformation Attacks. Retrieved December 9, 2016.",
-                    "url": "http://pages.cs.wisc.edu/~vrastogi/static/papers/rcj13b.pdf"
+                    "source_name": "Rastogi"
                 },
                 {
-                    "source_name": "Zhou",
+                    "url": "http://ieeexplore.ieee.org/document/6234407",
                     "description": "Yajin Zhou and Xuxian Jiang. (2012, May). Dissecting Android Malware: Characterization and Evolution. Retrieved December 9, 2016.",
-                    "url": "http://ieeexplore.ieee.org/document/6234407"
+                    "source_name": "Zhou"
                 },
                 {
-                    "source_name": "TrendMicro-Obad",
+                    "url": "http://blog.trendmicro.com/trendlabs-security-intelligence/cybercriminals-improve-android-malware-stealth-routines-with-obad/",
                     "description": "Veo Zhang. (2013, June 13). Cybercriminals Improve Android Malware Stealth Routines with OBAD. Retrieved December 9, 2016.",
-                    "url": "http://blog.trendmicro.com/trendlabs-security-intelligence/cybercriminals-improve-android-malware-stealth-routines-with-obad/"
+                    "source_name": "TrendMicro-Obad"
                 },
                 {
-                    "source_name": "Xiao-iOS",
+                    "url": "http://www.slideshare.net/Shakacon/fruit-vs-zombies-defeat-nonjailbroken-ios-malware-by-claud-xiao",
                     "description": "Claud Xiao. (2016, July). Fruit vs Zombies: Defeat Non-jailbroken iOS Malware. Retrieved December 9, 2016.",
-                    "url": "http://www.slideshare.net/Shakacon/fruit-vs-zombies-defeat-nonjailbroken-ios-malware-by-claud-xiao"
+                    "source_name": "Xiao-iOS"
                 }
             ],
             "object_marking_refs": [
@@ -53,11 +53,11 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "kill_chain_name": "mitre-mobile-attack",
-                    "phase_name": "defense-evasion"
+                    "phase_name": "defense-evasion",
+                    "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-08-15T19:40:57.315Z",
+            "modified": "2018-08-16T16:59:54.597Z",
             "created": "2017-10-25T14:48:32.328Z"
         }
     ]

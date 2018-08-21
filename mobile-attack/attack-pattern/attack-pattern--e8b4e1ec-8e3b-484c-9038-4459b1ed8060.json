@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b67e5c2b-3877-43ea-86ea-2949756258b5",
+    "id": "bundle--239ad65b-d489-49de-b201-293f7e61dbfd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,9 +10,9 @@
             "description": "A malicious application could capture sensitive data sent via SMS, including authentication credentials. SMS is frequently used to transmit codes used for multi-factor authentication.\n\nOn Android, a malicious application must request and obtain permission (either at app install time or run time) in order to receive SMS messages. Alternatively, a malicious application could attempt to perform an operating system privilege escalation attack to bypass the permission requirement.\n\nOn iOS, applications cannot access SMS messages in normal operation, so an adversary would need to attempt to perform an operating system privilege escalation attack to potentially be able to access SMS messages.",
             "external_references": [
                 {
-                    "source_name": "mitre-mobile-attack",
+                    "external_id": "MOB-T1015",
                     "url": "https://attack.mitre.org/techniques/MOB-T1015",
-                    "external_id": "MOB-T1015"
+                    "source_name": "mitre-mobile-attack"
                 }
             ],
             "object_marking_refs": [
@@ -28,15 +28,15 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "kill_chain_name": "mitre-mobile-attack",
-                    "phase_name": "collection"
+                    "phase_name": "collection",
+                    "kill_chain_name": "mitre-mobile-attack"
                 },
                 {
-                    "kill_chain_name": "mitre-mobile-attack",
-                    "phase_name": "credential-access"
+                    "phase_name": "credential-access",
+                    "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-08-15T19:40:57.315Z",
+            "modified": "2018-08-16T16:59:54.597Z",
             "created": "2017-10-25T14:48:15.920Z"
         }
     ]

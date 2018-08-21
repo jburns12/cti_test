@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bb3c123d-e955-4804-8e9a-24e88ca72abf",
+    "id": "bundle--8a7af11d-c36f-4771-9e28-540dfbee1de1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,19 +10,19 @@
             "description": "Content of a media (audio or video) file could be designed to exploit vulnerabilities in parsers on the mobile device, as for example demonstrated by the Android Stagefright vulnerability (Citation: Zimperium-Stagefright).",
             "external_references": [
                 {
-                    "source_name": "mitre-mobile-attack",
+                    "external_id": "MOB-T1060",
                     "url": "https://attack.mitre.org/techniques/MOB-T1060",
-                    "external_id": "MOB-T1060"
+                    "source_name": "mitre-mobile-attack"
                 },
                 {
-                    "source_name": "NIST Mobile Threat Catalogue",
+                    "external_id": "CEL-22",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/cellular-threats/CEL-22.html",
-                    "external_id": "CEL-22"
+                    "source_name": "NIST Mobile Threat Catalogue"
                 },
                 {
-                    "source_name": "Zimperium-Stagefright",
+                    "url": "https://blog.zimperium.com/experts-found-a-unicorn-in-the-heart-of-android/",
                     "description": "Zimperium. (2015, January 27). Experts Found a Unicorn in the Heart of Android. Retrieved December 23, 2016.",
-                    "url": "https://blog.zimperium.com/experts-found-a-unicorn-in-the-heart-of-android/"
+                    "source_name": "Zimperium-Stagefright"
                 }
             ],
             "object_marking_refs": [
@@ -38,11 +38,11 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "kill_chain_name": "mitre-mobile-attack",
-                    "phase_name": "exploit-via-internet"
+                    "phase_name": "exploit-via-internet",
+                    "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-08-15T19:40:57.315Z",
+            "modified": "2018-08-16T16:59:54.597Z",
             "created": "2017-10-25T14:48:19.682Z"
         }
     ]

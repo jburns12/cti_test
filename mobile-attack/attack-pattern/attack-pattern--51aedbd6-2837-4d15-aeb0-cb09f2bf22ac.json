@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5d47cc53-4d5f-4036-adec-07e2585f992a",
+    "id": "bundle--54b9a467-0d19-4a56-a4ea-6f38fe30a741",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,19 +10,19 @@
             "description": "An adversary could abuse an iOS enterprise app signing key (intended for enterprise in-house distribution of apps) to sign malicious iOS apps so that they can be installed on iOS devices without the app needing to be published on Apple's App Store. For example, Xiao describes use of this technique in  (Citation: Xiao-iOS).",
             "external_references": [
                 {
-                    "source_name": "mitre-mobile-attack",
+                    "external_id": "MOB-T1048",
                     "url": "https://attack.mitre.org/techniques/MOB-T1048",
-                    "external_id": "MOB-T1048"
+                    "source_name": "mitre-mobile-attack"
                 },
                 {
-                    "source_name": "NIST Mobile Threat Catalogue",
+                    "external_id": "ECO-23",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/ecosystem-threats/ECO-23.html",
-                    "external_id": "ECO-23"
+                    "source_name": "NIST Mobile Threat Catalogue"
                 },
                 {
-                    "source_name": "Xiao-iOS",
+                    "url": "http://www.slideshare.net/Shakacon/fruit-vs-zombies-defeat-nonjailbroken-ios-malware-by-claud-xiao",
                     "description": "Claud Xiao. (2016, July). Fruit vs Zombies: Defeat Non-jailbroken iOS Malware. Retrieved December 9, 2016.",
-                    "url": "http://www.slideshare.net/Shakacon/fruit-vs-zombies-defeat-nonjailbroken-ios-malware-by-claud-xiao"
+                    "source_name": "Xiao-iOS"
                 }
             ],
             "object_marking_refs": [
@@ -38,11 +38,11 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "kill_chain_name": "mitre-mobile-attack",
-                    "phase_name": "app-delivery-via-other-means"
+                    "phase_name": "app-delivery-via-other-means",
+                    "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-08-15T19:40:57.315Z",
+            "modified": "2018-08-16T16:59:54.597Z",
             "created": "2017-10-25T14:48:16.288Z"
         }
     ]

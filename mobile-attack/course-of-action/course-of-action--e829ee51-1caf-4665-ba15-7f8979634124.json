@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a5e4dd7f-8f29-4fc9-bac8-38e7c5915d3c",
+    "id": "bundle--d5979c3e-db4c-4263-ad55-e6e2967f1e4a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,21 +10,21 @@
             "description": "In order to mitigate Signaling System 7 (SS7) exploitation, the Communications, Security, Reliability, and Interoperability Council (CSRIC) describes filtering interconnections between network operators to block inappropriate requests (Citation: CSRIC5-WG10-FinalReport).",
             "external_references": [
                 {
-                    "source_name": "mitre-mobile-attack",
+                    "external_id": "MOB-M1014",
                     "url": "https://attack.mitre.org/mitigations/MOB-M1014",
-                    "external_id": "MOB-M1014"
+                    "source_name": "mitre-mobile-attack"
                 },
                 {
-                    "source_name": "CSRIC5-WG10-FinalReport",
+                    "url": "https://www.fcc.gov/files/csric5-wg10-finalreport031517pdf",
                     "description": "Communications Security, Reliability, Interoperability Council (CSRIC). (2017, March). Working Group 10 Legacy Systems Risk Reductions Final Report. Retrieved May 24, 2017.",
-                    "url": "https://www.fcc.gov/files/csric5-wg10-finalreport031517pdf"
+                    "source_name": "CSRIC5-WG10-FinalReport"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "type": "course-of-action",
-            "modified": "2018-08-15T19:40:57.315Z",
+            "modified": "2018-08-16T16:59:54.597Z",
             "created": "2017-10-25T14:48:50.181Z"
         }
     ]
