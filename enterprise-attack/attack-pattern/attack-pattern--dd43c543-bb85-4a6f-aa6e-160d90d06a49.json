@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--00a8da00-9e62-4881-8066-8e60df034635",
+    "id": "bundle--67acf487-d0f2-4e74-b17c-e3f4c36c77fc",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--dd43c543-bb85-4a6f-aa6e-160d90d06a49",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Two-Factor Authentication Interception",
-            "description": "Use of two- or multifactor authentication is recommended and provides a higher level of security than user names and passwords alone, but organizations should be aware of techniques that could be used to intercept and bypass these security mechanisms. Adversaries may target authentication mechanisms, such as smart cards, to gain access to systems, services, and network resources.\n\nIf a smart card is used for two-factor authentication (2FA), then a keylogger will need to be used to obtain the password associated with a smart card during normal use. With both an inserted card and access to the smart card password, an adversary can connect to a network resource using the infected system to proxy the authentication with the inserted hardware token. (Citation: Mandiant M Trends 2011)\n\n\nOther methods of 2FA may be intercepted and used by an adversary to authenticate. It is common for one-time codes to be sent via out-of-band communications (email, SMS). If the device and/or service is not secured, then it may be vulnerable to interception. Although primarily focused on by cyber criminals, these authentication mechanisms have been targeted by advanced actors. (Citation: Operation Emmental)\n\n\nOther hardware tokens, such as RSA SecurID, require the adversary to have access to the physical device or the seed and algorithm in addition to the corresponding credentials.",
+            "description": "Use of two- or multifactor authentication is recommended and provides a higher level of security than user names and passwords alone, but organizations should be aware of techniques that could be used to intercept and bypass these security mechanisms. Adversaries may target authentication mechanisms, such as smart cards, to gain access to systems, services, and network resources.\n\nIf a smart card is used for two-factor authentication (2FA), then a keylogger will need to be used to obtain the password associated with a smart card during normal use. With both an inserted card and access to the smart card password, an adversary can connect to a network resource using the infected system to proxy the authentication with the inserted hardware token. (Citation: Mandiant M Trends 2011)\n\nOther methods of 2FA may be intercepted and used by an adversary to authenticate. It is common for one-time codes to be sent via out-of-band communications (email, SMS). If the device and/or service is not secured, then it may be vulnerable to interception. Although primarily focused on by cyber criminals, these authentication mechanisms have been targeted by advanced actors. (Citation: Operation Emmental)\n\nOther hardware tokens, such as RSA SecurID, require the adversary to have access to the physical device or the seed and algorithm in addition to the corresponding credentials.",
             "external_references": [
                 {
                     "external_id": "T1111",
@@ -15,7 +15,7 @@
                     "source_name": "mitre-attack"
                 },
                 {
-                    "url": "https://dl.mandiant.com/EE/assets/PDF%20MTrends%202011.pdf",
+                    "url": "https://dl.mandiant.com/EE/assets/PDF_MTrends_2011.pdf",
                     "description": "Mandiant. (2011, January 27). Mandiant M-Trends 2011. Retrieved January 10, 2016.",
                     "source_name": "Mandiant M Trends 2011"
                 },
@@ -51,7 +51,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-08-16T16:59:54.597Z",
+            "modified": "2018-09-07T16:42:18.771Z",
             "created": "2017-05-31T21:31:23.195Z"
         }
     ]

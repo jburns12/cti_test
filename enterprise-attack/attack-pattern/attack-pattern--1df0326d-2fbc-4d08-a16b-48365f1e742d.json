@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--9d04a941-e84d-407e-a9cd-cff09e5b4a3c",
+    "id": "bundle--2831dbbe-5f5d-425c-90e5-3e31750f1137",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--1df0326d-2fbc-4d08-a16b-48365f1e742d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "SID-History Injection",
-            "description": "The Windows security identifier (SID) is a unique value that identifies a user or group account. SIDs are used by Windows security in both security descriptors and access tokens. (Citation: Microsoft SID) An account can hold additional SIDs in the SID-History Active Directory attribute (Citation: Microsoft SID)-History Attribute, allowing inter-operable account migration between domains (e.g., all values in SID-History are included in access tokens).\n\n\nAdversaries may use this mechanism for privilege escalation. With Domain Administrator (or equivalent) rights, harvested or well-known SID values (Citation: Microsoft Well Known SIDs Jun 2017) may be inserted into SID-History to enable impersonation of arbitrary users/groups such as Enterprise Administrators. This manipulation may result in elevated access to local resources and/or access to otherwise inaccessible domains via lateral movement techniques such as [Remote Services](https://attack.mitre.org/techniques/T1021), [Windows Admin Shares](https://attack.mitre.org/techniques/T1077), or [Windows Remote Management](https://attack.mitre.org/techniques/T1028).",
+            "description": "The Windows security identifier (SID) is a unique value that identifies a user or group account. SIDs are used by Windows security in both security descriptors and access tokens. (Citation: Microsoft SID) An account can hold additional SIDs in the SID-History Active Directory attribute (Citation: Microsoft SID)-History Attribute, allowing inter-operable account migration between domains (e.g., all values in SID-History are included in access tokens).\n\nAdversaries may use this mechanism for privilege escalation. With Domain Administrator (or equivalent) rights, harvested or well-known SID values (Citation: Microsoft Well Known SIDs Jun 2017) may be inserted into SID-History to enable impersonation of arbitrary users/groups such as Enterprise Administrators. This manipulation may result in elevated access to local resources and/or access to otherwise inaccessible domains via lateral movement techniques such as [Remote Services](https://attack.mitre.org/techniques/T1021), [Windows Admin Shares](https://attack.mitre.org/techniques/T1077), or [Windows Remote Management](https://attack.mitre.org/techniques/T1028).",
             "external_references": [
                 {
                     "external_id": "T1178",
@@ -51,7 +51,7 @@
                 "Authentication logs",
                 "Windows event logs"
             ],
-            "x_mitre_detection": "Examine data in user\u2019s SID-History attributes using the PowerShell Get-ADUser Cmdlet (Citation: Microsoft Get-ADUser), especially users who have SID-History values from the same domain. (Citation: AdSecurity SID History Sept 2015)\n\n\nMonitor Account Management events on Domain Controllers for successful and failed changes to SID-History. (Citation: AdSecurity SID History Sept 2015)  (Citation: Microsoft DsAddSidHistory)\n\n\nMonitor Windows API calls to the <code>DsAddSidHistory</code> function. (Citation: Microsoft DsAddSidHistory)",
+            "x_mitre_detection": "Examine data in user\u2019s SID-History attributes using the PowerShell Get-ADUser Cmdlet (Citation: Microsoft Get-ADUser), especially users who have SID-History values from the same domain. (Citation: AdSecurity SID History Sept 2015)\n\nMonitor Account Management events on Domain Controllers for successful and failed changes to SID-History. (Citation: AdSecurity SID History Sept 2015)  (Citation: Microsoft DsAddSidHistory)\n\nMonitor Windows API calls to the <code>DsAddSidHistory</code> function. (Citation: Microsoft DsAddSidHistory)",
             "x_mitre_permissions_required": [
                 "Administrator",
                 "SYSTEM"
@@ -66,7 +66,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-08-16T16:59:54.597Z",
+            "modified": "2018-09-07T16:42:18.771Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

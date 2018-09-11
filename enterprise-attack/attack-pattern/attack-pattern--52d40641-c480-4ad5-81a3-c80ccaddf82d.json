@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--f8b3c272-2057-464e-9b78-13d5e20e3e93",
+    "id": "bundle--44159cf1-31f1-471d-ac4f-192257b79975",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--52d40641-c480-4ad5-81a3-c80ccaddf82d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Authentication Package",
-            "description": "Windows Authentication Package DLLs are loaded by the Local Security Authority (LSA) process at system start. They provide support for multiple logon processes and multiple security protocols to the operating system. (Citation: MSDN Authentication Packages)\n\n\nAdversaries can use the autostart mechanism provided by LSA Authentication Packages for persistence by placing a reference to a binary in the Windows Registry location <code>HKLM\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\</code> with the key value of <code>\"Authentication Packages\"=<target binary></code>. The binary will then be executed by the system when the authentication packages are loaded.",
+            "description": "Windows Authentication Package DLLs are loaded by the Local Security Authority (LSA) process at system start. They provide support for multiple logon processes and multiple security protocols to the operating system. (Citation: MSDN Authentication Packages)\n\nAdversaries can use the autostart mechanism provided by LSA Authentication Packages for persistence by placing a reference to a binary in the Windows Registry location <code>HKLM\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\</code> with the key value of <code>\"Authentication Packages\"=<target binary></code>. The binary will then be executed by the system when the authentication packages are loaded.",
             "external_references": [
                 {
                     "external_id": "T1131",
@@ -52,7 +52,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-08-16T16:59:54.597Z",
+            "modified": "2018-09-07T16:42:18.771Z",
             "created": "2017-05-31T21:31:43.135Z"
         }
     ]

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--13530e89-4103-418f-9fd2-a72e4cfab086",
+    "id": "bundle--0c3c98bc-d459-412e-8dfc-b16c3c56dac5",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--6c174520-beea-43d9-aac6-28fb77f3e446",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Security Support Provider",
-            "description": "Windows Security Support Provider (SSP) DLLs are loaded into the Local Security Authority (LSA) process at system start. Once loaded into the LSA, SSP DLLs have access to encrypted and plaintext passwords that are stored in Windows, such as any logged-on user's Domain password or smart card PINs. The SSP configuration is stored in two Registry keys: <code>HKLM\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\Security Packages</code> and <code>HKLM\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\OSConfig\\Security Packages</code>. An adversary may modify these Registry keys to add new SSPs, which will be loaded the next time the system boots, or when the AddSecurityPackage Windows API function is called.\n\n (Citation: Graeber 2014)",
+            "description": "Windows Security Support Provider (SSP) DLLs are loaded into the Local Security Authority (LSA) process at system start. Once loaded into the LSA, SSP DLLs have access to encrypted and plaintext passwords that are stored in Windows, such as any logged-on user's Domain password or smart card PINs. The SSP configuration is stored in two Registry keys: <code>HKLM\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\Security Packages</code> and <code>HKLM\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\OSConfig\\Security Packages</code>. An adversary may modify these Registry keys to add new SSPs, which will be loaded the next time the system boots, or when the AddSecurityPackage Windows API function is called.\n (Citation: Graeber 2014)",
             "external_references": [
                 {
                     "external_id": "T1101",
@@ -47,7 +47,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-08-16T16:59:54.597Z",
+            "modified": "2018-09-07T16:42:18.771Z",
             "created": "2017-05-31T21:31:13.447Z"
         }
     ]

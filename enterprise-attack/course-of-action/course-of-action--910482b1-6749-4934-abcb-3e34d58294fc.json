@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--c52d87ff-4b09-46c1-b4c6-c167b3829813",
+    "id": "bundle--57d767aa-5e18-4d3b-8ad2-aa509f45ccd6",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "course-of-action--910482b1-6749-4934-abcb-3e34d58294fc",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Distributed Component Object Model Mitigation",
-            "description": "Modify Registry settings (directly or using Dcomcnfg.exe) in <code>HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\AppID\\{AppID_GUID}</code> associated with the process-wide security of individual COM applications. (Citation: Microsoft Process Wide Com Keys)\n\n\nModify Registry settings (directly or using Dcomcnfg.exe) in <code>HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Ole</code> associated with system-wide security defaults for all COM applications that do no set their own process-wide security. (Citation: Microsoft System Wide Com Keys) (Citation: Microsoft COM) ACL\n\n\nConsider disabling DCOM through Dcomcnfg.exe. (Citation: Microsoft Disable DCOM)\n\n\nEnable Windows firewall, which prevents DCOM instantiation by default.\n\nEnsure all COM alerts and Protected View are enabled. (Citation: Microsoft Protected View)",
+            "description": "Modify Registry settings (directly or using Dcomcnfg.exe) in <code>HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\AppID\\{AppID_GUID}</code> associated with the process-wide security of individual COM applications. (Citation: Microsoft Process Wide Com Keys)\n\nModify Registry settings (directly or using Dcomcnfg.exe) in <code>HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Ole</code> associated with system-wide security defaults for all COM applications that do no set their own process-wide security. (Citation: Microsoft System Wide Com Keys) (Citation: Microsoft COM) ACL\n\nConsider disabling DCOM through Dcomcnfg.exe. (Citation: Microsoft Disable DCOM)\n\nEnable Windows firewall, which prevents DCOM instantiation by default.\n\nEnsure all COM alerts and Protected View are enabled. (Citation: Microsoft Protected View)",
             "external_references": [
                 {
                     "external_id": "T1175",
@@ -41,8 +41,8 @@
                 }
             ],
             "type": "course-of-action",
-            "modified": "2018-08-16T16:59:54.597Z",
-            "created": "2018-08-16T16:59:54.597Z"
+            "modified": "2018-09-07T16:42:18.771Z",
+            "created": "2018-09-07T16:42:18.771Z"
         }
     ]
 }

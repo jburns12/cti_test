@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--32bf1b9e-b042-4ed0-9f62-b4d3d142f864",
+    "id": "bundle--b96eb4b5-a52f-42f1-8026-4adf61abcd5b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -23,7 +23,7 @@
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "x_mitre_detectable_by_common_defenses": "No",
-            "x_mitre_deprecated": "true",
+            "x_mitre_deprecated": true,
             "x_mitre_detectable_by_common_defenses_explanation": "Although some commercial technologies are being advertised which claim to detect malvertising, it largely spreads unknowingly because it doesn't always require an action by a user.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "An adversary can deploy exploits via malvertising using multiple mechanisms.  Such mechanisms include an image ad that is infected, redirection, or using social engineering to get the end user to install the malicious software themselves.",
@@ -34,7 +34,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-08-16T16:59:54.597Z",
+            "modified": "2018-09-07T16:42:18.771Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

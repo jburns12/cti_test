@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--71636f71-c30d-46a4-af5e-c5bb2a77ee65",
+    "id": "bundle--da510e1b-9253-4d3e-803d-993f92a1a35e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -26,7 +26,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_deprecated": "true",
+            "x_mitre_deprecated": true,
             "x_mitre_detectable_by_common_defenses": "Partial",
             "x_mitre_detectable_by_common_defenses_explanation": "With the use of malware detonation chambers (e.g., for web or email traffic), this improves detection.  Encryption and other techniques reduces the efficacy of these defenses.",
             "x_mitre_difficulty_for_adversary": "Yes",
@@ -38,7 +38,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-08-16T16:59:54.597Z",
+            "modified": "2018-09-07T16:42:18.771Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

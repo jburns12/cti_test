@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4e545fc0-59d1-4f02-8c5d-5d3284561a86",
+    "id": "bundle--efa7acd4-b228-4d44-a2e4-4659892284d5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -30,7 +30,7 @@
                     "source_name": "Samsung-KnoxWarrantyBit"
                 },
                 {
-                    "url": "https://www.apple.com/business/docs/iOS%20Security%20Guide.pdf",
+                    "url": "https://www.apple.com/business/docs/iOS_Security_Guide.pdf",
                     "description": "Apple. (2016, May). iOS Security. Retrieved December 21, 2016.",
                     "source_name": "Apple-iOSSecurityGuide"
                 }
@@ -38,7 +38,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "The Android SafetyNet API's remote attestation capability could potentially be used to identify and respond to compromised devices. Samsung KNOX also provides a remote attestation capability on supported Samsung Android devices.\n\nSamsung KNOX devices include a non-reversible Knox warranty bit fuse that is triggered \"if a non-Knox kernel has been loaded on the device\" (Citation: Samsung-KnoxWarrantyBit). If triggered, enterprise Knox container services will no longer be available on the device.\n\n\nAs described in the iOS Security Guide (Citation: Apple-iOSSecurityGuide), iOS devices will fail to boot or fail to allow device activation if unauthorized modifications are detected.\n\n\nMany enterprise applications perform their own checks to detect and respond to compromised devices. These checks are not foolproof but can detect common signs of compromise.",
+            "x_mitre_detection": "The Android SafetyNet API's remote attestation capability could potentially be used to identify and respond to compromised devices. Samsung KNOX also provides a remote attestation capability on supported Samsung Android devices.\n\nSamsung KNOX devices include a non-reversible Knox warranty bit fuse that is triggered \"if a non-Knox kernel has been loaded on the device\" (Citation: Samsung-KnoxWarrantyBit). If triggered, enterprise Knox container services will no longer be available on the device.\n\nAs described in the iOS Security Guide (Citation: Apple-iOSSecurityGuide), iOS devices will fail to boot or fail to allow device activation if unauthorized modifications are detected.\n\nMany enterprise applications perform their own checks to detect and respond to compromised devices. These checks are not foolproof but can detect common signs of compromise.",
             "x_mitre_platforms": [
                 "Android",
                 "iOS"
@@ -57,7 +57,7 @@
                     "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-08-16T16:59:54.597Z",
+            "modified": "2018-09-07T16:42:18.771Z",
             "created": "2017-10-25T14:48:31.294Z"
         }
     ]

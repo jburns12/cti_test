@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--accbe18f-801a-4a0d-a560-3643d6c31e14",
+    "id": "bundle--5e6fcf0a-a8b7-45df-b264-daf1a7dfd5db",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--c21d5a77-d422-4a69-acd7-2c53c1faa34b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Standard Non-Application Layer Protocol",
-            "description": "Use of a standard non-application layer protocol for communication between host and C2 server or among infected hosts within a network. The list of possible protocols is extensive. (Citation: Wikipedia OSI) Specific examples include use of network layer protocols, such as the Internet Control Message Protocol (ICMP), and transport layer protocols, such as the User Datagram Protocol (UDP).\n\n\nICMP communication between hosts is one example. Because ICMP is part of the Internet Protocol Suite, it is required to be implemented by all IP-compatible hosts; (Citation: Microsoft ICMP) however, it is not as commonly monitored as other Internet Protocols such as TCP or UDP and may be used by adversaries to hide communications.",
+            "description": "Use of a standard non-application layer protocol for communication between host and C2 server or among infected hosts within a network. The list of possible protocols is extensive. (Citation: Wikipedia OSI) Specific examples include use of network layer protocols, such as the Internet Control Message Protocol (ICMP), and transport layer protocols, such as the User Datagram Protocol (UDP).\n\nICMP communication between hosts is one example. Because ICMP is part of the Internet Protocol Suite, it is required to be implemented by all IP-compatible hosts; (Citation: Microsoft ICMP) however, it is not as commonly monitored as other Internet Protocols such as TCP or UDP and may be used by adversaries to hide communications.",
             "external_references": [
                 {
                     "external_id": "T1095",
@@ -46,7 +46,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-08-16T16:59:54.597Z",
+            "modified": "2018-09-07T16:42:18.771Z",
             "created": "2017-05-31T21:31:10.728Z"
         }
     ]

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d1340695-c039-4413-87a1-c34415a4df9a",
+    "id": "bundle--dd93d04f-787e-4706-9538-1669366095f9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,7 +27,7 @@
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "x_mitre_detectable_by_common_defenses": "Yes",
-            "x_mitre_deprecated": "true",
+            "x_mitre_deprecated": true,
             "x_mitre_detectable_by_common_defenses_explanation": "Most DMZs are monitored but are also designed so that if they are compromised, the damage/risk is limited.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "DMZ environments are specifically designed to be isolated because one assumes they will ultimately be compromised by the adversary.",
@@ -38,7 +38,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-08-16T16:59:54.597Z",
+            "modified": "2018-09-07T16:42:18.771Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

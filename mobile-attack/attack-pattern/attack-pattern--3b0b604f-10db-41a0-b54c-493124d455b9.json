@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--f70abbad-4a3f-4d89-8567-4f8118cb3adc",
+    "id": "bundle--b27f92a3-f84d-411e-9c9d-1714b9e87138",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--3b0b604f-10db-41a0-b54c-493124d455b9",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Network Traffic Capture or Redirection",
-            "description": "An adversary may capture network traffic to and from the device to obtain credentials or other sensitive data, or redirect network traffic to flow through an adversary-controlled gateway to do the same.\n\nA malicious app could register itself as a VPN client on Android or iOS to gain access to network packets. However, on both platforms, the user must grant consent to the app to act as a VPN client, and on iOS the app requires a special entitlement that must be granted by Apple.\n\nAlternatively, if a malicious app is able to escalate operating system privileges, it may be able to use those privileges to gain access to network traffic.\n\nAn adversary could redirect network traffic to an adversary-controlled gateway by establishing a VPN connection or by manipulating the device's proxy settings. For example, Skycure (Citation: Skycure-Profiles) describes the ability to redirect network traffic by installing a malicious iOS Configuration Profile.\n\n\nIf applications encrypt their network traffic, sensitive data may not be accessible to an adversary, depending on the point of capture.",
+            "description": "An adversary may capture network traffic to and from the device to obtain credentials or other sensitive data, or redirect network traffic to flow through an adversary-controlled gateway to do the same.\n\nA malicious app could register itself as a VPN client on Android or iOS to gain access to network packets. However, on both platforms, the user must grant consent to the app to act as a VPN client, and on iOS the app requires a special entitlement that must be granted by Apple.\n\nAlternatively, if a malicious app is able to escalate operating system privileges, it may be able to use those privileges to gain access to network traffic.\n\nAn adversary could redirect network traffic to an adversary-controlled gateway by establishing a VPN connection or by manipulating the device's proxy settings. For example, Skycure (Citation: Skycure-Profiles) describes the ability to redirect network traffic by installing a malicious iOS Configuration Profile.\n\nIf applications encrypt their network traffic, sensitive data may not be accessible to an adversary, depending on the point of capture.",
             "external_references": [
                 {
                     "external_id": "MOB-T1013",
@@ -42,7 +42,7 @@
                     "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-08-16T16:59:54.597Z",
+            "modified": "2018-09-07T16:42:18.771Z",
             "created": "2017-10-25T14:48:14.982Z"
         }
     ]

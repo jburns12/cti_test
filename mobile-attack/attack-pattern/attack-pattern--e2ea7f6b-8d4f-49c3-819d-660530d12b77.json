@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--97c0b739-c07d-4721-a6bb-131d58e9ea46",
+    "id": "bundle--5433e923-cb72-4f4c-bdcc-609ad76d1752",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--e2ea7f6b-8d4f-49c3-819d-660530d12b77",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "System Information Discovery",
-            "description": "An adversary may attempt to get detailed information about the operating system and hardware, including version, patches, and architecture.\n\nOn Android, much of this information is programmatically accessible to applications through the android.os.Build class (Citation: Android-Build).\n\n\nOn iOS, techniques exist for applications to programmatically access this information, for example as described in  (Citation: StackOverflow-iOSVersion).",
+            "description": "An adversary may attempt to get detailed information about the operating system and hardware, including version, patches, and architecture.\n\nOn Android, much of this information is programmatically accessible to applications through the android.os.Build class (Citation: Android-Build).\n\nOn iOS, techniques exist for applications to programmatically access this information, for example as described in  (Citation: StackOverflow-iOSVersion).",
             "external_references": [
                 {
                     "external_id": "MOB-T1029",
@@ -42,7 +42,7 @@
                     "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-08-16T16:59:54.597Z",
+            "modified": "2018-09-07T16:42:18.771Z",
             "created": "2017-10-25T14:48:19.265Z"
         }
     ]

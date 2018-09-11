@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d2ec3dc8-314d-4aee-a5cd-851fbb5b3edf",
+    "id": "bundle--c93159af-08bf-40b9-be19-f050a1a6bfc6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -45,7 +45,7 @@
                 "Process whitelisting",
                 "System access controls"
             ],
-            "x_mitre_detection": "Configure robust, consistent account activity audit policies across the enterprise and with externally accessible services. (Citation: TechNet Audit Policy) Look for suspicious account behavior across systems that share accounts, either user, admin, or service accounts. Examples: one account logged into multiple systems simultaneously; multiple accounts logged into the same machine simultaneously; accounts logged in at odd times or outside of business hours. Activity may be from interactive login sessions or process ownership from accounts being used to execute binaries on a remote system as a particular account. Correlate other security systems with login information (e.g., a user has an active login session but has not entered the building or does not have VPN access).\n\n\nPerform regular audits of domain and local system accounts to detect accounts that may have been created by an adversary for persistence.",
+            "x_mitre_detection": "Configure robust, consistent account activity audit policies across the enterprise and with externally accessible services. (Citation: TechNet Audit Policy) Look for suspicious account behavior across systems that share accounts, either user, admin, or service accounts. Examples: one account logged into multiple systems simultaneously; multiple accounts logged into the same machine simultaneously; accounts logged in at odd times or outside of business hours. Activity may be from interactive login sessions or process ownership from accounts being used to execute binaries on a remote system as a particular account. Correlate other security systems with login information (e.g., a user has an active login session but has not entered the building or does not have VPN access).\n\nPerform regular audits of domain and local system accounts to detect accounts that may have been created by an adversary for persistence.",
             "x_mitre_permissions_required": [
                 "User",
                 "Administrator"
@@ -78,7 +78,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-08-16T16:59:54.597Z",
+            "modified": "2018-09-07T16:42:18.771Z",
             "created": "2017-05-31T21:31:00.645Z"
         }
     ]

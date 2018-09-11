@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--75159128-4372-4c8d-9ff9-da3f1ab82859",
+    "id": "bundle--85591844-da24-4a01-a3c5-5f54a7840696",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "course-of-action--c085476e-1964-4d7f-86e1-d8657a7741e8",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Accessibility Features Mitigation",
-            "description": "To use this technique remotely, an adversary must use it in conjunction with RDP. Ensure that Network Level Authentication is enabled to force the remote desktop session to authenticate before the session is created and the login screen displayed. It is enabled by default on Windows Vista and later. (Citation: TechNet RDP NLA)\n\n\nIf possible, use a Remote Desktop Gateway to manage connections and security configuration of RDP within a network. (Citation: TechNet RDP Gateway)\n\n\nIdentify and block potentially malicious software that may be executed by an adversary with this technique by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
+            "description": "To use this technique remotely, an adversary must use it in conjunction with RDP. Ensure that Network Level Authentication is enabled to force the remote desktop session to authenticate before the session is created and the login screen displayed. It is enabled by default on Windows Vista and later. (Citation: TechNet RDP NLA)\n\nIf possible, use a Remote Desktop Gateway to manage connections and security configuration of RDP within a network. (Citation: TechNet RDP Gateway)\n\nIdentify and block potentially malicious software that may be executed by an adversary with this technique by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
             "external_references": [
                 {
                     "external_id": "T1015",
@@ -51,8 +51,8 @@
                 }
             ],
             "type": "course-of-action",
-            "modified": "2018-08-16T16:59:54.597Z",
-            "created": "2018-08-16T16:59:54.597Z"
+            "modified": "2018-09-07T16:42:18.771Z",
+            "created": "2018-09-07T16:42:18.771Z"
         }
     ]
 }

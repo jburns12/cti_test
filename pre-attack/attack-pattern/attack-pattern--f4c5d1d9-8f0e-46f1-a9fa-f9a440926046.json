@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1439ff67-0857-4150-8b6a-49bf16e112ac",
+    "id": "bundle--50c2f167-ed09-4dbf-beb3-676868c68203",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,7 +27,7 @@
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "x_mitre_detectable_by_common_defenses": "Yes",
-            "x_mitre_deprecated": "true",
+            "x_mitre_deprecated": true,
             "x_mitre_detectable_by_common_defenses_explanation": "Current commercial tools and sensitive analytics can be used to detect communications to command and control servers or data exfiltration.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Certainty of the confirmation of compromise is not guaranteed unless the adversary sees communication to a command and control server, exfiltration of data, or an intended effect occur.",
@@ -38,7 +38,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-08-16T16:59:54.597Z",
+            "modified": "2018-09-07T16:42:18.771Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

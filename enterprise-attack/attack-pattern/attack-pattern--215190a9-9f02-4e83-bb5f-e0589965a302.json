@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--a0da792f-69cc-4908-b834-00ae81d9a693",
+    "id": "bundle--47d1a2b0-8462-4cdd-8d8e-ab5bdfa0f980",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--215190a9-9f02-4e83-bb5f-e0589965a302",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Regsvcs/Regasm",
-            "description": "Regsvcs and Regasm are Windows command-line utilities that are used to register .NET Component Object Model (COM) assemblies. Both are digitally signed by Microsoft. (Citation: MSDN Regsvcs) (Citation: MSDN Regasm)\n\n\nAdversaries can use Regsvcs and Regasm to proxy execution of code through a trusted Windows utility. Both utilities may be used to bypass process whitelisting through use of attributes within the binary to specify code that should be run before registration or unregistration: <code>[ComRegisterFunction]</code> or <code>[ComUnregisterFunction]</code> respectively. The code with the registration and unregistration attributes will be executed even if the process is run under insufficient privileges and fails to execute. (Citation: SubTee GitHub All The Things Application Whitelisting Bypass)",
+            "description": "Regsvcs and Regasm are Windows command-line utilities that are used to register .NET Component Object Model (COM) assemblies. Both are digitally signed by Microsoft. (Citation: MSDN Regsvcs) (Citation: MSDN Regasm)\n\nAdversaries can use Regsvcs and Regasm to proxy execution of code through a trusted Windows utility. Both utilities may be used to bypass process whitelisting through use of attributes within the binary to specify code that should be run before registration or unregistration: <code>[ComRegisterFunction]</code> or <code>[ComUnregisterFunction]</code> respectively. The code with the registration and unregistration attributes will be executed even if the process is run under insufficient privileges and fails to execute. (Citation: SubTee GitHub All The Things Application Whitelisting Bypass)",
             "external_references": [
                 {
                     "external_id": "T1121",
@@ -62,7 +62,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-08-16T16:59:54.597Z",
+            "modified": "2018-09-07T16:42:18.771Z",
             "created": "2017-05-31T21:31:33.499Z"
         }
     ]

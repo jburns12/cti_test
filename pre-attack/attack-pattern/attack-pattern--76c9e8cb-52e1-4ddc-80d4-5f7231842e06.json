@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b80cf11f-838a-459d-8be1-c8f1a6bc5b16",
+    "id": "bundle--8aabf835-74a7-4cad-b8bb-f99b4debcf0c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -30,7 +30,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_deprecated": "true",
+            "x_mitre_deprecated": true,
             "x_mitre_detectable_by_common_defenses": "Partial",
             "x_mitre_detectable_by_common_defenses_explanation": "Tracking multiple DNS infrastructures will likely require multiple tools/services, more advanced analytics, and mature detection/response capabilities in order to be effective.   Few defenders demonstrate the mature processes to immediately detect and mitigate against the use of this technique.",
             "x_mitre_difficulty_for_adversary": "Yes",
@@ -42,7 +42,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-08-16T16:59:54.597Z",
+            "modified": "2018-09-07T16:42:18.771Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

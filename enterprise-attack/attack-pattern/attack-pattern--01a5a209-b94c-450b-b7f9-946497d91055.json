@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--af019462-dbf5-4a67-82ef-ef809c688e26",
+    "id": "bundle--ad1412b4-66d6-4a1e-90da-d512004f4af1",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Windows Management Instrumentation",
-            "description": "Windows Management Instrumentation (WMI) is a Windows administration feature that provides a uniform environment for local and remote access to Windows system components. It relies on the WMI service for local and remote access and the server message block (SMB) (Citation: Wikipedia SMB) and Remote Procedure Call Service (RPCS) (Citation: TechNet RPC) for remote access. RPCS operates over port 135. (Citation: MSDN WMI)\n\n\nAn adversary can use WMI to interact with local and remote systems and use it as a means to perform many tactic functions, such as gathering information for Discovery and remote Execution of files as part of Lateral Movement. (Citation: FireEye WMI 2015)",
+            "description": "Windows Management Instrumentation (WMI) is a Windows administration feature that provides a uniform environment for local and remote access to Windows system components. It relies on the WMI service for local and remote access and the server message block (SMB) (Citation: Wikipedia SMB) and Remote Procedure Call Service (RPCS) (Citation: TechNet RPC) for remote access. RPCS operates over port 135. (Citation: MSDN WMI)\n\nAn adversary can use WMI to interact with local and remote systems and use it as a means to perform many tactic functions, such as gathering information for Discovery and remote Execution of files as part of Lateral Movement. (Citation: FireEye WMI 2015)",
             "external_references": [
                 {
                     "external_id": "T1047",
@@ -15,7 +15,7 @@
                     "source_name": "mitre-attack"
                 },
                 {
-                    "url": "https://en.wikipedia.org/wiki/Server%20Message%20Block",
+                    "url": "https://en.wikipedia.org/wiki/Server_Message_Block",
                     "description": "Wikipedia. (2016, June 12). Server Message Block. Retrieved June 12, 2016.",
                     "source_name": "Wikipedia SMB"
                 },
@@ -63,7 +63,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-08-16T16:59:54.597Z",
+            "modified": "2018-09-07T16:42:18.771Z",
             "created": "2017-05-31T21:30:44.329Z"
         }
     ]

@@ -1,19 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--8ed93d59-73ec-40b4-b29b-d2bde0cca471",
+    "id": "bundle--813158a3-1fbe-43f6-ad33-99618c831890",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--513c05e2-afc6-4d1b-8a8e-6d6935a8626f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "mitigates",
+            "description": "Application vetting could be used to analyze applications to determine whether they access this information, including determining whether the application requests the Android ACCESS_NETWORK_STATE permission (required in order to access NetworkInterface information) or the READ_PHONE_STATE permission (required in order to access TelephonyManager information).",
             "source_ref": "course-of-action--1553b156-6767-47f7-9eb4-2a692505666d",
             "target_ref": "attack-pattern--d4536441-1bcc-49fa-80ae-a596ed3f7ffd",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "type": "relationship",
-            "modified": "2018-08-16T16:59:54.597Z",
+            "modified": "2018-09-07T16:42:18.771Z",
             "created": "2017-10-25T14:48:53.747Z"
         }
     ]

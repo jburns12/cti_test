@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--7c56ea49-5fb0-44c1-bd9d-3842fc1c32d5",
+    "id": "bundle--3f0603b4-1baf-41da-90bf-65d68f0c37a3",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--5bda4ebe-cd21-469e-9495-952df7254f17",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "[APT29](https://attack.mitre.org/groups/G0016) used [SDelete](https://attack.mitre.org/software/S0195) to remove artifacts from victims.",
+            "description": "[APT29](https://attack.mitre.org/groups/G0016) used multiple versions of malware, and also minimized re-use of commonly-identified indicators like MD5s and C2s.",
             "source_ref": "intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542",
             "target_ref": "attack-pattern--799ace7f-e227-4411-baa0-8868704f2a69",
             "object_marking_refs": [
@@ -21,7 +21,7 @@
                 }
             ],
             "type": "relationship",
-            "modified": "2018-08-16T16:59:54.597Z",
+            "modified": "2018-09-07T16:42:18.771Z",
             "created": "2017-05-31T21:33:27.048Z"
         }
     ]

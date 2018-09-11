@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--a0da96d9-cc77-44b3-b800-365abade7347",
+    "id": "bundle--a15a43fa-dda4-4dab-ab55-ae2125e5205a",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--9e09ddb2-1746-4448-9cad-7f8b41777d6d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Keychain",
-            "description": "Keychains are the built-in way for macOS to keep track of users' passwords and credentials for many services and features such as WiFi passwords, websites, secure notes, certificates, and Kerberos. Keychain files are located in <code>~/Library/Keychains/</code>,<code>/Library/Keychains/</code>, and <code>/Network/Library/Keychains/</code>. (Citation: Wikipedia keychain) The <code>security</code> command-line utility, which is built into macOS by default, provides a useful way to manage these credentials.\n\n\nTo manage their credentials, users have to use additional credentials to access their keychain. If an adversary knows the credentials for the login keychain, then they can get access to all the other credentials stored in this vault. (Citation: External to DA, the OS X Way) By default, the passphrase for the keychain is the user\u2019s logon credentials.",
+            "description": "Keychains are the built-in way for macOS to keep track of users' passwords and credentials for many services and features such as WiFi passwords, websites, secure notes, certificates, and Kerberos. Keychain files are located in <code>~/Library/Keychains/</code>,<code>/Library/Keychains/</code>, and <code>/Network/Library/Keychains/</code>. (Citation: Wikipedia keychain) The <code>security</code> command-line utility, which is built into macOS by default, provides a useful way to manage these credentials.\n\nTo manage their credentials, users have to use additional credentials to access their keychain. If an adversary knows the credentials for the login keychain, then they can get access to all the other credentials stored in this vault. (Citation: External to DA, the OS X Way) By default, the passphrase for the keychain is the user\u2019s logon credentials.",
             "external_references": [
                 {
                     "external_id": "T1142",
@@ -15,7 +15,7 @@
                     "source_name": "mitre-attack"
                 },
                 {
-                    "url": "https://en.wikipedia.org/wiki/Keychain%20(software)",
+                    "url": "https://en.wikipedia.org/wiki/Keychain_(software)",
                     "description": "Wikipedia. (n.d.). Keychain (software). Retrieved July 5, 2017.",
                     "source_name": "Wikipedia keychain"
                 },
@@ -46,7 +46,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-08-16T16:59:54.597Z",
+            "modified": "2018-09-07T16:42:18.771Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--38aaf608-6cb4-4c0d-a59b-bc93120c1f56",
+    "id": "bundle--58ce4f92-5021-4f47-823a-f6eba6226329",
     "spec_version": "2.0",
     "objects": [
         {
@@ -22,7 +22,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_deprecated": "true",
+            "x_mitre_deprecated": true,
             "x_mitre_detectable_by_common_defenses": "Partial",
             "x_mitre_detectable_by_common_defenses_explanation": "Depending on the specific method of phishing, the detections can vary. For emails, filtering based on DKIP+SPF or header analysis can help detect when the email sender is spoofed. When it comes to following links, network intrusion detection systems (NIDS), firewalls, removing links, exploding shortened links, proxy monitoring, blocking uncategorized sites, and site reputation based filtering can all provide detection opportunities.",
             "x_mitre_difficulty_for_adversary": "Yes",
@@ -34,7 +34,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-08-16T16:59:54.597Z",
+            "modified": "2018-09-07T16:42:18.771Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

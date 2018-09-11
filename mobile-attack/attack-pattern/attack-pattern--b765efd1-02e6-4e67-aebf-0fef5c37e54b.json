@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--ab1afc16-05ed-4fe3-9b3a-37a54bd93415",
+    "id": "bundle--ce106910-94da-4e9f-8fa4-6753f6e1de91",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--b765efd1-02e6-4e67-aebf-0fef5c37e54b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Detect App Analysis Environment",
-            "description": "An adversary could evade app vetting techniques by placing code in a malicious application to detect whether it is running in an app analysis environment and, if so, avoid performing malicious actions while under analysis.\n\nDiscussion of general Android anti-analysis techniques can be found in  (Citation: Petsas). Discussion of Google Play Store-specific anti-analysis techniques can be found in  (Citation: Oberheide-Bouncer),  (Citation: Percoco-Bouncer).\n\n\n (Citation: Wang) presents a discussion of iOS anti-analysis techniques.",
+            "description": "An adversary could evade app vetting techniques by placing code in a malicious application to detect whether it is running in an app analysis environment and, if so, avoid performing malicious actions while under analysis.\n\nDiscussion of general Android anti-analysis techniques can be found in  (Citation: Petsas). Discussion of Google Play Store-specific anti-analysis techniques can be found in  (Citation: Oberheide-Bouncer),  (Citation: Percoco-Bouncer).\n\n (Citation: Wang) presents a discussion of iOS anti-analysis techniques.",
             "external_references": [
                 {
                     "external_id": "MOB-T1043",
@@ -40,12 +40,12 @@
                     "source_name": "Oberheide-Bouncer"
                 },
                 {
-                    "url": "https://media.blackhat.com/bh-us-12/Briefings/Percoco/BH%20US%2012%20Percoco%20Adventures%20in%20Bouncerland%20WP.pdf",
+                    "url": "https://media.blackhat.com/bh-us-12/Briefings/Percoco/BH_US_12_Percoco_Adventures_in_Bouncerland_WP.pdf",
                     "description": "Nicholas J. Percoco and Sean Schulte. (2012). Adventures in BouncerLand. Retrieved December 12, 2016.",
                     "source_name": "Percoco-Bouncer"
                 },
                 {
-                    "url": "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/wang%20tielei",
+                    "url": "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/wang_tielei",
                     "description": "Tielei Wang, Kangjie Lu, Long Lu, Simon Chung, and Wenke Lee. (2013, August). Jekyll on iOS: When Benign Apps Become Evil. Retrieved December 9, 2016.",
                     "source_name": "Wang"
                 }
@@ -67,7 +67,7 @@
                     "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-08-16T16:59:54.597Z",
+            "modified": "2018-09-07T16:42:18.771Z",
             "created": "2017-10-25T14:48:26.473Z"
         }
     ]

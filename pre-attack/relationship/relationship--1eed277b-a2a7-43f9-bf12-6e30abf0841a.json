@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--68b5df56-e744-47c5-8b22-10e6a48c5b0a",
+    "id": "bundle--65a6f75c-fd94-4e88-94c1-78c64f2b3d2e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -13,8 +13,15 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "external_references": [
+                {
+                    "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf",
+                    "description": "FireEye. (2015). APT28: A WINDOW INTO RUSSIA\u2019S CYBER ESPIONAGE OPERATIONS?. Retrieved August 19, 2015.",
+                    "source_name": "FireEye APT28"
+                }
+            ],
             "type": "relationship",
-            "modified": "2018-08-16T16:59:54.597Z",
+            "modified": "2018-09-07T16:42:18.771Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5952c566-970d-4ba7-b662-f3192ee64de7",
+    "id": "bundle--fd61e82b-0cfe-4e16-b311-04700321a8c8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -15,7 +15,7 @@
                     "source_name": "mitre-attack"
                 },
                 {
-                    "url": "https://www.f-secure.com/documents/996508/1030745/cosmicduke%20whitepaper.pdf",
+                    "url": "https://www.f-secure.com/documents/996508/1030745/cosmicduke_whitepaper.pdf",
                     "description": "F-Secure Labs. (2014, July). COSMICDUKE Cosmu with a twist of MiniDuke. Retrieved July 3, 2014.",
                     "source_name": "F-Secure Cosmicduke"
                 },
@@ -25,7 +25,7 @@
                     "source_name": "University of Birmingham C2"
                 },
                 {
-                    "url": "https://www.fidelissecurity.com/sites/default/files/FTA%201018%20looking%20at%20the%20sky%20for%20a%20dark%20comet.pdf",
+                    "url": "https://www.fidelissecurity.com/sites/default/files/FTA_1018_looking_at_the_sky_for_a_dark_comet.pdf",
                     "description": "Fidelis Cybersecurity. (2015, August 4). Looking at the Sky for a DarkComet. Retrieved April 5, 2016.",
                     "source_name": "Fidelis DarkComet"
                 }
@@ -40,7 +40,7 @@
                 "Malware reverse engineering",
                 "Process monitoring"
             ],
-            "x_mitre_detection": "If malware uses custom encryption with symmetric keys, it may be possible to obtain the algorithm and key from samples and use them to decode network traffic to detect malware communications signatures. (Citation: Fidelis DarkComet)\n\n\nIn general, analyze network data for uncommon data flows (e.g., a client sending significantly more data than it receives from a server). Processes utilizing the network that do not normally have network communication or have never been seen before are suspicious. Analyze packet contents to detect when communications do not follow the expected protocol behavior for the port that is being used. (Citation: University of Birmingham C2)",
+            "x_mitre_detection": "If malware uses custom encryption with symmetric keys, it may be possible to obtain the algorithm and key from samples and use them to decode network traffic to detect malware communications signatures. (Citation: Fidelis DarkComet)\n\nIn general, analyze network data for uncommon data flows (e.g., a client sending significantly more data than it receives from a server). Processes utilizing the network that do not normally have network communication or have never been seen before are suspicious. Analyze packet contents to detect when communications do not follow the expected protocol behavior for the port that is being used. (Citation: University of Birmingham C2)",
             "x_mitre_network_requirements": true,
             "x_mitre_platforms": [
                 "Linux",
@@ -54,7 +54,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-08-16T16:59:54.597Z",
+            "modified": "2018-09-07T16:42:18.771Z",
             "created": "2017-05-31T21:30:31.197Z"
         }
     ]

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--d597e685-2b62-4adc-a385-3819eb4fa7ed",
+    "id": "bundle--bc34d141-2b24-492e-87c2-ab5f1fa394f3",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "course-of-action--45e7f570-6a0b-4095-bf02-4bca05da6bae",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Masquerading Mitigation",
-            "description": "When creating security rules, avoid exclusions based on file name or file path. Require signed binaries. Use file system access controls to protect folders such as C:\\Windows\\System32. Use tools that restrict program execution via whitelisting by attributes other than file name.\n\n\nIdentify potentially malicious software that may look like a legitimate program based on name and location, and audit and/or block it by using whitelisting (Citation: Beechey 2010) tools like AppLocker (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
+            "description": "When creating security rules, avoid exclusions based on file name or file path. Require signed binaries. Use file system access controls to protect folders such as C:\\Windows\\System32. Use tools that restrict program execution via whitelisting by attributes other than file name.\n\nIdentify potentially malicious software that may look like a legitimate program based on name and location, and audit and/or block it by using whitelisting (Citation: Beechey 2010) tools like AppLocker (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
             "external_references": [
                 {
                     "external_id": "T1036",
@@ -41,8 +41,8 @@
                 }
             ],
             "type": "course-of-action",
-            "modified": "2018-08-16T16:59:54.597Z",
-            "created": "2018-08-16T16:59:54.597Z"
+            "modified": "2018-09-07T16:42:18.771Z",
+            "created": "2018-09-07T16:42:18.771Z"
         }
     ]
 }

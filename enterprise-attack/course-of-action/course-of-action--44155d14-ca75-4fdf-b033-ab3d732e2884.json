@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--ce6b3d57-068a-41ee-92b5-4d0eab48c829",
+    "id": "bundle--38ab3db8-3d1a-4b4f-a4bd-c3a981da127d",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "course-of-action--44155d14-ca75-4fdf-b033-ab3d732e2884",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Kernel Modules and Extensions Mitigation",
-            "description": "Common tools for detecting Linux rootkits include: rkhunter (Citation: SourceForge rkhunter), chrootkit (Citation: Chkrootkit Main), although rootkits may be designed to evade certain detection tools.\n\n\nLKMs and Kernel extensions require root level permissions to be installed. Limit access to the root account and prevent users from loading kernel modules and extensions through proper privilege separation and limiting Privilege Escalation opportunities.\n\nApplication whitelisting and software restriction tools, such as SELinux, can also aide in restricting kernel module loading. (Citation: Kernel.org Restrict Kernel Module)",
+            "description": "Common tools for detecting Linux rootkits include: rkhunter (Citation: SourceForge rkhunter), chrootkit (Citation: Chkrootkit Main), although rootkits may be designed to evade certain detection tools.\n\nLKMs and Kernel extensions require root level permissions to be installed. Limit access to the root account and prevent users from loading kernel modules and extensions through proper privilege separation and limiting Privilege Escalation opportunities.\n\nApplication whitelisting and software restriction tools, such as SELinux, can also aide in restricting kernel module loading. (Citation: Kernel.org Restrict Kernel Module)",
             "external_references": [
                 {
                     "external_id": "T1215",
@@ -31,8 +31,8 @@
                 }
             ],
             "type": "course-of-action",
-            "modified": "2018-08-16T16:59:54.597Z",
-            "created": "2018-08-16T16:59:54.597Z"
+            "modified": "2018-09-07T16:42:18.771Z",
+            "created": "2018-09-07T16:42:18.771Z"
         }
     ]
 }

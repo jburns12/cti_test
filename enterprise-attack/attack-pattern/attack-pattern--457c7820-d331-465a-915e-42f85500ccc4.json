@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--93001378-a3d1-4e7c-9901-e21095ecce4a",
+    "id": "bundle--4e3aac21-d07b-4e6d-a192-97421f8607a3",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--457c7820-d331-465a-915e-42f85500ccc4",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Signed Binary Proxy Execution",
-            "description": "Binaries signed with trusted digital certificates can execute on Windows systems protected by digital signature validation. Several Microsoft signed binaries that are default on Windows installations can be used to proxy execution of other files. This behavior may be abused by adversaries to execute malicious files that could bypass application whitelisting and signature validation on systems. This technique accounts for proxy execution methods that are not already accounted for within the existing techniques.\n\n### Mavinject.exe\nMavinject.exe is a Windows utility that allows for code execution. Mavinject can be used to input a DLL into a running process. (Citation: Twitter gN3mes1s Status Update MavInject32)\n\n\n<code>\"C:\\Program Files\\Common Files\\microsoft shared\\ClickToRun\\MavInject32.exe\" <PID> /INJECTRUNNING <PATH DLL></code>\n\n\n<code>C:\\Windows\\system32\\mavinject.exe <PID> /INJECTRUNNING <PATH DLL></code>\n\n\n### SyncAppvPublishingServer.exe\nSyncAppvPublishingServer.exe can be used to run powershell scripts without executing powershell.exe. (Citation: Twitter monoxgas Status Update SyncAppvPublishingServer)\n\n\nSeveral others binaries exist that may be used to perform similar behavior. (Citation: GitHub Ultimate AppLocker Bypass List)",
+            "description": "Binaries signed with trusted digital certificates can execute on Windows systems protected by digital signature validation. Several Microsoft signed binaries that are default on Windows installations can be used to proxy execution of other files. This behavior may be abused by adversaries to execute malicious files that could bypass application whitelisting and signature validation on systems. This technique accounts for proxy execution methods that are not already accounted for within the existing techniques.\n\n### Mavinject.exe\nMavinject.exe is a Windows utility that allows for code execution. Mavinject can be used to input a DLL into a running process. (Citation: Twitter gN3mes1s Status Update MavInject32)\n\n<code>\"C:\\Program Files\\Common Files\\microsoft shared\\ClickToRun\\MavInject32.exe\" <PID> /INJECTRUNNING <PATH DLL></code>\n\n<code>C:\\Windows\\system32\\mavinject.exe <PID> /INJECTRUNNING <PATH DLL></code>\n\n### SyncAppvPublishingServer.exe\nSyncAppvPublishingServer.exe can be used to run powershell scripts without executing powershell.exe. (Citation: Twitter monoxgas Status Update SyncAppvPublishingServer)\n\nSeveral others binaries exist that may be used to perform similar behavior. (Citation: GitHub Ultimate AppLocker Bypass List)",
             "external_references": [
                 {
                     "external_id": "T1218",
@@ -63,7 +63,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-08-16T16:59:54.597Z",
+            "modified": "2018-09-07T16:42:18.771Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

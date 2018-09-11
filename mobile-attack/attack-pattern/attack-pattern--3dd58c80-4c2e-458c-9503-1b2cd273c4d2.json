@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--d247c128-7c2f-4294-8402-a2d7b7cca600",
+    "id": "bundle--25b9d0dc-d4fb-44ac-b5f0-d707579d4e48",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--3dd58c80-4c2e-458c-9503-1b2cd273c4d2",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "User Interface Spoofing",
-            "description": "At least three methods exist to perform User Interface Spoofing:\n\n\nFirst, on both Android and iOS, an adversary could impersonate the user interface of a legitimate app or device function to trick a user into entering account credentials. \n\nSecond, on both Android and iOS, a malicious app could impersonate the identity of another app in order to trick users into installing and using it.\n\nThird, on older versions of Android, a malicious app could abuse mobile operating system features to interfere with a running legitimate app as described in  (Citation: Felt-PhishingOnMobileDevices) and  (Citation: Hassell-ExploitingAndroid). However, this technique appears to have been addressed starting in Android 5.0 with the deprecation of the Android's ActivityManager.getRunningTasks method and modification of its behavior (Citation: Android-getRunningTasks) and further addressed in Android 5.1.1 (Citation: StackOverflow-getRunningAppProcesses) to prevent a malicious app from determining what app is currently in the foreground.",
+            "description": "At least three methods exist to perform User Interface Spoofing:\n\nFirst, on both Android and iOS, an adversary could impersonate the user interface of a legitimate app or device function to trick a user into entering account credentials. \n\nSecond, on both Android and iOS, a malicious app could impersonate the identity of another app in order to trick users into installing and using it.\n\nThird, on older versions of Android, a malicious app could abuse mobile operating system features to interfere with a running legitimate app as described in  (Citation: Felt-PhishingOnMobileDevices) and  (Citation: Hassell-ExploitingAndroid). However, this technique appears to have been addressed starting in Android 5.0 with the deprecation of the Android's ActivityManager.getRunningTasks method and modification of its behavior (Citation: Android-getRunningTasks) and further addressed in Android 5.1.1 (Citation: StackOverflow-getRunningAppProcesses) to prevent a malicious app from determining what app is currently in the foreground.",
             "external_references": [
                 {
                     "external_id": "MOB-T1014",
@@ -57,7 +57,7 @@
                     "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-08-16T16:59:54.597Z",
+            "modified": "2018-09-07T16:42:18.771Z",
             "created": "2017-10-25T14:48:34.407Z"
         }
     ]

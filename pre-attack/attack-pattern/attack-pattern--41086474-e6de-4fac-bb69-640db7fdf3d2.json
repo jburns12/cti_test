@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5a11125b-0f58-4e43-9de7-b9d0742aed62",
+    "id": "bundle--72117f79-d8af-4d7d-a7c0-de2a0a4600f7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -42,7 +42,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_deprecated": "true",
+            "x_mitre_deprecated": true,
             "x_mitre_detectable_by_common_defenses": "Partial",
             "x_mitre_detectable_by_common_defenses_explanation": "Third-party mobile application security analysis services exist that scan for use of these techniques in iOS and Android applications. Additionally, Google specifically calls out the ability to \"identify attacks that require connection to a server and dynamic downloading of code\" in its Android Security 2015 Year in Review report. However, many applications use these techniques as part of their legitimate operation, increasing the difficulty of detecting or preventing malicious use.",
             "x_mitre_difficulty_for_adversary": "Yes",
@@ -54,7 +54,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-08-16T16:59:54.597Z",
+            "modified": "2018-09-07T16:42:18.771Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

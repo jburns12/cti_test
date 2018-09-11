@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7d377621-75b6-42ad-86a0-81e8d6481c69",
+    "id": "bundle--57a0d50f-a0db-44fa-929b-1f6db9260bec",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "intrusion-set--a0cb9370-e39b-44d5-9f50-ef78e412b973",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Axiom",
-            "description": "[Axiom](https://attack.mitre.org/groups/G0001)]] is a cyber espionage group suspected to be associated with the Chinese government. It is responsible for the Operation SMN campaign. (Citation: Axiom) Though both this group and [Winnti Group](https://attack.mitre.org/groups/G0044) use the malware [Winnti](https://attack.mitre.org/software/S0141), the two groups appear to be distinct based on differences in reporting on the groups' TTPs and targeting. (Citation: Kaspersky Winnti April 2013) (Citation: Kaspersky Winnti June 2015) (Citation: Novetta Winnti April 2015)",
+            "description": "[ (Citation: Axiom](https://attack.mitre.org/groups/G0001)) is a cyber espionage group suspected to be associated with the Chinese government. It is responsible for the Operation SMN campaign. (Citation: Axiom) Though both this group and [Winnti Group](https://attack.mitre.org/groups/G0044) use the malware [Winnti](https://attack.mitre.org/software/S0141), the two groups appear to be distinct based on differences in reporting on the groups' TTPs and targeting. (Citation: Kaspersky Winnti April 2013) (Citation: Kaspersky Winnti June 2015) (Citation: Novetta Winnti April 2015)",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -27,7 +27,7 @@
                     "source_name": "Group 72"
                 },
                 {
-                    "url": "https://kasperskycontenthub.com/wp-content/uploads/sites/43/vlpdfs/winnti-more-than-just-a-game-130410.pdf",
+                    "url": "https://securelist.com/winnti-more-than-just-a-game/37029/",
                     "description": "Kaspersky Lab's Global Research and Analysis Team. (2013, April 11). Winnti. More than just a game. Retrieved February 8, 2017.",
                     "source_name": "Kaspersky Winnti April 2013"
                 },
@@ -37,7 +37,7 @@
                     "source_name": "Kaspersky Winnti June 2015"
                 },
                 {
-                    "url": "http://www.novetta.com/wp-content/uploads/2015/04/novetta%20winntianalysis.pdf",
+                    "url": "http://www.novetta.com/wp-content/uploads/2015/04/novetta_winntianalysis.pdf",
                     "description": "Novetta Threat Research Group. (2015, April 7). Winnti Analysis. Retrieved February 8, 2017.",
                     "source_name": "Novetta Winnti April 2015"
                 },
@@ -51,7 +51,7 @@
                 "Axiom",
                 "Group 72"
             ],
-            "modified": "2018-08-16T16:59:54.597Z",
+            "modified": "2018-09-07T16:42:18.771Z",
             "created": "2017-05-31T21:31:45.629Z"
         }
     ]

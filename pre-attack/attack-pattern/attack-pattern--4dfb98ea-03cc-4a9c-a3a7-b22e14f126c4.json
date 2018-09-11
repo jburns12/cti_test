@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9732f406-5832-4d9f-809c-b59241eb8f1a",
+    "id": "bundle--9f5691b9-970b-4e2f-9e7b-a1d2d1ca75fb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -26,7 +26,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_deprecated": "true",
+            "x_mitre_deprecated": true,
             "x_mitre_detectable_by_common_defenses": "Partial",
             "x_mitre_detectable_by_common_defenses_explanation": "This is possible with diligent monitoring of login anomalies, expected user behavior/location.  If the adversary uses legitimate credentials, it may go undetected.",
             "x_mitre_difficulty_for_adversary": "Yes",
@@ -38,7 +38,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-08-16T16:59:54.597Z",
+            "modified": "2018-09-07T16:42:18.771Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

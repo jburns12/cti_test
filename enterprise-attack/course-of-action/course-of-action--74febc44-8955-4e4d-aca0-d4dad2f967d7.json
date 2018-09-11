@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--64672a3a-fe5c-417e-b885-a7e1dea6244e",
+    "id": "bundle--d32e39e6-cadb-4336-8de9-fe94ac8415f5",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "course-of-action--74febc44-8955-4e4d-aca0-d4dad2f967d7",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Process Injection Mitigation",
-            "description": "This type of attack technique cannot be easily mitigated with preventive controls since it is based on the abuse of operating system design features. For example, mitigating specific Windows API calls will likely have unintended side effects, such as preventing legitimate software (i.e., security products) from operating properly. Efforts should be focused on preventing adversary tools from running earlier in the chain of activity and on identification of subsequent malicious behavior. (Citation: GDSecurity Linux injection)\n\n\nIdentify or block potentially malicious software that may contain process injection functionality by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)\n\n\nUtilize Yama  (Citation: Linux kernel Yama) to mitigate ptrace based process injection by restricting the use of ptrace to privileged users only. Other mitigation controls involve the deployment of security kernel modules that provide advanced access control and process restrictions such as SELinux  (Citation: SELinux official), grsecurity  (Citation: grsecurity official), and AppAmour  (Citation: AppArmor official).",
+            "description": "This type of attack technique cannot be easily mitigated with preventive controls since it is based on the abuse of operating system design features. For example, mitigating specific Windows API calls will likely have unintended side effects, such as preventing legitimate software (i.e., security products) from operating properly. Efforts should be focused on preventing adversary tools from running earlier in the chain of activity and on identification of subsequent malicious behavior. (Citation: GDSecurity Linux injection)\n\nIdentify or block potentially malicious software that may contain process injection functionality by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)\n\nUtilize Yama  (Citation: Linux kernel Yama) to mitigate ptrace based process injection by restricting the use of ptrace to privileged users only. Other mitigation controls involve the deployment of security kernel modules that provide advanced access control and process restrictions such as SELinux  (Citation: SELinux official), grsecurity  (Citation: grsecurity official), and AppAmour  (Citation: AppArmor official).",
             "external_references": [
                 {
                     "external_id": "T1055",
@@ -50,7 +50,7 @@
                     "source_name": "Linux kernel Yama"
                 },
                 {
-                    "url": "https://selinuxproject.org/page/Main%20Page",
+                    "url": "https://selinuxproject.org/page/Main_Page",
                     "description": "SELinux Project. (2017, November 30). SELinux Project Wiki. Retrieved December 20, 2017.",
                     "source_name": "SELinux official"
                 },
@@ -60,14 +60,14 @@
                     "source_name": "grsecurity official"
                 },
                 {
-                    "url": "http://wiki.apparmor.net/index.php/Main%20Page",
+                    "url": "http://wiki.apparmor.net/index.php/Main_Page",
                     "description": "AppArmor. (2017, October 19). AppArmor Security Project Wiki. Retrieved December 20, 2017.",
                     "source_name": "AppArmor official"
                 }
             ],
             "type": "course-of-action",
-            "modified": "2018-08-16T16:59:54.597Z",
-            "created": "2018-08-16T16:59:54.597Z"
+            "modified": "2018-09-07T16:42:18.771Z",
+            "created": "2018-09-07T16:42:18.771Z"
         }
     ]
 }

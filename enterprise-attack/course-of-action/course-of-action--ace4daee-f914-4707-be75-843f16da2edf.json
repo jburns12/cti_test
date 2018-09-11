@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--075ece40-11e0-459e-a387-9d2e556322e9",
+    "id": "bundle--1514744a-349d-46a1-8619-a256cea16fe4",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "course-of-action--ace4daee-f914-4707-be75-843f16da2edf",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Bash History Mitigation",
-            "description": "There are multiple methods of preventing a user's command history from being flushed to their .bash_history file, including use of the following commands:\n\n<code>set +o history</code> and <code>set -o history</code> to start logging again;\n<code>unset HISTFILE</code> being added to a user's .bash_rc file; and\n<code>ln -s /dev/null ~/.bash_history</code> to write commands to <code>/dev/null</code>instead.",
+            "description": "There are multiple methods of preventing a user's command history from being flushed to their .bash_history file, including use of the following commands:\n<code>set +o history</code> and <code>set -o history</code> to start logging again;\n<code>unset HISTFILE</code> being added to a user's .bash_rc file; and\n<code>ln -s /dev/null ~/.bash_history</code> to write commands to <code>/dev/null</code>instead.",
             "external_references": [
                 {
                     "external_id": "T1139",
@@ -16,8 +16,8 @@
                 }
             ],
             "type": "course-of-action",
-            "modified": "2018-08-16T16:59:54.597Z",
-            "created": "2018-08-16T16:59:54.597Z"
+            "modified": "2018-09-07T16:42:18.771Z",
+            "created": "2018-09-07T16:42:18.771Z"
         }
     ]
 }

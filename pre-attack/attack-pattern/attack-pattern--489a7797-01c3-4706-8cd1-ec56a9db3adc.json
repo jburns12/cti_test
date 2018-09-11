@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--27388bcd-53e1-48cc-8ea5-08305a02b56c",
+    "id": "bundle--592c46fe-bded-4482-97db-cfa637efc72f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,7 +27,7 @@
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "x_mitre_detectable_by_common_defenses": "Yes",
-            "x_mitre_deprecated": "true",
+            "x_mitre_deprecated": true,
             "x_mitre_detectable_by_common_defenses_explanation": "Defenders can implement mechanisms to analyze links and identify levels of concerns.  However, the adversary has the advantage of creating new links or finding ways to obfuscate the link so that common detection lists can not identify it.  Detection of a malicious link could be identified once the file has been downloaded.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Sending emails is trivial and expected.  The adversary needs to ensure links don't get tampered, removed, or flagged as a previously black-listed site.",
@@ -38,7 +38,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-08-16T16:59:54.597Z",
+            "modified": "2018-09-07T16:42:18.771Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

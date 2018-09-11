@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5d8a4300-2a6e-4009-ba8e-4b03be205bcb",
+    "id": "bundle--a6702979-90aa-4557-a147-8e60bb9e88b9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -23,7 +23,7 @@
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "x_mitre_detectable_by_common_defenses": "Yes",
-            "x_mitre_deprecated": "true",
+            "x_mitre_deprecated": true,
             "x_mitre_detectable_by_common_defenses_explanation": "Some environments have anti-spearphishing mechanisms to detect or block the link before it reaches the user.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Users unwittingly click on spearphishing links frequently, despite training designed to educate about the perils of spearphishing.",
@@ -34,7 +34,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-08-16T16:59:54.597Z",
+            "modified": "2018-09-07T16:42:18.771Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

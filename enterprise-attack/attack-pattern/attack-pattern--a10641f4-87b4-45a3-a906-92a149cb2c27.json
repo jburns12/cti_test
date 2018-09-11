@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d505e228-87fd-4dd5-bda5-d3826a930b0a",
+    "id": "bundle--0dc32144-44bc-4d2a-bd0a-d40e54a41121",
     "spec_version": "2.0",
     "objects": [
         {
@@ -39,7 +39,7 @@
                 "Windows event logs",
                 "Packet capture"
             ],
-            "x_mitre_detection": "Collect events that correlate with changes to account objects on systems and the domain, such as event ID 4738. (Citation: Microsoft User Modified Event) Monitor for modification of accounts in correlation with other suspicious activity. Changes may occur at unusual times or from unusual systems. Especially flag events where the subject and target accounts differ (Citation: InsiderThreat ChangeNTLM July 2017) or that include additional flags such as changing a password without knowledge of the old password. (Citation: GitHub Mimikatz Issue 92 June 2017)\n\n\nUse of credentials may also occur at unusual times or to unusual systems or services and may correlate with other suspicious activity.",
+            "x_mitre_detection": "Collect events that correlate with changes to account objects on systems and the domain, such as event ID 4738. (Citation: Microsoft User Modified Event) Monitor for modification of accounts in correlation with other suspicious activity. Changes may occur at unusual times or from unusual systems. Especially flag events where the subject and target accounts differ (Citation: InsiderThreat ChangeNTLM July 2017) or that include additional flags such as changing a password without knowledge of the old password. (Citation: GitHub Mimikatz Issue 92 June 2017)\n\nUse of credentials may also occur at unusual times or to unusual systems or services and may correlate with other suspicious activity.",
             "x_mitre_permissions_required": [
                 "Administrator"
             ],
@@ -53,7 +53,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-08-16T16:59:54.597Z",
+            "modified": "2018-09-07T16:42:18.771Z",
             "created": "2017-05-31T21:31:12.196Z"
         }
     ]

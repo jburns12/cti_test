@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--af45af24-4fea-4940-85d5-9ddb2c5b7ca0",
+    "id": "bundle--144542bc-122c-4617-9bf3-621e1b510402",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,7 +27,7 @@
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "x_mitre_detectable_by_common_defenses": "No",
-            "x_mitre_deprecated": "true",
+            "x_mitre_deprecated": true,
             "x_mitre_detectable_by_common_defenses_explanation": "For non-corporate cellular devices not joined to the corporate network, it is not possible to detect an adversary's use of the technique because messages traverse networks outside of the control of the employer. For corporate cellular devices which are joined to the corporate network, monitoring of messages and ability to patch against push attacks is possible, assuming they are fully monitored.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Easily executed technique to push an MMS-type message to the target which does not require interaction on the part of the target to be successful.",
@@ -38,7 +38,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-08-16T16:59:54.597Z",
+            "modified": "2018-09-07T16:42:18.771Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

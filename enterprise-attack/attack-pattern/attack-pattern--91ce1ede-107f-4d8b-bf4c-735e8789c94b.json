@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--b48ee2b1-9d91-42cd-88ba-9633151a01c4",
+    "id": "bundle--b242d9cf-8b0b-43e4-883f-47ffe54ceecb",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--91ce1ede-107f-4d8b-bf4c-735e8789c94b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Input Prompt",
-            "description": "When programs are executed that need additional privileges than are present in the current user context, it is common for the operating system to prompt the user for proper credentials to authorize the elevated privileges for the task. Adversaries can mimic this functionality to prompt users for credentials with a normal-looking prompt. This type of prompt can be accomplished with AppleScript:\n\n\n<code>set thePassword to the text returned of (display dialog \"AdobeUpdater needs permission to check for updates. Please authenticate.\" default answer \"\")</code>\n (Citation: OSX Keydnap malware)\n\n\nAdversaries can prompt a user for a number of reasons that mimic normal usage, such as a fake installer requiring additional access or a fake malware removal suite. (Citation: OSX Malware Exploits MacKeeper)",
+            "description": "When programs are executed that need additional privileges than are present in the current user context, it is common for the operating system to prompt the user for proper credentials to authorize the elevated privileges for the task. Adversaries can mimic this functionality to prompt users for credentials with a normal-looking prompt. This type of prompt can be accomplished with AppleScript:\n\n<code>set thePassword to the text returned of (display dialog \"AdobeUpdater needs permission to check for updates. Please authenticate.\" default answer \"\")</code>\n (Citation: OSX Keydnap malware)\n\nAdversaries can prompt a user for a number of reasons that mimic normal usage, such as a fake installer requiring additional access or a fake malware removal suite. (Citation: OSX Malware Exploits MacKeeper)",
             "external_references": [
                 {
                     "external_id": "T1141",
@@ -46,7 +46,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-08-16T16:59:54.597Z",
+            "modified": "2018-09-07T16:42:18.771Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

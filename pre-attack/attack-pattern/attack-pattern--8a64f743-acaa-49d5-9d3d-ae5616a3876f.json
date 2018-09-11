@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b35c222c-d3e2-47e4-a9ce-50fcc12be9f8",
+    "id": "bundle--b4e8d231-5714-4063-b2cc-f1bdc89378c9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -23,7 +23,7 @@
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "x_mitre_detectable_by_common_defenses": "Yes",
-            "x_mitre_deprecated": "true",
+            "x_mitre_deprecated": true,
             "x_mitre_detectable_by_common_defenses_explanation": "If the application and network are designed well, the defender should be able to utilize logging and application logic to catch and deflect SQL injection attacks.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Launching a SQL injection attack is not overly complex and a commonly used technique.  This technique, however, requires finding a vulnerable application.",
@@ -34,7 +34,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-08-16T16:59:54.597Z",
+            "modified": "2018-09-07T16:42:18.771Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

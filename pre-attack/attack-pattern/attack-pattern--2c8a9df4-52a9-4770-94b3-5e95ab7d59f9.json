@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cafb2b8d-dad9-4638-a358-e749db80a27d",
+    "id": "bundle--9a807896-34ea-4c67-935d-d9054b6c7128",
     "spec_version": "2.0",
     "objects": [
         {
@@ -23,7 +23,7 @@
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "x_mitre_detectable_by_common_defenses": "No",
-            "x_mitre_deprecated": "true",
+            "x_mitre_deprecated": true,
             "x_mitre_detectable_by_common_defenses_explanation": "While possible to detect, it requires a broader vantage point than is typical that provides increased insight and conducts extensive data analysis and correlation between events.",
             "x_mitre_difficulty_for_adversary": "No",
             "x_mitre_difficulty_for_adversary_explanation": "Conducting technique requires either nation-state level capabilities or large amounts of financing to coordinate multiple 3rd party resources to gain desired insight.",
@@ -34,7 +34,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-08-16T16:59:54.597Z",
+            "modified": "2018-09-07T16:42:18.771Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

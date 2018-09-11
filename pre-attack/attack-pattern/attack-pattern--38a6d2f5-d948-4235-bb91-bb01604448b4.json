@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c9bdbf9b-78a6-4933-b6cf-136d4bd213b7",
+    "id": "bundle--60eaaeed-a4fd-43a7-9d17-5f1e504dfc11",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,7 +27,7 @@
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "x_mitre_detectable_by_common_defenses": "No",
-            "x_mitre_deprecated": "true",
+            "x_mitre_deprecated": true,
             "x_mitre_detectable_by_common_defenses_explanation": "Fidelity of networking monitoring must be able to detect when traffic is diverted to non-normal sources at a site level.  It is possible to identify some methods of pharming, but detection capabilities are limited and not commonly implemented.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Although it can be difficult to spoof/redirect content to a hostile service via DNS poisoning or MiTM attacks, current malware such as Zeus is able to successfully pharm credentials and end users are not well-versed in checking for certificate mismatches.",
@@ -38,7 +38,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-08-16T16:59:54.597Z",
+            "modified": "2018-09-07T16:42:18.771Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

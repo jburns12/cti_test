@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--30d8fd1e-42f7-4cfa-b261-8d3088c98207",
+    "id": "bundle--c467e33d-3dad-4df7-a3b8-368067c94986",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,7 +27,7 @@
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "x_mitre_detectable_by_common_defenses": "No",
-            "x_mitre_deprecated": "true",
+            "x_mitre_deprecated": true,
             "x_mitre_detectable_by_common_defenses_explanation": "Non-hypersensing environments do not typically collect this level of detailed information.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Ill-informed users insert devices into their network that they randomly find, despite training educating them why this is not a wise idea.",
@@ -38,7 +38,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-08-16T16:59:54.597Z",
+            "modified": "2018-09-07T16:42:18.771Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

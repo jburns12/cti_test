@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--661c09ad-8a99-4e1d-abd6-22f8f95de570",
+    "id": "bundle--41503754-68ed-4873-a0d2-5355cfb72e58",
     "spec_version": "2.0",
     "objects": [
         {
@@ -23,7 +23,7 @@
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "x_mitre_detectable_by_common_defenses": "No",
-            "x_mitre_deprecated": "true",
+            "x_mitre_deprecated": true,
             "x_mitre_detectable_by_common_defenses_explanation": "Environments without extensive endpoint sensing capabilities do not typically collect this level of detailed information.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Autoruns with USB keys and CDs traditionally were always on (e.g., [http://windows.microsoft.com Windows] 7 is now an exception with a new policy of limiting the always on nature of Autoruns), ensuring and automated system completes a requested action.  Specialized use cases exist where automated systems are specifically designed against automatically performing certain actions (e.g., USB/CD insertion and automatically running is disabled in certain environments).",
@@ -34,7 +34,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-08-16T16:59:54.597Z",
+            "modified": "2018-09-07T16:42:18.771Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

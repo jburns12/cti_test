@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--0e1b0b01-bec1-42b1-9f5c-385af8decb37",
+    "id": "bundle--49774010-387f-497d-91e9-135a4eda19eb",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--53bfc8bf-8f76-4cd7-8958-49a884ddb3ee",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Launchctl",
-            "description": "Launchctl controls the macOS launchd process which handles things like launch agents and launch daemons, but can execute other commands or programs itself. Launchctl supports taking subcommands on the command-line, interactively, or even redirected from standard input. By loading or reloading launch agents or launch daemons, adversaries can install persistence or execute changes they made  (Citation: Sofacy Komplex Trojan). Running a command from launchctl is as simple as <code>launchctl submit -l <labelName> -- /Path/to/thing/to/execute \"arg\" \"arg\" \"arg\"</code>. Loading, unloading, or reloading launch agents or launch daemons can require elevated privileges. \n\n\nAdversaries can abuse this functionality to execute code or even bypass whitelisting if launchctl is an allowed process.",
+            "description": "Launchctl controls the macOS launchd process which handles things like launch agents and launch daemons, but can execute other commands or programs itself. Launchctl supports taking subcommands on the command-line, interactively, or even redirected from standard input. By loading or reloading launch agents or launch daemons, adversaries can install persistence or execute changes they made  (Citation: Sofacy Komplex Trojan). Running a command from launchctl is as simple as <code>launchctl submit -l <labelName> -- /Path/to/thing/to/execute \"arg\" \"arg\" \"arg\"</code>. Loading, unloading, or reloading launch agents or launch daemons can require elevated privileges. \n\nAdversaries can abuse this functionality to execute code or even bypass whitelisting if launchctl is an allowed process.",
             "external_references": [
                 {
                     "external_id": "T1152",
@@ -57,7 +57,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-08-16T16:59:54.597Z",
+            "modified": "2018-09-07T16:42:18.771Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]
