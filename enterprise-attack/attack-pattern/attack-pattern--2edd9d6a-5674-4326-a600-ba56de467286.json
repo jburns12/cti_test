@@ -7,7 +7,7 @@
             "id": "attack-pattern--2edd9d6a-5674-4326-a600-ba56de467286",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Credentials in Registry",
-            "description": "The Windows Registry stores configuration information that can be used by the system or other programs. Adversaries may query the Registry looking for credentials and passwords that have been stored for use by other programs or services. Sometimes these credentials are used for automatic logons.\n\nExample commands to find Registry keys related to password information: (Citation: Pentestlab Stored Credentials)\n* Local Machine Hive: <code>reg query HKLM /f password /t REG_SZ /s</code>\n* Current User Hive: <code>reg query HKCU /f password /t REG_SZ /s</code>",
+            "description": "The Windows Registry stores configuration information that can be used by the system or other programs. Adversaries may query the Registry looking for credentials and passwords that have been stored for use by other programs or services. Sometimes these credentials are used for automatic logons.\n\nExample commands to find Registry keys related to password information: (Citation: Pentestlab Stored Credentials)\n\n* Local Machine Hive: <code>reg query HKLM /f password /t REG_SZ /s</code>\n* Current User Hive: <code>reg query HKCU /f password /t REG_SZ /s</code>",
             "external_references": [
                 {
                     "external_id": "T1214",
