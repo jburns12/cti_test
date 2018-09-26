@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--186d60dc-ffc7-4e76-904d-59565c45544e",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "relationship",
+            "id": "relationship--8a2549fa-9e7c-4d47-9678-8ed0bb8fa3aa",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-09-24T17:55:35.652Z",
+            "relationship_type": "uses",
+            "description": "APT1 reporting outlines the compromise of 141 countries spanning 20 major industries. Once these targets were identified, information such as technology blueprints, proprietary manufacturing processes, test results, business plans, pricing documents, partnership agreements, emails, and contact lists from leadership were exfiltrated. The specific industries, companies, and information exfiltrated indicate intelligence requirements to gather this type of information.",
+            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
+            "target_ref": "attack-pattern--15d5eaa4-597a-47fd-a692-f2bed434d904",
+            "external_references": [
+                {
+                    "source_name": "Mandiant APT1",
+                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016.",
+                    "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ]
+        }
+    ]
+}

@@ -7016,6 +7016,426 @@
             "created": "2017-12-14T16:46:06.044Z"
         },
         {
+            "type": "relationship",
+            "id": "relationship--8a2549fa-9e7c-4d47-9678-8ed0bb8fa3aa",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-09-24T17:55:35.652Z",
+            "relationship_type": "uses",
+            "description": "APT1 reporting outlines the compromise of 141 countries spanning 20 major industries. Once these targets were identified, information such as technology blueprints, proprietary manufacturing processes, test results, business plans, pricing documents, partnership agreements, emails, and contact lists from leadership were exfiltrated. The specific industries, companies, and information exfiltrated indicate intelligence requirements to gather this type of information.",
+            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
+            "target_ref": "attack-pattern--15d5eaa4-597a-47fd-a692-f2bed434d904",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Mandiant APT1",
+                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016.",
+                    "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
+                }
+            ]
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--51d03816-347c-4716-9524-da99a58f5ea6",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-09-24T17:55:35.652Z",
+            "relationship_type": "uses",
+            "description": "Industries targeted by APT1 match 4 of 7 strategic emerging industries identified by China in its 12th Five Year Plan. The existence of the 12th Five Year Plan speaks to the leadership strategic interest areas.",
+            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
+            "target_ref": "attack-pattern--d3999268-740f-467e-a075-c82e2d04be62",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Mandiant APT1",
+                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016.",
+                    "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
+                }
+            ]
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--970531a2-4927-41a3-b2cd-09d445322f51",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-09-24T17:55:35.652Z",
+            "relationship_type": "uses",
+            "description": "The China 12th Five Year Plan outlines strategic priorities such as emerging industries of interest.",
+            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
+            "target_ref": "attack-pattern--ec739e26-d097-4804-b04a-54dd81ff11e0",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Mandiant APT1",
+                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016.",
+                    "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
+                }
+            ]
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--5ed44a06-bcb4-4293-8bf4-aaebefddc09c",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-09-24T17:55:35.652Z",
+            "relationship_type": "uses",
+            "description": "APT1 targeted 10 major industries including information technology, transporation, high-tech electronics, financial services, navigation, legal services, engineering services, etc.",
+            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
+            "target_ref": "attack-pattern--91a3735f-817a-4450-8ed4-f05a0f5c3877",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Mandiant APT1",
+                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016.",
+                    "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
+                }
+            ]
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--0e7905fd-77c8-43cb-b499-7d6e37fefbeb",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-09-24T17:55:35.652Z",
+            "relationship_type": "uses",
+            "description": "APT1 uses dynamic DNS to register hundreds of FQDNs.",
+            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
+            "target_ref": "attack-pattern--20a66013-8dab-4ca3-a67d-766c842c561c",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Mandiant APT1",
+                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016.",
+                    "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
+                }
+            ]
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--39db1df8-f786-480c-9faf-5b870de2250b",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-09-24T17:55:35.652Z",
+            "relationship_type": "uses",
+            "description": "APT1 used third party email services in the registration of whois records.",
+            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
+            "target_ref": "attack-pattern--1a295f87-af63-4d94-b130-039d6221fb11",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Mandiant APT1",
+                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016.",
+                    "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
+                }
+            ]
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--cc22ab71-f2fc-4885-832b-e75dadeefa2d",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-09-24T17:55:35.652Z",
+            "relationship_type": "uses",
+            "description": "APT1 hijacks FQDNs associated with legitimate websites hosted by hop points. Mandiant considers them to be \u201chijacked\u201d since they were originally registered for a legitimate reason but are used by APT1 for malicious purposes.",
+            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
+            "target_ref": "attack-pattern--4900fabf-1142-4c1f-92f5-0b590e049077",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Mandiant APT1",
+                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016.",
+                    "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
+                }
+            ]
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--f76d74b6-c797-487c-8388-536367d1b922",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-09-24T17:55:35.652Z",
+            "relationship_type": "uses",
+            "description": "APT1 is known to use SSL encryption.",
+            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
+            "target_ref": "attack-pattern--357e137c-7589-4af1-895c-3fbad35ea4d2",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Mandiant APT1",
+                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016.",
+                    "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
+                }
+            ]
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--db10491f-a854-4404-9271-600349484bc3",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-09-24T17:55:35.652Z",
+            "relationship_type": "uses",
+            "description": "APT1 hijacks FQDNs associated with legitimate websites hosted by hop points. Mandiant considers them to be \u201chijacked\u201d since they were originally registered for a legitimate reason but are used by APT1 for malicious purposes.",
+            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
+            "target_ref": "attack-pattern--aadaee0d-794c-4642-8293-7ec22a99fb1a",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Mandiant APT1",
+                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016.",
+                    "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
+                }
+            ]
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--8a2c46d3-92f2-4ff7-a912-8d47189a7d79",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-09-24T17:55:35.652Z",
+            "relationship_type": "uses",
+            "description": "APT1 uses a vast set of 3rd party victim hop points as part of their network infrastructure.",
+            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
+            "target_ref": "attack-pattern--e51398e6-53dc-4e9f-a323-e54683d8672b",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Mandiant APT1",
+                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016.",
+                    "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
+                }
+            ]
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--3d3eb711-5054-4b32-8006-15ba67d3bb25",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-09-24T17:55:35.652Z",
+            "relationship_type": "uses",
+            "description": "APT1 is known to use publicly available privilege escalation tools.",
+            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
+            "target_ref": "attack-pattern--2141aea0-cf38-49aa-9e51-ac34092bc30a",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Mandiant APT1",
+                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016.",
+                    "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
+                }
+            ]
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--34ba5998-4e43-4669-9701-1877aa267354",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-09-24T17:55:35.652Z",
+            "relationship_type": "uses",
+            "description": "APT1 created webmail accounts using familiar names of individuals in the company in order to send targeted phishing emails to intended victims.",
+            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
+            "target_ref": "attack-pattern--9108e212-1c94-4f8d-be76-1aad9b4c86a4",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Mandiant APT1",
+                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016.",
+                    "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
+                }
+            ]
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--2b6a71e4-e5d5-41d2-a193-9a95c94dc924",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-09-24T17:55:35.652Z",
+            "relationship_type": "uses",
+            "description": "APT1 is known to register DNS zones with multiple FQDNs underneath.",
+            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
+            "target_ref": "attack-pattern--15ef4da5-3b93-4bb1-a39a-5396661956d3",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Mandiant APT1",
+                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016.",
+                    "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
+                }
+            ]
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--2b0ec032-eaca-4f0c-be55-39471f0f2bf5",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-09-24T17:55:35.652Z",
+            "relationship_type": "uses",
+            "description": "APT1 is known to use publicly available privilege escalation tools.",
+            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
+            "target_ref": "attack-pattern--27f3ddf8-1b77-4cc2-a4c0-e6da3d31a768",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Mandiant APT1",
+                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016.",
+                    "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
+                }
+            ]
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--90d7f0f0-6e41-431a-a024-9375cbc18d2b",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-09-24T17:55:35.652Z",
+            "relationship_type": "uses",
+            "description": "APT1 is known to have 400+ samples of the WEBC2 variant which have been developed over the last six years of intrusions.",
+            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
+            "target_ref": "attack-pattern--df42286d-dfbd-4455-bc9d-aef52ac29aa7",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Mandiant APT1",
+                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016.",
+                    "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
+                }
+            ]
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--7c68bb22-457e-4942-9e07-36f6cd5ac5ba",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-09-24T17:55:35.652Z",
+            "relationship_type": "uses",
+            "description": "APT1 sent phishing emails using fake webmail accounts to intended victims in the name of trusted personnel as a mechanism to successfully induce compromise.",
+            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
+            "target_ref": "attack-pattern--eb517589-eefc-480e-b8e3-7a8b1066f6f1",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Mandiant APT1",
+                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016.",
+                    "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
+                }
+            ]
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--84943231-1b44-4029-ae09-0dbf05440bef",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-09-24T17:55:35.652Z",
+            "relationship_type": "uses",
+            "description": "APT1 is known to send emails to targets with malicious attachments, most notably .zip files.",
+            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
+            "target_ref": "attack-pattern--e24a9f99-cb76-42a3-a50b-464668773e97",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Mandiant APT1",
+                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016.",
+                    "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
+                }
+            ]
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--e78023e7-98de-4973-9331-843bfa28c9f7",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-09-24T17:55:35.652Z",
+            "relationship_type": "uses",
+            "description": "APT1 sent a sample phishing email with a malicious link to click to Mandiant employees designed to look like communication from the owner of the company.",
+            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
+            "target_ref": "attack-pattern--489a7797-01c3-4706-8cd1-ec56a9db3adc",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Mandiant APT1",
+                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016.",
+                    "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
+                }
+            ]
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--9af7194c-1eea-4aef-bab1-49bd29be069c",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-09-24T17:55:35.652Z",
+            "relationship_type": "uses",
+            "description": "APT1 beachhead and standard backdoors indicate confirmation of compromise.",
+            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
+            "target_ref": "attack-pattern--f4c5d1d9-8f0e-46f1-a9fa-f9a440926046",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Mandiant APT1",
+                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016.",
+                    "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
+                }
+            ]
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--0f97c2ae-2b89-4dd5-a270-42b1dcb5d403",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-12-14T16:46:06.044Z",
+            "modified": "2018-09-24T17:55:35.652Z",
+            "relationship_type": "uses",
+            "description": "APT1 reporting of multiple types of spearphishing via opening attachments and clicking links demonstrates this technique.",
+            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
+            "target_ref": "attack-pattern--0440f60f-9056-4791-a740-8eae96eb61fa",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Mandiant APT1",
+                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016.",
+                    "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
+                }
+            ]
+        },
+        {
             "id": "relationship--683d4e44-f763-492c-b510-fa469a923798",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
