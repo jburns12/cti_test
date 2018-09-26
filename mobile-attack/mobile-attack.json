@@ -8364,7 +8364,7 @@
             "id": "malware--20d56cd6-8dff-4871-9889-d32d254816de",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Gooligan",
-            "description": "The  (Citation: Gooligan) malware family, revealed by Check Point, runs privilege escalation exploits on Android devices and then uses its escalated privileges to steal \"authentication tokens that can be used to access data from Google Play, Gmail, Google Photos, Google Docs, G Suite, Google Drive, and more.\" (Citation: Gooligan)\n\nGoogle (Citation: Ludwig-GhostPush) and LookoutLookout- (Citation: Gooligan) describe  (Citation: Gooligan) as part of the Ghost Push Android malware family.",
+            "description": "The Gooligan malware family, revealed by Check Point, runs privilege escalation exploits on Android devices and then uses its escalated privileges to steal \"authentication tokens that can be used to access data from Google Play, Gmail, Google Photos, Google Docs, G Suite, Google Drive, and more.\" (Citation: Gooligan)\n\nGoogle (Citation: Ludwig-GhostPush) and Lookout (Citation: Lookout) describe Gooligan as part of the Ghost Push Android malware family.",
             "external_references": [
                 {
                     "external_id": "MOB-S0006",
@@ -8380,6 +8380,11 @@
                     "url": "https://plus.google.com/+AdrianLudwig/posts/GXzJ8vaAFsi",
                     "description": "Adrian Ludwig. (2016, November 29). The fight against Ghost Push continues. Retrieved December 12, 2016.",
                     "source_name": "Ludwig-GhostPush"
+                },
+                {
+                    "url": "https://blog.lookout.com/blog/2016/12/01/ghost-push-gooligan/",
+                    "description": "Lookout. (2016, December 1). Ghost Push and Gooligan: One and the same. Retrieved December 12, 2016.",
+                    "source_name": "Lookout"
                 }
             ],
             "object_marking_refs": [
