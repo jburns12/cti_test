@@ -6391,73 +6391,10 @@
             "created": "2017-12-14T16:46:06.044Z"
         },
         {
-            "id": "relationship--4e06cf53-00b1-46a6-a6b6-8e33e761b83f",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "APT12 has been known to target high-tech, defense contractors, media organizations, and western governments.",
-            "source_ref": "intrusion-set--c47f937f-1022-4f42-8525-e7a4779a14cb",
-            "target_ref": "attack-pattern--91a3735f-817a-4450-8ed4-f05a0f5c3877",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "url": "http://www.crowdstrike.com/blog/whois-numbered-panda/",
-                    "description": "Meyers, A. (2013, March 29). Whois Numbered Panda. Retrieved January 14, 2016.",
-                    "source_name": "Meyers Numbered Panda"
-                }
-            ],
-            "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2017-12-14T16:46:06.044Z"
-        },
-        {
-            "id": "relationship--e60a165e-cfad-43e5-ba83-ea2430a377c5",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "APT16 has targeted tech, finance, and media organizations, as well as government services in Japan and Taiwan.",
-            "source_ref": "intrusion-set--d6e88e18-81e8-4709-82d8-973095da1e70",
-            "target_ref": "attack-pattern--91a3735f-817a-4450-8ed4-f05a0f5c3877",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "url": "https://www.fireeye.com/blog/threat-research/2015/12/the-eps-awakens-part-two.html",
-                    "description": "Winters, R.. (2015, December 20). The EPS Awakens - Part 2. Retrieved January 22, 2016.",
-                    "source_name": "FireEye EPS Awakens Part 2"
-                }
-            ],
-            "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2017-12-14T16:46:06.044Z"
-        },
-        {
-            "id": "relationship--f8559304-7ef6-4c48-8d76-a56ebf37c0be",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "APT16 uses compromised, but otherwise legitimate sites as staging servers for second-stage payloads.",
-            "source_ref": "intrusion-set--d6e88e18-81e8-4709-82d8-973095da1e70",
-            "target_ref": "attack-pattern--e51398e6-53dc-4e9f-a323-e54683d8672b",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "url": "https://www.fireeye.com/blog/threat-research/2015/12/the-eps-awakens-part-two.html",
-                    "description": "Winters, R.. (2015, December 20). The EPS Awakens - Part 2. Retrieved January 22, 2016.",
-                    "source_name": "FireEye EPS Awakens Part 2"
-                }
-            ],
-            "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2017-12-14T16:46:06.044Z"
-        },
-        {
             "id": "relationship--9c87b627-de61-42da-a658-7bdb33358754",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "APT17 obfuscates infrastructure using a multi-layered malware beaconing approach.",
+            "description": "APT17 obfuscated infrastructure using a multi-layered malware beaconing approach. ",
             "source_ref": "intrusion-set--090242d7-73fc-4738-af68-20162f7a5aae",
             "target_ref": "attack-pattern--72c8d526-1247-42d4-919c-6d7a31ca8f39",
             "object_marking_refs": [
@@ -6475,52 +6412,10 @@
             "created": "2017-12-14T16:46:06.044Z"
         },
         {
-            "id": "relationship--60e79ac2-3dc1-4005-a1f8-260d58117dab",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "APT28 used OSINT and \u201cGoogle Hacking\u201d techniques to identify Caucasus domains of interest in order to register similar imitation domains.",
-            "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
-            "target_ref": "attack-pattern--784ff1bc-1483-41fe-a172-4cd9ae25c06b",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf",
-                    "description": "FireEye. (2015). APT28: A WINDOW INTO RUSSIA\u2019S CYBER ESPIONAGE OPERATIONS?. Retrieved August 19, 2015.",
-                    "source_name": "FireEye APT28"
-                }
-            ],
-            "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2017-12-14T16:46:06.044Z"
-        },
-        {
-            "id": "relationship--709bb5af-c484-48f2-bb19-bd7630e42e2d",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "APT28 created payloads re-using known Word and IE vulnerabilities.",
-            "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
-            "target_ref": "attack-pattern--27f3ddf8-1b77-4cc2-a4c0-e6da3d31a768",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "url": "https://www2.fireeye.com/rs/848-DID-242/images/APT28-Center-of-Storm-2017.pdf",
-                    "description": "FireEye iSIGHT Intelligence. (2017, January 11). APT28: At the Center of the Storm. Retrieved January 11, 2017.",
-                    "source_name": "FireEye APT28 January 2017"
-                }
-            ],
-            "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2017-12-14T16:46:06.044Z"
-        },
-        {
             "id": "relationship--ab356c7a-6922-4143-90eb-5be632e2f6cd",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "Cleaver has been known to create fake LinkedIn profiles.",
+            "description": "Cleaver created fake LinkedIn profiles.",
             "source_ref": "intrusion-set--8f5e8dc7-739d-4f5e-a8a1-a66e004d7063",
             "target_ref": "attack-pattern--9108e212-1c94-4f8d-be76-1aad9b4c86a4",
             "object_marking_refs": [
@@ -6538,31 +6433,10 @@
             "created": "2017-12-14T16:46:06.044Z"
         },
         {
-            "id": "relationship--3f8694fa-8e16-465b-8357-ec0a85316e9c",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "Cleaver impersonates potential employers by providing a fake r\u00e9sum\u00e9 creation suite. The program installs TinyZBot when victims attempt to submit a resume. This system included multiple domains and companies to appear more legitimate. Victims are less likely to report suspicions of infections on their work network out of fear of being caught applying for another job.",
-            "source_ref": "intrusion-set--8f5e8dc7-739d-4f5e-a8a1-a66e004d7063",
-            "target_ref": "attack-pattern--b79a1960-d0be-4b51-bb62-b27e91e1dea0",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "url": "https://www.cylance.com/content/dam/cylance/pages/operation-cleaver/Cylance_Operation_Cleaver_Report.pdf",
-                    "description": "Cylance. (2014, December). Operation Cleaver. Retrieved September 14, 2017.",
-                    "source_name": "Cylance Cleaver"
-                }
-            ],
-            "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2017-12-14T16:46:06.044Z"
-        },
-        {
             "id": "relationship--c6e43693-2a6d-4ba8-8fa7-ec1ab5239528",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "Night dragon uses third party hosting services in the U.S. in an attempt to hide their operations.",
+            "description": "Night dragon used third party hosting services in the U.S. in an attempt to hide their operations.",
             "source_ref": "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
             "target_ref": "attack-pattern--1a295f87-af63-4d94-b130-039d6221fb11",
             "object_marking_refs": [
@@ -6710,20 +6584,20 @@
             "created": "2017-12-14T16:46:06.044Z"
         },
         {
-            "id": "relationship--7a254f4d-c7cf-4b98-94e9-3937785b7d68",
+            "id": "relationship--4eb0e01c-85ae-466a-a8ff-0cf7891c5ab2",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "APT12 quickly adapts its methods when their tactics and techniques are publicly disclosed.",
-            "source_ref": "intrusion-set--c47f937f-1022-4f42-8525-e7a4779a14cb",
-            "target_ref": "attack-pattern--df42286d-dfbd-4455-bc9d-aef52ac29aa7",
+            "description": "APT16 spearphished journalists, apparently targeting those interested in contact information for DPP members or politicians.",
+            "source_ref": "intrusion-set--d6e88e18-81e8-4709-82d8-973095da1e70",
+            "target_ref": "attack-pattern--5b6ce031-bb86-407a-9984-2b9700ac4549",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
-                    "url": "http://www.crowdstrike.com/blog/whois-numbered-panda/",
-                    "description": "Meyers, A. (2013, March 29). Whois Numbered Panda. Retrieved January 14, 2016.",
-                    "source_name": "Meyers Numbered Panda"
+                    "url": "https://www.fireeye.com/blog/threat-research/2015/12/the-eps-awakens-part-two.html",
+                    "description": "Winters, R.. (2015, December 20). The EPS Awakens - Part 2. Retrieved January 22, 2016.",
+                    "source_name": "FireEye EPS Awakens Part 2"
                 }
             ],
             "type": "relationship",
@@ -6731,12 +6605,12 @@
             "created": "2017-12-14T16:46:06.044Z"
         },
         {
-            "id": "relationship--4eb0e01c-85ae-466a-a8ff-0cf7891c5ab2",
+            "id": "relationship--f8559304-7ef6-4c48-8d76-a56ebf37c0be",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "APT16 specifically spearphished journalists to identify those in contact with DPP members or politicians to target in the future.",
+            "description": "APT16 has compromised otherwise legitimate sites as staging servers for second-stage payloads.",
             "source_ref": "intrusion-set--d6e88e18-81e8-4709-82d8-973095da1e70",
-            "target_ref": "attack-pattern--5b6ce031-bb86-407a-9984-2b9700ac4549",
+            "target_ref": "attack-pattern--e51398e6-53dc-4e9f-a323-e54683d8672b",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -6755,7 +6629,7 @@
             "id": "relationship--545cd36e-572e-413d-82b9-db65788791f9",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "APT17 has been known to post in forum threads and create profile pages in Microsoft TechNet.",
+            "description": "APT17 posted in forum threads and created profile pages in Microsoft TechNet.",
             "source_ref": "intrusion-set--090242d7-73fc-4738-af68-20162f7a5aae",
             "target_ref": "attack-pattern--9108e212-1c94-4f8d-be76-1aad9b4c86a4",
             "object_marking_refs": [
@@ -6773,31 +6647,10 @@
             "created": "2017-12-14T16:46:06.044Z"
         },
         {
-            "id": "relationship--26bf68a4-af3c-4d39-bad3-5f0ce824f4a3",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "APT28 targeting the Georgian Ministry of Internal Affairs and the Ministry of Defense represent operational targeting as they are a narrower scope than \"Georgian Affairs.\"",
-            "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
-            "target_ref": "attack-pattern--c860af4a-376e-46d7-afbf-262c41012227",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf",
-                    "description": "FireEye. (2015). APT28: A WINDOW INTO RUSSIA\u2019S CYBER ESPIONAGE OPERATIONS?. Retrieved August 19, 2015.",
-                    "source_name": "FireEye APT28"
-                }
-            ],
-            "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2017-12-14T16:46:06.044Z"
-        },
-        {
             "id": "relationship--3d65fc7e-87a5-4113-bd9c-09453fba4d1e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "APT28 created imitation domains targeting NATO and OSCE security websites and Caucasus information resources.",
+            "description": "APT28 registered domains imitating NATO and OSCE security websites and Caucasus information resources.",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "attack-pattern--45242287-2964-4a3e-9373-159fad4d8195",
             "object_marking_refs": [
@@ -6815,20 +6668,20 @@
             "created": "2017-12-14T16:46:06.044Z"
         },
         {
-            "id": "relationship--3c7c0851-1cf8-458f-862d-4e4827f8f474",
+            "id": "relationship--709bb5af-c484-48f2-bb19-bd7630e42e2d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "Cleaver has targeted a variety of industries and sectors including telecommunications, aerospace, energy and utilities, oil and gas, chemical, healthcare, and defense in the Middle East, North Africa, and the US.",
-            "source_ref": "intrusion-set--8f5e8dc7-739d-4f5e-a8a1-a66e004d7063",
-            "target_ref": "attack-pattern--91a3735f-817a-4450-8ed4-f05a0f5c3877",
+            "description": "APT28 reused the SOURFACE downloader as the payload of a lure document.",
+            "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
+            "target_ref": "attack-pattern--27f3ddf8-1b77-4cc2-a4c0-e6da3d31a768",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
-                    "url": "https://www.cylance.com/content/dam/cylance/pages/operation-cleaver/Cylance_Operation_Cleaver_Report.pdf",
-                    "description": "Cylance. (2014, December). Operation Cleaver. Retrieved September 14, 2017.",
-                    "source_name": "Cylance Cleaver"
+                    "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf",
+                    "description": "FireEye. (2015). APT28: A WINDOW INTO RUSSIA\u2019S CYBER ESPIONAGE OPERATIONS?. Retrieved August 19, 2015.",
+                    "source_name": "FireEye APT28"
                 }
             ],
             "type": "relationship",
@@ -6839,7 +6692,7 @@
             "id": "relationship--b09b41c4-670f-4f00-b8d5-a8c6a2dcfcfb",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "Cleaver creates customized tools and payloads for functions including ARP poisoning, encryption, credential dumping, ASP.NET shells, web backdoors, process enumeration, WMI querying, HTTP and SMB communications, network interface sniffing, and keystroke logging.",
+            "description": "Cleaver has created customized tools and payloads for functions including ARP poisoning, encryption, credential dumping, ASP.NET shells, web backdoors, process enumeration, WMI querying, HTTP and SMB communications, network interface sniffing, and keystroke logging.",
             "source_ref": "intrusion-set--8f5e8dc7-739d-4f5e-a8a1-a66e004d7063",
             "target_ref": "attack-pattern--fddd81e9-dd3d-477e-9773-4fb8ae227234",
             "object_marking_refs": [
@@ -6850,48 +6703,6 @@
                     "url": "https://www.cylance.com/content/dam/cylance/pages/operation-cleaver/Cylance_Operation_Cleaver_Report.pdf",
                     "description": "Cylance. (2014, December). Operation Cleaver. Retrieved September 14, 2017.",
                     "source_name": "Cylance Cleaver"
-                }
-            ],
-            "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2017-12-14T16:46:06.044Z"
-        },
-        {
-            "id": "relationship--a071fc8f-6323-420b-9812-b51f12fc7956",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "Night Dragon has targeted global oil, gas, and petrochemical companies Kazakhstan, Taiwan, Greece, and the United States.",
-            "source_ref": "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
-            "target_ref": "attack-pattern--91a3735f-817a-4450-8ed4-f05a0f5c3877",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "url": "https://securingtomorrow.mcafee.com/wp-content/uploads/2011/02/McAfee_NightDragon_wp_draft_to_customersv1-1.pdf",
-                    "description": "McAfee\u00ae Foundstone\u00ae Professional Services and McAfee Labs\u2122. (2011, February 10). Global Energy Cyberattacks: \u201cNight Dragon\u201d. Retrieved February 19, 2018.",
-                    "source_name": "McAfee Night Dragon"
-                }
-            ],
-            "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2017-12-14T16:46:06.044Z"
-        },
-        {
-            "id": "relationship--57723021-1eb3-4bf2-86eb-fdbf8a1b8125",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "Night Dragon used spearphishing attacks against mobile work laptops.",
-            "source_ref": "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
-            "target_ref": "attack-pattern--e24a9f99-cb76-42a3-a50b-464668773e97",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "url": "https://securingtomorrow.mcafee.com/wp-content/uploads/2011/02/McAfee_NightDragon_wp_draft_to_customersv1-1.pdf",
-                    "description": "McAfee\u00ae Foundstone\u00ae Professional Services and McAfee Labs\u2122. (2011, February 10). Global Energy Cyberattacks: \u201cNight Dragon\u201d. Retrieved February 19, 2018.",
-                    "source_name": "McAfee Night Dragon"
                 }
             ],
             "type": "relationship",
@@ -7017,96 +6828,12 @@
         },
         {
             "type": "relationship",
-            "id": "relationship--8a2549fa-9e7c-4d47-9678-8ed0bb8fa3aa",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-09-24T17:55:35.652Z",
-            "relationship_type": "uses",
-            "description": "APT1 reporting outlines the compromise of 141 countries spanning 20 major industries. Once these targets were identified, information such as technology blueprints, proprietary manufacturing processes, test results, business plans, pricing documents, partnership agreements, emails, and contact lists from leadership were exfiltrated. The specific industries, companies, and information exfiltrated indicate intelligence requirements to gather this type of information.",
-            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
-            "target_ref": "attack-pattern--15d5eaa4-597a-47fd-a692-f2bed434d904",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "source_name": "Mandiant APT1",
-                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016.",
-                    "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
-                }
-            ]
-        },
-        {
-            "type": "relationship",
-            "id": "relationship--51d03816-347c-4716-9524-da99a58f5ea6",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-09-24T17:55:35.652Z",
-            "relationship_type": "uses",
-            "description": "Industries targeted by APT1 match 4 of 7 strategic emerging industries identified by China in its 12th Five Year Plan. The existence of the 12th Five Year Plan speaks to the leadership strategic interest areas.",
-            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
-            "target_ref": "attack-pattern--d3999268-740f-467e-a075-c82e2d04be62",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "source_name": "Mandiant APT1",
-                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016.",
-                    "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
-                }
-            ]
-        },
-        {
-            "type": "relationship",
-            "id": "relationship--970531a2-4927-41a3-b2cd-09d445322f51",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-09-24T17:55:35.652Z",
-            "relationship_type": "uses",
-            "description": "The China 12th Five Year Plan outlines strategic priorities such as emerging industries of interest.",
-            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
-            "target_ref": "attack-pattern--ec739e26-d097-4804-b04a-54dd81ff11e0",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "source_name": "Mandiant APT1",
-                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016.",
-                    "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
-                }
-            ]
-        },
-        {
-            "type": "relationship",
-            "id": "relationship--5ed44a06-bcb4-4293-8bf4-aaebefddc09c",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-09-24T17:55:35.652Z",
-            "relationship_type": "uses",
-            "description": "APT1 targeted 10 major industries including information technology, transporation, high-tech electronics, financial services, navigation, legal services, engineering services, etc.",
-            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
-            "target_ref": "attack-pattern--91a3735f-817a-4450-8ed4-f05a0f5c3877",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "source_name": "Mandiant APT1",
-                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016.",
-                    "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
-                }
-            ]
-        },
-        {
-            "type": "relationship",
             "id": "relationship--0e7905fd-77c8-43cb-b499-7d6e37fefbeb",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-09-24T17:55:35.652Z",
             "relationship_type": "uses",
-            "description": "APT1 uses dynamic DNS to register hundreds of FQDNs.",
+            "description": "APT1 used dynamic DNS to register hundreds of FQDNs.",
             "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
             "target_ref": "attack-pattern--20a66013-8dab-4ca3-a67d-766c842c561c",
             "object_marking_refs": [
@@ -7148,30 +6875,9 @@
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-09-24T17:55:35.652Z",
             "relationship_type": "uses",
-            "description": "APT1 hijacks FQDNs associated with legitimate websites hosted by hop points. Mandiant considers them to be \u201chijacked\u201d since they were originally registered for a legitimate reason but are used by APT1 for malicious purposes.",
+            "description": "APT1 hijacked FQDNs associated with legitimate websites hosted by hop points.  Mandiant considers them to be “hijacked” since they were originally registered for a legitimate reason but were used by APT1 for malicious purposes.",
             "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
             "target_ref": "attack-pattern--4900fabf-1142-4c1f-92f5-0b590e049077",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "source_name": "Mandiant APT1",
-                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016.",
-                    "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
-                }
-            ]
-        },
-        {
-            "type": "relationship",
-            "id": "relationship--f76d74b6-c797-487c-8388-536367d1b922",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-09-24T17:55:35.652Z",
-            "relationship_type": "uses",
-            "description": "APT1 is known to use SSL encryption.",
-            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
-            "target_ref": "attack-pattern--357e137c-7589-4af1-895c-3fbad35ea4d2",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -7190,7 +6896,7 @@
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-09-24T17:55:35.652Z",
             "relationship_type": "uses",
-            "description": "APT1 hijacks FQDNs associated with legitimate websites hosted by hop points. Mandiant considers them to be \u201chijacked\u201d since they were originally registered for a legitimate reason but are used by APT1 for malicious purposes.",
+            "description": "APT1 hijacked FQDNs associated with legitimate websites hosted by hop points.  Mandiant considers them to be “hijacked” since they were originally registered for a legitimate reason but were used by APT1 for malicious purposes.",
             "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
             "target_ref": "attack-pattern--aadaee0d-794c-4642-8293-7ec22a99fb1a",
             "object_marking_refs": [
@@ -7211,72 +6917,9 @@
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-09-24T17:55:35.652Z",
             "relationship_type": "uses",
-            "description": "APT1 uses a vast set of 3rd party victim hop points as part of their network infrastructure.",
+            "description": "APT1 compromised a vast set of 3rd party victim hop points as part of their network infrastructure.",
             "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
             "target_ref": "attack-pattern--e51398e6-53dc-4e9f-a323-e54683d8672b",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "source_name": "Mandiant APT1",
-                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016.",
-                    "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
-                }
-            ]
-        },
-        {
-            "type": "relationship",
-            "id": "relationship--3d3eb711-5054-4b32-8006-15ba67d3bb25",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-09-24T17:55:35.652Z",
-            "relationship_type": "uses",
-            "description": "APT1 is known to use publicly available privilege escalation tools.",
-            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
-            "target_ref": "attack-pattern--2141aea0-cf38-49aa-9e51-ac34092bc30a",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "source_name": "Mandiant APT1",
-                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016.",
-                    "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
-                }
-            ]
-        },
-        {
-            "type": "relationship",
-            "id": "relationship--34ba5998-4e43-4669-9701-1877aa267354",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-09-24T17:55:35.652Z",
-            "relationship_type": "uses",
-            "description": "APT1 created webmail accounts using familiar names of individuals in the company in order to send targeted phishing emails to intended victims.",
-            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
-            "target_ref": "attack-pattern--9108e212-1c94-4f8d-be76-1aad9b4c86a4",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "source_name": "Mandiant APT1",
-                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016.",
-                    "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
-                }
-            ]
-        },
-        {
-            "type": "relationship",
-            "id": "relationship--2b6a71e4-e5d5-41d2-a193-9a95c94dc924",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-09-24T17:55:35.652Z",
-            "relationship_type": "uses",
-            "description": "APT1 is known to register DNS zones with multiple FQDNs underneath.",
-            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
-            "target_ref": "attack-pattern--15ef4da5-3b93-4bb1-a39a-5396661956d3",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -7295,7 +6938,7 @@
             "created": "2017-12-14T16:46:06.044Z",
             "modified": "2018-09-24T17:55:35.652Z",
             "relationship_type": "uses",
-            "description": "APT1 is known to use publicly available privilege escalation tools.",
+            "description": "APT1 used publicly available privilege escalation tools.",
             "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
             "target_ref": "attack-pattern--27f3ddf8-1b77-4cc2-a4c0-e6da3d31a768",
             "object_marking_refs": [
@@ -7309,200 +6952,12 @@
                 }
             ]
         },
-        {
-            "type": "relationship",
-            "id": "relationship--90d7f0f0-6e41-431a-a024-9375cbc18d2b",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-09-24T17:55:35.652Z",
-            "relationship_type": "uses",
-            "description": "APT1 is known to have 400+ samples of the WEBC2 variant which have been developed over the last six years of intrusions.",
-            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
-            "target_ref": "attack-pattern--df42286d-dfbd-4455-bc9d-aef52ac29aa7",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "source_name": "Mandiant APT1",
-                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016.",
-                    "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
-                }
-            ]
-        },
-        {
-            "type": "relationship",
-            "id": "relationship--7c68bb22-457e-4942-9e07-36f6cd5ac5ba",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-09-24T17:55:35.652Z",
-            "relationship_type": "uses",
-            "description": "APT1 sent phishing emails using fake webmail accounts to intended victims in the name of trusted personnel as a mechanism to successfully induce compromise.",
-            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
-            "target_ref": "attack-pattern--eb517589-eefc-480e-b8e3-7a8b1066f6f1",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "source_name": "Mandiant APT1",
-                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016.",
-                    "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
-                }
-            ]
-        },
-        {
-            "type": "relationship",
-            "id": "relationship--84943231-1b44-4029-ae09-0dbf05440bef",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-09-24T17:55:35.652Z",
-            "relationship_type": "uses",
-            "description": "APT1 is known to send emails to targets with malicious attachments, most notably .zip files.",
-            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
-            "target_ref": "attack-pattern--e24a9f99-cb76-42a3-a50b-464668773e97",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "source_name": "Mandiant APT1",
-                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016.",
-                    "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
-                }
-            ]
-        },
-        {
-            "type": "relationship",
-            "id": "relationship--e78023e7-98de-4973-9331-843bfa28c9f7",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-09-24T17:55:35.652Z",
-            "relationship_type": "uses",
-            "description": "APT1 sent a sample phishing email with a malicious link to click to Mandiant employees designed to look like communication from the owner of the company.",
-            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
-            "target_ref": "attack-pattern--489a7797-01c3-4706-8cd1-ec56a9db3adc",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "source_name": "Mandiant APT1",
-                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016.",
-                    "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
-                }
-            ]
-        },
-        {
-            "type": "relationship",
-            "id": "relationship--9af7194c-1eea-4aef-bab1-49bd29be069c",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-09-24T17:55:35.652Z",
-            "relationship_type": "uses",
-            "description": "APT1 beachhead and standard backdoors indicate confirmation of compromise.",
-            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
-            "target_ref": "attack-pattern--f4c5d1d9-8f0e-46f1-a9fa-f9a440926046",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "source_name": "Mandiant APT1",
-                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016.",
-                    "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
-                }
-            ]
-        },
-        {
-            "type": "relationship",
-            "id": "relationship--0f97c2ae-2b89-4dd5-a270-42b1dcb5d403",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "created": "2017-12-14T16:46:06.044Z",
-            "modified": "2018-09-24T17:55:35.652Z",
-            "relationship_type": "uses",
-            "description": "APT1 reporting of multiple types of spearphishing via opening attachments and clicking links demonstrates this technique.",
-            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
-            "target_ref": "attack-pattern--0440f60f-9056-4791-a740-8eae96eb61fa",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "source_name": "Mandiant APT1",
-                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016.",
-                    "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
-                }
-            ]
-        },
-        {
-            "id": "relationship--683d4e44-f763-492c-b510-fa469a923798",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "APT12 targets certain organizations in order to fill intelligence gaps.",
-            "source_ref": "intrusion-set--c47f937f-1022-4f42-8525-e7a4779a14cb",
-            "target_ref": "attack-pattern--d778cb83-2292-4995-b006-d38f52bc1e64",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "url": "http://www.crowdstrike.com/blog/whois-numbered-panda/",
-                    "description": "Meyers, A. (2013, March 29). Whois Numbered Panda. Retrieved January 14, 2016.",
-                    "source_name": "Meyers Numbered Panda"
-                }
-            ],
-            "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2017-12-14T16:46:06.044Z"
-        },
-        {
-            "id": "relationship--1895866a-4689-4527-8460-95e9cd7dd037",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "APT12 has been known to spear phish with malicious attachments using accounts that compromised official accounts.",
-            "source_ref": "intrusion-set--c47f937f-1022-4f42-8525-e7a4779a14cb",
-            "target_ref": "attack-pattern--e24a9f99-cb76-42a3-a50b-464668773e97",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "url": "http://www.crowdstrike.com/blog/whois-numbered-panda/",
-                    "description": "Meyers, A. (2013, March 29). Whois Numbered Panda. Retrieved January 14, 2016.",
-                    "source_name": "Meyers Numbered Panda"
-                }
-            ],
-            "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2017-12-14T16:46:06.044Z"
-        },
-        {
-            "id": "relationship--307e24f8-4d7c-49a8-88f6-fb0a99fe8ff4",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "APT16 has been known to send phishing attempts to personal email accounts to exploit less security conscious users.",
-            "source_ref": "intrusion-set--d6e88e18-81e8-4709-82d8-973095da1e70",
-            "target_ref": "attack-pattern--d69c3e06-8311-4093-8e3e-0a8e06b15d92",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "url": "https://www.fireeye.com/blog/threat-research/2015/12/the-eps-awakens-part-two.html",
-                    "description": "Winters, R.. (2015, December 20). The EPS Awakens - Part 2. Retrieved January 22, 2016.",
-                    "source_name": "FireEye EPS Awakens Part 2"
-                }
-            ],
-            "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2017-12-14T16:46:06.044Z"
-        },
+
         {
             "id": "relationship--614f64d8-c221-4789-b1e1-787e9326a37b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "APT17 has been known to create biographical sections on profile pages to appear more legitimate.",
+            "description": "APT17 created biographical sections on TechNet profile pages to appear more legitimate.",
             "source_ref": "intrusion-set--090242d7-73fc-4738-af68-20162f7a5aae",
             "target_ref": "attack-pattern--271e6d40-e191-421a-8f87-a8102452c201",
             "object_marking_refs": [
@@ -7513,132 +6968,6 @@
                     "url": "https://www2.fireeye.com/rs/fireye/images/APT17_Report.pdf",
                     "description": "FireEye Labs/FireEye Threat Intelligence. (2015, May 14). Hiding in Plain Sight: FireEye and Microsoft Expose Obfuscation Tactic. Retrieved January 22, 2016.",
                     "source_name": "FireEye APT17"
-                }
-            ],
-            "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2017-12-14T16:46:06.044Z"
-        },
-        {
-            "id": "relationship--5aab758c-79d2-4219-9053-f50791d98531",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "APT28 used OSINT to discover that the Georgian Ministry of Internal Affairs (MIA) uses the email address format \u201c@mia.ge.gov.\u201d",
-            "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
-            "target_ref": "attack-pattern--ef0f816a-d561-4953-84c6-2a2936c96957",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf",
-                    "description": "FireEye. (2015). APT28: A WINDOW INTO RUSSIA\u2019S CYBER ESPIONAGE OPERATIONS?. Retrieved August 19, 2015.",
-                    "source_name": "FireEye APT28"
-                }
-            ],
-            "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2017-12-14T16:46:06.044Z"
-        },
-        {
-            "id": "relationship--6d809b32-a5db-4e1e-bea6-ef29a2c680e5",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "APT28 created a weaponized excel file based on a Georgian driver\u2019s license.",
-            "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
-            "target_ref": "attack-pattern--fddd81e9-dd3d-477e-9773-4fb8ae227234",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf",
-                    "description": "FireEye. (2015). APT28: A WINDOW INTO RUSSIA\u2019S CYBER ESPIONAGE OPERATIONS?. Retrieved August 19, 2015.",
-                    "source_name": "FireEye APT28"
-                }
-            ],
-            "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2017-12-14T16:46:06.044Z"
-        },
-        {
-            "id": "relationship--eca0f05c-5025-4149-9826-3715cc243180",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "Cleaver has also targeted companies in the aerospace industry.",
-            "source_ref": "intrusion-set--8f5e8dc7-739d-4f5e-a8a1-a66e004d7063",
-            "target_ref": "attack-pattern--c860af4a-376e-46d7-afbf-262c41012227",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "url": "https://www.cylance.com/content/dam/cylance/pages/operation-cleaver/Cylance_Operation_Cleaver_Report.pdf",
-                    "description": "Cylance. (2014, December). Operation Cleaver. Retrieved September 14, 2017.",
-                    "source_name": "Cylance Cleaver"
-                }
-            ],
-            "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2017-12-14T16:46:06.044Z"
-        },
-        {
-            "id": "relationship--515e7665-040c-44ac-a379-44d4399d6e2b",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "Cleaver has been known to use publicly available exploits and label them as their own.",
-            "source_ref": "intrusion-set--8f5e8dc7-739d-4f5e-a8a1-a66e004d7063",
-            "target_ref": "attack-pattern--27f3ddf8-1b77-4cc2-a4c0-e6da3d31a768",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "url": "https://www.cylance.com/content/dam/cylance/pages/operation-cleaver/Cylance_Operation_Cleaver_Report.pdf",
-                    "description": "Cylance. (2014, December). Operation Cleaver. Retrieved September 14, 2017.",
-                    "source_name": "Cylance Cleaver"
-                }
-            ],
-            "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2017-12-14T16:46:06.044Z"
-        },
-        {
-            "id": "relationship--f6dd74d9-ed02-4fe4-aff6-9ef25906592f",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "Night Dragon has been known to target specific groups within a network for their spear-phishing attacks.",
-            "source_ref": "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
-            "target_ref": "attack-pattern--89a79d91-53e0-4ef5-ba28-558cb8b01f76",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "url": "https://securingtomorrow.mcafee.com/wp-content/uploads/2011/02/McAfee_NightDragon_wp_draft_to_customersv1-1.pdf",
-                    "description": "McAfee\u00ae Foundstone\u00ae Professional Services and McAfee Labs\u2122. (2011, February 10). Global Energy Cyberattacks: \u201cNight Dragon\u201d. Retrieved February 19, 2018.",
-                    "source_name": "McAfee Night Dragon"
-                }
-            ],
-            "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2017-12-14T16:46:06.044Z"
-        },
-        {
-            "id": "relationship--c2571ca8-98c4-490d-b8f8-f3678b0ce74d",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "Night Dragon compromised extranet web servers residing in the DMZ.",
-            "source_ref": "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
-            "target_ref": "attack-pattern--4aeafdb3-eb0b-4e8e-b93f-95cd499088b4",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "url": "https://securingtomorrow.mcafee.com/wp-content/uploads/2011/02/McAfee_NightDragon_wp_draft_to_customersv1-1.pdf",
-                    "description": "McAfee\u00ae Foundstone\u00ae Professional Services and McAfee Labs\u2122. (2011, February 10). Global Energy Cyberattacks: \u201cNight Dragon\u201d. Retrieved February 19, 2018.",
-                    "source_name": "McAfee Night Dragon"
                 }
             ],
             "type": "relationship",
@@ -7776,159 +7105,12 @@
             "created": "2017-12-14T16:46:06.044Z"
         },
         {
-            "id": "relationship--b55534ba-37ce-47f2-a961-edeaeedcb399",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "APT12 quickly adapts its methods when their tactics and techniques are publicly disclosed.",
-            "source_ref": "intrusion-set--c47f937f-1022-4f42-8525-e7a4779a14cb",
-            "target_ref": "attack-pattern--e6ca2820-a564-4b74-b42a-b6bdf052e5b6",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "url": "http://www.crowdstrike.com/blog/whois-numbered-panda/",
-                    "description": "Meyers, A. (2013, March 29). Whois Numbered Panda. Retrieved January 14, 2016.",
-                    "source_name": "Meyers Numbered Panda"
-                }
-            ],
-            "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2017-12-14T16:46:06.044Z"
-        },
-        {
-            "id": "relationship--edb31962-2310-4618-bd4f-d34f8e7d58e8",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "APT16 has demonstrated the ability to create high quality lure documents understanding and using local customs such as Japanese date notations.",
-            "source_ref": "intrusion-set--d6e88e18-81e8-4709-82d8-973095da1e70",
-            "target_ref": "attack-pattern--784ff1bc-1483-41fe-a172-4cd9ae25c06b",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "url": "https://www.fireeye.com/blog/threat-research/2015/12/the-eps-awakens-part-two.html",
-                    "description": "Winters, R.. (2015, December 20). The EPS Awakens - Part 2. Retrieved January 22, 2016.",
-                    "source_name": "FireEye EPS Awakens Part 2"
-                }
-            ],
-            "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2017-12-14T16:46:06.044Z"
-        },
-        {
-            "id": "relationship--c90a4d6a-af21-4103-ba57-3ddeb6e973e7",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "APT16 has sent spear-phishing emails with malicious attachments. These attachments were written in a way to appear relevant to the recipient.",
-            "source_ref": "intrusion-set--d6e88e18-81e8-4709-82d8-973095da1e70",
-            "target_ref": "attack-pattern--e24a9f99-cb76-42a3-a50b-464668773e97",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "url": "https://www.fireeye.com/blog/threat-research/2015/12/the-eps-awakens-part-two.html",
-                    "description": "Winters, R.. (2015, December 20). The EPS Awakens - Part 2. Retrieved January 22, 2016.",
-                    "source_name": "FireEye EPS Awakens Part 2"
-                }
-            ],
-            "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2017-12-14T16:46:06.044Z"
-        },
-        {
-            "id": "relationship--2daad934-bf08-4a2f-b656-4f7d197eb8fa",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "APT28 targeted individuals affiliated with European security organizations consistent with Russian government leadership interest in NATO and the OSCE, which are viewed as existential threats.",
-            "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
-            "target_ref": "attack-pattern--d3999268-740f-467e-a075-c82e2d04be62",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf",
-                    "description": "FireEye. (2015). APT28: A WINDOW INTO RUSSIA\u2019S CYBER ESPIONAGE OPERATIONS?. Retrieved August 19, 2015.",
-                    "source_name": "FireEye APT28"
-                }
-            ],
-            "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2017-12-14T16:46:06.044Z"
-        },
-        {
-            "id": "relationship--643d984b-0c82-4e14-8ba9-1b8dec0c91e2",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "APT28 maintained awareness of security mitigations and software platforms used by targets.",
-            "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
-            "target_ref": "attack-pattern--288b3cc3-f4da-4250-ab8c-d8b5dbed94ca",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf",
-                    "description": "FireEye. (2015). APT28: A WINDOW INTO RUSSIA\u2019S CYBER ESPIONAGE OPERATIONS?. Retrieved August 19, 2015.",
-                    "source_name": "FireEye APT28"
-                }
-            ],
-            "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2017-12-14T16:46:06.044Z"
-        },
-        {
-            "id": "relationship--6238613d-8683-420d-baf7-6050aa27eb9d",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "APT28 sent phishing documents to the Polish Government.",
-            "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
-            "target_ref": "attack-pattern--e24a9f99-cb76-42a3-a50b-464668773e97",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf",
-                    "description": "FireEye. (2015). APT28: A WINDOW INTO RUSSIA\u2019S CYBER ESPIONAGE OPERATIONS?. Retrieved August 19, 2015.",
-                    "source_name": "FireEye APT28"
-                }
-            ],
-            "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2017-12-14T16:46:06.044Z"
-        },
-        {
             "id": "relationship--d26a1746-b577-4a89-be5e-c49611e8c65a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "Cleaver's fake personas include profile photos, details, and network connections.",
+            "description": "Cleaver's fake personas included profile photos, details, and network connections.",
             "source_ref": "intrusion-set--8f5e8dc7-739d-4f5e-a8a1-a66e004d7063",
             "target_ref": "attack-pattern--271e6d40-e191-421a-8f87-a8102452c201",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "url": "http://www.secureworks.com/cyber-threat-intelligence/threats/suspected-iran-based-hacker-group-creates-network-of-fake-linkedin-profiles/",
-                    "description": "Dell SecureWorks. (2015, October 7). Suspected Iran-Based Hacker Group Creates Network of Fake LinkedIn Profiles. Retrieved January 14, 2016.",
-                    "source_name": "Dell Threat Group 2889"
-                }
-            ],
-            "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2017-12-14T16:46:06.044Z"
-        },
-        {
-            "id": "relationship--75c781d7-f9ef-42c8-b610-0dc1ecb3b350",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "Cleaver uses methods such as email to social engineer users into downloading and excuting software which installs malware in addition to the requested program.",
-            "source_ref": "intrusion-set--8f5e8dc7-739d-4f5e-a8a1-a66e004d7063",
-            "target_ref": "attack-pattern--0440f60f-9056-4791-a740-8eae96eb61fa",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -7947,7 +7129,7 @@
             "id": "relationship--0adf353d-688b-46ce-88bb-62a008675fe0",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "Night dragon uses servers in China, the U.S., and the Netherlands in an attempt to hide their operations.",
+            "description": "Night dragon used servers in China, the U.S., and the Netherlands in an attempt to hide their operations.",
             "source_ref": "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
             "target_ref": "attack-pattern--286cc500-4291-45c2-99a1-e760db176402",
             "object_marking_refs": [
@@ -8095,132 +7277,6 @@
             "created": "2017-12-14T16:46:06.044Z"
         },
         {
-            "id": "relationship--7da16587-3861-4404-9043-0076e4766ac4",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "APT12 has been known to spear phish with malicious attachments using accounts that compromised official accounts.",
-            "source_ref": "intrusion-set--c47f937f-1022-4f42-8525-e7a4779a14cb",
-            "target_ref": "attack-pattern--9a8c47f6-ae69-4044-917d-4b1602af64d9",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "url": "http://www.crowdstrike.com/blog/whois-numbered-panda/",
-                    "description": "Meyers, A. (2013, March 29). Whois Numbered Panda. Retrieved January 14, 2016.",
-                    "source_name": "Meyers Numbered Panda"
-                }
-            ],
-            "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2017-12-14T16:46:06.044Z"
-        },
-        {
-            "id": "relationship--597be8e7-58a4-4aff-a803-48a7a08164a2",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "APT16 used tactics to make the emails appear legitimate such as modeling email addresses and message subject lines to appear as if they originated from a known source.",
-            "source_ref": "intrusion-set--d6e88e18-81e8-4709-82d8-973095da1e70",
-            "target_ref": "attack-pattern--ef0f816a-d561-4953-84c6-2a2936c96957",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "url": "https://www.fireeye.com/blog/threat-research/2015/12/the-eps-awakens-part-two.html",
-                    "description": "Winters, R.. (2015, December 20). The EPS Awakens - Part 2. Retrieved January 22, 2016.",
-                    "source_name": "FireEye EPS Awakens Part 2"
-                }
-            ],
-            "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2017-12-14T16:46:06.044Z"
-        },
-        {
-            "id": "relationship--89754a0d-03b1-44e3-94c5-7a892d171a28",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "APT17 has targeted U.S. government entities, the defense industry, law firms, information technology companies, mining companies, and non-government organizations.",
-            "source_ref": "intrusion-set--090242d7-73fc-4738-af68-20162f7a5aae",
-            "target_ref": "attack-pattern--91a3735f-817a-4450-8ed4-f05a0f5c3877",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "url": "https://www2.fireeye.com/rs/fireye/images/APT17_Report.pdf",
-                    "description": "FireEye Labs/FireEye Threat Intelligence. (2015, May 14). Hiding in Plain Sight: FireEye and Microsoft Expose Obfuscation Tactic. Retrieved January 22, 2016.",
-                    "source_name": "FireEye APT17"
-                }
-            ],
-            "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2017-12-14T16:46:06.044Z"
-        },
-        {
-            "id": "relationship--6cfc9229-9928-414e-bfaf-f63e815b4c84",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "APT28 targeted three themes: the Caucasus, Eastern European governments and militarys, and NATO and other European security organizations.",
-            "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
-            "target_ref": "attack-pattern--91a3735f-817a-4450-8ed4-f05a0f5c3877",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf",
-                    "description": "FireEye. (2015). APT28: A WINDOW INTO RUSSIA\u2019S CYBER ESPIONAGE OPERATIONS?. Retrieved August 19, 2015.",
-                    "source_name": "FireEye APT28"
-                }
-            ],
-            "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2017-12-14T16:46:06.044Z"
-        },
-        {
-            "id": "relationship--eab3be4e-4130-4898-a7b6-d9e9eb34f2bd",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "APT28 adversaries identified multiple Microsoft Word and IE vulnerabilities which were later used as part of spearphishing attacks.",
-            "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
-            "target_ref": "attack-pattern--abd5bed1-4c12-45de-a623-ab8dc4ff862a",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "url": "https://www2.fireeye.com/rs/848-DID-242/images/APT28-Center-of-Storm-2017.pdf",
-                    "description": "FireEye iSIGHT Intelligence. (2017, January 11). APT28: At the Center of the Storm. Retrieved January 11, 2017.",
-                    "source_name": "FireEye APT28 January 2017"
-                }
-            ],
-            "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2017-12-14T16:46:06.044Z"
-        },
-        {
-            "id": "relationship--1eed277b-a2a7-43f9-bf12-6e30abf0841a",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "APT28 compromised websites that redirected visitors to the exploit framework.",
-            "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
-            "target_ref": "attack-pattern--58d0b955-ae3d-424a-a537-2804dab38793",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf",
-                    "description": "FireEye. (2015). APT28: A WINDOW INTO RUSSIA\u2019S CYBER ESPIONAGE OPERATIONS?. Retrieved August 19, 2015.",
-                    "source_name": "FireEye APT28"
-                }
-            ],
-            "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2017-12-14T16:46:06.044Z"
-        },
-        {
             "id": "relationship--f43faad4-a016-4da0-8de6-53103d429268",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
@@ -8242,31 +7298,10 @@
             "created": "2017-12-14T16:46:06.044Z"
         },
         {
-            "id": "relationship--e95ea206-3962-43af-aac1-042ac9928679",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "Night Dragon targets certain organizations in order to conduct industrial espionage and take confidential and proprietary information.",
-            "source_ref": "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
-            "target_ref": "attack-pattern--d778cb83-2292-4995-b006-d38f52bc1e64",
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "external_references": [
-                {
-                    "url": "https://securingtomorrow.mcafee.com/wp-content/uploads/2011/02/McAfee_NightDragon_wp_draft_to_customersv1-1.pdf",
-                    "description": "McAfee\u00ae Foundstone\u00ae Professional Services and McAfee Labs\u2122. (2011, February 10). Global Energy Cyberattacks: \u201cNight Dragon\u201d. Retrieved February 19, 2018.",
-                    "source_name": "McAfee Night Dragon"
-                }
-            ],
-            "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2017-12-14T16:46:06.044Z"
-        },
-        {
             "id": "relationship--a34c16e9-bc7e-45f5-a9a2-8b05d868e6a0",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "relationship_type": "uses",
-            "description": "Night Dragon uses privately developed and customized remote access tools.",
+            "description": "Night Dragon used privately developed and customized remote access tools.",
             "source_ref": "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
             "target_ref": "attack-pattern--9755ecdc-deb0-40e6-af49-713cb0f8ed92",
             "object_marking_refs": [
