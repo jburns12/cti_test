@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--f85f048e-bc5e-4ad8-b02b-cba79ea88f26",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--14f7e11e-64a7-418d-b279-5013db976402",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-16T19:03:31.043Z",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "name": "Build Capabilities",
+            "description": "Building capabilities consists of developing and/or acquiring the software, data and techniques used at different phases of an operation.  This is the process of identifying development requirements and implementing solutions such as malware,  delivery mechanisms, obfuscation/cryptographic protections, and call back and O&M functions.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/Build_Capabilities",
+                    "external_id": "TA0024"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_shortname": "build-capabilities"
+        }
+    ]
+}

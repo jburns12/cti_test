@@ -1,0 +1,30 @@
+{
+    "type": "bundle",
+    "id": "bundle--8d4ee7c0-81b4-493d-85ef-2ceadb19f636",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "x-mitre-matrix",
+            "id": "x-mitre-matrix--483d25a0-5604-43c3-a758-5b9155d5071b",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-16T19:03:31.043Z",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "name": "Network-Based Effects",
+            "description": "The MITRE ATT&CK Matrix\u2122 provides a visual representation of the adversarial tactics and techniques described in the ATT&CK model. Tactic categories are listed on the top row, and individual techniques as cells underneath each tactic to denote that technique can be used to accomplish that particular tactic. Techniques can span multiple tactic categories signifying that they can be used for more than one purpose. Below are two ATT&CK Mobile Matrices, one for adversarial tactics and techniques involving device access, and one for adversarial tactics and techniques, and one for network-based effects that can be used by adversaries without device access.",
+            "tactic_refs": [
+                "x-mitre-tactic--7d88e528-c9b7-4d24-915e-c315196ec18f",
+                "x-mitre-tactic--07c7eac0-87cb-4882-8dce-e02e9e1392cc"
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/matrices/mobile",
+                    "external_id": "mobile-attack"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ]
+        }
+    ]
+}

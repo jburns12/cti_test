@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--2b24cd81-4764-4c75-b7a0-8b16b12ea05c",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--ded3fbf7-a6d5-4f61-82f3-a8a0e29e9a29",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-16T19:03:31.043Z",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "name": "Persistence",
+            "description": "Persistence is any access, action, or configuration change to a mobile device that gives an attacker a persistent presence on the device. Attackers often will need to maintain access to mobile devices through interruptions such as device reboots and potentially even factory data resets.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/Persistence",
+                    "external_id": "TA0028"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_shortname": "persistence"
+        }
+    ]
+}

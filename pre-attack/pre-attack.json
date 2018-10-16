@@ -6350,6 +6350,335 @@
             "created": "2017-05-31T21:31:51.643Z"
         },
         {
+            "type": "x-mitre-matrix",
+            "id": "x-mitre-matrix--3c94cda0-b6ca-4b80-b40b-60f451663f24",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-16T19:03:31.043Z",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "name": "PRE-ATT&CK",
+            "description": "The MITRE PRE-ATT&CK Matrix\u2122 is an overview of the tactics and techniques described in the PRE-ATT&CK model. It visually aligns individual techniques under the tactics in which they can be applied. Some techniques span more than one tactic because they can be used for different purposes.",
+            "tactic_refs": [
+                "x-mitre-tactic--a57c5a4b-d4b9-45ef-84df-21d37454f8a4",
+                "x-mitre-tactic--776e308f-0fab-40af-983e-6891a91997dd",
+                "x-mitre-tactic--0e28e172-9feb-427e-a349-059d6da9abca",
+                "x-mitre-tactic--21765b66-0d8c-48e4-8363-7354def148fe",
+                "x-mitre-tactic--a5d402b8-b2e0-4d85-9db8-c7d4f4bd3294",
+                "x-mitre-tactic--dab57336-2a0d-4871-9ef0-cdc8ab01144e",
+                "x-mitre-tactic--24da7798-a98f-42b9-9a66-d914fcd4e675",
+                "x-mitre-tactic--2cfc76d5-f0ad-4775-943b-fbf9c4d8abbe",
+                "x-mitre-tactic--6938e7b3-1011-4501-ad33-3396b5329412",
+                "x-mitre-tactic--dfbe42a5-9d86-4920-8d78-d50cc35c7e81",
+                "x-mitre-tactic--752c1cf3-f426-4912-8162-9deb672e1305",
+                "x-mitre-tactic--9d6d26de-77fb-4fda-8d0b-a7e502ee8b90",
+                "x-mitre-tactic--14f7e11e-64a7-418d-b279-5013db976402",
+                "x-mitre-tactic--59d2f210-7ee0-4406-aaae-0f4a4953c1e9",
+                "x-mitre-tactic--2997c047-3348-4da9-96b2-aaf008d6f294"
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ]
+        },
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--dfbe42a5-9d86-4920-8d78-d50cc35c7e81",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-16T19:03:31.043Z",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "name": "Adversary OPSEC",
+            "description": "Adversary OPSEC consists of the use of various technologies or 3rd party services to obfuscate, hide, or blend in with accepted network traffic or system behavior.  The adversary may use these techniques to evade defenses, reduce attribution, minimize discovery, and/or increase the time and effort required to analyze.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/Adversary_OPSEC",
+                    "external_id": "TA0021"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_shortname": "adversary-opsec"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--14f7e11e-64a7-418d-b279-5013db976402",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-16T19:03:31.043Z",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "name": "Build Capabilities",
+            "description": "Building capabilities consists of developing and/or acquiring the software, data and techniques used at different phases of an operation.  This is the process of identifying development requirements and implementing solutions such as malware,  delivery mechanisms, obfuscation/cryptographic protections, and call back and O&M functions.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/Build_Capabilities",
+                    "external_id": "TA0024"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_shortname": "build-capabilities"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--752c1cf3-f426-4912-8162-9deb672e1305",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-16T19:03:31.043Z",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "name": "Establish & Maintain Infrastructure",
+            "description": "Establishing and maintaining infrastructure consists of building, purchasing, co-opting, and maintaining systems and services used to conduct cyber operations. An adversary will need to establish infrastructure used to communicate with and control assets used throughout the course of their operations.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/Establish_%26_Maintain_Infrastructure",
+                    "external_id": "TA0022"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_shortname": "establish-&-maintain-infrastructure"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--dab57336-2a0d-4871-9ef0-cdc8ab01144e",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-16T19:03:31.043Z",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "name": "Organizational Information Gathering",
+            "description": "Organizational information gathering consists of the process of identifying critical organizational elements of intelligence an adversary will need about a target in order to best attack.\u00a0 Similar to competitive intelligence, organizational intelligence gathering focuses on understanding the operational tempo of an organization and gathering a deep understanding of the organization and how it operates, in order to best develop a strategy to target it.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/Organizational_Information_Gathering",
+                    "external_id": "TA0017"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_shortname": "organizational-information-gathering"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--6938e7b3-1011-4501-ad33-3396b5329412",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-16T19:03:31.043Z",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "name": "Organizational Weakness Identification",
+            "description": "Organizational weakness identification consists of identifying and analyzing weaknesses and vulnerabilities from the intelligence gathering phases which can be leveraged to gain access to target or intermediate target organizations of interest.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/Organizational_Weakness_Identification",
+                    "external_id": "TA0020"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_shortname": "organizational-weakness-identification"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--a5d402b8-b2e0-4d85-9db8-c7d4f4bd3294",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-16T19:03:31.043Z",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "name": "People Information Gathering",
+            "description": "People Information Gathering consists of the process of identifying critical personnel elements of intelligence an adversary will need about a target in order to best attack.\u00a0 People intelligence gathering focuses on identifying key personnel or individuals with critical accesses in order to best approach a target for attack.\u00a0 It may involve aspects of social engineering, elicitation, mining social media sources, or be thought of as understanding the personnel element of competitive intelligence.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/People_Information_Gathering",
+                    "external_id": "TA0016"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_shortname": "people-information-gathering"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--2cfc76d5-f0ad-4775-943b-fbf9c4d8abbe",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-16T19:03:31.043Z",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "name": "People Weakness Identification",
+            "description": "People weakness identification consists of identifying and analyzing weaknesses and vulnerabilities from the intelligence gathering phases which can be leveraged to gain access to target or intermediate target persons of interest or social trust relationships.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/People_Weakness_Identification",
+                    "external_id": "TA0019"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_shortname": "people-weakness-identification"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--9d6d26de-77fb-4fda-8d0b-a7e502ee8b90",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-16T19:03:31.043Z",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "name": "Persona Development",
+            "description": "Persona development consists of the development of public information, presence, history and appropriate affiliations.  This development could be applied to social media, website, or other publicly available information that could be referenced and scrutinized for legitimacy over the course of an operation using that persona or identity.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/Persona_Development",
+                    "external_id": "TA0023"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_shortname": "persona-development"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--776e308f-0fab-40af-983e-6891a91997dd",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-16T19:03:31.043Z",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "name": "Priority Definition Direction",
+            "description": "Priority definition direction consists of the process of collecting and assigning requirements for meeting Key Intelligence Topics (KIT) or Key Intelligence Questions (KIQ) as determined by leadership.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/Priority_Definition_Direction",
+                    "external_id": "TA0013"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_shortname": "priority-definition-direction"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--a57c5a4b-d4b9-45ef-84df-21d37454f8a4",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-16T19:03:31.043Z",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "name": "Priority Definition Planning",
+            "description": "Priority definition planning consists of the process of determining the set of Key Intelligence Topics (KIT) or Key Intelligence Questions (KIQ) required for meeting key strategic, operational, or tactical goals.  Leadership outlines the priority definition (may be considered a goal) around which the adversary designs target selection and a plan to achieve.  An analyst may outline the priority definition when in the course of determining gaps in existing KITs or KIQs.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/Priority_Definition_Planning",
+                    "external_id": "TA0012"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_shortname": "priority-definition-planning"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--2997c047-3348-4da9-96b2-aaf008d6f294",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-16T19:03:31.043Z",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "name": "Stage Capabilities",
+            "description": "Staging capabilities consists of preparing operational environment required to conduct the operation.  This includes activities such as deploying software, uploading data, enabling command and control infrastructure.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/Stage_Capabilities",
+                    "external_id": "TA0026"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_shortname": "stage-capabilities"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--0e28e172-9feb-427e-a349-059d6da9abca",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-16T19:03:31.043Z",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "name": "Target Selection",
+            "description": "Target selection consists of an iterative process in which an adversary determines a target by first beginning at the strategic level and then narrowing down operationally and tactically until a specific target is chosen.\u00a0 A target may be defined as an entity or object that performs a function considered for possible engagement or other action.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/Target_Selection",
+                    "external_id": "TA0014"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_shortname": "target-selection"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--21765b66-0d8c-48e4-8363-7354def148fe",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-16T19:03:31.043Z",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "name": "Technical Information Gathering",
+            "description": "Technical information gathering consists of the process of identifying critical technical elements of intelligence an adversary will need about a target in order to best attack.\u00a0 Technical intelligence gathering includes, but is not limited to, understanding the target's network architecture, IP space, network services, email format, and security procedures.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/Technical_Information_Gathering",
+                    "external_id": "TA0015"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_shortname": "technical-information-gathering"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--24da7798-a98f-42b9-9a66-d914fcd4e675",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-16T19:03:31.043Z",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "name": "Technical Weakness Identification",
+            "description": "Technical weakness identification consists of identifying and analyzing weaknesses and vulnerabilities collected during the intelligence gathering phases to determine best approach based on technical complexity and adversary priorities (e.g., expediency, stealthiness).",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/Technical_Weakness_Identification",
+                    "external_id": "TA0018"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_shortname": "technical-weakness-identification"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--59d2f210-7ee0-4406-aaae-0f4a4953c1e9",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-16T19:03:31.043Z",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "name": "Test Capabilities",
+            "description": "Testing capabilities takes place when adversaries may need to test capabilities externally to refine development goals and criteria and to ensure success during an operation. Certain testing may be done after a capability is staged.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/Test_Capabilities",
+                    "external_id": "TA0025"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_shortname": "test-capabilities"
+        },
+        {
             "type": "marking-definition",
             "id": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

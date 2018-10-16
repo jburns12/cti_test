@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--48d7bb35-846b-4ef5-8eab-a86a336afdb8",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--07c7eac0-87cb-4882-8dce-e02e9e1392cc",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-16T19:03:31.043Z",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "name": "Remote Service Effects",
+            "description": "This category refers to techniques involving remote services, such as vendor-provided cloud services (e.g. Google Drive, Google Find My Device, or Apple iCloud), or enterprise mobility management (EMM)/mobile device management (MDM) services that an adversary may be able to use to fulfill his or her objectives without access to the mobile device itself.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/Remote_Service_Effects",
+                    "external_id": "TA0039"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_shortname": "remote-service-effects"
+        }
+    ]
+}

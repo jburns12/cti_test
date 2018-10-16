@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--b2c7cb7e-2589-497d-ad5b-64310da05828",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "x-mitre-matrix",
+            "id": "x-mitre-matrix--44ea803c-4382-4926-a3a5-b74e8a421cdf",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-16T19:03:31.043Z",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "name": "Enterprise ATT&CK",
+            "description": "The full ATT&CK Matrix includes techniques spanning Windows, Mac, and Linux platforms and can be used to navigate through the knowledge base.",
+            "tactic_refs": [
+                "x-mitre-tactic--1cd4b937-a4fe-4255-9862-df103a842422",
+                "x-mitre-tactic--2d88e802-1500-4908-b590-511f86a2c435",
+                "x-mitre-tactic--ded3fbf7-a6d5-4f61-82f3-a8a0e29e9a29",
+                "x-mitre-tactic--e1bcdbfc-9023-4e25-825a-fb07b07f785e",
+                "x-mitre-tactic--a8c17540-3aca-45e7-850f-592e212b7102",
+                "x-mitre-tactic--18b23bed-3d6b-4da4-8c10-d257f6f5dcdb",
+                "x-mitre-tactic--ca141911-8275-416f-9a8d-419094145f3e",
+                "x-mitre-tactic--4266a209-cbd8-401a-9ba5-7e8664f85e0b",
+                "x-mitre-tactic--c85feec2-8215-4e16-a49d-97dc981bccdd",
+                "x-mitre-tactic--7788478c-dc4a-4e62-9ace-55f8309b9272",
+                "x-mitre-tactic--c04d1783-65b6-4ed9-93eb-aeba7746b48d"
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ]
+        }
+    ]
+}

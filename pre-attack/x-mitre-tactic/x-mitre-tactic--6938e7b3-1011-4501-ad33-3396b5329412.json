@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--66d0c8d0-6bb9-4d59-9635-13f31af8659b",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--6938e7b3-1011-4501-ad33-3396b5329412",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-16T19:03:31.043Z",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "name": "Organizational Weakness Identification",
+            "description": "Organizational weakness identification consists of identifying and analyzing weaknesses and vulnerabilities from the intelligence gathering phases which can be leveraged to gain access to target or intermediate target organizations of interest.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/Organizational_Weakness_Identification",
+                    "external_id": "TA0020"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_shortname": "organizational-weakness-identification"
+        }
+    ]
+}
