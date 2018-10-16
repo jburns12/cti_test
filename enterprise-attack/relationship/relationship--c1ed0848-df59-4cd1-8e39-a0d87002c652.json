@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--bcf58a33-afc9-4517-8305-d8710ff976d8",
+    "id": "bundle--561d46f3-106d-4ea8-a495-e1f76895ff07",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--c1ed0848-df59-4cd1-8e39-a0d87002c652",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "can perform keylogging.",
-            "source_ref": "malware--2a70812b-f1ef-44db-8578-a496a227aef2",
-            "target_ref": "attack-pattern--bb5a00de-e086-4859-a231-fa793f6797e2",
+            "description": "[NETWIRE](https://attack.mitre.org/software/S0198) can perform keylogging.",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -25,8 +22,11 @@
                     "source_name": "FireEye APT33 Webinar Sept 2017"
                 }
             ],
+            "source_ref": "malware--2a70812b-f1ef-44db-8578-a496a227aef2",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--bb5a00de-e086-4859-a231-fa793f6797e2",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

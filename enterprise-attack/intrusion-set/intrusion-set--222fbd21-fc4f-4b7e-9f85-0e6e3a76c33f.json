@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e898b8c4-7753-4540-b5e2-d25388079d50",
+    "id": "bundle--492375e2-269d-48ba-866b-abf2fe7d69db",
     "spec_version": "2.0",
     "objects": [
         {
@@ -23,11 +23,11 @@
                     "source_name": "menuPass"
                 },
                 {
-                    "description": "(Citation: Palo Alto menuPass Feb 2017)",
+                    "description": "(Citation: Palo Alto menuPass Feb 2017) (Citation: Accenture Hogfish April 2018)",
                     "source_name": "Stone Panda"
                 },
                 {
-                    "description": "(Citation: Palo Alto menuPass Feb 2017)",
+                    "description": "(Citation: Palo Alto menuPass Feb 2017) (Citation: Accenture Hogfish April 2018)",
                     "source_name": "APT10"
                 },
                 {
@@ -37,6 +37,10 @@
                 {
                     "description": "(Citation: PWC Cloud Hopper April 2017)",
                     "source_name": "CVNX"
+                },
+                {
+                    "description": "(Citation: Accenture Hogfish April 2018)",
+                    "source_name": "HOGFISH"
                 },
                 {
                     "url": "http://researchcenter.paloaltonetworks.com/2017/02/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations/",
@@ -62,16 +66,27 @@
                     "url": "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html",
                     "description": "FireEye iSIGHT Intelligence. (2017, April 6). APT10 (MenuPass Group): New Tools, Global Campaign Latest Manifestation of Longstanding Threat. Retrieved June 29, 2017.",
                     "source_name": "FireEye APT10 April 2017"
+                },
+                {
+                    "url": "https://www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+                    "description": "Accenture Security. (2018, April 23). Hogfish Redleaves Campaign. Retrieved July 2, 2018.",
+                    "source_name": "Accenture Hogfish April 2018"
                 }
+            ],
+            "x_mitre_version": "1.0",
+            "x_mitre_contributors": [
+                "Edward Millington",
+                "Michael Cox"
             ],
             "aliases": [
                 "menuPass",
                 "Stone Panda",
                 "APT10",
                 "Red Apollo",
-                "CVNX"
+                "CVNX",
+                "HOGFISH"
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:32:09.054Z"
         }
     ]

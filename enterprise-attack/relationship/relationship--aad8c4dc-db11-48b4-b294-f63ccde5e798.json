@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--f371dd94-ea70-4b9a-8aa8-e0e0766122d5",
+    "id": "bundle--38b10100-d394-4c82-a88d-b264b14eeb8e",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--aad8c4dc-db11-48b4-b294-f63ccde5e798",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Carbanak](https://attack.mitre.org/groups/G0008) malware installs itself as a service to provide persistence and SYSTEM privileges.",
-            "source_ref": "intrusion-set--55033a4d-3ffe-46b2-99b4-2c1541e9ce1c",
-            "target_ref": "attack-pattern--478aa214-2ca7-4ec0-9978-18798e514790",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Kaspersky Carbanak"
                 }
             ],
+            "source_ref": "intrusion-set--55033a4d-3ffe-46b2-99b4-2c1541e9ce1c",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--478aa214-2ca7-4ec0-9978-18798e514790",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:33:27.042Z"
         }
     ]

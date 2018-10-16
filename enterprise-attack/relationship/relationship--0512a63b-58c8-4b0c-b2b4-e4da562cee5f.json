@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--09a06bd3-7bfe-41c7-bf3c-e39b9e591dfb",
+    "id": "bundle--24d43567-b286-4a78-8f2b-628dfe4463a8",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--0512a63b-58c8-4b0c-b2b4-e4da562cee5f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Threat Group-1314](https://attack.mitre.org/groups/G0028) actors mapped network drives using <code>net use</code>.",
-            "source_ref": "intrusion-set--d519164e-f5fa-4b8c-a1fb-cf0172ad0983",
-            "target_ref": "attack-pattern--ffe742ed-9100-4686-9e00-c331da544787",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Dell TG-1314"
                 }
             ],
+            "source_ref": "intrusion-set--d519164e-f5fa-4b8c-a1fb-cf0172ad0983",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--ffe742ed-9100-4686-9e00-c331da544787",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:33:27.064Z"
         }
     ]

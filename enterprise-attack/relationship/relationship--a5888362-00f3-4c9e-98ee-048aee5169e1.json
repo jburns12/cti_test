@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--cb2bc7f5-60be-4ad6-8a8e-6053712dae52",
+    "id": "bundle--73d6291f-2be5-4ebd-88de-841e682669b7",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--a5888362-00f3-4c9e-98ee-048aee5169e1",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[FIN10](https://attack.mitre.org/groups/G0051) uses PowerShell for execution as well as PowerShell Empire to establish persistence.",
-            "source_ref": "intrusion-set--fbe9387f-34e6-4828-ac28-3080020c597b",
-            "target_ref": "attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -25,8 +22,11 @@
                     "source_name": "Github PowerShell Empire"
                 }
             ],
+            "source_ref": "intrusion-set--fbe9387f-34e6-4828-ac28-3080020c597b",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

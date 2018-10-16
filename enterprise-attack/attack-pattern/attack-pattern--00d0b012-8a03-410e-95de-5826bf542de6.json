@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6689940c-efc5-431b-8d45-3f90eff3dac9",
+    "id": "bundle--629959ef-a3df-4b50-bceb-8613b32f1fc4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -20,15 +20,15 @@
             ],
             "x_mitre_data_sources": [
                 "Process use of network",
-                "Anti-virus",
-                "Binary file metadata",
+                "Process monitoring",
                 "Process command-line parameters",
-                "Process monitoring"
+                "Anti-virus",
+                "Binary file metadata"
             ],
             "x_mitre_defense_bypassed": [
-                "Anti-virus",
                 "Log analysis",
-                "Host intrusion prevention systems"
+                "Host intrusion prevention systems",
+                "Anti-virus"
             ],
             "x_mitre_detection": "The first detection of a malicious tool may trigger an anti-virus or other security tool alert. Similar events may also occur at the boundary through network IDS, email scanning appliance, etc. The initial detection should be treated as an indication of a potentially more invasive intrusion. The alerting system should be thoroughly investigated beyond that initial alert for activity that was not detected. Adversaries may continue with an operation, assuming that individual events like an anti-virus detect will not be investigated or that an analyst will not be able to conclusively link that event to other activity occurring on the network.",
             "x_mitre_platforms": [
@@ -36,6 +36,7 @@
                 "macOS",
                 "Windows"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -43,7 +44,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:30:54.176Z"
         }
     ]

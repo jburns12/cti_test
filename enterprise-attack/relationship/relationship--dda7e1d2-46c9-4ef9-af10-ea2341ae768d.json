@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--1fa51530-ae9e-4662-857a-2d50dce0d3d1",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--dda7e1d2-46c9-4ef9-af10-ea2341ae768d",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[RATANKBA](https://attack.mitre.org/software/S0241) uses the command <code>reg query \u201cHKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\InternetSettings\u201d</code>.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/ratankba-watering-holes-against-enterprises/",
+                    "description": "Trend Micro. (2017, February 27). RATANKBA: Delving into Large-scale Watering Holes against Enterprises. Retrieved May 22, 2018.",
+                    "source_name": "RATANKBA"
+                }
+            ],
+            "source_ref": "malware--3c8c4c40-a810-480d-8780-afa653765e0e",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--e668e7cf-77ae-42db-86d7-0237c88cfeb0",
+    "id": "bundle--46d10ee3-1aa0-4411-9cbf-3da4c242657c",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--d72da887-5684-47ac-958a-84b3e8b59c0b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Nidiran](https://attack.mitre.org/software/S0118) communicates with its C2 domain over ports 443 and 8443.",
-            "source_ref": "malware--9e9b9415-a7df-406b-b14d-92bfe6809fbe",
-            "target_ref": "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Symantec Suckfly May 2016"
                 }
             ],
+            "source_ref": "malware--9e9b9415-a7df-406b-b14d-92bfe6809fbe",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--2021a21d-7461-4a28-bd42-65e467c246c6",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--a318f248-6ca2-40ce-8434-48fb09eec80c",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "A [Threat Group-3390](https://attack.mitre.org/groups/G0027) tool can use WMI to execute a binary.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/may/emissary-panda-a-potential-new-malicious-tool/",
+                    "description": "Pantazopoulos, N., Henry T. (2018, May 18). Emissary Panda \u2013 A potential new malicious tool. Retrieved June 25, 2018.",
+                    "source_name": "Nccgroup Emissary Panda May 2018"
+                }
+            ],
+            "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

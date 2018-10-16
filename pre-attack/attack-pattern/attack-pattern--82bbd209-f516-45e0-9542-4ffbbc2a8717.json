@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d6903806-65f2-4653-b9ad-da86b5a48e41",
+    "id": "bundle--c1f6015a-fdf3-4696-9279-44c164776ccf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "An exploit takes advantage of a bug or vulnerability in order to cause unintended or unanticipated behavior to occur on computer hardware or software. The adversary may need to discover new exploits when existing exploits are no longer relevant to the environment they are trying to compromise. An adversary may monitor exploit provider forums to understand the state of existing, as well as newly discovered, exploits. (Citation: EquationQA)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1127",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1127",
+                    "external_id": "T1350",
+                    "url": "https://attack.mitre.org/techniques/T1350",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -27,6 +27,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Public source external to the defender's organization.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Many public sources exist for this information.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -34,7 +35,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--74f34766-6c51-48f2-ac18-b376ca79176a",
+    "id": "bundle--318ac729-940d-4cef-89a6-10bc24194e0d",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--9b650df6-f965-45fa-9e5a-409202a46da7",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[CCBkdr](https://attack.mitre.org/software/S0222) was added to a legitimate, signed version 5.33 of the CCleaner software and distributed on CCleaner's distribution site.",
-            "source_ref": "malware--b0f13390-cec7-4814-b37c-ccec01887faa",
-            "target_ref": "attack-pattern--3f18edba-28f4-4bb9-82c3-8aa60dcac5f7",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -30,8 +27,11 @@
                     "source_name": "Avast CCleaner3 2018"
                 }
             ],
+            "source_ref": "malware--b0f13390-cec7-4814-b37c-ccec01887faa",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--3f18edba-28f4-4bb9-82c3-8aa60dcac5f7",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--67085ca5-d2cb-4391-abca-517f281b428e",
+    "id": "bundle--c1cb0044-32cb-446a-b7fd-438043b1e57a",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--35d35ecf-1326-4690-b105-23280e29c120",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[CORESHELL](https://attack.mitre.org/software/S0137) C2 messages are Base64-encoded.",
-            "source_ref": "malware--60c18d06-7b91-4742-bae3-647845cd9d81",
-            "target_ref": "attack-pattern--cc7b8c4e-9be0-47ca-b0bb-83915ec3ee2f",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "FireEye APT28"
                 }
             ],
+            "source_ref": "malware--60c18d06-7b91-4742-bae3-647845cd9d81",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--cc7b8c4e-9be0-47ca-b0bb-83915ec3ee2f",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

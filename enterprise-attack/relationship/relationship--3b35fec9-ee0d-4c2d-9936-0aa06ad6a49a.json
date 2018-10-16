@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--81413b0e-fe9d-4c4a-acd9-83b753b1488b",
+    "id": "bundle--73a35878-2e75-4105-aecb-05b09fb65673",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--3b35fec9-ee0d-4c2d-9936-0aa06ad6a49a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "The [APT1](https://attack.mitre.org/groups/G0006) group is known to have used pass the hash.",
-            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
-            "target_ref": "attack-pattern--c23b740b-a42b-47a1-aec2-9d48ddd547ff",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Mandiant APT1"
                 }
             ],
+            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--c23b740b-a42b-47a1-aec2-9d48ddd547ff",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:33:27.035Z"
         }
     ]

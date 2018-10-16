@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--34a538f2-00c3-48f4-9485-cf1e2dddb480",
+    "id": "bundle--723e5a84-df51-4b85-9196-887cb21cc110",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "Dumpster diving is looking through waste for information on technology, people, and/or organizational items of interest. (Citation: FriedDumpsters)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1063",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1063",
+                    "external_id": "T1286",
+                    "url": "https://attack.mitre.org/techniques/T1286",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -26,6 +26,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Strong physical security and monitoring will detect this behavior if performed on premises.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Not difficult if waste is placed in an unsecured or minimally secured area before collection.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -33,7 +34,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

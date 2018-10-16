@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--273376a6-29bc-4735-993f-9b1544bc97b8",
+    "id": "bundle--1e3ce325-eefb-4406-b448-249714bf9abb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -20,14 +20,14 @@
                     "source_name": "capec"
                 },
                 {
-                    "url": "https://msdn.microsoft.com/library/windows/desktop/ms724878.aspx",
-                    "description": "Microsoft. (n.d.). Registry Key Security and Access Rights. Retrieved March 16, 2017.",
-                    "source_name": "MSDN Registry Key Security"
-                },
-                {
                     "url": "https://technet.microsoft.com/en-us/sysinternals/bb963902",
                     "description": "Russinovich, M. (2016, January 4). Autoruns for Windows v13.51. Retrieved June 6, 2016.",
                     "source_name": "TechNet Autoruns"
+                },
+                {
+                    "url": "https://msdn.microsoft.com/library/windows/desktop/ms724878.aspx",
+                    "description": "Microsoft. (n.d.). Registry Key Security and Access Rights. Retrieved March 16, 2017.",
+                    "source_name": "MSDN Registry Key Security"
                 },
                 {
                     "url": "https://twitter.com/r0wdy_/status/936365549553991680",
@@ -55,6 +55,7 @@
                 "Administrator",
                 "SYSTEM"
             ],
+            "x_mitre_version": "1.0",
             "x_mitre_platforms": [
                 "Windows"
             ],
@@ -72,7 +73,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:30:49.119Z"
         }
     ]

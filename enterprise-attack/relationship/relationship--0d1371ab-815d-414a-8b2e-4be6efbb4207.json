@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b9819bca-8048-4f28-a6cd-db7676c9bf2e",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--0d1371ab-815d-414a-8b2e-4be6efbb4207",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[CrossRAT](https://attack.mitre.org/software/S0235) creates a Launch Agent on macOS.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "source_ref": "malware--ca1d1093-bcc1-4365-8fac-a9b29f0ec852",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--dd901512-6e37-4155-943b-453e3777b125",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

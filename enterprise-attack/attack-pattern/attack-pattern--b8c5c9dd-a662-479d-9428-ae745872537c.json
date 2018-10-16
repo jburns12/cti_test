@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fc49d9ea-02db-48a7-b850-2b276332a341",
+    "id": "bundle--f7b7a323-45d1-4a8c-a4d8-f423e08fc097",
     "spec_version": "2.0",
     "objects": [
         {
@@ -33,14 +33,15 @@
             ],
             "x_mitre_data_sources": [
                 "DLL monitoring",
-                "Windows Registry",
-                "Process monitoring"
+                "Process monitoring",
+                "Windows Registry"
             ],
             "x_mitre_detection": "Monitor for change notifications to and from unfamiliar password filters.\n\nNewly installed password filters will not take effect until after a system reboot.\n\nPassword filters will show up as an autorun and loaded DLL in lsass.exe. (Citation: Clymb3r Function Hook Passwords Sept 2013)",
             "x_mitre_permissions_required": [
                 "Administrator",
                 "SYSTEM"
             ],
+            "x_mitre_version": "1.0",
             "x_mitre_platforms": [
                 "Windows"
             ],
@@ -51,7 +52,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

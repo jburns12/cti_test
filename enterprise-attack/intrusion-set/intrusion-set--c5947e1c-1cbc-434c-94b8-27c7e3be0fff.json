@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--10a72b9c-e331-4e19-85e0-e63ce77c5b20",
+    "id": "bundle--ec553351-18b9-4c13-9c00-ec8a6ba5a15c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "intrusion-set--c5947e1c-1cbc-434c-94b8-27c7e3be0fff",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Winnti Group",
-            "description": "[Winnti Group](https://attack.mitre.org/groups/G0044) is a threat group with Chinese origins that has been active since at least 2010. The group has heavily targeted the gaming industry, but it has also expanded the scope of its targeting. Though both this group and [Axiom](https://attack.mitre.org/groups/G0001) use the malware [Winnti](https://attack.mitre.org/software/S0141), the two groups appear to be distinct based on differences in reporting on the groups' TTPs and targeting. (Citation: Kaspersky Winnti April 2013) (Citation: Kaspersky Winnti June 2015) (Citation: Novetta Winnti April 2015)",
+            "description": "[Winnti Group](https://attack.mitre.org/groups/G0044) is a threat group with Chinese origins that has been active since at least 2010. The group has heavily targeted the gaming industry, but it has also expanded the scope of its targeting. (Citation: Kaspersky Winnti April 2013) (Citation: Kaspersky Winnti June 2015) (Citation: Novetta Winnti April 2015) Some reporting suggests a number of other groups, including [Axiom](https://attack.mitre.org/groups/G0001), [APT17](https://attack.mitre.org/groups/G0025), and [Ke3chang](https://attack.mitre.org/groups/G0004), are closely linked to [Winnti Group](https://attack.mitre.org/groups/G0044). (Citation: 401 TRG Winnti Umbrella May 2018)",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -27,6 +27,11 @@
                     "source_name": "Blackfly"
                 },
                 {
+                    "url": "http://www.symantec.com/connect/blogs/suckfly-revealing-secret-life-your-code-signing-certificates",
+                    "description": "DiMaggio, J.. (2016, March 15). Suckfly: Revealing the secret life of your code signing certificates. Retrieved August 3, 2016.",
+                    "source_name": "Symantec Suckfly March 2016"
+                },
+                {
                     "url": "https://securelist.com/winnti-more-than-just-a-game/37029/",
                     "description": "Kaspersky Lab's Global Research and Analysis Team. (2013, April 11). Winnti. More than just a game. Retrieved February 8, 2017.",
                     "source_name": "Kaspersky Winnti April 2013"
@@ -42,16 +47,20 @@
                     "source_name": "Novetta Winnti April 2015"
                 },
                 {
-                    "url": "http://www.symantec.com/connect/blogs/suckfly-revealing-secret-life-your-code-signing-certificates",
-                    "description": "DiMaggio, J.. (2016, March 15). Suckfly: Revealing the secret life of your code signing certificates. Retrieved August 3, 2016.",
-                    "source_name": "Symantec Suckfly March 2016"
+                    "url": "https://401trg.com/burning-umbrella/",
+                    "description": "Hegel, T. (2018, May 3). Burning Umbrella: An Intelligence Report on the Winnti Umbrella and Associated State-Sponsored Attackers. Retrieved July 8, 2018.",
+                    "source_name": "401 TRG Winnti Umbrella May 2018"
                 }
+            ],
+            "x_mitre_version": "1.0",
+            "x_mitre_contributors": [
+                "Edward Millington"
             ],
             "aliases": [
                 "Winnti Group",
                 "Blackfly"
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:32:08.682Z"
         }
     ]

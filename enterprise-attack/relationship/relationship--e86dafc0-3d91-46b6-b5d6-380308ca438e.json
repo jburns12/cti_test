@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--e8b5ffb6-6d99-4ef2-b49b-3fa3ec1174dc",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--e86dafc0-3d91-46b6-b5d6-380308ca438e",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[Dark Caracal](https://attack.mitre.org/groups/G0070) makes their malware look like Flash Player, Office, or PDF documents in order to entice a user to click on it.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf",
+                    "description": "Blaich, A., et al. (2018, January 18). Dark Caracal: Cyber-espionage at a Global Scale. Retrieved April 11, 2018.",
+                    "source_name": "Lookout Dark Caracal Jan 2018"
+                }
+            ],
+            "source_ref": "intrusion-set--3a7337e7-f9b5-4fc3-be06-e36794fd5537",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--8c32eb4d-805f-4fc5-bf60-c4d476c131b5",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

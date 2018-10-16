@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--71c85553-018d-4acd-85ee-58ad258d2039",
+    "id": "bundle--e0eb8c20-be13-4505-9079-86fdb65f197f",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--c354bbc0-74c4-4805-b6e6-f33f49272f86",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Gazer](https://attack.mitre.org/software/S0168) versions are signed with various valid certificates; one was likely faked and issued by Comodo for \"Solid Loop Ltd,\" and another was issued for \"Ultimate Computer Support Ltd.\"",
-            "source_ref": "malware--76abb3ef-dafd-4762-97cb-a35379429db4",
-            "target_ref": "attack-pattern--1b84d551-6de8-4b96-9930-d177677c3b1d",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -25,8 +22,11 @@
                     "source_name": "Securelist WhiteBear Aug 2017"
                 }
             ],
+            "source_ref": "malware--76abb3ef-dafd-4762-97cb-a35379429db4",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--1b84d551-6de8-4b96-9930-d177677c3b1d",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

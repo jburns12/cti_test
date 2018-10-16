@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--58f86f0b-4076-4ed3-beb7-5b3393318e85",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--15e494f5-a4ee-453f-bc57-0e6ad9cb786c",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[More_eggs](https://attack.mitre.org/software/S0284) uses HTTPS for C2.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://blog.talosintelligence.com/2018/07/multiple-cobalt-personality-disorder.html",
+                    "description": "Svajcer, V. (2018, July 31). Multiple Cobalt Personality Disorder. Retrieved September 5, 2018.",
+                    "source_name": "Talos Cobalt Group July 2018"
+                }
+            ],
+            "source_ref": "malware--2b6a18f9-4f02-4aa6-b025-dd5a1d4072d2",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

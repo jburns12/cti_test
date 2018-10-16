@@ -1,18 +1,23 @@
 {
     "type": "bundle",
-    "id": "bundle--77068127-23b1-4075-af29-235469e07c4a",
+    "id": "bundle--d3ff564b-c710-4407-9ef5-18b037a4cb66",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--a6525aec-acc4-47fe-92f9-b9b4de4b9228",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Graphical User Interface",
-            "description": "Cause a binary or script to execute based on interacting with the file through a graphical user interface (GUI) or in an interactive remote session such as [Remote Desktop Protocol](https://attack.mitre.org/techniques/T1076).",
+            "description": "The Graphical User Interfaces (GUI) is a common way to interact with an operating system. Adversaries may use a system's GUI during an operation, commonly through a remote interactive session such as [Remote Desktop Protocol](https://attack.mitre.org/techniques/T1076), instead of through a [Command-Line Interface](https://attack.mitre.org/techniques/T1059), to search for information and execute files via mouse double-click events, the Windows Run command (Citation: Wikipedia Run Command), or other potentially difficult to monitor interactions.",
             "external_references": [
                 {
                     "external_id": "T1061",
                     "url": "https://attack.mitre.org/techniques/T1061",
                     "source_name": "mitre-attack"
+                },
+                {
+                    "url": "https://en.wikipedia.org/wiki/Run_command",
+                    "description": "Wikipedia. (2018, August 3). Run Command. Retrieved October 12, 2018.",
+                    "source_name": "Wikipedia Run Command"
                 }
             ],
             "object_marking_refs": [
@@ -20,11 +25,11 @@
             ],
             "x_mitre_data_sources": [
                 "File monitoring",
-                "Binary file metadata",
+                "Process monitoring",
                 "Process command-line parameters",
-                "Process monitoring"
+                "Binary file metadata"
             ],
-            "x_mitre_detection": "Detection of execution through the GUI will likely lead to significant false positives. Other factors should be considered to detect misuse of services that can lead to adversaries gaining access to systems through interactive remote sessions. \n\nUnknown or unusual process launches outside of normal behavior on a particular system occurring through remote interactive sessions are suspicious. Collect and audit security logs that may indicate access to and use of Legitimate Credentials to access remote systems within the network.",
+            "x_mitre_detection": "Detection of execution through the GUI will likely lead to significant false positives. Other factors should be considered to detect misuse of services that can lead to adversaries gaining access to systems through interactive remote sessions. \n\nUnknown or unusual process launches outside of normal behavior on a particular system occurring through remote interactive sessions are suspicious. Collect and audit security logs that may indicate access to and use of [[Legitimate Credentials]] to access remote systems within the network.",
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",
@@ -36,6 +41,7 @@
                 "SYSTEM"
             ],
             "x_mitre_remote_support": true,
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -43,7 +49,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:30:50.342Z"
         }
     ]

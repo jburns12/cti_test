@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0b9e65e9-b80a-42d6-839c-c9547a0ecc36",
+    "id": "bundle--c672d4c7-466f-43d3-8703-bb8e923d0d3f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "An adversary could set up unauthorized Wi-Fi access points or compromise existing access points and, if the device connects to them, carry out network-based attacks such as eavesdropping on or modifying network communication as described in NIST SP 800-153 (Citation: NIST-SP800153). \n\nFor example, Kaspersky describes a threat actor they call DarkHotel that targeted hotel Wi-Fi networks, using them to compromise computers belonging to business executives (Citation: Kaspersky-DarkHotel).",
             "external_references": [
                 {
-                    "external_id": "MOB-T1068",
-                    "url": "https://attack.mitre.org/techniques/MOB-T1068",
+                    "external_id": "T1465",
+                    "url": "https://attack.mitre.org/techniques/T1465",
                     "source_name": "mitre-mobile-attack"
                 },
                 {
@@ -40,14 +40,15 @@
             "x_mitre_tactic_type": [
                 "Without Adversary Device Access"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "phase_name": "general-network-based",
+                    "phase_name": "network-effects",
                     "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-10-25T14:48:21.354Z"
         }
     ]

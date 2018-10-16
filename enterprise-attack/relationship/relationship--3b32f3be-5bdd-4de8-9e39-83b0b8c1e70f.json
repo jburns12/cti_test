@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--9e9496a5-688e-4612-8d39-28413ef568d0",
+    "id": "bundle--b6cc9062-881a-48b1-9a7f-bd7f53e197aa",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--3b32f3be-5bdd-4de8-9e39-83b0b8c1e70f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[FALLCHILL](https://attack.mitre.org/software/S0181) can delete malware and associated artifacts from the victim.",
-            "source_ref": "malware--fece06b7-d4b1-42cf-b81a-5323c917546e",
-            "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "US-CERT FALLCHILL Nov 2017"
                 }
             ],
+            "source_ref": "malware--fece06b7-d4b1-42cf-b81a-5323c917546e",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

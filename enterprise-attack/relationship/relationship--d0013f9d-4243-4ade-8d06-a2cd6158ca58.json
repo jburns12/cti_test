@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--97df0551-7dcc-4ee9-bc80-d9550666b9d8",
+    "id": "bundle--adf16f64-5258-483f-8a85-4aeca159a7db",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--d0013f9d-4243-4ade-8d06-a2cd6158ca58",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[HALFBAKED](https://attack.mitre.org/software/S0151) can delete a specified file.",
-            "source_ref": "malware--0ced8926-914e-4c78-bc93-356fb90dbd1f",
-            "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "FireEye FIN7 April 2017"
                 }
             ],
+            "source_ref": "malware--0ced8926-914e-4c78-bc93-356fb90dbd1f",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

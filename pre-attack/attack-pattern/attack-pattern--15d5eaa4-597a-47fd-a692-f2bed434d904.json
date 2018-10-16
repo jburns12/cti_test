@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ca0c4b34-84c5-4d7e-be3d-d6b41470c200",
+    "id": "bundle--6914d218-6e69-463c-90f5-287bf8deb844",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "Leadership or key decision makers may derive specific intelligence requirements from Key Intelligence Topics (KITs) or Key Intelligence Questions (KIQs).  Specific intelligence requirements assist analysts in gathering information to establish a baseline of information about a topic or question and collection managers to clarify the types of information that should be collected to satisfy the requirement. (Citation: LowenthalCh4) (Citation: Heffter)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1007",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1007",
+                    "external_id": "T1230",
+                    "url": "https://attack.mitre.org/techniques/T1230",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -30,6 +30,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Normally, defender is unable to detect.  Few agencies and commercial organizations may have unique insights.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Normal aspect of adversary planning lifecycle.  May not be done by all adversaries.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -37,7 +38,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

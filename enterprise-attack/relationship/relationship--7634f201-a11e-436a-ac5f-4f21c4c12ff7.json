@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--40c9e1af-f5dc-4a42-90f7-46ea390ceb88",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--7634f201-a11e-436a-ac5f-4f21c4c12ff7",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[Kazuar](https://attack.mitre.org/software/S0265) uses HTTP, HTTPS, FTP, and FTPS to communicate with the C2 server. [Kazuar](https://attack.mitre.org/software/S0265) can also act as a webserver and listen for inbound HTTP requests through an exposed API.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://researchcenter.paloaltonetworks.com/2017/05/unit42-kazuar-multiplatform-espionage-backdoor-api-access/",
+                    "description": "Levene, B, et al. (2017, May 03). Kazuar: Multiplatform Espionage Backdoor with API Access. Retrieved July 17, 2018.",
+                    "source_name": "Unit 42 Kazuar May 2017"
+                }
+            ],
+            "source_ref": "malware--9da1212f-5485-4738-b526-755ccd7e3b8a",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

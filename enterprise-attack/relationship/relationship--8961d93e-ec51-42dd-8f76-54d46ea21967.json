@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--4cfd3e44-a6c6-4058-9261-abc8d4e96bc5",
+    "id": "bundle--cb8814e8-3033-4931-bd41-29f9f843bea1",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--8961d93e-ec51-42dd-8f76-54d46ea21967",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[H1N1](https://attack.mitre.org/software/S0132) bypasses user access control by using a DLL hijacking vulnerability in the Windows Update Standalone Installer (wusa.exe).",
-            "source_ref": "malware--f8dfbc54-b070-4224-b560-79aaa5f835bd",
-            "target_ref": "attack-pattern--ca1a3f50-5ebd-41f8-8320-2c7d6a6e88be",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Cisco H1N1 Part 2"
                 }
             ],
+            "source_ref": "malware--f8dfbc54-b070-4224-b560-79aaa5f835bd",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--ca1a3f50-5ebd-41f8-8320-2c7d6a6e88be",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

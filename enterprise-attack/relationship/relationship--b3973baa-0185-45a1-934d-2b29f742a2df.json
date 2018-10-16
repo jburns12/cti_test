@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--b420b1c8-3103-4c2f-82d0-f295d0ebd370",
+    "id": "bundle--41ead326-b591-4a1c-84de-65dd68f4d9f4",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--b3973baa-0185-45a1-934d-2b29f742a2df",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[XTunnel](https://attack.mitre.org/software/S0117) uses SSL/TLS and RC4 to encrypt traffic.",
-            "source_ref": "malware--7343e208-7cab-45f2-a47b-41ba5e2f0fab",
-            "target_ref": "attack-pattern--4b74a1d4-b0e9-4ef1-93f1-14ecc6e2f5b5",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -25,8 +22,11 @@
                     "source_name": "ESET Sednit Part 2"
                 }
             ],
+            "source_ref": "malware--7343e208-7cab-45f2-a47b-41ba5e2f0fab",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--4b74a1d4-b0e9-4ef1-93f1-14ecc6e2f5b5",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

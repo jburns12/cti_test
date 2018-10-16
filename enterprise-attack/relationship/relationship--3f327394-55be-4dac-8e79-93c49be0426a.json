@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--5f0fd554-120f-477a-af45-3cd972e59825",
+    "id": "bundle--b885c1cd-a7a3-4777-80e1-ff8a398b8202",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--3f327394-55be-4dac-8e79-93c49be0426a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[3PARA RAT](https://attack.mitre.org/software/S0066) will sleep until after a date/time value loaded from a .dat file has passed. This allows the RAT to remain dormant until a set date, which could allow a means to regain access if other parts of the actors' toolset are removed from a victim.",
-            "source_ref": "malware--7bec698a-7e20-4fd3-bb6a-12787770fb1a",
-            "target_ref": "attack-pattern--6aabc5ec-eae6-422c-8311-38d45ee9838a",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "CrowdStrike Putter Panda"
                 }
             ],
+            "source_ref": "malware--7bec698a-7e20-4fd3-bb6a-12787770fb1a",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--6aabc5ec-eae6-422c-8311-38d45ee9838a",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

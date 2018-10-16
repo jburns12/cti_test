@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--b501e9e2-cc48-44a1-8db1-b6b6440ab8d8",
+    "id": "bundle--3e3a170d-008e-4b36-bd28-13b09690ce58",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--e104cf3c-a802-4e06-8abc-6293cea9492f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "[menuPass](https://attack.mitre.org/groups/G0045) uses to inject shellcode into PowerShell.",
-            "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
-            "target_ref": "attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0",
+            "description": "[menuPass](https://attack.mitre.org/groups/G0045) uses [PowerSploit](https://attack.mitre.org/software/S0194) to inject shellcode into PowerShell.",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "PWC Cloud Hopper Technical Annex April 2017"
                 }
             ],
+            "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

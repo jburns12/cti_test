@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--4e4152a2-faab-43ed-97f5-20c62e013399",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--aa5440f7-c9f2-4238-9335-85fb1e6cb2c0",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[FruitFly](https://attack.mitre.org/software/S0277) saves itself with a leading \".\" to make it a hidden file.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://objective-see.com/blog/blog_0x25.html",
+                    "description": "Patrick Wardle. (n.d.). Mac Malware of 2017. Retrieved September 21, 2018.",
+                    "source_name": "objsee mac malware 2017"
+                }
+            ],
+            "source_ref": "malware--1dfbcf36-a8dc-4af4-8d35-82b73e522a75",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--dc27c2ec-c5f9-4228-ba57-d67b590bda93",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

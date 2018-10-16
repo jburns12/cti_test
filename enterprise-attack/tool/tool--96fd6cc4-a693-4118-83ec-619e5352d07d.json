@@ -1,13 +1,16 @@
 {
     "type": "bundle",
-    "id": "bundle--acd21cda-4ead-4b75-8b48-0e0a326a57ba",
+    "id": "bundle--497f6365-8916-41df-b2a7-7a53802b190d",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "tool--96fd6cc4-a693-4118-83ec-619e5352d07d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Winexe",
-            "description": "is a lightweight, open source tool similar to [PsExec](https://attack.mitre.org/software/S0029) designed to allow system administrators to execute commands on remote servers. (Citation: Winexe Github Sept 2013)  is unique in that it is a GNU/Linux based client. (Citation: \u00dcberwachung APT28 Forfiles June 2015)",
+            "description": "[Winexe](https://attack.mitre.org/software/S0191) is a lightweight, open source tool similar to [PsExec](https://attack.mitre.org/software/S0029) designed to allow system administrators to execute commands on remote servers. (Citation: Winexe Github Sept 2013) [Winexe](https://attack.mitre.org/software/S0191) is unique in that it is a GNU/Linux based client. (Citation: \u00dcberwachung APT28 Forfiles June 2015)",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "external_id": "S0191",
@@ -29,12 +32,10 @@
                     "source_name": "\u00dcberwachung APT28 Forfiles June 2015"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
             "x_mitre_aliases": [
                 "Winexe"
             ],
+            "x_mitre_version": "1.0",
             "x_mitre_platforms": [
                 "Windows"
             ],
@@ -42,7 +43,7 @@
             "labels": [
                 "tool"
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

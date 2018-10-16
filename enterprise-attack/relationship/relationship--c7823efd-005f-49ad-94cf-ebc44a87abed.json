@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--0d10cbb2-7e82-4cc2-9445-41483efd0bf8",
+    "id": "bundle--86efc554-323c-4309-9a6f-192c4f8859d0",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--c7823efd-005f-49ad-94cf-ebc44a87abed",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "The file name AcroRD32.exe, a legitimate process name for Adobe's Acrobat Reader, was used by [APT1](https://attack.mitre.org/groups/G0006) as a name for malware.",
-            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
-            "target_ref": "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -25,8 +22,11 @@
                     "source_name": "Mandiant APT1 Appendix"
                 }
             ],
+            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:33:27.035Z"
         }
     ]

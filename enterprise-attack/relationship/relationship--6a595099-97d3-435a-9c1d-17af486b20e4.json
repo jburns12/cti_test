@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--cae011ee-ba4a-4e3a-ba1c-26992d20f465",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--6a595099-97d3-435a-9c1d-17af486b20e4",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[Socksbot](https://attack.mitre.org/software/S0273) can write and execute PowerShell scripts.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://documents.trendmicro.com/assets/tech-brief-untangling-the-patchwork-cyberespionage-group.pdf",
+                    "description": "Lunghi, D., et al. (2017, December). Untangling the Patchwork Cyberespionage Group. Retrieved July 10, 2018.",
+                    "source_name": "TrendMicro Patchwork Dec 2017"
+                }
+            ],
+            "source_ref": "malware--ef9706d4-6475-4506-aed9-2a763ac4e17c",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

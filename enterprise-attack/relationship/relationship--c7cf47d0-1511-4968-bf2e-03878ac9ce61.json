@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--0d47dc7f-ff2c-4ee2-9803-ea7335ef30bf",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--c7cf47d0-1511-4968-bf2e-03878ac9ce61",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[Leafminer](https://attack.mitre.org/groups/G0077) used a tool called BruteForcer to perform a brute force attack.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://www.symantec.com/blogs/threat-intelligence/leafminer-espionage-middle-east",
+                    "description": "Symantec Security Response. (2018, July 25). Leafminer: New Espionage Campaigns Targeting Middle Eastern Regions. Retrieved August 28, 2018.",
+                    "source_name": "Symantec Leafminer July 2018"
+                }
+            ],
+            "source_ref": "intrusion-set--131a226d-8a5f-4204-9710-63e163ae73ee",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--a93494bb-4b80-4ea1-8695-3236a49916fd",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

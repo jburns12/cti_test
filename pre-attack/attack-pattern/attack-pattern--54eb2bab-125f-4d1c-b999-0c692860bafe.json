@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e2bd76bc-b9e7-4c90-909c-59dc90833924",
+    "id": "bundle--e8c478db-7b68-40b9-8fb2-57242303a4ca",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "Dynamic DNS is a automated method to rapidly update the domain name system mapping of hostnames to IPs. (Citation: FireEyeSupplyChain)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1110",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1110",
+                    "external_id": "T1333",
+                    "url": "https://attack.mitre.org/techniques/T1333",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -26,6 +26,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Defender will not know at first use what is valid or hostile traffic without more context.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "It is relatively easy to subscribe to dynamic DNS providers or find ways to get different IP addresses from a cloud provider.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -33,7 +34,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

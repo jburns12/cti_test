@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b14fbee6-ea54-492c-a074-063f3e654964",
+    "id": "bundle--13ffbb8b-a567-40a7-aedb-3f26ac96d789",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,21 +24,22 @@
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "x_mitre_data_sources": [
-                "Process command-line parameters",
-                "Process monitoring"
+                "Process monitoring",
+                "Process command-line parameters"
             ],
             "x_mitre_detection": "Command-line interface activities can be captured through proper logging of process execution with command-line arguments. This information can be useful in gaining additional insight to adversaries' actions through how they use native processes or custom tools.",
-            "x_mitre_permissions_required": [
-                "Administrator",
-                "SYSTEM",
-                "User"
-            ],
             "x_mitre_platforms": [
                 "Linux",
-                "Windows",
-                "macOS"
+                "macOS",
+                "Windows"
+            ],
+            "x_mitre_permissions_required": [
+                "User",
+                "Administrator",
+                "SYSTEM"
             ],
             "x_mitre_remote_support": false,
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -46,7 +47,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:30:49.546Z"
         }
     ]

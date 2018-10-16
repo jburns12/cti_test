@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--34b2eba0-89f6-4e41-9fe8-253889f4b7cd",
+    "id": "bundle--02c82b2c-a87e-4d18-90ab-23b5dd2d63bd",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--cb2d2f2d-face-430b-995d-c9bd35db5b90",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Suckfly](https://attack.mitre.org/groups/G0039) has used stolen certificates to sign its malware.",
-            "source_ref": "intrusion-set--5cbe0d3b-6fb1-471f-b591-4b192915116d",
-            "target_ref": "attack-pattern--1b84d551-6de8-4b96-9930-d177677c3b1d",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Symantec Suckfly March 2016"
                 }
             ],
+            "source_ref": "intrusion-set--5cbe0d3b-6fb1-471f-b591-4b192915116d",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--1b84d551-6de8-4b96-9930-d177677c3b1d",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:33:27.074Z"
         }
     ]

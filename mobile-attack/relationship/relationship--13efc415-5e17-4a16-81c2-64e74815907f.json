@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--45b25c69-badf-47d8-8396-02525ebbd364",
+    "id": "bundle--c9a84d98-98b3-4058-9b38-8fb1c85cad8e",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--13efc415-5e17-4a16-81c2-64e74815907f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "[XcodeGhost](https://attack.mitre.org/software/MOB-S0013) can \"[p]rompt a fake alert dialog to phish user credentials.\"",
-            "source_ref": "malware--d9e07aea-baad-4b68-bdca-90c77647d7f9",
-            "target_ref": "attack-pattern--3dd58c80-4c2e-458c-9503-1b2cd273c4d2",
+            "description": "[XcodeGhost](https://attack.mitre.org/software/S0297) can prompt a fake alert dialog to phish user credentials.",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "PaloAlto-XcodeGhost"
                 }
             ],
+            "source_ref": "malware--d9e07aea-baad-4b68-bdca-90c77647d7f9",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--3dd58c80-4c2e-458c-9503-1b2cd273c4d2",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

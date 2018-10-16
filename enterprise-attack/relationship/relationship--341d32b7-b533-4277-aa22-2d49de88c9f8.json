@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--d3a16a03-102b-4bb0-b64c-cf3bd899dd6e",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--341d32b7-b533-4277-aa22-2d49de88c9f8",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[RogueRobin](https://attack.mitre.org/software/S0270) uses various WMI queries to check if the sample is running in a sandbox.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://researchcenter.paloaltonetworks.com/2018/07/unit42-new-threat-actor-group-darkhydrus-targets-middle-east-government/",
+                    "description": "Falcone, R., et al. (2018, July 27). New Threat Actor Group DarkHydrus Targets Middle East Government. Retrieved August 2, 2018.",
+                    "source_name": "Unit 42 DarkHydrus July 2018"
+                }
+            ],
+            "source_ref": "malware--ef8a02dc-ad85-4f78-b721-10f3909e1896",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bad7f4c5-ef68-4d30-a16b-3519c09b3d85",
+    "id": "bundle--470fb341-83ab-4bb8-baf4-6e609cf11f2f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -39,10 +39,10 @@
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "x_mitre_data_sources": [
-                "Application logs",
                 "Packet capture",
                 "Web logs",
-                "Web application firewall logs"
+                "Web application firewall logs",
+                "Application logs"
             ],
             "x_mitre_detection": "Monitor application logs for abnormal behavior that may indicate attempted or successful exploitation. Use deep packet inspection to look for artifacts of common exploit traffic, such as SQL injection. Web Application Firewalls may detect improper inputs attempting exploitation.",
             "x_mitre_platforms": [
@@ -50,6 +50,7 @@
                 "Windows",
                 "macOS"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -57,7 +58,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

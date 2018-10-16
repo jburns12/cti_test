@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--df78ee34-2eb0-40ae-85ae-e9f9978628b6",
+    "id": "bundle--4a15ed4f-0ff6-43d7-9189-e0630e1d9780",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "The approach or attack vector outlines the specifics behind how the adversary would like to attack the target.  As additional information is known through the other phases of PRE-ATT&CK, an adversary may update the approach or attack vector. (Citation: CyberAdversaryBehavior) (Citation: WITCHCOVEN2015) (Citation: JP3-60) (Citation: JP3-12 (R)) (Citation: DoD Cyber 2015)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1022",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1022",
+                    "external_id": "T1245",
+                    "url": "https://attack.mitre.org/techniques/T1245",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -42,6 +42,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Normally, defender is unable to detect.  May change for special use cases or adversary and defender overlays.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "This is the normal adversary targeting cycle where they utilize our poor OPSEC practices to their advantage.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -49,7 +50,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

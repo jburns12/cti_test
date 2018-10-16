@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--1b006422-4160-446d-a01b-2ba5dac1d3b0",
+    "id": "bundle--60746387-09f9-4241-a24e-2793a2f43ad9",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--59543467-938a-4528-961d-a539f0a5618b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Gazer](https://attack.mitre.org/software/S0168) identifies a proxy server if it exists and uses it to make HTTP requests.",
-            "source_ref": "malware--76abb3ef-dafd-4762-97cb-a35379429db4",
-            "target_ref": "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "ESET Gazer Aug 2017"
                 }
             ],
+            "source_ref": "malware--76abb3ef-dafd-4762-97cb-a35379429db4",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

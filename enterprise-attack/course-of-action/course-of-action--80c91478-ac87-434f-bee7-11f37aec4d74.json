@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--819833ea-9cd0-401c-b267-16f423117e5b",
+    "id": "bundle--b0b175e7-f1cb-441e-819f-60637569f366",
     "spec_version": "2.0",
     "objects": [
         {
@@ -15,9 +15,9 @@
                     "source_name": "mitre-attack"
                 },
                 {
-                    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-disables-dde-feature-in-word-to-prevent-further-malware-attacks/",
-                    "description": "Cimpanu, C. (2017, December 15). Microsoft Disables DDE Feature in Word to Prevent Further Malware Attacks. Retrieved December 19, 2017.",
-                    "source_name": "BleepingComputer DDE Disabled in Word Dec 2017"
+                    "url": "https://technet.microsoft.com/library/security/4053440",
+                    "description": "Microsoft. (2017, November 8). Microsoft Security Advisory 4053440 - Securely opening Microsoft Office documents that contain Dynamic Data Exchange (DDE) fields. Retrieved November 21, 2017.",
+                    "source_name": "Microsoft DDE Advisory Nov 2017"
                 },
                 {
                     "url": "https://support.office.com/en-us/article/What-is-Protected-View-d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653",
@@ -25,19 +25,9 @@
                     "source_name": "Microsoft Protected View"
                 },
                 {
-                    "url": "https://technet.microsoft.com/library/security/4053440",
-                    "description": "Microsoft. (2017, November 8). Microsoft Security Advisory 4053440 - Securely opening Microsoft Office documents that contain Dynamic Data Exchange (DDE) fields. Retrieved November 21, 2017.",
-                    "source_name": "Microsoft DDE Advisory Nov 2017"
-                },
-                {
-                    "url": "https://portal.msrc.microsoft.com/security-guidance/advisory/ADV170021",
-                    "description": "Microsoft. (2017, December 12). ADV170021 - Microsoft Office Defense in Depth Update. Retrieved February 3, 2018.",
-                    "source_name": "Microsoft ADV170021 Dec 2017"
-                },
-                {
-                    "url": "https://posts.specterops.io/reviving-dde-using-onenote-and-excel-for-code-execution-d7226864caee",
-                    "description": "Nelson, M. (2018, January 29). Reviving DDE: Using OneNote and Excel for Code Execution. Retrieved February 3, 2018.",
-                    "source_name": "Enigma Reviving DDE Jan 2018"
+                    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-disables-dde-feature-in-word-to-prevent-further-malware-attacks/",
+                    "description": "Cimpanu, C. (2017, December 15). Microsoft Disables DDE Feature in Word to Prevent Further Malware Attacks. Retrieved December 19, 2017.",
+                    "source_name": "BleepingComputer DDE Disabled in Word Dec 2017"
                 },
                 {
                     "url": "https://gist.github.com/wdormann/732bb88d9b5dd5a66c9f1e1498f31a1b",
@@ -45,14 +35,27 @@
                     "source_name": "GitHub Disable DDEAUTO Oct 2017"
                 },
                 {
+                    "url": "https://posts.specterops.io/reviving-dde-using-onenote-and-excel-for-code-execution-d7226864caee",
+                    "description": "Nelson, M. (2018, January 29). Reviving DDE: Using OneNote and Excel for Code Execution. Retrieved February 3, 2018.",
+                    "source_name": "Enigma Reviving DDE Jan 2018"
+                },
+                {
                     "url": "https://docs.microsoft.com/windows/threat-protection/windows-defender-exploit-guard/enable-attack-surface-reduction",
                     "description": "Brower, N. & D'Souza-Wiltshire, I. (2017, November 9). Enable Attack surface reduction. Retrieved February 3, 2018.",
                     "source_name": "Microsoft ASR Nov 2017"
+                },
+                {
+                    "url": "https://portal.msrc.microsoft.com/security-guidance/advisory/ADV170021",
+                    "description": "Microsoft. (2017, December 12). ADV170021 - Microsoft Office Defense in Depth Update. Retrieved February 3, 2018.",
+                    "source_name": "Microsoft ADV170021 Dec 2017"
                 }
             ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "type": "course-of-action",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2018-09-07T16:42:18.771Z"
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
         }
     ]
 }

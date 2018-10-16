@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f29d273b-8067-4775-80fc-50beba3149da",
+    "id": "bundle--bfb76212-edc6-4ee2-8977-f4a6370c9f4f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -13,24 +13,46 @@
                     "external_id": "T1109",
                     "url": "https://attack.mitre.org/techniques/T1109",
                     "source_name": "mitre-attack"
+                },
+                {
+                    "url": "https://www.itworld.com/article/2853992/3-tools-to-check-your-hard-drives-health-and-make-sure-its-not-already-dying-on-you.html",
+                    "description": "Pinola, M. (2014, December 14). 3 tools to check your hard drive's health and make sure it's not already dying on you. Retrieved October 2, 2018.",
+                    "source_name": "ITWorld Hard Disk Health Dec 2014"
+                },
+                {
+                    "url": "https://www.smartmontools.org/",
+                    "description": "smartmontools. (n.d.). smartmontools. Retrieved October 2, 2018.",
+                    "source_name": "SmartMontools"
+                },
+                {
+                    "description": "SanDisk. (n.d.). Self-Monitoring, Analysis and Reporting Technology (S.M.A.R.T.). Retrieved October 2, 2018.",
+                    "source_name": "SanDisk SMART"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_data_sources": [
+                "Disk Forensics",
+                "API monitoring",
+                "Process Monitoring",
+                "Component Firmware"
+            ],
             "x_mitre_defense_bypassed": [
-                "Anti-virus",
                 "File monitoring",
-                "Host intrusion prevention systems"
+                "Host intrusion prevention systems",
+                "Anti-virus"
             ],
-            "x_mitre_system_requirements": [
-                "Ability to update component device firmware from the host operating system."
-            ],
+            "x_mitre_detection": "Data and telemetry from use of device drivers (i.e. processes and API calls) and/or provided by SMART (Self-Monitoring, Analysis and Reporting Technology) (Citation: SanDisk SMART) (Citation: SmartMontools) disk monitoring may reveal malicious manipulations of components. Otherwise, this technique may be difficult to detect since malicious activity is taking place on system components possibly outside the purview of OS security and integrity mechanisms.\n\nDisk check and forensic utilities (Citation: ITWorld Hard Disk Health Dec 2014) may reveal indicators of malicious firmware such as strings, unexpected disk partition table entries, or blocks of otherwise unusual memory that warrant deeper investigation. Also consider comparing components, including hashes of component firmware and behavior, against known good images.",
             "x_mitre_permissions_required": [
                 "SYSTEM"
             ],
+            "x_mitre_version": "1.0",
             "x_mitre_platforms": [
                 "Windows"
+            ],
+            "x_mitre_system_requirements": [
+                "Ability to update component device firmware from the host operating system."
             ],
             "type": "attack-pattern",
             "kill_chain_phases": [
@@ -43,7 +65,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:31:22.374Z"
         }
     ]

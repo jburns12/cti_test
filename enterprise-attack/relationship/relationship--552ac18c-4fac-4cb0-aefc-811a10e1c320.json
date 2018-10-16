@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--47d7fd00-e1c4-4b8c-b859-c51b62216c05",
+    "id": "bundle--ba165cf0-df1e-4356-977c-845ae9df3efd",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--552ac18c-4fac-4cb0-aefc-811a10e1c320",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Lazarus Group](https://attack.mitre.org/groups/G0032) malware IndiaIndia saves information gathered about the victim to a file that is compressed with Zlib, encrypted, and uploaded to a C2 server. [Lazarus Group](https://attack.mitre.org/groups/G0032) malware RomeoDelta archives specified directories in .zip format, encrypts the .zip file, and uploads it to its C2 server. A [Lazarus Group](https://attack.mitre.org/groups/G0032) malware sample encrypts data using a simple byte based XOR operation prior to exfiltration.",
-            "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
-            "target_ref": "attack-pattern--d54416bd-0803-41ca-870a-ce1af7c05638",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -35,8 +32,11 @@
                     "source_name": "McAfee Lazarus Resurfaces Feb 2018"
                 }
             ],
+            "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--d54416bd-0803-41ca-870a-ce1af7c05638",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:33:27.068Z"
         }
     ]

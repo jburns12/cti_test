@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--9586d34a-0295-4c34-b449-32287913a3ab",
+    "id": "bundle--4982127b-d36a-4ee2-8ec8-66f61aa1c367",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--d328f1e2-c98f-473e-aea5-063e1ee70744",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Cobalt Strike](https://attack.mitre.org/software/S0154) can use <code>WinRM</code> to execute a payload on a remote host.",
-            "source_ref": "tool--aafea02e-ece5-4bb2-91a6-3bf8c7f38a39",
-            "target_ref": "attack-pattern--c3bce4f4-9795-46c6-976e-8676300bbc39",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "cobaltstrike manual"
                 }
             ],
+            "source_ref": "tool--aafea02e-ece5-4bb2-91a6-3bf8c7f38a39",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--c3bce4f4-9795-46c6-976e-8676300bbc39",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--37907f76-0716-4f31-b2b1-5eb81dacad4f",
+    "id": "bundle--5d2ea38e-f8cc-48cb-8067-7c18d016b3e2",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--83cfa11e-f221-4dc4-b184-943c2c7f4562",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Moafee](https://attack.mitre.org/groups/G0002) has been known to employ binary padding.",
-            "source_ref": "intrusion-set--2e5d3a83-fe00-41a5-9b60-237efc84832f",
-            "target_ref": "attack-pattern--519630c5-f03f-4882-825c-3af924935817",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Haq 2014"
                 }
             ],
+            "source_ref": "intrusion-set--2e5d3a83-fe00-41a5-9b60-237efc84832f",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--519630c5-f03f-4882-825c-3af924935817",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:33:27.032Z"
         }
     ]

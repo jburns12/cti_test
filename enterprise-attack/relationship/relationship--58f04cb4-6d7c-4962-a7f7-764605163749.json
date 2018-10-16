@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--ec8663ea-1e47-4ad9-b81b-40872e3ef966",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--58f04cb4-6d7c-4962-a7f7-764605163749",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[NDiskMonitor](https://attack.mitre.org/software/S0272) uses AES to encrypt certain information sent over its C2 channel.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://documents.trendmicro.com/assets/tech-brief-untangling-the-patchwork-cyberespionage-group.pdf",
+                    "description": "Lunghi, D., et al. (2017, December). Untangling the Patchwork Cyberespionage Group. Retrieved July 10, 2018.",
+                    "source_name": "TrendMicro Patchwork Dec 2017"
+                }
+            ],
+            "source_ref": "malware--cd11be0a-d8cd-4653-a9b8-fed14261fa3c",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--4b74a1d4-b0e9-4ef1-93f1-14ecc6e2f5b5",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

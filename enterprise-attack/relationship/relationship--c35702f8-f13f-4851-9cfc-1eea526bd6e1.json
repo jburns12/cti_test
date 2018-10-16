@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--d426421e-d492-4075-9ffd-d91888f6213d",
+    "id": "bundle--844dc946-1100-414f-ba15-05fef9b83e78",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--c35702f8-f13f-4851-9cfc-1eea526bd6e1",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[PlugX](https://attack.mitre.org/software/S0013) has beaconed to its C2 over port 443.",
-            "source_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",
-            "target_ref": "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "PWC Cloud Hopper Technical Annex April 2017"
                 }
             ],
+            "source_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--3ccd8731-344d-493d-b66d-fdebe9a20260",
+    "id": "bundle--e6d2682c-588f-48b7-bc71-2d6992150e8b",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--ce424541-5cfa-4885-ad62-f3f70fa27099",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[TDTESS](https://attack.mitre.org/software/S0164) provides a reverse shell on the victim.",
-            "source_ref": "malware--0b32ec39-ba61-4864-9ebe-b4b0b73caf9a",
-            "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "ClearSky Wilted Tulip July 2017"
                 }
             ],
+            "source_ref": "malware--0b32ec39-ba61-4864-9ebe-b4b0b73caf9a",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

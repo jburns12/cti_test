@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--e62ce4de-3bd6-41e5-b83d-9d8d6e60a6ac",
+    "id": "bundle--333b5b48-71aa-4c05-90a4-3dce651bad7a",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--1b45f3b5-b7a4-4424-a8ff-1b1f1c1a55d9",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Threat Group-3390](https://attack.mitre.org/groups/G0027) has staged encrypted archives for exfiltration on Internet-facing servers that had previously been compromised with [China Chopper](https://attack.mitre.org/software/S0020).",
-            "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
-            "target_ref": "attack-pattern--7dd95ff6-712e-4056-9626-312ea4ab4c5e",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "SecureWorks BRONZE UNION June 2017"
                 }
             ],
+            "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--7dd95ff6-712e-4056-9626-312ea4ab4c5e",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:33:27.062Z"
         }
     ]

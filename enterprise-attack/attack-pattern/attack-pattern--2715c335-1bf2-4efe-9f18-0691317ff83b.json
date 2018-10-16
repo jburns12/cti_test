@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1da29ad3-22b4-4a52-8015-505e3086656e",
+    "id": "bundle--1698d1ad-f22e-4cca-8d40-94d19af20cfd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -20,14 +20,14 @@
                     "source_name": "OS X Keychain"
                 },
                 {
-                    "url": "http://www.slideshare.net/StephanBorosh/external-to-da-the-os-x-way",
-                    "description": "Alex Rymdeko-Harvey, Steve Borosh. (2016, May 14). External to DA, the OS X Way. Retrieved July 3, 2017.",
-                    "source_name": "External to DA, the OS X Way"
-                },
-                {
                     "url": "https://www.welivesecurity.com/2016/07/06/new-osxkeydnap-malware-hungry-credentials/",
                     "description": "Marc-Etienne M.Leveille. (2016, July 6). New OSX/Keydnap malware is hungry for credentials. Retrieved July 3, 2017.",
                     "source_name": "OSX Keydnap malware"
+                },
+                {
+                    "url": "http://www.slideshare.net/StephanBorosh/external-to-da-the-os-x-way",
+                    "description": "Alex Rymdeko-Harvey, Steve Borosh. (2016, May 14). External to DA, the OS X Way. Retrieved July 3, 2017.",
+                    "source_name": "External to DA, the OS X Way"
                 }
             ],
             "object_marking_refs": [
@@ -42,6 +42,7 @@
             "x_mitre_permissions_required": [
                 "root"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -49,7 +50,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

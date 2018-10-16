@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--9064e9a3-8020-4380-95fe-21300053b2b3",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--7bc91a60-e16a-433a-8c2a-fea9f55b99d9",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[RunningRAT](https://attack.mitre.org/software/S0253) contains code to compress files.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://securingtomorrow.mcafee.com/mcafee-labs/gold-dragon-widens-olympics-malware-attacks-gains-permanent-presence-on-victims-systems/",
+                    "description": "Sherstobitoff, R., Saavedra-Morales, J. (2018, February 02). Gold Dragon Widens Olympics Malware Attacks, Gains Permanent Presence on Victims\u2019 Systems. Retrieved June 6, 2018.",
+                    "source_name": "McAfee Gold Dragon"
+                }
+            ],
+            "source_ref": "malware--e5076fea-0465-4c4d-a5f7-08757b37cda0",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--b9f5dbe2-4c55-4fc5-af2e-d42c1d182ec4",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

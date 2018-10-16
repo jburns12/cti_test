@@ -1,31 +1,32 @@
 {
     "type": "bundle",
-    "id": "bundle--7f80a091-8bef-4cfc-bfcc-ad39efa08939",
+    "id": "bundle--502d7f2b-d4b5-4df9-b96e-3844de2e5e6d",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--644b6c21-90f0-43b7-8da4-7f6f24ddabb6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[APT28](https://attack.mitre.org/groups/G0007) has downloaded additional files, including by using a first-stage downloader to contact the C2 server to obtain the second-stage implant.",
-            "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
-            "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
+                    "url": "https://download.bitdefender.com/resources/media/materials/white-papers/en/Bitdefender_In-depth_analysis_of_APT28%E2%80%93The_Political_Cyber-Espionage.pdf",
                     "description": "Bitdefender. (2015, December). APT28 Under the Scope. Retrieved February 23, 2017.",
                     "source_name": "Bitdefender APT28 Dec 2015"
                 },
                 {
                     "url": "https://pan-unit42.github.io/playbook_viewer/",
-                    "description": "Unit 42. (2018, February 28). Unit 42 Playbook Viewer - Sofacy. Retrieved March 15, 2018.",
-                    "source_name": "Unit 42 Playbook Sofacy Feb 2018"
+                    "description": "Unit 42. (2017, December 15). Unit 42 Playbook Viewer. Retrieved December 20, 2017.",
+                    "source_name": "Unit 42 Playbook Dec 2017"
                 }
             ],
+            "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:33:27.038Z"
         }
     ]

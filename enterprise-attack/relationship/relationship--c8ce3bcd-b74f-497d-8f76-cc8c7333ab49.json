@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--07827967-a2da-4b9a-a41d-f110548afcd9",
+    "id": "bundle--ea93bd7b-fe32-438f-bfeb-cd0731e69563",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--c8ce3bcd-b74f-497d-8f76-cc8c7333ab49",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[SHOTPUT](https://attack.mitre.org/software/S0063) has a command to obtain a process listing.",
-            "source_ref": "malware--58adaaa8-f1e8-4606-9a08-422e568461eb",
-            "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Palo Alto CVE-2015-3113 July 2015"
                 }
             ],
+            "source_ref": "malware--58adaaa8-f1e8-4606-9a08-422e568461eb",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--02192918-eac6-4116-bde2-28d0d2d1573d",
+    "id": "bundle--021fbd2f-04a8-4fc2-8870-ff4515a814f5",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--e30c24d3-d440-4395-88b3-3192a02c4364",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[OilRig](https://attack.mitre.org/groups/G0049) has used <code>reg query \u201cHKEY_CURRENT_USER\\Software\\Microsoft\\Terminal Server Client\\Default\u201d</code> on a victim to query the Registry.",
-            "source_ref": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",
-            "target_ref": "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Palo Alto OilRig May 2016"
                 }
             ],
+            "source_ref": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

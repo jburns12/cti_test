@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--feed77c1-bb05-492f-81f4-9be5a0cc0f39",
+    "id": "bundle--39c90729-062c-49dd-959f-3c64b7619e11",
     "spec_version": "2.0",
     "objects": [
         {
@@ -15,23 +15,24 @@
                     "source_name": "mitre-attack"
                 },
                 {
-                    "url": "https://adsecurity.org/?p=556",
-                    "description": "Metcalf, S. (2014, November 22). Mimikatz and Active Directory Kerberos Attacks. Retrieved June 2, 2016.",
-                    "source_name": "ADSecurity AD Kerberos Attacks"
-                },
-                {
-                    "description": "Abolins, D., Boldea, C., Socha, K., Soria-Machado, M. (2016, April 26). Kerberos Golden Ticket Protection. Retrieved July 13, 2017.",
-                    "source_name": "CERT-EU Golden Ticket Protection"
-                },
-                {
                     "url": "http://defcon.org/images/defcon-22/dc-22-presentations/Campbell/DEFCON-22-Christopher-Campbell-The-Secret-Life-of-Krbtgt.pdf",
                     "description": "Campbell, C. (2014). The Secret Life of Krbtgt. Retrieved December 4, 2014.",
                     "source_name": "Campbell 2014"
                 },
                 {
+                    "url": "https://adsecurity.org/?p=556",
+                    "description": "Metcalf, S. (2014, November 22). Mimikatz and Active Directory Kerberos Attacks. Retrieved June 2, 2016.",
+                    "source_name": "ADSecurity AD Kerberos Attacks"
+                },
+                {
                     "url": "http://blog.gentilkiwi.com/securite/mimikatz/pass-the-ticket-kerberos",
                     "description": "Deply, B. (2014, January 13). Pass the ticket. Retrieved June 2, 2016.",
                     "source_name": "GentilKiwi Pass the Ticket"
+                },
+                {
+                    "url": "https://cert.europa.eu/static/WhitePapers/UPDATED%20-%20CERT-EU_Security_Whitepaper_2014-007_Kerberos_Golden_Ticket_Protection_v1_4.pdf",
+                    "description": "Abolins, D., Boldea, C., Socha, K., Soria-Machado, M. (2016, April 26). Kerberos Golden Ticket Protection. Retrieved July 13, 2017.",
+                    "source_name": "CERT-EU Golden Ticket Protection"
                 }
             ],
             "object_marking_refs": [
@@ -48,6 +49,7 @@
             "x_mitre_system_requirements": [
                 "Requires Microsoft Windows as a target system and Kerberos authentication enabled."
             ],
+            "x_mitre_version": "1.0",
             "x_mitre_platforms": [
                 "Windows"
             ],
@@ -58,7 +60,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:31:11.623Z"
         }
     ]

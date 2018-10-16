@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--e8f9fd7f-4e1d-4826-a3e2-b053ad113ab8",
+    "id": "bundle--e99dfa2f-76d2-4de8-a7a4-9e59e4c6dce9",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--3537c31f-bd6f-4cad-97ac-4ec3d8a9478b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Helminth](https://attack.mitre.org/software/S0170) establishes persistence by creating a shortcut.",
-            "source_ref": "malware--eff1a885-6f90-42a1-901f-eef6e7a1905e",
-            "target_ref": "attack-pattern--970cdb5c-02fb-4c38-b17e-d6327cf3c810",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Palo Alto OilRig May 2016"
                 }
             ],
+            "source_ref": "malware--eff1a885-6f90-42a1-901f-eef6e7a1905e",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--970cdb5c-02fb-4c38-b17e-d6327cf3c810",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

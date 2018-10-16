@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--d537c4a4-66f7-4ef5-99c9-c58eb5ef65fc",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--77f5c9f8-088e-464f-9be1-0f0527b7d2d7",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[Proton](https://attack.mitre.org/software/S0279) uses VNC to connect into systems.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://objective-see.com/blog/blog_0x25.html",
+                    "description": "Patrick Wardle. (n.d.). Mac Malware of 2017. Retrieved September 21, 2018.",
+                    "source_name": "objsee mac malware 2017"
+                }
+            ],
+            "source_ref": "malware--ae42ac07-2609-4a3a-989f-5f44c207c467",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--54a649ff-439a-41a4-9856-8d144a2551ba",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

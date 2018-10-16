@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--97adc6bd-741d-4a69-bf87-90096790b21f",
+    "id": "bundle--f5472451-7506-48df-ba43-5d244be41331",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--ecb5e830-b678-47a6-98a2-d4dbe162f09e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[PHOREAL](https://attack.mitre.org/software/S0158) is capable of creating reverse shell.",
-            "source_ref": "malware--f6ae7a52-f3b6-4525-9daf-640c083f006e",
-            "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "FireEye APT32 May 2017"
                 }
             ],
+            "source_ref": "malware--f6ae7a52-f3b6-4525-9daf-640c083f006e",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

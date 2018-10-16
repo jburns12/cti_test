@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--cbaf29ab-b3b7-4434-82d2-b82cabd3142e",
+    "id": "bundle--7a68cce4-ba06-4cac-b7b4-b6d7e3c53e3a",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--19e44b4d-fb66-43f9-8853-8e42692522b2",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Reg](https://attack.mitre.org/software/S0075) may be used to find credentials in the Windows Registry.",
-            "source_ref": "tool--cde2d700-9ed1-46cf-9bce-07364fe8b24f",
-            "target_ref": "attack-pattern--2edd9d6a-5674-4326-a600-ba56de467286",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Pentestlab Stored Credentials"
                 }
             ],
+            "source_ref": "tool--cde2d700-9ed1-46cf-9bce-07364fe8b24f",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--2edd9d6a-5674-4326-a600-ba56de467286",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

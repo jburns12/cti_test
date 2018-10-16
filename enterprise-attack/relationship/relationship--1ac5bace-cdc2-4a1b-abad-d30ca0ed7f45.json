@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--34e0a7f2-9572-49f0-8c59-a55d8ccde94b",
+    "id": "bundle--796262e4-dab3-43a4-9fb5-13e70940ce3d",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--1ac5bace-cdc2-4a1b-abad-d30ca0ed7f45",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[APT18](https://attack.mitre.org/groups/G0026) actors leverage legitimate credentials to log into external remote services.",
-            "source_ref": "intrusion-set--38fd6a28-3353-4f2b-bb2b-459fecd5c648",
-            "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "RSA2017 Detect and Respond Adair"
                 }
             ],
+            "source_ref": "intrusion-set--38fd6a28-3353-4f2b-bb2b-459fecd5c648",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:33:27.060Z"
         }
     ]

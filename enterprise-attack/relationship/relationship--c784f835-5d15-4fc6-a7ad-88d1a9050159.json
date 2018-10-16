@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--8c137aef-0e74-43c3-99ce-6344a7431116",
+    "id": "bundle--ad257475-3ab1-41bc-ab18-c695eda83781",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--c784f835-5d15-4fc6-a7ad-88d1a9050159",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Derusbi](https://attack.mitre.org/software/S0021) is capable of performing screen captures.",
-            "source_ref": "malware--94379dec-5c87-49db-b36e-66abc0b81344",
-            "target_ref": "attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "FireEye Periscope March 2018"
                 }
             ],
+            "source_ref": "malware--94379dec-5c87-49db-b36e-66abc0b81344",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

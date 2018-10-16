@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--47e7cddb-4ead-4f87-8ac4-1434d8ee32da",
+    "id": "bundle--34f2727f-1f16-4389-ae28-c44357753046",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--edaa004e-8239-40d8-a4f0-8849c4f0e87f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "The [JHUHUGIT](https://attack.mitre.org/software/S0044) dropper can delete itself from the victim. Another [JHUHUGIT](https://attack.mitre.org/software/S0044) variant has the capability to delete specified files.",
-            "source_ref": "malware--8ae43c46-57ef-47d5-a77a-eebb35628db2",
-            "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -25,8 +22,11 @@
                     "source_name": "Unit 42 Sofacy Feb 2018"
                 }
             ],
+            "source_ref": "malware--8ae43c46-57ef-47d5-a77a-eebb35628db2",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

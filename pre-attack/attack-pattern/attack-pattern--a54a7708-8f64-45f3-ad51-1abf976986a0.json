@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ee32443b-816a-49ac-9fe7-229aa15ff2d9",
+    "id": "bundle--558f3025-5652-4070-8f26-46ef7dbdb5f9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "Technical blogs and forums provide a way for technical staff to ask for assistance or troubleshoot problems. In doing so they may reveal information such as operating system (OS), network devices, or applications in use. (Citation: FunAndSun2012)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1034",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1034",
+                    "external_id": "T1257",
+                    "url": "https://attack.mitre.org/techniques/T1257",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -26,6 +26,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Cannot detect access to public sites.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Success is dependent upon the existence of detailed technical specifications for target network posted in blogs/forums.  Poor OPSEC practices result in an adversary gleaning a lot of sensitive information about configurations and/or issues encountered.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -33,7 +34,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

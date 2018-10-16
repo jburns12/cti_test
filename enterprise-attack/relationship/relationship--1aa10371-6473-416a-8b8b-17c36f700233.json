@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--d1d6dfcc-c863-4cf8-a418-7064c53a1dc6",
+    "id": "bundle--c66e0253-8f63-4130-8fb3-7ea65cf94b0d",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--1aa10371-6473-416a-8b8b-17c36f700233",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[JHUHUGIT](https://attack.mitre.org/software/S0044) has registered itself as a scheduled task to run each time the current user logs in.",
-            "source_ref": "malware--8ae43c46-57ef-47d5-a77a-eebb35628db2",
-            "target_ref": "attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -25,8 +22,11 @@
                     "source_name": "ESET Sednit July 2015"
                 }
             ],
+            "source_ref": "malware--8ae43c46-57ef-47d5-a77a-eebb35628db2",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

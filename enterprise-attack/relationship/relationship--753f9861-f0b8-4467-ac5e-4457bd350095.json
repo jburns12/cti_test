@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--6b33a208-8c51-4d3f-833d-e0298ab6b55a",
+    "id": "bundle--9c60791d-273f-4126-a384-dfc0347e1d31",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--753f9861-f0b8-4467-ac5e-4457bd350095",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[TINYTYPHON](https://attack.mitre.org/software/S0131) installs itself under Registry Run key to establish persistence.",
-            "source_ref": "malware--85b39628-204a-48d2-b377-ec368cbcb7ca",
-            "target_ref": "attack-pattern--9422fc14-1c43-410d-ab0f-a709b76c72dc",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Forcepoint Monsoon"
                 }
             ],
+            "source_ref": "malware--85b39628-204a-48d2-b377-ec368cbcb7ca",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--9422fc14-1c43-410d-ab0f-a709b76c72dc",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

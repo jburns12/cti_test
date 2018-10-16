@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--aef3ec21-7aaf-47ce-81df-820095fcec8c",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--10754505-97d5-4019-bc98-1eb30b1c1763",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[MacSpy](https://attack.mitre.org/software/S0282) can record the sounds from microphones on a computer.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://objective-see.com/blog/blog_0x25.html",
+                    "description": "Patrick Wardle. (n.d.). Mac Malware of 2017. Retrieved September 21, 2018.",
+                    "source_name": "objsee mac malware 2017"
+                }
+            ],
+            "source_ref": "malware--0a7543d3-68ed-47ca-bb1c-b3b25a761a42",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--1035cdf2-3e5f-446f-a7a7-e8f6d7925967",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

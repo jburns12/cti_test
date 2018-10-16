@@ -1,22 +1,19 @@
 {
     "type": "bundle",
-    "id": "bundle--85208529-cf9f-416d-b384-b8d1dceecf49",
+    "id": "bundle--fca3ebb1-d7a3-464b-9fe9-fa0c24eaef15",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--a3251b26-7012-4f26-9c5d-1fb9d69b8569",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[HTTPBrowser](https://attack.mitre.org/software/S0070) is capable of listing files, folders, and drives on a victim.",
-            "source_ref": "malware--e066bf86-9cfb-407a-9d25-26fd5d91e360",
-            "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
-                    "url": "http://www.secureworks.com/cyber-threat-intelligence/threats/threat-group-3390-targets-organizations-for-cyberespionage/",
-                    "description": "Dell SecureWorks Counter Threat Unit Threat Intelligence. (2015, August 5). Threat Group-3390 Targets Organizations for Cyberespionage. Retrieved January 25, 2016.",
+                    "url": "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage",
+                    "description": "Dell SecureWorks Counter Threat Unit Threat Intelligence. (2015, August 5). Threat Group-3390 Targets Organizations for Cyberespionage. Retrieved August 18, 2018.",
                     "source_name": "Dell TG-3390"
                 },
                 {
@@ -25,8 +22,11 @@
                     "source_name": "ZScaler Hacking Team"
                 }
             ],
+            "source_ref": "malware--e066bf86-9cfb-407a-9d25-26fd5d91e360",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

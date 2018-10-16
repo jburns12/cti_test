@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--3ad1da2e-520d-42b3-a2e0-5cd3cc46ba0f",
+    "id": "bundle--a43a2b8d-708a-4bce-b234-3512d6b2f29f",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--55ea8954-9b81-45e4-89c9-a6b55f5b2541",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[FIN8](https://attack.mitre.org/groups/G0061) has used scheduled tasks to maintain RDP backdoors.",
-            "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
-            "target_ref": "attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "FireEye Know Your Enemy FIN8 Aug 2016"
                 }
             ],
+            "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

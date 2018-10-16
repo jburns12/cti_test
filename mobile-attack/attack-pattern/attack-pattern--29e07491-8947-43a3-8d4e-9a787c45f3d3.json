@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9a04d184-a49b-4022-aded-8b82982f2a40",
+    "id": "bundle--f59595b6-7b09-485d-b0ef-cf7e7d8796f8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "On versions of Android prior to 4.1, an adversary may use a malicious application that holds the READ_LOGS permission to obtain private keys, passwords, other credentials, or other sensitive data stored in the device's system log. On Android 4.1 and later, an adversary would need to attempt to perform an operating system privilege escalation attack to be able to access the log.",
             "external_references": [
                 {
-                    "external_id": "MOB-T1016",
-                    "url": "https://attack.mitre.org/techniques/MOB-T1016",
+                    "external_id": "T1413",
+                    "url": "https://attack.mitre.org/techniques/T1413",
                     "source_name": "mitre-mobile-attack"
                 },
                 {
@@ -34,6 +34,7 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -45,7 +46,7 @@
                     "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-10-25T14:48:17.176Z"
         }
     ]

@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--f04e7c26-b54e-4229-837c-2967ed879d5a",
+    "id": "bundle--681625d4-0d0a-40f4-a5d8-85d8e1dd557e",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--3f14994e-149d-4cca-85b8-eec0964120d3",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "Adversaries can direct [BACKSPACE](https://attack.mitre.org/software/S0031) to execute from the command-line on infected hosts, or have [BACKSPACE](https://attack.mitre.org/software/S0031) create a reverse shell.",
-            "source_ref": "malware--fb261c56-b80e-43a9-8351-c84081e7213d",
-            "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "FireEye APT30"
                 }
             ],
+            "source_ref": "malware--fb261c56-b80e-43a9-8351-c84081e7213d",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--fcb13b1e-63c7-4e89-8736-0d4206f72c0a",
+    "id": "bundle--927eca07-0592-49ff-8f4a-4c6c510c2ec4",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--64a17aba-5182-4666-bd37-dafa9d835fe8",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Lazarus Group](https://attack.mitre.org/groups/G0032) malware SierraAlfa uses the Windows Management Instrumentation Command-line application wmic to start itself on a target system during lateral movement.",
-            "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
-            "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -25,8 +22,11 @@
                     "source_name": "Novetta Blockbuster RATs"
                 }
             ],
+            "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:33:27.069Z"
         }
     ]

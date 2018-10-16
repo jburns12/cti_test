@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--79d7c302-3f14-4874-a0dc-48bdbd1942a0",
+    "id": "bundle--73e7b49e-0d7e-4d63-8598-21a8ff10574e",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--7db7f665-6e29-4789-8a3d-d6cb8d0af31e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[GCMAN](https://attack.mitre.org/groups/G0036) uses Putty and VNC for lateral movement.",
-            "source_ref": "intrusion-set--0ea72cd5-ca30-46ba-bc04-378f701c658f",
-            "target_ref": "attack-pattern--54a649ff-439a-41a4-9856-8d144a2551ba",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Securelist GCMAN"
                 }
             ],
+            "source_ref": "intrusion-set--0ea72cd5-ca30-46ba-bc04-378f701c658f",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--54a649ff-439a-41a4-9856-8d144a2551ba",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:33:27.071Z"
         }
     ]

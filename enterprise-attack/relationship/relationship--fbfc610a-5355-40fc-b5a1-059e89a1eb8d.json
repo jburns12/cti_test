@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--336ef3f7-5861-41f4-966e-99dbc6dafd67",
+    "id": "bundle--4c3018cf-2c66-4baf-816a-a99be8b1f598",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--fbfc610a-5355-40fc-b5a1-059e89a1eb8d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[SslMM](https://attack.mitre.org/software/S0058) sends information to its hard-coded C2, including OS version, service pack information, processor speed, system name, and OS install date.",
-            "source_ref": "malware--2fb26586-2b53-4b9a-ad4f-2b3bcb9a2421",
-            "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Baumgartner Naikon 2015"
                 }
             ],
+            "source_ref": "malware--2fb26586-2b53-4b9a-ad4f-2b3bcb9a2421",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

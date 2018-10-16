@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a89a0bc2-865f-4c32-9fcf-f866bcd8cec5",
+    "id": "bundle--c19ee6c5-dc72-4471-9193-e6383add4ed0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "An adversary undergoes an iterative target selection process that may begin either broadly and narrow down into specifics (strategic to tactical) or narrowly and expand outward (tactical to strategic).  As part of this process, an adversary may determine a high level target they wish to attack. One example of this may be a particular country, government, or commercial sector. (Citation: CyberAdversaryBehavior) (Citation: JP3-60) (Citation: JP3-12 (R)) (Citation: DoD Cyber 2015)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1018",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1018",
+                    "external_id": "T1241",
+                    "url": "https://attack.mitre.org/techniques/T1241",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -38,6 +38,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Normally, defender is unable to detect.  May change for special use cases or adversary and defender overlays.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "This is the normal adversary targeting cycle where they utilize our poor OPSEC practices to their advantage.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -45,7 +46,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

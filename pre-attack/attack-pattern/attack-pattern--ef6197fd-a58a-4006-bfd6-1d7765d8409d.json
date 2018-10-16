@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--703bcdff-3716-4f52-b207-ee82e1b88352",
+    "id": "bundle--cce7d9e1-743f-4d7d-9d36-a38c72e105ee",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "Software applications will be built using different technologies, languages, and dependencies. This information may reveal vulnerabilities or opportunities to an adversary. (Citation: CommonApplicationAttacks) (Citation: WebApplicationSecurity) (Citation: SANSTop25)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1038",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1038",
+                    "external_id": "T1261",
+                    "url": "https://attack.mitre.org/techniques/T1261",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -34,6 +34,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Impossible to differentiate between an adversary and a normal user when accessing a site to determine the languages/technologies used.  If active scanning tools are employed, then the defender has the ability to detect.  However, this is typically not acted upon due to the large volume of this type of traffic and it will likely not prompt the defender to take any actionable defense.  Defender review of access logs may provide some insight based on trends or patterns.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Basic interaction with the site provides insight into the programming languages/technologies used for a given web site.  Additionally many of the active scanning tools will also provide some insight into this information.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -41,7 +42,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--d10106d3-90fe-459f-9966-0df228b157de",
+    "id": "bundle--ce378fea-1f43-40c0-9040-d59ba62af845",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--6f884bda-0c39-4d3b-97e3-29ae9099fa45",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Threat Group-3390](https://attack.mitre.org/groups/G0027) has used appcmd.exe to disable logging on a victim server.",
-            "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
-            "target_ref": "attack-pattern--2e0dd10b-676d-4964-acd0-8a404c92b044",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "SecureWorks BRONZE UNION June 2017"
                 }
             ],
+            "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--2e0dd10b-676d-4964-acd0-8a404c92b044",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

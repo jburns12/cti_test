@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9031da58-8dbc-482a-aee6-a4f22fcb5f88",
+    "id": "bundle--0acc963b-b66d-4140-9723-eabda539d06b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -25,6 +25,7 @@
                 "Process use of network"
             ],
             "x_mitre_detection": "There are likely a variety of ways an adversary could collect email from a target, each with a different mechanism for detection.\n\nFile access of local system email files for Exfiltration, unusual processes connecting to an email server within a network, or unusual access patterns or authentication attempts on a public-facing webmail server may all be indicators of malicious activity.\n\nMonitor processes and command-line arguments for actions that could be taken to gather local email files. Remote access tools with built-in features may interact directly with the Windows API to gather information. Information may also be acquired through Windows system management tools such as [Windows Management Instrumentation](https://attack.mitre.org/techniques/T1047) and [PowerShell](https://attack.mitre.org/techniques/T1086).",
+            "x_mitre_version": "1.0",
             "x_mitre_platforms": [
                 "Windows"
             ],
@@ -35,7 +36,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:31:25.454Z"
         }
     ]

@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--6272cc74-a85c-4112-aed5-f7e577421009",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--079e2ece-10a9-47d0-9fb7-db7abe349b40",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[Mis-Type](https://attack.mitre.org/software/S0084) network traffic can communicate over a raw socket.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://www.cylance.com/content/dam/cylance/pdfs/reports/Op_Dust_Storm_Report.pdf",
+                    "description": "Gross, J. (2016, February 23). Operation Dust Storm. Retrieved September 19, 2017.",
+                    "source_name": "Cylance Dust Storm"
+                }
+            ],
+            "source_ref": "malware--e1161124-f22e-487f-9d5f-ed8efc8dcd61",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--f72eb8a8-cd4c-461d-a814-3f862befbf00",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

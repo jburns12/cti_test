@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--fca0ef14-7573-471f-a09f-80c7269bfbb9",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--69238b0a-e501-4b7b-9ec7-ee14ee107c18",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[Comnie](https://attack.mitre.org/software/S0244) uses Rundll32 to load a malicious DLL.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://researchcenter.paloaltonetworks.com/2018/01/unit42-comnie-continues-target-organizations-east-asia/",
+                    "description": "Grunzweig, J. (2018, January 31). Comnie Continues to Target Organizations in East Asia. Retrieved June 7, 2018.",
+                    "source_name": "Palo Alto Comnie"
+                }
+            ],
+            "source_ref": "malware--e1e08dfc-3cae-4767-afaf-67e60d2d8c15",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--62b8c999-dcc0-4755-bd69-09442d9359f5",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

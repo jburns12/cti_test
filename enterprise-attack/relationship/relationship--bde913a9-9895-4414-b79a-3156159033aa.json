@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--60bf74f3-b175-4d52-9aed-c36b60c02dbc",
+    "id": "bundle--c5b5717f-7f65-4d21-80d2-ba7b8f42a35f",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--bde913a9-9895-4414-b79a-3156159033aa",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) is known to use RAR with passwords to encrypt data prior to exfiltration.",
-            "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
-            "target_ref": "attack-pattern--d54416bd-0803-41ca-870a-ce1af7c05638",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Villeneuve et al 2014"
                 }
             ],
+            "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--d54416bd-0803-41ca-870a-ce1af7c05638",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:33:27.033Z"
         }
     ]

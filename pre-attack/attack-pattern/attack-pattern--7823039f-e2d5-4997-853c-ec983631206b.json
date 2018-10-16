@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e84227e8-0a1e-4ca6-8b0d-765170653932",
+    "id": "bundle--6fdedd7e-1442-41eb-bc28-cd26b5e3c7ac",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "DNS Calc is a technique in which the octets of an IP address are used to calculate the port  for command and control servers from an initial DNS request. (Citation: CrowdstrikeNumberedPanda) (Citation: FireEyeDarwinsAPTGroup) (Citation: Rapid7G20Espionage)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1101",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1101",
+                    "external_id": "T1324",
+                    "url": "https://attack.mitre.org/techniques/T1324",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -34,6 +34,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "There are not currently available tools that provide the ability to conduct this calculation to detect this type of activity.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "This technique assists the adversary in bypassing egress filtering designed to prevent unauthorized communication.  It has been used by APT12, but not otherwise widely reported.  Some botnets are hardcoded to be able to use this technique.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -41,7 +42,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

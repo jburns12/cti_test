@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1c083ee4-39fb-44ad-9013-109c28c6e805",
+    "id": "bundle--8c0c5290-eeed-4d52-8447-83bb43074cb6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -15,14 +15,14 @@
                     "source_name": "mitre-attack"
                 },
                 {
-                    "url": "https://blog.malwarebytes.com/cybercrime/social-engineering-cybercrime/2017/03/new-targeted-attack-saudi-arabia-government/",
-                    "description": "Malwarebytes Labs. (2017, March 27). New targeted attack against Saudi Arabia Government. Retrieved July 3, 2017.",
-                    "source_name": "Malwarebytes Targeted Attack against Saudi Arabia"
-                },
-                {
                     "url": "https://www.carbonblack.com/2016/09/23/security-advisory-variants-well-known-adware-families-discovered-include-sophisticated-obfuscation-techniques-previously-associated-nation-state-attacks/",
                     "description": "Tedesco, B. (2016, September 23). Security Alert Summary. Retrieved February 12, 2018.",
                     "source_name": "Carbon Black Obfuscation Sept 2016"
+                },
+                {
+                    "url": "https://blog.malwarebytes.com/cybercrime/social-engineering-cybercrime/2017/03/new-targeted-attack-saudi-arabia-government/",
+                    "description": "Malwarebytes Labs. (2017, March 27). New targeted attack against Saudi Arabia Government. Retrieved July 3, 2017.",
+                    "source_name": "Malwarebytes Targeted Attack against Saudi Arabia"
                 },
                 {
                     "url": "https://www.volexity.com/blog/2016/11/09/powerduke-post-election-spear-phishing-campaigns-targeting-think-tanks-and-ngos/",
@@ -52,6 +52,7 @@
             "x_mitre_permissions_required": [
                 "User"
             ],
+            "x_mitre_version": "1.0",
             "x_mitre_platforms": [
                 "Windows"
             ],
@@ -62,7 +63,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

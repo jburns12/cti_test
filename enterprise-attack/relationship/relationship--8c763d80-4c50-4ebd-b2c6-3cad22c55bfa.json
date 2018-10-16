@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--a3dad01d-0490-445d-b2a4-7bc123ffc584",
+    "id": "bundle--04c6920a-2f29-4190-a013-07d51918d25c",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--8c763d80-4c50-4ebd-b2c6-3cad22c55bfa",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) gathered information and files from local directories for exfiltration.",
-            "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
-            "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Villeneuve et al 2014"
                 }
             ],
+            "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:33:27.034Z"
         }
     ]

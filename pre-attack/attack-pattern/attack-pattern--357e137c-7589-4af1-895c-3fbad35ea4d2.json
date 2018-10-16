@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f400a5a4-0024-407e-80ee-fd128c5ab1a8",
+    "id": "bundle--e1a08c14-1a54-40cf-af38-f96f321e1ca7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "Obfuscation is the act of creating code that is more difficult to understand. Encoding transforms the code using a publicly available format. Encryption transforms the code such that it requires a key to reverse the encryption. (Citation: CylanceOpCleaver)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1096",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1096",
+                    "external_id": "T1319",
+                    "url": "https://attack.mitre.org/techniques/T1319",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -26,6 +26,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Detecting encryption is easy, decrypting/deobfuscating is hard.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Various solutions exist for the adversary to use.  This technique is commonly used to prevent attribution and evade detection.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -33,7 +34,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

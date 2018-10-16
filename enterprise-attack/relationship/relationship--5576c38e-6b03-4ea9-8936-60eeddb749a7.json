@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--022e8f45-c532-43fc-908b-63eb90d90e2d",
+    "id": "bundle--125a90fe-a622-4a76-a985-cfc67e900e95",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--5576c38e-6b03-4ea9-8936-60eeddb749a7",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[StreamEx](https://attack.mitre.org/software/S0142) establishes persistence by installing a new service pointing to its DLL and setting the service to auto-start.",
-            "source_ref": "malware--91000a8a-58cc-4aba-9ad0-993ad6302b86",
-            "target_ref": "attack-pattern--478aa214-2ca7-4ec0-9978-18798e514790",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Cylance Shell Crew Feb 2017"
                 }
             ],
+            "source_ref": "malware--91000a8a-58cc-4aba-9ad0-993ad6302b86",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--478aa214-2ca7-4ec0-9978-18798e514790",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--95c60c4b-686c-4baf-84cf-953237fe2305",
+    "id": "bundle--9db45112-aa08-4cee-b60a-388de80caf6f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -20,9 +20,9 @@
             ],
             "x_mitre_data_sources": [
                 "Network protocol analysis",
-                "Process command-line parameters",
                 "Process monitoring",
-                "Process use of network"
+                "Process use of network",
+                "Process command-line parameters"
             ],
             "x_mitre_detection": "System and network discovery techniques normally occur throughout an operation as an adversary learns the environment. Data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities, such as Lateral Movement, based on the information obtained.\n\nNormal, benign system and network events related to legitimate remote system discovery may be uncommon, depending on the environment and how they are used. Monitor processes and command-line arguments for actions that could be taken to gather system and network information. Remote access tools with built-in features may interact directly with the Windows API to gather information. Information may also be acquired through Windows system management tools such as [Windows Management Instrumentation](https://attack.mitre.org/techniques/T1047) and [PowerShell](https://attack.mitre.org/techniques/T1086).",
             "x_mitre_platforms": [
@@ -35,6 +35,7 @@
                 "Administrator",
                 "SYSTEM"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -42,7 +43,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:30:28.187Z"
         }
     ]

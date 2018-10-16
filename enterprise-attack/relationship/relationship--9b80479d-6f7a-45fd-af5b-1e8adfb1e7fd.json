@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--72133e85-7ad3-4a93-8e4d-8f69f4a6fe0b",
+    "id": "bundle--c558b90f-de4e-4f23-8a5c-f999f9dc6b31",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--9b80479d-6f7a-45fd-af5b-1e8adfb1e7fd",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Mis-Type](https://attack.mitre.org/software/S0084) network traffic can communicate over HTTP.",
-            "source_ref": "malware--e1161124-f22e-487f-9d5f-ed8efc8dcd61",
-            "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Cylance Dust Storm"
                 }
             ],
+            "source_ref": "malware--e1161124-f22e-487f-9d5f-ed8efc8dcd61",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

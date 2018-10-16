@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--f6b3f4f3-22c5-4bb6-ac7e-a951d7c64bfd",
+    "id": "bundle--a8a0d004-e29e-4d79-9f83-32953f8b4f33",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--746b0def-62c8-438d-b5ec-aa6b7dbfb860",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Stealth Falcon](https://attack.mitre.org/groups/G0038) malware attempts to determine the installed version of .NET by querying the Registry.",
-            "source_ref": "intrusion-set--894aab42-3371-47b1-8859-a4a074c804c8",
-            "target_ref": "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Citizen Lab Stealth Falcon May 2016"
                 }
             ],
+            "source_ref": "intrusion-set--894aab42-3371-47b1-8859-a4a074c804c8",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:33:27.073Z"
         }
     ]

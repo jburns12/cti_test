@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--d39660b3-c06f-46f2-8009-0985963fce34",
+    "id": "bundle--c717e3b7-7ab8-4d63-8ebd-6106718578e2",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--922c214d-ad32-4490-bb3f-a4db73b718d5",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Psylo](https://attack.mitre.org/software/S0078) has commands to enumerate all storage devices and to find all files that start with a particular string.",
-            "source_ref": "malware--dfb5fa9b-3051-4b97-8035-08f80aef945b",
-            "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Scarlet Mimic Jan 2016"
                 }
             ],
+            "source_ref": "malware--dfb5fa9b-3051-4b97-8035-08f80aef945b",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

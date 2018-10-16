@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--2a019ee8-643c-4575-9104-6b8ad169f366",
+    "id": "bundle--c2283289-6adb-47af-ba34-be8c9ecd7d36",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--efcfe1a3-3351-4b4f-ae36-101f103b4798",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "[X-Agent](https://attack.mitre.org/software/MOB-S0030) was placed in a repackaged version of an application used by Ukrainian artillery forces..",
-            "source_ref": "malware--56660521-6db4-4e5a-a927-464f22954b7c",
-            "target_ref": "attack-pattern--a93ccb8f-3996-42e2-b7c7-bb599d4e205f",
+            "description": "[X-Agent for Android](https://attack.mitre.org/software/S0314) was placed in a repackaged version of an application used by Ukrainian artillery forces.",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "CrowdStrike-Android"
                 }
             ],
+            "source_ref": "malware--56660521-6db4-4e5a-a927-464f22954b7c",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--a93ccb8f-3996-42e2-b7c7-bb599d4e205f",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

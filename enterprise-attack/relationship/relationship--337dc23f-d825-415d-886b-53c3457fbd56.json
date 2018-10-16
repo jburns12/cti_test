@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--b6d6a6e1-fc93-4db5-a7e8-2ac45f0cf117",
+    "id": "bundle--67eea2cd-e7e2-4923-aa40-89da1de25d8d",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--337dc23f-d825-415d-886b-53c3457fbd56",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[APT29](https://attack.mitre.org/groups/G0016) has used WMI event filters to establish persistence.",
-            "source_ref": "intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542",
-            "target_ref": "attack-pattern--e906ae4d-1d3a-4675-be23-22f7311c0da4",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Mandiant No Easy Breach"
                 }
             ],
+            "source_ref": "intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--e906ae4d-1d3a-4675-be23-22f7311c0da4",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:33:27.049Z"
         }
     ]

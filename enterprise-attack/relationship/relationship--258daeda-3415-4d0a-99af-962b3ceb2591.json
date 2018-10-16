@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--ee2cce4a-2fd3-4743-8fd1-01529f750b03",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--258daeda-3415-4d0a-99af-962b3ceb2591",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "An older variant of [PLAINTEE](https://attack.mitre.org/software/S0254) performs UAC bypass.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://researchcenter.paloaltonetworks.com/2018/06/unit42-rancor-targeted-attacks-south-east-asia-using-plaintee-ddkong-malware-families/",
+                    "description": "Ash, B., et al. (2018, June 26). RANCOR: Targeted Attacks in South East Asia Using PLAINTEE and DDKONG Malware Families. Retrieved July 2, 2018.",
+                    "source_name": "Rancor Unit42 June 2018"
+                }
+            ],
+            "source_ref": "malware--f1d1eadc-fc54-40e0-8d93-e1ac36e255c3",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--ca1a3f50-5ebd-41f8-8320-2c7d6a6e88be",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

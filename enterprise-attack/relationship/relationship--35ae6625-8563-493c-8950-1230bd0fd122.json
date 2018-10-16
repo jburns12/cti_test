@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--085cf939-9306-47ac-a9a4-9ed952c0f43e",
+    "id": "bundle--a72b3aee-493d-4815-b2fa-42e50b284b86",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--35ae6625-8563-493c-8950-1230bd0fd122",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Pteranodon](https://attack.mitre.org/software/S0147) can download and execute additional files.",
-            "source_ref": "malware--5f9f7648-04ba-4a9f-bb4c-2a13e74572bd",
-            "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Palo Alto Gamaredon Feb 2017"
                 }
             ],
+            "source_ref": "malware--5f9f7648-04ba-4a9f-bb4c-2a13e74572bd",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

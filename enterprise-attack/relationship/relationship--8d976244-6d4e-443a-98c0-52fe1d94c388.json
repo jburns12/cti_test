@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--38b4b744-1851-4e75-af42-2a865d4aa9d5",
+    "id": "bundle--8a2e48a0-23f1-4bed-bf1c-6e7fa53cddab",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--8d976244-6d4e-443a-98c0-52fe1d94c388",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[hcdLoader](https://attack.mitre.org/software/S0071) installs itself as a service for persistence.",
-            "source_ref": "malware--9e2bba94-950b-4fcf-8070-cb3f816c5f4e",
-            "target_ref": "attack-pattern--478aa214-2ca7-4ec0-9978-18798e514790",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -25,8 +22,11 @@
                     "source_name": "ThreatStream Evasion Analysis"
                 }
             ],
+            "source_ref": "malware--9e2bba94-950b-4fcf-8070-cb3f816c5f4e",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--478aa214-2ca7-4ec0-9978-18798e514790",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

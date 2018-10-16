@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--d7cf7f36-4c1b-4d62-98b3-5141ad569309",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--3c9ee6ab-c74d-459b-ac0d-12273a2c2409",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[SpyDealer](https://attack.mitre.org/software/S0324) registers the broadcast receiver to listen for events related to device boot-up.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://researchcenter.paloaltonetworks.com/2017/07/unit42-spydealer-android-trojan-spying-40-apps/",
+                    "description": "Wenjun Hu, Cong Zheng and Zhi Xu. (2017, July 6). SpyDealer: Android Trojan Spying on More Than 40 Apps. Retrieved September 18, 2018.",
+                    "source_name": "PaloAlto-SpyDealer"
+                }
+            ],
+            "source_ref": "malware--785ccd3c-f20f-447e-86ef-2c6a55dd1a45",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--bd4d32f5-eed4-4018-a649-40b229dd1d69",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

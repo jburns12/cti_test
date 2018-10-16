@@ -1,17 +1,17 @@
 {
     "type": "bundle",
-    "id": "bundle--b08d517b-b80d-4489-8729-2d4f5ea0fa12",
+    "id": "bundle--0cd695fa-113e-4b0c-aec9-5e243d8bc1aa",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--f58cd69a-e548-478b-9248-8a9af881dc34",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Downgrade to Insecure Protocols",
-            "description": "An adversary could cause the mobile device to use less secure protocols, for example by jamming frequencies used by newer protocols such as LTE and only allowing older protocols such as GSM to communicate as described in draft NIST SP 800-187 (Citation: NIST-SP800187). Use of less secure protocols may make communication easier to eavesdrop upon or manipulate.",
+            "description": "An adversary could cause the mobile device to use less secure protocols, for example by jamming frequencies used by newer protocols such as LTE and only allowing older protocols such as GSM to communicate as described in NIST SP 800-187 (Citation: NIST-SP800187). Use of less secure protocols may make communication easier to eavesdrop upon or manipulate.",
             "external_references": [
                 {
-                    "external_id": "MOB-T1069",
-                    "url": "https://attack.mitre.org/techniques/MOB-T1069",
+                    "external_id": "T1466",
+                    "url": "https://attack.mitre.org/techniques/T1466",
                     "source_name": "mitre-mobile-attack"
                 },
                 {
@@ -21,7 +21,7 @@
                 },
                 {
                     "url": "http://csrc.nist.gov/publications/drafts/800-187/sp800_187_draft.pdf",
-                    "description": "Jeffrey Cichonski, Joshua M Franklin, Michael Bartock. (2016, November). Guide to LTE Security (DRAFT). Retrieved January 20, 2017.",
+                    "description": "Jeffrey Cichonski, Joshua M Franklin, Michael Bartock. (2017, December). Guide to LTE Security. Retrieved January 20, 2017.",
                     "source_name": "NIST-SP800187"
                 }
             ],
@@ -35,18 +35,15 @@
             "x_mitre_tactic_type": [
                 "Without Adversary Device Access"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "phase_name": "cellular-network-based",
-                    "kill_chain_name": "mitre-mobile-attack"
-                },
-                {
-                    "phase_name": "general-network-based",
+                    "phase_name": "network-effects",
                     "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-10-25T14:48:21.667Z"
         }
     ]

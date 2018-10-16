@@ -1,17 +1,17 @@
 {
     "type": "bundle",
-    "id": "bundle--25b9d0dc-d4fb-44ac-b5f0-d707579d4e48",
+    "id": "bundle--1ee0a12b-3c81-4256-8354-0223af0030d8",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--3dd58c80-4c2e-458c-9503-1b2cd273c4d2",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "User Interface Spoofing",
-            "description": "At least three methods exist to perform User Interface Spoofing:\n\nFirst, on both Android and iOS, an adversary could impersonate the user interface of a legitimate app or device function to trick a user into entering account credentials. \n\nSecond, on both Android and iOS, a malicious app could impersonate the identity of another app in order to trick users into installing and using it.\n\nThird, on older versions of Android, a malicious app could abuse mobile operating system features to interfere with a running legitimate app as described in  (Citation: Felt-PhishingOnMobileDevices) and  (Citation: Hassell-ExploitingAndroid). However, this technique appears to have been addressed starting in Android 5.0 with the deprecation of the Android's ActivityManager.getRunningTasks method and modification of its behavior (Citation: Android-getRunningTasks) and further addressed in Android 5.1.1 (Citation: StackOverflow-getRunningAppProcesses) to prevent a malicious app from determining what app is currently in the foreground.",
+            "description": "User Interface Spoofing can be used to trick users into providing sensitive information, such as account credentials, bank account information, or Personally Identifiable Information (PII) to an unintended entity.\n\nAt least three methods exist to perform User Interface Spoofing:\n\nFirst, on both Android and iOS, an adversary could impersonate the user interface of a legitimate app or device function to trick a user into entering sensitive information. The constrained display size of mobile devices (compared to traditional PC displays) may impair the ability to provide the user with contextual information (for example, displaying a full web site address) that may alert the user to a potential issue. (Citation: Felt-PhishingOnMobileDevices) As described by PRE-ATT&CK ([Spearphishing for information](https://attack.mitre.org/techniques/T1397)), it is also possible for an adversary to carry out this form of the technique without a direct adversary presence on the mobile devices, e.g. through a spoofed web page.\n\nSecond, on both Android and iOS, a malicious app could impersonate the identity of another app (e.g. use the same app name and/or icon) and somehow get installed on the device (e.g. using [[Technique/T1475]] or [[Technique/T1476]]). The malicious app could then prompt the user for sensitive information. (Citation: eset-finance)\n\nThird, on older versions of Android, a malicious app could abuse mobile operating system features to interfere with a running legitimate app. (Citation: Felt-PhishingOnMobileDevices) (Citation: Hassell-ExploitingAndroid) However, this technique appears to have been addressed starting in Android 5.0 with the deprecation of the Android's ActivityManager.getRunningTasks method and modification of its behavior (Citation: Android-getRunningTasks) and further addressed in Android 5.1.1 (Citation: StackOverflow-getRunningAppProcesses) to prevent a malicious app from determining what app is currently in the foreground.",
             "external_references": [
                 {
-                    "external_id": "MOB-T1014",
-                    "url": "https://attack.mitre.org/techniques/MOB-T1014",
+                    "external_id": "T1411",
+                    "url": "https://attack.mitre.org/techniques/T1411",
                     "source_name": "mitre-mobile-attack"
                 },
                 {
@@ -25,7 +25,6 @@
                     "source_name": "Felt-PhishingOnMobileDevices"
                 },
                 {
-                    "url": "http://conference.hitb.org/hitbsecconf2011kul/materials/D1T1",
                     "description": "R. Hassell. (2011, October 12-13). Exploiting Androids for Fun and Profit. Retrieved August 25, 2016.",
                     "source_name": "Hassell-ExploitingAndroid"
                 },
@@ -38,6 +37,11 @@
                     "url": "http://stackoverflow.com/questions/30619349/android-5-1-1-and-above-getrunningappprocesses-returns-my-application-packag",
                     "description": "Various. (n.d.). Android 5.1.1 and above - getRunningAppProcesses() returns my application package only. Retrieved January 19, 2017.",
                     "source_name": "StackOverflow-getRunningAppProcesses"
+                },
+                {
+                    "url": "https://www.welivesecurity.com/2018/09/19/fake-finance-apps-google-play-target-around-world/",
+                    "description": "Lukas Stefanko. (2016, July 7). Fake finance apps on Google Play target users from around the world. Retrieved September 24, 2018.",
+                    "source_name": "eset-finance"
                 }
             ],
             "object_marking_refs": [
@@ -50,6 +54,7 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -57,7 +62,7 @@
                     "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-10-25T14:48:34.407Z"
         }
     ]

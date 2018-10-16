@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--110acb8a-72ac-463b-812c-6051bbdb56f5",
+    "id": "bundle--dc461c3f-8cc4-4e90-8e9d-61fbf8cf3239",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--f8a90328-b7ee-474a-9773-f5bf501defd3",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Mivast](https://attack.mitre.org/software/S0080) has the capability to open a remote shell and run basic commands.",
-            "source_ref": "malware--fbb470da-1d44-4f29-bbb3-9efbe20f94a3",
-            "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Symantec Backdoor.Mivast"
                 }
             ],
+            "source_ref": "malware--fbb470da-1d44-4f29-bbb3-9efbe20f94a3",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

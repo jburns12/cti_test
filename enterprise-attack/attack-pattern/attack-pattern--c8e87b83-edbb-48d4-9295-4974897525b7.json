@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--b423f544-a74b-4595-af67-5395735bb6b0",
+    "id": "bundle--49f8c81f-c8bd-4ac4-8ea4-b7e34b47f6a8",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--c8e87b83-edbb-48d4-9295-4974897525b7",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "BITS Jobs",
-            "description": "Windows Background Intelligent Transfer Service (BITS) is a low-bandwidth, asynchronous file transfer mechanism exposed through Component Object Model (COM) (Citation: Microsoft COM). (Citation: Microsoft BITS) BITS is commonly used by updaters, messengers, and other applications preferred to operate in the background (using available idle bandwidth) without interrupting other networked applications. File transfer tasks are implemented as BITS jobs, which contain a queue of one or more file operations.\n\nThe interface to create and manage BITS jobs is accessible through [PowerShell](https://attack.mitre.org/techniques/T1086)  (Citation: Microsoft BITS) and the [BITSAdmin](https://attack.mitre.org/software/S0190) tool. (Citation: Microsoft BITS)Admin\n\nAdversaries may abuse BITS to download, execute, and even clean up after malicious code. BITS tasks are self-contained in the BITS job database, without new files or registry modifications, and often permitted by host firewalls. (Citation: CTU BITS Malware June 2016) (Citation: Mondok Windows PiggyBack BITS May 2007) (Citation: Symantec BITS May 2007) BITS enabled execution may also allow Persistence by creating long-standing jobs (the default maximum lifetime is 90 days and extendable) or invoking an arbitrary program when a job completes or errors (including after system reboots). (Citation: PaloAlto UBoatRAT Nov 2017) (Citation: CTU BITS Malware June 2016)\n\nBITS upload functionalities can also be used to perform [Exfiltration Over Alternative Protocol](https://attack.mitre.org/techniques/T1048). (Citation: CTU BITS Malware June 2016)",
+            "description": "Windows Background Intelligent Transfer Service (BITS) is a low-bandwidth, asynchronous file transfer mechanism exposed through Component Object Model (COM). (Citation: Microsoft COM) (Citation: Microsoft BITS) BITS is commonly used by updaters, messengers, and other applications preferred to operate in the background (using available idle bandwidth) without interrupting other networked applications. File transfer tasks are implemented as BITS jobs, which contain a queue of one or more file operations.\n\nThe interface to create and manage BITS jobs is accessible through [PowerShell](https://attack.mitre.org/techniques/T1086)  (Citation: Microsoft BITS) and the [BITSAdmin](https://attack.mitre.org/software/S0190) tool. (Citation: Microsoft BITS)Admin\n\nAdversaries may abuse BITS to download, execute, and even clean up after running malicious code. BITS tasks are self-contained in the BITS job database, without new files or registry modifications, and often permitted by host firewalls. (Citation: CTU BITS Malware June 2016) (Citation: Mondok Windows PiggyBack BITS May 2007) (Citation: Symantec BITS May 2007) BITS enabled execution may also allow Persistence by creating long-standing jobs (the default maximum lifetime is 90 days and extendable) or invoking an arbitrary program when a job completes or errors (including after system reboots). (Citation: PaloAlto UBoatRAT Nov 2017) (Citation: CTU BITS Malware June 2016)\n\nBITS upload functionalities can also be used to perform [Exfiltration Over Alternative Protocol](https://attack.mitre.org/techniques/T1048). (Citation: CTU BITS Malware June 2016)",
             "external_references": [
                 {
                     "external_id": "T1197",
@@ -15,9 +15,9 @@
                     "source_name": "mitre-attack"
                 },
                 {
-                    "url": "https://msdn.microsoft.com/library/windows/desktop/ms680573.aspx",
-                    "description": "Microsoft. (n.d.). Component Object Model (COM). Retrieved November 22, 2017.",
-                    "source_name": "Microsoft COM"
+                    "url": "https://technet.microsoft.com/library/dd939934.aspx",
+                    "description": "Microsoft. (2011, July 19). Issues with BITS. Retrieved January 12, 2018.",
+                    "source_name": "Microsoft Issues with BITS July 2011"
                 },
                 {
                     "url": "https://msdn.microsoft.com/library/windows/desktop/bb968799.aspx",
@@ -40,14 +40,14 @@
                     "source_name": "Symantec BITS May 2007"
                 },
                 {
+                    "url": "https://msdn.microsoft.com/library/windows/desktop/ms680573.aspx",
+                    "description": "Microsoft. (n.d.). Component Object Model (COM). Retrieved November 22, 2017.",
+                    "source_name": "Microsoft COM"
+                },
+                {
                     "url": "https://researchcenter.paloaltonetworks.com/2017/11/unit42-uboatrat-navigates-east-asia/",
                     "description": "Hayashi, K. (2017, November 28). UBoatRAT Navigates East Asia. Retrieved January 12, 2018.",
                     "source_name": "PaloAlto UBoatRAT Nov 2017"
-                },
-                {
-                    "url": "https://technet.microsoft.com/library/dd939934.aspx",
-                    "description": "Microsoft. (2011, July 19). Issues with BITS. Retrieved January 12, 2018.",
-                    "source_name": "Microsoft Issues with BITS July 2011"
                 }
             ],
             "object_marking_refs": [
@@ -72,6 +72,7 @@
                 "Administrator",
                 "SYSTEM"
             ],
+            "x_mitre_version": "1.0",
             "x_mitre_platforms": [
                 "Windows"
             ],
@@ -86,7 +87,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--686873e4-1dcd-450a-8e01-29067dff3afe",
+    "id": "bundle--ac02b117-1e51-45ea-9f6f-e0a1ae15366c",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--487d67d7-b697-4de4-abde-decee8b17c44",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[T9000](https://attack.mitre.org/software/S0098) gathers and beacons the operating system build number and CPU Architecture (32-bit/64-bit) during installation.",
-            "source_ref": "malware--876f6a77-fbc5-4e13-ab1a-5611986730a3",
-            "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Palo Alto T9000 Feb 2016"
                 }
             ],
+            "source_ref": "malware--876f6a77-fbc5-4e13-ab1a-5611986730a3",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

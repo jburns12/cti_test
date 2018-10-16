@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--73ee6343-ba95-4d7c-8fe0-d736e4420e6d",
+    "id": "bundle--42689ce3-a777-475e-939e-08b1e6666c7c",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--71a8ae5e-3a78-49b5-9857-e202d636cedf",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[APT32](https://attack.mitre.org/groups/G0050) has used scheduled task raw XML with a backdated timestamp of June 2, 2016.",
-            "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-            "target_ref": "attack-pattern--128c55d3-aeba-469f-bd3e-c8996ab4112a",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "FireEye APT32 May 2017"
                 }
             ],
+            "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--128c55d3-aeba-469f-bd3e-c8996ab4112a",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

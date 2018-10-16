@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--eaf24278-3590-4a79-9ff1-34ea0ee0f630",
+    "id": "bundle--7f7a7df6-4b41-42ec-a1c9-7ecc425f3e74",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--23df6015-0167-481c-84aa-3d15d3e38a85",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "Data [SPACESHIP](https://attack.mitre.org/software/S0035) copies to the staging area is compressed with zlib. Bytes are rotated by four positions and XOR'ed with 0x23.",
-            "source_ref": "malware--8b880b41-5139-4807-baa9-309690218719",
-            "target_ref": "attack-pattern--d54416bd-0803-41ca-870a-ce1af7c05638",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "FireEye APT30"
                 }
             ],
+            "source_ref": "malware--8b880b41-5139-4807-baa9-309690218719",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--d54416bd-0803-41ca-870a-ce1af7c05638",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--9ff8c08c-913a-4b7b-84de-c68f7b649333",
+    "id": "bundle--45074094-9729-416f-b274-c61e4ee8934e",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--2b789109-44c7-4195-8df8-50b1e09b1a69",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[SLOWDRIFT](https://attack.mitre.org/software/S0218) uses cloud based services for C2.",
-            "source_ref": "malware--414dc555-c79e-4b24-a2da-9b607f7eaf16",
-            "target_ref": "attack-pattern--830c9528-df21-472c-8c14-a036bf17d665",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "FireEye APT37 Feb 2018"
                 }
             ],
+            "source_ref": "malware--414dc555-c79e-4b24-a2da-9b607f7eaf16",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--830c9528-df21-472c-8c14-a036bf17d665",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

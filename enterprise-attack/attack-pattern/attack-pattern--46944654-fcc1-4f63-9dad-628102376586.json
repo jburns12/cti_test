@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6dfb6763-3bd0-4cd0-8f13-f9d867781491",
+    "id": "bundle--d2f0e3c7-f196-4341-bb17-fcddd60e1dd6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -25,11 +25,6 @@
                     "source_name": "Microsoft DLL Search"
                 },
                 {
-                    "url": "https://www.owasp.org/index.php/Binary_planting",
-                    "description": "OWASP. (2013, January 30). Binary planting. Retrieved June 7, 2016.",
-                    "source_name": "OWASP Binary Planting"
-                },
-                {
                     "url": "http://blogs.technet.com/b/msrc/archive/2010/08/21/microsoft-security-advisory-2269637-released.aspx",
                     "description": "Microsoft. (2010, August 22). Microsoft Security Advisory 2269637 Released. Retrieved December 5, 2014.",
                     "source_name": "Microsoft 2269637"
@@ -48,6 +43,11 @@
                     "url": "https://www.mandiant.com/blog/dll-search-order-hijacking-revisited/",
                     "description": "Mandiant. (2010, August 31). DLL Search Order Hijacking Revisited. Retrieved December 5, 2014.",
                     "source_name": "Mandiant Search Order"
+                },
+                {
+                    "url": "https://www.owasp.org/index.php/Binary_planting",
+                    "description": "OWASP. (2013, January 30). Binary planting. Retrieved June 7, 2016.",
+                    "source_name": "OWASP Binary Planting"
                 }
             ],
             "object_marking_refs": [
@@ -60,8 +60,8 @@
             "x_mitre_data_sources": [
                 "File monitoring",
                 "DLL monitoring",
-                "Process command-line parameters",
-                "Process monitoring"
+                "Process monitoring",
+                "Process command-line parameters"
             ],
             "x_mitre_defense_bypassed": [
                 "Process whitelisting"
@@ -77,6 +77,7 @@
                 "Administrator",
                 "SYSTEM"
             ],
+            "x_mitre_version": "1.0",
             "x_mitre_platforms": [
                 "Windows"
             ],
@@ -86,19 +87,19 @@
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "phase_name": "defense-evasion",
-                    "kill_chain_name": "mitre-attack"
-                },
-                {
                     "phase_name": "persistence",
                     "kill_chain_name": "mitre-attack"
                 },
                 {
                     "phase_name": "privilege-escalation",
                     "kill_chain_name": "mitre-attack"
+                },
+                {
+                    "phase_name": "defense-evasion",
+                    "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:30:40.604Z"
         }
     ]

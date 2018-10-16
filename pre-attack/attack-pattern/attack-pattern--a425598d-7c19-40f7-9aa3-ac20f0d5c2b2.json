@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cddfe0bd-afe2-4621-a4e4-70b8f4fbd782",
+    "id": "bundle--cc20a792-c621-480e-aeae-cd7ad3992357",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "Backup infrastructure allows an adversary to recover from environmental and system failures. It also facilitates recovery or movement to other infrastructure if the primary infrastructure is discovered or otherwise is no longer viable. (Citation: LUCKYCAT2012)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1116",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1116",
+                    "external_id": "T1339",
+                    "url": "https://attack.mitre.org/techniques/T1339",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -26,6 +26,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Infrastructure is (typically) outside of control/visibility of defender and as such as tools are staged for specific campaigns, it will not be obvious to those being attacked.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "The adversary has control of the infrastructure and will likely be able to add/remove tools to infrastructure, whether acquired via hacking or standard computer acquisition (e.g., [https://aws.amazon.com AWS], commercial storage solutions).",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -33,7 +34,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

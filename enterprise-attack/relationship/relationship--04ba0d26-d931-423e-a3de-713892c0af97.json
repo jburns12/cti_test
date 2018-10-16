@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--98ecffeb-42fb-4ded-aa20-4848fe813d9b",
+    "id": "bundle--ac05fa1c-c8fb-41d2-b47c-81bf5b41df86",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--04ba0d26-d931-423e-a3de-713892c0af97",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[P2P ZeuS](https://attack.mitre.org/software/S0016) added junk data to outgoing UDP packets to peer implants.",
-            "source_ref": "malware--b2c5d3ca-b43a-4888-ad8d-e2d43497bf85",
-            "target_ref": "attack-pattern--ad255bfe-a9e6-4b52-a258-8d3462abe842",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Dell P2P ZeuS"
                 }
             ],
+            "source_ref": "malware--b2c5d3ca-b43a-4888-ad8d-e2d43497bf85",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--ad255bfe-a9e6-4b52-a258-8d3462abe842",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

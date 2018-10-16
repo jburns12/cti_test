@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5433e923-cb72-4f4c-bdcc-609ad76d1752",
+    "id": "bundle--dbfff1d1-0f80-44f3-996d-b4cee6a7e709",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "An adversary may attempt to get detailed information about the operating system and hardware, including version, patches, and architecture.\n\nOn Android, much of this information is programmatically accessible to applications through the android.os.Build class (Citation: Android-Build).\n\nOn iOS, techniques exist for applications to programmatically access this information, for example as described in  (Citation: StackOverflow-iOSVersion).",
             "external_references": [
                 {
-                    "external_id": "MOB-T1029",
-                    "url": "https://attack.mitre.org/techniques/MOB-T1029",
+                    "external_id": "T1426",
+                    "url": "https://attack.mitre.org/techniques/T1426",
                     "source_name": "mitre-mobile-attack"
                 },
                 {
@@ -35,6 +35,7 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -42,7 +43,7 @@
                     "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-10-25T14:48:19.265Z"
         }
     ]

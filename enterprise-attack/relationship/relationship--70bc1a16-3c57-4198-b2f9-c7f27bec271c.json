@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--fbb890ae-d4fd-48cc-a31a-e2c33a3efb7c",
+    "id": "bundle--26fd49d9-01ad-4220-ae69-11920f4ff175",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--70bc1a16-3c57-4198-b2f9-c7f27bec271c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[APT32](https://attack.mitre.org/groups/G0050) has used legitimate local admin account credentials.",
-            "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-            "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "FireEye APT32 May 2017"
                 }
             ],
+            "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

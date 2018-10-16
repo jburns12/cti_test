@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--ce9c23d0-681e-4d14-87e2-ea2d14d29763",
+    "id": "bundle--8e5d0f87-744c-43ee-9a76-223fec9cfb43",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--2d8cdbf3-1be2-4e64-ba18-f8b65fcbae8f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Helminth](https://attack.mitre.org/software/S0170) encrypts data sent to its C2 server over HTTP with RC4.",
-            "source_ref": "malware--eff1a885-6f90-42a1-901f-eef6e7a1905e",
-            "target_ref": "attack-pattern--4b74a1d4-b0e9-4ef1-93f1-14ecc6e2f5b5",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Palo Alto OilRig May 2016"
                 }
             ],
+            "source_ref": "malware--eff1a885-6f90-42a1-901f-eef6e7a1905e",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--4b74a1d4-b0e9-4ef1-93f1-14ecc6e2f5b5",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

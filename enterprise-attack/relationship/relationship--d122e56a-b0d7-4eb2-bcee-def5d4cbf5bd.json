@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--aa94f1b8-4323-4db5-989f-6bc75e82c9b9",
+    "id": "bundle--2bf23d67-0fa4-49f2-8446-1cc50995f199",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--d122e56a-b0d7-4eb2-bcee-def5d4cbf5bd",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[POORAIM](https://attack.mitre.org/software/S0216) has used AOL Instant Messenger for C2.",
-            "source_ref": "malware--53d47b09-09c2-4015-8d37-6633ecd53f79",
-            "target_ref": "attack-pattern--830c9528-df21-472c-8c14-a036bf17d665",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "FireEye APT37 Feb 2018"
                 }
             ],
+            "source_ref": "malware--53d47b09-09c2-4015-8d37-6633ecd53f79",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--830c9528-df21-472c-8c14-a036bf17d665",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

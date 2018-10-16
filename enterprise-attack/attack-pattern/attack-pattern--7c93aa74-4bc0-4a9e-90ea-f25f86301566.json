@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--5db0807e-3b0f-4cc3-a6d5-75db999e1ef5",
+    "id": "bundle--a8d6c908-d94a-4a6f-8196-b6e3d4d58923",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--7c93aa74-4bc0-4a9e-90ea-f25f86301566",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Application Shimming",
-            "description": "The Microsoft Windows Application Compatibility Infrastructure/Framework (Application Shim) was created to allow backward compatibility of programs as Windows updates and changes its code. For example, the application shimming feature allows developers to apply fixes to applications (without rewriting code) that were created for Windows XP so that it will work with Windows 10. (Citation: Engame Process Injection July 2017) Within the framework, shims are created to act as a buffer between the program (or more specifically, the Import Address Table) and the Windows OS. When a program is executed, the shim cache is referenced to determine if the program requires the use of the shim database (.sdb). If so, the shim database uses [Hooking](https://attack.mitre.org/techniques/T1179) to redirect the code as necessary in order to communicate with the OS. A list of all shims currently installed by the default Windows installer (sdbinst.exe) is kept in:\n\n* <code>%WINDIR%\\AppPatch\\sysmain.sdb</code>\n* <code>hklm\\software\\microsoft\\windows nt\\currentversion\\appcompatflags\\installedsdb</code>\n\nCustom databases are stored in:\n\n* <code>%WINDIR%\\AppPatch\\custom & %WINDIR%\\AppPatch\\AppPatch64\\Custom</code>\n* <code>hklm\\software\\microsoft\\windows nt\\currentversion\\appcompatflags\\custom</code>\n\nTo keep shims secure, Windows designed them to run in user mode so they cannot modify the kernel and you must have administrator privileges to install a shim. However, certain shims can be used to [Bypass User Account Control](https://attack.mitre.org/techniques/T1088) (UAC) (RedirectEXE), inject DLLs into processes (InjectDLL), disable Data Execution Prevention (DisableNX) and Structure Exception Handling (DisableSEH), and intercept memory addresses (GetProcAddress). Similar to [Hooking](https://attack.mitre.org/techniques/T1179), utilizing these shims may allow an adversary to perform several malicious acts such as elevate privileges, install backdoors, disable defenses like Windows Defender, etc.",
+            "description": "The Microsoft Windows Application Compatibility Infrastructure/Framework (Application Shim) was created to allow for backward compatibility of software as the operating system codebase changes over time. For example, the application shimming feature allows developers to apply fixes to applications (without rewriting code) that were created for Windows XP so that it will work with Windows 10. (Citation: Endgame Process Injection July 2017) Within the framework, shims are created to act as a buffer between the program (or more specifically, the Import Address Table) and the Windows OS. When a program is executed, the shim cache is referenced to determine if the program requires the use of the shim database (.sdb). If so, the shim database uses [Hooking](https://attack.mitre.org/techniques/T1179) to redirect the code as necessary in order to communicate with the OS. A list of all shims currently installed by the default Windows installer (sdbinst.exe) is kept in:\n\n* <code>%WINDIR%\\AppPatch\\sysmain.sdb</code>\n* <code>hklm\\software\\microsoft\\windows nt\\currentversion\\appcompatflags\\installedsdb</code>\n\nCustom databases are stored in:\n\n* <code>%WINDIR%\\AppPatch\\custom & %WINDIR%\\AppPatch\\AppPatch64\\Custom</code>\n* <code>hklm\\software\\microsoft\\windows nt\\currentversion\\appcompatflags\\custom</code>\n\nTo keep shims secure, Windows designed them to run in user mode so they cannot modify the kernel and you must have administrator privileges to install a shim. However, certain shims can be used to [Bypass User Account Control](https://attack.mitre.org/techniques/T1088) (UAC) (RedirectEXE), inject DLLs into processes (InjectDLL), disable Data Execution Prevention (DisableNX) and Structure Exception Handling (DisableSEH), and intercept memory addresses (GetProcAddress). Similar to [Hooking](https://attack.mitre.org/techniques/T1179), utilizing these shims may allow an adversary to perform several malicious acts such as elevate privileges, install backdoors, disable defenses like Windows Defender, etc.",
             "external_references": [
                 {
                     "external_id": "T1138",
@@ -22,7 +22,7 @@
                 {
                     "url": "https://www.endgame.com/blog/technical-blog/ten-process-injection-techniques-technical-survey-common-and-trending-process",
                     "description": "Hosseini, A. (2017, July 18). Ten Process Injection Techniques: A Technical Survey Of Common And Trending Process Injection Techniques. Retrieved December 7, 2017.",
-                    "source_name": "Engame Process Injection July 2017"
+                    "source_name": "Endgame Process Injection July 2017"
                 }
             ],
             "object_marking_refs": [
@@ -39,6 +39,7 @@
             "x_mitre_permissions_required": [
                 "Administrator"
             ],
+            "x_mitre_version": "1.0",
             "x_mitre_platforms": [
                 "Windows"
             ],
@@ -53,7 +54,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dc9d4860-2009-41eb-9133-f347cb03b8a2",
+    "id": "bundle--830be0d4-7f0b-420f-8dce-ccd408c3bdde",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "Once generated, Key Intelligence Topics (KITs), Key Intelligence Questions (KIQs), and/or intelligence requirements are assigned to applicable agencies and/or personnel. For example, an adversary may decide nuclear energy requirements should be assigned to a specific organization based on their mission. (Citation: AnalystsAndPolicymaking) (Citation: JP2-01)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1015",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1015",
+                    "external_id": "T1238",
+                    "url": "https://attack.mitre.org/techniques/T1238",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -30,6 +30,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Normally, defender is unable to detect.  Few agencies and commercial organizations may have unique insights.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Normal aspect of adversary planning lifecycle.  May not be done by all adversaries.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -37,7 +38,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

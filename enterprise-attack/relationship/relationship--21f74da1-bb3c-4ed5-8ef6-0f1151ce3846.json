@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--7df09f0d-ca67-45f7-a04e-95a94ed89e7b",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--21f74da1-bb3c-4ed5-8ef6-0f1151ce3846",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[InvisiMole](https://attack.mitre.org/software/S0260) uses WinRAR to compress data that is intended to be exfiltrated.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://www.welivesecurity.com/2018/06/07/invisimole-equipped-spyware-undercover/",
+                    "description": "Hromcov\u00e1, Z. (2018, June 07). InvisiMole: Surprisingly equipped spyware, undercover since 2013. Retrieved July 10, 2018.",
+                    "source_name": "ESET InvisiMole June 2018"
+                }
+            ],
+            "source_ref": "malware--bf4f5cdb-e376-478e-bd33-1052a5509ff6",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--b9f5dbe2-4c55-4fc5-af2e-d42c1d182ec4",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

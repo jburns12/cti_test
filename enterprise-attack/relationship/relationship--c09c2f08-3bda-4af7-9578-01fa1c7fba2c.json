@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--28d0cb3f-217c-46c5-a829-265ce38d7a15",
+    "id": "bundle--1b42b277-6fd7-4c2a-ae15-6115ddb90f6b",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--c09c2f08-3bda-4af7-9578-01fa1c7fba2c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Invoke-PSImage](https://attack.mitre.org/software/S0231) can be used to embed a PowerShell script within the pixels of a PNG file.",
-            "source_ref": "tool--b52d6583-14a2-4ddc-8527-87fd2142558f",
-            "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "GitHub Invoke-PSImage"
                 }
             ],
+            "source_ref": "tool--b52d6583-14a2-4ddc-8527-87fd2142558f",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

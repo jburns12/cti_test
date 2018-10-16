@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--3dbfbcaf-4e08-4830-8f8c-63105712ef3a",
+    "id": "bundle--438820bd-3fc9-4103-b09e-d03d437e21d2",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--70495f42-0a81-485c-8f30-c75af61f1c6a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[OilRig](https://attack.mitre.org/groups/G0049) has exfiltrated data over FTP separately from its primary C2 channel over DNS.",
-            "source_ref": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",
-            "target_ref": "attack-pattern--a19e86f8-1c0a-4fea-8407-23b73d615776",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Palo Alto OilRig Oct 2016"
                 }
             ],
+            "source_ref": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--a19e86f8-1c0a-4fea-8407-23b73d615776",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

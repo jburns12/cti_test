@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--3454f2c5-206d-4510-a7c4-bcda9f27f08e",
+    "id": "bundle--5998262b-b55b-4392-b825-77324afe728d",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--c93bb2b9-bd22-4e14-b884-2141168387b2",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Pteranodon](https://attack.mitre.org/software/S0147) creates various subdirectories under <code>%Temp%\\reports\\%</code> and copies files to those subdirectories. It also creates a folder at <code>C:\\Users\\<Username>\\AppData\\Roaming\\Microsoft\\store</code> to store screenshot JPEG files.",
-            "source_ref": "malware--5f9f7648-04ba-4a9f-bb4c-2a13e74572bd",
-            "target_ref": "attack-pattern--7dd95ff6-712e-4056-9626-312ea4ab4c5e",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Palo Alto Gamaredon Feb 2017"
                 }
             ],
+            "source_ref": "malware--5f9f7648-04ba-4a9f-bb4c-2a13e74572bd",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--7dd95ff6-712e-4056-9626-312ea4ab4c5e",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

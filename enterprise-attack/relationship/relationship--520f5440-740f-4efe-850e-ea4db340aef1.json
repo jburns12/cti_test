@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--8f2976ac-8170-4894-a19e-2d3661908b15",
+    "id": "bundle--eacc2536-00ed-40d7-8b1e-1a8f22647f5a",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--520f5440-740f-4efe-850e-ea4db340aef1",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Lazarus Group](https://attack.mitre.org/groups/G0032) malware IndiaIndia saves information gathered about the victim to a file that is uploaded to one of its 10 C2 servers. Another [Lazarus Group](https://attack.mitre.org/groups/G0032) malware sample also performs exfiltration over the C2 channel.",
-            "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
-            "target_ref": "attack-pattern--92d7da27-2d91-488e-a00c-059dc162766d",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -30,8 +27,11 @@
                     "source_name": "McAfee Lazarus Resurfaces Feb 2018"
                 }
             ],
+            "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--92d7da27-2d91-488e-a00c-059dc162766d",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:33:27.068Z"
         }
     ]

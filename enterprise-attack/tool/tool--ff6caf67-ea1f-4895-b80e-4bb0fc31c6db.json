@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8fe03749-1dd4-4e66-8f4c-97ee151ebc6b",
+    "id": "bundle--0ed2e469-3979-4bc4-be60-c2a9eda8d059",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,9 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "PsExec",
             "description": "[PsExec](https://attack.mitre.org/software/S0029) is a free Microsoft tool that can be used to execute a program on another computer. It is used by IT administrators and attackers. (Citation: Russinovich Sysinternals) (Citation: SANS PsExec)",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "external_id": "S0029",
@@ -25,12 +28,10 @@
                     "source_name": "SANS PsExec"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
             "x_mitre_aliases": [
                 "PsExec"
             ],
+            "x_mitre_version": "1.0",
             "x_mitre_platforms": [
                 "Windows"
             ],
@@ -38,7 +39,7 @@
             "labels": [
                 "tool"
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:32:21.771Z"
         }
     ]

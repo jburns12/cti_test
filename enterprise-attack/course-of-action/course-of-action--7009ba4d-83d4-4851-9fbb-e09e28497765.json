@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2310a8bc-5791-4ed7-9ac8-b75795e3c3c8",
+    "id": "bundle--f6cf8367-0165-4bb3-9b7d-758fbb3a2f18",
     "spec_version": "2.0",
     "objects": [
         {
@@ -15,19 +15,22 @@
                     "source_name": "mitre-attack"
                 },
                 {
-                    "url": "https://www.us-cert.gov/ncas/alerts/TA17-293A",
-                    "description": "US-CERT. (2017, October 20). Alert (TA17-293A): Advanced Persistent Threat Activity Targeting Energy and Other Critical Infrastructure Sectors. Retrieved November 2, 2017.",
-                    "source_name": "US-CERT APT Energy Oct 2017"
-                },
-                {
                     "url": "https://www.us-cert.gov/ncas/current-activity/2017/01/16/SMB-Security-Best-Practices",
                     "description": "US-CERT. (2017, March 16). SMB Security Best Practices. Retrieved December 21, 2017.",
                     "source_name": "US-CERT SMB Security"
+                },
+                {
+                    "url": "https://www.us-cert.gov/ncas/alerts/TA17-293A",
+                    "description": "US-CERT. (2017, October 20). Alert (TA17-293A): Advanced Persistent Threat Activity Targeting Energy and Other Critical Infrastructure Sectors. Retrieved November 2, 2017.",
+                    "source_name": "US-CERT APT Energy Oct 2017"
                 }
             ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "type": "course-of-action",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2018-09-07T16:42:18.771Z"
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
         }
     ]
 }

@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--c4130424-4d22-472d-8f2c-5c58ab5bac4b",
+    "id": "bundle--b710d7ce-3e77-44ee-a1cc-8820cd12ca2e",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--87ddc052-0933-4722-9fb2-4653c4a3663c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[APT3](https://attack.mitre.org/groups/G0022) has been known to stage files for exfiltration in a single location.",
-            "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
-            "target_ref": "attack-pattern--7dd95ff6-712e-4056-9626-312ea4ab4c5e",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "aptsim"
                 }
             ],
+            "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--7dd95ff6-712e-4056-9626-312ea4ab4c5e",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

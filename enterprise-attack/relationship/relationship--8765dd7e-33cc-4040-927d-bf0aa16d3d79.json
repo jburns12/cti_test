@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--4c86ed66-a1db-4778-af36-1966a6ef1381",
+    "id": "bundle--3969bfc2-0da3-47d7-b79a-ba7e1740f198",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--8765dd7e-33cc-4040-927d-bf0aa16d3d79",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[OSInfo](https://attack.mitre.org/software/S0165) performs a connection test to discover remote systems in the network",
-            "source_ref": "malware--f6d1d2cb-12f5-4221-9636-44606ea1f3f8",
-            "target_ref": "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Symantec Buckeye"
                 }
             ],
+            "source_ref": "malware--f6d1d2cb-12f5-4221-9636-44606ea1f3f8",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

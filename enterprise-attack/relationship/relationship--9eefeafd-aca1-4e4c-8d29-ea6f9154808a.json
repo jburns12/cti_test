@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--4caee930-87d4-432e-b786-f7a31e6d6d67",
+    "id": "bundle--ba736d90-0c81-4d3f-80ec-6b2d216f6879",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--9eefeafd-aca1-4e4c-8d29-ea6f9154808a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Turla](https://attack.mitre.org/groups/G0010) surveys a system upon check-in to discover network configuration details using the <code>arp -a</code>, <code>nbtstat -n</code>, and <code>net config</code> commands.",
-            "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
-            "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Kaspersky Turla"
                 }
             ],
+            "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:33:27.044Z"
         }
     ]

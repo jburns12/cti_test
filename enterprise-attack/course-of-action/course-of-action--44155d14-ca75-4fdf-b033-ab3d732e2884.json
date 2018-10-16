@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--38ab3db8-3d1a-4b4f-a4bd-c3a981da127d",
+    "id": "bundle--3dac1422-8f18-40d9-afd4-93ace267811f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -15,6 +15,11 @@
                     "source_name": "mitre-attack"
                 },
                 {
+                    "url": "https://patchwork.kernel.org/patch/8754821/",
+                    "description": "Vander Stoep, J. (2016, April 5). [v3] selinux: restrict kernel module loadinglogin  register. Retrieved April 9, 2018.",
+                    "source_name": "Kernel.org Restrict Kernel Module"
+                },
+                {
                     "url": "http://rkhunter.sourceforge.net",
                     "description": "Rootkit Hunter Project. (2018, February 20). The Rootkit Hunter project. Retrieved April 9, 2018.",
                     "source_name": "SourceForge rkhunter"
@@ -23,16 +28,14 @@
                     "url": "http://www.chkrootkit.org/",
                     "description": "Murilo, N., Steding-Jessen, K. (2017, August 23). Chkrootkit. Retrieved April 9, 2018.",
                     "source_name": "Chkrootkit Main"
-                },
-                {
-                    "url": "https://patchwork.kernel.org/patch/8754821/",
-                    "description": "Vander Stoep, J. (2016, April 5). [v3] selinux: restrict kernel module loadinglogin  register. Retrieved April 9, 2018.",
-                    "source_name": "Kernel.org Restrict Kernel Module"
                 }
             ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "type": "course-of-action",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2018-09-07T16:42:18.771Z"
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
         }
     ]
 }

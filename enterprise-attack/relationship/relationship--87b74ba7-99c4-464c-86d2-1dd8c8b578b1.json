@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--3a8e8d30-5ce2-43c4-af50-7bfaae86c998",
+    "id": "bundle--c6536a31-a175-4954-8c21-1abc7ad97095",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--87b74ba7-99c4-464c-86d2-1dd8c8b578b1",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Turla](https://attack.mitre.org/groups/G0010) surveys a system upon check-in to discover the system time by using the <code>net time</code> command.",
-            "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
-            "target_ref": "attack-pattern--f3c544dc-673c-4ef3-accb-53229f1ae077",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Kaspersky Turla"
                 }
             ],
+            "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--f3c544dc-673c-4ef3-accb-53229f1ae077",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:33:27.045Z"
         }
     ]

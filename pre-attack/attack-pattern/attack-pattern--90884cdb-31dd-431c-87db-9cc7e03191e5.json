@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6a64fbcc-0649-404a-8edc-d5b962931da4",
+    "id": "bundle--1ac6db65-1426-47b0-9722-755eb6026cf7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "Technical network hiding techniques are methods of modifying traffic to evade network signature detection or to utilize misattribution techniques. Examples include channel/IP/VLAN hopping, mimicking legitimate operations, or seeding with misinformation. (Citation: HAMMERTOSS2015)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1092",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1092",
+                    "external_id": "T1315",
+                    "url": "https://attack.mitre.org/techniques/T1315",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -26,6 +26,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Unless defender is dissecting protocols or performing network signature analysis on any protocol deviations/patterns, this technique is largely undetected.",
             "x_mitre_difficulty_for_adversary": "No",
             "x_mitre_difficulty_for_adversary_explanation": "Some of the hiding techniques require special accesses (network, proximity, physical, etc.) and/or may rely on knowledge of how the defender operates and/or awareness on what visibility the defender has and how it is obtained",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -33,7 +34,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

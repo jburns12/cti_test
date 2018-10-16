@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--98d98683-60df-4780-b5e8-fcf8feb5d2ec",
+    "id": "bundle--a934b0e6-45f2-4116-b68c-53a9829878a0",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--84a213fc-604f-441f-ba18-feab32085a50",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[POWERSTATS](https://attack.mitre.org/software/S0223) can use DDE to execute additional payloads on compromised hosts.",
-            "source_ref": "malware--e8545794-b98c-492b-a5b3-4b5a02682e37",
-            "target_ref": "attack-pattern--edbe24e9-aec4-4994-ac75-6a6bc7f1ddd0",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "FireEye MuddyWater Mar 2018"
                 }
             ],
+            "source_ref": "malware--e8545794-b98c-492b-a5b3-4b5a02682e37",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--edbe24e9-aec4-4994-ac75-6a6bc7f1ddd0",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--83e95b1a-bfa8-4d7d-be9e-8a3c771d04f3",
+    "id": "bundle--379420e0-0854-46d7-bf02-2220652a8126",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "An adversary may analyze technical scanning results to identify weaknesses in the configuration or architecture of a victim network. These weaknesses could include  architectural flaws, misconfigurations, or improper security controls. (Citation: FireEyeAPT28)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1065",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1065",
+                    "external_id": "T1288",
+                    "url": "https://attack.mitre.org/techniques/T1288",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -26,6 +26,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "This can be done offline after the data has been collected.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Many of the common tools highlight these weakness automatically.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -33,7 +34,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--7977caf9-cc93-4ee0-99f6-973c160c8296",
+    "id": "bundle--e1240473-e67e-45dc-bb99-fca171b1f772",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--dc7cb17d-c3d3-4c3c-b79e-499cede49baa",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Threat Group-3390](https://attack.mitre.org/groups/G0027) has detached network shares after exfiltrating files, likely to evade detection.",
-            "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
-            "target_ref": "attack-pattern--e7eab98d-ae11-4491-bd28-a53ba875865a",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "SecureWorks BRONZE UNION June 2017"
                 }
             ],
+            "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--e7eab98d-ae11-4491-bd28-a53ba875865a",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

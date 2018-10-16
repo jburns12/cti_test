@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4e1866e3-26f0-4919-8301-3a100d434731",
+    "id": "bundle--a527e30e-12ca-4c82-8ac1-def1bbd39246",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "Outsourcing, the arrangement of one company providing goods or services to another company for something that could be done in-house, provides another avenue for an adversary to target. Businesses often have networks, portals, or other technical connections between themselves and their outsourced/partner organizations that could be exploited. Additionally, outsourced/partner organization information could provide opportunities for phishing. (Citation: Scasny2015) (Citation: OPM Breach)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1080",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1080",
+                    "external_id": "T1303",
+                    "url": "https://attack.mitre.org/techniques/T1303",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -30,6 +30,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Much of this analysis can be done using the target's open source website, which is purposely designed to be informational and may not have extensive visitor tracking capabilities.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Analyzing business relationships from information gathering may provide insight into outsourced capabilities.  In certain industries, outsourced capabilities or close business partnerships may be advertised on corporate websites.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -37,7 +38,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

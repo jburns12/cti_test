@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--abbee7ed-6021-476a-ab90-7f749fe7e97c",
+    "id": "bundle--b37ec2e6-235e-4b13-a6a9-03f43cf339fb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,9 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "HTRAN",
             "description": "[HTRAN](https://attack.mitre.org/software/S0040) is a tool that proxies connections through intermediate hops and aids users in disguising their true geographical location. It can be used by adversaries to hide their location when interacting with the victim networks.  (Citation: Operation Quantum Entanglement)",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "external_id": "S0040",
@@ -20,9 +23,6 @@
                     "source_name": "Operation Quantum Entanglement"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
             "x_mitre_aliases": [
                 "HTRAN",
                 "HUC Packet Transmit Tool"
@@ -31,11 +31,12 @@
                 "Linux",
                 "Windows"
             ],
+            "x_mitre_version": "1.0",
             "type": "tool",
             "labels": [
                 "tool"
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:32:32.011Z"
         }
     ]

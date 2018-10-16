@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--9d27ed1c-8822-434c-882d-c5d34a6981a0",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--e1ea474a-1eb6-4f65-8845-82765c1ef3a8",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[RATANKBA](https://attack.mitre.org/software/S0241) uses <code>netstat -ano</code> to search for specific IP address ranges.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/ratankba-watering-holes-against-enterprises/",
+                    "description": "Trend Micro. (2017, February 27). RATANKBA: Delving into Large-scale Watering Holes against Enterprises. Retrieved May 22, 2018.",
+                    "source_name": "RATANKBA"
+                }
+            ],
+            "source_ref": "malware--3c8c4c40-a810-480d-8780-afa653765e0e",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9fd250a5-7d84-41dd-827e-a3dcf8e8de31",
+    "id": "bundle--12521a33-13bb-4ef3-a0c1-f8639abc2804",
     "spec_version": "2.0",
     "objects": [
         {
@@ -20,11 +20,6 @@
                     "source_name": "Wikipedia Code Signing"
                 },
                 {
-                    "url": "http://www.thesafemac.com/new-signed-malware-called-janicab/",
-                    "description": "Thomas. (2013, July 15). New signed malware called Janicab. Retrieved July 17, 2017.",
-                    "source_name": "Janicab"
-                },
-                {
                     "url": "https://securelist.com/why-you-shouldnt-completely-trust-files-signed-with-digital-certificates/68593/",
                     "description": "Ladikov, A. (2015, January 29). Why You Shouldn\u2019t Completely Trust Files Signed with Digital Certificates. Retrieved March 31, 2016.",
                     "source_name": "Securelist Digital Certificates"
@@ -33,6 +28,11 @@
                     "url": "http://www.symantec.com/connect/blogs/how-attackers-steal-private-keys-digital-certificates",
                     "description": "Shinotsuka, H. (2013, February 22). How Attackers Steal Private Keys from Digital Certificates. Retrieved March 31, 2016.",
                     "source_name": "Symantec Digital Certificates"
+                },
+                {
+                    "url": "http://www.thesafemac.com/new-signed-malware-called-janicab/",
+                    "description": "Thomas. (2013, July 15). New signed malware called Janicab. Retrieved July 17, 2017.",
+                    "source_name": "Janicab"
                 }
             ],
             "object_marking_refs": [
@@ -46,9 +46,10 @@
                 "Windows User Account Control"
             ],
             "x_mitre_platforms": [
-                "Windows",
-                "macOS"
+                "macOS",
+                "Windows"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -56,7 +57,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:31:26.474Z"
         }
     ]

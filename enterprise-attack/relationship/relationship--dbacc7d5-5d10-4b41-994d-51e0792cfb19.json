@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--681c4d08-1160-4870-bdd4-28a6d28c249e",
+    "id": "bundle--a5a56334-de21-48fa-8ec6-b0992a6c4f26",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--dbacc7d5-5d10-4b41-994d-51e0792cfb19",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Pteranodon](https://attack.mitre.org/software/S0147) schedules tasks to invoke its components in order to establish persistence.",
-            "source_ref": "malware--5f9f7648-04ba-4a9f-bb4c-2a13e74572bd",
-            "target_ref": "attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Palo Alto Gamaredon Feb 2017"
                 }
             ],
+            "source_ref": "malware--5f9f7648-04ba-4a9f-bb4c-2a13e74572bd",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

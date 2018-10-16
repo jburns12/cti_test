@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--18d3faf5-8a0d-449d-8721-8bbdafe1487e",
+    "id": "bundle--b2b0c589-5303-41da-a1fd-046b3a4b90f9",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--d8a5e73d-fe56-42d7-a53d-09a90c21308b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[OSInfo](https://attack.mitre.org/software/S0165) discovers the current domain information.",
-            "source_ref": "malware--f6d1d2cb-12f5-4221-9636-44606ea1f3f8",
-            "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Symantec Buckeye"
                 }
             ],
+            "source_ref": "malware--f6d1d2cb-12f5-4221-9636-44606ea1f3f8",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

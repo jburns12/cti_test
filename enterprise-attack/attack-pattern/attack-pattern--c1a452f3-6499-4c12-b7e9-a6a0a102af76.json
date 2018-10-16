@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ed50df16-c11d-4b6c-bd65-c13b1074a49f",
+    "id": "bundle--ac7224a8-847d-40c1-9951-d80140a29378",
     "spec_version": "2.0",
     "objects": [
         {
@@ -60,10 +60,11 @@
             ],
             "x_mitre_detection": "Monitor and analyze calls to CreateTranscation, CreateFileTransacted, RollbackTransaction, and other rarely used functions indicative of TxF activity. Process Doppelg\u00e4nging also invokes an outdated and undocumented implementation of the Windows process loader via calls to NtCreateProcessEx and NtCreateThreadEx as well as API calls used to modify memory within another process, such as WriteProcessMemory. (Citation: BlackHat Process Doppelg\u00e4nging Dec 2017) (Citation: hasherezade Process Doppelg\u00e4nging Dec 2017)\n\nScan file objects reported during the PsSetCreateProcessNotifyRoutine, (Citation: Microsoft PsSetCreateProcessNotifyRoutine routine) which triggers a callback whenever a process is created or deleted, specifically looking for file objects with enabled write access. (Citation: BlackHat Process Doppelg\u00e4nging Dec 2017) Also consider comparing file objects loaded in memory to the corresponding file on disk. (Citation: hasherezade Process Doppelg\u00e4nging Dec 2017)\n\nAnalyze process behavior to determine if a process is performing actions it usually does not, such as opening network connections, reading files, or other suspicious actions that could relate to post-compromise behavior.",
             "x_mitre_permissions_required": [
-                "User",
                 "Administrator",
-                "SYSTEM"
+                "SYSTEM",
+                "User"
             ],
+            "x_mitre_version": "1.0",
             "x_mitre_platforms": [
                 "Windows"
             ],
@@ -74,7 +75,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--4bf655ab-574e-48d0-bbd1-32f9397f864b",
+    "id": "bundle--37c2d85f-f4b9-4bc5-8feb-aa31720dab84",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--9420e9de-cc4c-4d5c-b40f-02c57dcc4fd9",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Forfiles](https://attack.mitre.org/software/S0193) can be used to act on (ex: copy, move, etc.) files/directories in a system during (ex: copy files into a staging area before).",
-            "source_ref": "tool--90ec2b22-7061-4469-b539-0989ec4f96c2",
-            "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "\u00dcberwachung APT28 Forfiles June 2015"
                 }
             ],
+            "source_ref": "tool--90ec2b22-7061-4469-b539-0989ec4f96c2",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

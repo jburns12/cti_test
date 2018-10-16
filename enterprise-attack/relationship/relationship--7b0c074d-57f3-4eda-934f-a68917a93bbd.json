@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--3f68acc3-683c-4663-8e69-0d7222be4810",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--7b0c074d-57f3-4eda-934f-a68917a93bbd",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[ROKRAT](https://attack.mitre.org/software/S0240) uses a keylogger to capture keystrokes and location of where the user is typing.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://blog.talosintelligence.com/2017/04/introducing-rokrat.html",
+                    "description": "Mercer, W., Rascagneres, P. (2017, April 03). Introducing ROKRAT. Retrieved May 21, 2018.",
+                    "source_name": "Talos ROKRAT"
+                }
+            ],
+            "source_ref": "malware--7f109e68-4358-4b51-bfe2-7d4d0ce6d369",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--bb5a00de-e086-4859-a231-fa793f6797e2",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

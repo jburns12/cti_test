@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--4f6686f7-a7e7-49fb-b565-401b54e1aa1d",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--8f57aa79-238d-47eb-8c63-314362af7d42",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[SpyDealer](https://attack.mitre.org/software/S0324) harvests phone number IMEI, and IMSI.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://researchcenter.paloaltonetworks.com/2017/07/unit42-spydealer-android-trojan-spying-40-apps/",
+                    "description": "Wenjun Hu, Cong Zheng and Zhi Xu. (2017, July 6). SpyDealer: Android Trojan Spying on More Than 40 Apps. Retrieved September 18, 2018.",
+                    "source_name": "PaloAlto-SpyDealer"
+                }
+            ],
+            "source_ref": "malware--785ccd3c-f20f-447e-86ef-2c6a55dd1a45",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--d4536441-1bcc-49fa-80ae-a596ed3f7ffd",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

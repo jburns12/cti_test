@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--24592c46-9252-4085-8e2c-24221ff530e9",
+    "id": "bundle--e984031c-3bec-48f5-9a55-2c236d879292",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--13a8be40-1190-4553-b026-58c5088c322a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "Several tools used by [Suckfly](https://attack.mitre.org/groups/G0039) have been command-line driven.",
-            "source_ref": "intrusion-set--5cbe0d3b-6fb1-471f-b591-4b192915116d",
-            "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Symantec Suckfly May 2016"
                 }
             ],
+            "source_ref": "intrusion-set--5cbe0d3b-6fb1-471f-b591-4b192915116d",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:33:27.075Z"
         }
     ]

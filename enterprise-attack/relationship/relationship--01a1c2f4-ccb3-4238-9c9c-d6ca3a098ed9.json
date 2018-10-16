@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--0048d261-421b-4539-ad90-c207ef8982b9",
+    "id": "bundle--c63e0e86-ea9a-4762-b22f-f56d56e9d2f7",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--01a1c2f4-ccb3-4238-9c9c-d6ca3a098ed9",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Pupy](https://attack.mitre.org/software/S0192) has a built-in module for port scanning.",
-            "source_ref": "tool--cb69b20d-56d0-41ab-8440-4a4b251614d4",
-            "target_ref": "attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "GitHub Pupy"
                 }
             ],
+            "source_ref": "tool--cb69b20d-56d0-41ab-8440-4a4b251614d4",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

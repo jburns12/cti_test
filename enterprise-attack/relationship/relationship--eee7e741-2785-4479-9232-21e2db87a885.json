@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--1faa6169-2d30-4fa4-bd2e-9a4862cb0b5f",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--eee7e741-2785-4479-9232-21e2db87a885",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[KEYMARBLE](https://attack.mitre.org/software/S0271) has a command to create Registry entries for storing data under <code>HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\WABE\\DataPath</code>.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://www.us-cert.gov/ncas/analysis-reports/AR18-221A",
+                    "description": "US-CERT. (2018, August 09). MAR-10135536-17 \u2013 North Korean Trojan: KEYMARBLE. Retrieved August 16, 2018.",
+                    "source_name": "US-CERT KEYMARBLE Aug 2018"
+                }
+            ],
+            "source_ref": "malware--85482b5c-b7ee-4f1e-b7f4-d2d3e25794ff",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

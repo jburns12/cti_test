@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c93159af-08bf-40b9-be19-f050a1a6bfc6",
+    "id": "bundle--f68e2267-dbc0-46dc-a5c7-d71d4bdcbbb3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -38,12 +38,12 @@
                 "Process monitoring"
             ],
             "x_mitre_defense_bypassed": [
-                "Anti-virus",
                 "Firewall",
                 "Host intrusion prevention systems",
                 "Network intrusion detection system",
                 "Process whitelisting",
-                "System access controls"
+                "System access controls",
+                "Anti-virus"
             ],
             "x_mitre_detection": "Configure robust, consistent account activity audit policies across the enterprise and with externally accessible services. (Citation: TechNet Audit Policy) Look for suspicious account behavior across systems that share accounts, either user, admin, or service accounts. Examples: one account logged into multiple systems simultaneously; multiple accounts logged into the same machine simultaneously; accounts logged in at odd times or outside of business hours. Activity may be from interactive login sessions or process ownership from accounts being used to execute binaries on a remote system as a particular account. Correlate other security systems with login information (e.g., a user has an active login session but has not entered the building or does not have VPN access).\n\nPerform regular audits of domain and local system accounts to detect accounts that may have been created by an adversary for persistence.",
             "x_mitre_permissions_required": [
@@ -59,6 +59,7 @@
                 "macOS",
                 "Windows"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -78,7 +79,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:31:00.645Z"
         }
     ]

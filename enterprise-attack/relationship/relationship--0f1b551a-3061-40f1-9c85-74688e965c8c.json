@@ -1,0 +1,20 @@
+{
+    "type": "bundle",
+    "id": "bundle--2c7618fd-cac6-4bb8-a9f7-247f9a85bea6",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--0f1b551a-3061-40f1-9c85-74688e965c8c",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
+            "relationship_type": "uses",
+            "target_ref": "tool--ef68a452-f9e4-4b89-81d4-8e9fd9c38a0c",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e33e72c7-48c1-4cc0-84a7-f8d4f2bfb66f",
+    "id": "bundle--3235b49c-70dd-4f57-a0bc-2f1366ec3820",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "Domain Names are the human readable names used to represent one or more IP addresses. They can be purchased or, in some cases, acquired for free. (Citation: PWCSofacy2014)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1105",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1105",
+                    "external_id": "T1328",
+                    "url": "https://attack.mitre.org/techniques/T1328",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -26,6 +26,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "This is by design captured in public registration logs.  Various tools and services exist to track/query/monitor domain name registration information.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Proliferation of DNS TLDs and registrars.  Adversary may choose domains that are similar to legitimate domains (aka \"domain typosquatting\" or homoglyphs).",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -33,7 +34,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

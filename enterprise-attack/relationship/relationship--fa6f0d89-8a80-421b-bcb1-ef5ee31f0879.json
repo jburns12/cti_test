@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--f768e526-1aa0-4b8c-acaa-c8bd8a49b609",
+    "id": "bundle--029cb0df-d4e4-4b8e-8df9-ae1680bebab6",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--fa6f0d89-8a80-421b-bcb1-ef5ee31f0879",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "Some [Orz](https://attack.mitre.org/software/S0229) strings are base64 encoded, such as the embedded DLL known as MockDll.",
-            "source_ref": "malware--06d735e7-1db1-4dbe-ab4b-acbe419f902b",
-            "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Proofpoint Leviathan Oct 2017"
                 }
             ],
+            "source_ref": "malware--06d735e7-1db1-4dbe-ab4b-acbe419f902b",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

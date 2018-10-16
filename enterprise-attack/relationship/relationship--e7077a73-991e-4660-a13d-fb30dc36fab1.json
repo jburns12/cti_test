@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--86ac120e-e18f-4ac5-a22c-00d42a2d6c18",
+    "id": "bundle--f6199ba0-926a-4c7a-9b06-11283eaa783a",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--e7077a73-991e-4660-a13d-fb30dc36fab1",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[adbupd](https://attack.mitre.org/software/S0202) contains a copy of the OpenSSL library to encrypt C2 traffic.",
-            "source_ref": "malware--0f1ad2ef-41d4-4b7a-9304-ddae68ea3005",
-            "target_ref": "attack-pattern--4b74a1d4-b0e9-4ef1-93f1-14ecc6e2f5b5",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Microsoft PLATINUM April 2016"
                 }
             ],
+            "source_ref": "malware--0f1ad2ef-41d4-4b7a-9304-ddae68ea3005",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--4b74a1d4-b0e9-4ef1-93f1-14ecc6e2f5b5",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

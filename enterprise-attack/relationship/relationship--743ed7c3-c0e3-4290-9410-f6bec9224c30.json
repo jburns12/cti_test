@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--2977443e-2822-4a92-af5b-e03b0807232c",
+    "id": "bundle--ec7d2d21-1ed9-4a95-b9ca-e03a473f3b3d",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--743ed7c3-c0e3-4290-9410-f6bec9224c30",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[APT28](https://attack.mitre.org/groups/G0007) has collected information from Microsoft SharePoint services within target networks.",
-            "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
-            "target_ref": "attack-pattern--d28ef391-8ed4-45dc-bc4a-2f43abf54416",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "RSAC 2015 Abu Dhabi Stefano Maccaglia"
                 }
             ],
+            "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--d28ef391-8ed4-45dc-bc4a-2f43abf54416",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

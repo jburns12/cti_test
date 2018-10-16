@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--26673497-f0c3-4212-819f-0a2d20827def",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--823f2624-40b5-4042-adf6-c562f2515979",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[Kwampirs](https://attack.mitre.org/software/S0236) collects password policy information with the command <code>net accounts</code>.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://www.symantec.com/blogs/threat-intelligence/orangeworm-targets-healthcare-us-europe-asia",
+                    "description": "Symantec Security Response Attack Investigation Team. (2018, April 23). New Orangeworm attack group targets the healthcare sector in the U.S., Europe, and Asia. Retrieved May 8, 2018.",
+                    "source_name": "Symantec Orangeworm April 2018"
+                }
+            ],
+            "source_ref": "malware--cbbbafe8-ccaf-48d3-8d72-290954c03f4f",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--b6075259-dba3-44e9-87c7-e954f37ec0d5",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

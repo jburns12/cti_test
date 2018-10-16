@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--f9893fef-d374-4382-a90c-e74586eae245",
+    "id": "bundle--f63e4708-feb7-4235-add9-16187b6c0ca5",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--7fe2431d-30b9-45ef-8857-ecef17e428a9",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[APT37](https://attack.mitre.org/groups/G0067) has used Windows DDE for execution of commands and a malicious VBS.",
-            "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
-            "target_ref": "attack-pattern--edbe24e9-aec4-4994-ac75-6a6bc7f1ddd0",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Securelist ScarCruft Jun 2016"
                 }
             ],
+            "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--edbe24e9-aec4-4994-ac75-6a6bc7f1ddd0",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

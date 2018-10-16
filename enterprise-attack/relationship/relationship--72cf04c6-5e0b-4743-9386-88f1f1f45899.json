@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--07e7b707-9866-4ce9-a662-b5325670839e",
+    "id": "bundle--5dd6f5df-ca67-4767-8f46-65a55edafae4",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--72cf04c6-5e0b-4743-9386-88f1f1f45899",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Smoke Loader](https://attack.mitre.org/software/S0226) spawns a new copy of c:\\windows\\syswow64\\explorer.exe and then replaces the executable code in memory with malware.",
-            "source_ref": "malware--0c824410-58ff-49b2-9cf2-1c96b182bdf0",
-            "target_ref": "attack-pattern--1c338d0f-a65e-4073-a5c1-c06878849f21",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -25,8 +22,11 @@
                     "source_name": "Microsoft Dofoil 2018"
                 }
             ],
+            "source_ref": "malware--0c824410-58ff-49b2-9cf2-1c96b182bdf0",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--1c338d0f-a65e-4073-a5c1-c06878849f21",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

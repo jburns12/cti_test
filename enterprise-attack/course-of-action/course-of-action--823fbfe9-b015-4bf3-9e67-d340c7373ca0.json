@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--745b8528-7be3-42c9-9b03-be6853b8cb0d",
+    "id": "bundle--f3d57a70-e944-4489-ba7a-4dcfd71a1b55",
     "spec_version": "2.0",
     "objects": [
         {
@@ -13,6 +13,10 @@
                     "external_id": "T1127",
                     "url": "https://attack.mitre.org/techniques/T1127",
                     "source_name": "mitre-attack"
+                },
+                {
+                    "description": "[ Smith, C. (2016, September 13). Bypassing Application Whitelisting using MSBuild.exe - Device Guard Example and Mitigations. Retrieved September 13, 2016.",
+                    "source_name": "SubTee MSBuild"
                 },
                 {
                     "url": "http://www.exploit-monday.com/2016/09/using-device-guard-to-mitigate-against.html",
@@ -28,15 +32,14 @@
                     "url": "https://github.com/Microsoft/windows-itpro-docs/blob/master/windows/device-security/device-guard/deploy-code-integrity-policies-steps.md",
                     "description": "Microsoft. (2017, June 16). Deploy code integrity policies: steps. Retrieved June 28, 2017.",
                     "source_name": "Microsoft GitHub Device Guard CI Policies"
-                },
-                {
-                    "description": "[ Smith, C. (2016, September 13). Bypassing Application Whitelisting using MSBuild.exe - Device Guard Example and Mitigations. Retrieved September 13, 2016.",
-                    "source_name": "SubTee MSBuild"
                 }
             ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "type": "course-of-action",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2018-09-07T16:42:18.771Z"
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
         }
     ]
 }

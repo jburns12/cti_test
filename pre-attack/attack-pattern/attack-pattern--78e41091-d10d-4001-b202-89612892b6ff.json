@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fffef408-e11e-43eb-b190-5470729c683b",
+    "id": "bundle--37971cd5-0946-440b-ab66-8fba682dc72d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "Supply chains include the people, processes, and technologies used to move a product or service from a supplier to a consumer. Understanding supply chains may provide an adversary with opportunities to exploit the technology or interconnections that are part of the supply chain. (Citation: SmithSupplyChain) (Citation: CERT-UKSupplyChain) (Citation: RSA-supply-chain)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1023",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1023",
+                    "external_id": "T1246",
+                    "url": "https://attack.mitre.org/techniques/T1246",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -34,6 +34,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Difficult, if not impossible to detect, because the adversary may collect this information from external sources that cannot be monitored by a defender.",
             "x_mitre_difficulty_for_adversary": "No",
             "x_mitre_difficulty_for_adversary_explanation": "Supply chain diversity of sourcing increases adversary difficulty with accurate mapping.  Industry practice has moved towards agile sourcing.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -41,7 +42,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

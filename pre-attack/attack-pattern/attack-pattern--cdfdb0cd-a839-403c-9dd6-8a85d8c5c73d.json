@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--891e85c1-3918-44f1-834a-a4b63d5b31b2",
+    "id": "bundle--d8d82b20-f107-48e6-9820-7d6455e09183",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "A network topology is the arrangement of the various elements of a network (e.g., servers, workstations, printers, routers, firewalls, etc.). Mapping a network allows an adversary to understand how the elements are connected or related. (Citation: man traceroute) (Citation: Shodan Tutorial)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1029",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1029",
+                    "external_id": "T1252",
+                    "url": "https://attack.mitre.org/techniques/T1252",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -30,6 +30,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Network mapping techniques/tools typically generate benign traffic that does not require further investigation by a defender since there is no actionable defense to execute.  Defender review of access logs may provide some insight based on trends or patterns.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Various available tools and data sources for scouting and detecting network topologies.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -37,7 +38,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

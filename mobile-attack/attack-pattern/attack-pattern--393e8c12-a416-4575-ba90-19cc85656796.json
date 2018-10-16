@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a7958167-8543-4bbd-a994-177afdc6a2d9",
+    "id": "bundle--d2699a31-a134-4148-831f-fc01e5e2ff56",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "If network traffic between the mobile device and remote servers is unencrypted or is encrypted in an insecure manner, then an adversary positioned on the network can eavesdrop on communication. For example, He et al. (Citation: mHealth) describe numerous healthcare-related applications that did not properly protect network communication.",
             "external_references": [
                 {
-                    "external_id": "MOB-T1042",
-                    "url": "https://attack.mitre.org/techniques/MOB-T1042",
+                    "external_id": "T1439",
+                    "url": "https://attack.mitre.org/techniques/T1439",
                     "source_name": "mitre-mobile-attack"
                 },
                 {
@@ -40,14 +40,15 @@
             "x_mitre_tactic_type": [
                 "Without Adversary Device Access"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "phase_name": "general-network-based",
+                    "phase_name": "network-effects",
                     "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-10-25T14:48:26.104Z"
         }
     ]

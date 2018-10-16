@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--70ac1e7b-201e-4456-a9d2-f99939f05008",
+    "id": "bundle--ef04988c-3260-42cc-a147-c4ebae03017e",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--f7ded6a1-043e-437a-8a0c-00ded73e5289",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "creates a Registry subkey that registers a new service.",
-            "source_ref": "malware--c251e4a5-9a2e-4166-8e42-442af75c3b9a",
-            "target_ref": "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4",
+            "description": "[Nerex](https://attack.mitre.org/software/S0210) creates a Registry subkey that registers a new service.",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Symantec Nerex May 2012"
                 }
             ],
+            "source_ref": "malware--c251e4a5-9a2e-4166-8e42-442af75c3b9a",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--a8217ae0-1d74-4060-9614-43b2a22c6d42",
+    "id": "bundle--d39f61f3-bbd3-46f7-b49e-e223639a379a",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--33c8fb30-3515-4582-ad29-34fa0d7e15e5",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[FIN10](https://attack.mitre.org/groups/G0051) has deployed Meterpreter stagers and SplinterRAT instances in the victim network after moving laterally.",
-            "source_ref": "intrusion-set--fbe9387f-34e6-4828-ac28-3080020c597b",
-            "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "FireEye FIN10 June 2017"
                 }
             ],
+            "source_ref": "intrusion-set--fbe9387f-34e6-4828-ac28-3080020c597b",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--5aaa88c4-8bb6-4250-b8af-effe88ab385d",
+    "id": "bundle--8b6b45a6-9716-4a05-a725-92095ab31247",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--ea40711b-461d-4629-b1fd-5f020b1f3257",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[APT1](https://attack.mitre.org/groups/G0006) has used batch scripting to automate execution of commands.",
-            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
-            "target_ref": "attack-pattern--7fd87010-3a00-4da3-b905-410525e8ec44",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Mandiant APT1"
                 }
             ],
+            "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--7fd87010-3a00-4da3-b905-410525e8ec44",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:33:27.035Z"
         }
     ]

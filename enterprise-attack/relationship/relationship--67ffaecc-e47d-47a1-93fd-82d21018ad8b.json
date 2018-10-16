@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--66ff4ca2-f454-4cda-9e44-f32de5920ef9",
+    "id": "bundle--c369a20c-a3a5-44d3-8a8a-19334143ebdc",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--67ffaecc-e47d-47a1-93fd-82d21018ad8b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "can collect system information, including computer name, system manufacturer, IsDebuggerPresent state, and execution path.",
-            "source_ref": "malware--211cfe9f-2676-4e1c-a5f5-2c8091da2a68",
-            "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "FireEye APT37 Feb 2018"
                 }
             ],
+            "source_ref": "malware--211cfe9f-2676-4e1c-a5f5-2c8091da2a68",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

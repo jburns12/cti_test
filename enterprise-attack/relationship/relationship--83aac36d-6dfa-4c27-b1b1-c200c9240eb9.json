@@ -1,27 +1,27 @@
 {
     "type": "bundle",
-    "id": "bundle--cb5f2f38-91cc-407c-9e8b-888340c47ead",
+    "id": "bundle--859ae8ef-7660-4624-87ba-7ee754f26673",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--83aac36d-6dfa-4c27-b1b1-c200c9240eb9",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "A [JHUHUGIT](https://attack.mitre.org/software/S0044) variant accesses a screenshot saved in the clipboard and converts it to a JPG image.",
-            "source_ref": "malware--8ae43c46-57ef-47d5-a77a-eebb35628db2",
-            "target_ref": "attack-pattern--30973a08-aed9-4edf-8604-9084ce1b5c4f",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
                     "url": "https://pan-unit42.github.io/playbook_viewer/",
-                    "description": "Unit 42. (2018, February 28). Unit 42 Playbook Viewer - Sofacy. Retrieved March 15, 2018.",
-                    "source_name": "Unit 42 Playbook Sofacy Feb 2018"
+                    "description": "Unit 42. (2017, December 15). Unit 42 Playbook Viewer. Retrieved December 20, 2017.",
+                    "source_name": "Unit 42 Playbook Dec 2017"
                 }
             ],
+            "source_ref": "malware--8ae43c46-57ef-47d5-a77a-eebb35628db2",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--30973a08-aed9-4edf-8604-9084ce1b5c4f",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

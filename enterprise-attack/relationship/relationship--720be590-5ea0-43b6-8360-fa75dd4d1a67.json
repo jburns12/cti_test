@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--83484711-a4d4-4bbb-8454-aa686e2e4742",
+    "id": "bundle--6c9a9842-6eff-4ab1-9e40-3cbfdca93914",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--720be590-5ea0-43b6-8360-fa75dd4d1a67",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "After compromising a victim, [Poseidon Group](https://attack.mitre.org/groups/G0033) discovers all running services.",
-            "source_ref": "intrusion-set--7ecc3b4f-5cdb-457e-b55a-df376b359446",
-            "target_ref": "attack-pattern--322bad5a-1c49-4d23-ab79-76d641794afa",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Kaspersky Poseidon Group"
                 }
             ],
+            "source_ref": "intrusion-set--7ecc3b4f-5cdb-457e-b55a-df376b359446",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--322bad5a-1c49-4d23-ab79-76d641794afa",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:33:27.070Z"
         }
     ]

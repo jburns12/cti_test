@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a83effea-b45e-497e-a6e5-d12c49090719",
+    "id": "bundle--2e41aa8c-c20f-4d79-952b-bb0e031b2e77",
     "spec_version": "2.0",
     "objects": [
         {
@@ -40,10 +40,11 @@
                 "User"
             ],
             "x_mitre_platforms": [
-                "Linux",
                 "Windows",
+                "Linux",
                 "macOS"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -51,7 +52,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

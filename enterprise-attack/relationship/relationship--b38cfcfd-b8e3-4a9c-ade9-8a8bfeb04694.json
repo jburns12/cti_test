@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--ccd338d3-39b2-4f3f-bfb1-1a61ea1563d5",
+    "id": "bundle--1a4c56c3-0867-4658-b063-3488d344b28f",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--b38cfcfd-b8e3-4a9c-ade9-8a8bfeb04694",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Threat Group-1314](https://attack.mitre.org/groups/G0028) actors used a victim's endpoint management platform, Altiris, for lateral movement.",
-            "source_ref": "intrusion-set--d519164e-f5fa-4b8c-a1fb-cf0172ad0983",
-            "target_ref": "attack-pattern--92a78814-b191-47ca-909c-1ccfe3777414",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Dell TG-1314"
                 }
             ],
+            "source_ref": "intrusion-set--d519164e-f5fa-4b8c-a1fb-cf0172ad0983",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--92a78814-b191-47ca-909c-1ccfe3777414",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:33:27.063Z"
         }
     ]

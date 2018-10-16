@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--23433b63-4bb5-49db-ad56-361023e1f934",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--d0ddfa7f-fb0c-4b67-87e5-42a91f975837",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[APT32](https://attack.mitre.org/groups/G0050) has attempted to lure users to execute a malicious dropper delivered via a spearphishing attachment.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://www.welivesecurity.com/2018/03/13/oceanlotus-ships-new-backdoor/",
+                    "description": "Folt\u00fdn, T. (2018, March 13). OceanLotus ships new backdoor using old tricks. Retrieved May 22, 2018.",
+                    "source_name": "ESET OceanLotus"
+                }
+            ],
+            "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--8c32eb4d-805f-4fc5-bf60-c4d476c131b5",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

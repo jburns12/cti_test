@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--5cc5a091-29ce-4c4a-b046-51549c4f37e7",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--c57dbfcd-1341-4ed3-92b2-76b4084e4ef9",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[ROKRAT](https://attack.mitre.org/software/S0240) checks for sandboxing libraries and debugging tools.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://blog.talosintelligence.com/2018/01/korea-in-crosshairs.html",
+                    "description": "Mercer, W., Rascagneres, P. (2018, January 16). Korea In The Crosshairs. Retrieved May 21, 2018.",
+                    "source_name": "Talos Group123"
+                }
+            ],
+            "source_ref": "malware--7f109e68-4358-4b51-bfe2-7d4d0ce6d369",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--241814ae-de3f-4656-b49e-f9a80764d4b7",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

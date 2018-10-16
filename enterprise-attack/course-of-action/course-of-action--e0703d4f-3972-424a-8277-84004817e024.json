@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7ba266c1-8e09-42a6-8679-f0b667697bf6",
+    "id": "bundle--2afa2daf-efaf-45bc-b25a-98c235f0a6b2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -20,16 +20,6 @@
                     "source_name": "Microsoft CreateProcess"
                 },
                 {
-                    "url": "https://msdn.microsoft.com/en-us/library/ff919712.aspx",
-                    "description": "Microsoft. (n.d.). Dynamic-Link Library Security. Retrieved July 25, 2016.",
-                    "source_name": "MSDN DLL Security"
-                },
-                {
-                    "url": "https://skanthak.homepage.t-online.de/sentinel.html",
-                    "description": "Kanthak, S. (2016, July 20). Vulnerability and Exploit Detector. Retrieved February 3, 2017.",
-                    "source_name": "Kanthak Sentinel"
-                },
-                {
                     "url": "http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599",
                     "description": "Beechey, J. (2010, December). Application Whitelisting: Panacea or Propaganda?. Retrieved November 18, 2014.",
                     "source_name": "Beechey 2010"
@@ -45,14 +35,27 @@
                     "source_name": "NSA MS AppLocker"
                 },
                 {
+                    "url": "https://msdn.microsoft.com/en-us/library/ff919712.aspx",
+                    "description": "Microsoft. (n.d.). Dynamic-Link Library Security. Retrieved July 25, 2016.",
+                    "source_name": "MSDN DLL Security"
+                },
+                {
+                    "url": "https://skanthak.homepage.t-online.de/sentinel.html",
+                    "description": "Kanthak, S. (2016, July 20). Vulnerability and Exploit Detector. Retrieved February 3, 2017.",
+                    "source_name": "Kanthak Sentinel"
+                },
+                {
                     "url": "http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx",
                     "description": "Corio, C., & Sayana, D. P. (2008, June). Application Lockdown with Software Restriction Policies. Retrieved November 18, 2014.",
                     "source_name": "Corio 2008"
                 }
             ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "type": "course-of-action",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2018-09-07T16:42:18.771Z"
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
         }
     ]
 }

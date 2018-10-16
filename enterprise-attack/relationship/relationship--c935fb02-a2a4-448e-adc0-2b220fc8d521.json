@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--dd1b074b-b00e-40b5-8723-bd3badf55c68",
+    "id": "bundle--eb8c525b-a628-4a2b-a14c-3c590e1fd530",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--c935fb02-a2a4-448e-adc0-2b220fc8d521",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[PUNCHBUGGY](https://attack.mitre.org/software/S0196) can delete files written to disk.",
-            "source_ref": "malware--5c6ed2dc-37f4-40ea-b2e1-4c76140a388c",
-            "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "FireEye Know Your Enemy FIN8 Aug 2016"
                 }
             ],
+            "source_ref": "malware--5c6ed2dc-37f4-40ea-b2e1-4c76140a388c",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

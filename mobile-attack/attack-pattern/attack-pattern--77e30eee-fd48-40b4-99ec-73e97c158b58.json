@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3b6adc9c-d852-4891-8852-5e3465869784",
+    "id": "bundle--183bfa0b-ffea-4b66-95e2-71617169889c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "A malicious app can register to receive intents meant for other applications and may then be able to receive sensitive values such as OAuth authorization codes as described in  (Citation: IETF-PKCE).",
             "external_references": [
                 {
-                    "external_id": "MOB-T1019",
-                    "url": "https://attack.mitre.org/techniques/MOB-T1019",
+                    "external_id": "T1416",
+                    "url": "https://attack.mitre.org/techniques/T1416",
                     "source_name": "mitre-mobile-attack"
                 },
                 {
@@ -29,6 +29,7 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -36,7 +37,7 @@
                     "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-10-25T14:48:32.008Z"
         }
     ]

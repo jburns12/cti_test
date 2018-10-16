@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--80211ec1-27cd-453a-a272-c3ee84e8348e",
+    "id": "bundle--5c7318c3-0078-4ca9-9603-ba83c12de9c4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "A malicious application can request Device Administrator privileges. If the user grants the privileges, the application can take steps to make its removal more difficult.",
             "external_references": [
                 {
-                    "external_id": "MOB-T1004",
-                    "url": "https://attack.mitre.org/techniques/MOB-T1004",
+                    "external_id": "T1401",
+                    "url": "https://attack.mitre.org/techniques/T1401",
                     "source_name": "mitre-mobile-attack"
                 },
                 {
@@ -30,6 +30,7 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -37,7 +38,7 @@
                     "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-10-25T14:48:29.774Z"
         }
     ]

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e9e8e0af-adb9-4060-9d9d-7dd2ce9cc021",
+    "id": "bundle--65587914-a321-428c-a98e-e7af255467c4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "Technology usage patterns include identifying if users work offsite, connect remotely, or other possibly less restricted/secured access techniques. (Citation: SANSRemoteAccess)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1041",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1041",
+                    "external_id": "T1264",
+                    "url": "https://attack.mitre.org/techniques/T1264",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -26,6 +26,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Physical observations, OSINT for remote access instructions, and other techniques are not detectable.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Determine if users work offsite, connect remotely, or other possibly less restricted/secured access techniques.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -33,7 +34,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c25bf9bf-568e-4b23-a9f5-69a033b2e4e0",
+    "id": "bundle--057614c5-60bd-4423-b817-e394273cb895",
     "spec_version": "2.0",
     "objects": [
         {
@@ -45,14 +45,15 @@
             "x_mitre_data_sources": [
                 "Windows Registry",
                 "File monitoring",
-                "Process command-line parameters",
-                "Process monitoring"
+                "Process monitoring",
+                "Process command-line parameters"
             ],
             "x_mitre_detection": "Look for changes to service Registry entries that do not correlate with known software, patch cycles, etc. Changes to the binary path and the service startup type changed from manual or disabled to automatic, if it does not typically do so, may be suspicious. Tools such as Sysinternals Autoruns may also be used to detect system service changes that could be attempts at persistence. (Citation: TechNet Autoruns) \n\nService information is stored in the Registry at <code>HKLM\\SYSTEM\\CurrentControlSet\\Services</code>.\n\nCommand-line invocation of tools capable of modifying services may be unusual, depending on how systems are typically used in a particular environment. Collect service utility execution and service binary path arguments used for analysis. Service binary paths may even be changed to execute [cmd](https://attack.mitre.org/software/S0106) commands or scripts.\n\nLook for abnormal process call trees from known services and for execution of other commands that could relate to Discovery or other adversary techniques. Services may also be modified through Windows system management tools such as [Windows Management Instrumentation](https://attack.mitre.org/techniques/T1047) and [PowerShell](https://attack.mitre.org/techniques/T1086), so additional logging may need to be configured to gather the appropriate data.",
             "x_mitre_permissions_required": [
                 "Administrator",
                 "SYSTEM"
             ],
+            "x_mitre_version": "1.0",
             "x_mitre_platforms": [
                 "Windows"
             ],
@@ -63,7 +64,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:30:34.928Z"
         }
     ]

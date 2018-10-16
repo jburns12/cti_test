@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--969eaede-f98a-4477-a11f-725df43ddcf9",
+    "id": "bundle--fd98b5a9-8b28-49e7-a52d-8271b84bc08e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "Analyze strengths and weaknesses of the target for potential areas of where to focus compromise efforts. (Citation: FakeLinkedIn)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1077",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1077",
+                    "external_id": "T1300",
+                    "url": "https://attack.mitre.org/techniques/T1300",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -26,6 +26,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "This can be done offline after the data has been collected.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Analyze strengths and weaknesses of the target for potential areas of where to focus compromise efforts.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -33,7 +34,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

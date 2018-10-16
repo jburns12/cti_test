@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--abdaccc1-57f1-4703-91ac-9737f3e0899c",
+    "id": "bundle--719de435-e7f2-465e-86a7-56a36f6587b2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "Install security updates in response to discovered vulnerabilities.\n\nPurchase devices with a vendor and/or mobile carrier commitment to provide security updates in a prompt manner for a set period of time.\n\nDecommission devices that will no longer receive security updates.\n\nLimit or block access to enterprise resources from devices that have not installed recent security updates.\n* On Android devices, access can be controlled based on each device's security patch level.\n* On iOS devices, access can be controlled based on the iOS version.",
             "external_references": [
                 {
-                    "external_id": "MOB-M1001",
-                    "url": "https://attack.mitre.org/mitigations/MOB-M1001",
+                    "external_id": "M1001",
+                    "url": "https://attack.mitre.org/mitigations/M1001",
                     "source_name": "mitre-mobile-attack"
                 }
             ],
@@ -19,7 +19,7 @@
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "type": "course-of-action",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-10-25T14:48:50.493Z"
         }
     ]

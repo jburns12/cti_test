@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5a141436-12d7-432a-8ed7-122d00e85e08",
+    "id": "bundle--7d25bc2b-650c-487e-a533-00850293e201",
     "spec_version": "2.0",
     "objects": [
         {
@@ -13,6 +13,11 @@
                     "external_id": "T1064",
                     "url": "https://attack.mitre.org/techniques/T1064",
                     "source_name": "mitre-attack"
+                },
+                {
+                    "url": "https://blog.crowdstrike.com/deep-thought-chinese-targeting-national-security-think-tanks/",
+                    "description": "Alperovitch, D. (2014, July 7). Deep in Thought: Chinese Targeting of National Security Think Tanks. Retrieved November 12, 2014.",
+                    "source_name": "Alperovitch 2014"
                 },
                 {
                     "url": "http://www.metasploit.com",
@@ -28,11 +33,6 @@
                     "url": "https://github.com/mattifestation/PowerSploit",
                     "description": "PowerSploit. (n.d.).  Retrieved December 4, 2014.",
                     "source_name": "Powersploit"
-                },
-                {
-                    "url": "https://blog.crowdstrike.com/deep-thought-chinese-targeting-national-security-think-tanks/",
-                    "description": "Alperovitch, D. (2014, July 7). Deep in Thought: Chinese Targeting of National Security Think Tanks. Retrieved November 12, 2014.",
-                    "source_name": "Alperovitch 2014"
                 },
                 {
                     "url": "https://www.uperesia.com/analyzing-malicious-office-documents",
@@ -62,6 +62,7 @@
                 "macOS",
                 "Windows"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -73,7 +74,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:30:51.733Z"
         }
     ]

@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--25582159-b618-47fe-993f-59a6ad67e8eb",
+    "id": "bundle--48f396ac-0956-48c5-af81-683c7cddc5d2",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--3b5d1788-c59b-4e84-97b0-b109df608619",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "The <code>net view \\\\remotesystem</code> and <code>net share</code> commands in [Net](https://attack.mitre.org/software/S0039) can be used to find shared drives and directories on remote and local systems respectively.",
-            "source_ref": "tool--03342581-f790-4f03-ba41-e82e67392e23",
-            "target_ref": "attack-pattern--3489cfc5-640f-4bb3-a103-9137b97de79f",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Savill 1999"
                 }
             ],
+            "source_ref": "tool--03342581-f790-4f03-ba41-e82e67392e23",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--3489cfc5-640f-4bb3-a103-9137b97de79f",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

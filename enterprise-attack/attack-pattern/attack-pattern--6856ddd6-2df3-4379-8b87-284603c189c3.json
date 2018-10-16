@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--00d8e3e6-20b3-4568-9b18-baf6d2ab58ae",
+    "id": "bundle--76894547-80c0-4859-a7f8-004314862a7f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -23,11 +23,6 @@
                     "url": "https://en.wikipedia.org/wiki/BIOS",
                     "description": "Wikipedia. (n.d.). BIOS. Retrieved January 5, 2016.",
                     "source_name": "Wikipedia BIOS"
-                },
-                {
-                    "url": "https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface",
-                    "description": "Wikipedia. (2017, July 10). Unified Extensible Firmware Interface. Retrieved July 11, 2017.",
-                    "source_name": "Wikipedia UEFI"
                 },
                 {
                     "url": "http://www.uefi.org/about",
@@ -58,6 +53,11 @@
                     "url": "http://www.intelsecurity.com/advanced-threat-research/content/data/HT-UEFI-rootkit.html",
                     "description": "Intel Security. (2005, July 16). HackingTeam's UEFI Rootkit Details. Retrieved March 20, 2017.",
                     "source_name": "Intel HackingTeam UEFI Rootkit"
+                },
+                {
+                    "url": "https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface",
+                    "description": "Wikipedia. (2017, July 10). Unified Extensible Firmware Interface. Retrieved July 11, 2017.",
+                    "source_name": "Wikipedia UEFI"
                 }
             ],
             "object_marking_refs": [
@@ -77,6 +77,7 @@
                 "Administrator",
                 "SYSTEM"
             ],
+            "x_mitre_version": "1.0",
             "x_mitre_platforms": [
                 "Windows"
             ],
@@ -87,7 +88,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:30:28.613Z"
         }
     ]

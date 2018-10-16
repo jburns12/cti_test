@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--d8161eb2-18e2-458e-be6f-0330bc7defc4",
+    "id": "bundle--c6970267-262e-4224-9761-0f3f9fe2be43",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--1ace08c6-0f1a-487d-92b2-6c61c2299270",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "[FIN5](https://attack.mitre.org/groups/G0053) uses to clean up the environment and attempt to prevent detection.",
-            "source_ref": "intrusion-set--85403903-15e0-4f9f-9be4-a259ecad4022",
-            "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59",
+            "description": "[FIN5](https://attack.mitre.org/groups/G0053) uses [SDelete](https://attack.mitre.org/software/S0195) to clean up the environment and attempt to prevent detection.",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Mandiant FIN5 GrrCON Oct 2016"
                 }
             ],
+            "source_ref": "intrusion-set--85403903-15e0-4f9f-9be4-a259ecad4022",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

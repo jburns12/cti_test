@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--71a03c1f-8a4c-45df-b004-2fb1f811e7eb",
+    "id": "bundle--d7e4b28a-e4d5-4795-9eba-9bdb29d0b7dd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -15,14 +15,19 @@
                     "source_name": "mitre-attack"
                 },
                 {
+                    "url": "http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx",
+                    "description": "Corio, C., & Sayana, D. P. (2008, June). Application Lockdown with Software Restriction Policies. Retrieved November 18, 2014.",
+                    "source_name": "Corio 2008"
+                },
+                {
                     "url": "http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599",
                     "description": "Beechey, J. (2010, December). Application Whitelisting: Panacea or Propaganda?. Retrieved November 18, 2014.",
                     "source_name": "Beechey 2010"
                 },
                 {
-                    "url": "http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx",
-                    "description": "Corio, C., & Sayana, D. P. (2008, June). Application Lockdown with Software Restriction Policies. Retrieved November 18, 2014.",
-                    "source_name": "Corio 2008"
+                    "url": "http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html",
+                    "description": "Tomonaga, S. (2016, January 26). Windows Commands Abused by Attackers. Retrieved February 2, 2016.",
+                    "source_name": "Windows Commands JPCERT"
                 },
                 {
                     "url": "https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm",
@@ -38,16 +43,14 @@
                     "url": "https://www.stigviewer.com/stig/microsoft_windows_server_2012_member_server/2013-07-25/finding/WN12-CC-000077",
                     "description": "UCF. (n.d.). The system must require username and password to elevate a running application.. Retrieved December 18, 2017.",
                     "source_name": "UCF STIG Elevation Account Enumeration"
-                },
-                {
-                    "url": "http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html",
-                    "description": "Tomonaga, S. (2016, January 26). Windows Commands Abused by Attackers. Retrieved February 2, 2016.",
-                    "source_name": "Windows Commands JPCERT"
                 }
             ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "type": "course-of-action",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2018-09-07T16:42:18.771Z"
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
         }
     ]
 }

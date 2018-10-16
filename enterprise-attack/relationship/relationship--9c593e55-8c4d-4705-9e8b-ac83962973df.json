@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--cba33844-2b41-4237-8dd8-51a31038f916",
+    "id": "bundle--1cf50271-540c-40ff-b699-7e7b89516d2b",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--9c593e55-8c4d-4705-9e8b-ac83962973df",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Pupy](https://attack.mitre.org/software/S0192) can enable/disable RDP connection and can start a remote desktop session using a browser web socket client.",
-            "source_ref": "tool--cb69b20d-56d0-41ab-8440-4a4b251614d4",
-            "target_ref": "attack-pattern--51dea151-0898-4a45-967c-3ebee0420484",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "GitHub Pupy"
                 }
             ],
+            "source_ref": "tool--cb69b20d-56d0-41ab-8440-4a4b251614d4",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--51dea151-0898-4a45-967c-3ebee0420484",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

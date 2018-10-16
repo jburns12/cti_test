@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--d12f6d7a-6769-4420-8368-4e035fbc7606",
+    "id": "bundle--331bfd61-270f-4524-8fb9-ed335d5e899a",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--88898d14-9313-4fdd-8ef5-584d8dcdec17",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Leviathan](https://attack.mitre.org/groups/G0065) has used multiple types of scripting for execution, including JavaScript, JavaScript Scriptlets in XML, and VBScript.",
-            "source_ref": "intrusion-set--7113eaa5-ba79-4fb3-b68a-398ee9cd698e",
-            "target_ref": "attack-pattern--7fd87010-3a00-4da3-b905-410525e8ec44",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Proofpoint Leviathan Oct 2017"
                 }
             ],
+            "source_ref": "intrusion-set--7113eaa5-ba79-4fb3-b68a-398ee9cd698e",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--7fd87010-3a00-4da3-b905-410525e8ec44",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--a532a970-8dd3-4e09-9fe4-1122d3129e22",
+    "id": "bundle--6c41bd4c-8b3a-4bba-8944-cd3d104470e2",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--b263e4e9-972d-4ba7-8be8-e55eb6a483c0",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "\"[T]he purpose of [HummingWhale](https://attack.mitre.org/software/MOB-S0037) is to generate revenue by displaying fraudulent ads and automatically installing apps. When users try to close the ads, the new functionality causes already downloaded apps to run in a virtual machine. That creates a fake ID that allows the perpetrators to generate referral revenues.\"",
-            "source_ref": "malware--6447e3a1-ef4d-44b1-99d5-6b1c4888674f",
-            "target_ref": "attack-pattern--f981d199-2720-467e-9dc9-eea04dbe05cf",
+            "description": "[HummingWhale](https://attack.mitre.org/software/S0321) generates revenue by displaying fraudulent ads and automatically installing apps. When victims try to close the ads, [HummingWhale](https://attack.mitre.org/software/S0321) runs in a virtual machine, creating a fake ID that allows the perpetrators to generate revenue.",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "ArsTechnica-HummingWhale"
                 }
             ],
+            "source_ref": "malware--6447e3a1-ef4d-44b1-99d5-6b1c4888674f",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--f981d199-2720-467e-9dc9-eea04dbe05cf",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

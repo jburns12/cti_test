@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--5e61423f-f8f2-479c-ab6e-401efc38d059",
+    "id": "bundle--5ac0af58-f89f-4e3f-8e7b-ebf945f7caf2",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--030fb5ef-3900-4f60-a1d2-0f1d67940aed",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "One [HTTPBrowser](https://attack.mitre.org/software/S0070) variant connected to its C2 server over port 8080.",
-            "source_ref": "malware--e066bf86-9cfb-407a-9d25-26fd5d91e360",
-            "target_ref": "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "ZScaler Hacking Team"
                 }
             ],
+            "source_ref": "malware--e066bf86-9cfb-407a-9d25-26fd5d91e360",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

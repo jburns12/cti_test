@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3755db66-6934-4a59-a60a-c183572492bb",
+    "id": "bundle--790b0cd6-b840-48d6-a075-c3b7de16b261",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,12 +10,12 @@
             "description": "A malicious app could use standard Android APIs to send SMS messages. SMS messages could potentially be sent to premium numbers that charge the device owner and generate revenue for an adversary, for example as described by Lookout in  (Citation: Lookout-SMS).\n\nOn iOS, apps cannot send SMS messages.\n\nOn Android, apps must hold the SEND_SMS permission to send SMS messages. Additionally, Android version 4.2 and above has mitigations against this threat by requiring user consent before allowing SMS messages to be sent to premium numbers (Citation: AndroidSecurity2014).",
             "external_references": [
                 {
-                    "external_id": "MOB-T1051",
-                    "url": "https://attack.mitre.org/techniques/MOB-T1051",
+                    "external_id": "T1448",
+                    "url": "https://attack.mitre.org/techniques/T1448",
                     "source_name": "mitre-mobile-attack"
                 },
                 {
-                    "url": "https://blog.lookout.com/blog/2013/08/02/dragon-lady/",
+                    "url": "https://blog.lookout.com/10-organizations-build-60-of-russian-toll-fraud-malware",
                     "description": "Ryan Sammy. (2013, August 2). 10 Organizations Build 60% of Russian Toll Fraud Malware. Retrieved December 22, 2016.",
                     "source_name": "Lookout-SMS"
                 },
@@ -35,6 +35,7 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -42,7 +43,7 @@
                     "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-10-25T14:48:09.082Z"
         }
     ]

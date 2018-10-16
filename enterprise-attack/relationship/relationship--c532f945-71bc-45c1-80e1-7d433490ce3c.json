@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--bcceccc2-0769-4124-aa43-b1337dd44ba7",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--c532f945-71bc-45c1-80e1-7d433490ce3c",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "If running in a Windows environment, [Kazuar](https://attack.mitre.org/software/S0265) saves a DLL to disk that is injected into the explorer.exe process to execute the payload. [Kazuar](https://attack.mitre.org/software/S0265) can also be configured to inject and execute within specific processes.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://researchcenter.paloaltonetworks.com/2017/05/unit42-kazuar-multiplatform-espionage-backdoor-api-access/",
+                    "description": "Levene, B, et al. (2017, May 03). Kazuar: Multiplatform Espionage Backdoor with API Access. Retrieved July 17, 2018.",
+                    "source_name": "Unit 42 Kazuar May 2017"
+                }
+            ],
+            "source_ref": "malware--9da1212f-5485-4738-b526-755ccd7e3b8a",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

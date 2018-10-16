@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--46c12e1c-06ee-46aa-b09e-9a2f19aeaca9",
+    "id": "bundle--d8b96cbf-4d21-4b99-a764-cafa205c540f",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--9b906d63-83bd-46de-909e-80a8712b94de",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "[Umbreon](https://attack.mitre.org/software/S0221) Umbreon provides additional access using its backdoor Espeon, providing a reverse shell upon receipt of a special packet",
-            "source_ref": "malware--3d8e547d-9456-4f32-a895-dc86134e282f",
-            "target_ref": "attack-pattern--451a9977-d255-43c9-b431-66de80130c8c",
+            "description": "[Umbreon](https://attack.mitre.org/software/S0221) provides additional access using its backdoor Espeon, providing a reverse shell upon receipt of a special packet",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Umbreon Trend Micro"
                 }
             ],
+            "source_ref": "malware--3d8e547d-9456-4f32-a895-dc86134e282f",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--451a9977-d255-43c9-b431-66de80130c8c",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

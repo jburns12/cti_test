@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--056ad601-d8b7-4ea1-a55f-e8892b33e307",
+    "id": "bundle--a4f0ed14-b064-4021-ae1c-585a7515319d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -45,16 +45,6 @@
                     "source_name": "PaloAlto EncodedCommand March 2017"
                 },
                 {
-                    "url": "https://en.wikipedia.org/wiki/Duqu",
-                    "description": "Wikipedia. (2017, December 29). Duqu. Retrieved April 10, 2018.",
-                    "source_name": "Wikipedia Duqu"
-                },
-                {
-                    "url": "https://securingtomorrow.mcafee.com/mcafee-labs/malicious-document-targets-pyeongchang-olympics/",
-                    "description": "Saavedra-Morales, J., Sherstobitoff, R. (2018, January 6). Malicious Document Targets Pyeongchang Olympics. Retrieved April 10, 2018.",
-                    "source_name": "McAfee Malicious Doc Targets Pyeongchang Olympics"
-                },
-                {
                     "url": "https://github.com/danielbohannon/Revoke-Obfuscation",
                     "description": "Bohannon, D. (2017, July 27). Revoke-Obfuscation. Retrieved February 12, 2018.",
                     "source_name": "GitHub Revoke-Obfuscation"
@@ -63,6 +53,16 @@
                     "url": "https://github.com/itsreallynick/office-crackros",
                     "description": "Carr, N. (2016, August 14). OfficeCrackros. Retrieved February 12, 2018.",
                     "source_name": "GitHub Office-Crackros Aug 2016"
+                },
+                {
+                    "url": "https://en.wikipedia.org/wiki/Duqu",
+                    "description": "Wikipedia. (2017, December 29). Duqu. Retrieved April 10, 2018.",
+                    "source_name": "Wikipedia Duqu"
+                },
+                {
+                    "url": "https://securingtomorrow.mcafee.com/mcafee-labs/malicious-document-targets-pyeongchang-olympics/",
+                    "description": "Saavedra-Morales, J., Sherstobitoff, R. (2018, January 6). Malicious Document Targets Pyeongchang Olympics. Retrieved April 10, 2018.",
+                    "source_name": "McAfee Malicious Doc Targets Pyeongchang Olympics"
                 }
             ],
             "object_marking_refs": [
@@ -75,9 +75,9 @@
             "x_mitre_data_sources": [
                 "Network protocol analysis",
                 "Process use of network",
-                "Binary file metadata",
                 "File monitoring",
                 "Malware reverse engineering",
+                "Binary file metadata",
                 "Process command-line parameters",
                 "Environment variable",
                 "Process Monitoring",
@@ -101,6 +101,7 @@
                 "macOS",
                 "Windows"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -108,7 +109,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:30:32.662Z"
         }
     ]

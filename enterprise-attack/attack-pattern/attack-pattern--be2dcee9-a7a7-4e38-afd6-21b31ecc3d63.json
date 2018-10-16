@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5b35f408-2130-4fa6-bbe6-39b443a94273",
+    "id": "bundle--2fea0340-6614-4a26-9fc6-df2ec28ad037",
     "spec_version": "2.0",
     "objects": [
         {
@@ -33,6 +33,7 @@
                 "Remote exploitation for execution requires a remotely accessible service reachable over the network or other vector of access such as spearphishing or drive-by compromise."
             ],
             "x_mitre_remote_support": true,
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -40,7 +41,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

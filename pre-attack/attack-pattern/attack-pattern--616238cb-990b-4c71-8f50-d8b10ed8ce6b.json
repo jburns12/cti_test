@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--51aa6a0d-8e2a-477b-8152-b93c3d8d08ec",
+    "id": "bundle--99c0f211-7c3d-433e-922a-07f7c79ae7e7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "A technique used by the adversary similar to Dynamic DNS with the exception that the use of multiple DNS infrastructures likely have whois records. (Citation: KrebsStLouisFed)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1104",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1104",
+                    "external_id": "T1327",
+                    "url": "https://attack.mitre.org/techniques/T1327",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -26,6 +26,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "This is by design captured in public registration logs.  Various tools and services exist to track/query/monitor domain name registration information.  However, tracking multiple DNS infrastructures will likely require multiple tools/services or more advanced analytics.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Requires more planning, but feasible.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -33,7 +34,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

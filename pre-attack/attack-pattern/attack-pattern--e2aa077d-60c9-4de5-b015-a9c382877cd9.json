@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--31b408c5-d8c4-4b63-80eb-b316b1ae579e",
+    "id": "bundle--00aa6fb7-dfeb-4c9b-b973-a039bdd5d136",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "During mergers, divestitures, or other period of change in joint infrastructure or business processes there may be an opportunity for exploitation. During this type of churn, unusual requests, or other non standard practices may not be as noticeable. (Citation: RossiMergers) (Citation: MeidlHealthMergers)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1076",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1076",
+                    "external_id": "T1299",
+                    "url": "https://attack.mitre.org/techniques/T1299",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -30,6 +30,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Most of this activity would target partners and business processes.  Partners would not report.  Difficult to tie this activity to a cyber attack.",
             "x_mitre_difficulty_for_adversary": "No",
             "x_mitre_difficulty_for_adversary_explanation": "Mapping joint infrastructure and business processes is difficult without insider knowledge or SIGINT capability.  While a merger creates and opportunity to exploit potentially cumbersome or sloppy business processes, advance notice of a merger is difficult; merger information is typically close-hold until the deal is done.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -37,7 +38,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

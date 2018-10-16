@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--fdccb39e-a1bd-44e3-bb08-e50549a566f3",
+    "id": "bundle--37995058-5593-4ed4-9a90-ecf900fd36f0",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--5682d524-80f0-4fd8-9960-6f54eeafce96",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Turla](https://attack.mitre.org/groups/G0010) may attempt to connect to systems within a victim's network using <code>net use</code> commands and a predefined list or collection of passwords.",
-            "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
-            "target_ref": "attack-pattern--a93494bb-4b80-4ea1-8695-3236a49916fd",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Kaspersky Turla"
                 }
             ],
+            "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--a93494bb-4b80-4ea1-8695-3236a49916fd",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:33:27.045Z"
         }
     ]

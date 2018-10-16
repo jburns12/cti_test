@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bce43a99-6280-446f-9b1f-d87816d8a3f3",
+    "id": "bundle--1953582a-1229-408d-9d88-384cf4c13698",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "This technique has been deprecated. Please see ATT&CK's Initial Access and Execution tactics for replacement techniques.\n\nEmails with text only phishing messages do not contain any attachments or links to websites. They are designed to get a user to take a follow on action such as calling a phone number or wiring money. They can also be used to elicit an email response to confirm existence of an account or user. (Citation: Paypal Phone Scam)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1145",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1145",
+                    "external_id": "T1368",
+                    "url": "https://attack.mitre.org/techniques/T1368",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -27,6 +27,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "End user training and awareness is the primary defense for flagging a plain text email so the end user does not respond or take any requested action (e.g., calling a designated number).",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Sending messages with text only should be accepted in most cases (e.g., not being filtered based on source, content).",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -34,7 +35,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

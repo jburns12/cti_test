@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--853c397c-7b1f-480e-b92b-a67b2933f660",
+    "id": "bundle--314e06f2-18b6-483a-a702-358d68e156d8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -11,6 +11,9 @@
             "description": "[PLATINUM](https://attack.mitre.org/groups/G0068) is an activity group that has targeted victims since at least 2009. The group has focused on targets associated with governments and related organizations in South and Southeast Asia. (Citation: Microsoft PLATINUM April 2016)",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_contributors": [
+                "Ryan Becwar"
             ],
             "external_references": [
                 {
@@ -28,13 +31,11 @@
                     "source_name": "Microsoft PLATINUM April 2016"
                 }
             ],
-            "x_mitre_contributors": [
-                "Ryan Becwar"
-            ],
+            "x_mitre_version": "1.0",
             "aliases": [
                 "PLATINUM"
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

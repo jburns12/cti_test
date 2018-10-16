@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--485cf1c5-8151-453f-955c-2491ddea534e",
+    "id": "bundle--131c67a6-2279-4cd9-82a2-7fef558d7205",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--03fc71a1-c589-4396-b5c7-70dfde49c55c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "Modules can be pushed to and executed by [Duqu](https://attack.mitre.org/software/S0038) that copy data to a staging area, compress it, and XOR encrypt it.",
-            "source_ref": "malware--68dca94f-c11d-421e-9287-7c501108e18c",
-            "target_ref": "attack-pattern--d54416bd-0803-41ca-870a-ce1af7c05638",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Symantec W32.Duqu"
                 }
             ],
+            "source_ref": "malware--68dca94f-c11d-421e-9287-7c501108e18c",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--d54416bd-0803-41ca-870a-ce1af7c05638",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

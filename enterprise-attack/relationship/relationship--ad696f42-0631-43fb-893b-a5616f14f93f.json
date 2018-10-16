@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--d4cc47f9-c371-4f35-affe-80c50a07d913",
+    "id": "bundle--b9226450-f7d4-42ad-837b-f5b4f5a91b75",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--ad696f42-0631-43fb-893b-a5616f14f93f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[gh0st](https://attack.mitre.org/software/S0032) RAT is able to wipe event logs.",
-            "source_ref": "malware--88c621a7-aef9-4ae0-94e3-1fc87123eb24",
-            "target_ref": "attack-pattern--799ace7f-e227-4411-baa0-8868704f2a69",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "FireEye Hacking Team"
                 }
             ],
+            "source_ref": "malware--88c621a7-aef9-4ae0-94e3-1fc87123eb24",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--799ace7f-e227-4411-baa0-8868704f2a69",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

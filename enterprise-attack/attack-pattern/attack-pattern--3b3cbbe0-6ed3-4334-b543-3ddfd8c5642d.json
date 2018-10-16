@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fd61e82b-0cfe-4e16-b311-04700321a8c8",
+    "id": "bundle--83b8e267-5604-4f3e-a66d-ffc29600df7b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -20,14 +20,14 @@
                     "source_name": "F-Secure Cosmicduke"
                 },
                 {
-                    "url": "https://arxiv.org/ftp/arxiv/papers/1408/1408.1136.pdf",
-                    "description": "Gardiner, J.,  Cova, M., Nagaraja, S. (2014, February). Command & Control Understanding, Denying and Detecting. Retrieved April 20, 2016.",
-                    "source_name": "University of Birmingham C2"
-                },
-                {
                     "url": "https://www.fidelissecurity.com/sites/default/files/FTA_1018_looking_at_the_sky_for_a_dark_comet.pdf",
                     "description": "Fidelis Cybersecurity. (2015, August 4). Looking at the Sky for a DarkComet. Retrieved April 5, 2016.",
                     "source_name": "Fidelis DarkComet"
+                },
+                {
+                    "url": "https://arxiv.org/ftp/arxiv/papers/1408/1408.1136.pdf",
+                    "description": "Gardiner, J.,  Cova, M., Nagaraja, S. (2014, February). Command & Control Understanding, Denying and Detecting. Retrieved April 20, 2016.",
+                    "source_name": "University of Birmingham C2"
                 }
             ],
             "object_marking_refs": [
@@ -47,6 +47,7 @@
                 "macOS",
                 "Windows"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -54,7 +55,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:30:31.197Z"
         }
     ]

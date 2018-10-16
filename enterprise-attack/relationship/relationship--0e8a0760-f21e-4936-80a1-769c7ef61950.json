@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--5a574692-8dc2-4109-a629-172f26c88a0d",
+    "id": "bundle--ecd13cfc-5577-4427-980e-f4e45159e306",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--0e8a0760-f21e-4936-80a1-769c7ef61950",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "can download files.",
-            "source_ref": "malware--f4d8a2d6-c684-453a-8a14-cf4a94f755c5",
-            "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+            "description": "[Vasport](https://attack.mitre.org/software/S0207) can download files.",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Symantec Vasport May 2012"
                 }
             ],
+            "source_ref": "malware--f4d8a2d6-c684-453a-8a14-cf4a94f755c5",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

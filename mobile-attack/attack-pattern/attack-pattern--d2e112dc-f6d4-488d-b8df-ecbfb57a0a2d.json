@@ -1,17 +1,17 @@
 {
     "type": "bundle",
-    "id": "bundle--016f33f5-7dd9-4e55-b724-4a6350c88cf8",
+    "id": "bundle--f3a49d2f-df8e-47dd-a8da-992925ae5dc0",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--d2e112dc-f6d4-488d-b8df-ecbfb57a0a2d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Jamming or Denial of Service",
-            "description": "An attacker could jam radio signals (e.g. Wi-Fi, cellular, GPS) to prevent the mobile device from communicating as described in draft NIST SP 800-187 (Citation: NIST-SP800187).",
+            "description": "An attacker could jam radio signals (e.g. Wi-Fi, cellular, GPS) to prevent the mobile device from communicating. (Citation: NIST-SP800187)",
             "external_references": [
                 {
-                    "external_id": "MOB-T1067",
-                    "url": "https://attack.mitre.org/techniques/MOB-T1067",
+                    "external_id": "T1464",
+                    "url": "https://attack.mitre.org/techniques/T1464",
                     "source_name": "mitre-mobile-attack"
                 },
                 {
@@ -36,7 +36,7 @@
                 },
                 {
                     "url": "http://csrc.nist.gov/publications/drafts/800-187/sp800_187_draft.pdf",
-                    "description": "Jeffrey Cichonski, Joshua M Franklin, Michael Bartock. (2016, November). Guide to LTE Security (DRAFT). Retrieved January 20, 2017.",
+                    "description": "Jeffrey Cichonski, Joshua M Franklin, Michael Bartock. (2017, December). Guide to LTE Security. Retrieved January 20, 2017.",
                     "source_name": "NIST-SP800187"
                 }
             ],
@@ -50,18 +50,15 @@
             "x_mitre_tactic_type": [
                 "Without Adversary Device Access"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "phase_name": "cellular-network-based",
-                    "kill_chain_name": "mitre-mobile-attack"
-                },
-                {
-                    "phase_name": "general-network-based",
+                    "phase_name": "network-effects",
                     "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-10-25T14:48:25.740Z"
         }
     ]

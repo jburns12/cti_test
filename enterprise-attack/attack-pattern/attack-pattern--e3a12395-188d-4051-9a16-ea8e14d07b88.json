@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b0d5f70c-51e1-4ca4-b407-d4ffcc601ddd",
+    "id": "bundle--3fb99cbf-e344-4ffe-949a-d97e848c6a72",
     "spec_version": "2.0",
     "objects": [
         {
@@ -26,16 +26,17 @@
                 "Process use of network"
             ],
             "x_mitre_detection": "System and network discovery techniques normally occur throughout an operation as an adversary learns the environment. Data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities, such as Lateral Movement, based on the information obtained.\n\nNormal, benign system and network events from legitimate remote service scanning may be uncommon, depending on the environment and how they are used. Legitimate open port and vulnerability scanning may be conducted within the environment and will need to be deconflicted with any detection capabilities developed. Network intrusion detection systems can also be used to identify scanning activity. Monitor for process use of the networks and inspect intra-network flows to detect port scans.",
+            "x_mitre_permissions_required": [
+                "Administrator",
+                "SYSTEM",
+                "User"
+            ],
             "x_mitre_platforms": [
                 "Linux",
-                "macOS",
-                "Windows"
+                "Windows",
+                "macOS"
             ],
-            "x_mitre_permissions_required": [
-                "User",
-                "Administrator",
-                "SYSTEM"
-            ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -43,7 +44,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:30:43.915Z"
         }
     ]

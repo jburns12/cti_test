@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--0dc32144-44bc-4d2a-bd0a-d40e54a41121",
+    "id": "bundle--398ded8f-c806-4db6-ba0d-a567ca4ed8b6",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--a10641f4-87b4-45a3-a906-92a149cb2c27",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Account Manipulation",
-            "description": "Account manipulation may aid adversaries in maintaining access to credentials and certain permission levels within an environment. Manipulation could consist of modifying permissions, modifying credentials, adding or changing permission groups, modifying account settings, or modifying how authentication is performed. In order to create or manipulate accounts, the adversary must already have sufficient permissions on systems or the domain.",
+            "description": "Account manipulation may aid adversaries in maintaining access to credentials and certain permission levels within an environment. Manipulation could consist of modifying permissions, modifying credentials, adding or changing permission groups, modifying account settings, or modifying how authentication is performed. These actions could also include account activity designed to subvert security policies, such as performing iterative password updates to subvert password duration policies and preserve the life of compromised credentials. In order to create or manipulate accounts, the adversary must already have sufficient permissions on systems or the domain.",
             "external_references": [
                 {
                     "external_id": "T1098",
@@ -33,6 +33,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_contributors": [
+                "Tim MalcomVetter"
+            ],
             "x_mitre_data_sources": [
                 "Authentication logs",
                 "API monitoring",
@@ -43,6 +46,7 @@
             "x_mitre_permissions_required": [
                 "Administrator"
             ],
+            "x_mitre_version": "1.0",
             "x_mitre_platforms": [
                 "Windows"
             ],
@@ -51,9 +55,13 @@
                 {
                     "phase_name": "credential-access",
                     "kill_chain_name": "mitre-attack"
+                },
+                {
+                    "phase_name": "persistence",
+                    "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:31:12.196Z"
         }
     ]

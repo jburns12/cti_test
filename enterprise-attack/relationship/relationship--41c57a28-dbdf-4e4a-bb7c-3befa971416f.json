@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--0fa7e3e5-eb46-4316-97f5-0625989b6b58",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--41c57a28-dbdf-4e4a-bb7c-3befa971416f",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[Thrip](https://attack.mitre.org/groups/G0076) used a cloud-based remote access software called LogMeIn for their attacks.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://www.symantec.com/blogs/threat-intelligence/thrip-hits-satellite-telecoms-defense-targets",
+                    "description": "Security Response Attack Investigation Team. (2018, June 19). Thrip: Espionage Group Hits Satellite, Telecoms, and Defense Companies. Retrieved July 10, 2018.",
+                    "source_name": "Symantec Thrip June 2018"
+                }
+            ],
+            "source_ref": "intrusion-set--34d63560-a670-4084-bbb7-891ff20137a7",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--4061e78c-1284-44b4-9116-73e4ac3912f7",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

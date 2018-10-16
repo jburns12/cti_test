@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--aee90767-2dcb-4126-998a-db4d3bb0afc5",
+    "id": "bundle--3beb83b4-6b8c-4b16-96cc-e417c7410d0c",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--7d020981-51b3-4ff6-825f-7cd192c934e1",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "[PoisonIvy](https://attack.mitre.org/software/S0012) can load DLLs.",
-            "source_ref": "malware--b42378e0-f147-496f-992a-26a49705395b",
-            "target_ref": "attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d",
+            "description": "[PoisonIvy](https://attack.mitre.org/software/S0012) can inject a malicious DLL into a process.",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -18,10 +15,18 @@
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-poison-ivy.pdf",
                     "description": "FireEye. (2014). POISON IVY: Assessing Damage and Extracting Intelligence. Retrieved November 12, 2014.",
                     "source_name": "FireEye Poison Ivy"
+                },
+                {
+                    "url": "https://www.symantec.com/security_response/writeup.jsp?docid=2005-081910-3934-99",
+                    "description": "Hayashi, K. (2005, August 18). Backdoor.Darkmoon. Retrieved February 23, 2018.",
+                    "source_name": "Symantec Darkmoon Aug 2005"
                 }
             ],
+            "source_ref": "malware--b42378e0-f147-496f-992a-26a49705395b",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

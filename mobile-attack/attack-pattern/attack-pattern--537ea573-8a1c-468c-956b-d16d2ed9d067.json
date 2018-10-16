@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--23b27a5c-ce41-4705-bc1b-6345bc454983",
+    "id": "bundle--2fd326c6-59cd-40ae-8b6e-3203db0c00af",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "An adversary who is able to obtain unauthorized access to or misuse authorized access to cloud services (e.g. Google's Android Device Manager or Apple iCloud's Find my iPhone) or to an EMM console could use that access to wipe enrolled devices (Citation: Honan-Hacking).",
             "external_references": [
                 {
-                    "external_id": "MOB-T1072",
-                    "url": "https://attack.mitre.org/techniques/MOB-T1072",
+                    "external_id": "T1469",
+                    "url": "https://attack.mitre.org/techniques/T1469",
                     "source_name": "mitre-mobile-attack"
                 },
                 {
@@ -41,14 +41,15 @@
             "x_mitre_tactic_type": [
                 "Without Adversary Device Access"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "phase_name": "cloud-based",
+                    "phase_name": "remote-service-effects",
                     "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-10-25T14:48:07.827Z"
         }
     ]

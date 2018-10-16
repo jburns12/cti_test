@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3346b6ed-de7c-42b5-92ca-95bcb69feb2f",
+    "id": "bundle--68bf5999-016c-4e22-81a4-6c04a5e41c2f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -15,6 +15,11 @@
                     "source_name": "mitre-attack"
                 },
                 {
+                    "url": "https://researchcenter.paloaltonetworks.com/2016/07/unit42-technical-walkthrough-office-test-persistence-method-used-in-recent-sofacy-attacks/",
+                    "description": "Falcone, R. (2016, July 20). Technical Walkthrough: Office Test Persistence Method Used In Recent Sofacy Attacks. Retrieved July 3, 2017.",
+                    "source_name": "Palo Alto Office Test Sofacy"
+                },
+                {
                     "url": "https://labs.mwrinfosecurity.com/blog/add-in-opportunities-for-office-persistence/",
                     "description": "Knowles, W. (2017, April 21). Add-In Opportunities for Office Persistence. Retrieved July 3, 2017.",
                     "source_name": "MRWLabs Office Persistence Add-ins"
@@ -23,16 +28,14 @@
                     "url": "https://blogs.technet.microsoft.com/mmpc/2016/03/22/new-feature-in-office-2016-can-block-macros-and-help-prevent-infection/",
                     "description": "Microsoft Malware Protection Center. (2016, March 22). New feature in Office 2016 can block macros and help prevent infection. Retrieved July 3, 2017.",
                     "source_name": "TechNet Office Macro Security"
-                },
-                {
-                    "url": "https://researchcenter.paloaltonetworks.com/2016/07/unit42-technical-walkthrough-office-test-persistence-method-used-in-recent-sofacy-attacks/",
-                    "description": "Falcone, R. (2016, July 20). Technical Walkthrough: Office Test Persistence Method Used In Recent Sofacy Attacks. Retrieved July 3, 2017.",
-                    "source_name": "Palo Alto Office Test Sofacy"
                 }
             ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "type": "course-of-action",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2018-09-07T16:42:18.771Z"
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
         }
     ]
 }

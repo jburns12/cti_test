@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8931dc3e-bf21-4020-8bc1-7bcda0e8ec2e",
+    "id": "bundle--12a68b1b-5ac8-43dd-a6e0-c389996b6f12",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "Obfuscation is the act of creating communications that are more difficult to understand.  Encryption transforms the communications such that it requires a key to reverse the encryption. (Citation: FireEyeAPT28)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1090",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1090",
+                    "external_id": "T1313",
+                    "url": "https://attack.mitre.org/techniques/T1313",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -26,6 +26,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Techniques and signatures are hard to detect. Advanced communications and exfiltration channels are nearly indistinguishable from background noise.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Known approaches include the use of cryptography for communications, rotating drops sites (such as random list of chat fora), and one-time [https://aws.amazon.com/s3/ Simple Storage Service (S3)] buckets, etc.  All require sophisticated knowledge, infrastructure, and funding.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -33,7 +34,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

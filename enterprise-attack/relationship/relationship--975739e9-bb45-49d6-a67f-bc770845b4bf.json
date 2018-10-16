@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--28aae545-4965-41b7-b310-cf5f7b35f311",
+    "id": "bundle--974bd33e-5e38-480d-84d4-406b9a34a5ff",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--975739e9-bb45-49d6-a67f-bc770845b4bf",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "[MURKYTOP](https://attack.mitre.org/software/S0233) has the capability to retrieve information about groups.",
-            "source_ref": "malware--049ff071-0b3c-4712-95d2-d21c6aa54501",
-            "target_ref": "attack-pattern--15dbf668-795c-41e6-8219-f0447c0e64ce",
+            "description": "has the capability to retrieve information about groups.",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "FireEye Periscope March 2018"
                 }
             ],
+            "source_ref": "malware--049ff071-0b3c-4712-95d2-d21c6aa54501",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--15dbf668-795c-41e6-8219-f0447c0e64ce",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

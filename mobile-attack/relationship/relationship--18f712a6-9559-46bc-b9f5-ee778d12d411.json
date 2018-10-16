@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--765a4097-4c91-44c3-90d2-884be11b2e1b",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--18f712a6-9559-46bc-b9f5-ee778d12d411",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "App store operators and enterprises could assess reputational characteristics of the app, including the popularity of the app or other apps from the same developer and whether or not security issues have been found in other apps from the same developer.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "source_ref": "course-of-action--1553b156-6767-47f7-9eb4-2a692505666d",
+            "relationship_type": "mitigates",
+            "target_ref": "attack-pattern--e8dc41b2-8982-4926-8cf6-d4782b3b5d6e",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

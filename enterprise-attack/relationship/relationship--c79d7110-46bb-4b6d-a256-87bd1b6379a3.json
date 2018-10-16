@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--cdc5c0e7-98cb-48b3-808c-00de4706d6c1",
+    "id": "bundle--b4f7e93e-5829-46b9-b02b-e7d04ad8d646",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--c79d7110-46bb-4b6d-a256-87bd1b6379a3",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[H1N1](https://attack.mitre.org/software/S0132) obfuscates C2 traffic with an altered version of base64.",
-            "source_ref": "malware--f8dfbc54-b070-4224-b560-79aaa5f835bd",
-            "target_ref": "attack-pattern--ad255bfe-a9e6-4b52-a258-8d3462abe842",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Cisco H1N1 Part 2"
                 }
             ],
+            "source_ref": "malware--f8dfbc54-b070-4224-b560-79aaa5f835bd",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--ad255bfe-a9e6-4b52-a258-8d3462abe842",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

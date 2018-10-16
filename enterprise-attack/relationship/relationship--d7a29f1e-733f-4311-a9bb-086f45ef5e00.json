@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--be885fad-1f98-4376-973e-125be7ec296b",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--d7a29f1e-733f-4311-a9bb-086f45ef5e00",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[Orangeworm](https://attack.mitre.org/groups/G0071) has used HTTP for C2.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "description": "Symantec Security Response Attack Investigation Team. (2018, April 23). Orangeworm: Indicators of Compromise. Retrieved July 8, 2018.",
+                    "source_name": "Symantec Orangeworm IOCs April 2018"
+                }
+            ],
+            "source_ref": "intrusion-set--f5c036fd-d5df-492d-bdca-39ea999235aa",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

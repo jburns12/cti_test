@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4281c998-ab0e-4322-976c-15ef9c457777",
+    "id": "bundle--7a352fdb-b026-4e72-9357-e714925829be",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,9 +34,10 @@
                 "Host forensic analysis"
             ],
             "x_mitre_permissions_required": [
-                "User",
-                "Administrator"
+                "Administrator",
+                "User"
             ],
+            "x_mitre_version": "1.0",
             "x_mitre_platforms": [
                 "Windows"
             ],
@@ -50,7 +51,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:31:38.350Z"
         }
     ]

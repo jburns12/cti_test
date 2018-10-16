@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--cfaf61a9-2bf2-4fee-bb41-db093872d918",
+    "id": "bundle--7cb6e801-8fa3-48c3-adab-de8673ced342",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--4887f5b0-45ed-4848-a984-4e72263e33d8",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Felismus](https://attack.mitre.org/software/S0171) uses HTTP for C2.",
-            "source_ref": "malware--196f1f32-e0c2-4d46-99cd-234d4b6befe1",
-            "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Forcepoint Felismus Mar 2017"
                 }
             ],
+            "source_ref": "malware--196f1f32-e0c2-4d46-99cd-234d4b6befe1",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

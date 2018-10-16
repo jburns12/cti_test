@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--2021f73a-1bb5-46c9-b9bc-55d925e5c165",
+    "id": "bundle--f307bf8c-738b-4085-8faf-1ff9e7ba742d",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--fb6ffb5c-5405-4515-a120-7a34414933ea",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[OilRig](https://attack.mitre.org/groups/G0049) has tested malware samples to determine AV detection and subsequently modified the samples to ensure AV evasion.",
-            "source_ref": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",
-            "target_ref": "attack-pattern--00d0b012-8a03-410e-95de-5826bf542de6",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Palo Alto OilRig April 2017"
                 }
             ],
+            "source_ref": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--00d0b012-8a03-410e-95de-5826bf542de6",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

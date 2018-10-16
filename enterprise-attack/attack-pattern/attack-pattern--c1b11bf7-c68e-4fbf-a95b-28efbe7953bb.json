@@ -1,23 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--68ca2012-bfb9-4671-bc72-b53f8cd9a9f7",
+    "id": "bundle--771bf825-f531-43f7-9192-197375e7ba24",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--c1b11bf7-c68e-4fbf-a95b-28efbe7953bb",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "SSH Hijacking",
-            "description": "Secure Shell (SSH) is a standard means of remote access on Linux and Mac systems. It allows a user to connect to another system via an encrypted tunnel, commonly authenticating through a password, certificate or the use of an asymmetric encryption key pair.\n\nIn order to move laterally from a compromised host, adversaries may take advantage of trust relationships established with other systems via public key authentication in active SSH sessions by hijacking an existing connection to another system. This may occur through compromising the SSH agent itself or by having access to the agent's socket. If an adversary is able to obtain root access, then hijacking SSH sessions is likely trivial. (Citation: Slideshare Abusing SSH) (Citation: SSHjack Blackhat) (Citation: Clockwork SSH Agent Hijacking) Compromising the SSH agent also provides access to intercept SSH credentials. (Citation: Welivesecurity Ebury SSH)\n\n[SSH Hijacking](https://attack.mitre.org/techniques/T1184) differs from use of [Remote Services](https://attack.mitre.org/techniques/T1021) because it injects into an existing SSH session rather than creating a new session using [Valid Accounts](https://attack.mitre.org/techniques/T1078).",
+            "description": "Secure Shell (SSH) is a standard means of remote access on Linux and macOS systems. It allows a user to connect to another system via an encrypted tunnel, commonly authenticating through a password, certificate or the use of an asymmetric encryption key pair.\n\nIn order to move laterally from a compromised host, adversaries may take advantage of trust relationships established with other systems via public key authentication in active SSH sessions by hijacking an existing connection to another system. This may occur through compromising the SSH agent itself or by having access to the agent's socket. If an adversary is able to obtain root access, then hijacking SSH sessions is likely trivial. (Citation: Slideshare Abusing SSH) (Citation: SSHjack Blackhat) (Citation: Clockwork SSH Agent Hijacking) Compromising the SSH agent also provides access to intercept SSH credentials. (Citation: Welivesecurity Ebury SSH)\n\n[SSH Hijacking](https://attack.mitre.org/techniques/T1184) differs from use of [Remote Services](https://attack.mitre.org/techniques/T1021) because it injects into an existing SSH session rather than creating a new session using [Valid Accounts](https://attack.mitre.org/techniques/T1078).",
             "external_references": [
                 {
                     "external_id": "T1184",
                     "url": "https://attack.mitre.org/techniques/T1184",
                     "source_name": "mitre-attack"
-                },
-                {
-                    "url": "https://www.slideshare.net/morisson/mistrusting-and-abusing-ssh-13526219",
-                    "description": "Duarte, H., Morrison, B. (2012). (Mis)trusting and (ab)using ssh. Retrieved January 8, 2018.",
-                    "source_name": "Slideshare Abusing SSH"
                 },
                 {
                     "url": "https://www.blackhat.com/presentations/bh-usa-05/bh-us-05-boileau.pdf",
@@ -28,6 +23,11 @@
                     "url": "https://www.clockwork.com/news/2012/09/28/602/ssh_agent_hijacking",
                     "description": "Beuchler, B. (2012, September 28). SSH Agent Hijacking. Retrieved December 20, 2017.",
                     "source_name": "Clockwork SSH Agent Hijacking"
+                },
+                {
+                    "url": "https://www.slideshare.net/morisson/mistrusting-and-abusing-ssh-13526219",
+                    "description": "Duarte, H., Morrison, B. (2012). (Mis)trusting and (ab)using ssh. Retrieved January 8, 2018.",
+                    "source_name": "Slideshare Abusing SSH"
                 },
                 {
                     "url": "https://www.welivesecurity.com/2014/02/21/an-in-depth-analysis-of-linuxebury/",
@@ -53,6 +53,7 @@
                 "User",
                 "root"
             ],
+            "x_mitre_version": "1.0",
             "x_mitre_system_requirements": [
                 "SSH service enabled, trust relationships configured, established connections"
             ],
@@ -63,7 +64,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

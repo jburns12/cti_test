@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--76028300-13d9-4a53-b103-77ec14cee8e0",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--21426416-5e2a-4acc-b153-6fdadff06620",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "Some [InnaputRAT](https://attack.mitre.org/software/S0259) variants create a new Windows service to establish persistence.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://asert.arbornetworks.com/innaput-actors-utilize-remote-access-trojan-since-2016-presumably-targeting-victim-files/",
+                    "description": "ASERT Team. (2018, April 04). Innaput Actors Utilize Remote Access Trojan Since 2016, Presumably Targeting Victim Files. Retrieved July 9, 2018.",
+                    "source_name": "ASERT InnaputRAT April 2018"
+                }
+            ],
+            "source_ref": "malware--45e4db19-19fd-4c63-995a-0cb1dc8123f5",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--478aa214-2ca7-4ec0-9978-18798e514790",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--afb3de1c-0eaf-428a-b95b-ec625d551766",
+    "id": "bundle--163d9814-8e56-4a4e-b7c0-70632fa76856",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--02b3c8fe-1539-4c77-b67e-07fa8a22c91e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "Original variants of [BrainTest](https://attack.mitre.org/software/MOB-S0009) \"did have the ability to automatically root some devices, however, we did not observe that behavior in any of the 13 samples we recently discovered.\"",
-            "source_ref": "malware--e13d084c-382f-40fd-aa9a-98d69e20301e",
-            "target_ref": "attack-pattern--351c0927-2fc1-4a2c-ad84-cbbee7eb8172",
+            "description": "Some original variants of [BrainTest](https://attack.mitre.org/software/S0293) had the capability to automatically root some devices, but that behavior was not observed in later samples.",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Lookout-BrainTest"
                 }
             ],
+            "source_ref": "malware--e13d084c-382f-40fd-aa9a-98d69e20301e",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--351c0927-2fc1-4a2c-ad84-cbbee7eb8172",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

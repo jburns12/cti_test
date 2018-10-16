@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--7d59385f-0ffe-4e03-9128-a54eff1d0345",
+    "id": "bundle--3a8a452f-6537-4a5d-809a-0778f2fd779f",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--639e7b8d-57d7-4c1d-8f42-1496606ea666",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[APT33](https://attack.mitre.org/groups/G0064) sent spear phishing emails containing links to .hta files.",
-            "source_ref": "intrusion-set--fbd29c89-18ba-4c2d-b792-51c0adee049f",
-            "target_ref": "attack-pattern--20138b9d-1aac-4a26-8654-a36b6bbf2bba",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "FireEye APT33 Sept 2017"
                 }
             ],
+            "source_ref": "intrusion-set--fbd29c89-18ba-4c2d-b792-51c0adee049f",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--20138b9d-1aac-4a26-8654-a36b6bbf2bba",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

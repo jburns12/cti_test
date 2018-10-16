@@ -1,23 +1,28 @@
 {
     "type": "bundle",
-    "id": "bundle--3245aac7-162d-4f83-9e73-66f0ca872a38",
+    "id": "bundle--fb16c5e0-d61b-4fcb-b38d-719ca5b40818",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--fd339382-bfec-4bf0-8d47-1caedc9e7e57",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "name": "Malicious Web Content",
-            "description": "Content of a web page could be designed to exploit vulnerabilities in a web browser running on the mobile device.",
+            "name": "Drive-by Compromise",
+            "description": "As described by [ATT&CK for Enterprise](https://attack.mitre.org/techniques/T1189), a drive-by compromise is when an adversary gains access to a system through a user visiting a website over the normal course of browsing. With this technique, the user's web browser is targeted for exploitation. For example, a website may contain malicious media content intended to exploit vulnerabilities in media parsers as demonstrated by the Android Stagefright vulnerability  (Citation: Zimperium-Stagefright).\n\n(This technique was formerly known as Malicious Web Content. It has been renamed to better align with ATT&CK for Enterprise.)",
             "external_references": [
                 {
-                    "external_id": "MOB-T1059",
-                    "url": "https://attack.mitre.org/techniques/MOB-T1059",
+                    "external_id": "T1456",
+                    "url": "https://attack.mitre.org/techniques/T1456",
                     "source_name": "mitre-mobile-attack"
                 },
                 {
                     "external_id": "CEL-22",
                     "url": "https://pages.nist.gov/mobile-threat-catalogue/cellular-threats/CEL-22.html",
                     "source_name": "NIST Mobile Threat Catalogue"
+                },
+                {
+                    "url": "https://blog.zimperium.com/experts-found-a-unicorn-in-the-heart-of-android/",
+                    "description": "Zimperium. (2015, January 27). Experts Found a Unicorn in the Heart of Android. Retrieved December 23, 2016.",
+                    "source_name": "Zimperium-Stagefright"
                 }
             ],
             "object_marking_refs": [
@@ -28,16 +33,17 @@
                 "iOS"
             ],
             "x_mitre_tactic_type": [
-                "Pre-Adversary Device Access"
+                "Post-Adversary Device Access"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "phase_name": "exploit-via-internet",
+                    "phase_name": "initial-access",
                     "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-10-25T14:48:06.822Z"
         }
     ]

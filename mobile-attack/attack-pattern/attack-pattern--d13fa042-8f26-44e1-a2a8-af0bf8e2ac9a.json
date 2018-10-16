@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0a5dc8b6-6c1c-455f-95f2-2d1d8825da1a",
+    "id": "bundle--a443d8f7-d797-4133-8206-273ea13c1c6f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "An app could contain malicious code in obfuscated or encrypted form, then deobfuscate or decrypt the code at runtime to evade many app vetting techniques, as described in  (Citation: Rastogi) (Citation: Zhou) (Citation: TrendMicro-Obad) (Citation: Xiao-iOS).",
             "external_references": [
                 {
-                    "external_id": "MOB-T1009",
-                    "url": "https://attack.mitre.org/techniques/MOB-T1009",
+                    "external_id": "T1406",
+                    "url": "https://attack.mitre.org/techniques/T1406",
                     "source_name": "mitre-mobile-attack"
                 },
                 {
@@ -50,6 +50,7 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -57,7 +58,7 @@
                     "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-10-25T14:48:32.328Z"
         }
     ]

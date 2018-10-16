@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--09135d76-7a30-440a-8a0d-063e6fda3b42",
+    "id": "bundle--06f1eb3c-ebf8-47ea-b873-ccbb4a1f2205",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "A malicious application could capture sensitive data sent via SMS, including authentication credentials. SMS is frequently used to transmit codes used for multi-factor authentication.\n\nOn Android, a malicious application must request and obtain permission (either at app install time or run time) in order to receive SMS messages. Alternatively, a malicious application could attempt to perform an operating system privilege escalation attack to bypass the permission requirement.\n\nOn iOS, applications cannot access SMS messages in normal operation, so an adversary would need to attempt to perform an operating system privilege escalation attack to potentially be able to access SMS messages.",
             "external_references": [
                 {
-                    "external_id": "MOB-T1015",
-                    "url": "https://attack.mitre.org/techniques/MOB-T1015",
+                    "external_id": "T1412",
+                    "url": "https://attack.mitre.org/techniques/T1412",
                     "source_name": "mitre-mobile-attack"
                 }
             ],
@@ -25,6 +25,7 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -36,7 +37,7 @@
                     "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-10-25T14:48:15.920Z"
         }
     ]

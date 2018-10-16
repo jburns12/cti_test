@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--9a55280b-4562-4136-9cf2-158695d60bf0",
+    "id": "bundle--6434a8cd-1bbb-4720-916e-434d1ae40a19",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--1dc42b4c-4a93-4fc6-bad3-b5498ad500b1",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Pass-The-Hash Toolkit](https://attack.mitre.org/software/S0122) can perform pass the hash.",
-            "source_ref": "tool--a52edc76-328d-4596-85e7-d56ef5a9eb69",
-            "target_ref": "attack-pattern--c23b740b-a42b-47a1-aec2-9d48ddd547ff",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Mandiant APT1"
                 }
             ],
+            "source_ref": "tool--a52edc76-328d-4596-85e7-d56ef5a9eb69",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--c23b740b-a42b-47a1-aec2-9d48ddd547ff",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

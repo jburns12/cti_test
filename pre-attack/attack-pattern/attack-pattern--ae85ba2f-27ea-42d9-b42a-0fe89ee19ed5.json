@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d53daf02-4a42-4e44-8f60-fd450c081899",
+    "id": "bundle--97f385ca-4d55-48e0-9011-c61fa58a8de7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "Key Intelligence Topics (KITs) and Key Intelligence Questions (KIQs) may be further subdivided to focus on political, economic, diplomatic, military, financial, or intellectual property categories.  An adversary may specify KITs or KIQs in this manner in order to understand how the information they are pursuing can have multiple uses and to consider all aspects of the types of information they need to target for a particular purpose. (Citation: CompetitiveIntelligence) (Citation: CompetitiveIntelligence)KIT.",
             "external_references": [
                 {
-                    "external_id": "PRE-T1006",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1006",
+                    "external_id": "T1229",
+                    "url": "https://attack.mitre.org/techniques/T1229",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -26,6 +26,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Normally, defender is unable to detect.  Few agencies and commercial organizations may have unique insights.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Normal aspect of adversary planning lifecycle.  May not be done by all adversaries.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -33,7 +34,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--6803acae-a352-4437-9962-c5d8e59ef31e",
+    "id": "bundle--2c838c73-848e-446b-af08-14e08e08fece",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--c18652f6-e25c-4e01-bec2-04204a50cf23",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[POWERSTATS](https://attack.mitre.org/software/S0223) can wipe drives using [PowerShell](https://attack.mitre.org/techniques/T1086) Remove-Item commands.",
-            "source_ref": "malware--e8545794-b98c-492b-a5b3-4b5a02682e37",
-            "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "FireEye MuddyWater Mar 2018"
                 }
             ],
+            "source_ref": "malware--e8545794-b98c-492b-a5b3-4b5a02682e37",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

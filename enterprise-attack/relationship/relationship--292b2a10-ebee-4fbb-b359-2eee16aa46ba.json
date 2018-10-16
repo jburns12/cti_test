@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--d7cd25f7-9673-44f4-be00-b1642e0d05de",
+    "id": "bundle--e8ed3592-bb77-4434-bee4-0c6568f25e0d",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--292b2a10-ebee-4fbb-b359-2eee16aa46ba",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[CopyKittens](https://attack.mitre.org/groups/G0052) encrypts data with a substitute cipher prior to exfiltration.",
-            "source_ref": "intrusion-set--dcd81c6e-ebf7-4a16-93e0-9a97fa49c88a",
-            "target_ref": "attack-pattern--d54416bd-0803-41ca-870a-ce1af7c05638",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "CopyKittens Nov 2015"
                 }
             ],
+            "source_ref": "intrusion-set--dcd81c6e-ebf7-4a16-93e0-9a97fa49c88a",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--d54416bd-0803-41ca-870a-ce1af7c05638",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

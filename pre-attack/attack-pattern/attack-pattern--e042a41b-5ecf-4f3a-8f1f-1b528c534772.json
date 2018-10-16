@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3861a50a-c29c-42de-b9a4-a231395fc935",
+    "id": "bundle--6f9c6f11-062a-443c-a48e-f7f7067ab3e4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "Malware may perform differently on different platforms (computer vs handheld) and different operating systems ([http://www.ubuntu.com Ubuntu] vs [http://www.apple.com/osx/ OS X]), and versions ([http://windows.microsoft.com Windows] 7 vs 10) so malicious actors will test their malware in the environment(s) where they most expect it to be executed. (Citation: BypassMalwareDefense)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1134",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1134",
+                    "external_id": "T1357",
+                    "url": "https://attack.mitre.org/techniques/T1357",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -26,6 +26,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Adversary controls the test and defender likely has no visibility.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Adversary can simulate most environments (e.g., variable operating systems, patch levels, application versions) with details available from other techniques.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -33,7 +34,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

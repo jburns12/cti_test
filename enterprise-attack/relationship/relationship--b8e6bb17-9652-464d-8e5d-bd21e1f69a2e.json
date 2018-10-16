@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--45517717-8ef8-40cc-8456-ea0347f78941",
+    "id": "bundle--c200c49b-8461-4767-9a78-130e681b65ae",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--b8e6bb17-9652-464d-8e5d-bd21e1f69a2e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[TEXTMATE](https://attack.mitre.org/software/S0146) executes cmd.exe to provide a reverse shell to adversaries.",
-            "source_ref": "malware--4f6aa78c-c3d4-4883-9840-96ca2f5d6d47",
-            "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -25,8 +22,11 @@
                     "source_name": "Cisco DNSMessenger March 2017"
                 }
             ],
+            "source_ref": "malware--4f6aa78c-c3d4-4883-9840-96ca2f5d6d47",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

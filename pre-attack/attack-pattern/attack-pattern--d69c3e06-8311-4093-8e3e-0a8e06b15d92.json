@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--422952cf-eeb2-4408-9af7-d2381ff79272",
+    "id": "bundle--038c43d7-78e2-4079-9e53-a22d1a701c04",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "An adversary may assess a target's operational security (OPSEC) practices in order to identify targeting options. A target may share different information in different settings or be more of less cautious in different environments. (Citation: Scasny2015) (Citation: EverstineAirStrikes)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1073",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1073",
+                    "external_id": "T1296",
+                    "url": "https://attack.mitre.org/techniques/T1296",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -30,6 +30,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Defender does not have access to information stored outside of defenders scope or visibility (e.g., log data for Facebook is not easily accessible).  Defender has very infrequent visibility into an adversary's more detailed TTPs for developing people targets.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Information is out in the open for items that are available - part of this is ease of use for consumers to support the expected networking use case.  OSINT can provide many avenues to gather intel which contain weaknesses.  Developing and refining the methodology to exploit weak human targets has been done for years (e.g., spies).",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -37,7 +38,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

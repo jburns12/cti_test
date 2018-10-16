@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--144542bc-122c-4617-9bf3-621e1b510402",
+    "id": "bundle--9e761bf3-a03c-421d-a6b0-36eb4e23e31a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "This technique has been deprecated. Please see ATT&CK's Initial Access and Execution tactics for replacement techniques.\n\nA technique to push an [https://www.apple.com/ios iOS] or [https://www.android.com Android] MMS-type message to the target which does not require interaction on the part of the target to be successful. (Citation: BlackHat Stagefright) (Citation: WikiStagefright)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1150",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1150",
+                    "external_id": "T1373",
+                    "url": "https://attack.mitre.org/techniques/T1373",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -31,6 +31,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "For non-corporate cellular devices not joined to the corporate network, it is not possible to detect an adversary's use of the technique because messages traverse networks outside of the control of the employer. For corporate cellular devices which are joined to the corporate network, monitoring of messages and ability to patch against push attacks is possible, assuming they are fully monitored.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Easily executed technique to push an MMS-type message to the target which does not require interaction on the part of the target to be successful.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -38,7 +39,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

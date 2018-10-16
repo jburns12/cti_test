@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--021c7094-2043-48de-af5c-8b73f1dd017c",
+    "id": "bundle--8ce6bd39-1f6c-4a59-a593-4474f743352e",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--e797fcd8-4ad6-43d3-a36a-3c05d0ce8832",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[PLATINUM](https://attack.mitre.org/groups/G0068) has sent spearphishing emails with attachments to victims as its primary initial access vector.",
-            "source_ref": "intrusion-set--f9c06633-dcff-48a1-8588-759e7cec5694",
-            "target_ref": "attack-pattern--6aac77c4-eaf2-4366-8c13-ce50ab951f38",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Microsoft PLATINUM April 2016"
                 }
             ],
+            "source_ref": "intrusion-set--f9c06633-dcff-48a1-8588-759e7cec5694",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--6aac77c4-eaf2-4366-8c13-ce50ab951f38",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

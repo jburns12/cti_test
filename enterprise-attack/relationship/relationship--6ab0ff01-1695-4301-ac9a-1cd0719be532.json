@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--d368b5e5-5382-4931-922a-967433dd66e7",
+    "id": "bundle--ee6f5cf0-6c00-4eb2-ac92-2008ddff5cec",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--6ab0ff01-1695-4301-ac9a-1cd0719be532",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Hacking Team UEFI Rootkit](https://attack.mitre.org/software/S0047) is a UEFI BIOS rootkit developed by the company Hacking Team to persist remote access software on some targeted systems.",
-            "source_ref": "malware--4b62ab58-c23b-4704-9c15-edd568cd59f8",
-            "target_ref": "attack-pattern--6856ddd6-2df3-4379-8b87-284603c189c3",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "TrendMicro Hacking Team UEFI"
                 }
             ],
+            "source_ref": "malware--4b62ab58-c23b-4704-9c15-edd568cd59f8",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--6856ddd6-2df3-4379-8b87-284603c189c3",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

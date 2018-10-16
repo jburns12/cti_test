@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--20c6aec6-a40b-4916-b005-320cc5a42dd6",
+    "id": "bundle--09953f2e-dbf4-4e80-9af5-8394c0f1fa9d",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--321a3181-9478-4a4c-b13b-607dbfeee7fc",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Pupy](https://attack.mitre.org/software/S0192) can bypass Windows UAC through either DLL hijacking, eventvwr, or appPaths.",
-            "source_ref": "tool--cb69b20d-56d0-41ab-8440-4a4b251614d4",
-            "target_ref": "attack-pattern--ca1a3f50-5ebd-41f8-8320-2c7d6a6e88be",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "GitHub Pupy"
                 }
             ],
+            "source_ref": "tool--cb69b20d-56d0-41ab-8440-4a4b251614d4",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--ca1a3f50-5ebd-41f8-8320-2c7d6a6e88be",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

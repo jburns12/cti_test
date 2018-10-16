@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--4a99705d-02fd-499f-9ad9-5dd32402c882",
+    "id": "bundle--5958e4cf-220e-415a-8dce-130ca1fe4393",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--47a95ac1-e37a-40ea-bf1e-e99ff4483998",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Matroyshka](https://attack.mitre.org/software/S0167) is capable of stealing Outlook passwords.",
-            "source_ref": "malware--1cc934e4-b01d-4543-a011-b988dfc1a458",
-            "target_ref": "attack-pattern--0a3ead4e-6d47-4ccb-854c-a6a4f9d96b22",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -25,8 +22,11 @@
                     "source_name": "CopyKittens Nov 2015"
                 }
             ],
+            "source_ref": "malware--1cc934e4-b01d-4543-a011-b988dfc1a458",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--0a3ead4e-6d47-4ccb-854c-a6a4f9d96b22",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

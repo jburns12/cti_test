@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--ea3039fb-7251-4875-b8b3-442004d76fa4",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--cb04f65c-2687-4c8a-98b5-fbb9ea823bb5",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[MirageFox](https://attack.mitre.org/software/S0280) is likely loaded via DLL hijacking into a legitimate McAfee binary.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://www.intezer.com/miragefox-apt15-resurfaces-with-new-tools-based-on-old-ones/",
+                    "description": "Rosenberg, J. (2018, June 14). MirageFox: APT15 Resurfaces With New Tools Based On Old Ones. Retrieved September 21, 2018.",
+                    "source_name": "APT15 Intezer June 2018"
+                }
+            ],
+            "source_ref": "malware--b77584a6-254e-40e4-8324-b4fc4f2d0a83",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--46944654-fcc1-4f63-9dad-628102376586",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

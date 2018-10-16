@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--c6c6828e-b10e-4545-ab54-5700c7f03b89",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--298dbbc0-972e-4f0c-92c0-127585c0f724",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[CrossRAT](https://attack.mitre.org/software/S0235) can list all files on a system.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "source_ref": "malware--ca1d1093-bcc1-4365-8fac-a9b29f0ec852",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

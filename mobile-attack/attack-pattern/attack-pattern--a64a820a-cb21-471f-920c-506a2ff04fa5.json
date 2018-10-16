@@ -1,17 +1,17 @@
 {
     "type": "bundle",
-    "id": "bundle--399de2ad-adca-4fdd-ab4b-21cc53d29e08",
+    "id": "bundle--b2b023dd-1e51-4cf6-99d2-eb750bd87ef3",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--a64a820a-cb21-471f-920c-506a2ff04fa5",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "SIM Card Swap",
-            "description": "An adversary could convince the mobile network operator (e.g. through social networking or forged identification) to issue a new SIM card and associate it with an existing phone number and account (Citation: NYGov-Simswap). The adversary could then obtain SMS messages or hijack phone calls intended for someone else (Citation: Betanews-Simswap). One use case is intercepting authentication messages or phone calls to obtain illicit access to online banking or other online accounts (Citation: Guardian-Simswap).",
+            "description": "An adversary could convince the mobile network operator (e.g. through social networking, forged identification, or insider attacks performed by trusted employees) to issue a new SIM card and associate it with an existing phone number and account (Citation: NYGov-Simswap) (Citation: Motherboard-Simswap2). The adversary could then obtain SMS messages or hijack phone calls intended for someone else (Citation: Betanews-Simswap). \n\nOne use case is intercepting authentication messages or phone calls to obtain illicit access to online banking or other online accounts, as many online services allow account password resets by sending an authentication code over SMS to a phone number associated with the account (Citation: Guardian-Simswap) (Citation: Motherboard-Simswap1).",
             "external_references": [
                 {
-                    "external_id": "MOB-T1054",
-                    "url": "https://attack.mitre.org/techniques/MOB-T1054",
+                    "external_id": "T1451",
+                    "url": "https://attack.mitre.org/techniques/T1451",
                     "source_name": "mitre-mobile-attack"
                 },
                 {
@@ -33,6 +33,16 @@
                     "url": "https://www.theguardian.com/money/2016/apr/16/sim-swap-fraud-mobile-banking-fraudsters",
                     "description": "Miles Brignall. (2016, April 16). Sim-swap fraud claims another mobile banking victim. Retrieved December 12, 2016.",
                     "source_name": "Guardian-Simswap"
+                },
+                {
+                    "url": "https://motherboard.vice.com/en_us/article/3ky5a5/criminals-recruit-telecom-employees-sim-swapping-port-out-scam",
+                    "description": "Lorenzo Franceschi-Bicchierai. (2018, August 3). How Criminals Recruit Telecom Employees to Help Them Hijack SIM Cards. Retrieved August 11, 2018.",
+                    "source_name": "Motherboard-Simswap2"
+                },
+                {
+                    "url": "https://motherboard.vice.com/en_us/article/vbqax3/hackers-sim-swapping-steal-phone-numbers-instagram-bitcoin",
+                    "description": "Lorenzo Franceschi-Bicchierai. (2018, July 17). The SIM Hijackers. Retrieved August 11, 2018.",
+                    "source_name": "Motherboard-Simswap1"
                 }
             ],
             "object_marking_refs": [
@@ -45,14 +55,15 @@
             "x_mitre_tactic_type": [
                 "Without Adversary Device Access"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "phase_name": "cellular-network-based",
+                    "phase_name": "network-effects",
                     "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-10-25T14:48:20.329Z"
         }
     ]

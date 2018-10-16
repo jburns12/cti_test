@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--feb71d65-f9b5-4fe8-ad14-0db5fb94fa4c",
+    "id": "bundle--73bcc832-ea9f-4970-a69e-b2173f7ba032",
     "spec_version": "2.0",
     "objects": [
         {
@@ -13,11 +13,6 @@
                     "external_id": "T1044",
                     "url": "https://attack.mitre.org/techniques/T1044",
                     "source_name": "mitre-attack"
-                },
-                {
-                    "url": "http://seclists.org/fulldisclosure/2015/Dec/34",
-                    "description": "Kanthak, S. (2015, December 8). Executable installers are vulnerable^WEVIL (case 7): 7z*.exe\tallows remote code execution with escalation of privilege. Retrieved March 10, 2017.",
-                    "source_name": "Seclists Kanthak 7zip Installer"
                 },
                 {
                     "url": "https://github.com/mattifestation/PowerSploit",
@@ -38,11 +33,19 @@
                     "url": "https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm",
                     "description": "NSA Information Assurance Directorate. (2014, August). Application Whitelisting Using Microsoft AppLocker. Retrieved March 31, 2016.",
                     "source_name": "NSA MS AppLocker"
+                },
+                {
+                    "url": "http://seclists.org/fulldisclosure/2015/Dec/34",
+                    "description": "Kanthak, S. (2015, December 8). Executable installers are vulnerable^WEVIL (case 7): 7z*.exe\tallows remote code execution with escalation of privilege. Retrieved March 10, 2017.",
+                    "source_name": "Seclists Kanthak 7zip Installer"
                 }
             ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "type": "course-of-action",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2018-09-07T16:42:18.771Z"
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
         }
     ]
 }

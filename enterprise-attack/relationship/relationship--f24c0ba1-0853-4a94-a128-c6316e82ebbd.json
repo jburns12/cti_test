@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--a770d361-1557-4fc8-ba51-479fc276bce2",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--f24c0ba1-0853-4a94-a128-c6316e82ebbd",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[GravityRAT](https://attack.mitre.org/software/S0237) lists the running processes on the system.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://blog.talosintelligence.com/2018/04/gravityrat-two-year-evolution-of-apt.html",
+                    "description": "Mercer, W., Rascagneres, P. (2018, April 26). GravityRAT - The Two-Year Evolution Of An APT Targeting India. Retrieved May 16, 2018.",
+                    "source_name": "Talos GravityRAT"
+                }
+            ],
+            "source_ref": "malware--9b13cf99-77f1-4f97-8725-46cf78c87322",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

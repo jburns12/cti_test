@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ae6e3413-cf66-4b12-a112-344b32c24df1",
+    "id": "bundle--2b8f8423-9d8d-4cb7-ba96-625eebc1734e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "On Android, an adversary could call standard operating system APIs from a malicious application to gather call log data, or with escalated privileges could directly access files containing call log data.\n\nOn iOS, applications do not have access to the call log, so privilege escalation would be required in order to access the data.",
             "external_references": [
                 {
-                    "external_id": "MOB-T1036",
-                    "url": "https://attack.mitre.org/techniques/MOB-T1036",
+                    "external_id": "T1433",
+                    "url": "https://attack.mitre.org/techniques/T1433",
                     "source_name": "mitre-mobile-attack"
                 },
                 {
@@ -31,6 +31,7 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -38,7 +39,7 @@
                     "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-10-25T14:48:11.116Z"
         }
     ]

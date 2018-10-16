@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--3baea073-83d3-4614-9040-72286a7355e6",
+    "id": "bundle--9874ebf0-ed63-44b5-850e-a2627ecc86de",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--36755c7d-92bf-4851-91ef-f1bf41f27210",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Briba](https://attack.mitre.org/software/S0204) downloads files onto infected hosts.",
-            "source_ref": "malware--79499993-a8d6-45eb-b343-bf58dea5bdde",
-            "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Symantec Briba May 2012"
                 }
             ],
+            "source_ref": "malware--79499993-a8d6-45eb-b343-bf58dea5bdde",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--dac3e960-9250-405e-b3a0-6e852351dbd6",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--da4a48c9-5824-4674-af5f-9f1ab51e83e9",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[Kwampirs](https://attack.mitre.org/software/S0236) collects OS version information such as registered owner details, manufacturer details, processor type, available storage, installed patches, hostname, version info, system date, and other system information by using the commands <code>systeminfo</code>, <code>net config workstation</code>, <code>hostname</code>, <code>ver</code>, <code>set</code>, and <code>date /t</code>.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://www.symantec.com/blogs/threat-intelligence/orangeworm-targets-healthcare-us-europe-asia",
+                    "description": "Symantec Security Response Attack Investigation Team. (2018, April 23). New Orangeworm attack group targets the healthcare sector in the U.S., Europe, and Asia. Retrieved May 8, 2018.",
+                    "source_name": "Symantec Orangeworm April 2018"
+                }
+            ],
+            "source_ref": "malware--cbbbafe8-ccaf-48d3-8d72-290954c03f4f",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

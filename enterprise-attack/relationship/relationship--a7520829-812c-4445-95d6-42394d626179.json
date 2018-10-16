@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--7e62ed79-aede-43bd-8463-b82a1b081f45",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--a7520829-812c-4445-95d6-42394d626179",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[OopsIE](https://attack.mitre.org/software/S0264) stages the output from command execution and collected files in specific folders before exfiltration.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://researchcenter.paloaltonetworks.com/2018/02/unit42-oopsie-oilrig-uses-threedollars-deliver-new-trojan/",
+                    "description": "Lee, B., Falcone, R. (2018, February 23). OopsIE! OilRig Uses ThreeDollars to Deliver New Trojan. Retrieved July 16, 2018.",
+                    "source_name": "Unit 42 OopsIE! Feb 2018"
+                }
+            ],
+            "source_ref": "malware--15507fb7-5f02-4926-bf57-2ccb38ca2c69",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--7dd95ff6-712e-4056-9626-312ea4ab4c5e",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

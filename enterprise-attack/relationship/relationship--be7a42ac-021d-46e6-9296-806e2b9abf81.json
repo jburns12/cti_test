@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--a86e05ee-96d1-4958-9e96-20413641ca26",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--be7a42ac-021d-46e6-9296-806e2b9abf81",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[FELIXROOT](https://attack.mitre.org/software/S0267) collects the username from the victim\u2019s machine.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://www.fireeye.com/blog/threat-research/2018/07/microsoft-office-vulnerabilities-used-to-distribute-felixroot-backdoor.html",
+                    "description": "Patil, S. (2018, June 26). Microsoft Office Vulnerabilities Used to Distribute FELIXROOT Backdoor in Recent Campaign. Retrieved July 31, 2018.",
+                    "source_name": "FireEye FELIXROOT July 2018"
+                }
+            ],
+            "source_ref": "malware--3191c8ba-69e8-47c8-bf78-ee79d6d61389",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

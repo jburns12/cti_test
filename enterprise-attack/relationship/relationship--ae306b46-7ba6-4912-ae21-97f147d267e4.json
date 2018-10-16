@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--64695e46-6ba6-4943-9c29-d1bb75f20616",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--ae306b46-7ba6-4912-ae21-97f147d267e4",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[NavRAT](https://attack.mitre.org/software/S0247) uses <code>tasklist /v</code> to check running processes.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://blog.talosintelligence.com/2018/05/navrat.html",
+                    "description": "Mercer, W., Rascagneres, P. (2018, May 31). NavRAT Uses US-North Korea Summit As Decoy For Attacks In South Korea. Retrieved June 11, 2018.",
+                    "source_name": "Talos NavRAT May 2018"
+                }
+            ],
+            "source_ref": "malware--4a4b6e88-fbb9-4ce7-a3ad-5014d8361474",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

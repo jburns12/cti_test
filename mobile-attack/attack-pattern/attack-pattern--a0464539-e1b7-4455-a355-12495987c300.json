@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3e211379-2163-4e27-9703-3fe448e17550",
+    "id": "bundle--d9c02f0d-1820-4550-b8af-f845f271f7d5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "With escalated privileges, an adversary could program the mobile device to impersonate USB devices such as input devices (keyboard and mouse), storage devices, and/or networking devices in order to attack a physically connected PC. Wang and Stavrou (Citation: Wang-ExploitingUSB) and Kamkar (Citation: ArsTechnica-PoisonTap) describe this technique. This technique has been demonstrated on Android, and we are unaware of any demonstrations on iOS.",
             "external_references": [
                 {
-                    "external_id": "MOB-T1030",
-                    "url": "https://attack.mitre.org/techniques/MOB-T1030",
+                    "external_id": "T1427",
+                    "url": "https://attack.mitre.org/techniques/T1427",
                     "source_name": "mitre-mobile-attack"
                 },
                 {
@@ -39,6 +39,7 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -46,7 +47,7 @@
                     "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-10-25T14:48:13.625Z"
         }
     ]

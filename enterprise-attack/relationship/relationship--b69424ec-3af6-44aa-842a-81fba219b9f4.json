@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--96043c65-816a-48bd-8656-8a8f04b8eefd",
+    "id": "bundle--40736806-f526-471b-83e8-f4c2472b4758",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--b69424ec-3af6-44aa-842a-81fba219b9f4",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Darkhotel](https://attack.mitre.org/groups/G0012) has used code-signing certificates on its malware that are either forged due to weak keys or stolen.",
-            "source_ref": "intrusion-set--9e729a7e-0dd6-4097-95bf-db8d64911383",
-            "target_ref": "attack-pattern--1b84d551-6de8-4b96-9930-d177677c3b1d",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Kaspersky Darkhotel"
                 }
             ],
+            "source_ref": "intrusion-set--9e729a7e-0dd6-4097-95bf-db8d64911383",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--1b84d551-6de8-4b96-9930-d177677c3b1d",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:33:27.047Z"
         }
     ]

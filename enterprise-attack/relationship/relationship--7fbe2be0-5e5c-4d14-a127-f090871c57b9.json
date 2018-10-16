@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--501c83ff-cea1-4d43-a943-c473e9913228",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--7fbe2be0-5e5c-4d14-a127-f090871c57b9",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[UPPERCUT](https://attack.mitre.org/software/S0275) can download and upload files to and from the victim\u2019s machine.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+                    "description": "Matsuda, A., Muhammad I. (2018, September 13). APT10 Targeting Japanese Corporations Using Updated TTPs. Retrieved September 17, 2018.",
+                    "source_name": "FireEye APT10 Sept 2018"
+                }
+            ],
+            "source_ref": "malware--28d93fb7-ff28-4448-8e18-8f4ef2daf54b",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

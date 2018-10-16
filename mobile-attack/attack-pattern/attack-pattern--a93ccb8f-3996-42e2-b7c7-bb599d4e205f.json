@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ff6eb972-b6e1-434a-afad-bf6778678618",
+    "id": "bundle--4dffcebf-6d44-41ee-b848-e54df3173dbd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "An adversary could download a legitimate app, disassemble it, add malicious code, and then reassemble the app, for example as described by  (Citation: Zhou) and Jiang in  (Citation: Zhou). The app would appear to be the original app but contain additional malicious functionality. The adversary could then publish this app to app stores or use another delivery technique.",
             "external_references": [
                 {
-                    "external_id": "MOB-T1047",
-                    "url": "https://attack.mitre.org/techniques/MOB-T1047",
+                    "external_id": "T1444",
+                    "url": "https://attack.mitre.org/techniques/T1444",
                     "source_name": "mitre-mobile-attack"
                 },
                 {
@@ -34,20 +34,17 @@
                 "iOS"
             ],
             "x_mitre_tactic_type": [
-                "Pre-Adversary Device Access"
+                "Post-Adversary Device Access"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "phase_name": "app-delivery-via-authorized-app-store",
-                    "kill_chain_name": "mitre-mobile-attack"
-                },
-                {
-                    "phase_name": "app-delivery-via-other-means",
+                    "phase_name": "initial-access",
                     "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-10-25T14:48:35.247Z"
         }
     ]

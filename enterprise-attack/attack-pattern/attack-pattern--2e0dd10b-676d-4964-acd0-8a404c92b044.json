@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d8a137b1-121f-4a3c-adb0-0a245c386201",
+    "id": "bundle--bad5efd5-e42b-4d23-bb32-bc96a35acd63",
     "spec_version": "2.0",
     "objects": [
         {
@@ -25,18 +25,18 @@
             ],
             "x_mitre_data_sources": [
                 "API monitoring",
-                "Anti-virus",
                 "File monitoring",
                 "Services",
                 "Windows Registry",
-                "Process command-line parameters"
+                "Process command-line parameters",
+                "Anti-virus"
             ],
             "x_mitre_defense_bypassed": [
-                "Anti-virus",
                 "File monitoring",
                 "Host intrusion prevention systems",
                 "Signature-based detection",
-                "Log analysis"
+                "Log analysis",
+                "Anti-virus"
             ],
             "x_mitre_detection": "Monitor processes and command-line arguments to see if security tools are killed or stop running. Monitor Registry edits for modifications to services and startup programs that correspond to security tools. Lack of log or event file reporting may be suspicious.",
             "x_mitre_platforms": [
@@ -44,6 +44,7 @@
                 "macOS",
                 "Windows"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -51,7 +52,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:31:07.958Z"
         }
     ]

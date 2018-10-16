@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--fb6f8929-7c5c-447f-81ad-35d0d576552f",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--771555f6-2df3-4de0-a2dc-0d63b5d76949",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[CrossRAT](https://attack.mitre.org/software/S0235) uses run keys for persistence on Windows",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "source_ref": "malware--ca1d1093-bcc1-4365-8fac-a9b29f0ec852",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--9422fc14-1c43-410d-ab0f-a709b76c72dc",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

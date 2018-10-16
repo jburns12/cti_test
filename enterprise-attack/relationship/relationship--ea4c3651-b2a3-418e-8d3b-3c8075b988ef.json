@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--668f74d7-1c3f-4460-999a-c28ae636e2bd",
+    "id": "bundle--23b65729-176e-4094-96eb-bab55c3757eb",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--ea4c3651-b2a3-418e-8d3b-3c8075b988ef",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[BUBBLEWRAP](https://attack.mitre.org/software/S0043) collects system information, including the operating system version and hostname.",
-            "source_ref": "malware--123bd7b3-675c-4b1a-8482-c55782b20e2b",
-            "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "FireEye admin@338"
                 }
             ],
+            "source_ref": "malware--123bd7b3-675c-4b1a-8482-c55782b20e2b",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

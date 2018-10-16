@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5b7294e2-485a-4aa5-a89a-4d805a8015d7",
+    "id": "bundle--06b12d96-9132-43ae-824d-745e1863395d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -20,19 +20,22 @@
                     "source_name": "TechNet Credential Theft"
                 },
                 {
-                    "url": "https://docs.microsoft.com/en-us/windows-server/identity/securing-privileged-access/securing-privileged-access-reference-material#a-nameesaebmaesae-administrative-forest-design-approach",
-                    "description": "Plett, C., Poggemeyer, L. (12, October 26). Securing Privileged Access Reference Material. Retrieved April 25, 2017.",
-                    "source_name": "Microsoft Securing Privileged Access"
-                },
-                {
                     "url": "https://technet.microsoft.com/en-us/library/dn487450.aspx",
                     "description": "Microsoft. (2016, April 16). Implementing Least-Privilege Administrative Models. Retrieved June 3, 2016.",
                     "source_name": "TechNet Least Privilege"
+                },
+                {
+                    "url": "https://docs.microsoft.com/en-us/windows-server/identity/securing-privileged-access/securing-privileged-access-reference-material#a-nameesaebmaesae-administrative-forest-design-approach",
+                    "description": "Plett, C., Poggemeyer, L. (12, October 26). Securing Privileged Access Reference Material. Retrieved April 25, 2017.",
+                    "source_name": "Microsoft Securing Privileged Access"
                 }
             ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "type": "course-of-action",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2018-09-07T16:42:18.771Z"
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
         }
     ]
 }

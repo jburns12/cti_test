@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--8a1a2846-de21-4972-afce-bded812b962e",
+    "id": "bundle--3c5cac6a-b6a8-4c4a-948f-2e0bdb1bb30e",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--5c8fba10-9d8a-4257-a458-8f58efc8d912",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) uses command-line interaction to search files and directories.",
-            "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
-            "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Villeneuve et al 2014"
                 }
             ],
+            "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:33:27.033Z"
         }
     ]

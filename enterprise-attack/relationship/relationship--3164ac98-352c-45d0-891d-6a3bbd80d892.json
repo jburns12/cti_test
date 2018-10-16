@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--862aefa3-d32d-4080-82e2-dcc77cbacc23",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--3164ac98-352c-45d0-891d-6a3bbd80d892",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[Dok](https://attack.mitre.org/software/S0281) installs a root certificate to aid in man-in-the-middle actions.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://objective-see.com/blog/blog_0x25.html",
+                    "description": "Patrick Wardle. (n.d.). Mac Malware of 2017. Retrieved September 21, 2018.",
+                    "source_name": "objsee mac malware 2017"
+                }
+            ],
+            "source_ref": "malware--ea29dfb5-dfe1-4b9d-b5e4-77537e096d98",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--d519cfd5-f3a8-43a9-a846-ed0bb40672b1",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

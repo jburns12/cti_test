@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--d33868f5-ef08-4680-b9d8-ec1c1d418ac7",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--d924c1a6-1f7d-401d-a9dd-784d9336c968",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[Socksbot](https://attack.mitre.org/software/S0273) creates a suspended svchost process and injects its DLL into it.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://documents.trendmicro.com/assets/tech-brief-untangling-the-patchwork-cyberespionage-group.pdf",
+                    "description": "Lunghi, D., et al. (2017, December). Untangling the Patchwork Cyberespionage Group. Retrieved July 10, 2018.",
+                    "source_name": "TrendMicro Patchwork Dec 2017"
+                }
+            ],
+            "source_ref": "malware--ef9706d4-6475-4506-aed9-2a763ac4e17c",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--91134e8b-ae10-49a2-a1c9-4776186b076a",
+    "id": "bundle--8dc96ee4-0a87-482b-8d9b-a2a1c3545d11",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--be2d0ead-f24c-4b76-bdd9-695d163bcbf3",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[PowerSploit](https://attack.mitre.org/software/S0194)'s <code>Install-SSP</code> Persistence module can be used to establish by installing a SSP DLL.",
-            "source_ref": "tool--13cd9151-83b7-410d-9f98-25d0f0d1d80d",
-            "target_ref": "attack-pattern--6c174520-beea-43d9-aac6-28fb77f3e446",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -25,8 +22,11 @@
                     "source_name": "PowerSploit Documentation"
                 }
             ],
+            "source_ref": "tool--13cd9151-83b7-410d-9f98-25d0f0d1d80d",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--6c174520-beea-43d9-aac6-28fb77f3e446",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--19c30ef9-7eb7-4632-9383-e760a6ac970f",
+    "id": "bundle--448d9453-e768-458f-8b6a-45ce1c7141c8",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--aea8401e-774e-47b1-86ac-220cacd11a3c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[FIN6](https://attack.mitre.org/groups/G0037) has used scheduled tasks to establish persistence for various malware it uses, including downloaders known as HARDTACK and SHIPBREAD and PoS malware known as TRINITY.",
-            "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
-            "target_ref": "attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "FireEye FIN6 April 2016"
                 }
             ],
+            "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:33:27.071Z"
         }
     ]

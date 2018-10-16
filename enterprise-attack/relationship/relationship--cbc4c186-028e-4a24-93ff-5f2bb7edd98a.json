@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--bb06da56-0f5c-4473-af6e-bd1d4f1fa91b",
+    "id": "bundle--52acd6f7-d468-47a5-81ba-38eb279575eb",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--cbc4c186-028e-4a24-93ff-5f2bb7edd98a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Pisloader](https://attack.mitre.org/software/S0124) obfuscates files by splitting strings into smaller sub-strings and including \"garbage\" strings that are never used. The malware also uses return-oriented programming (ROP) technique and single-byte XOR to obfuscate data.",
-            "source_ref": "malware--b96680d1-5eb3-4f07-b95c-00ab904ac236",
-            "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Palo Alto DNS Requests"
                 }
             ],
+            "source_ref": "malware--b96680d1-5eb3-4f07-b95c-00ab904ac236",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

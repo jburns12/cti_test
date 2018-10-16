@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--49d437ab-2dd2-449a-8c01-10af559cc6bf",
+    "id": "bundle--21b7d8ff-7be5-44a5-846b-896bed31dd51",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "Application developers should use device-provided credential storage mechanisms such as Android's KeyStore or iOS's KeyChain. These can prevent credentials from being exposed to an adversary.",
             "external_references": [
                 {
-                    "external_id": "MOB-M1008",
-                    "url": "https://attack.mitre.org/mitigations/MOB-M1008",
+                    "external_id": "M1008",
+                    "url": "https://attack.mitre.org/mitigations/M1008",
                     "source_name": "mitre-mobile-attack"
                 }
             ],
@@ -19,7 +19,7 @@
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "type": "course-of-action",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-10-25T14:48:51.053Z"
         }
     ]

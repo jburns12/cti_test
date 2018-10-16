@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--9f217e8c-1103-481f-8080-aa7ca02d5ea9",
+    "id": "bundle--e603b6c2-1b85-463a-85cf-ad50028f2027",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--7bb2d594-36dc-458d-9f9b-8a3df42fac67",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[ZeroT](https://attack.mitre.org/software/S0230) gathers the victim's computer name, Windows version, and system language, and then sends it to its C2 server.",
-            "source_ref": "malware--4ab44516-ad75-4e43-a280-705dc0420e2f",
-            "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Proofpoint ZeroT Feb 2017"
                 }
             ],
+            "source_ref": "malware--4ab44516-ad75-4e43-a280-705dc0420e2f",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

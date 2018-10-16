@@ -1,33 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--4dc9a305-bdc8-4f26-97f0-4a92be00bd78",
+    "id": "bundle--35b6ab96-3737-4556-97e6-2d48ae4c3bb0",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--772bc7a8-a157-42cc-8728-d648e25c7fe7",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Distributed Component Object Model",
-            "description": "Windows Distributed Component Object Model (DCOM) is transparent middleware that extends the functionality of Component Object Model (COM) (Citation: Microsoft COM) beyond a local computer using remote procedure call (RPC) technology. COM is a component of the Windows application programming interface (API) that enables interaction between software objects. Through COM, a client object can call methods of server objects, which are typically Dynamic Link Libraries (DLL) or executables (EXE).\n\nPermissions to interact with local and remote server COM objects are specified by access control lists (ACL) in the Registry. (Citation: Microsoft COM) ACL (Citation: Microsoft Process Wide Com Keys) (Citation: Microsoft System Wide Com Keys) By default, only Administrators may remotely activate and launch COM objects through DCOM.\n\nAdversaries may use DCOM for lateral movement. Through DCOM, adversaries operating in the context of an appropriately privileged user can remotely obtain arbitrary and even direct shellcode execution through Office applications (Citation: Enigma Outlook DCOM Lateral Movement Nov 2017) as well as other Windows objects that contain insecure methods. (Citation: Enigma MMC20 COM Jan 2017) (Citation: Enigma DCOM Lateral Movement Jan 2017) DCOM can also execute macros in existing documents (Citation: Enigma Excel DCOM Sept 2017) and may also invoke [Dynamic Data Exchange](https://attack.mitre.org/techniques/T1173) (DDE) execution directly through a COM created instance of a Microsoft Office application (Citation: Cyberreason DCOM DDE Lateral Movement Nov 2017), bypassing the need for a malicious document.",
+            "description": "Windows Distributed Component Object Model (DCOM) is transparent middleware that extends the functionality of Component Object Model (COM) (Citation: Microsoft COM) beyond a local computer using remote procedure call (RPC) technology. COM is a component of the Windows application programming interface (API) that enables interaction between software objects. Through COM, a client object can call methods of server objects, which are typically Dynamic Link Libraries (DLL) or executables (EXE).\n\nPermissions to interact with local and remote server COM objects are specified by access control lists (ACL) in the Registry. (Citation: Microsoft COM) ACL (Citation: Microsoft Process Wide Com Keys) (Citation: Microsoft System Wide Com Keys) By default, only Administrators may remotely activate and launch COM objects through DCOM.\n\nAdversaries may use DCOM for lateral movement. Through DCOM, adversaries operating in the context of an appropriately privileged user can remotely obtain arbitrary and even direct shellcode execution through Office applications (Citation: Enigma Outlook DCOM Lateral Movement Nov 2017) as well as other Windows objects that contain insecure methods. (Citation: Enigma MMC20 COM Jan 2017) (Citation: Enigma DCOM Lateral Movement Jan 2017) DCOM can also execute macros in existing documents (Citation: Enigma Excel DCOM Sept 2017) and may also invoke [Dynamic Data Exchange](https://attack.mitre.org/techniques/T1173) (DDE) execution directly through a COM created instance of a Microsoft Office application (Citation: Cyberreason DCOM DDE Lateral Movement Nov 2017), bypassing the need for a malicious document.\n\nDCOM may also expose functionalities that can be leveraged during other areas of the adversary chain of activity such as Privilege Escalation and Persistence. (Citation: ProjectZero File Write EoP Apr 2018)",
             "external_references": [
                 {
                     "external_id": "T1175",
                     "url": "https://attack.mitre.org/techniques/T1175",
                     "source_name": "mitre-attack"
-                },
-                {
-                    "url": "https://msdn.microsoft.com/library/windows/desktop/ms680573.aspx",
-                    "description": "Microsoft. (n.d.). Component Object Model (COM). Retrieved November 22, 2017.",
-                    "source_name": "Microsoft COM"
-                },
-                {
-                    "url": "https://msdn.microsoft.com/en-us/library/windows/desktop/ms687317(v=vs.85).aspx",
-                    "description": "Microsoft. (n.d.). Setting Process-Wide Security Through the Registry. Retrieved November 21, 2017.",
-                    "source_name": "Microsoft Process Wide Com Keys"
-                },
-                {
-                    "url": "https://msdn.microsoft.com/en-us/library/windows/desktop/ms694331(v=vs.85).aspx",
-                    "description": "Microsoft. (n.d.). Registry Values for System-Wide Security. Retrieved November 21, 2017.",
-                    "source_name": "Microsoft System Wide Com Keys"
                 },
                 {
                     "url": "https://enigma0x3.net/2017/11/16/lateral-movement-using-outlooks-createobject-method-and-dotnettojscript/",
@@ -53,6 +38,26 @@
                     "url": "https://www.cybereason.com/blog/leveraging-excel-dde-for-lateral-movement-via-dcom",
                     "description": "Tsukerman, P. (2017, November 8). Leveraging Excel DDE for lateral movement via DCOM. Retrieved November 21, 2017.",
                     "source_name": "Cyberreason DCOM DDE Lateral Movement Nov 2017"
+                },
+                {
+                    "url": "https://msdn.microsoft.com/en-us/library/windows/desktop/ms687317(v=vs.85).aspx",
+                    "description": "Microsoft. (n.d.). Setting Process-Wide Security Through the Registry. Retrieved November 21, 2017.",
+                    "source_name": "Microsoft Process Wide Com Keys"
+                },
+                {
+                    "url": "https://msdn.microsoft.com/en-us/library/windows/desktop/ms694331(v=vs.85).aspx",
+                    "description": "Microsoft. (n.d.). Registry Values for System-Wide Security. Retrieved November 21, 2017.",
+                    "source_name": "Microsoft System Wide Com Keys"
+                },
+                {
+                    "url": "https://msdn.microsoft.com/library/windows/desktop/ms680573.aspx",
+                    "description": "Microsoft. (n.d.). Component Object Model (COM). Retrieved November 22, 2017.",
+                    "source_name": "Microsoft COM"
+                },
+                {
+                    "url": "https://googleprojectzero.blogspot.com/2018/04/windows-exploitation-tricks-exploiting.html",
+                    "description": "Forshaw, J. (2018, April 18). Windows Exploitation Tricks: Exploiting Arbitrary File Writes for Local Elevation of Privilege. Retrieved May 3, 2018.",
+                    "source_name": "ProjectZero File Write EoP Apr 2018"
                 }
             ],
             "object_marking_refs": [
@@ -72,6 +77,7 @@
                 "Administrator",
                 "SYSTEM"
             ],
+            "x_mitre_version": "1.0",
             "x_mitre_platforms": [
                 "Windows"
             ],
@@ -82,7 +88,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--a2fe2dc2-6558-4145-b2d8-19cb5d1997d4",
+    "id": "bundle--ff65fe68-7f14-4d02-913f-db65e0371fa1",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--f81df2c8-1edd-4734-a1c9-cca6e4c56607",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Kasidet](https://attack.mitre.org/software/S0088) has the ability to change firewall settings to allow a plug-in to be downloaded.",
-            "source_ref": "malware--26fed817-e7bf-41f9-829a-9075ffac45c2",
-            "target_ref": "attack-pattern--2e0dd10b-676d-4964-acd0-8a404c92b044",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Zscaler Kasidet"
                 }
             ],
+            "source_ref": "malware--26fed817-e7bf-41f9-829a-9075ffac45c2",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--2e0dd10b-676d-4964-acd0-8a404c92b044",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

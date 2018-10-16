@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--7c4ce7a1-6c90-43f1-80b6-eb5377172bd3",
+    "id": "bundle--d5a9a0f0-e5b8-4564-89a8-b8763ac49961",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--075e7d33-8d5c-4016-9a24-dc6e61f56fcd",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "Some variants of [ADVSTORESHELL](https://attack.mitre.org/software/S0045) achieve persistence by registering the payload as a Shell Icon Overlay handler COM object.",
-            "source_ref": "malware--fb575479-14ef-41e9-bfab-0b7cf10bec73",
-            "target_ref": "attack-pattern--9b52fca7-1a36-4da0-b62d-da5bd83b4d69",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "ESET Sednit Part 2"
                 }
             ],
+            "source_ref": "malware--fb575479-14ef-41e9-bfab-0b7cf10bec73",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--9b52fca7-1a36-4da0-b62d-da5bd83b4d69",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

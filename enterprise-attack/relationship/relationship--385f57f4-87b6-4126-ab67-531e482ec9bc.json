@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--72eaf0b1-37be-40aa-9b7e-223cc14df95a",
+    "id": "bundle--3ab6c9e3-bbff-4930-8679-82c5b66efffe",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--385f57f4-87b6-4126-ab67-531e482ec9bc",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Regin](https://attack.mitre.org/software/S0019) contains a keylogger.",
-            "source_ref": "malware--4c59cce8-cb48-4141-b9f1-f646edfaadb0",
-            "target_ref": "attack-pattern--bb5a00de-e086-4859-a231-fa793f6797e2",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Kaspersky Regin"
                 }
             ],
+            "source_ref": "malware--4c59cce8-cb48-4141-b9f1-f646edfaadb0",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--bb5a00de-e086-4859-a231-fa793f6797e2",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

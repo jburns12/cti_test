@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--28b5374f-6dcb-41b5-bbf9-2f1c6c14a6cd",
+    "id": "bundle--43a87d63-58ec-4a64-8a0b-39300595e354",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--b7652f27-1cf6-4310-bf6b-5fb99c4fd725",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "[Pegasus](https://attack.mitre.org/software/MOB-S0005) has the ability to record audio.",
-            "source_ref": "malware--33d9d91d-aad9-49d5-a516-220ce101ac8a",
-            "target_ref": "attack-pattern--6683aa0c-d98a-4f5b-ac57-ca7e9934a760",
+            "description": "[Pegasus for iOS](https://attack.mitre.org/software/S0289) has the ability to record audio.",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Lookout-Pegasus"
                 }
             ],
+            "source_ref": "malware--33d9d91d-aad9-49d5-a516-220ce101ac8a",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--6683aa0c-d98a-4f5b-ac57-ca7e9934a760",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--d77e5b80-961a-4bdd-b561-01c87197a8fb",
+    "id": "bundle--ce71b62a-9e06-4b98-9353-d5788484b076",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--59a6700b-3ae5-4039-a07c-cbbf6eb7a78e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Threat Group-3390](https://attack.mitre.org/groups/G0027) has deployed backup web shells and obtained OWA account credentials during intrusions that it subsequently used to attempt to regain access when evicted from a victim network.",
-            "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
-            "target_ref": "attack-pattern--6aabc5ec-eae6-422c-8311-38d45ee9838a",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "SecureWorks BRONZE UNION June 2017"
                 }
             ],
+            "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--6aabc5ec-eae6-422c-8311-38d45ee9838a",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

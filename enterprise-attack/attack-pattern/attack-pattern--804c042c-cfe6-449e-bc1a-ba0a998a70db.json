@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--1b311ac5-5775-4e98-878d-b01c72d366c6",
+    "id": "bundle--7efb06f5-6f30-42a2-9af3-aea49013fbec",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--804c042c-cfe6-449e-bc1a-ba0a998a70db",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Shared Webroot",
-            "description": "Adversaries may add malicious content to an internally accessible website through an open network file share that contains the website's webroot or Web content directory and then browse to that content with a Web browser to cause the server to execute the malicious content. The malicious content will typically run under the context and permissions of the Web server process, often resulting in local system or administrative privileges, depending on how the Web server is configured.\n\nThis mechanism of shared access and remote execution could be used for lateral movement to the system running the Web server. For example, a Web server running PHP with an open network share could allow an adversary to upload a remote access tool and PHP script to execute the RAT on the system running the Web server when a specific page is visited.",
+            "description": "Adversaries may add malicious content to an internally accessible website through an open network file share that contains the website's webroot or Web content directory (Citation: Microsoft Web Root OCT 2016) (Citation: Apache Server 2018) and then browse to that content with a Web browser to cause the server to execute the malicious content. The malicious content will typically run under the context and permissions of the Web server process, often resulting in local system or administrative privileges, depending on how the Web server is configured.\n\nThis mechanism of shared access and remote execution could be used for lateral movement to the system running the Web server. For example, a Web server running PHP with an open network share could allow an adversary to upload a remote access tool and PHP script to execute the RAT on the system running the Web server when a specific page is visited. (Citation: Webroot PHP 2011)",
             "external_references": [
                 {
                     "external_id": "T1051",
@@ -18,6 +18,20 @@
                     "external_id": "CAPEC-563",
                     "url": "https://capec.mitre.org/data/definitions/563.html",
                     "source_name": "capec"
+                },
+                {
+                    "description": "Microsoft. (2016, October 20). How to: Find the Web Application Root. Retrieved July 27, 2018.",
+                    "source_name": "Microsoft Web Root OCT 2016"
+                },
+                {
+                    "url": "http://httpd.apache.org/docs/2.4/getting-started.html#content",
+                    "description": "Apache. (n.d.). Apache HTTP Server Version 2.4 Documentation - Web Site Content. Retrieved July 27, 2018.",
+                    "source_name": "Apache Server 2018"
+                },
+                {
+                    "url": "https://www.webroot.com/blog/2011/02/22/malicious-php-scripts-on-the-rise/",
+                    "description": "Brandt, Andrew. (2011, February 22). Malicious PHP Scripts on the Rise. Retrieved October 3, 2018.",
+                    "source_name": "Webroot PHP 2011"
                 }
             ],
             "object_marking_refs": [
@@ -31,6 +45,7 @@
             "x_mitre_system_requirements": [
                 "Shared webroot directory on remote system"
             ],
+            "x_mitre_version": "1.0",
             "x_mitre_platforms": [
                 "Windows"
             ],
@@ -41,7 +56,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:30:46.047Z"
         }
     ]

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--be5a7887-8b69-4621-8fcd-e3186a86dcb6",
+    "id": "bundle--e3e6056d-f083-43d6-b5ce-b386ee9a98f2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -15,14 +15,14 @@
                     "source_name": "mitre-attack"
                 },
                 {
+                    "url": "https://www.fireeye.com/blog/threat-research/2016/02/greater_visibilityt.html",
+                    "description": "Dunwoody, M. (2016, February 11). GREATER VISIBILITY THROUGH POWERSHELL LOGGING. Retrieved February 16, 2016.",
+                    "source_name": "FireEye PowerShell Logging 2016"
+                },
+                {
                     "url": "https://technet.microsoft.com/en-us/scriptcenter/dd742419.aspx",
                     "description": "Microsoft. (n.d.). Windows PowerShell Scripting. Retrieved April 28, 2016.",
                     "source_name": "TechNet PowerShell"
-                },
-                {
-                    "url": "https://github.com/PowerShellEmpire/Empire",
-                    "description": "Schroeder, W., Warner, J., Nelson, M. (n.d.). Github PowerShellEmpire. Retrieved April 28, 2016.",
-                    "source_name": "Github PowerShell Empire"
                 },
                 {
                     "url": "https://github.com/mattifestation/PowerSploit",
@@ -35,14 +35,14 @@
                     "source_name": "Github PSAttack"
                 },
                 {
+                    "url": "https://github.com/PowerShellEmpire/Empire",
+                    "description": "Schroeder, W., Warner, J., Nelson, M. (n.d.). Github PowerShellEmpire. Retrieved April 28, 2016.",
+                    "source_name": "Github PowerShell Empire"
+                },
+                {
                     "url": "http://www.malwarearchaeology.com/s/Windows-PowerShell-Logging-Cheat-Sheet-ver-June-2016-v2.pdf",
                     "description": "Malware Archaeology. (2016, June). WINDOWS POWERSHELL LOGGING CHEAT SHEET - Win 7/Win 2008 or later. Retrieved June 24, 2016.",
                     "source_name": "Malware Archaeology PowerShell Cheat Sheet"
-                },
-                {
-                    "url": "https://www.fireeye.com/blog/threat-research/2016/02/greater_visibilityt.html",
-                    "description": "Dunwoody, M. (2016, February 11). GREATER VISIBILITY THROUGH POWERSHELL LOGGING. Retrieved February 16, 2016.",
-                    "source_name": "FireEye PowerShell Logging 2016"
                 }
             ],
             "object_marking_refs": [
@@ -52,14 +52,15 @@
             "x_mitre_data_sources": [
                 "Windows Registry",
                 "File monitoring",
-                "Process command-line parameters",
-                "Process monitoring"
+                "Process monitoring",
+                "Process command-line parameters"
             ],
             "x_mitre_permissions_required": [
                 "User",
                 "Administrator"
             ],
             "x_mitre_remote_support": true,
+            "x_mitre_version": "1.0",
             "x_mitre_platforms": [
                 "Windows"
             ],
@@ -70,7 +71,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:31:06.512Z"
         }
     ]

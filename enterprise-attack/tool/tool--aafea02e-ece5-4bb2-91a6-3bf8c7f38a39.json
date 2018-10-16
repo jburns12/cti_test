@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c4836a87-f148-43f9-bbf8-dc4a8aae64c1",
+    "id": "bundle--f22008aa-626d-4c30-a320-bee506bae322",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,9 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Cobalt Strike",
             "description": "[Cobalt Strike](https://attack.mitre.org/software/S0154) is a commercial, full-featured, penetration testing tool which bills itself as \u201cadversary simulation software designed to execute targeted attacks and emulate the post-exploitation actions of advanced threat actors\u201d.  Cobalt Strike\u2019s interactive post-exploit capabilities cover the full range of ATT&CK tactics, all executed within a single, integrated system. (Citation: cobaltstrike manual)\n\nIn addition to its own capabilities, [Cobalt Strike](https://attack.mitre.org/software/S0154) leverages the capabilities of other well-known tools such as Metasploit and [Mimikatz](https://attack.mitre.org/software/S0002). (Citation: cobaltstrike manual)",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "external_references": [
                 {
                     "external_id": "S0154",
@@ -20,15 +23,13 @@
                     "source_name": "cobaltstrike manual"
                 }
             ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
             "x_mitre_aliases": [
                 "Cobalt Strike"
             ],
             "x_mitre_contributors": [
                 "Josh Abraham"
             ],
+            "x_mitre_version": "1.0",
             "x_mitre_platforms": [
                 "Windows"
             ],
@@ -36,7 +37,7 @@
             "labels": [
                 "tool"
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1f31494f-62fa-4873-b6ba-d79c3ef270a5",
+    "id": "bundle--edaca9fb-5e16-473a-9e97-d9fb47a04e4c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "An adversary could set up a rogue cellular base station and then use it to eavesdrop on or manipulate cellular device communication. For example, Ritter and DePerry of iSEC Partners demonstrated this technique using a compromised cellular femtocell at Black Hat USA 2013 (Citation: Computerworld-Femtocell).",
             "external_references": [
                 {
-                    "external_id": "MOB-T1070",
-                    "url": "https://attack.mitre.org/techniques/MOB-T1070",
+                    "external_id": "T1467",
+                    "url": "https://attack.mitre.org/techniques/T1467",
                     "source_name": "mitre-mobile-attack"
                 },
                 {
@@ -35,14 +35,15 @@
             "x_mitre_tactic_type": [
                 "Without Adversary Device Access"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "phase_name": "cellular-network-based",
+                    "phase_name": "network-effects",
                     "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-10-25T14:48:22.296Z"
         }
     ]

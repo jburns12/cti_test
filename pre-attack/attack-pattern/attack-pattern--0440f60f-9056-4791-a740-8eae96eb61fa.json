@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a6702979-90aa-4557-a147-8e60bb9e88b9",
+    "id": "bundle--a6711788-a9da-4c50-b41f-29f883c11f51",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "This technique has been deprecated. Please see ATT&CK's Initial Access and Execution tactics for replacement techniques.\n\nClicking on links in email, opening attachments, or visiting websites that result in drive by downloads can all result in compromise due to users performing actions of a cyber nature. (Citation: AnonHBGary)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1163",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1163",
+                    "external_id": "T1386",
+                    "url": "https://attack.mitre.org/techniques/T1386",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -27,6 +27,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Some environments have anti-spearphishing mechanisms to detect or block the link before it reaches the user.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Users unwittingly click on spearphishing links frequently, despite training designed to educate about the perils of spearphishing.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -34,7 +35,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

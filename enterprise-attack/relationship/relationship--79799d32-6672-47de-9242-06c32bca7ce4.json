@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--5c83317c-6127-407f-997c-0d5fbdc67dea",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--79799d32-6672-47de-9242-06c32bca7ce4",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[Mosquito](https://attack.mitre.org/software/S0256) uses the <code>ipconfig</code> command.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://www.welivesecurity.com/wp-content/uploads/2018/01/ESET_Turla_Mosquito.pdf",
+                    "description": "ESET, et al. (2018, January). Diplomats in Eastern Europe bitten by a Turla mosquito. Retrieved July 3, 2018.",
+                    "source_name": "ESET Turla Mosquito Jan 2018"
+                }
+            ],
+            "source_ref": "malware--45575251-34d5-462c-b70c-d5bea0c69f56",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

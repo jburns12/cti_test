@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--c0a1d15f-7132-4f29-b616-1a24060c3405",
+    "id": "bundle--dd43b6db-e4cf-45a4-bb83-705300274a11",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--9fe01f98-e0b3-4749-b9a6-eb10c216c548",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[BLACKCOFFEE](https://attack.mitre.org/software/S0069) has the capability to delete files.",
-            "source_ref": "malware--d69c8146-ab35-4d50-8382-6fc80e641d43",
-            "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "FireEye APT17"
                 }
             ],
+            "source_ref": "malware--d69c8146-ab35-4d50-8382-6fc80e641d43",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

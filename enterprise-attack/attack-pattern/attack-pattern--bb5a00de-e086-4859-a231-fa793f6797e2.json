@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--14ad3d68-9633-43f3-96c0-59f7cb8bedd1",
+    "id": "bundle--19f9a6cd-768e-4bf7-8f38-8f07a8fd6af1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -20,18 +20,19 @@
                     "source_name": "capec"
                 },
                 {
+                    "url": "http://opensecuritytraining.info/Keylogging_files/The%20Adventures%20of%20a%20Keystroke.pdf",
                     "description": "Tinaztepe,  E. (n.d.). The Adventures of a Keystroke:  An in-depth look into keyloggers on Windows. Retrieved April 27, 2016.",
                     "source_name": "Adventures of a Keystroke"
-                },
-                {
-                    "url": "http://blog.leetsys.com/2012/01/02/capturing-windows-7-credentials-at-logon-using-custom-credential-provider/",
-                    "description": "Wrightson, T. (2012, January 2). CAPTURING WINDOWS 7 CREDENTIALS AT LOGON USING CUSTOM CREDENTIAL PROVIDER. Retrieved November 12, 2014.",
-                    "source_name": "Wrightson 2012"
                 },
                 {
                     "url": "https://www.volexity.com/blog/2015/10/07/virtual-private-keylogging-cisco-web-vpns-leveraged-for-access-and-persistence/",
                     "description": "Adair, S. (2015, October 7). Virtual Private Keylogging: Cisco Web VPNs Leveraged for Access and Persistence. Retrieved March 20, 2017.",
                     "source_name": "Volexity Virtual Private Keylogging"
+                },
+                {
+                    "url": "http://blog.leetsys.com/2012/01/02/capturing-windows-7-credentials-at-logon-using-custom-credential-provider/",
+                    "description": "Wrightson, T. (2012, January 2). CAPTURING WINDOWS 7 CREDENTIALS AT LOGON USING CUSTOM CREDENTIAL PROVIDER. Retrieved November 12, 2014.",
+                    "source_name": "Wrightson 2012"
                 }
             ],
             "object_marking_refs": [
@@ -46,7 +47,7 @@
                 "Process monitoring",
                 "API monitoring"
             ],
-            "x_mitre_detection": "Keyloggers may take many forms, possibly involving modification to the Registry and installation of a driver, setting a hook, or polling to intercept keystrokes. Commonly used API calls include SetWindowsHook, GetKeyState, and GetAsynceyState. (Citation: Adventures of a Keystroke) Monitor the Registry and file system for such changes and detect driver installs, as well as looking for common keylogging API calls. API calls alone are not an indicator of keylogging, but may provide behavioral data that is useful when combined with other information such as new files written to disk and unusual processes.\n\nMonitor the Registry for the addition of a Custom Credential Provider. (Citation: Wrightson 2012) Detection of compromised [Valid Accounts](https://attack.mitre.org/techniques/T1078) in use by adversaries may help to catch the result of user input interception if new techniques are used.",
+            "x_mitre_detection": "Keyloggers may take many forms, possibly involving modification to the Registry and installation of a driver, setting a hook, or polling to intercept keystrokes. Commonly used API calls include SetWindowsHook, GetKeyState, and GetAsyncKeyState. (Citation: Adventures of a Keystroke) Monitor the Registry and file system for such changes and detect driver installs, as well as looking for common keylogging API calls. API calls alone are not an indicator of keylogging, but may provide behavioral data that is useful when combined with other information such as new files written to disk and unusual processes.\n\nMonitor the Registry for the addition of a Custom Credential Provider. (Citation: Wrightson 2012) Detection of compromised [Valid Accounts](https://attack.mitre.org/techniques/T1078) in use by adversaries may help to catch the result of user input interception if new techniques are used.",
             "x_mitre_permissions_required": [
                 "Administrator",
                 "SYSTEM"
@@ -56,6 +57,7 @@
                 "macOS",
                 "Windows"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -67,7 +69,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:30:48.323Z"
         }
     ]

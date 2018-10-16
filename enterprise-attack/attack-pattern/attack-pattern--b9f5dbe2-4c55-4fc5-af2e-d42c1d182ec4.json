@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a244528e-077e-4a37-b6aa-30c9e2f114c1",
+    "id": "bundle--d0272576-9e2c-4ca0-ba5d-6439f6ed6b80",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,8 +24,8 @@
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "x_mitre_data_sources": [
-                "File monitoring",
                 "Binary file metadata",
+                "File monitoring",
                 "Process command-line parameters",
                 "Process monitoring"
             ],
@@ -33,9 +33,10 @@
             "x_mitre_network_requirements": false,
             "x_mitre_platforms": [
                 "Linux",
-                "macOS",
-                "Windows"
+                "Windows",
+                "macOS"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -43,7 +44,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:30:19.338Z"
         }
     ]

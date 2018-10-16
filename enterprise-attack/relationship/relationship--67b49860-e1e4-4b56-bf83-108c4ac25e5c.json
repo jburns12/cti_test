@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--8e7fb9d7-2d08-4e8c-8915-e00cc38795ad",
+    "id": "bundle--52931005-a18a-4e43-b7b6-bef771f7334d",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--67b49860-e1e4-4b56-bf83-108c4ac25e5c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[MiniDuke](https://attack.mitre.org/software/S0051) can download additional encrypted backdoors onto the victim via GIF files.",
-            "source_ref": "malware--5e7ef1dc-7fb6-4913-ac75-e06113b59e0c",
-            "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Securelist MiniDuke Feb 2013"
                 }
             ],
+            "source_ref": "malware--5e7ef1dc-7fb6-4913-ac75-e06113b59e0c",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

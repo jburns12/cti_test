@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--f2987b1d-10a3-41ac-8d55-a3fc6a2dbee1",
+    "id": "bundle--fd50415a-a333-4950-b27f-98d299d0ea5c",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--3ae56775-2a8a-45f1-a2c0-d37f61cfb3e9",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[APT37](https://attack.mitre.org/groups/G0067) credential stealer ZUMKONG emails credentials from the victim using HTTP POST requests.",
-            "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
-            "target_ref": "attack-pattern--f72eb8a8-cd4c-461d-a814-3f862befbf00",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "FireEye APT37 Feb 2018"
                 }
             ],
+            "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--f72eb8a8-cd4c-461d-a814-3f862befbf00",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

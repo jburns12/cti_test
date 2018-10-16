@@ -1,17 +1,17 @@
 {
     "type": "bundle",
-    "id": "bundle--578ba691-f27f-42cc-afff-26f3602bb18c",
+    "id": "bundle--81aac000-f990-4f2c-b75a-3cf675eb41cd",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--0c71033e-401e-4b97-9309-7a7c95e43a5d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Obtain Device Cloud Backups",
-            "description": "An adversary who is able to obtain unauthorized access to or misuse authorized access to cloud backup services (e.g. Google's Android backup service or Apple's iCloud) could use that access to obtain sensitive data stored in device backups. For example, the Elcomsoft Phone Breaker product advertises the ability to retrieve iOS backup data from Apple's iCloud (Citation: Elcomsoft-EPPB).",
+            "description": "An adversary who is able to obtain unauthorized access to or misuse authorized access to cloud backup services (e.g. Google's Android backup service or Apple's iCloud) could use that access to obtain sensitive data stored in device backups. For example, the Elcomsoft Phone Breaker product advertises the ability to retrieve iOS backup data from Apple's iCloud (Citation: Elcomsoft-EPPB). Elcomsoft also describes (Citation: Elcomsoft-WhatsApp) obtaining WhatsApp communication histories from backups stored in iCloud.",
             "external_references": [
                 {
-                    "external_id": "MOB-T1073",
-                    "url": "https://attack.mitre.org/techniques/MOB-T1073",
+                    "external_id": "T1470",
+                    "url": "https://attack.mitre.org/techniques/T1470",
                     "source_name": "mitre-mobile-attack"
                 },
                 {
@@ -28,6 +28,11 @@
                     "url": "https://www.elcomsoft.com/eppb.html",
                     "description": "Elcomsoft. (n.d.). Elcomsoft Phone Breaker. Retrieved December 29, 2016.",
                     "source_name": "Elcomsoft-EPPB"
+                },
+                {
+                    "url": "https://blog.elcomsoft.com/2017/07/extract-and-decrypt-whatsapp-backups-from-icloud/",
+                    "description": "Oleg Afonin. (2017, July 20). Extract and Decrypt WhatsApp Backups from iCloud. Retrieved July 6, 2018.",
+                    "source_name": "Elcomsoft-WhatsApp"
                 }
             ],
             "object_marking_refs": [
@@ -41,14 +46,15 @@
             "x_mitre_tactic_type": [
                 "Without Adversary Device Access"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "phase_name": "cloud-based",
+                    "phase_name": "remote-service-effects",
                     "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-10-25T14:48:18.237Z"
         }
     ]

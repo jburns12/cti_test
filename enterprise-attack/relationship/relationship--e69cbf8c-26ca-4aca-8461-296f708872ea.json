@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--70ce78de-bceb-413c-96bc-155836914fb5",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--e69cbf8c-26ca-4aca-8461-296f708872ea",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[Gold Dragon](https://attack.mitre.org/software/S0249) checks for anti-malware products and processes.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://securingtomorrow.mcafee.com/mcafee-labs/gold-dragon-widens-olympics-malware-attacks-gains-permanent-presence-on-victims-systems/",
+                    "description": "Sherstobitoff, R., Saavedra-Morales, J. (2018, February 02). Gold Dragon Widens Olympics Malware Attacks, Gains Permanent Presence on Victims\u2019 Systems. Retrieved June 6, 2018.",
+                    "source_name": "McAfee Gold Dragon"
+                }
+            ],
+            "source_ref": "malware--603db3a5-2687-4734-92ac-d201e4f44d36",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--241814ae-de3f-4656-b49e-f9a80764d4b7",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

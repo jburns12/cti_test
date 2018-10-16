@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--0722a16b-7ec8-4919-8e57-711f01c081f3",
+    "id": "bundle--a5d33f14-8514-4d8d-961a-13e5697f0162",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--0c143634-89e1-47a0-9044-4ca39ccff76a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "A version of [XTunnel](https://attack.mitre.org/software/S0117) introduced in July 2015 inserted junk code into the binary in a likely attempt to obfuscate it and bypass security products.",
-            "source_ref": "malware--7343e208-7cab-45f2-a47b-41ba5e2f0fab",
-            "target_ref": "attack-pattern--519630c5-f03f-4882-825c-3af924935817",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "ESET Sednit Part 2"
                 }
             ],
+            "source_ref": "malware--7343e208-7cab-45f2-a47b-41ba5e2f0fab",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--519630c5-f03f-4882-825c-3af924935817",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

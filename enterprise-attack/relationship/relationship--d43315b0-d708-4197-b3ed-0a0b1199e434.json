@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--230397a1-9822-4b83-9d15-024f2f76674c",
+    "id": "bundle--ae1baee9-03e9-446f-8e11-3fac6cc28ff0",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--d43315b0-d708-4197-b3ed-0a0b1199e434",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[3PARA RAT](https://attack.mitre.org/software/S0066) has a command to set certain attributes such as creation/modification timestamps on files.",
-            "source_ref": "malware--7bec698a-7e20-4fd3-bb6a-12787770fb1a",
-            "target_ref": "attack-pattern--128c55d3-aeba-469f-bd3e-c8996ab4112a",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "CrowdStrike Putter Panda"
                 }
             ],
+            "source_ref": "malware--7bec698a-7e20-4fd3-bb6a-12787770fb1a",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--128c55d3-aeba-469f-bd3e-c8996ab4112a",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

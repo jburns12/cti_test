@@ -1,17 +1,17 @@
 {
     "type": "bundle",
-    "id": "bundle--4f73fdb7-1312-400e-9197-77b6253ea1b0",
+    "id": "bundle--39f6c6e4-bfcc-4fbf-8cd1-7a28d8ce3a71",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--fb3fa94a-3aee-4ab0-b7e7-abdf0a51286d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Exploit SS7 to Redirect Phone Calls/SMS",
-            "description": "An adversary could exploit signaling system vulnerabilities to redirect calls or text messages to a phone number under the attacker's control. The adversary could then act as a man-in-the-middle to intercept or manipulate the communication. These issues are discussed in  (Citation: Engel-SS7),  (Citation: Engel-SS7)-2008,  (Citation: 3GPP-Security),  (Citation: Positive-SS7), as well as in a report from the Communications, Security, Reliability, and Interoperability Council (CSRIC)  (Citation: CSRIC5-WG10-FinalReport).",
+            "description": "An adversary could exploit signaling system vulnerabilities to redirect calls or text messages to a phone number under the attacker's control. The adversary could then act as a man-in-the-middle to intercept or manipulate the communication. (Citation: Engel-SS7)  (Citation: Engel-SS7)-2008 (Citation: 3GPP-Security) (Citation: Positive-SS7) (Citation: CSRIC5-WG10-FinalReport)",
             "external_references": [
                 {
-                    "external_id": "MOB-T1052",
-                    "url": "https://attack.mitre.org/techniques/MOB-T1052",
+                    "external_id": "T1449",
+                    "url": "https://attack.mitre.org/techniques/T1449",
                     "source_name": "mitre-mobile-attack"
                 },
                 {
@@ -43,7 +43,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "Network carriers may be able to use firewalls, Intrusion Detection Systems (IDS), or Intrusion Prevention Systems (IPS) to detect and/or block SS7 exploitation as described by the CSRIC (Citation: CSRIC5-WG10-FinalReport). The CSRIC also suggests threat information sharing between telecommunications industry members.",
+            "x_mitre_detection": "Network carriers may be able to use firewalls, Intrusion Detection Systems (IDS), or Intrusion Prevention Systems (IPS) to detect and/or block SS7 exploitation as described by the Communications, Security, Reliability, and Interoperability Council (CSRIC). (Citation: CSRIC5-WG10-FinalReport) The CSRIC also suggests threat information sharing between telecommunications industry members.",
             "x_mitre_platforms": [
                 "Android",
                 "iOS"
@@ -51,14 +51,15 @@
             "x_mitre_tactic_type": [
                 "Without Adversary Device Access"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "phase_name": "cellular-network-based",
+                    "phase_name": "network-effects",
                     "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-10-25T14:48:06.524Z"
         }
     ]

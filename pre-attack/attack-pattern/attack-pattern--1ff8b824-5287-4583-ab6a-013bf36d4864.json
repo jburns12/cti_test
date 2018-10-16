@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a89d2dde-8271-4f7a-b804-8873485419c3",
+    "id": "bundle--634153c4-da11-4c68-b495-fa1a9d526e75",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "Certain types of traffic (e.g., DNS tunneling, header inject) allow for user-defined fields. These fields can then be used to hide data. In addition to hiding data in network protocols, steganography techniques can be used to hide data in images or other file formats. Detection can be difficult unless a particular signature is already known. (Citation: BotnetsDNSC2) (Citation: HAMMERTOSS2015) (Citation: DNS-Tunnel)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1097",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1097",
+                    "external_id": "T1320",
+                    "url": "https://attack.mitre.org/techniques/T1320",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -34,6 +34,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Unless defender is dissecting protocols or performing network signature analysis on any protocol deviations/patterns, this technique is largely undetected.",
             "x_mitre_difficulty_for_adversary": "No",
             "x_mitre_difficulty_for_adversary_explanation": "This technique requires a more advanced protocol understanding and testing to insert covert communication into legitimate protocol fields.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -41,7 +42,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

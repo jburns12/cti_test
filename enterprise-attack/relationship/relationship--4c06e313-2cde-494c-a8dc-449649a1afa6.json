@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--d399a9ea-1940-48f7-a401-cfe0d4fe75d3",
+    "id": "bundle--17d6e3a9-4009-4a37-ae15-b8b14bec5950",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--4c06e313-2cde-494c-a8dc-449649a1afa6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Lazarus Group](https://attack.mitre.org/groups/G0032) malware uses Caracachs encryption to encrypt C2 payloads.",
-            "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
-            "target_ref": "attack-pattern--4b74a1d4-b0e9-4ef1-93f1-14ecc6e2f5b5",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Novetta Blockbuster"
                 }
             ],
+            "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--4b74a1d4-b0e9-4ef1-93f1-14ecc6e2f5b5",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:33:27.066Z"
         }
     ]

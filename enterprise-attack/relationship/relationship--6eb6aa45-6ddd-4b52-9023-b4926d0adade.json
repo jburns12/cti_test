@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--8e67d638-3d06-4feb-b7f0-1e9fc90b85aa",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--6eb6aa45-6ddd-4b52-9023-b4926d0adade",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[GravityRAT](https://attack.mitre.org/software/S0237) collects various information via WMI requests, including CPU information in the Win32_Processor entry (Processor ID, Name, Manufacturer and the clock speed).",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://blog.talosintelligence.com/2018/04/gravityrat-two-year-evolution-of-apt.html",
+                    "description": "Mercer, W., Rascagneres, P. (2018, April 26). GravityRAT - The Two-Year Evolution Of An APT Targeting India. Retrieved May 16, 2018.",
+                    "source_name": "Talos GravityRAT"
+                }
+            ],
+            "source_ref": "malware--9b13cf99-77f1-4f97-8725-46cf78c87322",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

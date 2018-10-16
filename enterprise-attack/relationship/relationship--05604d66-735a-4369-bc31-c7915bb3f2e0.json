@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--9616b668-f8cf-488c-97b3-9914e1b55b84",
+    "id": "bundle--f44afa31-7ae4-4fd2-bbdb-064da85e2244",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--05604d66-735a-4369-bc31-c7915bb3f2e0",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Group5](https://attack.mitre.org/groups/G0043) C2 servers communicated with malware over TCP 8081, 8282, and 8083.",
-            "source_ref": "intrusion-set--7331c66a-5601-4d3f-acf6-ad9e3035eb40",
-            "target_ref": "attack-pattern--c848fcf7-6b62-4bde-8216-b6c157d48da0",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Citizen Lab Group5"
                 }
             ],
+            "source_ref": "intrusion-set--7331c66a-5601-4d3f-acf6-ad9e3035eb40",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--c848fcf7-6b62-4bde-8216-b6c157d48da0",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:33:27.079Z"
         }
     ]

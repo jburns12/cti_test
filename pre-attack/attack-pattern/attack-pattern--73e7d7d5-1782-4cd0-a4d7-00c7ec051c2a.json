@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c4157c47-0630-4440-b6bd-c3cb5ac97ce5",
+    "id": "bundle--7d37e6db-b31c-41c8-a81e-d34933ac8943",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "Business relationship information may be used by an adversary to shape social engineering attempts (exploiting who a target expects to hear from) or to plan for technical actions such as exploiting network trust relationship. (Citation: 11StepsAttackers)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1060",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1060",
+                    "external_id": "T1283",
+                    "url": "https://attack.mitre.org/techniques/T1283",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -26,6 +26,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Exception to the rule is if the adversary tips off the target that others have been asking about the relationship with them.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Requires an intensive process.  In some industries, business relationships may be public in order to generate business, but this is not the case for all industries and all relationships.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -33,7 +34,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--fb3ce18d-d87c-4a16-88da-38e098065f96",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--fbd90e31-a2b8-4950-9c56-c1c2884cc30a",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[Bankshot](https://attack.mitre.org/software/S0239) grabs a user token using WTSQueryUserToken and then creates a process by impersonating a logged-on user.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://securingtomorrow.mcafee.com/mcafee-labs/hidden-cobra-targets-turkish-financial-sector-new-bankshot-implant/",
+                    "description": "Sherstobitoff, R. (2018, March 08). Hidden Cobra Targets Turkish Financial Sector With New Bankshot Implant. Retrieved May 18, 2018.",
+                    "source_name": "McAfee Bankshot"
+                }
+            ],
+            "source_ref": "malware--237d4b25-301e-4436-bc88-7782b3e384d3",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--dcaa092b-7de9-4a21-977f-7fcb77e89c48",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

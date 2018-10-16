@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--1ed671cc-a6ff-48f3-b513-850d6e30f41c",
+    "id": "bundle--6467fb56-1cb9-4113-99e9-e0cb47671c2e",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--9f737872-3503-4ef4-b575-ab6037b33a98",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "\"In addition to stealing Apple accounts to buy apps, [KeyRaider](https://attack.mitre.org/software/MOB-S0004) also has built-in functionality to hold iOS devices for ransom.\"",
-            "source_ref": "malware--3bc1f0ad-ef11-4afc-83c0-fcffe08d4e50",
-            "target_ref": "attack-pattern--9d7c32f4-ab39-49dc-8055-8106bc2294a1",
+            "description": "[KeyRaider](https://attack.mitre.org/software/S0288) has built-in functionality to lock victims out of devices and hold them for ransom.",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "KeyRaider"
                 }
             ],
+            "source_ref": "malware--3bc1f0ad-ef11-4afc-83c0-fcffe08d4e50",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--9d7c32f4-ab39-49dc-8055-8106bc2294a1",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

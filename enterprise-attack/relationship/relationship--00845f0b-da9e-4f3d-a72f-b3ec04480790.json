@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--450f0537-7c5c-46e2-ac6f-b6976fa92495",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--00845f0b-da9e-4f3d-a72f-b3ec04480790",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[Cobalt Group](https://attack.mitre.org/groups/G0080) used msxsl.exe to bypass AppLocker and to invoke Jscript code from an XSL file.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://blog.talosintelligence.com/2018/07/multiple-cobalt-personality-disorder.html",
+                    "description": "Svajcer, V. (2018, July 31). Multiple Cobalt Personality Disorder. Retrieved September 5, 2018.",
+                    "source_name": "Talos Cobalt Group July 2018"
+                }
+            ],
+            "source_ref": "intrusion-set--6f6e1463-9654-4c83-a72d-cb75a5ddf72c",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--16669cf7-9319-4539-8cac-e4b430384b63",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eabe6814-6685-4d69-b7ff-d859fea37379",
+    "id": "bundle--0383725a-1820-4323-9e5c-3a73ab5b83fc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "A wide variety of cloud, virtual private services, hosting, compute, and storage solutions are available. Additionally botnets are available for rent or purchase. Use of these solutions allow an adversary to stage, launch, and execute an attack from infrastructure that does not physically tie back to them and can be rapidly provisioned, modified, and shut down. (Citation: TrendmicroHideoutsLease)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1106",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1106",
+                    "external_id": "T1329",
+                    "url": "https://attack.mitre.org/techniques/T1329",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -26,6 +26,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Hard to differentiate from standard business operations.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Wide variety of cloud/VPS/hosting/compute/storage solutions available for adversary to acquire freely or at a low cost.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -33,7 +34,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

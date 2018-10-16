@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--626d5f96-92b3-4eb0-b7df-673d080391db",
+    "id": "bundle--99db3424-8f65-4b18-8ed9-54c654075f1f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "Delivery systems are the infrastructure used by the adversary to host malware or other tools used during exploitation. Building and configuring delivery systems may include multiple activities such as registering domain names, renting hosting space, or configuring previously exploited environments. (Citation: APT1)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1124",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1124",
+                    "external_id": "T1347",
+                    "url": "https://attack.mitre.org/techniques/T1347",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -26,6 +26,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "It is detectable once deployed to the public Internet, used for adversarial purposes, discovered, and reported to defenders.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "It is easy to create and burn infrastructure. Otherwise, blacklisting would be more successful for defenders.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -33,7 +34,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

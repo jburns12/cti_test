@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e476b483-85cb-4aaf-b63d-a8a84a2b4f0d",
+    "id": "bundle--8cdcced0-f4bc-41a2-972f-71044a0f0064",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "Host based hiding techniques are designed to allow an adversary to remain undetected on a machine upon which they have taken action. They may do this through the use of  static linking of binaries, polymorphic code, exploiting weakness in file formats, parsers, or self-deleting code. (Citation: VirutAP)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1091",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1091",
+                    "external_id": "T1314",
+                    "url": "https://attack.mitre.org/techniques/T1314",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -26,6 +26,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Techniques are difficult to detect and might occur in uncommon use-cases (e.g., patching, anti-malware, anti-exploitation software).",
             "x_mitre_difficulty_for_adversary": "No",
             "x_mitre_difficulty_for_adversary_explanation": "Some of the host-based hiding techniques require advanced knowledge combined with an understanding and awareness of the target's environment (e.g., exploiting weaknesses in  file formats, parsers and detection capabilities).",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -33,7 +34,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

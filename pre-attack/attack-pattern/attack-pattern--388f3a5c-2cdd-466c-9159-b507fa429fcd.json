@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cd8e6a5a-e482-46c2-a2d8-4204b23a0259",
+    "id": "bundle--cf290338-2710-441b-a953-51c8f9d4dafc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "During production and distribution, the placement of software, firmware, or a CPU chip in a computer, handheld, or other electronic device that enables an adversary to gain illegal entrance. (Citation: McDRecall) (Citation: SeagateMaxtor)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1142",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1142",
+                    "external_id": "T1365",
+                    "url": "https://attack.mitre.org/techniques/T1365",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -30,6 +30,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "The number of elements and components in a supply chain of HW or SW is vast and detecting an implant is complex for SW, but more complex for HW.",
             "x_mitre_difficulty_for_adversary": "No",
             "x_mitre_difficulty_for_adversary_explanation": "Access to the supply chain by an adversary can be a challenging endeavor, depending on what element is attempting to be subverted.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -37,7 +38,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

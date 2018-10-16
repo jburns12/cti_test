@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--1a52f532-8a07-4e52-865c-a414d336ba91",
+    "id": "bundle--6c323943-834e-4767-9301-ca233d132e62",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--40c5a024-37db-478b-b90f-27f184bf8f60",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Tasklist](https://attack.mitre.org/software/S0057) can be used to discover services running on a system.",
-            "source_ref": "tool--2e45723a-31da-4a7e-aaa6-e01998a6788f",
-            "target_ref": "attack-pattern--322bad5a-1c49-4d23-ab79-76d641794afa",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Microsoft Tasklist"
                 }
             ],
+            "source_ref": "tool--2e45723a-31da-4a7e-aaa6-e01998a6788f",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--322bad5a-1c49-4d23-ab79-76d641794afa",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--f2c495d7-edb3-476a-a749-2c4ceebef5f8",
+    "id": "bundle--0cdcaa01-c143-490b-bdc4-6972949a8336",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--f0b6fe64-e138-42c9-9cc7-896467dc26f8",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "[Umbreon](https://attack.mitre.org/software/S0221) Umbreon creates valid users to provide access to the system. ",
-            "source_ref": "malware--3d8e547d-9456-4f32-a895-dc86134e282f",
-            "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
+            "description": "[Umbreon](https://attack.mitre.org/software/S0221) creates valid users to provide access to the system. ",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Umbreon Trend Micro"
                 }
             ],
+            "source_ref": "malware--3d8e547d-9456-4f32-a895-dc86134e282f",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9dcf7cd6-d778-4533-b943-76c318381693",
+    "id": "bundle--cf08a87a-f109-4e2f-8b36-505314782745",
     "spec_version": "2.0",
     "objects": [
         {
@@ -15,9 +15,19 @@
                     "source_name": "mitre-attack"
                 },
                 {
+                    "url": "http://www.pretentiousname.com/misc/win7_uac_whitelist2.html",
+                    "description": "Davidson, L. (n.d.). Windows 7 UAC whitelist. Retrieved November 12, 2014.",
+                    "source_name": "Davidson Windows"
+                },
+                {
                     "url": "https://technet.microsoft.com/en-us/itpro/windows/keep-secure/how-user-account-control-works",
                     "description": "Lich, B. (2016, May 31). How User Account Control Works. Retrieved June 3, 2016.",
                     "source_name": "TechNet How UAC Works"
+                },
+                {
+                    "url": "http://pen-testing.sans.org/blog/pen-testing/2013/08/08/psexec-uac-bypass",
+                    "description": "Medin, T. (2013, August 8). PsExec UAC Bypass. Retrieved June 3, 2016.",
+                    "source_name": "SANS UAC Bypass"
                 },
                 {
                     "url": "https://technet.microsoft.com/en-US/magazine/2009.07.uac.aspx",
@@ -28,11 +38,6 @@
                     "url": "https://msdn.microsoft.com/en-us/library/ms679687.aspx",
                     "description": "Microsoft. (n.d.). The COM Elevation Moniker. Retrieved July 26, 2016.",
                     "source_name": "MSDN COM Elevation"
-                },
-                {
-                    "url": "http://www.pretentiousname.com/misc/win7_uac_whitelist2.html",
-                    "description": "Davidson, L. (n.d.). Windows 7 UAC whitelist. Retrieved November 12, 2014.",
-                    "source_name": "Davidson Windows"
                 },
                 {
                     "url": "https://github.com/hfiref0x/UACME",
@@ -48,11 +53,6 @@
                     "url": "https://blog.fortinet.com/2016/12/16/malicious-macro-bypasses-uac-to-elevate-privilege-for-fareit-malware",
                     "description": "Salvio, J., Joven, R. (2016, December 16). Malicious Macro Bypasses UAC to Elevate Privilege for Fareit Malware. Retrieved December 27, 2016.",
                     "source_name": "Fortinet Fareit"
-                },
-                {
-                    "url": "http://pen-testing.sans.org/blog/pen-testing/2013/08/08/psexec-uac-bypass",
-                    "description": "Medin, T. (2013, August 8). PsExec UAC Bypass. Retrieved June 3, 2016.",
-                    "source_name": "SANS UAC Bypass"
                 },
                 {
                     "url": "https://enigma0x3.net/2017/03/14/bypassing-uac-using-app-paths/",
@@ -89,6 +89,7 @@
             "x_mitre_effective_permissions": [
                 "Administrator"
             ],
+            "x_mitre_version": "1.0",
             "x_mitre_platforms": [
                 "Windows"
             ],
@@ -103,7 +104,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:31:07.462Z"
         }
     ]

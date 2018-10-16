@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--e7955a42-061f-4c10-b124-d50ebcdcdbc6",
+    "id": "bundle--114d4b51-ead2-4c86-bb60-c219408dc1f2",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--69b9edd8-c1a8-4cbd-bd94-9af0fdefe013",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[HIDEDRV](https://attack.mitre.org/software/S0135) is a rootkit that hides certain operating system artifacts.",
-            "source_ref": "malware--e669bb87-f773-4c7b-bfcc-a9ffebfdd8d4",
-            "target_ref": "attack-pattern--0f20e3cb-245b-4a61-8a91-2d93f7cb0e9b",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "ESET Sednit Part 3"
                 }
             ],
+            "source_ref": "malware--e669bb87-f773-4c7b-bfcc-a9ffebfdd8d4",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--0f20e3cb-245b-4a61-8a91-2d93f7cb0e9b",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

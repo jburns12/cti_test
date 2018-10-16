@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--168499f1-be1b-427e-9ad2-cca94544971c",
+    "id": "bundle--01b14001-63ba-4fd7-a25f-af208938c5eb",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--48042284-2fde-43f0-a3dc-f64e9f16bd77",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "A keylogging tool used by [APT3](https://attack.mitre.org/groups/G0022) gathers network information from the victim, including the MAC address, IP address, WINS, DHCP server, and gateway.",
-            "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
-            "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -25,8 +22,11 @@
                     "source_name": "evolution of pirpi"
                 }
             ],
+            "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:33:27.057Z"
         }
     ]

@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--2b651414-5667-40b9-b425-80102312a490",
+    "id": "bundle--a2312139-3220-4f38-a2f0-23e4b147fc59",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--fe229513-0cd9-4e9a-a333-2748ef03dfbc",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[USBStealer](https://attack.mitre.org/software/S0136) collects files matching certain criteria from the victim and stores them in a local directory for later exfiltration.",
-            "source_ref": "malware--af2ad3b7-ab6a-4807-91fd-51bcaff9acbb",
-            "target_ref": "attack-pattern--7dd95ff6-712e-4056-9626-312ea4ab4c5e",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -25,8 +22,11 @@
                     "source_name": "Kaspersky Sofacy"
                 }
             ],
+            "source_ref": "malware--af2ad3b7-ab6a-4807-91fd-51bcaff9acbb",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--7dd95ff6-712e-4056-9626-312ea4ab4c5e",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

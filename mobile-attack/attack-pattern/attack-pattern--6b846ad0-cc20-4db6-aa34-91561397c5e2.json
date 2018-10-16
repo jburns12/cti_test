@@ -1,49 +1,21 @@
 {
     "type": "bundle",
-    "id": "bundle--7210ef4d-5a29-497a-ae5c-8fb09232f1c2",
+    "id": "bundle--bd4ed825-970d-4e55-b8fd-504c770afcf7",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--6b846ad0-cc20-4db6-aa34-91561397c5e2",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "App Delivered via Web Download",
-            "description": "The application is downloaded from an arbitrary web site. A link to the application's download URI may be sent in an email or SMS, placed on another web site that the target is likely to view, or sent via other means (such as QR code).",
+            "revoked": true,
             "external_references": [
                 {
-                    "external_id": "MOB-T1034",
-                    "url": "https://attack.mitre.org/techniques/MOB-T1034",
+                    "external_id": "T1431",
+                    "url": "https://attack.mitre.org/techniques/T1431",
                     "source_name": "mitre-mobile-attack"
-                },
-                {
-                    "external_id": "AUT-9",
-                    "url": "https://pages.nist.gov/mobile-threat-catalogue/authentication-threats/AUT-9.html",
-                    "source_name": "NIST Mobile Threat Catalogue"
-                },
-                {
-                    "external_id": "ECO-21",
-                    "url": "https://pages.nist.gov/mobile-threat-catalogue/ecosystem-threats/ECO-21.html",
-                    "source_name": "NIST Mobile Threat Catalogue"
                 }
-            ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "x_mitre_detection": "An EMM/MDM or mobile threat protection solution can identify the presence of unwanted, known insecure, or malicious apps on devices.",
-            "x_mitre_platforms": [
-                "Android",
-                "iOS"
-            ],
-            "x_mitre_tactic_type": [
-                "Pre-Adversary Device Access"
             ],
             "type": "attack-pattern",
-            "kill_chain_phases": [
-                {
-                    "phase_name": "app-delivery-via-other-means",
-                    "kill_chain_name": "mitre-mobile-attack"
-                }
-            ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T20:00:38.255Z",
             "created": "2017-10-25T14:48:11.861Z"
         }
     ]

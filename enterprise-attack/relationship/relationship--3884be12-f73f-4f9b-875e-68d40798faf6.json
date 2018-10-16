@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--d272aaad-77c4-4c90-92c4-ee91f5a59168",
+    "id": "bundle--787d2f9e-87f0-4573-8ed7-276ff3dd6658",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--3884be12-f73f-4f9b-875e-68d40798faf6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "After encrypting C2 data, [BADNEWS](https://attack.mitre.org/software/S0128) converts it into a hexadecimal representation and then encodes it into base64.",
-            "source_ref": "malware--e9595678-d269-469e-ae6b-75e49259de63",
-            "target_ref": "attack-pattern--ad255bfe-a9e6-4b52-a258-8d3462abe842",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Forcepoint Monsoon"
                 }
             ],
+            "source_ref": "malware--e9595678-d269-469e-ae6b-75e49259de63",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--ad255bfe-a9e6-4b52-a258-8d3462abe842",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

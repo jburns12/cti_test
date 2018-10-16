@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--67d52e06-8fda-44f0-b9ea-7f71a0197c98",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--64e692fa-0f90-42df-a727-c9a90eaad8f7",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[Bankshot](https://attack.mitre.org/software/S0239) marks files to be deleted upon the next system reboot and uninstalls and removes itself from the system.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://securingtomorrow.mcafee.com/mcafee-labs/hidden-cobra-targets-turkish-financial-sector-new-bankshot-implant/",
+                    "description": "Sherstobitoff, R. (2018, March 08). Hidden Cobra Targets Turkish Financial Sector With New Bankshot Implant. Retrieved May 18, 2018.",
+                    "source_name": "McAfee Bankshot"
+                }
+            ],
+            "source_ref": "malware--237d4b25-301e-4436-bc88-7782b3e384d3",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

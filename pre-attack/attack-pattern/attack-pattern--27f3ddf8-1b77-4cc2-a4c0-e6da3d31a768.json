@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7d460fcf-3afa-46fb-a68a-038f828e205a",
+    "id": "bundle--265ab87f-9426-4bff-912d-d8566616182d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "A payload is the part of the malware which performs a malicious action. The adversary may re-use payloads when the needed capability is already available. (Citation: SonyDestover)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1123",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1123",
+                    "external_id": "T1346",
+                    "url": "https://attack.mitre.org/techniques/T1346",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -26,6 +26,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Adversary will likely use code repositories, but detecting an adversary acquiring a payload would require the defender to be monitoring the code repository where the payload is stored. If the adversary re-uses payloads, this allows the defender to create signatures to detect using these known indicators of compromise (e.g., hashes).",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Several exploit repositories and tool suites exist for re-use and tailoring.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -33,7 +34,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

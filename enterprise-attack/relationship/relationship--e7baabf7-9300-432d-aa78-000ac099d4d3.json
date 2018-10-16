@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--0efa0ca6-9b8a-4947-aacd-a99fed939acb",
+    "id": "bundle--5a58bb1c-ab97-489c-901a-e3c8c6a7dcc6",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--e7baabf7-9300-432d-aa78-000ac099d4d3",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Wingbird](https://attack.mitre.org/software/S0176) performs multiple process injections to hijack system processes and execute malicious code.",
-            "source_ref": "malware--a8d3d497-2da9-4797-8e0b-ed176be08654",
-            "target_ref": "attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Microsoft SIR Vol 21"
                 }
             ],
+            "source_ref": "malware--a8d3d497-2da9-4797-8e0b-ed176be08654",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

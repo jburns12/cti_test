@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--da28bfff-b7fd-4d68-9525-65ff089f3ce5",
+    "id": "bundle--a6ca885d-d9d7-46ea-975d-ad0c61fb1dfc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -55,6 +55,7 @@
             "x_mitre_system_requirements": [
                 "Unpatched software or otherwise vulnerable target. Depending on the target and goal, the system and exploitable service may need to be remotely accessible from the internal network."
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -62,7 +63,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

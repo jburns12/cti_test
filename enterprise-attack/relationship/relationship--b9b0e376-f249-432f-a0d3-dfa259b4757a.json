@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--ac0ef1d9-4ca5-492a-9a66-95d3d0c6cc2d",
+    "id": "bundle--5ee88a53-5c9a-4ee1-b8ff-8e84145c0dfb",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--b9b0e376-f249-432f-a0d3-dfa259b4757a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[BUBBLEWRAP](https://attack.mitre.org/software/S0043) can communicate using SOCKS.",
-            "source_ref": "malware--123bd7b3-675c-4b1a-8482-c55782b20e2b",
-            "target_ref": "attack-pattern--c21d5a77-d422-4a69-acd7-2c53c1faa34b",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "FireEye admin@338"
                 }
             ],
+            "source_ref": "malware--123bd7b3-675c-4b1a-8482-c55782b20e2b",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--c21d5a77-d422-4a69-acd7-2c53c1faa34b",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

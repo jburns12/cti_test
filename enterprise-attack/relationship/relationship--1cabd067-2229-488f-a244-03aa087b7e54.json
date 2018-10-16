@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--bbbc06f4-de58-4dc6-81ba-a177697d00e7",
+    "id": "bundle--53cc9413-880d-4114-99b7-d90ab7bd093f",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--1cabd067-2229-488f-a244-03aa087b7e54",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Leviathan](https://attack.mitre.org/groups/G0065) has received C2 instructions from user profiles created on legitimate websites such as Github and TechNet.",
-            "source_ref": "intrusion-set--7113eaa5-ba79-4fb3-b68a-398ee9cd698e",
-            "target_ref": "attack-pattern--830c9528-df21-472c-8c14-a036bf17d665",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "FireEye Periscope March 2018"
                 }
             ],
+            "source_ref": "intrusion-set--7113eaa5-ba79-4fb3-b68a-398ee9cd698e",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--830c9528-df21-472c-8c14-a036bf17d665",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

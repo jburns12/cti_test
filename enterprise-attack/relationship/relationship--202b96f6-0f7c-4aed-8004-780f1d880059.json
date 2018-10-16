@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--81d79a3d-abf8-4722-bbba-a092a7c72a0a",
+    "id": "bundle--e85594a5-e001-4fd0-812f-a31321a04fc2",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--202b96f6-0f7c-4aed-8004-780f1d880059",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[PHOREAL](https://attack.mitre.org/software/S0158) is capable of manipulating the Registry.",
-            "source_ref": "malware--f6ae7a52-f3b6-4525-9daf-640c083f006e",
-            "target_ref": "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "FireEye APT32 May 2017"
                 }
             ],
+            "source_ref": "malware--f6ae7a52-f3b6-4525-9daf-640c083f006e",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

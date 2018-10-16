@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--98af3355-3ebe-4160-b619-8aaa874ad0d3",
+    "id": "bundle--87515775-2b4d-4e8f-82d2-7176371664e1",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--3e7c9978-4db1-4ee1-ae27-640acee5a543",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[CosmicDuke](https://attack.mitre.org/software/S0050) steals user files from network shared drives with file extensions and keywords that match a predefined list.",
-            "source_ref": "malware--2eb9b131-d333-4a48-9eb4-d8dec46c19ee",
-            "target_ref": "attack-pattern--ae676644-d2d2-41b7-af7e-9bed1b55898c",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "F-Secure Cosmicduke"
                 }
             ],
+            "source_ref": "malware--2eb9b131-d333-4a48-9eb4-d8dec46c19ee",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--ae676644-d2d2-41b7-af7e-9bed1b55898c",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

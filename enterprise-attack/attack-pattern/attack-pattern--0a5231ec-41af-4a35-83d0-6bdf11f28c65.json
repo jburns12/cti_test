@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--68a9365c-4a1c-45ad-831c-dcf090863d71",
+    "id": "bundle--a14f732f-50b3-4279-a73b-4ae436061c27",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,15 +27,16 @@
                 "Stefan Kanthak"
             ],
             "x_mitre_data_sources": [
-                "Process Monitoring",
                 "API monitoring",
+                "DLL monitoring",
                 "File monitoring",
-                "DLL monitoring"
+                "Process Monitoring"
             ],
             "x_mitre_detection": "Monitoring DLL module loads may generate a significant amount of data and may not be directly useful for defense unless collected under specific circumstances, since benign use of Windows modules load functions are common and may be difficult to distinguish from malicious behavior. Legitimate software will likely only need to load routine, bundled DLL modules or Windows system DLLs such that deviation from known module loads may be suspicious. Limiting DLL module loads to <code>%SystemRoot%</code> and <code>%ProgramFiles%</code> directories will protect against module loads from unsafe paths. \n\nCorrelation of other events with behavior surrounding module loads using API monitoring and suspicious DLLs written to disk will provide additional context to an event that may assist in determining if it is due to malicious behavior.",
             "x_mitre_permissions_required": [
                 "User"
             ],
+            "x_mitre_version": "1.0",
             "x_mitre_platforms": [
                 "Windows"
             ],
@@ -46,7 +47,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:31:40.542Z"
         }
     ]

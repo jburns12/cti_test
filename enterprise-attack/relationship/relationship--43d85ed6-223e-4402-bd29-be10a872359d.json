@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--86f78735-f1e5-46b2-9335-23eb731fa4a3",
+    "id": "bundle--d56a2702-6346-414e-83db-e5c7910d5ada",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--43d85ed6-223e-4402-bd29-be10a872359d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[PowerDuke](https://attack.mitre.org/software/S0139) has a command to get text of the current foreground window.",
-            "source_ref": "malware--00c3bfcb-99bd-4767-8c03-b08f585f5c8a",
-            "target_ref": "attack-pattern--4ae4f953-fe58-4cc8-a327-33257e30a830",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Volexity PowerDuke November 2016"
                 }
             ],
+            "source_ref": "malware--00c3bfcb-99bd-4767-8c03-b08f585f5c8a",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--4ae4f953-fe58-4cc8-a327-33257e30a830",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

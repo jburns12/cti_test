@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8fabdd60-8b91-454b-9b85-5f93b2548544",
+    "id": "bundle--63ee45cc-cc6d-4158-b549-0de082427abb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,15 +24,15 @@
                 },
                 {
                     "description": "(Citation: ThreatStream Evasion Analysis)",
-                    "source_name": "Threat Group-0416"
-                },
-                {
-                    "description": "(Citation: ThreatStream Evasion Analysis)",
                     "source_name": "TG-0416"
                 },
                 {
                     "description": "(Citation: ThreatStream Evasion Analysis)",
                     "source_name": "Dynamite Panda"
+                },
+                {
+                    "description": "(Citation: ThreatStream Evasion Analysis)",
+                    "source_name": "Threat Group-0416"
                 },
                 {
                     "url": "http://www.secureworks.com/resources/blog/where-you-at-indicators-of-lateral-movement-using-at-exe-on-windows-7-systems/",
@@ -45,13 +45,14 @@
                     "source_name": "ThreatStream Evasion Analysis"
                 }
             ],
+            "x_mitre_version": "1.0",
             "aliases": [
                 "APT18",
-                "Threat Group-0416",
                 "TG-0416",
-                "Dynamite Panda"
+                "Dynamite Panda",
+                "Threat Group-0416"
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:31:57.733Z"
         }
     ]

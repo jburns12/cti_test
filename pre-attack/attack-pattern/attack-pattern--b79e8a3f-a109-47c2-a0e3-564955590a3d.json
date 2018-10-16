@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b7446623-5a99-4360-92f6-315e13fc6f59",
+    "id": "bundle--b87d66eb-cf37-4965-b641-c94d4afede56",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "Using alternative payment options allows an adversary to hide their activities. Options include crypto currencies, barter systems, pre-paid cards or shell accounts. (Citation: Goodin300InBitcoins)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1093",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1093",
+                    "external_id": "T1316",
+                    "url": "https://attack.mitre.org/techniques/T1316",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -26,6 +26,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Defender likely will not have access to payment information.  Monitoring crypto-currency or barter boards is resource intensive and not fully automatable.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Easy to use pre-paid cards or shell accounts to pay for services online.  Crypto currencies and barter systems can avoid use of trace-able bank or credit apparatus.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -33,7 +34,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

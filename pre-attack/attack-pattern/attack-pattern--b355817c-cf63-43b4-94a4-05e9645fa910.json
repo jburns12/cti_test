@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b6280a5a-614c-4eea-86ff-dea6a168fbba",
+    "id": "bundle--4b236861-0385-4dd6-a73e-46a25e4b9489",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "Implementation plans specify how the goals of the strategic plan will be executed. (Citation: ChinaCollectionPlan) (Citation: OrderOfBattle)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1009",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1009",
+                    "external_id": "T1232",
+                    "url": "https://attack.mitre.org/techniques/T1232",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -30,6 +30,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Normally, defender is unable to detect.  Few agencies and commercial organizations may have unique insights.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Normal aspect of adversary planning lifecycle.  May not be done by all adversaries.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -37,7 +38,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

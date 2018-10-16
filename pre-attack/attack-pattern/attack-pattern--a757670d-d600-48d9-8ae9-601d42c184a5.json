@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--597c5a54-3082-468b-a4c8-eb5dfa0afbe0",
+    "id": "bundle--9c869fc3-c70d-42c0-9e5f-fc71dfe28cad",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "Social Engineering is the practice of manipulating people in order to get them to divulge information or take an action. (Citation: SEAttackVectors) (Citation: BeachSE2003)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1056",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1056",
+                    "external_id": "T1279",
+                    "url": "https://attack.mitre.org/techniques/T1279",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -30,6 +30,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "No technical means to detect an adversary collecting information about a target.  Any detection would be based upon strong OPSEC policy implementation.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Very effective technique for the adversary that does not require any formal training and relies upon finding just one person who exhibits poor judgement.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -37,7 +38,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

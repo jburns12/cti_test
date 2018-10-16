@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--98025cf9-56c3-4f04-873d-0e1d85f21843",
+    "id": "bundle--d44502cb-025f-403b-bb2b-196fdffca9cb",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--6c0aae73-fe06-4aa3-8216-568d78747c6d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "Newer variants of [BACKSPACE](https://attack.mitre.org/software/S0031) will encode C2 communications with a custom system.",
-            "source_ref": "malware--fb261c56-b80e-43a9-8351-c84081e7213d",
-            "target_ref": "attack-pattern--ad255bfe-a9e6-4b52-a258-8d3462abe842",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "FireEye APT30"
                 }
             ],
+            "source_ref": "malware--fb261c56-b80e-43a9-8351-c84081e7213d",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--ad255bfe-a9e6-4b52-a258-8d3462abe842",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

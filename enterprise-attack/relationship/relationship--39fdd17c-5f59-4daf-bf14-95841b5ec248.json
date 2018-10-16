@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--df7e537d-b007-40e4-9a66-fcb04f7667d6",
+    "id": "bundle--0dc0e188-81a1-4be3-a7b2-6c57ab589577",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--39fdd17c-5f59-4daf-bf14-95841b5ec248",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Lazarus Group](https://attack.mitre.org/groups/G0032) uses multiple proxies to obfuscate network traffic from victims.",
-            "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
-            "target_ref": "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "US-CERT FALLCHILL Nov 2017"
                 }
             ],
+            "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

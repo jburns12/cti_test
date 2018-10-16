@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--a808376a-f6c7-4573-97ff-38732a9daf6b",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--c20908de-7c9e-4ece-a1c0-a7936d5aa436",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[QUADAGENT](https://attack.mitre.org/software/S0269) uses multiple protocols (HTTPS, HTTP, DNS) for its C2 server as fallback channels if communication with one is unsuccessful.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://researchcenter.paloaltonetworks.com/2018/07/unit42-oilrig-targets-technology-service-provider-government-agency-quadagent/",
+                    "description": "Lee, B., Falcone, R. (2018, July 25). OilRig Targets Technology Service Provider and Government Agency with QUADAGENT. Retrieved August 9, 2018.",
+                    "source_name": "Unit 42 QUADAGENT July 2018"
+                }
+            ],
+            "source_ref": "malware--53d0303c-b51b-4dfc-8720-38a5b383852a",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--f24faf46-3b26-4dbb-98f2-63460498e433",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

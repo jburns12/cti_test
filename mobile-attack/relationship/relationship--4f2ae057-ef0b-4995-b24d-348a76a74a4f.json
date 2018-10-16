@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--cdbd1b37-2524-4275-83e9-047fb0fd61dc",
+    "id": "bundle--ba0f0cea-4fde-4d22-826f-70477a1d63f3",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--4f2ae057-ef0b-4995-b24d-348a76a74a4f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "[Pegasus](https://attack.mitre.org/software/MOB-S0005) uses SMS for command and control.",
-            "source_ref": "malware--33d9d91d-aad9-49d5-a516-220ce101ac8a",
-            "target_ref": "attack-pattern--b3c2e5de-0941-4b57-ba61-af029eb5517a",
+            "description": "[Pegasus for iOS](https://attack.mitre.org/software/S0289) uses SMS for command and control.",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Lookout-Pegasus"
                 }
             ],
+            "source_ref": "malware--33d9d91d-aad9-49d5-a516-220ce101ac8a",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--b3c2e5de-0941-4b57-ba61-af029eb5517a",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

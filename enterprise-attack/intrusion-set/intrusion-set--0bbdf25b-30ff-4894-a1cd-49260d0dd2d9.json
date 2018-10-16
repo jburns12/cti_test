@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ea1aeb74-380e-4bbb-9db1-31e904aaa5a9",
+    "id": "bundle--ee4fbb89-e9f3-4228-a99c-e15477c9f137",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "APT3",
-            "description": "[APT3](https://attack.mitre.org/groups/G0022) is a China-based threat group that researchers have attributed to China's Ministry of State Security. (Citation: FireEye Clandestine Wolf) (Citation: Recorded Future APT3 May 2017) This group is responsible for the campaigns known as Operation Clandestine Fox, Operation Clandestine Wolf, and Operation Double Tap. (Citation: FireEye Clandestine Wolf) (Citation: FireEye Operation Double Tap) As of June 2015, the group appears to have shifted from targeting primarily US victims to primarily political organizations in Hong Kong. (Citation: Symantec Buckeye)\n\nAPT3 Adversary Emulation Plan - (Citation: APT3 Adversary Emulation Plan)",
+            "description": "[APT3](https://attack.mitre.org/groups/G0022) is a China-based threat group that researchers have attributed to China's Ministry of State Security. (Citation: FireEye Clandestine Wolf) (Citation: Recorded Future APT3 May 2017) This group is responsible for the campaigns known as Operation Clandestine Fox, Operation Clandestine Wolf, and Operation Double Tap. (Citation: FireEye Clandestine Wolf) (Citation: FireEye Operation Double Tap) As of June 2015, the group appears to have shifted from targeting primarily US victims to primarily political organizations in Hong Kong. (Citation: Symantec Buckeye)\n\n (Citation: APT3 Adversary Emulation Plan)",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -52,19 +52,9 @@
                     "source_name": "FireEye Clandestine Wolf"
                 },
                 {
-                    "url": "https://www.recordedfuture.com/chinese-mss-behind-apt3/",
-                    "description": "Insikt Group (Recorded Future). (2017, May 17). Recorded Future Research Concludes Chinese Ministry of State Security Behind APT3. Retrieved June 18, 2017.",
-                    "source_name": "Recorded Future APT3 May 2017"
-                },
-                {
                     "url": "https://www.fireeye.com/blog/threat-research/2014/11/operation_doubletap.html",
                     "description": "Moran, N., et al. (2014, November 21). Operation Double Tap. Retrieved January 14, 2016.",
                     "source_name": "FireEye Operation Double Tap"
-                },
-                {
-                    "url": "http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
-                    "description": "Symantec Security Response. (2016, September 6). Buckeye cyberespionage group shifts gaze from US to Hong Kong. Retrieved September 26, 2016.",
-                    "source_name": "Symantec Buckeye"
                 },
                 {
                     "url": "http://pwc.blogs.com/cyber_security_updates/2015/07/pirpi-scanbox.html",
@@ -72,11 +62,22 @@
                     "source_name": "PWC Pirpi Scanbox"
                 },
                 {
+                    "url": "http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
+                    "description": "Symantec Security Response. (2016, September 6). Buckeye cyberespionage group shifts gaze from US to Hong Kong. Retrieved September 26, 2016.",
+                    "source_name": "Symantec Buckeye"
+                },
+                {
+                    "url": "https://www.recordedfuture.com/chinese-mss-behind-apt3/",
+                    "description": "Insikt Group (Recorded Future). (2017, May 17). Recorded Future Research Concludes Chinese Ministry of State Security Behind APT3. Retrieved June 18, 2017.",
+                    "source_name": "Recorded Future APT3 May 2017"
+                },
+                {
                     "url": "https://attack.mitre.org/w/img_auth.php/6/6c/APT3_Adversary_Emulation_Plan.pdf",
                     "description": "Korban, C, et al. (2017, September). APT3 Adversary Emulation Plan. Retrieved January 16, 2018.",
                     "source_name": "APT3 Adversary Emulation Plan"
                 }
             ],
+            "x_mitre_version": "1.0",
             "aliases": [
                 "APT3",
                 "Gothic Panda",
@@ -86,7 +87,7 @@
                 "Threat Group-0110",
                 "TG-0110"
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:31:55.853Z"
         }
     ]

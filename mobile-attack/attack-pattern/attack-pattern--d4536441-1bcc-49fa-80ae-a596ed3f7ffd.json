@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dcb2e8a1-c5b8-403e-a4aa-0b4b100f7510",
+    "id": "bundle--b9de48b7-0c2a-44b0-9a9e-95d92967d3e9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "On Android, details of onboard network interfaces are accessible to apps through the java.net. (Citation: NetworkInterface) class (Citation: NetworkInterface). The Android  (Citation: TelephonyManager) class can be used to gather related information such as the IMSI, IMEI, and phone number (Citation: TelephonyManager).",
             "external_references": [
                 {
-                    "external_id": "MOB-T1025",
-                    "url": "https://attack.mitre.org/techniques/MOB-T1025",
+                    "external_id": "T1422",
+                    "url": "https://attack.mitre.org/techniques/T1422",
                     "source_name": "mitre-mobile-attack"
                 },
                 {
@@ -34,6 +34,7 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -41,7 +42,7 @@
                     "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-10-25T14:48:32.740Z"
         }
     ]

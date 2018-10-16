@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--5eee1481-9903-4d03-bd81-4092b8907bc6",
+    "id": "bundle--01eaa5b7-7dbd-48b2-bedf-d74bbee0a345",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--1c6f35f0-1169-4218-9881-7291e1765cd8",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "Variants of [Emissary](https://attack.mitre.org/software/S0082) have used rundll32.exe in Registry values added to establish persistence.",
-            "source_ref": "malware--0f862b01-99da-47cc-9bdb-db4a86a95bb1",
-            "target_ref": "attack-pattern--62b8c999-dcc0-4755-bd69-09442d9359f5",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Emissary Trojan Feb 2016"
                 }
             ],
+            "source_ref": "malware--0f862b01-99da-47cc-9bdb-db4a86a95bb1",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--62b8c999-dcc0-4755-bd69-09442d9359f5",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

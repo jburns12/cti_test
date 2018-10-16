@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--01b4a97f-5520-4294-8dbc-3048378d76f2",
+    "id": "bundle--08ee44fa-f95a-424c-b7ba-217f0d4ec4bf",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--24db8ce5-951e-4952-9aff-c005a563cb99",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "[MURKYTOP](https://attack.mitre.org/software/S0233) has the capability to delete local files.",
-            "source_ref": "malware--049ff071-0b3c-4712-95d2-d21c6aa54501",
-            "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59",
+            "description": "has the capability to delete local files.",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "FireEye Periscope March 2018"
                 }
             ],
+            "source_ref": "malware--049ff071-0b3c-4712-95d2-d21c6aa54501",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

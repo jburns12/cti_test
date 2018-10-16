@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--89b418a8-5921-43f8-a45b-ad642e49c4d4",
+    "id": "bundle--28b9bd85-dc3f-4fd3-9b3a-b2f43d315159",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--5ef1c7d8-70bc-4634-b705-644f4d1db3b0",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Hydraq](https://attack.mitre.org/software/S0203) uses basic obfuscation in the form of spaghetti code.",
-            "source_ref": "malware--73a4793a-ce55-4159-b2a6-208ef29b326f",
-            "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -25,8 +22,11 @@
                     "source_name": "Symantec Trojan.Hydraq Jan 2010"
                 }
             ],
+            "source_ref": "malware--73a4793a-ce55-4159-b2a6-208ef29b326f",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

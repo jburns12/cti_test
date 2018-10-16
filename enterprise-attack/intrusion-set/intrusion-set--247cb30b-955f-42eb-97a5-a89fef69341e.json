@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6f82bdf2-5775-4e8e-b349-9aa8b4e9748a",
+    "id": "bundle--8ff7cb72-0fae-428b-8b4b-816e640070c8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "APT32",
-            "description": "[APT32](https://attack.mitre.org/groups/G0050) is a threat group that has been active since at least 2014. The group has targeted multiple private sector industries as well as with foreign governments, dissidents, and journalists, and has extensively used strategic web compromises to compromise victims. The group is believed to be Vietnam-based. (Citation: FireEye APT32 May 2017) (Citation: Volexity OceanLotus Nov 2017)",
+            "description": "[APT32](https://attack.mitre.org/groups/G0050) is a threat group that has been active since at least 2014. The group has targeted multiple private sector industries as well as with foreign governments, dissidents, and journalists with a strong focus on Southeast Asian countries like Vietnam, Phillipines, Laos, and Cambodia. They have extensively used strategic web compromises to compromise victims. \nThe group is believed to be Vietnam-based. (Citation: FireEye APT32 May 2017) (Citation: Volexity OceanLotus Nov 2017) (Citation: ESET OceanLotus)",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -27,6 +27,10 @@
                     "source_name": "OceanLotus Group"
                 },
                 {
+                    "description": "(Citation: ESET OceanLotus)",
+                    "source_name": "APT-C-00"
+                },
+                {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html",
                     "description": "Carr, N.. (2017, May 14). Cyber Espionage is Alive and Well: APT32 and the Threat to Global Corporations. Retrieved June 18, 2017.",
                     "source_name": "FireEye APT32 May 2017"
@@ -35,13 +39,20 @@
                     "url": "https://www.volexity.com/blog/2017/11/06/oceanlotus-blossoms-mass-digital-surveillance-and-exploitation-of-asean-nations-the-media-human-rights-and-civil-society/",
                     "description": "Lassalle, D., et al. (2017, November 6). OceanLotus Blossoms: Mass Digital Surveillance and Attacks Targeting ASEAN, Asian Nations, the Media, Human Rights Groups, and Civil Society. Retrieved November 6, 2017.",
                     "source_name": "Volexity OceanLotus Nov 2017"
+                },
+                {
+                    "url": "https://www.welivesecurity.com/2018/03/13/oceanlotus-ships-new-backdoor/",
+                    "description": "Folt\u00fdn, T. (2018, March 13). OceanLotus ships new backdoor using old tricks. Retrieved May 22, 2018.",
+                    "source_name": "ESET OceanLotus"
                 }
             ],
+            "x_mitre_version": "1.0",
             "aliases": [
                 "APT32",
-                "OceanLotus Group"
+                "OceanLotus Group",
+                "APT-C-00"
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

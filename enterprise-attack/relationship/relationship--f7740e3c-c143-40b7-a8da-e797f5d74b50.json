@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--8945a63f-0d52-43c7-9851-63e1df904974",
+    "id": "bundle--e8cdfbce-6c0f-46cf-8f82-fe13e8da9bb4",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--f7740e3c-c143-40b7-a8da-e797f5d74b50",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[USBStealer](https://attack.mitre.org/software/S0136) monitors victims for insertion of removable drives. When dropped onto a second victim, it also enumerates drives connected to the system.",
-            "source_ref": "malware--af2ad3b7-ab6a-4807-91fd-51bcaff9acbb",
-            "target_ref": "attack-pattern--348f1eef-964b-4eb6-bb53-69b3dcb0c643",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "ESET Sednit USBStealer 2014"
                 }
             ],
+            "source_ref": "malware--af2ad3b7-ab6a-4807-91fd-51bcaff9acbb",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--348f1eef-964b-4eb6-bb53-69b3dcb0c643",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

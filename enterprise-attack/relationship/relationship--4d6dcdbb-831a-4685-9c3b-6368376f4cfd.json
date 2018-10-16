@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--c6e636bd-c156-444f-8e7e-6cb3d5eebf70",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--4d6dcdbb-831a-4685-9c3b-6368376f4cfd",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[Gorgon Group](https://attack.mitre.org/groups/G0078) malware can use process hollowing to inject one of its trojans into another process.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://researchcenter.paloaltonetworks.com/2018/08/unit42-gorgon-group-slithering-nation-state-cybercrime/",
+                    "description": "Falcone, R., et al. (2018, August 02). The Gorgon Group: Slithering Between Nation State and Cybercrime. Retrieved August 7, 2018.",
+                    "source_name": "Unit 42 Gorgon Group Aug 2018"
+                }
+            ],
+            "source_ref": "intrusion-set--205130fa-2176-478d-9abd-46136c0eb497",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--1c338d0f-a65e-4073-a5c1-c06878849f21",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

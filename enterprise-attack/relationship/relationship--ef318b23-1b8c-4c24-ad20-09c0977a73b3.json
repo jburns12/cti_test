@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--4de93466-2c62-407f-b72c-a45e695dd263",
+    "id": "bundle--e21be3f1-8a54-48d0-8fcb-c05fddc24b5d",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--ef318b23-1b8c-4c24-ad20-09c0977a73b3",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[DownPaper](https://attack.mitre.org/software/S0186) uses the command line.",
-            "source_ref": "malware--e48df773-7c95-4a4c-ba70-ea3d15900148",
-            "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "ClearSky Charming Kitten Dec 2017"
                 }
             ],
+            "source_ref": "malware--e48df773-7c95-4a4c-ba70-ea3d15900148",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

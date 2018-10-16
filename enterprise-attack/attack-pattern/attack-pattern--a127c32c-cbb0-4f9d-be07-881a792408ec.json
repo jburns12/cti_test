@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a8c99087-96e3-4b9b-bbc1-03fdd0c0688b",
+    "id": "bundle--51e5c289-0737-4a37-94d1-181a8a9ee274",
     "spec_version": "2.0",
     "objects": [
         {
@@ -40,8 +40,8 @@
                     "source_name": "FireEye Attacks Leveraging HTA"
                 },
                 {
-                    "description": "Dove, A. (2016, March 23). Fileless Malware \u2013 A Behavioural Analysis Of Kovter Persistence. Retrieved December 5, 2017.",
-                    "source_name": "Airbus Security Kovter Analysis"
+                    "description": "[ Smith, C. (2017, July 14). TheList.txt. Retrieved October 27, 2017.",
+                    "source_name": "GitHub SubTee The List"
                 },
                 {
                     "url": "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
@@ -49,20 +49,20 @@
                     "source_name": "FireEye FIN7 April 2017"
                 },
                 {
-                    "description": "[ Smith, C. (2017, July 14). TheList.txt. Retrieved October 27, 2017.",
-                    "source_name": "GitHub SubTee The List"
+                    "description": "Dove, A. (2016, March 23). Fileless Malware \u2013 A Behavioural Analysis Of Kovter Persistence. Retrieved December 5, 2017.",
+                    "source_name": "Airbus Security Kovter Analysis"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_contributors": [
-                "Ricardo Dias",
-                "Ye Yint Min Thu Htut, Offensive Security Team, DBS Bank"
-            ],
             "x_mitre_data_sources": [
                 "Process monitoring",
                 "Process command-line parameters"
+            ],
+            "x_mitre_contributors": [
+                "Ricardo Dias",
+                "Ye Yint Min Thu Htut, Offensive Security Team, DBS Bank"
             ],
             "x_mitre_defense_bypassed": [
                 "Application whitelisting"
@@ -72,6 +72,7 @@
                 "User"
             ],
             "x_mitre_remote_support": false,
+            "x_mitre_version": "1.0",
             "x_mitre_platforms": [
                 "Windows"
             ],
@@ -86,7 +87,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

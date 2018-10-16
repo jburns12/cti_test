@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--a30bf3f0-aa2f-44ed-96dc-ce1beff0b7ec",
+    "id": "bundle--4fff6db6-d4fe-4be9-a0a2-c4625c71607d",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--829ec8ab-3e48-442b-beb2-b0d2dbdaaca0",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Leviathan](https://attack.mitre.org/groups/G0065) has exploited multiple Microsoft Office and .NET vulnerabilities for execution, including CVE-2017-0199, CVE-2017-8759, and CVE-2017-11882.",
-            "source_ref": "intrusion-set--7113eaa5-ba79-4fb3-b68a-398ee9cd698e",
-            "target_ref": "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -25,8 +22,11 @@
                     "source_name": "FireEye Periscope March 2018"
                 }
             ],
+            "source_ref": "intrusion-set--7113eaa5-ba79-4fb3-b68a-398ee9cd698e",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

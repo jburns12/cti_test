@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--df39c0de-75c2-44b0-be92-febea9adeb2d",
+    "id": "bundle--b75e6fe1-550e-4552-a8b3-75cad742b873",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--d6154157-fe69-4da3-8cc3-790eecf33f8c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[HALFBAKED](https://attack.mitre.org/software/S0151) can obtain information about the OS, processor, and BIOS.",
-            "source_ref": "malware--0ced8926-914e-4c78-bc93-356fb90dbd1f",
-            "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "FireEye FIN7 April 2017"
                 }
             ],
+            "source_ref": "malware--0ced8926-914e-4c78-bc93-356fb90dbd1f",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

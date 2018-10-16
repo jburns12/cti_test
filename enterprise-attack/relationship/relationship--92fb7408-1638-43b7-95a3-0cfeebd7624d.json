@@ -1,24 +1,23 @@
 {
     "type": "bundle",
-    "id": "bundle--ce4047fd-c93c-42da-8098-24c4f3a0bbc1",
+    "id": "bundle--c95f94ba-f330-46d7-957f-97519fa18504",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--92fb7408-1638-43b7-95a3-0cfeebd7624d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[RawPOS](https://attack.mitre.org/software/S0169) dumps memory from specific processes on a victim system, parses the dumped files, and scrapes them for credit card data.",
-            "source_ref": "malware--9752aef4-a1f3-4328-929f-b64eb0536090",
-            "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
+                    "url": "http://www.kroll.com/CMSPages/GetAzureFile.aspx?path=~%5Cmedia%5Cfiles%5Cintelligence-center%5Ckroll_malware-analysis-report.pdf&hash=d5b5d2697118f30374b954f28a08c0ba69836c0ffd99566aa7ec62d1fc72b105",
                     "description": "Nesbit, B. and Ackerman, D. (2017, January). Malware Analysis Report - RawPOS Malware: Deconstructing an Intruder\u2019s Toolkit. Retrieved October 4, 2017.",
                     "source_name": "Kroll RawPOS Jan 2017"
                 },
                 {
+                    "url": "http://sjc1-te-ftp.trendmicro.com/images/tex/pdf/RawPOS%20Technical%20Brief.pdf",
                     "description": "TrendLabs Security Intelligence Blog. (2015, April). RawPOS Technical Brief. Retrieved October 4, 2017.",
                     "source_name": "TrendMicro RawPOS April 2015"
                 },
@@ -28,8 +27,11 @@
                     "source_name": "Mandiant FIN5 GrrCON Oct 2016"
                 }
             ],
+            "source_ref": "malware--9752aef4-a1f3-4328-929f-b64eb0536090",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

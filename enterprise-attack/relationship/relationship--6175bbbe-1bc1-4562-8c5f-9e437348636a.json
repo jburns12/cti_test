@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--ae1867be-325b-40a4-90a6-b4c19677bd75",
+    "id": "bundle--2f00b3d4-caf1-4c47-b9b2-c103dd94bcc1",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--6175bbbe-1bc1-4562-8c5f-9e437348636a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[APT18](https://attack.mitre.org/groups/G0026) actors deleted tools and batch files from victim systems.",
-            "source_ref": "intrusion-set--38fd6a28-3353-4f2b-bb2b-459fecd5c648",
-            "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Dell Lateral Movement"
                 }
             ],
+            "source_ref": "intrusion-set--38fd6a28-3353-4f2b-bb2b-459fecd5c648",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:33:27.060Z"
         }
     ]

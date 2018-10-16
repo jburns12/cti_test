@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--3cc6d53f-8c57-4331-8858-8e36139599db",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--2885ca27-c786-41d7-8482-6d0f41f8e546",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[TrickBot](https://attack.mitre.org/software/S0266) collects the users of the system.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://www.securityartwork.es/wp-content/uploads/2017/07/Trickbot-report-S2-Grupo.pdf",
+                    "description": "Salinas, M., Holguin, J. (2017, June). Evolution of Trickbot. Retrieved July 31, 2018.",
+                    "source_name": "S2 Grupo TrickBot June 2017"
+                }
+            ],
+            "source_ref": "malware--3fc163df-3b05-46fb-a549-11792397f00f",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--72b74d71-8169-42aa-92e0-e7b04b9f5a08",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

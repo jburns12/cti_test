@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--6c46cdb2-7859-4859-b423-27a17f3104e0",
+    "id": "bundle--0c6658f4-a847-4eec-bb03-7f601e79797c",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--d07f2da6-6497-414f-96c1-9dd60155b169",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[OSInfo](https://attack.mitre.org/software/S0165) discovers shares on the network",
-            "source_ref": "malware--f6d1d2cb-12f5-4221-9636-44606ea1f3f8",
-            "target_ref": "attack-pattern--3489cfc5-640f-4bb3-a103-9137b97de79f",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Symantec Buckeye"
                 }
             ],
+            "source_ref": "malware--f6d1d2cb-12f5-4221-9636-44606ea1f3f8",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--3489cfc5-640f-4bb3-a103-9137b97de79f",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

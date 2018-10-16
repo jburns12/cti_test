@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--afc69575-d144-4c59-ae4c-e741853ebe57",
+    "id": "bundle--24716a63-b249-4cc2-8b25-3b5a7c75880c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "If network traffic between the mobile device and a remote server is not securely protected, then an attacker positioned on the network may be able to manipulate network communication without being detected. For example, FireEye researchers found in 2014 that 68% of the top 1,000 free applications in the Google Play Store had at least one Transport Layer Security (TLS) implementation vulnerability potentially opening the applications' network traffic to man-in-the-middle attacks (Citation: FireEye-SSL).",
             "external_references": [
                 {
-                    "external_id": "MOB-T1066",
-                    "url": "https://attack.mitre.org/techniques/MOB-T1066",
+                    "external_id": "T1463",
+                    "url": "https://attack.mitre.org/techniques/T1463",
                     "source_name": "mitre-mobile-attack"
                 },
                 {
@@ -35,14 +35,15 @@
             "x_mitre_tactic_type": [
                 "Without Adversary Device Access"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "phase_name": "general-network-based",
+                    "phase_name": "network-effects",
                     "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-10-25T14:48:25.322Z"
         }
     ]

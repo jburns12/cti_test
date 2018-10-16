@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--92e3ca21-d78e-4c09-9135-359ecfbddfe9",
+    "id": "bundle--8e533111-a7a9-4d19-bd12-15962dd50937",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--1bbb499c-81c8-4e94-8305-86b199e8298b",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Wingbird](https://attack.mitre.org/software/S0176) side loads a malicious file, sspisrv.dll, in part of a spoofed lssas.exe service.",
-            "source_ref": "malware--a8d3d497-2da9-4797-8e0b-ed176be08654",
-            "target_ref": "attack-pattern--b2001907-166b-4d71-bb3c-9d26c871de09",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -25,8 +22,11 @@
                     "source_name": "Microsoft Wingbird Nov 2017"
                 }
             ],
+            "source_ref": "malware--a8d3d497-2da9-4797-8e0b-ed176be08654",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--b2001907-166b-4d71-bb3c-9d26c871de09",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

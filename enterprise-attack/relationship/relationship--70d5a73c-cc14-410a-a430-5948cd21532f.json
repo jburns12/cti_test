@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--a7f44a1e-7c96-4f55-b0cc-5d8800f39262",
+    "id": "bundle--00161c6a-b05e-4bd0-a402-f132aa0c1955",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--70d5a73c-cc14-410a-a430-5948cd21532f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[JHUHUGIT](https://attack.mitre.org/software/S0044) has registered a Windows shell script under the Registry key HKCU\\Environment\\UserInitMprLogonScript to establish persistence.",
-            "source_ref": "malware--8ae43c46-57ef-47d5-a77a-eebb35628db2",
-            "target_ref": "attack-pattern--03259939-0b57-482f-8eb5-87c0e0d54334",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "ESET Sednit Part 1"
                 }
             ],
+            "source_ref": "malware--8ae43c46-57ef-47d5-a77a-eebb35628db2",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--03259939-0b57-482f-8eb5-87c0e0d54334",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

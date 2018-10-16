@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--73b59c64-7dff-4244-af2b-440e032d57e3",
+    "id": "bundle--1d0236a2-9708-4d07-bd24-28112bce9c23",
     "spec_version": "2.0",
     "objects": [
         {
@@ -25,8 +25,8 @@
             ],
             "x_mitre_data_sources": [
                 "API monitoring",
-                "Process command-line parameters",
-                "Process monitoring"
+                "Process monitoring",
+                "Process command-line parameters"
             ],
             "x_mitre_detection": "System and network discovery techniques normally occur throughout an operation as an adversary learns the environment. Data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities, such as Lateral Movement, based on the information obtained.\n\nMonitor processes and command-line arguments for actions that could be taken to gather system and network information. Remote access tools with built-in features may interact directly with the Windows API to gather information. Information may also be acquired through Windows system management tools such as [Windows Management Instrumentation](https://attack.mitre.org/techniques/T1047) and [PowerShell](https://attack.mitre.org/techniques/T1086).",
             "x_mitre_permissions_required": [
@@ -34,9 +34,10 @@
             ],
             "x_mitre_platforms": [
                 "Linux",
-                "Windows",
-                "macOS"
+                "macOS",
+                "Windows"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -44,7 +45,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:30:55.471Z"
         }
     ]

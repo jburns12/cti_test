@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--c0bf3908-50f6-4936-a3aa-67f4fb77bbc8",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--96caf005-8b8c-4956-abc3-c9a5022568b7",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[Kazuar](https://attack.mitre.org/software/S0265) captures images from the webcam.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://researchcenter.paloaltonetworks.com/2017/05/unit42-kazuar-multiplatform-espionage-backdoor-api-access/",
+                    "description": "Levene, B, et al. (2017, May 03). Kazuar: Multiplatform Espionage Backdoor with API Access. Retrieved July 17, 2018.",
+                    "source_name": "Unit 42 Kazuar May 2017"
+                }
+            ],
+            "source_ref": "malware--9da1212f-5485-4738-b526-755ccd7e3b8a",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--6faf650d-bf31-4eb4-802d-1000cf38efaf",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

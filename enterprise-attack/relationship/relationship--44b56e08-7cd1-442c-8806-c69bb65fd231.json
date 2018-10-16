@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--3ee12f86-e15e-4b28-b292-a0e67edddd8f",
+    "id": "bundle--0b2ad8d4-3260-42ea-950d-88751550445f",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--44b56e08-7cd1-442c-8806-c69bb65fd231",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[ROCKBOOT](https://attack.mitre.org/software/S0112) is a Master Boot Record (MBR) bootkit that uses the MBR to establish persistence.",
-            "source_ref": "malware--cba78a1c-186f-4112-9e6a-be1839f030f7",
-            "target_ref": "attack-pattern--02fefddc-fb1b-423f-a76b-7552dd211d4d",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "FireEye Bootkits"
                 }
             ],
+            "source_ref": "malware--cba78a1c-186f-4112-9e6a-be1839f030f7",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--02fefddc-fb1b-423f-a76b-7552dd211d4d",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

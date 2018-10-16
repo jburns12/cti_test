@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--a9a3ea5a-3ac2-45d3-ae16-e88c7021f787",
+    "id": "bundle--5f40226c-4a3f-4a6a-afbf-41870bd7d074",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--afbf5119-6e39-4e4c-8329-57f7249a67b4",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[APT3](https://attack.mitre.org/groups/G0022) uses commonly used ports (like HTTPS/443) for command and control.",
-            "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
-            "target_ref": "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "evolution of pirpi"
                 }
             ],
+            "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

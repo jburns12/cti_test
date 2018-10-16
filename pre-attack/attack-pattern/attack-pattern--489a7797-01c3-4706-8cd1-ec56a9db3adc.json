@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--592c46fe-bded-4482-97db-cfa637efc72f",
+    "id": "bundle--9795ae39-0bd6-4704-8628-def495917597",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "This technique has been deprecated. Please see ATT&CK's Initial Access and Execution tactics for replacement techniques.\n\nEmails with malicious links are designed to get a user to click on the link in order to deliver malware payloads. (Citation: GoogleDrive Phishing) (Citation: RSASEThreat)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1146",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1146",
+                    "external_id": "T1369",
+                    "url": "https://attack.mitre.org/techniques/T1369",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -31,6 +31,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Defenders can implement mechanisms to analyze links and identify levels of concerns.  However, the adversary has the advantage of creating new links or finding ways to obfuscate the link so that common detection lists can not identify it.  Detection of a malicious link could be identified once the file has been downloaded.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Sending emails is trivial and expected.  The adversary needs to ensure links don't get tampered, removed, or flagged as a previously black-listed site.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -38,7 +39,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

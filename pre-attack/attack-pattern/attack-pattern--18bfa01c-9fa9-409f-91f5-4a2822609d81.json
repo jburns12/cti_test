@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--aa5da9cb-586d-4e86-bf94-73026ed04463",
+    "id": "bundle--35302be9-83fe-429e-bc58-0678c592624a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "An  adversary can test physical access options in preparation for the actual attack. This could range from observing behaviors and noting security precautions to actually attempting access. (Citation: OCIAC Pre Incident Indicators) (Citation: NewsAgencySpy)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1137",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1137",
+                    "external_id": "T1360",
+                    "url": "https://attack.mitre.org/techniques/T1360",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -30,6 +30,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Defender often install badging, cameras, security guards or other detection techniques for physical security and monitoring.",
             "x_mitre_difficulty_for_adversary": "No",
             "x_mitre_difficulty_for_adversary_explanation": "Requires a physical presence in the space being entered and increased risk of being detected/detained (e.g., recorded on video camera)",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -37,7 +38,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

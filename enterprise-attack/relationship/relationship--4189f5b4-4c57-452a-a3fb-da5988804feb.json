@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--a7f7da91-166c-4ffa-b83b-80ea87f30376",
+    "id": "bundle--7d0c1e3b-8a09-4765-90b3-8b0855004c04",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--4189f5b4-4c57-452a-a3fb-da5988804feb",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Lazarus Group](https://attack.mitre.org/groups/G0032) malware IndiaIndia obtains and sends to its C2 server information about the first network interface card\u2019s configuration, including IP address, gateways, subnet mask, DHCP information, and whether WINS is available.",
-            "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
-            "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -25,8 +22,11 @@
                     "source_name": "Novetta Blockbuster Loaders"
                 }
             ],
+            "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:33:27.067Z"
         }
     ]

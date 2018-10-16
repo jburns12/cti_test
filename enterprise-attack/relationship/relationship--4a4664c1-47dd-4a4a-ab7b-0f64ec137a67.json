@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--1d7a1b27-4ac2-4932-a7f3-98f829cf57c7",
+    "id": "bundle--656b0bc5-9ab4-40fa-9e47-9e8d1ac24003",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--4a4664c1-47dd-4a4a-ab7b-0f64ec137a67",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[ZeroT](https://attack.mitre.org/software/S0230) has used DLL side-loading to load malicious payloads.",
-            "source_ref": "malware--4ab44516-ad75-4e43-a280-705dc0420e2f",
-            "target_ref": "attack-pattern--b2001907-166b-4d71-bb3c-9d26c871de09",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -25,8 +22,11 @@
                     "source_name": "Proofpoint ZeroT Feb 2017"
                 }
             ],
+            "source_ref": "malware--4ab44516-ad75-4e43-a280-705dc0420e2f",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--b2001907-166b-4d71-bb3c-9d26c871de09",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--6538c598-fe32-4230-ba80-ae6c60061c05",
+    "id": "bundle--9c8f551d-0dd6-4f64-8a51-fbe412c4a08b",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--3a446bee-007b-4b1f-849e-60e9d39c2e92",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "mitigates",
             "description": "Check for potential malicious definitions of URL schemes when vetting applications. Also, when examining apps for potential vulnerabilities, encourage use of universal links as an alternative to URL schemes. When examining apps that use OAuth, encourage use of the best practices described in the IETF draft \"OAuth 2.0 for Native Apps\".",
-            "source_ref": "course-of-action--1553b156-6767-47f7-9eb4-2a692505666d",
-            "target_ref": "attack-pattern--8f142a25-f6c3-4520-bd50-2ae3ab50ed3e",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -25,8 +22,11 @@
                     "source_name": "IETF-OAuthNativeApps"
                 }
             ],
+            "source_ref": "course-of-action--1553b156-6767-47f7-9eb4-2a692505666d",
+            "relationship_type": "mitigates",
+            "target_ref": "attack-pattern--8f142a25-f6c3-4520-bd50-2ae3ab50ed3e",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-10-25T14:48:53.739Z"
         }
     ]

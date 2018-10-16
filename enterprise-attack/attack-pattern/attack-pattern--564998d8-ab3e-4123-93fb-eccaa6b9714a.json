@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b70c5bdc-4654-4544-a76d-355686f05a9a",
+    "id": "bundle--1f44b1ac-caa7-4853-9c4a-4aac019b2d68",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,14 +34,14 @@
                     "source_name": "GitHub DCSYNCMonitor"
                 },
                 {
-                    "url": "https://msdn.microsoft.com/en-us/library/ms677626.aspx",
-                    "description": "Microsoft. (n.d.). Polling for Changes Using the DirSync Control. Retrieved March 30, 2018.",
-                    "source_name": "Microsoft DirSync"
-                },
-                {
                     "url": "https://adds-security.blogspot.fr/2018/02/detecter-dcshadow-impossible.html",
                     "description": "Lucand,G. (2018, February 18). Detect DCShadow, impossible?. Retrieved March 30, 2018.",
                     "source_name": "ADDSecurity DCShadow Feb 2018"
+                },
+                {
+                    "url": "https://msdn.microsoft.com/en-us/library/ms677626.aspx",
+                    "description": "Microsoft. (n.d.). Polling for Changes Using the DirSync Control. Retrieved March 30, 2018.",
+                    "source_name": "Microsoft DirSync"
                 }
             ],
             "object_marking_refs": [
@@ -63,6 +63,7 @@
             "x_mitre_permissions_required": [
                 "Administrator"
             ],
+            "x_mitre_version": "1.0",
             "x_mitre_platforms": [
                 "Windows"
             ],
@@ -73,7 +74,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--8b6f2976-0437-4d39-a8df-cb36571eaabb",
+    "id": "bundle--1b93ad93-b825-4181-9832-37c55ed2f705",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--4563af55-57dc-44fc-b57b-76e2f10f3b9a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Dipsind](https://attack.mitre.org/software/S0200) can be configured to only run during normal working hours, which would make its communications harder to distinguish from normal traffic.",
-            "source_ref": "malware--e170995d-4f61-4f17-b60e-04f9a06ee517",
-            "target_ref": "attack-pattern--4eeaf8a9-c86b-4954-a663-9555fb406466",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Microsoft PLATINUM April 2016"
                 }
             ],
+            "source_ref": "malware--e170995d-4f61-4f17-b60e-04f9a06ee517",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--4eeaf8a9-c86b-4954-a663-9555fb406466",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

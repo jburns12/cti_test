@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--9523d75d-3621-4d94-8f6a-553a956c5b54",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--c01a5a82-2fa4-4c9a-a44e-491638169627",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[RedDrop](https://attack.mitre.org/software/S0326) exfiltrates locally saved files (including photos) as well as live recordings of the device's surroundings.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://www.wandera.com/reddrop-malware/",
+                    "description": "Nell Campbell. (2018, February 27). RedDrop: the blackmailing mobile malware family lurking in app stores. Retrieved September 18, 2018.",
+                    "source_name": "Wandera-RedDrop"
+                }
+            ],
+            "source_ref": "malware--fb75586a-c702-40f1-a36f-dbaec24fd14e",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--6683aa0c-d98a-4f5b-ac57-ca7e9934a760",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

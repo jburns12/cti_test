@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--bd26eb4d-dcd2-4cb9-8c71-1b6ab091ddb1",
+    "id": "bundle--91bc5097-a127-44e8-b441-6416a1a26012",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--3aacea96-941f-4a1d-8981-36d2a0e62cf3",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[FIN8](https://attack.mitre.org/groups/G0061) has leveraged both Spearphishing Link and Spearphishing Attachment attempting to gain User Execution.",
-            "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
-            "target_ref": "attack-pattern--8c32eb4d-805f-4fc5-bf60-c4d476c131b5",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -30,8 +27,11 @@
                     "source_name": "FireEye Know Your Enemy FIN8 Aug 2016"
                 }
             ],
+            "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--8c32eb4d-805f-4fc5-bf60-c4d476c131b5",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

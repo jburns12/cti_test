@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--07a4039e-7d18-47f5-828f-674fb43eef3f",
+    "id": "bundle--9fe22d3a-d005-40c0-9449-75414a7bb3a3",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--e3b79cfa-6ea8-4e7a-85f8-9862702d466a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[FLIPSIDE](https://attack.mitre.org/software/S0173) uses RDP to tunnel traffic from a victim environment.",
-            "source_ref": "malware--0e18b800-906c-4e44-a143-b11c72b3448b",
-            "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Mandiant FIN5 GrrCON Oct 2016"
                 }
             ],
+            "source_ref": "malware--0e18b800-906c-4e44-a143-b11c72b3448b",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

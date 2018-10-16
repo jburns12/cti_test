@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9f4b069f-63c2-4440-8714-65a0806f6564",
+    "id": "bundle--4f132ac2-7795-4192-99bf-5248bd591d97",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "Proxies act as an intermediary for clients seeking resources from other systems. Using a proxy may make it more difficult to track back the origin of a network communication. (Citation: APT1)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1081",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1081",
+                    "external_id": "T1304",
+                    "url": "https://attack.mitre.org/techniques/T1304",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -26,6 +26,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Defenders with standard capabilities will traditionally be able to see the first hop but not all the subsequent earlier hops an adversary takes to be able to conduct reconnaissance.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Proxies are readily available for the adversary with both free and cost-based options available.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -33,7 +34,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

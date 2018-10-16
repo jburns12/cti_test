@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4e14888e-281d-4eeb-8328-61c0bce40361",
+    "id": "bundle--025b75c0-7dd3-4de5-b3ec-e96309591d27",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "An adversary may research available open source information about a target commonly found on social media sites such as [https://www.facebook.com Facebook], [https://www.instagram.com Instagram], or [https://www.pinterest.com Pinterest].  Social media is public by design and provides insight into the interests and potentially inherent weaknesses of a target for exploitation by the adversary. (Citation: RSA-APTRecon)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1050",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1050",
+                    "external_id": "T1273",
+                    "url": "https://attack.mitre.org/techniques/T1273",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -26,6 +26,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Searching publicly available sources that cannot be monitored by a defender.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Very public by design.  Application of privacy settings is not a panacea.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -33,7 +34,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

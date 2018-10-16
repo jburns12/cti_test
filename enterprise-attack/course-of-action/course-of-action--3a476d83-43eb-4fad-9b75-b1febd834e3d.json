@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--98fe7a1e-2fe1-404c-94c7-d47bf6ffb556",
+    "id": "bundle--b4a90032-2432-4845-8c04-53d71f39ba30",
     "spec_version": "2.0",
     "objects": [
         {
@@ -25,13 +25,9 @@
                     "source_name": "Beechey 2010"
                 },
                 {
-                    "description": "Abolins, D., Boldea, C., Socha, K., Soria-Machado, M. (2016, April 26). Kerberos Golden Ticket Protection. Retrieved July 13, 2017.",
-                    "source_name": "CERT-EU Golden Ticket Protection"
-                },
-                {
-                    "url": "http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx",
-                    "description": "Corio, C., & Sayana, D. P. (2008, June). Application Lockdown with Software Restriction Policies. Retrieved November 18, 2014.",
-                    "source_name": "Corio 2008"
+                    "url": "http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html",
+                    "description": "Tomonaga, S. (2016, January 26). Windows Commands Abused by Attackers. Retrieved February 2, 2016.",
+                    "source_name": "Windows Commands JPCERT"
                 },
                 {
                     "url": "https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm",
@@ -39,19 +35,27 @@
                     "source_name": "NSA MS AppLocker"
                 },
                 {
+                    "url": "http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx",
+                    "description": "Corio, C., & Sayana, D. P. (2008, June). Application Lockdown with Software Restriction Policies. Retrieved November 18, 2014.",
+                    "source_name": "Corio 2008"
+                },
+                {
                     "url": "https://technet.microsoft.com/en-us/library/ee791851.aspx",
                     "description": "Microsoft. (2012, June 27). Using Software Restriction Policies and AppLocker Policies. Retrieved April 7, 2016.",
                     "source_name": "TechNet Applocker vs SRP"
                 },
                 {
-                    "url": "http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html",
-                    "description": "Tomonaga, S. (2016, January 26). Windows Commands Abused by Attackers. Retrieved February 2, 2016.",
-                    "source_name": "Windows Commands JPCERT"
+                    "url": "https://cert.europa.eu/static/WhitePapers/UPDATED%20-%20CERT-EU_Security_Whitepaper_2014-007_Kerberos_Golden_Ticket_Protection_v1_4.pdf",
+                    "description": "Abolins, D., Boldea, C., Socha, K., Soria-Machado, M. (2016, April 26). Kerberos Golden Ticket Protection. Retrieved July 13, 2017.",
+                    "source_name": "CERT-EU Golden Ticket Protection"
                 }
             ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "type": "course-of-action",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2018-09-07T16:42:18.771Z"
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
         }
     ]
 }

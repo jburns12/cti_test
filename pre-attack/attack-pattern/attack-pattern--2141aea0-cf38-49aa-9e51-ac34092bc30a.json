@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--949145e5-3686-4646-b6bb-45283a01ef55",
+    "id": "bundle--a993f725-e3cd-48d8-b219-15f0d1a8a23f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "An adversary will require some physical hardware and software. They may only need a lightweight set-up if most of their activities will take place using on-line infrastructure. Or, they may need to build extensive infrastructure if they want to test, communicate, and control other aspects of their activities on their own systems. (Citation: NYTStuxnet)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1112",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1112",
+                    "external_id": "T1335",
+                    "url": "https://attack.mitre.org/techniques/T1335",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -26,6 +26,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Outside of highly specific or rare HW, nearly impossible to detect and track.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Ease and availability of current hardware and software, mobile phones (cash and go phones), and additional online technology simplifies adversary process to achieve this technique (and possibly without traceability). The adversary has control of the infrastructure and will likely be able to add/remove tools to infrastructure, whether acquired via hacking or standard computer acquisition (e.g., [https://aws.amazon.com AWS], VPS).",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -33,7 +34,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

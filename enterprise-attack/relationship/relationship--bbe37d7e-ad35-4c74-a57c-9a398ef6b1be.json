@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--db105448-b556-4c96-9a1b-b073d549d440",
+    "id": "bundle--a2dabdfa-16d9-44fa-8032-281c0bd92f7e",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--bbe37d7e-ad35-4c74-a57c-9a398ef6b1be",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[SEASHARPEE](https://attack.mitre.org/software/S0185) is a Web shell.",
-            "source_ref": "malware--0998045d-f96e-4284-95ce-3c8219707486",
-            "target_ref": "attack-pattern--c16e5409-ee53-4d79-afdc-4099dc9292df",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "FireEye APT34 Webinar Dec 2017"
                 }
             ],
+            "source_ref": "malware--0998045d-f96e-4284-95ce-3c8219707486",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--c16e5409-ee53-4d79-afdc-4099dc9292df",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

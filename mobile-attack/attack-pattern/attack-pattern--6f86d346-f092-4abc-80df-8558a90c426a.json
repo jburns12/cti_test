@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--16e5837c-4823-41bd-8a4f-118b01d1b998",
+    "id": "bundle--64b8c69c-5271-4bc5-b89f-a407d3c577e3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "An adversary who is able to obtain unauthorized access to or misuse authorized access to cloud services (e.g. Google's Android Device Manager or Apple iCloud's Find my iPhone) or to an enterprise mobility management (EMM) / mobile device management (MDM) server console could use that access to track mobile devices.",
             "external_references": [
                 {
-                    "external_id": "MOB-T1071",
-                    "url": "https://attack.mitre.org/techniques/MOB-T1071",
+                    "external_id": "T1468",
+                    "url": "https://attack.mitre.org/techniques/T1468",
                     "source_name": "mitre-mobile-attack"
                 },
                 {
@@ -36,14 +36,15 @@
             "x_mitre_tactic_type": [
                 "Without Adversary Device Access"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "phase_name": "cloud-based",
+                    "phase_name": "remote-service-effects",
                     "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-10-25T14:48:21.023Z"
         }
     ]

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--30998a9e-2f05-42da-9551-8887732d1000",
+    "id": "bundle--d1431645-4188-472b-93e6-3662f0e052ff",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "This technique has been deprecated. Please see ATT&CK's Initial Access and Execution tactics for replacement techniques.\n\nReplacing a legitimate binary with malware can be accomplished either by replacing a binary on a legitimate download site or standing up a fake or alternative site with the malicious binary. The intent is to have a user download and run the malicious binary thereby executing malware. (Citation: FSecureICS)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1155",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1155",
+                    "external_id": "T1378",
+                    "url": "https://attack.mitre.org/techniques/T1378",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -27,6 +27,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "On the host end user system, integrity checking (e.g., hash verification, code signing enforcement), application whitelisting, sandboxing, or behavioral-based/heuristic-based systems are most likely to be successful in detecting this technique.  On the source webserver, detecting binary changes is easy to detect if performed.",
             "x_mitre_difficulty_for_adversary": "No",
             "x_mitre_difficulty_for_adversary_explanation": "Requires the adversary to replace a binary on a website where users will download the binary (e.g., patch, firmware update, software application) as innately trusted.  The additional challenge is the reduced set of vendor-trusted websites that are vulnerable.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -34,7 +35,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

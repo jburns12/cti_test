@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3e55834e-038c-43ca-82cf-962e9e74116e",
+    "id": "bundle--776a9b93-d9af-4339-9ad4-95afe9fd8a8e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "From a tactical viewpoint, an adversary could potentially have a primary and secondary level target.  The primary target represents the highest level tactical element the adversary wishes to attack.  For example, the corporate network within a corporation or the division within an agency. (Citation: CyberAdversaryBehavior) (Citation: JP3-60) (Citation: JP3-12 (R)) (Citation: DoD Cyber 2015)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1020",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1020",
+                    "external_id": "T1243",
+                    "url": "https://attack.mitre.org/techniques/T1243",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -38,6 +38,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Normally, defender is unable to detect.  May change for special use cases or adversary and defender overlays.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "This is the normal adversary targeting cycle where they utilize our poor OPSEC practices to their advantage.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -45,7 +46,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

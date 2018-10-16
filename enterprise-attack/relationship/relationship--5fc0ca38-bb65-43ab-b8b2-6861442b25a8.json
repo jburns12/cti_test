@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--20157bc6-6883-4163-aa2d-0e34c42c5de0",
+    "id": "bundle--6845769b-3106-419e-8d8a-c19e7e77b145",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--5fc0ca38-bb65-43ab-b8b2-6861442b25a8",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "The <code>net start</code> and <code>net stop</code> commands can be used in [Net](https://attack.mitre.org/software/S0039) to execute or stop Windows services.",
-            "source_ref": "tool--03342581-f790-4f03-ba41-e82e67392e23",
-            "target_ref": "attack-pattern--f44731de-ea9f-406d-9b83-30ecbb9b4392",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Savill 1999"
                 }
             ],
+            "source_ref": "tool--03342581-f790-4f03-ba41-e82e67392e23",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--f44731de-ea9f-406d-9b83-30ecbb9b4392",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

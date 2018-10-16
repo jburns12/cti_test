@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--be9c6097-0d4d-4e18-a62e-eb145c16e67e",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--9b4e602e-7e9f-452a-87c2-9e5ea32bc7e0",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[MuddyWater](https://attack.mitre.org/groups/G0069) has attempted to get users to enable macros and launch malicious Microsoft Word documents delivered via spearphishing emails.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://researchcenter.paloaltonetworks.com/2017/11/unit42-muddying-the-water-targeted-attacks-in-the-middle-east/",
+                    "description": "Lancaster, T.. (2017, November 14). Muddying the Water: Targeted Attacks in the Middle East. Retrieved March 15, 2018.",
+                    "source_name": "Unit 42 MuddyWater Nov 2017"
+                },
+                {
+                    "url": "https://www.fireeye.com/blog/threat-research/2018/03/iranian-threat-group-updates-ttps-in-spear-phishing-campaign.html",
+                    "description": "Singh, S. et al.. (2018, March 13). Iranian Threat Group Updates Tactics, Techniques and Procedures in Spear Phishing Campaign. Retrieved April 11, 2018.",
+                    "source_name": "FireEye MuddyWater Mar 2018"
+                }
+            ],
+            "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--8c32eb4d-805f-4fc5-bf60-c4d476c131b5",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

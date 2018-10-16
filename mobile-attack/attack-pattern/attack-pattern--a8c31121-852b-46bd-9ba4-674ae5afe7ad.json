@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--46595769-e432-414d-8f01-9a7bd129dc95",
+    "id": "bundle--a00aa80a-08c4-4d46-b6c7-55247677f60c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "A malicious app can register as a device keyboard and intercept keypresses containing sensitive values such as usernames and passwords. Zeltser (Citation: Zeltser-Keyboard) describes these risks.\n\nBoth iOS and Android require the user to explicitly authorize use of third party keyboard apps. Users should be advised to use extreme caution before granting this authorization when it is requested.",
             "external_references": [
                 {
-                    "external_id": "MOB-T1020",
-                    "url": "https://attack.mitre.org/techniques/MOB-T1020",
+                    "external_id": "T1417",
+                    "url": "https://attack.mitre.org/techniques/T1417",
                     "source_name": "mitre-mobile-attack"
                 },
                 {
@@ -30,6 +30,7 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -41,7 +42,7 @@
                     "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-10-25T14:48:27.660Z"
         }
     ]

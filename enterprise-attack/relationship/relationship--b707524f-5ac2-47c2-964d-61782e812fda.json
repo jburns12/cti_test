@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--92a8228d-2e48-4ed7-a522-74fcee798f77",
+    "id": "bundle--b6ff7bf9-a68e-4eea-aaaf-a7c9515b8a90",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--b707524f-5ac2-47c2-964d-61782e812fda",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Naid](https://attack.mitre.org/software/S0205) creates a new service to establish.",
-            "source_ref": "malware--48523614-309e-43bf-a2b8-705c2b45d7b2",
-            "target_ref": "attack-pattern--478aa214-2ca7-4ec0-9978-18798e514790",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Symantec Naid June 2012"
                 }
             ],
+            "source_ref": "malware--48523614-309e-43bf-a2b8-705c2b45d7b2",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--478aa214-2ca7-4ec0-9978-18798e514790",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

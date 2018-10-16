@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--5303c600-4558-4f7f-9d6a-d79a9e79a7e8",
+    "id": "bundle--4b2406a8-8d93-420c-a6e8-636dddd2c62a",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--c9e726b6-61c2-4b18-8770-126be9cd1870",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "is digitally signed by Microsoft.",
-            "source_ref": "tool--d8d19e33-94fd-4aa3-b94a-08ee801a2153",
-            "target_ref": "attack-pattern--1b84d551-6de8-4b96-9930-d177677c3b1d",
+            "description": "[SDelete](https://attack.mitre.org/software/S0195) is digitally signed by Microsoft.",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Microsoft SDelete July 2016"
                 }
             ],
+            "source_ref": "tool--d8d19e33-94fd-4aa3-b94a-08ee801a2153",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--1b84d551-6de8-4b96-9930-d177677c3b1d",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

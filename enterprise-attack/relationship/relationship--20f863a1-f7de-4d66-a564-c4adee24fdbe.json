@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--1fd7f359-3eb2-45ea-99fc-8eca70eb2fa5",
+    "id": "bundle--7f6d892d-1da7-4175-b3fa-68e7b5d9f031",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--20f863a1-f7de-4d66-a564-c4adee24fdbe",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) performs account discovery using commands such as <code>net localgroup administrators</code> and <code>net group \"REDACTED\" /domain</code> on specific permissions groups.",
-            "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
-            "target_ref": "attack-pattern--72b74d71-8169-42aa-92e0-e7b04b9f5a08",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Villeneuve et al 2014"
                 }
             ],
+            "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--72b74d71-8169-42aa-92e0-e7b04b9f5a08",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:33:27.034Z"
         }
     ]

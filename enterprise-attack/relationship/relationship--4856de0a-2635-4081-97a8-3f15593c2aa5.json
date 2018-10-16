@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--120ce9de-fa58-46fc-aa71-34f47d0cb093",
+    "id": "bundle--06b24fe9-d7ef-44e7-bc39-6bc2e0404652",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--4856de0a-2635-4081-97a8-3f15593c2aa5",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[FIN7](https://attack.mitre.org/groups/G0046) uses a PowerShell script to launch shellcode that retrieves an additional payload.",
-            "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
-            "target_ref": "attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -25,8 +22,11 @@
                     "source_name": "Morphisec FIN7 June 2017"
                 }
             ],
+            "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

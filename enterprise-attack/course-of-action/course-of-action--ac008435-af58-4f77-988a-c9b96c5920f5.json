@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6786c702-d680-4b4d-895b-a2565099b972",
+    "id": "bundle--d51f87af-ca67-4d2e-afbf-1c055f733fcf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -40,6 +40,11 @@
                     "source_name": "TechNet Applocker vs SRP"
                 },
                 {
+                    "url": "https://blog.stealthbits.com/attack-step-3-persistence-ntfs-extended-attributes-file-system-attacks",
+                    "description": "Sander, J. (2017, October 12). Attack Step 3: Persistence with NTFS Extended Attributes \u2013 File System Attacks. Retrieved March 21, 2018.",
+                    "source_name": "InsiderThreat NTFS EA Oct 2017"
+                },
+                {
                     "url": "https://blogs.technet.microsoft.com/askcore/2013/03/24/alternate-data-streams-in-ntfs/",
                     "description": "Marlin, J. (2013, March 24). Alternate Data Streams in NTFS. Retrieved March 21, 2018.",
                     "source_name": "Microsoft ADS Mar 2014"
@@ -48,16 +53,14 @@
                     "url": "https://www.symantec.com/connect/articles/what-you-need-know-about-alternate-data-streams-windows-your-data-secure-can-you-restore",
                     "description": "Pravs. (2009, May 25). What you need to know about alternate data streams in windows? Is your Data secure? Can you restore that?. Retrieved March 21, 2018.",
                     "source_name": "Symantec ADS May 2009"
-                },
-                {
-                    "url": "https://blog.stealthbits.com/attack-step-3-persistence-ntfs-extended-attributes-file-system-attacks",
-                    "description": "Sander, J. (2017, October 12). Attack Step 3: Persistence with NTFS Extended Attributes \u2013 File System Attacks. Retrieved March 21, 2018.",
-                    "source_name": "InsiderThreat NTFS EA Oct 2017"
                 }
             ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "type": "course-of-action",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2018-09-07T16:42:18.771Z"
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
         }
     ]
 }

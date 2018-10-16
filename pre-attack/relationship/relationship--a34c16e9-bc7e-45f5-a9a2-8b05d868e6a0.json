@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--093e41ff-19dc-4a10-b290-431c103056ae",
+    "id": "bundle--c430540f-9722-4e3e-bf16-fa2841faa9e8",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--a34c16e9-bc7e-45f5-a9a2-8b05d868e6a0",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Night Dragon](https://attack.mitre.org/groups/G0014) used privately developed and customized remote access tools.",
-            "source_ref": "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
-            "target_ref": "attack-pattern--9755ecdc-deb0-40e6-af49-713cb0f8ed92",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "McAfee Night Dragon"
                 }
             ],
+            "source_ref": "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--9755ecdc-deb0-40e6-af49-713cb0f8ed92",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

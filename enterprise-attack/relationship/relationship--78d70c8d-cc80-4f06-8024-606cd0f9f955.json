@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--592099da-6640-49ef-b59f-02310f6681aa",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--78d70c8d-cc80-4f06-8024-606cd0f9f955",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[Leafminer](https://attack.mitre.org/groups/G0077) used Microsoft\u2019s Sysinternals tools to gather detailed information about remote systems.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://www.symantec.com/blogs/threat-intelligence/leafminer-espionage-middle-east",
+                    "description": "Symantec Security Response. (2018, July 25). Leafminer: New Espionage Campaigns Targeting Middle Eastern Regions. Retrieved August 28, 2018.",
+                    "source_name": "Symantec Leafminer July 2018"
+                }
+            ],
+            "source_ref": "intrusion-set--131a226d-8a5f-4204-9710-63e163ae73ee",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

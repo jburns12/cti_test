@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--be67a991-dd94-4a88-a638-e9bdce0b0984",
+    "id": "bundle--32887721-4082-462d-b548-6226bb34468a",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--329678a6-eb6b-499b-90a8-059d1cf1a35f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[SslMM](https://attack.mitre.org/software/S0058) has a hard-coded primary and backup C2 string.",
-            "source_ref": "malware--2fb26586-2b53-4b9a-ad4f-2b3bcb9a2421",
-            "target_ref": "attack-pattern--f24faf46-3b26-4dbb-98f2-63460498e433",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Baumgartner Naikon 2015"
                 }
             ],
+            "source_ref": "malware--2fb26586-2b53-4b9a-ad4f-2b3bcb9a2421",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--f24faf46-3b26-4dbb-98f2-63460498e433",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

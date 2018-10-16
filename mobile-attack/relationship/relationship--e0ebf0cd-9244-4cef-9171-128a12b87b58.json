@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--9224851f-a8be-4cab-a31e-46c14f114687",
+    "id": "bundle--5ef954dd-1aa3-4b8d-b092-8e1c5e489ec0",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--e0ebf0cd-9244-4cef-9171-128a12b87b58",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "[SpyNote RAT](https://attack.mitre.org/software/MOB-S0021) can read SMS messages.",
-            "source_ref": "malware--20dbaf05-59b8-4dc6-8777-0b17f4553a23",
-            "target_ref": "attack-pattern--e8b4e1ec-8e3b-484c-9038-4459b1ed8060",
+            "description": "[SpyNote RAT](https://attack.mitre.org/software/S0305) can read SMS messages.",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Zscaler-SpyNote"
                 }
             ],
+            "source_ref": "malware--20dbaf05-59b8-4dc6-8777-0b17f4553a23",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--e8b4e1ec-8e3b-484c-9038-4459b1ed8060",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

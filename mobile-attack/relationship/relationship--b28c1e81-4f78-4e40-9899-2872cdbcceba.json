@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--3adec4b1-6aa6-4340-bfb1-f3255b195c26",
+    "id": "bundle--3ff0667a-288b-4b5c-9b5c-07b8e936d44d",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--b28c1e81-4f78-4e40-9899-2872cdbcceba",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "mitigates",
             "description": "Decrease likelihood of successful privilege escalation attack.",
-            "source_ref": "course-of-action--0beabf44-e8d8-4ae4-9122-ef56369a2564",
-            "target_ref": "attack-pattern--79eec66a-9bd0-4a3f-ac82-19159e94bd44",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "source_ref": "course-of-action--0beabf44-e8d8-4ae4-9122-ef56369a2564",
+            "relationship_type": "mitigates",
+            "target_ref": "attack-pattern--79eec66a-9bd0-4a3f-ac82-19159e94bd44",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-10-25T14:48:53.736Z"
         }
     ]

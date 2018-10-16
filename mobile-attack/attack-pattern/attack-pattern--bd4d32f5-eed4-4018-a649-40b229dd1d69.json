@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cfea60c7-307b-401d-a736-e138e18721a6",
+    "id": "bundle--f17e302c-d9fa-444f-a912-4481fc286245",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "An Android application can listen for the BOOT_COMPLETED broadcast, ensuring that the app's functionality will be activated every time the device starts up without having to wait for the device user to manually start the app.\n\n (Citation: Zhou) and Jiang (Citation: Zhou) analyzed 1260 Android malware samples belonging to 49 families of malware, and determined that 29 malware families and 83.3% of the samples listened for BOOT_COMPLETED.",
             "external_references": [
                 {
-                    "external_id": "MOB-T1005",
-                    "url": "https://attack.mitre.org/techniques/MOB-T1005",
+                    "external_id": "T1402",
+                    "url": "https://attack.mitre.org/techniques/T1402",
                     "source_name": "mitre-mobile-attack"
                 },
                 {
@@ -29,6 +29,7 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -36,7 +37,7 @@
                     "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-10-25T14:48:30.127Z"
         }
     ]

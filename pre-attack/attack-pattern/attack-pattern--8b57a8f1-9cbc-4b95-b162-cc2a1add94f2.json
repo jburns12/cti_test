@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bcba82e8-7262-4573-acdf-a57b82b2e44d",
+    "id": "bundle--16c19683-3328-4eb5-b82c-3ccb4d5d7ede",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "An adversary can run their code on systems with cyber security protections, such as antivirus products, in place to see if their code is detected. They can also test their malware on freely available public services. (Citation: MalwareQAZirtest)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1136",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1136",
+                    "external_id": "T1359",
+                    "url": "https://attack.mitre.org/techniques/T1359",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -26,6 +26,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Adversary controls the testing and can ensure data does not leak with proper OPSEC on testing.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Adversary has the ability to procure products and not have reporting return to vendors or can choose to use freely available services",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -33,7 +34,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

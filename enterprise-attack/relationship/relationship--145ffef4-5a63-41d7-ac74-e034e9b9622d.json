@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--a43434aa-0f92-46bd-bbe1-de8db648adbf",
+    "id": "bundle--18b61976-30e5-400b-9348-2933d7f5d488",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--145ffef4-5a63-41d7-ac74-e034e9b9622d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[PUNCHTRACK](https://attack.mitre.org/software/S0197) scrapes memory for properly formatted payment card data.",
-            "source_ref": "malware--c4de7d83-e875-4c88-8b5d-06c41e5b7e79",
-            "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -25,8 +22,11 @@
                     "source_name": "FireEye Know Your Enemy FIN8 Aug 2016"
                 }
             ],
+            "source_ref": "malware--c4de7d83-e875-4c88-8b5d-06c41e5b7e79",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9c28139f-69b1-4917-8d77-173e51e12350",
+    "id": "bundle--d69acd12-685a-44eb-8248-2ed400ca8c17",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,7 +27,7 @@
                     "source_name": "REDBALDKNIGHT"
                 },
                 {
-                    "description": "(Citation: Trend Micro Daserf Nov 2017)",
+                    "description": "(Citation: Trend Micro Daserf Nov 2017) (Citation: Symantec Tick Apr 2016)",
                     "source_name": "Tick"
                 },
                 {
@@ -39,14 +39,20 @@
                     "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
                     "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.",
                     "source_name": "Secureworks BRONZE BUTLER Oct 2017"
+                },
+                {
+                    "url": "https://www.symantec.com/connect/blogs/tick-cyberespionage-group-zeros-japan",
+                    "description": "DiMaggio, J. (2016, April 28). Tick cyberespionage group zeros in on Japan. Retrieved July 16, 2018.",
+                    "source_name": "Symantec Tick Apr 2016"
                 }
             ],
+            "x_mitre_version": "1.0",
             "aliases": [
                 "BRONZE BUTLER",
                 "REDBALDKNIGHT",
                 "Tick"
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

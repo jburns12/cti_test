@@ -1,17 +1,17 @@
 {
     "type": "bundle",
-    "id": "bundle--2b613bd8-f627-4f33-b7ae-5872d2a18eb9",
+    "id": "bundle--a6c8ecfb-7216-488d-a73d-e05ee86a5ddb",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--667e5707-3843-4da8-bd34-88b922526f0d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Exploit via Charging Station or PC",
-            "description": "If the mobile device is connected (typically via USB) to a charging station or a PC, for example to charge the device's battery, then a compromised or malicious charging station or PC could attempt to exploit the mobile device via the connection.\n\nKrebs described this technique in  (Citation: Krebs-JuiceJacking). Lau et al. (Citation: Lau-Mactans) demonstrated the ability to inject malicious applications into an iOS device via USB. Hay (Citation: IBM-NexusUSB) demonstrated the ability to exploit a Nexus 6 or 6P device over USB and then gain the ability to perform actions including intercepting phone calls, intercepting network traffic, and obtaining the device physical location.",
+            "description": "If the mobile device is connected (typically via USB) to a charging station or a PC, for example to charge the device's battery, then a compromised or malicious charging station or PC could attempt to exploit the mobile device via the connection.\n\nKrebs described this technique in  (Citation: Krebs-JuiceJacking). Lau et al. (Citation: Lau-Mactans) demonstrated the ability to inject malicious applications into an iOS device via USB. Hay (Citation: IBM-NexusUSB) demonstrated the ability to exploit a Nexus 6 or 6P device over USB and then gain the ability to perform actions including intercepting phone calls, intercepting network traffic, and obtaining the device physical location. Horn (Citation: GoogleProjectZero-OATmeal) demonstrated the ability to exploit Android devices such as the Google Pixel 2 over USB.\n\nProducts from Cellebrite and Grayshift purportedly can use physical access to the data port to unlock the passcode on some iOS devices (Citation: Computerworld-iPhoneCracking).",
             "external_references": [
                 {
-                    "external_id": "MOB-T1061",
-                    "url": "https://attack.mitre.org/techniques/MOB-T1061",
+                    "external_id": "T1458",
+                    "url": "https://attack.mitre.org/techniques/T1458",
                     "source_name": "mitre-mobile-attack"
                 },
                 {
@@ -33,6 +33,16 @@
                     "url": "https://securityintelligence.com/android-vulnerabilities-attacking-nexus-6-and-6p-custom-boot-modes/",
                     "description": "Roee Hay. (2017, January 5). Android Vulnerabilities: Attacking Nexus 6 and 6P Custom Boot Modes. Retrieved January 11, 2017.",
                     "source_name": "IBM-NexusUSB"
+                },
+                {
+                    "url": "https://googleprojectzero.blogspot.com/2018/09/oatmeal-on-universal-cereal-bus.html",
+                    "description": "Jann Horn. (2018, September 10). OATmeal on the Universal Cereal Bus: Exploiting Android phones over USB. Retrieved September 18, 2018.",
+                    "source_name": "GoogleProjectZero-OATmeal"
+                },
+                {
+                    "url": "https://www.computerworld.com/article/3268729/apple-ios/two-vendors-now-sell-iphone-cracking-technology-and-police-are-buying.html",
+                    "description": "Lucas Mearian. (2018, May 9). Two vendors now sell iPhone cracking technology \u2013 and police are buying. Retrieved September 21, 2018.",
+                    "source_name": "Computerworld-iPhoneCracking"
                 }
             ],
             "object_marking_refs": [
@@ -43,16 +53,17 @@
                 "iOS"
             ],
             "x_mitre_tactic_type": [
-                "Pre-Adversary Device Access"
+                "Post-Adversary Device Access"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
-                    "phase_name": "exploit-via-physical-access",
+                    "phase_name": "initial-access",
                     "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-10-25T14:48:23.233Z"
         }
     ]

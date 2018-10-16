@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--b87c55f5-2135-4626-9f1f-bdc99a71bec7",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--2f0a3b3a-076a-4e7c-aa53-a1bdc139bf3d",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[RogueRobin](https://attack.mitre.org/software/S0270) uses PowerShell for execution.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://researchcenter.paloaltonetworks.com/2018/07/unit42-new-threat-actor-group-darkhydrus-targets-middle-east-government/",
+                    "description": "Falcone, R., et al. (2018, July 27). New Threat Actor Group DarkHydrus Targets Middle East Government. Retrieved August 2, 2018.",
+                    "source_name": "Unit 42 DarkHydrus July 2018"
+                }
+            ],
+            "source_ref": "malware--ef8a02dc-ad85-4f78-b721-10f3909e1896",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

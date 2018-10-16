@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--2383bc31-4fad-4a3c-88db-709e19633320",
+    "id": "bundle--f6ad868e-ef18-4bc2-ae4d-3f4971f12f83",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--aaa0e944-7158-4baa-b45b-c687f7b161b5",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[PowerSploit](https://attack.mitre.org/software/S0194)'s <code>Invoke-Kerberoast</code> module can request service tickets and return crackable ticket hashes.",
-            "source_ref": "tool--13cd9151-83b7-410d-9f98-25d0f0d1d80d",
-            "target_ref": "attack-pattern--b39d03cb-7b98-41c4-a878-c40c1a913dc0",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -25,8 +22,11 @@
                     "source_name": "Harmj0y Kerberoast Nov 2016"
                 }
             ],
+            "source_ref": "tool--13cd9151-83b7-410d-9f98-25d0f0d1d80d",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--b39d03cb-7b98-41c4-a878-c40c1a913dc0",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

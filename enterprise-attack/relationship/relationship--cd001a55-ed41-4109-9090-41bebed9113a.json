@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--a9b625bf-2d73-49fc-b1af-6ca40e540af9",
+    "id": "bundle--1f1ca8f2-831a-4960-88a9-3995611e70e9",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--cd001a55-ed41-4109-9090-41bebed9113a",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[FIN8](https://attack.mitre.org/groups/G0061)'s malicious spearphishing payloads are executed as [PowerShell](https://attack.mitre.org/techniques/T1086). [FIN8](https://attack.mitre.org/groups/G0061) has also used [PowerShell](https://attack.mitre.org/techniques/T1086) during and.",
-            "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
-            "target_ref": "attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -25,8 +22,11 @@
                     "source_name": "FireEye Know Your Enemy FIN8 Aug 2016"
                 }
             ],
+            "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

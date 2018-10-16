@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--34faf77f-b029-4bec-a19b-ea24ac2249b6",
+    "id": "bundle--2b9f2c9d-d82c-4dbd-adc9-6df13bd73389",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--4e66aad2-7c30-4c05-9f8e-767ac1cff08e",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[JPIN](https://attack.mitre.org/software/S0201) lower disable security settings by changing Registry keys.",
-            "source_ref": "malware--de6cb631-52f6-4169-a73b-7965390b0c30",
-            "target_ref": "attack-pattern--2e0dd10b-676d-4964-acd0-8a404c92b044",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Microsoft PLATINUM April 2016"
                 }
             ],
+            "source_ref": "malware--de6cb631-52f6-4169-a73b-7965390b0c30",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--2e0dd10b-676d-4964-acd0-8a404c92b044",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

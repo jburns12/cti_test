@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--b7424dc6-fa6e-49a2-9300-27f7720588c2",
+    "id": "bundle--bf36ec2d-878b-49da-9198-77ccbc717cf0",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--0188b7af-d060-4715-baf2-ad69333482dc",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Orz](https://attack.mitre.org/software/S0229) can gather victim drive information.",
-            "source_ref": "malware--06d735e7-1db1-4dbe-ab4b-acbe419f902b",
-            "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Proofpoint Leviathan Oct 2017"
                 }
             ],
+            "source_ref": "malware--06d735e7-1db1-4dbe-ab4b-acbe419f902b",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

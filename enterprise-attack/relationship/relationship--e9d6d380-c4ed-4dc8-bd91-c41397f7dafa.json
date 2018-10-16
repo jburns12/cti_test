@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--96b71e57-c26d-4ff9-8098-83a4bfb21cf2",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--e9d6d380-c4ed-4dc8-bd91-c41397f7dafa",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[iKitten](https://attack.mitre.org/software/S0278) adds an entry to the rc.common file for persistence.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://objective-see.com/blog/blog_0x25.html",
+                    "description": "Patrick Wardle. (n.d.). Mac Malware of 2017. Retrieved September 21, 2018.",
+                    "source_name": "objsee mac malware 2017"
+                }
+            ],
+            "source_ref": "malware--55925294-853b-4201-baa6-4473140fd6a9",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--18d4ab39-12ed-4a16-9fdb-ae311bba4a0f",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

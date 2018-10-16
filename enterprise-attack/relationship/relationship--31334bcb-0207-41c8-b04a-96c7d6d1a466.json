@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--e405a304-308d-4294-b180-7067a5ab9fa4",
+    "id": "bundle--f981ca8e-9bf1-4bd1-a0e0-c1abeaff65f5",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--31334bcb-0207-41c8-b04a-96c7d6d1a466",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[PowerSploit](https://attack.mitre.org/software/S0194) contains a collection of Exfiltration modules that can access data from local files, volumes, and processes.",
-            "source_ref": "tool--13cd9151-83b7-410d-9f98-25d0f0d1d80d",
-            "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -25,8 +22,11 @@
                     "source_name": "PowerSploit Documentation"
                 }
             ],
+            "source_ref": "tool--13cd9151-83b7-410d-9f98-25d0f0d1d80d",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ea2a36ab-c1ed-4178-ac81-239260f0f45e",
+    "id": "bundle--28f06e01-f9ee-4f63-8c1f-a87b853c8ece",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "An adversary can attempt to identify web defensive services as [https://www.cloudflare.com/ CloudFlare], [https://github.com/jjxtra/Windows-IP-Ban-Service IPBan], and [https://www.snort.org/ Snort]. This may be done by passively detecting services, like [https://www.cloudflare.com/ CloudFlare] routing, or actively, such as by purposefully tripping security defenses. (Citation: NMAP WAF NSE)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1033",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1033",
+                    "external_id": "T1256",
+                    "url": "https://attack.mitre.org/techniques/T1256",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -26,6 +26,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Active service detection may trigger an alert.  Passive service enumeration is not detected.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Adversary can passively detect services (e.g., [https://www.cloudflare.com/ CloudFlare] routing) or actively detect services (e.g., by purposefully tripping security defenses)",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -33,7 +34,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

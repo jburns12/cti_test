@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--d4290607-6512-404b-8d5b-03eb003fac74",
+    "id": "bundle--c792f42a-4a3e-4c03-b8e3-a64299dc24e8",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--36675cd3-fe00-454c-8516-aebecacbe9d9",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Login Item",
-            "description": "MacOS provides the option to list specific applications to run when a user logs in. These applications run under the logged in user's context, and will be started every time the user logs in. Login items installed using the Service Management Framework are not visible in the System Preferences and can only be removed by the application that created them (Citation: Adding Login Items). Users have direct control over login items installed using a shared file list which are also visible in System Preferences (Citation: Adding Login Items). These login items are stored in the user's <code>~/Library/Preferences/</code> directory in a plist file called <code>com.apple.loginitems.plist</code> (Citation: Methods of Mac Malware Persistence). Some of these applications can open visible dialogs to the user, but they don\u2019t all have to since there is an option to \u2018Hide\u2019 the window. If an adversary can register their own login item or modified an existing one, then they can use it to execute their code for a persistence mechanism each time the user logs in (Citation: Malware Persistence on OS X) (Citation: OSX.Dok Malware).",
+            "description": "MacOS provides the option to list specific applications to run when a user logs in. These applications run under the logged in user's context, and will be started every time the user logs in. Login items installed using the Service Management Framework are not visible in the System Preferences and can only be removed by the application that created them (Citation: Adding Login Items). Users have direct control over login items installed using a shared file list which are also visible in System Preferences (Citation: Adding Login Items). These login items are stored in the user's <code>~/Library/Preferences/</code> directory in a plist file called <code>com.apple.loginitems.plist</code> (Citation: Methods of Mac Malware Persistence). Some of these applications can open visible dialogs to the user, but they don\u2019t all have to since there is an option to \u2018Hide\u2019 the window. If an adversary can register their own login item or modified an existing one, then they can use it to execute their code for a persistence mechanism each time the user logs in (Citation: Malware Persistence on OS X) (Citation: OSX.Dok Malware). The API method <code> SMLoginItemSetEnabled </code> can be used to set Login Items, but scripting languages like [AppleScript](https://attack.mitre.org/techniques/T1155) can do this as well  (Citation: Adding Login Items).",
             "external_references": [
                 {
                     "external_id": "T1162",
@@ -38,13 +38,18 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "All the login items are viewable by going to the Apple menu -> System Preferences -> Users & Groups -> Login items. This area should be monitored and whitelisted for known good applications. Monitor process execution resulting from login actions for unusual or unknown applications.",
+            "x_mitre_data_sources": [
+                "File monitoring",
+                "API monitoring"
+            ],
+            "x_mitre_detection": "All the login items created via shared file lists are viewable by going to the Apple menu -> System Preferences -> Users & Groups -> Login items. This area (and the corresponding file locations) should be monitored and whitelisted for known good applications. Otherwise, Login Items are located in <code> Contents/Library/LoginItems </code> within an application bundle, so these paths should be monitored as well  (Citation: Adding Login Items). Monitor process execution resulting from login actions for unusual or unknown applications.",
             "x_mitre_platforms": [
                 "macOS"
             ],
             "x_mitre_permissions_required": [
                 "User"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -52,7 +57,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

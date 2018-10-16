@@ -1,19 +1,19 @@
 {
     "type": "bundle",
-    "id": "bundle--9e2b0e3f-cdd7-4ed6-9ffb-f967e0acda12",
+    "id": "bundle--e14a1820-0fc9-4414-b06f-4ab4127194ef",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--7243a679-467e-4c31-b413-547016b9c3ad",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "source_ref": "intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542",
-            "target_ref": "malware--5e7ef1dc-7fb6-4913-ac75-e06113b59e0c",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "source_ref": "intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542",
+            "relationship_type": "uses",
+            "target_ref": "malware--5e7ef1dc-7fb6-4913-ac75-e06113b59e0c",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:33:27.050Z"
         }
     ]

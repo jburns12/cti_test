@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--13787675-cdae-41ac-92e1-5d83eb62e240",
+    "id": "bundle--bca3a7bd-aedb-476b-83ec-8940c059d19e",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--92b34cc0-b059-4294-824f-bb92298f3ae6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Daserf](https://attack.mitre.org/software/S0187) uses encrypted Windows APIs and also encrypts data using the alternative base64+RC4 or the Caesar cipher.",
-            "source_ref": "malware--b6b3dfc7-9a81-43ff-ac04-698bad48973a",
-            "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Trend Micro Daserf Nov 2017"
                 }
             ],
+            "source_ref": "malware--b6b3dfc7-9a81-43ff-ac04-698bad48973a",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

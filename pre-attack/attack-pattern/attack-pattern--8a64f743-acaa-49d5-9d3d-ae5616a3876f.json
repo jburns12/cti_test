@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b4e8d231-5714-4063-b2cc-f1bdc89378c9",
+    "id": "bundle--0787054f-23a7-4861-bbd9-93be11dab4be",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "This technique has been deprecated. Please see ATT&CK's Initial Access and Execution tactics for replacement techniques.\n\nThe use of software, data, or commands to take advantage of a weakness in a computer system or program in order to cause unintended or unanticipated behavior. The weakness in the system can be a bug, a glitch, or a design vulnerability. (Citation: GoogleCrawlerSQLInj)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1154",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1154",
+                    "external_id": "T1377",
+                    "url": "https://attack.mitre.org/techniques/T1377",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -27,6 +27,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "If the application and network are designed well, the defender should be able to utilize logging and application logic to catch and deflect SQL injection attacks.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Launching a SQL injection attack is not overly complex and a commonly used technique.  This technique, however, requires finding a vulnerable application.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -34,7 +35,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

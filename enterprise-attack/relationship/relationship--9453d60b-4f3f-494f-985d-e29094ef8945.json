@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--135a61b8-0f2a-4099-a66c-a12eb14edd45",
+    "id": "bundle--cd42f770-5e81-4fa5-aaf7-32c0414644b1",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--9453d60b-4f3f-494f-985d-e29094ef8945",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Net Crawler](https://attack.mitre.org/software/S0056) uses [PsExec](https://attack.mitre.org/software/S0029) to perform remote service manipulation to execute a copy of itself as part of lateral movement.",
-            "source_ref": "malware--fde50aaa-f5de-4cb8-989a-babb57d6a704",
-            "target_ref": "attack-pattern--f44731de-ea9f-406d-9b83-30ecbb9b4392",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Cylance Cleaver"
                 }
             ],
+            "source_ref": "malware--fde50aaa-f5de-4cb8-989a-babb57d6a704",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--f44731de-ea9f-406d-9b83-30ecbb9b4392",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

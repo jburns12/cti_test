@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--e9f1291f-8b39-4c39-9187-944f7de09acd",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--c6325603-a19d-4a47-81fd-4f66ddc9357d",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "iOS 9 and above requires explicit user consent before allowing installation of applications signed with enterprise distribution keys rather than installed from Apple's App Store. Users should be encouraged to not agree to installation of applications signed with enterprise distribution keys unless absolutely certain of the source of the application. On Android, the \"Unknown Sources\" setting must be enabled for users to install apps from sources other than an authorized app store (such as the Google Play Store), so users should be encouraged not to enable that setting.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "source_ref": "course-of-action--653492e3-27be-4a0e-b08c-938dd2b7e0e1",
+            "relationship_type": "mitigates",
+            "target_ref": "attack-pattern--05f4a497-60c8-4dd8-8578-012aafdacfd4",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

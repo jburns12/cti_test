@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3fcce294-2a32-4e87-8dd8-e3501fc87cfb",
+    "id": "bundle--bfc4966e-5d1c-424f-bb98-6d9aa4c6d0ad",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,13 +27,13 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_contributors": [
-                "Casey Smith",
-                "Travis Smith, Tripwire"
-            ],
             "x_mitre_data_sources": [
                 "Process monitoring",
                 "Process command-line parameters"
+            ],
+            "x_mitre_contributors": [
+                "Casey Smith",
+                "Travis Smith, Tripwire"
             ],
             "x_mitre_defense_bypassed": [
                 "Process whitelisting"
@@ -43,6 +43,7 @@
                 "User"
             ],
             "x_mitre_remote_support": false,
+            "x_mitre_version": "1.0",
             "x_mitre_platforms": [
                 "Windows"
             ],
@@ -57,7 +58,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:31:27.510Z"
         }
     ]

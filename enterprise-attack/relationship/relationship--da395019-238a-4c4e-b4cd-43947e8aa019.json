@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--50fe5ed5-a050-45c5-99a3-7c739d925c7e",
+    "id": "bundle--1814a3b7-9d6b-41c3-baf8-58c9fac0ce62",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--da395019-238a-4c4e-b4cd-43947e8aa019",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "To move laterally on a victim network, [FIN6](https://attack.mitre.org/groups/G0037) has used credentials stolen from various systems on which it gathered usernames and password hashes.",
-            "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
-            "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "FireEye FIN6 April 2016"
                 }
             ],
+            "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:33:27.072Z"
         }
     ]

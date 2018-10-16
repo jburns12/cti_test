@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a91b2ac9-c1a1-4993-92d5-079d0df0a3e1",
+    "id": "bundle--cad5bea0-6609-40c4-a89e-b2bf7b93a79f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "Use of removable media as part of the Launch phase requires an adversary to determine type, format, and content of the media and associated malware. (Citation: BadUSB)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1132",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1132",
+                    "external_id": "T1355",
+                    "url": "https://attack.mitre.org/techniques/T1355",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -26,6 +26,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Adversary will likely use code repositories, but development will be performed on their local systems.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Several exploit repositories and tool suites exist for re-use and tailoring.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -33,7 +34,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

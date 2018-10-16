@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--3dc93274-d61a-4802-824a-c07a63e5145e",
+    "id": "bundle--b965ee1b-25e4-468c-aefa-23f4d85622df",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--7760fef9-2e22-4747-ad48-f8aa946f3737",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Smoke Loader](https://attack.mitre.org/software/S0226) was distributed through a compromised update to a Tor client with a coin miner payload.",
-            "source_ref": "malware--0c824410-58ff-49b2-9cf2-1c96b182bdf0",
-            "target_ref": "attack-pattern--3f18edba-28f4-4bb9-82c3-8aa60dcac5f7",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Microsoft Dofoil 2018"
                 }
             ],
+            "source_ref": "malware--0c824410-58ff-49b2-9cf2-1c96b182bdf0",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--3f18edba-28f4-4bb9-82c3-8aa60dcac5f7",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--bc007545-b886-41c4-a264-44fd853310da",
+    "id": "bundle--2d8ab70b-a2c4-4922-901b-560b654335d4",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--1923bc58-a830-457d-810f-27091e032f46",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[MuddyWater](https://attack.mitre.org/groups/G0069) has used Mshta.exe to execute its [POWERSTATS](https://attack.mitre.org/software/S0223) payload.",
-            "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
-            "target_ref": "attack-pattern--a127c32c-cbb0-4f9d-be07-881a792408ec",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "FireEye MuddyWater Mar 2018"
                 }
             ],
+            "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--a127c32c-cbb0-4f9d-be07-881a792408ec",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

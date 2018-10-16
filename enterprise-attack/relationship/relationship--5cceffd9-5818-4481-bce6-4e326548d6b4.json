@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--4f96df26-e930-406b-8c11-bd9b28733bba",
+    "id": "bundle--e4e9b88a-96d7-426f-996b-52cea367a625",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--5cceffd9-5818-4481-bce6-4e326548d6b4",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[MoonWind](https://attack.mitre.org/software/S0149) obtains the number of removable drives from the victim.",
-            "source_ref": "malware--9ea525fa-b0a9-4dde-84f2-bcea0137b3c1",
-            "target_ref": "attack-pattern--348f1eef-964b-4eb6-bb53-69b3dcb0c643",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Palo Alto MoonWind March 2017"
                 }
             ],
+            "source_ref": "malware--9ea525fa-b0a9-4dde-84f2-bcea0137b3c1",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--348f1eef-964b-4eb6-bb53-69b3dcb0c643",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

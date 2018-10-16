@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--4e72f893-517d-4df6-a77f-730da48ab0c6",
+    "id": "bundle--50527751-4173-4fc1-a11e-6b67c16f357f",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--23d208f5-cadc-4f80-94c4-5644eaa8b7c7",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Leviathan](https://attack.mitre.org/groups/G0065) has used WMI for execution.",
-            "source_ref": "intrusion-set--7113eaa5-ba79-4fb3-b68a-398ee9cd698e",
-            "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Proofpoint Leviathan Oct 2017"
                 }
             ],
+            "source_ref": "intrusion-set--7113eaa5-ba79-4fb3-b68a-398ee9cd698e",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

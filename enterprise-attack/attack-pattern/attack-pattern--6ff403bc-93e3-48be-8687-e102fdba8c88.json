@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--07a9c093-93de-4eb1-96e0-42b04920cd72",
+    "id": "bundle--faf001fa-21dc-44e1-862c-03305355bf9a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -32,11 +32,12 @@
                 "Binary file metadata"
             ],
             "x_mitre_defense_bypassed": [
-                "Anti-virus",
                 "Signature-based detection",
+                "Anti-virus",
                 "Heuristic detection"
             ],
             "x_mitre_detection": "Use file scanning to look for known software packers or artifacts of packing techniques. Packing is not a definitive indicator of malicious activity, because legitimate software may use packing techniques to reduce binary size or to protect proprietary code.",
+            "x_mitre_version": "1.0",
             "x_mitre_platforms": [
                 "Windows"
             ],
@@ -47,7 +48,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:30:43.472Z"
         }
     ]

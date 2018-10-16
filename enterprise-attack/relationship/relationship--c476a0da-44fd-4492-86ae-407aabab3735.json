@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--9af58515-d9cb-487f-a580-ae731a07b739",
+    "id": "bundle--c609cc4f-a86b-48fa-9e3a-226eab133ae5",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--c476a0da-44fd-4492-86ae-407aabab3735",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Matroyshka](https://attack.mitre.org/software/S0167) uses DNS for C2.",
-            "source_ref": "malware--1cc934e4-b01d-4543-a011-b988dfc1a458",
-            "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -25,8 +22,11 @@
                     "source_name": "CopyKittens Nov 2015"
                 }
             ],
+            "source_ref": "malware--1cc934e4-b01d-4543-a011-b988dfc1a458",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

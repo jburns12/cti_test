@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2d5eb425-6719-44e0-af27-82e3553901cc",
+    "id": "bundle--ffbaaa47-cf18-4869-a51e-a7fc0e3f5a17",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "A malicious app or other attack vector could capture sensitive data stored in the device clipboard, for example passwords being copy-and-pasted from a password manager app.",
             "external_references": [
                 {
-                    "external_id": "MOB-T1017",
-                    "url": "https://attack.mitre.org/techniques/MOB-T1017",
+                    "external_id": "T1414",
+                    "url": "https://attack.mitre.org/techniques/T1414",
                     "source_name": "mitre-mobile-attack"
                 },
                 {
@@ -30,6 +30,7 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -41,7 +42,7 @@
                     "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-10-25T14:48:19.996Z"
         }
     ]

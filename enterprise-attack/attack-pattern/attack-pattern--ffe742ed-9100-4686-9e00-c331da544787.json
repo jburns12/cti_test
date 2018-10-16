@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7dd1dde3-de61-494f-af1a-c25639681431",
+    "id": "bundle--c88a70c5-c34b-435e-8d0a-c3c0d26aa44b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -20,24 +20,9 @@
                     "source_name": "capec"
                 },
                 {
-                    "url": "https://en.wikipedia.org/wiki/Server_Message_Block",
-                    "description": "Wikipedia. (2016, June 12). Server Message Block. Retrieved June 12, 2016.",
-                    "source_name": "Wikipedia SMB"
-                },
-                {
-                    "url": "https://technet.microsoft.com/en-us/library/cc787851.aspx",
-                    "description": "Microsoft. (2003, March 28). What Is RPC?. Retrieved June 12, 2016.",
-                    "source_name": "TechNet RPC"
-                },
-                {
                     "url": "http://support.microsoft.com/kb/314984",
                     "description": "Microsoft. (n.d.). How to create and delete hidden or administrative shares on client computers. Retrieved November 20, 2014.",
                     "source_name": "Microsoft Admin Shares"
-                },
-                {
-                    "url": "https://technet.microsoft.com/bb490717.aspx",
-                    "description": "Microsoft. (n.d.). Net Use. Retrieved November 25, 2016.",
-                    "source_name": "Technet Net Use"
                 },
                 {
                     "url": "http://blogs.technet.com/b/jepayne/archive/2015/11/27/tracking-lateral-movement-part-one-special-groups-and-specific-service-accounts.aspx",
@@ -48,6 +33,21 @@
                     "url": "http://blogs.technet.com/b/jepayne/archive/2015/11/24/monitoring-what-matters-windows-event-forwarding-for-everyone-even-if-you-already-have-a-siem.aspx",
                     "description": "Payne, J. (2015, November 23). Monitoring what matters - Windows Event Forwarding for everyone (even if you already have a SIEM.). Retrieved February 1, 2016.",
                     "source_name": "Windows Event Forwarding Payne"
+                },
+                {
+                    "url": "https://en.wikipedia.org/wiki/Server_Message_Block",
+                    "description": "Wikipedia. (2016, June 12). Server Message Block. Retrieved June 12, 2016.",
+                    "source_name": "Wikipedia SMB"
+                },
+                {
+                    "url": "https://technet.microsoft.com/en-us/library/cc787851.aspx",
+                    "description": "Microsoft. (2003, March 28). What Is RPC?. Retrieved June 12, 2016.",
+                    "source_name": "TechNet RPC"
+                },
+                {
+                    "url": "https://technet.microsoft.com/bb490717.aspx",
+                    "description": "Microsoft. (n.d.). Net Use. Retrieved November 25, 2016.",
+                    "source_name": "Technet Net Use"
                 }
             ],
             "object_marking_refs": [
@@ -56,8 +56,8 @@
             "x_mitre_data_sources": [
                 "Process use of network",
                 "Authentication logs",
-                "Process command-line parameters",
-                "Process monitoring"
+                "Process monitoring",
+                "Process command-line parameters"
             ],
             "x_mitre_detection": "Ensure that proper logging of accounts used to log into systems is turned on and centrally collected. Windows logging is able to collect success/failure for accounts that may be used to move laterally and can be collected using tools such as Windows Event Forwarding. (Citation: Lateral Movement Payne) (Citation: Windows Event Forwarding Payne) Monitor remote login events and associated SMB activity for file transfers and remote process execution. Monitor the actions of remote users who connect to administrative shares. Monitor for use of tools and commands to connect to remote shares, such as [Net](https://attack.mitre.org/software/S0039), on the command-line interface and Discovery techniques that could be used to find remotely accessible systems.",
             "x_mitre_permissions_required": [
@@ -66,6 +66,7 @@
             "x_mitre_system_requirements": [
                 "File and printer sharing over SMB enabled.\nHost/network firewalls not blocking SMB ports between source and destination.\nUse of domain account in administrator group on remote system or default system admin account."
             ],
+            "x_mitre_version": "1.0",
             "x_mitre_platforms": [
                 "Windows"
             ],
@@ -76,7 +77,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:31:00.200Z"
         }
     ]

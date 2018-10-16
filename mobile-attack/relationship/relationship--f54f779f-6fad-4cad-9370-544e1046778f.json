@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--e5c06249-876d-41f6-ad57-3ce29a3c3f76",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--f54f779f-6fad-4cad-9370-544e1046778f",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[Marcher](https://attack.mitre.org/software/S0317) requests Android Device Administrator access.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://www.proofpoint.com/us/threat-insight/post/credential-phishing-and-android-banking-trojan-combine-austrian-mobile-attacks",
+                    "description": "Proofpoint. (2017, November 3). Credential phishing and an Android banking Trojan combine in Austrian mobile attacks. Retrieved July 6, 2018.",
+                    "source_name": "Proofpoint-Marcher"
+                }
+            ],
+            "source_ref": "malware--4f3e31aa-27ab-4a44-a1e8-1a869cc61a01",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--82f04b1e-5371-4a6f-be06-411f0f43b483",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

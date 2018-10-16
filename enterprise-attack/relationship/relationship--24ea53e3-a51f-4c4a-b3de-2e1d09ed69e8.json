@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--5e397683-9b8f-4f2d-8323-4c87eb639af3",
+    "id": "bundle--e7bfe6ef-08cd-4654-9837-0eafb2b7202a",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--24ea53e3-a51f-4c4a-b3de-2e1d09ed69e8",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[PowerDuke](https://attack.mitre.org/software/S0139) has commands to get the current directory name as well as the size of a file. It also has commands to obtain information about logical drives, drive type, and free space.",
-            "source_ref": "malware--00c3bfcb-99bd-4767-8c03-b08f585f5c8a",
-            "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Volexity PowerDuke November 2016"
                 }
             ],
+            "source_ref": "malware--00c3bfcb-99bd-4767-8c03-b08f585f5c8a",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

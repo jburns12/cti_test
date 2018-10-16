@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5ec84dee-5db9-4279-98b5-53469631cf64",
+    "id": "bundle--cd6c02e7-a839-4e09-91d8-0aba0e9ca58a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "This technique has been deprecated. Please see ATT&CK's Initial Access and Execution tactics for replacement techniques.\n\nSending messages through social media platforms to individuals identified as a target. These messages may include malicious attachments or links to malicious sites or they may be designed to establish communications for future actions. (Citation: APT1) (Citation: Nemucod Facebook)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1143",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1143",
+                    "external_id": "T1366",
+                    "url": "https://attack.mitre.org/techniques/T1366",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -31,6 +31,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Extremely hard to identify (in the launch phase) what message via social media is hostile versus what is not.  Increased use of encrypted communications increases the difficulty average defender's have in detecting use of this technique.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Sending messages to individuals identified as a target follows normal tradecraft for using social media.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -38,7 +39,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

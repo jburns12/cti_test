@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--71f02c13-230c-4c78-9044-1490907e281e",
+    "id": "bundle--2795d7f6-029d-4caf-93c4-449cc0de5b47",
     "spec_version": "2.0",
     "objects": [
         {
@@ -40,22 +40,24 @@
                     "source_name": "F-Secure The Dukes"
                 },
                 {
-                    "description": "Department of Homeland Security and Federal Bureau of Investigation. (2016, December 29). GRIZZLY STEPPE \u2013 Russian Malicious Cyber Activity. Retrieved January 11, 2017.",
-                    "source_name": "GRIZZLY STEPPE JAR"
-                },
-                {
                     "url": "https://www.crowdstrike.com/blog/bears-midst-intrusion-democratic-national-committee/",
                     "description": "Alperovitch, D.. (2016, June 15). Bears in the Midst: Intrusion into the Democratic National Committee. Retrieved August 3, 2016.",
                     "source_name": "Crowdstrike DNC June 2016"
+                },
+                {
+                    "url": "https://www.us-cert.gov/sites/default/files/publications/JAR_16-20296A_GRIZZLY%20STEPPE-2016-1229.pdf",
+                    "description": "Department of Homeland Security and Federal Bureau of Investigation. (2016, December 29). GRIZZLY STEPPE \u2013 Russian Malicious Cyber Activity. Retrieved January 11, 2017.",
+                    "source_name": "GRIZZLY STEPPE JAR"
                 }
             ],
+            "x_mitre_version": "1.0",
             "aliases": [
                 "APT29",
                 "The Dukes",
                 "Cozy Bear",
                 "CozyDuke"
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:31:52.748Z"
         }
     ]

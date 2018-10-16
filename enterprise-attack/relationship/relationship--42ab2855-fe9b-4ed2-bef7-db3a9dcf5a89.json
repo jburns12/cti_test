@@ -1,19 +1,19 @@
 {
     "type": "bundle",
-    "id": "bundle--f9f6d6d7-b212-4650-9076-9eb6a4eab87d",
+    "id": "bundle--4f37c865-c9e2-4493-b63a-9416adff7103",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--42ab2855-fe9b-4ed2-bef7-db3a9dcf5a89",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "mitigates",
-            "source_ref": "course-of-action--383caaa3-c46a-4f61-b2e3-653eb132f0e7",
-            "target_ref": "attack-pattern--1608f3e1-598a-42f4-a01a-2e252e81728f",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "source_ref": "course-of-action--383caaa3-c46a-4f61-b2e3-653eb132f0e7",
+            "relationship_type": "mitigates",
+            "target_ref": "attack-pattern--1608f3e1-598a-42f4-a01a-2e252e81728f",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:33:27.029Z"
         }
     ]

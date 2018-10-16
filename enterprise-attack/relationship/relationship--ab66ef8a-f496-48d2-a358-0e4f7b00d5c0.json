@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--8f2496f4-556f-4897-93ea-7f990ad8bbbc",
+    "id": "bundle--76760c43-9867-4f22-a775-83cd63f7afc7",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--ab66ef8a-f496-48d2-a358-0e4f7b00d5c0",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060)'s MSGET downloader uses a dead drop resolver to access malicious payloads.",
-            "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
-            "target_ref": "attack-pattern--830c9528-df21-472c-8c14-a036bf17d665",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Secureworks BRONZE BUTLER Oct 2017"
                 }
             ],
+            "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--830c9528-df21-472c-8c14-a036bf17d665",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

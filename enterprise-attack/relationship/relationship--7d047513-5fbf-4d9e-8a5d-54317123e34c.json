@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--2f8275f1-42d7-4956-b04a-0b6da1c5fca3",
+    "id": "bundle--6e0537f2-133d-45bc-a3c2-5b521ec7bbdc",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--7d047513-5fbf-4d9e-8a5d-54317123e34c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[admin@338](https://attack.mitre.org/groups/G0018) actors used the following command following exploitation of a machine with [LOWBALL](https://attack.mitre.org/software/S0042) malware to list local groups: <code>net localgroup administrator >> %temp%\\download</code>",
-            "source_ref": "intrusion-set--16ade1aa-0ea1-4bb7-88cc-9079df2ae756",
-            "target_ref": "attack-pattern--15dbf668-795c-41e6-8219-f0447c0e64ce",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "FireEye admin@338"
                 }
             ],
+            "source_ref": "intrusion-set--16ade1aa-0ea1-4bb7-88cc-9079df2ae756",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--15dbf668-795c-41e6-8219-f0447c0e64ce",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:33:27.052Z"
         }
     ]

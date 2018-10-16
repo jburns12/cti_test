@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8a2296eb-5048-444a-9ee0-79e1fb9dcda6",
+    "id": "bundle--cb67c594-76f6-4449-81c2-c7e94f497823",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "Job postings, on either company sites, or in other forums, provide information on organizational structure and often provide contact information for someone within the organization. This may give an adversary  information on technologies within the organization which could be valuable in attack or provide insight in to possible security weaknesses or limitations in detection or protection mechanisms. (Citation: JobPostingThreat)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1025",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1025",
+                    "external_id": "T1248",
+                    "url": "https://attack.mitre.org/techniques/T1248",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -26,6 +26,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Impossible to differentiate between an adversary and a normal user when accessing open/public information.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Publicly posted information by design.  Providing too much detail in the job posting could aid the adversary in learning more about the target's environment and possible technical weaknesses/deficiencies.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -33,7 +34,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

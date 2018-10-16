@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ea69734f-b849-425b-93c7-1c5e1d10fafd",
+    "id": "bundle--593c5be4-ecbf-4dd8-9a8f-e6df3d6de0df",
     "spec_version": "2.0",
     "objects": [
         {
@@ -20,11 +20,6 @@
                     "source_name": "capec"
                 },
                 {
-                    "url": "https://en.wikipedia.org/wiki/Hypervisor",
-                    "description": "Wikipedia. (2016, May 23). Hypervisor. Retrieved June 11, 2016.",
-                    "source_name": "Wikipedia Hypervisor"
-                },
-                {
                     "url": "http://en.wikipedia.org/wiki/Xen",
                     "description": "Xen. (n.d.). In Wikipedia. Retrieved November 13, 2014.",
                     "source_name": "Wikipedia Xen"
@@ -38,6 +33,11 @@
                     "url": "http://virtualization.info/en/news/2006/08/debunking-blue-pill-myth.html",
                     "description": "virtualization.info. (Interviewer) & Liguori, A. (Interviewee). (2006, August 11). Debunking Blue Pill myth &#91;Interview transcript&#93;. Retrieved November 13, 2014.",
                     "source_name": "virtualization.info 2006"
+                },
+                {
+                    "url": "https://en.wikipedia.org/wiki/Hypervisor",
+                    "description": "Wikipedia. (2016, May 23). Hypervisor. Retrieved June 11, 2016.",
+                    "source_name": "Wikipedia Hypervisor"
                 }
             ],
             "object_marking_refs": [
@@ -51,6 +51,7 @@
                 "Administrator",
                 "SYSTEM"
             ],
+            "x_mitre_version": "1.0",
             "x_mitre_platforms": [
                 "Windows"
             ],
@@ -61,7 +62,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:30:50.958Z"
         }
     ]

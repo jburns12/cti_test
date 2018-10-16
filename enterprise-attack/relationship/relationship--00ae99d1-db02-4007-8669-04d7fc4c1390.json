@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--0ea8bc09-d1e2-4043-8786-ee48dc4ab6d1",
+    "id": "bundle--6d9212c9-a70b-4969-ad41-c36c374eaa0e",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--00ae99d1-db02-4007-8669-04d7fc4c1390",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "Once a removable media device is inserted back into the first victim, [USBStealer](https://attack.mitre.org/software/S0136) collects data from it that was exfiltrated from a second victim.",
-            "source_ref": "malware--af2ad3b7-ab6a-4807-91fd-51bcaff9acbb",
-            "target_ref": "attack-pattern--1b7ba276-eedc-4951-a762-0ceea2c030ec",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -25,8 +22,11 @@
                     "source_name": "Kaspersky Sofacy"
                 }
             ],
+            "source_ref": "malware--af2ad3b7-ab6a-4807-91fd-51bcaff9acbb",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--1b7ba276-eedc-4951-a762-0ceea2c030ec",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

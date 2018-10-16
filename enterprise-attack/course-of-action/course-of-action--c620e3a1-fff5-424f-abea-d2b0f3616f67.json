@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b532f0ba-a147-4772-8f26-21b78c47ec2f",
+    "id": "bundle--0043edc2-dadc-4f81-bd72-e3280375dc09",
     "spec_version": "2.0",
     "objects": [
         {
@@ -13,6 +13,11 @@
                     "external_id": "T1082",
                     "url": "https://attack.mitre.org/techniques/T1082",
                     "source_name": "mitre-attack"
+                },
+                {
+                    "url": "http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx",
+                    "description": "Corio, C., & Sayana, D. P. (2008, June). Application Lockdown with Software Restriction Policies. Retrieved November 18, 2014.",
+                    "source_name": "Corio 2008"
                 },
                 {
                     "url": "http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599",
@@ -30,19 +35,17 @@
                     "source_name": "NSA MS AppLocker"
                 },
                 {
-                    "url": "http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx",
-                    "description": "Corio, C., & Sayana, D. P. (2008, June). Application Lockdown with Software Restriction Policies. Retrieved November 18, 2014.",
-                    "source_name": "Corio 2008"
-                },
-                {
                     "url": "https://technet.microsoft.com/en-us/library/ee791851.aspx",
                     "description": "Microsoft. (2012, June 27). Using Software Restriction Policies and AppLocker Policies. Retrieved April 7, 2016.",
                     "source_name": "TechNet Applocker vs SRP"
                 }
             ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "type": "course-of-action",
-            "modified": "2018-09-07T16:42:18.771Z",
-            "created": "2018-09-07T16:42:18.771Z"
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
         }
     ]
 }

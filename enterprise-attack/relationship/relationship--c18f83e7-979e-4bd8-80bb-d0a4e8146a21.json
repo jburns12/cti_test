@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--7ec5b0f0-566c-49e7-b290-dd7890e93b7d",
+    "id": "bundle--4762cffe-2d8a-4dc7-9522-b3ccc1fb50bd",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--c18f83e7-979e-4bd8-80bb-d0a4e8146a21",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Pupy](https://attack.mitre.org/software/S0192) can access a connected webcam and capture pictures.",
-            "source_ref": "tool--cb69b20d-56d0-41ab-8440-4a4b251614d4",
-            "target_ref": "attack-pattern--6faf650d-bf31-4eb4-802d-1000cf38efaf",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "GitHub Pupy"
                 }
             ],
+            "source_ref": "tool--cb69b20d-56d0-41ab-8440-4a4b251614d4",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--6faf650d-bf31-4eb4-802d-1000cf38efaf",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

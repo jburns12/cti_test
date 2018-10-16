@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--f2f53522-4db1-4e16-9800-f7a19c4149fe",
+    "id": "bundle--4fe20758-ce63-4df6-ba86-6437f333e9fd",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--028c3adf-4182-4250-9642-2ce5c448f710",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Mimikatz](https://attack.mitre.org/software/S0002)'s <code>DPAPI</code> module can harvest protected credentials stored and/or cached by browsers and other user applications by interacting with Windows cryptographic application programming interface (API) functions.",
-            "source_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
-            "target_ref": "attack-pattern--ba8e391f-14b5-496f-81f2-2d5ecd646c1c",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -25,8 +22,11 @@
                     "source_name": "Directory Services Internals DPAPI Backup Keys Oct 2015"
                 }
             ],
+            "source_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--ba8e391f-14b5-496f-81f2-2d5ecd646c1c",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

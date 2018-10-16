@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--c769ec56-75df-4a73-a2e5-86cf4ab249fe",
+    "id": "bundle--4ea9b36d-5d0a-41ec-8485-a19b7e7d8b4c",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--f73df541-6b55-42d1-aec3-53660fda1508",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has used various batch scripts to establish C2, download additional files, and conduct other functions.",
-            "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
-            "target_ref": "attack-pattern--7fd87010-3a00-4da3-b905-410525e8ec44",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Palo Alto Gamaredon Feb 2017"
                 }
             ],
+            "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--7fd87010-3a00-4da3-b905-410525e8ec44",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:33:27.080Z"
         }
     ]

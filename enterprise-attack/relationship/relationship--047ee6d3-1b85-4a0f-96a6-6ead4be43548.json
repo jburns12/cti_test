@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--75666ca2-b03f-47c2-aea3-1636e4fc6e0a",
+    "id": "bundle--d4f1b372-86ba-4405-86a1-5ad4d544f679",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--047ee6d3-1b85-4a0f-96a6-6ead4be43548",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Night Dragon](https://attack.mitre.org/groups/G0014) is known to use software packing in its tools.",
-            "source_ref": "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
-            "target_ref": "attack-pattern--6ff403bc-93e3-48be-8687-e102fdba8c88",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "McAfee Night Dragon"
                 }
             ],
+            "source_ref": "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--6ff403bc-93e3-48be-8687-e102fdba8c88",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-05-31T21:33:27.048Z"
         }
     ]

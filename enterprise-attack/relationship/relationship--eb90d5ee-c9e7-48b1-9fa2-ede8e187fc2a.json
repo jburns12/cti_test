@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--8580d8e9-f516-4076-96e9-2bfe0019e3ce",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--eb90d5ee-c9e7-48b1-9fa2-ede8e187fc2a",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[Mosquito](https://attack.mitre.org/software/S0256) leverages the CreateProcess() and LoadLibrary() calls to execute files with the .dll and .exe extensions.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://www.welivesecurity.com/wp-content/uploads/2018/01/ESET_Turla_Mosquito.pdf",
+                    "description": "ESET, et al. (2018, January). Diplomats in Eastern Europe bitten by a Turla mosquito. Retrieved July 3, 2018.",
+                    "source_name": "ESET Turla Mosquito Jan 2018"
+                }
+            ],
+            "source_ref": "malware--45575251-34d5-462c-b70c-d5bea0c69f56",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--391d824f-0ef1-47a0-b0ee-c59a75e27670",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

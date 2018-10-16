@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--1cd1b684-bcc0-4121-b7c9-624d94b24291",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--c2c9e692-49f8-4653-802f-f3c6683f5ad0",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[YiSpecter](https://attack.mitre.org/software/S0311)'s malicious apps were signed with iOS enterprise certificates issued by Apple to allow the apps to be installed as enterprise apps on non-jailbroken iOS devices.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://researchcenter.paloaltonetworks.com/2015/10/yispecter-first-ios-malware-attacks-non-jailbroken-ios-devices-by-abusing-private-apis/",
+                    "description": "Claud Xiao. (2015, October 4). YiSpecter: First iOS Malware That Attacks Non-jailbroken Apple iOS Devices by Abusing Private APIs. Retrieved January 20, 2017.",
+                    "source_name": "PaloAlto-YiSpecter"
+                }
+            ],
+            "source_ref": "malware--a15c9357-2be0-4836-beec-594f28b9b4a9",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--05f4a497-60c8-4dd8-8578-012aafdacfd4",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

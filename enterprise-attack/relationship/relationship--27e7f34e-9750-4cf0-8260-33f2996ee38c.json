@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--e9c93ac0-e158-4bb4-ad8a-ff577d0471e3",
+    "id": "bundle--b29418c0-460c-43c3-a7df-366028fd2e15",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--27e7f34e-9750-4cf0-8260-33f2996ee38c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[APT29](https://attack.mitre.org/groups/G0016) has used the meek domain fronting plugin for Tor to hide the destination of C2 traffic.",
-            "source_ref": "intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542",
-            "target_ref": "attack-pattern--1ce03c65-5946-4ac9-9d4d-66db87e024bd",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Mandiant No Easy Breach"
                 }
             ],
+            "source_ref": "intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--1ce03c65-5946-4ac9-9d4d-66db87e024bd",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

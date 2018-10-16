@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--827b429c-6e06-4da7-bf4b-a5ec081bce0d",
+    "id": "bundle--9d936cd4-8138-4aa4-8a77-63d10a2c7a5f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "An adversary will assess collected information such as software/hardware versions, vulnerabilities, patch level, etc.  They will analyze technical scanning results to identify weaknesses in the confirmation or architecture. (Citation: SurveyDetectionStrategies) (Citation: CyberReconPaper) (Citation: RSA-APTRecon) (Citation: FireEyeAPT28)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1064",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1064",
+                    "external_id": "T1287",
+                    "url": "https://attack.mitre.org/techniques/T1287",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -38,6 +38,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "This can be done offline after the data has been collected.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Many of the common tools highlight these weaknesses automatically.  Adversary can \"dry run\" against the target using known exploits or burner devices to determine key identifiers of software, hardware, and services.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -45,7 +46,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

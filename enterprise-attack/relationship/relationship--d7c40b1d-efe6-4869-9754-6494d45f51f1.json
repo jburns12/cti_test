@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--57992c1f-6e1e-4156-91c0-a0143adb1dfe",
+    "id": "bundle--007446e2-d886-4946-a94d-561cacdc703b",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--d7c40b1d-efe6-4869-9754-6494d45f51f1",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Hikit](https://attack.mitre.org/software/S0009) supports peer connections.",
-            "source_ref": "malware--95047f03-4811-4300-922e-1ba937d53a61",
-            "target_ref": "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Axiom"
                 }
             ],
+            "source_ref": "malware--95047f03-4811-4300-922e-1ba937d53a61",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

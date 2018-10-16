@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--631c738a-3cca-45e7-9c29-e14244712b06",
+    "id": "bundle--a5901f69-77d5-4966-a85b-701682b0cd0d",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--18d4782f-0e33-4bf5-b0a2-8dc04cacb617",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "Some [Orz](https://attack.mitre.org/software/S0229) versions have an embedded DLL known as MockDll that uses [Process Hollowing](https://attack.mitre.org/techniques/T1093) and regsvr32 to execute another payload.",
-            "source_ref": "malware--06d735e7-1db1-4dbe-ab4b-acbe419f902b",
-            "target_ref": "attack-pattern--68f7e3a1-f09f-4164-9a62-16b648a0dd5a",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Proofpoint Leviathan Oct 2017"
                 }
             ],
+            "source_ref": "malware--06d735e7-1db1-4dbe-ab4b-acbe419f902b",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--68f7e3a1-f09f-4164-9a62-16b648a0dd5a",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

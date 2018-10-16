@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--3ec11d12-dd97-4b9e-a475-23216bfd08f7",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--4a4efd6d-bbee-464b-8eb7-aa41fedd68dc",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[Android/Chuli.A](https://attack.mitre.org/software/S0304) was delivered via a spearphishing message containing a malicious Android application as an attachment.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://securelist.com/android-trojan-found-in-targeted-attack-58/35552/",
+                    "description": "Costin Raiu, Denis Maslennikov, Kurt Baumgartner. (2013, March 26). Android Trojan Found in Targeted Attack. Retrieved December 23, 2016.",
+                    "source_name": "Kaspersky-WUC"
+                }
+            ],
+            "source_ref": "malware--d05f7357-4cbe-47ea-bf83-b8604226d533",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--05f4a497-60c8-4dd8-8578-012aafdacfd4",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

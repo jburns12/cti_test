@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6e01cccd-4341-429f-b976-5f7c157d0c06",
+    "id": "bundle--b2c10c9c-2f41-460d-a006-f5c773c4b72d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "An adversary could attempt to read files that contain sensitive data or credentials (e.g., private keys, passwords, access tokens). This technique requires either escalated privileges or for the targeted app to have stored the data in an insecure manner (e.g., with insecure file permissions or in an insecure location such as an external storage directory).",
             "external_references": [
                 {
-                    "external_id": "MOB-T1012",
-                    "url": "https://attack.mitre.org/techniques/MOB-T1012",
+                    "external_id": "T1409",
+                    "url": "https://attack.mitre.org/techniques/T1409",
                     "source_name": "mitre-mobile-attack"
                 },
                 {
@@ -30,6 +30,7 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -41,7 +42,7 @@
                     "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-10-25T14:48:15.402Z"
         }
     ]

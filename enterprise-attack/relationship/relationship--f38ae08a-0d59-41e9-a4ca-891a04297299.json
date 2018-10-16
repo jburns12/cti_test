@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--743045f2-e451-4388-b2d2-4a28389e61f6",
+    "id": "bundle--0ec341c9-c9f5-4611-9d90-29f4bc33c34d",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--f38ae08a-0d59-41e9-a4ca-891a04297299",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[PUNCHTRACK](https://attack.mitre.org/software/S0197) aggregates collected data in a tmp file.",
-            "source_ref": "malware--c4de7d83-e875-4c88-8b5d-06c41e5b7e79",
-            "target_ref": "attack-pattern--7dd95ff6-712e-4056-9626-312ea4ab4c5e",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "FireEye Know Your Enemy FIN8 Aug 2016"
                 }
             ],
+            "source_ref": "malware--c4de7d83-e875-4c88-8b5d-06c41e5b7e79",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--7dd95ff6-712e-4056-9626-312ea4ab4c5e",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

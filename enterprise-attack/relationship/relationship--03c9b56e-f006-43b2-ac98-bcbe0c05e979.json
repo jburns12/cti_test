@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--ac495731-532b-4e08-9be4-d6d18ca2b21a",
+    "id": "bundle--a416d89b-9123-409b-9d32-d53f36ce1cfa",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--03c9b56e-f006-43b2-ac98-bcbe0c05e979",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[ChChes](https://attack.mitre.org/software/S0144) communicates to its C2 server over HTTP and embeds data within the Cookie HTTP header.",
-            "source_ref": "malware--dc5d1a33-62aa-4a0c-aa8c-589b87beb11e",
-            "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -25,8 +22,11 @@
                     "source_name": "JPCERT ChChes Feb 2017"
                 }
             ],
+            "source_ref": "malware--dc5d1a33-62aa-4a0c-aa8c-589b87beb11e",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

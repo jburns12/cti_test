@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--d812c45b-a84d-4f6d-b57f-cf8e93456438",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--eb949d7c-3f4c-427f-9290-0ee1ecdde948",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[Koadic](https://attack.mitre.org/software/S0250) can run a command on another machine using [PsExec](https://attack.mitre.org/software/S0029).",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://github.com/zerosum0x0/koadic",
+                    "description": "Magius, J., et al. (2017, July 19). Koadic. Retrieved June 18, 2018.",
+                    "source_name": "Github Koadic"
+                }
+            ],
+            "source_ref": "tool--677a28f0-0c21-49d0-acfa-c41758ba305c",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--f44731de-ea9f-406d-9b83-30ecbb9b4392",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

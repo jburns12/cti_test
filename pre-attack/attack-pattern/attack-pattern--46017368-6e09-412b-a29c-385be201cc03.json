@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--64bed841-5b84-42bb-8b10-d709c8c77acf",
+    "id": "bundle--6dc430c8-0342-4913-9355-e7dd1faf7c70",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "For a computing resource to be accessible to the public, domain names and IP addresses must be registered with an authorized organization. (Citation: Google Domains WHOIS) (Citation: FunAndSun2012) (Citation: Scasny2015)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1028",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1028",
+                    "external_id": "T1251",
+                    "url": "https://attack.mitre.org/techniques/T1251",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -34,6 +34,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Open access to DNS registration/routing information is inherent in Internet architecture.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Proliferation of DNS information makes registration information functionally freely available.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -41,7 +42,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

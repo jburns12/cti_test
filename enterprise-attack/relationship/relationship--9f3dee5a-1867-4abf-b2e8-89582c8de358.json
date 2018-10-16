@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--3ed7b136-f3b7-4da9-a56a-baf1db7b5a13",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--9f3dee5a-1867-4abf-b2e8-89582c8de358",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[menuPass](https://attack.mitre.org/groups/G0045) has used malicious macros embedded inside Office documents to execute files.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+                    "description": "Accenture Security. (2018, April 23). Hogfish Redleaves Campaign. Retrieved July 2, 2018.",
+                    "source_name": "Accenture Hogfish April 2018"
+                },
+                {
+                    "url": "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+                    "description": "Matsuda, A., Muhammad I. (2018, September 13). APT10 Targeting Japanese Corporations Using Updated TTPs. Retrieved September 17, 2018.",
+                    "source_name": "FireEye APT10 Sept 2018"
+                }
+            ],
+            "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--7fd87010-3a00-4da3-b905-410525e8ec44",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}

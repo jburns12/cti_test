@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9a807896-34ea-4c67-935d-d9054b6c7128",
+    "id": "bundle--e9805656-c772-45a5-ab7f-451d0e66ebf4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "This technique has been deprecated. Please see ATT&CK's Initial Access and Execution tactics for replacement techniques.\n\nThe utilization of resources not owned by the adversary to launch exploits or operations. This includes utilizing equipment that was previously compromised or leveraging access  gained by other methods (such as compromising an employee at a business partner location). (Citation: CitizenLabGreatCannon)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1152",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1152",
+                    "external_id": "T1375",
+                    "url": "https://attack.mitre.org/techniques/T1375",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -27,6 +27,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "While possible to detect, it requires a broader vantage point than is typical that provides increased insight and conducts extensive data analysis and correlation between events.",
             "x_mitre_difficulty_for_adversary": "No",
             "x_mitre_difficulty_for_adversary_explanation": "Conducting technique requires either nation-state level capabilities or large amounts of financing to coordinate multiple 3rd party resources to gain desired insight.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -34,7 +35,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

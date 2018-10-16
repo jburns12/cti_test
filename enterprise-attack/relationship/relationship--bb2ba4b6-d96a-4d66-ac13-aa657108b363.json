@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--5443d34d-753d-42e9-ab03-78a22280e785",
+    "id": "bundle--91459e9c-05a2-4076-94d5-f670f4cc98fb",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--bb2ba4b6-d96a-4d66-ac13-aa657108b363",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "[Sys10](https://attack.mitre.org/software/S0060) collects the local IP address of the victim and sends it to the C2.",
-            "source_ref": "malware--7f8730af-f683-423f-9ee1-5f6875a80481",
-            "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Baumgartner Naikon 2015"
                 }
             ],
+            "source_ref": "malware--7f8730af-f683-423f-9ee1-5f6875a80481",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

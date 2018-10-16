@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a8c102d1-0db9-4cd8-ad70-56f81dd6539f",
+    "id": "bundle--d6cdff50-1eaa-4168-8876-22fcb031dabd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "A malicious app can exploit unpatched vulnerabilities in the operating system to obtain escalated privileges.",
             "external_references": [
                 {
-                    "external_id": "MOB-T1007",
-                    "url": "https://attack.mitre.org/techniques/MOB-T1007",
+                    "external_id": "T1404",
+                    "url": "https://attack.mitre.org/techniques/T1404",
                     "source_name": "mitre-mobile-attack"
                 },
                 {
@@ -30,6 +30,7 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -37,7 +38,7 @@
                     "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-10-25T14:48:29.405Z"
         }
     ]

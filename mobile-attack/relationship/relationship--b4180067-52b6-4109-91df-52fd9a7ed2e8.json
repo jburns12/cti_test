@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--fd3541db-58ec-40ee-ab0e-c57b2d3ba4fd",
+    "id": "bundle--7c3577fc-9140-4f6b-9b43-ed7f84503ba7",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--b4180067-52b6-4109-91df-52fd9a7ed2e8",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "[AndroRAT](https://attack.mitre.org/software/MOB-S0008) gathers \"audio from the microphone.\"",
-            "source_ref": "malware--a3dad2be-ce62-4440-953b-00fbce7aba93",
-            "target_ref": "attack-pattern--6683aa0c-d98a-4f5b-ac57-ca7e9934a760",
+            "description": "[AndroRAT](https://attack.mitre.org/software/S0292) gathers audio from the microphone.",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Lookout-EnterpriseApps"
                 }
             ],
+            "source_ref": "malware--a3dad2be-ce62-4440-953b-00fbce7aba93",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--6683aa0c-d98a-4f5b-ac57-ca7e9934a760",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

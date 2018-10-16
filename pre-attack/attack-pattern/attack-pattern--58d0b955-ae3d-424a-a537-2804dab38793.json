@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--da510e1b-9253-4d3e-803d-993f92a1a35e",
+    "id": "bundle--ba3aa9bc-6800-49f0-8677-fd220521f8e6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "This technique has been deprecated. Please see ATT&CK's Initial Access and Execution tactics for replacement techniques.\n\nA technique used to compromise victims wherein the victims visit a compromised website that redirects their browser to a malicious web site, such as an exploit kit's landing page.  The exploit kit landing page will probe the victim's operating system, web browser, or other software to find an exploitable vulnerability to infect the victim. (Citation: GeorgeDriveBy) (Citation: BellDriveBy)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1149",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1149",
+                    "external_id": "T1372",
+                    "url": "https://attack.mitre.org/techniques/T1372",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -31,6 +31,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "With the use of malware detonation chambers (e.g., for web or email traffic), this improves detection.  Encryption and other techniques reduces the efficacy of these defenses.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Placing an exploit on a public web site for driveby types of delivery is not impossible.  However, gaining access to a web site with high enough traffic to meet specific objectives could be the challenge.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -38,7 +39,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

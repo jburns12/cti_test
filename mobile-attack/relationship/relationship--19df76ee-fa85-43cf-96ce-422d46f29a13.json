@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--c3911315-52f8-46bf-a827-65e10ecb095d",
+    "id": "bundle--beddb448-4b70-4ea4-b7cb-e83e3de5e56c",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--19df76ee-fa85-43cf-96ce-422d46f29a13",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
-            "description": "[Pegasus for Android](https://attack.mitre.org/software/MOB-S0032) listens for the BOOT_COMPLETED broadcast intent in order to maintain persistence and activate its functionality at device boot time.",
-            "source_ref": "malware--93799a9d-3537-43d8-b6f4-17215de1657c",
-            "target_ref": "attack-pattern--bd4d32f5-eed4-4018-a649-40b229dd1d69",
+            "description": "[Pegasus for Android](https://attack.mitre.org/software/S0316) listens for the BOOT_COMPLETED broadcast intent in order to maintain persistence and activate its functionality at device boot time.",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "Lookout-PegasusAndroid"
                 }
             ],
+            "source_ref": "malware--93799a9d-3537-43d8-b6f4-17215de1657c",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--bd4d32f5-eed4-4018-a649-40b229dd1d69",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

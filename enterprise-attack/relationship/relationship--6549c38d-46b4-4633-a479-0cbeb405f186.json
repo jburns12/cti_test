@@ -1,15 +1,12 @@
 {
     "type": "bundle",
-    "id": "bundle--0a15f2f1-3b5c-4da5-9d6f-a0fbb79526a8",
+    "id": "bundle--a3af828c-240d-4b21-b985-d7d30d2100fc",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "relationship--6549c38d-46b4-4633-a479-0cbeb405f186",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "relationship_type": "uses",
             "description": "A [Lazarus Group](https://attack.mitre.org/groups/G0032) malware sample conducts C2 over HTTP.",
-            "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
-            "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
@@ -20,8 +17,11 @@
                     "source_name": "McAfee Lazarus Resurfaces Feb 2018"
                 }
             ],
+            "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6",
             "type": "relationship",
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

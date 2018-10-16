@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b692a76e-15c3-4022-b5d2-cb18cc3f7017",
+    "id": "bundle--096d8ac6-debb-44f4-9f08-186e2ffbc21c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "Adversaries may attempt to exploit enterprise servers, workstations, or other resources over the network. This technique may take advantage of the mobile device's access to an internal enterprise network either through local connectivity or through a Virtual Private Network (VPN).",
             "external_references": [
                 {
-                    "external_id": "MOB-T1031",
-                    "url": "https://attack.mitre.org/techniques/MOB-T1031",
+                    "external_id": "T1428",
+                    "url": "https://attack.mitre.org/techniques/T1428",
                     "source_name": "mitre-mobile-attack"
                 },
                 {
@@ -30,6 +30,7 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -37,7 +38,7 @@
                     "kill_chain_name": "mitre-mobile-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-10-25T14:48:13.259Z"
         }
     ]

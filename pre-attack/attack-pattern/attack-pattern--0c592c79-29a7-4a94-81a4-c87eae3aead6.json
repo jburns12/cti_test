@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d34ac695-8e3b-4897-874d-742e5fdbe21e",
+    "id": "bundle--3dae3aa0-a94b-4955-9e43-2b79afec96fb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,8 +10,8 @@
             "description": "Certain types of traffic (e.g., Twitter14, HTTP) are more commonly used than others. Utilizing more common protocols and software may make an adversary's traffic more difficult to distinguish from legitimate traffic. (Citation: symantecNITRO)",
             "external_references": [
                 {
-                    "external_id": "PRE-T1098",
-                    "url": "https://attack.mitre.org/techniques/PRE-T1098",
+                    "external_id": "T1321",
+                    "url": "https://attack.mitre.org/techniques/T1321",
                     "source_name": "mitre-pre-attack"
                 },
                 {
@@ -26,6 +26,7 @@
             "x_mitre_detectable_by_common_defenses_explanation": "High level of entropy in communications.  High volume of communications makes it extremely hard for a defender to distinguish between legitimate and adversary communications.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Communications are hidden (but not necessarily encrypted) in an attempt to make the content more difficult to decipher or to make the communication less conspicuous.",
+            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -33,7 +34,7 @@
                     "kill_chain_name": "mitre-pre-attack"
                 }
             ],
-            "modified": "2018-09-07T16:42:18.771Z",
+            "modified": "2018-10-16T19:03:31.043Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

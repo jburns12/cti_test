@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--c25e7889-e0c0-449a-9b85-dc37d67e3436",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "relationship--2c5e4a62-ddbf-4bb6-9f32-6cde2c6a3d52",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "[SynAck](https://attack.mitre.org/software/S0242) enumerates Registry keys associated with event logs.",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "url": "https://securelist.com/synack-targeted-ransomware-uses-the-doppelganging-technique/85431/",
+                    "description": "Ivanov, A. et al.. (2018, May 7). SynAck targeted ransomware uses the Doppelg\u00e4nging technique. Retrieved May 22, 2018.",
+                    "source_name": "SecureList SynAck Doppelg\u00e4nging May 2018"
+                }
+            ],
+            "source_ref": "malware--7ea63b17-ebde-40ad-84f5-707325c88007",
+            "relationship_type": "uses",
+            "target_ref": "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896",
+            "type": "relationship",
+            "modified": "2018-10-16T19:03:31.043Z",
+            "created": "2018-10-16T19:03:31.043Z"
+        }
+    ]
+}
