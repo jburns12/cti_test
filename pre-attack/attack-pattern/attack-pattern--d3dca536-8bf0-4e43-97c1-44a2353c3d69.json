@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4c9a6aae-c24f-44a9-9412-8d9918843183",
+    "id": "bundle--87b7b806-e761-410c-98d8-3808df11b3d2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -31,6 +31,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Easy access to anonymizers, quasi-anonymous services like remailers, [https://torproject.org TOR], relays, burner phones, etc.",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1083",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

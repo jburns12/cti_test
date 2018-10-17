@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9c699ef7-f541-4b83-8c7f-296bb090181e",
+    "id": "bundle--8f9257c6-4fea-4cf8-b672-28a05b093549",
     "spec_version": "2.0",
     "objects": [
         {
@@ -31,6 +31,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Adversary has control of the infrastructure and will likely be able to add/remove tools to infrastructure, whether acquired via hacking or standard computer acquisition (e.g., [https://aws.amazon.com AWS], VPS providers).",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1139",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--60c576eb-41c4-4e61-b49e-72b17b9b6ba6",
+    "id": "bundle--597de942-6b70-4372-91e0-0d3ef97cd136",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,6 +27,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Adversary can passively detect services (e.g., [https://www.cloudflare.com/ CloudFlare] routing) or actively detect services (e.g., by purposefully tripping security defenses)",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1033",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

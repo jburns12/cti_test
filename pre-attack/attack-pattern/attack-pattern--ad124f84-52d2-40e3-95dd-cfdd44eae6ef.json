@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b577b632-db2a-478c-a06e-faffd40b93e7",
+    "id": "bundle--155d82e6-7548-4702-abf6-355aa77a6081",
     "spec_version": "2.0",
     "objects": [
         {
@@ -35,6 +35,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Developers commonly use open source libraries such that where an adversary can easily discover known vulnerabilities and create exploits.  It is also generally easy to decompile arbitrary mobile applications to determine what libraries they use, and similarly use this information to correlate against known CVEs and exploit packages.",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1166",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

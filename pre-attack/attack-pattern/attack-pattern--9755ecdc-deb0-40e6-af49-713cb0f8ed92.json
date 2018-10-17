@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--54c7d32e-9765-4c87-a3cf-df867869b35f",
+    "id": "bundle--684ea723-39eb-4692-8460-32f8af56056d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,6 +27,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Many successful RATs exist for re-use/tailoring in addition to those an adversary may choose to build from scratch.  The adversary's capabilities, target sensitivity, and needs will likely determine whether a previous RAT is modified for use a new one is built from scratch.",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1128",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

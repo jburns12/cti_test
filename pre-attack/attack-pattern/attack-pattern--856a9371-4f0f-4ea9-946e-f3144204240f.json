@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--39b28347-a7a1-4630-bc66-3dfbeb35038b",
+    "id": "bundle--359b19ef-efef-4892-a839-9e37d28087f9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -31,6 +31,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Based on what the 3rd party infrastructure is, there are many tell tail signs which indicate it is hosted by a 3rd party, such as ASN data, MX or CNAME pointers or IP addresses",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1037",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6ec5fcc9-9274-4a2c-b3ab-3254aa33c3e8",
+    "id": "bundle--8c0e5467-0e54-4614-ad9e-cde62235a97a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -31,6 +31,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "The difficult part is enumerating all 3rd parties.  Finding major partners would not be difficult.  Significantly easier with insider knowledge.  Vulnerability scanning the 3rd party networks is trivial.",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1075",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--77b89bd5-cbfb-456c-ad85-342cd042f1dc",
+    "id": "bundle--2bfab6be-c2ae-4f1f-82e9-b1ac28aead0e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -32,6 +32,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Sending emails is trivial and expected.  The adversary needs to ensure links don't get tampered, removed, or flagged as a previously black-listed site.",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1146",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

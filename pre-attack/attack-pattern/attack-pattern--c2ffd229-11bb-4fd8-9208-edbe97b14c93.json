@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c898058b-88a5-49ab-aaec-a582bb88b609",
+    "id": "bundle--7de420a0-0502-4d67-adde-97316481cf1b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,6 +27,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Known approaches include the use of cryptography for communications, rotating drops sites (such as random list of chat fora), and one-time [https://aws.amazon.com/s3/ Simple Storage Service (S3)] buckets, etc.  All require sophisticated knowledge, infrastructure, and funding.",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1090",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

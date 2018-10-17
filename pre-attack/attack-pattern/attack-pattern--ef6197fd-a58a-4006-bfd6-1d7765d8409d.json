@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b7f1a43d-a36b-4f6a-80a8-f96abbe08f86",
+    "id": "bundle--7f48e76e-e1b5-4442-9d83-9ec70d788a1f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -35,6 +35,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Basic interaction with the site provides insight into the programming languages/technologies used for a given web site.  Additionally many of the active scanning tools will also provide some insight into this information.",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1038",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

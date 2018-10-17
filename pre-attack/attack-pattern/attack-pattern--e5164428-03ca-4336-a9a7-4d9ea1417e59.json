@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1ffaa29d-30d4-43b6-a76a-a334a3535eb1",
+    "id": "bundle--0389e4fc-fd5f-4ce7-9531-0b743c13109c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,6 +27,7 @@
             "x_mitre_difficulty_for_adversary": "No",
             "x_mitre_difficulty_for_adversary_explanation": "It is trivial to purchase code signing certificates within an organization; many exist and are available at reasonable cost. It is complex to factor or steal 3rd party code signing certificates for use in malicious mechanisms",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1087",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

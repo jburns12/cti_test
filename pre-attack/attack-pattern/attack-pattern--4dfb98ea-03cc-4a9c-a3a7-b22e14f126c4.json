@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--71207303-d7d7-48ea-90c3-b74f9fd27498",
+    "id": "bundle--504c8623-c6e2-459b-a0fd-27919c3b4663",
     "spec_version": "2.0",
     "objects": [
         {
@@ -32,6 +32,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Attempt to use default vendor credentials, brute force credentials, or previously obtained legitimate credentials.  This is increasingly difficult to obtain access when two-factor authentication mechanisms are employed.",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1158",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

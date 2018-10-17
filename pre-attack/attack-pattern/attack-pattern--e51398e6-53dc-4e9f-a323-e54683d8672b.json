@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--93df0c9b-55d4-44ed-ae88-fa3da6f0656d",
+    "id": "bundle--ad352e90-3399-4a6b-a7f1-4701a5a2e151",
     "spec_version": "2.0",
     "objects": [
         {
@@ -32,6 +32,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Commonly used technique currently (e.g., [https://www.wordpress.com WordPress] sites) as precursor activity to launching attack against intended target (e.g., acquiring botnet or layers of proxies for reducing attribution possibilities).",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1111",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

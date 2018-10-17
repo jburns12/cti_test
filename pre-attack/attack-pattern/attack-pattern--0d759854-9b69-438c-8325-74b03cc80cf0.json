@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e486fb85-e69c-4308-98fb-96a53351d5e6",
+    "id": "bundle--7db7e060-3af6-455f-bae9-738dae7574e3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -28,6 +28,7 @@
             "x_mitre_difficulty_for_adversary": "No",
             "x_mitre_difficulty_for_adversary_explanation": "Requires the adversary to replace a binary on a website where users will download the binary (e.g., patch, firmware update, software application) as innately trusted.  The additional challenge is the reduced set of vendor-trusted websites that are vulnerable.",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1155",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a3e052c1-25e0-4ab5-a595-1cf67ef6850e",
+    "id": "bundle--b0780e4e-cfeb-49a2-ab7a-94aaaff2eee5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -32,6 +32,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Placing an exploit on a public web site for driveby types of delivery is not impossible.  However, gaining access to a web site with high enough traffic to meet specific objectives could be the challenge.",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1149",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

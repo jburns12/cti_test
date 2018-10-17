@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4e8d05dd-d57d-4055-b391-f0341242b1d9",
+    "id": "bundle--bdfdc198-dd3e-40c6-9e8b-ca9a34814314",
     "spec_version": "2.0",
     "objects": [
         {
@@ -28,6 +28,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Autoruns with USB keys and CDs traditionally were always on (e.g., [http://windows.microsoft.com Windows] 7 is now an exception with a new policy of limiting the always on nature of Autoruns), ensuring and automated system completes a requested action.  Specialized use cases exist where automated systems are specifically designed against automatically performing certain actions (e.g., USB/CD insertion and automatically running is disabled in certain environments).",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1161",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

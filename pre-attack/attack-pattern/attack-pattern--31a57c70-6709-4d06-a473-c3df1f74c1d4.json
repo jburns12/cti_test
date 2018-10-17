@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f13b21b2-ee5e-406a-bfc6-84404c31ea27",
+    "id": "bundle--d3d45dec-db1e-452b-b55c-1bc297631795",
     "spec_version": "2.0",
     "objects": [
         {
@@ -31,6 +31,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Social engineering and OSINT are still generally successful.  Physical locations of offices/sites are easily determined.  Monitoring for other sites of interest, such as backup storage vendors, is also easy to accomplish.",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1079",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

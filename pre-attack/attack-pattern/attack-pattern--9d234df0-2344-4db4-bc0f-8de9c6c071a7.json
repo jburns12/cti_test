@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5a5598e0-724f-45c0-b3fd-e75e7a26123b",
+    "id": "bundle--7fc5b6f8-e9df-487a-9de8-70217487db0b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,6 +27,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "An adversary can easily generate pseudo-random identifiers to associate with a specific target, include the indicator as part of a URL and then identify which target was successful.",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1095",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

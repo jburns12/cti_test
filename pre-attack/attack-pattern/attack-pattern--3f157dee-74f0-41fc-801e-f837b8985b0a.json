@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6b3f440b-16f1-4ade-82c2-45af1b25757c",
+    "id": "bundle--a9e398f5-825d-412a-b59b-2be84c7a46b9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -31,6 +31,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "To successfully conduct this attack, an adversary usually phishes the individual behind the domain registrant account, logs in with credentials, and creates a large amount of subdomains.",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1117",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a303fd56-6cb6-46e1-bcf5-bd95e79831e3",
+    "id": "bundle--b44bcfe3-62ee-46e9-868a-83c86a7c4830",
     "spec_version": "2.0",
     "objects": [
         {
@@ -32,6 +32,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Easily executed technique to push an MMS-type message to the target which does not require interaction on the part of the target to be successful.",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1150",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

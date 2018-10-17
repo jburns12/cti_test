@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1939a9e6-61d1-4fff-9ec5-d7624bdabae6",
+    "id": "bundle--712e2e49-9bb1-4779-9db8-6e2909bd153e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -28,6 +28,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Sending messages with text only should be accepted in most cases (e.g., not being filtered based on source, content).",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1145",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

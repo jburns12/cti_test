@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--99d80bd3-f381-4e6e-a65b-97f3c1750fbb",
+    "id": "bundle--4fc31c27-8dee-45f0-8f44-be4c7b96c81d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,6 +27,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Proliferation of DNS TLDs and registrars.  Adversary may choose domains that are similar to legitimate domains (aka \"domain typosquatting\" or homoglyphs).",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1105",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

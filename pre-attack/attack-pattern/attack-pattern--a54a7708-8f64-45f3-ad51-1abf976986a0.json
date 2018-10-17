@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ef9cb814-8366-46d7-9a87-934d7db7999b",
+    "id": "bundle--175c1c47-e446-447f-86c9-be483e338ea4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,6 +27,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Success is dependent upon the existence of detailed technical specifications for target network posted in blogs/forums.  Poor OPSEC practices result in an adversary gleaning a lot of sensitive information about configurations and/or issues encountered.",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1034",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

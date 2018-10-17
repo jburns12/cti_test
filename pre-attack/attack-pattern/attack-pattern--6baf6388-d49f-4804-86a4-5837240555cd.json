@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--84e185e4-af33-45b8-a6f1-6bc4261e461b",
+    "id": "bundle--064d89af-5f80-453b-9217-a7daa8729d89",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,6 +27,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Depending upon the target device, there are variable ways for an adversary to determine the firmware version.  In some cases, this information can be derived from easily obtained information.  For example, in [http://www.cisco.com Cisco] devices, the firmware version is easily determined once the device model and OS version is known since it is included in the release notes.",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1035",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

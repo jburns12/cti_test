@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c72c2eea-fb0c-4dba-8bee-624198350747",
+    "id": "bundle--3aed7d98-086c-4800-9cd6-f4ecead1c155",
     "spec_version": "2.0",
     "objects": [
         {
@@ -39,6 +39,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Many of the common tools highlight these weaknesses automatically.  Adversary can \"dry run\" against the target using known exploits or burner devices to determine key identifiers of software, hardware, and services.",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1064",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

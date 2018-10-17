@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9ee5a4ba-e681-482f-a884-7886f29f31a5",
+    "id": "bundle--cc88a844-3303-4e29-83a9-a6bfe9d3998d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -31,6 +31,7 @@
             "x_mitre_difficulty_for_adversary": "No",
             "x_mitre_difficulty_for_adversary_explanation": "The adversary will have some insight into defenses based on dropped traffic or filtered responses.  It is more difficult to pinpoint which defenses are implemented (e.g., [https://www.fireeye.com FireEye] WMPS, [https://www.hpe.com Hewlett Packard Enterprise] Tipping Point IPS).",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1040",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

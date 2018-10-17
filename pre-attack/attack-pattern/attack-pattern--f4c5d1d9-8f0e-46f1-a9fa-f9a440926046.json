@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0b47a756-37c2-465f-8c22-1a236ba2ba1e",
+    "id": "bundle--be06ef7c-267f-4a82-a446-b6ee2bbf1bbf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -32,6 +32,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Certainty of the confirmation of compromise is not guaranteed unless the adversary sees communication to a command and control server, exfiltration of data, or an intended effect occur.",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1160",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

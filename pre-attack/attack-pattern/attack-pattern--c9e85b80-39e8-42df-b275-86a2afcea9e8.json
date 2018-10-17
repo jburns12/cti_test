@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8ae93f32-b9db-41f7-b401-b34bd41a2284",
+    "id": "bundle--b943efb8-b70d-4419-ba54-6a0ac2965ea4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -39,6 +39,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "An adversary can submit code remotely using throwaway accounts, although a registration fee may need to be paid for each new account (e.g., $99 for Apple and $25 for Google Play Store).",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1170",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

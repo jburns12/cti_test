@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2a05de2d-3fb0-4e03-8803-39e9344ccd49",
+    "id": "bundle--8cae6eb8-6b55-4193-a0cd-522157db18a2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,6 +27,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "An adversary can easily create and use misattributable credentials to obtain servers, build environment, [https://aws.amazon.com AWS] accounts, etc.  Many service providers require some form of identifiable information such as a phone number or email address, but there are several avenues to acquire these consistent with the misattributable identity.",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1099",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a569e04e-85f6-438b-ab0b-77017f9e8adb",
+    "id": "bundle--2bef059e-405b-42ea-8eb2-51fb0de7edbe",
     "spec_version": "2.0",
     "objects": [
         {
@@ -32,6 +32,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Assuming an average adversary whose focus is social engineering, it is not difficult for an adversary.  Assuming a HUMINT operation and specialized circumstances, the adversary difficulty becomes 1.   Social engineering can be easily done remotely via email or phone.  In contrast, HUMINT operations typically would require physical contact at some point in the process, increasing the difficulty.",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1153",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

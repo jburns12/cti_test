@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5b0f0bdf-0f70-4861-a0e8-027ea6086044",
+    "id": "bundle--72a5ec4e-c664-4e4a-a91b-9bf38b3f57e9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -28,6 +28,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Launching a SQL injection attack is not overly complex and a commonly used technique.  This technique, however, requires finding a vulnerable application.",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1154",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

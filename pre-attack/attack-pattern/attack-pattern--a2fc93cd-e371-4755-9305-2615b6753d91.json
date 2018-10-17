@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fb931fd9-5681-4ca1-9c2e-d04db1b695b0",
+    "id": "bundle--62d03224-d922-4cbe-8a59-853f4b1f84c5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -31,6 +31,7 @@
             "x_mitre_difficulty_for_adversary": "No",
             "x_mitre_difficulty_for_adversary_explanation": "Determining trust relationships once internal to a network is trivial.  Simple tools like trace route can show evidence of firewalls or VPNs and then hosts on the either side of the firewall indicating a different trusted network. Active Directory command line tools can also identify separate trusted networks.\n\nIf completely external to a network, sniffing traffic (if possible) could also reveal the communications protocols that could be guessed to be a trusted network connection (e.g., IPsec, maybe SSL, etc.) though this is error-prone. \n\nWith no other access, this is hard for an adversary to do completely from a remote vantage point.",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1036",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

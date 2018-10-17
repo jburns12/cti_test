@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--929e5c5b-ab25-4749-8778-1e2e59e8cc53",
+    "id": "bundle--87351745-2b82-44b5-bb57-76574e1b12f5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -31,6 +31,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Using standard headers/fingerprints from normal traffic, it is often trivial to identify the SW or HW the target is running, which can be correlated against known CVEs and exploit packages.",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1068",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

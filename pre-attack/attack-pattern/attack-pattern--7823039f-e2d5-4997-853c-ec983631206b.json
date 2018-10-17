@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--383f49e7-fea0-4196-b343-175d916c4d79",
+    "id": "bundle--dcba6bf4-94e2-493c-8e3f-93428039a550",
     "spec_version": "2.0",
     "objects": [
         {
@@ -35,6 +35,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "This technique assists the adversary in bypassing egress filtering designed to prevent unauthorized communication.  It has been used by APT12, but not otherwise widely reported.  Some botnets are hardcoded to be able to use this technique.",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1101",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

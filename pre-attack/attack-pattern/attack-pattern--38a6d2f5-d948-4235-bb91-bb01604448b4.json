@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f427d815-e3f1-4d8c-979f-b445ab4acc5f",
+    "id": "bundle--9a0f40ab-cd29-45c2-a17e-0ec9a9903d2e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -32,6 +32,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Although it can be difficult to spoof/redirect content to a hostile service via DNS poisoning or MiTM attacks, current malware such as Zeus is able to successfully pharm credentials and end users are not well-versed in checking for certificate mismatches.",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1151",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

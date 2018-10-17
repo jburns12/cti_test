@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--954f5513-183a-428e-a422-320d3882d717",
+    "id": "bundle--95680f9b-01bf-4137-bbcb-881be6d148d8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,6 +27,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Adversary has a variety of solutions, ranging in difficulty, that can be employed (e.g., BGP hijacking, tunneling, reflection, multi-hop, etc.)\nAdversary can also use misattributable credentials to obtain servers, build environment, [https://aws.amazon.com Amazon Web Services] (AWS) accounts, etc.",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1086",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

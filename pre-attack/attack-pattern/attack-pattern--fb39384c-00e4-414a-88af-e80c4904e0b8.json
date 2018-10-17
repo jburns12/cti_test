@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e0a1f943-4907-4f4d-b75d-d1ccc93ebc99",
+    "id": "bundle--6e312e53-43ac-4c06-97ae-00cc5e4f2d45",
     "spec_version": "2.0",
     "objects": [
         {
@@ -32,6 +32,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Ill-informed users insert devices into their network that they randomly find, despite training educating them why this is not a wise idea.",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1162",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

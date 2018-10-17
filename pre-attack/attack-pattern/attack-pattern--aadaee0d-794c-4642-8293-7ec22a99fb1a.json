@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--17288318-51c4-442b-8c44-44c0b1be7dde",
+    "id": "bundle--70efb131-d279-4871-99ed-8e4a80ad1992",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,6 +27,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Requires adversary to gain access to an email account for person listed as the domain registrar/POC.  The adversary can then claim that they forgot their password in order to make changes to the domain registration.  Other possibilities include social engineering a domain registration help desk to gain access to an account or take advantage of renewal process gaps.",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1103",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

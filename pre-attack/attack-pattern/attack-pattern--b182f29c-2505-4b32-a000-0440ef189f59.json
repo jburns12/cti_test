@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--04acaab9-7cd6-43a7-94e2-469a81fd010b",
+    "id": "bundle--1cceab23-7235-49ea-af7c-76b13008d1bb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -28,6 +28,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Sending emails is trivial, and, over time, an adversary can refine their technique to minimize detection by making their emails seem legitimate in structure and content.",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1174",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

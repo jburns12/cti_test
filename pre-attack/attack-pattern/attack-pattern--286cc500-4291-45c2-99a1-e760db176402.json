@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--88a34c16-f74f-4d7f-9a6c-9fef7ad960aa",
+    "id": "bundle--eb422512-4b4b-408e-b9a7-233d03e7129e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,6 +27,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Wide range of 3rd party services for hosting, rotating, or moving C2, static data, exploits, exfiltration, etc.",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1084",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

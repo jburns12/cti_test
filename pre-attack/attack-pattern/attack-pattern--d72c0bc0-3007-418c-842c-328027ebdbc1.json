@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ff27c4e2-8fe5-426a-9e55-85ad1437726d",
+    "id": "bundle--79b99cba-48d6-4f5d-a68a-9d2003288ff5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -28,6 +28,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "An adversary can deploy exploits via malvertising using multiple mechanisms.  Such mechanisms include an image ad that is infected, redirection, or using social engineering to get the end user to install the malicious software themselves.",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1157",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

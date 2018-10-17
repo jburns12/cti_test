@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b865561b-a1c6-4ce4-b92d-ca467b560181",
+    "id": "bundle--5cda02df-9e13-4ea3-88d8-e99d00403eed",
     "spec_version": "2.0",
     "objects": [
         {
@@ -31,6 +31,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Analyze technical scanning results to identify weaknesses in the configuration or architecture.  Many of the common tools highlight these weakness automatically (e.g., software security scanning tools or published vulnerabilities about commonly used libraries).",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1070",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5d18b74e-2747-44db-a404-5c0d5ddd3a5e",
+    "id": "bundle--478ab1da-024e-4d71-9074-504fa0a3583a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -31,6 +31,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Basic web scripting capability to collect information of interest on users of interest.  Requires a compromised web site and the users of interest to navigate there.",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1039",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--93c8e1b6-5e36-4250-8920-f096ceab4010",
+    "id": "bundle--3011456e-dbb0-4057-b91a-c29de4faa42c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -31,6 +31,7 @@
             "x_mitre_difficulty_for_adversary": "No",
             "x_mitre_difficulty_for_adversary_explanation": "In some cases, this requires some insider knowledge or specialized access to learn when critical operations occur in a corporation.  For publicly traded US corporations, there is a lot of open source information about their financial reporting obligations (per SEC).  Companies announce their annual shareholder meeting and their quarter phone calls with investors.  Information such as this can help the adversary to glean certain aspects of the business processes and/or rhythm.",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1057",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

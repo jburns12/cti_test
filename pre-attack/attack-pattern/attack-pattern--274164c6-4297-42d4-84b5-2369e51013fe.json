@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dffb537b-bc18-40c3-8deb-e4b7480703da",
+    "id": "bundle--2c107149-fcbc-4c03-9371-9b9ee97b3712",
     "spec_version": "2.0",
     "objects": [
         {
@@ -31,6 +31,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "This technique does not require a significant amount of sophistication while still being highly effective.  It was popularized by the Conficker worms but is prevalent in crimeware such as Murofet and BankPatch.",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1100",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

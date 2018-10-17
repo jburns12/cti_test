@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e6057dbb-71f4-4f07-ac7f-4ed969c430d7",
+    "id": "bundle--92a54483-a42a-41c8-83d3-8db949499c03",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,6 +27,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Scraping of known email addresses from the target will likely reveal the target standard for address/username format.  This information is easily discoverable.",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1032",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

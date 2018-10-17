@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--98ef9b4a-ea1b-454e-91e9-fcb1b18ba8dc",
+    "id": "bundle--e7305fc6-9473-4e78-80af-c1df31ec825b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,6 +27,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "It is relatively easy to subscribe to dynamic DNS providers or find ways to get different IP addresses from a cloud provider.",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1110",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

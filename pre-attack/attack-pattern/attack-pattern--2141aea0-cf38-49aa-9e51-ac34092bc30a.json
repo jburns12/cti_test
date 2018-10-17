@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5b1b520e-328f-416c-9181-1531ada49eb2",
+    "id": "bundle--909b6755-6987-4a52-98e2-1a461c30062f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,6 +27,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Ease and availability of current hardware and software, mobile phones (cash and go phones), and additional online technology simplifies adversary process to achieve this technique (and possibly without traceability). The adversary has control of the infrastructure and will likely be able to add/remove tools to infrastructure, whether acquired via hacking or standard computer acquisition (e.g., [https://aws.amazon.com AWS], VPS).",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1112",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c9689235-a152-407d-bdb9-9d52f5bc5c92",
+    "id": "bundle--f6df913e-1296-42e6-86ef-95e95c5fe8f6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -40,6 +40,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Commonly executed technique to place an exploit on an often widely used public web site intended for driveby delivery.  The additional challenge is the reduced set of options for web sites to compromise since the set is reduced to those often visited by targets of interest.",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1148",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

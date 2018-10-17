@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a5c1516c-15f5-42c0-a180-d5b3408b4058",
+    "id": "bundle--01e43238-d9af-4130-8c1e-ad85d690726a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -27,6 +27,7 @@
             "x_mitre_difficulty_for_adversary": "No",
             "x_mitre_difficulty_for_adversary_explanation": "The difficulty of obtaining useful developer credentials may vary.  Well-organized, professional app developers whose credentials or signing keys would be the most useful to an adversary because of the large install bases of their apps, would likely strongly protect their credentials and signing keys.  Less-organized app developers may not protect their credentials and signing keys as strongly, but the credentials and signing keys would also be less useful to an adversary.  These less-organized app developers may reuse passwords across sites, fail to turn on multi-factor authentication features when available, or store signing keys in unprotected locations.",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1168",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {

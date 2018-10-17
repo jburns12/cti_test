@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cc0d4f86-7902-4caf-8306-022bc776bcfd",
+    "id": "bundle--42cdf288-5e8f-43bb-8d96-413390e42795",
     "spec_version": "2.0",
     "objects": [
         {
@@ -36,6 +36,7 @@
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Adversary poisons DNS entry to redirect traffic designated for one site to route to an adversary controlled resource.",
             "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1159",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
