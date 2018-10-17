@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--49f799a0-87bd-49c9-a860-40f3ea39966f",
+    "id": "bundle--47ea88c9-9bbc-4c7f-a872-7d7add0d4362",
     "spec_version": "2.0",
     "objects": [
         {
@@ -33,6 +33,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_version": "1.0",
             "x_mitre_data_sources": [
                 "Process monitoring",
                 "Process command-line parameters",
@@ -42,7 +43,6 @@
             "x_mitre_permissions_required": [
                 "User"
             ],
-            "x_mitre_version": "1.0",
             "x_mitre_platforms": [
                 "Windows"
             ],
@@ -53,7 +53,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-10-16T19:03:31.043Z",
+            "modified": "2018-10-17T00:14:20.652Z",
             "created": "2017-05-31T21:31:37.450Z"
         }
     ]

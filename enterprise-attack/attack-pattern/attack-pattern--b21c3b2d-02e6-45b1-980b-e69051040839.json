@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--783f9171-daf7-4e24-905b-7a44196c0164",
+    "id": "bundle--f21fd788-08a0-4c40-abf6-c5b97fd504c7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -23,6 +23,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_version": "1.0",
             "x_mitre_data_sources": [
                 "Windows Error Reporting",
                 "Process monitoring",
@@ -40,7 +41,6 @@
                 "macOS",
                 "Windows"
             ],
-            "x_mitre_version": "1.0",
             "x_mitre_system_requirements": [
                 "In the case of privilege escalation, the adversary likely already has user permissions on the target system."
             ],
@@ -51,7 +51,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-10-16T19:03:31.043Z",
+            "modified": "2018-10-17T00:14:20.652Z",
             "created": "2017-05-31T21:30:55.066Z"
         }
     ]

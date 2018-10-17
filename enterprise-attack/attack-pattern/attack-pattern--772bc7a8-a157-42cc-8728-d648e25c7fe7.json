@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--35b6ab96-3737-4556-97e6-2d48ae4c3bb0",
+    "id": "bundle--37879cbc-63bc-4e92-a716-2f4da36ca6cc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -63,6 +63,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_version": "1.0",
             "x_mitre_data_sources": [
                 "API monitoring",
                 "Authentication logs",
@@ -77,7 +78,6 @@
                 "Administrator",
                 "SYSTEM"
             ],
-            "x_mitre_version": "1.0",
             "x_mitre_platforms": [
                 "Windows"
             ],
@@ -88,7 +88,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-10-16T19:03:31.043Z",
+            "modified": "2018-10-17T00:14:20.652Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

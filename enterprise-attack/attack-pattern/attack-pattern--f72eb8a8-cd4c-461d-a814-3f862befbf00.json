@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eb6c58e9-956f-4aee-bc6b-71d3b87e12e6",
+    "id": "bundle--f077400f-a3ac-4c3d-8ae1-3d2e226288e6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -23,6 +23,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_version": "1.0",
             "x_mitre_contributors": [
                 "Ryan Becwar"
             ],
@@ -42,7 +43,6 @@
                 "macOS",
                 "Windows"
             ],
-            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -50,7 +50,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-10-16T19:03:31.043Z",
+            "modified": "2018-10-17T00:14:20.652Z",
             "created": "2017-05-31T21:31:10.314Z"
         }
     ]

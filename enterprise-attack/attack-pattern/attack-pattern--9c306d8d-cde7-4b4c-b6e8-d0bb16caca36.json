@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--998fd9e7-d3be-4c03-bada-60e7addbc779",
+    "id": "bundle--577de90a-747f-46d7-a858-d5763c22991d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -28,6 +28,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_version": "1.0",
             "x_mitre_contributors": [
                 "John Lambert, Microsoft Threat Intelligence Center"
             ],
@@ -45,7 +46,6 @@
                 "Windows",
                 "macOS"
             ],
-            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -53,7 +53,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-10-16T19:03:31.043Z",
+            "modified": "2018-10-17T00:14:20.652Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

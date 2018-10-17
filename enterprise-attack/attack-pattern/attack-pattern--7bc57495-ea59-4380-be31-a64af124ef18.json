@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d4c6ab56-7b3f-463d-a1a1-701ce61a0f7e",
+    "id": "bundle--0fd38647-2d52-4d32-93fc-8e4f42a72986",
     "spec_version": "2.0",
     "objects": [
         {
@@ -23,6 +23,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_version": "1.0",
             "x_mitre_data_sources": [
                 "File monitoring",
                 "Process monitoring",
@@ -42,7 +43,6 @@
             "x_mitre_system_requirements": [
                 "Some folders may require Administrator, SYSTEM or specific user depending on permission levels and access controls"
             ],
-            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -50,7 +50,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-10-16T19:03:31.043Z",
+            "modified": "2018-10-17T00:14:20.652Z",
             "created": "2017-05-31T21:31:04.710Z"
         }
     ]

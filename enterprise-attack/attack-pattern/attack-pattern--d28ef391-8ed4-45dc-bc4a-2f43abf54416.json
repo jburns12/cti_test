@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--af923530-0c85-429d-a3fb-f41c065900a0",
+    "id": "bundle--d885da10-0b8b-43fc-bc5d-fc60d3fb81e4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -28,6 +28,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_version": "1.0",
             "x_mitre_contributors": [
                 "Milos Stojadinovic"
             ],
@@ -46,7 +47,6 @@
                 "Windows",
                 "macOS"
             ],
-            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -54,7 +54,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-10-16T19:03:31.043Z",
+            "modified": "2018-10-17T00:14:20.652Z",
             "created": "2018-04-18T17:59:24.739Z"
         }
     ]

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dc28e3f9-179f-47e3-a68a-a94620415626",
+    "id": "bundle--081f808f-7aa6-4bc2-92c2-0daf7ca3ccba",
     "spec_version": "2.0",
     "objects": [
         {
@@ -23,6 +23,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_version": "1.0",
             "x_mitre_data_sources": [
                 "Netflow/Enclave netflow",
                 "Process use of network",
@@ -35,7 +36,6 @@
                 "macOS",
                 "Windows"
             ],
-            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -43,7 +43,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-10-16T19:03:31.043Z",
+            "modified": "2018-10-17T00:14:20.652Z",
             "created": "2017-05-31T21:30:53.408Z"
         }
     ]

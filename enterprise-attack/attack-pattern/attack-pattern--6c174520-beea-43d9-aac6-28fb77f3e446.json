@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b7bcb9cf-696b-4a50-b4c5-ef6261eecc09",
+    "id": "bundle--903151a9-8211-43e1-8f5a-f8c48c7fb76f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -28,6 +28,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_version": "1.0",
             "x_mitre_data_sources": [
                 "DLL monitoring",
                 "Windows Registry",
@@ -37,7 +38,6 @@
             "x_mitre_permissions_required": [
                 "Administrator"
             ],
-            "x_mitre_version": "1.0",
             "x_mitre_platforms": [
                 "Windows"
             ],
@@ -48,7 +48,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-10-16T19:03:31.043Z",
+            "modified": "2018-10-17T00:14:20.652Z",
             "created": "2017-05-31T21:31:13.447Z"
         }
     ]

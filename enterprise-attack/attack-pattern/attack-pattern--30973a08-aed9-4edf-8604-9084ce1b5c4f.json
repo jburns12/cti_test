@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--87c600c0-2e82-4e42-99ab-8e46a2948b2d",
+    "id": "bundle--603cf073-a7a2-4e1d-b8ee-6d21f95943ae",
     "spec_version": "2.0",
     "objects": [
         {
@@ -28,6 +28,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_version": "1.0",
             "x_mitre_data_sources": [
                 "API monitoring"
             ],
@@ -37,7 +38,6 @@
                 "Windows",
                 "macOS"
             ],
-            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -45,7 +45,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-10-16T19:03:31.043Z",
+            "modified": "2018-10-17T00:14:20.652Z",
             "created": "2017-05-31T21:31:25.967Z"
         }
     ]

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--34dc8f13-b2fc-4b3b-b124-0e751e6029ea",
+    "id": "bundle--01d0180d-2ed3-4e26-a4ca-4db6d72fce6f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -23,6 +23,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_version": "1.0",
             "x_mitre_contributors": [
                 "Matt Kelly, @breakersall"
             ],
@@ -37,7 +38,6 @@
                 "macOS",
                 "Windows"
             ],
-            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -45,7 +45,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-10-16T19:03:31.043Z",
+            "modified": "2018-10-17T00:14:20.652Z",
             "created": "2018-01-16T16:13:52.465Z"
         }
     ]

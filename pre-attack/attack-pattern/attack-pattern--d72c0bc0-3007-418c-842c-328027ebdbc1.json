@@ -1,0 +1,42 @@
+{
+    "type": "bundle",
+    "id": "bundle--ff27c4e2-8fe5-426a-9e55-85ad1437726d",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "attack-pattern--d72c0bc0-3007-418c-842c-328027ebdbc1",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "name": "Deploy exploit using advertising",
+            "description": "This technique has been deprecated. Please see ATT&CK's Initial Access and Execution tactics for replacement techniques.\n\nExploits spread through advertising (malvertising) involve injecting malicious or malware-laden advertisements into legitimate online advertising networks and webpages. (Citation: TPMalvertising)",
+            "external_references": [
+                {
+                    "external_id": "T1380",
+                    "url": "https://attack.mitre.org/techniques/T1380",
+                    "source_name": "mitre-pre-attack"
+                },
+                {
+                    "description": "Michael Mimoso. (2015, March 30). AD NETWORKS RIPE FOR ABUSE VIA MALVERTISING. Retrieved March 9, 2017.",
+                    "source_name": "TPMalvertising"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_detectable_by_common_defenses": "No",
+            "x_mitre_deprecated": true,
+            "x_mitre_detectable_by_common_defenses_explanation": "Although some commercial technologies are being advertised which claim to detect malvertising, it largely spreads unknowingly because it doesn't always require an action by a user.",
+            "x_mitre_difficulty_for_adversary": "Yes",
+            "x_mitre_difficulty_for_adversary_explanation": "An adversary can deploy exploits via malvertising using multiple mechanisms.  Such mechanisms include an image ad that is infected, redirection, or using social engineering to get the end user to install the malicious software themselves.",
+            "x_mitre_version": "1.0",
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "launch",
+                    "kill_chain_name": "mitre-pre-attack"
+                }
+            ],
+            "modified": "2018-10-17T00:14:20.652Z",
+            "created": "2017-12-14T16:46:06.044Z"
+        }
+    ]
+}

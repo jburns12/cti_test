@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e3e6056d-f083-43d6-b5ce-b386ee9a98f2",
+    "id": "bundle--06544320-9220-4d02-85c2-5e8cea692b33",
     "spec_version": "2.0",
     "objects": [
         {
@@ -48,6 +48,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_version": "1.0",
             "x_mitre_detection": "If proper execution policy is set, adversaries will likely be able to define their own execution policy if they obtain administrator or system access, either through the Registry or at the command line. This change in policy on a system may be a way to detect malicious use of PowerShell. If PowerShell is not used in an environment, then simply looking for PowerShell execution may detect malicious activity.\n\nIt is also beneficial to turn on PowerShell logging to gain increased fidelity in what occurs during execution. (Citation: Malware Archaeology PowerShell Cheat Sheet) PowerShell 5.0 introduced enhanced logging capabilities, and some of those features have since been added to PowerShell 4.0. Earlier versions of PowerShell do not have many logging features. (Citation: FireEye PowerShell Logging 2016) An organization can gather PowerShell execution details in a data analytic platform to supplement it with other data.",
             "x_mitre_data_sources": [
                 "Windows Registry",
@@ -60,7 +61,6 @@
                 "Administrator"
             ],
             "x_mitre_remote_support": true,
-            "x_mitre_version": "1.0",
             "x_mitre_platforms": [
                 "Windows"
             ],
@@ -71,7 +71,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-10-16T19:03:31.043Z",
+            "modified": "2018-10-17T00:14:20.652Z",
             "created": "2017-05-31T21:31:06.512Z"
         }
     ]

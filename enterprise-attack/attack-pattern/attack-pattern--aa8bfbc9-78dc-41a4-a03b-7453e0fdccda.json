@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bf7a2ada-cf0c-4de8-82bf-c8d19d58f173",
+    "id": "bundle--5c3cee2d-c642-4d1b-b5ac-31016aaf647b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -28,6 +28,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_version": "1.0",
             "x_mitre_data_sources": [
                 "File monitoring"
             ],
@@ -42,7 +43,6 @@
             "x_mitre_permissions_required": [
                 "User"
             ],
-            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -54,7 +54,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-10-16T19:03:31.043Z",
+            "modified": "2018-10-17T00:14:20.652Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]

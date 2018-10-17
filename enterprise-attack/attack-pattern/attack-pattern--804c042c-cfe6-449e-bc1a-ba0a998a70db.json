@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7efb06f5-6f30-42a2-9af3-aea49013fbec",
+    "id": "bundle--3cda851a-a5ae-4c39-9514-506fc6c85b71",
     "spec_version": "2.0",
     "objects": [
         {
@@ -37,6 +37,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_version": "1.0",
             "x_mitre_data_sources": [
                 "File monitoring",
                 "Process monitoring"
@@ -45,7 +46,6 @@
             "x_mitre_system_requirements": [
                 "Shared webroot directory on remote system"
             ],
-            "x_mitre_version": "1.0",
             "x_mitre_platforms": [
                 "Windows"
             ],
@@ -56,7 +56,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-10-16T19:03:31.043Z",
+            "modified": "2018-10-17T00:14:20.652Z",
             "created": "2017-05-31T21:30:46.047Z"
         }
     ]

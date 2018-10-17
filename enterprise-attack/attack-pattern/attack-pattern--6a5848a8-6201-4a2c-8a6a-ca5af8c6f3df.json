@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--aa789bf0-cacb-40e8-a90e-2d93252753b3",
+    "id": "bundle--8334ceaa-91b4-49f0-b8c1-37c90cfadc5e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -28,6 +28,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_version": "1.0",
             "x_mitre_data_sources": [
                 "Sensor health and status",
                 "Process command-line parameters",
@@ -39,7 +40,6 @@
                 "Host intrusion prevention systems"
             ],
             "x_mitre_detection": "Detect lack of reported activity from a host sensor. Different methods of blocking may cause different disruptions in reporting. Systems may suddenly stop reporting all data or only certain kinds of data.\n\nDepending on the types of host information collected, an analyst may be able to detect the event that triggered a process to stop or connection to be blocked.",
-            "x_mitre_version": "1.0",
             "x_mitre_platforms": [
                 "Windows"
             ],
@@ -50,7 +50,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-10-16T19:03:31.043Z",
+            "modified": "2018-10-17T00:14:20.652Z",
             "created": "2017-05-31T21:30:47.384Z"
         }
     ]

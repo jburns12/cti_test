@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4663c241-6017-4ff1-b0df-7d67cc0cfe23",
+    "id": "bundle--8568b221-0793-49e7-8c18-758d8e916d37",
     "spec_version": "2.0",
     "objects": [
         {
@@ -28,6 +28,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_version": "1.0",
             "x_mitre_data_sources": [
                 "System calls",
                 "Process Monitoring"
@@ -39,7 +40,6 @@
             "x_mitre_permissions_required": [
                 "Administrator"
             ],
-            "x_mitre_version": "1.0",
             "type": "attack-pattern",
             "kill_chain_phases": [
                 {
@@ -47,7 +47,7 @@
                     "kill_chain_name": "mitre-attack"
                 }
             ],
-            "modified": "2018-10-16T19:03:31.043Z",
+            "modified": "2018-10-17T00:14:20.652Z",
             "created": "2017-12-14T16:46:06.044Z"
         }
     ]
