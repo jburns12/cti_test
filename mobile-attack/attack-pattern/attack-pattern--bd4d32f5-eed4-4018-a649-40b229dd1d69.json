@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--03b39c46-cd48-458f-9510-bac232eddedd",
+    "id": "bundle--4a18de57-d89d-4a24-a3f0-8c1537b5f869",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--bd4d32f5-eed4-4018-a649-40b229dd1d69",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "App Auto-Start at Device Boot",
-            "description": "An Android application can listen for the BOOT_COMPLETED broadcast, ensuring that the app's functionality will be activated every time the device starts up without having to wait for the device user to manually start the app.\n\n (Citation: Zhou) and Jiang (Citation: Zhou) analyzed 1260 Android malware samples belonging to 49 families of malware, and determined that 29 malware families and 83.3% of the samples listened for BOOT_COMPLETED.",
+            "description": "An Android application can listen for the BOOT_COMPLETED broadcast, ensuring that the app's functionality will be activated every time the device starts up without having to wait for the device user to manually start the app.\n\n Zhou and Jiang (Citation: Zhou) analyzed 1260 Android malware samples belonging to 49 families of malware, and determined that 29 malware families and 83.3% of the samples listened for BOOT_COMPLETED.",
             "external_references": [
                 {
                     "external_id": "T1402",

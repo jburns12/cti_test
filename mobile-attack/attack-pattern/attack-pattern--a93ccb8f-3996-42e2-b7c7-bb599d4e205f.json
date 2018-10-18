@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--3b35b18b-e4cb-4e9d-9fdc-de74cc5b1ca5",
+    "id": "bundle--5c8d6bb3-cf3c-4d1b-87db-24f5898d2b47",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--a93ccb8f-3996-42e2-b7c7-bb599d4e205f",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Repackaged Application",
-            "description": "An adversary could download a legitimate app, disassemble it, add malicious code, and then reassemble the app, for example as described by  (Citation: Zhou) and Jiang in  (Citation: Zhou). The app would appear to be the original app but contain additional malicious functionality. The adversary could then publish this app to app stores or use another delivery technique.",
+            "description": "An adversary could download a legitimate app, disassemble it, add malicious code, and then reassemble the app, for example as described by Zhou and Jiang in (Citation: Zhou). The app would appear to be the original app but contain additional malicious functionality. The adversary could then publish this app to app stores or use another delivery technique.",
             "external_references": [
                 {
                     "external_id": "T1444",

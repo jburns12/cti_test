@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--c400b456-5adb-43b6-b375-f41431f79797",
+    "id": "bundle--de158ca1-7465-4bb1-ace6-3c008e457393",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--488da8ed-2887-4ef6-a39a-5b69bc6682c6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Acquire and/or use 3rd party software services",
-            "description": "A wide variety of 3rd party software services  are available (e.g., [https://twitter.com Twitter], [https://www.dropbox.com Dropbox], [https://www.google.com/docs/about/ GoogleDocs]). Use of these solutions allow an adversary to stage, launch, and execute an attack from infrastructure that does not physically tie back to them and can be rapidly provisioned, modified, and shut down. (Citation: LOWBALL2015)",
+            "description": "A wide variety of 3rd party software services  are available (e.g., [Twitter](https://twitter.com), [Dropbox](https://www.dropbox.com), [GoogleDocs](https://www.google.com/docs/about)). Use of these solutions allow an adversary to stage, launch, and execute an attack from infrastructure that does not physically tie back to them and can be rapidly provisioned, modified, and shut down. (Citation: LOWBALL2015)",
             "external_references": [
                 {
                     "external_id": "T1330",

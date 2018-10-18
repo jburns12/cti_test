@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--15545654-1613-4dcf-911b-83563f2491c7",
+    "id": "bundle--7c0af499-0723-4e30-90a2-9afd0891e348",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--6c49d50f-494d-4150-b774-a655022d20a6",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Download New Code at Runtime",
-            "description": "An app could download and execute dynamic code (not included in the original application package) after installation to evade static analysis techniques (and potentially dynamic analysis techniques) used for application vetting or application store review (Citation: Poeplau-ExecuteThis). \n\nOn Android, dynamic code could include native code, Dalvik code, or JavaScript code that uses the Android WebView's JavascriptInterface capability (Citation: Bromium-AndroidRCE).\n\nOn iOS, techniques for executing dynamic code downloaded after application installation include JSPatch (Citation: FireEye-JSPatch).  (Citation: Wang) et al. describe a related method of constructing malicious logic at app runtime on iOS (Citation: Wang).",
+            "description": "An app could download and execute dynamic code (not included in the original application package) after installation to evade static analysis techniques (and potentially dynamic analysis techniques) used for application vetting or application store review (Citation: Poeplau-ExecuteThis). \n\nOn Android, dynamic code could include native code, Dalvik code, or JavaScript code that uses the Android WebView's JavascriptInterface capability (Citation: Bromium-AndroidRCE).\n\nOn iOS, techniques for executing dynamic code downloaded after application installation include JSPatch (Citation: FireEye-JSPatch). Wang et al. describe a related method of constructing malicious logic at app runtime on iOS (Citation: Wang).",
             "external_references": [
                 {
                     "external_id": "T1407",

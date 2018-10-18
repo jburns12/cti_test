@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--d6f39c10-06e1-4a6c-8000-5f121a2b4f15",
+    "id": "bundle--24cab524-5905-470b-b0ec-ccfee908a6e8",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--ba8e391f-14b5-496f-81f2-2d5ecd646c1c",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Credentials in Files",
-            "description": "Adversaries may search local file systems and remote file shares for files containing passwords.  These can be files created by users to store their own credentials, shared credential stores for a group of individuals, configuration files containing passwords for a system or service, or source code/binary files containing embedded passwords.\n\nIt is possible to extract passwords from backups or saved virtual machines through [Credential Dumping](https://attack.mitre.org/techniques/T1003). (Citation: CG 2014) Passwords may also be obtained from Group Policy Preferences stored on the Windows Domain Controller. (Citation: SRD GPP)",
+            "description": "Adversaries may search local file systems and remote file shares for files containing passwords. These can be files created by users to store their own credentials, shared credential stores for a group of individuals, configuration files containing passwords for a system or service, or source code/binary files containing embedded passwords.\n\nIt is possible to extract passwords from backups or saved virtual machines through [Credential Dumping](https://attack.mitre.org/techniques/T1003). (Citation: CG 2014) Passwords may also be obtained from Group Policy Preferences stored on the Windows Domain Controller. (Citation: SRD GPP)",
             "external_references": [
                 {
                     "external_id": "T1081",

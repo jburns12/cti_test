@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--2037ee49-c65a-472d-b128-d66638d2e885",
+    "id": "bundle--da9cc58f-4a3e-470d-814e-86a9791e4c08",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--4bf5845d-a814-4490-bc5c-ccdee6043025",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "AppCert DLLs",
-            "description": "Dynamic-link libraries (DLLs) that are specified in the AppCertDLLs value in the Registry key <code>HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Control\\Session Manager</code> are loaded into every process that calls the ubiquitously used application programming interface (API) functions: (Citation: Endgame Process Injection July 2017)\n* CreateProcess\n* CreateProcessAsUser\n* CreateProcessWithLoginW\n* CreateProcessWithTokenW\n* WinExec\nSimilar to [Process Injection](https://attack.mitre.org/techniques/T1055), this value can be abused to obtain persistence and privilege escalation by causing a malicious DLL to be loaded and run in the context of separate processes on the computer.",
+            "description": "Dynamic-link libraries (DLLs) that are specified in the AppCertDLLs value in the Registry key <code>HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Control\\Session Manager</code> are loaded into every process that calls the ubiquitously used application programming interface (API) functions: (Citation: Endgame Process Injection July 2017)\n\n* CreateProcess\n* CreateProcessAsUser\n* CreateProcessWithLoginW\n* CreateProcessWithTokenW\n* WinExec\n\nSimilar to [Process Injection](https://attack.mitre.org/techniques/T1055), this value can be abused to obtain persistence and privilege escalation by causing a malicious DLL to be loaded and run in the context of separate processes on the computer.",
             "external_references": [
                 {
                     "external_id": "T1182",

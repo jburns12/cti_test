@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--b44bcfe3-62ee-46e9-868a-83c86a7c4830",
+    "id": "bundle--2c725f18-5337-4220-b869-2814970fa70c",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--702dc95d-3266-42dc-9eef-4a19e2445148",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Push-notification client-side exploit",
-            "description": "This technique has been deprecated. Please see ATT&CK's Initial Access and Execution tactics for replacement techniques.\n\nA technique to push an [https://www.apple.com/ios iOS] or [https://www.android.com Android] MMS-type message to the target which does not require interaction on the part of the target to be successful. (Citation: BlackHat Stagefright) (Citation: WikiStagefright)",
+            "description": "This technique has been deprecated. Please see ATT&CK's Initial Access and Execution tactics for replacement techniques.\n\nA technique to push an [iOS](https://www.apple.com/ios) or [Android](https://www.android.com) MMS-type message to the target which does not require interaction on the part of the target to be successful. (Citation: BlackHat Stagefright) (Citation: WikiStagefright)",
             "external_references": [
                 {
                     "external_id": "T1373",

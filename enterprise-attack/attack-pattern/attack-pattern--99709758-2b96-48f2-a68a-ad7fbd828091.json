@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--c08a7529-0238-4862-88f8-30613fa3837c",
+    "id": "bundle--cce0aa1b-28a3-438e-8254-9593d36fc5bb",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--99709758-2b96-48f2-a68a-ad7fbd828091",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Multiband Communication",
-            "description": "Some adversaries may split communications between different protocols.  There could be one protocol for inbound command and control and another for outbound data, allowing it to bypass certain firewall restrictions.  The split could also be random to simply avoid data threshold alerts on any one communication.",
+            "description": "Some adversaries may split communications between different protocols. There could be one protocol for inbound command and control and another for outbound data, allowing it to bypass certain firewall restrictions. The split could also be random to simply avoid data threshold alerts on any one communication.",
             "external_references": [
                 {
                     "external_id": "T1026",

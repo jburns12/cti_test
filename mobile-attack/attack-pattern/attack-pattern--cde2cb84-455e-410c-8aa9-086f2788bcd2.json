@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--594803a8-66df-4e89-9619-4b7856049e58",
+    "id": "bundle--b32e5a59-332f-4062-a644-22637e276893",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--cde2cb84-455e-410c-8aa9-086f2788bcd2",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Install Insecure or Malicious Configuration",
-            "description": "An adversary could attempt to install insecure or malicious configuration settings on the mobile device, through means such as phishing emails or text messages either directly containing the configuration settings as an attachment, or containing a web link to the configuration settings. The device user may be tricked into installing the configuration settings through social engineering techniques (Citation: Symantec-iOSProfile).\n\nFor example, an unwanted Certification Authority (CA) certificate could be placed in the device's trusted certificate store, increasing the device's susceptibility to man-in-the-middle network attacks seeking to eavesdrop on or manipulate the device's network communication ([[Technique/T1439]] and [[Technique/T1463]]).\n\nOn iOS, malicious Configuration Profiles could contain unwanted Certification Authority (CA) certificates or other insecure settings such as unwanted proxy server or VPN settings to route the device's network traffic through an adversary's system. The device could also potentially be enrolled into a malicious Mobile Device Management (MDM) system (Citation: Talos-MDM).",
+            "description": "An adversary could attempt to install insecure or malicious configuration settings on the mobile device, through means such as phishing emails or text messages either directly containing the configuration settings as an attachment, or containing a web link to the configuration settings. The device user may be tricked into installing the configuration settings through social engineering techniques (Citation: Symantec-iOSProfile).\n\nFor example, an unwanted Certification Authority (CA) certificate could be placed in the device's trusted certificate store, increasing the device's susceptibility to man-in-the-middle network attacks seeking to eavesdrop on or manipulate the device's network communication ([Eavesdrop on Insecure Network Communication](https://attack.mitre.org/techniques/T1439) and [Manipulate Device Communication](https://attack.mitre.org/techniques/T1463)).\n\nOn iOS, malicious Configuration Profiles could contain unwanted Certification Authority (CA) certificates or other insecure settings such as unwanted proxy server or VPN settings to route the device's network traffic through an adversary's system. The device could also potentially be enrolled into a malicious Mobile Device Management (MDM) system (Citation: Talos-MDM).",
             "external_references": [
                 {
                     "external_id": "T1478",

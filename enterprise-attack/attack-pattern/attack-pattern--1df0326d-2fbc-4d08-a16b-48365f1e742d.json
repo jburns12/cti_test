@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--71eb03bc-3b0f-4d4b-8f9b-897411004ee7",
+    "id": "bundle--3c4bd424-6357-4461-be61-a782ae3d8321",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--1df0326d-2fbc-4d08-a16b-48365f1e742d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "SID-History Injection",
-            "description": "The Windows security identifier (SID) is a unique value that identifies a user or group account. SIDs are used by Windows security in both security descriptors and access tokens. (Citation: Microsoft SID) An account can hold additional SIDs in the SID-History Active Directory attribute (Citation: Microsoft SID)-History Attribute, allowing inter-operable account migration between domains (e.g., all values in SID-History are included in access tokens).\n\nAdversaries may use this mechanism for privilege escalation. With Domain Administrator (or equivalent) rights, harvested or well-known SID values (Citation: Microsoft Well Known SIDs Jun 2017) may be inserted into SID-History to enable impersonation of arbitrary users/groups such as Enterprise Administrators. This manipulation may result in elevated access to local resources and/or access to otherwise inaccessible domains via lateral movement techniques such as [Remote Services](https://attack.mitre.org/techniques/T1021), [Windows Admin Shares](https://attack.mitre.org/techniques/T1077), or [Windows Remote Management](https://attack.mitre.org/techniques/T1028).",
+            "description": "The Windows security identifier (SID) is a unique value that identifies a user or group account. SIDs are used by Windows security in both security descriptors and access tokens. (Citation: Microsoft SID) An account can hold additional SIDs in the SID-History Active Directory attribute (Citation: Microsoft SID-History Attribute), allowing inter-operable account migration between domains (e.g., all values in SID-History are included in access tokens).\n\nAdversaries may use this mechanism for privilege escalation. With Domain Administrator (or equivalent) rights, harvested or well-known SID values (Citation: Microsoft Well Known SIDs Jun 2017) may be inserted into SID-History to enable impersonation of arbitrary users/groups such as Enterprise Administrators. This manipulation may result in elevated access to local resources and/or access to otherwise inaccessible domains via lateral movement techniques such as [Remote Services](https://attack.mitre.org/techniques/T1021), [Windows Admin Shares](https://attack.mitre.org/techniques/T1077), or [Windows Remote Management](https://attack.mitre.org/techniques/T1028).",
             "external_references": [
                 {
                     "external_id": "T1178",
@@ -18,6 +18,11 @@
                     "url": "https://msdn.microsoft.com/library/windows/desktop/aa379571.aspx",
                     "description": "Microsoft. (n.d.). Security Identifiers. Retrieved November 30, 2017.",
                     "source_name": "Microsoft SID"
+                },
+                {
+                    "url": "https://msdn.microsoft.com/library/ms679833.aspx",
+                    "description": "Microsoft. (n.d.). Active Directory Schema - SID-History attribute. Retrieved November 30, 2017.",
+                    "source_name": "Microsoft SID-History Attribute"
                 },
                 {
                     "url": "https://support.microsoft.com/help/243330/well-known-security-identifiers-in-windows-operating-systems",

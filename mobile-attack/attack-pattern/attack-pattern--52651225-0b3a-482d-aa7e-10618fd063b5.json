@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--170f4b96-d9c0-4192-b62b-34e5c6282fbd",
+    "id": "bundle--5354fe54-81a7-4056-b7cf-715d8246fd21",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--52651225-0b3a-482d-aa7e-10618fd063b5",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Exploit SS7 to Track Device Location",
-            "description": "An adversary could exploit signaling system vulnerabilities to track the location of mobile devices. (Citation: Engel-SS7) (Citation: Engel-SS7)-2008 (Citation: 3GPP-Security) (Citation: Positive-SS7) (Citation: CSRIC5-WG10-FinalReport)",
+            "description": "An adversary could exploit signaling system vulnerabilities to track the location of mobile devices. (Citation: Engel-SS7) (Citation: Engel-SS7-2008) (Citation: 3GPP-Security) (Citation: Positive-SS7) (Citation: CSRIC5-WG10-FinalReport)",
             "external_references": [
                 {
                     "external_id": "T1450",
@@ -28,6 +28,11 @@
                     "url": "http://www.3gpp.org/ftp/tsg_sa/wg3_security/_specs/33900-120.pdf",
                     "description": "3GPP. (2000, January). A Guide to 3rd Generation Security. Retrieved December 19, 2016.",
                     "source_name": "3GPP-Security"
+                },
+                {
+                    "url": "https://www.youtube.com/watch?v=q0n5ySqbfdI",
+                    "description": "Tobias Engel. (2008, December). Locating Mobile Phones using SS7. Retrieved December 19, 2016.",
+                    "source_name": "Engel-SS7-2008"
                 },
                 {
                     "url": "https://www.ptsecurity.com/upload/ptcom/PT-SS7-AD-Data-Sheet-eng.pdf",

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--597de942-6b70-4372-91e0-0d3ef97cd136",
+    "id": "bundle--703cc7d1-11cb-4bca-ab26-edc7fcc0c8fd",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--288b3cc3-f4da-4250-ab8c-d8b5dbed94ca",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Identify web defensive services",
-            "description": "An adversary can attempt to identify web defensive services as [https://www.cloudflare.com/ CloudFlare], [https://github.com/jjxtra/Windows-IP-Ban-Service IPBan], and [https://www.snort.org/ Snort]. This may be done by passively detecting services, like [https://www.cloudflare.com/ CloudFlare] routing, or actively, such as by purposefully tripping security defenses. (Citation: NMAP WAF NSE)",
+            "description": "An adversary can attempt to identify web defensive services as [CloudFlare](https://www.cloudflare.com), [IPBan](https://github.com/jjxtra/Windows-IP-Ban-Service), and [Snort](https://www.snort.org). This may be done by passively detecting services, like [CloudFlare](https://www.cloudflare.com) routing, or actively, such as by purposefully tripping security defenses. (Citation: NMAP WAF NSE)",
             "external_references": [
                 {
                     "external_id": "T1256",

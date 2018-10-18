@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--62d03224-d922-4cbe-8a59-853f4b1f84c5",
+    "id": "bundle--2ad49527-d4de-41c1-a97d-b5ba0f2943cd",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--a2fc93cd-e371-4755-9305-2615b6753d91",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Determine external network trust dependencies",
-            "description": "Network trusts enable communications between different networks with specific accesses and permissions. Network trusts could include the implementation of domain trusts or the use of virtual private networks (VPNs). (Citation: CuckoosEgg) (Citation: CuckoosEgg)Wikipedia (Citation: KGBComputerMe)",
+            "description": "Network trusts enable communications between different networks with specific accesses and permissions. Network trusts could include the implementation of domain trusts or the use of virtual private networks (VPNs). (Citation: CuckoosEgg) (Citation: CuckoosEggWikipedia) (Citation: KGBComputerMe)",
             "external_references": [
                 {
                     "external_id": "T1259",
@@ -17,6 +17,10 @@
                 {
                     "description": "[ Cliff Stoll. (1089). The Cuckoo's Egg. Retrieved August 8, 2017.",
                     "source_name": "CuckoosEgg"
+                },
+                {
+                    "description": "Wikipedia contributors. (2017, January 18). The Cuckoo's Egg. Retrieved March 5, 2017.",
+                    "source_name": "CuckoosEggWikipedia"
                 },
                 {
                     "description": "WBGH Nova. (1990, October 3). The KGB, the Computer and Me. Retrieved March 5, 2017.",

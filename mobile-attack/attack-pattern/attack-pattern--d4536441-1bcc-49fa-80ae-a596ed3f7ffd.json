@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--44907ce8-b07d-4efc-bb54-9322cd67e983",
+    "id": "bundle--b83e4b1f-bdc5-4946-90a9-6f84c0998e0a",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--d4536441-1bcc-49fa-80ae-a596ed3f7ffd",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Local Network Configuration Discovery",
-            "description": "On Android, details of onboard network interfaces are accessible to apps through the java.net. (Citation: NetworkInterface) class (Citation: NetworkInterface). The Android  (Citation: TelephonyManager) class can be used to gather related information such as the IMSI, IMEI, and phone number (Citation: TelephonyManager).",
+            "description": "On Android, details of onboard network interfaces are accessible to apps through the java.net.NetworkInterface class (Citation: NetworkInterface). The Android TelephonyManager class can be used to gather related information such as the IMSI, IMEI, and phone number (Citation: TelephonyManager).",
             "external_references": [
                 {
                     "external_id": "T1422",

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--6598ddb1-996b-46c1-a2a3-8ade27f0c484",
+    "id": "bundle--68b71f58-5af0-44ce-a8ff-284ddbb0f85b",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--b9148981-152a-4a19-95c1-962803f5c9af",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Determine secondary level tactical element",
-            "description": "The secondary level tactical element the adversary seeks to attack is the specific network or area of a network that is vulnerable to attack.  Within the corporate network example, the secondary level tactical element might be a SQL server or a domain controller with a known vulnerability. (Citation: CyberAdversaryBehavior) (Citation: JP3-60) (Citation: JP3-12 (R)) (Citation: DoD Cyber 2015)",
+            "description": "The secondary level tactical element the adversary seeks to attack is the specific network or area of a network that is vulnerable to attack.  Within the corporate network example, the secondary level tactical element might be a SQL server or a domain controller with a known vulnerability. (Citation: CyberAdversaryBehavior) (Citation: JP3-60) (Citation: JP3-12R) (Citation: DoD Cyber 2015)",
             "external_references": [
                 {
                     "external_id": "T1244",
@@ -24,7 +24,7 @@
                 },
                 {
                     "description": "Joint Chiefs of Staff. (2013, February 5). Cyberspace Operations. Retrieved May 19, 2017.",
-                    "source_name": "JP3-12 (R)"
+                    "source_name": "JP3-12R"
                 },
                 {
                     "description": "Department of Defense. (2015, April). The Department of Defense Cyber Strategy. Retrieved May 19, 2017.",

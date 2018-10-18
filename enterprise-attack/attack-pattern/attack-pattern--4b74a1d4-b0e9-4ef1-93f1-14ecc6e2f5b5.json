@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--d33df071-4370-4737-bfba-dc27e12da38a",
+    "id": "bundle--7033580f-3d30-4970-998b-653ea4e2e675",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--4b74a1d4-b0e9-4ef1-93f1-14ecc6e2f5b5",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Standard Cryptographic Protocol",
-            "description": "Adversaries may explicitly employ a known encryption algorithm to conceal command and control traffic rather than relying on any inherent protections provided by a communication protocol.  Despite the use of a secure algorithm, these implementations may be vulnerable to reverse engineering if necessary secret keys are encoded and/or generated within malware samples/configuration files.",
+            "description": "Adversaries may explicitly employ a known encryption algorithm to conceal command and control traffic rather than relying on any inherent protections provided by a communication protocol. Despite the use of a secure algorithm, these implementations may be vulnerable to reverse engineering if necessary secret keys are encoded and/or generated within malware samples/configuration files.",
             "external_references": [
                 {
                     "external_id": "T1032",

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--7dcec24b-b038-4779-a2e3-684a8ed73d8f",
+    "id": "bundle--436f0a66-a12b-4e0f-ba78-d4a44473a2dd",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--fb3fa94a-3aee-4ab0-b7e7-abdf0a51286d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Exploit SS7 to Redirect Phone Calls/SMS",
-            "description": "An adversary could exploit signaling system vulnerabilities to redirect calls or text messages to a phone number under the attacker's control. The adversary could then act as a man-in-the-middle to intercept or manipulate the communication. (Citation: Engel-SS7)  (Citation: Engel-SS7)-2008 (Citation: 3GPP-Security) (Citation: Positive-SS7) (Citation: CSRIC5-WG10-FinalReport)",
+            "description": "An adversary could exploit signaling system vulnerabilities to redirect calls or text messages to a phone number under the attacker's control. The adversary could then act as a man-in-the-middle to intercept or manipulate the communication. (Citation: Engel-SS7) (Citation: Engel-SS7-2008) (Citation: 3GPP-Security) (Citation: Positive-SS7) (Citation: CSRIC5-WG10-FinalReport)",
             "external_references": [
                 {
                     "external_id": "T1449",
@@ -23,6 +23,11 @@
                     "url": "https://berlin.ccc.de/~tobias/31c3-ss7-locate-track-manipulate.pdf",
                     "description": "Tobias Engel. (2014, December). SS7: Locate. Track. Manipulate.. Retrieved December 19, 2016.",
                     "source_name": "Engel-SS7"
+                },
+                {
+                    "url": "https://www.youtube.com/watch?v=q0n5ySqbfdI",
+                    "description": "Tobias Engel. (2008, December). Locating Mobile Phones using SS7. Retrieved December 19, 2016.",
+                    "source_name": "Engel-SS7-2008"
                 },
                 {
                     "url": "http://www.3gpp.org/ftp/tsg_sa/wg3_security/_specs/33900-120.pdf",

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--7f4816af-4d17-4074-b51c-711f621dbcc8",
+    "id": "bundle--cc5756ea-0e54-4873-b16c-09f4b3ddbe95",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "course-of-action--ba2ec548-fb75-4b8c-88d6-d91a77a943cf",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Windows Management Instrumentation Mitigation",
-            "description": "Disabling WMI or RPCS may cause system instability and should be evaluated to assess the impact to a network.  By default, only administrators are allowed to connect remotely using WMI. Restrict other users who are allowed to connect, or disallow all users to connect remotely to WMI. Prevent credential overlap across systems of administrator and privileged accounts. (Citation: FireEye WMI 2015)",
+            "description": "Disabling WMI or RPCS may cause system instability and should be evaluated to assess the impact to a network. By default, only administrators are allowed to connect remotely using WMI. Restrict other users who are allowed to connect, or disallow all users to connect remotely to WMI. Prevent credential overlap across systems of administrator and privileged accounts. (Citation: FireEye WMI 2015)",
             "external_references": [
                 {
                     "external_id": "T1047",

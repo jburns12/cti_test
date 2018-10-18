@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--85d2b2cc-45c8-45cf-8958-c18f23ad81f9",
+    "id": "bundle--6cdcddda-e06f-4f2f-bc94-a5d39d148895",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--667e5707-3843-4da8-bd34-88b922526f0d",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Exploit via Charging Station or PC",
-            "description": "If the mobile device is connected (typically via USB) to a charging station or a PC, for example to charge the device's battery, then a compromised or malicious charging station or PC could attempt to exploit the mobile device via the connection.\n\nKrebs described this technique in  (Citation: Krebs-JuiceJacking). Lau et al. (Citation: Lau-Mactans) demonstrated the ability to inject malicious applications into an iOS device via USB. Hay (Citation: IBM-NexusUSB) demonstrated the ability to exploit a Nexus 6 or 6P device over USB and then gain the ability to perform actions including intercepting phone calls, intercepting network traffic, and obtaining the device physical location. Horn (Citation: GoogleProjectZero-OATmeal) demonstrated the ability to exploit Android devices such as the Google Pixel 2 over USB.\n\nProducts from Cellebrite and Grayshift purportedly can use physical access to the data port to unlock the passcode on some iOS devices (Citation: Computerworld-iPhoneCracking).",
+            "description": "If the mobile device is connected (typically via USB) to a charging station or a PC, for example to charge the device's battery, then a compromised or malicious charging station or PC could attempt to exploit the mobile device via the connection.\n\nKrebs described this technique in (Citation: Krebs-JuiceJacking). Lau et al. (Citation: Lau-Mactans) demonstrated the ability to inject malicious applications into an iOS device via USB. Hay (Citation: IBM-NexusUSB) demonstrated the ability to exploit a Nexus 6 or 6P device over USB and then gain the ability to perform actions including intercepting phone calls, intercepting network traffic, and obtaining the device physical location. Horn (Citation: GoogleProjectZero-OATmeal) demonstrated the ability to exploit Android devices such as the Google Pixel 2 over USB.\n\nProducts from Cellebrite and Grayshift purportedly can use physical access to the data port to unlock the passcode on some iOS devices (Citation: Computerworld-iPhoneCracking).",
             "external_references": [
                 {
                     "external_id": "T1458",
