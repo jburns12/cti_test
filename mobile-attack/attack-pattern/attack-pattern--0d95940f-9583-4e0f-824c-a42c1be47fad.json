@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4754dbe1-ae69-4ed5-a3de-681c41343026",
+    "id": "bundle--d3ad57c7-98aa-424d-8da6-a629145a7dbb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -38,7 +38,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_detection": "* Insecure third-party libraries could be detected by application vetting techniques. For example, Google's [https://developer.android.com/google/play/asi App Security Improvement Program] detects the use of third-party libraries with known vulnerabilities within Android apps submitted to the Google Play Store.\n* Malicious software development tools could be detected by enterprises deploying integrity checking software to the computers that they use to develop code to detect presence of unauthorized, modified software development tools.",
+            "x_mitre_detection": "* Insecure third-party libraries could be detected by application vetting techniques. For example, Google's [App Security Improvement Program](https://developer.android.com/google/play/asi) detects the use of third-party libraries with known vulnerabilities within Android apps submitted to the Google Play Store.\n* Malicious software development tools could be detected by enterprises deploying integrity checking software to the computers that they use to develop code to detect presence of unauthorized, modified software development tools.",
             "x_mitre_platforms": [
                 "Android",
                 "iOS"

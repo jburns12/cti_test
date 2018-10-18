@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--e223947e-2d55-4fab-b11d-421c3e739b34",
+    "id": "bundle--ab3efb8d-de77-4894-ad30-800a1ba07e8f",
     "spec_version": "2.0",
     "objects": [
         {
             "id": "attack-pattern--e042a41b-5ecf-4f3a-8f1f-1b528c534772",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Test malware in various execution environments",
-            "description": "Malware may perform differently on different platforms (computer vs handheld) and different operating systems ([Ubuntu](http://www.ubuntu.com) vs [OS X](http://www.apple.com/osx), and versions ([Windows](http://windows.microsoft.com) 7 vs 10) so malicious actors will test their malware in the environment(s) where they most expect it to be executed. (Citation: BypassMalwareDefense)",
+            "description": "Malware may perform differently on different platforms (computer vs handheld) and different operating systems ([Ubuntu](http://www.ubuntu.com) vs [OS X](http://www.apple.com/osx)), and versions ([Windows](http://windows.microsoft.com) 7 vs 10) so malicious actors will test their malware in the environment(s) where they most expect it to be executed. (Citation: BypassMalwareDefense)",
             "external_references": [
                 {
                     "external_id": "T1357",
