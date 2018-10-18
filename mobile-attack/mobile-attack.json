@@ -10802,6 +10802,321 @@
             "created": "2017-10-25T14:48:48.609Z"
         },
         {
+            "type": "x-mitre-matrix",
+            "id": "x-mitre-matrix--a382db5e-d009-4135-b893-0e0ff021c95b",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "modified": "2018-10-17T00:14:20.652Z",
+            "name": "Device Access",
+            "description": "The MITRE ATT&CK Matrix\u2122 provides a visual representation of the adversarial tactics and techniques described in the ATT&CK model. Tactic categories are listed on the top row, and individual techniques as cells underneath each tactic to denote that technique can be used to accomplish that particular tactic. Techniques can span multiple tactic categories signifying that they can be used for more than one purpose. Below are two ATT&CK Mobile Matrices, one for adversarial tactics and techniques involving device access, and one for adversarial tactics and techniques, and one for network-based effects that can be used by adversaries without device access.",
+            "tactic_refs": [
+                "x-mitre-tactic--0a93fd8e-4a83-4c15-8203-db290e5f2ac6",
+                "x-mitre-tactic--363bbeff-bb2a-4734-ac74-d6d37202fe54",
+                "x-mitre-tactic--3e962de5-3280-43b7-bc10-334fbc1d6fa8",
+                "x-mitre-tactic--987cda6d-eb77-406b-bf68-bcb5f3d2e1df",
+                "x-mitre-tactic--6fcb36b8-3776-483b-8699-42215714fb10",
+                "x-mitre-tactic--d418cdeb-1b9f-4a6b-a15d-2f89f549f8c1",
+                "x-mitre-tactic--7be441c2-0095-4b1e-8125-fa8ffda29b0f",
+                "x-mitre-tactic--6ebce653-294a-444a-bffb-14c04c8d137e",
+                "x-mitre-tactic--7a0d25d3-f0c0-40bf-bf90-c743871b19ba",
+                "x-mitre-tactic--10fa8d8d-1b04-4176-917e-738724239981",
+                "x-mitre-tactic--3f660805-fa2e-42e8-8851-57f9e9b653e3"
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/matrices/mobile",
+                    "external_id": "mobile-attack"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ]
+        },
+        {
+            "type": "x-mitre-matrix",
+            "id": "x-mitre-matrix--5104d5f0-16b7-4aec-8ae3-0a90cd5494fc",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "modified": "2018-10-17T00:14:20.652Z",
+            "name": "Network-Based Effects",
+            "description": "The MITRE ATT&CK Matrix\u2122 provides a visual representation of the adversarial tactics and techniques described in the ATT&CK model. Tactic categories are listed on the top row, and individual techniques as cells underneath each tactic to denote that technique can be used to accomplish that particular tactic. Techniques can span multiple tactic categories signifying that they can be used for more than one purpose. Below are two ATT&CK Mobile Matrices, one for adversarial tactics and techniques involving device access, and one for adversarial tactics and techniques, and one for network-based effects that can be used by adversaries without device access.",
+            "tactic_refs": [
+                "x-mitre-tactic--9eb4c21e-4fa8-44c9-b167-dbfc455f9210",
+                "x-mitre-tactic--e78d7d60-41b5-49b7-b0a9-5c5d4cbabe17"
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/matrices/mobile",
+                    "external_id": "mobile-attack"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ]
+        },
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--7a0d25d3-f0c0-40bf-bf90-c743871b19ba",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "modified": "2018-10-17T00:14:20.652Z",
+            "name": "Collection",
+            "description": "Collection consists of techniques used to identify and gather information, such as sensitive files, from a target network prior to exfiltration. This category also covers locations on a system or network where the adversary may look for information to exfiltrate.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/Collection",
+                    "external_id": "TA0035"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_shortname": "collection"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--3f660805-fa2e-42e8-8851-57f9e9b653e3",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "modified": "2018-10-17T00:14:20.652Z",
+            "name": "Command and Control",
+            "description": "The command and control tactic represents how adversaries communicate with systems under their control within a target network. There are many ways an adversary can establish command and control with various levels of covertness, depending on system configuration and network topology. Due to the wide degree of variation available to the adversary at the network level, only the most common factors were used to describe the differences in command and control. There are still a great many specific techniques within the documented methods, largely due to how easy it is to define new protocols and use existing, legitimate protocols and network services for communication. \n\nThe resulting breakdown should help convey the concept that detecting intrusion through command and control protocols without prior knowledge is a difficult proposition over the long term. Adversaries' main constraints in network-level defense avoidance are testing and deployment of tools to rapidly change their protocols, awareness of existing defensive technologies, and access to legitimate Web services that, when used appropriately, make their tools difficult to distinguish from benign traffic.\n\nAdditionally, in the mobile environment, mobile devices are frequently connected to networks outside enterprise control such as cellular networks or public Wi-Fi networks. Adversaries could attempt to evade detection by communicating on these networks, and potentially even by using non-Internet Protocol mechanisms such as Short Message Service (SMS). However, cellular networks often have data caps and/or extra data charges that could increase the potential for adversarial communication to be detected.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/Command_and_Control",
+                    "external_id": "TA0037"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_shortname": "command-and-control"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--6fcb36b8-3776-483b-8699-42215714fb10",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "modified": "2018-10-17T00:14:20.652Z",
+            "name": "Credential Access",
+            "description": "Credential access represents techniques that can be used by adversaries to obtain access to or control over passwords, tokens, cryptographic keys, or other values that could be used by an adversary to gain unauthorized access to resources. Credential access allows the adversary to assume the identity of an account, with all of that account's permissions on the system and network, and makes it harder for defenders to detect the adversary. With sufficient access within a network, an adversary can create accounts for later use within the environment.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/Credential_Access",
+                    "external_id": "TA0031"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_shortname": "credential-access"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--987cda6d-eb77-406b-bf68-bcb5f3d2e1df",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "modified": "2018-10-17T00:14:20.652Z",
+            "name": "Defense Evasion",
+            "description": "Defense evasion consists of techniques an adversary may use to evade detection or avoid other defenses. Sometimes these actions are the same as or variations of techniques in other categories that have the added benefit of subverting a particular defense or mitigation. Defense evasion may be considered a set of attributes the adversary applies to all other phases of the operation.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/Defense_Evasion",
+                    "external_id": "TA0030"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_shortname": "defense-evasion"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--d418cdeb-1b9f-4a6b-a15d-2f89f549f8c1",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "modified": "2018-10-17T00:14:20.652Z",
+            "name": "Discovery",
+            "description": "Discovery consists of techniques that allow the adversary to gain knowledge about the characteristics of the mobile device and potentially other networked systems. When adversaries gain access to a new system, they must orient themselves to what they now have control of and what benefits operating from that system give to their current objective or overall goals during the intrusion. The operating system may provide capabilities that aid in this post-compromise information-gathering phase.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/Discovery",
+                    "external_id": "TA0032"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_shortname": "discovery"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--6ebce653-294a-444a-bffb-14c04c8d137e",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "modified": "2018-10-17T00:14:20.652Z",
+            "name": "Effects",
+            "description": "Effects consists of techniques used by the adversary to execute his or her mission objectives but that do not cleanly fit into another category such as Collection. Mission objectives vary based on each adversary's goals, but examples include toll fraud, destruction of device data, or locking the user out of his or her device until a ransom is paid.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/Effects",
+                    "external_id": "TA0034"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_shortname": "effects"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--10fa8d8d-1b04-4176-917e-738724239981",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "modified": "2018-10-17T00:14:20.652Z",
+            "name": "Exfiltration",
+            "description": "Exfiltration refers to techniques and attributes that result or aid in the adversary removing files and information from the targeted mobile device.\n\nIn the mobile environment, mobile devices are frequently connected to networks outside enterprise control such as cellular networks or public Wi-Fi networks. Adversaries could attempt to evade detection by communicating on these networks, and potentially even by using non-Internet Protocol mechanisms such as Short Message Service (SMS). However, cellular networks often have data caps and/or extra data charges that could increase the potential for adversarial communication to be detected.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/Exfiltration",
+                    "external_id": "TA0036"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_shortname": "exfiltration"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--0a93fd8e-4a83-4c15-8203-db290e5f2ac6",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "modified": "2018-10-17T00:14:20.652Z",
+            "name": "Initial Access",
+            "description": "The initial access tactic represents the vectors adversaries use to gain an initial foothold onto a mobile device.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/Initial_Access",
+                    "external_id": "TA0027"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_shortname": "initial-access"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--7be441c2-0095-4b1e-8125-fa8ffda29b0f",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "modified": "2018-10-17T00:14:20.652Z",
+            "name": "Lateral Movement",
+            "description": "Lateral movement consists of techniques that enable an adversary to access and control remote systems on a network and could, but does not necessarily, include execution of tools on remote systems. The lateral movement techniques could allow an adversary to gather information from a system without needing additional tools, such as a remote access tool.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/Lateral_Movement",
+                    "external_id": "TA0033"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_shortname": "lateral-movement"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--9eb4c21e-4fa8-44c9-b167-dbfc455f9210",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "modified": "2018-10-17T00:14:20.652Z",
+            "name": "Network Effects",
+            "description": "This category refers to network-based techniques that an adversary may be able to use to fulfill his or her objectives without access to the mobile device itself. These include techniques to intercept or manipulate network traffic to and from the mobile device.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/Network_Effects",
+                    "external_id": "TA0038"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_shortname": "network-effects"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--363bbeff-bb2a-4734-ac74-d6d37202fe54",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "modified": "2018-10-17T00:14:20.652Z",
+            "name": "Persistence",
+            "description": "Persistence is any access, action, or configuration change to a mobile device that gives an attacker a persistent presence on the device. Attackers often will need to maintain access to mobile devices through interruptions such as device reboots and potentially even factory data resets.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/Persistence",
+                    "external_id": "TA0028"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_shortname": "persistence"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--3e962de5-3280-43b7-bc10-334fbc1d6fa8",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "modified": "2018-10-17T00:14:20.652Z",
+            "name": "Privilege Escalation",
+            "description": "Privilege escalation includes techniques that allow an attacker to obtain a higher level of permissions on the mobile device. Attackers may enter the mobile device with very limited privileges and may be required to take advantage of a device weakness to obtain higher privileges necessary to successfully carry out their mission objectives.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/Privilege_Escalation",
+                    "external_id": "TA0029"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_shortname": "privilege-escalation"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--e78d7d60-41b5-49b7-b0a9-5c5d4cbabe17",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "modified": "2018-10-17T00:14:20.652Z",
+            "name": "Remote Service Effects",
+            "description": "This category refers to techniques involving remote services, such as vendor-provided cloud services (e.g. Google Drive, Google Find My Device, or Apple iCloud), or enterprise mobility management (EMM)/mobile device management (MDM) services that an adversary may be able to use to fulfill his or her objectives without access to the mobile device itself.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/Remote_Service_Effects",
+                    "external_id": "TA0039"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_shortname": "remote-service-effects"
+        },
+        {
             "type": "marking-definition",
             "id": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
