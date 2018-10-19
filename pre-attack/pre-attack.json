@@ -3086,7 +3086,7 @@
             "id": "attack-pattern--2f442206-2983-4fc2-93fd-0a828e026412",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Disseminate removable media",
-            "description": "This technique has been deprecated. Please see ATT&CK's Initial Access and Execution tactics for replacement techniques.\n\nRemovable media containing malware can be injected in to a supply chain at large or small scale. It can also be physically placed for someone to find or can be sent to someone in a more targeted manner. The intent is to have the user utilize the removable media on a system where the adversary is trying to gain access. (Citation: USBMalwareAttacks) (Citation: FPDefendNewDomain) (Citation: ParkingLotUSB)",
+            "description": "Removable media containing malware can be injected in to a supply chain at large or small scale. It can also be physically placed for someone to find or can be sent to someone in a more targeted manner. The intent is to have the user utilize the removable media on a system where the adversary is trying to gain access. (Citation: USBMalwareAttacks) (Citation: FPDefendNewDomain) (Citation: ParkingLotUSB)",
             "external_references": [
                 {
                     "external_id": "T1379",
@@ -3110,7 +3110,6 @@
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "x_mitre_detectable_by_common_defenses": "No",
-            "x_mitre_deprecated": true,
             "x_mitre_detectable_by_common_defenses_explanation": "From a technical perspective, detection of an adversary disseminating removable media is not possible as there is no technical element involved until the compromise phase.  Most facilities generally do not perform extensive physical security patrols, which would be necessary in order to promptly identify an adversary deploying removable media to be used in an attack.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Commonly executed technique by penetration testers to gain access to networks via end users who are innately trusting of newly found or available technology.",
@@ -5980,7 +5979,7 @@
             "id": "attack-pattern--b182f29c-2505-4b32-a000-0440ef189f59",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "name": "Spearphishing for Information",
-            "description": "This technique has been deprecated. Please see ATT&CK's Initial Access and Execution tactics for replacement techniques.\n\nSpearphishing for information is a specific variant of spearphishing. Spearphishing for information is different from other forms of spearphishing in that it it doesn't leverage malicious code. All forms of spearphishing are elctronically delivered social engineering targeted at a specific individual, company, or industry. Spearphishing for information is an attempt to trick targets into divulging information, frequently credentials, without involving malicious code. Spearphishing for information frequently involves masquerading as a source with a reason to collect information (such as a system administrator or a bank) and providing a user with a website link to visit. The given website often closely resembles a legitimate site in appearance and has a URL containing elements from the real site. From the fake website, information is gathered in web forms and sent to the attacker. Spearphishing for information may also try to obtain information directly through the exchange of emails, instant messengers or other electronic conversation means. (Citation: ATTACKREF GRIZZLY STEPPE JAR)",
+            "description": "Spearphishing for information is a specific variant of spearphishing. Spearphishing for information is different from other forms of spearphishing in that it it doesn't leverage malicious code. All forms of spearphishing are elctronically delivered social engineering targeted at a specific individual, company, or industry. Spearphishing for information is an attempt to trick targets into divulging information, frequently credentials, without involving malicious code. Spearphishing for information frequently involves masquerading as a source with a reason to collect information (such as a system administrator or a bank) and providing a user with a website link to visit. The given website often closely resembles a legitimate site in appearance and has a URL containing elements from the real site. From the fake website, information is gathered in web forms and sent to the attacker. Spearphishing for information may also try to obtain information directly through the exchange of emails, instant messengers or other electronic conversation means. (Citation: ATTACKREF GRIZZLY STEPPE JAR)",
             "external_references": [
                 {
                     "external_id": "T1397",
@@ -5995,7 +5994,6 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_deprecated": true,
             "x_mitre_detectable_by_common_defenses": "Partial",
             "x_mitre_detectable_by_common_defenses_explanation": "Depending on the specific method of phishing, the detections can vary. For emails, filtering based on DKIP+SPF or header analysis can help detect when the email sender is spoofed. When it comes to following links, network intrusion detection systems (NIDS), firewalls, removing links, exploding shortened links, proxy monitoring, blocking uncategorized sites, and site reputation based filtering can all provide detection opportunities.",
             "x_mitre_difficulty_for_adversary": "Yes",
